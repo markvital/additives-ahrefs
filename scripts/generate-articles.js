@@ -2,17 +2,11 @@
 
 const fs = require('fs/promises');
 const path = require('path');
-const readline = require('readline/promises');
 const dns = require('dns');
-const { execFile } = require('child_process');
-const { promisify } = require('util');
-const { stdin, stdout } = require('process');
 
 const OpenAI = require('openai');
 
 const { createAdditiveSlug } = require('./utils/slug');
-
-const execFileAsync = promisify(execFile);
 
 dns.setDefaultResultOrder('ipv4first');
 
@@ -25,7 +19,6 @@ const DATA_DIR = path.join(__dirname, '..', 'data');
 const ADDITIVES_INDEX_PATH = path.join(DATA_DIR, 'additives.json');
 const ENV_LOCAL_PATH = path.join(__dirname, '..', 'env.local');
 
-const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 async function fileExists(filePath) {
   try {
@@ -64,26 +57,6 @@ async function loadApiKey() {
   throw new Error('OPENAI_API_KEY not found in environment or env.local.');
 }
 
-async function promptForNumber(question, defaultValue, rl) {
-  if (!rl) {
-    console.log(`${question} ${defaultValue} (default)`);
-    return defaultValue;
-  }
-
-  const answer = (await rl.question(`${question} (default ${defaultValue}): `)).trim();
-  if (!answer) {
-    return defaultValue;
-  }
-
-  const parsed = Number.parseInt(answer, 10);
-  if (Number.isNaN(parsed) || parsed <= 0) {
-    console.log(`Invalid input. Using default ${defaultValue}.`);
-    return defaultValue;
-  }
-
-  return parsed;
-}
-
 async function readPromptTemplate() {
   return fs.readFile(PROMPT_PATH, 'utf8');
 }
@@ -113,75 +86,6 @@ async function readAdditiveProps(slug) {
     console.warn(`Failed to read props for ${slug}: ${error.message}`);
     return {};
   }
-}
-
-async function fetchPubChemUrl(wikidataId) {
-  if (!wikidataId || typeof wikidataId !== 'string') {
-    return null;
-  }
-
-  const trimmedId = wikidataId.trim();
-  if (!trimmedId) {
-    return null;
-  }
-
-  const endpoint = `https://www.wikidata.org/wiki/Special:EntityData/${encodeURIComponent(trimmedId)}.json`;
-
-  for (let attempt = 1; attempt <= 3; attempt += 1) {
-    try {
-      const { stdout } = await execFileAsync('curl', [
-        '-fsS',
-        '-H',
-        'User-Agent: additives-article-script/1.0',
-        endpoint,
-      ]);
-
-      const data = JSON.parse(stdout);
-      const entity = data?.entities?.[trimmedId];
-      const claims = entity?.claims?.P662;
-      if (!Array.isArray(claims) || claims.length === 0) {
-        return null;
-      }
-
-      const mainsnak = claims[0]?.mainsnak;
-      const value = mainsnak?.datavalue?.value;
-      if (typeof value === 'string' && value.trim()) {
-        return `https://pubchem.ncbi.nlm.nih.gov/compound/${value.trim()}`;
-      }
-
-      return null;
-    } catch (error) {
-      if (attempt === 3) {
-        console.warn(`Failed to fetch PubChem ID for ${wikidataId}: ${error.message}`);
-        return null;
-      }
-      await sleep(200 * attempt);
-    }
-  }
-
-  return null;
-}
-
-function buildFaqQuestions(eNumber, title) {
-  const name = title && title.trim() ? title.trim() : 'this additive';
-  const code = eNumber && eNumber.trim() ? eNumber.trim() : 'this additive';
-  return [
-    `What is ${code} — ${name} used for in foods?`,
-    `Is ${code} safe to eat regularly?`,
-    `Which grocery products usually include ${name}?`,
-    `Does ${name} cause any side effects or allergies?`,
-    `What are simple alternatives to ${name} for home cooking?`,
-  ];
-}
-
-function buildFdcLink(eNumber, title) {
-  const baseLabelName = title && title.trim() ? title.trim() : eNumber;
-  const label = baseLabelName ? `${baseLabelName} on FoodData Central` : 'FoodData Central listing';
-  const query = baseLabelName ? baseLabelName : eNumber;
-  const url = query
-    ? `https://fdc.nal.usda.gov/fdc-app.html#/food-search?query=${encodeURIComponent(query)}`
-    : 'https://fdc.nal.usda.gov/fdc-app.html#/';
-  return { label, url };
 }
 
 function normaliseSynonyms(synonyms) {
@@ -285,21 +189,12 @@ async function processAdditive({
 
   const synonyms = normaliseSynonyms(props.synonyms);
   const functions = normaliseFunctions(props.functions);
-  const pubchemUrl = await fetchPubChemUrl(props.wikidata);
-  const faqQuestions = buildFaqQuestions(additive.eNumber, additive.title);
-  const fdcLink = buildFdcLink(additive.eNumber, additive.title);
   const metadataPayload = {
     title: additive.title,
     eNumber: additive.eNumber,
     synonyms,
     functions,
     wikipedia: typeof props.wikipedia === 'string' ? props.wikipedia : '',
-    wikidata: typeof props.wikidata === 'string' ? props.wikidata : '',
-    searchVolume: typeof props.searchVolume === 'number' ? props.searchVolume : null,
-    searchRank: typeof props.searchRank === 'number' ? props.searchRank : null,
-    pubchemUrl: pubchemUrl || 'URL to be added by editor',
-    fdc: fdcLink,
-    faqQuestions,
   };
 
   const articleMarkdown = await callOpenAi(apiClient, promptTemplate, metadataPayload);
