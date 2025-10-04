@@ -1,5 +1,33 @@
 #!/usr/bin/env node
 
+/**
+ * Article generator script
+ *
+ * Behaviour
+ * - Loads unpublished additives (no `data/<slug>/article.md`) and creates Markdown articles in batches
+ *   using the OpenAI Responses API (model `gpt-5`, 6000 max output tokens).
+ * - Already generated articles are skipped automatically in default mode.
+ * - The generated markdown is written to `data/<slug>/article.md`; `props.json` remains untouched.
+ *
+ * Defaults & overrides
+ * - Default limit: 10 new articles per run.
+ * - Default parallelism: 10 concurrent workers.
+ * - Environment overrides: `GENERATOR_LIMIT`, `GENERATOR_BATCH` (must be positive integers).
+ * - CLI overrides:
+ *     --limit, -n, --limit=<value>          → set number of articles to create (ignored with --additive).
+ *     --parallel, --batch, -p, --parallel=<value>
+                                          → set parallel worker count.
+ *     --additive/-additive/-a <slug...> or --additive=<slug[,slug...]>
+                                          → regenerate specific additive slugs (bypasses skip logic).
+ *   Positional arguments without flags are treated as additive slugs as well.
+ *
+ * Examples
+ *   node scripts/generate-articles.js                 # default behaviour, skip existing
+ *   node scripts/generate-articles.js --limit 5 -p 2  # headless batch with overrides
+ *   node scripts/generate-articles.js -additive e1503-castor-oil e1510-ethanol
+ *                                                   # targeted regeneration for listed slugs
+ */
+
 const fs = require('fs/promises');
 const path = require('path');
 const dns = require('dns');
@@ -72,6 +100,126 @@ async function readAdditivesIndex() {
     eNumber: typeof entry.eNumber === 'string' ? entry.eNumber : '',
     slug: createAdditiveSlug({ eNumber: entry.eNumber, title: entry.title }),
   }));
+}
+
+function parsePositiveInteger(value, label) {
+  const parsed = Number.parseInt(value, 10);
+  if (Number.isNaN(parsed) || parsed <= 0) {
+    throw new Error(`Invalid value for ${label}: ${value}`);
+  }
+  return parsed;
+}
+
+function normaliseAdditiveSlug(value) {
+  if (typeof value !== 'string') {
+    return '';
+  }
+  return value.trim().toLowerCase();
+}
+
+function parseCommandLineArgs(argv) {
+  const result = {
+    limit: null,
+    batchSize: null,
+    additives: [],
+  };
+
+  const args = Array.isArray(argv) ? argv.slice(2) : [];
+  let index = 0;
+
+  while (index < args.length) {
+    const arg = args[index];
+
+    if (arg === '--limit' || arg === '-n' || arg === '-limit') {
+      if (index + 1 >= args.length) {
+        throw new Error('Missing value for --limit.');
+      }
+      result.limit = parsePositiveInteger(args[index + 1], '--limit');
+      index += 2;
+      continue;
+    }
+
+    if (arg.startsWith('--limit=')) {
+      const value = arg.split('=')[1];
+      result.limit = parsePositiveInteger(value, '--limit');
+      index += 1;
+      continue;
+    }
+
+    if (arg === '--parallel' || arg === '--batch' || arg === '-p') {
+      if (index + 1 >= args.length) {
+        throw new Error('Missing value for --parallel.');
+      }
+      result.batchSize = parsePositiveInteger(args[index + 1], '--parallel');
+      index += 2;
+      continue;
+    }
+
+    if (arg.startsWith('--parallel=') || arg.startsWith('--batch=')) {
+      const value = arg.substring(arg.indexOf('=') + 1);
+      result.batchSize = parsePositiveInteger(value, '--parallel');
+      index += 1;
+      continue;
+    }
+
+    if (
+      arg === '--additive'
+      || arg === '-additive'
+      || arg === '-a'
+    ) {
+      const values = [];
+      let next = index + 1;
+      while (next < args.length && !args[next].startsWith('-')) {
+        values.push(args[next]);
+        next += 1;
+      }
+      if (values.length === 0) {
+        throw new Error('No additive slugs supplied after --additive.');
+      }
+      result.additives.push(...values);
+      index = next;
+      continue;
+    }
+
+    if (arg.startsWith('--additive=') || arg.startsWith('-additive=')) {
+      const value = arg.substring(arg.indexOf('=') + 1);
+      if (!value) {
+        throw new Error('No additive slug supplied after --additive=.');
+      }
+      const parts = value.split(',').map((entry) => entry.trim()).filter(Boolean);
+      if (parts.length === 0) {
+        throw new Error('No additive slug supplied after --additive=.');
+      }
+      result.additives.push(...parts);
+      index += 1;
+      continue;
+    }
+
+    if (arg.startsWith('-')) {
+      console.warn(`Ignoring unknown argument: ${arg}`);
+      index += 1;
+      continue;
+    }
+
+    // Positional arguments without flags are treated as additive slugs for convenience.
+    result.additives.push(arg);
+    index += 1;
+  }
+
+  if (result.additives.length) {
+    const seen = new Set();
+    result.additives = result.additives
+      .map(normaliseAdditiveSlug)
+      .filter((slug) => {
+        if (!slug || seen.has(slug)) {
+          return false;
+        }
+        seen.add(slug);
+        return true;
+      });
+  }
+
+  return result;
 }
 
 async function readAdditiveProps(slug) {
@@ -212,12 +360,16 @@ async function run() {
     const apiClient = new OpenAI({ apiKey });
     const promptTemplate = await readPromptTemplate();
     const additives = await readAdditivesIndex();
+    const cliArgs = parseCommandLineArgs(process.argv);
 
     const envLimitRaw = process.env.GENERATOR_LIMIT;
     const envBatchRaw = process.env.GENERATOR_BATCH;
 
     let limit = DEFAULT_LIMIT;
-    if (envLimitRaw) {
+    if (cliArgs.limit !== null) {
+      limit = cliArgs.limit;
+      console.log(`Using CLI limit=${limit}`);
+    } else if (envLimitRaw) {
       const parsed = Number.parseInt(envLimitRaw, 10);
       if (!Number.isNaN(parsed) && parsed > 0) {
         limit = parsed;
@@ -228,7 +380,10 @@ async function run() {
     }
 
     let batchSize = DEFAULT_BATCH_SIZE;
-    if (envBatchRaw) {
+    if (cliArgs.batchSize !== null) {
+      batchSize = cliArgs.batchSize;
+      console.log(`Using CLI parallel=${batchSize}`);
+    } else if (envBatchRaw) {
       const parsed = Number.parseInt(envBatchRaw, 10);
       if (!Number.isNaN(parsed) && parsed > 0) {
         batchSize = parsed;
@@ -238,7 +393,45 @@ async function run() {
       }
     }
 
-      const candidates = [];
+    const candidates = [];
+
+    if (cliArgs.additives.length > 0) {
+      if (cliArgs.limit !== null) {
+        console.warn('Ignoring --limit because specific additives were provided via --additive.');
+      }
+
+      const additiveMap = new Map(additives.map((entry) => [entry.slug, entry]));
+      const missingSlugs = [];
+
+      for (const slug of cliArgs.additives) {
+        const additive = additiveMap.get(slug);
+        if (!additive) {
+          missingSlugs.push(slug);
+          continue;
+        }
+
+        const articlePath = path.join(DATA_DIR, additive.slug, 'article.md');
+        const additiveLabel = [additive.eNumber, additive.title].filter(Boolean).join(' - ') || additive.slug;
+        if (await fileExists(articlePath)) {
+          console.log(`Will regenerate existing article: ${additiveLabel}`);
+        } else {
+          console.log(`Will create new article: ${additiveLabel}`);
+        }
+
+        candidates.push(additive);
+      }
+
+      if (missingSlugs.length) {
+        missingSlugs.forEach((slug) => {
+          console.warn(`No additive found for slug: ${slug}`);
+        });
+      }
+
+      if (candidates.length === 0) {
+        console.log('No additives matched the provided slugs. Exiting.');
+        return;
+      }
+    } else {
       for (const additive of additives) {
         const articlePath = path.join(DATA_DIR, additive.slug, 'article.md');
         if (await fileExists(articlePath)) {
@@ -256,51 +449,52 @@ async function run() {
         console.log('No additives require new articles. Exiting.');
         return;
       }
+    }
 
-      console.log(
-        `Preparing to generate ${candidates.length} article(s) with batch size ${Math.min(batchSize, candidates.length)}...`,
-      );
+    console.log(
+      `Preparing to generate ${candidates.length} article(s) with batch size ${Math.min(batchSize, candidates.length)}...`,
+    );
 
-      let currentIndex = 0;
-      const total = candidates.length;
-      const errors = [];
+    let currentIndex = 0;
+    const total = candidates.length;
+    const errors = [];
 
-      const workers = Array.from({ length: Math.min(batchSize, candidates.length) }, async () => {
-        while (currentIndex < candidates.length) {
-          const localIndex = currentIndex;
-          currentIndex += 1;
-          const additive = candidates[localIndex];
-          const props = await readAdditiveProps(additive.slug);
+    const workers = Array.from({ length: Math.min(batchSize, candidates.length) }, async () => {
+      while (currentIndex < candidates.length) {
+        const localIndex = currentIndex;
+        currentIndex += 1;
+        const additive = candidates[localIndex];
+        const props = await readAdditiveProps(additive.slug);
 
-          try {
-            await processAdditive({
-              additive,
-              props,
-              promptTemplate,
-              apiClient,
-              index: localIndex,
-              total,
-            });
-          } catch (error) {
-            console.error(
-              `[${localIndex + 1}/${total}] Failed to generate article for ${additive.slug}: ${error.message}`,
-            );
-            errors.push({ slug: additive.slug, error });
-          }
+        try {
+          await processAdditive({
+            additive,
+            props,
+            promptTemplate,
+            apiClient,
+            index: localIndex,
+            total,
+          });
+        } catch (error) {
+          console.error(
+            `[${localIndex + 1}/${total}] Failed to generate article for ${additive.slug}: ${error.message}`,
+          );
+          errors.push({ slug: additive.slug, error });
         }
-      });
-
-      await Promise.all(workers);
-
-      if (errors.length) {
-        console.log('Completed with errors for the following additives:');
-        errors.forEach((entry) => {
-          console.log(` - ${entry.slug}: ${entry.error.message}`);
-        });
-        process.exitCode = 1;
-      } else {
-        console.log('All requested articles generated successfully.');
       }
+    });
+
+    await Promise.all(workers);
+
+    if (errors.length) {
+      console.log('Completed with errors for the following additives:');
+      errors.forEach((entry) => {
+        console.log(` - ${entry.slug}: ${entry.error.message}`);
+      });
+      process.exitCode = 1;
+    } else {
+      console.log('All requested articles generated successfully.');
+    }
   } catch (error) {
     console.error(error.message);
     process.exit(1);
