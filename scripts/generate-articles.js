@@ -19,6 +19,7 @@ dns.setDefaultResultOrder('ipv4first');
 const DEFAULT_LIMIT = 10;
 const DEFAULT_BATCH_SIZE = 10;
 const OPENAI_MODEL = 'gpt-5';
+const OPENAI_MAX_OUTPUT_TOKENS = 6000;
 const PROMPT_PATH = path.join(__dirname, 'prompts', 'additive-article.txt');
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const ADDITIVES_INDEX_PATH = path.join(DATA_DIR, 'additives.json');
@@ -112,50 +113,6 @@ async function readAdditiveProps(slug) {
     console.warn(`Failed to read props for ${slug}: ${error.message}`);
     return {};
   }
-}
-
-async function writeAdditiveProps(slug, props) {
-  const targetDir = path.join(DATA_DIR, slug);
-  await fs.mkdir(targetDir, { recursive: true });
-  const propsPath = path.join(targetDir, 'props.json');
-  const next = { ...props };
-  await fs.writeFile(propsPath, `${JSON.stringify(next, null, 2)}\n`, 'utf8');
-}
-
-function ensureProps(props, additive) {
-  const result = props && typeof props === 'object' ? { ...props } : {};
-  if (typeof result.title !== 'string' || !result.title) {
-    result.title = additive.title || '';
-  }
-  if (typeof result.eNumber !== 'string' || !result.eNumber) {
-    result.eNumber = additive.eNumber || '';
-  }
-  if (!Array.isArray(result.synonyms)) {
-    result.synonyms = [];
-  }
-  if (!Array.isArray(result.functions)) {
-    result.functions = [];
-  }
-  if (typeof result.description !== 'string') {
-    result.description = '';
-  }
-  if (typeof result.wikipedia !== 'string') {
-    result.wikipedia = '';
-  }
-  if (typeof result.wikidata !== 'string') {
-    result.wikidata = '';
-  }
-  if (typeof result.searchVolume !== 'number') {
-    result.searchVolume = null;
-  }
-  if (typeof result.searchRank !== 'number') {
-    result.searchRank = null;
-  }
-  if (!Array.isArray(result.searchSparkline)) {
-    result.searchSparkline = [];
-  }
-
-  return result;
 }
 
 async function fetchPubChemUrl(wikidataId) {
@@ -253,24 +210,22 @@ async function callOpenAi(client, systemPrompt, payload) {
   try {
     const response = await client.responses.create({
       model: OPENAI_MODEL,
-      reasoning: { effort: 'high' },
-      temperature: 0.4,
-      max_output_tokens: 1800,
+      max_output_tokens: OPENAI_MAX_OUTPUT_TOKENS,
       input: [
         {
           role: 'system',
-          content: [{ type: 'text', text: systemPrompt }],
+          content: [{ type: 'input_text', text: systemPrompt }],
         },
         {
           role: 'user',
           content: [
             {
-              type: 'text',
+              type: 'input_text',
               text: [
-                `Create a Markdown article and short textual summary about ${additiveLabel}.`,
+                `Create a publish-ready Markdown article about ${additiveLabel}.`,
                 'Respect all layout, linking, and validation requirements in the system prompt.',
                 'Use the PubChem URL exactly as provided. Do not fabricate URLs.',
-                'Return a JSON object with keys `article_markdown` and `article_summary`. No additional text.',
+                'Return only the Markdown article content. Do not include summaries or additional formats.',
                 '',
                 `Additive metadata:\n${JSON.stringify(payload, null, 2)}`,
               ].join('\n'),
@@ -278,43 +233,30 @@ async function callOpenAi(client, systemPrompt, payload) {
           ],
         },
       ],
-      response_format: {
-        type: 'json_schema',
-        json_schema: {
-          name: 'additive_article',
-          schema: {
-            type: 'object',
-            additionalProperties: false,
-            required: ['article_markdown', 'article_summary'],
-            properties: {
-              article_markdown: { type: 'string' },
-              article_summary: { type: 'string' },
-            },
-          },
-        },
-      },
     });
 
-    let parsed = response.output_parsed;
+    let articleMarkdown = '';
+    if (typeof response.output_text === 'string' && response.output_text.trim()) {
+      articleMarkdown = response.output_text.trim();
+    }
 
-    if (!parsed && response.output_text) {
-      try {
-        parsed = JSON.parse(response.output_text);
-      } catch (parseError) {
-        throw new Error(`Unable to parse OpenAI response JSON: ${parseError.message}`);
+    if (!articleMarkdown && Array.isArray(response.output)) {
+      for (const item of response.output) {
+        if (item?.type === 'message' && Array.isArray(item.content)) {
+          const textPart = item.content.find((contentItem) => contentItem?.type === 'output_text');
+          if (textPart && typeof textPart.text === 'string' && textPart.text.trim()) {
+            articleMarkdown = textPart.text.trim();
+            break;
+          }
+        }
       }
     }
 
-    if (!parsed || typeof parsed !== 'object') {
-      throw new Error('OpenAI API returned an empty response.');
+    if (!articleMarkdown) {
+      throw new Error('OpenAI API returned an empty article.');
     }
 
-    const { article_markdown: articleMarkdown, article_summary: articleSummary } = parsed;
-    if (typeof articleMarkdown !== 'string' || typeof articleSummary !== 'string') {
-      throw new Error('OpenAI response JSON must include string keys `article_markdown` and `article_summary`.');
-    }
-
-    return { articleMarkdown, articleSummary };
+    return articleMarkdown;
   } catch (error) {
     if (error instanceof OpenAI.APIError) {
       const details = error.error?.message || error.message;
@@ -360,18 +302,12 @@ async function processAdditive({
     faqQuestions,
   };
 
-  const { articleMarkdown, articleSummary } = await callOpenAi(apiClient, promptTemplate, metadataPayload);
+  const articleMarkdown = await callOpenAi(apiClient, promptTemplate, metadataPayload);
 
   await fs.mkdir(path.join(DATA_DIR, additive.slug), { recursive: true });
   await fs.writeFile(articlePath, `${articleMarkdown.trim()}\n`, 'utf8');
 
-  const updatedProps = ensureProps(props, additive);
-  updatedProps.description = articleSummary.trim();
-  await writeAdditiveProps(additive.slug, updatedProps);
-
-  console.log(
-    `[${index + 1}/${total}] Saved article to ${path.join(relativeSlugDir, 'article.md')} and updated props description.`,
-  );
+  console.log(`[${index + 1}/${total}] Saved article to ${path.join(relativeSlugDir, 'article.md')}.`);
 }
 
 async function run() {
@@ -386,8 +322,36 @@ async function run() {
       : null;
 
     try {
-      const limit = await promptForNumber('How many new articles should be generated?', DEFAULT_LIMIT, rl);
-      const batchSize = await promptForNumber('How many articles should be generated in parallel?', DEFAULT_BATCH_SIZE, rl);
+      const envLimitRaw = process.env.GENERATOR_LIMIT;
+      const envBatchRaw = process.env.GENERATOR_BATCH;
+
+      let limit;
+      if (envLimitRaw) {
+        const parsed = Number.parseInt(envLimitRaw, 10);
+        if (!Number.isNaN(parsed) && parsed > 0) {
+          limit = parsed;
+          console.log(`Using GENERATOR_LIMIT=${parsed}`);
+        } else {
+          console.warn(`Ignoring invalid GENERATOR_LIMIT value: ${envLimitRaw}`);
+        }
+      }
+      if (!limit) {
+        limit = await promptForNumber('How many new articles should be generated?', DEFAULT_LIMIT, rl);
+      }
+
+      let batchSize;
+      if (envBatchRaw) {
+        const parsed = Number.parseInt(envBatchRaw, 10);
+        if (!Number.isNaN(parsed) && parsed > 0) {
+          batchSize = parsed;
+          console.log(`Using GENERATOR_BATCH=${parsed}`);
+        } else {
+          console.warn(`Ignoring invalid GENERATOR_BATCH value: ${envBatchRaw}`);
+        }
+      }
+      if (!batchSize) {
+        batchSize = await promptForNumber('How many articles should be generated in parallel?', DEFAULT_BATCH_SIZE, rl);
+      }
 
       if (rl) {
         rl.close();
