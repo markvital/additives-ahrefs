@@ -20,6 +20,36 @@ const formatAdditiveDisplayName = (eNumber: string, title: string): string => {
   return parts.join(' - ') || 'Additive';
 };
 
+const SUMMARY_MARKER_REGEX = /<!--\s*more\s*-->/i;
+
+const extractArticleSummary = (article: string | null | undefined): string | null => {
+  if (!article) {
+    return null;
+  }
+
+  const match = SUMMARY_MARKER_REGEX.exec(article);
+
+  if (!match) {
+    return null;
+  }
+
+  return article.slice(0, match.index).trim() || null;
+};
+
+const extractArticleBody = (article: string | null | undefined): string => {
+  if (!article) {
+    return '';
+  }
+
+  const match = SUMMARY_MARKER_REGEX.exec(article);
+
+  if (!match) {
+    return article;
+  }
+
+  return article.slice(match.index + match[0].length).trimStart();
+};
+
 export async function generateStaticParams() {
   return getAdditiveSlugs().map((slug) => ({ slug }));
 }
@@ -35,10 +65,12 @@ export async function generateMetadata({ params }: AdditivePageProps): Promise<M
   }
 
   const displayName = formatAdditiveDisplayName(additive.eNumber, additive.title);
+  const articleSummary = extractArticleSummary(additive.article);
+  const metaDescription = articleSummary?.replace(/\s+/g, ' ').trim() || additive.description;
 
   return {
     title: displayName,
-    description: additive.description,
+    description: metaDescription,
     alternates: {
       canonical: `/${additive.slug}`,
     },
@@ -67,6 +99,8 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
   const searchFlagEmoji = searchCountryCode ? getCountryFlagEmoji(searchCountryCode) : null;
   const searchCountryLabel =
     searchCountryCode && searchFlagEmoji ? getCountryLabel(searchCountryCode) ?? searchCountryCode.toUpperCase() : null;
+  const articleSummary = extractArticleSummary(additive.article);
+  const articleBody = extractArticleBody(additive.article);
 
   return (
     <Box component="article" display="flex" flexDirection="column" gap={4} alignItems="center" width="100%">
@@ -144,9 +178,9 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
           </Stack>
         )}
 
-        {additive.description && (
+        {articleSummary && (
           <Typography variant="body1" color="text.primary" whiteSpace="pre-line">
-            {additive.description}
+            {articleSummary}
           </Typography>
         )}
       </Box>
@@ -172,7 +206,7 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
       )}
 
       <Box sx={{ width: '100%', maxWidth: 760, display: 'flex', flexDirection: 'column', gap: 3 }}>
-        {additive.article && <MarkdownArticle content={additive.article} />}
+        {articleBody && <MarkdownArticle content={articleBody} />}
 
         {additive.wikipedia && (
           <Typography variant="body1">
