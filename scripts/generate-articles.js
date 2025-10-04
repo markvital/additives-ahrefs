@@ -185,7 +185,8 @@ async function processAdditive({
 }) {
   const relativeSlugDir = path.join('data', additive.slug);
   const articlePath = path.join(DATA_DIR, additive.slug, 'article.md');
-  console.log(`[${index + 1}/${total}] Generating article for ${additive.eNumber || additive.title || additive.slug}...`);
+  const additiveLabel = [additive.eNumber, additive.title].filter(Boolean).join(' - ') || additive.slug;
+  console.log(`[${index + 1}/${total}] Generating article for ${additiveLabel}...`);
 
   const synonyms = normaliseSynonyms(props.synonyms);
   const functions = normaliseFunctions(props.functions);
@@ -212,50 +213,37 @@ async function run() {
     const promptTemplate = await readPromptTemplate();
     const additives = await readAdditivesIndex();
 
-    const rl = stdin.isTTY && stdout.isTTY
-      ? readline.createInterface({ input: stdin, output: stdout })
-      : null;
+    const envLimitRaw = process.env.GENERATOR_LIMIT;
+    const envBatchRaw = process.env.GENERATOR_BATCH;
 
-    try {
-      const envLimitRaw = process.env.GENERATOR_LIMIT;
-      const envBatchRaw = process.env.GENERATOR_BATCH;
+    let limit = DEFAULT_LIMIT;
+    if (envLimitRaw) {
+      const parsed = Number.parseInt(envLimitRaw, 10);
+      if (!Number.isNaN(parsed) && parsed > 0) {
+        limit = parsed;
+        console.log(`Using GENERATOR_LIMIT=${parsed}`);
+      } else {
+        console.warn(`Ignoring invalid GENERATOR_LIMIT value: ${envLimitRaw}`);
+      }
+    }
 
-      let limit;
-      if (envLimitRaw) {
-        const parsed = Number.parseInt(envLimitRaw, 10);
-        if (!Number.isNaN(parsed) && parsed > 0) {
-          limit = parsed;
-          console.log(`Using GENERATOR_LIMIT=${parsed}`);
-        } else {
-          console.warn(`Ignoring invalid GENERATOR_LIMIT value: ${envLimitRaw}`);
-        }
+    let batchSize = DEFAULT_BATCH_SIZE;
+    if (envBatchRaw) {
+      const parsed = Number.parseInt(envBatchRaw, 10);
+      if (!Number.isNaN(parsed) && parsed > 0) {
+        batchSize = parsed;
+        console.log(`Using GENERATOR_BATCH=${parsed}`);
+      } else {
+        console.warn(`Ignoring invalid GENERATOR_BATCH value: ${envBatchRaw}`);
       }
-      if (!limit) {
-        limit = await promptForNumber('How many new articles should be generated?', DEFAULT_LIMIT, rl);
-      }
-
-      let batchSize;
-      if (envBatchRaw) {
-        const parsed = Number.parseInt(envBatchRaw, 10);
-        if (!Number.isNaN(parsed) && parsed > 0) {
-          batchSize = parsed;
-          console.log(`Using GENERATOR_BATCH=${parsed}`);
-        } else {
-          console.warn(`Ignoring invalid GENERATOR_BATCH value: ${envBatchRaw}`);
-        }
-      }
-      if (!batchSize) {
-        batchSize = await promptForNumber('How many articles should be generated in parallel?', DEFAULT_BATCH_SIZE, rl);
-      }
-
-      if (rl) {
-        rl.close();
-      }
+    }
 
       const candidates = [];
       for (const additive of additives) {
         const articlePath = path.join(DATA_DIR, additive.slug, 'article.md');
         if (await fileExists(articlePath)) {
+          const additiveLabel = [additive.eNumber, additive.title].filter(Boolean).join(' - ') || additive.slug;
+          console.log(`Skipping existing article: ${additiveLabel}`);
           continue;
         }
         candidates.push(additive);
@@ -313,11 +301,6 @@ async function run() {
       } else {
         console.log('All requested articles generated successfully.');
       }
-    } finally {
-      if (rl && !rl.closed) {
-        rl.close();
-      }
-    }
   } catch (error) {
     console.error(error.message);
     process.exit(1);
