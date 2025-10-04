@@ -1,29 +1,52 @@
 #!/usr/bin/env node
 
+/**
+ * Article generator script
+ *
+ * Behaviour
+ * - Loads unpublished additives (no `data/<slug>/article.md`) and creates Markdown articles in batches
+ *   using the OpenAI Responses API (model `gpt-5`, 6000 max output tokens).
+ * - Already generated articles are skipped automatically in default mode.
+ * - The generated markdown is written to `data/<slug>/article.md`; `props.json` remains untouched.
+ *
+ * Defaults & overrides
+ * - Default limit: 10 new articles per run.
+ * - Default parallelism: 10 concurrent workers.
+ * - Environment overrides: `GENERATOR_LIMIT`, `GENERATOR_BATCH` (must be positive integers).
+ * - CLI overrides:
+ *     --limit, -n, --limit=<value>          → set number of articles to create (ignored with --additive).
+ *     --parallel, --batch, -p, --parallel=<value>
+                                          → set parallel worker count.
+ *     --additive/-additive/-a <slug...> or --additive=<slug[,slug...]>
+                                          → regenerate specific additive slugs (bypasses skip logic).
+ *   Positional arguments without flags are treated as additive slugs as well.
+ *
+ * Examples
+ *   node scripts/generate-articles.js                 # default behaviour, skip existing
+ *   node scripts/generate-articles.js --limit 5 -p 2  # headless batch with overrides
+ *   node scripts/generate-articles.js -additive e1503-castor-oil e1510-ethanol
+ *                                                   # targeted regeneration for listed slugs
+ */
+
 const fs = require('fs/promises');
 const path = require('path');
-const readline = require('readline/promises');
 const dns = require('dns');
-const { execFile } = require('child_process');
-const { promisify } = require('util');
-const { stdin, stdout } = require('process');
+
+const OpenAI = require('openai');
 
 const { createAdditiveSlug } = require('./utils/slug');
 
-const execFileAsync = promisify(execFile);
-
 dns.setDefaultResultOrder('ipv4first');
 
-const DEFAULT_LIMIT = 20;
+const DEFAULT_LIMIT = 10;
 const DEFAULT_BATCH_SIZE = 10;
-const OPENAI_MODEL = 'gpt-5.0';
-const OPENAI_API_URL = 'https://api.openai.com/v1/chat/completions';
+const OPENAI_MODEL = 'gpt-5';
+const OPENAI_MAX_OUTPUT_TOKENS = 6000;
 const PROMPT_PATH = path.join(__dirname, 'prompts', 'additive-article.txt');
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const ADDITIVES_INDEX_PATH = path.join(DATA_DIR, 'additives.json');
 const ENV_LOCAL_PATH = path.join(__dirname, '..', 'env.local');
 
-const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 async function fileExists(filePath) {
   try {
@@ -62,26 +85,6 @@ async function loadApiKey() {
   throw new Error('OPENAI_API_KEY not found in environment or env.local.');
 }
 
-async function promptForNumber(question, defaultValue, rl) {
-  if (!rl) {
-    console.log(`${question} ${defaultValue} (default)`);
-    return defaultValue;
-  }
-
-  const answer = (await rl.question(`${question} (default ${defaultValue}): `)).trim();
-  if (!answer) {
-    return defaultValue;
-  }
-
-  const parsed = Number.parseInt(answer, 10);
-  if (Number.isNaN(parsed) || parsed <= 0) {
-    console.log(`Invalid input. Using default ${defaultValue}.`);
-    return defaultValue;
-  }
-
-  return parsed;
-}
-
 async function readPromptTemplate() {
   return fs.readFile(PROMPT_PATH, 'utf8');
 }
@@ -99,6 +102,126 @@ async function readAdditivesIndex() {
   }));
 }
 
+function parsePositiveInteger(value, label) {
+  const parsed = Number.parseInt(value, 10);
+  if (Number.isNaN(parsed) || parsed <= 0) {
+    throw new Error(`Invalid value for ${label}: ${value}`);
+  }
+  return parsed;
+}
+
+function normaliseAdditiveSlug(value) {
+  if (typeof value !== 'string') {
+    return '';
+  }
+  return value.trim().toLowerCase();
+}
+
+function parseCommandLineArgs(argv) {
+  const result = {
+    limit: null,
+    batchSize: null,
+    additives: [],
+  };
+
+  const args = Array.isArray(argv) ? argv.slice(2) : [];
+  let index = 0;
+
+  while (index < args.length) {
+    const arg = args[index];
+
+    if (arg === '--limit' || arg === '-n' || arg === '-limit') {
+      if (index + 1 >= args.length) {
+        throw new Error('Missing value for --limit.');
+      }
+      result.limit = parsePositiveInteger(args[index + 1], '--limit');
+      index += 2;
+      continue;
+    }
+
+    if (arg.startsWith('--limit=')) {
+      const value = arg.split('=')[1];
+      result.limit = parsePositiveInteger(value, '--limit');
+      index += 1;
+      continue;
+    }
+
+    if (arg === '--parallel' || arg === '--batch' || arg === '-p') {
+      if (index + 1 >= args.length) {
+        throw new Error('Missing value for --parallel.');
+      }
+      result.batchSize = parsePositiveInteger(args[index + 1], '--parallel');
+      index += 2;
+      continue;
+    }
+
+    if (arg.startsWith('--parallel=') || arg.startsWith('--batch=')) {
+      const value = arg.substring(arg.indexOf('=') + 1);
+      result.batchSize = parsePositiveInteger(value, '--parallel');
+      index += 1;
+      continue;
+    }
+
+    if (
+      arg === '--additive'
+      || arg === '-additive'
+      || arg === '-a'
+    ) {
+      const values = [];
+      let next = index + 1;
+      while (next < args.length && !args[next].startsWith('-')) {
+        values.push(args[next]);
+        next += 1;
+      }
+      if (values.length === 0) {
+        throw new Error('No additive slugs supplied after --additive.');
+      }
+      result.additives.push(...values);
+      index = next;
+      continue;
+    }
+
+    if (arg.startsWith('--additive=') || arg.startsWith('-additive=')) {
+      const value = arg.substring(arg.indexOf('=') + 1);
+      if (!value) {
+        throw new Error('No additive slug supplied after --additive=.');
+      }
+      const parts = value.split(',').map((entry) => entry.trim()).filter(Boolean);
+      if (parts.length === 0) {
+        throw new Error('No additive slug supplied after --additive=.');
+      }
+      result.additives.push(...parts);
+      index += 1;
+      continue;
+    }
+
+    if (arg.startsWith('-')) {
+      console.warn(`Ignoring unknown argument: ${arg}`);
+      index += 1;
+      continue;
+    }
+
+    // Positional arguments without flags are treated as additive slugs for convenience.
+    result.additives.push(arg);
+    index += 1;
+  }
+
+  if (result.additives.length) {
+    const seen = new Set();
+    result.additives = result.additives
+      .map(normaliseAdditiveSlug)
+      .filter((slug) => {
+        if (!slug || seen.has(slug)) {
+          return false;
+        }
+        seen.add(slug);
+        return true;
+      });
+  }
+
+  return result;
+}
+
 async function readAdditiveProps(slug) {
   const propsPath = path.join(DATA_DIR, slug, 'props.json');
   if (!(await fileExists(propsPath))) {
@@ -111,119 +234,6 @@ async function readAdditiveProps(slug) {
     console.warn(`Failed to read props for ${slug}: ${error.message}`);
     return {};
   }
-}
-
-async function writeAdditiveProps(slug, props) {
-  const targetDir = path.join(DATA_DIR, slug);
-  await fs.mkdir(targetDir, { recursive: true });
-  const propsPath = path.join(targetDir, 'props.json');
-  const next = { ...props };
-  await fs.writeFile(propsPath, `${JSON.stringify(next, null, 2)}\n`, 'utf8');
-}
-
-function ensureProps(props, additive) {
-  const result = props && typeof props === 'object' ? { ...props } : {};
-  if (typeof result.title !== 'string' || !result.title) {
-    result.title = additive.title || '';
-  }
-  if (typeof result.eNumber !== 'string' || !result.eNumber) {
-    result.eNumber = additive.eNumber || '';
-  }
-  if (!Array.isArray(result.synonyms)) {
-    result.synonyms = [];
-  }
-  if (!Array.isArray(result.functions)) {
-    result.functions = [];
-  }
-  if (typeof result.description !== 'string') {
-    result.description = '';
-  }
-  if (typeof result.wikipedia !== 'string') {
-    result.wikipedia = '';
-  }
-  if (typeof result.wikidata !== 'string') {
-    result.wikidata = '';
-  }
-  if (typeof result.searchVolume !== 'number') {
-    result.searchVolume = null;
-  }
-  if (typeof result.searchRank !== 'number') {
-    result.searchRank = null;
-  }
-  if (!Array.isArray(result.searchSparkline)) {
-    result.searchSparkline = [];
-  }
-
-  return result;
-}
-
-async function fetchPubChemUrl(wikidataId) {
-  if (!wikidataId || typeof wikidataId !== 'string') {
-    return null;
-  }
-
-  const trimmedId = wikidataId.trim();
-  if (!trimmedId) {
-    return null;
-  }
-
-  const endpoint = `https://www.wikidata.org/wiki/Special:EntityData/${encodeURIComponent(trimmedId)}.json`;
-
-  for (let attempt = 1; attempt <= 3; attempt += 1) {
-    try {
-      const { stdout } = await execFileAsync('curl', [
-        '-fsS',
-        '-H',
-        'User-Agent: additives-article-script/1.0',
-        endpoint,
-      ]);
-
-      const data = JSON.parse(stdout);
-      const entity = data?.entities?.[trimmedId];
-      const claims = entity?.claims?.P662;
-      if (!Array.isArray(claims) || claims.length === 0) {
-        return null;
-      }
-
-      const mainsnak = claims[0]?.mainsnak;
-      const value = mainsnak?.datavalue?.value;
-      if (typeof value === 'string' && value.trim()) {
-        return `https://pubchem.ncbi.nlm.nih.gov/compound/${value.trim()}`;
-      }
-
-      return null;
-    } catch (error) {
-      if (attempt === 3) {
-        console.warn(`Failed to fetch PubChem ID for ${wikidataId}: ${error.message}`);
-        return null;
-      }
-      await sleep(200 * attempt);
-    }
-  }
-
-  return null;
-}
-
-function buildFaqQuestions(eNumber, title) {
-  const name = title && title.trim() ? title.trim() : 'this additive';
-  const code = eNumber && eNumber.trim() ? eNumber.trim() : 'this additive';
-  return [
-    `What is ${code} — ${name} used for in foods?`,
-    `Is ${code} safe to eat regularly?`,
-    `Which grocery products usually include ${name}?`,
-    `Does ${name} cause any side effects or allergies?`,
-    `What are simple alternatives to ${name} for home cooking?`,
-  ];
-}
-
-function buildFdcLink(eNumber, title) {
-  const baseLabelName = title && title.trim() ? title.trim() : eNumber;
-  const label = baseLabelName ? `${baseLabelName} on FoodData Central` : 'FoodData Central listing';
-  const query = baseLabelName ? baseLabelName : eNumber;
-  const url = query
-    ? `https://fdc.nal.usda.gov/fdc-app.html#/food-search?query=${encodeURIComponent(query)}`
-    : 'https://fdc.nal.usda.gov/fdc-app.html#/';
-  return { label, url };
 }
 
 function normaliseSynonyms(synonyms) {
@@ -246,143 +256,187 @@ function normaliseFunctions(functions) {
     .filter((item, index, list) => item.length > 0 && list.indexOf(item) === index);
 }
 
-async function callOpenAi(apiKey, systemPrompt, payload) {
-  const messages = [
-    { role: 'system', content: systemPrompt },
-    {
-      role: 'user',
-      content: [
-        'Create a Markdown article and short textual summary using the additive metadata provided.',
-        'Respect all layout, linking, and validation requirements in the system prompt.',
-        'Use the PubChem URL exactly as provided. Do not fabricate URLs.',
-        'Return a JSON object with keys `article_markdown` and `article_summary`. No additional text.',
-        '',
-        `Additive metadata:\n${JSON.stringify(payload, null, 2)}`,
-      ].join('\n'),
-    },
-  ];
+async function callOpenAi(client, systemPrompt, payload) {
+  const additiveLabel = [payload.eNumber, payload.title].filter(Boolean).join(' — ') || 'the additive';
 
-  const body = JSON.stringify({
-    model: OPENAI_MODEL,
-    messages,
-    temperature: 0.4,
-    response_format: { type: 'json_object' },
-    max_tokens: 1800,
-  });
-
-  let stdout;
   try {
-    ({ stdout } = await execFileAsync('curl', [
-      '-fsS',
-      '-X',
-      'POST',
-      '-H',
-      'Content-Type: application/json',
-      '-H',
-      `Authorization: Bearer ${apiKey}`,
-      '-d',
-      body,
-      OPENAI_API_URL,
-    ]));
+    const response = await client.responses.create({
+      model: OPENAI_MODEL,
+      max_output_tokens: OPENAI_MAX_OUTPUT_TOKENS,
+      input: [
+        {
+          role: 'system',
+          content: [{ type: 'input_text', text: systemPrompt }],
+        },
+        {
+          role: 'user',
+          content: [
+            {
+              type: 'input_text',
+              text: [
+                `Create a publish-ready Markdown article about ${additiveLabel}.`,
+                'Respect all layout, linking, and validation requirements in the system prompt.',
+                'Use the PubChem URL exactly as provided. Do not fabricate URLs.',
+                'Return only the Markdown article content. Do not include summaries or additional formats.',
+                '',
+                `Additive metadata:\n${JSON.stringify(payload, null, 2)}`,
+              ].join('\n'),
+            },
+          ],
+        },
+      ],
+    });
+
+    let articleMarkdown = '';
+    if (typeof response.output_text === 'string' && response.output_text.trim()) {
+      articleMarkdown = response.output_text.trim();
+    }
+
+    if (!articleMarkdown && Array.isArray(response.output)) {
+      for (const item of response.output) {
+        if (item?.type === 'message' && Array.isArray(item.content)) {
+          const textPart = item.content.find((contentItem) => contentItem?.type === 'output_text');
+          if (textPart && typeof textPart.text === 'string' && textPart.text.trim()) {
+            articleMarkdown = textPart.text.trim();
+            break;
+          }
+        }
+      }
+    }
+
+    if (!articleMarkdown) {
+      throw new Error('OpenAI API returned an empty article.');
+    }
+
+    return articleMarkdown;
   } catch (error) {
-    const stderr = error.stderr ? error.stderr.toString() : error.message;
-    throw new Error(`OpenAI API request failed: ${stderr}`);
-  }
+    if (error instanceof OpenAI.APIError) {
+      const details = error.error?.message || error.message;
+      throw new Error(`OpenAI API request failed (status ${error.status ?? 'unknown'}): ${details}`);
+    }
 
-  let data;
-  try {
-    data = JSON.parse(stdout);
-  } catch (error) {
-    throw new Error(`Unable to parse OpenAI response JSON: ${error.message}`);
-  }
+    if (error && typeof error === 'object' && 'message' in error) {
+      throw new Error(error.message);
+    }
 
-  const messageContent = data?.choices?.[0]?.message?.content;
-  if (!messageContent || typeof messageContent !== 'string') {
-    throw new Error('OpenAI API returned an unexpected response format.');
+    throw error;
   }
-
-  let parsed;
-  try {
-    parsed = JSON.parse(messageContent);
-  } catch (error) {
-    throw new Error(`Failed to parse OpenAI response as JSON: ${error.message}`);
-  }
-
-  const { article_markdown: articleMarkdown, article_summary: articleSummary } = parsed;
-  if (typeof articleMarkdown !== 'string' || typeof articleSummary !== 'string') {
-    throw new Error('OpenAI response JSON must include string keys `article_markdown` and `article_summary`.');
-  }
-
-  return { articleMarkdown, articleSummary };
 }
 
 async function processAdditive({
   additive,
   props,
   promptTemplate,
-  apiKey,
+  apiClient,
   index,
   total,
 }) {
   const relativeSlugDir = path.join('data', additive.slug);
   const articlePath = path.join(DATA_DIR, additive.slug, 'article.md');
-  console.log(`[${index + 1}/${total}] Generating article for ${additive.eNumber || additive.title || additive.slug}...`);
+  const additiveLabel = [additive.eNumber, additive.title].filter(Boolean).join(' - ') || additive.slug;
+  console.log(`[${index + 1}/${total}] Generating article for ${additiveLabel}...`);
 
   const synonyms = normaliseSynonyms(props.synonyms);
   const functions = normaliseFunctions(props.functions);
-  const pubchemUrl = await fetchPubChemUrl(props.wikidata);
-  const faqQuestions = buildFaqQuestions(additive.eNumber, additive.title);
-  const fdcLink = buildFdcLink(additive.eNumber, additive.title);
   const metadataPayload = {
     title: additive.title,
     eNumber: additive.eNumber,
     synonyms,
     functions,
     wikipedia: typeof props.wikipedia === 'string' ? props.wikipedia : '',
-    wikidata: typeof props.wikidata === 'string' ? props.wikidata : '',
-    searchVolume: typeof props.searchVolume === 'number' ? props.searchVolume : null,
-    searchRank: typeof props.searchRank === 'number' ? props.searchRank : null,
-    pubchemUrl: pubchemUrl || 'URL to be added by editor',
-    fdc: fdcLink,
-    faqQuestions,
   };
 
-  const { articleMarkdown, articleSummary } = await callOpenAi(apiKey, promptTemplate, metadataPayload);
+  const articleMarkdown = await callOpenAi(apiClient, promptTemplate, metadataPayload);
 
   await fs.mkdir(path.join(DATA_DIR, additive.slug), { recursive: true });
   await fs.writeFile(articlePath, `${articleMarkdown.trim()}\n`, 'utf8');
 
-  const updatedProps = ensureProps(props, additive);
-  updatedProps.description = articleSummary.trim();
-  await writeAdditiveProps(additive.slug, updatedProps);
-
-  console.log(
-    `[${index + 1}/${total}] Saved article to ${path.join(relativeSlugDir, 'article.md')} and updated props description.`,
-  );
+  console.log(`[${index + 1}/${total}] Saved article to ${path.join(relativeSlugDir, 'article.md')}.`);
 }
 
 async function run() {
   try {
     const apiKey = await loadApiKey();
+    const apiClient = new OpenAI({ apiKey });
     const promptTemplate = await readPromptTemplate();
     const additives = await readAdditivesIndex();
+    const cliArgs = parseCommandLineArgs(process.argv);
 
-    const rl = stdin.isTTY && stdout.isTTY
-      ? readline.createInterface({ input: stdin, output: stdout })
-      : null;
+    const envLimitRaw = process.env.GENERATOR_LIMIT;
+    const envBatchRaw = process.env.GENERATOR_BATCH;
 
-    try {
-      const limit = await promptForNumber('How many new articles should be generated?', DEFAULT_LIMIT, rl);
-      const batchSize = await promptForNumber('How many articles should be generated in parallel?', DEFAULT_BATCH_SIZE, rl);
+    let limit = DEFAULT_LIMIT;
+    if (cliArgs.limit !== null) {
+      limit = cliArgs.limit;
+      console.log(`Using CLI limit=${limit}`);
+    } else if (envLimitRaw) {
+      const parsed = Number.parseInt(envLimitRaw, 10);
+      if (!Number.isNaN(parsed) && parsed > 0) {
+        limit = parsed;
+        console.log(`Using GENERATOR_LIMIT=${parsed}`);
+      } else {
+        console.warn(`Ignoring invalid GENERATOR_LIMIT value: ${envLimitRaw}`);
+      }
+    }
 
-      if (rl) {
-        rl.close();
+    let batchSize = DEFAULT_BATCH_SIZE;
+    if (cliArgs.batchSize !== null) {
+      batchSize = cliArgs.batchSize;
+      console.log(`Using CLI parallel=${batchSize}`);
+    } else if (envBatchRaw) {
+      const parsed = Number.parseInt(envBatchRaw, 10);
+      if (!Number.isNaN(parsed) && parsed > 0) {
+        batchSize = parsed;
+        console.log(`Using GENERATOR_BATCH=${parsed}`);
+      } else {
+        console.warn(`Ignoring invalid GENERATOR_BATCH value: ${envBatchRaw}`);
+      }
+    }
+
+    const candidates = [];
+
+    if (cliArgs.additives.length > 0) {
+      if (cliArgs.limit !== null) {
+        console.warn('Ignoring --limit because specific additives were provided via --additive.');
       }
 
-      const candidates = [];
+      const additiveMap = new Map(additives.map((entry) => [entry.slug, entry]));
+      const missingSlugs = [];
+
+      for (const slug of cliArgs.additives) {
+        const additive = additiveMap.get(slug);
+        if (!additive) {
+          missingSlugs.push(slug);
+          continue;
+        }
+
+        const articlePath = path.join(DATA_DIR, additive.slug, 'article.md');
+        const additiveLabel = [additive.eNumber, additive.title].filter(Boolean).join(' - ') || additive.slug;
+        if (await fileExists(articlePath)) {
+          console.log(`Will regenerate existing article: ${additiveLabel}`);
+        } else {
+          console.log(`Will create new article: ${additiveLabel}`);
+        }
+
+        candidates.push(additive);
+      }
+
+      if (missingSlugs.length) {
+        missingSlugs.forEach((slug) => {
+          console.warn(`No additive found for slug: ${slug}`);
+        });
+      }
+
+      if (candidates.length === 0) {
+        console.log('No additives matched the provided slugs. Exiting.');
+        return;
+      }
+    } else {
       for (const additive of additives) {
         const articlePath = path.join(DATA_DIR, additive.slug, 'article.md');
         if (await fileExists(articlePath)) {
+          const additiveLabel = [additive.eNumber, additive.title].filter(Boolean).join(' - ') || additive.slug;
+          console.log(`Skipping existing article: ${additiveLabel}`);
           continue;
         }
         candidates.push(additive);
@@ -395,55 +449,51 @@ async function run() {
         console.log('No additives require new articles. Exiting.');
         return;
       }
+    }
 
-      console.log(
-        `Preparing to generate ${candidates.length} article(s) with batch size ${Math.min(batchSize, candidates.length)}...`,
-      );
+    console.log(
+      `Preparing to generate ${candidates.length} article(s) with batch size ${Math.min(batchSize, candidates.length)}...`,
+    );
 
-      let currentIndex = 0;
-      const total = candidates.length;
-      const errors = [];
+    let currentIndex = 0;
+    const total = candidates.length;
+    const errors = [];
 
-      const workers = Array.from({ length: Math.min(batchSize, candidates.length) }, async () => {
-        while (currentIndex < candidates.length) {
-          const localIndex = currentIndex;
-          currentIndex += 1;
-          const additive = candidates[localIndex];
-          const props = await readAdditiveProps(additive.slug);
+    const workers = Array.from({ length: Math.min(batchSize, candidates.length) }, async () => {
+      while (currentIndex < candidates.length) {
+        const localIndex = currentIndex;
+        currentIndex += 1;
+        const additive = candidates[localIndex];
+        const props = await readAdditiveProps(additive.slug);
 
-          try {
-            await processAdditive({
-              additive,
-              props,
-              promptTemplate,
-              apiKey,
-              index: localIndex,
-              total,
-            });
-          } catch (error) {
-            console.error(
-              `[${localIndex + 1}/${total}] Failed to generate article for ${additive.slug}: ${error.message}`,
-            );
-            errors.push({ slug: additive.slug, error });
-          }
+        try {
+          await processAdditive({
+            additive,
+            props,
+            promptTemplate,
+            apiClient,
+            index: localIndex,
+            total,
+          });
+        } catch (error) {
+          console.error(
+            `[${localIndex + 1}/${total}] Failed to generate article for ${additive.slug}: ${error.message}`,
+          );
+          errors.push({ slug: additive.slug, error });
         }
+      }
+    });
+
+    await Promise.all(workers);
+
+    if (errors.length) {
+      console.log('Completed with errors for the following additives:');
+      errors.forEach((entry) => {
+        console.log(` - ${entry.slug}: ${entry.error.message}`);
       });
-
-      await Promise.all(workers);
-
-      if (errors.length) {
-        console.log('Completed with errors for the following additives:');
-        errors.forEach((entry) => {
-          console.log(` - ${entry.slug}: ${entry.error.message}`);
-        });
-        process.exitCode = 1;
-      } else {
-        console.log('All requested articles generated successfully.');
-      }
-    } finally {
-      if (rl && !rl.closed) {
-        rl.close();
-      }
+      process.exitCode = 1;
+    } else {
+      console.log('All requested articles generated successfully.');
     }
   } catch (error) {
     console.error(error.message);
