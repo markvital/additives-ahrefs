@@ -122,6 +122,7 @@ function parseCommandLineArgs(argv) {
     limit: null,
     batchSize: null,
     additives: [],
+    debug: false,
   };
 
   const args = Array.isArray(argv) ? argv.slice(2) : [];
@@ -195,6 +196,12 @@ function parseCommandLineArgs(argv) {
       continue;
     }
 
+    if (arg === '--debug' || arg === '-debug') {
+      result.debug = true;
+      index += 1;
+      continue;
+    }
+
     if (arg.startsWith('-')) {
       console.warn(`Ignoring unknown argument: ${arg}`);
       index += 1;
@@ -256,11 +263,11 @@ function normaliseFunctions(functions) {
     .filter((item, index, list) => item.length > 0 && list.indexOf(item) === index);
 }
 
-async function callOpenAi(client, systemPrompt, payload) {
+async function callOpenAi(client, systemPrompt, payload, { debug = false } = {}) {
   const additiveLabel = [payload.eNumber, payload.title].filter(Boolean).join(' — ') || 'the additive';
 
   try {
-    const response = await client.responses.create({
+    const requestPayload = {
       model: OPENAI_MODEL,
       max_output_tokens: OPENAI_MAX_OUTPUT_TOKENS,
       input: [
@@ -285,7 +292,27 @@ async function callOpenAi(client, systemPrompt, payload) {
           ],
         },
       ],
-    });
+    };
+
+    if (debug) {
+      console.log('[debug] OpenAI request payload:');
+      try {
+        console.log(JSON.stringify(requestPayload, null, 2));
+      } catch (stringifyError) {
+        console.dir(requestPayload, { depth: null });
+      }
+    }
+
+    const response = await client.responses.create(requestPayload);
+
+    if (debug) {
+      console.log('[debug] OpenAI response payload:');
+      try {
+        console.log(JSON.stringify(response, null, 2));
+      } catch (stringifyError) {
+        console.dir(response, { depth: null });
+      }
+    }
 
     let articleMarkdown = '';
     if (typeof response.output_text === 'string' && response.output_text.trim()) {
@@ -330,6 +357,7 @@ async function processAdditive({
   apiClient,
   index,
   total,
+  debug = false,
 }) {
   const relativeSlugDir = path.join('data', additive.slug);
   const articlePath = path.join(DATA_DIR, additive.slug, 'article.md');
@@ -346,7 +374,7 @@ async function processAdditive({
     wikipedia: typeof props.wikipedia === 'string' ? props.wikipedia : '',
   };
 
-  const articleMarkdown = await callOpenAi(apiClient, promptTemplate, metadataPayload);
+  const articleMarkdown = await callOpenAi(apiClient, promptTemplate, metadataPayload, { debug });
 
   await fs.mkdir(path.join(DATA_DIR, additive.slug), { recursive: true });
   await fs.writeFile(articlePath, `${articleMarkdown.trim()}\n`, 'utf8');
@@ -364,6 +392,11 @@ async function run() {
 
     const envLimitRaw = process.env.GENERATOR_LIMIT;
     const envBatchRaw = process.env.GENERATOR_BATCH;
+    const debugEnabled = Boolean(cliArgs.debug);
+
+    if (debugEnabled) {
+      console.log('Debug logging enabled: OpenAI request and response payloads will be printed.');
+    }
 
     let limit = DEFAULT_LIMIT;
     if (cliArgs.limit !== null) {
@@ -474,6 +507,7 @@ async function run() {
             apiClient,
             index: localIndex,
             total,
+            debug: debugEnabled,
           });
         } catch (error) {
           console.error(
