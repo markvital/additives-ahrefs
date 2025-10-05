@@ -25,5 +25,10 @@
     208,
     235,
     323
+  ],
+  "origin": [
+    "plant",
+    "animal",
+    "microbiological"
   ]
 }

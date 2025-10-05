@@ -25,5 +25,11 @@
     4747,
     5290,
     5365
+  ],
+  "origin": [
+    "plant",
+    "animal",
+    "microbiological",
+    "synthetic"
   ]
 }

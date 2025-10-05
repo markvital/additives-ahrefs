@@ -36,7 +36,7 @@ dns.setDefaultResultOrder('ipv4first');
 const DEFAULT_LIMIT = 10;
 const DEFAULT_BATCH_SIZE = 10;
 const OPENAI_MODEL = 'gpt-5';
-const OPENAI_MAX_OUTPUT_TOKENS = 800;
+const OPENAI_MAX_OUTPUT_TOKENS = 2500;
 const PROMPT_PATH = path.join(__dirname, 'prompts', 'additive-origin.txt');
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const ADDITIVES_INDEX_PATH = path.join(DATA_DIR, 'additives.json');

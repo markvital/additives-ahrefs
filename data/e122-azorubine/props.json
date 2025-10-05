@@ -19,5 +19,9 @@
   "wikidata": "Q409676",
   "searchVolume": 70,
   "searchRank": 334,
-  "searchSparkline": []
+  "searchSparkline": [],
+  "origin": [
+    "synthetic",
+    "artificial"
+  ]
 }

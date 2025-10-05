@@ -11,5 +11,11 @@
   "wikidata": "",
   "searchVolume": null,
   "searchRank": null,
-  "searchSparkline": []
+  "searchSparkline": [],
+  "origin": [
+    "plant",
+    "animal",
+    "microbiological",
+    "synthetic"
+  ]
 }

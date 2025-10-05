@@ -12,5 +12,9 @@
   "wikidata": "",
   "searchVolume": 70,
   "searchRank": 333,
-  "searchSparkline": []
+  "searchSparkline": [],
+  "origin": [
+    "plant",
+    "animal"
+  ]
 }

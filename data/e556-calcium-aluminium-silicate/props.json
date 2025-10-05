@@ -14,5 +14,9 @@
   "wikidata": "Q18967182",
   "searchVolume": 0,
   "searchRank": null,
-  "searchSparkline": []
+  "searchSparkline": [],
+  "origin": [
+    "synthetic",
+    "mineral"
+  ]
 }

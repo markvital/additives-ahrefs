@@ -15,5 +15,10 @@
   "wikidata": "Q26806065",
   "searchVolume": null,
   "searchRank": null,
-  "searchSparkline": []
+  "searchSparkline": [],
+  "origin": [
+    "plant",
+    "animal",
+    "synthetic"
+  ]
 }

@@ -11,5 +11,8 @@
   "wikidata": "Q204873",
   "searchVolume": 10,
   "searchRank": 428,
-  "searchSparkline": []
+  "searchSparkline": [],
+  "origin": [
+    "synthetic"
+  ]
 }

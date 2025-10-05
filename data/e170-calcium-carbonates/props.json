@@ -11,5 +11,10 @@
   "wikidata": "",
   "searchVolume": 30,
   "searchRank": 380,
-  "searchSparkline": []
+  "searchSparkline": [],
+  "origin": [
+    "animal",
+    "synthetic",
+    "mineral"
+  ]
 }

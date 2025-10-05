@@ -21,5 +21,8 @@
   "wikidata": "Q420079",
   "searchVolume": 10,
   "searchRank": 431,
-  "searchSparkline": []
+  "searchSparkline": [],
+  "origin": [
+    "artificial"
+  ]
 }

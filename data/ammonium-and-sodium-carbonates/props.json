@@ -10,5 +10,9 @@
   "wikidata": "",
   "searchVolume": null,
   "searchRank": null,
-  "searchSparkline": []
+  "searchSparkline": [],
+  "origin": [
+    "artificial",
+    "mineral"
+  ]
 }

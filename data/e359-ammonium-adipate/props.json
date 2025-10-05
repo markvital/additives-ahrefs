@@ -11,5 +11,9 @@
   "wikidata": "Q4747299",
   "searchVolume": 0,
   "searchRank": null,
-  "searchSparkline": []
+  "searchSparkline": [],
+  "origin": [
+    "microbiological",
+    "synthetic"
+  ]
 }

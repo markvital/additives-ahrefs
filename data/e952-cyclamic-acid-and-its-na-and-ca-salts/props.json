@@ -16,5 +16,9 @@
   "wikidata": "Q2130929",
   "searchVolume": null,
   "searchRank": null,
-  "searchSparkline": []
+  "searchSparkline": [],
+  "origin": [
+    "synthetic",
+    "artificial"
+  ]
 }

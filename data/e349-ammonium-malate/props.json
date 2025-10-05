@@ -11,5 +11,10 @@
   "wikidata": "Q4747303",
   "searchVolume": 0,
   "searchRank": null,
-  "searchSparkline": []
+  "searchSparkline": [],
+  "origin": [
+    "plant",
+    "microbiological",
+    "synthetic"
+  ]
 }

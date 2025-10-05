@@ -14,5 +14,11 @@
   "wikidata": "Q424521",
   "searchVolume": 0,
   "searchRank": null,
-  "searchSparkline": []
+  "searchSparkline": [],
+  "origin": [
+    "plant",
+    "animal",
+    "microbiological",
+    "synthetic"
+  ]
 }

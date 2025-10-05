@@ -12,5 +12,8 @@
   "wikidata": "",
   "searchVolume": 20,
   "searchRank": 397,
-  "searchSparkline": []
+  "searchSparkline": [],
+  "origin": [
+    "synthetic"
+  ]
 }

@@ -16,5 +16,9 @@
   "wikidata": "Q695975",
   "searchVolume": 20,
   "searchRank": 400,
-  "searchSparkline": []
+  "searchSparkline": [],
+  "origin": [
+    "plant",
+    "synthetic"
+  ]
 }

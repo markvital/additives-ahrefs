@@ -22,5 +22,11 @@
     291,
     288,
     256
+  ],
+  "origin": [
+    "plant",
+    "animal",
+    "microbiological",
+    "synthetic"
   ]
 }

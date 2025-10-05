@@ -15,5 +15,9 @@
   "wikidata": "Q1220360",
   "searchVolume": null,
   "searchRank": null,
-  "searchSparkline": []
+  "searchSparkline": [],
+  "origin": [
+    "artificial",
+    "mineral"
+  ]
 }
