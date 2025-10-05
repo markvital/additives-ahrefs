@@ -1,11 +1,24 @@
 import Link from 'next/link';
-import { Box, Card, CardActionArea, CardContent, Chip, Stack, Typography } from '@mui/material';
+import { Avatar, Box, Card, CardActionArea, CardContent, Chip, Stack, Typography } from '@mui/material';
 
 import { getAdditives } from '../lib/additives';
 import { SearchSparkline } from '../components/SearchSparkline';
 import { formatMonthlyVolume } from '../lib/format';
 
 const additives = getAdditives();
+
+const getOriginLabel = (origin: string) => {
+  const letters = origin.replace(/[^A-Za-z]/g, '');
+
+  if (letters.length === 0) {
+    return '';
+  }
+
+  const first = letters.charAt(0).toUpperCase();
+  const second = letters.charAt(1);
+
+  return `${first}${second ? second.toLowerCase() : ''}`;
+};
 
 export default function HomePage() {
   return (
@@ -41,56 +54,91 @@ export default function HomePage() {
             additive.searchSparkline.some((value) => value !== null);
           const hasSearchMetrics =
             typeof additive.searchRank === 'number' && typeof additive.searchVolume === 'number';
+          const showSearchSection = hasSparkline || hasSearchMetrics;
+          const visibleFunctions = additive.functions.slice(0, 2);
+          const hiddenFunctionCount = Math.max(additive.functions.length - visibleFunctions.length, 0);
+          const origins = additive.origin.filter((origin) => origin.trim().length > 0);
 
           return (
             <Card key={additive.slug} sx={{ display: 'flex', flexDirection: 'column' }}>
               <CardActionArea component={Link} href={`/${additive.slug}`} sx={{ flexGrow: 1 }}>
-                <CardContent sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
-                  <Box display="flex" flexDirection="column" gap={0.5}>
+                <CardContent sx={{ display: 'flex', flexDirection: 'column', gap: 1.5 }}>
+                  <Box display="flex" justifyContent="space-between" alignItems="flex-start">
                     <Typography variant="overline" color="text.secondary" letterSpacing={1.2}>
                       {additive.eNumber}
                     </Typography>
-                    <Typography component="h2" variant="h2">
-                      {additive.title}
-                    </Typography>
+                    {origins.length > 0 ? (
+                      <Stack direction="row" spacing={0.5}>
+                        {origins.map((origin) => {
+                          const label = getOriginLabel(origin);
+
+                          return (
+                            <Avatar
+                              key={origin}
+                              variant="circular"
+                              sx={{
+                                width: 28,
+                                height: 28,
+                                bgcolor: 'grey.100',
+                                color: 'text.primary',
+                                fontSize: 12,
+                                fontWeight: 600,
+                              }}
+                            >
+                              {label}
+                            </Avatar>
+                          );
+                        })}
+                      </Stack>
+                    ) : (
+                      <Box sx={{ minHeight: 28 }} />
+                    )}
                   </Box>
-                  {additive.functions.length > 0 ? (
-                    <Stack direction="row" flexWrap="wrap" gap={1}>
-                      {additive.functions.map((fn) => (
-                        <Chip key={fn} label={fn} variant="outlined" />
+
+                  <Typography component="h2" variant="h2">
+                    {additive.title}
+                  </Typography>
+
+                  {visibleFunctions.length > 0 ? (
+                    <Stack direction="row" spacing={1} alignItems="center" sx={{ flexWrap: 'nowrap' }}>
+                      {visibleFunctions.map((fn) => (
+                        <Chip key={fn} label={fn} variant="outlined" size="small" />
                       ))}
+                      {hiddenFunctionCount > 0 && (
+                        <Chip label={`(+${hiddenFunctionCount})`} variant="outlined" size="small" />
+                      )}
                     </Stack>
                   ) : (
-                    <Box sx={{ minHeight: '1.5rem' }} />
+                    <Box sx={{ minHeight: 24 }} />
                   )}
-                  {hasSearchMetrics ? (
-                    <Stack direction="row" alignItems="baseline" gap={1}>
-                      <Typography component="span" variant="subtitle1" fontWeight={600}>
-                        #{additive.searchRank}
-                      </Typography>
-                      <Typography component="span" variant="body2" color="text.secondary">
-                        {formatMonthlyVolume(additive.searchVolume!)} / mo
-                      </Typography>
+
+                  {showSearchSection ? (
+                    <Stack direction="row" alignItems="center" spacing={1.5}>
+                      {hasSearchMetrics ? (
+                        <Stack direction="row" alignItems="baseline" spacing={1} flexShrink={0}>
+                          <Typography component="span" variant="subtitle1" fontWeight={600}>
+                            #{additive.searchRank}
+                          </Typography>
+                          <Typography component="span" variant="body2" color="text.secondary">
+                            {formatMonthlyVolume(additive.searchVolume!)} / mo
+                          </Typography>
+                        </Stack>
+                      ) : (
+                        <Box sx={{ minWidth: 0 }} />
+                      )}
+                      {hasSparkline ? (
+                        <Box sx={{ flexGrow: 1, minWidth: 96 }}>
+                          <SearchSparkline values={additive.searchSparkline ?? []} />
+                        </Box>
+                      ) : (
+                        <Box sx={{ flexGrow: 1, height: 40 }} />
+                      )}
                     </Stack>
                   ) : (
-                    <Box sx={{ minHeight: '1.5rem' }} />
+                    <Box sx={{ height: 40 }} />
                   )}
                 </CardContent>
               </CardActionArea>
-              {hasSparkline && (
-                <Box
-                  component={Link}
-                  href={`/${additive.slug}#search-history`}
-                  sx={{
-                    px: 2,
-                    pb: 1.5,
-                    pt: 1,
-                    display: 'block',
-                  }}
-                >
-                  <SearchSparkline values={additive.searchSparkline ?? []} />
-                </Box>
-              )}
             </Card>
           );
         })}
