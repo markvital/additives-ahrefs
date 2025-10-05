@@ -45,7 +45,7 @@ SEO TITLE & HEADINGS (natural, not robotic)
 - Keep headings conversational; avoid keyword stuffing.
 
 INTERNAL LINKS
-- When you mention other additives **and you know** their E-number and page title, link using the relative slug `/e<eNumber>-<kebab-title>` (e.g., `/e171-titanium-dioxide`, `/e181-tannin`). If uncertain, do not link.
+- When you mention other additives **and you know** their E-number and page title, create a Markdown link like `[additive name](/e<eNumber>-<kebab-title>)` (e.g., `[titanium dioxide](/e171-titanium-dioxide)`, `[tannin](/e181-tannin)`). If uncertain, do not link.
 
 REFERENCES (FOOTNOTES ONLY)
 - Insert footnote markers like `[^1]` **immediately after the sentence** they support (no inline URLs).

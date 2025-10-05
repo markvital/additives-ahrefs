@@ -59,5 +59,18 @@ export const theme = createTheme({
         },
       },
     },
+    MuiLink: {
+      styleOverrides: {
+        root: {
+          color: '#717171',
+          textDecorationColor: '#717171',
+          transition: 'color 0.2s ease, text-decoration-color 0.2s ease',
+          '&:hover': {
+            color: '#000000',
+            textDecorationColor: '#000000',
+          },
+        },
+      },
+    },
   },
 });
