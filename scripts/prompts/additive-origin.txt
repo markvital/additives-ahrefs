@@ -1,0 +1,9 @@
+Find origin for the food additive based on the information on the internet.
+The origin could be : Plant , Animal, Microbiological , Synthetic , Artificial , Mineral
+
+One additive could possibly have several origins, for ex. E251 – Sodium nitrate could be found as a mineral or artificially synthesized
+
+Input: additive name and e-number, ex: E251 – Sodium nitrate
+Output: the origin type in json:
+{origin: ["plant"]}
+{origin: ["plant", "animal"]}

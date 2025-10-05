@@ -9,6 +9,7 @@ export interface AdditivePropsFile {
   eNumber?: string;
   synonyms?: unknown;
   functions?: unknown;
+  origin?: unknown;
   description?: unknown;
   wikipedia?: unknown;
   wikidata?: unknown;
@@ -23,6 +24,7 @@ export interface Additive {
   eNumber: string;
   synonyms: string[];
   functions: string[];
+  origin: string[];
   description: string;
   article: string;
   wikipedia: string;
@@ -111,6 +113,7 @@ const readAdditiveProps = (
       eNumber,
       synonyms: [],
       functions: [],
+      origin: [],
       description: '',
       article,
       wikipedia: '',
@@ -133,6 +136,7 @@ const readAdditiveProps = (
       eNumber,
       synonyms: toStringArray(parsed.synonyms),
       functions: toStringArray(parsed.functions),
+      origin: toStringArray(parsed.origin),
       description: toString(parsed.description),
       article,
       wikipedia: toString(parsed.wikipedia),
@@ -151,6 +155,7 @@ const readAdditiveProps = (
       eNumber,
       synonyms: [],
       functions: [],
+      origin: [],
       description: '',
       article,
       wikipedia: '',
