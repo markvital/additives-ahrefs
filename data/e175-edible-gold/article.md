@@ -1,62 +1,64 @@
-Edible gold (E175) is pure metallic gold used to decorate foods and drinks, usually as ultra-thin leaf, flakes, or fine powder. In the EU it’s an authorized color additive specifically for surface decoration, not a general-purpose ingredient.
-
-<!--more-->
+Edible gold (E175) is real metallic gold used to decorate foods. It creates a shiny, gold finish on the surface of chocolates, pastries, sugar decorations, and some liqueurs, and it doesn’t change flavor. In the EU, its use is regulated with strict purity specifications and allowed only for specific decorative purposes.<!--more-->
 
 ## At a glance
-- **Also called / E-number:** Edible gold; E175; gold; Pigment Metal 3; element 79  
-- **What it does:** Adds a metallic gold look for surface decoration  
-- **Common in:** Decorated chocolates, pastry and cake finishes, sugar confectionery decorations, premium desserts  
-- **Diet flags:** Elemental metal (not animal-derived)[^3]  
+- **Also called / E-number:** Edible gold; E175; gold; pigment metal 3; element 79  
+- **What it does:** Decorative color for a metallic gold finish on food surfaces  
+- **Common in:** Luxury chocolates, fine pastries, sugar decorations, and gold-flake liqueurs  
+- **Diet flags:** Mineral/metal-based; typically used in tiny decorative amounts  
 
-## Why is E175 — Edible gold added to food?
-It’s added to give a shiny gold look on the surface of foods. In the EU, gold (E 175) is authorized as a color additive for surface decoration under Regulation (EC) No 1333/2008.[^1] Look for it on special-occasion cakes, chocolates, and desserts. If you’re buying decorations, check that the label states “gold” or “E 175.”
+## Why is Edible gold added to food?
+It’s added to create a gold-colored, high-shine decorative finish on the outside of foods. In the EU, gold (E175) is authorized as a food color specifically for surface decoration in select categories such as confectionery and liqueurs.[^1] When shopping, expect it only on the surface—if a product looks uniformly gold inside and out, check that it’s truly labeled as edible gold.
 
-## What foods contain E175 — Edible gold?
-You’ll mostly see it on premium or celebratory items. Common examples include chocolate truffles with gold leaf, fine bakery wares with gold-dusted icing, sugar confectionery decorations, and dessert toppings meant for visual appeal.[^2] Check labels for “gold” or “E 175,” and note it’s used sparingly as a surface decoration.
+## What foods contain Edible gold?
+You’ll mainly find it on premium treats and certain spirits. Common examples include chocolate truffles with gold leaf, decorated pastries and macarons, sugar dragées or fondant toppers with gold dust, and liqueurs that intentionally contain suspended gold flakes.[^2] Check labels and product descriptions for “gold leaf,” “gold flakes,” or “E175.”
 
-## What can replace E175 — Edible gold?
-Other decorative options can give a similar special-occasion look. Consider silver-colored decorations (where allowed), colored sugar sprinkles, printed wafer paper, or edible glitter made from starches or sugars. These alternatives differ in shine, cost, and label perception; choose what fits your recipe and budget.
+## What can replace Edible gold?
+Other decorative options can create sparkle or color without using gold. Consider edible silver leaf like [silver](/e174-silver), colored sugar or sprinkles, cocoa powder or powdered sugar for contrast, or approved food-grade luster dusts from reputable baking suppliers. Each alternative changes the look and cost; silver gives a cooler tone, while colored sugars are more budget-friendly but less metallic.
 
-## How is E175 — Edible gold made?
-Edible gold is elemental gold produced in forms like leaf, flakes, or powder. Specifications in EU law describe the additive and its purity criteria for use in food.[^3] Manufacturers typically beat or roll gold into very thin leaf or mill it into flakes or powder for sprinkling.
+## How is Edible gold made?
+Food-grade gold for E175 is produced as very thin leaf or fine powder from high-purity metallic gold, then applied to food surfaces. In the EU, specifications define its identity as metallic gold and set strict purity and impurity limits, ensuring it’s suitable for decorative food use.[^3] When buying, choose products labeled as food-grade gold leaf or dust from trusted suppliers.
 
-## Is E175 — Edible gold safe to eat?
-EU risk assessors consider its current decorative uses safe, with very low consumer exposure and minimal oral absorption of metallic gold.[^2]
-- Authorized mainly for surface decoration uses in the EU, not for broad use across all foods.[^1]
-- Specifications define the additive as metallic gold (leaf, flakes, powder) with set purity criteria.[^3]
-- EFSA’s re-evaluation found low exposure from occasional decorative use and very limited gastrointestinal absorption of metallic gold.[^2]
+## Is Edible gold safe to eat?
+EU risk assessors found no safety concern for decorative use of gold (E175) at current use levels, though data were too limited to set an acceptable daily intake.[^4]
+- E175 is authorized in the EU for specific decorative uses in foods, such as confectionery and certain drinks.[^5]
+- EU specifications require high purity metallic gold and set limits for impurities (e.g., heavy metals).[^3]
+- EFSA’s re-evaluation noted exposure from its allowed decorative uses is low and did not identify safety concerns under those conditions.[^4]
+- In the EU, additives must be listed by their functional class and either name or E-number (e.g., “color: E175”).[^6]
 
-## Does E175 — Edible gold have any benefits?
-Its role is decorative, creating a premium gold appearance on foods. It doesn’t add flavor or nutrition, but it can make a dessert or drink look more festive.
+## Does Edible gold have any benefits?
+Its role is visual appeal; it doesn’t add taste or nutrition. In EU law, E175 is classified as a color additive used to impart or restore color, and it’s limited to decorative use on specific foods.[^5]
 
-## Who should avoid E175 — Edible gold?
-People with known gold sensitivity may prefer to avoid foods decorated with gold. EFSA notes that gold can cause contact sensitization in some contexts, even though metallic gold has very low oral absorption; if you’re sensitive, scan ingredient lists for “gold” or “E 175.”[^2]
+## Who should avoid Edible gold?
+If you prefer to avoid metal-based decorative colors, skip products listing gold leaf/flakes or E175. In the EU, look for “color: gold” or “color: E175” on the ingredient list to identify it.[^6]
 
 ## Myths & facts
-- Myth: “Edible gold is banned in Europe.” Fact: Gold (E 175) is authorized as a color additive for surface decoration in the EU.[^1]
-- Myth: “Your body absorbs edible gold like other metals.” Fact: EFSA reports metallic gold has very low oral absorption, and exposure from decorative use is low.[^2]
-- Myth: “You can use edible gold on any food without limits.” Fact: EU rules authorize it mainly for surface decoration categories and not as a general-purpose additive.[^1]
+- Myth: Edible gold is toxic and builds up in the body. Fact: EFSA found no safety concern for E175 when used as permitted for decoration, and exposure is low at those uses.[^4]
+- Myth: Any craft gold leaf is fine to eat. Fact: Only food-grade gold that meets additive specifications is appropriate for foods; non-food craft leaf may contain other metals or impurities.[^3]
+- Myth: E-numbers like E175 are banned in Europe. Fact: Gold (E175) is authorized in the EU for specific decorative uses listed in the Union list of food additives.[^5]
 
-## E175 — Edible gold in Branded Foods
-You’ll find edible gold in premium chocolates, wedding and holiday pastries, and other high-end desserts, usually as leaf or light dusting. Some specialty decorations sold for home baking also use E175 on sugar pieces or toppers.
+## Edible gold in Branded Foods
+You’ll see edible gold most often in premium confectionery, patisserie items, and specialty liqueurs that showcase visible gold flakes. It’s typically used sparingly as a surface accent or suspended in clear spirits.
 
 ## FAQ — Top 5 questions
 **Q:** Is edible gold real gold?  
-**A:** Yes. The authorized food additive is metallic gold used as leaf, flakes, or powder for decoration.[^3]
+**A:** Yes. E175 is metallic gold prepared as leaf or powder and regulated to food-grade specifications in the EU.[^3]
 
 **Q:** What does edible gold taste like?  
-**A:** It’s used for looks, not flavor. It’s applied on the surface to add a gold sheen.
+**A:** It’s used for appearance, not flavor. Expect no meaningful taste, and only a decorative effect.
 
-**Q:** Is edible gold safe to eat?  
-**A:** EU assessments indicate no safety concern at current decorative uses, with very low exposure and minimal absorption.[^2]
+**Q:** Is edible gold allowed in alcoholic drinks?  
+**A:** In the EU, E175 is authorized for decorative use in specific drink categories, including certain liqueurs that intentionally contain gold flakes.[^1][^5]
 
-**Q:** Where is edible gold allowed?  
-**A:** In the EU it’s permitted as a color additive for surface decoration, with specifications set in EU law.[^1][^3]
+**Q:** How can I tell if gold leaf is food-grade?  
+**A:** Look for products sold as “edible gold” or “E175” for food use, and check ingredient lists; in the EU, additives must be listed by class and name or E-number.[^6]
 
-**Q:** How do I spot it on labels?  
-**A:** Look for “gold” or “E 175” in the ingredient list on decorations, chocolates, and pastry finishes.
+**Q:** Are there limits on how much edible gold can be used?  
+**A:** EU law restricts E175 to specific foods for decoration and requires it to meet strict purity specifications; risk assessors did not set a numerical intake limit but found no safety concern at permitted uses.[^4][^5]
 
 ## References
-[^1]: Regulation (EC) No 1333/2008 on food additives — EUR-Lex. https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32008R1333  
-[^2]: Re-evaluation of gold (E 175) as a food additive — EFSA Journal (2016). https://www.efsa.europa.eu/en/efsajournal/pub/4362  
-[^3]: Commission Regulation (EU) No 231/2012 laying down specifications for food additives listed in Annexes II and III to Regulation (EC) No 1333/2008 — EUR-Lex. https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32012R0231
+[^1]: Re-evaluation of gold (E 175) as a food additive — EFSA Journal. https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2016.4362
+[^2]: Re-evaluation of gold (E 175) as a food additive (uses and exposure described) — EFSA Journal. https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2016.4362
+[^3]: Commission Regulation (EU) No 231/2012 laying down specifications for food additives listed in Annexes II and III to Regulation (EC) No 1333/2008 — EUR-Lex. https://eur-lex.europa.eu/eli/reg/2012/231/oj
+[^4]: EFSA scientific opinion: Re-evaluation of gold (E 175) as a food additive — EFSA Journal. https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2016.4362
+[^5]: Regulation (EC) No 1333/2008 on food additives (Union list of authorized additives and conditions of use) — EUR-Lex. https://eur-lex.europa.eu/eli/reg/2008/1333/oj
+[^6]: Regulation (EU) No 1169/2011 on the provision of food information to consumers (additive labeling rules) — EUR-Lex. https://eur-lex.europa.eu/eli/reg/2011/1169/oj

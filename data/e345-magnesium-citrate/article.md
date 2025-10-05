@@ -1,63 +1,67 @@
-Magnesium citrate (E345) is the magnesium salt of citric acid used to control acidity and help stabilize foods and drinks. In the EU it’s an authorized food additive with defined purity specifications and labeling options. It can also serve as a source of magnesium in fortified foods and supplements.
+Magnesium citrate (E 345) is a group of magnesium salts of citric acid used in foods and drinks. It mainly helps control tartness and pH so products taste consistent and keep their quality. You may also see it in the EU as a permitted mineral source in supplements and fortified foods.
+
 <!--more-->
 
 ## At a glance
-- **Also called / E-number:** Magnesium citrate; E345  
-- **What it does:** Helps regulate acidity and bind metal ions (sequestrant) in foods[^2]  
-- **Common in:** A range of processed foods and beverages where acidity control or stabilization is needed (check labels for “magnesium citrate” or “E345”)  
-- **Diet flags:** None specific noted
+- **Also called / E-number:** Magnesium citrates; E345  
+- **What it does:** Helps regulate acidity (pH control)  
+- **Common in:** Soft drinks and flavored waters, candies, jams/jellies, canned fruit, and some dairy drinks  
+- **Diet flags:** No specific diet flags; check labels if you monitor magnesium intake  
 
 ## Why is Magnesium citrate added to food?
-It’s added to manage acidity and improve stability in foods and beverages. In the EU, food additives like magnesium citrate (E-numbers) are authorized after safety evaluation, and E-numbers signal an additive is approved for use; E345 is listed and permitted under EU food additive rules.[^1][^2] When shopping, look for it near the end of ingredient lists where acidity regulators often appear, and remember that EU labels may use either the name or the E-number.[^1]
+It’s added to adjust and stabilize acidity so the product’s flavor and quality stay consistent. In the EU, magnesium citrates are authorized as food additives under the Union list (E 345) and have official identity and purity specifications.[^1][^2] When shopping, expect to see it listed as “magnesium citrates” or “E 345.” Compare similar products if you prefer ones without extra acidity regulators.
 
 ## What foods contain Magnesium citrate?
-You’ll find magnesium citrate across various processed foods where acidity control or stabilization helps product quality. Examples include flavored drinks, powdered beverage mixes, jams and jellies, desserts, and some bakery items; it may also appear in fortified foods and dietary supplements as a magnesium source.[^7] Check labels for “magnesium citrate” or “E345,” and choose alternatives if you prefer products without added acidity regulators.
+You’ll most often find it in flavored beverages, sweets, and fruit-based products. Common examples include lemon-lime sodas, sports drinks, hard candies or gummies, jams and jellies, fruit cups or canned fruit, and some dairy or plant-based drinks; permitted uses and levels vary by category in the EU’s Union list.[^1] Check ingredient lists for “magnesium citrates” or “E 345.” Choose unsweetened or minimally processed options if you’re cutting back on additives.
 
 ## What can replace Magnesium citrate?
-Other citrates or acids can often do a similar job. Options include citric acid (/e330-citric-acid) for tartness and pH control, sodium citrates (/e331-sodium-citrates) or potassium citrates (/e332-potassium-citrates) for buffering and sequestration, and calcium citrates (/e333-calcium-citrates) when calcium fortification or specific texture goals are desired. Expect minor differences in taste, sodium/potassium content, or mineral contribution depending on the choice.
+Other acidity regulators can often do a similar job, though taste and cost can differ. Alternatives include [citric acid](/e330-citric-acid), [sodium citrates](/e331-sodium-citrates), [potassium citrates](/e332-potassium-citrates), and [calcium citrates](/e333-calcium-citrates). These can change sodium/potassium content or tartness, so manufacturers pick based on flavor goals and nutrition targets.
 
 ## How is Magnesium citrate made?
-Food-grade magnesium citrate is defined as magnesium salts of citric acid and must meet EU identity and purity specifications. These specifications set criteria such as assay limits and impurity controls to ensure consistent quality for use in foods.[^3]
+It’s typically produced by neutralizing food-grade citric acid with magnesium compounds and then drying and screening the product to meet purity specs. EU specifications describe “magnesium citrates” as magnesium salts of citric acid and set identity tests, assay ranges, and impurity limits to ensure consistent quality for food use.[^2]
 
 ## Is Magnesium citrate safe to eat?
-Within approved uses and levels, regulatory bodies consider magnesium citrate safe as a food additive. In the EU, it is authorized as E345 following safety evaluation, with manufacturers required to meet strict specifications and labeling rules.[^1][^2][^3]
-- Authorized in the EU as E345 with defined purity criteria.[^2][^3]
-- Additives in the EU are evaluated for safety before approval, and may be labeled by name or E-number on ingredient lists.[^1]
-- As a magnesium compound, it can contribute dietary magnesium, but total intake from all sources should remain sensible.[^4]
+When used as permitted in foods, it’s considered safe by EU authorities.[^1]
+- It’s on the EU Union list of authorized food additives (E 345), with uses generally at “quantum satis” (no more than needed to achieve the effect).[^1]
+- EU specifications set identity and purity criteria (including limits for contaminants) for magnesium citrates used in food.[^2]
+- EU labeling rules require additives to be named by function plus specific name or E-number (for example, “acidity regulator: magnesium citrates” or “acidity regulator: E 345”).[^3]
+- Very high intakes of magnesium from supplements and medicines can cause diarrhea and other effects; typical food-use levels are much lower than medicinal doses.[^4]
 
 ## Does Magnesium citrate have any benefits?
-In foods and supplements, it can supply magnesium, an essential mineral that supports many body functions. Magnesium citrate is one of the common forms used in dietary supplements to help maintain adequate magnesium intake.[^4][^7]
+It can act as a permitted mineral source of magnesium in EU food supplements and certain fortified foods, helping contribute to magnesium intake where allowed.[^6] If you’re choosing a supplement, follow the label and your healthcare provider’s advice, and check which magnesium form it uses.
 
 ## Who should avoid Magnesium citrate?
-People with kidney problems or those advised to limit magnesium should be cautious with magnesium from supplements and multiple fortified products. Excess magnesium from supplements or medications can cause diarrhea and stomach upset; read labels and consider total magnesium from all sources.[^4] If you’re limiting additives, scan ingredient lists for “magnesium citrate” or “E345.”
+People with kidney problems or anyone on a magnesium-restricted diet should be cautious with magnesium from supplements and laxatives and read labels closely.[^4][^5] If you’re sensitive to magnesium-containing laxatives, choose foods and drinks without added magnesium salts and talk with your clinician about your total intake.[^5]
 
 ## Myths & facts
-- Myth: “An E-number means the additive is unsafe.” Fact: An E-number means the additive is authorized in the EU after a safety evaluation, and it must meet strict rules and labeling requirements.[^1]
-- Myth: “Magnesium citrate is just citric acid.” Fact: Magnesium citrate is the magnesium salt of citric acid; it has different properties and functions than citric acid itself.[^3]
-- Myth: “If it’s in food, it will act like a laxative.” Fact: Magnesium citrate is a laxative only at medicinal doses; diarrhea and similar effects are linked to high intakes from supplements or drugs, not the small amounts used as additives.[^4]
+- Myth: “E 345 is banned.” Fact: Magnesium citrates (E 345) are authorized as food additives in the EU and included in the Union list with specifications.[^1][^2]
+- Myth: “Any amount of magnesium citrate in food works like a laxative.” Fact: Laxative use involves medicinal dosing; food uses are for acidity control and are much smaller.[^5][^1]
+- Myth: “An E-number means the additive is artificial and unsafe.” Fact: An E-number simply shows the additive is evaluated and approved in the EU, and magnesium citrates have defined food-grade specifications.[^7][^2]
 
 ## Magnesium citrate in Branded Foods
-You’ll typically see it in flavored beverages, powdered drink mixes, shelf-stable desserts, and some fortified foods and supplements. Ingredient lists may show “magnesium citrate” or “E345” depending on the market.[^1]
+You’ll see it most in mainstream sodas and sports drinks, some candies and gummies, and fruit preparations where tartness and pH control matter. It can also appear in EU food supplements as a listed magnesium source.
 
 ## FAQ — Top 5 questions
-**Q:** How will magnesium citrate appear on a label?  
-**A:** In the EU, additives can be listed by functional class plus name or E-number (e.g., “acidity regulator: E345 magnesium citrate”).[^1]
+Q: What is E 345?  
+A: E 345 refers to magnesium citrates, the magnesium salts of citric acid used as food additives, mainly to regulate acidity in foods and drinks.[^1][^2]
 
-**Q:** Is E345 allowed in the EU?  
-**A:** Yes. It’s authorized as a food additive under Regulation (EC) No 1333/2008, with detailed purity criteria in Commission Regulation (EU) No 231/2012.[^2][^3]
+Q: Is magnesium citrate in food the same as the laxative?  
+A: It’s the same compound family, but foods use much smaller amounts for flavor and stability, while laxatives use medicinal doses to produce a bowel movement.[^5]
 
-**Q:** Does magnesium citrate add magnesium to foods?  
-**A:** It can contribute magnesium and is also a common form in dietary supplements.[^4][^7]
+Q: How will it appear on the label?  
+A: In the EU it can appear as “magnesium citrates” or “E 345,” listed with its function like “acidity regulator.”[^3]
 
-**Q:** Are there rules about how much can be used?  
-**A:** EU legislation authorizes additives like E345 for specific food categories and conditions of use; manufacturers must comply with those rules.[^2]
+Q: Can it add magnesium to my diet?  
+A: In the EU, magnesium citrate is an approved mineral source for supplements and certain fortified foods; check your product’s nutrition label to see how much magnesium it provides.[^6]
 
-**Q:** Can I avoid it if I want fewer additives?  
-**A:** Yes. Check the ingredient list for “magnesium citrate” or “E345,” and choose products without it if you prefer.[^1]
+Q: Is it allowed in many foods?  
+A: Yes, the EU Union list authorizes E 345 in various categories, often at “quantum satis” (use only as much as needed for the effect).[^1]
 
 ## References
-[^1]: Food additives — European Commission. https://food.ec.europa.eu/safety/food-improvement-agents/additives_en  
-[^2]: Regulation (EC) No 1333/2008 on food additives — EUR-Lex. https://eur-lex.europa.eu/eli/reg/2008/1333/oj  
-[^3]: Commission Regulation (EU) No 231/2012 laying down specifications for food additives — EUR-Lex. https://eur-lex.europa.eu/eli/reg/2012/231/oj  
-[^4]: Magnesium — NIH Office of Dietary Supplements (Consumer Fact Sheet). https://ods.od.nih.gov/factsheets/Magnesium-Consumer/  
-[^7]: Commission Regulation (EC) No 1170/2009 (permitted vitamin and mineral substances for addition to foods and in food supplements) — EUR-Lex. https://eur-lex.europa.eu/eli/reg/2009/1170/oj
+[^1]: Regulation (EC) No 1333/2008 of the European Parliament and of the Council on food additives — EUR-Lex. https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32008R1333
+[^2]: Commission Regulation (EU) No 231/2012 laying down specifications for food additives listed in Annexes II and III to Regulation (EC) No 1333/2008 — EUR-Lex. https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231
+[^3]: Regulation (EU) No 1169/2011 on the provision of food information to consumers (Article 18) — EUR-Lex. https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011R1169
+[^4]: Magnesium — Fact Sheet for Health Professionals — NIH Office of Dietary Supplements. https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/
+[^5]: Magnesium Citrate (oral) — MedlinePlus, NIH. https://medlineplus.gov/druginfo/meds/a619019.html
+[^6]: Commission Regulation (EC) No 1170/2009 amending Directive 2002/46/EC and Regulation (EC) No 1925/2006 as regards lists of vitamin and minerals and their forms that can be added to foods — EUR-Lex. https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009R1170
+[^7]: Food additives — European Commission overview. https://food.ec.europa.eu/safety/food-improvement-agents/additives_en
