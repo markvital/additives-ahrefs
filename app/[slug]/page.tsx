@@ -20,6 +20,14 @@ const formatAdditiveDisplayName = (eNumber: string, title: string): string => {
   return parts.join(' - ') || 'Additive';
 };
 
+const formatOriginLabel = (value: string): string => {
+  if (!value) {
+    return '';
+  }
+
+  return value.charAt(0).toUpperCase() + value.slice(1);
+};
+
 const SUMMARY_MARKER_REGEX = /<!--\s*more\s*-->/i;
 
 const extractArticleSummary = (article: string | null | undefined): string | null => {
@@ -101,6 +109,7 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
     searchCountryCode && searchFlagEmoji ? getCountryLabel(searchCountryCode) ?? searchCountryCode.toUpperCase() : null;
   const articleSummary = extractArticleSummary(additive.article);
   const articleBody = extractArticleBody(additive.article);
+  const originList = additive.origin.filter((value, index, list) => list.indexOf(value) === index);
 
   return (
     <Box component="article" display="flex" flexDirection="column" gap={4} alignItems="center" width="100%">
@@ -174,6 +183,21 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
             </Typography>
             {additive.functions.map((fn) => (
               <Chip key={fn} label={fn} variant="outlined" />
+            ))}
+          </Stack>
+        )}
+
+        {originList.length > 0 && (
+          <Stack direction="row" flexWrap="wrap" gap={1} alignItems="center">
+            <Typography
+              variant="body1"
+              color="text.secondary"
+              sx={{ fontWeight: 600, whiteSpace: 'nowrap', marginRight: 1.5 }}
+            >
+              Origin:
+            </Typography>
+            {originList.map((origin) => (
+              <Chip key={origin} label={formatOriginLabel(origin)} variant="outlined" />
             ))}
           </Stack>
         )}
