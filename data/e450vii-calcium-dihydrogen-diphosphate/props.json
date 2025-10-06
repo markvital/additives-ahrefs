@@ -18,5 +18,9 @@
   "wikidata": "Q290828",
   "searchVolume": 0,
   "searchRank": null,
-  "searchSparkline": []
+  "searchSparkline": [],
+  "origin": [
+    "synthetic",
+    "mineral"
+  ]
 }

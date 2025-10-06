@@ -18,5 +18,8 @@
   "wikidata": "Q11867365",
   "searchVolume": 10,
   "searchRank": 435,
-  "searchSparkline": []
+  "searchSparkline": [],
+  "origin": [
+    "synthetic"
+  ]
 }

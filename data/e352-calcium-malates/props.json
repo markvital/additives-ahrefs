@@ -11,5 +11,10 @@
   "wikidata": "Q1356722",
   "searchVolume": null,
   "searchRank": null,
-  "searchSparkline": []
+  "searchSparkline": [],
+  "origin": [
+    "plant",
+    "microbiological",
+    "synthetic"
+  ]
 }

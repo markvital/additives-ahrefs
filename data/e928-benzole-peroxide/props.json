@@ -14,5 +14,8 @@
   "wikidata": "Q411424",
   "searchVolume": 50,
   "searchRank": 354,
-  "searchSparkline": []
+  "searchSparkline": [],
+  "origin": [
+    "synthetic"
+  ]
 }

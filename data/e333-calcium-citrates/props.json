@@ -16,5 +16,10 @@
   "wikidata": "Q420280",
   "searchVolume": 0,
   "searchRank": null,
-  "searchSparkline": []
+  "searchSparkline": [],
+  "origin": [
+    "plant",
+    "microbiological",
+    "mineral"
+  ]
 }

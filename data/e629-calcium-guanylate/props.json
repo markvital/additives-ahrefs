@@ -11,5 +11,10 @@
   "wikidata": "Q5018832",
   "searchVolume": 0,
   "searchRank": null,
-  "searchSparkline": []
+  "searchSparkline": [],
+  "origin": [
+    "plant",
+    "animal",
+    "microbiological"
+  ]
 }

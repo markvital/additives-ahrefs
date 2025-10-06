@@ -27,5 +27,10 @@
     88042,
     85116,
     81919
+  ],
+  "origin": [
+    "animal",
+    "synthetic",
+    "mineral"
   ]
 }

@@ -22,5 +22,11 @@
     473,
     526,
     543
+  ],
+  "origin": [
+    "plant",
+    "animal",
+    "synthetic",
+    "mineral"
   ]
 }

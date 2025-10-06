@@ -22,5 +22,11 @@
     14796,
     14919,
     15468
+  ],
+  "origin": [
+    "plant",
+    "animal",
+    "microbiological",
+    "synthetic"
   ]
 }
