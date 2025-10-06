@@ -8,18 +8,21 @@ import {
   Box,
   Button,
   Chip,
+  Link as MuiLink,
   Stack,
   TextField,
   Typography,
   createFilterOptions,
 } from '@mui/material';
+import LaunchIcon from '@mui/icons-material/Launch';
 import type { Additive } from '../lib/additives';
 import { formatAdditiveDisplayName, formatOriginLabel } from '../lib/additive-format';
 import { extractArticleSummary, splitArticlePreview } from '../lib/article';
-import { formatMonthlyVolume, getCountryFlagEmoji, getCountryLabel } from '../lib/format';
+import { formatMonthlyVolume, formatProductCount, getCountryFlagEmoji, getCountryLabel } from '../lib/format';
 import type { SearchHistoryDataset } from '../lib/search-history';
 import { MarkdownArticle } from './MarkdownArticle';
 import { SearchHistoryChart } from './SearchHistoryChart';
+import { getFdcProductSearchUrl } from '../lib/products';
 
 interface ComparisonAdditive extends Additive {
   searchHistory: SearchHistoryDataset | null;
@@ -111,6 +114,42 @@ const renderOriginContent = (additive: ComparisonAdditive | null) => {
       {origins.map((origin) => (
         <Chip key={origin} label={formatOriginLabel(origin)} variant="outlined" size="small" />
       ))}
+    </Stack>
+  );
+};
+
+const renderProductMetrics = (additive: ComparisonAdditive | null) => {
+  if (!additive) {
+    return null;
+  }
+
+  const productCount = typeof additive.productCount === 'number' ? additive.productCount : null;
+
+  if (productCount === null) {
+    return (
+      <Typography variant="body2" color="text.secondary">
+        Product count data is not available.
+      </Typography>
+    );
+  }
+
+  const productUrl = getFdcProductSearchUrl(additive.title);
+
+  return (
+    <Stack direction="row" spacing={1.5} alignItems="center" flexWrap="wrap">
+      <Typography component="span" variant="body1" sx={{ fontVariantNumeric: 'tabular-nums' }}>
+        {formatProductCount(productCount)} products
+      </Typography>
+      <MuiLink
+        href={productUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        underline="hover"
+        sx={{ display: 'inline-flex', alignItems: 'center', gap: 0.5, fontWeight: 500 }}
+      >
+        View on FoodData Central
+        <LaunchIcon fontSize="inherit" />
+      </MuiLink>
     </Stack>
   );
 };
@@ -374,6 +413,11 @@ export function AdditiveComparison({ additives, initialSelection }: AdditiveComp
       key: 'origin',
       label: 'Origin',
       render: renderOriginContent,
+    },
+    {
+      key: 'products',
+      label: 'Products',
+      render: renderProductMetrics,
     },
     {
       key: 'search-metrics',

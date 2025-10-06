@@ -14,6 +14,16 @@ export const formatMonthlyVolume = (value: number): string => {
   return `${Math.round(value)}`;
 };
 
+const productCountFormatter = new Intl.NumberFormat('en-US');
+
+export const formatProductCount = (value: number): string => {
+  if (!Number.isFinite(value)) {
+    return '';
+  }
+
+  return productCountFormatter.format(Math.round(value));
+};
+
 const COUNTRY_NAME_MAP: Record<string, string> = {
   US: 'United States',
 };

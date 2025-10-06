@@ -12,12 +12,13 @@ import {
   getOriginSlug,
 } from '../../lib/additives';
 
-import { formatMonthlyVolume, getCountryFlagEmoji, getCountryLabel } from '../../lib/format';
+import { formatMonthlyVolume, formatProductCount, getCountryFlagEmoji, getCountryLabel } from '../../lib/format';
 import { getSearchHistory } from '../../lib/search-history';
 import { getSearchQuestions } from '../../lib/search-questions';
 import { SearchHistoryChart } from '../../components/SearchHistoryChart';
 import { MarkdownArticle } from '../../components/MarkdownArticle';
 import { SearchQuestions } from '../../components/SearchQuestions';
+import { getFdcProductSearchUrl } from '../../lib/products';
 
 interface AdditivePageProps {
   params: Promise<{ slug: string }>;
@@ -77,6 +78,8 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
   const articleSummary = extractArticleSummary(additive.article);
   const articleBody = extractArticleBody(additive.article);
   const originList = additive.origin.filter((value, index, list) => list.indexOf(value) === index);
+  const productCount = typeof additive.productCount === 'number' ? additive.productCount : null;
+  const productSearchUrl = getFdcProductSearchUrl(additive.title);
 
   return (
     <Box component="article" display="flex" flexDirection="column" gap={4} alignItems="center" width="100%">
@@ -198,6 +201,23 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
               );
             })}
           </Stack>
+        )}
+
+        {productCount !== null && (
+          <Typography variant="body1" color="text.secondary" sx={{ display: 'flex', flexWrap: 'wrap', gap: 0.75 }}>
+            <Box component="span" sx={{ fontWeight: 600 }}>
+              Products:
+            </Box>
+            <MuiLink
+              href={productSearchUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              underline="hover"
+              sx={{ fontWeight: 500 }}
+            >
+              Appears in {formatProductCount(productCount)} products in FoodData Central
+            </MuiLink>
+          </Typography>
         )}
 
         {articleSummary && (

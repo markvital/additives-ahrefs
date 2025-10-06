@@ -16,6 +16,7 @@ export interface AdditivePropsFile {
   searchSparkline?: unknown;
   searchVolume?: unknown;
   searchRank?: unknown;
+  productCount?: unknown;
 }
 
 export interface Additive {
@@ -32,6 +33,7 @@ export interface Additive {
   searchSparkline: Array<number | null>;
   searchVolume: number | null;
   searchRank: number | null;
+  productCount: number | null;
 }
 
 interface AdditiveIndexEntry {
@@ -128,6 +130,7 @@ const readAdditiveProps = (
       searchSparkline: [],
       searchVolume: null,
       searchRank: null,
+      productCount: null,
     };
   }
 
@@ -151,6 +154,7 @@ const readAdditiveProps = (
       searchSparkline: toSparkline(parsed.searchSparkline),
       searchVolume: toOptionalNumber(parsed.searchVolume),
       searchRank: toOptionalNumber(parsed.searchRank),
+      productCount: toOptionalNumber(parsed.productCount),
     };
   } catch (error) {
     console.error(`Failed to read additive props for ${slug}:`, error);
@@ -170,6 +174,7 @@ const readAdditiveProps = (
       searchSparkline: [],
       searchVolume: null,
       searchRank: null,
+      productCount: null,
     };
   }
 };
