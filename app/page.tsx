@@ -1,9 +1,19 @@
 import { Box, Typography } from '@mui/material';
 
-import { getAdditives } from '../lib/additives';
+import { getAdditives, getFunctionFilters, getOriginFilters } from '../lib/additives';
 import { AdditiveGrid } from '../components/AdditiveGrid';
+import { FilterPanel } from '../components/FilterPanel';
+import { formatFilterLabel } from '../lib/text';
 
 const additives = getAdditives();
+const functionOptions = getFunctionFilters().map(({ slug, value }) => ({
+  slug,
+  label: formatFilterLabel(value),
+}));
+const originOptions = getOriginFilters().map(({ slug, value }) => ({
+  slug,
+  label: formatFilterLabel(value),
+}));
 
 export default function HomePage() {
   return (
@@ -18,6 +28,7 @@ export default function HomePage() {
         </Typography>
       </Box>
 
+      <FilterPanel functionOptions={functionOptions} originOptions={originOptions} />
       <AdditiveGrid items={additives} />
     </Box>
   );

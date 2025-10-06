@@ -5,10 +5,12 @@ import { Box, Typography } from '@mui/material';
 import {
   getAdditivesByFunctionSlug,
   getFunctionFilters,
+  getOriginFilters,
   getFunctionValueBySlug,
 } from '../../../lib/additives';
 import { formatFilterLabel } from '../../../lib/text';
 import { AdditiveGrid } from '../../../components/AdditiveGrid';
+import { FilterPanel } from '../../../components/FilterPanel';
 
 interface FunctionPageProps {
   params: Promise<{ functionSlug: string }>;
@@ -17,8 +19,20 @@ interface FunctionPageProps {
 const formatCountLabel = (count: number): string =>
   count === 1 ? '1 additive uses this function.' : `${count} additives use this function.`;
 
+const functionFilters = getFunctionFilters();
+const originFilters = getOriginFilters();
+
+const functionOptions = functionFilters.map(({ slug, value }) => ({
+  slug,
+  label: formatFilterLabel(value),
+}));
+const originOptions = originFilters.map(({ slug, value }) => ({
+  slug,
+  label: formatFilterLabel(value),
+}));
+
 export async function generateStaticParams() {
-  return getFunctionFilters().map(({ slug }) => ({ functionSlug: slug }));
+  return functionFilters.map(({ slug }) => ({ functionSlug: slug }));
 }
 
 export async function generateMetadata({ params }: FunctionPageProps): Promise<Metadata> {
@@ -64,6 +78,11 @@ export default async function FunctionPage({ params }: FunctionPageProps) {
         </Typography>
       </Box>
 
+      <FilterPanel
+        functionOptions={functionOptions}
+        originOptions={originOptions}
+        currentFunctionSlug={functionSlug}
+      />
       <AdditiveGrid items={additives} emptyMessage="No additives found for this function." />
     </Box>
   );
