@@ -328,23 +328,82 @@ function extractTextOutput(response) {
   return '';
 }
 
+function sanitiseJsonCandidate(candidate) {
+  if (!candidate) {
+    return null;
+  }
+
+  let text = candidate.trim();
+
+  if (!text) {
+    return null;
+  }
+
+  if (text.startsWith('```')) {
+    const blockMatch = text.match(/```(?:json)?\s*([\s\S]*?)```/i);
+    if (blockMatch) {
+      text = blockMatch[1].trim();
+    }
+  }
+
+  if (!text.startsWith('{') && !text.startsWith('[')) {
+    const bracesMatch = text.match(/\{[\s\S]*\}/);
+    if (bracesMatch) {
+      text = bracesMatch[0];
+    } else {
+      return null;
+    }
+  }
+
+  text = text.replace(/^[\ufeff\s]+/, '').replace(/;?\s*$/, '');
+
+  const withQuotedKeys = text.replace(/([,{]\s*)([A-Za-z0-9_-]+)\s*:/g, (match, prefix, key) => {
+    return `${prefix}"${key}":`;
+  });
+
+  const withNormalisedQuotes = withQuotedKeys.replace(/'([^'\\]*)'/g, (match, value) => {
+    return `"${value.replace(/"/g, '\\"')}"`;
+  });
+
+  const withoutTrailingCommas = withNormalisedQuotes.replace(/,\s*([}\]])/g, '$1');
+
+  return withoutTrailingCommas;
+}
+
 function extractJsonPayload(rawText) {
   if (!rawText) {
     return null;
   }
 
-  try {
-    return JSON.parse(rawText);
-  } catch (error) {
-    // fall through
+  const candidates = [];
+  const trimmed = rawText.trim();
+
+  if (trimmed) {
+    candidates.push(trimmed);
   }
 
-  const match = rawText.match(/\{[\s\S]*\}/);
-  if (match) {
+  const codeBlockMatches = trimmed.match(/```(?:json)?\s*[\s\S]*?```/gi);
+  if (Array.isArray(codeBlockMatches)) {
+    codeBlockMatches.forEach((match) => {
+      candidates.push(match);
+    });
+  }
+
+  const bracesMatch = trimmed.match(/\{[\s\S]*\}/);
+  if (bracesMatch) {
+    candidates.push(bracesMatch[0]);
+  }
+
+  for (const candidate of candidates) {
+    const sanitised = sanitiseJsonCandidate(candidate);
+    if (!sanitised) {
+      continue;
+    }
+
     try {
-      return JSON.parse(match[0]);
+      return JSON.parse(sanitised);
     } catch (error) {
-      return null;
+      // continue searching
     }
   }
 
