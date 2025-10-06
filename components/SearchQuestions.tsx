@@ -7,9 +7,24 @@ interface SearchQuestionsProps {
 }
 
 export function SearchQuestions({ questions }: SearchQuestionsProps) {
+  const formatQuestion = (raw: string) => {
+    const trimmed = raw.trim();
+
+    if (!trimmed) {
+      return '';
+    }
+
+    const capitalized = `${trimmed.charAt(0).toUpperCase()}${trimmed.slice(1)}`;
+    const hasQuestionMark = /[?？]\s*$/.test(capitalized);
+
+    return hasQuestionMark ? capitalized : `${capitalized}?`;
+  };
+
   const items = questions
     .map((question) => question.keyword.trim())
     .filter((keyword, index, list) => keyword.length > 0 && list.indexOf(keyword) === index)
+    .map(formatQuestion)
+    .filter((keyword): keyword is string => keyword.length > 0)
     .slice(0, 5);
 
   if (items.length === 0) {
@@ -18,8 +33,8 @@ export function SearchQuestions({ questions }: SearchQuestionsProps) {
 
   return (
     <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1.5 }}>
-      <Typography component="h2" variant="h3" sx={{ fontWeight: 600 }}>
-        Popular Questions?
+      <Typography component="h2" variant="h4" sx={{ fontWeight: 600 }}>
+        Popular Questions
       </Typography>
 
       <Box
