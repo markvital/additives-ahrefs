@@ -11,6 +11,7 @@ import {
   getFunctionSlug,
   getOriginSlug,
 } from '../../lib/additives';
+
 import { formatMonthlyVolume, getCountryFlagEmoji, getCountryLabel } from '../../lib/format';
 import { getSearchHistory } from '../../lib/search-history';
 import { SearchHistoryChart } from '../../components/SearchHistoryChart';

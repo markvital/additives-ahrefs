@@ -230,7 +230,6 @@ const renderSearchHistory = (additive: ComparisonAdditive | null) => {
 };
 
 const LARGE_BUTTON_STYLES = {
-  alignSelf: { xs: 'stretch', md: 'flex-start' },
   fontSize: '1.1rem',
   px: 4,
   py: 1.75,
@@ -246,9 +245,17 @@ const renderDetailLink = (additive: ComparisonAdditive | null) => {
   }
 
   return (
-    <Button component={Link} href={`/${additive.slug}`} variant="contained" color="primary" sx={LARGE_BUTTON_STYLES}>
-      Read more
-    </Button>
+    <Box sx={{ display: 'flex', justifyContent: 'center' }}>
+      <Button
+        component={Link}
+        href={`/${additive.slug}`}
+        variant="contained"
+        color="primary"
+        sx={LARGE_BUTTON_STYLES}
+      >
+        Read more
+      </Button>
+    </Box>
   );
 };
 
@@ -279,9 +286,17 @@ const renderArticlePreview = (additive: ComparisonAdditive | null) => {
           Preview truncated. Visit the additive page to read the full article.
         </Typography>
       ) : null}
-      <Button component={Link} href={`/${additive.slug}`} variant="contained" color="primary" sx={LARGE_BUTTON_STYLES}>
-        Read more
-      </Button>
+      <Box sx={{ display: 'flex', justifyContent: 'center' }}>
+        <Button
+          component={Link}
+          href={`/${additive.slug}`}
+          variant="contained"
+          color="primary"
+          sx={LARGE_BUTTON_STYLES}
+        >
+          Read more
+        </Button>
+      </Box>
     </Stack>
   );
 };
@@ -412,14 +427,11 @@ export function AdditiveComparison({ additives, initialSelection }: AdditiveComp
 
   return (
     <Stack spacing={4}>
-      <Stack spacing={2}>
-        <Typography component="h1" variant="h1">
-          Compare additives
-        </Typography>
-        <Typography variant="body1" color="text.secondary">
-          Search for food additives by E-number, name, or synonym to see how they compare side by side.
-        </Typography>
-      </Stack>
+      <Typography component="h1" variant="h1">
+        {leftDisplayName && rightDisplayName
+          ? `Comparing ${leftDisplayName} vs ${rightDisplayName}`
+          : 'Compare additives'}
+      </Typography>
 
       <Box
         sx={{
@@ -454,12 +466,6 @@ export function AdditiveComparison({ additives, initialSelection }: AdditiveComp
         />
       </Box>
 
-      {leftDisplayName && rightDisplayName ? (
-        <Typography variant="h2" textAlign="center">
-          Comparing {leftDisplayName} vs {rightDisplayName}
-        </Typography>
-      ) : null}
-
       <Box
         sx={{
           border: '1px solid',
@@ -485,17 +491,19 @@ export function AdditiveComparison({ additives, initialSelection }: AdditiveComp
                 backgroundColor: index % 2 === 0 ? 'grey.50' : 'background.paper',
               }}
             >
-              <Typography
-                variant="subtitle2"
-                color="text.secondary"
-                sx={{
-                  gridColumn: '1 / -1',
-                  textTransform: 'uppercase',
-                  letterSpacing: 1,
-                }}
-              >
-                {section.label}
-              </Typography>
+              {section.label ? (
+                <Typography
+                  variant="subtitle2"
+                  color="text.secondary"
+                  sx={{
+                    gridColumn: '1 / -1',
+                    textTransform: 'uppercase',
+                    letterSpacing: 1,
+                  }}
+                >
+                  {section.label}
+                </Typography>
+              ) : null}
               <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1.5 }}>
                 {section.render(selection.left)}
               </Box>
