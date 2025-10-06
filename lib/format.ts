@@ -14,6 +14,15 @@ export const formatMonthlyVolume = (value: number): string => {
   return `${Math.round(value)}`;
 };
 
+export const formatProductCount = (value: number): string => {
+  if (!Number.isFinite(value)) {
+    return '';
+  }
+
+  const safeValue = Math.max(0, Math.round(value));
+  return safeValue.toLocaleString('en-US');
+};
+
 const COUNTRY_NAME_MAP: Record<string, string> = {
   US: 'United States',
 };
