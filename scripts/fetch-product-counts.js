@@ -21,9 +21,7 @@ const execFileAsync = promisify(execFile);
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const ADDITIVES_INDEX_PATH = path.join(DATA_DIR, 'additives.json');
 const API_BASE_URL = 'https://world.openfoodfacts.org/api/v2/search';
-const REQUEST_DELAY_MS = 150;
-
-const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+const FACET_INDEX_URL = 'https://world.openfoodfacts.org/facets/additives.json';
 
 const normaliseAdditiveSlug = (value) => (typeof value === 'string' ? value.trim().toLowerCase() : '');
 
@@ -231,6 +229,83 @@ const writeProps = async (slug, props) => {
   await fs.writeFile(propsPathForSlug(slug), `${JSON.stringify(props, null, 2)}\n`);
 };
 
+const slugFromFacetUrl = (value) => {
+  if (typeof value !== 'string' || value.trim().length === 0) {
+    return null;
+  }
+
+  try {
+    const url = new URL(value);
+    const parts = url.pathname.split('/').filter(Boolean);
+    const last = parts[parts.length - 1];
+    return typeof last === 'string' && last.length > 0 ? last.toLowerCase() : null;
+  } catch (error) {
+    return null;
+  }
+};
+
+const fetchFacetProductCounts = async ({ debug = false } = {}) => {
+  const result = new Map();
+  let page = 1;
+
+  try {
+    while (true) {
+      const url = new URL(FACET_INDEX_URL);
+      url.searchParams.set('page', String(page));
+
+      if (debug) {
+        console.log(`[debug] Fetching facet page ${page}: ${url.toString()}`);
+      }
+
+      const { stdout, stderr } = await execFileAsync('curl', ['-fsS', url.toString()]);
+
+      if (debug && stderr) {
+        const trimmed = stderr.toString().trim();
+        if (trimmed.length > 0) {
+          console.log('[debug] curl stderr:', trimmed);
+        }
+      }
+
+      const data = JSON.parse(stdout);
+      if (!data || typeof data !== 'object' || !Array.isArray(data.tags)) {
+        throw new Error(`Unexpected facet response format on page ${page}.`);
+      }
+
+      if (data.tags.length === 0) {
+        break;
+      }
+
+      for (const tag of data.tags) {
+        if (!tag || typeof tag !== 'object') {
+          continue;
+        }
+
+        const slug = slugFromFacetUrl(tag.url);
+        if (!slug) {
+          continue;
+        }
+
+        const count = toOptionalNumber(tag.products);
+        if (count === null) {
+          continue;
+        }
+
+        result.set(slug, count);
+      }
+
+      page += 1;
+
+      if (page > 1000) {
+        throw new Error('Facet pagination appears to be stuck.');
+      }
+    }
+
+    return result;
+  } catch (error) {
+    throw new Error(`Failed to fetch additive facet index: ${error.message}`);
+  }
+};
+
 const fetchProductCount = async (slug, { debug = false } = {}) => {
   const url = new URL(API_BASE_URL);
   url.searchParams.set('additives_tags', `en:${slug}`);
@@ -292,29 +367,58 @@ async function main() {
     return;
   }
 
+  let facetCounts = null;
+
+  try {
+    facetCounts = await fetchFacetProductCounts({ debug: cliArgs.debug });
+    console.log(`[info] Loaded ${facetCounts.size} product counts from facet index.`);
+  } catch (error) {
+    console.warn(`Warning: ${error.message}`);
+  }
+
   console.log(`Processing ${targets.length} additive${targets.length === 1 ? '' : 's'}...`);
 
   for (let index = 0; index < targets.length; index += 1) {
     const additive = targets[index];
     const props = await readProps(additive.slug, additive);
+    const existingCount = typeof props.productCount === 'number' ? props.productCount : null;
+    const hasFacetCount = facetCounts instanceof Map && facetCounts.has(additive.slug);
+    const facetCount = hasFacetCount ? facetCounts.get(additive.slug) : null;
+    const shouldUpdate =
+      cliArgs.force ||
+      existingCount === null ||
+      (hasFacetCount && facetCount !== existingCount);
 
-    if (!cliArgs.force && typeof props.productCount === 'number') {
-      console.log(`[skip] ${additive.slug} already has productCount=${props.productCount}`);
+    if (!shouldUpdate) {
+      console.log(`[skip] ${additive.slug} already has productCount=${existingCount}`);
       continue;
     }
 
-    try {
-      const count = await fetchProductCount(additive.slug, { debug: cliArgs.debug });
-      props.productCount = count === null ? null : count;
-      await writeProps(additive.slug, props);
-      console.log(`[${index + 1}/${targets.length}] ${additive.slug} → ${props.productCount}`);
-    } catch (error) {
-      console.error(`Error processing ${additive.slug}: ${error.message}`);
+    let sourceLabel = 'facet';
+    let nextCount = facetCount;
+
+    if (!hasFacetCount) {
+      sourceLabel = 'search';
+
+      try {
+        const count = await fetchProductCount(additive.slug, { debug: cliArgs.debug });
+        nextCount = count === null ? null : count;
+      } catch (error) {
+        console.error(`Error processing ${additive.slug}: ${error.message}`);
+        continue;
+      }
     }
 
-    if (index + 1 < targets.length) {
-      await sleep(REQUEST_DELAY_MS);
+    const outputCount = nextCount === null ? 'null' : nextCount;
+
+    if (!cliArgs.force && existingCount !== null && existingCount === nextCount) {
+      console.log(`[skip] ${additive.slug} productCount unchanged (${outputCount})`);
+      continue;
     }
+
+    props.productCount = nextCount;
+    await writeProps(additive.slug, props);
+    console.log(`[${index + 1}/${targets.length}] ${additive.slug} → ${outputCount} (${sourceLabel})`);
   }
 
   console.log('Done.');

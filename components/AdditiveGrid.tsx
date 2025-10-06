@@ -225,16 +225,14 @@ export function AdditiveGrid({
                 )}
               </CardContent>
             </CardActionArea>
-            <Box
-              sx={{
-                px: 3,
-                py: 2,
-                borderTop: '1px solid',
-                borderColor: 'divider',
-                bgcolor: highlightProducts ? 'grey.50' : 'background.paper',
-              }}
-            >
-              {hasProductCount && productCountLabel ? (
+            {hasProductCount && productCountLabel ? (
+              <Box
+                sx={{
+                  px: 3,
+                  py: 2,
+                  bgcolor: highlightProducts ? 'grey.50' : 'background.paper',
+                }}
+              >
                 <Typography
                   variant="body2"
                   color={highlightProducts ? 'text.primary' : 'text.secondary'}
@@ -251,12 +249,8 @@ export function AdditiveGrid({
                     {productCountLabel} products
                   </MuiLink>
                 </Typography>
-              ) : (
-                <Typography variant="body2" color="text.secondary">
-                  Product data not available.
-                </Typography>
-              )}
-            </Box>
+              </Box>
+            ) : null}
           </Card>
         );
       })}
