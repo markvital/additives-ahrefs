@@ -1,17 +1,23 @@
-import { Box, Typography } from '@mui/material';
-
-import { getAdditives, getFunctionFilters, getOriginFilters } from '../lib/additives';
-import { AdditiveGrid } from '../components/AdditiveGrid';
-import { FilterPanel } from '../components/FilterPanel';
-import { formatFilterLabel } from '../lib/text';
 import Link from 'next/link';
-import { Avatar, Box, Card, CardActionArea, CardContent, Chip, Stack, Typography } from '@mui/material';
+import {
+  Avatar,
+  Box,
+  Card,
+  CardActionArea,
+  CardContent,
+  Chip,
+  Stack,
+  Typography,
+} from '@mui/material';
 import type { Theme } from '@mui/material/styles';
 
-import { getAdditives } from '../lib/additives';
+import { AdditiveGrid } from '../components/AdditiveGrid';
+import { FilterPanel } from '../components/FilterPanel';
 import { SearchSparkline } from '../components/SearchSparkline';
+import { getAdditives, getFunctionFilters, getOriginFilters } from '../lib/additives';
 import { formatMonthlyVolume } from '../lib/format';
 import { theme } from '../lib/theme';
+import { formatFilterLabel } from '../lib/text';
 
 const additives = getAdditives();
 const functionOptions = getFunctionFilters().map(({ slug, value }) => ({
