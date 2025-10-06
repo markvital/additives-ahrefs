@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  output: 'export',
+  output: 'standalone',
   transpilePackages: ['@mui/material', '@mui/system', '@mui/icons-material', '@mui/utils'],
   images: {
     unoptimized: true,
