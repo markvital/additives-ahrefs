@@ -1,137 +1,87 @@
 {
   "keyword": "Magnesium citrate",
   "country": "us",
-  "fetchedAt": "2025-10-06T03:16:03.022Z",
+  "fetchedAt": "2025-10-06T03:52:38.907Z",
   "questions": [
     {
       "keyword": "what is magnesium citrate good for",
       "volume": 6900,
       "parent_topic": "magnesium citrate benefits",
-      "intents": {
-        "informational": true,
-        "navigational": false,
-        "commercial": false,
-        "transactional": false,
-        "branded": false,
-        "local": false
-      }
+      "intents": [
+        "informational"
+      ]
     },
     {
       "keyword": "is it safe to take magnesium citrate daily",
       "volume": 4700,
       "parent_topic": "magnesium citrate",
-      "intents": {
-        "informational": true,
-        "navigational": false,
-        "commercial": false,
-        "transactional": false,
-        "branded": false,
-        "local": false
-      }
+      "intents": [
+        "informational"
+      ]
     },
     {
       "keyword": "what does magnesium citrate do",
       "volume": 4600,
       "parent_topic": "magnesium citrate",
-      "intents": {
-        "informational": true,
-        "navigational": false,
-        "commercial": false,
-        "transactional": false,
-        "branded": false,
-        "local": false
-      }
+      "intents": [
+        "informational"
+      ]
     },
     {
       "keyword": "how long does magnesium citrate take to wear off",
       "volume": 4500,
       "parent_topic": "how long does magnesium citrate take to wear off",
-      "intents": {
-        "informational": true,
-        "navigational": false,
-        "commercial": false,
-        "transactional": false,
-        "branded": false,
-        "local": false
-      }
+      "intents": [
+        "informational"
+      ]
     },
     {
       "keyword": "how long will i poop after taking magnesium citrate",
       "volume": 4200,
       "parent_topic": "how long does magnesium citrate take to wear off",
-      "intents": {
-        "informational": true,
-        "navigational": false,
-        "commercial": false,
-        "transactional": false,
-        "branded": false,
-        "local": false
-      }
+      "intents": [
+        "informational"
+      ]
     },
     {
       "keyword": "how much magnesium citrate should i take",
       "volume": 3800,
       "parent_topic": "how much magnesium citrate should i take",
-      "intents": {
-        "informational": true,
-        "navigational": false,
-        "commercial": false,
-        "transactional": false,
-        "branded": false,
-        "local": false
-      }
+      "intents": [
+        "informational"
+      ]
     },
     {
       "keyword": "what is magnesium citrate",
       "volume": 3600,
       "parent_topic": "how long does it take for magnesium citrate to work",
-      "intents": {
-        "informational": true,
-        "navigational": false,
-        "commercial": false,
-        "transactional": false,
-        "branded": false,
-        "local": false
-      }
+      "intents": [
+        "informational"
+      ]
     },
     {
       "keyword": "how long does it take for magnesium citrate to work",
       "volume": 3500,
       "parent_topic": "how long does magnesium citrate take to work",
-      "intents": {
-        "informational": true,
-        "navigational": false,
-        "commercial": false,
-        "transactional": false,
-        "branded": false,
-        "local": false
-      }
+      "intents": [
+        "informational"
+      ]
     },
     {
       "keyword": "how long does magnesium citrate take to work",
       "volume": 3200,
       "parent_topic": "magnesium citrate for constipation",
-      "intents": {
-        "informational": true,
-        "navigational": false,
-        "commercial": false,
-        "transactional": false,
-        "branded": false,
-        "local": false
-      }
+      "intents": [
+        "informational"
+      ]
     },
     {
       "keyword": "how fast does magnesium citrate work",
       "volume": 2900,
       "parent_topic": "how long does it take for magnesium citrate to work",
-      "intents": {
-        "informational": true,
-        "navigational": false,
-        "commercial": false,
-        "transactional": false,
-        "branded": false,
-        "local": false
-      }
+      "intents": [
+        "informational"
+      ]
     }
   ]
 }

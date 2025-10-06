@@ -13,17 +13,14 @@ const API_BASE_URL = 'https://api.ahrefs.com/v3/keywords-explorer/matching-terms
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const ADDITIVES_INDEX_PATH = path.join(DATA_DIR, 'additives.json');
 const QUESTIONS_FILENAME = 'search-questions.json';
+const ENV_LOCAL_PATH = path.join(__dirname, '..', 'env.local');
 const DEFAULT_COUNTRY = 'us';
 const FETCH_LIMIT = 50;
 const MAX_QUESTIONS = 10;
 const REQUEST_DELAY_MS = 200;
 const MAX_ATTEMPTS = 5;
-
-const API_TOKEN =
-  process.env.AHREFS_API_KEY ||
-  process.env.AHREFS_API_TOKEN ||
-  process.env.AHREFS_TOKEN ||
-  'ktGhsM5um6O9vQFyYtUTiLd-Vd1MLZah-3etMqHF';
+const DEFAULT_LIMIT = Infinity;
+const DEFAULT_BATCH_SIZE = 5;
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
@@ -41,12 +38,54 @@ const fileExists = async (filePath) => {
   }
 };
 
+const loadApiToken = async () => {
+  const envKeys = ['AHREFS_API_KEY', 'AHREFS_API_TOKEN', 'AHREFS_TOKEN'];
+
+  for (const key of envKeys) {
+    const value = process.env[key];
+    if (typeof value === 'string' && value.trim()) {
+      return value.trim();
+    }
+  }
+
+  if (await fileExists(ENV_LOCAL_PATH)) {
+    const raw = await fs.readFile(ENV_LOCAL_PATH, 'utf8');
+    const lines = raw.split(/\r?\n/);
+    for (const line of lines) {
+      const match = line.match(
+        /^\s*(AHREFS_API_KEY|AHREFS_API_TOKEN|AHREFS_TOKEN)\s*=\s*(.+)\s*$/,
+      );
+      if (match) {
+        const [, , value] = match;
+        const trimmed = value.trim().replace(/^['"]|['"]$/g, '');
+        if (trimmed) {
+          return trimmed;
+        }
+      }
+    }
+  }
+
+  throw new Error(
+    'Missing Ahrefs API token. Set AHREFS_API_KEY (or related) in the environment or env.local.',
+  );
+};
+
+const parsePositiveInteger = (value, label) => {
+  const parsed = Number.parseInt(String(value), 10);
+  if (!Number.isFinite(parsed) || parsed <= 0) {
+    throw new Error(`Invalid value for ${label}: ${value}`);
+  }
+  return parsed;
+};
+
 const parseArgs = (argv) => {
   const args = Array.isArray(argv) ? argv.slice(2) : [];
   const result = {
     additiveSlugs: [],
     force: false,
     help: false,
+    limit: null,
+    batchSize: null,
   };
 
   let index = 0;
@@ -62,6 +101,38 @@ const parseArgs = (argv) => {
 
     if (arg === '--force' || arg === '-f') {
       result.force = true;
+      index += 1;
+      continue;
+    }
+
+    if (arg === '--limit' || arg === '-n' || arg === '-limit') {
+      if (index + 1 >= args.length) {
+        throw new Error('Missing value for --limit.');
+      }
+      result.limit = parsePositiveInteger(args[index + 1], '--limit');
+      index += 2;
+      continue;
+    }
+
+    if (arg.startsWith('--limit=')) {
+      const value = arg.substring(arg.indexOf('=') + 1);
+      result.limit = parsePositiveInteger(value, '--limit');
+      index += 1;
+      continue;
+    }
+
+    if (arg === '--parallel' || arg === '--batch' || arg === '-p') {
+      if (index + 1 >= args.length) {
+        throw new Error('Missing value for --parallel.');
+      }
+      result.batchSize = parsePositiveInteger(args[index + 1], '--parallel');
+      index += 2;
+      continue;
+    }
+
+    if (arg.startsWith('--parallel=') || arg.startsWith('--batch=')) {
+      const value = arg.substring(arg.indexOf('=') + 1);
+      result.batchSize = parsePositiveInteger(value, '--parallel');
       index += 1;
       continue;
     }
@@ -114,18 +185,24 @@ const parseArgs = (argv) => {
 };
 
 const printUsage = () => {
-  console.log(`Usage: node fetch-search-questions.js [options]\n\n` +
-    `Options:\n` +
-    `  --additive <slug...>    Fetch questions for the specified additive slugs (bypasses skip logic).\n` +
-    `  --additive=<slug,slug>  Same as above using a comma separated list.\n` +
-    `  --force                 Re-fetch questions even if the file already exists.\n` +
-    `  --help                  Show this message.\n` +
-    `\n` +
-    `Examples:\n` +
-    `  node scripts/fetch-search-questions.js\n` +
-    `  node scripts/fetch-search-questions.js --additive e345-magnesium-citrate\n` +
-    `  node scripts/fetch-search-questions.js --additive=e345-magnesium-citrate,e1503-castor-oil\n` +
-    `  node scripts/fetch-search-questions.js --force\n`);
+  console.log(
+    `Usage: node fetch-search-questions.js [options]\n\n` +
+      `Options:\n` +
+      `  --additive <slug...>          Fetch questions for the specified additive slugs (bypasses skip logic).\n` +
+      `  --additive=<slug,slug>        Same as above using a comma separated list.\n` +
+      `  --force                       Re-fetch questions even if the file already exists.\n` +
+      `  --limit, -n, --limit=<value>  Process at most <value> additives (ignored with --additive).\n` +
+      `  --parallel, --batch, -p <value>  Run up to <value> requests in parallel.\n` +
+      `  --help                        Show this message.\n` +
+      `\n` +
+      `Examples:\n` +
+      `  node scripts/fetch-search-questions.js\n` +
+      `  node scripts/fetch-search-questions.js --limit 5\n` +
+      `  node scripts/fetch-search-questions.js --parallel 3\n` +
+      `  node scripts/fetch-search-questions.js --additive e345-magnesium-citrate\n` +
+      `  node scripts/fetch-search-questions.js --additive=e345-magnesium-citrate,e1503-castor-oil\n` +
+      `  node scripts/fetch-search-questions.js --force\n`,
+  );
 };
 
 const readAdditivesIndex = async () => {
@@ -195,7 +272,28 @@ const resolveQueryKeyword = async (slug, additive) => {
   return null;
 };
 
-const normaliseIntentValue = (value) => Boolean(value);
+const KNOWN_INTENTS = [
+  'informational',
+  'navigational',
+  'commercial',
+  'transactional',
+  'branded',
+  'local',
+];
+
+const extractIntents = (source) => {
+  if (!source || typeof source !== 'object') {
+    return [];
+  }
+
+  const intents = [];
+  for (const key of KNOWN_INTENTS) {
+    if (source[key]) {
+      intents.push(key);
+    }
+  }
+  return intents;
+};
 
 const sanitiseQuestion = (entry) => {
   if (!entry || typeof entry !== 'object') {
@@ -215,23 +313,7 @@ const sanitiseQuestion = (entry) => {
     ? entry.parent_topic.trim()
     : '';
 
-  const intents = entry.intents && typeof entry.intents === 'object'
-    ? {
-        informational: normaliseIntentValue(entry.intents.informational),
-        navigational: normaliseIntentValue(entry.intents.navigational),
-        commercial: normaliseIntentValue(entry.intents.commercial),
-        transactional: normaliseIntentValue(entry.intents.transactional),
-        branded: normaliseIntentValue(entry.intents.branded),
-        local: normaliseIntentValue(entry.intents.local),
-      }
-    : {
-        informational: false,
-        navigational: false,
-        commercial: false,
-        transactional: false,
-        branded: false,
-        local: false,
-      };
+  const intents = extractIntents(entry.intents);
 
   return {
     keyword,
@@ -241,11 +323,11 @@ const sanitiseQuestion = (entry) => {
   };
 };
 
-const fetchQuestions = async (keyword) => {
+const fetchQuestions = async (keyword, apiToken) => {
   const args = [
     '-fsS',
     '-H',
-    `Authorization: Bearer ${API_TOKEN}`,
+    `Authorization: Bearer ${apiToken}`,
     '--get',
     '--data-urlencode',
     `country=${DEFAULT_COUNTRY}`,
@@ -334,17 +416,14 @@ const shouldSkip = async (slug, options) => {
 };
 
 const main = async () => {
-  if (!API_TOKEN) {
-    throw new Error('Missing Ahrefs API token. Set AHREFS_API_KEY environment variable.');
-  }
-
-  const { additiveSlugs, force, help } = parseArgs(process.argv);
+  const { additiveSlugs, force, help, limit, batchSize } = parseArgs(process.argv);
 
   if (help) {
     printUsage();
     return;
   }
 
+  const apiToken = await loadApiToken();
   const additives = await readAdditivesIndex();
 
   let targets = additives;
@@ -366,39 +445,62 @@ const main = async () => {
     }
   }
 
-  const total = targets.length;
-  let processed = 0;
-
-  for (const additive of targets) {
-    processed += 1;
-    const slug = additive.slug;
-    const skip = await shouldSkip(slug, { force, targeted });
-
-    console.log(`[${processed}/${total}] ${slug}`);
-
-    if (skip) {
-      console.log('  → Skipping (questions already exist).');
-      continue;
-    }
-
-    const queryKeyword = await resolveQueryKeyword(slug, additive);
-
-    if (!queryKeyword) {
-      console.warn('  → Skipping (unable to determine keyword).');
-      continue;
-    }
-
-    try {
-      console.log(`  → Fetching questions for "${queryKeyword}"`);
-      const rawQuestions = await fetchQuestions(queryKeyword);
-      await sleep(REQUEST_DELAY_MS);
-      const dataset = ensureDataset(queryKeyword, rawQuestions);
-      await writeQuestions(slug, dataset);
-      console.log(`  → Saved ${dataset.questions.length} questions.`);
-    } catch (error) {
-      console.error(`  → Failed: ${error.message}`);
-    }
+  const resolvedLimit = targeted ? targets.length : limit ?? DEFAULT_LIMIT;
+  if (!targeted && Number.isFinite(resolvedLimit)) {
+    const sliceEnd = Math.min(resolvedLimit, targets.length);
+    targets = targets.slice(0, sliceEnd);
   }
+
+  if (targets.length === 0) {
+    console.log('No additives to process.');
+    return;
+  }
+
+  const total = targets.length;
+  const resolvedBatchSize = Math.max(1, Math.min(batchSize ?? DEFAULT_BATCH_SIZE, total));
+
+  let cursor = 0;
+
+  const worker = async () => {
+    while (cursor < total) {
+      const currentIndex = cursor;
+      cursor += 1;
+      const additive = targets[currentIndex];
+      const position = currentIndex + 1;
+      const slug = additive.slug;
+
+      console.log(`[${position}/${total}] ${slug}`);
+
+      try {
+        const skip = await shouldSkip(slug, { force, targeted });
+
+        if (skip) {
+          console.log('  → Skipping (questions already exist).');
+          continue;
+        }
+
+        const queryKeyword = await resolveQueryKeyword(slug, additive);
+
+        if (!queryKeyword) {
+          console.warn('  → Skipping (unable to determine keyword).');
+          continue;
+        }
+
+        console.log(`  → Fetching questions for "${queryKeyword}"`);
+        const rawQuestions = await fetchQuestions(queryKeyword, apiToken);
+        await sleep(REQUEST_DELAY_MS);
+        const dataset = ensureDataset(queryKeyword, rawQuestions);
+        await writeQuestions(slug, dataset);
+        console.log(`  → Saved ${dataset.questions.length} questions.`);
+      } catch (error) {
+        console.error(`  → Failed: ${error.message}`);
+      }
+    }
+  };
+
+  const workerCount = Math.min(resolvedBatchSize, total);
+  const workers = Array.from({ length: workerCount }, () => worker());
+  await Promise.all(workers);
 };
 
 main().catch((error) => {

@@ -1,20 +1,11 @@
 import fs from 'fs';
 import path from 'path';
 
-export interface SearchQuestionIntents {
-  informational: boolean;
-  navigational: boolean;
-  commercial: boolean;
-  transactional: boolean;
-  branded: boolean;
-  local: boolean;
-}
-
 export interface SearchQuestionItem {
   keyword: string;
   volume: number | null;
   parent_topic: string;
-  intents: SearchQuestionIntents;
+  intents: string[];
 }
 
 export interface SearchQuestionsDataset {
@@ -28,6 +19,42 @@ const questionsCache = new Map<string, SearchQuestionsDataset | null>();
 
 const getQuestionsPath = (slug: string): string =>
   path.join(process.cwd(), 'data', slug, 'search-questions.json');
+
+const KNOWN_INTENTS = [
+  'informational',
+  'navigational',
+  'commercial',
+  'transactional',
+  'branded',
+  'local',
+] as const;
+
+type KnownIntent = (typeof KNOWN_INTENTS)[number];
+
+const normaliseIntents = (intents: unknown): KnownIntent[] => {
+  if (!Array.isArray(intents)) {
+    return [];
+  }
+
+  const seen = new Set<string>();
+  const result: KnownIntent[] = [];
+
+  for (const value of intents) {
+    if (typeof value !== 'string') {
+      continue;
+    }
+    const normalised = value.trim().toLowerCase();
+    if (!normalised || seen.has(normalised)) {
+      continue;
+    }
+    if ((KNOWN_INTENTS as readonly string[]).includes(normalised)) {
+      seen.add(normalised);
+      result.push(normalised as KnownIntent);
+    }
+  }
+
+  return result;
+};
 
 const normaliseQuestion = (entry: SearchQuestionItem): SearchQuestionItem | null => {
   if (!entry || typeof entry !== 'object') {
@@ -47,23 +74,7 @@ const normaliseQuestion = (entry: SearchQuestionItem): SearchQuestionItem | null
     ? entry.parent_topic.trim()
     : '';
 
-  const intents = entry.intents && typeof entry.intents === 'object'
-    ? {
-        informational: Boolean(entry.intents.informational),
-        navigational: Boolean(entry.intents.navigational),
-        commercial: Boolean(entry.intents.commercial),
-        transactional: Boolean(entry.intents.transactional),
-        branded: Boolean(entry.intents.branded),
-        local: Boolean(entry.intents.local),
-      }
-    : {
-        informational: false,
-        navigational: false,
-        commercial: false,
-        transactional: false,
-        branded: false,
-        local: false,
-      };
+  const intents = normaliseIntents(entry.intents);
 
   return {
     keyword,
