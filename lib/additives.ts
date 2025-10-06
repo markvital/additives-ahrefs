@@ -89,6 +89,13 @@ const toSparkline = (value: unknown): Array<number | null> => {
   });
 };
 
+const createFilterSlug = (value: string): string =>
+  value
+    .trim()
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+
 const toOptionalNumber = (value: unknown): number | null => {
   if (typeof value === 'number' && Number.isFinite(value)) {
     return value;
@@ -209,6 +216,38 @@ const mapAdditives = (): Additive[] => {
 
 const additiveCache = mapAdditives();
 
+const collectUniqueValues = (selector: (additive: Additive) => string[]): string[] => {
+  const unique = new Set<string>();
+
+  additiveCache.forEach((additive) => {
+    selector(additive).forEach((value) => {
+      const normalized = value.trim();
+
+      if (normalized.length > 0) {
+        unique.add(normalized);
+      }
+    });
+  });
+
+  return Array.from(unique.values()).sort((a, b) => a.localeCompare(b));
+};
+
+const functionFilters = collectUniqueValues((item) => item.functions).map((value) => ({
+  value,
+  slug: createFilterSlug(value),
+}));
+
+const originFilters = collectUniqueValues((item) => item.origin).map((value) => ({
+  value,
+  slug: createFilterSlug(value),
+}));
+
+const functionSlugToValue = new Map(functionFilters.map(({ slug, value }) => [slug, value]));
+const functionValueToSlug = new Map(functionFilters.map(({ slug, value }) => [value, slug]));
+
+const originSlugToValue = new Map(originFilters.map(({ slug, value }) => [slug, value]));
+const originValueToSlug = new Map(originFilters.map(({ slug, value }) => [value, slug]));
+
 export const getAdditives = (): Additive[] => additiveCache;
 
 export const getAdditiveBySlug = (slug: string): Additive | undefined =>
@@ -221,3 +260,51 @@ export const getAdditiveSlugs = (): string[] =>
         title: entry.title,
       }))
     : [];
+
+export const getFunctionFilters = () => functionFilters;
+
+export const getOriginFilters = () => originFilters;
+
+export const getFunctionValueBySlug = (slug: string): string | null => functionSlugToValue.get(slug) ?? null;
+
+export const getOriginValueBySlug = (slug: string): string | null => originSlugToValue.get(slug) ?? null;
+
+export const getFunctionSlug = (value: string): string | null => {
+  const normalized = value.trim();
+
+  if (!normalized) {
+    return null;
+  }
+
+  return functionValueToSlug.get(normalized) ?? null;
+};
+
+export const getOriginSlug = (value: string): string | null => {
+  const normalized = value.trim();
+
+  if (!normalized) {
+    return null;
+  }
+
+  return originValueToSlug.get(normalized) ?? null;
+};
+
+export const getAdditivesByFunctionSlug = (slug: string): Additive[] => {
+  const value = getFunctionValueBySlug(slug);
+
+  if (!value) {
+    return [];
+  }
+
+  return additiveCache.filter((item) => item.functions.includes(value));
+};
+
+export const getAdditivesByOriginSlug = (slug: string): Additive[] => {
+  const value = getOriginValueBySlug(slug);
+
+  if (!value) {
+    return [];
+  }
+
+  return additiveCache.filter((item) => item.origin.includes(value));
+};
