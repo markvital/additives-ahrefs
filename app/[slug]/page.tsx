@@ -1,10 +1,16 @@
 import type { Metadata } from 'next';
+import NextLink from 'next/link';
 import { notFound } from 'next/navigation';
 import { Box, Chip, Link as MuiLink, Stack, Typography } from '@mui/material';
 
-import { getAdditiveBySlug, getAdditiveSlugs } from '../../lib/additives';
 import { formatAdditiveDisplayName, formatOriginLabel } from '../../lib/additive-format';
 import { extractArticleBody, extractArticleSummary } from '../../lib/article';
+import {
+  getAdditiveBySlug,
+  getAdditiveSlugs,
+  getFunctionSlug,
+  getOriginSlug,
+} from '../../lib/additives';
 import { formatMonthlyVolume, getCountryFlagEmoji, getCountryLabel } from '../../lib/format';
 import { getSearchHistory } from '../../lib/search-history';
 import { SearchHistoryChart } from '../../components/SearchHistoryChart';
@@ -137,9 +143,24 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
             >
               Function:
             </Typography>
-            {additive.functions.map((fn) => (
-              <Chip key={fn} label={fn} variant="outlined" />
-            ))}
+            {additive.functions.map((fn) => {
+              const functionSlug = getFunctionSlug(fn);
+
+              if (!functionSlug) {
+                return <Chip key={fn} label={fn} variant="outlined" />;
+              }
+
+              return (
+                <Chip
+                  key={fn}
+                  label={fn}
+                  variant="outlined"
+                  component={NextLink}
+                  href={`/function/${functionSlug}`}
+                  clickable
+                />
+              );
+            })}
           </Stack>
         )}
 
@@ -152,9 +173,25 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
             >
               Origin:
             </Typography>
-            {originList.map((origin) => (
-              <Chip key={origin} label={formatOriginLabel(origin)} variant="outlined" />
-            ))}
+            {originList.map((origin) => {
+              const originSlug = getOriginSlug(origin);
+              const label = formatOriginLabel(origin);
+
+              if (!originSlug) {
+                return <Chip key={origin} label={label} variant="outlined" />;
+              }
+
+              return (
+                <Chip
+                  key={origin}
+                  label={label}
+                  variant="outlined"
+                  component={NextLink}
+                  href={`/origin/${originSlug}`}
+                  clickable
+                />
+              );
+            })}
           </Stack>
         )}
 
