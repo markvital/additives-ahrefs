@@ -8,6 +8,7 @@ import {
   Box,
   Button,
   Chip,
+  Link as MuiLink,
   Stack,
   TextField,
   Typography,
@@ -16,10 +17,11 @@ import {
 import type { Additive } from '../lib/additives';
 import { formatAdditiveDisplayName, formatOriginLabel } from '../lib/additive-format';
 import { extractArticleSummary, splitArticlePreview } from '../lib/article';
-import { formatMonthlyVolume, getCountryFlagEmoji, getCountryLabel } from '../lib/format';
+import { formatInteger, formatMonthlyVolume, getCountryFlagEmoji, getCountryLabel } from '../lib/format';
 import type { SearchHistoryDataset } from '../lib/search-history';
 import { MarkdownArticle } from './MarkdownArticle';
 import { SearchHistoryChart } from './SearchHistoryChart';
+import { getFdcProductSearchUrl } from '../lib/product-search';
 
 interface ComparisonAdditive extends Additive {
   searchHistory: SearchHistoryDataset | null;
@@ -112,6 +114,41 @@ const renderOriginContent = (additive: ComparisonAdditive | null) => {
         <Chip key={origin} label={formatOriginLabel(origin)} variant="outlined" size="small" />
       ))}
     </Stack>
+  );
+};
+
+const renderProductCount = (additive: ComparisonAdditive | null) => {
+  if (!additive) {
+    return null;
+  }
+
+  const count =
+    typeof additive.productCount === 'number' && Number.isFinite(additive.productCount)
+      ? Math.max(0, Math.round(additive.productCount))
+      : null;
+
+  if (count === null) {
+    return (
+      <Typography variant="body2" color="text.secondary">
+        Product count is not available.
+      </Typography>
+    );
+  }
+
+  const searchUrl = getFdcProductSearchUrl(additive.title);
+
+  return (
+    <Typography variant="body1" color="text.secondary">
+      <MuiLink
+        href={searchUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        underline="hover"
+        sx={{ fontVariantNumeric: 'tabular-nums', fontWeight: 600 }}
+      >
+        Appears in {formatInteger(count)} products
+      </MuiLink>
+    </Typography>
   );
 };
 
@@ -374,6 +411,11 @@ export function AdditiveComparison({ additives, initialSelection }: AdditiveComp
       key: 'origin',
       label: 'Origin',
       render: renderOriginContent,
+    },
+    {
+      key: 'products',
+      label: 'Products',
+      render: renderProductCount,
     },
     {
       key: 'search-metrics',

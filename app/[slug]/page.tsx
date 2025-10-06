@@ -12,12 +12,13 @@ import {
   getOriginSlug,
 } from '../../lib/additives';
 
-import { formatMonthlyVolume, getCountryFlagEmoji, getCountryLabel } from '../../lib/format';
+import { formatInteger, formatMonthlyVolume, getCountryFlagEmoji, getCountryLabel } from '../../lib/format';
 import { getSearchHistory } from '../../lib/search-history';
 import { getSearchQuestions } from '../../lib/search-questions';
 import { SearchHistoryChart } from '../../components/SearchHistoryChart';
 import { MarkdownArticle } from '../../components/MarkdownArticle';
 import { SearchQuestions } from '../../components/SearchQuestions';
+import { getFdcProductSearchUrl } from '../../lib/product-search';
 
 interface AdditivePageProps {
   params: Promise<{ slug: string }>;
@@ -70,6 +71,11 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
   const displayName = formatAdditiveDisplayName(additive.eNumber, additive.title);
   const searchRank = typeof additive.searchRank === 'number' ? additive.searchRank : null;
   const searchVolume = typeof additive.searchVolume === 'number' ? additive.searchVolume : null;
+  const productCount =
+    typeof additive.productCount === 'number' && Number.isFinite(additive.productCount)
+      ? Math.max(0, Math.round(additive.productCount))
+      : null;
+  const productSearchUrl = getFdcProductSearchUrl(additive.title);
   const searchCountryCode = searchHistory?.country;
   const searchFlagEmoji = searchCountryCode ? getCountryFlagEmoji(searchCountryCode) : null;
   const searchCountryLabel =
@@ -199,6 +205,29 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
             })}
           </Stack>
         )}
+
+        <Typography
+          variant="body1"
+          color="text.secondary"
+          sx={{ display: 'flex', flexWrap: 'wrap', gap: 0.75 }}
+        >
+          <Box component="span" sx={{ fontWeight: 600 }}>
+            Products:
+          </Box>
+          {productCount !== null ? (
+            <MuiLink
+              href={productSearchUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              underline="hover"
+              sx={{ fontVariantNumeric: 'tabular-nums', fontWeight: 600 }}
+            >
+              Appears in {formatInteger(productCount)} products
+            </MuiLink>
+          ) : (
+            <Box component="span">Product count unavailable.</Box>
+          )}
+        </Typography>
 
         {articleSummary && (
           <Typography variant="body1" color="text.primary" whiteSpace="pre-line">

@@ -3,6 +3,7 @@ import path from 'path';
 
 import additivesIndex from '../data/additives.json';
 import { createAdditiveSlug } from './additive-slug';
+import { DEFAULT_ADDITIVE_SORT_MODE, sortAdditives } from './additive-sort';
 
 export interface AdditivePropsFile {
   title?: string;
@@ -16,6 +17,7 @@ export interface AdditivePropsFile {
   searchSparkline?: unknown;
   searchVolume?: unknown;
   searchRank?: unknown;
+  productCount?: unknown;
 }
 
 export interface Additive {
@@ -32,6 +34,7 @@ export interface Additive {
   searchSparkline: Array<number | null>;
   searchVolume: number | null;
   searchRank: number | null;
+  productCount: number | null;
 }
 
 interface AdditiveIndexEntry {
@@ -128,6 +131,7 @@ const readAdditiveProps = (
       searchSparkline: [],
       searchVolume: null,
       searchRank: null,
+      productCount: null,
     };
   }
 
@@ -151,6 +155,7 @@ const readAdditiveProps = (
       searchSparkline: toSparkline(parsed.searchSparkline),
       searchVolume: toOptionalNumber(parsed.searchVolume),
       searchRank: toOptionalNumber(parsed.searchRank),
+      productCount: toOptionalNumber(parsed.productCount),
     };
   } catch (error) {
     console.error(`Failed to read additive props for ${slug}:`, error);
@@ -170,6 +175,7 @@ const readAdditiveProps = (
       searchSparkline: [],
       searchVolume: null,
       searchRank: null,
+      productCount: null,
     };
   }
 };
@@ -189,29 +195,7 @@ const mapAdditives = (): Additive[] => {
     };
   });
 
-  enriched.sort((a, b) => {
-    const aHasRank = typeof a.searchRank === 'number';
-    const bHasRank = typeof b.searchRank === 'number';
-
-    if (aHasRank && bHasRank) {
-      if (a.searchRank === b.searchRank) {
-        return a.title.localeCompare(b.title);
-      }
-      return (a.searchRank ?? 0) - (b.searchRank ?? 0);
-    }
-
-    if (aHasRank) {
-      return -1;
-    }
-
-    if (bHasRank) {
-      return 1;
-    }
-
-    return a.title.localeCompare(b.title);
-  });
-
-  return enriched;
+  return sortAdditives(enriched, DEFAULT_ADDITIVE_SORT_MODE);
 };
 
 const additiveCache = mapAdditives();
