@@ -31,19 +31,26 @@ export default function RootLayout({
           <div className="layout">
             <header className="site-header">
               <div className="content-shell header-shell">
-                <Link href="/">
-                  <Typography
-                    component="span"
-                    variant="h6"
-                    sx={{
-                      fontWeight: 600,
-                      letterSpacing: '0.1em',
-                      textTransform: 'uppercase',
-                    }}
-                  >
-                    Additives
-                  </Typography>
-                </Link>
+                <div className="header-content">
+                  <Link href="/">
+                    <Typography
+                      component="span"
+                      variant="h6"
+                      sx={{
+                        fontWeight: 600,
+                        letterSpacing: '0.1em',
+                        textTransform: 'uppercase',
+                      }}
+                    >
+                      Additives
+                    </Typography>
+                  </Link>
+                  <nav className="header-nav">
+                    <Link href="/compare" className="header-link">
+                      Compare
+                    </Link>
+                  </nav>
+                </div>
               </div>
             </header>
             <main className="main-content">
