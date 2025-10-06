@@ -3,6 +3,8 @@ import { notFound } from 'next/navigation';
 import { Box, Chip, Link as MuiLink, Stack, Typography } from '@mui/material';
 
 import { getAdditiveBySlug, getAdditiveSlugs } from '../../lib/additives';
+import { formatAdditiveDisplayName, formatOriginLabel } from '../../lib/additive-format';
+import { extractArticleBody, extractArticleSummary } from '../../lib/article';
 import { formatMonthlyVolume, getCountryFlagEmoji, getCountryLabel } from '../../lib/format';
 import { getSearchHistory } from '../../lib/search-history';
 import { SearchHistoryChart } from '../../components/SearchHistoryChart';
@@ -11,52 +13,6 @@ import { MarkdownArticle } from '../../components/MarkdownArticle';
 interface AdditivePageProps {
   params: Promise<{ slug: string }>;
 }
-
-const formatAdditiveDisplayName = (eNumber: string, title: string): string => {
-  const parts = [eNumber, title]
-    .map((part) => part.trim())
-    .filter((part, index, list) => part.length > 0 && list.indexOf(part) === index);
-
-  return parts.join(' - ') || 'Additive';
-};
-
-const formatOriginLabel = (value: string): string => {
-  if (!value) {
-    return '';
-  }
-
-  return value.charAt(0).toUpperCase() + value.slice(1);
-};
-
-const SUMMARY_MARKER_REGEX = /<!--\s*more\s*-->/i;
-
-const extractArticleSummary = (article: string | null | undefined): string | null => {
-  if (!article) {
-    return null;
-  }
-
-  const match = SUMMARY_MARKER_REGEX.exec(article);
-
-  if (!match) {
-    return null;
-  }
-
-  return article.slice(0, match.index).trim() || null;
-};
-
-const extractArticleBody = (article: string | null | undefined): string => {
-  if (!article) {
-    return '';
-  }
-
-  const match = SUMMARY_MARKER_REGEX.exec(article);
-
-  if (!match) {
-    return article;
-  }
-
-  return article.slice(match.index + match[0].length).trimStart();
-};
 
 export async function generateStaticParams() {
   return getAdditiveSlugs().map((slug) => ({ slug }));
