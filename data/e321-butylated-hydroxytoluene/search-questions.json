@@ -1,0 +1,71 @@
+{
+  "keyword": "Butylated hydroxytoluene",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:43.851Z",
+  "questions": [
+    {
+      "keyword": "what is butylated hydroxytoluene",
+      "volume": 100,
+      "parent_topic": "bht",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what foods contain butylated hydroxytoluene",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is butylated hydroxytoluene bht",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is butylated hydroxytoluene used for",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where can i buy butylated hydroxytoluene",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "250 mg equals how many teaspoons bht (butylated hydroxytoluene)",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "bht (butylated hydroxytoluene) 1000 mg equals how many teaspoons",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "bht (butylated hydroxytoluene) 250 mg equals how many teaspoons",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "butylated hydroxytoluene (bht) how to use",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "butylated hydroxytoluene (bht) how to use as perservative",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

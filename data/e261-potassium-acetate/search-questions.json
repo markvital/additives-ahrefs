@@ -1,0 +1,77 @@
+{
+  "keyword": "Potassium acetate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:36.495Z",
+  "questions": [
+    {
+      "keyword": "is potassium acetate soluble",
+      "volume": 80,
+      "parent_topic": "potassium acetate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is potassium acetate",
+      "volume": 60,
+      "parent_topic": "potassium acetate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is the formula for potassium acetate",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is potassium acetate soluble in water",
+      "volume": 10,
+      "parent_topic": "potassium acetate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does potassium acetate do in dna extraction",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is potassium acetate used for",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is the formula for potassium acetate ?",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "\"how to prepare a potassium acetate buffer of ph 10.5\"",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much heat is released from potassium acetate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much heat is released when potassium acetate changes from liquid to solid",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

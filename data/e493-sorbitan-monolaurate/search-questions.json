@@ -1,0 +1,19 @@
+{
+  "keyword": "Sorbitan monolaurate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:25:16.660Z",
+  "questions": [
+    {
+      "keyword": "what is poe 80 sorbitan monolaurate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is polyoxyethylene sorbitan monolaurate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "keyword": "Polyvinyl alcohol",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:35.230Z",
+  "questions": [
+    {
+      "keyword": "what is polyvinyl alcohol",
+      "volume": 350,
+      "parent_topic": "polyvinyl alcohol",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is polyvinyl alcohol plastic",
+      "volume": 200,
+      "parent_topic": "what is pva",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is polyvinyl alcohol safe",
+      "volume": 150,
+      "parent_topic": "is pva toxic",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is polyvinyl alcohol a microplastic",
+      "volume": 80,
+      "parent_topic": "polyvinyl alcohol",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is polyvinyl alcohol halal",
+      "volume": 70,
+      "parent_topic": "polyvinyl alcohol halal",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is polyvinyl alcohol biodegradable",
+      "volume": 50,
+      "parent_topic": "is pva toxic",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is polyvinyl alcohol toxic",
+      "volume": 50,
+      "parent_topic": "is pva toxic",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is polyvinyl alcohol a plastic",
+      "volume": 40,
+      "parent_topic": "what is pva",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is polyvinyl alcohol bad for the environment",
+      "volume": 40,
+      "parent_topic": "is pva toxic",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is polyvinyl alcohol used for",
+      "volume": 40,
+      "parent_topic": "polyvinyl alcohol",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

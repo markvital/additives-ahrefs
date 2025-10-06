@@ -1,0 +1,83 @@
+{
+  "keyword": "Carbonates",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:44.431Z",
+  "questions": [
+    {
+      "keyword": "are carbonates soluble",
+      "volume": 150,
+      "parent_topic": "are carbonates soluble",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what carbonates soda",
+      "volume": 100,
+      "parent_topic": "sparkling water",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "do bases react with carbonates",
+      "volume": 40,
+      "parent_topic": "do bases react with carbonates",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what are carbonates",
+      "volume": 40,
+      "parent_topic": "carbonate formula",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "do acids react with carbonates",
+      "volume": 30,
+      "parent_topic": "acid and carbonate reaction",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what carbonates water",
+      "volume": 30,
+      "parent_topic": "carbonated water",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "do acids or bases react with carbonates",
+      "volume": 10,
+      "parent_topic": "do bases react with carbonates",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how do bases react with carbonates",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what are cap carbonates",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what are carbonates in water",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

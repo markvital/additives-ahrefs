@@ -1,0 +1,89 @@
+{
+  "keyword": "Nitrous oxide",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:26.699Z",
+  "questions": [
+    {
+      "keyword": "what is nitrous oxide used for",
+      "volume": 1700,
+      "parent_topic": "laughing gas",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is nitrous oxide",
+      "volume": 1300,
+      "parent_topic": "nitrous oxide",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "why don't dentists use nitrous oxide anymore",
+      "volume": 1000,
+      "parent_topic": "why don't dentists use nitrous oxide anymore",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how does nitrous oxide work",
+      "volume": 700,
+      "parent_topic": "nitrous oxide side effects",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is nitrous oxide safe",
+      "volume": 700,
+      "parent_topic": "laughing gas",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where to buy nitrous oxide near me",
+      "volume": 700,
+      "parent_topic": "nitrous oxide near me",
+      "intents": [
+        "commercial",
+        "transactional",
+        "local"
+      ]
+    },
+    {
+      "keyword": "how long does nitrous oxide last",
+      "volume": 600,
+      "parent_topic": "laughing gas",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is nitrous oxide flammable",
+      "volume": 600,
+      "parent_topic": "nitrous oxide",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does nitrous oxide do",
+      "volume": 600,
+      "parent_topic": "laughing gas",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is nitrous oxide addictive",
+      "volume": 500,
+      "parent_topic": "nitrous oxide abuse",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

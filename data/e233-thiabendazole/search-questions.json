@@ -1,0 +1,69 @@
+{
+  "keyword": "Thiabendazole",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:19:04.618Z",
+  "questions": [
+    {
+      "keyword": "where to buy thiabendazole cream",
+      "volume": 30,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is imazalil and thiabendazole",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is thiabendazole",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is thiabendazole imazalil",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how does thiabendazole affect nematodes",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to remove imazalil and thiabendazole from fruit",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to use thiabendazole",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "thiabendazole what is",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "thiabendazole where to buy",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "thiabendazole who",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

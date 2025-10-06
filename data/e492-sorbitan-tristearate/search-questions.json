@@ -1,0 +1,27 @@
+{
+  "keyword": "Sorbitan tristearate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:25:17.680Z",
+  "questions": [
+    {
+      "keyword": "what is sorbitan tristearate",
+      "volume": 50,
+      "parent_topic": "sorbitan tristearate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how is sorbitan monostearate and sorbitan tristearate different",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is sorbitan tristearate made from",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

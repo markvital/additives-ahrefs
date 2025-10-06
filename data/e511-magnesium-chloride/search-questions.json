@@ -1,0 +1,87 @@
+{
+  "keyword": "Magnesium chloride",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:15.651Z",
+  "questions": [
+    {
+      "keyword": "what is magnesium chloride",
+      "volume": 1200,
+      "parent_topic": "magnesium chloride benefits",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is magnesium chloride good for you",
+      "volume": 500,
+      "parent_topic": "magnesium chloride benefits",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is magnesium chloride good for",
+      "volume": 400,
+      "parent_topic": "magnesium chloride benefits",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is magnesium chloride safe for pets",
+      "volume": 350,
+      "parent_topic": "magnesium chloride safe for dogs",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is magnesium chloride used for",
+      "volume": 350,
+      "parent_topic": "magnesium chloride",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is magnesium chloride safe for concrete",
+      "volume": 300,
+      "parent_topic": "magnesium chloride ice melt",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does magnesium chloride do",
+      "volume": 200,
+      "parent_topic": "magnesium chloride",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does magnesium chloride do for the body",
+      "volume": 100,
+      "parent_topic": "magnesium chloride benefits",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is magnesium chloride best for",
+      "volume": 100,
+      "parent_topic": "magnesium chloride benefits",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is magnesium chloride safe",
+      "volume": 90,
+      "parent_topic": "magnesium chloride benefits",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

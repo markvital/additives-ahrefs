@@ -1,0 +1,75 @@
+{
+  "keyword": "iron gluconate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:23:56.013Z",
+  "questions": [
+    {
+      "keyword": "how much elemental iron in ferrous gluconate",
+      "volume": 10,
+      "parent_topic": "ferrous gluconate elemental iron",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how much iron is in ferrous gluconate 324 mg",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "is ferrous gluconate a good iron supplement",
+      "volume": 10,
+      "parent_topic": "ferrous gluconate vs ferrous sulfate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is iron glycinate the same as ferrous gluconate",
+      "volume": 10,
+      "parent_topic": "iron glycinate vs ferrous gluconate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is iron gluconate",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "10 mg of ferrous gluconate is equivalent to how many mg of elemental iron",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "ferrous gluconate 10 mg equals how much elemental iron",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "ferrous gluconate 324 mg how much elemental iron",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "ferrous gluconate has how much elemental iron",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how many mg of iron are in 325 mg of ferrous gluconate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "keyword": "Annatto",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:43.744Z",
+  "questions": [
+    {
+      "keyword": "what is annatto",
+      "volume": 3300,
+      "parent_topic": "annatto",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is annatto bad for you",
+      "volume": 800,
+      "parent_topic": "annatto",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is annatto color",
+      "volume": 800,
+      "parent_topic": "annatto",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is annatto extract",
+      "volume": 800,
+      "parent_topic": "annatto",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "why is annatto bad for you",
+      "volume": 700,
+      "parent_topic": "is annatto bad for you",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "why is annatto bad for your heart",
+      "volume": 250,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to make annatto oil",
+      "volume": 150,
+      "parent_topic": "how to make annatto oil",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is annatto color bad for you",
+      "volume": 150,
+      "parent_topic": "annatto",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is annatto seasoning",
+      "volume": 150,
+      "parent_topic": "annatto seasoning",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how do you make annatto oil",
+      "volume": 100,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

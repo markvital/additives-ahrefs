@@ -1,0 +1,69 @@
+{
+  "keyword": "Paprika extract",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:29.114Z",
+  "questions": [
+    {
+      "keyword": "what is paprika extract",
+      "volume": 30,
+      "parent_topic": "oleoresin paprika",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how is paprika extract made",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is paprika extract color",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how hot on the scoville scale is the extract of paprika",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what are uses for paprika extract",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what countries is paprika extract banned",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is paprika extract made of",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is paprika fruit extract?",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the purpose to extract and seperate the pigments in paprika",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "why do you use dichloromethan to extract paprika",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

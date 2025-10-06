@@ -1,0 +1,89 @@
+{
+  "keyword": "petroleum jelly",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:31.117Z",
+  "questions": [
+    {
+      "keyword": "is petroleum jelly bad for you",
+      "volume": 4900,
+      "parent_topic": "petroleum jelly",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is petroleum jelly",
+      "volume": 3700,
+      "parent_topic": "petroleum jelly",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is aquaphor petroleum jelly",
+      "volume": 3200,
+      "parent_topic": "aquaphor vs vaseline",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "does petroleum jelly expire",
+      "volume": 2000,
+      "parent_topic": "does vaseline expire",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is petroleum jelly the same as vaseline",
+      "volume": 1800,
+      "parent_topic": "is petroleum jelly the same as vaseline",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "what is petroleum jelly made of",
+      "volume": 1000,
+      "parent_topic": "petroleum jelly",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "can you use petroleum jelly as lube",
+      "volume": 800,
+      "parent_topic": "can i use petroleum jelly as lube",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how is petroleum jelly made",
+      "volume": 800,
+      "parent_topic": "how is petroleum jelly made",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is petroleum jelly flammable",
+      "volume": 700,
+      "parent_topic": "is vaseline flammable",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does petroleum jelly cause cancer",
+      "volume": 600,
+      "parent_topic": "petrolatum",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

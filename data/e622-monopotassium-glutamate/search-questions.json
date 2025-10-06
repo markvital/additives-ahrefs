@@ -1,0 +1,21 @@
+{
+  "keyword": "Monopotassium glutamate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:22.914Z",
+  "questions": [
+    {
+      "keyword": "what is monopotassium glutamate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where does monopotassium glutamate come from",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

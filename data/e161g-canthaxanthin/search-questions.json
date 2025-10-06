@@ -1,0 +1,69 @@
+{
+  "keyword": "Canthaxanthin",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:44.325Z",
+  "questions": [
+    {
+      "keyword": "what is canthaxanthin",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "canthaxanthin what is it",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how is canthaxanthin used in food",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to make canthaxanthin",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to pronounce canthaxanthin",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what color fool coloring is canthaxanthin in?",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what does canthaxanthin taste like",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what foods have canthaxanthin",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "where can i buy bulk canthaxanthin",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "where can i find canthaxanthin",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "keyword": "Green s",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:23:51.758Z",
+  "questions": [
+    {
+      "keyword": "why is my s*** green",
+      "volume": 100,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "are s&h green stamps worth anything",
+      "volume": 60,
+      "parent_topic": "are green stamps worth anything",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "what were s&h green stamps",
+      "volume": 30,
+      "parent_topic": "",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "what are s&h green stamps",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "what does it mean when your s*** is green",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is a green pill with s 90 3",
+      "volume": 20,
+      "parent_topic": "s903 pill",
+      "intents": []
+    },
+    {
+      "keyword": "what is s green card",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "when did s&h green stamps stop",
+      "volume": 20,
+      "parent_topic": "s&h green stamps",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "how did s&h green stamps work",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how long does it take to get s green card",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

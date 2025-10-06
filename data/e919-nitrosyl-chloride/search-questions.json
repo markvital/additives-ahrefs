@@ -1,0 +1,69 @@
+{
+  "keyword": "Nitrosyl chloride",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:26.505Z",
+  "questions": [
+    {
+      "keyword": "is nitrosyl chloride polar",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "(b) in which species (no2cl or no3-) are the n-o bond(s) longer? nitrosyl chloride nitrate ion",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how is nitrosyl chloride used",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "nitrosyl chloride decomposes to nitric acid what is the value of the raection quotient",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "nitrosyl chloride decomposes to nitric acid what is the value of the reaction quotient",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "nitrosyl chloride nocl decomposes to nitric oxide and chlorine when heated answer l",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "no is also formed when nitrosyl chloride nocl dissociated",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "question 6 what is the \"axe\" description of the nitrosyl chloride molecule?",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "the decomposition of nitrosyl chloride was studied the following data were obtained where",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "the decomposition of nitrosyl chloride was studied: the following data were obtained where",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

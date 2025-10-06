@@ -1,0 +1,94 @@
+{
+  "keyword": "Aspartame",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:43.752Z",
+  "questions": [
+    {
+      "keyword": "is aspartame bad for you",
+      "volume": 16000,
+      "parent_topic": "aspartame",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "what is aspartame",
+      "volume": 8800,
+      "parent_topic": "aspartame side effects",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "does aspartame cause cancer",
+      "volume": 5100,
+      "parent_topic": "does aspartame cause cancer",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does coke zero have aspartame",
+      "volume": 3600,
+      "parent_topic": "does coke zero have aspartame",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "why is aspartame bad for you",
+      "volume": 1700,
+      "parent_topic": "why is aspartame bad",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "does aspartame raise blood sugar",
+      "volume": 1500,
+      "parent_topic": "does sucralose raise blood sugar",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "how much aspartame is in diet coke",
+      "volume": 1500,
+      "parent_topic": "how much aspartame is in diet coke",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "is aspartame banned in europe",
+      "volume": 1400,
+      "parent_topic": "is aspartame banned in europe",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is aspartame a carcinogen",
+      "volume": 1200,
+      "parent_topic": "aspartame cancer",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does diet coke have aspartame",
+      "volume": 1100,
+      "parent_topic": "aspartame",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    }
+  ]
+}

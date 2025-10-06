@@ -1,0 +1,85 @@
+{
+  "keyword": "Locust bean gum",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:14.727Z",
+  "questions": [
+    {
+      "keyword": "what is locust bean gum",
+      "volume": 2200,
+      "parent_topic": "locust bean gum",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is locust bean gum bad for you",
+      "volume": 500,
+      "parent_topic": "locust bean gum",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "can dogs have locust bean gum",
+      "volume": 150,
+      "parent_topic": "can dogs have locust bean gum",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "can dogs eat locust bean gum",
+      "volume": 50,
+      "parent_topic": "can dogs have locust bean gum",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is locust bean gum made of",
+      "volume": 50,
+      "parent_topic": "locust bean gum",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "locust bean gum what is it",
+      "volume": 40,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is locust bean gum made from",
+      "volume": 40,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is locust bean gum?",
+      "volume": 40,
+      "parent_topic": "locust bean gum",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is locust bean gum a legume",
+      "volume": 30,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is locust bean gum used for",
+      "volume": 30,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

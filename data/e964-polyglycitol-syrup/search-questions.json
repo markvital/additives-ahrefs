@@ -1,0 +1,39 @@
+{
+  "keyword": "Polyglycitol syrup",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:33.349Z",
+  "questions": [
+    {
+      "keyword": "what is polyglycitol syrup",
+      "volume": 60,
+      "parent_topic": "polyglycitol syrup",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is in polyglycitol syrup",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is polyglycitol syrup made of",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is polyglycitol syrup?",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the glycemic index of polyglycitol syrup",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

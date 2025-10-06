@@ -1,0 +1,75 @@
+{
+  "keyword": "sodium dodecyl sulfate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:25:08.803Z",
+  "questions": [
+    {
+      "keyword": "what is sodium dodecyl sulfate",
+      "volume": 60,
+      "parent_topic": "sodium lauryl sulfate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sodium dodecyl sulfate toxic",
+      "volume": 20,
+      "parent_topic": "is sodium dodecyl sulfate toxic",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how does sodium dodecyl sulfate denature protein",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what does sodium dodecyl sulfate do",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is sodium dodecyl sulfate used for",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "\"sodium dodecyl sulfate\" \"high concentration\" sticky why",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how does sodium dodecyl sulfate interfere with uv absorbance at 280",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how is sodium dodecyl sulfate disposed of",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how long is 10% sodium dodecyl sulfate chemical good for",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how many grams of sodium dodecyl sulfate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "keyword": "Brilliant blue FCF",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:43.799Z",
+  "questions": [
+    {
+      "keyword": "what is brilliant blue fcf",
+      "volume": 50,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is brilliant blue fcf made of",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how is brilliant blue fcf made",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much moles of brilliant blue fcf is 10 ml",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what color is the mixture of brilliant blue fcf and tartrazine and erythrosine",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is brilliant blue fcf made from",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is brilliant blue fcf used for",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is fd&c blue no. 1 (brilliant blue fcf)",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the mass of brilliant blue fcf",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the mass of brilliant blue fcf molecule",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "keyword": "Inosinic acid",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:23:55.560Z",
+  "questions": [
+    {
+      "keyword": "what is inosinic acid",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "where buy to inosinic acid",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "why is inosinic acid good for flavor",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

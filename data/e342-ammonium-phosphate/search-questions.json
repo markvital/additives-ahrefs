@@ -1,0 +1,81 @@
+{
+  "keyword": "Ammonium phosphate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:43.362Z",
+  "questions": [
+    {
+      "keyword": "what is the formula for ammonium phosphate",
+      "volume": 100,
+      "parent_topic": "ammonium phosphate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is the formula for ammonium phosphate?",
+      "volume": 70,
+      "parent_topic": "ammonium phosphate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is ammonium phosphate soluble in water",
+      "volume": 30,
+      "parent_topic": "is ammonium phosphate soluble in water",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is ammonium phosphate toxic",
+      "volume": 30,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is ammonium phosphate",
+      "volume": 20,
+      "parent_topic": "ammonium phosphate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is the formula for ammonium phosphate ?",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how does ammonium phosphate extinguish fire",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "is ammonium phosphate soluble",
+      "volume": 10,
+      "parent_topic": "ammonium phosphate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is ammonium dihydrogen phosphate",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is ammonium phosphate found in",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

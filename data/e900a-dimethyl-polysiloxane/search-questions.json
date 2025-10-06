@@ -1,0 +1,31 @@
+{
+  "keyword": "Dimethyl polysiloxane",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:44.828Z",
+  "questions": [
+    {
+      "keyword": "what is dimethyl polysiloxane",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how is diphenyl dimethyl polysiloxane",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "why use dimethyl polysiloxane for fire debris",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "why use dimethyl polysiloxane for firedebris",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "keyword": "Succinic acid",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:25:20.128Z",
+  "questions": [
+    {
+      "keyword": "what is succinic acid",
+      "volume": 150,
+      "parent_topic": "succinic acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does succinic acid do for skin",
+      "volume": 40,
+      "parent_topic": "succinic acid for skin",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is succinic acid soluble in hexane",
+      "volume": 30,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "medicube red succinic acid peeling pad how to use",
+      "volume": 30,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what does succinic acid do",
+      "volume": 30,
+      "parent_topic": "succinic acid for skin",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is succinic acid in skincare",
+      "volume": 30,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to use medicube red succinic acid peeling pad",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is succinic acid used for",
+      "volume": 20,
+      "parent_topic": "succinate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is succinic acid polar",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does red succinic acid do",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

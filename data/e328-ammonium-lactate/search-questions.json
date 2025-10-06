@@ -1,0 +1,93 @@
+{
+  "keyword": "ammonium lactate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:43.338Z",
+  "questions": [
+    {
+      "keyword": "what is ammonium lactate cream used for",
+      "volume": 700,
+      "parent_topic": "ammonium lactate",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "ammonium lactate cream 12 para que sirve",
+      "volume": 500,
+      "parent_topic": "ammonium lactate cream 12 para que sirve",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "is ammonium lactate an antifungal",
+      "volume": 450,
+      "parent_topic": "is ammonium lactate an antifungal",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "ammonium lactate para que sirve",
+      "volume": 350,
+      "parent_topic": "ammonium lactate cream 12 para que sirve",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is ammonium lactate 12 cream used for",
+      "volume": 300,
+      "parent_topic": "ammonium lactate lotion",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "ammonium lactate lotion 12 para que sirve",
+      "volume": 250,
+      "parent_topic": "ammonium lactate cream 12 para que sirve",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "can i use ammonium lactate cream 12 on my face",
+      "volume": 200,
+      "parent_topic": "ammonium lactate",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "para que sirve la crema ammonium lactate 12",
+      "volume": 200,
+      "parent_topic": "ammonium lactate cream 12 para que sirve",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "does ammonium lactate cream lighten skin",
+      "volume": 150,
+      "parent_topic": "is ammonium lactate an antifungal",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is ammonium lactate",
+      "volume": 150,
+      "parent_topic": "ammonium lactate",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

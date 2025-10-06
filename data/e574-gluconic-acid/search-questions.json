@@ -1,0 +1,81 @@
+{
+  "keyword": "Gluconic acid",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:45.743Z",
+  "questions": [
+    {
+      "keyword": "what is gluconic acid",
+      "volume": 150,
+      "parent_topic": "gluconic acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is gluconic acid gluten free",
+      "volume": 50,
+      "parent_topic": "is gluconic acid gluten free",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "can dogs have gluconic acid",
+      "volume": 20,
+      "parent_topic": "is gluconic acid safe for dogs",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is gluconic acid bad for you",
+      "volume": 20,
+      "parent_topic": "is gluconic acid bad for you",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is gluconic acid safe for dogs",
+      "volume": 20,
+      "parent_topic": "can dogs have gluconic acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is gluconic acid in food",
+      "volume": 20,
+      "parent_topic": "what is gluconic acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is gluconic acid safe",
+      "volume": 10,
+      "parent_topic": "is gluconic acid bad for you",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "\\delta-glucono lactone into gluconic acid, for example, dy/dt = -0.6y when t is measured in hours.",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "4. how is gluconic acid formed from glucose? write an equation.",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "a. what is the purpose of producing gluconic acid and peroxides?",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

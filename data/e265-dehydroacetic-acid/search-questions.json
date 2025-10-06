@@ -1,0 +1,65 @@
+{
+  "keyword": "Dehydroacetic acid",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:44.916Z",
+  "questions": [
+    {
+      "keyword": "what is dehydroacetic acid",
+      "volume": 40,
+      "parent_topic": "dehydroacetic acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is dehydroacetic acid safe",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "dehydroacetic acid what is it",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what e number is decanal dehydroacetic acid",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is dehydroacetic acid in cosmetics",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is dehydroacetic acid in cosmetics?",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is dehydroacetic acid in skin care",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is dehydroacetic acid made from",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is dehydroacetic acid used for",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

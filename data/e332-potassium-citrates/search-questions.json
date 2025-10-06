@@ -1,0 +1,19 @@
+{
+  "keyword": "Potassium citrates",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:38.747Z",
+  "questions": [
+    {
+      "keyword": "what causes low potassium citrates",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what liquids have potassium citrates",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

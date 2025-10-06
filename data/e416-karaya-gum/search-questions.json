@@ -1,0 +1,69 @@
+{
+  "keyword": "Karaya-gum",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:23:56.945Z",
+  "questions": [
+    {
+      "keyword": "what is karaya gum",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "granules of karaya gum and sennosides how to use",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to be karaya gum supplier",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to extract karaya gum",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what foods contain karaya gum",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what foods is gum karaya",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what has gum karaya food",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is gum karaya",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is gum karaya in",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is karaya gum in food",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

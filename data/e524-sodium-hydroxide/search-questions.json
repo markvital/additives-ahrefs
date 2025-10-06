@@ -1,0 +1,87 @@
+{
+  "keyword": "Sodium hydroxide",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:25:11.311Z",
+  "questions": [
+    {
+      "keyword": "what is sodium hydroxide",
+      "volume": 2800,
+      "parent_topic": "sodium hydroxide",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is sodium hydroxide used for",
+      "volume": 600,
+      "parent_topic": "sodium hydroxide",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sodium hydroxide a base",
+      "volume": 300,
+      "parent_topic": "sodium hydroxide",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is the chemical formula for sodium hydroxide",
+      "volume": 250,
+      "parent_topic": "sodium hydroxide formula",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is the formula for sodium hydroxide",
+      "volume": 250,
+      "parent_topic": "sodium hydroxide formula",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to make sodium hydroxide",
+      "volume": 200,
+      "parent_topic": "sodium hydroxide",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sodium hydroxide a strong base",
+      "volume": 200,
+      "parent_topic": "is naoh a strong base",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sodium hydroxide corrosive",
+      "volume": 200,
+      "parent_topic": "what is caustic soda",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sodium hydroxide flammable",
+      "volume": 200,
+      "parent_topic": "sodium hydroxide safety precautions",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sodium hydroxide toxic",
+      "volume": 200,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

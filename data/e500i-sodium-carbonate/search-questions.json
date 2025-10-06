@@ -1,0 +1,87 @@
+{
+  "keyword": "Sodium carbonate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:51.145Z",
+  "questions": [
+    {
+      "keyword": "what is sodium carbonate",
+      "volume": 2300,
+      "parent_topic": "sodium carbonate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is sodium carbonate used for",
+      "volume": 250,
+      "parent_topic": "sodium carbonate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sodium carbonate baking soda",
+      "volume": 200,
+      "parent_topic": "sodium carbonate vs sodium bicarbonate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where to buy sodium carbonate",
+      "volume": 200,
+      "parent_topic": "buy sodium carbonate",
+      "intents": [
+        "informational",
+        "commercial",
+        "transactional"
+      ]
+    },
+    {
+      "keyword": "is sodium carbonate ionic or covalent",
+      "volume": 150,
+      "parent_topic": "na2co3 ionic or covalent",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sodium carbonate toxic",
+      "volume": 150,
+      "parent_topic": "is sodium carbonate safe",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is sodium hydrogen carbonate",
+      "volume": 150,
+      "parent_topic": "baking soda",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is the formula for sodium carbonate",
+      "volume": 150,
+      "parent_topic": "sodium carbonate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is the percent composition of sodium hydrogen carbonate nahco3",
+      "volume": 150,
+      "parent_topic": "what is the percent composition of sodium hydrogen carbonate nahco3",
+      "intents": []
+    },
+    {
+      "keyword": "is sodium carbonate a base",
+      "volume": 100,
+      "parent_topic": "sodium carbonate",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "keyword": "Protease",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:45.518Z",
+  "questions": [
+    {
+      "keyword": "what is protease",
+      "volume": 1000,
+      "parent_topic": "protease",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does protease do",
+      "volume": 500,
+      "parent_topic": "protease",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is a protease",
+      "volume": 500,
+      "parent_topic": "protease",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does protease break down",
+      "volume": 250,
+      "parent_topic": "protease enzymes",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is a protease inhibitor",
+      "volume": 150,
+      "parent_topic": "protease inhibitors",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where is protease produced",
+      "volume": 150,
+      "parent_topic": "protease enzymes",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what are protease",
+      "volume": 100,
+      "parent_topic": "protease enzymes",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what are protease inhibitors",
+      "volume": 100,
+      "parent_topic": "protease inhibitors",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where is protease found",
+      "volume": 100,
+      "parent_topic": "protease enzymes",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does a protease do",
+      "volume": 90,
+      "parent_topic": "protease enzymes",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

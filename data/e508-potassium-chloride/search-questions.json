@@ -1,0 +1,88 @@
+{
+  "keyword": "Potassium chloride",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:38.558Z",
+  "questions": [
+    {
+      "keyword": "what is potassium chloride",
+      "volume": 4400,
+      "parent_topic": "potassium chloride",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is potassium chloride used for",
+      "volume": 2000,
+      "parent_topic": "potassium chloride",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is potassium chloride good for you",
+      "volume": 700,
+      "parent_topic": "is potassium chloride good for you",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is potassium chloride safe",
+      "volume": 700,
+      "parent_topic": "potassium chloride",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is potassium chloride bad for you",
+      "volume": 400,
+      "parent_topic": "potassium chloride",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is potassium chloride a salt",
+      "volume": 250,
+      "parent_topic": "potassium chloride",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does potassium chloride do",
+      "volume": 250,
+      "parent_topic": "potassium chloride",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is potassium chloride salt",
+      "volume": 150,
+      "parent_topic": "potassium chloride salt substitute",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is potassium chloride in food",
+      "volume": 150,
+      "parent_topic": "what is potassium chloride in food",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where can i buy potassium chloride",
+      "volume": 150,
+      "parent_topic": "potassium chloride",
+      "intents": [
+        "commercial",
+        "transactional"
+      ]
+    }
+  ]
+}

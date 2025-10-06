@@ -1,0 +1,69 @@
+{
+  "keyword": "Triphosphates",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:19:04.416Z",
+  "questions": [
+    {
+      "keyword": "what are nucleoside triphosphates",
+      "volume": 30,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what are nucleotide triphosphates",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "\"dna contains decoxyribonucleotide triphosphates joined together by what\"",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "dideoxynucleotide triphosphates (ddntps) are used when sequencing dna because:",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "explain why gluconeogenesis requires the input of six molecules of nucleoside triphosphates",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "gluconeogenesis, how many total nucleotide triphosphates",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how are ddntps (dideoxyribonucleoside triphosphates) used for dna sequencing",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how are deoxynucleoside diphosphate transformed to deoxynucleotide triphosphates?",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how many nucleotide triphosphates are used in the formation of one glucose molecule?",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how many triphosphates needed for 10 nucleotide primer",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "keyword": "acetone peroxide",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:43.201Z",
+  "questions": [
+    {
+      "keyword": "what happens if you mix acetone and hydrogen peroxide",
+      "volume": 40,
+      "parent_topic": "acetone and hydrogen peroxide",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to make acetone peroxide",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does hydrogen peroxide have acetone in it",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does acetone and hydrogen peroxide make",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "acetone peroxide bomb how to make",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "acetone peroxide how much is needed to make a bomb",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "acetone peroxide how to",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "acetone peroxide how to crystals",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "acetone peroxide how to make",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "acetone peroxide what is it",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "keyword": "Tartrazine",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:19:04.780Z",
+  "questions": [
+    {
+      "keyword": "what is tartrazine",
+      "volume": 500,
+      "parent_topic": "tartrazine",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "what is tartrazine made of",
+      "volume": 250,
+      "parent_topic": "",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "what foods contain tartrazine",
+      "volume": 150,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what foods have tartrazine",
+      "volume": 150,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "where does tartrazine come from",
+      "volume": 100,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what products contain tartrazine",
+      "volume": 80,
+      "parent_topic": "what foods contain yellow 6",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how is tartrazine made",
+      "volume": 60,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "why is tartrazine bad for you",
+      "volume": 50,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "tartrazine what is it",
+      "volume": 40,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what foods have tartrazine in them",
+      "volume": 40,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

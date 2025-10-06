@@ -1,0 +1,19 @@
+{
+  "keyword": "Calcium polyphosphate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:44.314Z",
+  "questions": [
+    {
+      "keyword": "how does polyphosphate remove calcium",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the e number of calcium polyphosphate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

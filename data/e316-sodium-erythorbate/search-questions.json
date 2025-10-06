@@ -1,0 +1,81 @@
+{
+  "keyword": "sodium erythorbate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:25:09.097Z",
+  "questions": [
+    {
+      "keyword": "what is sodium erythorbate",
+      "volume": 300,
+      "parent_topic": "sodium erythorbate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sodium erythorbate bad for you",
+      "volume": 150,
+      "parent_topic": "sodium erythorbate side effects",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sodium erythorbate gluten free",
+      "volume": 60,
+      "parent_topic": "is sodium erythorbate gluten free",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is sodium erythorbate made from",
+      "volume": 40,
+      "parent_topic": "sodium erythorbate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sodium erythorbate a carcinogen",
+      "volume": 30,
+      "parent_topic": "is sodium erythorbate a carcinogen",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is sodium erythorbate used for in food",
+      "volume": 30,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does sodium erythorbate do to meat",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is erythorbate sodium",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is sodium erythorbate in food",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is sodium erythorbate used for",
+      "volume": 10,
+      "parent_topic": "sodium erythorbate",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

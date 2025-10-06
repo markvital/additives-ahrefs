@@ -1,0 +1,51 @@
+{
+  "keyword": "Ferrous lactate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:45.439Z",
+  "questions": [
+    {
+      "keyword": "what is ferrous lactate",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "ferrous lactate vs ferric orthophosphate, which is better",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how many waters in ferrous lactate hydrate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what food can you find ferrous lactate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what foods can you find ferrous lactate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is ferrous lactate derived from",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "why is ferrous lactate in food",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "keyword": "dimethyl sulfone",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:44.913Z",
+  "questions": [
+    {
+      "keyword": "what is dimethyl sulfone",
+      "volume": 20,
+      "parent_topic": "methylsulfonylmethane",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "explain using drawings and words why dimethyl sulfone has a non-zero dipole moment",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how many times does dimethyl sulfone dissociate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to make dimethyl sulfone",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what dimethyl sulfone",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is dimethyl sulfone used for",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is dimethyl sulfone used for?",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "why does cows milk contain dimethyl sulfone?",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

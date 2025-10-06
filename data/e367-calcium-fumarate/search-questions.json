@@ -1,0 +1,19 @@
+{
+  "keyword": "Calcium fumarate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:44.263Z",
+  "questions": [
+    {
+      "keyword": "what does calcium with acetate, glycinate, succinate, malate, fumarate, and citrate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the e number of calcium fumarate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

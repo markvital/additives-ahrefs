@@ -1,0 +1,49 @@
+{
+  "keyword": "Sodium tetraborate (borax)",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:25:15.265Z",
+  "questions": [
+    {
+      "keyword": "what is borax sodium tetraborate",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to make slime with sodium tetraborate and no borax",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is sodium tetraborate (borax)",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is sodium tetraborate (borax) solution",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what to do if swallow sodium tetraborate (borax) solution",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what to do is swallow sodium tetraborate (borax) solution",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "why is sodium tetraborate in borax",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

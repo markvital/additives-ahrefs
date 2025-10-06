@@ -1,0 +1,31 @@
+{
+  "keyword": "Sodium citrates",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:25:08.241Z",
+  "questions": [
+    {
+      "keyword": "how are sodium citrates used in molecular gastronomy",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what are sodium citrates degradation byproducts",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is sodium citrates",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "why does sodium citrates burn",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

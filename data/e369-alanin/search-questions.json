@@ -1,0 +1,73 @@
+{
+  "keyword": "Alanin",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:43.291Z",
+  "questions": [
+    {
+      "keyword": "alanin aminotransferaz nedir",
+      "volume": 30,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "beta alanin nedir",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does beta alanin do",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is alanin",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is beta alanin",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "for what is good alanin in liver",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how many grans of beta alanin in food",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how much alanin is in c4",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to find the zero point of charge for poly-alanin",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what are the alanin steps",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

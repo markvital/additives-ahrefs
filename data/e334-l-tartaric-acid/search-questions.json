@@ -1,0 +1,67 @@
+{
+  "keyword": "L(+)-tartaric acid",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:12.200Z",
+  "questions": [
+    {
+      "keyword": "3) if racemic tartaric acid was used instead of l-tartaric acid, what outcome might you expect?",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how does d - tartaric acid and l - tartaric acid work differently",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how is l- tartaric acid different from d-tartaric acid",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much tartaric acid to add to 3000 l of wine",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much tartaric acid to lower wine by 0.1 gram/l",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "if racemic tartaric acid was used instead of l-tartaric acid, what outcome might you expect",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "if racemic tartaric acid was used instead of l-tartaric acid, what outcome might you expect? sds",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what ph is a 1 gm/l tartaric acid solution",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what ph is a 10 gm/l tartaric acid solution",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "why can't l-(+)-tartaric acid resolve tran-1,2-dichlorocyclohexane",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

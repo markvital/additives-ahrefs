@@ -1,0 +1,73 @@
+{
+  "keyword": "potassium iodate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:40.147Z",
+  "questions": [
+    {
+      "keyword": "what is potassium iodate",
+      "volume": 100,
+      "parent_topic": "potassium iodate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is potassium iodate dangerous",
+      "volume": 40,
+      "parent_topic": "is potassium iodate dangerous",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "why is potassium iodate banned",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is potassium iodate used for",
+      "volume": 10,
+      "parent_topic": "potassium iodate tablets",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where can you buy potassium iodate",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "\"potassium iodate\" banned in what countries",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how are bisulfite ions generated in the iodine clock reaction potassium iodate and sodium sulfite",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how does sodium bisulfite and potassium iodate react to make iodine reaction with starch equations",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much of solid kio3 do you need to make 25.00ml of a 0.20m potassium iodate solution? 1.07 g",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much potassium iodate do i need",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

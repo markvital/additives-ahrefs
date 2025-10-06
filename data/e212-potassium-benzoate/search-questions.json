@@ -1,0 +1,79 @@
+{
+  "keyword": "Potassium benzoate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:37.541Z",
+  "questions": [
+    {
+      "keyword": "what is potassium benzoate",
+      "volume": 350,
+      "parent_topic": "is potassium benzoate bad for you",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is potassium benzoate bad for you",
+      "volume": 300,
+      "parent_topic": "is potassium benzoate bad for you",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is potassium benzoate used for",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how bad is potassium benzoate",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "is potassium benzoate bad for kidneys",
+      "volume": 10,
+      "parent_topic": "is potassium sorbate bad for kidneys",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is potassium benzoate good for you",
+      "volume": 10,
+      "parent_topic": "is potassium benzoate bad for you",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is potassium benzoate safe",
+      "volume": 10,
+      "parent_topic": "potassium benzoate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how did sodium or potassium benzoate come about",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how is potassium benzoate used",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how many mg of potassium benzoate in diet coke can",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

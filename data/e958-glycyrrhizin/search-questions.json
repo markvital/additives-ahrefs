@@ -1,0 +1,79 @@
+{
+  "keyword": "Glycyrrhizin",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:45.781Z",
+  "questions": [
+    {
+      "keyword": "how much glycyrrhizin in licorice root",
+      "volume": 10,
+      "parent_topic": "can licorice cause diarrhea",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does licorice extract contain glycyrrhizin",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does red licorice contain glycyrrhizin",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does twizzlers black licorice contain glycyrrhizin",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "does wiley wallaby licorice contain glycyrrhizin",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "glycyrrhizin in what foods?",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "glycyrrhizin licorice which one works",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "glycyrrhizin when sick",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how do you pronounce glycyrrhizin",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how does glycyrrhizin lower potassium",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

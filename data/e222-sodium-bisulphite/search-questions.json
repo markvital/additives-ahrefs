@@ -1,0 +1,27 @@
+{
+  "keyword": "Sodium bisulphite",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:50.585Z",
+  "questions": [
+    {
+      "keyword": "how long to wait for sodium bisulphite before pitching yeast",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is sodium bisulphite",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where to dump pool filter cleaner sodium bisulphite",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

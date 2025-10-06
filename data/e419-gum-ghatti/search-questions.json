@@ -1,0 +1,31 @@
+{
+  "keyword": "Gum ghatti",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:23:53.505Z",
+  "questions": [
+    {
+      "keyword": "how to produce gum ghatti",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is gum ghatti",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is gum ghatti?",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the e number of gum ghatti",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

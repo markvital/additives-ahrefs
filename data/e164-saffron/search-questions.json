@@ -1,0 +1,89 @@
+{
+  "keyword": "saffron",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:47.664Z",
+  "questions": [
+    {
+      "keyword": "what is saffron",
+      "volume": 10000,
+      "parent_topic": "saffron",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does saffron taste like",
+      "volume": 6300,
+      "parent_topic": "what does saffron taste like",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "why is saffron so expensive",
+      "volume": 4200,
+      "parent_topic": "how expensive is saffron",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is saffron used for",
+      "volume": 3500,
+      "parent_topic": "saffron supplement",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where does saffron come from",
+      "volume": 2800,
+      "parent_topic": "saffron",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to grow saffron",
+      "volume": 1600,
+      "parent_topic": "how to grow saffron",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does saffron smell like",
+      "volume": 1300,
+      "parent_topic": "what does saffron smell like",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where to buy saffron",
+      "volume": 1300,
+      "parent_topic": "where to buy saffron",
+      "intents": [
+        "informational",
+        "commercial",
+        "transactional"
+      ]
+    },
+    {
+      "keyword": "how to use saffron",
+      "volume": 1200,
+      "parent_topic": "how to use saffron",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is saffron good for you",
+      "volume": 1200,
+      "parent_topic": "is saffron good for you",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

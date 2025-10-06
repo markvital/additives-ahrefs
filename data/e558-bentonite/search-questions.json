@@ -1,0 +1,91 @@
+{
+  "keyword": "Bentonite",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:43.795Z",
+  "questions": [
+    {
+      "keyword": "what is bentonite",
+      "volume": 1100,
+      "parent_topic": "bentonite clay",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is bentonite clay",
+      "volume": 1000,
+      "parent_topic": "bentonite clay",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how much bentonite clay to drink for detox",
+      "volume": 600,
+      "parent_topic": "how much bentonite clay to drink for detox",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does bentonite clay expire",
+      "volume": 350,
+      "parent_topic": "does aztec clay mask expire",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to use bentonite clay",
+      "volume": 200,
+      "parent_topic": "bentonite clay",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is bentonite clay safe",
+      "volume": 200,
+      "parent_topic": "bentonite clay",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is bentonite cat litter",
+      "volume": 200,
+      "parent_topic": "bentonite cat litter",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is bentonite used for",
+      "volume": 200,
+      "parent_topic": "bentonite clay",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where to buy bentonite clay",
+      "volume": 200,
+      "parent_topic": "food grade bentonite clay",
+      "intents": [
+        "informational",
+        "commercial",
+        "transactional"
+      ]
+    },
+    {
+      "keyword": "where to buy bulk bentonite clay near me",
+      "volume": 200,
+      "parent_topic": "sodium bentonite",
+      "intents": [
+        "commercial",
+        "transactional",
+        "local"
+      ]
+    }
+  ]
+}

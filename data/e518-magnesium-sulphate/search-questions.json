@@ -1,0 +1,83 @@
+{
+  "keyword": "Magnesium sulphate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:18.049Z",
+  "questions": [
+    {
+      "keyword": "how long to leave magnesium sulphate paste on",
+      "volume": 30,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to use magnesium sulphate paste for boils",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is magnesium sulphate",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how does magnesium sulphate paste work",
+      "volume": 10,
+      "parent_topic": "magnesium paste",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "how to dilute magnesium sulphate",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what are the uses for magnesium sulphate",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is magnesium sulphate paste used for",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "what is magnesium sulphate used for",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where can i buy magnesium sulphate paste",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "commercial",
+        "transactional",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "can you use magnesium sulphate when pregnant",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

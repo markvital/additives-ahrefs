@@ -1,0 +1,77 @@
+{
+  "keyword": "Biphenyl",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:43.855Z",
+  "questions": [
+    {
+      "keyword": "is biphenyl polar",
+      "volume": 90,
+      "parent_topic": "biphenyl",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is biphenyl polar or nonpolar",
+      "volume": 30,
+      "parent_topic": "biphenyl",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is biphenyl soluble in methanol",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is biphenyl soluble in water",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is a polychlorinated biphenyl",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is biphenyl hydrochloride",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is polychlorinated biphenyl",
+      "volume": 10,
+      "parent_topic": "polychlorinated biphenyls",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is the cas number of 4 acetyl biphenyl",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the mp of biphenyl 4 carboxaldehyde",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how are unchanged ester and biphenyl removed",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

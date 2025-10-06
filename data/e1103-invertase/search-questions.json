@@ -1,0 +1,84 @@
+{
+  "keyword": "Invertase",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:23:55.789Z",
+  "questions": [
+    {
+      "keyword": "what is invertase",
+      "volume": 250,
+      "parent_topic": "invertase",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does invertase do",
+      "volume": 50,
+      "parent_topic": "invertase",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is invertase enzyme",
+      "volume": 30,
+      "parent_topic": "invertase",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is invertase bad for you",
+      "volume": 20,
+      "parent_topic": "is invertase bad for you",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does invertase break down",
+      "volume": 20,
+      "parent_topic": "invertase",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where is invertase found",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where to buy invertase near me",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "invertase where to buy",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "commercial",
+        "transactional"
+      ]
+    },
+    {
+      "keyword": "is invertase vegan",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is invertase activity",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "keyword": "Anthocyanins",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:43.700Z",
+  "questions": [
+    {
+      "keyword": "what are anthocyanins",
+      "volume": 200,
+      "parent_topic": "anthocyanins benefits",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is anthocyanins",
+      "volume": 60,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what colors come from anthocyanins",
+      "volume": 30,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what are anthocyanins good for",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what are anthocyanins?",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what color are anthocyanins",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what do anthocyanins do",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what do anthocyanins do for the body",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does anthocyanins do",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what foods contain anthocyanins",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

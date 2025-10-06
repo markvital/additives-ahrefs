@@ -1,0 +1,69 @@
+{
+  "keyword": "Ammonium hydrogen carbonate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:43.234Z",
+  "questions": [
+    {
+      "keyword": "ammonium hydrogen carbonate how many ions",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "for each 20.0g of ammonium hydrogen carbonate heated, how many grams of co2 is produced",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "he transformation that occurs when solid ammonium hydrogen carbonate dissolves in water",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how is ammonium hydrogen carbonate produced",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how many aatoms are in ammonium hydrogen carbonate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how many atomes in ammonium hydrogen carbonate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how many atoms are in ammonium hydrogen carbonate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how many atoms in ammonium hydrogen carbonate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how many hydrogen atoms (h) are in ammonium carbonate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how many hydrogen atoms are in 41.6g of ammonium carbonate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

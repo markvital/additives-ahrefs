@@ -1,0 +1,83 @@
+{
+  "keyword": "Carbomer",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:44.351Z",
+  "questions": [
+    {
+      "keyword": "what is carbomer",
+      "volume": 600,
+      "parent_topic": "carbomer",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is carbomer in skin care",
+      "volume": 150,
+      "parent_topic": "carbomer",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is carbomer safe for skin",
+      "volume": 70,
+      "parent_topic": "carbomer",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is carbomer used for",
+      "volume": 50,
+      "parent_topic": "carbomer",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is a carbomer",
+      "volume": 30,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is carbomer safe",
+      "volume": 20,
+      "parent_topic": "carbomer",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is carbomer toxic",
+      "volume": 20,
+      "parent_topic": "carbomer",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does carbomer do",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is carbomer 940",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is carbomer made of",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "keyword": "Pullulan",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:45.598Z",
+  "questions": [
+    {
+      "keyword": "what is pullulan",
+      "volume": 250,
+      "parent_topic": "pullulan",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is pullulan capsule",
+      "volume": 150,
+      "parent_topic": "pullulan capsule",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "pullulan what is it",
+      "volume": 70,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what are pullulan capsules made of",
+      "volume": 40,
+      "parent_topic": "pullulan capsule",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is organic pullulan",
+      "volume": 40,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is a pullulan capsule",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is pullulan made from",
+      "volume": 20,
+      "parent_topic": "pullulan",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what are pullulan capsules",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what happens to pullulan in stomach",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is pullulan capsule made of",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

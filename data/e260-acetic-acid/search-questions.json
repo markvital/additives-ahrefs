@@ -1,0 +1,83 @@
+{
+  "keyword": "Acetic acid",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:43.310Z",
+  "questions": [
+    {
+      "keyword": "is acetic acid a strong acid",
+      "volume": 2200,
+      "parent_topic": "acetic acid strong or weak",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is acetic acid",
+      "volume": 1800,
+      "parent_topic": "acetic acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is vinegar acetic acid",
+      "volume": 450,
+      "parent_topic": "acetic acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is acetic acid used for",
+      "volume": 350,
+      "parent_topic": "acetic acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "which statement describes the acid found in vinegar acetic acid",
+      "volume": 300,
+      "parent_topic": "which statement describes the acid found in vinegar acetic acid",
+      "intents": []
+    },
+    {
+      "keyword": "is acetic acid polar",
+      "volume": 200,
+      "parent_topic": "acetic acid polar or nonpolar",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how do you make 5 acetic acid?",
+      "volume": 150,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "is acetic acid a carboxylic acid",
+      "volume": 150,
+      "parent_topic": "acetic acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is acetic acid a weak acid",
+      "volume": 150,
+      "parent_topic": "is acetic acid a strong acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does acetic acid do",
+      "volume": 150,
+      "parent_topic": "acetic acid",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

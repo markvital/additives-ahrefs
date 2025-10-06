@@ -1,0 +1,69 @@
+{
+  "keyword": "Potassium hydrogen carbonate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:39.591Z",
+  "questions": [
+    {
+      "keyword": "what is the formula for potassium hydrogen carbonate",
+      "volume": 20,
+      "parent_topic": "potassium bicarbonate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "5. what is the molecular mass of potassium hydrogen carbonate (khco3)?",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "a sample of potassium hydrogen carbonate, 8.4 g is used to preapare ml of solution, what is the ph",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "reaction when potassium hydrogen carbonate is put in water",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "rection when potassium hydrogen carbonate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "rection when potassium hydrogen carbonate is put in water",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what does potassium hydrogen carbonate dissolve into",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what happens when you heat potassium hydrogen carbonate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is potassium hydrogen carbonate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is potassium hydrogen carbonate formula",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "keyword": "Aluminium potassium sulphate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:43.267Z",
+  "questions": [
+    {
+      "keyword": "how to remove water from potassium aluminium sulphate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "potassium aluminium sulphate when dissolved in water forms",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "potassium aluminium sulphate when dissolved in water forms ions",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is aluminium potassium sulphate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is use of potassium aluminium sulphate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "where to buy potassium aluminium sulphate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": [
+        "commercial",
+        "transactional"
+      ]
+    }
+  ]
+}

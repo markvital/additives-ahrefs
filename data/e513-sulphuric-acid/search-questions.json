@@ -1,0 +1,78 @@
+{
+  "keyword": "Sulphuric acid",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:25:21.700Z",
+  "questions": [
+    {
+      "keyword": "what is sulphuric acid used for",
+      "volume": 90,
+      "parent_topic": "sulfuric acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is sulphuric acid",
+      "volume": 60,
+      "parent_topic": "sulfuric acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sulphuric acid dangerous",
+      "volume": 40,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where to buy sulphuric acid",
+      "volume": 40,
+      "parent_topic": "sulfuric acid",
+      "intents": [
+        "commercial",
+        "transactional"
+      ]
+    },
+    {
+      "keyword": "what does sulphuric acid do to skin",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is sulphuric acid used for in everyday life",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how dangerous is sulphuric acid",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how do you make sulphuric acid",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how is sulphuric acid made",
+      "volume": 10,
+      "parent_topic": "sulfuric acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how strong is sulphuric acid",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "keyword": "Pectins",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:30.419Z",
+  "questions": [
+    {
+      "keyword": "what are pectins",
+      "volume": 30,
+      "parent_topic": "pectin",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is pectins",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "\"which of the following includes lignin, cellulose, gums, and pectins?\"",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how do pectins work",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how does the breakdown of grape pectins and polysaccharides affect wine quality?",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how pectins kill good bacteria",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "pectins are a type of fiber which",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "pectins are what",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "pectins are what fibers",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what are cellulose, pectins, lignins, mucilages, and gums all considered?",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

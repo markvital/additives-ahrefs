@@ -1,0 +1,87 @@
+{
+  "keyword": "Chlorine",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:44.663Z",
+  "questions": [
+    {
+      "keyword": "how many valence electrons does chlorine have",
+      "volume": 5900,
+      "parent_topic": "cl valence electrons",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is chlorine a metal",
+      "volume": 4100,
+      "parent_topic": "chlorine",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how long does chlorine rash last",
+      "volume": 1900,
+      "parent_topic": "chlorine rash",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is chlorine",
+      "volume": 1800,
+      "parent_topic": "chlorine gas",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how many neutrons does chlorine have",
+      "volume": 1600,
+      "parent_topic": "ci element",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does chlorine kill lice",
+      "volume": 1500,
+      "parent_topic": "does chlorine kill lice",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how many electrons does chlorine have",
+      "volume": 1500,
+      "parent_topic": "how many protons are there in any cl atom",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does boiling water remove chlorine",
+      "volume": 1400,
+      "parent_topic": "does boiling water remove chlorine",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does chlorine help acne",
+      "volume": 1400,
+      "parent_topic": "does chlorine help acne",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how many protons does chlorine have",
+      "volume": 1300,
+      "parent_topic": "how many protons are there in any cl atom",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "keyword": "Ammonium hydroxide",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:43.349Z",
+  "questions": [
+    {
+      "keyword": "is ammonium hydroxide soluble",
+      "volume": 150,
+      "parent_topic": "is ammonium hydroxide soluble in water",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is ammonium hydroxide",
+      "volume": 150,
+      "parent_topic": "ammonium hydroxide",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is ammonium hydroxide a base",
+      "volume": 70,
+      "parent_topic": "is ammonium hydroxide a strong base",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is ammonium hydroxide ammonia",
+      "volume": 70,
+      "parent_topic": "is ammonium hydroxide ammonia",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is ammonium hydroxide used for",
+      "volume": 70,
+      "parent_topic": "what is ammonium hydroxide used for",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is ammonium hydroxide a strong base",
+      "volume": 60,
+      "parent_topic": "is ammonium hydroxide a strong base",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is ammonium hydroxide soluble in water",
+      "volume": 40,
+      "parent_topic": "is nh4oh soluble in water",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is ammonium hydroxide the same as ammonia",
+      "volume": 40,
+      "parent_topic": "is ammonium hydroxide ammonia",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is ammonium hydroxide an acid or base",
+      "volume": 30,
+      "parent_topic": "ammonium hydroxide formula",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to make ammonium hydroxide",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

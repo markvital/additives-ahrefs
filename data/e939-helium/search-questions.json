@@ -1,0 +1,89 @@
+{
+  "keyword": "Helium",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:23:52.848Z",
+  "questions": [
+    {
+      "keyword": "where does helium come from",
+      "volume": 4900,
+      "parent_topic": "where does helium come from",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is helium flammable",
+      "volume": 4300,
+      "parent_topic": "is helium flammable",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how long do helium balloons last",
+      "volume": 3900,
+      "parent_topic": "how long do helium balloons last",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how many valence electrons does helium have",
+      "volume": 3700,
+      "parent_topic": "how many valence electrons does helium have",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is helium used for",
+      "volume": 2900,
+      "parent_topic": "helium",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "why does helium change your voice",
+      "volume": 2300,
+      "parent_topic": "why does helium change your voice",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where to get helium balloons filled",
+      "volume": 1900,
+      "parent_topic": "balloons near me",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is helium",
+      "volume": 1800,
+      "parent_topic": "helium",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where can i get balloons filled with helium",
+      "volume": 1800,
+      "parent_topic": "balloons near me",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where to buy helium",
+      "volume": 1400,
+      "parent_topic": "helium tank",
+      "intents": [
+        "informational",
+        "commercial",
+        "transactional"
+      ]
+    }
+  ]
+}

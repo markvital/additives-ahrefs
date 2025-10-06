@@ -1,0 +1,87 @@
+{
+  "keyword": "Phytic acid",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:31.884Z",
+  "questions": [
+    {
+      "keyword": "what is phytic acid",
+      "volume": 350,
+      "parent_topic": "phytic acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how long to soak oats to remove phytic acid",
+      "volume": 100,
+      "parent_topic": "phytic acid in oatmeal",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to remove phytic acid from oats",
+      "volume": 70,
+      "parent_topic": "phytic acid in oatmeal",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does white rice have phytic acid",
+      "volume": 50,
+      "parent_topic": "disadvantages of eating brown rice",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how long to soak cashews to remove phytic acid",
+      "volume": 50,
+      "parent_topic": "how long to soak cashews to remove phytic acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to soak oats to remove phytic acid",
+      "volume": 50,
+      "parent_topic": "phytic acid in oatmeal",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what foods have phytic acid",
+      "volume": 50,
+      "parent_topic": "phytic acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how long to soak nuts to remove phytic acid",
+      "volume": 40,
+      "parent_topic": "how long to soak nuts to remove phytic acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to neutralize phytic acid in oats",
+      "volume": 40,
+      "parent_topic": "phytic acid in oatmeal",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to reduce phytic acid",
+      "volume": 40,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "keyword": "Agar",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:43.275Z",
+  "questions": [
+    {
+      "keyword": "what is agar",
+      "volume": 4600,
+      "parent_topic": "agar",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is agar agar",
+      "volume": 1900,
+      "parent_topic": "agar agar powder",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is agar powder",
+      "volume": 800,
+      "parent_topic": "what is agar",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is annie agar married",
+      "volume": 600,
+      "parent_topic": "annie agar husband",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is agar agar powder",
+      "volume": 600,
+      "parent_topic": "what is agar",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to make agar plates",
+      "volume": 350,
+      "parent_topic": "how to make agar plates",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is agar agar healthy",
+      "volume": 350,
+      "parent_topic": "is agar agar healthy",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is blood agar selective or differential",
+      "volume": 350,
+      "parent_topic": "differential media",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to use agar agar powder",
+      "volume": 300,
+      "parent_topic": "what is agar agar",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is linda susan agar still alive",
+      "volume": 300,
+      "parent_topic": "linda susan agar",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

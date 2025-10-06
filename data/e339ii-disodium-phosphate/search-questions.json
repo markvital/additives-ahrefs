@@ -1,0 +1,77 @@
+{
+  "keyword": "Disodium phosphate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:45.181Z",
+  "questions": [
+    {
+      "keyword": "what is disodium phosphate",
+      "volume": 1000,
+      "parent_topic": "dipotassium phosphate in food",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is disodium phosphate bad for you",
+      "volume": 200,
+      "parent_topic": "disodium phosphate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is disodium phosphate in food",
+      "volume": 40,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is disodium phosphate used for",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is disodium phosphate safe",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does disodium phosphate do",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is disodium phosphate and is it harmful",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is disodium phosphate dihydrate",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is disodium phosphate used for in food",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is disodium phosphate?",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

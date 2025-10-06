@@ -1,0 +1,87 @@
+{
+  "keyword": "Boric acid",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:43.884Z",
+  "questions": [
+    {
+      "keyword": "is boric acid safe for vaginas",
+      "volume": 4600,
+      "parent_topic": "is boric acid safe for vaginas",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is boric acid",
+      "volume": 4300,
+      "parent_topic": "boric acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does boric acid help bv",
+      "volume": 3900,
+      "parent_topic": "is boric acid safe for vaginas",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does boric acid do",
+      "volume": 3000,
+      "parent_topic": "boric acid suppositories",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is boric acid used for",
+      "volume": 2500,
+      "parent_topic": "boric acid suppositories",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does boric acid make you tighter",
+      "volume": 2300,
+      "parent_topic": "does boric acid make you tighter",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to use boric acid suppositories",
+      "volume": 2000,
+      "parent_topic": "boric acid suppositories",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is boric acid safe for pets",
+      "volume": 2000,
+      "parent_topic": "is boric acid safe for pets",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does boric acid kill sperm",
+      "volume": 1900,
+      "parent_topic": "does boric acid kill sperm",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "can boric acid cure yeast infection",
+      "volume": 1600,
+      "parent_topic": "boric acid for yeast infection",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

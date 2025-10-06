@@ -1,0 +1,77 @@
+{
+  "keyword": "Fumaric acid",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:45.559Z",
+  "questions": [
+    {
+      "keyword": "what is fumaric acid",
+      "volume": 200,
+      "parent_topic": "fumaric acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is fumaric acid bad for you",
+      "volume": 40,
+      "parent_topic": "fumaric acid side effects",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is fumaric acid safe in food",
+      "volume": 10,
+      "parent_topic": "fumaric acid benefits",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is fumaric acid vegan",
+      "volume": 10,
+      "parent_topic": "fumaric acid vegan",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is fumaric acid in food",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is fumaric acid made from",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is fumaric acid used for",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "explain why maleic acid and fumaric acid have very different melting points",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "fumaric acid can cause which conditions",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "fumaric acid where is it found?",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

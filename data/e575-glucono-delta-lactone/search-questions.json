@@ -1,0 +1,86 @@
+{
+  "keyword": "Glucono-delta-lactone",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:45.660Z",
+  "questions": [
+    {
+      "keyword": "what is glucono delta lactone",
+      "volume": 300,
+      "parent_topic": "glucono delta lactone",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is glucono delta lactone gluten free",
+      "volume": 60,
+      "parent_topic": "is glucono delta lactone gluten free",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is glucono delta lactone vegan",
+      "volume": 50,
+      "parent_topic": "glucono delta lactone vegan",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "glucono delta lactone where to buy",
+      "volume": 40,
+      "parent_topic": "glucono delta lactone",
+      "intents": [
+        "commercial",
+        "transactional"
+      ]
+    },
+    {
+      "keyword": "is glucono delta lactone bad for you",
+      "volume": 30,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is glucono delta lactone safe",
+      "volume": 30,
+      "parent_topic": "glucono delta-lactone dangers",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is glucono delta lactone made from",
+      "volume": 30,
+      "parent_topic": "glucono delta lactone tofu",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is glucono delta lactone used for",
+      "volume": 30,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is glucono delta-lactone",
+      "volume": 20,
+      "parent_topic": "glucono delta lactone",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is glucono-delta-lactone",
+      "volume": 20,
+      "parent_topic": "glucono delta lactone",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

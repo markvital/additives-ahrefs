@@ -1,0 +1,25 @@
+{
+  "keyword": "Indigotine",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:23:55.524Z",
+  "questions": [
+    {
+      "keyword": "what is indigotine",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is indigotine made from",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the chemical structure of indigotine",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

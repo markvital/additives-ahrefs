@@ -1,0 +1,73 @@
+{
+  "keyword": "Ammonium acetate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:43.267Z",
+  "questions": [
+    {
+      "keyword": "how to prepare ammonium acetate buffer solution",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "is ammonium acetate soluble in water",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is ammonium acetate",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is the formula for ammonium acetate",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "ammonium acetate dissolves into what ions",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "ammonium acetate in what products contain",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "consider the reaction when aqueous solutions of ammonium acetate and sodium phosphate are combined.",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "does a reaction occur when aqueous solutions of zinc acetate and ammonium carbonate are combined?",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "does ammonium acetate create an electrolyte solution when dissolved in water",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "does precipitation form when sodium acetate and ammonium bromide mix",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

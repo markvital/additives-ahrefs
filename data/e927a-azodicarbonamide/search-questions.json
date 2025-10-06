@@ -1,0 +1,73 @@
+{
+  "keyword": "Azodicarbonamide",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:43.775Z",
+  "questions": [
+    {
+      "keyword": "what is azodicarbonamide",
+      "volume": 100,
+      "parent_topic": "azodicarbonamide",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what breads have azodicarbonamide",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is azodicarbonamide used for",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does azodicarbonamide do to your body",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what foods contain azodicarbonamide",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what products contain azodicarbonamide",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "who makes azodicarbonamide",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "who uses azodicarbonamide in their bread",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "why is azodicarbonamide banned in europe",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "azodicarbonamide in what products",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

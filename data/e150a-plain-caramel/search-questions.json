@@ -1,0 +1,25 @@
+{
+  "keyword": "Plain caramel",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:32.120Z",
+  "questions": [
+    {
+      "keyword": "how many calories in 6 ounces of plain caramel corn",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is \"plain caramel\"",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "where to buy plain caramel in hawaii",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

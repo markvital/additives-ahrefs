@@ -1,0 +1,87 @@
+{
+  "keyword": "Nitrogen",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:25.929Z",
+  "questions": [
+    {
+      "keyword": "how many valence electrons does nitrogen have",
+      "volume": 7500,
+      "parent_topic": "nitrogen valence electrons",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is nitrogen",
+      "volume": 6400,
+      "parent_topic": "nitrogen",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is nitrogen fixation",
+      "volume": 4100,
+      "parent_topic": "nitrogen fixation",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is nitrogen a greenhouse gas",
+      "volume": 3800,
+      "parent_topic": "greenhouse gases",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is nitrogen used for",
+      "volume": 3700,
+      "parent_topic": "nitrogen",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is the nitrogen cycle",
+      "volume": 3100,
+      "parent_topic": "nitrogen cycle",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is nitrogen flammable",
+      "volume": 2400,
+      "parent_topic": "is nitrogen flammable",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is urea nitrogen",
+      "volume": 2100,
+      "parent_topic": "bun blood test",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "which of the following pathways indicate how nitrogen is added to the largest nitrogen reservoir?",
+      "volume": 1900,
+      "parent_topic": "which of the following pathways indicate how nitrogen is added to the largest nitrogen reservoir?",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to add nitrogen to soil",
+      "volume": 1800,
+      "parent_topic": "how to add nitrogen to soil",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

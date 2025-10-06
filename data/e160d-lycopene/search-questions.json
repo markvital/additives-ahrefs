@@ -1,0 +1,85 @@
+{
+  "keyword": "Lycopene",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:14.837Z",
+  "questions": [
+    {
+      "keyword": "what is lycopene",
+      "volume": 2100,
+      "parent_topic": "lycopene",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is lycopene good for",
+      "volume": 600,
+      "parent_topic": "lycopene benefits",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how much lycopene per day for prostate health",
+      "volume": 400,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much lycopene per day",
+      "volume": 300,
+      "parent_topic": "lycopene",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does lycopene do",
+      "volume": 250,
+      "parent_topic": "lycopene benefits",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what foods have lycopene",
+      "volume": 250,
+      "parent_topic": "what foods have lycopene",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does lycopene reduce prostate size",
+      "volume": 150,
+      "parent_topic": "lycopene benefits",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is lycopene good for you",
+      "volume": 150,
+      "parent_topic": "lycopene benefits",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does lycopene do for the body",
+      "volume": 150,
+      "parent_topic": "lycopene benefits",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what foods contain lycopene",
+      "volume": 150,
+      "parent_topic": "what foods have lycopene",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

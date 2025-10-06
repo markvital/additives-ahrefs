@@ -1,0 +1,75 @@
+{
+  "keyword": "Sodium sulphate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:25:14.441Z",
+  "questions": [
+    {
+      "keyword": "what is sodium laureth sulphate",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is sodium lauryl sulphate",
+      "volume": 20,
+      "parent_topic": "sodium lauryl sulfate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sodium sulphate soluble in water",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is sodium laureth sulphate used for",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is sodium sulphate",
+      "volume": 10,
+      "parent_topic": "sodium sulfate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is sodium sulphate used for",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the formula of sodium sulphate",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how bad is sodium sulphate when inhaled",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how does sodium laureth sulphate work",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how long does it take sodium laurel sulphate to be out the mouth",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

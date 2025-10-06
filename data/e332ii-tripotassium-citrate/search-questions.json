@@ -1,0 +1,15 @@
+{
+  "keyword": "Tripotassium citrate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:19:04.291Z",
+  "questions": [
+    {
+      "keyword": "what is tripotassium citrate",
+      "volume": 50,
+      "parent_topic": "potassium citrate",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "keyword": "Spermaceti",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:25:18.514Z",
+  "questions": [
+    {
+      "keyword": "what is spermaceti",
+      "volume": 100,
+      "parent_topic": "spermaceti",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is spermaceti used for",
+      "volume": 30,
+      "parent_topic": "spermaceti",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is spermaceti still used",
+      "volume": 20,
+      "parent_topic": "spermaceti",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does spermaceti look like",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what was spermaceti used for",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much spermaceti is in a sperm whale",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what does spermaceti do",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "where to buy spermaceti",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "why do sperm whales have spermaceti",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "why is it called spermaceti",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

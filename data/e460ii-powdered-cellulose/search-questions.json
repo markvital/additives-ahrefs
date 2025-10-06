@@ -1,0 +1,85 @@
+{
+  "keyword": "Powdered cellulose",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:43.357Z",
+  "questions": [
+    {
+      "keyword": "what is powdered cellulose",
+      "volume": 1800,
+      "parent_topic": "cellulose powder",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is powdered cellulose gluten free",
+      "volume": 350,
+      "parent_topic": "is powdered cellulose gluten free",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is powdered cellulose made of",
+      "volume": 80,
+      "parent_topic": "cellulose powder",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does powdered cellulose have gluten",
+      "volume": 60,
+      "parent_topic": "cellulose gluten free",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is powdered cellulose bad for you",
+      "volume": 50,
+      "parent_topic": "cellulose powder",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is powdered cellulose in dog food",
+      "volume": 40,
+      "parent_topic": "powdered cellulose in dog food",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does powdered cellulose contain gluten",
+      "volume": 30,
+      "parent_topic": "cellulose gluten free",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is powdered cellulose bad for dogs",
+      "volume": 30,
+      "parent_topic": "powdered cellulose in dog food",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is powdered cellulose?",
+      "volume": 30,
+      "parent_topic": "cellulose powder",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is powdered cellulose made from",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

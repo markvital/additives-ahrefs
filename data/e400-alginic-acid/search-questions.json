@@ -1,0 +1,69 @@
+{
+  "keyword": "Alginic acid",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:43.341Z",
+  "questions": [
+    {
+      "keyword": "what is alginic acid",
+      "volume": 20,
+      "parent_topic": "alginate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "a. draw the haworth structure of alginic acid b. why does this substance act as a thickening agent?",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "acid gone how much alginic acid",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "alginic acid how stuff works",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "alginic acid is obtained from which algae",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "alginic acid what is n",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "alginic acid where does it come from",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "alginic acid where to find",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "described as \"hairy\" in appearance, produce alginic acid, which can be used as a thickening agent",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "described as \"hairy\" in appearance, produce alginic acid, which can be used as a thickening agent.",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

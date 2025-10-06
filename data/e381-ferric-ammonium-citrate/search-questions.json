@@ -1,0 +1,67 @@
+{
+  "keyword": "ferric ammonium citrate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:45.432Z",
+  "questions": [
+    {
+      "keyword": "what is ferric ammonium citrate",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "ferric ammonium citrate green rock hard, how to reconstitute",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "ferric ammonium citrate green where to buy",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "ferric ammonium citrate rock hard, how to reconstitute",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "ferric ammonium citrate what is",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "ferric ammonium citrate where to buy",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how cells uptake ferric ammonium citrate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how is ferric ammonium citrate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how is ferric ammonium citrate made",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much elemental iron in ferric ammonium citrate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

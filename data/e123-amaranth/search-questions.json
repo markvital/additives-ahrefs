@@ -1,0 +1,87 @@
+{
+  "keyword": "Amaranth",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:43.355Z",
+  "questions": [
+    {
+      "keyword": "what is amaranth",
+      "volume": 2600,
+      "parent_topic": "what is amaranth",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to cook amaranth",
+      "volume": 1300,
+      "parent_topic": "how to cook amaranth",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is amaranth gluten free",
+      "volume": 800,
+      "parent_topic": "is amaranth gluten free",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to eat amaranth",
+      "volume": 250,
+      "parent_topic": "what is amaranth",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does amaranth taste like",
+      "volume": 250,
+      "parent_topic": "amaranth grain taste",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is amaranth in stardew valley",
+      "volume": 250,
+      "parent_topic": "stardew valley amaranth",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does amaranth have gluten",
+      "volume": 200,
+      "parent_topic": "is amaranth gluten free",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is amaranth a grain",
+      "volume": 200,
+      "parent_topic": "amaranth grain",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is amaranth good for you",
+      "volume": 200,
+      "parent_topic": "amaranth benefits",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "amaranth how to cook",
+      "volume": 150,
+      "parent_topic": "amaranth grain",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "keyword": "Formic acid",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:45.435Z",
+  "questions": [
+    {
+      "keyword": "what is formic acid",
+      "volume": 450,
+      "parent_topic": "formic acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is formic acid a strong acid",
+      "volume": 90,
+      "parent_topic": "formic acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is formic acid used for",
+      "volume": 90,
+      "parent_topic": "formic acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does formic acid smell like",
+      "volume": 80,
+      "parent_topic": "can you smell ants",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where to buy formic acid",
+      "volume": 40,
+      "parent_topic": "formic acid for sale",
+      "intents": [
+        "commercial",
+        "transactional"
+      ]
+    },
+    {
+      "keyword": "what does formic acid do to the body",
+      "volume": 30,
+      "parent_topic": "is formic acid harmful to humans",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does formic acid have hydrogen bonding",
+      "volume": 20,
+      "parent_topic": "formic acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how is formic acid made",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to make formic acid",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is formic acid organic",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

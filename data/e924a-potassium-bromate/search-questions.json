@@ -1,0 +1,85 @@
+{
+  "keyword": "Potassium bromate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:38.031Z",
+  "questions": [
+    {
+      "keyword": "what is potassium bromate",
+      "volume": 600,
+      "parent_topic": "potassium bromate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what foods have potassium bromate",
+      "volume": 100,
+      "parent_topic": "list of foods with potassium bromate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what foods contain potassium bromate",
+      "volume": 80,
+      "parent_topic": "list of foods with potassium bromate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what brands use potassium bromate",
+      "volume": 70,
+      "parent_topic": "potassium bromate foods",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does king arthur flour have potassium bromate",
+      "volume": 60,
+      "parent_topic": "bromated flour",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "what is potassium bromate in",
+      "volume": 30,
+      "parent_topic": "potassium bromate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is potassium bromate used for",
+      "volume": 30,
+      "parent_topic": "what is potassium bromate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is potassium bromate used in",
+      "volume": 30,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "why is potassium bromate banned",
+      "volume": 30,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "does gold medal flour contain potassium bromate",
+      "volume": 20,
+      "parent_topic": "gold medal unbleached flour",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    }
+  ]
+}

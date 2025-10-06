@@ -1,0 +1,75 @@
+{
+  "keyword": "hemimorphite",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:23:53.171Z",
+  "questions": [
+    {
+      "keyword": "what is hemimorphite",
+      "volume": 30,
+      "parent_topic": "hemimorphite crystal",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is hemimorphite used for",
+      "volume": 30,
+      "parent_topic": "hemimorphite crystal",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is hemimorphite rare",
+      "volume": 20,
+      "parent_topic": "is hemimorphite rare",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where is hemimorphite found",
+      "volume": 20,
+      "parent_topic": "hemimorphite",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "gem grade hemimorphite where does it get its color",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how abundant are sphalerite, wurtzite, smithsonite and hemimorphite.",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how abundant are sphalerite, wurzite, smithsonite and hemimorphite.",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how is hemimorphite formed",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to cleanse hemimorphite",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to draw hemimorphite stereonet",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

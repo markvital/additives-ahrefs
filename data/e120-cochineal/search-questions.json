@@ -1,0 +1,85 @@
+{
+  "keyword": "Cochineal",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:44.763Z",
+  "questions": [
+    {
+      "keyword": "what foods contain cochineal",
+      "volume": 450,
+      "parent_topic": "cochineal foods",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is cochineal extract bad for you",
+      "volume": 350,
+      "parent_topic": "what is red 40 made of",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is cochineal",
+      "volume": 200,
+      "parent_topic": "cochineal",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is cochineal extract",
+      "volume": 150,
+      "parent_topic": "cochineal",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is cochineal safe to eat",
+      "volume": 90,
+      "parent_topic": "cochineal foods",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is cochineal used for",
+      "volume": 90,
+      "parent_topic": "cochineal",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is a cochineal insect",
+      "volume": 70,
+      "parent_topic": "cochineal",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what foods have cochineal in them",
+      "volume": 50,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is a cochineal",
+      "volume": 50,
+      "parent_topic": "cochineal",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to get rid of cochineal on cactus",
+      "volume": 40,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

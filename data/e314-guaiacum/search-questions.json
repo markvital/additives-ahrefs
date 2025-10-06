@@ -1,0 +1,49 @@
+{
+  "keyword": "Guaiacum",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:23:51.797Z",
+  "questions": [
+    {
+      "keyword": "guaiacum sanctum what sex",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "guaiacum sanctum why type of flowers",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how do you get guaiacum",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how fast does guaiacum officinale grow",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what does guaiacum mean?",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is guaiacum",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "who discoveredof genus guaiacum",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

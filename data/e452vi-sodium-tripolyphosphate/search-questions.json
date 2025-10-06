@@ -1,0 +1,87 @@
+{
+  "keyword": "Sodium tripolyphosphate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:25:15.713Z",
+  "questions": [
+    {
+      "keyword": "what is sodium tripolyphosphate",
+      "volume": 300,
+      "parent_topic": "sodium tripolyphosphate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sodium tripolyphosphate bad for you",
+      "volume": 60,
+      "parent_topic": "sodium tripolyphosphate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is sodium tripolyphosphate used for",
+      "volume": 30,
+      "parent_topic": "sodium tripolyphosphate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where to buy shrimp without sodium tripolyphosphate",
+      "volume": 30,
+      "parent_topic": "where to buy shrimp without sodium tripolyphosphate",
+      "intents": [
+        "informational",
+        "commercial",
+        "transactional"
+      ]
+    },
+    {
+      "keyword": "how to remove sodium tripolyphosphate from fish",
+      "volume": 20,
+      "parent_topic": "how to remove sodium tripolyphosphate from fish",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to remove sodium tripolyphosphate from shrimp",
+      "volume": 20,
+      "parent_topic": "how to remove sodium tripolyphosphate from fish",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sodium tripolyphosphate safe",
+      "volume": 20,
+      "parent_topic": "sodium tripolyphosphate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sodium tripolyphosphate safe to eat",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is sodium tripolyphosphate used for in food",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "household detergents, which many brands contains sodium tripolyphosphate (stpp).",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

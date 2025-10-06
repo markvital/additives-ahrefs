@@ -1,0 +1,87 @@
+{
+  "keyword": "Glycine",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:45.793Z",
+  "questions": [
+    {
+      "keyword": "what is glycine",
+      "volume": 2900,
+      "parent_topic": "glycine supplement",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how much glycine per day",
+      "volume": 1000,
+      "parent_topic": "how much glycine per day",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is glycine polar or nonpolar",
+      "volume": 600,
+      "parent_topic": "is glycine polar or nonpolar",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does glycine do",
+      "volume": 600,
+      "parent_topic": "glycine supplement",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is glycine used for",
+      "volume": 600,
+      "parent_topic": "glycine supplement",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is glycine good for",
+      "volume": 450,
+      "parent_topic": "glycine benefits",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "when to take glycine",
+      "volume": 350,
+      "parent_topic": "glycine benefits",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does glycine make you sleepy",
+      "volume": 200,
+      "parent_topic": "glycine for sleep",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how long does it take glycine to work for sleep",
+      "volume": 200,
+      "parent_topic": "glycine for sleep",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how much glycine for sleep",
+      "volume": 200,
+      "parent_topic": "glycine for sleep",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

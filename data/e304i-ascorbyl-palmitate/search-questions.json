@@ -1,0 +1,77 @@
+{
+  "keyword": "Ascorbyl palmitate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:43.889Z",
+  "questions": [
+    {
+      "keyword": "what is ascorbyl palmitate",
+      "volume": 600,
+      "parent_topic": "ascorbyl palmitate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is ascorbyl palmitate safe",
+      "volume": 70,
+      "parent_topic": "ascorbyl palmitate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is ascorbyl palmitate in supplements",
+      "volume": 30,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is ascorbyl palmitate made from",
+      "volume": 30,
+      "parent_topic": "ascorbyl palmitate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "ascorbyl palmitate what is it",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is ascorbyl palmitate used for",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is ascorbyl palmitate natural",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "acerola cherry vs ascorbyl palmitate which is better for liposomal c",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "ascorbyl palmitate derive from what source",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "ascorbyl palmitate how is it made",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

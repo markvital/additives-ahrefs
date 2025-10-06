@@ -1,0 +1,67 @@
+{
+  "keyword": "Bone phosphate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:43.812Z",
+  "questions": [
+    {
+      "keyword": "\"calcium phosphate crystals which comprise bone\"",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "bone graft why calcium phosphate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "bone is what percent calcium phosphate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "bone valley phosphate mine how much'",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "do bone cells deposit excessive calcium phosphate in bone when vitamin d levels are insufficient",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how do calcium and phosphate work together bone",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how does bone tissue matrix serve as a storage site for calcium and phosphate ions",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how does calcium or phosphate affect bone growth?",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how does calcium phosphate compare to bone",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how does phosphate relate to bone density",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

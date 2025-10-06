@@ -1,0 +1,85 @@
+{
+  "keyword": "Sorbic acid",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:25:16.458Z",
+  "questions": [
+    {
+      "keyword": "what is sorbic acid",
+      "volume": 250,
+      "parent_topic": "is sorbic acid bad for you",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sorbic acid bad for you",
+      "volume": 200,
+      "parent_topic": "is sorbic acid bad for you",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sorbic acid safe for dogs",
+      "volume": 50,
+      "parent_topic": "is sorbic acid safe for dogs",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sorbic acid safe",
+      "volume": 30,
+      "parent_topic": "is sorbic acid bad for you",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is sorbic acid made from",
+      "volume": 30,
+      "parent_topic": "sorbic acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sorbic acid natural",
+      "volume": 20,
+      "parent_topic": "sorbic acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is a sorbic acid",
+      "volume": 20,
+      "parent_topic": "sorbic acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is sorbic acid used for",
+      "volume": 20,
+      "parent_topic": "is sorbic acid bad for you",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where does sorbic acid come from",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how is sorbic acid made",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

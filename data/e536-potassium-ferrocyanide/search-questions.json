@@ -1,0 +1,67 @@
+{
+  "keyword": "Potassium ferrocyanide",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:38.920Z",
+  "questions": [
+    {
+      "keyword": "how to make potassium ferrocyanide",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is potassium ferrocyanide",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how could one ingest potassium ferrocyanide",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how many grams of potassium ferrocyanide must be used to prepare 800.0ml of 6.00m solution",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to change potassium ferrocyanide into a poison",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to dry potassium ferrocyanide",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to make .5m potassium ferrocyanide",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to make kcn with potassium ferrocyanide",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to make liquid cyanide from potassium ferrocyanide",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to prepare potassium ferrocyanide",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "keyword": "Sodium metabisulphite",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:25:11.616Z",
+  "questions": [
+    {
+      "keyword": "what is sodium metabisulphite",
+      "volume": 10,
+      "parent_topic": "sodium metabisuphite",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where can i buy sodium metabisulphite",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how does sodium metabisulphite react with chlorine compounds",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how harmful to humans is sodium metabisulphite",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how long does sodium metabisulphite last",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how long does sodium metabisulphite solution last",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how many mg sodium metabisulphite",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how many mg sodium metabisulphite per gallon",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much sodium metabisulphite to use in cider",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much sodium metabisulphite to wine",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "keyword": "Dipotassium phosphate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:44.913Z",
+  "questions": [
+    {
+      "keyword": "what is dipotassium phosphate",
+      "volume": 1000,
+      "parent_topic": "dipotassium phosphate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is dipotassium phosphate bad for you",
+      "volume": 450,
+      "parent_topic": "dipotassium phosphate bad for you",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is dipotassium phosphate used for",
+      "volume": 80,
+      "parent_topic": "is dipotassium phosphate bad for you",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is dipotassium phosphate safe",
+      "volume": 60,
+      "parent_topic": "disodium phosphate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is dipotassium phosphate good for you",
+      "volume": 40,
+      "parent_topic": "is dipotassium phosphate bad for you",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is dipotassium phosphate in food",
+      "volume": 40,
+      "parent_topic": "dipotassium phosphate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does dipotassium phosphate do",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "dipotassium phosphate what is it",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how is dipotassium phosphate made",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much dipotassium phosphate is bad for you",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

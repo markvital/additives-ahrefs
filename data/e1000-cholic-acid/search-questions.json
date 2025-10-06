@@ -1,0 +1,69 @@
+{
+  "keyword": "Cholic acid",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:44.647Z",
+  "questions": [
+    {
+      "keyword": "what is cholic acid",
+      "volume": 50,
+      "parent_topic": "cholic acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "biosynthesis of a cholic acid requires what type of oxidation",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how does cholic acid form glycoconjugates",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how does the body produce cholic acid",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how does the structure of cholic acid differ fro cholestoral",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how long to dissolving gallstones with ursodeoxycholic acid or chenodeoxy-cholic acid",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how many enantiomers of cholic acid are there",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much cholic acid is in bovine powder",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to get cholic acid",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to identify cholic acid",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

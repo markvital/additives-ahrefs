@@ -1,0 +1,69 @@
+{
+  "keyword": "Polyphosphates",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:34.883Z",
+  "questions": [
+    {
+      "keyword": "what are polyphosphates",
+      "volume": 20,
+      "parent_topic": "polyphosphate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how does polyphosphates reduce affinity of hemoglobin for oxygen",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how many states use polyphosphates",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how many states use polyphosphates to treat water",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to remove polyphosphates from drinking water",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "polyphosphates are present in which granules",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what are polyphosphates foud in",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what are polyphosphates in food",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what are polyphosphates used for",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is polyphosphates",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

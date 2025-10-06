@@ -1,0 +1,85 @@
+{
+  "keyword": "Glycerol",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:45.772Z",
+  "questions": [
+    {
+      "keyword": "what is glycerol",
+      "volume": 3600,
+      "parent_topic": "glycerol",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is glycerol ester of rosin",
+      "volume": 400,
+      "parent_topic": "ester gum",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does glycerol do",
+      "volume": 350,
+      "parent_topic": "glycerin",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is glycerol a carbohydrate",
+      "volume": 200,
+      "parent_topic": "glycerol",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does liquid glycerol do",
+      "volume": 200,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is a glycerol",
+      "volume": 200,
+      "parent_topic": "glycerol",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is glycerol a lipid",
+      "volume": 150,
+      "parent_topic": "glycerin",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is glycerol a protein",
+      "volume": 150,
+      "parent_topic": "is glycerol a protein",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is glycerol bad for you",
+      "volume": 150,
+      "parent_topic": "what is glycerol",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is glycerol the same as glycerin",
+      "volume": 150,
+      "parent_topic": "is glycerol the same as glycerin",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

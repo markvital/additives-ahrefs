@@ -1,0 +1,89 @@
+{
+  "keyword": "Paraffin wax",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:29.301Z",
+  "questions": [
+    {
+      "keyword": "is paraffin wax toxic",
+      "volume": 2000,
+      "parent_topic": "is paraffin wax toxic",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is paraffin wax",
+      "volume": 1600,
+      "parent_topic": "paraffin wax",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is paraffin wax made of",
+      "volume": 600,
+      "parent_topic": "paraffin wax",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is paraffin wax edible",
+      "volume": 350,
+      "parent_topic": "is paraffin wax edible",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does paraffin wax do",
+      "volume": 250,
+      "parent_topic": "paraffin wax for hands",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does paraffin wax do for feet",
+      "volume": 250,
+      "parent_topic": "paraffin wax for hands",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where does paraffin wax come from",
+      "volume": 250,
+      "parent_topic": "paraffin",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where to buy paraffin wax",
+      "volume": 250,
+      "parent_topic": "paraffin wax for candle making",
+      "intents": [
+        "informational",
+        "commercial",
+        "transactional"
+      ]
+    },
+    {
+      "keyword": "can you eat paraffin wax",
+      "volume": 200,
+      "parent_topic": "can you eat paraffin wax",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how is paraffin wax made",
+      "volume": 200,
+      "parent_topic": "is paraffin wax toxic",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

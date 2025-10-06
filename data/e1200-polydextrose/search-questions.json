@@ -1,0 +1,81 @@
+{
+  "keyword": "Polydextrose",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:32.568Z",
+  "questions": [
+    {
+      "keyword": "what is polydextrose",
+      "volume": 1100,
+      "parent_topic": "polydextrose",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is polydextrose bad for you",
+      "volume": 70,
+      "parent_topic": "is polydextrose bad for you",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "polydextrose what is it",
+      "volume": 60,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "does polydextrose raise blood sugar",
+      "volume": 50,
+      "parent_topic": "polydextrose",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is polydextrose fiber",
+      "volume": 30,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "is polydextrose good for you",
+      "volume": 20,
+      "parent_topic": "what is polydextrose",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is polydextrose safe for dogs",
+      "volume": 20,
+      "parent_topic": "is polydextrose safe for dogs",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is polydextrose?",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "does polydextrose spike blood sugar",
+      "volume": 10,
+      "parent_topic": "polydextrose glycemic index",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is polydextrose a sugar",
+      "volume": 10,
+      "parent_topic": "polydextrose",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

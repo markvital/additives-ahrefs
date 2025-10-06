@@ -1,0 +1,25 @@
+{
+  "keyword": "Calcium sorbate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:44.333Z",
+  "questions": [
+    {
+      "keyword": "what is calcium sorbate",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to use calcium sorbate in food",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "which is worse calcium disodium edta or potassium sorbate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "keyword": "Pectin",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:29.882Z",
+  "questions": [
+    {
+      "keyword": "what is pectin",
+      "volume": 12000,
+      "parent_topic": "pectin",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is fruit pectin",
+      "volume": 2100,
+      "parent_topic": "what is pectin",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is pectin bad for you",
+      "volume": 1400,
+      "parent_topic": "what is pectin",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is pectin made of",
+      "volume": 1400,
+      "parent_topic": "pectin",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is pectin vegan",
+      "volume": 1300,
+      "parent_topic": "is pectin vegan",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is pectin used for",
+      "volume": 700,
+      "parent_topic": "apple pectin",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "why is pectin bad for you",
+      "volume": 700,
+      "parent_topic": "what is pectin",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is pectin gluten free",
+      "volume": 450,
+      "parent_topic": "is pectin gluten free",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is pectin the same as gelatin",
+      "volume": 400,
+      "parent_topic": "pectin vs gelatin",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does pectin do",
+      "volume": 400,
+      "parent_topic": "apple pectin",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

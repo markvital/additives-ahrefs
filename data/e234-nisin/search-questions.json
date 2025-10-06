@@ -1,0 +1,75 @@
+{
+  "keyword": "Nisin",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:25.723Z",
+  "questions": [
+    {
+      "keyword": "what is nisin",
+      "volume": 100,
+      "parent_topic": "nisin",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is nisin preparation",
+      "volume": 50,
+      "parent_topic": "nisin preparation",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is nisin bad for you",
+      "volume": 10,
+      "parent_topic": "food preservatives",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is nisin in food",
+      "volume": 10,
+      "parent_topic": "nisin in food",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is nisin made from",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "• describe what nisin looks like and how it inhibits the growth of spoilage bacteria? (2 points)",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "cheddar nisin which brands",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how can i enhance my \"nisin top ramin\" noodles?",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how does nisin inhibit bacterial growth",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how does nisin prohibit microbial growth",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

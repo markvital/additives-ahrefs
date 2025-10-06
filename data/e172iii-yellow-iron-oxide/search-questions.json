@@ -1,0 +1,71 @@
+{
+  "keyword": "Yellow iron oxide",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:19:04.410Z",
+  "questions": [
+    {
+      "keyword": "what is yellow iron oxide",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is iron oxide yellow",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to lighten yellow iron oxide",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to make yellow iron oxide",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to make yellow iron oxide pigment",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "iron oxide minerals which might create red or yellow coloration in sandstones",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "mix pure white,yellow oxide,phthalo blue and brown iron oxide what will i get",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "pant mix pure white,yellow oxide, phthalo blue with brown iron oxide what color paint will i get",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what color will i get if i mix yellow oxide,phthalo blue with brown iron oxide",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what color wll i get if i mix yellow oxide,phthalo blue with brown iron oxide",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

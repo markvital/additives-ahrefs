@@ -1,0 +1,73 @@
+{
+  "keyword": "Quillaia extract",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:45.817Z",
+  "questions": [
+    {
+      "keyword": "what is quillaia extract",
+      "volume": 250,
+      "parent_topic": "quillaia extract",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is quillaia extract in root beer",
+      "volume": 20,
+      "parent_topic": "quillaia extract root beer",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is quillaia extract made from",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "why is quillaia extract in root beer",
+      "volume": 10,
+      "parent_topic": "quillaia extract root beer",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "quillaia extract what is it",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "quillaia extract where to buy",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what does quillaia extract taste like",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is quillaia extract good for",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is quillaia extract hound in",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is quillaia extract used for",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "keyword": "Sodium stearoyl-2-lactylate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:25:14.304Z",
+  "questions": [
+    {
+      "keyword": "what is sodium stearoyl-2-lactylate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

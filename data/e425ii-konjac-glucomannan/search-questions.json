@@ -1,0 +1,69 @@
+{
+  "keyword": "Konjac glucomannan",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:11.336Z",
+  "questions": [
+    {
+      "keyword": "what is glucomannan konjac root",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is konjac glucomannan",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where to buy konjac glucomannan powder",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how is glucomannan konjac made",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how long does konjac root glucomannan stay in your stomach",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how many grams of konjac root glucomannan a day",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to make konjac noodles with glucomannan powder",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to take glucomannan konjac root for weight loss",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is difference between konjac root and glucomannan",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is glucomannan / konjac powder (optional))",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

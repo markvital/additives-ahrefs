@@ -1,0 +1,74 @@
+{
+  "keyword": "Natamycin",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:24.653Z",
+  "questions": [
+    {
+      "keyword": "what is natamycin",
+      "volume": 300,
+      "parent_topic": "natamycin",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is natamycin in cheese",
+      "volume": 150,
+      "parent_topic": "natamycin in cheese",
+      "intents": []
+    },
+    {
+      "keyword": "natamycin what is it",
+      "volume": 100,
+      "parent_topic": "natamycin",
+      "intents": []
+    },
+    {
+      "keyword": "how natamycin works",
+      "volume": 50,
+      "parent_topic": "natamycin",
+      "intents": []
+    },
+    {
+      "keyword": "is natamycin an antibiotic",
+      "volume": 30,
+      "parent_topic": "natamycin",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "why did whole foods ban natamycin",
+      "volume": 30,
+      "parent_topic": "natamycin in cheese",
+      "intents": []
+    },
+    {
+      "keyword": "what is natamycin in food",
+      "volume": 10,
+      "parent_topic": "natamycin",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "what is natamycin made of",
+      "volume": 10,
+      "parent_topic": "natamycin",
+      "intents": []
+    },
+    {
+      "keyword": "what is natamycin used for",
+      "volume": 10,
+      "parent_topic": "antifungal eye drops",
+      "intents": []
+    },
+    {
+      "keyword": "food additive natamycin in what food",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

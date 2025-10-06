@@ -1,0 +1,87 @@
+{
+  "keyword": "l-cysteine",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:11.640Z",
+  "questions": [
+    {
+      "keyword": "what is l-cysteine",
+      "volume": 250,
+      "parent_topic": "l-cysteine",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is l cysteine",
+      "volume": 150,
+      "parent_topic": "l-cysteine",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is n-acetyl-l-cysteine",
+      "volume": 50,
+      "parent_topic": "nac supplement",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is l cysteine made of",
+      "volume": 40,
+      "parent_topic": "l cysteine in food",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is l-cysteine made of",
+      "volume": 40,
+      "parent_topic": "l cysteine in food",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "which bread brands contain l-cysteine",
+      "volume": 40,
+      "parent_topic": "l cysteine in food",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is cysteine l or d",
+      "volume": 30,
+      "parent_topic": "is cysteine r or s",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does l cysteine do",
+      "volume": 30,
+      "parent_topic": "l-cysteine",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does n-acetyl-l-cysteine do",
+      "volume": 30,
+      "parent_topic": "nac supplement",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is n acetyl l cysteine good for",
+      "volume": 30,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "keyword": "Titanium dioxide",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:19:04.561Z",
+  "questions": [
+    {
+      "keyword": "what is titanium dioxide",
+      "volume": 3700,
+      "parent_topic": "titanium dioxide",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is titanium dioxide bad for you",
+      "volume": 450,
+      "parent_topic": "is titanium dioxide safe",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is titanium dioxide safe in sunscreen",
+      "volume": 400,
+      "parent_topic": "sunscreen ingredients to avoid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is titanium dioxide used for",
+      "volume": 400,
+      "parent_topic": "titanium dioxide",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does titanium dioxide do",
+      "volume": 300,
+      "parent_topic": "what does titanium dioxide do",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is titanium dioxide safe for skin",
+      "volume": 250,
+      "parent_topic": "titanium dioxide",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does titanium dioxide cause cancer",
+      "volume": 150,
+      "parent_topic": "titanium dioxide",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is titanium dioxide safe in makeup",
+      "volume": 150,
+      "parent_topic": "is titanium dioxide safe in makeup",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is titanium dioxide safe to eat",
+      "volume": 150,
+      "parent_topic": "e171",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what foods contain titanium dioxide",
+      "volume": 150,
+      "parent_topic": "what foods contain titanium dioxide",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

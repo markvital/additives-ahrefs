@@ -1,0 +1,73 @@
+{
+  "keyword": "Propyl gallate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:44.617Z",
+  "questions": [
+    {
+      "keyword": "what is propyl gallate",
+      "volume": 200,
+      "parent_topic": "propyl gallate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is propyl gallate in food",
+      "volume": 80,
+      "parent_topic": "propyl gallate in food",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is propyl gallate gluten free",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what foods contain propyl gallate",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is propyl gallate used for",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "where is propyl gallate banned",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "bha, bht, propyl gallate in what food brand",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how bad is bha and propyl gallate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how do you know if you are allergic to propyl gallate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "propyl gallate what is it",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

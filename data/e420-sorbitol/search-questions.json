@@ -1,0 +1,87 @@
+{
+  "keyword": "Sorbitol",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:25:17.964Z",
+  "questions": [
+    {
+      "keyword": "what is sorbitol",
+      "volume": 4900,
+      "parent_topic": "sorbitol side effects",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sorbitol safe for dogs",
+      "volume": 1500,
+      "parent_topic": "sorbitol dogs",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sorbitol bad for you",
+      "volume": 800,
+      "parent_topic": "sorbitol",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "can dogs have sorbitol",
+      "volume": 600,
+      "parent_topic": "sorbitol dogs",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sorbitol bad for dogs",
+      "volume": 300,
+      "parent_topic": "sorbitol dogs",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sorbitol safe",
+      "volume": 200,
+      "parent_topic": "sorbitol",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sorbitol toxic to dogs",
+      "volume": 200,
+      "parent_topic": "sorbitol dogs",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what foods contain sorbitol",
+      "volume": 200,
+      "parent_topic": "sorbitol foods",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what foods have sorbitol",
+      "volume": 200,
+      "parent_topic": "sorbitol foods",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "can dogs eat sorbitol",
+      "volume": 150,
+      "parent_topic": "sorbitol dogs",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

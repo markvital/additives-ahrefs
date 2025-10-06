@@ -1,0 +1,81 @@
+{
+  "keyword": "Glycolipids",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:23:51.443Z",
+  "questions": [
+    {
+      "keyword": "what are the roles of glycoproteins and glycolipids",
+      "volume": 250,
+      "parent_topic": "what are the roles of glycoproteins and glycolipids",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what are glycolipids",
+      "volume": 200,
+      "parent_topic": "glycolipids",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what do glycolipids do",
+      "volume": 100,
+      "parent_topic": "glycolipid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "why are glycolipids and glycoproteins important?",
+      "volume": 90,
+      "parent_topic": "glycoprotein function",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "are glycolipids bad for you",
+      "volume": 60,
+      "parent_topic": "glycolipids in food",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "why the roles of glycoproteins and glycolipids",
+      "volume": 60,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is glycolipids",
+      "volume": 50,
+      "parent_topic": "glycolipid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what do glycoproteins and glycolipids do",
+      "volume": 40,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "why are glycoproteins and glycolipids important?",
+      "volume": 40,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what are glycolipids and glycoproteins",
+      "volume": 30,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

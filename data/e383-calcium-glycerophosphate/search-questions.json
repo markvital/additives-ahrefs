@@ -1,0 +1,60 @@
+{
+  "keyword": "calcium glycerophosphate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:44.333Z",
+  "questions": [
+    {
+      "keyword": "what is calcium glycerophosphate",
+      "volume": 40,
+      "parent_topic": "what is calcium glycerophosphate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "calcium glycerophosphate where to buy",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": [
+        "commercial",
+        "transactional"
+      ]
+    },
+    {
+      "keyword": "what does calcium glycerophosphate do",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is calcium glycerophosphate good for",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is calcium glycerophosphate used for",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the difference between calcium and calcium glycerophosphate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the e number of calcium glycerophosphate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "where can you get calcium glycerophosphate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}
