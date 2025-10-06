@@ -1,0 +1,137 @@
+{
+  "keyword": "Castor oil",
+  "country": "us",
+  "fetchedAt": "2025-10-06T03:16:02.509Z",
+  "questions": [
+    {
+      "keyword": "what is castor oil",
+      "volume": 13000,
+      "parent_topic": "castor oil",
+      "intents": {
+        "informational": true,
+        "navigational": false,
+        "commercial": false,
+        "transactional": false,
+        "branded": false,
+        "local": false
+      }
+    },
+    {
+      "keyword": "what is castor oil good for",
+      "volume": 7400,
+      "parent_topic": "castor oil benefits",
+      "intents": {
+        "informational": true,
+        "navigational": false,
+        "commercial": false,
+        "transactional": false,
+        "branded": false,
+        "local": false
+      }
+    },
+    {
+      "keyword": "is castor oil good for skin",
+      "volume": 6600,
+      "parent_topic": "how to use castor oil on face",
+      "intents": {
+        "informational": true,
+        "navigational": false,
+        "commercial": false,
+        "transactional": false,
+        "branded": false,
+        "local": false
+      }
+    },
+    {
+      "keyword": "is castor oil good for hair",
+      "volume": 4100,
+      "parent_topic": "castor oil for hair",
+      "intents": {
+        "informational": true,
+        "navigational": false,
+        "commercial": false,
+        "transactional": false,
+        "branded": false,
+        "local": false
+      }
+    },
+    {
+      "keyword": "what is castor oil used for",
+      "volume": 3900,
+      "parent_topic": "castor oil benefits",
+      "intents": {
+        "informational": true,
+        "navigational": false,
+        "commercial": false,
+        "transactional": false,
+        "branded": false,
+        "local": false
+      }
+    },
+    {
+      "keyword": "how to use castor oil on face",
+      "volume": 3700,
+      "parent_topic": "how to use castor oil on face",
+      "intents": {
+        "informational": true,
+        "navigational": false,
+        "commercial": false,
+        "transactional": false,
+        "branded": false,
+        "local": false
+      }
+    },
+    {
+      "keyword": "what is castor oil made from",
+      "volume": 3000,
+      "parent_topic": "castor oil",
+      "intents": {
+        "informational": true,
+        "navigational": false,
+        "commercial": false,
+        "transactional": false,
+        "branded": false,
+        "local": false
+      }
+    },
+    {
+      "keyword": "where does castor oil come from",
+      "volume": 2900,
+      "parent_topic": "castor oil",
+      "intents": {
+        "informational": true,
+        "navigational": false,
+        "commercial": false,
+        "transactional": false,
+        "branded": false,
+        "local": false
+      }
+    },
+    {
+      "keyword": "how to use castor oil",
+      "volume": 2600,
+      "parent_topic": "benefits of castor oil",
+      "intents": {
+        "informational": true,
+        "navigational": false,
+        "commercial": false,
+        "transactional": false,
+        "branded": false,
+        "local": false
+      }
+    },
+    {
+      "keyword": "is castor oil good for your face",
+      "volume": 2600,
+      "parent_topic": "castor oil for skin",
+      "intents": {
+        "informational": true,
+        "navigational": false,
+        "commercial": false,
+        "transactional": false,
+        "branded": false,
+        "local": false
+      }
+    }
+  ]
+}
