@@ -215,15 +215,22 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
             Products:
           </Box>
           {productCount !== null ? (
-            <MuiLink
-              href={productSearchUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              underline="hover"
-              sx={{ fontVariantNumeric: 'tabular-nums', fontWeight: 600 }}
-            >
-              Appears in {formatInteger(productCount)} products
-            </MuiLink>
+            <>
+              Appears in{' '}
+              <MuiLink
+                href={productSearchUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                underline="hover"
+                sx={{ fontVariantNumeric: 'tabular-nums', fontWeight: 600 }}
+              >
+                {formatInteger(productCount)} products
+              </MuiLink>{' '}
+              in U.S.{' '}
+              <Box component="span" role="img" aria-label="United States" sx={{ fontSize: '1rem', lineHeight: 1 }}>
+                🇺🇸
+              </Box>
+            </>
           ) : (
             <Box component="span">Product count unavailable.</Box>
           )}

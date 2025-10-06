@@ -3,17 +3,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
-import {
-  Autocomplete,
-  Box,
-  Button,
-  Chip,
-  Link as MuiLink,
-  Stack,
-  TextField,
-  Typography,
-  createFilterOptions,
-} from '@mui/material';
+import { Autocomplete, Box, Button, Chip, Stack, TextField, Typography, createFilterOptions } from '@mui/material';
 import type { Additive } from '../lib/additives';
 import { formatAdditiveDisplayName, formatOriginLabel } from '../lib/additive-format';
 import { extractArticleSummary, splitArticlePreview } from '../lib/article';
@@ -21,7 +11,6 @@ import { formatInteger, formatMonthlyVolume, getCountryFlagEmoji, getCountryLabe
 import type { SearchHistoryDataset } from '../lib/search-history';
 import { MarkdownArticle } from './MarkdownArticle';
 import { SearchHistoryChart } from './SearchHistoryChart';
-import { getFdcProductSearchUrl } from '../lib/product-search';
 
 interface ComparisonAdditive extends Additive {
   searchHistory: SearchHistoryDataset | null;
@@ -135,19 +124,9 @@ const renderProductCount = (additive: ComparisonAdditive | null) => {
     );
   }
 
-  const searchUrl = getFdcProductSearchUrl(additive.title);
-
   return (
-    <Typography variant="body1" color="text.secondary">
-      <MuiLink
-        href={searchUrl}
-        target="_blank"
-        rel="noopener noreferrer"
-        underline="hover"
-        sx={{ fontVariantNumeric: 'tabular-nums', fontWeight: 600 }}
-      >
-        Appears in {formatInteger(count)} products
-      </MuiLink>
+    <Typography variant="body1" color="text.secondary" sx={{ fontVariantNumeric: 'tabular-nums' }}>
+      Appears in {formatInteger(count)} products
     </Typography>
   );
 };

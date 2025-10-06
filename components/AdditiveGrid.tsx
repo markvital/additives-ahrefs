@@ -1,16 +1,5 @@
 import Link from 'next/link';
-import {
-  Avatar,
-  Box,
-  Card,
-  CardActionArea,
-  CardActions,
-  CardContent,
-  Chip,
-  Link as MuiLink,
-  Stack,
-  Typography,
-} from '@mui/material';
+import { Avatar, Box, Card, CardActionArea, CardActions, CardContent, Chip, Stack, Typography } from '@mui/material';
 import type { Theme } from '@mui/material/styles';
 
 import type { Additive } from '../lib/additives';
@@ -18,7 +7,6 @@ import type { AdditiveSortMode } from '../lib/additive-sort';
 import { formatInteger, formatMonthlyVolume } from '../lib/format';
 import { SearchSparkline } from './SearchSparkline';
 import { theme } from '../lib/theme';
-import { getFdcProductSearchUrl } from '../lib/product-search';
 
 const getOriginLabel = (origin: string) => {
   const letters = origin.replace(/[^A-Za-z]/g, '');
@@ -82,8 +70,10 @@ interface AdditiveGridProps {
 export function AdditiveGrid({
   items,
   emptyMessage = 'No additives found.',
-  sortMode = 'search',
+  sortMode: _sortMode = 'search',
 }: AdditiveGridProps) {
+  void _sortMode;
+
   if (items.length === 0) {
     return (
       <Typography variant="body1" color="text.secondary">
@@ -114,8 +104,7 @@ export function AdditiveGrid({
           additive.searchSparkline.some((value) => value !== null);
         const hasSearchMetrics =
           typeof additive.searchRank === 'number' && typeof additive.searchVolume === 'number';
-        const isProductMode = sortMode === 'products';
-        const showSearchSection = !isProductMode && (hasSparkline || hasSearchMetrics);
+        const showSearchSection = hasSparkline || hasSearchMetrics;
         const visibleFunctions = additive.functions.slice(0, 2);
         const hiddenFunctionCount = Math.max(additive.functions.length - visibleFunctions.length, 0);
         const origins = additive.origin.filter((origin) => origin.trim().length > 0);
@@ -123,7 +112,6 @@ export function AdditiveGrid({
           typeof additive.productCount === 'number' && Number.isFinite(additive.productCount)
             ? Math.max(0, Math.round(additive.productCount))
             : null;
-        const productSearchUrl = getFdcProductSearchUrl(additive.title);
 
         return (
           <Card key={additive.slug} sx={{ display: 'flex', flexDirection: 'column' }}>
@@ -217,31 +205,17 @@ export function AdditiveGrid({
                     )}
                   </Stack>
                 ) : (
-                  <Box sx={{ height: isProductMode ? 0 : 40, mt: isProductMode ? 0 : 1.5 }} />
+                  <Box sx={{ height: 40, mt: 1.5 }} />
                 )}
               </CardContent>
             </CardActionArea>
-            <CardActions sx={{ px: 2, pt: 0, pb: 2 }}>
-              <Typography
-                variant={isProductMode ? 'body2' : 'caption'}
-                color="text.secondary"
-                sx={{ fontWeight: isProductMode ? 600 : 500 }}
-              >
-                {productCount !== null ? (
-                  <MuiLink
-                    href={productSearchUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    underline="hover"
-                    sx={{ color: 'inherit', fontWeight: 'inherit' }}
-                  >
-                    Found in {formatInteger(productCount)} products
-                  </MuiLink>
-                ) : (
-                  'Product count unavailable.'
-                )}
-              </Typography>
-            </CardActions>
+            {productCount !== null ? (
+              <CardActions sx={{ px: 2, pt: 0, pb: 2 }}>
+                <Typography variant="caption" color="text.secondary" sx={{ fontVariantNumeric: 'tabular-nums' }}>
+                  Appears in {formatInteger(productCount)} products
+                </Typography>
+              </CardActions>
+            ) : null}
           </Card>
         );
       })}
