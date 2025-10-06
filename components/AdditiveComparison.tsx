@@ -45,11 +45,7 @@ const createOptionFilter = createFilterOptions<ComparisonAdditive>({
 
 const renderSynonymContent = (additive: ComparisonAdditive | null) => {
   if (!additive) {
-    return (
-      <Typography variant="body2" color="text.secondary">
-        Select an additive to see its synonyms.
-      </Typography>
-    );
+    return null;
   }
 
   if (additive.synonyms.length === 0) {
@@ -73,11 +69,7 @@ const renderSynonymContent = (additive: ComparisonAdditive | null) => {
 
 const renderFunctionContent = (additive: ComparisonAdditive | null) => {
   if (!additive) {
-    return (
-      <Typography variant="body2" color="text.secondary">
-        Select an additive to see its functions.
-      </Typography>
-    );
+    return null;
   }
 
   if (additive.functions.length === 0) {
@@ -101,11 +93,7 @@ const renderFunctionContent = (additive: ComparisonAdditive | null) => {
 
 const renderOriginContent = (additive: ComparisonAdditive | null) => {
   if (!additive) {
-    return (
-      <Typography variant="body2" color="text.secondary">
-        Select an additive to see its origin information.
-      </Typography>
-    );
+    return null;
   }
 
   if (additive.origin.length === 0) {
@@ -151,11 +139,7 @@ const getSearchInterestLabel = (dataset: SearchHistoryDataset | null) => {
 
 const renderSearchMetrics = (additive: ComparisonAdditive | null) => {
   if (!additive) {
-    return (
-      <Typography variant="body2" color="text.secondary">
-        Select an additive to see search metrics.
-      </Typography>
-    );
+    return null;
   }
 
   const hasRank = typeof additive.searchRank === 'number';
@@ -198,11 +182,7 @@ const renderSearchMetrics = (additive: ComparisonAdditive | null) => {
 
 const renderSearchHistory = (additive: ComparisonAdditive | null) => {
   if (!additive) {
-    return (
-      <Typography variant="body2" color="text.secondary">
-        Select an additive to see historical search interest.
-      </Typography>
-    );
+    return null;
   }
 
   const dataset = additive.searchHistory;
@@ -237,11 +217,7 @@ const LARGE_BUTTON_STYLES = {
 
 const renderDetailLink = (additive: ComparisonAdditive | null) => {
   if (!additive) {
-    return (
-      <Typography variant="body2" color="text.secondary">
-        Select an additive to open its detail page.
-      </Typography>
-    );
+    return null;
   }
 
   return (
@@ -261,11 +237,7 @@ const renderDetailLink = (additive: ComparisonAdditive | null) => {
 
 const renderArticlePreview = (additive: ComparisonAdditive | null) => {
   if (!additive) {
-    return (
-      <Typography variant="body2" color="text.secondary">
-        Select an additive to read the article preview.
-      </Typography>
-    );
+    return null;
   }
 
   const { preview, hasMore } = splitArticlePreview(additive.article, 20);
@@ -287,15 +259,19 @@ const renderArticlePreview = (additive: ComparisonAdditive | null) => {
         </Typography>
       ) : null}
       <Box sx={{ display: 'flex', justifyContent: 'center' }}>
-        <Button
+        <Typography
           component={Link}
           href={`/${additive.slug}`}
-          variant="contained"
-          color="primary"
-          sx={LARGE_BUTTON_STYLES}
+          variant="h5"
+          sx={{
+            color: 'primary.main',
+            fontWeight: 600,
+            textDecoration: 'none',
+            '&:hover': { textDecoration: 'underline' },
+          }}
         >
           Read more
-        </Button>
+        </Typography>
       </Box>
     </Stack>
   );
@@ -350,11 +326,7 @@ export function AdditiveComparison({ additives, initialSelection }: AdditiveComp
 
   const overviewSummary = (additive: ComparisonAdditive | null) => {
     if (!additive) {
-      return (
-        <Typography variant="body2" color="text.secondary">
-          Select an additive to view its overview.
-        </Typography>
-      );
+      return null;
     }
 
     const summary = extractArticleSummary(additive.article) ?? additive.description;
@@ -415,7 +387,7 @@ export function AdditiveComparison({ additives, initialSelection }: AdditiveComp
     },
     {
       key: 'detail-link',
-      label: 'Read more',
+      label: null,
       render: renderDetailLink,
     },
     {
@@ -481,7 +453,8 @@ export function AdditiveComparison({ additives, initialSelection }: AdditiveComp
               key={section.key}
               sx={{
                 display: 'grid',
-                gap: { xs: 2, md: 3 },
+                gap: { xs: 2, sm: 3 },
+                columnGap: { md: 0 },
                 gridTemplateColumns: { xs: '1fr', md: 'repeat(2, minmax(0, 1fr))' },
                 alignItems: 'flex-start',
                 px: { xs: 2, sm: 3, md: 4 },
@@ -504,10 +477,26 @@ export function AdditiveComparison({ additives, initialSelection }: AdditiveComp
                   {section.label}
                 </Typography>
               ) : null}
-              <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1.5 }}>
+              <Box
+                sx={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  gap: 1.5,
+                  pr: { md: 4 },
+                }}
+              >
                 {section.render(selection.left)}
               </Box>
-              <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1.5 }}>
+              <Box
+                sx={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  gap: 1.5,
+                  borderLeft: { md: '1px solid' },
+                  borderColor: { md: 'divider' },
+                  pl: { md: 4 },
+                }}
+              >
                 {section.render(selection.right)}
               </Box>
             </Box>
