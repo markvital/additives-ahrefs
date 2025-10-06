@@ -1,0 +1,81 @@
+{
+  "keyword": "Alpha-Amylase",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:43.267Z",
+  "questions": [
+    {
+      "keyword": "what is alpha amylase",
+      "volume": 100,
+      "parent_topic": "alpha amylase",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does alpha amylase do",
+      "volume": 40,
+      "parent_topic": "alpha amylase",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is alpha-amylase",
+      "volume": 30,
+      "parent_topic": "alpha amylase",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where is alpha amylase found",
+      "volume": 20,
+      "parent_topic": "alpha amylase",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how much alpha amylase to use",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what are the monomers from which alpha amylase is synthesized",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what does alpha amylase break down",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is alpha amylase enzyme",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is alpha amylase used for",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is fungal alpha amylase",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

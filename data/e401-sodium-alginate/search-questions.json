@@ -1,0 +1,91 @@
+{
+  "keyword": "sodium alginate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:49.596Z",
+  "questions": [
+    {
+      "keyword": "what is sodium alginate",
+      "volume": 800,
+      "parent_topic": "sodium alginate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to make popping boba without sodium alginate",
+      "volume": 200,
+      "parent_topic": "popping boba recipe",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where to buy sodium alginate",
+      "volume": 150,
+      "parent_topic": "sodium alginate",
+      "intents": [
+        "informational",
+        "commercial",
+        "transactional"
+      ]
+    },
+    {
+      "keyword": "is sodium alginate bad for you",
+      "volume": 100,
+      "parent_topic": "sodium alginate side effects",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "sodium alginate where to buy",
+      "volume": 100,
+      "parent_topic": "sodium alginate",
+      "intents": [
+        "commercial",
+        "transactional"
+      ]
+    },
+    {
+      "keyword": "what is sodium alginate used for",
+      "volume": 100,
+      "parent_topic": "what is sodium alginate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to use sodium alginate for reflux",
+      "volume": 80,
+      "parent_topic": "alginate for reflux",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where can i buy sodium alginate",
+      "volume": 80,
+      "parent_topic": "sodium alginate",
+      "intents": [
+        "commercial",
+        "transactional"
+      ]
+    },
+    {
+      "keyword": "how to make sodium alginate",
+      "volume": 50,
+      "parent_topic": "how to make sodium alginate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sodium alginate safe to eat",
+      "volume": 50,
+      "parent_topic": "is sodium alginate bad for you",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

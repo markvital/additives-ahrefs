@@ -1,0 +1,88 @@
+{
+  "keyword": "Ethanol",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:45.582Z",
+  "questions": [
+    {
+      "keyword": "what is ethanol",
+      "volume": 6900,
+      "parent_topic": "ethanol",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is ethanol polar",
+      "volume": 3700,
+      "parent_topic": "is ethanol polar",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is ethanol free gas",
+      "volume": 1900,
+      "parent_topic": "ethanol free gas",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is ethanol used for",
+      "volume": 1400,
+      "parent_topic": "ethanol",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is non ethanol gas",
+      "volume": 1200,
+      "parent_topic": "what is non ethanol gas",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "who sells ethanol free gas near me",
+      "volume": 1100,
+      "parent_topic": "ethanol free gas",
+      "intents": [
+        "informational",
+        "local"
+      ]
+    },
+    {
+      "keyword": "how is ethanol made",
+      "volume": 1000,
+      "parent_topic": "how is ethanol made",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how much ethanol is in 87 octane gas",
+      "volume": 900,
+      "parent_topic": "how much ethanol is in 87 octane gas",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is ethanol alcohol",
+      "volume": 900,
+      "parent_topic": "ethanol",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is ethanol bad for your car",
+      "volume": 800,
+      "parent_topic": "is ethanol bad for cars",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

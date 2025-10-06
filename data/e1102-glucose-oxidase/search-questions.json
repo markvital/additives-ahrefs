@@ -1,0 +1,69 @@
+{
+  "keyword": "Glucose oxidase",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:45.664Z",
+  "questions": [
+    {
+      "keyword": "what is glucose oxidase",
+      "volume": 20,
+      "parent_topic": "glucose oxidase",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does glucose oxidase do",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "color when glucose oxidase preparation contaminated with catalase",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "cytochrome oxidase is used in which stage of the aerobic respiration of glucose",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "glucose fermentation and nitrate reduction positive,negative oxidase what is the result",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "glucose oxidase is an enzyme that oxidizes glucose to what acid",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "glucose oxidase produces what",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how does ascorbic acid interference with glucose oxidase",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how does glucose oxidase release chemical energy",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how does glucose oxidase work",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

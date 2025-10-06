@@ -1,0 +1,41 @@
+{
+  "keyword": "Mono- and diglycerides of fatty acids",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:21.496Z",
+  "questions": [
+    {
+      "keyword": "what is mono and diglycerides of fatty acids",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to list mono-and diglycerides of fatty acids",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what are mono and diglycerides of fatty acids",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what are mono- and diglycerides of fatty acids",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is mono- and diglycerides of fatty acids",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

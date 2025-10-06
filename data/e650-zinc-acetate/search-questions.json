@@ -1,0 +1,77 @@
+{
+  "keyword": "Zinc acetate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:19:04.295Z",
+  "questions": [
+    {
+      "keyword": "what is zinc acetate",
+      "volume": 40,
+      "parent_topic": "zinc acetate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is zinc acetate safe for dogs",
+      "volume": 30,
+      "parent_topic": "zinc acetate safe for dogs",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is zinc acetate soluble in water",
+      "volume": 30,
+      "parent_topic": "zinc acetate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is zinc acetate soluble",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does zinc acetate do",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the formula for zinc acetate",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is zinc acetate used for",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "consider the reaction when aqueous solutions of ammonium acetate and zinc iodide are combined.",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "does a reaction occur when aqueous solutions of zinc acetate and ammonium carbonate are combined?",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how do i balance lead and zinc acetate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

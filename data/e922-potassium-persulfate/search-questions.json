@@ -1,0 +1,69 @@
+{
+  "keyword": "Potassium persulfate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:41.391Z",
+  "questions": [
+    {
+      "keyword": "what is potassium persulfate",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how much potassium persulfate do i put in a phosphorus digestin",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much potassium persulfate do i put in a phosphorus digestion",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much potassium persulfate do i put in a phosphorus digestion in gram",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to dispose of potassium persulfate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "if an experiment calls for 110 ul of potassium persulfate, what size pipetman should you use?",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what does potassium persulfate do",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what does potassium persulfate do in denture cleansers",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what does potassium persulfate measure in water",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is potassium persulfate anion?",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

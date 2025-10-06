@@ -1,0 +1,91 @@
+{
+  "keyword": "Butane",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:43.862Z",
+  "questions": [
+    {
+      "keyword": "how to refill a butane lighter",
+      "volume": 2700,
+      "parent_topic": "how to refill a butane lighter",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is butane",
+      "volume": 1800,
+      "parent_topic": "butane fuel",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to fill a butane lighter",
+      "volume": 1700,
+      "parent_topic": "how to refill a butane lighter",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to refill butane lighter",
+      "volume": 1000,
+      "parent_topic": "butane refill",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where to buy butane",
+      "volume": 1000,
+      "parent_topic": "butane delivery",
+      "intents": [
+        "informational",
+        "commercial",
+        "transactional"
+      ]
+    },
+    {
+      "keyword": "how to fill butane lighter",
+      "volume": 900,
+      "parent_topic": "butane refill",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to refill butane torch",
+      "volume": 500,
+      "parent_topic": "how to refill butane torch",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to fill butane torch",
+      "volume": 450,
+      "parent_topic": "how to refill butane torch",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is butane used for",
+      "volume": 450,
+      "parent_topic": "what is butane",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where to buy butane refill",
+      "volume": 450,
+      "parent_topic": "butane lighter refill",
+      "intents": [
+        "informational",
+        "commercial",
+        "transactional"
+      ]
+    }
+  ]
+}

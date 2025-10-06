@@ -1,0 +1,88 @@
+{
+  "keyword": "Trisodium phosphate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:19:04.459Z",
+  "questions": [
+    {
+      "keyword": "what is trisodium phosphate",
+      "volume": 1800,
+      "parent_topic": "trisodium phosphate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is trisodium phosphate poisonous",
+      "volume": 200,
+      "parent_topic": "is trisodium phosphate poisonous",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is trisodium phosphate used for",
+      "volume": 200,
+      "parent_topic": "tsp cleaning solution",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "why is trisodium phosphate in cereal",
+      "volume": 200,
+      "parent_topic": "trisodium phosphate in food",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is trisodium phosphate bad for you",
+      "volume": 150,
+      "parent_topic": "trisodium phosphate in food",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is trisodium phosphate in cereal bad for you",
+      "volume": 90,
+      "parent_topic": "trisodium phosphate in food",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where to buy trisodium phosphate",
+      "volume": 80,
+      "parent_topic": "tri sodium phosphate",
+      "intents": [
+        "commercial",
+        "transactional"
+      ]
+    },
+    {
+      "keyword": "does trisodium phosphate kill mold",
+      "volume": 60,
+      "parent_topic": "does tsp kill mold",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what cereals have trisodium phosphate",
+      "volume": 60,
+      "parent_topic": "general mills trisodium phosphate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what foods have trisodium phosphate",
+      "volume": 50,
+      "parent_topic": "trisodium phosphate in food",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "keyword": "Brominated vegetable oil",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:43.840Z",
+  "questions": [
+    {
+      "keyword": "what is brominated vegetable oil",
+      "volume": 250,
+      "parent_topic": "brominated vegetable oil",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what foods contain brominated vegetable oil",
+      "volume": 90,
+      "parent_topic": "brominated vegetable oil products",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does coca-cola contain brominated vegetable oil",
+      "volume": 50,
+      "parent_topic": "does coca-cola contain brominated vegetable oil",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "what is brominated vegetable oil used for",
+      "volume": 30,
+      "parent_topic": "brominated vegetable oil",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what drinks contain brominated vegetable oil",
+      "volume": 20,
+      "parent_topic": "brominated vegetable oil products",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what foods have brominated vegetable oil",
+      "volume": 20,
+      "parent_topic": "brominated vegetable oil products",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what products have brominated vegetable oil",
+      "volume": 20,
+      "parent_topic": "brominated vegetable oil products",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what sodas have brominated vegetable oil",
+      "volume": 20,
+      "parent_topic": "bvo",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "why is brominated vegetable oil banned",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "does gatorade have brominated vegetable oil",
+      "volume": 10,
+      "parent_topic": "does coca-cola contain brominated vegetable oil",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    }
+  ]
+}

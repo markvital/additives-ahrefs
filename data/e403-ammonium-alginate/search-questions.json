@@ -1,0 +1,31 @@
+{
+  "keyword": "Ammonium alginate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:43.337Z",
+  "questions": [
+    {
+      "keyword": "how is ammonium alginate made",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how is ammonium alginate used in food",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what foods contain ammonium alginate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is ammonium alginate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

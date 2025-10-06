@@ -1,0 +1,37 @@
+{
+  "keyword": "Potassium ascorbate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:37.320Z",
+  "questions": [
+    {
+      "keyword": "how to make ascorbic acid with 15 potassium ascorbate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what does it mean potassium as ascorbate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is potassium ascorbate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is potassium ascorbate used for",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the e number of potassium ascorbate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

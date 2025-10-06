@@ -1,0 +1,69 @@
+{
+  "keyword": "Erythorbic acid",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:45.559Z",
+  "questions": [
+    {
+      "keyword": "what is erythorbic acid",
+      "volume": 60,
+      "parent_topic": "erythorbic acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how does erythorbic acid work",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how does erythorbic acid work as a preservative",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how is erythorbic acid made",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what are the effects of erythorbic acid",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what are the side effects of erythorbic acid",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what are the side ellects of erythorbic acid",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what does erythorbic acid do",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what does erythorbic acid do in drinks",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what does erythorbic acid do to the body",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

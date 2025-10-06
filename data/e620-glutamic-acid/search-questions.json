@@ -1,0 +1,87 @@
+{
+  "keyword": "Glutamic acid",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:45.682Z",
+  "questions": [
+    {
+      "keyword": "is glutamic acid the same as glutamine",
+      "volume": 200,
+      "parent_topic": "l glutamine",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is glutamic acid",
+      "volume": 150,
+      "parent_topic": "glutamic acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is glutamate the same as glutamic acid",
+      "volume": 100,
+      "parent_topic": "glutamic acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is glutamic acid acidic or basic",
+      "volume": 70,
+      "parent_topic": "acidic amino acids",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is glutamic acid the same as glutamate",
+      "volume": 60,
+      "parent_topic": "glutamic acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is glutamate glutamic acid",
+      "volume": 50,
+      "parent_topic": "glutamic acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is glutamine the same as glutamic acid",
+      "volume": 50,
+      "parent_topic": "glutamine vs glutamic acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "are glutamate and glutamic acid the same",
+      "volume": 40,
+      "parent_topic": "glutamate vs glutamic acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is glutamic acid gluten free",
+      "volume": 40,
+      "parent_topic": "is glutamic acid gluten free",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does glutamic acid do",
+      "volume": 40,
+      "parent_topic": "glutamic acid",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

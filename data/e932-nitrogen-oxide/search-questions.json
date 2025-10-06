@@ -1,0 +1,87 @@
+{
+  "keyword": "Nitrogen oxide",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:26.385Z",
+  "questions": [
+    {
+      "keyword": "what is nitrogen oxide",
+      "volume": 300,
+      "parent_topic": "nitrogen oxides",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is nitrogen oxide a greenhouse gas",
+      "volume": 100,
+      "parent_topic": "is nitrogen a greenhouse gas",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is the formula for nitrogen oxide",
+      "volume": 100,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where does nitrogen oxide come from",
+      "volume": 60,
+      "parent_topic": "explain how nitrogen oxides are produced and their environmental impact.",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to reduce nitrogen oxide emissions",
+      "volume": 50,
+      "parent_topic": "how to reduce nitrogen oxide emissions",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is nitrogen oxide harmful",
+      "volume": 50,
+      "parent_topic": "nitrogen oxide effects on humans",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is nitrogen the same as nitrous oxide",
+      "volume": 50,
+      "parent_topic": "nitrogen vs nitrous oxide",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is nitrous oxide nitrogen",
+      "volume": 50,
+      "parent_topic": "nitrous oxide",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does a catalytic converter turn nitrogen oxide into",
+      "volume": 50,
+      "parent_topic": "what does a catalytic converter turn nitrogen oxide into",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is nitrogen oxide used for",
+      "volume": 50,
+      "parent_topic": "explain how nitrogen oxides are produced and their environmental impact.",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

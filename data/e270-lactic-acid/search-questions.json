@@ -1,0 +1,87 @@
+{
+  "keyword": "Lactic acid",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:12.080Z",
+  "questions": [
+    {
+      "keyword": "what is lactic acid",
+      "volume": 11000,
+      "parent_topic": "lactic acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to drain lactic acid from legs",
+      "volume": 2200,
+      "parent_topic": "how to drain lactic acid from legs",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does lactic acid do",
+      "volume": 1900,
+      "parent_topic": "lactic acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does lactic acid do for skin",
+      "volume": 1700,
+      "parent_topic": "lactic acid for skin",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to get rid of lactic acid",
+      "volume": 1600,
+      "parent_topic": "how to drain lactic acid from legs",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is lactic acid dairy",
+      "volume": 1200,
+      "parent_topic": "is lactic acid dairy",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what supplement helps reduce lactic acid",
+      "volume": 1200,
+      "parent_topic": "what supplement helps reduce lactic acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is lactic acid bad for you",
+      "volume": 800,
+      "parent_topic": "lactic acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is lactic acid vegan",
+      "volume": 800,
+      "parent_topic": "is lactic acid vegan",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what causes lactic acid build up",
+      "volume": 700,
+      "parent_topic": "lactic acidosis",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

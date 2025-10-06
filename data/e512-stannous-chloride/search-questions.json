@@ -1,0 +1,73 @@
+{
+  "keyword": "Stannous chloride",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:25:18.693Z",
+  "questions": [
+    {
+      "keyword": "how to make stannous chloride solution",
+      "volume": 30,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is stannous chloride",
+      "volume": 30,
+      "parent_topic": "stannous chloride",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to make stannous chloride",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to make stannous chloride at home",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how is stannous chloride made",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much stannous chloride for tin electroplating",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much stannous chloride for tin plating",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how sensitive is stannous chloride test for gold?",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to dissolve stannous chloride",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to make and use stannous chloride at home",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

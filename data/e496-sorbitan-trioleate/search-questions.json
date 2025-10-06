@@ -1,0 +1,15 @@
+{
+  "keyword": "Sorbitan trioleate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:25:17.486Z",
+  "questions": [
+    {
+      "keyword": "what is sorbitan trioleate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

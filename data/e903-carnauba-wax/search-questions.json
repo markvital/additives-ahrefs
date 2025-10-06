@@ -1,0 +1,87 @@
+{
+  "keyword": "Carnauba wax",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:44.352Z",
+  "questions": [
+    {
+      "keyword": "what is carnauba wax",
+      "volume": 2200,
+      "parent_topic": "carnauba wax",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is carnauba wax edible",
+      "volume": 600,
+      "parent_topic": "is carnauba wax edible",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is carnauba wax vegan",
+      "volume": 400,
+      "parent_topic": "is carnauba wax vegan",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is carnauba wax in food",
+      "volume": 200,
+      "parent_topic": "carnauba wax in food",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is carnauba wax made from",
+      "volume": 150,
+      "parent_topic": "carnauba wax in food",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where does carnauba wax come from",
+      "volume": 150,
+      "parent_topic": "what is carnauba wax",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does carnauba wax cause cancer",
+      "volume": 100,
+      "parent_topic": "does carnauba wax cause cancer",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how long does carnauba wax last",
+      "volume": 100,
+      "parent_topic": "how long does car wax last",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is carnauba wax bad for you",
+      "volume": 100,
+      "parent_topic": "carnauba wax side effects",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is carnauba wax made of",
+      "volume": 100,
+      "parent_topic": "carnauba wax",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

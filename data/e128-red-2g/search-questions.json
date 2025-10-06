@@ -1,0 +1,45 @@
+{
+  "keyword": "Red 2G",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:46.180Z",
+  "questions": [
+    {
+      "keyword": "hot wheels chaparral 2g 1968 red lines what colors did they come in",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "hot wheels chaparral 2g 1968 red lines what colrs did they come in",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to solve red on tx 2g on unifi controler",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to solve red on tx 2g on unifi controller",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "que es la red 2g",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is red hawks locality name for w-2g box 18.......",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

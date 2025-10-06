@@ -1,0 +1,87 @@
+{
+  "keyword": "Magnesium hydroxide",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:16.193Z",
+  "questions": [
+    {
+      "keyword": "how magnesium hydroxide works",
+      "volume": 2100,
+      "parent_topic": "magnesium hydroxide side effects",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is magnesium hydroxide",
+      "volume": 350,
+      "parent_topic": "magnesium hydroxide",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is magnesium hydroxide safe",
+      "volume": 150,
+      "parent_topic": "is magnesium hydroxide safe",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is magnesium hydroxide used for",
+      "volume": 80,
+      "parent_topic": "how magnesium hydroxide works",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is magnesium hydroxide a strong base",
+      "volume": 70,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does magnesium hydroxide do",
+      "volume": 70,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is magnesium hydroxide safe during pregnancy",
+      "volume": 50,
+      "parent_topic": "magnesium citrate pregnancy",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is magnesium hydroxide safe in deodorant",
+      "volume": 50,
+      "parent_topic": "magnesium hydroxide in deodorant",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is magnesium hydroxide in deodorant",
+      "volume": 50,
+      "parent_topic": "magnesium hydroxide in deodorant",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is magnesium hydroxide safe for skin",
+      "volume": 40,
+      "parent_topic": "is magnesium hydroxide safe for skin",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

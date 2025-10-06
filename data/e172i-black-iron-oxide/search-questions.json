@@ -1,0 +1,78 @@
+{
+  "keyword": "Black iron oxide",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:43.905Z",
+  "questions": [
+    {
+      "keyword": "what is black iron oxide",
+      "volume": 60,
+      "parent_topic": "fe3o4",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is black iron oxide used for",
+      "volume": 20,
+      "parent_topic": "fe3o4",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to make black iron oxide",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is black iron oxide safe",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is black iron oxide powder",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is iron oxide black",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "black iron oxide powder where to buy",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": [
+        "commercial",
+        "transactional"
+      ]
+    },
+    {
+      "keyword": "black iron oxide powder where to buy in atlanta",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "black iron oxide turn red when fired",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "black iron oxide where to get",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

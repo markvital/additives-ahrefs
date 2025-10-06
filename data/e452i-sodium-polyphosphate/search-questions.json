@@ -1,0 +1,71 @@
+{
+  "keyword": "Sodium polyphosphate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:25:12.907Z",
+  "questions": [
+    {
+      "keyword": "what is sodium polyphosphate",
+      "volume": 90,
+      "parent_topic": "sodium polyphosphate in food",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sodium polyphosphate bad for you",
+      "volume": 10,
+      "parent_topic": "sodium phosphate in food",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how harmful is sodium polyphosphate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is sodium polyphosphate used for",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the cas number for sodium polyphosphate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the differece between sodium tripolyphosphate and sodium polyphosphate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the function of sodium polyphosphate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the function of sodium polyphosphate in water",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the purpose of sodium polyphosphate in bottled water",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "where does it come from sodium polyphosphate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

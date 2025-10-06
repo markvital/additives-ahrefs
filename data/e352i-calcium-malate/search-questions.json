@@ -1,0 +1,71 @@
+{
+  "keyword": "Calcium malate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:44.309Z",
+  "questions": [
+    {
+      "keyword": "what is calcium malate",
+      "volume": 60,
+      "parent_topic": "calcium malate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is calcium citrate malate",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is calcium citrate malate made from",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is calcium malate made from",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "calcium citrate malate where is it sourced from",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how calcium malate affects stomach acid",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how di-malate calcium affects stomach acid",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much calcium citrate malate per day",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much elemental calcium in dicalcium malate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what does calcium with acetate, glycinate, succinate, malate, fumarate, and citrate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "keyword": "Beetroot red",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:43.916Z",
+  "questions": [
+    {
+      "keyword": "does beetroot make your poop red",
+      "volume": 70,
+      "parent_topic": "does beet juice make your poop red",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does beetroot make you poop red",
+      "volume": 50,
+      "parent_topic": "does beet juice make your poop red",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "can beetroot make poop red",
+      "volume": 40,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is beetroot red soup",
+      "volume": 40,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "can beetroot cause red urine",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "can beetroot make urine red",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "can beetroot make your urine red",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "can beetroot turn urine red",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "can beetroot turn your urine red",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does beetroot cause red urine",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

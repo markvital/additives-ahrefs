@@ -1,0 +1,87 @@
+{
+  "keyword": "Lutein",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:14.608Z",
+  "questions": [
+    {
+      "keyword": "what is lutein",
+      "volume": 1600,
+      "parent_topic": "lutein",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how much lutein per day",
+      "volume": 500,
+      "parent_topic": "lutein",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is lutein good for",
+      "volume": 450,
+      "parent_topic": "lutein",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how much lutein and zeaxanthin should i take daily",
+      "volume": 200,
+      "parent_topic": "lutein",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "lutein para que sirve",
+      "volume": 200,
+      "parent_topic": "luteina para que sirve",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does lutein do",
+      "volume": 200,
+      "parent_topic": "lutein",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what foods have lutein",
+      "volume": 200,
+      "parent_topic": "lutein foods",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "who should not take lutein",
+      "volume": 200,
+      "parent_topic": "who should not take lutein",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is lutein good for your eyes",
+      "volume": 150,
+      "parent_topic": "lutein",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what foods contain lutein",
+      "volume": 150,
+      "parent_topic": "lutein",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

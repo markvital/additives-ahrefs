@@ -1,0 +1,27 @@
+{
+  "keyword": "Cassia gum",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:44.610Z",
+  "questions": [
+    {
+      "keyword": "what is cassia gum",
+      "volume": 10,
+      "parent_topic": "cassia gum",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what are the health effects of cassia gum",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is cassia gum in dog food",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

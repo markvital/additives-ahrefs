@@ -1,0 +1,83 @@
+{
+  "keyword": "Tara gum",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:19:04.808Z",
+  "questions": [
+    {
+      "keyword": "what is tara gum",
+      "volume": 400,
+      "parent_topic": "what is tara gum",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is tara gum bad for you",
+      "volume": 150,
+      "parent_topic": "tara gum side effects",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is tara gum in ice cream",
+      "volume": 100,
+      "parent_topic": "tara gum",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is tara gum gluten free",
+      "volume": 40,
+      "parent_topic": "is tara gum gluten free",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is vegetable gum tara",
+      "volume": 40,
+      "parent_topic": "what is tara gum",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is tara gum made from",
+      "volume": 30,
+      "parent_topic": "tara gum",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "can dogs have tara gum",
+      "volume": 20,
+      "parent_topic": "can dogs have tara gum",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is tara gum safe for dogs",
+      "volume": 10,
+      "parent_topic": "tara gum side effects",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "tara gum what is it",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is tara gum?",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

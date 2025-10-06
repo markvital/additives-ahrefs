@@ -1,0 +1,71 @@
+{
+  "keyword": "Lecithins",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:13.637Z",
+  "questions": [
+    {
+      "keyword": "are lecithins bad for you",
+      "volume": 50,
+      "parent_topic": "lecithin",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what are soya lecithins",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is soya lecithins",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what are lecithins",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what are lecithins in food",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "lecithins are phosphoglycerides where",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "lecithins are phosphoglycerides where the fatty acid is",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "lecithins is what",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "vegetarians do not produce lecithins this when they eat meat",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what are lecithins and cephalin",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

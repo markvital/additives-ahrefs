@@ -1,0 +1,31 @@
+{
+  "keyword": "Amidated pectin",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:43.261Z",
+  "questions": [
+    {
+      "keyword": "what is amidated pectin",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to tell if your pectin is amidated",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "less reactive types of amidated pectin where to buy",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is non-amidated pectin",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

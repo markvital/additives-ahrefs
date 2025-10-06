@@ -1,0 +1,87 @@
+{
+  "keyword": "Potassium gluconate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:39.328Z",
+  "questions": [
+    {
+      "keyword": "how much potassium gluconate should i take daily",
+      "volume": 350,
+      "parent_topic": "potassium",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how much potassium gluconate per day",
+      "volume": 150,
+      "parent_topic": "potassium gluconate dosage for adults",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is potassium gluconate the same as potassium",
+      "volume": 150,
+      "parent_topic": "potassium gluconate vs potassium citrate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is potassium gluconate",
+      "volume": 150,
+      "parent_topic": "potassium gluconate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "potassium gluconate para que sirve",
+      "volume": 100,
+      "parent_topic": "gluconato de potasio para que sirve",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is potassium gluconate good for",
+      "volume": 100,
+      "parent_topic": "potassium gluconate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is the difference between potassium citrate and potassium gluconate",
+      "volume": 100,
+      "parent_topic": "potassium gluconate vs potassium citrate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is potassium gluconate good for you",
+      "volume": 80,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does potassium gluconate do",
+      "volume": 80,
+      "parent_topic": "potassium gluconate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is potassium gluconate used for",
+      "volume": 70,
+      "parent_topic": "potassium gluconate 99 mg dosage",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

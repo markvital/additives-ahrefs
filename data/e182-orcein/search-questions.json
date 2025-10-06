@@ -1,0 +1,67 @@
+{
+  "keyword": "Orcein",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:28.121Z",
+  "questions": [
+    {
+      "keyword": "aceto orcein dye what",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "aceto orcein what is",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to dye with orcein",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to get aceto orcein stain",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to get aceto orcein stain off skin",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what does orcein stain",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what does orcein stain do",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is acetic orcein",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the e number of orcein",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "why is aceto-orcein stain better contrast",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

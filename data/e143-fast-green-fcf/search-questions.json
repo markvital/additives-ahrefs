@@ -1,0 +1,25 @@
+{
+  "keyword": "Fast Green FCF",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:45.568Z",
+  "questions": [
+    {
+      "keyword": "how to prepare fast green fcf for injections",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is fast green fcf",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what wavlength should be used to test the absorbance of fast green fcf",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

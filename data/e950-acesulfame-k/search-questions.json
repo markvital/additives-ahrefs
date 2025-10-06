@@ -1,0 +1,79 @@
+{
+  "keyword": "Acesulfame k",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:43.333Z",
+  "questions": [
+    {
+      "keyword": "what is acesulfame k",
+      "volume": 100,
+      "parent_topic": "acesulfame potassium bad for you",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "acesulfame-k is how much sweeter than sugar?",
+      "volume": 20,
+      "parent_topic": "acesulfame potassium",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "is acesulfame k safe",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "what is acesulfame k found in",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is acesulfame k made from",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is acesulfame-k",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "what is concentrated acesulfame k",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "why is acesulfame k bad for you",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "acesulfame k are in which foods",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "acesulfame k what is it",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

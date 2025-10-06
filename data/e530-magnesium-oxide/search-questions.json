@@ -1,0 +1,87 @@
+{
+  "keyword": "Magnesium oxide",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:16.821Z",
+  "questions": [
+    {
+      "keyword": "what is magnesium oxide good for",
+      "volume": 3000,
+      "parent_topic": "magnesium oxide",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is magnesium oxide used for",
+      "volume": 2500,
+      "parent_topic": "magnesium oxide",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is magnesium oxide 400 mg used for",
+      "volume": 2100,
+      "parent_topic": "magnesium oxide",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is magnesium oxide",
+      "volume": 1400,
+      "parent_topic": "magnesium oxide",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does magnesium oxide do",
+      "volume": 900,
+      "parent_topic": "magnesium oxide benefits",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is magnesium oxide good for you",
+      "volume": 800,
+      "parent_topic": "magnesium oxide benefits",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does magnesium oxide help you sleep",
+      "volume": 500,
+      "parent_topic": "magnesium and sleep",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does magnesium oxide make you poop",
+      "volume": 450,
+      "parent_topic": "magnesium oxide benefits",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is magnesium oxide good",
+      "volume": 400,
+      "parent_topic": "magnesium oxide benefits",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does magnesium oxide do for the body",
+      "volume": 300,
+      "parent_topic": "magnesium oxide benefits",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

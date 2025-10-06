@@ -1,0 +1,25 @@
+{
+  "keyword": "Stearyl citrate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:25:19.316Z",
+  "questions": [
+    {
+      "keyword": "what is stearyl/octyldodecyl citrate crosspolymer",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the e number of stearyl citrate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the melt point of stearyl citrate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

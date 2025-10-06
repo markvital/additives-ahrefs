@@ -1,0 +1,71 @@
+{
+  "keyword": "Ammonium sulphate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:43.801Z",
+  "questions": [
+    {
+      "keyword": "where to buy ammonium sulphate",
+      "volume": 60,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how is ammonium sulphate fertilizer manufactured",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how is ammonium sulphate manufactured",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is ammonium sulphate",
+      "volume": 10,
+      "parent_topic": "ammonium sulfate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is the formula of ammonium sulphate",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "\"what happens when you mix barium chloride and ammonium sulphate\"",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "\"what happens when you mix baru\\ium chloride and ammonium sulphate\"",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "ammonium sulphate 21-0-0 green house brand..where to buy",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "ammonium sulphate is which type of fertilizer",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how does ammonium sulphate lead to deciliation",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

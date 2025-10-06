@@ -1,0 +1,69 @@
+{
+  "keyword": "Ethyl cellulose",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:45.338Z",
+  "questions": [
+    {
+      "keyword": "what is ethyl cellulose",
+      "volume": 30,
+      "parent_topic": "ethyl cellulose",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "ethyl cellulose is which type of polymer",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how is ethyl cellulose made",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how safe is ethyl cellulose",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to make ethyl cellulose",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what foods contain ethyl methyl cellulose",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what ice creams use ethyl cellulose",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is aqualon ethyl cellulose is it harmful",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is ethyl cellulose used for",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is ethyl cellulose used for?",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

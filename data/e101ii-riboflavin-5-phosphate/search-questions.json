@@ -1,0 +1,39 @@
+{
+  "keyword": "Riboflavin-5′-phosphate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:46.985Z",
+  "questions": [
+    {
+      "keyword": "what is riboflavin 5 phosphate",
+      "volume": 30,
+      "parent_topic": "vitamin b2",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "100mg of b2 = how much riboflavin 5 phosphate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how does the body make riboflavin 5 phosphate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "riboflavin 5 phosphate 50mg/ml how to use",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "where to find riboflavin 5 phosphate 20 mg",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "keyword": "Sodium phosphates",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:25:12.654Z",
+  "questions": [
+    {
+      "keyword": "what are sodium phosphates",
+      "volume": 60,
+      "parent_topic": "sodium phosphate in food",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is sodium phosphates",
+      "volume": 30,
+      "parent_topic": "sodium phosphate in food",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what are sodium phosphates in food",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how are sodium phosphates made",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how do saline enema sodium phosphates work",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how does sodium aluminate react with phosphates",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how many meq of sodium does sodium phosphates have",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how many sodium phosphates are there",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to avoid sodium phosphates in meat",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to detox from sodium phosphates",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

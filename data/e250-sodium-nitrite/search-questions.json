@@ -1,0 +1,88 @@
+{
+  "keyword": "Sodium nitrite",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:25:12.290Z",
+  "questions": [
+    {
+      "keyword": "is sodium nitrite bad for you",
+      "volume": 200,
+      "parent_topic": "sodium nitrate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is sodium nitrite",
+      "volume": 200,
+      "parent_topic": "sodium nitrite",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where to buy sodium nitrite",
+      "volume": 150,
+      "parent_topic": "buy sodium nitrite",
+      "intents": [
+        "informational",
+        "commercial",
+        "transactional"
+      ]
+    },
+    {
+      "keyword": "how much sodium nitrite is deadly",
+      "volume": 90,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is sodium nitrite used for",
+      "volume": 80,
+      "parent_topic": "sodium nitrite",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does sodium nitrite cause cancer",
+      "volume": 40,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "sodium nitrite where to buy",
+      "volume": 40,
+      "parent_topic": "buy sodium nitrite",
+      "intents": [
+        "commercial",
+        "transactional"
+      ]
+    },
+    {
+      "keyword": "how to buy sodium nitrite",
+      "volume": 30,
+      "parent_topic": "buy sodium nitrite",
+      "intents": [
+        "informational",
+        "commercial",
+        "transactional"
+      ]
+    },
+    {
+      "keyword": "what is the formula for sodium nitrite",
+      "volume": 30,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is the formula for sodium nitrite?",
+      "volume": 30,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "keyword": "mineral oil",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:20.726Z",
+  "questions": [
+    {
+      "keyword": "what is mineral oil",
+      "volume": 6700,
+      "parent_topic": "what is mineral oil",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is mineral oil good for your skin",
+      "volume": 2000,
+      "parent_topic": "is mineral oil good for your skin",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is mineral oil bad for your skin",
+      "volume": 1100,
+      "parent_topic": "is mineral oil good for your skin",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is mineral oil used for",
+      "volume": 1100,
+      "parent_topic": "mineral oil uses",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is food grade mineral oil",
+      "volume": 700,
+      "parent_topic": "what is food grade mineral oil",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "which is better saline or mineral oil enema",
+      "volume": 700,
+      "parent_topic": "enema",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is baby oil mineral oil",
+      "volume": 600,
+      "parent_topic": "mineral oil vs baby oil",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is mineral oil made of",
+      "volume": 600,
+      "parent_topic": "what is mineral oil",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does mineral oil go bad",
+      "volume": 500,
+      "parent_topic": "does mineral oil go bad",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is oil a mineral",
+      "volume": 500,
+      "parent_topic": "is oil a mineral",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

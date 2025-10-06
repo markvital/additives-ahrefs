@@ -1,0 +1,55 @@
+{
+  "keyword": "Diphosphates",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:44.895Z",
+  "questions": [
+    {
+      "keyword": "what are diphosphates",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what are diphosphates in food",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is diphosphates in food",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the advantage of nucleotide triphosphates instead of nucleotide diphosphates",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "which of the following nucleoside diphosphates is used most often in carbohydrate anabolism?",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "why are nucleooside triphosphates used rather than nucleotide diphosphates in dna synthesis",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "why are nucleoside triphosphates used rather than nucleoside diphosphates in dna synthesis",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "why aren't nucleoside diphosphates",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

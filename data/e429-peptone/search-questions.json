@@ -1,0 +1,77 @@
+{
+  "keyword": "peptone",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:31.055Z",
+  "questions": [
+    {
+      "keyword": "what is peptone",
+      "volume": 100,
+      "parent_topic": "peptone",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is a peptone",
+      "volume": 60,
+      "parent_topic": "what is a peptone",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is peptone used for",
+      "volume": 20,
+      "parent_topic": "tryptone vs peptone",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is the purpose of peptone in the media",
+      "volume": 20,
+      "parent_topic": "what is the purpose of peptone in the media",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to make peptone water",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is buffered peptone water",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is peptone in microbiology",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is peptone water",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is soy peptone",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the purpose of peptone",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

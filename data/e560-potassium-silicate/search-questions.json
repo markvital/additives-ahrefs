@@ -1,0 +1,67 @@
+{
+  "keyword": "Potassium silicate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:42.167Z",
+  "questions": [
+    {
+      "keyword": "what is potassium silicate",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is potassium aluminum silicate",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the formula of potassium silicate",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": ": hydrated potassium sodium iron magnesium aluminum silicate is better known as what?",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "agsil 16h potassium silicate how is it made",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "agsil® potassium silicate how to make concentrates",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how do i lower the ph of potassium silicate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how is potassium silicate made",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much potassium silicate for 5 gals of water",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much potassium silicate powder per gallon for foliar spray?",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

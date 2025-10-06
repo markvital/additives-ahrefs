@@ -1,0 +1,91 @@
+{
+  "keyword": "Ammonium chloride",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:43.344Z",
+  "questions": [
+    {
+      "keyword": "what is ammonium chloride",
+      "volume": 300,
+      "parent_topic": "ammonium chloride",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where to buy ammonium chloride",
+      "volume": 70,
+      "parent_topic": "ammonium chloride powder",
+      "intents": [
+        "commercial",
+        "transactional"
+      ]
+    },
+    {
+      "keyword": "ammonium chloride where to buy",
+      "volume": 50,
+      "parent_topic": "ammonium chloride powder",
+      "intents": [
+        "commercial",
+        "transactional"
+      ]
+    },
+    {
+      "keyword": "is ammonium chloride an acid",
+      "volume": 50,
+      "parent_topic": "nh4cl acid or base",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is ammonium chloride soluble in water",
+      "volume": 50,
+      "parent_topic": "is ammonium chloride soluble in water",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is ammonium chloride the same as ammonia",
+      "volume": 50,
+      "parent_topic": "ammonia vs ammonium",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where can i buy ammonium chloride",
+      "volume": 50,
+      "parent_topic": "ammonium chloride powder",
+      "intents": [
+        "commercial",
+        "transactional"
+      ]
+    },
+    {
+      "keyword": "where to buy ammonium chloride for wood burning",
+      "volume": 50,
+      "parent_topic": "wood burning liquid",
+      "intents": [
+        "commercial",
+        "transactional"
+      ]
+    },
+    {
+      "keyword": "does ammonium chloride kill mold",
+      "volume": 40,
+      "parent_topic": "does ammonium chloride kill mold",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how much ammonium chloride for goats",
+      "volume": 40,
+      "parent_topic": "ammonium chloride for goats",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

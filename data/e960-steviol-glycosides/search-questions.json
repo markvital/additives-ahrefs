@@ -1,0 +1,79 @@
+{
+  "keyword": "Steviol glycosides",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:25:19.708Z",
+  "questions": [
+    {
+      "keyword": "what is steviol glycosides",
+      "volume": 500,
+      "parent_topic": "steviol glycosides",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what are steviol glycosides",
+      "volume": 100,
+      "parent_topic": "steviol glycosides",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is steviol glycosides reb m",
+      "volume": 40,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "2 different steviol glycosides which is better",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "are steviol glycosides safe",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how much steviol glycosides",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "is steviol glycosides a sugar alcohol",
+      "volume": 0,
+      "parent_topic": "is stevia bad for you",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is steviol glycosides natural",
+      "volume": 0,
+      "parent_topic": "steviol glycosides",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is steviol glycosides the same as stevia",
+      "volume": 0,
+      "parent_topic": "steviol",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "steviol glycosides what is it",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

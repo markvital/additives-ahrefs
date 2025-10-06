@@ -1,0 +1,87 @@
+{
+  "keyword": "Tannin",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:19:05.078Z",
+  "questions": [
+    {
+      "keyword": "what is tannin",
+      "volume": 600,
+      "parent_topic": "tannins",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is tannin in wine",
+      "volume": 400,
+      "parent_topic": "tannins in wine",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is a tannin",
+      "volume": 200,
+      "parent_topic": "tannins",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is tannin bleed",
+      "volume": 100,
+      "parent_topic": "what is tannin bleed",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is a tannin in wine",
+      "volume": 90,
+      "parent_topic": "tannins in wine",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is tannin in tea",
+      "volume": 90,
+      "parent_topic": "tannins in tea",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is tannin bad for you",
+      "volume": 80,
+      "parent_topic": "tannins in tea",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does tannin mean in wine",
+      "volume": 70,
+      "parent_topic": "tannins",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is tannin in water",
+      "volume": 60,
+      "parent_topic": "tannins in water",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is tannin in wood",
+      "volume": 60,
+      "parent_topic": "tannins in wood",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

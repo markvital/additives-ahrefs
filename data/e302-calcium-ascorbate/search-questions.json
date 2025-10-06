@@ -1,0 +1,77 @@
+{
+  "keyword": "Calcium ascorbate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:43.960Z",
+  "questions": [
+    {
+      "keyword": "what is calcium ascorbate",
+      "volume": 250,
+      "parent_topic": "calcium ascorbate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is calcium ascorbate bad for you",
+      "volume": 70,
+      "parent_topic": "calcium ascorbate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is calcium ascorbate made from",
+      "volume": 50,
+      "parent_topic": "calcium ascorbate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is calcium ascorbate safe",
+      "volume": 30,
+      "parent_topic": "calcium ascorbate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is calcium ascorbate synthetic",
+      "volume": 30,
+      "parent_topic": "synthetic vitamin c",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is calcium ascorbate used for",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "calcium ascorbate dc what does dc mean",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "calcium ascorbate how to make",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "calcium ascorbate vitamin c how much in one day",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "ester c ascorbate calcium how much calcium is added to diet",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

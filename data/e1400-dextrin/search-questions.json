@@ -1,0 +1,88 @@
+{
+  "keyword": "Dextrin",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:44.925Z",
+  "questions": [
+    {
+      "keyword": "what is dextrin",
+      "volume": 2100,
+      "parent_topic": "dextrin",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is wheat dextrin",
+      "volume": 500,
+      "parent_topic": "dextrin fiber",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is dextrin bad for you",
+      "volume": 450,
+      "parent_topic": "dextrin",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is dextrin gluten free",
+      "volume": 200,
+      "parent_topic": "is dextrin gluten free",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is cluster dextrin",
+      "volume": 200,
+      "parent_topic": "cluster dextrin",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "what is resistant dextrin",
+      "volume": 200,
+      "parent_topic": "what is resistant dextrin",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is wheat dextrin gluten free",
+      "volume": 150,
+      "parent_topic": "is dextrin gluten free",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is tapioca dextrin",
+      "volume": 150,
+      "parent_topic": "tapioca dextrin",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is wheat dextrin good for you",
+      "volume": 100,
+      "parent_topic": "wheat dextrin",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is dextrin fiber",
+      "volume": 100,
+      "parent_topic": "is dextrin bad for you",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

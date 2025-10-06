@@ -1,0 +1,67 @@
+{
+  "keyword": "Erythrosine",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:45.336Z",
+  "questions": [
+    {
+      "keyword": "what foods contain erythrosine",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is erythrosine",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "experiment 7 kinetics of erythrosine b oxidation how to calculate nacl concentration chem 201",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how does erythrosine affect behavior",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how does erythrosine work",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how does erythrosine work as an indicator",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to determine k in a pseudo 1st order oxidation of erythrosine",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what color erythrosine absorb",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what color is the mixture of brilliant blue fcf and tartrazine and erythrosine",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what does erythrosine do to the body",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

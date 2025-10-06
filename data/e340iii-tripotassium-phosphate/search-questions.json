@@ -1,0 +1,85 @@
+{
+  "keyword": "Tripotassium phosphate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:19:04.410Z",
+  "questions": [
+    {
+      "keyword": "what is tripotassium phosphate",
+      "volume": 400,
+      "parent_topic": "tripotassium phosphate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is tripotassium phosphate bad for you",
+      "volume": 100,
+      "parent_topic": "trisodium phosphate in food",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does tripotassium phosphate do to your body",
+      "volume": 100,
+      "parent_topic": "trisodium phosphate in food",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how much tripotassium phosphate is in cheerios",
+      "volume": 20,
+      "parent_topic": "tripotassium phosphate in cheerios",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "what is tripotassium phosphate in cheerios",
+      "volume": 20,
+      "parent_topic": "trisodium phosphate in food",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "what is tripotassium phosphate used for",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is tripotassium phosphate in food",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how is tripotassium phosphate produced?",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much tripotassium phosphate in cheerios",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "is tripotassium phosphate a leavening agent",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

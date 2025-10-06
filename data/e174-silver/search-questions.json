@@ -1,0 +1,89 @@
+{
+  "keyword": "Silver",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:48.827Z",
+  "questions": [
+    {
+      "keyword": "how to tame a silver fox",
+      "volume": 24000,
+      "parent_topic": "how to tame a silver fox",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "what is the price of silver today",
+      "volume": 18000,
+      "parent_topic": "silver price today",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to tame a silver fox dailymotion",
+      "volume": 16000,
+      "parent_topic": "how to tame a silver fox full movie",
+      "intents": [
+        "navigational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "how much is silver per ounce",
+      "volume": 13000,
+      "parent_topic": "silver price today",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to clean silver",
+      "volume": 13000,
+      "parent_topic": "how to clean silver",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to tame a silver fox full movie",
+      "volume": 13000,
+      "parent_topic": "how to tame a silver fox full movie",
+      "intents": [
+        "branded"
+      ]
+    },
+    {
+      "keyword": "does sterling silver tarnish",
+      "volume": 12000,
+      "parent_topic": "does 925 sterling silver tarnish",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is the price of silver",
+      "volume": 10000,
+      "parent_topic": "silver price today",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how much is an ounce of silver",
+      "volume": 8800,
+      "parent_topic": "silver spot price",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is silver magnetic",
+      "volume": 8800,
+      "parent_topic": "is silver magnetic",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

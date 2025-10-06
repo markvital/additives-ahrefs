@@ -1,0 +1,71 @@
+{
+  "keyword": "DL-Alpha-tocopherol",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:45.180Z",
+  "questions": [
+    {
+      "keyword": "what is dl alpha tocopherol",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "dl alpha tocopherol which to take",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how is dl alpha tocopherol absorbed",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "is dl alpha tocopherol safe",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is dl-alpha tocopherol safe",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what contains dl alpha tocopherol",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is alpha-tocopherol, dl-",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is dl-alpha tocopherol acetate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is dl-alpha tocopherol oil",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is dl-alpha-tocopherol",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

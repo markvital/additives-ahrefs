@@ -1,0 +1,37 @@
+{
+  "keyword": "Monosodium citrate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:23.475Z",
+  "questions": [
+    {
+      "keyword": "monosodium citrate crystals are see in which disease",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is monosodium citrate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "where does monosodium citrate come from",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "why is monosodium citrate flammable when it is a ionic compound",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "why monosodium citrate is flammable",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

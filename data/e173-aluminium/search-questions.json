@@ -1,0 +1,87 @@
+{
+  "keyword": "Aluminium",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:43.312Z",
+  "questions": [
+    {
+      "keyword": "is aluminium magnetic",
+      "volume": 450,
+      "parent_topic": "is aluminum magnetic",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is it aluminum or aluminium",
+      "volume": 400,
+      "parent_topic": "aluminium vs aluminum",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does aluminium rust",
+      "volume": 300,
+      "parent_topic": "does aluminum rust",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is aluminium",
+      "volume": 300,
+      "parent_topic": "aluminum",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "why food wrapped in aluminium foil is harmful",
+      "volume": 300,
+      "parent_topic": "is aluminum foil toxic",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to weld aluminium",
+      "volume": 200,
+      "parent_topic": "how to weld aluminum",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is aluminium a metal",
+      "volume": 200,
+      "parent_topic": "aluminium",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what's the cation name of aln? aluminium ion?",
+      "volume": 200,
+      "parent_topic": "what's the cation name of aln? aluminium ion?",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "are aluminium pans safe",
+      "volume": 150,
+      "parent_topic": "are aluminum pans safe",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "can i put aluminium foil in air fryer",
+      "volume": 150,
+      "parent_topic": "can i put aluminum foil in an air fryer",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

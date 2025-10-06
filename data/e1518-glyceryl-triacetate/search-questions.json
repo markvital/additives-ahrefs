@@ -1,0 +1,19 @@
+{
+  "keyword": "Glyceryl triacetate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:45.750Z",
+  "questions": [
+    {
+      "keyword": "what are dicalcium phosphate dihydrate, glyceryl triacetate, hypromellose,",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what foods are high in glyceryl triacetate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

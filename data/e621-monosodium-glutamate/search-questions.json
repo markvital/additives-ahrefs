@@ -1,0 +1,97 @@
+{
+  "keyword": "Monosodium glutamate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:23.695Z",
+  "questions": [
+    {
+      "keyword": "what is monosodium glutamate",
+      "volume": 2000,
+      "parent_topic": "what is msg",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "is monosodium glutamate bad for you",
+      "volume": 700,
+      "parent_topic": "what is msg",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "what is monosodium glutamate made from",
+      "volume": 150,
+      "parent_topic": "monosodium glutamate",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "which taste is associated with monosodium glutamate",
+      "volume": 100,
+      "parent_topic": "which taste is associated with monosodium glutamate",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "how is monosodium glutamate made",
+      "volume": 80,
+      "parent_topic": "msg",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "what is monosodium glutamate made of",
+      "volume": 70,
+      "parent_topic": "monosodium glutamate",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "what is monosodium glutamate used for",
+      "volume": 70,
+      "parent_topic": "what is msg",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "where does monosodium glutamate come from",
+      "volume": 70,
+      "parent_topic": "msg",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "what does monosodium glutamate do",
+      "volume": 60,
+      "parent_topic": "what is msg",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "does monosodium glutamate have gluten",
+      "volume": 50,
+      "parent_topic": "is msg gluten free",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    }
+  ]
+}

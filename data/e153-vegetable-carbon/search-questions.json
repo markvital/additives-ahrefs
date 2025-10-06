@@ -1,0 +1,69 @@
+{
+  "keyword": "Vegetable carbon",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:19:04.437Z",
+  "questions": [
+    {
+      "keyword": "what is vegetable carbon",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to counter act high carbon in a vegetable garden",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to use carbon steel chinese vegetable cleaver",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "vegetable glycerin produce carbon monoxide when heated",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the e number of vegetable carbon",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is vegetable carbon made from",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what vegetable have the smallest carbon footprint",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "when you eat a vegetable, you are consuming carbon. where did that carbon likely come from?",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "which of these is a solution? aluminum a cup of water and vegetable oil carbon dioxide sugar water",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "why is burning vegetable oil carbon neutral",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

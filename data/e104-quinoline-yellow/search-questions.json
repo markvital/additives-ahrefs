@@ -1,0 +1,43 @@
+{
+  "keyword": "Quinoline yellow",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:46.008Z",
+  "questions": [
+    {
+      "keyword": "what is quinoline yellow",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is quinoline yellow e104",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is quinoline yellow made of",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the e number of quinoline yellow ws",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "when was quinoline yellow banned in united states",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "why is quinoline yellow added to foods",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

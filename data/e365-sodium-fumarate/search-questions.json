@@ -1,0 +1,39 @@
+{
+  "keyword": "Sodium fumarate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:25:09.815Z",
+  "questions": [
+    {
+      "keyword": "what is sodium stearyl fumarate",
+      "volume": 30,
+      "parent_topic": "sodium stearyl fumarate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "sodium stearyl fumarate what can you replace this with",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is sodium stearyl fumarate made from",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the e number of sodium fumarate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the e number of sodium stearyl fumarate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

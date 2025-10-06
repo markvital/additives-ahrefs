@@ -1,0 +1,19 @@
+{
+  "keyword": "Sodium adipate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:49.437Z",
+  "questions": [
+    {
+      "keyword": "how to avoid e356 sodium adipate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "in what foods are sodium adipate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

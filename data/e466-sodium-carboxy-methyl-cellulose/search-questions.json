@@ -1,0 +1,31 @@
+{
+  "keyword": "Sodium carboxy methyl cellulose",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:25:08.094Z",
+  "questions": [
+    {
+      "keyword": "how to use \"sodium carboxy methyl cellulose\" kiln repair",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to use sodium carboxy methyl cellulose kiln repair",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is sodium carboxy methyl cellulose",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "where can i buy sodium carboxy methyl cellulose powder",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "keyword": "Potassium malate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:40.567Z",
+  "questions": [
+    {
+      "keyword": "what is potassium malate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the best magesium malate /potassium to take",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

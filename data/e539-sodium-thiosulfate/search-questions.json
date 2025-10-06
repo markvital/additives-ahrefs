@@ -1,0 +1,87 @@
+{
+  "keyword": "sodium thiosulfate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:25:15.530Z",
+  "questions": [
+    {
+      "keyword": "what is sodium thiosulfate",
+      "volume": 150,
+      "parent_topic": "sodium thiosulfate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is sodium thiosulfate used for",
+      "volume": 100,
+      "parent_topic": "sodium thiosulfate uses",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is gold sodium thiosulfate in makeup",
+      "volume": 60,
+      "parent_topic": "is gold sodium thiosulfate in makeup",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "sodium thiosulfate where to buy",
+      "volume": 60,
+      "parent_topic": "buy sodium thiosulfate",
+      "intents": [
+        "commercial",
+        "transactional"
+      ]
+    },
+    {
+      "keyword": "where to buy sodium thiosulfate",
+      "volume": 60,
+      "parent_topic": "buy sodium thiosulfate",
+      "intents": [
+        "commercial",
+        "transactional"
+      ]
+    },
+    {
+      "keyword": "how much sodium thiosulfate to neutralize chlorine",
+      "volume": 50,
+      "parent_topic": "how much sodium thiosulfate to neutralize chlorine",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how many elements are in sodium thiosulfate",
+      "volume": 40,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "is sodium thiosulfate dangerous",
+      "volume": 40,
+      "parent_topic": "sodium thiosulfate sds",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does sodium thiosulfate do",
+      "volume": 40,
+      "parent_topic": "sodium thiosulfate uses",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how much sodium thiosulfate to lower chlorine",
+      "volume": 30,
+      "parent_topic": "chlorine neutralizer for pool",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

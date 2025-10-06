@@ -1,0 +1,77 @@
+{
+  "keyword": "Sodium hydrogen carbonate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:25:10.236Z",
+  "questions": [
+    {
+      "keyword": "what is sodium hydrogen carbonate",
+      "volume": 150,
+      "parent_topic": "baking soda",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is the percent composition of sodium hydrogen carbonate nahco3",
+      "volume": 150,
+      "parent_topic": "what is the percent composition of sodium hydrogen carbonate nahco3",
+      "intents": []
+    },
+    {
+      "keyword": "is sodium hydrogen carbonate the same as sodium bicarbonate",
+      "volume": 40,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sodium hydrogen carbonate the same as baking soda",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to identify sodium hydrogen carbonate",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is sodium hydrogen carbonate used for",
+      "volume": 10,
+      "parent_topic": "baking soda",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is the correct formula for sodium hydrogen carbonate",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the formula for sodium hydrogen carbonate",
+      "volume": 10,
+      "parent_topic": "sodium bicarbonate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "calculate the ph of solution when the concentration of sodium hydrogen carbonate is 0.230 m",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "calculate the ph of solution when the concentration of sodium hydrogen carbonate is 0.910 m.",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

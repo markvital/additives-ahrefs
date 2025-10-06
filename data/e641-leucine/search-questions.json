@@ -1,0 +1,85 @@
+{
+  "keyword": "Leucine",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:13.842Z",
+  "questions": [
+    {
+      "keyword": "what is leucine",
+      "volume": 1400,
+      "parent_topic": "leucine",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how much leucine per day to build muscle",
+      "volume": 800,
+      "parent_topic": "how much leucine per day to build muscle",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how much leucine per day",
+      "volume": 500,
+      "parent_topic": "how much leucine per day",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is l-leucine",
+      "volume": 250,
+      "parent_topic": "leucine",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "can you take leucine and hmb together",
+      "volume": 200,
+      "parent_topic": "can you take leucine and hmb together",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does leucine do",
+      "volume": 200,
+      "parent_topic": "leucine supplement",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what food is highest in leucine",
+      "volume": 200,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what foods have leucine",
+      "volume": 200,
+      "parent_topic": "leucine foods",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how much leucine in eggs",
+      "volume": 150,
+      "parent_topic": "how much leucine in eggs",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what foods are high in leucine",
+      "volume": 150,
+      "parent_topic": "leucine foods",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

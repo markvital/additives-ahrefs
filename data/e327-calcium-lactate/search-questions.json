@@ -1,0 +1,84 @@
+{
+  "keyword": "calcium lactate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:44.319Z",
+  "questions": [
+    {
+      "keyword": "what is calcium lactate",
+      "volume": 500,
+      "parent_topic": "calcium lactate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is calcium lactate dairy",
+      "volume": 250,
+      "parent_topic": "calcium lactate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where to buy calcium lactate",
+      "volume": 80,
+      "parent_topic": "calcium lactate",
+      "intents": [
+        "commercial",
+        "transactional"
+      ]
+    },
+    {
+      "keyword": "where can i buy calcium lactate powder",
+      "volume": 60,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "does calcium lactate contain dairy",
+      "volume": 40,
+      "parent_topic": "calcium lactate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to make popping boba without calcium lactate",
+      "volume": 40,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is calcium lactate good for",
+      "volume": 40,
+      "parent_topic": "calcium lactate tablets",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is calcium lactate used for",
+      "volume": 40,
+      "parent_topic": "calcium lactate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does calcium lactate have dairy",
+      "volume": 30,
+      "parent_topic": "calcium lactate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is calcium lactate dairy free",
+      "volume": 30,
+      "parent_topic": "calcium lactate",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

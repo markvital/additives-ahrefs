@@ -1,0 +1,69 @@
+{
+  "keyword": "Maltol",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:18.910Z",
+  "questions": [
+    {
+      "keyword": "what is ethyl maltol",
+      "volume": 30,
+      "parent_topic": "ethyl maltol",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is ferric maltol",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much ethyl maltol",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "diy ejuice what is ethyl maltol",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "ejuice ethyl maltol how much",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "ejuice how to use ethyl maltol",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "ethyl maltol what is it",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much ethyl maltol do i need to use in my ejuice",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much ethyl maltol in e juice",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much ethyl maltol in e liquid",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "keyword": "Red iron oxide",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:46.393Z",
+  "questions": [
+    {
+      "keyword": "what is red iron oxide",
+      "volume": 50,
+      "parent_topic": "fe2o3",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "iron oxide gives what planet red color",
+      "volume": 40,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "iron oxide gives which planet its red color",
+      "volume": 40,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is iron oxide red",
+      "volume": 40,
+      "parent_topic": "iron oxide red",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to apply red oxide on iron",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is red iron oxide used for",
+      "volume": 20,
+      "parent_topic": "iron oxide glaze",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to make red iron oxide",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "iron oxide gives what planet its red color",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "iron oxide gives which planet red color",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "iron oxide gives which planet the red color",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "keyword": "Riboflavin",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:46.870Z",
+  "questions": [
+    {
+      "keyword": "what is riboflavin",
+      "volume": 2900,
+      "parent_topic": "riboflavin",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does riboflavin do",
+      "volume": 500,
+      "parent_topic": "vitamin b2",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is riboflavin good for",
+      "volume": 450,
+      "parent_topic": "vitamin b2",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what foods have riboflavin",
+      "volume": 400,
+      "parent_topic": "vitamin b2",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how much riboflavin per day",
+      "volume": 300,
+      "parent_topic": "vitamin b2",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is riboflavin good for you",
+      "volume": 300,
+      "parent_topic": "vitamin b2",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is riboflavin in food",
+      "volume": 200,
+      "parent_topic": "vitamin b2",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what vitamin is riboflavin",
+      "volume": 200,
+      "parent_topic": "riboflavin",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "whats riboflavin",
+      "volume": 200,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does riboflavin do for the body",
+      "volume": 150,
+      "parent_topic": "what does vitamin b2 do",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

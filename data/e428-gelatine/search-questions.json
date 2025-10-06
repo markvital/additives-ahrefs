@@ -1,0 +1,87 @@
+{
+  "keyword": "Gelatine",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:45.677Z",
+  "questions": [
+    {
+      "keyword": "what is gelatine made of",
+      "volume": 350,
+      "parent_topic": "what is gelatin made of",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is gelatine",
+      "volume": 300,
+      "parent_topic": "what is gelatin made of",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is gelatine bovine halal",
+      "volume": 70,
+      "parent_topic": "is gelatin bovine halal",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is gelatine halal",
+      "volume": 60,
+      "parent_topic": "is gelatin halal",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does gelatine expire",
+      "volume": 50,
+      "parent_topic": "does gelatin expire",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is beef gelatine halal",
+      "volume": 50,
+      "parent_topic": "is beef gelatin halal",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is gelatine made out of",
+      "volume": 50,
+      "parent_topic": "gelatin",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does gelatine have pork",
+      "volume": 40,
+      "parent_topic": "is gelatin pork",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how is gelatine made",
+      "volume": 40,
+      "parent_topic": "how is gelatin made",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to use gelatine powder",
+      "volume": 40,
+      "parent_topic": "how to make gelatin",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

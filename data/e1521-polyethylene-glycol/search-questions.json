@@ -1,0 +1,85 @@
+{
+  "keyword": "Polyethylene glycol",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:32.784Z",
+  "questions": [
+    {
+      "keyword": "how polyethylene glycol 3350 works",
+      "volume": 4600,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is polyethylene glycol",
+      "volume": 3100,
+      "parent_topic": "polyethylene glycol",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "polyethylene glycol 3350 para que sirve",
+      "volume": 900,
+      "parent_topic": "polyethylene glycol 3350 para que sirve",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "polyethylene glycol 3350 how to use",
+      "volume": 800,
+      "parent_topic": "polyethylene glycol 3350",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is polyethylene glycol used for",
+      "volume": 600,
+      "parent_topic": "polyethylene glycol 3350",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "polyethylene glycol para que sirve",
+      "volume": 500,
+      "parent_topic": "polyethylene glycol 3350 para que sirve",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is polyethylene glycol safe",
+      "volume": 400,
+      "parent_topic": "miralax side effects",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "para que sirve polyethylene glycol 3350",
+      "volume": 250,
+      "parent_topic": "polyethylene glycol 3350",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is polyethylene glycol 3350",
+      "volume": 250,
+      "parent_topic": "polyethylene glycol 3350",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "para que sirve el polyethylene glycol 3350",
+      "volume": 200,
+      "parent_topic": "polyethylene glycol 3350",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

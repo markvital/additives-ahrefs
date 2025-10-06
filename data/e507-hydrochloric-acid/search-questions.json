@@ -1,0 +1,88 @@
+{
+  "keyword": "Hydrochloric acid",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:23:53.655Z",
+  "questions": [
+    {
+      "keyword": "what is hydrochloric acid",
+      "volume": 1500,
+      "parent_topic": "hydrochloric acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is hydrochloric acid a strong acid",
+      "volume": 700,
+      "parent_topic": "hydrochloric acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is hydrochloric acid used for",
+      "volume": 400,
+      "parent_topic": "hydrochloric acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does hydrochloric acid do",
+      "volume": 350,
+      "parent_topic": "hydrochloric acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where to buy hydrochloric acid",
+      "volume": 350,
+      "parent_topic": "hcl chemical",
+      "intents": [
+        "commercial",
+        "transactional"
+      ]
+    },
+    {
+      "keyword": "is hydrochloric acid dangerous",
+      "volume": 300,
+      "parent_topic": "how dangerous is hydrochloric acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is hydrochloric acid flammable",
+      "volume": 250,
+      "parent_topic": "is hcl flammable",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is hydrochloric acid?",
+      "volume": 250,
+      "parent_topic": "hydrochloric acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is the ph of hydrochloric acid",
+      "volume": 250,
+      "parent_topic": "hydrochloric acid ph",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to dispose of hydrochloric acid",
+      "volume": 200,
+      "parent_topic": "how to dispose of hydrochloric acid",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

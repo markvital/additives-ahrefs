@@ -1,0 +1,67 @@
+{
+  "keyword": "Butylated hydroxyanisole (bha)",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:43.831Z",
+  "questions": [
+    {
+      "keyword": "bht/bha (butylated hydroxytoluene.butylated hydroxyanisole) – why is it used",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "butylated hydroxyanisole (bha)what are the side effects of these ingredients",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "food additive:what are alternaitives of butylated hydroxyanisole (bha)",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "food additive:what are alternatives of butylated hydroxyanisole (bha)",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "food additive:what are the health risk of butylated hydroxyanisole (bha)",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "food additive:what are the heath risk of butylated hydroxyanisole (bha)",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what are butylated hydroxyanisole (bha) and butylated hydroxytoluene (bht) made from",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is bha (butylated hydroxyanisole) bht (butylated hydroxytoluene)",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is butylated hydroxyanisole (bha) and the related compound butylated hydroxytoluene (bht)",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "where to buy butylated hydroxyanisole bha",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

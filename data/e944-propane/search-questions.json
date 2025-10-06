@@ -1,0 +1,88 @@
+{
+  "keyword": "Propane",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:43.765Z",
+  "questions": [
+    {
+      "keyword": "what is propane",
+      "volume": 3400,
+      "parent_topic": "propane",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how much is propane per gallon",
+      "volume": 3200,
+      "parent_topic": "propane prices",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does propane go bad",
+      "volume": 2900,
+      "parent_topic": "does propane go bad",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how much does a gallon of propane weigh",
+      "volume": 2000,
+      "parent_topic": "how much does a gallon of propane weigh",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how much is a propane tank",
+      "volume": 1900,
+      "parent_topic": "propane tank",
+      "intents": [
+        "informational",
+        "commercial"
+      ]
+    },
+    {
+      "keyword": "where to refill propane tank",
+      "volume": 1800,
+      "parent_topic": "propane refill near me",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is propane natural gas",
+      "volume": 1700,
+      "parent_topic": "is propane natural gas",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how much is propane",
+      "volume": 1600,
+      "parent_topic": "propane tank",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how many gallons in a propane tank",
+      "volume": 1500,
+      "parent_topic": "propane tank sizes",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how many gallons of propane in a 100 lb tank",
+      "volume": 1500,
+      "parent_topic": "100 gallon propane tank",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "keyword": "Alpha-tocopherol",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:43.227Z",
+  "questions": [
+    {
+      "keyword": "what is d alpha tocopherol",
+      "volume": 40,
+      "parent_topic": "vitamin e",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is d alpha tocopherol natural",
+      "volume": 20,
+      "parent_topic": "vitamin e",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is alpha tocopherol",
+      "volume": 20,
+      "parent_topic": "alpha-tocopherol",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is d-alpha tocopherol",
+      "volume": 20,
+      "parent_topic": "vitamin e",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is d alpha tocopherol synthetic",
+      "volume": 10,
+      "parent_topic": "vitamin e dl alpha",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is alpha-tocopherol",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is d alpha tocopherol acetate",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is d-alpha-tocopherol made from",
+      "volume": 10,
+      "parent_topic": "vitamin e",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is dl alpha tocopherol",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "alpha tocopherol what is it",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

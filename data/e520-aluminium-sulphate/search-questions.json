@@ -1,0 +1,71 @@
+{
+  "keyword": "Aluminium sulphate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:43.328Z",
+  "questions": [
+    {
+      "keyword": "aluminium sulphate where to buy",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is aluminium sulphate",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is aluminium sulphate used for",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "aluminium sulphate when dissolved in water forms",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how many atoms are present in the compound aluminium sulphate, al2(so4)3",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how many moles of aluminium sulphate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much aluminium sulphate for hydrangeas",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much aluminium sulphate in water treatment",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to make aluminium chlorohydrate from aluminum sulphate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to make aluminium sulphate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

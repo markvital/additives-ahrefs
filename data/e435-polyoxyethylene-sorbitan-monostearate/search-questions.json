@@ -1,0 +1,19 @@
+{
+  "keyword": "Polyoxyethylene sorbitan monostearate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:34.519Z",
+  "questions": [
+    {
+      "keyword": "what is emulsifier polyoxyethylene sorbitan monostearate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is polyoxyethylene sorbitan monostearate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

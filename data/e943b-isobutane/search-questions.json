@@ -1,0 +1,83 @@
+{
+  "keyword": "Isobutane",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:23:56.357Z",
+  "questions": [
+    {
+      "keyword": "what is isobutane",
+      "volume": 350,
+      "parent_topic": "isobutane",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how do the global warming potentials of isobutane",
+      "volume": 70,
+      "parent_topic": "how do the global warming potentials of isobutane",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is isobutane used for",
+      "volume": 50,
+      "parent_topic": "is isobutane toxic",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how do global warming potentials of isobutane",
+      "volume": 30,
+      "parent_topic": "how do the global warming potentials of isobutane",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is the difference between butane and isobutane",
+      "volume": 30,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how long do isobutane canisters last",
+      "volume": 20,
+      "parent_topic": "how long does isobutane last",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how long does 230g of isobutane last",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how long does an isobutane canister last",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how long does isobutane last",
+      "volume": 20,
+      "parent_topic": "how long does isobutane last",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to dispose of isobutane canisters",
+      "volume": 20,
+      "parent_topic": "how to dispose of isobutane canisters",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

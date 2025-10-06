@@ -1,0 +1,37 @@
+{
+  "keyword": "Sodium carbonates",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:25:07.939Z",
+  "questions": [
+    {
+      "keyword": "what are sodium carbonates",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what happens when sodium hydroxide reacts with carbonates",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is difference between calcium, sodium, potassium carbonates",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is sodium carbonates",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is sodium carbonates phase state",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

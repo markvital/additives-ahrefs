@@ -1,0 +1,19 @@
+{
+  "keyword": "Acetylated starch",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:43.341Z",
+  "questions": [
+    {
+      "keyword": "what is the e number for acetylated oxidized starch",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "why is starch acetylated",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

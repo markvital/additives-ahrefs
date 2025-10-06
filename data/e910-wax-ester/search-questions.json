@@ -1,0 +1,69 @@
+{
+  "keyword": "Wax ester",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:19:04.410Z",
+  "questions": [
+    {
+      "keyword": "what is a wax ester",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": ". the condensed structure of the alcohol from which carnauba wax ester is formed is:",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "draw the fatty acid and alcohol obtained when the wax ester below is hydrolyzed",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to disolve ester wax",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to get marine wax ester ffxiv",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to make liquid wax ester from oleic acid and oleyl alcohol",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "the condensed structure of the alcohol from which carnauba wax ester",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "the condensed structure of the alcohol from which carnauba wax ester is formed is:",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is a wax made of ester",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is jojoba wax ester",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

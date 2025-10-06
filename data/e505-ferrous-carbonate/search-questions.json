@@ -1,0 +1,31 @@
+{
+  "keyword": "Ferrous carbonate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:45.377Z",
+  "questions": [
+    {
+      "keyword": "what is ferrous carbonate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the chemical formula for ferrous carbonate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the e number of ferrous carbonate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the molecular formula for ferrous carbonate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

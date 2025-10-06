@@ -1,0 +1,75 @@
+{
+  "keyword": "Copper sulphate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:44.859Z",
+  "questions": [
+    {
+      "keyword": "what is copper sulphate",
+      "volume": 40,
+      "parent_topic": "copper sulfate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is copper sulphate used for",
+      "volume": 20,
+      "parent_topic": "copper sulfate pentahydrate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to use copper sulphate on wound",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what are the dangers of copper sulphate",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "where to buy copper sulphate",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational",
+        "commercial",
+        "transactional"
+      ]
+    },
+    {
+      "keyword": "where to buy copper sulphate uk",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "where to purchase copper sulphate",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "copper sulphate crystals when heated strongly",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how copper sulphate is formed without sulfuric acid",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how is copper sulphate made from copper ore",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

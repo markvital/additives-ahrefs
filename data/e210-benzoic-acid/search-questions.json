@@ -1,0 +1,87 @@
+{
+  "keyword": "Benzoic acid",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:43.852Z",
+  "questions": [
+    {
+      "keyword": "is benzoic acid soluble in water",
+      "volume": 700,
+      "parent_topic": "benzoic acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is benzoic acid",
+      "volume": 600,
+      "parent_topic": "benzoic acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is benzoic acid polar",
+      "volume": 250,
+      "parent_topic": "is benzoic acid polar",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is benzoic acid a strong acid",
+      "volume": 150,
+      "parent_topic": "is benzoic acid a strong acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is the melting point of benzoic acid",
+      "volume": 150,
+      "parent_topic": "benzoic acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is benzoic acid bad for you",
+      "volume": 100,
+      "parent_topic": "is benzoic acid bad for you",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is benzoic acid used for",
+      "volume": 100,
+      "parent_topic": "benzoic acid uses",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "why is benzoic acid insoluble in water",
+      "volume": 100,
+      "parent_topic": "is benzoic acid soluble in water",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is benzoic acid a weak acid",
+      "volume": 70,
+      "parent_topic": "is benzoic acid a weak acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is benzoic acid polar or nonpolar",
+      "volume": 60,
+      "parent_topic": "benzoic acid polar or nonpolar",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

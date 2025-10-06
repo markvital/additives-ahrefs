@@ -1,0 +1,19 @@
+{
+  "keyword": "Hexamethylene tetramine",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:23:53.369Z",
+  "questions": [
+    {
+      "keyword": "what is hexamethylene tetramine",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what type of compound is hexamethylene tetramine?",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "keyword": "Sodium ferrocyanide",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:25:09.279Z",
+  "questions": [
+    {
+      "keyword": "what is sodium ferrocyanide",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to make liquid cyanide from sodium ferrocyanide",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to make sodium cyanide with sodium ferrocyanide",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "is sodium ferrocyanide safe",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "sodium ferrocyanide how to make",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what does sodium ferrocyanide smell like",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "why is sodium ferrocyanide kosher and calcium silicate is not",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "keyword": "Sucrose acetate isobutyrate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:25:20.882Z",
+  "questions": [
+    {
+      "keyword": "what is sucrose acetate isobutyrate",
+      "volume": 100,
+      "parent_topic": "sucrose acetate isobutyrate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sucrose acetate isobutyrate an artificial sweetener",
+      "volume": 30,
+      "parent_topic": "is sucrose acetate isobutyrate an artificial sweetener",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is sucrose acetate isobutyrate used for",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how is sucrose acetate isobutyrate made",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to compound deslorelin acetate in sucrose acetate isobutyrate (saib) and propylene carbonate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what does sucrose acetate isobutyrate do to your body",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "why natural flavour and carbonated water and sucrose acetate isobutyrate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "why natural flavour and carbonated water and sucrose acetate isobutyrate are in fanta pineapple",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

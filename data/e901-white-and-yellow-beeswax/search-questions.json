@@ -1,0 +1,73 @@
+{
+  "keyword": "white and yellow beeswax",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:19:04.561Z",
+  "questions": [
+    {
+      "keyword": "what is the difference between white and yellow beeswax",
+      "volume": 40,
+      "parent_topic": "white vs yellow beeswax",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what's the difference between white and yellow beeswax",
+      "volume": 40,
+      "parent_topic": "white vs yellow beeswax",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is the difference between yellow and white beeswax",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "lappe's united states iowa bee supply and honey farm farms yellow white beeswax pellets 1 lb for sale free shipping where buy in iowa usa near me around 117 florence ave east peru iowa 50222",
+      "volume": 0,
+      "parent_topic": "lappes bee supply",
+      "intents": []
+    },
+    {
+      "keyword": "what is the difference between white and yellow beeswax?",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the difference between yellow and white beeswax?",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the difference between yellow beeswax and white beeswax",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "why are some beeswax yellow and others white",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "why is some beeswax white and some yellow",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "why is some beeswax yellow and some white?",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

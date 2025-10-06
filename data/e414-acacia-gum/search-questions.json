@@ -1,0 +1,85 @@
+{
+  "keyword": "Acacia gum",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:43.319Z",
+  "questions": [
+    {
+      "keyword": "what is acacia gum",
+      "volume": 500,
+      "parent_topic": "acacia gum",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is gum acacia",
+      "volume": 350,
+      "parent_topic": "acacia gum",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is acacia gum bad for you",
+      "volume": 250,
+      "parent_topic": "acacia gum",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is gum acacia bad for you",
+      "volume": 100,
+      "parent_topic": "acacia gum",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is acacia gum used for",
+      "volume": 30,
+      "parent_topic": "acacia powder benefits",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is gum acacia made of",
+      "volume": 30,
+      "parent_topic": "acacia gum",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is organic gum acacia",
+      "volume": 30,
+      "parent_topic": "organic acacia gum",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "can dogs have acacia gum",
+      "volume": 20,
+      "parent_topic": "can dogs have acacia gum",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is acacia gum vegan",
+      "volume": 20,
+      "parent_topic": "is gum arabic vegan",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "acacia gum what is it",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "keyword": "Disodium diphosphate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:44.928Z",
+  "questions": [
+    {
+      "keyword": "what is disodium diphosphate",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is diphosphate disodium e450",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is diphosphate disodium e450 in cooking",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is disodium diphosphate in food",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is disodium diphosphate made from?",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is disodium diphosphate made of",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

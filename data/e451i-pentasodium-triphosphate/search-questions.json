@@ -1,0 +1,45 @@
+{
+  "keyword": "Pentasodium triphosphate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:30.662Z",
+  "questions": [
+    {
+      "keyword": "what is pentasodium triphosphate",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is pentasodium triphosphate toothpaste",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is pentasodium triphosphate used for",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is pentasodium triphosphate used in",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is pentasodium triphosphate?",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "why is pentasodium triphosphate used in toothpaste",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

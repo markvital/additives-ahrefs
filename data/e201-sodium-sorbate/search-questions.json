@@ -1,0 +1,67 @@
+{
+  "keyword": "Sodium sorbate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:25:14.101Z",
+  "questions": [
+    {
+      "keyword": "what is sodium sorbate",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "for people who react to msg, they should avoid sodium benzoate and potassium sorbate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much should i use potassium sorbate and sodium benzoate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much sodium sorbate to use",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to preserve my sauce using potassium sorbate and sodium benzoate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to say distilled vinegar, potassium sorbate, sodium bisulfite and xanthan gum",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to use sodium benzoate and potassium sorbate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "sodium benzoate and potassium sorbate is worse than msg for people who react to msg",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what are potassium sorbate & sodium bisulfite",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what are these ingredients sodium levulinate, potassium sorbate, glyceryl laurate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

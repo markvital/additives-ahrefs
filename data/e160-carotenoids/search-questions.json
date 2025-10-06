@@ -1,0 +1,85 @@
+{
+  "keyword": "Carotenoids",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:44.426Z",
+  "questions": [
+    {
+      "keyword": "what are carotenoids",
+      "volume": 700,
+      "parent_topic": "carotenoids foods",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is carotenoids",
+      "volume": 200,
+      "parent_topic": "carotenoid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what foods have carotenoids",
+      "volume": 50,
+      "parent_topic": "carotenoids foods",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is the ul for carotenoids?",
+      "volume": 30,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what are carotenoids in photosynthesis",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what are carotenoids?",
+      "volume": 20,
+      "parent_topic": "carotenoids",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what foods are high in carotenoids",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what foods contain carotenoids",
+      "volume": 20,
+      "parent_topic": "carotenoids foods",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "which of the following is true of carotenoids?",
+      "volume": 20,
+      "parent_topic": "which of the following is true of carotenoids?",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what are carotenoids good for",
+      "volume": 10,
+      "parent_topic": "carotenoids",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

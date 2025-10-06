@@ -1,0 +1,71 @@
+{
+  "keyword": "Xanthophylls",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:19:04.459Z",
+  "questions": [
+    {
+      "keyword": "what are xanthophylls",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is xanthophylls",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "chegg why do you think that the carotenes move more rapidly with the solvent than the xanthophylls",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "for chlorophyll carotene and xanthophylls, what is the relationship of the action spectrum",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how does anthocynin relate to chromatography of carotene and xanthophylls",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how is the ability to bleed off excess light energy by xanthophylls controlled",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much light is absorbed by xanthophylls in nanometers",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what are carotenoids and xanthophylls",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what are carotenoids and xanthophylls and their functions in photosystem 1 and 2",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what are xanthophylls in photography",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "keyword": "Calcium phosphates",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:44.319Z",
+  "questions": [
+    {
+      "keyword": "10. the inorganic portion of bone matrix composed of calcium phosphates forms what substances?",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how easily are calcium and magnesium phosphates formed?",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what are calcium phosphates",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what foods are high in calcium and low in phosphates",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what gland regulates calcium and phosphates?",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what hormone regulates calcium and phosphates",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what makes calcium phosphates",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "when phosphates are high what happens to calcium levels",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "which metal regulates the absorption of calcium and phosphates",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "which of the following hormones increases concentration of calcium and phosphates in the blood",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

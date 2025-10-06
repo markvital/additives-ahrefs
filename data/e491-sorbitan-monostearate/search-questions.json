@@ -1,0 +1,77 @@
+{
+  "keyword": "Sorbitan monostearate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:25:17.357Z",
+  "questions": [
+    {
+      "keyword": "what is sorbitan monostearate",
+      "volume": 300,
+      "parent_topic": "sorbitan monostearate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sorbitan monostearate safe",
+      "volume": 60,
+      "parent_topic": "sorbitan monostearate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sorbitan monostearate vegan",
+      "volume": 20,
+      "parent_topic": "sorbitan monostearate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is sorbitan monostearate made from",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how is sorbitan monostearate and sorbitan tristearate different",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to emulsify sorbitan monostearate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to make an emulsion using sorbitan monostearate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "is sorbitan monostearate safe to eat",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "sorbitan monostearate how made",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "sorbitan monostearate what chemicals are in it",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

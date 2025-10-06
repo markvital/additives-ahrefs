@@ -1,0 +1,73 @@
+{
+  "keyword": "Calcium sulphate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:44.346Z",
+  "questions": [
+    {
+      "keyword": "what is calcium sulphate",
+      "volume": 30,
+      "parent_topic": "calcium sulfate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is calcium sulphate soluble",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is calcium sulphate used for",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "why is anhydrous calcium sulphate a good desiccant",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "calcium sulphate how to get it",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "companies where calcium sulphate(plaster of paris) is produced",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how calcium sulphate is formed",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how dissolve calcium sulphate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how is calcium sulphate formed in water",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how many atoms of oxygen are there in one molecule of calcium sulphate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

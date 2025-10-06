@@ -1,0 +1,73 @@
+{
+  "keyword": "Allura red",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:43.335Z",
+  "questions": [
+    {
+      "keyword": "is allura red the same as red 40",
+      "volume": 150,
+      "parent_topic": "red 40",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "how do you safely dispose of allura red",
+      "volume": 100,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is allura red",
+      "volume": 40,
+      "parent_topic": "",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "how is allura red made",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is allura red ac",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is allura red ac made from",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is allura red in food",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is allura red made from",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is allura red made of",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "where is allura red banned",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

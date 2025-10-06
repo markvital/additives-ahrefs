@@ -1,0 +1,81 @@
+{
+  "keyword": "Disodium guanylate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:44.954Z",
+  "questions": [
+    {
+      "keyword": "what is disodium guanylate",
+      "volume": 200,
+      "parent_topic": "disodium guanylate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is disodium guanylate bad for you",
+      "volume": 80,
+      "parent_topic": "disodium guanylate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does disodium guanylate do to your body",
+      "volume": 30,
+      "parent_topic": "disodium guanylate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is disodium inosinate and guanylate bad for you",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is disodium guanylate msg",
+      "volume": 10,
+      "parent_topic": "disodium inosinate and guanylate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is disodium inosinate and disodium guanylate",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is disodium inosinate and guanylate",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where does disodium guanylate come from",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "disodium guanylate how is it made",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "disodium guanylate how to use ot",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

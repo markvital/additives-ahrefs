@@ -1,0 +1,19 @@
+{
+  "keyword": "E386",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:45.180Z",
+  "questions": [
+    {
+      "keyword": "cabin e386 veendam which deck has lifeboats",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how do i remove links from elgin e386 band",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "keyword": "Benzole peroxide",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:43.808Z",
+  "questions": [
+    {
+      "keyword": "how does benzole peroxide reduce acne",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how does benzole peroxide work?",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to prevent bleached eyebrows benzole peroxide",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to use benzole peroxide",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what store sells benzole peroxide shampoo",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "when did benzole peroxide become avaiable by prescription?",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

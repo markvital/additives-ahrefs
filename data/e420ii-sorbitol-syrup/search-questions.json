@@ -1,0 +1,57 @@
+{
+  "keyword": "Sorbitol syrup",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:25:18.068Z",
+  "questions": [
+    {
+      "keyword": "what is sorbitol syrup",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how much sorbitol in sugar free syrup",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much sorbitol is in sugar-free syrup",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is humectant sorbitol syrup",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is humectant sorbitol syrup?",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "where can i get sorbitol syrup",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "which is less sweet corn syrup or sorbitol",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "which one is sweeter sorbitol solution, corn syrup, simple syrup",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

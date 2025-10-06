@@ -1,0 +1,71 @@
+{
+  "keyword": "Monosodium phosphate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:23.868Z",
+  "questions": [
+    {
+      "keyword": "what is monosodium phosphate",
+      "volume": 70,
+      "parent_topic": "nah2po4",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is monosodium phosphate bad for you",
+      "volume": 10,
+      "parent_topic": "sodium phosphate in food",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "explain why an aqueous solution of monosodium phosphate would be ineffective",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how does monosodium phosphate make gas?",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to clean up monosodium phosphate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to dispose of monosodium phosphate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to use monosodium phosphate for teeth",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "monosodium phosphate in what cleaning products",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what does monosodium phosphate do for water chemistry",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is high in monosodium phosphate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

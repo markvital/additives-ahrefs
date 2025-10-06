@@ -1,0 +1,87 @@
+{
+  "keyword": "Magnesium stearate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:17.890Z",
+  "questions": [
+    {
+      "keyword": "what is magnesium stearate",
+      "volume": 2800,
+      "parent_topic": "magnesium stearate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is magnesium stearate safe",
+      "volume": 900,
+      "parent_topic": "magnesium stearate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is magnesium stearate bad for your liver",
+      "volume": 400,
+      "parent_topic": "magnesium stearate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is magnesium stearate used for",
+      "volume": 400,
+      "parent_topic": "magnesium stearate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is magnesium stearate bad for you",
+      "volume": 300,
+      "parent_topic": "magnesium stearate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is vegetable magnesium stearate",
+      "volume": 300,
+      "parent_topic": "magnesium stearate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is magnesium stearate gluten free",
+      "volume": 150,
+      "parent_topic": "magnesium stearate gluten free",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is magnesium stearate safe for dogs",
+      "volume": 150,
+      "parent_topic": "is magnesium stearate safe for dogs",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is magnesium stearate the same as magnesium",
+      "volume": 150,
+      "parent_topic": "magnesium stearate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does magnesium stearate do",
+      "volume": 150,
+      "parent_topic": "magnesium stearate",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

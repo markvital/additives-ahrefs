@@ -1,0 +1,87 @@
+{
+  "keyword": "Silicon dioxide",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:48.579Z",
+  "questions": [
+    {
+      "keyword": "what is silicon dioxide",
+      "volume": 5100,
+      "parent_topic": "silica",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is silicon dioxide safe",
+      "volume": 2100,
+      "parent_topic": "silicon dioxide",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is silicon dioxide bad for you",
+      "volume": 1600,
+      "parent_topic": "silicon dioxide",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is silicon dioxide harmful to humans",
+      "volume": 800,
+      "parent_topic": "silicon dioxide",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is silicon dioxide in food",
+      "volume": 500,
+      "parent_topic": "silicon dioxide",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is silicon dioxide safe in supplements",
+      "volume": 200,
+      "parent_topic": "silicon dioxide",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "why is silicon dioxide bad",
+      "volume": 200,
+      "parent_topic": "silicon dioxide",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is silicon dioxide ionic or covalent",
+      "volume": 150,
+      "parent_topic": "sio2 bond type",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is silicon dioxide safe to eat",
+      "volume": 150,
+      "parent_topic": "silicon dioxide bad for you",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "silicon dioxide para que sirve",
+      "volume": 150,
+      "parent_topic": "silicon dioxide para que sirve",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

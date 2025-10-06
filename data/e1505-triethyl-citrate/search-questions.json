@@ -1,0 +1,71 @@
+{
+  "keyword": "Triethyl citrate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:19:04.273Z",
+  "questions": [
+    {
+      "keyword": "what is triethyl citrate",
+      "volume": 200,
+      "parent_topic": "triethyl citrate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is triethyl citrate oil",
+      "volume": 30,
+      "parent_topic": "triethyl citrate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does triethyl citrate do in a deodorant",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what flavourart flavors contain triethyl citrate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what foods contain triethyl citrate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is natural triethyl citrate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the flash point of triethyl citrate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is triethyl citrate made from",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is triethyl citrate used for",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "where does triethyl citrate come from",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

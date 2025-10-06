@@ -1,0 +1,85 @@
+{
+  "keyword": "sodium lactate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:25:11.311Z",
+  "questions": [
+    {
+      "keyword": "what is sodium lactate",
+      "volume": 450,
+      "parent_topic": "sodium lactate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sodium lactate dairy",
+      "volume": 150,
+      "parent_topic": "sodium lactate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how much sodium lactate in soap",
+      "volume": 80,
+      "parent_topic": "sodium lactate in soap",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does sodium lactate do in soap",
+      "volume": 60,
+      "parent_topic": "sodium lactate in soap",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sodium lactate natural",
+      "volume": 50,
+      "parent_topic": "sodium lactate in soap",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does sodium lactate contain dairy",
+      "volume": 40,
+      "parent_topic": "sodium lactate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how much sodium lactate in cold process soap",
+      "volume": 40,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much sodium lactate to add to soap",
+      "volume": 40,
+      "parent_topic": "sodium lactate in soap",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sodium lactate vegan",
+      "volume": 40,
+      "parent_topic": "is sodium lactate vegan",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sodium lactate a preservative",
+      "volume": 30,
+      "parent_topic": "sodium lactate in skin care",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

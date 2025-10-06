@@ -1,0 +1,69 @@
+{
+  "keyword": "Sodium sulphite",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:25:14.875Z",
+  "questions": [
+    {
+      "keyword": "what is sodium sulphite",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "\"sodium sulphite\" what food contain",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to make sodium sulphite",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "sodium sulphite what food",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "sodium sulphite which fruits",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what happen if the process watertreat with sodium sulphite at low ph",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what has sodium sulphite",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is sodium sulphite used for",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the chemical formula of sodium sulphite",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the formula of sodium sulphite",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

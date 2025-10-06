@@ -1,0 +1,88 @@
+{
+  "keyword": "Fatty acids",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:45.589Z",
+  "questions": [
+    {
+      "keyword": "what are fatty acids",
+      "volume": 2400,
+      "parent_topic": "what are fatty acids",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what are omega 3 fatty acids",
+      "volume": 700,
+      "parent_topic": "omega 3",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how many fatty acids are in a phospholipid?",
+      "volume": 600,
+      "parent_topic": "how many fatty acids are in a phospholipid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is the difference between saturated and unsaturated fatty acids",
+      "volume": 400,
+      "parent_topic": "saturated vs unsaturated fat",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how many fatty acids are in a phospholipid",
+      "volume": 350,
+      "parent_topic": "phospholipids are important components of",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "are fatty acids lipids",
+      "volume": 300,
+      "parent_topic": "fatty acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what foods have omega 3 fatty acids",
+      "volume": 300,
+      "parent_topic": "omega 3 foods",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what are essential fatty acids",
+      "volume": 200,
+      "parent_topic": "essential fatty acids",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what are fatty acids milady",
+      "volume": 200,
+      "parent_topic": "what are fatty acids milady",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "what has omega 3 fatty acids",
+      "volume": 200,
+      "parent_topic": "omega 3 foods",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

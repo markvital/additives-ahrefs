@@ -1,0 +1,79 @@
+{
+  "keyword": "Magnesium lactate",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:16.653Z",
+  "questions": [
+    {
+      "keyword": "what is magnesium lactate good for",
+      "volume": 60,
+      "parent_topic": "magnesium lactate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does magnesium lactate do",
+      "volume": 40,
+      "parent_topic": "magnesium lactate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is magnesium lactate",
+      "volume": 40,
+      "parent_topic": "magnesium lactate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is magnesium lactate used for",
+      "volume": 40,
+      "parent_topic": "magnesium lactate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is magnesium lactate good for you",
+      "volume": 20,
+      "parent_topic": "magnesium lactate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how much magnesium lactate should i take",
+      "volume": 10,
+      "parent_topic": "how much magnesium lactate should i take",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does magnesium lactate help with",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is magnesium lactate best for",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is magnesium lactate for",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how absorbable is magnesium lactate",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

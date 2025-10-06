@@ -1,0 +1,19 @@
+{
+  "keyword": "Sunset yellow FCF",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:25:21.990Z",
+  "questions": [
+    {
+      "keyword": "what is sunset yellow fcf",
+      "volume": 30,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is sunset yellow fcf made from",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

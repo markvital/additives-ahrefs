@@ -1,0 +1,25 @@
+{
+  "keyword": "Choline salt",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:44.707Z",
+  "questions": [
+    {
+      "keyword": "does a salt water pool generate choline when running",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what’s the smiles structure of tmc647055 choline salt",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "which works better for keto rash bile salt or choline",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "keyword": "Sulphur dioxide",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:25:21.612Z",
+  "questions": [
+    {
+      "keyword": "what is sulphur dioxide",
+      "volume": 200,
+      "parent_topic": "sulfur dioxide",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sulphur dioxide bad for you",
+      "volume": 100,
+      "parent_topic": "sulfur dioxide in food",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is sulphur dioxide in food",
+      "volume": 100,
+      "parent_topic": "sulphur dioxide in food",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how do you make sulphur dioxide?",
+      "volume": 40,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how can sulphur dioxide emissions be reduced",
+      "volume": 30,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to reduce sulphur dioxide emissions",
+      "volume": 30,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to reduce sulphur dioxide pollution",
+      "volume": 30,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sulphur dioxide in food bad for you",
+      "volume": 30,
+      "parent_topic": "sulphur dioxide in food",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sulphur dioxide toxic",
+      "volume": 30,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sulphur dioxide harmful",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

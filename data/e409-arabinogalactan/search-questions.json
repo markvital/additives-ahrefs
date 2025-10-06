@@ -1,0 +1,73 @@
+{
+  "keyword": "Arabinogalactan",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:18:43.714Z",
+  "questions": [
+    {
+      "keyword": "what is arabinogalactan",
+      "volume": 90,
+      "parent_topic": "arabinogalactan",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is larch arabinogalactan",
+      "volume": 40,
+      "parent_topic": "arabinogalactan",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is arabinogalactan used for",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "a medication which specifically target cell walls that contain arabinogalactan-mycolic acid is",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "arabinogalactan found in which food",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "arabinogalactan how to take",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "arabinogalactan is what",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "arabinogalactan powder how to take",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how do you take larch arabinogalactan resistaid",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how does arabinogalactan work",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

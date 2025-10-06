@@ -1,0 +1,67 @@
+{
+  "keyword": "Potassium nitrite",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:41.248Z",
+  "questions": [
+    {
+      "keyword": "how dangerous is potassium nitrite",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how many grams of potassium nitrite are present in 1.48 moles",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how many grams of potassium nitrite exist in 143 ml of a 2.80 m solution",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how many grams of potassium nitrite, , are present in 3.30 moles of this compound?",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how many moles of potassium nitrite kno3 are present in a sample with a mass of 85.2g.",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to balance potassium nitrite",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to make a storm glass without potassium nitrite or ammonium chloride",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to make potassium nitrite",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "if an solution of potassium nitrite, kno2, is prepared, what will happen?",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "potassium nitrate decomposes when heated forming potassium nitrite and oxygen gas",
+      "volume": 0,
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
+}

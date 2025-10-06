@@ -1,0 +1,81 @@
+{
+  "keyword": "methyl cellulose",
+  "country": "us",
+  "fetchedAt": "2025-10-06T04:24:19.802Z",
+  "questions": [
+    {
+      "keyword": "what is methyl cellulose",
+      "volume": 150,
+      "parent_topic": "methyl cellulose",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is hydroxypropyl methyl cellulose",
+      "volume": 20,
+      "parent_topic": "hydroxypropyl methyl cellulose",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where to buy methyl cellulose",
+      "volume": 20,
+      "parent_topic": "",
+      "intents": [
+        "commercial",
+        "transactional"
+      ]
+    },
+    {
+      "keyword": "how to make methyl cellulose glue",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "is methyl cellulose bad for you",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is carboxy methyl cellulose",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is methyl cellulose in food",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is methyl cellulose made from",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is methyl cellulose used for",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "where can i buy methyl cellulose",
+      "volume": 10,
+      "parent_topic": "",
+      "intents": [
+        "commercial",
+        "transactional"
+      ]
+    }
+  ]
+}
