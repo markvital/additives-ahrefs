@@ -28,42 +28,39 @@ export const extractArticleBody = (article: string | null | undefined): string =
   return article.slice(match.index + match[0].length).trimStart();
 };
 
-const splitArticleIntoParagraphs = (article: string): string[] =>
-  article
-    .split(/\n{2,}/)
-    .map((paragraph) => paragraph.trim())
-    .filter((paragraph) => paragraph.length > 0);
-
 export const splitArticlePreview = (
   article: string | null | undefined,
-  minimumVisibleParagraphs = 2,
-): { preview: string; remainder: string } => {
+  maxVisibleLines = 20,
+): { preview: string; hasMore: boolean } => {
   if (!article) {
-    return { preview: '', remainder: '' };
+    return { preview: '', hasMore: false };
   }
 
-  const trimmed = article.trim();
+  const source = extractArticleBody(article).trim();
 
-  if (!trimmed) {
-    return { preview: '', remainder: '' };
+  if (!source) {
+    return { preview: '', hasMore: false };
   }
 
-  const paragraphs = splitArticleIntoParagraphs(trimmed);
+  const lines = source.split('\n');
 
-  if (paragraphs.length <= 1) {
-    return { preview: trimmed, remainder: '' };
+  let startIndex = 0;
+  while (startIndex < lines.length && lines[startIndex].trim().length === 0) {
+    startIndex += 1;
   }
 
-  const visibleCount = Math.min(
-    paragraphs.length,
-    Math.max(Math.ceil(paragraphs.length / 2), minimumVisibleParagraphs),
-  );
+  const relevantLines = lines.slice(startIndex);
 
-  const preview = paragraphs.slice(0, visibleCount).join('\n\n');
-  const remainder = paragraphs.slice(visibleCount).join('\n\n');
+  if (relevantLines.length === 0) {
+    return { preview: '', hasMore: false };
+  }
+
+  const previewLines = relevantLines.slice(0, Math.max(0, maxVisibleLines));
+  const hasMore = relevantLines.length > previewLines.length;
+  const preview = previewLines.join('\n').replace(/\s+$/, '');
 
   return {
     preview,
-    remainder,
+    hasMore,
   };
 };

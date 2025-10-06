@@ -13,8 +13,6 @@ import {
   Typography,
   createFilterOptions,
 } from '@mui/material';
-import { alpha } from '@mui/material/styles';
-
 import type { Additive } from '../lib/additives';
 import { formatAdditiveDisplayName, formatOriginLabel } from '../lib/additive-format';
 import { extractArticleSummary, splitArticlePreview } from '../lib/article';
@@ -231,6 +229,29 @@ const renderSearchHistory = (additive: ComparisonAdditive | null) => {
   );
 };
 
+const LARGE_BUTTON_STYLES = {
+  alignSelf: { xs: 'stretch', md: 'flex-start' },
+  fontSize: '1.1rem',
+  px: 4,
+  py: 1.75,
+} as const;
+
+const renderDetailLink = (additive: ComparisonAdditive | null) => {
+  if (!additive) {
+    return (
+      <Typography variant="body2" color="text.secondary">
+        Select an additive to open its detail page.
+      </Typography>
+    );
+  }
+
+  return (
+    <Button component={Link} href={`/${additive.slug}`} variant="contained" color="primary" sx={LARGE_BUTTON_STYLES}>
+      Read more
+    </Button>
+  );
+};
+
 const renderArticlePreview = (additive: ComparisonAdditive | null) => {
   if (!additive) {
     return (
@@ -240,43 +261,25 @@ const renderArticlePreview = (additive: ComparisonAdditive | null) => {
     );
   }
 
-  const { preview, remainder } = splitArticlePreview(additive.article);
+  const { preview, hasMore } = splitArticlePreview(additive.article, 20);
 
-  if (!preview && !remainder) {
+  if (!preview) {
     return (
-      <Stack spacing={2}>
-        <Typography variant="body2" color="text.secondary">
-          Article content is not available for this additive.
-        </Typography>
-        <Button component={Link} href={`/${additive.slug}`} variant="contained" color="primary" sx={{ alignSelf: 'flex-start' }}>
-          Read more
-        </Button>
-      </Stack>
+      <Typography variant="body2" color="text.secondary">
+        Article content is not available for this additive.
+      </Typography>
     );
   }
 
   return (
     <Stack spacing={2} sx={{ width: '100%' }}>
-      {preview ? <MarkdownArticle content={preview} /> : null}
-      {remainder ? (
-        <Box sx={{ position: 'relative' }}>
-          <Box sx={{ filter: 'blur(6px)', pointerEvents: 'none', userSelect: 'none' }} aria-hidden={true}>
-            <MarkdownArticle content={remainder} />
-          </Box>
-          <Box
-            sx={{
-              position: 'absolute',
-              inset: 0,
-              background: (theme) =>
-                `linear-gradient(to bottom, ${alpha(theme.palette.background.paper, 0)} 0%, ${alpha(theme.palette.background.paper, 0.75)} 60%, ${theme.palette.background.paper} 100%)`,
-              pointerEvents: 'none',
-              borderRadius: 2,
-            }}
-            aria-hidden={true}
-          />
-        </Box>
+      <MarkdownArticle content={preview} />
+      {hasMore ? (
+        <Typography variant="body2" color="text.secondary">
+          Preview truncated. Visit the additive page to read the full article.
+        </Typography>
       ) : null}
-      <Button component={Link} href={`/${additive.slug}`} variant="contained" color="primary" sx={{ alignSelf: 'flex-start' }}>
+      <Button component={Link} href={`/${additive.slug}`} variant="contained" color="primary" sx={LARGE_BUTTON_STYLES}>
         Read more
       </Button>
     </Stack>
@@ -343,7 +346,16 @@ export function AdditiveComparison({ additives, initialSelection }: AdditiveComp
 
     return (
       <Stack spacing={1.5}>
-        <Typography component="h3" variant="h4">
+        <Typography
+          component={Link}
+          href={`/${additive.slug}`}
+          variant="h4"
+          sx={{
+            color: 'text.primary',
+            textDecoration: 'none',
+            '&:hover': { textDecoration: 'underline' },
+          }}
+        >
           {formatAdditiveDisplayName(additive.eNumber, additive.title)}
         </Typography>
         {summary ? (
@@ -385,6 +397,11 @@ export function AdditiveComparison({ additives, initialSelection }: AdditiveComp
       key: 'search-history',
       label: 'Search volume over time',
       render: renderSearchHistory,
+    },
+    {
+      key: 'detail-link',
+      label: 'Read more',
+      render: renderDetailLink,
     },
     {
       key: 'article',
@@ -459,7 +476,7 @@ export function AdditiveComparison({ additives, initialSelection }: AdditiveComp
               sx={{
                 display: 'grid',
                 gap: { xs: 2, md: 3 },
-                gridTemplateColumns: { xs: '1fr', md: 'minmax(160px, 220px) repeat(2, minmax(0, 1fr))' },
+                gridTemplateColumns: { xs: '1fr', md: 'repeat(2, minmax(0, 1fr))' },
                 alignItems: 'flex-start',
                 px: { xs: 2, sm: 3, md: 4 },
                 py: { xs: 2.5, sm: 3 },
@@ -468,7 +485,15 @@ export function AdditiveComparison({ additives, initialSelection }: AdditiveComp
                 backgroundColor: index % 2 === 0 ? 'grey.50' : 'background.paper',
               }}
             >
-              <Typography variant="subtitle2" color="text.secondary" sx={{ textTransform: 'uppercase', letterSpacing: 1 }}>
+              <Typography
+                variant="subtitle2"
+                color="text.secondary"
+                sx={{
+                  gridColumn: '1 / -1',
+                  textTransform: 'uppercase',
+                  letterSpacing: 1,
+                }}
+              >
                 {section.label}
               </Typography>
               <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1.5 }}>
