@@ -189,6 +189,11 @@ const printUsage = () => {
   );
 };
 
+const normalizeToken = (token) =>
+  token
+    .replace(/[^0-9A-Za-z]+/g, ' ')
+    .trim();
+
 const createAndQuery = (value) => {
   if (typeof value !== 'string') {
     return '';
@@ -196,12 +201,18 @@ const createAndQuery = (value) => {
 
   const tokens = value
     .trim()
-    .split(/[\s-]+/)
-    .map((token) => token.trim())
+    .split(/[\s/-]+/)
+    .map((token) => normalizeToken(token))
+    .filter(Boolean)
+    .flatMap((token) => token.split(/\s+/))
     .filter(Boolean);
 
-  if (tokens.length <= 1) {
+  if (tokens.length === 0) {
     return value.trim();
+  }
+
+  if (tokens.length === 1) {
+    return tokens[0];
   }
 
   return tokens.join(' AND ');
