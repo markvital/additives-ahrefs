@@ -11,9 +11,11 @@ import {
 import { formatFilterLabel } from '../../../lib/text';
 import { AdditiveGrid } from '../../../components/AdditiveGrid';
 import { FilterPanel } from '../../../components/FilterPanel';
+import { parseAdditiveSortMode, sortAdditives } from '../../../lib/additive-sort';
 
 interface OriginPageProps {
   params: Promise<{ originSlug: string }>;
+  searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
 const formatCountLabel = (count: number): string =>
@@ -56,7 +58,7 @@ export async function generateMetadata({ params }: OriginPageProps): Promise<Met
   };
 }
 
-export default async function OriginPage({ params }: OriginPageProps) {
+export default async function OriginPage({ params, searchParams }: OriginPageProps) {
   const { originSlug } = await params;
   const originValue = getOriginValueBySlug(originSlug);
 
@@ -65,6 +67,10 @@ export default async function OriginPage({ params }: OriginPageProps) {
   }
 
   const additives = getAdditivesByOriginSlug(originSlug);
+  const paramsMap = (await searchParams) ?? {};
+  const sortParam = Array.isArray(paramsMap.sort) ? paramsMap.sort[0] : paramsMap.sort;
+  const sortMode = parseAdditiveSortMode(sortParam);
+  const sortedAdditives = sortAdditives(additives, sortMode);
   const label = formatFilterLabel(originValue);
 
   return (
@@ -82,8 +88,13 @@ export default async function OriginPage({ params }: OriginPageProps) {
         functionOptions={functionOptions}
         originOptions={originOptions}
         currentOriginSlug={originSlug}
+        sortMode={sortMode}
       />
-      <AdditiveGrid items={additives} emptyMessage="No additives found for this origin." />
+      <AdditiveGrid
+        items={sortedAdditives}
+        emptyMessage="No additives found for this origin."
+        sortMode={sortMode}
+      />
     </Box>
   );
 }

@@ -11,9 +11,11 @@ import {
 import { formatFilterLabel } from '../../../lib/text';
 import { AdditiveGrid } from '../../../components/AdditiveGrid';
 import { FilterPanel } from '../../../components/FilterPanel';
+import { parseAdditiveSortMode, sortAdditives } from '../../../lib/additive-sort';
 
 interface FunctionPageProps {
   params: Promise<{ functionSlug: string }>;
+  searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
 const formatCountLabel = (count: number): string =>
@@ -56,7 +58,7 @@ export async function generateMetadata({ params }: FunctionPageProps): Promise<M
   };
 }
 
-export default async function FunctionPage({ params }: FunctionPageProps) {
+export default async function FunctionPage({ params, searchParams }: FunctionPageProps) {
   const { functionSlug } = await params;
   const functionValue = getFunctionValueBySlug(functionSlug);
 
@@ -65,6 +67,10 @@ export default async function FunctionPage({ params }: FunctionPageProps) {
   }
 
   const additives = getAdditivesByFunctionSlug(functionSlug);
+  const paramsMap = (await searchParams) ?? {};
+  const sortParam = Array.isArray(paramsMap.sort) ? paramsMap.sort[0] : paramsMap.sort;
+  const sortMode = parseAdditiveSortMode(sortParam);
+  const sortedAdditives = sortAdditives(additives, sortMode);
   const label = formatFilterLabel(functionValue);
 
   return (
@@ -82,8 +88,13 @@ export default async function FunctionPage({ params }: FunctionPageProps) {
         functionOptions={functionOptions}
         originOptions={originOptions}
         currentFunctionSlug={functionSlug}
+        sortMode={sortMode}
       />
-      <AdditiveGrid items={additives} emptyMessage="No additives found for this function." />
+      <AdditiveGrid
+        items={sortedAdditives}
+        emptyMessage="No additives found for this function."
+        sortMode={sortMode}
+      />
     </Box>
   );
 }

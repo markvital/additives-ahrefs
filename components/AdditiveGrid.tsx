@@ -1,9 +1,10 @@
 import Link from 'next/link';
-import { Avatar, Box, Card, CardActionArea, CardContent, Chip, Stack, Typography } from '@mui/material';
+import { Avatar, Box, Card, CardActionArea, CardActions, CardContent, Chip, Stack, Typography } from '@mui/material';
 import type { Theme } from '@mui/material/styles';
 
 import type { Additive } from '../lib/additives';
-import { formatMonthlyVolume } from '../lib/format';
+import type { AdditiveSortMode } from '../lib/additive-sort';
+import { formatInteger, formatMonthlyVolume } from '../lib/format';
 import { SearchSparkline } from './SearchSparkline';
 import { theme } from '../lib/theme';
 
@@ -63,9 +64,16 @@ const titleMinHeight = getTitleMinHeight(theme);
 interface AdditiveGridProps {
   items: Additive[];
   emptyMessage?: string;
+  sortMode?: AdditiveSortMode;
 }
 
-export function AdditiveGrid({ items, emptyMessage = 'No additives found.' }: AdditiveGridProps) {
+export function AdditiveGrid({
+  items,
+  emptyMessage = 'No additives found.',
+  sortMode: _sortMode = 'search',
+}: AdditiveGridProps) {
+  void _sortMode;
+
   if (items.length === 0) {
     return (
       <Typography variant="body1" color="text.secondary">
@@ -100,6 +108,10 @@ export function AdditiveGrid({ items, emptyMessage = 'No additives found.' }: Ad
         const visibleFunctions = additive.functions.slice(0, 2);
         const hiddenFunctionCount = Math.max(additive.functions.length - visibleFunctions.length, 0);
         const origins = additive.origin.filter((origin) => origin.trim().length > 0);
+        const productCount =
+          typeof additive.productCount === 'number' && Number.isFinite(additive.productCount)
+            ? Math.max(0, Math.round(additive.productCount))
+            : null;
 
         return (
           <Card key={additive.slug} sx={{ display: 'flex', flexDirection: 'column' }}>
@@ -197,6 +209,13 @@ export function AdditiveGrid({ items, emptyMessage = 'No additives found.' }: Ad
                 )}
               </CardContent>
             </CardActionArea>
+            {productCount !== null ? (
+              <CardActions sx={{ px: 2, pt: 0, pb: 2 }}>
+                <Typography variant="caption" color="text.secondary" sx={{ fontVariantNumeric: 'tabular-nums' }}>
+                  Appears in {formatInteger(productCount)} products
+                </Typography>
+              </CardActions>
+            ) : null}
           </Card>
         );
       })}
