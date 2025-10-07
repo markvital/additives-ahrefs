@@ -64,7 +64,7 @@ export const searchAdditives = <TAdditive extends Additive>(
 ): AdditiveSearchMatch<TAdditive>[] => {
   const trimmed = rawQuery.trim();
 
-  if (!trimmed) {
+  if (trimmed.length < 2) {
     return [];
   }
 

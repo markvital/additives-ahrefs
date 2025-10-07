@@ -80,6 +80,15 @@ export function HeaderSearch({ additives }: HeaderSearchProps) {
           autoComplete: 'off',
           onFocus: () => setIsFocused(true),
           onBlur: () => setIsFocused(false),
+          sx: {
+            '& .MuiOutlinedInput-root': {
+              borderRadius: 999,
+            },
+            '& .MuiOutlinedInput-input': {
+              paddingTop: 0.5,
+              paddingBottom: 0.5,
+            },
+          },
           InputProps: {
             startAdornment: (
               <InputAdornment position="start">

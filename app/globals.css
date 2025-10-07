@@ -51,7 +51,7 @@ a {
 .header-content {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
   gap: 1.5rem;
 }
 
@@ -60,11 +60,13 @@ a {
   align-items: center;
   gap: 1.25rem;
   margin-left: auto;
+  justify-content: flex-end;
+  flex: 1 1 auto;
 }
 
 .header-search {
   flex: 0 0 auto;
-  width: 160px;
+  width: 120px;
   transition: width 0.25s ease;
 }
 

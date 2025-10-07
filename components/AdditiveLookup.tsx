@@ -3,6 +3,7 @@
 import { Fragment, useMemo, useRef, useState, useTransition, type ReactNode } from 'react';
 import { Autocomplete, Box, CircularProgress, Stack, TextField, Typography } from '@mui/material';
 import type { TextFieldProps } from '@mui/material/TextField';
+import type { Modifier } from '@popperjs/core';
 
 import type { Additive } from '../lib/additives';
 import { formatAdditiveDisplayName } from '../lib/additive-format';
@@ -64,6 +65,20 @@ const renderHighlightedText = (text: string, ranges: HighlightRange[]): ReactNod
   return parts;
 };
 
+const MIN_QUERY_LENGTH = 2;
+
+const sameWidthModifier: Modifier<'sameWidth', Record<string, never>> = {
+  name: 'sameWidth',
+  enabled: true,
+  phase: 'beforeWrite',
+  requires: ['computeStyles'],
+  fn: ({ state }) => {
+    const width = `${state.rects.reference.width}px`;
+    state.styles.popper.width = width;
+    state.styles.popper.minWidth = width;
+  },
+};
+
 export function AdditiveLookup<TAdditive extends Additive>({
   additives,
   value,
@@ -91,23 +106,33 @@ export function AdditiveLookup<TAdditive extends Additive>({
   const normalizedQuery = inputValue.trim();
 
   const displayOptions = useMemo(() => {
-    if (normalizedQuery.length === 0) {
-      return additives;
+    if (normalizedQuery.length < MIN_QUERY_LENGTH) {
+      return [];
     }
 
     return results.map((result) => result.additive);
-  }, [additives, normalizedQuery.length, results]);
+  }, [normalizedQuery.length, results]);
 
-  const noOptionsText = normalizedQuery.length > 0 ? 'No additives found' : 'Start typing to search';
+  const noOptionsText = (() => {
+    if (normalizedQuery.length === 0) {
+      return 'Start typing to search';
+    }
+
+    if (normalizedQuery.length < MIN_QUERY_LENGTH) {
+      return 'Type at least two characters';
+    }
+
+    return 'No additives found';
+  })();
 
   const handleSearch = (query: string) => {
     const trimmed = query.trim();
 
-    if (!trimmed) {
+    if (trimmed.length < MIN_QUERY_LENGTH) {
       matchesRef.current = new Map();
       setResults([]);
       if (onResultsChange) {
-        onResultsChange([], '');
+        onResultsChange([], trimmed);
       }
       return;
     }
@@ -135,6 +160,11 @@ export function AdditiveLookup<TAdditive extends Additive>({
       forcePopupIcon={showPopupIcon}
       popupIcon={showPopupIcon ? undefined : null}
       filterOptions={(options) => options}
+      slotProps={{
+        popper: {
+          modifiers: [sameWidthModifier],
+        },
+      }}
       onOpen={() => {
         setIsOpen(true);
         handleSearch(inputValue);
@@ -199,15 +229,38 @@ export function AdditiveLookup<TAdditive extends Additive>({
             ),
           };
 
+          const mergedInputBaseProps = {
+            ...params.inputProps,
+            ...(otherTextFieldProps?.inputProps ?? {}),
+            autoComplete:
+              otherTextFieldProps?.inputProps?.autoComplete !== undefined
+                ? otherTextFieldProps.inputProps.autoComplete
+                : 'off',
+            autoCorrect:
+              otherTextFieldProps?.inputProps?.autoCorrect !== undefined
+                ? otherTextFieldProps.inputProps.autoCorrect
+                : 'off',
+            autoCapitalize:
+              otherTextFieldProps?.inputProps?.autoCapitalize !== undefined
+                ? otherTextFieldProps.inputProps.autoCapitalize
+                : 'none',
+            spellCheck:
+              otherTextFieldProps?.inputProps?.spellCheck !== undefined
+                ? otherTextFieldProps.inputProps.spellCheck
+                : false,
+          } as typeof params.inputProps;
+
           return (
-        <TextField
-          {...params}
-          {...otherTextFieldProps}
-          label={customLabel ?? label}
-          placeholder={customPlaceholder ?? placeholder}
-          autoFocus={customAutoFocus ?? autoFocus}
-          InputProps={mergedInputProps}
-        />
+            <TextField
+              {...params}
+              {...otherTextFieldProps}
+              label={customLabel ?? label}
+              placeholder={customPlaceholder ?? placeholder}
+              autoFocus={customAutoFocus ?? autoFocus}
+              autoComplete={otherTextFieldProps?.autoComplete ?? 'off'}
+              InputProps={mergedInputProps}
+              inputProps={mergedInputBaseProps}
+            />
           );
         })()
       )}
