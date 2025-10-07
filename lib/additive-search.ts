@@ -5,20 +5,20 @@ export interface HighlightRange {
   end: number;
 }
 
-export interface SynonymMatch {
-  value: string;
-  ranges: HighlightRange[];
-  index: number;
-}
-
 export interface AdditiveSearchMatch<TAdditive extends Additive = Additive> {
   additive: TAdditive;
   matches: {
     eNumber: HighlightRange[];
     title: HighlightRange[];
-    synonym?: SynonymMatch;
+    synonyms: SynonymMatch[];
   };
   priority: number;
+  index: number;
+}
+
+export interface SynonymMatch {
+  value: string;
+  ranges: HighlightRange[];
   index: number;
 }
 
@@ -79,23 +79,22 @@ export const searchAdditives = <TAdditive extends Additive>(
     const eNumberMatches = findMatches(eNumber, query);
     const titleMatches = findMatches(title, query);
 
-    let synonymMatch: SynonymMatch | undefined;
+    const synonymMatches: SynonymMatch[] = [];
 
     for (let synonymIndex = 0; synonymIndex < synonyms.length; synonymIndex += 1) {
       const synonym = sanitize(String(synonyms[synonymIndex] ?? ''));
       const synonymRanges = findMatches(synonym, query);
 
       if (synonymRanges.length > 0) {
-        synonymMatch = {
+        synonymMatches.push({
           value: synonym,
           ranges: synonymRanges,
           index: synonymIndex,
-        };
-        break;
+        });
       }
     }
 
-    if (eNumberMatches.length === 0 && titleMatches.length === 0 && !synonymMatch) {
+    if (eNumberMatches.length === 0 && titleMatches.length === 0 && synonymMatches.length === 0) {
       return;
     }
 
@@ -106,7 +105,7 @@ export const searchAdditives = <TAdditive extends Additive>(
       matches: {
         eNumber: eNumberMatches,
         title: titleMatches,
-        synonym: synonymMatch,
+        synonyms: synonymMatches,
       },
       priority,
       index,

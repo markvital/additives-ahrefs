@@ -23,6 +23,7 @@ interface AdditiveLookupProps<TAdditive extends Additive> {
   onInputValueChange?: (value: string) => void;
   textFieldProps?: TextFieldProps;
   clearOnSelect?: boolean;
+  showPopupIcon?: boolean;
 }
 
 type MatchesMap<TAdditive extends Additive> = Map<string, AdditiveSearchMatch<TAdditive>['matches']>;
@@ -77,6 +78,7 @@ export function AdditiveLookup<TAdditive extends Additive>({
   onInputValueChange,
   textFieldProps,
   clearOnSelect = false,
+  showPopupIcon = true,
 }: AdditiveLookupProps<TAdditive>) {
   const [inputValue, setInputValue] = useState('');
   const [isOpen, setIsOpen] = useState(false);
@@ -130,6 +132,8 @@ export function AdditiveLookup<TAdditive extends Additive>({
       clearOnBlur={false}
       includeInputInList
       loading={isSearching}
+      forcePopupIcon={showPopupIcon}
+      popupIcon={showPopupIcon ? undefined : null}
       filterOptions={(options) => options}
       onOpen={() => {
         setIsOpen(true);
@@ -233,17 +237,51 @@ export function AdditiveLookup<TAdditive extends Additive>({
           primaryLineSegments.push(formatAdditiveDisplayName(normalizedENumber, normalizedTitle));
         }
 
-        const synonymValue = matches?.synonym?.value?.trim() ?? '';
-        const synonymLower = synonymValue.toLowerCase();
-        const shouldShowSynonym = Boolean(
-          matches?.synonym &&
-            synonymValue &&
-            synonymLower !== normalizedENumberLower &&
-            synonymLower !== normalizedTitleLower,
-        );
+        const synonymMatches = (matches?.synonyms ?? []).filter((synonymMatch) => {
+          const synonymValue = synonymMatch.value?.trim();
+
+          if (!synonymValue) {
+            return false;
+          }
+
+          const synonymLower = synonymValue.toLowerCase();
+
+          if (synonymLower === normalizedENumberLower || synonymLower === normalizedTitleLower) {
+            return false;
+          }
+
+          return true;
+        });
+
+        const distinctSynonyms: typeof synonymMatches = [];
+        const seenSynonyms = new Set<string>();
+
+        synonymMatches.forEach((synonymMatch) => {
+          const synonymValue = synonymMatch.value.trim();
+          const synonymLower = synonymValue.toLowerCase();
+
+          if (seenSynonyms.has(synonymLower)) {
+            return;
+          }
+
+          seenSynonyms.add(synonymLower);
+          distinctSynonyms.push({
+            ...synonymMatch,
+            value: synonymValue,
+          });
+        });
+
+        const shouldShowSynonym = distinctSynonyms.length > 0;
 
         const synonymContent = shouldShowSynonym
-          ? renderHighlightedText(synonymValue, matches!.synonym!.ranges)
+          ? distinctSynonyms.map((synonymMatch, index) => (
+              <Fragment key={`${option.slug}-synonym-${synonymMatch.index}`}>
+                {index > 0 ? <Box component="span">, </Box> : null}
+                <Box component="span">
+                  {renderHighlightedText(synonymMatch.value, synonymMatch.ranges)}
+                </Box>
+              </Fragment>
+            ))
           : null;
 
         return (

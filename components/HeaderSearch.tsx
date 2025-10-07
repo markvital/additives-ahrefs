@@ -18,7 +18,7 @@ export function HeaderSearch({ additives }: HeaderSearchProps) {
   const [value, setValue] = useState<Additive | null>(null);
   const [results, setResults] = useState<AdditiveSearchMatch<Additive>[]>([]);
   const [query, setQuery] = useState('');
-  const [lastSearchQuery, setLastSearchQuery] = useState('');
+  const [isFocused, setIsFocused] = useState(false);
 
   const navigateToAdditive = useCallback(
     (slug: string | null | undefined) => {
@@ -43,8 +43,11 @@ export function HeaderSearch({ additives }: HeaderSearchProps) {
     }
   }, [navigateToAdditive, results]);
 
+  const normalizedQuery = query.trim();
+  const placeholder = !isFocused && normalizedQuery.length === 0 ? 'Search' : undefined;
+
   return (
-    <Box className="header-search" data-active={query.trim().length > 0 || lastSearchQuery.length > 0 ? 'true' : undefined}>
+    <Box className="header-search" data-active={isFocused || normalizedQuery.length > 0 ? 'true' : undefined}>
       <AdditiveLookup
         additives={additives}
         value={value}
@@ -54,25 +57,29 @@ export function HeaderSearch({ additives }: HeaderSearchProps) {
           }
           setValue(null);
         }}
-        placeholder="Search additives"
-        label="Search additives"
+        placeholder={placeholder}
         clearOnSelect
         onInputValueChange={setQuery}
         onResultsChange={(nextResults, searchQuery) => {
           setResults(nextResults);
-          setLastSearchQuery(searchQuery);
+          if (searchQuery.length === 0) {
+            setQuery('');
+          }
         }}
+        showPopupIcon={false}
         textFieldProps={{
           size: 'small',
           onKeyDown: (event) => {
             if (event.key === 'Enter') {
               event.preventDefault();
-              if (lastSearchQuery.trim().length > 0) {
+              if (normalizedQuery.length > 0) {
                 handleSubmit();
               }
             }
           },
           autoComplete: 'off',
+          onFocus: () => setIsFocused(true),
+          onBlur: () => setIsFocused(false),
           InputProps: {
             startAdornment: (
               <InputAdornment position="start">
