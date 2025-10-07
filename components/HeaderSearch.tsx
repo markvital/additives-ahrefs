@@ -45,9 +45,21 @@ export function HeaderSearch({ additives }: HeaderSearchProps) {
 
   const normalizedQuery = query.trim();
   const placeholder = !isFocused && normalizedQuery.length === 0 ? 'Search' : undefined;
+  const shouldCollapseValue = !isFocused && normalizedQuery.length > 0;
+
+  const transformDisplayValue = useCallback(
+    (value: string) => {
+      if (shouldCollapseValue) {
+        return '...';
+      }
+
+      return value;
+    },
+    [shouldCollapseValue],
+  );
 
   return (
-    <Box className="header-search" data-active={isFocused || normalizedQuery.length > 0 ? 'true' : undefined}>
+    <Box className="header-search" data-active={isFocused ? 'true' : undefined}>
       <AdditiveLookup
         additives={additives}
         value={value}
@@ -97,6 +109,7 @@ export function HeaderSearch({ additives }: HeaderSearchProps) {
             ),
           },
         }}
+        transformInputDisplayValue={transformDisplayValue}
       />
     </Box>
   );

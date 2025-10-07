@@ -25,6 +25,7 @@ interface AdditiveLookupProps<TAdditive extends Additive> {
   textFieldProps?: TextFieldProps;
   clearOnSelect?: boolean;
   showPopupIcon?: boolean;
+  transformInputDisplayValue?: (value: string) => string;
 }
 
 type MatchesMap<TAdditive extends Additive> = Map<string, AdditiveSearchMatch<TAdditive>['matches']>;
@@ -94,6 +95,7 @@ export function AdditiveLookup<TAdditive extends Additive>({
   textFieldProps,
   clearOnSelect = false,
   showPopupIcon = true,
+  transformInputDisplayValue,
 }: AdditiveLookupProps<TAdditive>) {
   const [inputValue, setInputValue] = useState('');
   const [isOpen, setIsOpen] = useState(false);
@@ -250,6 +252,18 @@ export function AdditiveLookup<TAdditive extends Additive>({
                 : false,
           } as typeof params.inputProps;
 
+          const finalInputProps = transformInputDisplayValue
+            ? (() => {
+                const rawValue = params.inputProps.value ?? '';
+                const normalizedValue = typeof rawValue === 'string' ? rawValue : String(rawValue);
+
+                return {
+                  ...mergedInputBaseProps,
+                  value: transformInputDisplayValue(normalizedValue),
+                };
+              })()
+            : mergedInputBaseProps;
+
           return (
             <TextField
               {...params}
@@ -259,7 +273,7 @@ export function AdditiveLookup<TAdditive extends Additive>({
               autoFocus={customAutoFocus ?? autoFocus}
               autoComplete={otherTextFieldProps?.autoComplete ?? 'off'}
               InputProps={mergedInputProps}
-              inputProps={mergedInputBaseProps}
+              inputProps={finalInputProps}
             />
           );
         })()
