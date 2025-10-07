@@ -189,9 +189,28 @@ const printUsage = () => {
   );
 };
 
+const createAndQuery = (value) => {
+  if (typeof value !== 'string') {
+    return '';
+  }
+
+  const tokens = value
+    .trim()
+    .split(/[\s-]+/)
+    .map((token) => token.trim())
+    .filter(Boolean);
+
+  if (tokens.length <= 1) {
+    return value.trim();
+  }
+
+  return tokens.join(' AND ');
+};
+
 const fetchProductCount = async (title, apiKey, debug = false) => {
+  const query = createAndQuery(title);
   const body = {
-    query: title,
+    query,
     dataType: ['Branded'],
     pageSize: 1,
     pageNumber: 1,
