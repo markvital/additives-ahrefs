@@ -5,6 +5,14 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  async rewrites() {
+    return [
+      {
+        source: '/sitemaps/:page.xml',
+        destination: '/sitemaps/:page',
+      },
+    ];
+  },
 };
 
 export default nextConfig;
