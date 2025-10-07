@@ -3,22 +3,14 @@
 import { useEffect, useMemo, useState } from 'react';
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
-import {
-  Autocomplete,
-  Box,
-  Button,
-  Chip,
-  Stack,
-  TextField,
-  Typography,
-  createFilterOptions,
-} from '@mui/material';
+import { Box, Button, Chip, Stack, Typography } from '@mui/material';
 import type { Additive } from '../lib/additives';
 import { formatAdditiveDisplayName, formatOriginLabel } from '../lib/additive-format';
 import { extractArticleSummary, splitArticlePreview } from '../lib/article';
 import { formatMonthlyVolume, getCountryFlagEmoji, getCountryLabel } from '../lib/format';
 import type { SearchHistoryDataset } from '../lib/search-history';
 import { MarkdownArticle } from './MarkdownArticle';
+import { AdditiveLookup } from './AdditiveLookup';
 import { SearchHistoryChart } from './SearchHistoryChart';
 
 interface ComparisonAdditive extends Additive {
@@ -34,14 +26,6 @@ interface SelectionState {
   left: ComparisonAdditive | null;
   right: ComparisonAdditive | null;
 }
-
-const createOptionFilter = createFilterOptions<ComparisonAdditive>({
-  stringify: (option) => {
-    const synonymString = option.synonyms.join(' ');
-
-    return [option.eNumber, option.title, synonymString].filter(Boolean).join(' ');
-  },
-});
 
 const renderSynonymContent = (additive: ComparisonAdditive | null) => {
   if (!additive) {
@@ -412,29 +396,21 @@ export function AdditiveComparison({ additives, initialSelection }: AdditiveComp
           gridTemplateColumns: { xs: '1fr', md: 'repeat(2, minmax(0, 1fr))' },
         }}
       >
-        <Autocomplete
-          options={additives}
+        <AdditiveLookup
+          additives={additives}
           value={selection.left}
-          onChange={(_, value) => setSelection((prev) => ({ ...prev, left: value }))}
-          getOptionLabel={(option) => formatAdditiveDisplayName(option.eNumber, option.title)}
-          filterOptions={createOptionFilter}
-          renderInput={(params) => <TextField {...params} label="Select first additive" placeholder="Type additive to compare" />}
-          isOptionEqualToValue={(option, value) => option.slug === value.slug}
-          getOptionDisabled={(option) => option.slug === selection.right?.slug}
-          clearOnBlur={false}
-          autoHighlight
+          onChange={(value) => setSelection((prev) => ({ ...prev, left: value }))}
+          label="Select first additive"
+          placeholder="Type additive to compare"
+          disabledSlugs={selection.right ? [selection.right.slug] : undefined}
         />
-        <Autocomplete
-          options={additives}
+        <AdditiveLookup
+          additives={additives}
           value={selection.right}
-          onChange={(_, value) => setSelection((prev) => ({ ...prev, right: value }))}
-          getOptionLabel={(option) => formatAdditiveDisplayName(option.eNumber, option.title)}
-          filterOptions={createOptionFilter}
-          renderInput={(params) => <TextField {...params} label="Select second additive" placeholder="Type additive to compare" />}
-          isOptionEqualToValue={(option, value) => option.slug === value.slug}
-          getOptionDisabled={(option) => option.slug === selection.left?.slug}
-          clearOnBlur={false}
-          autoHighlight
+          onChange={(value) => setSelection((prev) => ({ ...prev, right: value }))}
+          label="Select second additive"
+          placeholder="Type additive to compare"
+          disabledSlugs={selection.left ? [selection.left.slug] : undefined}
         />
       </Box>
 

@@ -4,6 +4,8 @@ import { Typography } from '@mui/material';
 import { Roboto } from 'next/font/google';
 
 import { Providers } from '../components/Providers';
+import { HeaderSearch } from '../components/HeaderSearch';
+import { getAdditives } from '../lib/additives';
 import './globals.css';
 
 const roboto = Roboto({
@@ -24,6 +26,8 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const additives = getAdditives();
+
   return (
     <html lang="en">
       <body className={roboto.className}>
@@ -46,6 +50,7 @@ export default function RootLayout({
                     </Typography>
                   </Link>
                   <nav className="header-nav">
+                    <HeaderSearch additives={additives} />
                     <Link href="/compare" className="header-link">
                       Compare
                     </Link>
