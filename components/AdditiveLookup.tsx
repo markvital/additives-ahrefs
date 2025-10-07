@@ -180,6 +180,12 @@ export function AdditiveLookup<TAdditive extends Additive>({
           const mergedInputProps = {
             ...params.InputProps,
             ...textFieldInputProps,
+            startAdornment: (
+              <Fragment>
+                {textFieldInputProps?.startAdornment}
+                {params.InputProps.startAdornment}
+              </Fragment>
+            ),
             endAdornment: (
               <Fragment>
                 {isSearching ? <CircularProgress color="inherit" size={18} /> : null}
@@ -203,19 +209,53 @@ export function AdditiveLookup<TAdditive extends Additive>({
       )}
       renderOption={(props, option) => {
         const matches = matchesRef.current.get(option.slug);
-        const eNumberContent = renderHighlightedText(option.eNumber, matches?.eNumber ?? []);
-        const titleContent = renderHighlightedText(option.title, matches?.title ?? []);
-        const synonymContent = matches?.synonym
-          ? renderHighlightedText(matches.synonym.value, matches.synonym.ranges)
+
+        const normalizedENumber = option.eNumber?.trim() ?? '';
+        const normalizedTitle = option.title?.trim() ?? '';
+        const normalizedENumberLower = normalizedENumber.toLowerCase();
+        const normalizedTitleLower = normalizedTitle.toLowerCase();
+
+        const shouldShowENumber = normalizedENumber.length > 0;
+        const shouldShowTitle =
+          normalizedTitle.length > 0 && normalizedTitleLower !== normalizedENumberLower;
+
+        const primaryLineSegments: ReactNode[] = [];
+
+        if (shouldShowENumber) {
+          primaryLineSegments.push(renderHighlightedText(normalizedENumber, matches?.eNumber ?? []));
+        }
+
+        if (shouldShowTitle) {
+          primaryLineSegments.push(renderHighlightedText(normalizedTitle, matches?.title ?? []));
+        }
+
+        if (primaryLineSegments.length === 0) {
+          primaryLineSegments.push(formatAdditiveDisplayName(normalizedENumber, normalizedTitle));
+        }
+
+        const synonymValue = matches?.synonym?.value?.trim() ?? '';
+        const synonymLower = synonymValue.toLowerCase();
+        const shouldShowSynonym = Boolean(
+          matches?.synonym &&
+            synonymValue &&
+            synonymLower !== normalizedENumberLower &&
+            synonymLower !== normalizedTitleLower,
+        );
+
+        const synonymContent = shouldShowSynonym
+          ? renderHighlightedText(synonymValue, matches!.synonym!.ranges)
           : null;
 
         return (
           <li {...props} key={option.slug}>
             <Stack spacing={synonymContent ? 0.25 : 0}>
               <Typography component="div" variant="body1">
-                <Box component="span">{eNumberContent}</Box>
-                {' — '}
-                <Box component="span">{titleContent}</Box>
+                {primaryLineSegments.map((segment, index) => (
+                  <Fragment key={`segment-${index}`}>
+                    {index > 0 ? <Box component="span">{' — '}</Box> : null}
+                    <Box component="span">{segment}</Box>
+                  </Fragment>
+                ))}
               </Typography>
               {synonymContent ? (
                 <Typography component="div" variant="body2" color="text.secondary">

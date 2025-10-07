@@ -2,7 +2,8 @@
 
 import { useCallback, useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { Box } from '@mui/material';
+import { Box, InputAdornment } from '@mui/material';
+import SearchIcon from '@mui/icons-material/Search';
 
 import type { Additive } from '../lib/additives';
 import type { AdditiveSearchMatch } from '../lib/additive-search';
@@ -72,6 +73,13 @@ export function HeaderSearch({ additives }: HeaderSearchProps) {
             }
           },
           autoComplete: 'off',
+          InputProps: {
+            startAdornment: (
+              <InputAdornment position="start">
+                <SearchIcon fontSize="small" />
+              </InputAdornment>
+            ),
+          },
         }}
       />
     </Box>
