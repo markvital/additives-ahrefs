@@ -6,6 +6,7 @@ const { execFile } = require('child_process');
 const { promisify } = require('util');
 
 const { createAdditiveSlug } = require('./utils/slug');
+const { toKeywordList } = require('./utils/keywords');
 
 const execFileAsync = promisify(execFile);
 
@@ -232,44 +233,18 @@ const readProps = async (slug) => {
   }
 };
 
-const readSearchHistoryKeyword = async (slug) => {
-  const filePath = path.join(DATA_DIR, slug, 'searchHistory.json');
-  if (!(await fileExists(filePath))) {
-    return null;
-  }
-
-  try {
-    const data = await readJsonFile(filePath);
-    if (data && typeof data.keyword === 'string' && data.keyword.trim()) {
-      return data.keyword.trim();
-    }
-  } catch (error) {
-    console.warn(`⚠️  Failed to parse search history for ${slug}: ${error.message}`);
-  }
-
-  return null;
-};
-
-const resolveQueryKeyword = async (slug, additive) => {
-  const historyKeyword = await readSearchHistoryKeyword(slug);
-  if (historyKeyword) {
-    return historyKeyword;
-  }
-
+const resolveQueryKeywords = async (slug, additive) => {
   const props = await readProps(slug);
-  if (props && typeof props.title === 'string' && props.title.trim()) {
-    return props.title.trim();
-  }
+  const titleCandidates = [props?.title, additive.title].filter((value) => typeof value === 'string');
+  const eNumberCandidates = [props?.eNumber, additive.eNumber].filter(
+    (value) => typeof value === 'string',
+  );
 
-  if (typeof additive.title === 'string' && additive.title.trim()) {
-    return additive.title.trim();
-  }
+  const title = titleCandidates.find((value) => value && value.trim()) ?? '';
+  const eNumber = eNumberCandidates.find((value) => value && value.trim()) ?? '';
+  const synonyms = Array.isArray(props?.synonyms) ? props.synonyms : [];
 
-  if (typeof additive.eNumber === 'string' && additive.eNumber.trim()) {
-    return additive.eNumber.trim();
-  }
-
-  return null;
+  return toKeywordList({ title, eNumber, synonyms });
 };
 
 const KNOWN_INTENTS = [
@@ -383,10 +358,29 @@ const writeQuestions = async (slug, dataset) => {
   await fs.writeFile(filePath, json, 'utf8');
 };
 
-const ensureDataset = (keyword, questions) => {
-  const cleaned = questions
-    .map((entry) => sanitiseQuestion(entry))
-    .filter((entry) => entry !== null);
+const ensureDataset = (keywords, questions) => {
+  const seen = new Map();
+
+  questions.forEach((entry) => {
+    const sanitised = sanitiseQuestion(entry);
+    if (!sanitised) {
+      return;
+    }
+    const key = sanitised.keyword.toLowerCase();
+    const existing = seen.get(key);
+    if (!existing) {
+      seen.set(key, sanitised);
+      return;
+    }
+
+    const existingVolume = typeof existing.volume === 'number' ? existing.volume : -1;
+    const nextVolume = typeof sanitised.volume === 'number' ? sanitised.volume : -1;
+    if (nextVolume > existingVolume) {
+      seen.set(key, sanitised);
+    }
+  });
+
+  const cleaned = Array.from(seen.values());
 
   cleaned.sort((a, b) => {
     const volumeA = typeof a.volume === 'number' ? a.volume : -1;
@@ -398,7 +392,7 @@ const ensureDataset = (keyword, questions) => {
   });
 
   return {
-    keyword,
+    keywords,
     country: DEFAULT_COUNTRY,
     fetchedAt: new Date().toISOString(),
     questions: cleaned.slice(0, MAX_QUESTIONS),
@@ -479,17 +473,28 @@ const main = async () => {
           continue;
         }
 
-        const queryKeyword = await resolveQueryKeyword(slug, additive);
+        const queryKeywords = await resolveQueryKeywords(slug, additive);
 
-        if (!queryKeyword) {
-          console.warn('  → Skipping (unable to determine keyword).');
+        if (!queryKeywords.length) {
+          console.warn('  → Skipping (unable to determine keywords).');
           continue;
         }
 
-        console.log(`  → Fetching questions for "${queryKeyword}"`);
-        const rawQuestions = await fetchQuestions(queryKeyword, apiToken);
-        await sleep(REQUEST_DELAY_MS);
-        const dataset = ensureDataset(queryKeyword, rawQuestions);
+        console.log(
+          `  → Fetching questions for ${queryKeywords.length} keyword${
+            queryKeywords.length === 1 ? '' : 's'
+          }`,
+        );
+
+        const aggregated = [];
+
+        for (const keyword of queryKeywords) {
+          const rawQuestions = await fetchQuestions(keyword, apiToken);
+          await sleep(REQUEST_DELAY_MS);
+          aggregated.push(...rawQuestions);
+        }
+
+        const dataset = ensureDataset(queryKeywords, aggregated);
         await writeQuestions(slug, dataset);
         console.log(`  → Saved ${dataset.questions.length} questions.`);
       } catch (error) {

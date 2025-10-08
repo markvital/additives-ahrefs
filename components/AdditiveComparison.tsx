@@ -120,21 +120,29 @@ const getSearchInterestLabel = (dataset: SearchHistoryDataset | null) => {
     return null;
   }
 
-  const keyword = dataset.keyword?.trim();
-  if (!keyword) {
+  const keywords = Array.isArray(dataset.keywords) ? dataset.keywords : [];
+  const firstKeyword = keywords[0]?.keyword?.trim();
+
+  let keywordText: string | null = null;
+  if (keywords.length === 1 && firstKeyword) {
+    keywordText = `“${firstKeyword}”`;
+  } else if (keywords.length > 1) {
+    keywordText = `${keywords.length} keywords`;
+  }
+
+  if (!keywordText) {
     return null;
   }
 
   const countryCode = dataset.country?.trim();
-  const flag = countryCode ? getCountryFlagEmoji(countryCode) : null;
   const countryLabel = countryCode ? getCountryLabel(countryCode) ?? countryCode.toUpperCase() : null;
   const countryText = countryLabel ? `${countryLabel}` : null;
 
   if (!countryText) {
-    return `Interest over time for “${keyword}” during the last 10 years.`;
+    return `Interest over time for ${keywordText} during the last 10 years.`;
   }
 
-  return `Interest over time for “${keyword}” in ${countryText} during the last 10 years.`;
+  return `Interest over time for ${keywordText} in ${countryText} during the last 10 years.`;
 };
 
 const renderSearchMetrics = (additive: ComparisonAdditive | null) => {

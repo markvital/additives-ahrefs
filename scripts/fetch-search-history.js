@@ -6,6 +6,7 @@ const { execFile } = require('child_process');
 const { promisify } = require('util');
 
 const { createAdditiveSlug } = require('./utils/slug');
+const { toKeywordList } = require('./utils/keywords');
 
 const execFileAsync = promisify(execFile);
 
@@ -21,8 +22,90 @@ const API_TOKEN =
 
 const REQUEST_DELAY_MS = 200;
 const MAX_ATTEMPTS = 5;
+const COUNTRY = 'us';
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+const parseArgs = (argv) => {
+  const result = {
+    additiveSlugs: [],
+    help: false,
+  };
+
+  const args = Array.isArray(argv) ? argv.slice(2) : [];
+  let index = 0;
+
+  while (index < args.length) {
+    const arg = args[index];
+
+    if (arg === '--help' || arg === '-h' || arg === '-help') {
+      result.help = true;
+      index += 1;
+      continue;
+    }
+
+    if (arg === '--additive' || arg === '-a') {
+      const values = [];
+      let cursor = index + 1;
+      while (cursor < args.length && !args[cursor].startsWith('-')) {
+        values.push(args[cursor]);
+        cursor += 1;
+      }
+
+      if (values.length === 0) {
+        throw new Error('No additive slugs supplied after --additive.');
+      }
+
+      result.additiveSlugs.push(
+        ...values.map((value) => value.trim().toLowerCase()).filter(Boolean),
+      );
+      index = cursor;
+      continue;
+    }
+
+    if (arg.startsWith('--additive=')) {
+      const value = arg.substring(arg.indexOf('=') + 1);
+      if (!value) {
+        throw new Error('No additive slug supplied after --additive=.');
+      }
+
+      const parts = value
+        .split(',')
+        .map((entry) => entry.trim().toLowerCase())
+        .filter(Boolean);
+
+      if (parts.length === 0) {
+        throw new Error('No additive slug supplied after --additive=.');
+      }
+
+      result.additiveSlugs.push(...parts);
+      index += 1;
+      continue;
+    }
+
+    if (arg.startsWith('-')) {
+      throw new Error(`Unknown option: ${arg}`);
+    }
+
+    result.additiveSlugs.push(arg.trim().toLowerCase());
+    index += 1;
+  }
+
+  result.additiveSlugs = result.additiveSlugs.filter(Boolean);
+
+  return result;
+};
+
+const printUsage = () => {
+  console.log(
+    'Usage: node scripts/fetch-search-history.js [options]\n' +
+      '\n' +
+      'Options:\n' +
+      '  --additive <slug...>     Only fetch history for the specified additive slugs.\n' +
+      '  --additive=<slug,slug>   Same as above using a comma separated list.\n' +
+      '  --help                   Show this message.\n',
+  );
+};
 
 async function readAdditivesIndex() {
   const raw = await fs.readFile(ADDITIVES_PATH, 'utf8');
@@ -36,18 +119,14 @@ async function readAdditivesIndex() {
 const propsPathForSlug = (slug) => path.join(DATA_DIR, slug, 'props.json');
 const historyPathForSlug = (slug) => path.join(DATA_DIR, slug, 'searchHistory.json');
 
-async function readProps(slug) {
+async function readProps(slug, fallback) {
   try {
     const raw = await fs.readFile(propsPathForSlug(slug), 'utf8');
-    return JSON.parse(raw);
+    const data = JSON.parse(raw);
+    return ensureProps(data, fallback);
   } catch (error) {
-    return null;
+    return ensureProps(null, fallback);
   }
-}
-
-async function writeProps(slug, props) {
-  await fs.mkdir(path.join(DATA_DIR, slug), { recursive: true });
-  await fs.writeFile(propsPathForSlug(slug), `${JSON.stringify(props, null, 2)}\n`);
 }
 
 const ensureProps = (props, additive) => {
@@ -65,6 +144,9 @@ const ensureProps = (props, additive) => {
   if (!Array.isArray(result.functions)) {
     result.functions = [];
   }
+  if (!Array.isArray(result.origin)) {
+    result.origin = [];
+  }
   if (typeof result.description !== 'string') {
     result.description = '';
   }
@@ -75,10 +157,10 @@ const ensureProps = (props, additive) => {
     result.wikidata = '';
   }
   if (typeof result.searchVolume !== 'number') {
-    result.searchVolume = null;
+    result.searchVolume = result.searchVolume ?? null;
   }
   if (typeof result.searchRank !== 'number') {
-    result.searchRank = null;
+    result.searchRank = result.searchRank ?? null;
   }
   if (!Array.isArray(result.searchSparkline)) {
     result.searchSparkline = [];
@@ -86,6 +168,11 @@ const ensureProps = (props, additive) => {
 
   return result;
 };
+
+async function writeProps(slug, props) {
+  await fs.mkdir(path.join(DATA_DIR, slug), { recursive: true });
+  await fs.writeFile(propsPathForSlug(slug), `${JSON.stringify(props, null, 2)}\n`);
+}
 
 async function fetchHistory(keyword) {
   const baseArgs = [
@@ -96,7 +183,7 @@ async function fetchHistory(keyword) {
     '--data-urlencode',
     `keyword=${keyword}`,
     '--data-urlencode',
-    'country=us',
+    `country=${COUNTRY}`,
     API_BASE_URL,
   ];
 
@@ -125,8 +212,25 @@ async function fetchHistory(keyword) {
   return null;
 }
 
-function filterLastTenYears(metrics) {
+const sanitiseMetrics = (metrics) => {
   if (!Array.isArray(metrics)) {
+    return [];
+  }
+
+  return metrics
+    .map((entry) => ({
+      date: entry?.date,
+      volume:
+        typeof entry?.volume === 'number' && Number.isFinite(entry.volume)
+          ? Math.max(0, Math.round(entry.volume))
+          : 0,
+    }))
+    .filter((entry) => typeof entry.date === 'string' && entry.date.trim().length > 0);
+};
+
+function filterLastTenYears(metrics) {
+  const sanitised = sanitiseMetrics(metrics);
+  if (!sanitised.length) {
     return [];
   }
 
@@ -136,11 +240,7 @@ function filterLastTenYears(metrics) {
   const startDate = new Date(Date.UTC(startYear, 0, 1));
   const endDate = new Date(Date.UTC(endYear, 11, 31, 23, 59, 59));
 
-  return metrics
-    .map((entry) => ({
-      date: entry.date,
-      volume: typeof entry.volume === 'number' ? entry.volume : 0,
-    }))
+  return sanitised
     .filter((entry) => {
       const entryDate = new Date(entry.date);
       return (
@@ -176,75 +276,124 @@ function computeYearlyAverage(metrics) {
   return result;
 }
 
+const aggregateKeywordMetrics = (series) => {
+  const dateMap = new Map();
+
+  series.forEach((entry) => {
+    if (!entry || !Array.isArray(entry.metrics)) {
+      return;
+    }
+    entry.metrics.forEach((point) => {
+      const key = point.date;
+      if (!key) {
+        return;
+      }
+      const current = dateMap.get(key) ?? 0;
+      dateMap.set(key, current + (typeof point.volume === 'number' ? point.volume : 0));
+    });
+  });
+
+  return Array.from(dateMap.entries())
+    .map(([date, volume]) => ({ date, volume }))
+    .sort((a, b) => new Date(a.date) - new Date(b.date));
+};
+
 async function main() {
+  const { additiveSlugs, help } = parseArgs(process.argv);
+
+  if (help) {
+    printUsage();
+    return;
+  }
+
   if (!API_TOKEN) {
     throw new Error('Missing Ahrefs API token. Set AHREFS_API_KEY or related env variable.');
   }
 
   const additives = await readAdditivesIndex();
 
-  const total = additives.length;
+  let targets = additives;
+  if (additiveSlugs.length > 0) {
+    const slugSet = new Set(additiveSlugs);
+    targets = additives.filter((entry) => {
+      const slug = createAdditiveSlug({ eNumber: entry.eNumber, title: entry.title });
+      return slugSet.has(slug);
+    });
+
+    const missing = additiveSlugs.filter((slug) => {
+      const match = targets.some((entry) => {
+        const derived = createAdditiveSlug({ eNumber: entry.eNumber, title: entry.title });
+        return derived === slug;
+      });
+      return !match;
+    });
+
+    if (missing.length > 0) {
+      console.warn(`⚠️  Unknown additive slugs: ${missing.join(', ')}`);
+    }
+
+    if (targets.length === 0) {
+      console.warn('No additives to process.');
+      return;
+    }
+  }
+
+  const total = targets.length;
   let processed = 0;
 
-  for (const additive of additives) {
+  for (const additive of targets) {
+    processed += 1;
     const slug = createAdditiveSlug({ eNumber: additive.eNumber, title: additive.title });
     const dirPath = path.join(DATA_DIR, slug);
     await fs.mkdir(dirPath, { recursive: true });
     const historyPath = historyPathForSlug(slug);
 
     try {
-      processed += 1;
-      console.log(`[${processed}/${total}] Fetching history for "${additive.title}"`);
+      const props = await readProps(slug, additive);
+      const keywords = toKeywordList(props);
 
-      const payload = await fetchHistory(additive.title);
-      await sleep(REQUEST_DELAY_MS);
-
-      if (!payload || !Array.isArray(payload.metrics) || payload.metrics.length === 0) {
-        await fs.writeFile(
-          historyPath,
-          `${JSON.stringify(
-            {
-              keyword: additive.title,
-              country: 'us',
-              fetchedAt: new Date().toISOString(),
-              metrics: [],
-            },
-            null,
-            2,
-          )}\n`,
-        );
-
-        const props = ensureProps(await readProps(slug), additive);
-        props.searchSparkline = [];
-        await writeProps(slug, props);
-        continue;
-      }
-
-      const filteredMetrics = filterLastTenYears(payload.metrics);
-      const sparkline = computeYearlyAverage(filteredMetrics);
-
-      await fs.writeFile(
-        historyPath,
-        `${JSON.stringify(
-          {
-            keyword: additive.title,
-            country: 'us',
-            fetchedAt: new Date().toISOString(),
-            metrics: filteredMetrics,
-          },
-          null,
-          2,
-        )}\n`,
+      console.log(
+        `[${processed}/${total}] ${slug} → ${keywords.length} keyword${
+          keywords.length === 1 ? '' : 's'
+        }`,
       );
 
-      const props = ensureProps(await readProps(slug), additive);
-      props.searchSparkline = sparkline;
-      await writeProps(slug, props);
+      const keywordSeries = [];
+
+      for (const keyword of keywords) {
+        const payload = await fetchHistory(keyword);
+        await sleep(REQUEST_DELAY_MS);
+
+        if (!payload || !Array.isArray(payload.metrics) || payload.metrics.length === 0) {
+          keywordSeries.push({ keyword, metrics: [] });
+          continue;
+        }
+
+        const filteredMetrics = filterLastTenYears(payload.metrics);
+        keywordSeries.push({ keyword, metrics: filteredMetrics });
+      }
+
+      const aggregateMetrics = aggregateKeywordMetrics(keywordSeries);
+      const sparkline = computeYearlyAverage(aggregateMetrics);
+
+      const dataset = {
+        country: COUNTRY,
+        fetchedAt: new Date().toISOString(),
+        keywords: keywordSeries,
+        metrics: aggregateMetrics,
+      };
+
+      await fs.writeFile(historyPath, `${JSON.stringify(dataset, null, 2)}\n`);
+
+      const updatedProps = ensureProps(props, additive);
+      updatedProps.searchSparkline = sparkline;
+      await writeProps(slug, updatedProps);
     } catch (error) {
       console.error(`Error processing ${additive.title}: ${error.message}`);
-      const props = ensureProps(await readProps(slug), additive);
-      props.searchSparkline = [];
-      await writeProps(slug, props);
+      const props = await readProps(slug, additive);
+      const updatedProps = ensureProps(props, additive);
+      updatedProps.searchSparkline = [];
+      await writeProps(slug, updatedProps);
     }
   }
 

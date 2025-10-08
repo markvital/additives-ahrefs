@@ -9,7 +9,7 @@ export interface SearchQuestionItem {
 }
 
 export interface SearchQuestionsDataset {
-  keyword: string;
+  keywords: string[];
   country: string;
   fetchedAt: string;
   questions: SearchQuestionItem[];
@@ -109,8 +109,25 @@ export const getSearchQuestions = (slug: string): SearchQuestionsDataset | null 
       .map((entry) => normaliseQuestion(entry))
       .filter((entry): entry is SearchQuestionItem => entry !== null);
 
+    const keywordList: string[] = Array.isArray((parsed as any)?.keywords)
+      ? ((parsed as any).keywords as unknown[])
+          .map((value) => (typeof value === 'string' ? value.trim() : ''))
+          .filter((value): value is string => value.length > 0)
+      : [];
+
+    if (keywordList.length === 0 && typeof (parsed as any)?.keyword === 'string') {
+      const keyword = (parsed as any).keyword.trim();
+      if (keyword) {
+        keywordList.push(keyword);
+      }
+    }
+
+    const uniqueKeywords = keywordList.filter(
+      (value, index, list) => list.findIndex((item) => item.toLowerCase() === value.toLowerCase()) === index,
+    );
+
     const dataset: SearchQuestionsDataset = {
-      keyword: typeof parsed.keyword === 'string' ? parsed.keyword : '',
+      keywords: uniqueKeywords,
       country: typeof parsed.country === 'string' ? parsed.country : '',
       fetchedAt: typeof parsed.fetchedAt === 'string' ? parsed.fetchedAt : '',
       questions,

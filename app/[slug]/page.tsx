@@ -15,7 +15,9 @@ import {
 import { formatMonthlyVolume, getCountryFlagEmoji, getCountryLabel } from '../../lib/format';
 import { getSearchHistory } from '../../lib/search-history';
 import { getSearchQuestions } from '../../lib/search-questions';
+import { getSearchVolumeDataset } from '../../lib/search-volume';
 import { SearchHistoryChart } from '../../components/SearchHistoryChart';
+import { SearchKeywordShare } from '../../components/SearchKeywordShare';
 import { MarkdownArticle } from '../../components/MarkdownArticle';
 import { SearchQuestions } from '../../components/SearchQuestions';
 
@@ -60,16 +62,27 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
 
   const synonymList = additive.synonyms.filter((value, index, list) => list.indexOf(value) === index);
   const searchHistory = getSearchHistory(additive.slug);
-  const searchKeyword = searchHistory?.keyword?.trim();
+  const searchHistoryKeywords = searchHistory?.keywords ?? [];
   const hasSearchHistory =
     !!searchHistory &&
     searchHistory.metrics.length > 0 &&
-    !!searchKeyword;
+    searchHistoryKeywords.length > 0;
   const searchQuestions = getSearchQuestions(additive.slug);
   const questionItems = searchQuestions?.questions ?? [];
   const displayName = formatAdditiveDisplayName(additive.eNumber, additive.title);
   const searchRank = typeof additive.searchRank === 'number' ? additive.searchRank : null;
-  const searchVolume = typeof additive.searchVolume === 'number' ? additive.searchVolume : null;
+  const searchVolumeDataset = getSearchVolumeDataset(additive.slug);
+  const keywordVolumeEntries = searchVolumeDataset?.keywords ?? [];
+  const resolvedSearchVolume =
+    typeof searchVolumeDataset?.totalSearchVolume === 'number'
+      ? searchVolumeDataset.totalSearchVolume
+      : typeof additive.searchVolume === 'number'
+        ? additive.searchVolume
+        : null;
+  const searchVolume =
+    typeof resolvedSearchVolume === 'number' && Number.isFinite(resolvedSearchVolume)
+      ? resolvedSearchVolume
+      : null;
   const searchCountryCode = searchHistory?.country;
   const searchFlagEmoji = searchCountryCode ? getCountryFlagEmoji(searchCountryCode) : null;
   const searchCountryLabel =
@@ -77,6 +90,15 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
   const articleSummary = extractArticleSummary(additive.article);
   const articleBody = extractArticleBody(additive.article);
   const originList = additive.origin.filter((value, index, list) => list.indexOf(value) === index);
+  const searchKeywordLabel =
+    searchHistoryKeywords.length === 1
+      ? `“${searchHistoryKeywords[0].keyword}”`
+      : `${searchHistoryKeywords.length} keywords`;
+  const searchKeywordPrefix = searchHistoryKeywords.length === 1 ? 'on' : 'across';
+  const keywordShareTotal =
+    typeof searchVolumeDataset?.totalSearchVolume === 'number'
+      ? searchVolumeDataset.totalSearchVolume
+      : searchVolume ?? 0;
 
   return (
     <Box component="article" display="flex" flexDirection="column" gap={4} alignItems="center" width="100%">
@@ -136,6 +158,9 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
                 </Box>
               )}
             </Typography>
+          )}
+          {keywordVolumeEntries.length > 0 && (
+            <SearchKeywordShare keywords={keywordVolumeEntries} total={keywordShareTotal} />
           )}
         </Box>
 
@@ -207,7 +232,7 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
         )}
       </Box>
 
-      {hasSearchHistory && searchHistory && searchKeyword && (
+      {hasSearchHistory && searchHistory && (
         <Box
           id="search-history"
           sx={{
@@ -222,7 +247,7 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
           <SearchHistoryChart metrics={searchHistory.metrics} />
 
           <Typography variant="body2" color="text.secondary" textAlign="center">
-            Interest over time on &ldquo;{searchKeyword}&rdquo; in the U.S. for the last 10 years
+            Interest over time {searchKeywordPrefix} {searchKeywordLabel} in the U.S. for the last 10 years
           </Typography>
         </Box>
       )}
