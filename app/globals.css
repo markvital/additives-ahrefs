@@ -69,7 +69,7 @@ a {
 
 .header-search {
   flex: 0 0 auto;
-  width: 88px;
+  width: 120px;
   transition: width 0.25s ease;
 }
 
