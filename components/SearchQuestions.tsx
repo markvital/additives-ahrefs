@@ -25,7 +25,7 @@ export function SearchQuestions({ questions }: SearchQuestionsProps) {
     .filter((keyword, index, list) => keyword.length > 0 && list.indexOf(keyword) === index)
     .map(formatQuestion)
     .filter((keyword): keyword is string => keyword.length > 0)
-    .slice(0, 5);
+    .slice(0, 10);
 
   if (items.length === 0) {
     return null;

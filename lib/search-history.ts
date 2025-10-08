@@ -7,7 +7,7 @@ export interface SearchHistoryMetric {
 }
 
 export interface SearchHistoryDataset {
-  keyword: string;
+  keywords: string[];
   country: string;
   fetchedAt: string;
   metrics: SearchHistoryMetric[];
@@ -31,7 +31,37 @@ export const getSearchHistory = (slug: string): SearchHistoryDataset | null => {
 
   try {
     const raw = fs.readFileSync(filePath, 'utf8');
-    const dataset = JSON.parse(raw) as SearchHistoryDataset;
+    const parsed = JSON.parse(raw) as Partial<SearchHistoryDataset & { keyword?: string }>;
+
+    const keywordList = Array.isArray(parsed.keywords)
+      ? parsed.keywords
+          .map((value) => (typeof value === 'string' ? value.trim() : ''))
+          .filter((value, index, list) => value.length > 0 && list.indexOf(value) === index)
+      : [];
+
+    if (keywordList.length === 0 && typeof parsed.keyword === 'string') {
+      const fallback = parsed.keyword.trim();
+      if (fallback) {
+        keywordList.push(fallback);
+      }
+    }
+
+    const metrics = Array.isArray(parsed.metrics)
+      ? parsed.metrics
+          .map((entry) => ({
+            date: typeof entry.date === 'string' ? entry.date : '',
+            volume: typeof entry.volume === 'number' ? entry.volume : 0,
+          }))
+          .filter((entry) => entry.date.length > 0)
+      : [];
+
+    const dataset: SearchHistoryDataset = {
+      keywords: keywordList,
+      country: typeof parsed.country === 'string' ? parsed.country : '',
+      fetchedAt: typeof parsed.fetchedAt === 'string' ? parsed.fetchedAt : '',
+      metrics,
+    };
+
     historyCache.set(slug, dataset);
     return dataset;
   } catch (error) {

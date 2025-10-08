@@ -6,6 +6,7 @@ const { execFile } = require('child_process');
 const { promisify } = require('util');
 
 const { createAdditiveSlug } = require('./utils/slug');
+const { collectAdditiveKeywords, collectUniqueKeywords } = require('./utils/keywords');
 
 const execFileAsync = promisify(execFile);
 
@@ -232,44 +233,39 @@ const readProps = async (slug) => {
   }
 };
 
-const readSearchHistoryKeyword = async (slug) => {
+const readSearchHistoryKeywords = async (slug) => {
   const filePath = path.join(DATA_DIR, slug, 'searchHistory.json');
   if (!(await fileExists(filePath))) {
-    return null;
+    return [];
   }
 
   try {
     const data = await readJsonFile(filePath);
-    if (data && typeof data.keyword === 'string' && data.keyword.trim()) {
-      return data.keyword.trim();
+    if (data && Array.isArray(data.keywords)) {
+      return data
+        .keywords
+        .map((entry) => (typeof entry === 'string' ? entry.trim() : ''))
+        .filter(Boolean);
     }
   } catch (error) {
     console.warn(`⚠️  Failed to parse search history for ${slug}: ${error.message}`);
   }
 
-  return null;
+  return [];
 };
 
-const resolveQueryKeyword = async (slug, additive) => {
-  const historyKeyword = await readSearchHistoryKeyword(slug);
-  if (historyKeyword) {
-    return historyKeyword;
-  }
-
+const resolveQueryKeywords = async (slug, additive) => {
   const props = await readProps(slug);
-  if (props && typeof props.title === 'string' && props.title.trim()) {
-    return props.title.trim();
+  const baseKeywords = collectAdditiveKeywords(additive, props ?? {});
+  const historyKeywords = await readSearchHistoryKeywords(slug);
+
+  const combined = collectUniqueKeywords([...baseKeywords, ...historyKeywords]);
+
+  if (combined.length > 0) {
+    return combined;
   }
 
-  if (typeof additive.title === 'string' && additive.title.trim()) {
-    return additive.title.trim();
-  }
-
-  if (typeof additive.eNumber === 'string' && additive.eNumber.trim()) {
-    return additive.eNumber.trim();
-  }
-
-  return null;
+  return collectUniqueKeywords([additive.title, additive.eNumber]);
 };
 
 const KNOWN_INTENTS = [
@@ -383,25 +379,62 @@ const writeQuestions = async (slug, dataset) => {
   await fs.writeFile(filePath, json, 'utf8');
 };
 
-const ensureDataset = (keyword, questions) => {
-  const cleaned = questions
-    .map((entry) => sanitiseQuestion(entry))
-    .filter((entry) => entry !== null);
+const mergeQuestions = (questions) => {
+  const aggregated = new Map();
 
-  cleaned.sort((a, b) => {
-    const volumeA = typeof a.volume === 'number' ? a.volume : -1;
-    const volumeB = typeof b.volume === 'number' ? b.volume : -1;
+  questions.forEach((entry) => {
+    const key = entry.keyword.toLowerCase();
+    const volume = typeof entry.volume === 'number' && Number.isFinite(entry.volume)
+      ? Math.max(0, Math.round(entry.volume))
+      : 0;
+
+    if (aggregated.has(key)) {
+      const existing = aggregated.get(key);
+      const combinedVolume = (existing.volume ?? 0) + volume;
+      const intents = new Set([...existing.intents, ...entry.intents]);
+      const parentTopic = existing.parent_topic || entry.parent_topic;
+
+      aggregated.set(key, {
+        keyword: existing.keyword,
+        volume: combinedVolume,
+        parent_topic: parentTopic,
+        intents: Array.from(intents),
+      });
+    } else {
+      aggregated.set(key, {
+        keyword: entry.keyword,
+        volume,
+        parent_topic: entry.parent_topic,
+        intents: Array.from(new Set(entry.intents)),
+      });
+    }
+  });
+
+  return Array.from(aggregated.values()).sort((a, b) => {
+    const volumeA = typeof a.volume === 'number' ? a.volume : 0;
+    const volumeB = typeof b.volume === 'number' ? b.volume : 0;
+
     if (volumeA === volumeB) {
       return a.keyword.localeCompare(b.keyword);
     }
+
     return volumeB - volumeA;
   });
+};
+
+const createDataset = (keywords, questionLists) => {
+  const cleaned = questionLists
+    .flat()
+    .map((entry) => sanitiseQuestion(entry))
+    .filter((entry) => entry !== null);
+
+  const combined = mergeQuestions(cleaned);
 
   return {
-    keyword,
+    keywords,
     country: DEFAULT_COUNTRY,
     fetchedAt: new Date().toISOString(),
-    questions: cleaned.slice(0, MAX_QUESTIONS),
+    questions: combined.slice(0, MAX_QUESTIONS),
   };
 };
 
@@ -479,19 +512,40 @@ const main = async () => {
           continue;
         }
 
-        const queryKeyword = await resolveQueryKeyword(slug, additive);
+        const queryKeywords = await resolveQueryKeywords(slug, additive);
 
-        if (!queryKeyword) {
-          console.warn('  → Skipping (unable to determine keyword).');
+        if (queryKeywords.length === 0) {
+          console.warn('  → Skipping (no keywords available).');
           continue;
         }
 
-        console.log(`  → Fetching questions for "${queryKeyword}"`);
-        const rawQuestions = await fetchQuestions(queryKeyword, apiToken);
-        await sleep(REQUEST_DELAY_MS);
-        const dataset = ensureDataset(queryKeyword, rawQuestions);
-        await writeQuestions(slug, dataset);
-        console.log(`  → Saved ${dataset.questions.length} questions.`);
+        console.log(`  → Fetching questions for ${queryKeywords.length} keywords.`);
+
+        const keywordQuestions = [];
+
+        for (const keyword of queryKeywords) {
+          console.log(`    · ${keyword}`);
+          try {
+            const rawQuestions = await fetchQuestions(keyword, apiToken);
+            keywordQuestions.push(rawQuestions);
+            console.log(`      → ${rawQuestions.length} results`);
+          } catch (error) {
+            const message = error.message ? error.message.trim() : 'Unknown error';
+            console.error(`      → Failed: ${message}`);
+            keywordQuestions.push([]);
+          }
+
+          await sleep(REQUEST_DELAY_MS);
+        }
+
+        const dataset = createDataset(queryKeywords, keywordQuestions);
+
+        if (dataset.questions.length === 0) {
+          console.warn('  → No questions returned; keeping existing data.');
+        } else {
+          await writeQuestions(slug, dataset);
+          console.log(`  → Saved ${dataset.questions.length} questions.`);
+        }
       } catch (error) {
         console.error(`  → Failed: ${error.message}`);
       }

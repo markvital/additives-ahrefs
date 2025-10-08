@@ -15,9 +15,11 @@ import {
 import { formatMonthlyVolume, getCountryFlagEmoji, getCountryLabel } from '../../lib/format';
 import { getSearchHistory } from '../../lib/search-history';
 import { getSearchQuestions } from '../../lib/search-questions';
+import { getSearchVolume } from '../../lib/search-volume';
 import { SearchHistoryChart } from '../../components/SearchHistoryChart';
 import { MarkdownArticle } from '../../components/MarkdownArticle';
 import { SearchQuestions } from '../../components/SearchQuestions';
+import { SearchVolumeShare } from '../../components/SearchVolumeShare';
 
 interface AdditivePageProps {
   params: Promise<{ slug: string }>;
@@ -60,11 +62,16 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
 
   const synonymList = additive.synonyms.filter((value, index, list) => list.indexOf(value) === index);
   const searchHistory = getSearchHistory(additive.slug);
-  const searchKeyword = searchHistory?.keyword?.trim();
+  const searchVolumeDataset = getSearchVolume(additive.slug);
+  const volumeKeywords = searchVolumeDataset?.keywords ?? [];
+  const historyKeywords = searchHistory?.keywords ?? [];
+  const aggregatedKeywordList =
+    volumeKeywords.length > 0
+      ? volumeKeywords.map((item) => item.keyword)
+      : historyKeywords;
+  const searchKeywordCount = aggregatedKeywordList.length;
   const hasSearchHistory =
-    !!searchHistory &&
-    searchHistory.metrics.length > 0 &&
-    !!searchKeyword;
+    !!searchHistory && searchHistory.metrics.length > 0 && searchKeywordCount > 0;
   const searchQuestions = getSearchQuestions(additive.slug);
   const questionItems = searchQuestions?.questions ?? [];
   const displayName = formatAdditiveDisplayName(additive.eNumber, additive.title);
@@ -77,6 +84,12 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
   const articleSummary = extractArticleSummary(additive.article);
   const articleBody = extractArticleBody(additive.article);
   const originList = additive.origin.filter((value, index, list) => list.indexOf(value) === index);
+  const searchHistoryLabel =
+    searchKeywordCount > 1
+      ? `Interest over time from ${searchKeywordCount} keywords in the U.S. for the last 10 years`
+      : searchKeywordCount === 1
+        ? `Interest over time on “${aggregatedKeywordList[0]}” in the U.S. for the last 10 years`
+        : 'Interest over time in the U.S. for the last 10 years';
 
   return (
     <Box component="article" display="flex" flexDirection="column" gap={4} alignItems="center" width="100%">
@@ -136,6 +149,9 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
                 </Box>
               )}
             </Typography>
+          )}
+          {searchVolumeDataset && searchVolumeDataset.keywords.length > 0 && (
+            <SearchVolumeShare dataset={searchVolumeDataset} />
           )}
         </Box>
 
@@ -207,7 +223,7 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
         )}
       </Box>
 
-      {hasSearchHistory && searchHistory && searchKeyword && (
+      {hasSearchHistory && searchHistory && (
         <Box
           id="search-history"
           sx={{
@@ -222,7 +238,7 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
           <SearchHistoryChart metrics={searchHistory.metrics} />
 
           <Typography variant="body2" color="text.secondary" textAlign="center">
-            Interest over time on &ldquo;{searchKeyword}&rdquo; in the U.S. for the last 10 years
+            {searchHistoryLabel}
           </Typography>
         </Box>
       )}
