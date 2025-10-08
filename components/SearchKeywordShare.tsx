@@ -1,7 +1,17 @@
 'use client';
 
-import { useMemo, useState, type MouseEvent } from 'react';
-import { Box, Popover, Stack, Typography, useTheme } from '@mui/material';
+import { useMemo, useState, type KeyboardEvent } from 'react';
+import {
+  Box,
+  ClickAwayListener,
+  Table,
+  TableBody,
+  TableCell,
+  TableRow,
+  Tooltip,
+  Typography,
+  useTheme,
+} from '@mui/material';
 
 import { formatMonthlyVolume } from '../lib/format';
 
@@ -23,7 +33,7 @@ const percentageFormatter = new Intl.NumberFormat(undefined, {
 
 export function SearchKeywordShare({ keywords, total, label, sx }: SearchKeywordShareProps) {
   const theme = useTheme();
-  const [anchorEl, setAnchorEl] = useState<HTMLElement | null>(null);
+  const [open, setOpen] = useState(false);
 
   const segments = useMemo(() => {
     if (!Array.isArray(keywords)) {
@@ -60,16 +70,20 @@ export function SearchKeywordShare({ keywords, total, label, sx }: SearchKeyword
     return [...segments].sort((a, b) => b.volume - a.volume);
   }, [hasSegments, segments]);
 
-  const handleButtonClick = (event: MouseEvent<HTMLButtonElement>) => {
-    if (anchorEl) {
-      setAnchorEl(null);
-      return;
-    }
-    setAnchorEl(event.currentTarget);
+  const handleButtonClick = () => {
+    setOpen((previous) => !previous);
   };
 
-  const handleClosePopover = () => {
-    setAnchorEl(null);
+  const handleCloseTooltip = () => {
+    setOpen(false);
+  };
+
+  const handleButtonKeyDown = (event: KeyboardEvent<HTMLButtonElement>) => {
+    if (event.key === 'Escape' || event.key === 'Esc') {
+      event.preventDefault();
+      event.stopPropagation();
+      handleCloseTooltip();
+    }
   };
 
   const displayLabel = useMemo(() => {
@@ -97,94 +111,132 @@ export function SearchKeywordShare({ keywords, total, label, sx }: SearchKeyword
   }
 
   return (
-    <>
-      <Box
-        component="button"
-        type="button"
-        onClick={handleButtonClick}
-        aria-haspopup="dialog"
-        aria-expanded={Boolean(anchorEl)}
-        sx={{
-          backgroundColor: 'transparent',
-          border: 'none',
-          color: 'inherit',
-          cursor: 'pointer',
-          display: 'inline-flex',
-          alignItems: 'center',
-          gap: 0.25,
-          p: 0,
-          font: 'inherit',
-          textDecoration: 'underline',
-          textDecorationColor: theme.palette.text.secondary,
-          textDecorationThickness: 'from-font',
-          textUnderlineOffset: 2,
-          '&:hover': {
-            textDecorationColor: theme.palette.text.primary,
-          },
-          '&:focus-visible': {
-            outline: `2px solid ${theme.palette.primary.main}`,
-            outlineOffset: 2,
-          },
-          ...sx,
-        }}
-      >
-        {displayLabel}
-      </Box>
-
-      <Popover
-        open={Boolean(anchorEl)}
-        anchorEl={anchorEl}
-        onClose={handleClosePopover}
-        disableRestoreFocus
-        anchorOrigin={{ vertical: 'top', horizontal: 'center' }}
-        transformOrigin={{ vertical: 'bottom', horizontal: 'center' }}
-        slotProps={{
-          paper: {
-            sx: {
-              px: 2,
-              py: 1.5,
-              borderRadius: 2,
-              boxShadow: theme.shadows[3],
-              border: `1px solid ${theme.palette.divider}`,
-              maxWidth: 320,
+    <ClickAwayListener onClickAway={handleCloseTooltip}>
+      <Box component="span" sx={{ display: 'inline-flex' }}>
+        <Tooltip
+          arrow
+          open={open}
+          onClose={handleCloseTooltip}
+          disableFocusListener
+          disableHoverListener
+          disableTouchListener
+          placement="bottom"
+          title={
+            <Table
+              size="small"
+              aria-label="Keyword search volume breakdown"
+              sx={{
+                '& td, & th': {
+                  borderBottom: `1px solid ${theme.palette.divider}`,
+                },
+              }}
+            >
+              <TableBody>
+                {sortedSegments.map((segment, index) => {
+                  const share = segment.volume / totalVolume;
+                  return (
+                    <TableRow key={`${segment.keyword}-${index}`} sx={{ '&:last-of-type td': { borderBottom: 0 } }}>
+                      <TableCell
+                        component="th"
+                        scope="row"
+                        sx={{
+                          fontWeight: 600,
+                          whiteSpace: 'nowrap',
+                          fontVariantNumeric: 'tabular-nums',
+                          pr: 2,
+                        }}
+                      >
+                        {percentageFormatter.format(share * 100)}%
+                      </TableCell>
+                      <TableCell
+                        align="right"
+                        sx={{
+                          color: 'text.secondary',
+                          whiteSpace: 'nowrap',
+                          fontVariantNumeric: 'tabular-nums',
+                          pr: 2,
+                        }}
+                      >
+                        {formatMonthlyVolume(segment.volume)} / mo
+                      </TableCell>
+                      <TableCell
+                        sx={{
+                          color: 'text.primary',
+                          whiteSpace: 'normal',
+                          wordBreak: 'break-word',
+                          pr: 1,
+                        }}
+                      >
+                        {segment.keyword}
+                      </TableCell>
+                    </TableRow>
+                  );
+                })}
+              </TableBody>
+            </Table>
+          }
+          slotProps={{
+            popper: {
+              disablePortal: true,
             },
-          },
-        }}
-      >
-        <Stack spacing={1}>
-          {sortedSegments.map((segment, index) => {
-            const share = segment.volume / totalVolume;
-            return (
-              <Stack
-                key={`${segment.keyword}-${index}`}
-                direction="row"
-                spacing={1.25}
-                alignItems="center"
-                flexWrap="wrap"
-              >
-                <Typography
-                  variant="body2"
-                  component="span"
-                  sx={{ fontVariantNumeric: 'tabular-nums', fontWeight: 600, minWidth: 52 }}
-                >
-                  {percentageFormatter.format(share * 100)}%
-                </Typography>
-                <Typography
-                  variant="body2"
-                  component="span"
-                  color="text.secondary"
-                  sx={{ fontVariantNumeric: 'tabular-nums', minWidth: 92 }}
-                >
-                  {formatMonthlyVolume(segment.volume)} / mo
-                </Typography>
-                <Typography variant="body2" component="span" sx={{ color: 'text.primary' }}>
-                  {segment.keyword}
-                </Typography>
-              </Stack>
-            );
-          })}
-        </Stack>
-      </Popover>
-    </>
+            tooltip: {
+              sx: {
+                backgroundColor: theme.palette.background.paper,
+                border: `1px solid ${theme.palette.divider}`,
+                boxShadow: theme.shadows[3],
+                color: theme.palette.text.primary,
+                borderRadius: 2,
+                maxWidth: 360,
+                p: 0,
+                overflow: 'hidden',
+              },
+            },
+            arrow: {
+              sx: {
+                color: theme.palette.background.paper,
+                '&::before': {
+                  border: `1px solid ${theme.palette.divider}`,
+                  boxShadow: theme.shadows[1],
+                },
+              },
+            },
+          }}
+        >
+          <Box
+            component="button"
+            type="button"
+            onClick={handleButtonClick}
+            onKeyDown={handleButtonKeyDown}
+            aria-haspopup="true"
+            aria-expanded={open}
+            sx={{
+              backgroundColor: 'transparent',
+              border: 'none',
+              color: 'inherit',
+              cursor: 'pointer',
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: 0.25,
+              p: 0,
+              font: 'inherit',
+              textDecoration: 'underline',
+              textDecorationColor: theme.palette.text.secondary,
+              textDecorationThickness: 'from-font',
+              textUnderlineOffset: 2,
+              '&:hover': {
+                textDecorationColor: theme.palette.text.primary,
+              },
+              '&:focus-visible': {
+                outline: `2px solid ${theme.palette.primary.main}`,
+                outlineOffset: 2,
+              },
+              ...sx,
+            }}
+          >
+            {displayLabel}
+          </Box>
+        </Tooltip>
+      </Box>
+    </ClickAwayListener>
   );
 }

@@ -132,15 +132,43 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
     searchKeywordPrefix = 'for';
   }
 
-  const searchInterestCaptionParts = ['Interest over time'];
-  if (searchKeywordLabel && searchKeywordPrefix) {
-    searchInterestCaptionParts.push(`${searchKeywordPrefix} ${searchKeywordLabel}`);
-  }
-  if (searchCountryText) {
-    searchInterestCaptionParts.push(`in ${searchCountryText}`);
-  }
-  searchInterestCaptionParts.push('for the last 10 years');
-  const searchInterestCaption = searchInterestCaptionParts.join(' ');
+  const searchInterestKeywordTrigger =
+    hasKeywordShare && searchKeywordLabel
+      ? (
+          <SearchKeywordShare
+            keywords={normalizedKeywordShareSegments}
+            total={keywordShareTotal}
+            label={searchKeywordLabel}
+            sx={{ fontSize: 'inherit', lineHeight: 'inherit' }}
+          />
+        )
+      : searchKeywordLabel
+        ? (
+            <Box component="span" sx={{ color: 'text.primary' }}>
+              {searchKeywordLabel}
+            </Box>
+          )
+        : null;
+
+  const searchInterestCaption = (
+    <>
+      Interest over time
+      {searchKeywordLabel && searchKeywordPrefix && searchInterestKeywordTrigger && (
+        <>
+          {' '}
+          {searchKeywordPrefix}{' '}
+          {searchInterestKeywordTrigger}
+        </>
+      )}
+      {searchCountryText && (
+        <>
+          {' '}
+          in {searchCountryText}
+        </>
+      )}
+      {' for the last 10 years'}
+    </>
+  );
 
   return (
     <Box component="article" display="flex" flexDirection="column" gap={4} alignItems="center" width="100%">
