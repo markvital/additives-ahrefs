@@ -120,8 +120,13 @@ const getSearchInterestLabel = (dataset: SearchHistoryDataset | null) => {
     return null;
   }
 
-  const keyword = dataset.keyword?.trim();
-  if (!keyword) {
+  const keywordList = Array.isArray(dataset.keywords)
+    ? dataset.keywords
+        .map((entry) => (typeof entry === 'string' ? entry.trim() : ''))
+        .filter((entry, index, list) => entry.length > 0 && list.indexOf(entry) === index)
+    : [];
+
+  if (keywordList.length === 0) {
     return null;
   }
 
@@ -130,11 +135,17 @@ const getSearchInterestLabel = (dataset: SearchHistoryDataset | null) => {
   const countryLabel = countryCode ? getCountryLabel(countryCode) ?? countryCode.toUpperCase() : null;
   const countryText = countryLabel ? `${countryLabel}` : null;
 
+  const keywordCount = keywordList.length;
+  const subject = keywordCount === 1 ? `“${keywordList[0]}”` : `${keywordCount} keywords`;
+  const prefix = keywordCount === 1
+    ? `Interest over time for ${subject}`
+    : `Interest over time from ${subject}`;
+
   if (!countryText) {
-    return `Interest over time for “${keyword}” during the last 10 years.`;
+    return `${prefix} during the last 10 years.`;
   }
 
-  return `Interest over time for “${keyword}” in ${countryText} during the last 10 years.`;
+  return `${prefix} in ${countryText} during the last 10 years.`;
 };
 
 const renderSearchMetrics = (additive: ComparisonAdditive | null) => {

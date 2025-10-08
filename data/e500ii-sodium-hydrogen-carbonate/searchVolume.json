@@ -1,0 +1,31 @@
+{
+  "country": "us",
+  "fetchedAt": "2025-10-08T00:02:52.280Z",
+  "totalSearchVolume": 4800,
+  "keywords": [
+    {
+      "keyword": "Sodium bicarbonate",
+      "volume": 2000
+    },
+    {
+      "keyword": "Sodium hydrogen carbonate",
+      "volume": 1600
+    },
+    {
+      "keyword": "baking soda",
+      "volume": 900
+    },
+    {
+      "keyword": "Bicarbonate of soda",
+      "volume": 200
+    },
+    {
+      "keyword": "sodium acid carbonate",
+      "volume": 60
+    },
+    {
+      "keyword": "E500II",
+      "volume": 40
+    }
+  ]
+}

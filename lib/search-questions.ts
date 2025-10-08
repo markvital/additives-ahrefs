@@ -9,7 +9,7 @@ export interface SearchQuestionItem {
 }
 
 export interface SearchQuestionsDataset {
-  keyword: string;
+  keywords: string[];
   country: string;
   fetchedAt: string;
   questions: SearchQuestionItem[];
@@ -98,7 +98,7 @@ export const getSearchQuestions = (slug: string): SearchQuestionsDataset | null 
 
   try {
     const raw = fs.readFileSync(filePath, 'utf8');
-    const parsed = JSON.parse(raw) as SearchQuestionsDataset;
+    const parsed = JSON.parse(raw) as Partial<SearchQuestionsDataset & { keyword?: string }>;
 
     if (!parsed || !Array.isArray(parsed.questions)) {
       questionsCache.set(slug, null);
@@ -109,8 +109,21 @@ export const getSearchQuestions = (slug: string): SearchQuestionsDataset | null 
       .map((entry) => normaliseQuestion(entry))
       .filter((entry): entry is SearchQuestionItem => entry !== null);
 
+    const keywordList = Array.isArray(parsed.keywords)
+      ? parsed.keywords
+          .map((value) => (typeof value === 'string' ? value.trim() : ''))
+          .filter((value, index, list) => value.length > 0 && list.indexOf(value) === index)
+      : [];
+
+    if (keywordList.length === 0 && typeof parsed.keyword === 'string') {
+      const fallback = parsed.keyword.trim();
+      if (fallback) {
+        keywordList.push(fallback);
+      }
+    }
+
     const dataset: SearchQuestionsDataset = {
-      keyword: typeof parsed.keyword === 'string' ? parsed.keyword : '',
+      keywords: keywordList,
       country: typeof parsed.country === 'string' ? parsed.country : '',
       fetchedAt: typeof parsed.fetchedAt === 'string' ? parsed.fetchedAt : '',
       questions,
