@@ -1,9 +1,8 @@
 'use client';
 
 import { useMemo, useState, type MouseEvent } from 'react';
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import { alpha } from '@mui/material/styles';
-import { Box, Button, Popover, Stack, Typography, useTheme } from '@mui/material';
+import { Box, Popover, Stack, Typography, useTheme } from '@mui/material';
 
 import { formatMonthlyVolume } from '../lib/format';
 
@@ -15,25 +14,17 @@ export interface KeywordVolumeEntry {
 interface SearchKeywordShareProps {
   keywords: KeywordVolumeEntry[];
   total: number;
+  sx?: Parameters<typeof Box>[0]['sx'];
 }
 
 const percentageFormatter = new Intl.NumberFormat(undefined, {
   maximumFractionDigits: 1,
 });
 
-export function SearchKeywordShare({ keywords, total }: SearchKeywordShareProps) {
+export function SearchKeywordShare({ keywords, total, sx }: SearchKeywordShareProps) {
   const theme = useTheme();
-  const [expanded, setExpanded] = useState(false);
   const [anchorEl, setAnchorEl] = useState<HTMLElement | null>(null);
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
-
-  const uniqueKeywords = useMemo(
-    () =>
-      (Array.isArray(keywords) ? keywords : [])
-        .map((item) => (typeof item?.keyword === 'string' ? item.keyword.trim() : ''))
-        .filter((item, index, list) => item.length > 0 && list.indexOf(item) === index),
-    [keywords],
-  );
 
   const segments = useMemo(() => {
     if (!Array.isArray(keywords)) {
@@ -63,16 +54,6 @@ export function SearchKeywordShare({ keywords, total }: SearchKeywordShareProps)
 
   const hasSegments = segments.length > 0 && totalVolume > 0;
 
-  const handleToggle = () => {
-    setExpanded((prev) => {
-      if (prev) {
-        setActiveIndex(null);
-        setAnchorEl(null);
-      }
-      return !prev;
-    });
-  };
-
   const handleSegmentClick = (event: MouseEvent<HTMLButtonElement>, index: number) => {
     if (activeIndex === index) {
       setActiveIndex(null);
@@ -89,79 +70,69 @@ export function SearchKeywordShare({ keywords, total }: SearchKeywordShareProps)
   };
 
   const popoverData = activeIndex !== null ? segments[activeIndex] : null;
-  const arrowRotation = expanded ? 'rotate(180deg)' : 'rotate(0deg)';
 
   const colorSteps = [0.9, 0.75, 0.6, 0.45, 0.35, 0.25, 0.15];
 
+  if (!hasSegments) {
+    return null;
+  }
+
   return (
-    <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1.25 }}>
-      <Stack direction="row" spacing={1.5} alignItems="center" flexWrap="wrap">
-        <Typography variant="caption" color="text.secondary" sx={{ fontWeight: 500 }}>
-          data from {uniqueKeywords.length}{' '}
-          {uniqueKeywords.length === 1 ? 'keyword' : 'keywords'}
-        </Typography>
-        <Button
-          size="small"
-          variant="text"
-          onClick={handleToggle}
-          endIcon={<KeyboardArrowDownIcon sx={{ transition: 'transform 0.2s', transform: arrowRotation }} />}
+    <>
+      <Box
+        sx={{
+          display: 'inline-flex',
+          flexDirection: 'column',
+          position: 'relative',
+          flexShrink: 0,
+          minWidth: 160,
+          ...sx,
+        }}
+      >
+        <Box
+          sx={{
+            display: 'flex',
+            height: 24,
+            borderRadius: 12,
+            overflow: 'hidden',
+            border: `1px solid ${theme.palette.divider}`,
+            backgroundColor: theme.palette.background.paper,
+            width: '100%',
+          }}
         >
-          {expanded ? 'Show less' : 'Show more'}
-        </Button>
-      </Stack>
+          {segments.map((segment, index) => {
+            const share = segment.volume / totalVolume;
+            const backgroundColor = alpha(
+              theme.palette.primary.main,
+              colorSteps[index % colorSteps.length],
+            );
 
-      {expanded && (
-        <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1 }}>
-          {hasSegments ? (
-            <Box
-              sx={{
-                display: 'flex',
-                height: 32,
-                borderRadius: 16,
-                overflow: 'hidden',
-                border: `1px solid ${theme.palette.divider}`,
-                backgroundColor: theme.palette.background.paper,
-              }}
-            >
-              {segments.map((segment, index) => {
-                const share = segment.volume / totalVolume;
-                const backgroundColor = alpha(
-                  theme.palette.primary.main,
-                  colorSteps[index % colorSteps.length],
-                );
-
-                return (
-                  <Box
-                    key={segment.keyword}
-                    component="button"
-                    type="button"
-                    onClick={(event) => handleSegmentClick(event, index)}
-                    aria-label={`${segment.keyword}: ${percentageFormatter.format(share * 100)}% share`}
-                    sx={{
-                      flexGrow: segment.volume,
-                      border: 'none',
-                      m: 0,
-                      p: 0,
-                      backgroundColor,
-                      cursor: 'pointer',
-                      transition: 'opacity 0.2s ease',
-                      '&:hover': { opacity: 0.85 },
-                      '&:focus-visible': {
-                        outline: `2px solid ${theme.palette.primary.main}`,
-                        outlineOffset: -2,
-                      },
-                    }}
-                  />
-                );
-              })}
-            </Box>
-          ) : (
-            <Typography variant="body2" color="text.secondary">
-              No search volume data available yet.
-            </Typography>
-          )}
+            return (
+              <Box
+                key={`${segment.keyword}-${index}`}
+                component="button"
+                type="button"
+                onClick={(event) => handleSegmentClick(event, index)}
+                aria-label={`${segment.keyword}: ${percentageFormatter.format(share * 100)}% share`}
+                sx={{
+                  flexGrow: segment.volume,
+                  border: 'none',
+                  m: 0,
+                  p: 0,
+                  backgroundColor,
+                  cursor: 'pointer',
+                  transition: 'opacity 0.2s ease',
+                  '&:hover': { opacity: 0.85 },
+                  '&:focus-visible': {
+                    outline: `2px solid ${theme.palette.primary.main}`,
+                    outlineOffset: -2,
+                  },
+                }}
+              />
+            );
+          })}
         </Box>
-      )}
+      </Box>
 
       <Popover
         open={Boolean(popoverData)}
@@ -196,6 +167,6 @@ export function SearchKeywordShare({ keywords, total }: SearchKeywordShareProps)
           </Stack>
         )}
       </Popover>
-    </Box>
+    </>
   );
 }

@@ -66,7 +66,7 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
   const hasSearchHistory =
     !!searchHistory &&
     searchHistory.metrics.length > 0 &&
-    searchHistoryKeywords.length > 0;
+    (Array.isArray(searchHistoryKeywords) ? searchHistoryKeywords.length > 0 : false);
   const searchQuestions = getSearchQuestions(additive.slug);
   const questionItems = searchQuestions?.questions ?? [];
   const displayName = formatAdditiveDisplayName(additive.eNumber, additive.title);
@@ -83,22 +83,64 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
     typeof resolvedSearchVolume === 'number' && Number.isFinite(resolvedSearchVolume)
       ? resolvedSearchVolume
       : null;
+  const normalizedKeywordShareSegments = keywordVolumeEntries
+    .map((entry) => {
+      const keyword = typeof entry?.keyword === 'string' ? entry.keyword.trim() : '';
+      const volume =
+        typeof entry?.volume === 'number' && Number.isFinite(entry.volume) ? Math.max(0, entry.volume) : 0;
+      return { keyword, volume };
+    })
+    .filter((entry) => entry.keyword.length > 0 && entry.volume > 0);
+  const uniqueKeywordCount = normalizedKeywordShareSegments
+    .map((entry) => entry.keyword)
+    .filter((keyword, index, list) => keyword.length > 0 && list.indexOf(keyword) === index).length;
+  const aggregatedKeywordShareTotal =
+    typeof searchVolumeDataset?.totalSearchVolume === 'number' &&
+    Number.isFinite(searchVolumeDataset.totalSearchVolume) &&
+    searchVolumeDataset.totalSearchVolume > 0
+      ? searchVolumeDataset.totalSearchVolume
+      : normalizedKeywordShareSegments.reduce((acc, entry) => acc + entry.volume, 0);
+  const keywordShareTotal =
+    aggregatedKeywordShareTotal > 0
+      ? aggregatedKeywordShareTotal
+      : typeof searchVolume === 'number' && Number.isFinite(searchVolume) && searchVolume > 0
+        ? searchVolume
+        : 0;
+  const hasKeywordShare = normalizedKeywordShareSegments.length > 0 && keywordShareTotal > 0;
   const searchCountryCode = searchHistory?.country;
   const searchFlagEmoji = searchCountryCode ? getCountryFlagEmoji(searchCountryCode) : null;
   const searchCountryLabel =
     searchCountryCode && searchFlagEmoji ? getCountryLabel(searchCountryCode) ?? searchCountryCode.toUpperCase() : null;
+  const searchCountryText =
+    searchCountryLabel ?? (searchCountryCode ? searchCountryCode.trim().toUpperCase() : null);
   const articleSummary = extractArticleSummary(additive.article);
   const articleBody = extractArticleBody(additive.article);
   const originList = additive.origin.filter((value, index, list) => list.indexOf(value) === index);
-  const searchKeywordLabel =
-    searchHistoryKeywords.length === 1
-      ? `“${searchHistoryKeywords[0].keyword}”`
-      : `${searchHistoryKeywords.length} keywords`;
-  const searchKeywordPrefix = searchHistoryKeywords.length === 1 ? 'on' : 'across';
-  const keywordShareTotal =
-    typeof searchVolumeDataset?.totalSearchVolume === 'number'
-      ? searchVolumeDataset.totalSearchVolume
-      : searchVolume ?? 0;
+  const searchHistoryKeywordNames = searchHistoryKeywords
+    .map((entry) => (typeof entry?.keyword === 'string' ? entry.keyword.trim() : ''))
+    .filter((keyword, index, list) => keyword.length > 0 && list.indexOf(keyword) === index);
+  let searchKeywordLabel: string | null = null;
+  let searchKeywordPrefix: string | null = null;
+  if (searchHistoryKeywordNames.length === 1) {
+    searchKeywordLabel = `“${searchHistoryKeywordNames[0]}”`;
+    searchKeywordPrefix = 'for';
+  } else if (searchHistoryKeywordNames.length > 1) {
+    searchKeywordLabel = `${searchHistoryKeywordNames.length} keywords`;
+    searchKeywordPrefix = 'across';
+  } else if (displayName) {
+    searchKeywordLabel = `“${displayName}”`;
+    searchKeywordPrefix = 'for';
+  }
+
+  const searchInterestCaptionParts = ['Interest over time'];
+  if (searchKeywordLabel && searchKeywordPrefix) {
+    searchInterestCaptionParts.push(`${searchKeywordPrefix} ${searchKeywordLabel}`);
+  }
+  if (searchCountryText) {
+    searchInterestCaptionParts.push(`in ${searchCountryText}`);
+  }
+  searchInterestCaptionParts.push('for the last 10 years');
+  const searchInterestCaption = searchInterestCaptionParts.join(' ');
 
   return (
     <Box component="article" display="flex" flexDirection="column" gap={4} alignItems="center" width="100%">
@@ -132,35 +174,61 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
               ))}
             </Typography>
           )}
-          {(searchRank !== null || searchVolume !== null || searchFlagEmoji) && (
-            <Typography variant="body1" color="text.secondary" sx={{ display: 'flex', flexWrap: 'wrap', gap: 0.75 }}>
+          {(searchRank !== null || searchVolume !== null || searchCountryText || hasKeywordShare) && (
+            <Box
+              sx={{
+                display: 'flex',
+                alignItems: 'center',
+                flexWrap: 'wrap',
+                gap: 1,
+                color: 'text.secondary',
+                typography: 'body1',
+              }}
+            >
               <Box component="span" sx={{ fontWeight: 600 }}>
                 Search interest:
               </Box>
               {searchRank !== null && (
-                <Box component="span" sx={{ fontVariantNumeric: 'tabular-nums' }}>
+                <Box component="span" sx={{ fontVariantNumeric: 'tabular-nums', color: 'text.primary' }}>
                   #{searchRank}
                 </Box>
               )}
               {searchVolume !== null && (
-                <Box component="span" sx={{ fontVariantNumeric: 'tabular-nums' }}>
+                <Box component="span" sx={{ fontVariantNumeric: 'tabular-nums', color: 'text.primary' }}>
                   {formatMonthlyVolume(searchVolume)} / mo
                 </Box>
               )}
-              {searchFlagEmoji && (
-                <Box
-                  component="span"
-                  role="img"
-                  aria-label={searchCountryLabel ?? undefined}
-                  sx={{ fontSize: '1rem', lineHeight: 1 }}
-                >
-                  {searchFlagEmoji}
+              {(searchCountryText || searchFlagEmoji) && (
+                <Box component="span" sx={{ display: 'inline-flex', alignItems: 'center', gap: 0.5 }}>
+                  {searchCountryText ? `in ${searchCountryText}` : null}
+                  {searchFlagEmoji && (
+                    <Box
+                      component="span"
+                      role="img"
+                      aria-label={searchCountryLabel ?? undefined}
+                      sx={{ fontSize: '1rem', lineHeight: 1 }}
+                    >
+                      {searchFlagEmoji}
+                    </Box>
+                  )}
                 </Box>
               )}
-            </Typography>
-          )}
-          {keywordVolumeEntries.length > 0 && (
-            <SearchKeywordShare keywords={keywordVolumeEntries} total={keywordShareTotal} />
+              {hasKeywordShare && (
+                <Box component="span" sx={{ display: 'inline-flex', alignItems: 'center', gap: 0.5 }}>
+                  data from {uniqueKeywordCount}{' '}
+                  {uniqueKeywordCount === 1 ? 'keyword' : 'keywords'}
+                </Box>
+              )}
+              {hasKeywordShare && (
+                <Box sx={{ display: 'inline-flex' }}>
+                  <SearchKeywordShare
+                    keywords={keywordVolumeEntries}
+                    total={keywordShareTotal}
+                    sx={{ width: { xs: '100%', sm: 200 }, mt: { xs: 1, sm: 0 } }}
+                  />
+                </Box>
+              )}
+            </Box>
           )}
         </Box>
 
@@ -247,7 +315,7 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
           <SearchHistoryChart metrics={searchHistory.metrics} />
 
           <Typography variant="body2" color="text.secondary" textAlign="center">
-            Interest over time {searchKeywordPrefix} {searchKeywordLabel} in the U.S. for the last 10 years
+            {searchInterestCaption}
           </Typography>
         </Box>
       )}
