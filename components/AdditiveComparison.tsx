@@ -8,7 +8,6 @@ import {
   Box,
   Button,
   Chip,
-  Link as MuiLink,
   Stack,
   TextField,
   Typography,
@@ -132,14 +131,12 @@ const renderProductMetrics = (additive: ComparisonAdditive | null) => {
   }
 
   const productLabel = formatProductCount(productCount);
-  const productUrl = `https://world.openfoodfacts.org/facets/additives/${additive.slug}`;
 
   return (
     <Typography variant="body1" color="text.secondary" sx={{ fontVariantNumeric: 'tabular-nums' }}>
-      Found in{' '}
-      <MuiLink href={productUrl} target="_blank" rel="noopener noreferrer" underline="hover" sx={{ fontWeight: 600 }}>
+      Found in <Box component="span" sx={{ fontWeight: 600 }}>
         {productLabel} products
-      </MuiLink>
+      </Box>
     </Typography>
   );
 };

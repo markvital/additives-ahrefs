@@ -20,8 +20,8 @@ const execFileAsync = promisify(execFile);
 
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const ADDITIVES_INDEX_PATH = path.join(DATA_DIR, 'additives.json');
-const API_BASE_URL = 'https://world.openfoodfacts.org/api/v2/search';
-const FACET_INDEX_URL = 'https://world.openfoodfacts.org/facets/additives.json';
+const API_BASE_URL = 'https://us.openfoodfacts.org/api/v2/search';
+const FACET_INDEX_URL = 'https://us.openfoodfacts.org/facets/additives.json';
 
 const normaliseAdditiveSlug = (value) => (typeof value === 'string' ? value.trim().toLowerCase() : '');
 

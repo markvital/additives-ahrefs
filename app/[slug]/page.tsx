@@ -75,7 +75,7 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
   const searchCountryLabel =
     searchCountryCode && searchFlagEmoji ? getCountryLabel(searchCountryCode) ?? searchCountryCode.toUpperCase() : null;
   const productCount = typeof additive.productCount === 'number' ? additive.productCount : null;
-  const productSearchUrl = `https://world.openfoodfacts.org/facets/additives/${additive.slug}`;
+  const productSearchUrl = `https://us.openfoodfacts.org/facets/additives/${additive.slug}`;
   const articleSummary = extractArticleSummary(additive.article);
   const articleBody = extractArticleBody(additive.article);
   const originList = additive.origin.filter((value, index, list) => list.indexOf(value) === index);

@@ -1,15 +1,5 @@
 import Link from 'next/link';
-import {
-  Avatar,
-  Box,
-  Card,
-  CardActionArea,
-  CardContent,
-  Chip,
-  Link as MuiLink,
-  Stack,
-  Typography,
-} from '@mui/material';
+import { Avatar, Box, Card, CardActionArea, CardContent, Chip, Stack, Typography } from '@mui/material';
 import type { Theme } from '@mui/material/styles';
 
 import type { Additive, AdditiveSortMode } from '../lib/additives';
@@ -122,8 +112,6 @@ export function AdditiveGrid({
         const productCountLabel = hasProductCount
           ? formatProductCount(additive.productCount ?? 0)
           : null;
-        const productSearchUrl = `https://world.openfoodfacts.org/facets/additives/${additive.slug}`;
-
         return (
           <Card key={additive.slug} sx={{ display: 'flex', flexDirection: 'column' }}>
             <CardActionArea
@@ -238,16 +226,9 @@ export function AdditiveGrid({
                   color={highlightProducts ? 'text.primary' : 'text.secondary'}
                   sx={{ fontWeight: highlightProducts ? 600 : 400 }}
                 >
-                  Found in{' '}
-                  <MuiLink
-                    href={productSearchUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    underline="hover"
-                    sx={{ fontWeight: highlightProducts ? 600 : 500 }}
-                  >
+                  Found in <Box component="span" sx={{ fontWeight: highlightProducts ? 600 : 500 }}>
                     {productCountLabel} products
-                  </MuiLink>
+                  </Box>
                 </Typography>
               </Box>
             ) : null}
