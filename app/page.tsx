@@ -2,7 +2,13 @@ import { Box, Typography } from '@mui/material';
 
 import { AdditiveGrid } from '../components/AdditiveGrid';
 import { FilterPanel } from '../components/FilterPanel';
-import { getAdditives, getFunctionFilters, getOriginFilters } from '../lib/additives';
+import {
+  getAdditives,
+  getFunctionFilters,
+  getOriginFilters,
+  parseAdditiveSortMode,
+  sortAdditivesByMode,
+} from '../lib/additives';
 import { formatFilterLabel } from '../lib/text';
 
 const additives = getAdditives();
@@ -15,7 +21,15 @@ const originOptions = getOriginFilters().map(({ slug, value }) => ({
   label: formatFilterLabel(value),
 }));
 
-export default function HomePage() {
+interface HomePageProps {
+  searchParams?: Promise<{ sort?: string | string[] }>;
+}
+
+export default async function HomePage({ searchParams }: HomePageProps) {
+  const resolvedSearchParams = searchParams ? await searchParams : undefined;
+  const sortMode = parseAdditiveSortMode(resolvedSearchParams?.sort ?? null);
+  const sortedAdditives = sortAdditivesByMode(additives, sortMode);
+
   return (
     <Box component="section" display="flex" flexDirection="column" gap={4}>
       <Box display="flex" flexDirection="column" gap={1.5} maxWidth={720}>
@@ -28,8 +42,12 @@ export default function HomePage() {
         </Typography>
       </Box>
 
-      <FilterPanel functionOptions={functionOptions} originOptions={originOptions} />
-      <AdditiveGrid items={additives} />
+      <FilterPanel
+        functionOptions={functionOptions}
+        originOptions={originOptions}
+        currentSortMode={sortMode}
+      />
+      <AdditiveGrid items={sortedAdditives} sortMode={sortMode} />
     </Box>
   );
 }

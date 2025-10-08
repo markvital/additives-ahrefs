@@ -1,9 +1,11 @@
 'use client';
 
 import { useTransition } from 'react';
-import { useRouter } from 'next/navigation';
+import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 import { FormControl, InputLabel, MenuItem, Select, Stack } from '@mui/material';
 import type { SelectChangeEvent } from '@mui/material/Select';
+
+import type { AdditiveSortMode } from '../lib/additives';
 
 export interface FilterOption {
   slug: string;
@@ -15,6 +17,7 @@ interface FilterPanelProps {
   originOptions: FilterOption[];
   currentFunctionSlug?: string | null;
   currentOriginSlug?: string | null;
+  currentSortMode?: AdditiveSortMode;
 }
 
 const HOME_ROUTE = '/';
@@ -24,18 +27,36 @@ export function FilterPanel({
   originOptions,
   currentFunctionSlug = null,
   currentOriginSlug = null,
+  currentSortMode = 'search-rank',
 }: FilterPanelProps) {
   const router = useRouter();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
   const [isPending, startTransition] = useTransition();
+  type SortSelectValue = 'search-rank' | 'products';
+  const currentSortValue: SortSelectValue = currentSortMode === 'product-count' ? 'products' : 'search-rank';
+
+  const buildUrlWithSort = (path: string, sort: SortSelectValue) => {
+    const params = new URLSearchParams(searchParams?.toString() ?? '');
+
+    if (sort === 'products') {
+      params.set('sort', 'products');
+    } else {
+      params.delete('sort');
+    }
+
+    const queryString = params.toString();
+    return queryString ? `${path}?${queryString}` : path;
+  };
 
   const handleFunctionChange = (event: SelectChangeEvent<string>) => {
     const slug = event.target.value;
 
     startTransition(() => {
       if (slug) {
-        router.push(`/function/${slug}`);
+        router.push(buildUrlWithSort(`/function/${slug}`, currentSortValue));
       } else {
-        router.push(HOME_ROUTE);
+        router.push(buildUrlWithSort(HOME_ROUTE, currentSortValue));
       }
     });
   };
@@ -45,10 +66,18 @@ export function FilterPanel({
 
     startTransition(() => {
       if (slug) {
-        router.push(`/origin/${slug}`);
+        router.push(buildUrlWithSort(`/origin/${slug}`, currentSortValue));
       } else {
-        router.push(HOME_ROUTE);
+        router.push(buildUrlWithSort(HOME_ROUTE, currentSortValue));
       }
+    });
+  };
+
+  const handleSortChange = (event: SelectChangeEvent<string>) => {
+    const value = (event.target.value as SortSelectValue) || 'search-rank';
+
+    startTransition(() => {
+      router.push(buildUrlWithSort(pathname, value));
     });
   };
 
@@ -61,6 +90,24 @@ export function FilterPanel({
       width="100%"
       flexWrap="wrap"
     >
+      <FormControl
+        size="small"
+        sx={{ minWidth: { xs: '100%', sm: 180 } }}
+        disabled={isPending}
+      >
+        <InputLabel id="sort-filter-label">Sort by</InputLabel>
+        <Select
+          labelId="sort-filter-label"
+          id="sort-filter"
+          label="Sort by"
+          value={currentSortValue}
+          onChange={handleSortChange}
+        >
+          <MenuItem value="search-rank">Search rank</MenuItem>
+          <MenuItem value="products">Products</MenuItem>
+        </Select>
+      </FormControl>
+
       <FormControl
         size="small"
         sx={{ minWidth: { xs: '100%', sm: 180 } }}

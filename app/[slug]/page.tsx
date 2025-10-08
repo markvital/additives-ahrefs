@@ -12,7 +12,7 @@ import {
   getOriginSlug,
 } from '../../lib/additives';
 
-import { formatMonthlyVolume, getCountryFlagEmoji, getCountryLabel } from '../../lib/format';
+import { formatMonthlyVolume, formatProductCount, getCountryFlagEmoji, getCountryLabel } from '../../lib/format';
 import { getSearchHistory } from '../../lib/search-history';
 import { getSearchQuestions } from '../../lib/search-questions';
 import { SearchHistoryChart } from '../../components/SearchHistoryChart';
@@ -74,6 +74,8 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
   const searchFlagEmoji = searchCountryCode ? getCountryFlagEmoji(searchCountryCode) : null;
   const searchCountryLabel =
     searchCountryCode && searchFlagEmoji ? getCountryLabel(searchCountryCode) ?? searchCountryCode.toUpperCase() : null;
+  const productCount = typeof additive.productCount === 'number' ? additive.productCount : null;
+  const productSearchUrl = `https://us.openfoodfacts.org/facets/additives/${additive.slug}`;
   const articleSummary = extractArticleSummary(additive.article);
   const articleBody = extractArticleBody(additive.article);
   const originList = additive.origin.filter((value, index, list) => list.indexOf(value) === index);
@@ -199,6 +201,25 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
             })}
           </Stack>
         )}
+
+        <Typography variant="body1" color="text.secondary">
+          <Box component="span" sx={{ fontWeight: 600 }}>
+            Products:
+          </Box>{' '}
+          {productCount !== null ? (
+            <MuiLink
+              href={productSearchUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              underline="hover"
+              sx={{ fontWeight: 500 }}
+            >
+              Found in {formatProductCount(productCount)} products
+            </MuiLink>
+          ) : (
+            'Data not available.'
+          )}
+        </Typography>
 
         {articleSummary && (
           <Typography variant="body1" color="text.primary" whiteSpace="pre-line">

@@ -83,6 +83,9 @@ const ensureProps = (props, additive) => {
   if (!Array.isArray(result.searchSparkline)) {
     result.searchSparkline = [];
   }
+  if (typeof result.productCount !== 'number') {
+    result.productCount = null;
+  }
 
   return result;
 };

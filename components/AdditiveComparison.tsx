@@ -7,7 +7,7 @@ import { Box, Button, Chip, Stack, Typography } from '@mui/material';
 import type { Additive } from '../lib/additives';
 import { formatAdditiveDisplayName, formatOriginLabel } from '../lib/additive-format';
 import { extractArticleSummary, splitArticlePreview } from '../lib/article';
-import { formatMonthlyVolume, getCountryFlagEmoji, getCountryLabel } from '../lib/format';
+import { formatMonthlyVolume, formatProductCount, getCountryFlagEmoji, getCountryLabel } from '../lib/format';
 import type { SearchHistoryDataset } from '../lib/search-history';
 import { MarkdownArticle } from './MarkdownArticle';
 import { AdditiveLookup } from './AdditiveLookup';
@@ -96,6 +96,32 @@ const renderOriginContent = (additive: ComparisonAdditive | null) => {
         <Chip key={origin} label={formatOriginLabel(origin)} variant="outlined" size="small" />
       ))}
     </Stack>
+  );
+};
+
+const renderProductMetrics = (additive: ComparisonAdditive | null) => {
+  if (!additive) {
+    return null;
+  }
+
+  const productCount = typeof additive.productCount === 'number' ? additive.productCount : null;
+
+  if (productCount === null) {
+    return (
+      <Typography variant="body2" color="text.secondary">
+        Product data is not available.
+      </Typography>
+    );
+  }
+
+  const productLabel = formatProductCount(productCount);
+
+  return (
+    <Typography variant="body1" color="text.secondary" sx={{ fontVariantNumeric: 'tabular-nums' }}>
+      Found in <Box component="span" sx={{ fontWeight: 600 }}>
+        {productLabel} products
+      </Box>
+    </Typography>
   );
 };
 
@@ -358,6 +384,11 @@ export function AdditiveComparison({ additives, initialSelection }: AdditiveComp
       key: 'origin',
       label: 'Origin',
       render: renderOriginContent,
+    },
+    {
+      key: 'products',
+      label: 'Products',
+      render: renderProductMetrics,
     },
     {
       key: 'search-metrics',

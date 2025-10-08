@@ -87,6 +87,9 @@ const ensureProps = (props, fallback) => {
   if (typeof result.searchRank !== 'number') {
     result.searchRank = null;
   }
+  if (typeof result.productCount !== 'number') {
+    result.productCount = null;
+  }
 
   return result;
 };

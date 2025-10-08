@@ -2,8 +2,9 @@ import Link from 'next/link';
 import { Avatar, Box, Card, CardActionArea, CardContent, Chip, Stack, Typography } from '@mui/material';
 import type { Theme } from '@mui/material/styles';
 
-import type { Additive } from '../lib/additives';
-import { formatMonthlyVolume } from '../lib/format';
+import type { Additive, AdditiveSortMode } from '../lib/additives';
+import { DEFAULT_ADDITIVE_SORT_MODE } from '../lib/additives';
+import { formatMonthlyVolume, formatProductCount } from '../lib/format';
 import { SearchSparkline } from './SearchSparkline';
 import { theme } from '../lib/theme';
 
@@ -63,9 +64,14 @@ const titleMinHeight = getTitleMinHeight(theme);
 interface AdditiveGridProps {
   items: Additive[];
   emptyMessage?: string;
+  sortMode?: AdditiveSortMode;
 }
 
-export function AdditiveGrid({ items, emptyMessage = 'No additives found.' }: AdditiveGridProps) {
+export function AdditiveGrid({
+  items,
+  emptyMessage = 'No additives found.',
+  sortMode = DEFAULT_ADDITIVE_SORT_MODE,
+}: AdditiveGridProps) {
   if (items.length === 0) {
     return (
       <Typography variant="body1" color="text.secondary">
@@ -100,7 +106,12 @@ export function AdditiveGrid({ items, emptyMessage = 'No additives found.' }: Ad
         const visibleFunctions = additive.functions.slice(0, 2);
         const hiddenFunctionCount = Math.max(additive.functions.length - visibleFunctions.length, 0);
         const origins = additive.origin.filter((origin) => origin.trim().length > 0);
-
+        const highlightProducts = sortMode === 'product-count';
+        const searchSectionOpacity = highlightProducts ? 0.6 : 1;
+        const productCountValue =
+          typeof additive.productCount === 'number' ? Math.max(0, additive.productCount) : null;
+        const showProductCount = typeof productCountValue === 'number' && productCountValue > 0;
+        const productCountLabel = showProductCount ? formatProductCount(productCountValue) : null;
         return (
           <Card key={additive.slug} sx={{ display: 'flex', flexDirection: 'column' }}>
             <CardActionArea
@@ -171,7 +182,12 @@ export function AdditiveGrid({ items, emptyMessage = 'No additives found.' }: Ad
                 </Stack>
 
                 {showSearchSection ? (
-                  <Stack direction="row" alignItems="center" spacing={1.5} sx={{ mt: 1.5 }}>
+                  <Stack
+                    direction="row"
+                    alignItems="center"
+                    spacing={1.5}
+                    sx={{ mt: 1.5, opacity: searchSectionOpacity }}
+                  >
                     {hasSearchMetrics ? (
                       <Stack direction="row" alignItems="baseline" spacing={1} flexShrink={0}>
                         <Typography component="span" variant="subtitle1" fontWeight={600}>
@@ -197,6 +213,25 @@ export function AdditiveGrid({ items, emptyMessage = 'No additives found.' }: Ad
                 )}
               </CardContent>
             </CardActionArea>
+            {showProductCount && productCountLabel ? (
+              <Box
+                sx={{
+                  px: 3,
+                  py: 2,
+                  bgcolor: highlightProducts ? 'grey.50' : 'background.paper',
+                }}
+              >
+                <Typography
+                  variant="body2"
+                  color={highlightProducts ? 'text.primary' : 'text.secondary'}
+                  sx={{ fontWeight: highlightProducts ? 600 : 400 }}
+                >
+                  Found in <Box component="span" sx={{ fontWeight: highlightProducts ? 600 : 500 }}>
+                    {productCountLabel} products
+                  </Box>
+                </Typography>
+              </Box>
+            ) : null}
           </Card>
         );
       })}
