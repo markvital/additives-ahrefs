@@ -108,10 +108,10 @@ export function AdditiveGrid({
         const origins = additive.origin.filter((origin) => origin.trim().length > 0);
         const highlightProducts = sortMode === 'product-count';
         const searchSectionOpacity = highlightProducts ? 0.6 : 1;
-        const hasProductCount = typeof additive.productCount === 'number';
-        const productCountLabel = hasProductCount
-          ? formatProductCount(additive.productCount ?? 0)
-          : null;
+        const productCountValue =
+          typeof additive.productCount === 'number' ? Math.max(0, additive.productCount) : null;
+        const showProductCount = typeof productCountValue === 'number' && productCountValue > 0;
+        const productCountLabel = showProductCount ? formatProductCount(productCountValue) : null;
         return (
           <Card key={additive.slug} sx={{ display: 'flex', flexDirection: 'column' }}>
             <CardActionArea
@@ -213,7 +213,7 @@ export function AdditiveGrid({
                 )}
               </CardContent>
             </CardActionArea>
-            {hasProductCount && productCountLabel ? (
+            {showProductCount && productCountLabel ? (
               <Box
                 sx={{
                   px: 3,
