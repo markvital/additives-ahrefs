@@ -14,6 +14,7 @@ const { promisify } = require('util');
 
 const { createAdditiveSlug } = require('./utils/slug');
 const { toKeywordList } = require('./utils/keywords');
+const { loadEnvConfig, resolveAhrefsApiKey } = require('./utils/env');
 
 const execFileAsync = promisify(execFile);
 
@@ -28,10 +29,18 @@ const SEARCH_VOLUME_FILENAME = 'searchVolume.json';
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
+let DEBUG = false;
+const debugLog = (...args) => {
+  if (DEBUG) {
+    console.log(...args);
+  }
+};
+
 const parseArgs = (argv) => {
   const result = {
     additiveSlugs: [],
     help: false,
+    debug: false,
   };
 
   const args = Array.isArray(argv) ? argv.slice(2) : [];
@@ -42,6 +51,12 @@ const parseArgs = (argv) => {
 
     if (arg === '--help' || arg === '-h' || arg === '-help') {
       result.help = true;
+      index += 1;
+      continue;
+    }
+
+    if (arg === '--debug' || arg === '-d') {
+      result.debug = true;
       index += 1;
       continue;
     }
@@ -105,16 +120,9 @@ const printUsage = () => {
       'Options:\n' +
       '  --additive <slug...>     Only update the specified additive slugs.\n' +
       '  --additive=<slug,slug>   Same as above using a comma separated list.\n' +
+      '  --debug                  Enable verbose logging.\n' +
       '  --help                   Show this message.\n',
   );
-};
-
-const getApiKey = () => {
-  const apiKey = process.env.AHREFS_API_KEY;
-  if (!apiKey) {
-    throw new Error('Missing AHREFS_API_KEY environment variable.');
-  }
-  return apiKey;
 };
 
 const readAdditivesIndex = async () => {
@@ -196,6 +204,7 @@ const fetchVolumesForKeywords = async (apiKey, keywords) => {
   const url = `${API_URL}?${params.toString()}`;
 
   try {
+    debugLog('  ↳ Requesting volumes with URL:', url);
     const { stdout } = await execFileAsync('curl', [
       '-fsS',
       '-H',
@@ -240,6 +249,9 @@ const fetchVolumesForKeywordsWithRetry = async (apiKey, keywords, attempt = 1) =
     console.warn(
       `Request failed for ${keywords.join(', ')} (attempt ${attempt}): ${error.message}. Retrying in ${delay}ms...`,
     );
+    if (DEBUG && error?.stderr) {
+      debugLog('    stderr:', String(error.stderr).trim());
+    }
     await sleep(delay);
     return fetchVolumesForKeywordsWithRetry(apiKey, keywords, attempt + 1);
   }
@@ -265,14 +277,20 @@ const writeSearchVolumeDataset = async (slug, dataset) => {
 };
 
 async function main() {
-  const { additiveSlugs, help } = parseArgs(process.argv);
+  const { additiveSlugs, help, debug } = parseArgs(process.argv);
 
   if (help) {
     printUsage();
     return;
   }
 
-  const apiKey = getApiKey();
+  DEBUG = debug;
+
+  await loadEnvConfig({ debug });
+  const apiKey = resolveAhrefsApiKey();
+  if (!apiKey) {
+    throw new Error('Missing Ahrefs API key. Set AHREFS_API_KEY in the environment or env.local.');
+  }
   const additives = await readAdditivesIndex();
 
   let targets = additives;
@@ -323,8 +341,9 @@ async function main() {
         }`,
       );
 
-      let keywordVolumes = keywords.map((keyword) => ({ keyword, volume: 0 }));
-      let totalVolume = 0;
+      let keywordVolumes = null;
+      let totalVolume = null;
+      let fetchError = null;
 
       if (keywords.length > 0) {
         try {
@@ -339,43 +358,62 @@ async function main() {
           totalVolume = keywordVolumes.reduce((acc, item) => acc + item.volume, 0);
         } catch (error) {
           console.error(`  → Failed to fetch volumes: ${error.message}`);
-          keywordVolumes = keywords.map((keyword) => ({ keyword, volume: 0 }));
-          totalVolume = 0;
+          if (DEBUG && error?.stderr) {
+            debugLog('    stderr:', String(error.stderr).trim());
+          }
+          fetchError = error;
         }
 
         await sleep(REQUEST_DELAY_MS);
       }
 
-      const sortedKeywords = [...keywordVolumes].sort((a, b) => b.volume - a.volume || a.keyword.localeCompare(b.keyword));
-
       results[currentIndex] = {
         slug,
         props,
-        keywordVolumes: sortedKeywords,
+        keywordVolumes: Array.isArray(keywordVolumes)
+          ? [...keywordVolumes].sort(
+              (a, b) => b.volume - a.volume || a.keyword.localeCompare(b.keyword),
+            )
+          : null,
         totalVolume,
+        error: fetchError,
+        keywords,
       };
     }
   };
 
   await Promise.all(Array.from({ length: Math.min(MAX_CONCURRENCY, total) }, () => worker()));
 
-  const rankMap = assignRanks(
-    results.map((entry) => ({ slug: entry.slug, volume: entry.totalVolume })),
+  const successfulEntries = results.filter(
+    (entry) => !entry.error && typeof entry.totalVolume === 'number',
   );
+
+  const rankMap = assignRanks(successfulEntries.map((entry) => ({
+    slug: entry.slug,
+    volume: entry.totalVolume,
+  })));
 
   await Promise.all(
     results.map(async (entry) => {
-      const hasVolume = entry.keywordVolumes.some((item) => item.volume > 0);
+      if (entry.error) {
+        console.warn(`⚠️  Skipping ${entry.slug} due to previous errors.`);
+        return;
+      }
+
       const dataset = {
-        totalSearchVolume: entry.totalVolume,
-        keywords: entry.keywordVolumes,
+        totalSearchVolume: entry.totalVolume ?? 0,
+        keywords: entry.keywordVolumes ?? [],
       };
 
       await writeSearchVolumeDataset(entry.slug, dataset);
 
-      if (hasVolume) {
+      const hasVolume = Array.isArray(entry.keywordVolumes)
+        ? entry.keywordVolumes.some((item) => item.volume > 0)
+        : false;
+
+      if (typeof entry.totalVolume === 'number') {
         entry.props.searchVolume = entry.totalVolume;
-        entry.props.searchRank = rankMap.get(entry.slug) ?? null;
+        entry.props.searchRank = hasVolume ? rankMap.get(entry.slug) ?? null : null;
       } else {
         entry.props.searchVolume = null;
         entry.props.searchRank = null;
@@ -385,7 +423,17 @@ async function main() {
     }),
   );
 
-  console.log('Additive props updated successfully.');
+  const failures = results.filter((entry) => entry.error);
+
+  if (failures.length > 0) {
+    console.error(`Encountered errors for ${failures.length} additive(s).`);
+    failures.forEach((entry) => {
+      console.error(`  • ${entry.slug}: ${entry.error.message}`);
+    });
+    process.exitCode = 1;
+  } else {
+    console.log('Additive props updated successfully.');
+  }
 }
 
 main().catch((error) => {

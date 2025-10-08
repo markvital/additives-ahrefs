@@ -7,6 +7,7 @@ const { promisify } = require('util');
 
 const { createAdditiveSlug } = require('./utils/slug');
 const { toKeywordList } = require('./utils/keywords');
+const { loadEnvConfig, resolveAhrefsApiKey } = require('./utils/env');
 
 const execFileAsync = promisify(execFile);
 
@@ -14,7 +15,6 @@ const API_BASE_URL = 'https://api.ahrefs.com/v3/keywords-explorer/matching-terms
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const ADDITIVES_INDEX_PATH = path.join(DATA_DIR, 'additives.json');
 const QUESTIONS_FILENAME = 'search-questions.json';
-const ENV_LOCAL_PATH = path.join(__dirname, '..', 'env.local');
 const DEFAULT_COUNTRY = 'us';
 const FETCH_LIMIT = 50;
 const MAX_QUESTIONS = 10;
@@ -24,6 +24,13 @@ const DEFAULT_LIMIT = Infinity;
 const DEFAULT_BATCH_SIZE = 5;
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+let DEBUG = false;
+const debugLog = (...args) => {
+  if (DEBUG) {
+    console.log(...args);
+  }
+};
 
 const readJsonFile = async (filePath) => {
   const raw = await fs.readFile(filePath, 'utf8');
@@ -37,38 +44,6 @@ const fileExists = async (filePath) => {
   } catch (error) {
     return false;
   }
-};
-
-const loadApiToken = async () => {
-  const envKeys = ['AHREFS_API_KEY', 'AHREFS_API_TOKEN', 'AHREFS_TOKEN'];
-
-  for (const key of envKeys) {
-    const value = process.env[key];
-    if (typeof value === 'string' && value.trim()) {
-      return value.trim();
-    }
-  }
-
-  if (await fileExists(ENV_LOCAL_PATH)) {
-    const raw = await fs.readFile(ENV_LOCAL_PATH, 'utf8');
-    const lines = raw.split(/\r?\n/);
-    for (const line of lines) {
-      const match = line.match(
-        /^\s*(AHREFS_API_KEY|AHREFS_API_TOKEN|AHREFS_TOKEN)\s*=\s*(.+)\s*$/,
-      );
-      if (match) {
-        const [, , value] = match;
-        const trimmed = value.trim().replace(/^['"]|['"]$/g, '');
-        if (trimmed) {
-          return trimmed;
-        }
-      }
-    }
-  }
-
-  throw new Error(
-    'Missing Ahrefs API token. Set AHREFS_API_KEY (or related) in the environment or env.local.',
-  );
 };
 
 const parsePositiveInteger = (value, label) => {
@@ -87,6 +62,7 @@ const parseArgs = (argv) => {
     help: false,
     limit: null,
     batchSize: null,
+    debug: false,
   };
 
   let index = 0;
@@ -96,6 +72,12 @@ const parseArgs = (argv) => {
 
     if (arg === '--help' || arg === '-h' || arg === '-help') {
       result.help = true;
+      index += 1;
+      continue;
+    }
+
+    if (arg === '--debug' || arg === '-d') {
+      result.debug = true;
       index += 1;
       continue;
     }
@@ -194,6 +176,7 @@ const printUsage = () => {
       `  --force                       Re-fetch questions even if the file already exists.\n` +
       `  --limit, -n, --limit=<value>  Process at most <value> additives (ignored with --additive).\n` +
       `  --parallel, --batch, -p <value>  Run up to <value> requests in parallel.\n` +
+      `  --debug                        Enable verbose logging.\n` +
       `  --help                        Show this message.\n` +
       `\n` +
       `Examples:\n` +
@@ -325,6 +308,7 @@ const fetchQuestions = async (keyword, apiToken) => {
 
   for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt += 1) {
     try {
+      debugLog('  ↳ Fetching questions for keyword:', keyword);
       const { stdout } = await execFileAsync('curl', args);
       const payload = JSON.parse(stdout);
       const questions = Array.isArray(payload?.keywords) ? payload.keywords : [];
@@ -338,6 +322,10 @@ const fetchQuestions = async (keyword, apiToken) => {
       console.error(
         `Failed to fetch questions for "${keyword}" (attempt ${attempt}): ${error.message.trim()}`,
       );
+
+      if (DEBUG && stderr) {
+        debugLog('    stderr:', stderr.trim());
+      }
 
       if (attempt === MAX_ATTEMPTS) {
         throw error;
@@ -410,14 +398,20 @@ const shouldSkip = async (slug, options) => {
 };
 
 const main = async () => {
-  const { additiveSlugs, force, help, limit, batchSize } = parseArgs(process.argv);
+  const { additiveSlugs, force, help, limit, batchSize, debug } = parseArgs(process.argv);
 
   if (help) {
     printUsage();
     return;
   }
 
-  const apiToken = await loadApiToken();
+  DEBUG = debug;
+
+  await loadEnvConfig({ debug });
+  const apiToken = resolveAhrefsApiKey();
+  if (!apiToken) {
+    throw new Error('Missing Ahrefs API key. Set AHREFS_API_KEY in the environment or env.local.');
+  }
   const additives = await readAdditivesIndex();
 
   let targets = additives;
@@ -499,6 +493,9 @@ const main = async () => {
         console.log(`  → Saved ${dataset.questions.length} questions.`);
       } catch (error) {
         console.error(`  → Failed: ${error.message}`);
+        if (DEBUG && error?.stderr) {
+          debugLog('    stderr:', String(error.stderr).trim());
+        }
       }
     }
   };

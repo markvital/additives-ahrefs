@@ -7,6 +7,7 @@ const { promisify } = require('util');
 
 const { createAdditiveSlug } = require('./utils/slug');
 const { toKeywordList } = require('./utils/keywords');
+const { loadEnvConfig, resolveAhrefsApiKey } = require('./utils/env');
 
 const execFileAsync = promisify(execFile);
 
@@ -14,22 +15,24 @@ const API_BASE_URL = 'https://api.ahrefs.com/v3/keywords-explorer/volume-history
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const ADDITIVES_PATH = path.join(DATA_DIR, 'additives.json');
 
-const API_TOKEN =
-  process.env.AHREFS_API_KEY ||
-  process.env.AHREFS_API_TOKEN ||
-  process.env.AHREFS_TOKEN ||
-  'ktGhsM5um6O9vQFyYtUTiLd-Vd1MLZah-3etMqHF';
-
 const REQUEST_DELAY_MS = 200;
 const MAX_ATTEMPTS = 5;
 const COUNTRY = 'us';
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
+let DEBUG = false;
+const debugLog = (...args) => {
+  if (DEBUG) {
+    console.log(...args);
+  }
+};
+
 const parseArgs = (argv) => {
   const result = {
     additiveSlugs: [],
     help: false,
+    debug: false,
   };
 
   const args = Array.isArray(argv) ? argv.slice(2) : [];
@@ -40,6 +43,12 @@ const parseArgs = (argv) => {
 
     if (arg === '--help' || arg === '-h' || arg === '-help') {
       result.help = true;
+      index += 1;
+      continue;
+    }
+
+    if (arg === '--debug' || arg === '-d') {
+      result.debug = true;
       index += 1;
       continue;
     }
@@ -103,6 +112,7 @@ const printUsage = () => {
       'Options:\n' +
       '  --additive <slug...>     Only fetch history for the specified additive slugs.\n' +
       '  --additive=<slug,slug>   Same as above using a comma separated list.\n' +
+      '  --debug                  Enable verbose logging.\n' +
       '  --help                   Show this message.\n',
   );
 };
@@ -174,11 +184,11 @@ async function writeProps(slug, props) {
   await fs.writeFile(propsPathForSlug(slug), `${JSON.stringify(props, null, 2)}\n`);
 }
 
-async function fetchHistory(keyword) {
+async function fetchHistory(keyword, apiToken) {
   const baseArgs = [
     '-fsS',
     '-H',
-    `Authorization: Bearer ${API_TOKEN}`,
+    `Authorization: Bearer ${apiToken}`,
     '--get',
     '--data-urlencode',
     `keyword=${keyword}`,
@@ -189,6 +199,7 @@ async function fetchHistory(keyword) {
 
   for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt += 1) {
     try {
+      debugLog('  ↳ Fetching history for keyword:', keyword);
       const { stdout } = await execFileAsync('curl', baseArgs);
       return JSON.parse(stdout);
     } catch (error) {
@@ -200,6 +211,10 @@ async function fetchHistory(keyword) {
       console.error(
         `Failed to fetch history for "${keyword}" (attempt ${attempt}): ${error.message.trim()}`,
       );
+
+      if (DEBUG && stderr) {
+        debugLog('    stderr:', stderr.trim());
+      }
 
       if (attempt === MAX_ATTEMPTS) {
         throw error;
@@ -299,15 +314,19 @@ const aggregateKeywordMetrics = (series) => {
 };
 
 async function main() {
-  const { additiveSlugs, help } = parseArgs(process.argv);
+  const { additiveSlugs, help, debug } = parseArgs(process.argv);
 
   if (help) {
     printUsage();
     return;
   }
 
-  if (!API_TOKEN) {
-    throw new Error('Missing Ahrefs API token. Set AHREFS_API_KEY or related env variable.');
+  DEBUG = debug;
+
+  await loadEnvConfig({ debug });
+  const apiToken = resolveAhrefsApiKey();
+  if (!apiToken) {
+    throw new Error('Missing Ahrefs API key. Set AHREFS_API_KEY in the environment or env.local.');
   }
 
   const additives = await readAdditivesIndex();
@@ -341,6 +360,8 @@ async function main() {
   const total = targets.length;
   let processed = 0;
 
+  const failures = [];
+
   for (const additive of targets) {
     processed += 1;
     const slug = createAdditiveSlug({ eNumber: additive.eNumber, title: additive.title });
@@ -348,8 +369,9 @@ async function main() {
     await fs.mkdir(dirPath, { recursive: true });
     const historyPath = historyPathForSlug(slug);
 
+    const props = await readProps(slug, additive);
+
     try {
-      const props = await readProps(slug, additive);
       const keywords = toKeywordList(props);
 
       console.log(
@@ -361,7 +383,7 @@ async function main() {
       const keywordSeries = [];
 
       for (const keyword of keywords) {
-        const payload = await fetchHistory(keyword);
+        const payload = await fetchHistory(keyword, apiToken);
         await sleep(REQUEST_DELAY_MS);
 
         if (!payload || !Array.isArray(payload.metrics) || payload.metrics.length === 0) {
@@ -390,14 +412,21 @@ async function main() {
       await writeProps(slug, updatedProps);
     } catch (error) {
       console.error(`Error processing ${additive.title}: ${error.message}`);
-      const props = await readProps(slug, additive);
-      const updatedProps = ensureProps(props, additive);
-      updatedProps.searchSparkline = [];
-      await writeProps(slug, updatedProps);
+      if (DEBUG && error?.stderr) {
+        debugLog('  ↳ stderr:', String(error.stderr).trim());
+      }
+      failures.push({ slug, error });
     }
   }
 
-  console.log(`Completed fetching history for ${processed} additives.`);
+  const successful = processed - failures.length;
+  console.log(`Completed fetching history for ${successful} of ${processed} additives.`);
+  if (failures.length > 0) {
+    failures.forEach((entry) => {
+      console.error(`  • ${entry.slug}: ${entry.error.message}`);
+    });
+    process.exitCode = 1;
+  }
 }
 
 main().catch((error) => {
