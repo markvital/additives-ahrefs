@@ -215,16 +215,11 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
               )}
               {hasKeywordShare && (
                 <Box component="span" sx={{ display: 'inline-flex', alignItems: 'center', gap: 0.5 }}>
-                  data from {uniqueKeywordCount}{' '}
-                  {uniqueKeywordCount === 1 ? 'keyword' : 'keywords'}
-                </Box>
-              )}
-              {hasKeywordShare && (
-                <Box sx={{ display: 'inline-flex' }}>
+                  <Box component="span">data from</Box>
                   <SearchKeywordShare
-                    keywords={keywordVolumeEntries}
+                    keywords={normalizedKeywordShareSegments}
                     total={keywordShareTotal}
-                    sx={{ width: { xs: '100%', sm: 200 }, mt: { xs: 1, sm: 0 } }}
+                    label={`${uniqueKeywordCount} ${uniqueKeywordCount === 1 ? 'keyword' : 'keywords'}`}
                   />
                 </Box>
               )}

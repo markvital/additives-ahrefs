@@ -1,7 +1,6 @@
 'use client';
 
 import { useMemo, useState, type MouseEvent } from 'react';
-import { alpha } from '@mui/material/styles';
 import { Box, Popover, Stack, Typography, useTheme } from '@mui/material';
 
 import { formatMonthlyVolume } from '../lib/format';
@@ -14,6 +13,7 @@ export interface KeywordVolumeEntry {
 interface SearchKeywordShareProps {
   keywords: KeywordVolumeEntry[];
   total: number;
+  label?: string;
   sx?: Parameters<typeof Box>[0]['sx'];
 }
 
@@ -21,10 +21,9 @@ const percentageFormatter = new Intl.NumberFormat(undefined, {
   maximumFractionDigits: 1,
 });
 
-export function SearchKeywordShare({ keywords, total, sx }: SearchKeywordShareProps) {
+export function SearchKeywordShare({ keywords, total, label, sx }: SearchKeywordShareProps) {
   const theme = useTheme();
   const [anchorEl, setAnchorEl] = useState<HTMLElement | null>(null);
-  const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
   const segments = useMemo(() => {
     if (!Array.isArray(keywords)) {
@@ -54,24 +53,44 @@ export function SearchKeywordShare({ keywords, total, sx }: SearchKeywordSharePr
 
   const hasSegments = segments.length > 0 && totalVolume > 0;
 
-  const handleSegmentClick = (event: MouseEvent<HTMLButtonElement>, index: number) => {
-    if (activeIndex === index) {
-      setActiveIndex(null);
+  const sortedSegments = useMemo(() => {
+    if (!hasSegments) {
+      return [] as KeywordVolumeEntry[];
+    }
+    return [...segments].sort((a, b) => b.volume - a.volume);
+  }, [hasSegments, segments]);
+
+  const handleButtonClick = (event: MouseEvent<HTMLButtonElement>) => {
+    if (anchorEl) {
       setAnchorEl(null);
       return;
     }
-    setActiveIndex(index);
     setAnchorEl(event.currentTarget);
   };
 
   const handleClosePopover = () => {
-    setActiveIndex(null);
     setAnchorEl(null);
   };
 
-  const popoverData = activeIndex !== null ? segments[activeIndex] : null;
+  const displayLabel = useMemo(() => {
+    if (typeof label === 'string' && label.trim().length > 0) {
+      return label.trim();
+    }
 
-  const colorSteps = [0.9, 0.75, 0.6, 0.45, 0.35, 0.25, 0.15];
+    if (!hasSegments) {
+      return '';
+    }
+
+    const uniqueCount = segments
+      .map((segment) => segment.keyword)
+      .filter((keyword, index, list) => keyword.length > 0 && list.indexOf(keyword) === index).length;
+
+    if (uniqueCount === 0) {
+      return '';
+    }
+
+    return `${uniqueCount} ${uniqueCount === 1 ? 'keyword' : 'keywords'}`;
+  }, [hasSegments, label, segments]);
 
   if (!hasSegments) {
     return null;
@@ -80,62 +99,40 @@ export function SearchKeywordShare({ keywords, total, sx }: SearchKeywordSharePr
   return (
     <>
       <Box
+        component="button"
+        type="button"
+        onClick={handleButtonClick}
+        aria-haspopup="dialog"
+        aria-expanded={Boolean(anchorEl)}
         sx={{
+          backgroundColor: 'transparent',
+          border: 'none',
+          color: 'inherit',
+          cursor: 'pointer',
           display: 'inline-flex',
-          flexDirection: 'column',
-          position: 'relative',
-          flexShrink: 0,
-          minWidth: 160,
+          alignItems: 'center',
+          gap: 0.25,
+          p: 0,
+          font: 'inherit',
+          textDecoration: 'underline',
+          textDecorationColor: theme.palette.text.secondary,
+          textDecorationThickness: 'from-font',
+          textUnderlineOffset: 2,
+          '&:hover': {
+            textDecorationColor: theme.palette.text.primary,
+          },
+          '&:focus-visible': {
+            outline: `2px solid ${theme.palette.primary.main}`,
+            outlineOffset: 2,
+          },
           ...sx,
         }}
       >
-        <Box
-          sx={{
-            display: 'flex',
-            height: 24,
-            borderRadius: 12,
-            overflow: 'hidden',
-            border: `1px solid ${theme.palette.divider}`,
-            backgroundColor: theme.palette.background.paper,
-            width: '100%',
-          }}
-        >
-          {segments.map((segment, index) => {
-            const share = segment.volume / totalVolume;
-            const backgroundColor = alpha(
-              theme.palette.primary.main,
-              colorSteps[index % colorSteps.length],
-            );
-
-            return (
-              <Box
-                key={`${segment.keyword}-${index}`}
-                component="button"
-                type="button"
-                onClick={(event) => handleSegmentClick(event, index)}
-                aria-label={`${segment.keyword}: ${percentageFormatter.format(share * 100)}% share`}
-                sx={{
-                  flexGrow: segment.volume,
-                  border: 'none',
-                  m: 0,
-                  p: 0,
-                  backgroundColor,
-                  cursor: 'pointer',
-                  transition: 'opacity 0.2s ease',
-                  '&:hover': { opacity: 0.85 },
-                  '&:focus-visible': {
-                    outline: `2px solid ${theme.palette.primary.main}`,
-                    outlineOffset: -2,
-                  },
-                }}
-              />
-            );
-          })}
-        </Box>
+        {displayLabel}
       </Box>
 
       <Popover
-        open={Boolean(popoverData)}
+        open={Boolean(anchorEl)}
         anchorEl={anchorEl}
         onClose={handleClosePopover}
         disableRestoreFocus
@@ -144,28 +141,49 @@ export function SearchKeywordShare({ keywords, total, sx }: SearchKeywordSharePr
         slotProps={{
           paper: {
             sx: {
-              px: 1.5,
-              py: 1,
+              px: 2,
+              py: 1.5,
               borderRadius: 2,
               boxShadow: theme.shadows[3],
               border: `1px solid ${theme.palette.divider}`,
+              maxWidth: 320,
             },
           },
         }}
       >
-        {popoverData && (
-          <Stack spacing={0.5}>
-            <Typography variant="subtitle2" component="span" sx={{ fontWeight: 600 }}>
-              {popoverData.keyword}
-            </Typography>
-            <Typography variant="body2" color="text.secondary">
-              {formatMonthlyVolume(popoverData.volume)} / mo
-            </Typography>
-            <Typography variant="body2" color="text.secondary">
-              {percentageFormatter.format((popoverData.volume / totalVolume) * 100)}% share
-            </Typography>
-          </Stack>
-        )}
+        <Stack spacing={1}>
+          {sortedSegments.map((segment, index) => {
+            const share = segment.volume / totalVolume;
+            return (
+              <Stack
+                key={`${segment.keyword}-${index}`}
+                direction="row"
+                spacing={1.25}
+                alignItems="center"
+                flexWrap="wrap"
+              >
+                <Typography
+                  variant="body2"
+                  component="span"
+                  sx={{ fontVariantNumeric: 'tabular-nums', fontWeight: 600, minWidth: 52 }}
+                >
+                  {percentageFormatter.format(share * 100)}%
+                </Typography>
+                <Typography
+                  variant="body2"
+                  component="span"
+                  color="text.secondary"
+                  sx={{ fontVariantNumeric: 'tabular-nums', minWidth: 92 }}
+                >
+                  {formatMonthlyVolume(segment.volume)} / mo
+                </Typography>
+                <Typography variant="body2" component="span" sx={{ color: 'text.primary' }}>
+                  {segment.keyword}
+                </Typography>
+              </Stack>
+            );
+          })}
+        </Stack>
       </Popover>
     </>
   );
