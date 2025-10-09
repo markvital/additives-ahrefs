@@ -21,8 +21,8 @@ const { createAdditiveSlug } = require('./utils/slug');
 
 const execFileAsync = promisify(execFile);
 
-const FACETS_BASE_URL = 'https://world.openfoodfacts.org/facets/additives.json';
-const TAXONOMY_BASE_URL = 'https://world.openfoodfacts.org/api/v2/taxonomy?tagtype=additives&tags=';
+const FACETS_BASE_URL = 'https://us.openfoodfacts.org/facets/additives.json';
+const TAXONOMY_BASE_URL = 'https://us.openfoodfacts.org/api/v2/taxonomy?tagtype=additives&tags=';
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const ADDITIVES_INDEX_PATH = path.join(DATA_DIR, 'additives.json');
 const MAX_PAGE_CHECK = 10; // Guard to avoid infinite loops if the API changes.
@@ -294,6 +294,10 @@ async function writeAdditiveDataset(additives) {
       description: additive.description || '',
       wikipedia: additive.wikipedia || '',
       wikidata: additive.wikidata || '',
+      productCount:
+        existingProps && typeof existingProps.productCount === 'number'
+          ? existingProps.productCount
+          : null,
     };
 
     await fs.writeFile(propsPath, `${JSON.stringify(payload, null, 2)}\n`);

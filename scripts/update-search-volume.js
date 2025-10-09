@@ -259,35 +259,13 @@ const ensureProps = (props, fallback) => {
   if (typeof result.wikidata !== 'string') {
     result.wikidata = '';
   }
-  if (!Array.isArray(result.searchSparkline)) {
-    result.searchSparkline = [];
+  if (typeof result.productCount !== 'number') {
+    result.productCount = null;
   }
   return result;
 };
 
-const hasExistingSearchVolume = async (slug, props) => {
-  if (await fileExists(searchVolumePathForSlug(slug))) {
-    return true;
-  }
-
-  if (props && typeof props === 'object') {
-    if (typeof props.searchVolume === 'number' && Number.isFinite(props.searchVolume)) {
-      return true;
-    }
-  }
-
-  try {
-    const raw = await fs.readFile(propsPathForSlug(slug), 'utf8');
-    const data = JSON.parse(raw);
-    if (typeof data.searchVolume === 'number' && Number.isFinite(data.searchVolume)) {
-      return true;
-    }
-  } catch (error) {
-    // ignore
-  }
-
-  return false;
-};
+const hasExistingSearchVolume = async (slug) => fileExists(searchVolumePathForSlug(slug));
 
 const fetchVolumesForKeywords = async (apiKey, keywords, attempt = 1) => {
   if (!keywords.length) {
@@ -427,7 +405,7 @@ async function main() {
       }
 
       const props = await readProps(entry.slug, entry.additive);
-      const hasExisting = await hasExistingSearchVolume(entry.slug, props);
+      const hasExisting = await hasExistingSearchVolume(entry.slug);
 
       if (hasExisting && effectiveOverride) {
         console.log(`Refreshing existing search volume for ${entry.slug}.`);
@@ -460,7 +438,7 @@ async function main() {
 
     for (const entry of additiveEntries) {
       const props = await readProps(entry.slug, entry.additive);
-      const hasExisting = await hasExistingSearchVolume(entry.slug, props);
+      const hasExisting = await hasExistingSearchVolume(entry.slug);
       if (hasExisting && !effectiveOverride) {
         if (DEBUG) {
           console.log(`Skipping existing search volume: ${entry.slug}`);

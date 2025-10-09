@@ -15,7 +15,7 @@ export interface AdditivePropsFile {
   description?: unknown;
   wikipedia?: unknown;
   wikidata?: unknown;
-  searchSparkline?: unknown;
+  productCount?: unknown;
 }
 
 export interface Additive {
@@ -32,7 +32,12 @@ export interface Additive {
   searchSparkline: Array<number | null>;
   searchVolume: number | null;
   searchRank: number | null;
+  productCount: number | null;
 }
+
+export type AdditiveSortMode = 'search-rank' | 'product-count';
+
+export const DEFAULT_ADDITIVE_SORT_MODE: AdditiveSortMode = 'search-rank';
 
 interface AdditiveIndexEntry {
   title?: string;
@@ -71,22 +76,12 @@ const toStringArray = (value: unknown): string[] => {
     .filter((item, index, list) => item.length > 0 && list.indexOf(item) === index);
 };
 
-const toSparkline = (value: unknown): Array<number | null> => {
-  if (!Array.isArray(value)) {
-    return [];
+const toOptionalNumber = (value: unknown): number | null => {
+  if (typeof value === 'number' && Number.isFinite(value)) {
+    return value;
   }
 
-  return value.map((item) => {
-    if (typeof item === 'number' && Number.isFinite(item)) {
-      return item;
-    }
-
-    if (item === null) {
-      return null;
-    }
-
-    return null;
-  });
+  return null;
 };
 
 const createFilterSlug = (value: string): string =>
@@ -120,6 +115,7 @@ const readAdditiveProps = (
       searchSparkline: [],
       searchVolume: null,
       searchRank: null,
+      productCount: null,
     };
   }
 
@@ -140,9 +136,10 @@ const readAdditiveProps = (
       article,
       wikipedia: toString(parsed.wikipedia),
       wikidata: toString(parsed.wikidata),
-      searchSparkline: toSparkline(parsed.searchSparkline),
+      searchSparkline: [],
       searchVolume: null,
       searchRank: null,
+      productCount: toOptionalNumber(parsed.productCount),
     };
   } catch (error) {
     console.error(`Failed to read additive props for ${slug}:`, error);
@@ -162,6 +159,7 @@ const readAdditiveProps = (
       searchSparkline: [],
       searchVolume: null,
       searchRank: null,
+      productCount: null,
     };
   }
 };
@@ -192,7 +190,7 @@ const attachSearchMetrics = (additives: Additive[]): Additive[] => {
 
   return additives.map((additive) => {
     const history = getSearchHistory(additive.slug);
-    const sparkline = Array.isArray(history?.sparkline) ? [...history!.sparkline] : [];
+    const sparkline = Array.isArray(history?.sparkline) ? [...history.sparkline] : [];
 
     return {
       ...additive,
@@ -201,6 +199,60 @@ const attachSearchMetrics = (additives: Additive[]): Additive[] => {
       searchSparkline: sparkline,
     };
   });
+};
+
+const compareBySearchRank = (a: Additive, b: Additive): number => {
+  const aRank = typeof a.searchRank === 'number' ? a.searchRank : Number.POSITIVE_INFINITY;
+  const bRank = typeof b.searchRank === 'number' ? b.searchRank : Number.POSITIVE_INFINITY;
+
+  if (aRank === bRank) {
+    return a.title.localeCompare(b.title);
+  }
+
+  return aRank < bRank ? -1 : 1;
+};
+
+const compareByProductCount = (a: Additive, b: Additive): number => {
+  const aCount = typeof a.productCount === 'number' ? a.productCount : -1;
+  const bCount = typeof b.productCount === 'number' ? b.productCount : -1;
+
+  if (aCount === bCount) {
+    return compareBySearchRank(a, b);
+  }
+
+  return bCount - aCount;
+};
+
+export const parseAdditiveSortMode = (
+  value: string | string[] | null | undefined,
+): AdditiveSortMode => {
+  const raw = Array.isArray(value) ? value[0] : value;
+
+  if (typeof raw === 'string') {
+    const normalised = raw.trim().toLowerCase();
+
+    if (normalised === 'products' || normalised === 'product-count') {
+      return 'product-count';
+    }
+
+    if (normalised === 'search-rank' || normalised === 'rank') {
+      return 'search-rank';
+    }
+  }
+
+  return DEFAULT_ADDITIVE_SORT_MODE;
+};
+
+export const sortAdditivesByMode = (items: Additive[], mode: AdditiveSortMode): Additive[] => {
+  const copy = [...items];
+
+  if (mode === 'product-count') {
+    copy.sort(compareByProductCount);
+    return copy;
+  }
+
+  copy.sort(compareBySearchRank);
+  return copy;
 };
 
 const mapAdditives = (): Additive[] => {
@@ -220,27 +272,7 @@ const mapAdditives = (): Additive[] => {
 
   const withMetrics = attachSearchMetrics(enriched);
 
-  withMetrics.sort((a, b) => {
-    const aHasRank = typeof a.searchRank === 'number';
-    const bHasRank = typeof b.searchRank === 'number';
-
-    if (aHasRank && bHasRank) {
-      if (a.searchRank === b.searchRank) {
-        return a.title.localeCompare(b.title);
-      }
-      return (a.searchRank ?? 0) - (b.searchRank ?? 0);
-    }
-
-    if (aHasRank) {
-      return -1;
-    }
-
-    if (bHasRank) {
-      return 1;
-    }
-
-    return a.title.localeCompare(b.title);
-  });
+  withMetrics.sort(compareBySearchRank);
 
   return withMetrics;
 };
