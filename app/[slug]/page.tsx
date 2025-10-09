@@ -90,7 +90,7 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
         typeof entry?.volume === 'number' && Number.isFinite(entry.volume) ? Math.max(0, entry.volume) : 0;
       return { keyword, volume };
     })
-    .filter((entry) => entry.keyword.length > 0 && entry.volume > 0);
+    .filter((entry) => entry.keyword.length > 0);
   const uniqueKeywordCount = normalizedKeywordShareSegments
     .map((entry) => entry.keyword)
     .filter((keyword, index, list) => keyword.length > 0 && list.indexOf(keyword) === index).length;

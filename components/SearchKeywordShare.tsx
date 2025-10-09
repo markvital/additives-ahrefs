@@ -49,7 +49,7 @@ export function SearchKeywordShare({ keywords, total, label, sx }: SearchKeyword
             : 0;
         return { keyword, volume };
       })
-      .filter((entry) => entry.keyword.length > 0 && entry.volume > 0);
+      .filter((entry) => entry.keyword.length > 0);
   }, [keywords]);
 
   const totalVolume = useMemo(() => {
@@ -185,15 +185,16 @@ export function SearchKeywordShare({ keywords, total, label, sx }: SearchKeyword
                 border: `1px solid ${theme.palette.divider}`,
                 boxShadow: theme.shadows[3],
                 color: theme.palette.text.primary,
-                borderRadius: 2,
+                borderRadius: 1,
                 maxWidth: 360,
                 p: 0,
-                overflow: 'hidden',
+                overflow: 'visible',
               },
             },
             arrow: {
               sx: {
                 color: theme.palette.background.paper,
+                fontSize: 24,
                 '&::before': {
                   border: `1px solid ${theme.palette.divider}`,
                   boxShadow: theme.shadows[1],
