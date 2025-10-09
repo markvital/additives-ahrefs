@@ -1,11 +1,25 @@
 {
-  "keyword": "Sodium hydroxide",
+  "keywords": [
+    "Sodium hydroxide",
+    "E524",
+    "Caustic soda"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:25:11.311Z",
+  "fetchedAt": "2025-10-09T03:29:30.388Z",
   "questions": [
     {
       "keyword": "what is sodium hydroxide",
       "volume": 2800,
+      "original_keyword": "Sodium hydroxide",
+      "parent_topic": "naoh",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is caustic soda",
+      "volume": 1600,
+      "original_keyword": "Caustic soda",
       "parent_topic": "sodium hydroxide",
       "intents": [
         "informational"
@@ -14,6 +28,7 @@
     {
       "keyword": "what is sodium hydroxide used for",
       "volume": 600,
+      "original_keyword": "Sodium hydroxide",
       "parent_topic": "sodium hydroxide",
       "intents": [
         "informational"
@@ -22,6 +37,7 @@
     {
       "keyword": "is sodium hydroxide a base",
       "volume": 300,
+      "original_keyword": "Sodium hydroxide",
       "parent_topic": "sodium hydroxide",
       "intents": [
         "informational"
@@ -30,6 +46,7 @@
     {
       "keyword": "what is the chemical formula for sodium hydroxide",
       "volume": 250,
+      "original_keyword": "Sodium hydroxide",
       "parent_topic": "sodium hydroxide formula",
       "intents": [
         "informational"
@@ -38,6 +55,7 @@
     {
       "keyword": "what is the formula for sodium hydroxide",
       "volume": 250,
+      "original_keyword": "Sodium hydroxide",
       "parent_topic": "sodium hydroxide formula",
       "intents": [
         "informational"
@@ -46,7 +64,8 @@
     {
       "keyword": "how to make sodium hydroxide",
       "volume": 200,
-      "parent_topic": "sodium hydroxide",
+      "original_keyword": "Sodium hydroxide",
+      "parent_topic": "how to make sodium hydroxide",
       "intents": [
         "informational"
       ]
@@ -54,15 +73,8 @@
     {
       "keyword": "is sodium hydroxide a strong base",
       "volume": 200,
+      "original_keyword": "Sodium hydroxide",
       "parent_topic": "is naoh a strong base",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is sodium hydroxide corrosive",
-      "volume": 200,
-      "parent_topic": "what is caustic soda",
       "intents": [
         "informational"
       ]
@@ -70,6 +82,7 @@
     {
       "keyword": "is sodium hydroxide flammable",
       "volume": 200,
+      "original_keyword": "Sodium hydroxide",
       "parent_topic": "sodium hydroxide safety precautions",
       "intents": [
         "informational"
@@ -78,6 +91,7 @@
     {
       "keyword": "is sodium hydroxide toxic",
       "volume": 200,
+      "original_keyword": "Sodium hydroxide",
       "parent_topic": "",
       "intents": [
         "informational"

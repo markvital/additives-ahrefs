@@ -1,11 +1,17 @@
 {
-  "keyword": "Malic acid",
+  "keywords": [
+    "Malic acid",
+    "E296",
+    "hydroxybutanedioic acid",
+    "l-malic acid"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:18.210Z",
+  "fetchedAt": "2025-10-09T03:23:56.205Z",
   "questions": [
     {
       "keyword": "what is malic acid",
       "volume": 2800,
+      "original_keyword": "Malic acid",
       "parent_topic": "malic acid",
       "intents": [
         "informational"
@@ -14,15 +20,8 @@
     {
       "keyword": "is malic acid bad for you",
       "volume": 900,
+      "original_keyword": "Malic acid",
       "parent_topic": "malic acid benefits",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what is malic acid used for",
-      "volume": 250,
-      "parent_topic": "malic acid",
       "intents": [
         "informational"
       ]
@@ -30,7 +29,17 @@
     {
       "keyword": "is malic acid gluten free",
       "volume": 200,
+      "original_keyword": "Malic acid",
       "parent_topic": "is malic acid gluten free",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is malic acid used for",
+      "volume": 200,
+      "original_keyword": "Malic acid",
+      "parent_topic": "malic acid",
       "intents": [
         "informational"
       ]
@@ -38,6 +47,7 @@
     {
       "keyword": "where to buy malic acid",
       "volume": 100,
+      "original_keyword": "Malic acid",
       "parent_topic": "buy malic acid",
       "intents": [
         "informational",
@@ -46,16 +56,9 @@
       ]
     },
     {
-      "keyword": "is malic acid bad for your teeth",
-      "volume": 90,
-      "parent_topic": "is malic acid bad for your teeth",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
       "keyword": "malic acid where to buy",
       "volume": 90,
+      "original_keyword": "Malic acid",
       "parent_topic": "where to buy malic acid",
       "intents": [
         "commercial",
@@ -63,8 +66,18 @@
       ]
     },
     {
+      "keyword": "is malic acid bad for your teeth",
+      "volume": 80,
+      "original_keyword": "Malic acid",
+      "parent_topic": "is malic acid bad for your teeth",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
       "keyword": "is malic acid vegan",
       "volume": 80,
+      "original_keyword": "Malic acid",
       "parent_topic": "is malic acid gluten free",
       "intents": [
         "informational"
@@ -73,6 +86,7 @@
     {
       "keyword": "what does malic acid do",
       "volume": 80,
+      "original_keyword": "Malic acid",
       "parent_topic": "malic acid",
       "intents": [
         "informational"
@@ -81,6 +95,7 @@
     {
       "keyword": "whats malic acid",
       "volume": 70,
+      "original_keyword": "Malic acid",
       "parent_topic": "malic acid",
       "intents": [
         "informational"

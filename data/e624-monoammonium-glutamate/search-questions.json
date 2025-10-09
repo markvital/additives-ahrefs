@@ -1,12 +1,16 @@
 {
-  "keyword": "Monoammonium glutamate",
+  "keywords": [
+    "Monoammonium glutamate",
+    "E624"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:21.862Z",
+  "fetchedAt": "2025-10-09T03:25:28.567Z",
   "questions": [
     {
       "keyword": "what is monoammonium glutamate",
       "volume": 10,
-      "parent_topic": "monoammonium glutamate",
+      "original_keyword": "Monoammonium glutamate",
+      "parent_topic": "e624",
       "intents": [
         "informational"
       ]

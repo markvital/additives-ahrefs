@@ -1,49 +1,104 @@
 {
-  "keyword": "Sodium tetraborate (borax)",
+  "keywords": [
+    "Sodium tetraborate (borax)",
+    "E285",
+    "borax",
+    "sodium borate",
+    "sodium tetraborate",
+    "disodium tetraborate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:25:15.265Z",
+  "fetchedAt": "2025-10-09T03:29:41.175Z",
   "questions": [
     {
-      "keyword": "what is borax sodium tetraborate",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is borax",
+      "volume": 12000,
+      "original_keyword": "borax",
+      "parent_topic": "borax",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "how to make slime with sodium tetraborate and no borax",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "how to make slime without borax",
+      "volume": 5300,
+      "original_keyword": "borax",
+      "parent_topic": "how to make slime without glue or cornstarch",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "what is sodium tetraborate (borax)",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "is borax toxic",
+      "volume": 3700,
+      "original_keyword": "borax",
+      "parent_topic": "is borax toxic",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "what is sodium tetraborate (borax) solution",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is borax used for",
+      "volume": 2900,
+      "original_keyword": "borax",
+      "parent_topic": "borax powder",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "what to do if swallow sodium tetraborate (borax) solution",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "does borax kill ants",
+      "volume": 2200,
+      "original_keyword": "borax",
+      "parent_topic": "borax ant killer",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "what to do is swallow sodium tetraborate (borax) solution",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "how to make slime with borax",
+      "volume": 1700,
+      "original_keyword": "borax",
+      "parent_topic": "how to make borax slime",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "why is sodium tetraborate in borax",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "does borax kill roaches",
+      "volume": 1500,
+      "original_keyword": "borax",
+      "parent_topic": "borax for roaches",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to make slime without glue or borax",
+      "volume": 1500,
+      "original_keyword": "borax",
+      "parent_topic": "how to make slime without glue or borax",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to use borax in laundry",
+      "volume": 1200,
+      "original_keyword": "borax",
+      "parent_topic": "borax laundry",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is borax safe",
+      "volume": 1100,
+      "original_keyword": "borax",
+      "parent_topic": "is borax toxic",
+      "intents": [
+        "informational"
+      ]
     }
   ]
 }

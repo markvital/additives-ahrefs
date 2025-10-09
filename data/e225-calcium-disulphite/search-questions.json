@@ -1,6 +1,87 @@
 {
-  "keyword": "Calcium Disulphite",
+  "keywords": [
+    "Calcium Disulphite",
+    "E225",
+    "Calcium Disulfite",
+    "Calcium Pyrosulphite",
+    "Calcium Pyrosulfite",
+    "Potassium sulfite",
+    "Potassium sulphite"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.208Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:20:46.024Z",
+  "questions": [
+    {
+      "keyword": "is potassium sorbate a sulfite",
+      "volume": 20,
+      "original_keyword": "Potassium sulfite",
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "17. what forms when hydrochloric acid and potassium sulfite react?",
+      "volume": 0,
+      "original_keyword": "Potassium sulfite",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "amountof potassium sulfite to use when racking wine",
+      "volume": 0,
+      "original_keyword": "Potassium sulfite",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "canon mf4350d system error e225 solution when i try to print",
+      "volume": 0,
+      "original_keyword": "E225",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "e225 equals what in american money",
+      "volume": 0,
+      "original_keyword": "E225",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "gas produced when potassium sulfite is heated",
+      "volume": 0,
+      "original_keyword": "Potassium sulfite",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how are bisulfite ions generated in the iodine clock reaction potassium iodate and sodium sulfite",
+      "volume": 0,
+      "original_keyword": "Potassium sulfite",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how many potassium ions are needed to balance the charge of one sulfite ion",
+      "volume": 0,
+      "original_keyword": "Potassium sulfite",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how many teaspoons of potassium meta bi sulfite per gallon for 50 ppm solution",
+      "volume": 0,
+      "original_keyword": "Potassium sulfite",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much is e225 worth compared to 225 american dollars",
+      "volume": 0,
+      "original_keyword": "E225",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

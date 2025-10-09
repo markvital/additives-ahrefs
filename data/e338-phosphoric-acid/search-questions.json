@@ -1,11 +1,17 @@
 {
-  "keyword": "Phosphoric acid",
+  "keywords": [
+    "Phosphoric acid",
+    "E338",
+    "Orthophosphoric acid",
+    "phosphoricV acid"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:31.804Z",
+  "fetchedAt": "2025-10-09T03:25:50.960Z",
   "questions": [
     {
       "keyword": "what is phosphoric acid",
       "volume": 1700,
+      "original_keyword": "Phosphoric acid",
       "parent_topic": "phosphoric acid",
       "intents": [
         "informational"
@@ -13,7 +19,8 @@
     },
     {
       "keyword": "is phosphoric acid bad for you",
-      "volume": 900,
+      "volume": 1000,
+      "original_keyword": "Phosphoric acid",
       "parent_topic": "what is phosphoric acid",
       "intents": [
         "informational"
@@ -22,6 +29,7 @@
     {
       "keyword": "is phosphoric acid a strong acid",
       "volume": 400,
+      "original_keyword": "Phosphoric acid",
       "parent_topic": "is h3po4 a strong acid",
       "intents": [
         "informational"
@@ -30,6 +38,7 @@
     {
       "keyword": "what is phosphoric acid used for",
       "volume": 200,
+      "original_keyword": "Phosphoric acid",
       "parent_topic": "phosphoric acid",
       "intents": [
         "informational"
@@ -38,6 +47,7 @@
     {
       "keyword": "where to buy phosphoric acid",
       "volume": 150,
+      "original_keyword": "Phosphoric acid",
       "parent_topic": "phosphoric acid",
       "intents": [
         "commercial",
@@ -47,6 +57,7 @@
     {
       "keyword": "what does phosphoric acid do to the body",
       "volume": 100,
+      "original_keyword": "Phosphoric acid",
       "parent_topic": "phosphoric acid",
       "intents": [
         "informational"
@@ -55,6 +66,7 @@
     {
       "keyword": "what is the formula for phosphoric acid?",
       "volume": 100,
+      "original_keyword": "Phosphoric acid",
       "parent_topic": "phosphoric acid",
       "intents": [
         "informational"
@@ -63,22 +75,26 @@
     {
       "keyword": "does phosphoric acid cause kidney stones",
       "volume": 80,
+      "original_keyword": "Phosphoric acid",
       "parent_topic": "is carbonated water bad for your kidneys",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "how is phosphoric acid made",
+      "keyword": "does sprite have phosphoric acid",
       "volume": 80,
-      "parent_topic": "phosphoric acid",
+      "original_keyword": "Phosphoric acid",
+      "parent_topic": "does sprite have phosphoric acid",
       "intents": [
-        "informational"
+        "informational",
+        "branded"
       ]
     },
     {
-      "keyword": "what is the formula for phosphoric acid",
+      "keyword": "how is phosphoric acid made",
       "volume": 80,
+      "original_keyword": "Phosphoric acid",
       "parent_topic": "phosphoric acid",
       "intents": [
         "informational"

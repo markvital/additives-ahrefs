@@ -1,6 +1,81 @@
 {
-  "keyword": "Potassium bisulphite",
+  "keywords": [
+    "Potassium bisulphite",
+    "E228",
+    "Potassium bisulfite"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:37.745Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:26:00.685Z",
+  "questions": [
+    {
+      "keyword": "how are bisulfite ions generated in the iodine clock reaction potassium iodate and sodium sulfite",
+      "volume": 0,
+      "original_keyword": "Potassium bisulfite",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how does sodium bisulfite and potassium iodate react to make iodine reaction with starch",
+      "volume": 0,
+      "original_keyword": "Potassium bisulfite",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how does sodium bisulfite and potassium iodate react to make iodine reaction with starch equations",
+      "volume": 0,
+      "original_keyword": "Potassium bisulfite",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how long is potassium bisulfite good for",
+      "volume": 0,
+      "original_keyword": "Potassium bisulfite",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how most potassium bisulfite or metab",
+      "volume": 0,
+      "original_keyword": "Potassium bisulfite",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much is one gram of potassium bisulfite",
+      "volume": 0,
+      "original_keyword": "Potassium bisulfite",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much potassium bisulfite to disinfect",
+      "volume": 0,
+      "original_keyword": "Potassium bisulfite",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much potassium meta bisulfite should be added to wine must prior to fermenting red grapes",
+      "volume": 0,
+      "original_keyword": "Potassium bisulfite",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to say distilled vinegar, potassium sorbate, sodium bisulfite and xanthan gum",
+      "volume": 0,
+      "original_keyword": "Potassium bisulfite",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to unlock nec e228",
+      "volume": 0,
+      "original_keyword": "E228",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

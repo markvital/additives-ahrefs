@@ -1,6 +1,31 @@
 {
-  "keyword": "Erythorbin acid",
+  "keywords": [
+    "Erythorbin acid",
+    "E317"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:45.324Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:21:52.797Z",
+  "questions": [
+    {
+      "keyword": "how is working hp e317 5.0megapixels",
+      "volume": 0,
+      "original_keyword": "E317",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "hp camera photo smart e317 is how old",
+      "volume": 0,
+      "original_keyword": "E317",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what paint company uses code e317",
+      "volume": 0,
+      "original_keyword": "E317",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

@@ -1,11 +1,15 @@
 {
-  "keyword": "Calcium silicate",
+  "keywords": [
+    "Calcium silicate",
+    "E552"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.336Z",
+  "fetchedAt": "2025-10-09T03:20:46.907Z",
   "questions": [
     {
       "keyword": "what is calcium silicate",
       "volume": 350,
+      "original_keyword": "Calcium silicate",
       "parent_topic": "calcium silicate",
       "intents": [
         "informational"
@@ -13,7 +17,8 @@
     },
     {
       "keyword": "how to remove calcium silicate from pool",
-      "volume": 80,
+      "volume": 70,
+      "original_keyword": "Calcium silicate",
       "parent_topic": "how to remove calcium silicate from pool",
       "intents": [
         "informational"
@@ -21,19 +26,22 @@
     },
     {
       "keyword": "what is calcium silicate board",
-      "volume": 70,
+      "volume": 60,
+      "original_keyword": "Calcium silicate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how to cut calcium silicate board",
       "volume": 40,
+      "original_keyword": "Calcium silicate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "is calcium silicate bad for you",
-      "volume": 30,
+      "volume": 20,
+      "original_keyword": "Calcium silicate",
       "parent_topic": "calcium silicate in food",
       "intents": [
         "informational"
@@ -42,6 +50,7 @@
     {
       "keyword": "is calcium silicate vegan",
       "volume": 20,
+      "original_keyword": "Calcium silicate",
       "parent_topic": "is calcium silicate vegan",
       "intents": [
         "informational"
@@ -50,6 +59,7 @@
     {
       "keyword": "what is calcium silicate used for",
       "volume": 20,
+      "original_keyword": "Calcium silicate",
       "parent_topic": "calcium silicate",
       "intents": [
         "informational"
@@ -58,6 +68,7 @@
     {
       "keyword": "how to remove calcium silicate from fiberglass pool",
       "volume": 10,
+      "original_keyword": "Calcium silicate",
       "parent_topic": "fiberglass pool calcium remover",
       "intents": [
         "informational"
@@ -66,6 +77,7 @@
     {
       "keyword": "what is calcium silicate in food",
       "volume": 10,
+      "original_keyword": "Calcium silicate",
       "parent_topic": "calcium silicate food",
       "intents": [
         "informational"
@@ -74,6 +86,7 @@
     {
       "keyword": "what is calcium silicate made of",
       "volume": 10,
+      "original_keyword": "Calcium silicate",
       "parent_topic": "",
       "intents": []
     }

@@ -1,17 +1,23 @@
 {
-  "keyword": "Green s",
+  "keywords": [
+    "Green s",
+    "E142",
+    "CI Food Green 4"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:23:51.758Z",
+  "fetchedAt": "2025-10-09T03:23:34.456Z",
   "questions": [
     {
       "keyword": "why is my s*** green",
       "volume": 100,
+      "original_keyword": "Green s",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "are s&h green stamps worth anything",
       "volume": 60,
+      "original_keyword": "Green s",
       "parent_topic": "are green stamps worth anything",
       "intents": [
         "informational",
@@ -21,6 +27,7 @@
     {
       "keyword": "what were s&h green stamps",
       "volume": 30,
+      "original_keyword": "Green s",
       "parent_topic": "",
       "intents": [
         "informational",
@@ -30,6 +37,7 @@
     {
       "keyword": "what are s&h green stamps",
       "volume": 20,
+      "original_keyword": "Green s",
       "parent_topic": "",
       "intents": [
         "informational",
@@ -39,24 +47,37 @@
     {
       "keyword": "what does it mean when your s*** is green",
       "volume": 20,
+      "original_keyword": "Green s",
       "parent_topic": "",
       "intents": []
     },
     {
+      "keyword": "what does the green s mean in fantasy baseball",
+      "volume": 20,
+      "original_keyword": "Green s",
+      "parent_topic": "what does the green s mean in fantasy baseball",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
       "keyword": "what is a green pill with s 90 3",
       "volume": 20,
+      "original_keyword": "Green s",
       "parent_topic": "s903 pill",
       "intents": []
     },
     {
       "keyword": "what is s green card",
       "volume": 20,
+      "original_keyword": "Green s",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "when did s&h green stamps stop",
       "volume": 20,
+      "original_keyword": "Green s",
       "parent_topic": "s&h green stamps",
       "intents": [
         "informational",
@@ -64,14 +85,9 @@
       ]
     },
     {
-      "keyword": "how did s&h green stamps work",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
       "keyword": "how long does it take to get s green card",
       "volume": 10,
+      "original_keyword": "Green s",
       "parent_topic": "",
       "intents": []
     }

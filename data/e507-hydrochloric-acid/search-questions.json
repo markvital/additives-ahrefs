@@ -1,11 +1,16 @@
 {
-  "keyword": "Hydrochloric acid",
+  "keywords": [
+    "Hydrochloric acid",
+    "E507",
+    "Hydrogen chloride"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:23:53.655Z",
+  "fetchedAt": "2025-10-09T03:23:38.533Z",
   "questions": [
     {
       "keyword": "what is hydrochloric acid",
       "volume": 1500,
+      "original_keyword": "Hydrochloric acid",
       "parent_topic": "hydrochloric acid",
       "intents": [
         "informational"
@@ -14,6 +19,7 @@
     {
       "keyword": "is hydrochloric acid a strong acid",
       "volume": 700,
+      "original_keyword": "Hydrochloric acid",
       "parent_topic": "hydrochloric acid",
       "intents": [
         "informational"
@@ -22,6 +28,7 @@
     {
       "keyword": "what is hydrochloric acid used for",
       "volume": 400,
+      "original_keyword": "Hydrochloric acid",
       "parent_topic": "hydrochloric acid",
       "intents": [
         "informational"
@@ -30,6 +37,7 @@
     {
       "keyword": "what does hydrochloric acid do",
       "volume": 350,
+      "original_keyword": "Hydrochloric acid",
       "parent_topic": "hydrochloric acid",
       "intents": [
         "informational"
@@ -38,6 +46,7 @@
     {
       "keyword": "where to buy hydrochloric acid",
       "volume": 350,
+      "original_keyword": "Hydrochloric acid",
       "parent_topic": "hcl chemical",
       "intents": [
         "commercial",
@@ -47,6 +56,7 @@
     {
       "keyword": "is hydrochloric acid dangerous",
       "volume": 300,
+      "original_keyword": "Hydrochloric acid",
       "parent_topic": "how dangerous is hydrochloric acid",
       "intents": [
         "informational"
@@ -55,15 +65,8 @@
     {
       "keyword": "is hydrochloric acid flammable",
       "volume": 250,
+      "original_keyword": "Hydrochloric acid",
       "parent_topic": "is hcl flammable",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what is hydrochloric acid?",
-      "volume": 250,
-      "parent_topic": "hydrochloric acid",
       "intents": [
         "informational"
       ]
@@ -71,15 +74,26 @@
     {
       "keyword": "what is the ph of hydrochloric acid",
       "volume": 250,
+      "original_keyword": "Hydrochloric acid",
       "parent_topic": "hydrochloric acid ph",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "how to dispose of hydrochloric acid",
+      "keyword": "how to make hydrochloric acid",
       "volume": 200,
-      "parent_topic": "how to dispose of hydrochloric acid",
+      "original_keyword": "Hydrochloric acid",
+      "parent_topic": "hydrochloric acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does hydrochloric acid do in the stomach",
+      "volume": 200,
+      "original_keyword": "Hydrochloric acid",
+      "parent_topic": "function of hydrochloric acid",
       "intents": [
         "informational"
       ]

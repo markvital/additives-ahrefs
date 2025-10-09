@@ -1,82 +1,100 @@
 {
-  "keyword": "Glycerol",
+  "keywords": [
+    "Glycerol",
+    "E422",
+    "Glycerin",
+    "Glycerine",
+    "vegetable glycerine"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:45.772Z",
+  "fetchedAt": "2025-10-09T03:23:32.643Z",
   "questions": [
+    {
+      "keyword": "what is glycerin",
+      "volume": 12000,
+      "original_keyword": "Glycerin",
+      "parent_topic": "what is glycerin",
+      "intents": [
+        "informational"
+      ]
+    },
     {
       "keyword": "what is glycerol",
       "volume": 3600,
+      "original_keyword": "Glycerol",
       "parent_topic": "glycerol",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is glycerol ester of rosin",
-      "volume": 400,
-      "parent_topic": "ester gum",
+      "keyword": "what is vegetable glycerin",
+      "volume": 3600,
+      "original_keyword": "Glycerin",
+      "parent_topic": "vegetable glycerine",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what does glycerol do",
-      "volume": 350,
+      "keyword": "is glycerin bad for you",
+      "volume": 2100,
+      "original_keyword": "Glycerin",
+      "parent_topic": "vegetable glycerine",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is glycerin good for your skin",
+      "volume": 1900,
+      "original_keyword": "Glycerin",
+      "parent_topic": "is glycerin good for your skin",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is glycerin used for",
+      "volume": 1800,
+      "original_keyword": "Glycerin",
       "parent_topic": "glycerin",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "is glycerol a carbohydrate",
-      "volume": 200,
-      "parent_topic": "glycerol",
+      "keyword": "what is glycerin made of",
+      "volume": 1200,
+      "original_keyword": "Glycerin",
+      "parent_topic": "what is glycerin",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what does liquid glycerol do",
-      "volume": 200,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is a glycerol",
-      "volume": 200,
-      "parent_topic": "glycerol",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is glycerol a lipid",
-      "volume": 150,
+      "keyword": "what is glycerine",
+      "volume": 1100,
+      "original_keyword": "Glycerine",
       "parent_topic": "glycerin",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "is glycerol a protein",
-      "volume": 150,
-      "parent_topic": "is glycerol a protein",
+      "keyword": "how many glycerin suppositories can you use in a day",
+      "volume": 1000,
+      "original_keyword": "Glycerin",
+      "parent_topic": "how many glycerin suppositories can you use in a day",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "is glycerol bad for you",
-      "volume": 150,
-      "parent_topic": "what is glycerol",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is glycerol the same as glycerin",
-      "volume": 150,
-      "parent_topic": "is glycerol the same as glycerin",
+      "keyword": "what does glycerin do for skin",
+      "volume": 1000,
+      "original_keyword": "Glycerin",
+      "parent_topic": "glycerin for skin",
       "intents": [
         "informational"
       ]

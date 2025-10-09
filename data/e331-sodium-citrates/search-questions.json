@@ -1,29 +1,50 @@
 {
-  "keyword": "Sodium citrates",
+  "keywords": [
+    "Sodium citrates",
+    "E331"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:25:08.241Z",
+  "fetchedAt": "2025-10-09T03:29:25.419Z",
   "questions": [
+    {
+      "keyword": "what is e331 in food",
+      "volume": 10,
+      "original_keyword": "E331",
+      "parent_topic": "",
+      "intents": []
+    },
     {
       "keyword": "how are sodium citrates used in molecular gastronomy",
       "volume": 0,
+      "original_keyword": "Sodium citrates",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what are sodium citrates degradation byproducts",
       "volume": 0,
+      "original_keyword": "Sodium citrates",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is e331",
+      "volume": 0,
+      "original_keyword": "E331",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is sodium citrates",
       "volume": 0,
+      "original_keyword": "Sodium citrates",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "why does sodium citrates burn",
       "volume": 0,
+      "original_keyword": "Sodium citrates",
       "parent_topic": "",
       "intents": []
     }

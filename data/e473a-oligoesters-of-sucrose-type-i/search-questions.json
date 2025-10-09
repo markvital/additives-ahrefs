@@ -1,6 +1,19 @@
 {
-  "keyword": "Oligoesters of sucrose type I",
+  "keywords": [
+    "Oligoesters of sucrose type I",
+    "E473A",
+    "Oligoesters of sucrose type II",
+    "Oligoesters of sucrose"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:27.699Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:25:42.062Z",
+  "questions": [
+    {
+      "keyword": "what is the e number of sucrose oligoesters",
+      "volume": 0,
+      "original_keyword": "Oligoesters of sucrose",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

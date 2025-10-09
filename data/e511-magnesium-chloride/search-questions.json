@@ -1,11 +1,15 @@
 {
-  "keyword": "Magnesium chloride",
+  "keywords": [
+    "Magnesium chloride",
+    "E511"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:15.651Z",
+  "fetchedAt": "2025-10-09T03:23:52.182Z",
   "questions": [
     {
       "keyword": "what is magnesium chloride",
       "volume": 1200,
+      "original_keyword": "Magnesium chloride",
       "parent_topic": "magnesium chloride benefits",
       "intents": [
         "informational"
@@ -14,6 +18,7 @@
     {
       "keyword": "is magnesium chloride good for you",
       "volume": 500,
+      "original_keyword": "Magnesium chloride",
       "parent_topic": "magnesium chloride benefits",
       "intents": [
         "informational"
@@ -22,6 +27,7 @@
     {
       "keyword": "what is magnesium chloride good for",
       "volume": 400,
+      "original_keyword": "Magnesium chloride",
       "parent_topic": "magnesium chloride benefits",
       "intents": [
         "informational"
@@ -30,6 +36,7 @@
     {
       "keyword": "is magnesium chloride safe for pets",
       "volume": 350,
+      "original_keyword": "Magnesium chloride",
       "parent_topic": "magnesium chloride safe for dogs",
       "intents": [
         "informational"
@@ -38,6 +45,7 @@
     {
       "keyword": "what is magnesium chloride used for",
       "volume": 350,
+      "original_keyword": "Magnesium chloride",
       "parent_topic": "magnesium chloride",
       "intents": [
         "informational"
@@ -46,6 +54,7 @@
     {
       "keyword": "is magnesium chloride safe for concrete",
       "volume": 300,
+      "original_keyword": "Magnesium chloride",
       "parent_topic": "magnesium chloride ice melt",
       "intents": [
         "informational"
@@ -54,6 +63,7 @@
     {
       "keyword": "what does magnesium chloride do",
       "volume": 200,
+      "original_keyword": "Magnesium chloride",
       "parent_topic": "magnesium chloride",
       "intents": [
         "informational"
@@ -62,6 +72,7 @@
     {
       "keyword": "what does magnesium chloride do for the body",
       "volume": 100,
+      "original_keyword": "Magnesium chloride",
       "parent_topic": "magnesium chloride benefits",
       "intents": [
         "informational"
@@ -70,6 +81,7 @@
     {
       "keyword": "what is magnesium chloride best for",
       "volume": 100,
+      "original_keyword": "Magnesium chloride",
       "parent_topic": "magnesium chloride benefits",
       "intents": [
         "informational"
@@ -78,6 +90,7 @@
     {
       "keyword": "is magnesium chloride safe",
       "volume": 90,
+      "original_keyword": "Magnesium chloride",
       "parent_topic": "magnesium chloride benefits",
       "intents": [
         "informational"

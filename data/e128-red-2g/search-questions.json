@@ -1,35 +1,50 @@
 {
-  "keyword": "Red 2G",
+  "keywords": [
+    "Red 2G",
+    "E128"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:46.180Z",
+  "fetchedAt": "2025-10-09T03:29:11.958Z",
   "questions": [
     {
       "keyword": "hot wheels chaparral 2g 1968 red lines what colors did they come in",
       "volume": 0,
+      "original_keyword": "Red 2G",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "hot wheels chaparral 2g 1968 red lines what colrs did they come in",
       "volume": 0,
+      "original_keyword": "Red 2G",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how muh is e128 worth in the us",
+      "volume": 0,
+      "original_keyword": "E128",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how to solve red on tx 2g on unifi controler",
       "volume": 0,
+      "original_keyword": "Red 2G",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how to solve red on tx 2g on unifi controller",
       "volume": 0,
+      "original_keyword": "Red 2G",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "que es la red 2g",
       "volume": 0,
+      "original_keyword": "Red 2G",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -38,6 +53,7 @@
     {
       "keyword": "what is red hawks locality name for w-2g box 18.......",
       "volume": 0,
+      "original_keyword": "Red 2G",
       "parent_topic": "",
       "intents": []
     }

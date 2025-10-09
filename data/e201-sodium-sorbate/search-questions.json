@@ -1,65 +1,79 @@
 {
-  "keyword": "Sodium sorbate",
+  "keywords": [
+    "Sodium sorbate",
+    "E201",
+    "sodium (E‚E)-hexa-2‚4-dienoate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:25:14.101Z",
+  "fetchedAt": "2025-10-09T03:29:36.160Z",
   "questions": [
     {
       "keyword": "what is sodium sorbate",
       "volume": 10,
+      "original_keyword": "Sodium sorbate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "e201 ntbr can be used on what sharp calculators",
+      "volume": 0,
+      "original_keyword": "E201",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "for people who react to msg, they should avoid sodium benzoate and potassium sorbate",
       "volume": 0,
+      "original_keyword": "Sodium sorbate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how much should i use potassium sorbate and sodium benzoate",
       "volume": 0,
+      "original_keyword": "Sodium sorbate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how much sodium sorbate to use",
       "volume": 0,
+      "original_keyword": "Sodium sorbate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to adjust screen size on an hp e201",
+      "volume": 0,
+      "original_keyword": "E201",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to clean hp elitedisplay e201",
+      "volume": 0,
+      "original_keyword": "E201",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to fix e201 error code samsung",
+      "volume": 0,
+      "original_keyword": "E201",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to fix elitedisplay e201",
+      "volume": 0,
+      "original_keyword": "E201",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how to preserve my sauce using potassium sorbate and sodium benzoate",
       "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how to say distilled vinegar, potassium sorbate, sodium bisulfite and xanthan gum",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how to use sodium benzoate and potassium sorbate",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "sodium benzoate and potassium sorbate is worse than msg for people who react to msg",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what are potassium sorbate & sodium bisulfite",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what are these ingredients sodium levulinate, potassium sorbate, glyceryl laurate",
-      "volume": 0,
+      "original_keyword": "Sodium sorbate",
       "parent_topic": "",
       "intents": []
     }

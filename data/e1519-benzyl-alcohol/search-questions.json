@@ -1,11 +1,18 @@
 {
-  "keyword": "Benzyl alcohol",
+  "keywords": [
+    "Benzyl alcohol",
+    "E1519",
+    "Phenylcarbinol",
+    "Phenylmethyl alcohol",
+    "Benzenemethanol"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.861Z",
+  "fetchedAt": "2025-10-09T03:20:36.325Z",
   "questions": [
     {
       "keyword": "what is benzyl alcohol",
       "volume": 600,
+      "original_keyword": "Benzyl alcohol",
       "parent_topic": "benzyl alcohol",
       "intents": [
         "informational"
@@ -14,6 +21,7 @@
     {
       "keyword": "is benzyl alcohol bad for hair",
       "volume": 400,
+      "original_keyword": "Benzyl alcohol",
       "parent_topic": "is benzyl alcohol bad for hair",
       "intents": [
         "informational"
@@ -22,6 +30,7 @@
     {
       "keyword": "is benzyl alcohol bad for skin",
       "volume": 350,
+      "original_keyword": "Benzyl alcohol",
       "parent_topic": "is benzyl alcohol bad for skin",
       "intents": [
         "informational"
@@ -30,6 +39,7 @@
     {
       "keyword": "is benzyl alcohol safe",
       "volume": 150,
+      "original_keyword": "Benzyl alcohol",
       "parent_topic": "benzyl alcohol",
       "intents": [
         "informational"
@@ -38,6 +48,7 @@
     {
       "keyword": "does benzyl alcohol dry out hair",
       "volume": 50,
+      "original_keyword": "Benzyl alcohol",
       "parent_topic": "is benzyl alcohol bad for hair",
       "intents": [
         "informational"
@@ -46,6 +57,7 @@
     {
       "keyword": "does benzyl alcohol dry out skin",
       "volume": 50,
+      "original_keyword": "Benzyl alcohol",
       "parent_topic": "benzyl alcohol for skin",
       "intents": [
         "informational"
@@ -54,6 +66,7 @@
     {
       "keyword": "what is benzyl alcohol used for",
       "volume": 40,
+      "original_keyword": "Benzyl alcohol",
       "parent_topic": "benzyl alcohol",
       "intents": [
         "informational"
@@ -62,6 +75,7 @@
     {
       "keyword": "where to buy benzyl alcohol lotion",
       "volume": 40,
+      "original_keyword": "Benzyl alcohol",
       "parent_topic": "benzyl alcohol lotion",
       "intents": [
         "informational",
@@ -73,6 +87,7 @@
     {
       "keyword": "is benzyl alcohol drying to hair",
       "volume": 30,
+      "original_keyword": "Benzyl alcohol",
       "parent_topic": "is benzyl alcohol bad for hair",
       "intents": [
         "informational"
@@ -81,6 +96,7 @@
     {
       "keyword": "is benzyl alcohol good for hair",
       "volume": 30,
+      "original_keyword": "Benzyl alcohol",
       "parent_topic": "",
       "intents": [
         "informational"

@@ -1,6 +1,24 @@
 {
-  "keyword": "Bakers yeast glycan",
+  "keywords": [
+    "Bakers yeast glycan",
+    "E408"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.795Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:16:33.604Z",
+  "questions": [
+    {
+      "keyword": "what category is e408 in ruby princess",
+      "volume": 0,
+      "original_keyword": "E408",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "who lives at e408 vego road, frankford wv",
+      "volume": 0,
+      "original_keyword": "E408",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

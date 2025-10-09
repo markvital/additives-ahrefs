@@ -1,11 +1,78 @@
 {
-  "keyword": "Isopropyl citrates",
+  "keywords": [
+    "Isopropyl citrates",
+    "E384"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:23:56.801Z",
+  "fetchedAt": "2025-10-09T03:23:42.519Z",
   "questions": [
     {
-      "keyword": "what is the e number of isopropyl citrates",
+      "keyword": "how do i set bookmars on sony nwz-e384",
       "volume": 0,
+      "original_keyword": "E384",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how do you change a battery for a sony walkman nwz-e384",
+      "volume": 0,
+      "original_keyword": "E384",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how reformat walkman nwz-e384 mp3",
+      "volume": 0,
+      "original_keyword": "E384",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to add folders on my sonywalkman nwz-e384 player",
+      "volume": 0,
+      "original_keyword": "E384",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to change sony walkman nwz-e384 battery",
+      "volume": 0,
+      "original_keyword": "E384",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to charge your sony walkman nwz-e384",
+      "volume": 0,
+      "original_keyword": "E384",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to delete music from sony walkman nwz-e384",
+      "volume": 0,
+      "original_keyword": "E384",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to dissasemble sony walkman e384",
+      "volume": 0,
+      "original_keyword": "E384",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to get games on a sony walkman nwz-e384",
+      "volume": 0,
+      "original_keyword": "E384",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to install sony walkman nwz-e384",
+      "volume": 0,
+      "original_keyword": "E384",
       "parent_topic": "",
       "intents": []
     }

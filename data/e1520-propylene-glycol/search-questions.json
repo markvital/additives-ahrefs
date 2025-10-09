@@ -1,11 +1,17 @@
 {
-  "keyword": "Propylene Glycol",
+  "keywords": [
+    "Propylene Glycol",
+    "E1520",
+    "Propane-1‚2-diol",
+    "Propan-1‚2-diol"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:45.164Z",
+  "fetchedAt": "2025-10-09T03:29:12.887Z",
   "questions": [
     {
       "keyword": "what is propylene glycol",
       "volume": 5500,
+      "original_keyword": "Propylene Glycol",
       "parent_topic": "propylene glycol",
       "intents": [
         "informational"
@@ -13,7 +19,8 @@
     },
     {
       "keyword": "is propylene glycol safe",
-      "volume": 1600,
+      "volume": 1700,
+      "original_keyword": "Propylene Glycol",
       "parent_topic": "is propylene glycol safe",
       "intents": [
         "informational"
@@ -22,6 +29,7 @@
     {
       "keyword": "what is propylene glycol used for",
       "volume": 800,
+      "original_keyword": "Propylene Glycol",
       "parent_topic": "propylene glycol",
       "intents": [
         "informational"
@@ -30,6 +38,7 @@
     {
       "keyword": "does propylene glycol cause cancer",
       "volume": 300,
+      "original_keyword": "Propylene Glycol",
       "parent_topic": "propalyne glycol",
       "intents": [
         "informational"
@@ -38,6 +47,7 @@
     {
       "keyword": "is propylene glycol antifreeze",
       "volume": 300,
+      "original_keyword": "Propylene Glycol",
       "parent_topic": "ethylene glycol antifreeze",
       "intents": [
         "informational"
@@ -46,6 +56,7 @@
     {
       "keyword": "is propylene glycol bad for you",
       "volume": 300,
+      "original_keyword": "Propylene Glycol",
       "parent_topic": "is propylene glycol safe",
       "intents": [
         "informational"
@@ -54,6 +65,7 @@
     {
       "keyword": "what foods contain propylene glycol",
       "volume": 300,
+      "original_keyword": "Propylene Glycol",
       "parent_topic": "propylene glycol in food",
       "intents": [
         "informational"
@@ -62,6 +74,7 @@
     {
       "keyword": "is propylene glycol alcohol",
       "volume": 250,
+      "original_keyword": "Propylene Glycol",
       "parent_topic": "propylene glycol",
       "intents": [
         "informational"
@@ -70,6 +83,7 @@
     {
       "keyword": "what foods have propylene glycol",
       "volume": 200,
+      "original_keyword": "Propylene Glycol",
       "parent_topic": "propylene glycol in food",
       "intents": [
         "informational"
@@ -78,6 +92,7 @@
     {
       "keyword": "what is propylene glycol made of",
       "volume": 200,
+      "original_keyword": "Propylene Glycol",
       "parent_topic": "what is propylene glycol made of",
       "intents": [
         "informational"

@@ -1,11 +1,92 @@
 {
-  "keyword": "Polyvinylpolypyrrolidone",
+  "keywords": [
+    "Polyvinylpolypyrrolidone",
+    "E1202",
+    "Crospovidone",
+    "Cross-linked polyvidone"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:35.549Z",
+  "fetchedAt": "2025-10-09T03:25:57.791Z",
   "questions": [
     {
-      "keyword": "what is e 1202 polyvinylpolypyrrolidone",
+      "keyword": "what is crospovidone",
+      "volume": 150,
+      "original_keyword": "Crospovidone",
+      "parent_topic": "crospovidone",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is crospovidone safe for dogs",
+      "volume": 30,
+      "original_keyword": "Crospovidone",
+      "parent_topic": "crospovidone safe for dogs",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is crospovidone gluten free",
+      "volume": 20,
+      "original_keyword": "Crospovidone",
+      "parent_topic": "is calcium chloride gluten free",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is crospovidone safe",
+      "volume": 20,
+      "original_keyword": "Crospovidone",
+      "parent_topic": "crospovidone",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is crospovidone vegan",
+      "volume": 20,
+      "original_keyword": "Crospovidone",
+      "parent_topic": "crospovidone vegan",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is crospovidone formaldehyde",
+      "volume": 10,
+      "original_keyword": "Crospovidone",
+      "parent_topic": "is crospovidone formaldehyde",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is crospovidone nf",
+      "volume": 10,
+      "original_keyword": "Crospovidone",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "crospovidone what is it formaldehyde why is it in vitamins",
       "volume": 0,
+      "original_keyword": "Crospovidone",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how is co povidone different from crospovidone",
+      "volume": 0,
+      "original_keyword": "Crospovidone",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how many reports have been given to fda for individuals allergic to crospovidone",
+      "volume": 0,
+      "original_keyword": "Crospovidone",
       "parent_topic": "",
       "intents": []
     }

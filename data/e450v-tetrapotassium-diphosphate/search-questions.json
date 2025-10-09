@@ -1,6 +1,69 @@
 {
-  "keyword": "Tetrapotassium diphosphate",
+  "keywords": [
+    "Tetrapotassium diphosphate",
+    "E450V",
+    "tetrapotassium pyrophosphate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:19:04.780Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:30:02.439Z",
+  "questions": [
+    {
+      "keyword": "what is tetrapotassium pyrophosphate",
+      "volume": 10,
+      "original_keyword": "tetrapotassium pyrophosphate",
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is tetrapotassium pyrophosphate used for",
+      "volume": 10,
+      "original_keyword": "tetrapotassium pyrophosphate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what are the chemical properties of tetrapotassium pyrophosphate",
+      "volume": 0,
+      "original_keyword": "tetrapotassium pyrophosphate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what are the dangers of tetrapotassium 1 - 10 pyrophosphate",
+      "volume": 0,
+      "original_keyword": "tetrapotassium pyrophosphate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what are the dangers of tetrapotassium pyrophosphate",
+      "volume": 0,
+      "original_keyword": "tetrapotassium pyrophosphate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is tetrapotassium pyrophosphate in toothpaste",
+      "volume": 0,
+      "original_keyword": "tetrapotassium pyrophosphate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the formula for tetrapotassium pyrophosphate",
+      "volume": 0,
+      "original_keyword": "tetrapotassium pyrophosphate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "where to buy tetrapotassium pyrophosphate",
+      "volume": 0,
+      "original_keyword": "tetrapotassium pyrophosphate",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

@@ -1,31 +1,107 @@
 {
-  "keyword": "Sodium carboxy methyl cellulose",
+  "keywords": [
+    "Sodium carboxy methyl cellulose",
+    "E466",
+    "sodium carboxymethylcellulose",
+    "carboxy methyl cellulose",
+    "Carboxymethylcellulose",
+    "cellulose gum",
+    "carboxymethyl cellulose",
+    "CMC",
+    "NaCMC"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:25:08.094Z",
+  "fetchedAt": "2025-10-09T03:29:31.386Z",
   "questions": [
     {
-      "keyword": "how to use \"sodium carboxy methyl cellulose\" kiln repair",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "when is cmc coming back",
+      "volume": 3300,
+      "original_keyword": "CMC",
+      "parent_topic": "cmc injury",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "how to use sodium carboxy methyl cellulose kiln repair",
-      "volume": 0,
+      "keyword": "when will cmc return",
+      "volume": 2000,
+      "original_keyword": "CMC",
       "parent_topic": "",
-      "intents": []
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "what is sodium carboxy methyl cellulose",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is cmc",
+      "volume": 1300,
+      "original_keyword": "CMC",
+      "parent_topic": "what is cmc",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "where can i buy sodium carboxy methyl cellulose powder",
-      "volume": 0,
+      "keyword": "what is cellulose gum",
+      "volume": 1200,
+      "original_keyword": "cellulose gum",
+      "parent_topic": "cellulose gum",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "when will cmc be back",
+      "volume": 900,
+      "original_keyword": "CMC",
       "parent_topic": "",
-      "intents": []
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how long is cmc out",
+      "volume": 700,
+      "original_keyword": "CMC",
+      "parent_topic": "is christian mccaffrey healthy",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is cmc coming back",
+      "volume": 700,
+      "original_keyword": "CMC",
+      "parent_topic": "cmc injury",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is cmc playing week 1",
+      "volume": 600,
+      "original_keyword": "CMC",
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is cellulose gum bad for you",
+      "volume": 450,
+      "original_keyword": "cellulose gum",
+      "parent_topic": "cellulose gum",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does cmc stand for",
+      "volume": 400,
+      "original_keyword": "CMC",
+      "parent_topic": "cmc stands for",
+      "intents": [
+        "informational"
+      ]
     }
   ]
 }

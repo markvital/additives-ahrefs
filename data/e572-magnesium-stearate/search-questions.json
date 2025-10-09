@@ -1,11 +1,15 @@
 {
-  "keyword": "Magnesium stearate",
+  "keywords": [
+    "Magnesium stearate",
+    "E572"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:17.890Z",
+  "fetchedAt": "2025-10-09T03:23:54.771Z",
   "questions": [
     {
       "keyword": "what is magnesium stearate",
-      "volume": 2800,
+      "volume": 2700,
+      "original_keyword": "Magnesium stearate",
       "parent_topic": "magnesium stearate",
       "intents": [
         "informational"
@@ -14,6 +18,7 @@
     {
       "keyword": "is magnesium stearate safe",
       "volume": 900,
+      "original_keyword": "Magnesium stearate",
       "parent_topic": "magnesium stearate",
       "intents": [
         "informational"
@@ -22,6 +27,7 @@
     {
       "keyword": "is magnesium stearate bad for your liver",
       "volume": 400,
+      "original_keyword": "Magnesium stearate",
       "parent_topic": "magnesium stearate",
       "intents": [
         "informational"
@@ -30,6 +36,7 @@
     {
       "keyword": "what is magnesium stearate used for",
       "volume": 400,
+      "original_keyword": "Magnesium stearate",
       "parent_topic": "magnesium stearate",
       "intents": [
         "informational"
@@ -38,6 +45,7 @@
     {
       "keyword": "is magnesium stearate bad for you",
       "volume": 300,
+      "original_keyword": "Magnesium stearate",
       "parent_topic": "magnesium stearate",
       "intents": [
         "informational"
@@ -46,6 +54,7 @@
     {
       "keyword": "what is vegetable magnesium stearate",
       "volume": 300,
+      "original_keyword": "Magnesium stearate",
       "parent_topic": "magnesium stearate",
       "intents": [
         "informational"
@@ -54,6 +63,7 @@
     {
       "keyword": "is magnesium stearate gluten free",
       "volume": 150,
+      "original_keyword": "Magnesium stearate",
       "parent_topic": "magnesium stearate gluten free",
       "intents": [
         "informational"
@@ -62,6 +72,7 @@
     {
       "keyword": "is magnesium stearate safe for dogs",
       "volume": 150,
+      "original_keyword": "Magnesium stearate",
       "parent_topic": "is magnesium stearate safe for dogs",
       "intents": [
         "informational"
@@ -70,6 +81,7 @@
     {
       "keyword": "is magnesium stearate the same as magnesium",
       "volume": 150,
+      "original_keyword": "Magnesium stearate",
       "parent_topic": "magnesium stearate",
       "intents": [
         "informational"
@@ -78,6 +90,7 @@
     {
       "keyword": "what does magnesium stearate do",
       "volume": 150,
+      "original_keyword": "Magnesium stearate",
       "parent_topic": "magnesium stearate",
       "intents": [
         "informational"

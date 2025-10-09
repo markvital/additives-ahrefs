@@ -1,6 +1,86 @@
 {
-  "keyword": "Copper complexes of chlorophylls",
+  "keywords": [
+    "Copper complexes of chlorophylls",
+    "E141I",
+    "CI Natural Green 3",
+    "Copper Chlorophyll"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.833Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:20:53.101Z",
+  "questions": [
+    {
+      "keyword": "is copper in chlorophyll safe",
+      "volume": 40,
+      "original_keyword": "Copper Chlorophyll",
+      "parent_topic": "chlorophyll",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does chlorophyll have copper",
+      "volume": 20,
+      "original_keyword": "Copper Chlorophyll",
+      "parent_topic": "chlorophyll benefits",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is sodium copper chlorophyll",
+      "volume": 10,
+      "original_keyword": "Copper Chlorophyll",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "(chlorophyll copper complex (who-dd)",
+      "volume": 0,
+      "original_keyword": "Copper Chlorophyll",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "chlorophyll copper complex who",
+      "volume": 0,
+      "original_keyword": "Copper Chlorophyll",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "chlorophyll copper complex who-dd",
+      "volume": 0,
+      "original_keyword": "Copper Chlorophyll",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much copper in 1 tablespoon of liquid chlorophyll",
+      "volume": 0,
+      "original_keyword": "Copper Chlorophyll",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much copper in chlorophyll",
+      "volume": 0,
+      "original_keyword": "Copper Chlorophyll",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much copper in liquid chlorophyll",
+      "volume": 0,
+      "original_keyword": "Copper Chlorophyll",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much copper is in chlorophyll",
+      "volume": 0,
+      "original_keyword": "Copper Chlorophyll",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

@@ -1,11 +1,15 @@
 {
-  "keyword": "Sodium propionate",
+  "keywords": [
+    "Sodium propionate",
+    "E281"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:25:13.070Z",
+  "fetchedAt": "2025-10-09T03:29:32.820Z",
   "questions": [
     {
       "keyword": "what is sodium propionate",
       "volume": 30,
+      "original_keyword": "Sodium propionate",
       "parent_topic": "sodium propionate",
       "intents": [
         "informational"
@@ -14,6 +18,7 @@
     {
       "keyword": "is sodium propionate bad for you",
       "volume": 10,
+      "original_keyword": "Sodium propionate",
       "parent_topic": "sodium propionate side effects",
       "intents": [
         "informational"
@@ -22,48 +27,56 @@
     {
       "keyword": "\"what is the ph of a 0.26 m solution of sodium propionate\"",
       "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "\"which member of each pair is more soluble in water\" propionic acid or sodium propionate",
-      "volume": 0,
+      "original_keyword": "Sodium propionate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "5. sodium acetate and sodium propionate are poor soaps. why",
       "volume": 0,
+      "original_keyword": "Sodium propionate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how do sodium benzoate and sodium propionate keep yeast and fungus from growing?",
       "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how does sodium propionate work",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how much does a cup sodium propionate weigh",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how much sodium propionate in 1 cup flour",
-      "volume": 0,
+      "original_keyword": "Sodium propionate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how much sodium propionate in baking",
       "volume": 0,
+      "original_keyword": "Sodium propionate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much sodium propionate to use in baking",
+      "volume": 0,
+      "original_keyword": "Sodium propionate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "sodium acetate and sodium propionate make poor soaps, why?",
+      "volume": 0,
+      "original_keyword": "Sodium propionate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what do calcium propionate, sodium nitrate and acetic acid at to",
+      "volume": 0,
+      "original_keyword": "Sodium propionate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what does sodium propionate look like",
+      "volume": 0,
+      "original_keyword": "Sodium propionate",
       "parent_topic": "",
       "intents": []
     }

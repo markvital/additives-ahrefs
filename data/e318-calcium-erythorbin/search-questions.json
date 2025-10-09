@@ -1,6 +1,59 @@
 {
-  "keyword": "Calcium erythorbin",
+  "keywords": [
+    "Calcium erythorbin",
+    "E318"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.208Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:20:43.267Z",
+  "questions": [
+    {
+      "keyword": "fs17 what is e318 fortschritt",
+      "volume": 0,
+      "original_keyword": "E318",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is a e318 error edd",
+      "volume": 0,
+      "original_keyword": "E318",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is e318 error edd",
+      "volume": 0,
+      "original_keyword": "E318",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the value of the seth thomas eagle clock e318-001",
+      "volume": 0,
+      "original_keyword": "E318",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what would you use the e318 channellock tool for",
+      "volume": 0,
+      "original_keyword": "E318",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what would you use the e318 for",
+      "volume": 0,
+      "original_keyword": "E318",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "who makes a e318 plug",
+      "volume": 0,
+      "original_keyword": "E318",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

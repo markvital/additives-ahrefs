@@ -1,19 +1,102 @@
 {
-  "keyword": "E386",
+  "keywords": [
+    "Disodium ethylenediaminetetraacetate (Disodium EDTA)",
+    "E386",
+    "Disodium ethylenediaminetetraacetate",
+    "Disodium EDTA"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:45.180Z",
+  "fetchedAt": "2025-10-09T03:21:54.239Z",
   "questions": [
     {
-      "keyword": "cabin e386 veendam which deck has lifeboats",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is disodium edta",
+      "volume": 600,
+      "original_keyword": "Disodium EDTA",
+      "parent_topic": "disodium edta",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "how do i remove links from elgin e386 band",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is calcium disodium edta",
+      "volume": 350,
+      "original_keyword": "Disodium EDTA",
+      "parent_topic": "calcium disodium edta",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is calcium disodium edta harmful",
+      "volume": 200,
+      "original_keyword": "Disodium EDTA",
+      "parent_topic": "calcium disodium edta",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is disodium edta safe for skin",
+      "volume": 150,
+      "original_keyword": "Disodium EDTA",
+      "parent_topic": "disodium edta",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is calcium disodium edta bad for you",
+      "volume": 100,
+      "original_keyword": "Disodium EDTA",
+      "parent_topic": "calcium disodium edta",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is disodium edta safe",
+      "volume": 100,
+      "original_keyword": "Disodium EDTA",
+      "parent_topic": "disodium edta",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is calcium disodium edta dairy",
+      "volume": 60,
+      "original_keyword": "Disodium EDTA",
+      "parent_topic": "is calcium disodium edta dairy",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is disodium edta bad for you",
+      "volume": 50,
+      "original_keyword": "Disodium EDTA",
+      "parent_topic": "edta in food",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is disodium edta gluten free",
+      "volume": 30,
+      "original_keyword": "Disodium EDTA",
+      "parent_topic": "is disodium edta gluten free",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is disodium edta in food",
+      "volume": 30,
+      "original_keyword": "Disodium EDTA",
+      "parent_topic": "calcium disodium edta",
+      "intents": [
+        "informational"
+      ]
     }
   ]
 }

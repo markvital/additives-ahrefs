@@ -1,11 +1,15 @@
 {
-  "keyword": "Sodium tripolyphosphate",
+  "keywords": [
+    "Sodium tripolyphosphate",
+    "E452VI"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:25:15.713Z",
+  "fetchedAt": "2025-10-09T03:29:38.632Z",
   "questions": [
     {
       "keyword": "what is sodium tripolyphosphate",
       "volume": 300,
+      "original_keyword": "Sodium tripolyphosphate",
       "parent_topic": "sodium tripolyphosphate",
       "intents": [
         "informational"
@@ -14,6 +18,7 @@
     {
       "keyword": "is sodium tripolyphosphate bad for you",
       "volume": 60,
+      "original_keyword": "Sodium tripolyphosphate",
       "parent_topic": "sodium tripolyphosphate",
       "intents": [
         "informational"
@@ -22,7 +27,8 @@
     {
       "keyword": "what is sodium tripolyphosphate used for",
       "volume": 30,
-      "parent_topic": "sodium tripolyphosphate",
+      "original_keyword": "Sodium tripolyphosphate",
+      "parent_topic": "tripolyphosphate",
       "intents": [
         "informational"
       ]
@@ -30,6 +36,7 @@
     {
       "keyword": "where to buy shrimp without sodium tripolyphosphate",
       "volume": 30,
+      "original_keyword": "Sodium tripolyphosphate",
       "parent_topic": "where to buy shrimp without sodium tripolyphosphate",
       "intents": [
         "informational",
@@ -40,6 +47,7 @@
     {
       "keyword": "how to remove sodium tripolyphosphate from fish",
       "volume": 20,
+      "original_keyword": "Sodium tripolyphosphate",
       "parent_topic": "how to remove sodium tripolyphosphate from fish",
       "intents": [
         "informational"
@@ -48,6 +56,7 @@
     {
       "keyword": "how to remove sodium tripolyphosphate from shrimp",
       "volume": 20,
+      "original_keyword": "Sodium tripolyphosphate",
       "parent_topic": "how to remove sodium tripolyphosphate from fish",
       "intents": [
         "informational"
@@ -56,6 +65,7 @@
     {
       "keyword": "is sodium tripolyphosphate safe",
       "volume": 20,
+      "original_keyword": "Sodium tripolyphosphate",
       "parent_topic": "sodium tripolyphosphate",
       "intents": [
         "informational"
@@ -64,6 +74,7 @@
     {
       "keyword": "is sodium tripolyphosphate safe to eat",
       "volume": 10,
+      "original_keyword": "Sodium tripolyphosphate",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -72,14 +83,16 @@
     {
       "keyword": "what is sodium tripolyphosphate used for in food",
       "volume": 10,
+      "original_keyword": "Sodium tripolyphosphate",
       "parent_topic": "",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "household detergents, which many brands contains sodium tripolyphosphate (stpp).",
+      "keyword": "how dangerous is sodium tripolyphosphate?",
       "volume": 0,
+      "original_keyword": "Sodium tripolyphosphate",
       "parent_topic": "",
       "intents": []
     }

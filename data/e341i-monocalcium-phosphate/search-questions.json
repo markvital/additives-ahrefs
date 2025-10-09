@@ -1,11 +1,29 @@
 {
-  "keyword": "Monocalcium phosphate",
+  "keywords": [
+    "Monocalcium phosphate",
+    "E341I",
+    "Monobasic calcium phosphate",
+    "mono-calcium phosphate",
+    "E 341i",
+    "E-341i",
+    "E341 i"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:22.234Z",
+  "fetchedAt": "2025-10-09T03:25:32.443Z",
   "questions": [
     {
       "keyword": "what is monocalcium phosphate",
       "volume": 700,
+      "original_keyword": "Monocalcium phosphate",
+      "parent_topic": "monocalcium phosphate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is mono calcium phosphate",
+      "volume": 150,
+      "original_keyword": "mono-calcium phosphate",
       "parent_topic": "monocalcium phosphate",
       "intents": [
         "informational"
@@ -14,6 +32,7 @@
     {
       "keyword": "is monocalcium phosphate bad for you",
       "volume": 100,
+      "original_keyword": "Monocalcium phosphate",
       "parent_topic": "is monocalcium phosphate bad for you",
       "intents": [
         "informational"
@@ -22,12 +41,14 @@
     {
       "keyword": "what does monocalcium phosphate do to your body",
       "volume": 50,
+      "original_keyword": "Monocalcium phosphate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "is monocalcium phosphate dairy",
       "volume": 40,
+      "original_keyword": "Monocalcium phosphate",
       "parent_topic": "is monocalcium phosphate dairy",
       "intents": [
         "informational"
@@ -36,6 +57,7 @@
     {
       "keyword": "is monocalcium phosphate vegan",
       "volume": 40,
+      "original_keyword": "Monocalcium phosphate",
       "parent_topic": "is monocalcium phosphate vegan",
       "intents": [
         "informational"
@@ -43,15 +65,8 @@
     },
     {
       "keyword": "what is monocalcium phosphate in food",
-      "volume": 40,
-      "parent_topic": "monocalcium phosphate",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what is monocalcium phosphate used for",
       "volume": 30,
+      "original_keyword": "Monocalcium phosphate",
       "parent_topic": "monocalcium phosphate",
       "intents": [
         "informational"
@@ -60,6 +75,7 @@
     {
       "keyword": "is monocalcium phosphate gluten free",
       "volume": 20,
+      "original_keyword": "Monocalcium phosphate",
       "parent_topic": "is monocalcium phosphate gluten free",
       "intents": [
         "informational"
@@ -68,6 +84,7 @@
     {
       "keyword": "is monocalcium phosphate safe",
       "volume": 20,
+      "original_keyword": "Monocalcium phosphate",
       "parent_topic": "monocalcium phosphate",
       "intents": [
         "informational"
@@ -76,6 +93,7 @@
     {
       "keyword": "what is monocalcium phosphate made from",
       "volume": 20,
+      "original_keyword": "Monocalcium phosphate",
       "parent_topic": "",
       "intents": []
     }

@@ -1,35 +1,78 @@
 {
-  "keyword": "Potassium alginate",
+  "keywords": [
+    "Potassium alginate",
+    "E402"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:36.936Z",
+  "fetchedAt": "2025-10-09T03:25:59.118Z",
   "questions": [
+    {
+      "keyword": "asus e402 w where is the hard drive",
+      "volume": 0,
+      "original_keyword": "E402",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "dx-e402 how to set up",
+      "volume": 0,
+      "original_keyword": "E402",
+      "parent_topic": "",
+      "intents": []
+    },
     {
       "keyword": "how is potassium alginate used in food",
       "volume": 0,
+      "original_keyword": "Potassium alginate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to change asus e402 to boot from usb",
+      "volume": 0,
+      "original_keyword": "E402",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to clear space on asus e402",
+      "volume": 0,
+      "original_keyword": "E402",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to set up a dynex dx-e402 wired router",
+      "volume": 0,
+      "original_keyword": "E402",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to set up wi-fi with dx-e402",
+      "volume": 0,
+      "original_keyword": "E402",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to usb boot puppy linux asus e402",
+      "volume": 0,
+      "original_keyword": "E402",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what are the side effects of potassium alginate",
       "volume": 0,
+      "original_keyword": "Potassium alginate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is potassium alginate",
       "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is the purpose of the potassium alginate in impression alginate quizlet",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is the purpose of the potassium in impression alginate",
-      "volume": 0,
+      "original_keyword": "Potassium alginate",
       "parent_topic": "",
       "intents": []
     }

@@ -1,65 +1,81 @@
 {
-  "keyword": "flavin mononucleotide",
+  "keywords": [
+    "flavin mononucleotide",
+    "E106"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:45.425Z",
+  "fetchedAt": "2025-10-09T03:21:54.449Z",
   "questions": [
+    {
+      "keyword": "what is an e106",
+      "volume": 10,
+      "original_keyword": "E106",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is system error e106 xbox one",
+      "volume": 10,
+      "original_keyword": "E106",
+      "parent_topic": "xbox system error e106",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
     {
       "keyword": "5. explain the change in voltage when the flavin mononucleotide is added to the chloroplasts.",
       "volume": 0,
+      "original_keyword": "flavin mononucleotide",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "e106 error xbox what does it mean",
+      "volume": 0,
+      "original_keyword": "E106",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "e106 when resetting cknse",
+      "volume": 0,
+      "original_keyword": "E106",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "e106 xbox one how to fix",
+      "volume": 0,
+      "original_keyword": "E106",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "flavin mononucleotide base where is nucleotide",
       "volume": 0,
+      "original_keyword": "flavin mononucleotide",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "flavin mononucleotide how many electrons can it hold",
       "volume": 0,
+      "original_keyword": "flavin mononucleotide",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "fmn (flavin mononucleotide) is what type of protein",
       "volume": 0,
+      "original_keyword": "flavin mononucleotide",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "fmn (flavin mononucleotide) is what type of protein \\",
       "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "fmn flavin mononucleotide is what kind of protein",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is flavin mononucleotide",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is fmn (flavin mononucleotide)",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what protein is fmn (flavin mononucleotide)",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "which is not an electron transport chain carrier molecule: a. flavin mononucleotide",
-      "volume": 0,
+      "original_keyword": "flavin mononucleotide",
       "parent_topic": "",
       "intents": []
     }

@@ -1,59 +1,78 @@
 {
-  "keyword": "Rice bran wax",
+  "keywords": [
+    "Rice bran wax",
+    "E908"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:47.433Z",
+  "fetchedAt": "2025-10-09T03:29:15.449Z",
   "questions": [
     {
       "keyword": "what is rice bran wax",
       "volume": 30,
+      "original_keyword": "Rice bran wax",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to flashboot e908",
+      "volume": 0,
+      "original_keyword": "E908",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how to make rice bran wax",
       "volume": 0,
+      "original_keyword": "Rice bran wax",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how to separate wax from unrefined rice bran oil",
       "volume": 0,
+      "original_keyword": "Rice bran wax",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is rice bran wax used for",
       "volume": 0,
+      "original_keyword": "Rice bran wax",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is the density of rice bran wax",
       "volume": 0,
+      "original_keyword": "Rice bran wax",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is the e number of rice bran wax",
       "volume": 0,
+      "original_keyword": "Rice bran wax",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is the melting point of rice bran wax?",
       "volume": 0,
+      "original_keyword": "Rice bran wax",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what temp does rice bran wax melt?",
       "volume": 0,
+      "original_keyword": "Rice bran wax",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "where to get ingredient rice bran wax oryza sativa cera",
       "volume": 0,
+      "original_keyword": "Rice bran wax",
       "parent_topic": "",
       "intents": []
     }

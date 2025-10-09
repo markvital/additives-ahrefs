@@ -1,11 +1,15 @@
 {
-  "keyword": "Magnesium Gluconate",
+  "keywords": [
+    "Magnesium Gluconate",
+    "E580"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:16.046Z",
+  "fetchedAt": "2025-10-09T03:23:52.971Z",
   "questions": [
     {
       "keyword": "what is magnesium gluconate good for",
       "volume": 200,
+      "original_keyword": "Magnesium Gluconate",
       "parent_topic": "magnesium gluconate",
       "intents": [
         "informational"
@@ -14,6 +18,7 @@
     {
       "keyword": "what is magnesium gluconate",
       "volume": 150,
+      "original_keyword": "Magnesium Gluconate",
       "parent_topic": "magnesium gluconate",
       "intents": [
         "informational"
@@ -22,6 +27,7 @@
     {
       "keyword": "what is magnesium gluconate used for",
       "volume": 150,
+      "original_keyword": "Magnesium Gluconate",
       "parent_topic": "magnesium gluconate",
       "intents": [
         "informational"
@@ -30,6 +36,7 @@
     {
       "keyword": "what does magnesium gluconate do",
       "volume": 90,
+      "original_keyword": "Magnesium Gluconate",
       "parent_topic": "magnesium gluconate",
       "intents": [
         "informational"
@@ -38,6 +45,7 @@
     {
       "keyword": "what is magnesium gluconate for",
       "volume": 50,
+      "original_keyword": "Magnesium Gluconate",
       "parent_topic": "magnesium gluconate",
       "intents": [
         "informational"
@@ -46,6 +54,7 @@
     {
       "keyword": "magnesium gluconate para que sirve",
       "volume": 40,
+      "original_keyword": "Magnesium Gluconate",
       "parent_topic": "magnesium glycinate para que sirve",
       "intents": [
         "informational"
@@ -54,28 +63,34 @@
     {
       "keyword": "does magnesium gluconate cause diarrhea",
       "volume": 20,
+      "original_keyword": "Magnesium Gluconate",
       "parent_topic": "can magnesium cause diarrhea",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "how much magnesium gluconate for sleep",
-      "volume": 20,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
       "keyword": "how much magnesium gluconate per day",
       "volume": 20,
+      "original_keyword": "Magnesium Gluconate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what are the benefits of magnesium gluconate",
       "volume": 20,
+      "original_keyword": "Magnesium Gluconate",
       "parent_topic": "",
       "intents": []
+    },
+    {
+      "keyword": "what is magnesium gluconate 500 mg used for",
+      "volume": 20,
+      "original_keyword": "Magnesium Gluconate",
+      "parent_topic": "magnesium gluconate",
+      "intents": [
+        "informational"
+      ]
     }
   ]
 }

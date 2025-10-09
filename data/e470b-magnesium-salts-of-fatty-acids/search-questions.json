@@ -1,11 +1,15 @@
 {
-  "keyword": "Magnesium salts of fatty acids",
+  "keywords": [
+    "Magnesium salts of fatty acids",
+    "E470B"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:17.509Z",
+  "fetchedAt": "2025-10-09T03:23:53.813Z",
   "questions": [
     {
       "keyword": "what is magnesium salts of fatty acids",
       "volume": 0,
+      "original_keyword": "Magnesium salts of fatty acids",
       "parent_topic": "",
       "intents": []
     }

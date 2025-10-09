@@ -1,11 +1,80 @@
 {
-  "keyword": "Indanthrene blue RS",
+  "keywords": [
+    "Indanthrene blue RS",
+    "E130",
+    "Indanthrone blue",
+    "indanthrene"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:23:55.197Z",
+  "fetchedAt": "2025-10-09T03:23:40.796Z",
   "questions": [
     {
-      "keyword": "what is the e number of indanthrene blue rs",
+      "keyword": "how do i get my john deere e130 engaged to move forward",
       "volume": 0,
+      "original_keyword": "E130",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how many gallons of gas does john deee e130 take",
+      "volume": 0,
+      "original_keyword": "E130",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to change oil filter on john deere e130",
+      "volume": 0,
+      "original_keyword": "E130",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to change the john deere e130 blades without dropping the mower deck",
+      "volume": 0,
+      "original_keyword": "E130",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to install a bumper on a john deere e130",
+      "volume": 0,
+      "original_keyword": "E130",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to install mulch cover on john deere e130",
+      "volume": 0,
+      "original_keyword": "E130",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to mix indanthrone blue",
+      "volume": 0,
+      "original_keyword": "Indanthrone blue",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to operate a john deere e130",
+      "volume": 0,
+      "original_keyword": "E130",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to operate john deere e130",
+      "volume": 0,
+      "original_keyword": "E130",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to remove mower deck john deere e130",
+      "volume": 0,
+      "original_keyword": "E130",
       "parent_topic": "",
       "intents": []
     }

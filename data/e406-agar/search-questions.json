@@ -1,84 +1,110 @@
 {
-  "keyword": "Agar",
+  "keywords": [
+    "Agar",
+    "E406",
+    "Gelose",
+    "Kanten",
+    "Bengal",
+    "Ceylon",
+    "Chinese or Japanese isinglass",
+    "agar-agar",
+    "agar agar"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.275Z",
+  "fetchedAt": "2025-10-09T03:20:38.557Z",
   "questions": [
     {
       "keyword": "what is agar",
-      "volume": 4600,
+      "volume": 4500,
+      "original_keyword": "Agar",
       "parent_topic": "agar",
       "intents": [
         "informational"
       ]
     },
     {
+      "keyword": "what is ceylon cinnamon",
+      "volume": 3200,
+      "original_keyword": "Ceylon",
+      "parent_topic": "what is ceylon cinnamon",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "how much is a bengal cat",
+      "volume": 3000,
+      "original_keyword": "Bengal",
+      "parent_topic": "how much is a bengal cat",
+      "intents": [
+        "informational",
+        "commercial"
+      ]
+    },
+    {
+      "keyword": "where to buy ceylon cinnamon",
+      "volume": 2800,
+      "original_keyword": "Ceylon",
+      "parent_topic": "ceylon cinnamon sticks",
+      "intents": [
+        "informational",
+        "commercial",
+        "transactional"
+      ]
+    },
+    {
+      "keyword": "are bengal cats hypoallergenic",
+      "volume": 2100,
+      "original_keyword": "Bengal",
+      "parent_topic": "are bengal cats hypoallergenic",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
       "keyword": "what is agar agar",
-      "volume": 1900,
+      "volume": 2000,
+      "original_keyword": "Agar",
       "parent_topic": "agar agar powder",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is agar powder",
-      "volume": 800,
-      "parent_topic": "what is agar",
+      "keyword": "what is a bengal",
+      "volume": 1900,
+      "original_keyword": "Bengal",
+      "parent_topic": "bengal cat",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "is annie agar married",
-      "volume": 600,
-      "parent_topic": "annie agar husband",
+      "keyword": "how much are bengal cats",
+      "volume": 1400,
+      "original_keyword": "Bengal",
+      "parent_topic": "bengal cat price",
       "intents": [
-        "informational"
+        "informational",
+        "commercial"
       ]
     },
     {
-      "keyword": "what is agar agar powder",
-      "volume": 600,
-      "parent_topic": "what is agar",
+      "keyword": "how much do bengal cats cost",
+      "volume": 1300,
+      "original_keyword": "Bengal",
+      "parent_topic": "bengal cat price",
       "intents": [
-        "informational"
+        "informational",
+        "commercial"
       ]
     },
     {
-      "keyword": "how to make agar plates",
-      "volume": 350,
-      "parent_topic": "how to make agar plates",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is agar agar healthy",
-      "volume": 350,
-      "parent_topic": "is agar agar healthy",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is blood agar selective or differential",
-      "volume": 350,
-      "parent_topic": "differential media",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "how to use agar agar powder",
-      "volume": 300,
-      "parent_topic": "what is agar agar",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is linda susan agar still alive",
-      "volume": 300,
-      "parent_topic": "linda susan agar",
+      "keyword": "where is the bay of bengal",
+      "volume": 1300,
+      "original_keyword": "Bengal",
+      "parent_topic": "bay of bengal",
       "intents": [
         "informational"
       ]

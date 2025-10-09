@@ -1,11 +1,16 @@
 {
-  "keyword": "Hydroxypropyl cellulose",
+  "keywords": [
+    "Hydroxypropyl cellulose",
+    "E463",
+    "Hydroxypropylcellulose"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:23:54.347Z",
+  "fetchedAt": "2025-10-09T03:23:39.121Z",
   "questions": [
     {
       "keyword": "what is hydroxypropyl cellulose",
       "volume": 80,
+      "original_keyword": "Hydroxypropyl cellulose",
       "parent_topic": "hydroxypropyl cellulose",
       "intents": [
         "informational"
@@ -14,6 +19,7 @@
     {
       "keyword": "is hydroxypropyl cellulose safe",
       "volume": 20,
+      "original_keyword": "Hydroxypropyl cellulose",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -22,50 +28,58 @@
     {
       "keyword": "what is hydroxypropyl methyl cellulose",
       "volume": 20,
+      "original_keyword": "Hydroxypropyl cellulose",
       "parent_topic": "hydroxypropyl methyl cellulose",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is hydroxypropyl cellulose used for",
-      "volume": 10,
+      "keyword": "how do i update my usb driver using windows 7 home premium so i can use my sony walkman nwz-e463?",
+      "volume": 0,
+      "original_keyword": "E463",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how is hydroxypropyl cellulose made",
       "volume": 0,
+      "original_keyword": "Hydroxypropyl cellulose",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how much hydroxypropyl cellulose to use in a formula to make it gel",
       "volume": 0,
+      "original_keyword": "Hydroxypropyl cellulose",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "how to make a gel with hydroxypropyl cellulose",
+      "keyword": "how much is psr e463",
       "volume": 0,
+      "original_keyword": "E463",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what are microcrystalline celullose, hydroxypropyl cellulose and hydroxypropyl methylcellulose",
+      "keyword": "how much is yamaha psr e463 in nigeria",
       "volume": 0,
+      "original_keyword": "E463",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what does hydroxypropyl cellulose look like",
+      "keyword": "how to assign voices to memory banks in yamaha e463",
       "volume": 0,
+      "original_keyword": "E463",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what does hydroxypropyl methylcellulose, microcrystalline cellulose, l-leucine. help",
+      "keyword": "how to connect yamaha psr e463 to pc",
       "volume": 0,
+      "original_keyword": "E463",
       "parent_topic": "",
       "intents": []
     }

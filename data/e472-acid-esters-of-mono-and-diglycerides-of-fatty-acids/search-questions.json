@@ -1,6 +1,54 @@
 {
-  "keyword": "acid esters of mono- and diglycerides of fatty acids",
+  "keywords": [
+    "acid esters of mono- and diglycerides of fatty acids",
+    "E472"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.228Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:16:32.302Z",
+  "questions": [
+    {
+      "keyword": "what foods to avoid that have e472 tartatic and esters of mono and diglyerides",
+      "volume": 0,
+      "original_keyword": "E472",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is e471 and e472",
+      "volume": 0,
+      "original_keyword": "E472",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is e472",
+      "volume": 0,
+      "original_keyword": "E472",
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is e472 d tartaric acid esters of mono and diglycerides?",
+      "volume": 0,
+      "original_keyword": "E472",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is e472 in food",
+      "volume": 0,
+      "original_keyword": "E472",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is e472 of tartaric acid essters of mono and diglycerides?",
+      "volume": 0,
+      "original_keyword": "E472",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

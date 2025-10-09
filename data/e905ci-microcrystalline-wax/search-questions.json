@@ -1,11 +1,15 @@
 {
-  "keyword": "Microcrystalline wax",
+  "keywords": [
+    "Microcrystalline wax",
+    "E905CI"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:20.452Z",
+  "fetchedAt": "2025-10-09T03:23:57.680Z",
   "questions": [
     {
       "keyword": "what is microcrystalline wax",
       "volume": 150,
+      "original_keyword": "Microcrystalline wax",
       "parent_topic": "microcrystalline wax",
       "intents": [
         "informational"
@@ -14,6 +18,7 @@
     {
       "keyword": "where to buy microcrystalline wax",
       "volume": 20,
+      "original_keyword": "Microcrystalline wax",
       "parent_topic": "",
       "intents": [
         "commercial",
@@ -23,12 +28,14 @@
     {
       "keyword": "what is microcrystalline wax made of",
       "volume": 10,
+      "original_keyword": "Microcrystalline wax",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "where can i buy microcrystalline wax",
       "volume": 10,
+      "original_keyword": "Microcrystalline wax",
       "parent_topic": "",
       "intents": [
         "commercial",
@@ -38,36 +45,42 @@
     {
       "keyword": "1 pound of microcrystalline wax weighs how much in everdur bronze",
       "volume": 0,
+      "original_keyword": "Microcrystalline wax",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "at what temperature does microcrystalline wax melt",
       "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "brown microcrystalline wax what is it used for",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how much is one pound of microcrystalline wax",
-      "volume": 0,
+      "original_keyword": "Microcrystalline wax",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how to determine the crystallinity of microcrystalline wax",
       "volume": 0,
+      "original_keyword": "Microcrystalline wax",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how to make dark microcrystalline paste wax",
       "volume": 0,
+      "original_keyword": "Microcrystalline wax",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to make pomade with microcrystalline wax",
+      "volume": 0,
+      "original_keyword": "Microcrystalline wax",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to remove microcrystalline wax from fabric",
+      "volume": 0,
+      "original_keyword": "Microcrystalline wax",
       "parent_topic": "",
       "intents": []
     }

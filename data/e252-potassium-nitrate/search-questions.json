@@ -1,12 +1,16 @@
 {
-  "keyword": "Potassium nitrate",
+  "keywords": [
+    "Potassium nitrate",
+    "E252"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:41.015Z",
+  "fetchedAt": "2025-10-09T03:26:04.136Z",
   "questions": [
     {
       "keyword": "what is potassium nitrate",
       "volume": 350,
-      "parent_topic": "saltpeter",
+      "original_keyword": "Potassium nitrate",
+      "parent_topic": "potassium nitrate",
       "intents": [
         "informational"
       ]
@@ -14,6 +18,7 @@
     {
       "keyword": "where to buy potassium nitrate",
       "volume": 300,
+      "original_keyword": "Potassium nitrate",
       "parent_topic": "potassium nitrate",
       "intents": [
         "informational",
@@ -24,6 +29,7 @@
     {
       "keyword": "is potassium nitrate soluble in water",
       "volume": 250,
+      "original_keyword": "Potassium nitrate",
       "parent_topic": "potassium nitrate",
       "intents": [
         "informational"
@@ -32,6 +38,7 @@
     {
       "keyword": "why is potassium nitrate classified as an electrolyte",
       "volume": 200,
+      "original_keyword": "Potassium nitrate",
       "parent_topic": "why is potassium nitrate classified as an electrolyte",
       "intents": [
         "informational"
@@ -40,6 +47,7 @@
     {
       "keyword": "how to make potassium nitrate",
       "volume": 150,
+      "original_keyword": "Potassium nitrate",
       "parent_topic": "how to make potassium nitrate",
       "intents": [
         "informational"
@@ -48,15 +56,8 @@
     {
       "keyword": "what does potassium nitrate do for teeth",
       "volume": 100,
+      "original_keyword": "Potassium nitrate",
       "parent_topic": "potassium nitrate toothpaste",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what has potassium nitrate in it",
-      "volume": 100,
-      "parent_topic": "",
       "intents": [
         "informational"
       ]
@@ -64,6 +65,7 @@
     {
       "keyword": "what is potassium nitrate used for",
       "volume": 100,
+      "original_keyword": "Potassium nitrate",
       "parent_topic": "potassium nitrate",
       "intents": [
         "informational"
@@ -72,6 +74,7 @@
     {
       "keyword": "where does potassium nitrate come from",
       "volume": 100,
+      "original_keyword": "Potassium nitrate",
       "parent_topic": "saltpeter",
       "intents": [
         "informational"
@@ -80,10 +83,20 @@
     {
       "keyword": "where to buy potassium nitrate stump remover",
       "volume": 100,
+      "original_keyword": "Potassium nitrate",
       "parent_topic": "potassium nitrate stump remover",
       "intents": [
         "commercial",
         "transactional"
+      ]
+    },
+    {
+      "keyword": "what has potassium nitrate in it",
+      "volume": 90,
+      "original_keyword": "Potassium nitrate",
+      "parent_topic": "",
+      "intents": [
+        "informational"
       ]
     }
   ]

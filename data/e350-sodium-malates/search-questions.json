@@ -1,6 +1,101 @@
 {
-  "keyword": "Sodium malates",
+  "keywords": [
+    "Sodium malates",
+    "E350"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:25:11.461Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:29:30.516Z",
+  "questions": [
+    {
+      "keyword": "where is the oil dipstick on a mercedes e350",
+      "volume": 60,
+      "original_keyword": "E350",
+      "parent_topic": "where is the oil dipstick on a mercedes e350",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "how to open hood on mercedes e350",
+      "volume": 50,
+      "original_keyword": "E350",
+      "parent_topic": "mercedes e350 hood release",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "where is tge spare tire for 2020 mercedes e350",
+      "volume": 50,
+      "original_keyword": "E350",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to jump start mercedes e350",
+      "volume": 30,
+      "original_keyword": "E350",
+      "parent_topic": "2007 mercedes e350 jump start",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "how to pop hood on mercedes e350",
+      "volume": 30,
+      "original_keyword": "E350",
+      "parent_topic": "how to open hood on mercedes e350",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "how much is an e350 mercedes",
+      "volume": 20,
+      "original_keyword": "E350",
+      "parent_topic": "2023 mercedes-benz e-class",
+      "intents": []
+    },
+    {
+      "keyword": "how to open hood mercedes e350",
+      "volume": 20,
+      "original_keyword": "E350",
+      "parent_topic": "mercedes e350 hood release",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "how to open hood on 2014 mercedes e350",
+      "volume": 20,
+      "original_keyword": "E350",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to open trunk on mercedes e350 with dead battery",
+      "volume": 20,
+      "original_keyword": "E350",
+      "parent_topic": "how to open mercedes trunk with dead battery",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "how to pop the hood on a mercedes e350",
+      "volume": 20,
+      "original_keyword": "E350",
+      "parent_topic": "mercedes e350 hood release",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    }
+  ]
 }

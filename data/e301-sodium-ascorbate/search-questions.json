@@ -1,11 +1,16 @@
 {
-  "keyword": "Sodium ascorbate",
+  "keywords": [
+    "Sodium ascorbate",
+    "E301",
+    "Sodium L-ascorbate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:50.224Z",
+  "fetchedAt": "2025-10-09T03:29:22.913Z",
   "questions": [
     {
       "keyword": "what is sodium ascorbate",
       "volume": 200,
+      "original_keyword": "Sodium ascorbate",
       "parent_topic": "sodium ascorbate",
       "intents": [
         "informational"
@@ -14,6 +19,7 @@
     {
       "keyword": "is sodium ascorbate vitamin c",
       "volume": 100,
+      "original_keyword": "Sodium ascorbate",
       "parent_topic": "sodium ascorbate",
       "intents": [
         "informational"
@@ -22,6 +28,7 @@
     {
       "keyword": "what is sodium ascorbate used for",
       "volume": 20,
+      "original_keyword": "Sodium ascorbate",
       "parent_topic": "what is sodium ascorbate used for",
       "intents": [
         "informational"
@@ -30,6 +37,7 @@
     {
       "keyword": "how to make sodium ascorbate",
       "volume": 10,
+      "original_keyword": "Sodium ascorbate",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -38,12 +46,14 @@
     {
       "keyword": "how to take sodium ascorbate",
       "volume": 10,
+      "original_keyword": "Sodium ascorbate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "is sodium ascorbate safe",
       "volume": 10,
+      "original_keyword": "Sodium ascorbate",
       "parent_topic": "what is sodium ascorbate",
       "intents": [
         "informational"
@@ -52,6 +62,7 @@
     {
       "keyword": "is sodium ascorbate the same as ascorbic acid",
       "volume": 10,
+      "original_keyword": "Sodium ascorbate",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -60,18 +71,21 @@
     {
       "keyword": "what does sodium ascorbate do",
       "volume": 10,
+      "original_keyword": "Sodium ascorbate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is sodium ascorbate good for",
       "volume": 10,
+      "original_keyword": "Sodium ascorbate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is sodium ascorbate?",
       "volume": 10,
+      "original_keyword": "Sodium ascorbate",
       "parent_topic": "",
       "intents": []
     }

@@ -1,17 +1,50 @@
 {
-  "keyword": "Acetylated distarch adipate",
+  "keywords": [
+    "Acetylated distarch adipate",
+    "E1422"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.268Z",
+  "fetchedAt": "2025-10-09T03:16:32.399Z",
   "questions": [
+    {
+      "keyword": "e1422 what is",
+      "volume": 0,
+      "original_keyword": "E1422",
+      "parent_topic": "",
+      "intents": []
+    },
     {
       "keyword": "what is acetylated distarch adipate",
       "volume": 0,
+      "original_keyword": "Acetylated distarch adipate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is e1422",
+      "volume": 0,
+      "original_keyword": "E1422",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is e1422 in food",
+      "volume": 0,
+      "original_keyword": "E1422",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is e1422 in food ingredients",
+      "volume": 0,
+      "original_keyword": "E1422",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is the e number for acetylated distarch adipate",
       "volume": 0,
+      "original_keyword": "Acetylated distarch adipate",
       "parent_topic": "",
       "intents": []
     }

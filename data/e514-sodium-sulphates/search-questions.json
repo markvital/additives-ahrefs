@@ -1,6 +1,82 @@
 {
-  "keyword": "Sodium sulphates",
+  "keywords": [
+    "Sodium sulphates",
+    "E514"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:25:14.663Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:29:36.630Z",
+  "questions": [
+    {
+      "keyword": "e514: write error (file system full?)",
+      "volume": 20,
+      "original_keyword": "E514",
+      "parent_topic": "e514: write error (file system full?)",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "dell e514 firmware update how to",
+      "volume": 0,
+      "original_keyword": "E514",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how can i connect my offline dell e514 dwprinter",
+      "volume": 0,
+      "original_keyword": "E514",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to clean printer dell e514 rollers",
+      "volume": 0,
+      "original_keyword": "E514",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to connect dell e514 printer scanner to my computer",
+      "volume": 0,
+      "original_keyword": "E514",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to print wirelessly from a dell e514 printer",
+      "volume": 0,
+      "original_keyword": "E514",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to repair nautilus e514 elliptical replacement",
+      "volume": 0,
+      "original_keyword": "E514",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to scan from dell e514 on the network?",
+      "volume": 0,
+      "original_keyword": "E514",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to set up e514 dw",
+      "volume": 0,
+      "original_keyword": "E514",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to wake up dell e514 e514dwp",
+      "volume": 0,
+      "original_keyword": "E514",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

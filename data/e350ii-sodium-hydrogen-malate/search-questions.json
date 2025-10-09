@@ -1,11 +1,15 @@
 {
-  "keyword": "Sodium hydrogen malate",
+  "keywords": [
+    "Sodium hydrogen malate",
+    "E350II"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:25:10.418Z",
+  "fetchedAt": "2025-10-09T03:29:28.787Z",
   "questions": [
     {
       "keyword": "what is sodium hydrogen malate used for?",
       "volume": 0,
+      "original_keyword": "Sodium hydrogen malate",
       "parent_topic": "",
       "intents": []
     }

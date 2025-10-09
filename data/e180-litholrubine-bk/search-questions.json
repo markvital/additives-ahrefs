@@ -1,6 +1,84 @@
 {
-  "keyword": "Litholrubine bk",
+  "keywords": [
+    "Litholrubine bk",
+    "E180",
+    "CI Pigment Red 57",
+    "Rubinpigment",
+    "Pigment Rubine",
+    "Lithol rubine bk"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:14.192Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:23:51.139Z",
+  "questions": [
+    {
+      "keyword": "after how many hours do i need to change oil on john deere e180",
+      "volume": 0,
+      "original_keyword": "E180",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "girlsdoporn e180 who is it",
+      "volume": 0,
+      "original_keyword": "E180",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how do you change moser blades john deere e180",
+      "volume": 0,
+      "original_keyword": "E180",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much does a john deere e180 mower cost",
+      "volume": 0,
+      "original_keyword": "E180",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much is e180 in american money",
+      "volume": 0,
+      "original_keyword": "E180",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much is the oil for the john deere e180",
+      "volume": 0,
+      "original_keyword": "E180",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to clear a blockage in a e180 3d printer",
+      "volume": 0,
+      "original_keyword": "E180",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to connect e180 to easy print 3d on computer",
+      "volume": 0,
+      "original_keyword": "E180",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to fix clicking on e180 3d printer",
+      "volume": 0,
+      "original_keyword": "E180",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to get a good print on the geetech e180 3d printer",
+      "volume": 0,
+      "original_keyword": "E180",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

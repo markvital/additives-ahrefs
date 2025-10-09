@@ -1,11 +1,15 @@
 {
-  "keyword": "Modified Starch",
+  "keywords": [
+    "Modified Starch",
+    "E14XX"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:21.014Z",
+  "fetchedAt": "2025-10-09T03:25:28.585Z",
   "questions": [
     {
       "keyword": "what is modified food starch",
       "volume": 2700,
+      "original_keyword": "Modified Starch",
       "parent_topic": "modified food starch",
       "intents": [
         "informational"
@@ -14,7 +18,8 @@
     {
       "keyword": "is modified food starch gluten free",
       "volume": 1300,
-      "parent_topic": "what is modified food starch",
+      "original_keyword": "Modified Starch",
+      "parent_topic": "modified food starch",
       "intents": [
         "informational"
       ]
@@ -22,7 +27,8 @@
     {
       "keyword": "what is modified corn starch",
       "volume": 1200,
-      "parent_topic": "modified corn starch",
+      "original_keyword": "Modified Starch",
+      "parent_topic": "modified food starch",
       "intents": [
         "informational"
       ]
@@ -30,6 +36,7 @@
     {
       "keyword": "is modified corn starch gluten free",
       "volume": 500,
+      "original_keyword": "Modified Starch",
       "parent_topic": "is cornstarch gluten free",
       "intents": [
         "informational"
@@ -38,6 +45,7 @@
     {
       "keyword": "what is modified wheat starch",
       "volume": 500,
+      "original_keyword": "Modified Starch",
       "parent_topic": "modified wheat starch",
       "intents": [
         "informational"
@@ -46,6 +54,7 @@
     {
       "keyword": "is modified corn starch bad for you",
       "volume": 400,
+      "original_keyword": "Modified Starch",
       "parent_topic": "is modified food starch bad for you",
       "intents": [
         "informational"
@@ -54,6 +63,7 @@
     {
       "keyword": "does modified food starch have gluten",
       "volume": 300,
+      "original_keyword": "Modified Starch",
       "parent_topic": "modified food starch",
       "intents": [
         "informational"
@@ -62,6 +72,7 @@
     {
       "keyword": "what is modified starch",
       "volume": 200,
+      "original_keyword": "Modified Starch",
       "parent_topic": "modified food starch",
       "intents": [
         "informational"
@@ -70,6 +81,7 @@
     {
       "keyword": "what is food starch modified",
       "volume": 150,
+      "original_keyword": "Modified Starch",
       "parent_topic": "modified corn starch",
       "intents": [
         "informational"
@@ -78,7 +90,8 @@
     {
       "keyword": "what is modified tapioca starch",
       "volume": 150,
-      "parent_topic": "what is modified tapioca starch",
+      "original_keyword": "Modified Starch",
+      "parent_topic": "modified tapioca starch",
       "intents": [
         "informational"
       ]

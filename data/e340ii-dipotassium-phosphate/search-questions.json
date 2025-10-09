@@ -1,11 +1,21 @@
 {
-  "keyword": "Dipotassium phosphate",
+  "keywords": [
+    "Dipotassium phosphate",
+    "E340II",
+    "Dipotassium monophosphate",
+    "Secondary potassium phosphate",
+    "Dipotassium orthophosphate",
+    "E 340ii",
+    "E-340ii",
+    "E340 ii"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.913Z",
+  "fetchedAt": "2025-10-09T03:23:26.126Z",
   "questions": [
     {
       "keyword": "what is dipotassium phosphate",
       "volume": 1000,
+      "original_keyword": "Dipotassium phosphate",
       "parent_topic": "dipotassium phosphate",
       "intents": [
         "informational"
@@ -14,15 +24,8 @@
     {
       "keyword": "is dipotassium phosphate bad for you",
       "volume": 450,
+      "original_keyword": "Dipotassium phosphate",
       "parent_topic": "dipotassium phosphate bad for you",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what is dipotassium phosphate used for",
-      "volume": 80,
-      "parent_topic": "is dipotassium phosphate bad for you",
       "intents": [
         "informational"
       ]
@@ -30,7 +33,17 @@
     {
       "keyword": "is dipotassium phosphate safe",
       "volume": 60,
-      "parent_topic": "disodium phosphate",
+      "original_keyword": "Dipotassium phosphate",
+      "parent_topic": "dipotassium phosphate side effects",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is dipotassium phosphate used for",
+      "volume": 60,
+      "original_keyword": "Dipotassium phosphate",
+      "parent_topic": "is dipotassium phosphate bad for you",
       "intents": [
         "informational"
       ]
@@ -38,6 +51,7 @@
     {
       "keyword": "is dipotassium phosphate good for you",
       "volume": 40,
+      "original_keyword": "Dipotassium phosphate",
       "parent_topic": "is dipotassium phosphate bad for you",
       "intents": [
         "informational"
@@ -46,6 +60,7 @@
     {
       "keyword": "what is dipotassium phosphate in food",
       "volume": 40,
+      "original_keyword": "Dipotassium phosphate",
       "parent_topic": "dipotassium phosphate",
       "intents": [
         "informational"
@@ -54,24 +69,28 @@
     {
       "keyword": "what does dipotassium phosphate do",
       "volume": 20,
+      "original_keyword": "Dipotassium phosphate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "dipotassium phosphate what is it",
       "volume": 10,
+      "original_keyword": "Dipotassium phosphate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how is dipotassium phosphate made",
       "volume": 10,
+      "original_keyword": "Dipotassium phosphate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how much dipotassium phosphate is bad for you",
       "volume": 10,
+      "original_keyword": "Dipotassium phosphate",
       "parent_topic": "",
       "intents": []
     }

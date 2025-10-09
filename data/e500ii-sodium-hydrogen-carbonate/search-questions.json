@@ -1,77 +1,104 @@
 {
-  "keyword": "Sodium hydrogen carbonate",
+  "keywords": [
+    "Sodium hydrogen carbonate",
+    "E500II",
+    "Sodium bicarbonate",
+    "sodium acid carbonate",
+    "Bicarbonate of soda",
+    "baking soda"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:25:10.236Z",
+  "fetchedAt": "2025-10-09T03:24:24.480Z",
   "questions": [
     {
-      "keyword": "what is sodium hydrogen carbonate",
-      "volume": 150,
-      "parent_topic": "baking soda",
+      "keyword": "what is sodium bicarbonate",
+      "volume": 9600,
+      "original_keyword": "Sodium bicarbonate",
+      "parent_topic": "sodium bicarbonate uses",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is the percent composition of sodium hydrogen carbonate nahco3",
-      "volume": 150,
-      "parent_topic": "what is the percent composition of sodium hydrogen carbonate nahco3",
-      "intents": []
-    },
-    {
-      "keyword": "is sodium hydrogen carbonate the same as sodium bicarbonate",
-      "volume": 40,
-      "parent_topic": "",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is sodium hydrogen carbonate the same as baking soda",
-      "volume": 20,
-      "parent_topic": "",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "how to identify sodium hydrogen carbonate",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is sodium hydrogen carbonate used for",
-      "volume": 10,
-      "parent_topic": "baking soda",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what is the correct formula for sodium hydrogen carbonate",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is the formula for sodium hydrogen carbonate",
-      "volume": 10,
+      "keyword": "what is baking soda",
+      "volume": 9000,
+      "original_keyword": "baking soda",
       "parent_topic": "sodium bicarbonate",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "calculate the ph of solution when the concentration of sodium hydrogen carbonate is 0.230 m",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what does baking soda do",
+      "volume": 5100,
+      "original_keyword": "baking soda",
+      "parent_topic": "baking soda",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "calculate the ph of solution when the concentration of sodium hydrogen carbonate is 0.910 m.",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what's the difference between baking soda and baking powder",
+      "volume": 5000,
+      "original_keyword": "baking soda",
+      "parent_topic": "baking soda vs baking powder",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "can i use baking soda instead of baking powder",
+      "volume": 4000,
+      "original_keyword": "baking soda",
+      "parent_topic": "can i use baking soda instead of baking powder",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does baking soda go bad",
+      "volume": 3900,
+      "original_keyword": "baking soda",
+      "parent_topic": "does baking soda expire",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "can i use baking powder instead of baking soda",
+      "volume": 3800,
+      "original_keyword": "baking soda",
+      "parent_topic": "can you substitute baking powder for baking soda",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is baking soda made of",
+      "volume": 3800,
+      "original_keyword": "baking soda",
+      "parent_topic": "what is baking soda made of",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does baking soda whiten teeth",
+      "volume": 3700,
+      "original_keyword": "baking soda",
+      "parent_topic": "does baking soda whiten teeth",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to wash strawberries with baking soda",
+      "volume": 3500,
+      "original_keyword": "baking soda",
+      "parent_topic": "how to wash strawberries",
+      "intents": [
+        "informational"
+      ]
     }
   ]
 }

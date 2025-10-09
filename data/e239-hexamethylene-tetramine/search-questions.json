@@ -1,17 +1,82 @@
 {
-  "keyword": "Hexamethylene tetramine",
+  "keywords": [
+    "Hexamethylene tetramine",
+    "E239",
+    "Hexamine",
+    "hexamethylenetetramine"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:23:53.369Z",
+  "fetchedAt": "2025-10-09T03:23:38.503Z",
   "questions": [
     {
-      "keyword": "what is hexamethylene tetramine",
-      "volume": 0,
+      "keyword": "what is hexamine",
+      "volume": 30,
+      "original_keyword": "Hexamine",
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to make rdx from hexamine",
+      "volume": 10,
+      "original_keyword": "Hexamine",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what type of compound is hexamethylene tetramine?",
+      "keyword": "why is hexamine banned",
+      "volume": 10,
+      "original_keyword": "Hexamine",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "girlsdoporn e239 who is she?",
       "volume": 0,
+      "original_keyword": "E239",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "hexamine is used for what",
+      "volume": 0,
+      "original_keyword": "Hexamine",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how can hexamine damage the body",
+      "volume": 0,
+      "original_keyword": "Hexamine",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how do i ship hexamine",
+      "volume": 0,
+      "original_keyword": "Hexamine",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how does hexamine affect the human body",
+      "volume": 0,
+      "original_keyword": "Hexamine",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how is hexamine made",
+      "volume": 0,
+      "original_keyword": "Hexamine",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how is the nickel (ii) hexahydrate different in appearance from the hexamine nickel (ii) chloride",
+      "volume": 0,
+      "original_keyword": "Hexamine",
       "parent_topic": "",
       "intents": []
     }

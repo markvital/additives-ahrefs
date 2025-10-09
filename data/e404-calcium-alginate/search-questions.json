@@ -1,11 +1,15 @@
 {
-  "keyword": "Calcium alginate",
+  "keywords": [
+    "Calcium alginate",
+    "E404"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.862Z",
+  "fetchedAt": "2025-10-09T03:16:34.724Z",
   "questions": [
     {
       "keyword": "what is calcium alginate",
       "volume": 200,
+      "original_keyword": "Calcium alginate",
       "parent_topic": "calcium alginate",
       "intents": [
         "informational"
@@ -14,6 +18,7 @@
     {
       "keyword": "how to apply calcium alginate dressing",
       "volume": 150,
+      "original_keyword": "Calcium alginate",
       "parent_topic": "calcium alginate dressing",
       "intents": [
         "informational"
@@ -21,7 +26,8 @@
     },
     {
       "keyword": "is calcium alginate and aquacel ag the same thing",
-      "volume": 150,
+      "volume": 100,
+      "original_keyword": "Calcium alginate",
       "parent_topic": "is calcium alginate and aquacel ag the same thing",
       "intents": [
         "informational",
@@ -31,6 +37,7 @@
     {
       "keyword": "is aquacel ag the same as calcium alginate",
       "volume": 90,
+      "original_keyword": "Calcium alginate",
       "parent_topic": "hydrofera blue vs calcium alginate",
       "intents": [
         "informational",
@@ -40,6 +47,7 @@
     {
       "keyword": "what does calcium alginate do for wounds",
       "volume": 90,
+      "original_keyword": "Calcium alginate",
       "parent_topic": "calcium alginate wound dressing",
       "intents": [
         "informational"
@@ -47,7 +55,8 @@
     },
     {
       "keyword": "how often to change calcium alginate dressing",
-      "volume": 80,
+      "volume": 70,
+      "original_keyword": "Calcium alginate",
       "parent_topic": "calcium alginate dressing",
       "intents": [
         "informational"
@@ -56,6 +65,7 @@
     {
       "keyword": "what is calcium alginate used for",
       "volume": 70,
+      "original_keyword": "Calcium alginate",
       "parent_topic": "what is calcium alginate",
       "intents": [
         "informational"
@@ -64,6 +74,16 @@
     {
       "keyword": "what is calcium alginate wound dressing used for",
       "volume": 70,
+      "original_keyword": "Calcium alginate",
+      "parent_topic": "calcium alginate dressing",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to use silver calcium alginate wound dressing",
+      "volume": 60,
+      "original_keyword": "Calcium alginate",
       "parent_topic": "calcium alginate dressing",
       "intents": [
         "informational"
@@ -71,19 +91,12 @@
     },
     {
       "keyword": "can santyl and calcium alginate be used together",
-      "volume": 60,
+      "volume": 50,
+      "original_keyword": "Calcium alginate",
       "parent_topic": "",
       "intents": [
         "informational",
         "branded"
-      ]
-    },
-    {
-      "keyword": "how to use silver calcium alginate wound dressing",
-      "volume": 60,
-      "parent_topic": "calcium alginate dressing",
-      "intents": [
-        "informational"
       ]
     }
   ]

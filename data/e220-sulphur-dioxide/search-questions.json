@@ -1,82 +1,98 @@
 {
-  "keyword": "Sulphur dioxide",
+  "keywords": [
+    "Sulphur dioxide",
+    "E220",
+    "Sulfur dioxide"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:25:21.612Z",
+  "fetchedAt": "2025-10-09T03:29:59.323Z",
   "questions": [
     {
-      "keyword": "what is sulphur dioxide",
-      "volume": 200,
+      "keyword": "what is sulfur dioxide",
+      "volume": 1400,
+      "original_keyword": "Sulfur dioxide",
       "parent_topic": "sulfur dioxide",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "is sulphur dioxide bad for you",
-      "volume": 100,
+      "keyword": "is sulfur dioxide bad for you",
+      "volume": 1100,
+      "original_keyword": "Sulfur dioxide",
       "parent_topic": "sulfur dioxide in food",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is sulphur dioxide in food",
+      "keyword": "is sulfur dioxide in food bad for you",
+      "volume": 300,
+      "original_keyword": "Sulfur dioxide",
+      "parent_topic": "is sulfur dioxide in food bad for you",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is sulfur dioxide used for",
+      "volume": 200,
+      "original_keyword": "Sulfur dioxide",
+      "parent_topic": "sulfur dioxide",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is sulphur dioxide",
+      "volume": 200,
+      "original_keyword": "Sulphur dioxide",
+      "parent_topic": "sulfur dioxide",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where does sulfur dioxide come from",
+      "volume": 200,
+      "original_keyword": "Sulfur dioxide",
+      "parent_topic": "what is sulfur dioxide",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sulfur dioxide in dried fruit bad for you",
+      "volume": 150,
+      "original_keyword": "Sulfur dioxide",
+      "parent_topic": "sulfur dioxide in food",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is sulfur dioxide in food",
+      "volume": 150,
+      "original_keyword": "Sulfur dioxide",
+      "parent_topic": "sulfur dioxide in food",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how is sulfur dioxide formed",
       "volume": 100,
-      "parent_topic": "sulphur dioxide in food",
+      "original_keyword": "Sulfur dioxide",
+      "parent_topic": "so2",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "how do you make sulphur dioxide?",
-      "volume": 40,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how can sulphur dioxide emissions be reduced",
-      "volume": 30,
-      "parent_topic": "",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "how to reduce sulphur dioxide emissions",
-      "volume": 30,
-      "parent_topic": "",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "how to reduce sulphur dioxide pollution",
-      "volume": 30,
-      "parent_topic": "",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is sulphur dioxide in food bad for you",
-      "volume": 30,
-      "parent_topic": "sulphur dioxide in food",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is sulphur dioxide toxic",
-      "volume": 30,
-      "parent_topic": "",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is sulphur dioxide harmful",
-      "volume": 20,
-      "parent_topic": "",
+      "keyword": "is sulfur dioxide a gas",
+      "volume": 100,
+      "original_keyword": "Sulfur dioxide",
+      "parent_topic": "sulfur dioxide",
       "intents": [
         "informational"
       ]

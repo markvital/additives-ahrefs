@@ -1,19 +1,15 @@
 {
-  "keyword": "Magnesium lactate",
+  "keywords": [
+    "Magnesium lactate",
+    "E329"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:16.653Z",
+  "fetchedAt": "2025-10-09T03:23:53.162Z",
   "questions": [
     {
       "keyword": "what is magnesium lactate good for",
       "volume": 60,
-      "parent_topic": "magnesium lactate",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what does magnesium lactate do",
-      "volume": 40,
+      "original_keyword": "Magnesium lactate",
       "parent_topic": "magnesium lactate",
       "intents": [
         "informational"
@@ -22,6 +18,7 @@
     {
       "keyword": "what is magnesium lactate",
       "volume": 40,
+      "original_keyword": "Magnesium lactate",
       "parent_topic": "magnesium lactate",
       "intents": [
         "informational"
@@ -30,6 +27,16 @@
     {
       "keyword": "what is magnesium lactate used for",
       "volume": 40,
+      "original_keyword": "Magnesium lactate",
+      "parent_topic": "magnesium lactate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does magnesium lactate do",
+      "volume": 30,
+      "original_keyword": "Magnesium lactate",
       "parent_topic": "magnesium lactate",
       "intents": [
         "informational"
@@ -38,7 +45,8 @@
     {
       "keyword": "is magnesium lactate good for you",
       "volume": 20,
-      "parent_topic": "magnesium lactate",
+      "original_keyword": "Magnesium lactate",
+      "parent_topic": "magnesium lactate benefits",
       "intents": [
         "informational"
       ]
@@ -46,6 +54,7 @@
     {
       "keyword": "how much magnesium lactate should i take",
       "volume": 10,
+      "original_keyword": "Magnesium lactate",
       "parent_topic": "how much magnesium lactate should i take",
       "intents": [
         "informational"
@@ -54,24 +63,28 @@
     {
       "keyword": "what does magnesium lactate help with",
       "volume": 10,
+      "original_keyword": "Magnesium lactate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is magnesium lactate best for",
       "volume": 10,
+      "original_keyword": "Magnesium lactate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is magnesium lactate for",
       "volume": 10,
+      "original_keyword": "Magnesium lactate",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "how absorbable is magnesium lactate",
+      "keyword": "girls do porn e329 who are they",
       "volume": 0,
+      "original_keyword": "E329",
       "parent_topic": "",
       "intents": []
     }

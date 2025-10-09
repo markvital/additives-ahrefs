@@ -1,6 +1,39 @@
 {
-  "keyword": "Fatty acid esters of ascorbic acid",
+  "keywords": [
+    "Fatty acid esters of ascorbic acid",
+    "E304",
+    "ascorbic acid esters of fatty acid"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:45.413Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:21:54.636Z",
+  "questions": [
+    {
+      "keyword": "how to turn on keyboard touch sensitivity on e304",
+      "volume": 0,
+      "original_keyword": "E304",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is e304",
+      "volume": 0,
+      "original_keyword": "E304",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is e304 in food",
+      "volume": 0,
+      "original_keyword": "E304",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is error code e304",
+      "volume": 0,
+      "original_keyword": "E304",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

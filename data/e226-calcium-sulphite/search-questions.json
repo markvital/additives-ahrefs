@@ -1,17 +1,83 @@
 {
-  "keyword": "Calcium sulphite",
+  "keywords": [
+    "Calcium sulphite",
+    "E226",
+    "Calcium sulfite"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.507Z",
+  "fetchedAt": "2025-10-09T03:20:48.484Z",
   "questions": [
     {
-      "keyword": "what is calcium sulphite health risks",
+      "keyword": "is calcium sulfite soluble in water",
+      "volume": 10,
+      "original_keyword": "Calcium sulfite",
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is the formula for calcium sulfite",
+      "volume": 10,
+      "original_keyword": "Calcium sulfite",
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "1. how many grams of ca2+ are present in 4.28 grams of calcium sulfite?",
       "volume": 0,
+      "original_keyword": "Calcium sulfite",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what is calcium sulphite used in the most",
+      "keyword": "balance calcium sulfite decomposes when heated to form calcium oxide and sulfur dioxide",
       "volume": 0,
+      "original_keyword": "Calcium sulfite",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "e226 girlsdoporn who",
+      "volume": 0,
+      "original_keyword": "E226",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how many grams of calcium are present in 3.36 grams of calcium sulfite, caso3",
+      "volume": 0,
+      "original_keyword": "Calcium sulfite",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how many grams of calcium sulfite can be made from 4.35 grams of calcium",
+      "volume": 0,
+      "original_keyword": "Calcium sulfite",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to find the formula for calcium sulfite?",
+      "volume": 0,
+      "original_keyword": "Calcium sulfite",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to use calcium sulfite concentrate health",
+      "volume": 0,
+      "original_keyword": "Calcium sulfite",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what does calcium sulfite and hcl produce",
+      "volume": 0,
+      "original_keyword": "Calcium sulfite",
       "parent_topic": "",
       "intents": []
     }

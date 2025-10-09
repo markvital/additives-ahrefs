@@ -1,12 +1,98 @@
 {
-  "keyword": "Tripotassium citrate",
+  "keywords": [
+    "Tripotassium citrate",
+    "E332II",
+    "potassium citrate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:19:04.291Z",
+  "fetchedAt": "2025-10-09T03:30:06.921Z",
   "questions": [
     {
-      "keyword": "what is tripotassium citrate",
-      "volume": 50,
+      "keyword": "what is potassium citrate",
+      "volume": 700,
+      "original_keyword": "potassium citrate",
       "parent_topic": "potassium citrate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how long should you take potassium citrate for",
+      "volume": 250,
+      "original_keyword": "potassium citrate",
+      "parent_topic": "potassium citrate dosage per day",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how long should you take potassium citrate for kidney stones",
+      "volume": 200,
+      "original_keyword": "potassium citrate",
+      "parent_topic": "potassium citrate dosage per day",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is potassium citrate good for you",
+      "volume": 200,
+      "original_keyword": "potassium citrate",
+      "parent_topic": "urocit-k",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "can potassium citrate dissolve kidney stones",
+      "volume": 100,
+      "original_keyword": "potassium citrate",
+      "parent_topic": "potassium citrate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how much potassium citrate per day",
+      "volume": 100,
+      "original_keyword": "potassium citrate",
+      "parent_topic": "potassium citrate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is the difference between potassium citrate and potassium gluconate",
+      "volume": 100,
+      "original_keyword": "potassium citrate",
+      "parent_topic": "potassium gluconate vs potassium citrate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is potassium citrate used for",
+      "volume": 90,
+      "original_keyword": "potassium citrate",
+      "parent_topic": "potassium citrate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is potassium citrate bad for you",
+      "volume": 70,
+      "original_keyword": "potassium citrate",
+      "parent_topic": "potassium citrate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what's the difference between potassium citrate and potassium gluconate",
+      "volume": 70,
+      "original_keyword": "potassium citrate",
+      "parent_topic": "potassium gluconate vs potassium citrate",
       "intents": [
         "informational"
       ]

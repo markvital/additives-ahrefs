@@ -1,11 +1,16 @@
 {
-  "keyword": "Gluconic acid",
+  "keywords": [
+    "Gluconic acid",
+    "E574",
+    "D-gluconic acid"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:45.743Z",
+  "fetchedAt": "2025-10-09T03:21:55.114Z",
   "questions": [
     {
       "keyword": "what is gluconic acid",
       "volume": 150,
+      "original_keyword": "Gluconic acid",
       "parent_topic": "gluconic acid",
       "intents": [
         "informational"
@@ -14,6 +19,7 @@
     {
       "keyword": "is gluconic acid gluten free",
       "volume": 50,
+      "original_keyword": "Gluconic acid",
       "parent_topic": "is gluconic acid gluten free",
       "intents": [
         "informational"
@@ -22,6 +28,7 @@
     {
       "keyword": "can dogs have gluconic acid",
       "volume": 20,
+      "original_keyword": "Gluconic acid",
       "parent_topic": "is gluconic acid safe for dogs",
       "intents": [
         "informational"
@@ -30,6 +37,7 @@
     {
       "keyword": "is gluconic acid bad for you",
       "volume": 20,
+      "original_keyword": "Gluconic acid",
       "parent_topic": "is gluconic acid bad for you",
       "intents": [
         "informational"
@@ -38,6 +46,7 @@
     {
       "keyword": "is gluconic acid safe for dogs",
       "volume": 20,
+      "original_keyword": "Gluconic acid",
       "parent_topic": "can dogs have gluconic acid",
       "intents": [
         "informational"
@@ -46,6 +55,7 @@
     {
       "keyword": "what is gluconic acid in food",
       "volume": 20,
+      "original_keyword": "Gluconic acid",
       "parent_topic": "what is gluconic acid",
       "intents": [
         "informational"
@@ -54,6 +64,7 @@
     {
       "keyword": "is gluconic acid safe",
       "volume": 10,
+      "original_keyword": "Gluconic acid",
       "parent_topic": "is gluconic acid bad for you",
       "intents": [
         "informational"
@@ -62,18 +73,21 @@
     {
       "keyword": "\\delta-glucono lactone into gluconic acid, for example, dy/dt = -0.6y when t is measured in hours.",
       "volume": 0,
+      "original_keyword": "Gluconic acid",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "4. how is gluconic acid formed from glucose? write an equation.",
       "volume": 0,
+      "original_keyword": "Gluconic acid",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "a. what is the purpose of producing gluconic acid and peroxides?",
+      "keyword": "d-gluconic acid and d-mannonic acid are interconverted when is heated in pyridine solvent.",
       "volume": 0,
+      "original_keyword": "D-gluconic acid",
       "parent_topic": "",
       "intents": []
     }

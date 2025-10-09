@@ -1,6 +1,39 @@
 {
-  "keyword": "Sodium methyl p-hydroxybenzoate",
+  "keywords": [
+    "Sodium methyl p-hydroxybenzoate",
+    "E219",
+    "sodium methylparaben"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:25:11.876Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:29:31.390Z",
+  "questions": [
+    {
+      "keyword": "how often to clean weber e219",
+      "volume": 0,
+      "original_keyword": "E219",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "immortals song 2 e219 who won",
+      "volume": 0,
+      "original_keyword": "E219",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is methylparaben sodium",
+      "volume": 0,
+      "original_keyword": "sodium methylparaben",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is sodium methylparaben",
+      "volume": 0,
+      "original_keyword": "sodium methylparaben",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

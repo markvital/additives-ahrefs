@@ -1,11 +1,16 @@
 {
-  "keyword": "Leucine",
+  "keywords": [
+    "Leucine",
+    "E641",
+    "L-Leucine"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:13.842Z",
+  "fetchedAt": "2025-10-09T03:23:49.502Z",
   "questions": [
     {
       "keyword": "what is leucine",
       "volume": 1400,
+      "original_keyword": "Leucine",
       "parent_topic": "leucine",
       "intents": [
         "informational"
@@ -14,6 +19,7 @@
     {
       "keyword": "how much leucine per day to build muscle",
       "volume": 800,
+      "original_keyword": "Leucine",
       "parent_topic": "how much leucine per day to build muscle",
       "intents": [
         "informational"
@@ -22,7 +28,17 @@
     {
       "keyword": "how much leucine per day",
       "volume": 500,
+      "original_keyword": "Leucine",
       "parent_topic": "how much leucine per day",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does leucine do",
+      "volume": 250,
+      "original_keyword": "Leucine",
+      "parent_topic": "leucine supplement",
       "intents": [
         "informational"
       ]
@@ -30,23 +46,8 @@
     {
       "keyword": "what is l-leucine",
       "volume": 250,
+      "original_keyword": "Leucine",
       "parent_topic": "leucine",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "can you take leucine and hmb together",
-      "volume": 200,
-      "parent_topic": "can you take leucine and hmb together",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what does leucine do",
-      "volume": 200,
-      "parent_topic": "leucine supplement",
       "intents": [
         "informational"
       ]
@@ -54,13 +55,24 @@
     {
       "keyword": "what food is highest in leucine",
       "volume": 200,
+      "original_keyword": "Leucine",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what foods have leucine",
       "volume": 200,
+      "original_keyword": "Leucine",
       "parent_topic": "leucine foods",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "can you take leucine and hmb together",
+      "volume": 150,
+      "original_keyword": "Leucine",
+      "parent_topic": "can you take leucine and hmb together",
       "intents": [
         "informational"
       ]
@@ -68,6 +80,7 @@
     {
       "keyword": "how much leucine in eggs",
       "volume": 150,
+      "original_keyword": "Leucine",
       "parent_topic": "how much leucine in eggs",
       "intents": [
         "informational"
@@ -76,6 +89,7 @@
     {
       "keyword": "what foods are high in leucine",
       "volume": 150,
+      "original_keyword": "Leucine",
       "parent_topic": "leucine foods",
       "intents": [
         "informational"

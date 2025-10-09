@@ -1,11 +1,15 @@
 {
-  "keyword": "Buffered vinegar",
+  "keywords": [
+    "Buffered vinegar",
+    "E267"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.855Z",
+  "fetchedAt": "2025-10-09T03:16:34.687Z",
   "questions": [
     {
       "keyword": "what is buffered vinegar",
-      "volume": 60,
+      "volume": 50,
+      "original_keyword": "Buffered vinegar",
       "parent_topic": "buffered vinegar",
       "intents": [
         "informational"
@@ -14,12 +18,28 @@
     {
       "keyword": "how to make buffered vinegar",
       "volume": 10,
+      "original_keyword": "Buffered vinegar",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what are the issues of room e267 on carnival imagination ship?",
+      "volume": 0,
+      "original_keyword": "E267",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "where to buy buffered vinegar",
       "volume": 0,
+      "original_keyword": "Buffered vinegar",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "who is girlsdoporn e267",
+      "volume": 0,
+      "original_keyword": "E267",
       "parent_topic": "",
       "intents": []
     }

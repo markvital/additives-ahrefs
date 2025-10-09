@@ -1,11 +1,15 @@
 {
-  "keyword": "sodium thiosulfate",
+  "keywords": [
+    "sodium thiosulfate",
+    "E539"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:25:15.530Z",
+  "fetchedAt": "2025-10-09T03:29:37.879Z",
   "questions": [
     {
       "keyword": "what is sodium thiosulfate",
       "volume": 150,
+      "original_keyword": "sodium thiosulfate",
       "parent_topic": "sodium thiosulfate",
       "intents": [
         "informational"
@@ -14,15 +18,8 @@
     {
       "keyword": "what is sodium thiosulfate used for",
       "volume": 100,
+      "original_keyword": "sodium thiosulfate",
       "parent_topic": "sodium thiosulfate uses",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is gold sodium thiosulfate in makeup",
-      "volume": 60,
-      "parent_topic": "is gold sodium thiosulfate in makeup",
       "intents": [
         "informational"
       ]
@@ -30,6 +27,7 @@
     {
       "keyword": "sodium thiosulfate where to buy",
       "volume": 60,
+      "original_keyword": "sodium thiosulfate",
       "parent_topic": "buy sodium thiosulfate",
       "intents": [
         "commercial",
@@ -39,6 +37,7 @@
     {
       "keyword": "where to buy sodium thiosulfate",
       "volume": 60,
+      "original_keyword": "sodium thiosulfate",
       "parent_topic": "buy sodium thiosulfate",
       "intents": [
         "commercial",
@@ -48,7 +47,17 @@
     {
       "keyword": "how much sodium thiosulfate to neutralize chlorine",
       "volume": 50,
+      "original_keyword": "sodium thiosulfate",
       "parent_topic": "how much sodium thiosulfate to neutralize chlorine",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is gold sodium thiosulfate in makeup",
+      "volume": 50,
+      "original_keyword": "sodium thiosulfate",
+      "parent_topic": "is gold sodium thiosulfate in makeup",
       "intents": [
         "informational"
       ]
@@ -56,20 +65,14 @@
     {
       "keyword": "how many elements are in sodium thiosulfate",
       "volume": 40,
+      "original_keyword": "sodium thiosulfate",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "is sodium thiosulfate dangerous",
-      "volume": 40,
-      "parent_topic": "sodium thiosulfate sds",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
       "keyword": "what does sodium thiosulfate do",
       "volume": 40,
+      "original_keyword": "sodium thiosulfate",
       "parent_topic": "sodium thiosulfate uses",
       "intents": [
         "informational"
@@ -78,7 +81,17 @@
     {
       "keyword": "how much sodium thiosulfate to lower chlorine",
       "volume": 30,
-      "parent_topic": "chlorine neutralizer for pool",
+      "original_keyword": "sodium thiosulfate",
+      "parent_topic": "sodium thiosulfate pool",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sodium thiosulfate dangerous",
+      "volume": 30,
+      "original_keyword": "sodium thiosulfate",
+      "parent_topic": "sodium thiosulfate sds",
       "intents": [
         "informational"
       ]

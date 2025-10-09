@@ -1,12 +1,16 @@
 {
-  "keyword": "Citric acid",
+  "keywords": [
+    "Citric acid",
+    "E330"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.809Z",
+  "fetchedAt": "2025-10-09T03:20:51.475Z",
   "questions": [
     {
       "keyword": "what is citric acid",
       "volume": 12000,
-      "parent_topic": "citric acid",
+      "original_keyword": "Citric acid",
+      "parent_topic": "is citric acid bad for you",
       "intents": [
         "informational"
       ]
@@ -14,6 +18,7 @@
     {
       "keyword": "is citric acid bad for you",
       "volume": 7400,
+      "original_keyword": "Citric acid",
       "parent_topic": "is citric acid bad for you",
       "intents": [
         "informational"
@@ -21,15 +26,17 @@
     },
     {
       "keyword": "where does the citric acid cycle occur",
-      "volume": 2400,
-      "parent_topic": "citric acid cycle",
+      "volume": 2600,
+      "original_keyword": "Citric acid",
+      "parent_topic": "where does the citric acid cycle take place",
       "intents": [
         "informational"
       ]
     },
     {
       "keyword": "what does citric acid do to your body",
-      "volume": 1600,
+      "volume": 1700,
+      "original_keyword": "Citric acid",
       "parent_topic": "what does citric acid do to your body",
       "intents": [
         "informational"
@@ -38,6 +45,7 @@
     {
       "keyword": "where to buy citric acid",
       "volume": 1600,
+      "original_keyword": "Citric acid",
       "parent_topic": "citric acid powder",
       "intents": [
         "informational",
@@ -48,6 +56,7 @@
     {
       "keyword": "where does citric acid come from",
       "volume": 1200,
+      "original_keyword": "Citric acid",
       "parent_topic": "is citric acid bad for you",
       "intents": [
         "informational"
@@ -55,7 +64,8 @@
     },
     {
       "keyword": "how is citric acid made",
-      "volume": 1000,
+      "volume": 1100,
+      "original_keyword": "Citric acid",
       "parent_topic": "what is citric acid",
       "intents": [
         "informational"
@@ -64,7 +74,8 @@
     {
       "keyword": "what is citric acid used for",
       "volume": 1000,
-      "parent_topic": "what does citric acid do to your body",
+      "original_keyword": "Citric acid",
+      "parent_topic": "what is citric acid",
       "intents": [
         "informational"
       ]
@@ -72,7 +83,8 @@
     {
       "keyword": "where does citric acid cycle occur",
       "volume": 1000,
-      "parent_topic": "krebs cycle",
+      "original_keyword": "Citric acid",
+      "parent_topic": "citric acid cycle",
       "intents": [
         "informational"
       ]
@@ -80,6 +92,7 @@
     {
       "keyword": "is citric acid vitamin c",
       "volume": 900,
+      "original_keyword": "Citric acid",
       "parent_topic": "citric acid vs ascorbic acid",
       "intents": [
         "informational"

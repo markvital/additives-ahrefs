@@ -1,11 +1,15 @@
 {
-  "keyword": "isomalt",
+  "keywords": [
+    "isomalt",
+    "E953"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:23:56.632Z",
+  "fetchedAt": "2025-10-09T03:23:42.446Z",
   "questions": [
     {
       "keyword": "what is isomalt",
       "volume": 3200,
+      "original_keyword": "isomalt",
       "parent_topic": "isomalt",
       "intents": [
         "informational"
@@ -14,6 +18,7 @@
     {
       "keyword": "how to make isomalt",
       "volume": 200,
+      "original_keyword": "isomalt",
       "parent_topic": "isomalt sugar",
       "intents": [
         "informational"
@@ -22,6 +27,7 @@
     {
       "keyword": "how to use isomalt",
       "volume": 150,
+      "original_keyword": "isomalt",
       "parent_topic": "isomalt sugar art",
       "intents": [
         "informational"
@@ -30,6 +36,7 @@
     {
       "keyword": "what is isomalt made of",
       "volume": 150,
+      "original_keyword": "isomalt",
       "parent_topic": "isomalt",
       "intents": [
         "informational"
@@ -38,6 +45,7 @@
     {
       "keyword": "what is isomalt sugar",
       "volume": 150,
+      "original_keyword": "isomalt",
       "parent_topic": "what is isomalt",
       "intents": [
         "informational"
@@ -46,6 +54,7 @@
     {
       "keyword": "what is isomalt used for",
       "volume": 80,
+      "original_keyword": "isomalt",
       "parent_topic": "how to use isomalt",
       "intents": [
         "informational"
@@ -54,6 +63,7 @@
     {
       "keyword": "where to buy isomalt",
       "volume": 80,
+      "original_keyword": "isomalt",
       "parent_topic": "where to buy isomalt",
       "intents": [
         "informational",
@@ -64,6 +74,7 @@
     {
       "keyword": "what does isomalt taste like",
       "volume": 70,
+      "original_keyword": "isomalt",
       "parent_topic": "what is isomalt",
       "intents": [
         "informational"
@@ -72,6 +83,7 @@
     {
       "keyword": "can you eat isomalt",
       "volume": 50,
+      "original_keyword": "isomalt",
       "parent_topic": "isomalt recipe",
       "intents": [
         "informational"
@@ -80,6 +92,7 @@
     {
       "keyword": "how do you make isomalt",
       "volume": 40,
+      "original_keyword": "isomalt",
       "parent_topic": "how to make isomalt",
       "intents": [
         "informational"

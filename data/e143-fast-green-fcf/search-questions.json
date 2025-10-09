@@ -1,25 +1,96 @@
 {
-  "keyword": "Fast Green FCF",
+  "keywords": [
+    "Fast Green FCF",
+    "E143",
+    "Food green 3",
+    "C.I. 42053",
+    "Solid Green FCF",
+    "Green 1724",
+    "FD&C Green No. 3",
+    "Green 3"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:45.568Z",
+  "fetchedAt": "2025-10-09T03:23:30.337Z",
   "questions": [
     {
-      "keyword": "how to prepare fast green fcf for injections",
-      "volume": 0,
+      "keyword": "who is the green symbiote in venom 3",
+      "volume": 350,
+      "original_keyword": "Green 3",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what is fast green fcf",
-      "volume": 0,
+      "keyword": "can i travel 3 months before my green card expires",
+      "volume": 250,
+      "original_keyword": "Green 3",
+      "parent_topic": "can green card holders travel",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "why has my poop been green for 3 days",
+      "volume": 100,
+      "original_keyword": "Green 3",
+      "parent_topic": "green poop",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "who was the green symbiote in venom 3",
+      "volume": 80,
+      "original_keyword": "Green 3",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what wavlength should be used to test the absorbance of fast green fcf",
-      "volume": 0,
+      "keyword": "what is green 3",
+      "volume": 60,
+      "original_keyword": "Green 3",
+      "parent_topic": "green 3 dye",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "why is toxin green in venom 3",
+      "volume": 60,
+      "original_keyword": "Green 3",
       "parent_topic": "",
       "intents": []
+    },
+    {
+      "keyword": "why is my 3 year olds poop green",
+      "volume": 40,
+      "original_keyword": "Green 3",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to do green thumbs in goat simulator 3",
+      "volume": 30,
+      "original_keyword": "Green 3",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is hayatoku-3-green wide",
+      "volume": 30,
+      "original_keyword": "Green 3",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the green bar in borderlands 3",
+      "volume": 30,
+      "original_keyword": "Green 3",
+      "parent_topic": "borderlands 3 green bar",
+      "intents": [
+        "informational",
+        "branded"
+      ]
     }
   ]
 }

@@ -1,11 +1,58 @@
 {
-  "keyword": "Paprika extract",
+  "keywords": [
+    "Paprika extract",
+    "E160C",
+    "capsanthin",
+    "capsorubin",
+    "Paprika oleoresin",
+    "oleoresin of paprika",
+    "oleoresin paprika",
+    "paprika color",
+    "colored with paprika"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:29.114Z",
+  "fetchedAt": "2025-10-09T03:25:48.331Z",
   "questions": [
     {
-      "keyword": "what is paprika extract",
+      "keyword": "what color is paprika",
+      "volume": 150,
+      "original_keyword": "paprika color",
+      "parent_topic": "paprika",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is oleoresin paprika",
+      "volume": 150,
+      "original_keyword": "Paprika oleoresin",
+      "parent_topic": "oleoresin paprika",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is paprika oleoresin",
+      "volume": 60,
+      "original_keyword": "Paprika oleoresin",
+      "parent_topic": "oleoresin paprika",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is paprika just for color",
       "volume": 30,
+      "original_keyword": "paprika color",
+      "parent_topic": "what is paprika made of",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is paprika extract",
+      "volume": 20,
+      "original_keyword": "Paprika extract",
       "parent_topic": "oleoresin paprika",
       "intents": [
         "informational"
@@ -14,54 +61,35 @@
     {
       "keyword": "how is paprika extract made",
       "volume": 10,
+      "original_keyword": "Paprika extract",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what does the color paprika look like",
+      "volume": 10,
+      "original_keyword": "paprika color",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is oleoresin of paprika",
+      "volume": 10,
+      "original_keyword": "Paprika oleoresin",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is paprika extract color",
       "volume": 10,
+      "original_keyword": "Paprika extract",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "how hot on the scoville scale is the extract of paprika",
+      "keyword": "1. which red fraction is capsanthin and which is capsorbin? how can you tell?",
       "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what are uses for paprika extract",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what countries is paprika extract banned",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is paprika extract made of",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is paprika fruit extract?",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is the purpose to extract and seperate the pigments in paprika",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "why do you use dichloromethan to extract paprika",
-      "volume": 0,
+      "original_keyword": "capsanthin",
       "parent_topic": "",
       "intents": []
     }

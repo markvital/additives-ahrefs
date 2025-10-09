@@ -1,11 +1,19 @@
 {
-  "keyword": "Ethanol",
+  "keywords": [
+    "Ethanol",
+    "E1510",
+    "ethyl alcohol",
+    "Methylcarbinol",
+    "Ethyl hydroxide",
+    "Ethyl hydrate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:45.582Z",
+  "fetchedAt": "2025-10-09T03:23:26.502Z",
   "questions": [
     {
       "keyword": "what is ethanol",
-      "volume": 6900,
+      "volume": 6100,
+      "original_keyword": "Ethanol",
       "parent_topic": "ethanol",
       "intents": [
         "informational"
@@ -13,7 +21,8 @@
     },
     {
       "keyword": "is ethanol polar",
-      "volume": 3700,
+      "volume": 3800,
+      "original_keyword": "Ethanol",
       "parent_topic": "is ethanol polar",
       "intents": [
         "informational"
@@ -22,6 +31,7 @@
     {
       "keyword": "what is ethanol free gas",
       "volume": 1900,
+      "original_keyword": "Ethanol",
       "parent_topic": "ethanol free gas",
       "intents": [
         "informational"
@@ -30,6 +40,7 @@
     {
       "keyword": "what is ethanol used for",
       "volume": 1400,
+      "original_keyword": "Ethanol",
       "parent_topic": "ethanol",
       "intents": [
         "informational"
@@ -38,6 +49,7 @@
     {
       "keyword": "what is non ethanol gas",
       "volume": 1200,
+      "original_keyword": "Ethanol",
       "parent_topic": "what is non ethanol gas",
       "intents": [
         "informational"
@@ -45,7 +57,8 @@
     },
     {
       "keyword": "who sells ethanol free gas near me",
-      "volume": 1100,
+      "volume": 1200,
+      "original_keyword": "Ethanol",
       "parent_topic": "ethanol free gas",
       "intents": [
         "informational",
@@ -55,7 +68,17 @@
     {
       "keyword": "how is ethanol made",
       "volume": 1000,
+      "original_keyword": "Ethanol",
       "parent_topic": "how is ethanol made",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is ethyl alcohol",
+      "volume": 1000,
+      "original_keyword": "ethyl alcohol",
+      "parent_topic": "ethanol",
       "intents": [
         "informational"
       ]
@@ -63,6 +86,7 @@
     {
       "keyword": "how much ethanol is in 87 octane gas",
       "volume": 900,
+      "original_keyword": "Ethanol",
       "parent_topic": "how much ethanol is in 87 octane gas",
       "intents": [
         "informational"
@@ -71,15 +95,8 @@
     {
       "keyword": "is ethanol alcohol",
       "volume": 900,
+      "original_keyword": "Ethanol",
       "parent_topic": "ethanol",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is ethanol bad for your car",
-      "volume": 800,
-      "parent_topic": "is ethanol bad for cars",
       "intents": [
         "informational"
       ]

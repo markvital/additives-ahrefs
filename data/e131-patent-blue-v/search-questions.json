@@ -1,13 +1,108 @@
 {
-  "keyword": "Patent blue v",
+  "keywords": [
+    "Patent blue v",
+    "E131",
+    "Food Blue 5",
+    "Sulphan Blue",
+    "Acid Blue 3",
+    "L-Blau 3",
+    "C-Blau 20",
+    "Patentblau V",
+    "Sky Blue",
+    "C.I. 42051"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:29.720Z",
+  "fetchedAt": "2025-10-09T03:25:49.381Z",
   "questions": [
     {
-      "keyword": "what is the e number of patent blue v",
-      "volume": 0,
+      "keyword": "why is the sky blue",
+      "volume": 33000,
+      "original_keyword": "Sky Blue",
+      "parent_topic": "why is the sky blue",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "why is the sky blue?",
+      "volume": 6100,
+      "original_keyword": "Sky Blue",
+      "parent_topic": "sky blue",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is blue sky",
+      "volume": 3400,
+      "original_keyword": "Sky Blue",
+      "parent_topic": "what is bluesky",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "who owns blue sky",
+      "volume": 3200,
+      "original_keyword": "Sky Blue",
       "parent_topic": "",
       "intents": []
+    },
+    {
+      "keyword": "what is blue sky social media",
+      "volume": 2900,
+      "original_keyword": "Sky Blue",
+      "parent_topic": "what is bluesky",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "what makes the sky blue",
+      "volume": 2200,
+      "original_keyword": "Sky Blue",
+      "parent_topic": "why is the sky blue",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is blue sky social",
+      "volume": 1800,
+      "original_keyword": "Sky Blue",
+      "parent_topic": "what is bluesky",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "is the sky blue",
+      "volume": 1400,
+      "original_keyword": "Sky Blue",
+      "parent_topic": "sky blue",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "why is the sky blue for kids",
+      "volume": 1200,
+      "original_keyword": "Sky Blue",
+      "parent_topic": "sky blue",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "why is sky blue",
+      "volume": 800,
+      "original_keyword": "Sky Blue",
+      "parent_topic": "why is the sky blue",
+      "intents": [
+        "informational"
+      ]
     }
   ]
 }

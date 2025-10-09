@@ -24,7 +24,7 @@ export const formatProductCount = (value: number): string => {
 };
 
 const COUNTRY_NAME_MAP: Record<string, string> = {
-  US: 'United States',
+  US: 'U.S.',
 };
 
 const getCountryDisplayName = (countryCode: string): string | null => {

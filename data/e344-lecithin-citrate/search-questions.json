@@ -1,11 +1,78 @@
 {
-  "keyword": "Lecithin citrate",
+  "keywords": [
+    "Lecithin citrate",
+    "E344"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:13.408Z",
+  "fetchedAt": "2025-10-09T03:23:48.150Z",
   "questions": [
     {
-      "keyword": "what is the e number of lecithin citrate",
+      "keyword": "how do you take apart a walkman mp3 model nwz-e344",
       "volume": 0,
+      "original_keyword": "E344",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how many giga bitz nwz-e344",
+      "volume": 0,
+      "original_keyword": "E344",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to connect sony walkman nwz-e344 to windows 10",
+      "volume": 0,
+      "original_keyword": "E344",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to creat playlist sony nwz-e344",
+      "volume": 0,
+      "original_keyword": "E344",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to create playlist sony nwz-e344",
+      "volume": 0,
+      "original_keyword": "E344",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to create playlists walkman nwz-e344 manual",
+      "volume": 0,
+      "original_keyword": "E344",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to record songs to sony walkman nwz-e344",
+      "volume": 0,
+      "original_keyword": "E344",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to replace battery in a sony walkman digital media player nwz-e344",
+      "volume": 0,
+      "original_keyword": "E344",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to replace battery on sony walkman nwz-e344",
+      "volume": 0,
+      "original_keyword": "E344",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to reset sony nwz-e344",
+      "volume": 0,
+      "original_keyword": "E344",
       "parent_topic": "",
       "intents": []
     }

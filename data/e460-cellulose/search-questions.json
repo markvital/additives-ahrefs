@@ -1,19 +1,17 @@
 {
-  "keyword": "Cellulose",
+  "keywords": [
+    "Cellulose",
+    "E460",
+    "cellulose powder to prevent caking",
+    "cellulose powder added to prevent caking"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.630Z",
+  "fetchedAt": "2025-10-09T03:20:51.033Z",
   "questions": [
     {
       "keyword": "what is cellulose",
-      "volume": 9000,
-      "parent_topic": "cellulose",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what is cellulose made of",
-      "volume": 3200,
+      "volume": 9100,
+      "original_keyword": "Cellulose",
       "parent_topic": "cellulose",
       "intents": [
         "informational"
@@ -22,7 +20,17 @@
     {
       "keyword": "what is cellulose powder",
       "volume": 2600,
+      "original_keyword": "Cellulose",
       "parent_topic": "cellulose powder",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is cellulose made of",
+      "volume": 2500,
+      "original_keyword": "Cellulose",
+      "parent_topic": "cellulose",
       "intents": [
         "informational"
       ]
@@ -30,6 +38,7 @@
     {
       "keyword": "what is microcrystalline cellulose",
       "volume": 1900,
+      "original_keyword": "Cellulose",
       "parent_topic": "microcrystalline cellulose",
       "intents": [
         "informational"
@@ -37,8 +46,9 @@
     },
     {
       "keyword": "what is powdered cellulose",
-      "volume": 1800,
-      "parent_topic": "cellulose powder",
+      "volume": 1500,
+      "original_keyword": "Cellulose",
+      "parent_topic": "what is powdered cellulose",
       "intents": [
         "informational"
       ]
@@ -46,6 +56,7 @@
     {
       "keyword": "what is cellulose gum",
       "volume": 1200,
+      "original_keyword": "Cellulose",
       "parent_topic": "cellulose gum",
       "intents": [
         "informational"
@@ -53,7 +64,8 @@
     },
     {
       "keyword": "is cellulose bad for you",
-      "volume": 900,
+      "volume": 800,
+      "original_keyword": "Cellulose",
       "parent_topic": "is cellulose bad for you",
       "intents": [
         "informational"
@@ -62,6 +74,7 @@
     {
       "keyword": "is cellulose a polysaccharide",
       "volume": 700,
+      "original_keyword": "Cellulose",
       "parent_topic": "cellulose",
       "intents": [
         "informational"
@@ -70,6 +83,7 @@
     {
       "keyword": "is cellulose a carbohydrate",
       "volume": 600,
+      "original_keyword": "Cellulose",
       "parent_topic": "what type of complex carbohydrate is cellulose",
       "intents": [
         "informational"
@@ -78,6 +92,7 @@
     {
       "keyword": "what is cellulose gel",
       "volume": 500,
+      "original_keyword": "Cellulose",
       "parent_topic": "cellulose gum",
       "intents": [
         "informational"

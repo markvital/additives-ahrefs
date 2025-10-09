@@ -1,6 +1,59 @@
 {
-  "keyword": "Basic methacrylate copolymer",
+  "keywords": [
+    "Basic methacrylate copolymer",
+    "E1205"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.880Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:16:33.684Z",
+  "questions": [
+    {
+      "keyword": "ansoluta model e1205 how to connect",
+      "volume": 0,
+      "original_keyword": "E1205",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to reset samsung gt e1205 network lock",
+      "volume": 0,
+      "original_keyword": "E1205",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to reset samsung gt e1205 network lock for free",
+      "volume": 0,
+      "original_keyword": "E1205",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to take phone number off of the rejected call list on a samsung gt-e1205",
+      "volume": 0,
+      "original_keyword": "E1205",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to turn on the e1205",
+      "volume": 0,
+      "original_keyword": "E1205",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to turn on the samsung e1205",
+      "volume": 0,
+      "original_keyword": "E1205",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how work the ansluta e1205 ikea",
+      "volume": 0,
+      "original_keyword": "E1205",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

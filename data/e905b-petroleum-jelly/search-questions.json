@@ -1,19 +1,28 @@
 {
-  "keyword": "petroleum jelly",
+  "keywords": [
+    "petroleum jelly",
+    "E905B",
+    "petrolatum",
+    "white petrolatum",
+    "soft paraffin",
+    "multi-hydrocarbon"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:31.117Z",
+  "fetchedAt": "2025-10-09T03:25:51.349Z",
   "questions": [
     {
       "keyword": "is petroleum jelly bad for you",
       "volume": 4900,
-      "parent_topic": "petroleum jelly",
+      "original_keyword": "petroleum jelly",
+      "parent_topic": "is vaseline bad for you",
       "intents": [
         "informational"
       ]
     },
     {
       "keyword": "what is petroleum jelly",
-      "volume": 3700,
+      "volume": 3800,
+      "original_keyword": "petroleum jelly",
       "parent_topic": "petroleum jelly",
       "intents": [
         "informational"
@@ -21,7 +30,8 @@
     },
     {
       "keyword": "is aquaphor petroleum jelly",
-      "volume": 3200,
+      "volume": 3300,
+      "original_keyword": "petroleum jelly",
       "parent_topic": "aquaphor vs vaseline",
       "intents": [
         "informational",
@@ -31,7 +41,17 @@
     {
       "keyword": "does petroleum jelly expire",
       "volume": 2000,
+      "original_keyword": "petroleum jelly",
       "parent_topic": "does vaseline expire",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is petrolatum",
+      "volume": 1900,
+      "original_keyword": "petrolatum",
+      "parent_topic": "petroleum jelly",
       "intents": [
         "informational"
       ]
@@ -39,6 +59,7 @@
     {
       "keyword": "is petroleum jelly the same as vaseline",
       "volume": 1800,
+      "original_keyword": "petroleum jelly",
       "parent_topic": "is petroleum jelly the same as vaseline",
       "intents": [
         "informational",
@@ -48,6 +69,7 @@
     {
       "keyword": "what is petroleum jelly made of",
       "volume": 1000,
+      "original_keyword": "petroleum jelly",
       "parent_topic": "petroleum jelly",
       "intents": [
         "informational"
@@ -56,6 +78,7 @@
     {
       "keyword": "can you use petroleum jelly as lube",
       "volume": 800,
+      "original_keyword": "petroleum jelly",
       "parent_topic": "can i use petroleum jelly as lube",
       "intents": [
         "informational"
@@ -64,22 +87,16 @@
     {
       "keyword": "how is petroleum jelly made",
       "volume": 800,
+      "original_keyword": "petroleum jelly",
       "parent_topic": "how is petroleum jelly made",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "is petroleum jelly flammable",
-      "volume": 700,
-      "parent_topic": "is vaseline flammable",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "does petroleum jelly cause cancer",
-      "volume": 600,
+      "keyword": "is petrolatum safe",
+      "volume": 800,
+      "original_keyword": "petrolatum",
       "parent_topic": "petrolatum",
       "intents": [
         "informational"

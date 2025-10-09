@@ -1,6 +1,81 @@
 {
-  "keyword": "Polyoxyethylene (40) stearate",
+  "keywords": [
+    "Polyoxyethylene (40) stearate",
+    "E431",
+    "Polyoxyl (40) stearate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:33.535Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:25:53.958Z",
+  "questions": [
+    {
+      "keyword": "how much does a lenovo edge e431 weigh",
+      "volume": 0,
+      "original_keyword": "E431",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much is e431 lenovo replacement key",
+      "volume": 0,
+      "original_keyword": "E431",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to access bios leni=ovo e431",
+      "volume": 0,
+      "original_keyword": "E431",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to boot from the dvd drive lenovo e431",
+      "volume": 0,
+      "original_keyword": "E431",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to disable dual channel in lenovo e431",
+      "volume": 0,
+      "original_keyword": "E431",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to disable touchpad on lenovo e431 win 10",
+      "volume": 0,
+      "original_keyword": "E431",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to find serial number on lenovo e431",
+      "volume": 0,
+      "original_keyword": "E431",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to install new operating system on lenovo thinkpad e431",
+      "volume": 0,
+      "original_keyword": "E431",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to install new ram into thinkpad e431",
+      "volume": 0,
+      "original_keyword": "E431",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to install operating system on lenovo thinkpad e431",
+      "volume": 0,
+      "original_keyword": "E431",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

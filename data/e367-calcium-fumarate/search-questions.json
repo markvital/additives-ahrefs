@@ -1,17 +1,22 @@
 {
-  "keyword": "Calcium fumarate",
+  "keywords": [
+    "Calcium fumarate",
+    "E367"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.263Z",
+  "fetchedAt": "2025-10-09T03:20:43.996Z",
   "questions": [
     {
       "keyword": "what does calcium with acetate, glycinate, succinate, malate, fumarate, and citrate",
       "volume": 0,
+      "original_keyword": "Calcium fumarate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is the e number of calcium fumarate",
       "volume": 0,
+      "original_keyword": "Calcium fumarate",
       "parent_topic": "",
       "intents": []
     }

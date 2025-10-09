@@ -1,37 +1,105 @@
 {
-  "keyword": "Ammonia caramel",
+  "keywords": [
+    "Ammonia caramel",
+    "E150C",
+    "baker's caramel",
+    "confectioner's caramel",
+    "beer caramel",
+    "Caramel Color Ammonia",
+    "Caramel Color"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.278Z",
+  "fetchedAt": "2025-10-09T03:20:37.498Z",
   "questions": [
     {
-      "keyword": "how do hair stylists do caramel highlights on dark brown without ammonia",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is caramel color",
+      "volume": 800,
+      "original_keyword": "Caramel Color",
+      "parent_topic": "caramel color",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "what is ammonia caramel",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what color is caramel",
+      "volume": 700,
+      "original_keyword": "Caramel Color",
+      "parent_topic": "caramel color",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "what is ammonia feee caramel color",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is caramel color made of",
+      "volume": 450,
+      "original_keyword": "Caramel Color",
+      "parent_topic": "caramel color",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "what is sulphite ammonia caramel",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "does caramel color cause cancer",
+      "volume": 250,
+      "original_keyword": "Caramel Color",
+      "parent_topic": "does caramel color cause cancer",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "why does caramel color have ammonia in it",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "does caramel color have gluten",
+      "volume": 200,
+      "original_keyword": "Caramel Color",
+      "parent_topic": "is caramel color gluten free",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to lighten dark brown hair to caramel color",
+      "volume": 200,
+      "original_keyword": "Caramel Color",
+      "parent_topic": "caramel highlights hair",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is caramel color banned in europe",
+      "volume": 150,
+      "original_keyword": "Caramel Color",
+      "parent_topic": "food additives banned in europe",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is organic caramel color",
+      "volume": 150,
+      "original_keyword": "Caramel Color",
+      "parent_topic": "what is organic caramel color",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is caramel a color",
+      "volume": 100,
+      "original_keyword": "Caramel Color",
+      "parent_topic": "does caramel color have dairy",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is in caramel color",
+      "volume": 100,
+      "original_keyword": "Caramel Color",
+      "parent_topic": "caramel color",
+      "intents": [
+        "informational"
+      ]
     }
   ]
 }

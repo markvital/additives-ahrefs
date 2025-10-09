@@ -1,11 +1,78 @@
 {
-  "keyword": "Gum Guaicum",
+  "keywords": [
+    "Gum Guaicum",
+    "E241"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:23:52.607Z",
+  "fetchedAt": "2025-10-09T03:23:35.457Z",
   "questions": [
     {
-      "keyword": "what is the e number of gum guaicum",
+      "keyword": "how can i update my vizio e241-a1 to add sling tv",
       "volume": 0,
+      "original_keyword": "E241",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to add showbox to vizio smart tv model e241-a1",
+      "volume": 0,
+      "original_keyword": "E241",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to connect sony slv d360p dvd / vcr combo to vizio e241-a1",
+      "volume": 0,
+      "original_keyword": "E241",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to get e241-b1 automatically turn on with computer",
+      "volume": 0,
+      "original_keyword": "E241",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to get e241-b1 monitor automatically turn on with computer",
+      "volume": 0,
+      "original_keyword": "E241",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to open the back of vizio e241-1a",
+      "volume": 0,
+      "original_keyword": "E241",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to reset password vizio e241-a1",
+      "volume": 0,
+      "original_keyword": "E241",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to setup e241-b1 as a monitor",
+      "volume": 0,
+      "original_keyword": "E241",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to use wifi direct to vizio model e241 a1",
+      "volume": 0,
+      "original_keyword": "E241",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "vizio model e241-a1 where is the tuner settings menu",
+      "volume": 0,
+      "original_keyword": "E241",
       "parent_topic": "",
       "intents": []
     }

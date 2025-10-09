@@ -1,65 +1,78 @@
 {
-  "keyword": "Calcium carbonates",
+  "keywords": [
+    "Calcium carbonates",
+    "E170"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.148Z",
+  "fetchedAt": "2025-10-09T03:20:42.147Z",
   "questions": [
+    {
+      "keyword": "who makes the e170 aircraft",
+      "volume": 20,
+      "original_keyword": "E170",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "who makes e170 airplane",
+      "volume": 10,
+      "original_keyword": "E170",
+      "parent_topic": "",
+      "intents": []
+    },
     {
       "keyword": "calcium carbonates is most likeye to dissolve in water with which characteristics",
       "volume": 0,
+      "original_keyword": "Calcium carbonates",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "e170 aircraft who makes",
+      "volume": 0,
+      "original_keyword": "E170",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how are calcium carbonates formed",
       "volume": 0,
+      "original_keyword": "Calcium carbonates",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how calcium carbonates works in pond",
       "volume": 0,
+      "original_keyword": "Calcium carbonates",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how do calcium carbonates affecneutralization",
       "volume": 0,
+      "original_keyword": "Calcium carbonates",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how do calcium carbonates affect food neutralization",
       "volume": 0,
+      "original_keyword": "Calcium carbonates",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how do concentric calcium carbonates form",
       "volume": 0,
+      "original_keyword": "Calcium carbonates",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how does calcium carbonates affect neutralization of food?",
       "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how does studying rocks woth calcium carbonates help scientists to study past climates",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how to identify the source of calcium in pedogenic calcium carbonates",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what are calcium carbonates",
-      "volume": 0,
+      "original_keyword": "Calcium carbonates",
       "parent_topic": "",
       "intents": []
     }

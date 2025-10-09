@@ -1,44 +1,85 @@
 {
-  "keyword": "Ponceau 4r",
+  "keywords": [
+    "Ponceau 4r",
+    "E124",
+    "cochineal red a",
+    "CI Food Red 7",
+    "Brilliant Scarlet 4R",
+    "Ponceau"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:36.169Z",
+  "fetchedAt": "2025-10-09T03:25:59.341Z",
   "questions": [
     {
-      "keyword": "e 124 ponceau 4r what is this found in?",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "ponceau 4r why is it banned",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is e124 ponceau 4r used in",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is ponceau 4r",
-      "volume": 0,
-      "parent_topic": "",
+      "keyword": "how does ponceau stain work",
+      "volume": 20,
+      "original_keyword": "Ponceau",
+      "parent_topic": "how does ponceau stain work",
       "intents": [
         "informational",
         "branded"
       ]
     },
     {
-      "keyword": "what is ponceau 4r made from",
-      "volume": 0,
+      "keyword": "how to image ponceau stained membrane",
+      "volume": 10,
+      "original_keyword": "Ponceau",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "why is ponceau 4r banned",
+      "keyword": "how to make ponceau s solution",
+      "volume": 10,
+      "original_keyword": "Ponceau",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to make ponceau stain",
+      "volume": 10,
+      "original_keyword": "Ponceau",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to remove ponceau stain",
+      "volume": 10,
+      "original_keyword": "Ponceau",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what does ponceau stain show",
+      "volume": 10,
+      "original_keyword": "Ponceau",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is ponceau",
+      "volume": 10,
+      "original_keyword": "Ponceau",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "2602:306:bd2f:7040:4039:9f85:e124:99b2 ipv6 address belongs to who",
       "volume": 0,
+      "original_keyword": "E124",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "barbara anderson, co-author of a red like no other: how cochineal colored the world",
+      "volume": 0,
+      "original_keyword": "cochineal red a",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "e 124 ponceau 4r what is this found in?",
+      "volume": 0,
+      "original_keyword": "Ponceau 4r",
       "parent_topic": "",
       "intents": []
     }

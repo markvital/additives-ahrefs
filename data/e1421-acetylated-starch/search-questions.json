@@ -1,17 +1,24 @@
 {
-  "keyword": "Acetylated starch",
+  "keywords": [
+    "Acetylated starch",
+    "E1421",
+    "mono starch acetate",
+    "Starch acetate esterified with vinyl acetate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.309Z",
+  "fetchedAt": "2025-10-09T03:16:33.642Z",
   "questions": [
     {
       "keyword": "what is the e number for acetylated oxidized starch",
       "volume": 0,
+      "original_keyword": "Acetylated starch",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "why is starch acetylated",
       "volume": 0,
+      "original_keyword": "Acetylated starch",
       "parent_topic": "",
       "intents": []
     }

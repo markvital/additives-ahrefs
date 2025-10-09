@@ -1,12 +1,35 @@
 {
-  "keyword": "Calcium hydroxide",
+  "keywords": [
+    "Calcium hydroxide",
+    "E526",
+    "Slaked lime"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.295Z",
+  "fetchedAt": "2025-10-09T03:20:45.406Z",
   "questions": [
+    {
+      "keyword": "what is slaked lime",
+      "volume": 300,
+      "original_keyword": "Slaked lime",
+      "parent_topic": "calcium hydroxide",
+      "intents": [
+        "informational"
+      ]
+    },
     {
       "keyword": "what is calcium hydroxide",
       "volume": 250,
+      "original_keyword": "Calcium hydroxide",
       "parent_topic": "calcium hydroxide",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is calcium hydroxide a strong base",
+      "volume": 100,
+      "original_keyword": "Calcium hydroxide",
+      "parent_topic": "is calcium hydroxide a strong base",
       "intents": [
         "informational"
       ]
@@ -14,6 +37,7 @@
     {
       "keyword": "what is calcium hydroxide used for",
       "volume": 100,
+      "original_keyword": "Calcium hydroxide",
       "parent_topic": "calcium hydroxide",
       "intents": [
         "informational"
@@ -22,6 +46,7 @@
     {
       "keyword": "where to buy calcium hydroxide",
       "volume": 100,
+      "original_keyword": "Calcium hydroxide",
       "parent_topic": "calcium hydroxide",
       "intents": [
         "informational",
@@ -30,16 +55,9 @@
       ]
     },
     {
-      "keyword": "is calcium hydroxide a strong base",
-      "volume": 90,
-      "parent_topic": "is calcium hydroxide a strong base",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
       "keyword": "calcium hydroxide where to buy",
       "volume": 80,
+      "original_keyword": "Calcium hydroxide",
       "parent_topic": "calcium hydroxide",
       "intents": [
         "commercial",
@@ -47,45 +65,41 @@
       ]
     },
     {
-      "keyword": "is calcium hydroxide safe to eat",
-      "volume": 70,
-      "parent_topic": "is calcium hydroxide safe to eat",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
       "keyword": "is calcium hydroxide bad for you",
       "volume": 60,
+      "original_keyword": "Calcium hydroxide",
       "parent_topic": "calcium hydroxide in food",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "where to buy calcium hydroxide near me",
+      "keyword": "is calcium hydroxide safe to eat",
       "volume": 60,
-      "parent_topic": "calcium hydroxide near me",
+      "original_keyword": "Calcium hydroxide",
+      "parent_topic": "is calcium hydroxide bad for you",
       "intents": [
-        "commercial",
-        "transactional",
-        "local"
+        "informational"
       ]
     },
     {
       "keyword": "how to make calcium hydroxide",
       "volume": 50,
+      "original_keyword": "Calcium hydroxide",
       "parent_topic": "what is calcium hydroxide",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is calcium hydroxide in food",
+      "keyword": "where to buy calcium hydroxide near me",
       "volume": 50,
-      "parent_topic": "",
+      "original_keyword": "Calcium hydroxide",
+      "parent_topic": "calcium hydroxide near me",
       "intents": [
-        "informational"
+        "commercial",
+        "transactional",
+        "local"
       ]
     }
   ]

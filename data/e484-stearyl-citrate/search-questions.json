@@ -1,23 +1,43 @@
 {
-  "keyword": "Stearyl citrate",
+  "keywords": [
+    "Stearyl citrate",
+    "E484"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:25:19.316Z",
+  "fetchedAt": "2025-10-09T03:29:44.204Z",
   "questions": [
+    {
+      "keyword": "how many hours live the lenovo e484 battery",
+      "volume": 0,
+      "original_keyword": "E484",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what does e484 mean in putty",
+      "volume": 0,
+      "original_keyword": "E484",
+      "parent_topic": "",
+      "intents": []
+    },
     {
       "keyword": "what is stearyl/octyldodecyl citrate crosspolymer",
       "volume": 0,
+      "original_keyword": "Stearyl citrate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is the e number of stearyl citrate",
       "volume": 0,
+      "original_keyword": "Stearyl citrate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is the melt point of stearyl citrate",
       "volume": 0,
+      "original_keyword": "Stearyl citrate",
       "parent_topic": "",
       "intents": []
     }

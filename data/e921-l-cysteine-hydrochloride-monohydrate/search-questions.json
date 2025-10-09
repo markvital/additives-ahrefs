@@ -1,17 +1,22 @@
 {
-  "keyword": "L-cysteine hydrochloride monohydrate",
+  "keywords": [
+    "L-cysteine hydrochloride monohydrate",
+    "E921"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:11.806Z",
+  "fetchedAt": "2025-10-09T03:23:44.304Z",
   "questions": [
     {
       "keyword": "how to make a l-cysteine hydrochloride monohydrate solution",
       "volume": 0,
+      "original_keyword": "L-cysteine hydrochloride monohydrate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how to make a l-cysteine hydrochloride monohydrate solution for mrs",
       "volume": 0,
+      "original_keyword": "L-cysteine hydrochloride monohydrate",
       "parent_topic": "",
       "intents": []
     }

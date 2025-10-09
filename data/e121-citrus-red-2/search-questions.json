@@ -1,59 +1,78 @@
 {
-  "keyword": "Citrus Red 2",
+  "keywords": [
+    "Citrus Red 2",
+    "E121"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.763Z",
+  "fetchedAt": "2025-10-09T03:20:51.513Z",
   "questions": [
     {
       "keyword": "what foods have citrus red 2",
       "volume": 10,
+      "original_keyword": "Citrus Red 2",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is citrus red 2",
       "volume": 10,
+      "original_keyword": "Citrus Red 2",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how is citrus red #2 applied to oranges",
       "volume": 0,
+      "original_keyword": "Citrus Red 2",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how many prodtcs have citrus red no. 2",
       "volume": 0,
+      "original_keyword": "Citrus Red 2",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to tell the difference between small and large projection on 1922 e121 tris speaker card",
+      "volume": 0,
+      "original_keyword": "E121",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to transfer e121 in to s1 form",
+      "volume": 0,
+      "original_keyword": "E121",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to use emco e121 amplifier",
+      "volume": 0,
+      "original_keyword": "E121",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to use emco e121 datasheet",
+      "volume": 0,
+      "original_keyword": "E121",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is a structural element common to all certified color additives except citrus red no. 2",
       "volume": 0,
+      "original_keyword": "Citrus Red 2",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is citrus red 2 used for",
       "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is citrus red no. 2",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is citrus red no. 2 allergy",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "which oranges have citrus red 2",
-      "volume": 0,
+      "original_keyword": "Citrus Red 2",
       "parent_topic": "",
       "intents": []
     }

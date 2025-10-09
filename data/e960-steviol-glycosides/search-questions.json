@@ -1,12 +1,65 @@
 {
-  "keyword": "Steviol glycosides",
+  "keywords": [
+    "Steviol glycosides",
+    "E960",
+    "Steviol glycoside",
+    "stevia rebaudiana extract",
+    "stevia leaf extract",
+    "steviol"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:25:19.708Z",
+  "fetchedAt": "2025-10-09T03:29:47.945Z",
   "questions": [
+    {
+      "keyword": "is stevia leaf extract bad for you",
+      "volume": 2100,
+      "original_keyword": "stevia leaf extract",
+      "parent_topic": "is stevia bad for you",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is stevia leaf extract",
+      "volume": 1100,
+      "original_keyword": "stevia leaf extract",
+      "parent_topic": "is stevia bad for you",
+      "intents": [
+        "informational"
+      ]
+    },
     {
       "keyword": "what is steviol glycosides",
       "volume": 500,
+      "original_keyword": "Steviol glycosides",
       "parent_topic": "steviol glycosides",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is stevia leaf extract safe during pregnancy",
+      "volume": 150,
+      "original_keyword": "stevia leaf extract",
+      "parent_topic": "stevia leaf extract pregnancy",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "can dogs have stevia leaf extract",
+      "volume": 100,
+      "original_keyword": "stevia leaf extract",
+      "parent_topic": "can dogs have stevia",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is stevia leaf extract safe",
+      "volume": 100,
+      "original_keyword": "stevia leaf extract",
+      "parent_topic": "stevia bad for you",
       "intents": [
         "informational"
       ]
@@ -14,66 +67,38 @@
     {
       "keyword": "what are steviol glycosides",
       "volume": 100,
+      "original_keyword": "Steviol glycosides",
       "parent_topic": "steviol glycosides",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is steviol glycosides reb m",
-      "volume": 40,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "2 different steviol glycosides which is better",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "are steviol glycosides safe",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "how much steviol glycosides",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "is steviol glycosides a sugar alcohol",
-      "volume": 0,
-      "parent_topic": "is stevia bad for you",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is steviol glycosides natural",
-      "volume": 0,
+      "keyword": "what is steviol",
+      "volume": 100,
+      "original_keyword": "steviol",
       "parent_topic": "steviol glycosides",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "is steviol glycosides the same as stevia",
-      "volume": 0,
-      "parent_topic": "steviol",
+      "keyword": "does stevia leaf extract have erythritol",
+      "volume": 70,
+      "original_keyword": "stevia leaf extract",
+      "parent_topic": "stevia vs erythritol",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "steviol glycosides what is it",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "does stevia leaf extract break a fast",
+      "volume": 60,
+      "original_keyword": "stevia leaf extract",
+      "parent_topic": "does stevia break a fast",
+      "intents": [
+        "informational"
+      ]
     }
   ]
 }

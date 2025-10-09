@@ -1,11 +1,19 @@
 {
-  "keyword": "Monosodium phosphate",
+  "keywords": [
+    "Monosodium phosphate",
+    "E339I",
+    "Monosodium monophosphate",
+    "Acid monosodium monophosphate",
+    "Monosodium orthophosphate",
+    "Monobasic sodium phosphate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:23.868Z",
+  "fetchedAt": "2025-10-09T03:25:36.762Z",
   "questions": [
     {
       "keyword": "what is monosodium phosphate",
       "volume": 70,
+      "original_keyword": "Monosodium phosphate",
       "parent_topic": "nah2po4",
       "intents": [
         "informational"
@@ -14,6 +22,7 @@
     {
       "keyword": "is monosodium phosphate bad for you",
       "volume": 10,
+      "original_keyword": "Monosodium phosphate",
       "parent_topic": "sodium phosphate in food",
       "intents": [
         "informational"
@@ -22,48 +31,56 @@
     {
       "keyword": "explain why an aqueous solution of monosodium phosphate would be ineffective",
       "volume": 0,
+      "original_keyword": "Monosodium phosphate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how does monosodium phosphate make gas?",
       "volume": 0,
+      "original_keyword": "Monosodium phosphate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to change the ph of protein solution without precipitation using monobasic sodium phosphate",
+      "volume": 0,
+      "original_keyword": "Monobasic sodium phosphate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how to clean up monosodium phosphate",
       "volume": 0,
+      "original_keyword": "Monosodium phosphate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how to dispose of monosodium phosphate",
       "volume": 0,
+      "original_keyword": "Monosodium phosphate",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "how to use monosodium phosphate for teeth",
+      "keyword": "how to make a 0.2m sodium phosphate solution with monobasic sodium phosphate dihydrate",
       "volume": 0,
+      "original_keyword": "Monobasic sodium phosphate",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "monosodium phosphate in what cleaning products",
+      "keyword": "how to make monobasic sodium phosphate at home",
       "volume": 0,
+      "original_keyword": "Monobasic sodium phosphate",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what does monosodium phosphate do for water chemistry",
+      "keyword": "how to make ph 4 buffer with monobasic sodium phosphate",
       "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is high in monosodium phosphate",
-      "volume": 0,
+      "original_keyword": "Monobasic sodium phosphate",
       "parent_topic": "",
       "intents": []
     }

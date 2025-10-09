@@ -1,7 +1,6 @@
 {
-  "keyword": "Thiodipropionic acid",
   "country": "us",
-  "fetchedAt": "2025-09-27T03:01:06.832Z",
+  "fetchedAt": "2025-10-09T03:49:07.863Z",
   "metrics": [
     {
       "date": "2016-01-01T00:00:00Z",
@@ -483,5 +482,17 @@
       "date": "2025-12-01T00:00:00Z",
       "volume": 0
     }
+  ],
+  "sparkline": [
+    23,
+    69,
+    0,
+    145,
+    13,
+    12,
+    9,
+    10,
+    7,
+    7
   ]
 }

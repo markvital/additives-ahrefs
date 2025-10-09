@@ -1,11 +1,15 @@
 {
-  "keyword": "Processed eucheuma seaweed",
+  "keywords": [
+    "Processed eucheuma seaweed",
+    "E407A"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:43.561Z",
+  "fetchedAt": "2025-10-09T03:29:06.458Z",
   "questions": [
     {
       "keyword": "what is the e number of processed eucheuma seaweed",
       "volume": 0,
+      "original_keyword": "Processed eucheuma seaweed",
       "parent_topic": "",
       "intents": []
     }

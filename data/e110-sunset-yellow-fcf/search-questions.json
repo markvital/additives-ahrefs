@@ -1,19 +1,121 @@
 {
-  "keyword": "Sunset yellow FCF",
+  "keywords": [
+    "Sunset yellow FCF",
+    "E110",
+    "CI Food Yellow 3",
+    "Orange Yellow S",
+    "FD&C Yellow 6",
+    "FD & C Yellow No.6",
+    "FD and C Yellow No. 6",
+    "Yellow No.6",
+    "Yellow 6",
+    "FD and C Yellow 6",
+    "C.I. 15985",
+    "Yellow 6 lake",
+    "Sunset Yellow"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:25:21.990Z",
+  "fetchedAt": "2025-10-09T03:30:05.983Z",
   "questions": [
     {
-      "keyword": "what is sunset yellow fcf",
-      "volume": 30,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is yellow 6",
+      "volume": 1100,
+      "original_keyword": "Yellow 6",
+      "parent_topic": "yellow 6",
+      "intents": [
+        "informational",
+        "branded"
+      ]
     },
     {
-      "keyword": "what is sunset yellow fcf made from",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "is yellow 6 harmful",
+      "volume": 500,
+      "original_keyword": "Yellow 6",
+      "parent_topic": "is yellow 6 bad for you",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "what is yellow 6 made of",
+      "volume": 500,
+      "original_keyword": "Yellow 6",
+      "parent_topic": "yellow 6 side effects",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "is yellow 6 bad",
+      "volume": 250,
+      "original_keyword": "Yellow 6",
+      "parent_topic": "is yellow 6 bad for you",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "what does yellow 6 do to your body",
+      "volume": 250,
+      "original_keyword": "Yellow 6",
+      "parent_topic": "yellow 6 side effects",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "does yellow 6 cause cancer",
+      "volume": 200,
+      "original_keyword": "Yellow 6",
+      "parent_topic": "yellow 6 side effects",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "what is yellow 6 lake",
+      "volume": 200,
+      "original_keyword": "Yellow 6",
+      "parent_topic": "yellow 6 side effects",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "how is yellow 6 made",
+      "volume": 100,
+      "original_keyword": "Yellow 6",
+      "parent_topic": "yellow 6 side effects",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "is yellow 6 pork",
+      "volume": 100,
+      "original_keyword": "Yellow 6",
+      "parent_topic": "is yellow 6 pork",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "what is yellow 5 and 6",
+      "volume": 90,
+      "original_keyword": "Yellow 6",
+      "parent_topic": "yellow 5",
+      "intents": [
+        "informational",
+        "branded"
+      ]
     }
   ]
 }

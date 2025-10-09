@@ -1,6 +1,32 @@
 {
-  "keyword": "Aluminium ammonium sulphate",
+  "keywords": [
+    "Aluminium ammonium sulphate",
+    "E523",
+    "ammonium aluminium sulfate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.325Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:16:32.843Z",
+  "questions": [
+    {
+      "keyword": "e523 island /coral princess what is the obstruction",
+      "volume": 0,
+      "original_keyword": "E523",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "e523 island princess what is the obstruction",
+      "volume": 0,
+      "original_keyword": "E523",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to install rv designer e523 monaco/tiffin style baggage door",
+      "volume": 0,
+      "original_keyword": "E523",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

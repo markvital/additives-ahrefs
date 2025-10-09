@@ -1,17 +1,93 @@
 {
-  "keyword": "Magnesium silicates",
+  "keywords": [
+    "Magnesium silicates",
+    "E553",
+    "magnesium silicate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:17.630Z",
+  "fetchedAt": "2025-10-09T03:23:54.660Z",
   "questions": [
     {
-      "keyword": "what dissolves magnesium silicates",
-      "volume": 0,
+      "keyword": "what is magnesium aluminum silicate",
+      "volume": 100,
+      "original_keyword": "magnesium silicate",
+      "parent_topic": "magnesium aluminum silicate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is magnesium aluminum silicate safe",
+      "volume": 30,
+      "original_keyword": "magnesium silicate",
+      "parent_topic": "magnesium aluminum silicate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does magnesium aluminum silicate cause cancer",
+      "volume": 20,
+      "original_keyword": "magnesium silicate",
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is magnesium aluminum silicate safe for skin",
+      "volume": 20,
+      "original_keyword": "magnesium silicate",
+      "parent_topic": "magnesium aluminum silicate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is magnesium silicate harmful",
+      "volume": 20,
+      "original_keyword": "magnesium silicate",
+      "parent_topic": "hydrated magnesium silicate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is magnesium silicate",
+      "volume": 20,
+      "original_keyword": "magnesium silicate",
+      "parent_topic": "magnesium silicate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is hydrated magnesium silicate",
+      "volume": 10,
+      "original_keyword": "magnesium silicate",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "which region of the earth consists primarily of iron and magnesium silicates",
+      "keyword": "what is magnesium iron silicate hydroxide",
+      "volume": 10,
+      "original_keyword": "magnesium silicate",
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": ": hydrated potassium sodium iron magnesium aluminum silicate is better known as what?",
       "volume": 0,
+      "original_keyword": "magnesium silicate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how can i make a magnesium aluminum silicate liquid for face?",
+      "volume": 0,
+      "original_keyword": "magnesium silicate",
       "parent_topic": "",
       "intents": []
     }

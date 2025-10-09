@@ -1,12 +1,27 @@
 {
-  "keyword": "Ammonium phosphate",
+  "keywords": [
+    "Ammonium phosphate",
+    "E342",
+    "monoammonium phosphate",
+    "diammonium phosphate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.362Z",
+  "fetchedAt": "2025-10-09T03:16:33.605Z",
   "questions": [
     {
       "keyword": "what is the formula for ammonium phosphate",
-      "volume": 100,
+      "volume": 90,
+      "original_keyword": "Ammonium phosphate",
       "parent_topic": "ammonium phosphate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is monoammonium phosphate toxic",
+      "volume": 70,
+      "original_keyword": "monoammonium phosphate",
+      "parent_topic": "is monoammonium phosphate toxic",
       "intents": [
         "informational"
       ]
@@ -14,15 +29,17 @@
     {
       "keyword": "what is the formula for ammonium phosphate?",
       "volume": 70,
+      "original_keyword": "Ammonium phosphate",
       "parent_topic": "ammonium phosphate",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "is ammonium phosphate soluble in water",
-      "volume": 30,
-      "parent_topic": "is ammonium phosphate soluble in water",
+      "keyword": "what is monoammonium phosphate",
+      "volume": 40,
+      "original_keyword": "monoammonium phosphate",
+      "parent_topic": "what is map fertilizer",
       "intents": [
         "informational"
       ]
@@ -30,7 +47,26 @@
     {
       "keyword": "is ammonium phosphate toxic",
       "volume": 30,
+      "original_keyword": "Ammonium phosphate",
       "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is diammonium phosphate",
+      "volume": 30,
+      "original_keyword": "diammonium phosphate",
+      "parent_topic": "dap fertilizer analysis",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is ammonium phosphate soluble in water",
+      "volume": 20,
+      "original_keyword": "Ammonium phosphate",
+      "parent_topic": "is ammonium phosphate soluble in water",
       "intents": [
         "informational"
       ]
@@ -38,6 +74,7 @@
     {
       "keyword": "what is ammonium phosphate",
       "volume": 20,
+      "original_keyword": "Ammonium phosphate",
       "parent_topic": "ammonium phosphate",
       "intents": [
         "informational"
@@ -46,6 +83,7 @@
     {
       "keyword": "what is the formula for ammonium phosphate ?",
       "volume": 20,
+      "original_keyword": "Ammonium phosphate",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -54,26 +92,7 @@
     {
       "keyword": "how does ammonium phosphate extinguish fire",
       "volume": 10,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "is ammonium phosphate soluble",
-      "volume": 10,
-      "parent_topic": "ammonium phosphate",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what is ammonium dihydrogen phosphate",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is ammonium phosphate found in",
-      "volume": 10,
+      "original_keyword": "Ammonium phosphate",
       "parent_topic": "",
       "intents": []
     }

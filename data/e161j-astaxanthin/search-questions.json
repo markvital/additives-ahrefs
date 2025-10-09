@@ -1,12 +1,16 @@
 {
-  "keyword": "Astaxanthin",
+  "keywords": [
+    "Astaxanthin",
+    "E161J"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.834Z",
+  "fetchedAt": "2025-10-09T03:16:33.596Z",
   "questions": [
     {
       "keyword": "what is astaxanthin",
       "volume": 2300,
-      "parent_topic": "astaxanthin",
+      "original_keyword": "Astaxanthin",
+      "parent_topic": "astaxantina",
       "intents": [
         "informational"
       ]
@@ -14,6 +18,7 @@
     {
       "keyword": "what is astaxanthin good for",
       "volume": 700,
+      "original_keyword": "Astaxanthin",
       "parent_topic": "astaxanthin benefits",
       "intents": [
         "informational"
@@ -22,7 +27,8 @@
     {
       "keyword": "how much astaxanthin per day",
       "volume": 500,
-      "parent_topic": "astaxanthin",
+      "original_keyword": "Astaxanthin",
+      "parent_topic": "astaxantina",
       "intents": [
         "informational"
       ]
@@ -30,6 +36,7 @@
     {
       "keyword": "what does astaxanthin do",
       "volume": 500,
+      "original_keyword": "Astaxanthin",
       "parent_topic": "astaxanthin",
       "intents": [
         "informational"
@@ -38,6 +45,7 @@
     {
       "keyword": "is astaxanthin safe",
       "volume": 450,
+      "original_keyword": "Astaxanthin",
       "parent_topic": "astaxanthin benefits",
       "intents": [
         "informational"
@@ -46,6 +54,7 @@
     {
       "keyword": "astaxanthin para que sirve",
       "volume": 300,
+      "original_keyword": "Astaxanthin",
       "parent_topic": "astaxanthin para que sirve",
       "intents": [
         "informational"
@@ -53,7 +62,8 @@
     },
     {
       "keyword": "astaxanthin what is it",
-      "volume": 200,
+      "volume": 250,
+      "original_keyword": "Astaxanthin",
       "parent_topic": "astaxanthin",
       "intents": [
         "informational"
@@ -62,6 +72,7 @@
     {
       "keyword": "does astaxanthin make you tan",
       "volume": 200,
+      "original_keyword": "Astaxanthin",
       "parent_topic": "astaxanthin tan",
       "intents": [
         "informational"
@@ -70,6 +81,7 @@
     {
       "keyword": "what does astaxanthin do for the body",
       "volume": 150,
+      "original_keyword": "Astaxanthin",
       "parent_topic": "astaxanthin benefits",
       "intents": [
         "informational"
@@ -78,7 +90,8 @@
     {
       "keyword": "when to take astaxanthin",
       "volume": 150,
-      "parent_topic": "astaxanthin",
+      "original_keyword": "Astaxanthin",
+      "parent_topic": "astaxanthin benefits",
       "intents": [
         "informational"
       ]

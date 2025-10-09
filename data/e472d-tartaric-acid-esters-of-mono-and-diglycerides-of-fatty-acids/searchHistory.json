@@ -1,7 +1,6 @@
 {
-  "keyword": "Tartaric acid esters of mono- and diglycerides of fatty acids",
   "country": "us",
-  "fetchedAt": "2025-09-27T03:01:02.468Z",
+  "fetchedAt": "2025-10-09T03:49:04.982Z",
   "metrics": [
     {
       "date": "2016-01-01T00:00:00Z",
@@ -195,5 +194,17 @@
       "date": "2019-12-01T00:00:00Z",
       "volume": 0
     }
+  ],
+  "sparkline": [
+    1,
+    0,
+    0,
+    0,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
   ]
 }

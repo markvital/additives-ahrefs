@@ -1,29 +1,36 @@
 {
-  "keyword": "E571",
+  "keywords": [
+    "Ammonium stearate",
+    "E571"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:45.558Z",
+  "fetchedAt": "2025-10-09T03:21:53.139Z",
   "questions": [
     {
       "keyword": "acer e571 how to replace keyboard",
       "volume": 0,
+      "original_keyword": "E571",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how to make acer aspire e571 dual boot",
       "volume": 0,
+      "original_keyword": "E571",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what are e571 funds in foreclosure case",
       "volume": 0,
+      "original_keyword": "E571",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what are e571 funds?",
       "volume": 0,
+      "original_keyword": "E571",
       "parent_topic": "",
       "intents": []
     }

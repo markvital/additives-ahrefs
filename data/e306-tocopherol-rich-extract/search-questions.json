@@ -1,13 +1,104 @@
 {
-  "keyword": "Tocopherol-rich extract",
+  "keywords": [
+    "Tocopherol-rich extract",
+    "E306",
+    "Tocopherols",
+    "natural tocopherols",
+    "mixed tocopherols",
+    "natural mixed tocopherols"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:19:04.231Z",
+  "fetchedAt": "2025-10-09T03:30:07.270Z",
   "questions": [
     {
-      "keyword": "what is tocopherol rich extract",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what are tocopherols",
+      "volume": 1300,
+      "original_keyword": "Tocopherols",
+      "parent_topic": "tocopherol",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is tocopherols",
+      "volume": 600,
+      "original_keyword": "Tocopherols",
+      "parent_topic": "tocopherol",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what are mixed tocopherols",
+      "volume": 500,
+      "original_keyword": "Tocopherols",
+      "parent_topic": "mixed tocopherols",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is mixed tocopherols",
+      "volume": 400,
+      "original_keyword": "Tocopherols",
+      "parent_topic": "mixed tocopherols",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "are tocopherols bad for you",
+      "volume": 150,
+      "original_keyword": "Tocopherols",
+      "parent_topic": "tocopherol dangers",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "are tocopherols safe for dogs",
+      "volume": 150,
+      "original_keyword": "Tocopherols",
+      "parent_topic": "are tocopherols safe for dogs",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what are tocopherols in food",
+      "volume": 150,
+      "original_keyword": "Tocopherols",
+      "parent_topic": "tocopherols in food",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is tocopherols in food",
+      "volume": 150,
+      "original_keyword": "Tocopherols",
+      "parent_topic": "tocopherols in food",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "are tocopherols safe",
+      "volume": 100,
+      "original_keyword": "Tocopherols",
+      "parent_topic": "tocopherols in food",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what are tocopherols in dog food",
+      "volume": 100,
+      "original_keyword": "Tocopherols",
+      "parent_topic": "tocopherols for dogs",
+      "intents": [
+        "informational"
+      ]
     }
   ]
 }

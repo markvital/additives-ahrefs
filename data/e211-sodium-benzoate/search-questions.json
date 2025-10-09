@@ -1,11 +1,15 @@
 {
-  "keyword": "Sodium benzoate",
+  "keywords": [
+    "Sodium benzoate",
+    "E211"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:50.380Z",
+  "fetchedAt": "2025-10-09T03:29:22.629Z",
   "questions": [
     {
       "keyword": "what is sodium benzoate",
       "volume": 1900,
+      "original_keyword": "Sodium benzoate",
       "parent_topic": "sodium benzoate",
       "intents": [
         "informational"
@@ -14,6 +18,7 @@
     {
       "keyword": "is sodium benzoate bad for you",
       "volume": 1500,
+      "original_keyword": "Sodium benzoate",
       "parent_topic": "is sodium benzoate bad for you",
       "intents": [
         "informational"
@@ -22,15 +27,8 @@
     {
       "keyword": "is sodium benzoate safe",
       "volume": 600,
+      "original_keyword": "Sodium benzoate",
       "parent_topic": "sodium benzoate side effects",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is sodium benzoate bad for hair",
-      "volume": 200,
-      "parent_topic": "sodium benzoate for hair",
       "intents": [
         "informational"
       ]
@@ -38,7 +36,17 @@
     {
       "keyword": "is sodium benzoate safe for skin",
       "volume": 200,
+      "original_keyword": "Sodium benzoate",
       "parent_topic": "sodium benzoate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sodium benzoate bad for hair",
+      "volume": 150,
+      "original_keyword": "Sodium benzoate",
+      "parent_topic": "sodium benzoate for hair",
       "intents": [
         "informational"
       ]
@@ -46,14 +54,7 @@
     {
       "keyword": "is sodium benzoate harmful",
       "volume": 150,
-      "parent_topic": "sodium benzoate",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what is sodium benzoate used for",
-      "volume": 150,
+      "original_keyword": "Sodium benzoate",
       "parent_topic": "sodium benzoate",
       "intents": [
         "informational"
@@ -62,6 +63,7 @@
     {
       "keyword": "is sodium benzoate gluten free",
       "volume": 100,
+      "original_keyword": "Sodium benzoate",
       "parent_topic": "is sodium benzoate gluten free",
       "intents": [
         "informational"
@@ -70,15 +72,26 @@
     {
       "keyword": "what is sodium benzoate in skin care",
       "volume": 100,
+      "original_keyword": "Sodium benzoate",
       "parent_topic": "sodium benzoate",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "is sodium benzoate safe for dogs",
-      "volume": 90,
-      "parent_topic": "sodium benzoate safe for dogs",
+      "keyword": "what is sodium benzoate used for",
+      "volume": 100,
+      "original_keyword": "Sodium benzoate",
+      "parent_topic": "sodium benzoate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sodium benzoate natural",
+      "volume": 80,
+      "original_keyword": "Sodium benzoate",
+      "parent_topic": "sodium benzoate",
       "intents": [
         "informational"
       ]

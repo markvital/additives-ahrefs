@@ -1,71 +1,102 @@
 {
-  "keyword": "Sodium polyphosphate",
+  "keywords": [
+    "Sodium polyphosphate",
+    "E452I",
+    "sodium hexametaphosphate",
+    "sodium polymetaphosphate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:25:12.907Z",
+  "fetchedAt": "2025-10-09T03:29:33.427Z",
   "questions": [
+    {
+      "keyword": "what is sodium hexametaphosphate",
+      "volume": 400,
+      "original_keyword": "sodium hexametaphosphate",
+      "parent_topic": "sodium hexametaphosphate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sodium hexametaphosphate safe for dogs",
+      "volume": 100,
+      "original_keyword": "sodium hexametaphosphate",
+      "parent_topic": "is sodium hexametaphosphate safe for dogs",
+      "intents": [
+        "informational"
+      ]
+    },
     {
       "keyword": "what is sodium polyphosphate",
       "volume": 90,
-      "parent_topic": "sodium polyphosphate in food",
+      "original_keyword": "Sodium polyphosphate",
+      "parent_topic": "sodium polyphosphate",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "is sodium polyphosphate bad for you",
+      "keyword": "is sodium hexametaphosphate safe",
+      "volume": 60,
+      "original_keyword": "sodium hexametaphosphate",
+      "parent_topic": "sodium hexametaphosphate side effects",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sodium hexametaphosphate bad for you",
+      "volume": 40,
+      "original_keyword": "sodium hexametaphosphate",
+      "parent_topic": "what is sodium hexametaphosphate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sodium hexametaphosphate safe in food",
+      "volume": 30,
+      "original_keyword": "sodium hexametaphosphate",
+      "parent_topic": "is sodium hexametaphosphate bad for you",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is sodium hexametaphosphate used for",
+      "volume": 30,
+      "original_keyword": "sodium hexametaphosphate",
+      "parent_topic": "sodium hexametaphosphate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sodium hexametaphosphate harmful",
+      "volume": 20,
+      "original_keyword": "sodium hexametaphosphate",
+      "parent_topic": "sodium hexametaphosphate side effects",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is sodium hexametaphosphate used for in food",
+      "volume": 20,
+      "original_keyword": "sodium hexametaphosphate",
+      "parent_topic": "sodium hexametaphosphate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does sodium hexametaphosphate cause cancer",
       "volume": 10,
-      "parent_topic": "sodium phosphate in food",
+      "original_keyword": "sodium hexametaphosphate",
+      "parent_topic": "is sodium hexametaphosphate bad for you",
       "intents": [
         "informational"
       ]
-    },
-    {
-      "keyword": "how harmful is sodium polyphosphate",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is sodium polyphosphate used for",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is the cas number for sodium polyphosphate",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is the differece between sodium tripolyphosphate and sodium polyphosphate",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is the function of sodium polyphosphate",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is the function of sodium polyphosphate in water",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is the purpose of sodium polyphosphate in bottled water",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "where does it come from sodium polyphosphate",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
     }
   ]
 }

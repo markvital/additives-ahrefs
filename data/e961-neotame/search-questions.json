@@ -1,11 +1,15 @@
 {
-  "keyword": "Neotame",
+  "keywords": [
+    "Neotame",
+    "E961"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:25.089Z",
+  "fetchedAt": "2025-10-09T03:25:37.591Z",
   "questions": [
     {
       "keyword": "what is neotame",
-      "volume": 60,
+      "volume": 50,
+      "original_keyword": "Neotame",
       "parent_topic": "neotame",
       "intents": [
         "informational",
@@ -15,54 +19,63 @@
     {
       "keyword": "how can i buy neotame",
       "volume": 0,
+      "original_keyword": "Neotame",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how is neotame chemically different from sucrose",
       "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how is neotame different from sucrose",
-      "volume": 0,
+      "original_keyword": "Neotame",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how is neotame made",
       "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how is neotame make",
-      "volume": 0,
+      "original_keyword": "Neotame",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how is neotame used in food",
       "volume": 0,
+      "original_keyword": "Neotame",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how much is neotame compared statisctic",
       "volume": 0,
+      "original_keyword": "Neotame",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "how much sweeter is neotame compared to table sugar",
+      "keyword": "neotame is how much sweeter than sugar?: 200% 500% 1,000% 7,000%",
       "volume": 0,
+      "original_keyword": "Neotame",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "how neotame is made",
+      "keyword": "what contains neotame",
       "volume": 0,
+      "original_keyword": "Neotame",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what does neotame do in food",
+      "volume": 0,
+      "original_keyword": "Neotame",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what drinks contain neotame",
+      "volume": 0,
+      "original_keyword": "Neotame",
       "parent_topic": "",
       "intents": []
     }

@@ -1,41 +1,103 @@
 {
-  "keyword": "Mono- and diglycerides of fatty acids",
+  "keywords": [
+    "Mono- and diglycerides of fatty acids",
+    "E471",
+    "Glyceryl monostearate",
+    "Glyceryl monopalmitate",
+    "Glyceryl monooleate",
+    "Monostearin",
+    "Monopalmitin",
+    "Monoolein",
+    "Mono and diglycerides"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:21.496Z",
+  "fetchedAt": "2025-10-09T03:25:33.437Z",
   "questions": [
     {
-      "keyword": "what is mono and diglycerides of fatty acids",
-      "volume": 10,
+      "keyword": "what are mono and diglycerides",
+      "volume": 350,
+      "original_keyword": "Mono and diglycerides",
+      "parent_topic": "mono and diglycerides",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is mono and diglycerides",
+      "volume": 300,
+      "original_keyword": "Mono and diglycerides",
+      "parent_topic": "mono and diglycerides",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "are mono and diglycerides bad for you",
+      "volume": 150,
+      "original_keyword": "Mono and diglycerides",
+      "parent_topic": "mono and diglycerides",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is mono and diglycerides pork",
+      "volume": 150,
+      "original_keyword": "Mono and diglycerides",
       "parent_topic": "",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "how to list mono-and diglycerides of fatty acids",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what are mono and diglycerides of fatty acids",
-      "volume": 0,
+      "keyword": "are mono and diglycerides halal",
+      "volume": 100,
+      "original_keyword": "Mono and diglycerides",
       "parent_topic": "",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what are mono- and diglycerides of fatty acids",
-      "volume": 0,
+      "keyword": "are mono and diglycerides vegan",
+      "volume": 70,
+      "original_keyword": "Mono and diglycerides",
+      "parent_topic": "mono- and diglycerides vegetarian",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is glyceryl monostearate",
+      "volume": 50,
+      "original_keyword": "Glyceryl monostearate",
+      "parent_topic": "glycerol monostearate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is mono and diglycerides made from",
+      "volume": 50,
+      "original_keyword": "Mono and diglycerides",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what is mono- and diglycerides of fatty acids",
-      "volume": 0,
+      "keyword": "what are mono and diglycerides made from",
+      "volume": 40,
+      "original_keyword": "Mono and diglycerides",
       "parent_topic": "",
       "intents": []
+    },
+    {
+      "keyword": "are mono and diglycerides gluten free",
+      "volume": 20,
+      "original_keyword": "Mono and diglycerides",
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
     }
   ]
 }

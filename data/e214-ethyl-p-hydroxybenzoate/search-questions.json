@@ -1,11 +1,73 @@
 {
-  "keyword": "Ethyl p-hydroxybenzoate",
+  "keywords": [
+    "Ethyl p-hydroxybenzoate",
+    "E214",
+    "Ethylparaben",
+    "ethyl para-hydroxybenzoate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:45.361Z",
+  "fetchedAt": "2025-10-09T03:23:28.396Z",
   "questions": [
+    {
+      "keyword": "what is ethylparaben",
+      "volume": 10,
+      "original_keyword": "Ethylparaben",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how does ethylparaben work",
+      "volume": 0,
+      "original_keyword": "Ethylparaben",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is an e214",
+      "volume": 0,
+      "original_keyword": "E214",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is e214",
+      "volume": 0,
+      "original_keyword": "E214",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is ethylparaben found in",
+      "volume": 0,
+      "original_keyword": "Ethylparaben",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is ethylparaben methylparaben propylparaben",
+      "volume": 0,
+      "original_keyword": "Ethylparaben",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the e number of ethylparaben",
+      "volume": 0,
+      "original_keyword": "Ethylparaben",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what oils have ethylparaben",
+      "volume": 0,
+      "original_keyword": "Ethylparaben",
+      "parent_topic": "",
+      "intents": []
+    },
     {
       "keyword": "where is ethyl p-hydroxybenzoate found",
       "volume": 0,
+      "original_keyword": "Ethyl p-hydroxybenzoate",
       "parent_topic": "",
       "intents": []
     }

@@ -1,79 +1,120 @@
 {
-  "keyword": "Succinic acid",
+  "keywords": [
+    "Succinic acid",
+    "E363",
+    "Asuccin",
+    "Amber acid",
+    "1/2-Ethanedicarboxylic acid",
+    "Butanedioic acid",
+    "Bernsteinsaeure",
+    "Ethylenesuccinic acid",
+    "Spirit of amber",
+    "Butanedionic acid",
+    "Bernsteinsaure",
+    "Succinate",
+    "Butandisaeure",
+    "Dihydrofumaric acid",
+    "Acidum succinicum",
+    "Acide butanedioique",
+    "Acide succinique"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:25:20.128Z",
+  "fetchedAt": "2025-10-09T03:30:07.748Z",
   "questions": [
     {
-      "keyword": "what is succinic acid",
-      "volume": 150,
-      "parent_topic": "succinic acid",
+      "keyword": "what is metoprolol succinate 25 mg used for",
+      "volume": 5900,
+      "original_keyword": "Succinate",
+      "parent_topic": "metropolol",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "what is metoprolol succinate used for",
+      "volume": 4700,
+      "original_keyword": "Succinate",
+      "parent_topic": "metropolol",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "what is doxylamine succinate",
+      "volume": 1400,
+      "original_keyword": "Succinate",
+      "parent_topic": "doxylamine succinate",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what does succinic acid do for skin",
-      "volume": 40,
-      "parent_topic": "succinic acid for skin",
+      "keyword": "can i take 50 mg of doxylamine succinate",
+      "volume": 1100,
+      "original_keyword": "Succinate",
+      "parent_topic": "doxylamine succinate",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "is succinic acid soluble in hexane",
-      "volume": 30,
-      "parent_topic": "",
+      "keyword": "doxylamine succinate para que sirve",
+      "volume": 400,
+      "original_keyword": "Succinate",
+      "parent_topic": "doxylamine succinate para que sirve",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "medicube red succinic acid peeling pad how to use",
-      "volume": 30,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is metoprolol succinate",
+      "volume": 300,
+      "original_keyword": "Succinate",
+      "parent_topic": "metoprolol succinate er",
+      "intents": [
+        "informational",
+        "branded"
+      ]
     },
     {
-      "keyword": "what does succinic acid do",
-      "volume": 30,
-      "parent_topic": "succinic acid for skin",
+      "keyword": "what is the difference between metoprolol tartrate and metoprolol succinate",
+      "volume": 250,
+      "original_keyword": "Succinate",
+      "parent_topic": "metoprolol succinate vs tartrate",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "how long does it take for metoprolol succinate to work",
+      "volume": 200,
+      "original_keyword": "Succinate",
+      "parent_topic": "how metoprolol works",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "is doxylamine succinate an antihistamine",
+      "volume": 200,
+      "original_keyword": "Succinate",
+      "parent_topic": "doxylamine succinate",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is succinic acid in skincare",
-      "volume": 30,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how to use medicube red succinic acid peeling pad",
-      "volume": 20,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is succinic acid used for",
-      "volume": 20,
-      "parent_topic": "succinate",
+      "keyword": "is doxylamine succinate safe in pregnancy",
+      "volume": 200,
+      "original_keyword": "Succinate",
+      "parent_topic": "is doxylamine succinate safe in pregnancy",
       "intents": [
         "informational"
       ]
-    },
-    {
-      "keyword": "is succinic acid polar",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what does red succinic acid do",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": []
     }
   ]
 }

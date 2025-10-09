@@ -1,19 +1,102 @@
 {
-  "keyword": "Polyoxyethylene sorbitan monostearate",
+  "keywords": [
+    "Polyoxyethylene sorbitan monostearate",
+    "E435",
+    "Polysorbate 60"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:34.519Z",
+  "fetchedAt": "2025-10-09T03:25:55.150Z",
   "questions": [
     {
-      "keyword": "what is emulsifier polyoxyethylene sorbitan monostearate",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is polysorbate 60",
+      "volume": 700,
+      "original_keyword": "Polysorbate 60",
+      "parent_topic": "polysorbate 60",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "what is polyoxyethylene sorbitan monostearate",
-      "volume": 0,
+      "keyword": "is polysorbate 60 safe to eat",
+      "volume": 100,
+      "original_keyword": "Polysorbate 60",
+      "parent_topic": "polysorbate 60 cancer",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is polysorbate 60 toxic",
+      "volume": 70,
+      "original_keyword": "Polysorbate 60",
+      "parent_topic": "polysorbate 60",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is polysorbate 60 bad for you",
+      "volume": 50,
+      "original_keyword": "Polysorbate 60",
       "parent_topic": "",
-      "intents": []
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is polysorbate 60 a dye",
+      "volume": 20,
+      "original_keyword": "Polysorbate 60",
+      "parent_topic": "is polysorbate 60 a dye",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is polysorbate 60 natural",
+      "volume": 20,
+      "original_keyword": "Polysorbate 60",
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is polysorbate 60 safe",
+      "volume": 20,
+      "original_keyword": "Polysorbate 60",
+      "parent_topic": "polysorbate 60",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is polysorbate 60 safe for skin",
+      "volume": 20,
+      "original_keyword": "Polysorbate 60",
+      "parent_topic": "polysorbate 60",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is polysorbate 60 vegan",
+      "volume": 20,
+      "original_keyword": "Polysorbate 60",
+      "parent_topic": "polysorbate 60 vegan",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is polysorbate 60 made from",
+      "volume": 20,
+      "original_keyword": "Polysorbate 60",
+      "parent_topic": "",
+      "intents": [
+        "informational",
+        "branded"
+      ]
     }
   ]
 }

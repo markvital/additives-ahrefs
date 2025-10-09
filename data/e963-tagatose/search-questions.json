@@ -1,11 +1,15 @@
 {
-  "keyword": "Tagatose",
+  "keywords": [
+    "Tagatose",
+    "E963"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:19:04.886Z",
+  "fetchedAt": "2025-10-09T03:30:00.633Z",
   "questions": [
     {
       "keyword": "what is tagatose",
       "volume": 30,
+      "original_keyword": "Tagatose",
       "parent_topic": "tagatose sugar",
       "intents": [
         "informational"
@@ -14,18 +18,21 @@
     {
       "keyword": "what is tagatose made from",
       "volume": 10,
+      "original_keyword": "Tagatose",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is tagatose sweetener",
       "volume": 10,
+      "original_keyword": "Tagatose",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "where to buy tagatose",
       "volume": 10,
+      "original_keyword": "Tagatose",
       "parent_topic": "where to buy tagatose",
       "intents": [
         "commercial",
@@ -35,6 +42,7 @@
     {
       "keyword": "where to buy tagatose sweetener",
       "volume": 10,
+      "original_keyword": "Tagatose",
       "parent_topic": "",
       "intents": [
         "commercial",
@@ -44,30 +52,35 @@
     {
       "keyword": "below is the open-chain of the monosaccharide d-tagatose, which is the ketohexose",
       "volume": 0,
+      "original_keyword": "Tagatose",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "below is the open-chain structure of the monosaccharide d-tagatose, which is a ketohexose. like most monosaccharides, it has more than one chiral carbon. select all of the chiral carbon atoms.",
       "volume": 0,
-      "parent_topic": "like most",
-      "intents": []
-    },
-    {
-      "keyword": "below is the open-chain structure of the monosaccharide d-tagatose, which is a ketohexose. like most monosaccharides, it has more than one chiral carbon. select all of the chiral carbon atoms. identify the chiral atoms by selecting each atom and assigning it a map number of 1 until all atoms are mapped. to do this, right-click on an atom and choose atom properties. (mac users: use an equivalent for right-clicking.) then, clear the check mark to enable the map field before entering a value.",
-      "volume": 0,
+      "original_keyword": "Tagatose",
       "parent_topic": "like most",
       "intents": []
     },
     {
       "keyword": "haworth projection tagatose which carbon supplies the oh",
       "volume": 0,
+      "original_keyword": "Tagatose",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "how are tagatose and xylitol different",
+      "keyword": "how many carbs in tagatose",
       "volume": 0,
+      "original_keyword": "Tagatose",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how many chiral atoms are in monosaccharide d-tagatose, which is a ketohexose",
+      "volume": 0,
+      "original_keyword": "Tagatose",
       "parent_topic": "",
       "intents": []
     }

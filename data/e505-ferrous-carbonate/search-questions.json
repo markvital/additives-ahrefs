@@ -1,29 +1,78 @@
 {
-  "keyword": "Ferrous carbonate",
+  "keywords": [
+    "Ferrous carbonate",
+    "E505"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:45.377Z",
+  "fetchedAt": "2025-10-09T03:21:54.125Z",
   "questions": [
     {
-      "keyword": "what is ferrous carbonate",
+      "keyword": "astm e505 reference radiographs how do i use",
       "volume": 0,
+      "original_keyword": "E505",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what is the chemical formula for ferrous carbonate",
+      "keyword": "how to import mp3 files into sony walkman nw-e505",
       "volume": 0,
+      "original_keyword": "E505",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what is the e number of ferrous carbonate",
+      "keyword": "how to import music from mp3 to sony walkman nw-e505",
       "volume": 0,
+      "original_keyword": "E505",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what is the molecular formula for ferrous carbonate",
+      "keyword": "how to transfer music fom windows media player to network walkman e505",
       "volume": 0,
+      "original_keyword": "E505",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to transfer music from windows media player to network walkman e505",
+      "volume": 0,
+      "original_keyword": "E505",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to turn off nw-e505",
+      "volume": 0,
+      "original_keyword": "E505",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to upload mp3 music to sony mp3 player model nw-e505",
+      "volume": 0,
+      "original_keyword": "E505",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "nec e505 where can i buy",
+      "volume": 0,
+      "original_keyword": "E505",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "sony walkman mp3 player e505 how to put music in",
+      "volume": 0,
+      "original_keyword": "E505",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is astm e505 porosity levels pdf",
+      "volume": 0,
+      "original_keyword": "E505",
       "parent_topic": "",
       "intents": []
     }

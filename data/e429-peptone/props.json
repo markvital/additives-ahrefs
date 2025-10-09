@@ -10,20 +10,6 @@
   "description": "Tryptone is the assortment of peptides formed by the digestion of casein by the protease trypsin.Tryptone is commonly used in microbiology to produce lysogeny broth for the growth of E. coli and other microorganisms.  It provides a source of amino acids for the growing bacteria. Tryptone is similar to casamino acids, both being digests of casein, but casamino acids can be produced by acid hydrolysis and typically only have free amino acids and few peptide chains. Casamino acids are similar to tryptone, the latter differing by being an incomplete enzymatic hydrolysis with some oligopeptides present, while casamino acids are predominantly free amino acids. Tryptone is also a component of some germination media used in plant propagation.",
   "wikipedia": "https://en.wikipedia.org/wiki/Tryptone",
   "wikidata": "Q424323",
-  "searchVolume": 1800,
-  "searchRank": 190,
-  "searchSparkline": [
-    1920,
-    1932,
-    2065,
-    1717,
-    1467,
-    1442,
-    1798,
-    1867,
-    1820,
-    1823
-  ],
   "origin": [],
   "productCount": 2
 }

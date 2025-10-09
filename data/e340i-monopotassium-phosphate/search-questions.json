@@ -1,11 +1,20 @@
 {
-  "keyword": "Monopotassium phosphate",
+  "keywords": [
+    "Monopotassium phosphate",
+    "E340I",
+    "Monobasic potassium phosphate",
+    "Monopotassium monophosphate",
+    "E 340i",
+    "E-340i",
+    "E340 i"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:23.072Z",
+  "fetchedAt": "2025-10-09T03:25:35.032Z",
   "questions": [
     {
       "keyword": "what is monopotassium phosphate",
       "volume": 250,
+      "original_keyword": "Monopotassium phosphate",
       "parent_topic": "kh2po4",
       "intents": [
         "informational"
@@ -13,7 +22,8 @@
     },
     {
       "keyword": "what is monopotassium phosphate used for",
-      "volume": 40,
+      "volume": 30,
+      "original_keyword": "Monopotassium phosphate",
       "parent_topic": "what is monopotassium phosphate",
       "intents": [
         "informational"
@@ -22,6 +32,7 @@
     {
       "keyword": "is monopotassium phosphate an electrolyte",
       "volume": 10,
+      "original_keyword": "Monopotassium phosphate",
       "parent_topic": "what is monopotassium phosphate",
       "intents": [
         "informational"
@@ -30,44 +41,51 @@
     {
       "keyword": "what does monopotassium phosphate do to the body",
       "volume": 10,
+      "original_keyword": "Monopotassium phosphate",
       "parent_topic": "",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what does monopotassium phosphate do to your body",
+      "keyword": "what is potassium phosphate monobasic",
       "volume": 10,
+      "original_keyword": "Monobasic potassium phosphate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "cannabis when to foliar feed with monopotassium phosphate",
       "volume": 0,
+      "original_keyword": "Monopotassium phosphate",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "how many ppm for monopotassium phosphate weed fertilizer",
+      "keyword": "how does potassium phosphate monobasic buffer work",
       "volume": 0,
+      "original_keyword": "Monobasic potassium phosphate",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "how much monopotassium phosphate in dwc cannabis",
+      "keyword": "how many g of potassium phosphate monobasic dibasic to make buffer molarity",
       "volume": 0,
+      "original_keyword": "Monobasic potassium phosphate",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "how much monopotassium phosphate in gatorade",
+      "keyword": "how many moles of phosphate in monobasic potassium phosphate",
       "volume": 0,
+      "original_keyword": "Monobasic potassium phosphate",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "how much monopotassium phosphate per gallon",
+      "keyword": "how much monopotassium phosphate to use",
       "volume": 0,
+      "original_keyword": "Monopotassium phosphate",
       "parent_topic": "",
       "intents": []
     }

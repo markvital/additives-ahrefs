@@ -1,12 +1,16 @@
 {
-  "keyword": "Caramel",
+  "keywords": [
+    "Caramel",
+    "E150"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.436Z",
+  "fetchedAt": "2025-10-09T03:20:48.361Z",
   "questions": [
     {
       "keyword": "how to make caramel",
       "volume": 20000,
-      "parent_topic": "caramel recipe",
+      "original_keyword": "Caramel",
+      "parent_topic": "caramel sauce recipe",
       "intents": [
         "informational"
       ]
@@ -14,6 +18,7 @@
     {
       "keyword": "how to make caramel sauce",
       "volume": 5400,
+      "original_keyword": "Caramel",
       "parent_topic": "caramel",
       "intents": [
         "informational"
@@ -21,8 +26,18 @@
     },
     {
       "keyword": "what is caramel made of",
-      "volume": 3700,
-      "parent_topic": "caramel recipe",
+      "volume": 3800,
+      "original_keyword": "Caramel",
+      "parent_topic": "caramel",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to pronounce caramel",
+      "volume": 3500,
+      "original_keyword": "Caramel",
+      "parent_topic": "carmel or caramel",
       "intents": [
         "informational"
       ]
@@ -30,6 +45,7 @@
     {
       "keyword": "can dogs have caramel",
       "volume": 3200,
+      "original_keyword": "Caramel",
       "parent_topic": "can dogs eat caramel",
       "intents": [
         "informational"
@@ -38,6 +54,7 @@
     {
       "keyword": "what is caramel",
       "volume": 3200,
+      "original_keyword": "Caramel",
       "parent_topic": "caramel",
       "intents": [
         "informational"
@@ -46,15 +63,8 @@
     {
       "keyword": "how to make caramel popcorn",
       "volume": 3000,
+      "original_keyword": "Caramel",
       "parent_topic": "caramel popcorn",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "how to pronounce caramel",
-      "volume": 3000,
-      "parent_topic": "carmel or caramel",
       "intents": [
         "informational"
       ]
@@ -62,6 +72,7 @@
     {
       "keyword": "can dogs eat caramel",
       "volume": 2700,
+      "original_keyword": "Caramel",
       "parent_topic": "can dogs eat caramel",
       "intents": [
         "informational"
@@ -70,6 +81,7 @@
     {
       "keyword": "how to make caramel apples",
       "volume": 2700,
+      "original_keyword": "Caramel",
       "parent_topic": "caramel apples",
       "intents": [
         "informational"
@@ -78,6 +90,7 @@
     {
       "keyword": "how to make a caramel macchiato",
       "volume": 2400,
+      "original_keyword": "Caramel",
       "parent_topic": "caramel macchiato recipe",
       "intents": [
         "informational",

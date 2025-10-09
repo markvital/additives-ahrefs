@@ -1,17 +1,22 @@
 {
-  "keyword": "Sorbitan monolaurate",
+  "keywords": [
+    "Sorbitan monolaurate",
+    "E493"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:25:16.660Z",
+  "fetchedAt": "2025-10-09T03:29:41.978Z",
   "questions": [
     {
       "keyword": "what is poe 80 sorbitan monolaurate",
       "volume": 0,
+      "original_keyword": "Sorbitan monolaurate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is polyoxyethylene sorbitan monolaurate",
       "volume": 0,
+      "original_keyword": "Sorbitan monolaurate",
       "parent_topic": "",
       "intents": []
     }

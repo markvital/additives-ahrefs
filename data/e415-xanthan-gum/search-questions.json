@@ -1,11 +1,18 @@
 {
-  "keyword": "Xanthan gum",
+  "keywords": [
+    "Xanthan gum",
+    "E415",
+    "xanthan",
+    "E-415",
+    "e 415"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:19:04.413Z",
+  "fetchedAt": "2025-10-09T03:30:10.782Z",
   "questions": [
     {
       "keyword": "what is xanthan gum",
       "volume": 12000,
+      "original_keyword": "Xanthan gum",
       "parent_topic": "is xanthan gum bad for you",
       "intents": [
         "informational"
@@ -14,6 +21,7 @@
     {
       "keyword": "is xanthan gum bad for you",
       "volume": 7500,
+      "original_keyword": "Xanthan gum",
       "parent_topic": "is xanthan gum bad for you",
       "intents": [
         "informational"
@@ -22,7 +30,8 @@
     {
       "keyword": "is xanthan gum safe",
       "volume": 1900,
-      "parent_topic": "is xanthan gum safe",
+      "original_keyword": "Xanthan gum",
+      "parent_topic": "is xanthan gum bad for you",
       "intents": [
         "informational"
       ]
@@ -30,7 +39,17 @@
     {
       "keyword": "what is xanthan gum made from",
       "volume": 1200,
+      "original_keyword": "Xanthan gum",
       "parent_topic": "is xanthan gum bad for you",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is xanthan gum bad for dogs",
+      "volume": 1100,
+      "original_keyword": "Xanthan gum",
+      "parent_topic": "xanthan gum dogs",
       "intents": [
         "informational"
       ]
@@ -38,6 +57,7 @@
     {
       "keyword": "what does xanthan gum do",
       "volume": 1100,
+      "original_keyword": "Xanthan gum",
       "parent_topic": "is xanthan gum bad for you",
       "intents": [
         "informational"
@@ -46,14 +66,7 @@
     {
       "keyword": "can dogs have xanthan gum",
       "volume": 1000,
-      "parent_topic": "xanthan gum dogs",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is xanthan gum bad for dogs",
-      "volume": 1000,
+      "original_keyword": "Xanthan gum",
       "parent_topic": "xanthan gum dogs",
       "intents": [
         "informational"
@@ -62,6 +75,7 @@
     {
       "keyword": "what is xanthan gum used for",
       "volume": 900,
+      "original_keyword": "Xanthan gum",
       "parent_topic": "what is xanthan gum used for",
       "intents": [
         "informational"
@@ -70,6 +84,7 @@
     {
       "keyword": "is xanthan gum vegan",
       "volume": 800,
+      "original_keyword": "Xanthan gum",
       "parent_topic": "is xanthan gum vegan",
       "intents": [
         "informational"
@@ -77,8 +92,9 @@
     },
     {
       "keyword": "is xanthan gum safe for dogs",
-      "volume": 500,
-      "parent_topic": "is xanthan gum bad for dogs",
+      "volume": 450,
+      "original_keyword": "Xanthan gum",
+      "parent_topic": "xanthan gum dogs",
       "intents": [
         "informational"
       ]

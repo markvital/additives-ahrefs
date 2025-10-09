@@ -1,6 +1,87 @@
 {
-  "keyword": "Sodium formiate",
+  "keywords": [
+    "Sodium formiate",
+    "E237",
+    "Sodium formate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:25:09.602Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:29:27.551Z",
+  "questions": [
+    {
+      "keyword": "is sodium formate an acid or base",
+      "volume": 30,
+      "original_keyword": "Sodium formate",
+      "parent_topic": "sodium formate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is sodium formate",
+      "volume": 30,
+      "original_keyword": "Sodium formate",
+      "parent_topic": "sodium formate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sodium formate a strong base",
+      "volume": 10,
+      "original_keyword": "Sodium formate",
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": ". what is the effect on equilibrium when sodium formate is added to a solution of formic acid?",
+      "volume": 0,
+      "original_keyword": "Sodium formate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "1l solution of .05m sodium formate. what is final ph if 12ml of 1.0m hcl is added",
+      "volume": 0,
+      "original_keyword": "Sodium formate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "determind how much formic acid and sodium formate to make buffer",
+      "volume": 0,
+      "original_keyword": "Sodium formate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how a buffer solution with \"formic acid\" and \"sodium formate\" decrease ph",
+      "volume": 0,
+      "original_keyword": "Sodium formate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how a buffer solution with formic acid and sodium formate lessen ph",
+      "volume": 0,
+      "original_keyword": "Sodium formate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how calculate number of grams of formic acid and sodium formate to make 1l .05 formic acid buffer",
+      "volume": 0,
+      "original_keyword": "Sodium formate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how many grams of sodium formate nacho2 would have to be dissolved",
+      "volume": 0,
+      "original_keyword": "Sodium formate",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

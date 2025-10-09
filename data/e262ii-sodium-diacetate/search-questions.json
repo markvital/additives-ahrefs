@@ -1,11 +1,15 @@
 {
-  "keyword": "Sodium diacetate",
+  "keywords": [
+    "Sodium diacetate",
+    "E262II"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:25:08.651Z",
+  "fetchedAt": "2025-10-09T03:29:25.624Z",
   "questions": [
     {
       "keyword": "what is sodium diacetate",
       "volume": 200,
+      "original_keyword": "Sodium diacetate",
       "parent_topic": "sodium diacetate",
       "intents": [
         "informational"
@@ -13,7 +17,8 @@
     },
     {
       "keyword": "is sodium diacetate gluten free",
-      "volume": 30,
+      "volume": 20,
+      "original_keyword": "Sodium diacetate",
       "parent_topic": "is sodium diacetate gluten free",
       "intents": [
         "informational"
@@ -22,6 +27,7 @@
     {
       "keyword": "is sodium diacetate bad for you",
       "volume": 10,
+      "original_keyword": "Sodium diacetate",
       "parent_topic": "sodium diacetate in food",
       "intents": [
         "informational"
@@ -30,18 +36,21 @@
     {
       "keyword": "what is sodium diacetate in food",
       "volume": 10,
+      "original_keyword": "Sodium diacetate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is sodium diacetate made from",
       "volume": 10,
+      "original_keyword": "Sodium diacetate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is sodium diacetate used for",
       "volume": 10,
+      "original_keyword": "Sodium diacetate",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -50,24 +59,28 @@
     {
       "keyword": "what is sodium diacetate used for in food",
       "volume": 10,
+      "original_keyword": "Sodium diacetate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is the chemical formula for sodium diacetate",
       "volume": 10,
+      "original_keyword": "Sodium diacetate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is the formula for sodium diacetate",
       "volume": 10,
+      "original_keyword": "Sodium diacetate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how does sodium diacetate help dialysis",
       "volume": 0,
+      "original_keyword": "Sodium diacetate",
       "parent_topic": "",
       "intents": []
     }

@@ -1,11 +1,15 @@
 {
-  "keyword": "Microcrystalline cellulose",
+  "keywords": [
+    "Microcrystalline cellulose",
+    "E460I"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:20.224Z",
+  "fetchedAt": "2025-10-09T03:23:57.627Z",
   "questions": [
     {
       "keyword": "what is microcrystalline cellulose",
       "volume": 1900,
+      "original_keyword": "Microcrystalline cellulose",
       "parent_topic": "microcrystalline cellulose",
       "intents": [
         "informational"
@@ -14,6 +18,7 @@
     {
       "keyword": "is microcrystalline cellulose safe",
       "volume": 300,
+      "original_keyword": "Microcrystalline cellulose",
       "parent_topic": "microcrystalline cellulose",
       "intents": [
         "informational"
@@ -22,6 +27,7 @@
     {
       "keyword": "is microcrystalline cellulose bad for you",
       "volume": 200,
+      "original_keyword": "Microcrystalline cellulose",
       "parent_topic": "is microcrystalline cellulose bad for you",
       "intents": [
         "informational"
@@ -29,16 +35,9 @@
     },
     {
       "keyword": "what is microcrystalline cellulose made from",
-      "volume": 150,
-      "parent_topic": "microcrystalline cellulose",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is microcrystalline cellulose safe for dogs",
       "volume": 100,
-      "parent_topic": "microcrystalline cellulose safe",
+      "original_keyword": "Microcrystalline cellulose",
+      "parent_topic": "microcrystalline cellulose",
       "intents": [
         "informational"
       ]
@@ -46,7 +45,17 @@
     {
       "keyword": "is microcrystalline cellulose gluten free",
       "volume": 90,
+      "original_keyword": "Microcrystalline cellulose",
       "parent_topic": "microcrystalline cellulose gluten free",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is microcrystalline cellulose safe for dogs",
+      "volume": 90,
+      "original_keyword": "Microcrystalline cellulose",
+      "parent_topic": "microcrystalline cellulose safe",
       "intents": [
         "informational"
       ]
@@ -54,6 +63,7 @@
     {
       "keyword": "what is microcrystalline cellulose used for",
       "volume": 80,
+      "original_keyword": "Microcrystalline cellulose",
       "parent_topic": "microcrystalline cellulose",
       "intents": [
         "informational"
@@ -62,6 +72,7 @@
     {
       "keyword": "is microcrystalline cellulose vegan",
       "volume": 60,
+      "original_keyword": "Microcrystalline cellulose",
       "parent_topic": "microcrystalline cellulose vegan",
       "intents": [
         "informational"
@@ -70,6 +81,7 @@
     {
       "keyword": "can dogs have microcrystalline cellulose",
       "volume": 50,
+      "original_keyword": "Microcrystalline cellulose",
       "parent_topic": "microcrystalline cellulose safe",
       "intents": [
         "informational"
@@ -78,6 +90,7 @@
     {
       "keyword": "what does microcrystalline cellulose do to the body",
       "volume": 50,
+      "original_keyword": "Microcrystalline cellulose",
       "parent_topic": "microcrystalline cellulose benefits",
       "intents": [
         "informational"

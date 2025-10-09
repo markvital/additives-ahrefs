@@ -1,6 +1,24 @@
 {
-  "keyword": "Sodium propyl para-hydroxybenzoate",
+  "keywords": [
+    "Sodium propyl para-hydroxybenzoate",
+    "E217"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:25:13.241Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:29:33.100Z",
+  "questions": [
+    {
+      "keyword": "how much is e217 in american dollar",
+      "volume": 0,
+      "original_keyword": "E217",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is start link method in e217",
+      "volume": 0,
+      "original_keyword": "E217",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

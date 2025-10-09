@@ -3,6 +3,8 @@ import path from 'path';
 
 import additivesIndex from '../data/additives.json';
 import { createAdditiveSlug } from './additive-slug';
+import { getSearchVolumeDataset } from './search-volume';
+import { getSearchHistory } from './search-history';
 
 export interface AdditivePropsFile {
   title?: string;
@@ -13,9 +15,6 @@ export interface AdditivePropsFile {
   description?: unknown;
   wikipedia?: unknown;
   wikidata?: unknown;
-  searchSparkline?: unknown;
-  searchVolume?: unknown;
-  searchRank?: unknown;
   productCount?: unknown;
 }
 
@@ -77,22 +76,12 @@ const toStringArray = (value: unknown): string[] => {
     .filter((item, index, list) => item.length > 0 && list.indexOf(item) === index);
 };
 
-const toSparkline = (value: unknown): Array<number | null> => {
-  if (!Array.isArray(value)) {
-    return [];
+const toOptionalNumber = (value: unknown): number | null => {
+  if (typeof value === 'number' && Number.isFinite(value)) {
+    return value;
   }
 
-  return value.map((item) => {
-    if (typeof item === 'number' && Number.isFinite(item)) {
-      return item;
-    }
-
-    if (item === null) {
-      return null;
-    }
-
-    return null;
-  });
+  return null;
 };
 
 const createFilterSlug = (value: string): string =>
@@ -101,14 +90,6 @@ const createFilterSlug = (value: string): string =>
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-+|-+$/g, '');
-
-const toOptionalNumber = (value: unknown): number | null => {
-  if (typeof value === 'number' && Number.isFinite(value)) {
-    return value;
-  }
-
-  return null;
-};
 
 const readAdditiveProps = (
   slug: string,
@@ -155,9 +136,9 @@ const readAdditiveProps = (
       article,
       wikipedia: toString(parsed.wikipedia),
       wikidata: toString(parsed.wikidata),
-      searchSparkline: toSparkline(parsed.searchSparkline),
-      searchVolume: toOptionalNumber(parsed.searchVolume),
-      searchRank: toOptionalNumber(parsed.searchRank),
+      searchSparkline: [],
+      searchVolume: null,
+      searchRank: null,
       productCount: toOptionalNumber(parsed.productCount),
     };
   } catch (error) {
@@ -181,6 +162,43 @@ const readAdditiveProps = (
       productCount: null,
     };
   }
+};
+
+const attachSearchMetrics = (additives: Additive[]): Additive[] => {
+  const totals = new Map<string, number | null>();
+
+  additives.forEach((additive) => {
+    const dataset = getSearchVolumeDataset(additive.slug);
+    const total =
+      typeof dataset?.totalSearchVolume === 'number' &&
+      Number.isFinite(dataset.totalSearchVolume) &&
+      dataset.totalSearchVolume > 0
+        ? dataset.totalSearchVolume
+        : null;
+
+    totals.set(additive.slug, total);
+  });
+
+  const ranked = Array.from(totals.entries())
+    .filter(([, total]) => typeof total === 'number' && (total as number) > 0)
+    .sort((a, b) => (b[1]! as number) - (a[1]! as number));
+
+  const rankMap = new Map<string, number>();
+  ranked.forEach(([slug], index) => {
+    rankMap.set(slug, index + 1);
+  });
+
+  return additives.map((additive) => {
+    const history = getSearchHistory(additive.slug);
+    const sparkline = Array.isArray(history?.sparkline) ? [...history.sparkline] : [];
+
+    return {
+      ...additive,
+      searchVolume: totals.get(additive.slug) ?? null,
+      searchRank: rankMap.get(additive.slug) ?? null,
+      searchSparkline: sparkline,
+    };
+  });
 };
 
 const compareBySearchRank = (a: Additive, b: Additive): number => {
@@ -252,9 +270,11 @@ const mapAdditives = (): Additive[] => {
     };
   });
 
-  enriched.sort(compareBySearchRank);
+  const withMetrics = attachSearchMetrics(enriched);
 
-  return enriched;
+  withMetrics.sort(compareBySearchRank);
+
+  return withMetrics;
 };
 
 const additiveCache = mapAdditives();

@@ -1,12 +1,27 @@
 {
-  "keyword": "Lactic acid",
+  "keywords": [
+    "Lactic acid",
+    "E270",
+    "milk acid",
+    "2-Hydroxypropanoic acid"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:12.080Z",
+  "fetchedAt": "2025-10-09T03:23:46.125Z",
   "questions": [
     {
       "keyword": "what is lactic acid",
       "volume": 11000,
+      "original_keyword": "Lactic acid",
       "parent_topic": "lactic acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does milk help acid reflux",
+      "volume": 4200,
+      "original_keyword": "milk acid",
+      "parent_topic": "what foods neutralize stomach acid immediately",
       "intents": [
         "informational"
       ]
@@ -14,6 +29,7 @@
     {
       "keyword": "how to drain lactic acid from legs",
       "volume": 2200,
+      "original_keyword": "Lactic acid",
       "parent_topic": "how to drain lactic acid from legs",
       "intents": [
         "informational"
@@ -22,6 +38,7 @@
     {
       "keyword": "what does lactic acid do",
       "volume": 1900,
+      "original_keyword": "Lactic acid",
       "parent_topic": "lactic acid",
       "intents": [
         "informational"
@@ -30,6 +47,7 @@
     {
       "keyword": "what does lactic acid do for skin",
       "volume": 1700,
+      "original_keyword": "Lactic acid",
       "parent_topic": "lactic acid for skin",
       "intents": [
         "informational"
@@ -38,7 +56,26 @@
     {
       "keyword": "how to get rid of lactic acid",
       "volume": 1600,
+      "original_keyword": "Lactic acid",
       "parent_topic": "how to drain lactic acid from legs",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is milk good for acid reflux",
+      "volume": 1300,
+      "original_keyword": "milk acid",
+      "parent_topic": "what foods neutralize stomach acid immediately",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does milk help with acid reflux",
+      "volume": 1200,
+      "original_keyword": "milk acid",
+      "parent_topic": "what foods neutralize stomach acid immediately",
       "intents": [
         "informational"
       ]
@@ -46,6 +83,7 @@
     {
       "keyword": "is lactic acid dairy",
       "volume": 1200,
+      "original_keyword": "Lactic acid",
       "parent_topic": "is lactic acid dairy",
       "intents": [
         "informational"
@@ -53,32 +91,9 @@
     },
     {
       "keyword": "what supplement helps reduce lactic acid",
-      "volume": 1200,
+      "volume": 1100,
+      "original_keyword": "Lactic acid",
       "parent_topic": "what supplement helps reduce lactic acid",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is lactic acid bad for you",
-      "volume": 800,
-      "parent_topic": "lactic acid",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is lactic acid vegan",
-      "volume": 800,
-      "parent_topic": "is lactic acid vegan",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what causes lactic acid build up",
-      "volume": 700,
-      "parent_topic": "lactic acidosis",
       "intents": [
         "informational"
       ]

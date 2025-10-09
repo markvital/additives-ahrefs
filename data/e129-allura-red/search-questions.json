@@ -1,11 +1,45 @@
 {
-  "keyword": "Allura red",
+  "keywords": [
+    "Allura red",
+    "E129",
+    "Allura red ac",
+    "FD&C Red 40",
+    "FD and C Red 40",
+    "Red 40",
+    "Red no40",
+    "Red no. 40",
+    "FD and C Red no. 40",
+    "Food Red 17",
+    "C.I. 16035",
+    "Red 40 lake"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.335Z",
+  "fetchedAt": "2025-10-09T03:20:39.858Z",
   "questions": [
     {
-      "keyword": "is allura red the same as red 40",
-      "volume": 150,
+      "keyword": "what is red 40",
+      "volume": 26000,
+      "original_keyword": "Red 40",
+      "parent_topic": "red dye 40",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "why is red 40 bad",
+      "volume": 7900,
+      "original_keyword": "Red 40",
+      "parent_topic": "is red 40 bad for you",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "why is red 40 banned",
+      "volume": 7600,
+      "original_keyword": "Red 40",
       "parent_topic": "red 40",
       "intents": [
         "informational",
@@ -13,61 +47,74 @@
       ]
     },
     {
-      "keyword": "how do you safely dispose of allura red",
-      "volume": 100,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is allura red",
-      "volume": 40,
-      "parent_topic": "",
+      "keyword": "what is red 40 made of",
+      "volume": 5900,
+      "original_keyword": "Red 40",
+      "parent_topic": "red dye 40",
       "intents": [
         "informational",
         "branded"
       ]
     },
     {
-      "keyword": "how is allura red made",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what does red 40 do to your body",
+      "volume": 5400,
+      "original_keyword": "Red 40",
+      "parent_topic": "is red 40 bad for you",
+      "intents": [
+        "informational",
+        "branded"
+      ]
     },
     {
-      "keyword": "what is allura red ac",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is red dye 40 made of",
+      "volume": 3100,
+      "original_keyword": "Red 40",
+      "parent_topic": "red dye 40",
+      "intents": [
+        "informational",
+        "branded"
+      ]
     },
     {
-      "keyword": "what is allura red ac made from",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "where does red 40 come from",
+      "volume": 3000,
+      "original_keyword": "Red 40",
+      "parent_topic": "red 40",
+      "intents": [
+        "informational",
+        "branded"
+      ]
     },
     {
-      "keyword": "what is allura red in food",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "does red 40 cause cancer",
+      "volume": 2300,
+      "original_keyword": "Red 40",
+      "parent_topic": "red 40 side effects",
+      "intents": [
+        "informational",
+        "branded"
+      ]
     },
     {
-      "keyword": "what is allura red made from",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "is red 40 banned in the us",
+      "volume": 2300,
+      "original_keyword": "Red 40",
+      "parent_topic": "red 40 ban",
+      "intents": [
+        "informational",
+        "branded"
+      ]
     },
     {
-      "keyword": "what is allura red made of",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "where is allura red banned",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what foods have red dye 40",
+      "volume": 2300,
+      "original_keyword": "Red 40",
+      "parent_topic": "red dye 40",
+      "intents": [
+        "informational",
+        "branded"
+      ]
     }
   ]
 }

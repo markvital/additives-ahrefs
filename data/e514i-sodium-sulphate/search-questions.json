@@ -1,11 +1,15 @@
 {
-  "keyword": "Sodium sulphate",
+  "keywords": [
+    "Sodium sulphate",
+    "E514I"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:25:14.441Z",
+  "fetchedAt": "2025-10-09T03:29:35.652Z",
   "questions": [
     {
       "keyword": "what is sodium laureth sulphate",
       "volume": 20,
+      "original_keyword": "Sodium sulphate",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -14,6 +18,7 @@
     {
       "keyword": "what is sodium lauryl sulphate",
       "volume": 20,
+      "original_keyword": "Sodium sulphate",
       "parent_topic": "sodium lauryl sulfate",
       "intents": [
         "informational"
@@ -22,6 +27,7 @@
     {
       "keyword": "is sodium sulphate soluble in water",
       "volume": 10,
+      "original_keyword": "Sodium sulphate",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -30,12 +36,14 @@
     {
       "keyword": "what is sodium laureth sulphate used for",
       "volume": 10,
+      "original_keyword": "Sodium sulphate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is sodium sulphate",
       "volume": 10,
+      "original_keyword": "Sodium sulphate",
       "parent_topic": "sodium sulfate",
       "intents": [
         "informational"
@@ -44,30 +52,35 @@
     {
       "keyword": "what is sodium sulphate used for",
       "volume": 10,
+      "original_keyword": "Sodium sulphate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the chemical formula for sodium sulphate",
+      "volume": 10,
+      "original_keyword": "Sodium sulphate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is the formula of sodium sulphate",
       "volume": 10,
+      "original_keyword": "Sodium sulphate",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "how bad is sodium sulphate when inhaled",
+      "keyword": "how to make sodium dodecyl sulphate",
       "volume": 0,
+      "original_keyword": "Sodium sulphate",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "how does sodium laureth sulphate work",
+      "keyword": "how to remove sodium sulphate from carbon",
       "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how long does it take sodium laurel sulphate to be out the mouth",
-      "volume": 0,
+      "original_keyword": "Sodium sulphate",
       "parent_topic": "",
       "intents": []
     }

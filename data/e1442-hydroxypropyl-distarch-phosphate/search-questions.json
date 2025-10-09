@@ -1,11 +1,43 @@
 {
-  "keyword": "Hydroxypropyl distarch phosphate",
+  "keywords": [
+    "Hydroxypropyl distarch phosphate",
+    "E1442"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:23:54.630Z",
+  "fetchedAt": "2025-10-09T03:23:39.033Z",
   "questions": [
     {
       "keyword": "what is hydroxypropyl distarch phosphate",
       "volume": 10,
+      "original_keyword": "Hydroxypropyl distarch phosphate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is e1442",
+      "volume": 0,
+      "original_keyword": "E1442",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is e1442 in food",
+      "volume": 0,
+      "original_keyword": "E1442",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is e1442 made from",
+      "volume": 0,
+      "original_keyword": "E1442",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "where is tecra x40-e1442 ssd",
+      "volume": 0,
+      "original_keyword": "E1442",
       "parent_topic": "",
       "intents": []
     }

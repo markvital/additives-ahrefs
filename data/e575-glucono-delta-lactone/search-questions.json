@@ -1,83 +1,101 @@
 {
-  "keyword": "Glucono-delta-lactone",
+  "keywords": [
+    "Glucono-delta-lactone",
+    "E575",
+    "Gluconolactone",
+    "GDL",
+    "D-Gluconic acid delta-lactone"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:45.660Z",
+  "fetchedAt": "2025-10-09T03:23:30.830Z",
   "questions": [
+    {
+      "keyword": "what is gdl",
+      "volume": 400,
+      "original_keyword": "GDL",
+      "parent_topic": "what is a gdl",
+      "intents": [
+        "informational"
+      ]
+    },
     {
       "keyword": "what is glucono delta lactone",
       "volume": 300,
+      "original_keyword": "Glucono-delta-lactone",
       "parent_topic": "glucono delta lactone",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "is glucono delta lactone gluten free",
-      "volume": 60,
-      "parent_topic": "is glucono delta lactone gluten free",
+      "keyword": "what is a gdl",
+      "volume": 250,
+      "original_keyword": "GDL",
+      "parent_topic": "gdl restrictions",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "is glucono delta lactone vegan",
-      "volume": 50,
-      "parent_topic": "glucono delta lactone vegan",
+      "keyword": "what does gdl stand for",
+      "volume": 200,
+      "original_keyword": "GDL",
+      "parent_topic": "what does gdl stand for?",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "glucono delta lactone where to buy",
-      "volume": 40,
-      "parent_topic": "glucono delta lactone",
-      "intents": [
-        "commercial",
-        "transactional"
-      ]
-    },
-    {
-      "keyword": "is glucono delta lactone bad for you",
-      "volume": 30,
-      "parent_topic": "",
+      "keyword": "what does gdl mean",
+      "volume": 150,
+      "original_keyword": "GDL",
+      "parent_topic": "what is a gdl",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "is glucono delta lactone safe",
-      "volume": 30,
-      "parent_topic": "glucono delta-lactone dangers",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what is glucono delta lactone made from",
-      "volume": 30,
-      "parent_topic": "glucono delta lactone tofu",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what is glucono delta lactone used for",
-      "volume": 30,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is glucono delta-lactone",
-      "volume": 20,
+      "keyword": "what is gluconolactone",
+      "volume": 150,
+      "original_keyword": "Gluconolactone",
       "parent_topic": "glucono delta lactone",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is glucono-delta-lactone",
-      "volume": 20,
-      "parent_topic": "glucono delta lactone",
+      "keyword": "que es gdl",
+      "volume": 100,
+      "original_keyword": "GDL",
+      "parent_topic": "que significa gdl",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "que significa gdl",
+      "volume": 100,
+      "original_keyword": "GDL",
+      "parent_topic": "que significa gdl",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where is gdl",
+      "volume": 100,
+      "original_keyword": "GDL",
+      "parent_topic": "guadalajara",
+      "intents": [
+        "informational",
+        "local"
+      ]
+    },
+    {
+      "keyword": "what airport is gdl",
+      "volume": 90,
+      "original_keyword": "GDL",
+      "parent_topic": "guadalajara airport",
       "intents": [
         "informational"
       ]

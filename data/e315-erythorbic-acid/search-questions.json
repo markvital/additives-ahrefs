@@ -1,11 +1,16 @@
 {
-  "keyword": "Erythorbic acid",
+  "keywords": [
+    "Erythorbic acid",
+    "E315",
+    "Isoascorbic acid"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:45.559Z",
+  "fetchedAt": "2025-10-09T03:21:53.397Z",
   "questions": [
     {
       "keyword": "what is erythorbic acid",
       "volume": 60,
+      "original_keyword": "Erythorbic acid",
       "parent_topic": "erythorbic acid",
       "intents": [
         "informational"
@@ -14,54 +19,63 @@
     {
       "keyword": "how does erythorbic acid work",
       "volume": 0,
+      "original_keyword": "Erythorbic acid",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how does erythorbic acid work as a preservative",
       "volume": 0,
+      "original_keyword": "Erythorbic acid",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how is erythorbic acid made",
       "volume": 0,
+      "original_keyword": "Erythorbic acid",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what are the effects of erythorbic acid",
+      "keyword": "how to change language for bluetooth wireless headset lifecharge e315",
       "volume": 0,
+      "original_keyword": "E315",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what are the side effects of erythorbic acid",
+      "keyword": "how to change language for headset lifecharge e315",
       "volume": 0,
+      "original_keyword": "E315",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what are the side ellects of erythorbic acid",
+      "keyword": "how to enable the beep on a e315 verifone device",
       "volume": 0,
+      "original_keyword": "E315",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what does erythorbic acid do",
+      "keyword": "how to fix a tamper error on the verifone e315",
       "volume": 0,
+      "original_keyword": "E315",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what does erythorbic acid do in drinks",
+      "keyword": "how to get my e315 bluetooth in english",
       "volume": 0,
+      "original_keyword": "E315",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what does erythorbic acid do to the body",
+      "keyword": "how to import photos from samsung e315 to pc",
       "volume": 0,
+      "original_keyword": "E315",
       "parent_topic": "",
       "intents": []
     }

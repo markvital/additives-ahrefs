@@ -1,29 +1,78 @@
 {
-  "keyword": "Calcium benzoate",
+  "keywords": [
+    "Calcium benzoate",
+    "E213"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.116Z",
+  "fetchedAt": "2025-10-09T03:20:41.156Z",
   "questions": [
+    {
+      "keyword": "how many keys does a yamaha portatone psr-e213 have",
+      "volume": 0,
+      "original_keyword": "E213",
+      "parent_topic": "",
+      "intents": []
+    },
     {
       "keyword": "how to calculate benzoate concentration from calcium concentration",
       "volume": 0,
+      "original_keyword": "Calcium benzoate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is e 213 calcium benzoate",
       "volume": 0,
+      "original_keyword": "Calcium benzoate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is e213",
+      "volume": 0,
+      "original_keyword": "E213",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is medication e213",
+      "volume": 0,
+      "original_keyword": "E213",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "when does fairy tail e213 inj english",
+      "volume": 0,
+      "original_keyword": "E213",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "when having too much calcium benzoate",
       "volume": 0,
+      "original_keyword": "Calcium benzoate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "where is e213 at st luke's umc meridian street",
+      "volume": 0,
+      "original_keyword": "E213",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "where to find calcium benzoate",
       "volume": 0,
+      "original_keyword": "Calcium benzoate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "where to find suspension code on 2018 e213",
+      "volume": 0,
+      "original_keyword": "E213",
       "parent_topic": "",
       "intents": []
     }

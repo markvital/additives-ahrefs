@@ -1,13 +1,105 @@
 {
-  "keyword": "Polyoxyethylene sorbitan monooleate",
+  "keywords": [
+    "Polyoxyethylene sorbitan monooleate",
+    "E433",
+    "Polysorbate 80"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:34.150Z",
+  "fetchedAt": "2025-10-09T03:25:54.633Z",
   "questions": [
     {
-      "keyword": "what is polyoxyethylene 20 sorbitan monooleate",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is polysorbate 80",
+      "volume": 3900,
+      "original_keyword": "Polysorbate 80",
+      "parent_topic": "polysorbate 80",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is polysorbate 80 safe",
+      "volume": 500,
+      "original_keyword": "Polysorbate 80",
+      "parent_topic": "polysorbate 80",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is polysorbate 80 used for",
+      "volume": 150,
+      "original_keyword": "Polysorbate 80",
+      "parent_topic": "what is polysorbate 80",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "is polysorbate 80 bad for you",
+      "volume": 100,
+      "original_keyword": "Polysorbate 80",
+      "parent_topic": "polysorbate 80 side effects",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is polysorbate 80 natural",
+      "volume": 100,
+      "original_keyword": "Polysorbate 80",
+      "parent_topic": "is polysorbate 80 natural",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what foods contain polysorbate 80",
+      "volume": 90,
+      "original_keyword": "Polysorbate 80",
+      "parent_topic": "polysorbate 80 in food",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what foods have polysorbate 80",
+      "volume": 90,
+      "original_keyword": "Polysorbate 80",
+      "parent_topic": "what foods contain polysorbate 80",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is polysorbate 80 made from",
+      "volume": 90,
+      "original_keyword": "Polysorbate 80",
+      "parent_topic": "polysorbate 80",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "what is polysorbate 80 in food",
+      "volume": 80,
+      "original_keyword": "Polysorbate 80",
+      "parent_topic": "polysorbate 80 in food",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "what does polysorbate 80 do",
+      "volume": 70,
+      "original_keyword": "Polysorbate 80",
+      "parent_topic": "polysorbate 80",
+      "intents": [
+        "informational",
+        "branded"
+      ]
     }
   ]
 }

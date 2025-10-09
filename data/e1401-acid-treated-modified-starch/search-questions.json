@@ -1,6 +1,17 @@
 {
-  "keyword": "Acid-treated modified starch",
+  "keywords": [
+    "Acid-treated modified starch",
+    "E1401"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.310Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:16:32.324Z",
+  "questions": [
+    {
+      "keyword": "what battery does the dell e1401 use?",
+      "volume": 0,
+      "original_keyword": "E1401",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

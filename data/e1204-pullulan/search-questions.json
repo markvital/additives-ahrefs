@@ -1,75 +1,101 @@
 {
-  "keyword": "Pullulan",
+  "keywords": [
+    "Pullulan",
+    "E1204",
+    "Linear"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:45.598Z",
+  "fetchedAt": "2025-10-09T03:29:10.871Z",
   "questions": [
     {
-      "keyword": "what is pullulan",
-      "volume": 250,
-      "parent_topic": "pullulan",
+      "keyword": "what is a linear function",
+      "volume": 11000,
+      "original_keyword": "Linear",
+      "parent_topic": "linear function",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is pullulan capsule",
-      "volume": 150,
-      "parent_topic": "pullulan capsule",
+      "keyword": "what is a linear foot",
+      "volume": 9100,
+      "original_keyword": "Linear",
+      "parent_topic": "linear foot",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "pullulan what is it",
-      "volume": 70,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what are pullulan capsules made of",
-      "volume": 40,
-      "parent_topic": "pullulan capsule",
+      "keyword": "which table represents a linear function?",
+      "volume": 7600,
+      "original_keyword": "Linear",
+      "parent_topic": "which table represents a linear function?",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is organic pullulan",
-      "volume": 40,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is a pullulan capsule",
-      "volume": 20,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is pullulan made from",
-      "volume": 20,
-      "parent_topic": "pullulan",
+      "keyword": "what is a linear equation",
+      "volume": 6200,
+      "original_keyword": "Linear",
+      "parent_topic": "linear equations",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what are pullulan capsules",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is linear regression",
+      "volume": 5400,
+      "original_keyword": "Linear",
+      "parent_topic": "linear regression",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "what happens to pullulan in stomach",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is a linear pair",
+      "volume": 5100,
+      "original_keyword": "Linear",
+      "parent_topic": "linear pair",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "what is pullulan capsule made of",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is linear algebra",
+      "volume": 3900,
+      "original_keyword": "Linear",
+      "parent_topic": "what is linear algebra",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is linear feet",
+      "volume": 2900,
+      "original_keyword": "Linear",
+      "parent_topic": "linear foot",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to solve linear equations",
+      "volume": 2600,
+      "original_keyword": "Linear",
+      "parent_topic": "solving linear equations",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does linear mean",
+      "volume": 2600,
+      "original_keyword": "Linear",
+      "parent_topic": "linear",
+      "intents": [
+        "informational"
+      ]
     }
   ]
 }

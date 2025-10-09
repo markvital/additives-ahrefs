@@ -1,11 +1,15 @@
 {
-  "keyword": "Glycolipids",
+  "keywords": [
+    "Glycolipids",
+    "E246"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:23:51.443Z",
+  "fetchedAt": "2025-10-09T03:23:33.248Z",
   "questions": [
     {
       "keyword": "what are the roles of glycoproteins and glycolipids",
       "volume": 250,
+      "original_keyword": "Glycolipids",
       "parent_topic": "what are the roles of glycoproteins and glycolipids",
       "intents": [
         "informational"
@@ -14,6 +18,7 @@
     {
       "keyword": "what are glycolipids",
       "volume": 200,
+      "original_keyword": "Glycolipids",
       "parent_topic": "glycolipids",
       "intents": [
         "informational"
@@ -22,6 +27,7 @@
     {
       "keyword": "what do glycolipids do",
       "volume": 100,
+      "original_keyword": "Glycolipids",
       "parent_topic": "glycolipid",
       "intents": [
         "informational"
@@ -30,6 +36,7 @@
     {
       "keyword": "why are glycolipids and glycoproteins important?",
       "volume": 90,
+      "original_keyword": "Glycolipids",
       "parent_topic": "glycoprotein function",
       "intents": [
         "informational"
@@ -38,6 +45,7 @@
     {
       "keyword": "are glycolipids bad for you",
       "volume": 60,
+      "original_keyword": "Glycolipids",
       "parent_topic": "glycolipids in food",
       "intents": [
         "informational"
@@ -46,12 +54,14 @@
     {
       "keyword": "why the roles of glycoproteins and glycolipids",
       "volume": 60,
+      "original_keyword": "Glycolipids",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is glycolipids",
       "volume": 50,
+      "original_keyword": "Glycolipids",
       "parent_topic": "glycolipid",
       "intents": [
         "informational"
@@ -60,18 +70,21 @@
     {
       "keyword": "what do glycoproteins and glycolipids do",
       "volume": 40,
+      "original_keyword": "Glycolipids",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "why are glycoproteins and glycolipids important?",
-      "volume": 40,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what are glycolipids and glycoproteins",
+      "keyword": "what are glycolipids in apple cider",
       "volume": 30,
+      "original_keyword": "Glycolipids",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what are glycoproteins and glycolipids",
+      "volume": 30,
+      "original_keyword": "Glycolipids",
       "parent_topic": "",
       "intents": [
         "informational"

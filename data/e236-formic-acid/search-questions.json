@@ -1,11 +1,16 @@
 {
-  "keyword": "Formic acid",
+  "keywords": [
+    "Formic acid",
+    "E236",
+    "methanoic acid"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:45.435Z",
+  "fetchedAt": "2025-10-09T03:21:54.871Z",
   "questions": [
     {
       "keyword": "what is formic acid",
       "volume": 450,
+      "original_keyword": "Formic acid",
       "parent_topic": "formic acid",
       "intents": [
         "informational"
@@ -14,6 +19,7 @@
     {
       "keyword": "is formic acid a strong acid",
       "volume": 90,
+      "original_keyword": "Formic acid",
       "parent_topic": "formic acid",
       "intents": [
         "informational"
@@ -22,6 +28,7 @@
     {
       "keyword": "what is formic acid used for",
       "volume": 90,
+      "original_keyword": "Formic acid",
       "parent_topic": "formic acid",
       "intents": [
         "informational"
@@ -30,6 +37,7 @@
     {
       "keyword": "what does formic acid smell like",
       "volume": 80,
+      "original_keyword": "Formic acid",
       "parent_topic": "can you smell ants",
       "intents": [
         "informational"
@@ -38,6 +46,7 @@
     {
       "keyword": "where to buy formic acid",
       "volume": 40,
+      "original_keyword": "Formic acid",
       "parent_topic": "formic acid for sale",
       "intents": [
         "commercial",
@@ -47,6 +56,7 @@
     {
       "keyword": "what does formic acid do to the body",
       "volume": 30,
+      "original_keyword": "Formic acid",
       "parent_topic": "is formic acid harmful to humans",
       "intents": [
         "informational"
@@ -55,6 +65,7 @@
     {
       "keyword": "does formic acid have hydrogen bonding",
       "volume": 20,
+      "original_keyword": "Formic acid",
       "parent_topic": "formic acid",
       "intents": [
         "informational"
@@ -63,6 +74,7 @@
     {
       "keyword": "how is formic acid made",
       "volume": 20,
+      "original_keyword": "Formic acid",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -71,6 +83,7 @@
     {
       "keyword": "how to make formic acid",
       "volume": 20,
+      "original_keyword": "Formic acid",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -79,6 +92,7 @@
     {
       "keyword": "is formic acid organic",
       "volume": 20,
+      "original_keyword": "Formic acid",
       "parent_topic": "",
       "intents": [
         "informational"

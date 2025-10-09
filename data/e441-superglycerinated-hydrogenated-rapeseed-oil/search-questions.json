@@ -1,6 +1,68 @@
 {
-  "keyword": "Superglycerinated hydrogenated rapeseed oil",
+  "keywords": [
+    "Superglycerinated hydrogenated rapeseed oil",
+    "E441",
+    "Hydrogenated rapeseed oil superglycerinated",
+    "Superglycerinated fully hydrogenated rapeseed oil"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:19:04.780Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:30:00.016Z",
+  "questions": [
+    {
+      "keyword": "how to clear e441 u002 error code",
+      "volume": 0,
+      "original_keyword": "E441",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is contain.in e441",
+      "volume": 0,
+      "original_keyword": "E441",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is e441",
+      "volume": 0,
+      "original_keyword": "E441",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is e441 in food",
+      "volume": 0,
+      "original_keyword": "E441",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is gelatin e441",
+      "volume": 0,
+      "original_keyword": "E441",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the model's name in girlsdoporn e441",
+      "volume": 0,
+      "original_keyword": "E441",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what maulana tariq jameel say about e441",
+      "volume": 0,
+      "original_keyword": "E441",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what mulana tariq jameel say about e441",
+      "volume": 0,
+      "original_keyword": "E441",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

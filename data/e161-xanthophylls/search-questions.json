@@ -1,11 +1,15 @@
 {
-  "keyword": "Xanthophylls",
+  "keywords": [
+    "Xanthophylls",
+    "E161"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:19:04.459Z",
+  "fetchedAt": "2025-10-09T03:30:09.070Z",
   "questions": [
     {
       "keyword": "what are xanthophylls",
       "volume": 10,
+      "original_keyword": "Xanthophylls",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -14,56 +18,65 @@
     {
       "keyword": "what is xanthophylls",
       "volume": 10,
+      "original_keyword": "Xanthophylls",
       "parent_topic": "",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "chegg why do you think that the carotenes move more rapidly with the solvent than the xanthophylls",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "for chlorophyll carotene and xanthophylls, what is the relationship of the action spectrum",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
       "keyword": "how does anthocynin relate to chromatography of carotene and xanthophylls",
       "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how is the ability to bleed off excess light energy by xanthophylls controlled",
-      "volume": 0,
+      "original_keyword": "Xanthophylls",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how much light is absorbed by xanthophylls in nanometers",
       "volume": 0,
+      "original_keyword": "Xanthophylls",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what are carotenoids and xanthophylls",
+      "keyword": "how to change the printhead on a canon ipf8000s displaying e161-403f",
       "volume": 0,
+      "original_keyword": "E161",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what are carotenoids and xanthophylls and their functions in photosystem 1 and 2",
+      "keyword": "how to reset error e161-403e ipf6100",
       "volume": 0,
+      "original_keyword": "E161",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what are xanthophylls in photography",
+      "keyword": "what colors are tissues that contain only xanthophylls and",
       "volume": 0,
+      "original_keyword": "Xanthophylls",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what colors are xanthophylls and carotenes",
+      "volume": 0,
+      "original_keyword": "Xanthophylls",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what colors do xanthophylls absorba nd function",
+      "volume": 0,
+      "original_keyword": "Xanthophylls",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what do you do when you see error code of e161-403e on a canon ipf710 printer?",
+      "volume": 0,
+      "original_keyword": "E161",
       "parent_topic": "",
       "intents": []
     }

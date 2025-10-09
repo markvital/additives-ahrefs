@@ -1,11 +1,15 @@
 {
-  "keyword": "Benzoic acid",
+  "keywords": [
+    "Benzoic acid",
+    "E210"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.852Z",
+  "fetchedAt": "2025-10-09T03:16:33.645Z",
   "questions": [
     {
       "keyword": "is benzoic acid soluble in water",
-      "volume": 700,
+      "volume": 600,
+      "original_keyword": "Benzoic acid",
       "parent_topic": "benzoic acid",
       "intents": [
         "informational"
@@ -14,6 +18,7 @@
     {
       "keyword": "what is benzoic acid",
       "volume": 600,
+      "original_keyword": "Benzoic acid",
       "parent_topic": "benzoic acid",
       "intents": [
         "informational"
@@ -22,6 +27,7 @@
     {
       "keyword": "is benzoic acid polar",
       "volume": 250,
+      "original_keyword": "Benzoic acid",
       "parent_topic": "is benzoic acid polar",
       "intents": [
         "informational"
@@ -30,6 +36,7 @@
     {
       "keyword": "is benzoic acid a strong acid",
       "volume": 150,
+      "original_keyword": "Benzoic acid",
       "parent_topic": "is benzoic acid a strong acid",
       "intents": [
         "informational"
@@ -38,6 +45,7 @@
     {
       "keyword": "what is the melting point of benzoic acid",
       "volume": 150,
+      "original_keyword": "Benzoic acid",
       "parent_topic": "benzoic acid",
       "intents": [
         "informational"
@@ -46,6 +54,7 @@
     {
       "keyword": "is benzoic acid bad for you",
       "volume": 100,
+      "original_keyword": "Benzoic acid",
       "parent_topic": "is benzoic acid bad for you",
       "intents": [
         "informational"
@@ -54,6 +63,7 @@
     {
       "keyword": "what is benzoic acid used for",
       "volume": 100,
+      "original_keyword": "Benzoic acid",
       "parent_topic": "benzoic acid uses",
       "intents": [
         "informational"
@@ -61,7 +71,8 @@
     },
     {
       "keyword": "why is benzoic acid insoluble in water",
-      "volume": 100,
+      "volume": 90,
+      "original_keyword": "Benzoic acid",
       "parent_topic": "is benzoic acid soluble in water",
       "intents": [
         "informational"
@@ -70,6 +81,7 @@
     {
       "keyword": "is benzoic acid a weak acid",
       "volume": 70,
+      "original_keyword": "Benzoic acid",
       "parent_topic": "is benzoic acid a weak acid",
       "intents": [
         "informational"
@@ -78,6 +90,7 @@
     {
       "keyword": "is benzoic acid polar or nonpolar",
       "volume": 60,
+      "original_keyword": "Benzoic acid",
       "parent_topic": "benzoic acid polar or nonpolar",
       "intents": [
         "informational"

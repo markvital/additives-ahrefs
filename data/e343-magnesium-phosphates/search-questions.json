@@ -1,35 +1,80 @@
 {
-  "keyword": "Magnesium phosphates",
+  "keywords": [
+    "Magnesium phosphates",
+    "E343",
+    "E 343",
+    "E-343"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:17.009Z",
+  "fetchedAt": "2025-10-09T03:23:54.849Z",
   "questions": [
+    {
+      "keyword": "12. what is the amplitude of the wave? a) 2 mm b) 4 mm c) 8 mm d) 12 mm e) 16 mm 13. what is the wavelength of the wave? a) 3.0 cm b) 6.0 cm c) 9.0 cmm d) 12 cm e) 15 cm 14. what is the frequency of the wave? a) 0.60 hz b) 0.90 hz c) 1.1 hz d) 1.3 hz e) 1.7 hz 1s. what is the difference in phase between the points a and b? a) (/4) radians b) (?/2) radians c) x radians d) (3m/4) radians e) 2? radians 16. a stationary railroad whistle is sounded. an echo is heard 5.0 seconds later by the train's engineer. if the speed of sound is 343 m/s, how far away is the reflecting surface? a) 68 m b) 140 m c) 860 m d) 1700 m e) 2000 m 17. the intensity of a spherical wave 2.5 m from the source is 120",
+      "volume": 0,
+      "original_keyword": "E 343",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "343 e. central, amarillo, tx 79108 what county",
+      "volume": 0,
+      "original_keyword": "E 343",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "form fl 343 e-how",
+      "volume": 0,
+      "original_keyword": "E 343",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "gdp e343 who is it",
+      "volume": 0,
+      "original_keyword": "E343",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "gdp e343 who is the girl",
+      "volume": 0,
+      "original_keyword": "E343",
+      "parent_topic": "",
+      "intents": []
+    },
     {
       "keyword": "how are magnesium and phosphates related",
       "volume": 0,
+      "original_keyword": "Magnesium phosphates",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how do phosphates interact with magnesium",
       "volume": 0,
+      "original_keyword": "Magnesium phosphates",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how easily are calcium and magnesium phosphates formed?",
       "volume": 0,
+      "original_keyword": "Magnesium phosphates",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "why do calcium and magnesium phosphates precipitate",
+      "keyword": "how to connect yamaha psr e343 to pc",
       "volume": 0,
+      "original_keyword": "E343",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "why do calcium and magnesium phosphates precipitate upon standing",
+      "keyword": "how to get headphones on yamaha psr e343",
       "volume": 0,
+      "original_keyword": "E343",
       "parent_topic": "",
       "intents": []
     }

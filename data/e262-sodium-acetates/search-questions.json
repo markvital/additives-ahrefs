@@ -1,29 +1,57 @@
 {
-  "keyword": "Sodium acetates",
+  "keywords": [
+    "Sodium acetates",
+    "E262"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:49.250Z",
+  "fetchedAt": "2025-10-09T03:29:20.900Z",
   "questions": [
+    {
+      "keyword": "what is e262",
+      "volume": 0,
+      "original_keyword": "E262",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is e262 in food",
+      "volume": 0,
+      "original_keyword": "E262",
+      "parent_topic": "",
+      "intents": []
+    },
     {
       "keyword": "what is sodium acetates formula",
       "volume": 0,
+      "original_keyword": "Sodium acetates",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is sodium acetates symbol",
       "volume": 0,
+      "original_keyword": "Sodium acetates",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "where is area cod e262",
+      "volume": 0,
+      "original_keyword": "E262",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "why are sodium bicarbonate and sidium acetates",
       "volume": 0,
+      "original_keyword": "Sodium acetates",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "why are sodium bicarbonate and sodium acetates",
       "volume": 0,
+      "original_keyword": "Sodium acetates",
       "parent_topic": "",
       "intents": []
     }

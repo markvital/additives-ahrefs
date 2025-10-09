@@ -1,11 +1,17 @@
 {
-  "keyword": "Guar gum",
+  "keywords": [
+    "Guar gum",
+    "E412",
+    "Gum cyamopsis",
+    "guar flour"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:23:53.513Z",
+  "fetchedAt": "2025-10-09T03:23:36.635Z",
   "questions": [
     {
       "keyword": "what is guar gum",
       "volume": 5700,
+      "original_keyword": "Guar gum",
       "parent_topic": "guar gum bad for you",
       "intents": [
         "informational"
@@ -13,7 +19,8 @@
     },
     {
       "keyword": "is guar gum bad for you",
-      "volume": 4000,
+      "volume": 4100,
+      "original_keyword": "Guar gum",
       "parent_topic": "guar gum bad for you",
       "intents": [
         "informational"
@@ -22,6 +29,7 @@
     {
       "keyword": "what is guar gum made from",
       "volume": 500,
+      "original_keyword": "Guar gum",
       "parent_topic": "guar gum",
       "intents": [
         "informational"
@@ -30,6 +38,7 @@
     {
       "keyword": "is guar gum bad for cats",
       "volume": 400,
+      "original_keyword": "Guar gum",
       "parent_topic": "is guar gum bad for cats",
       "intents": [
         "informational"
@@ -38,6 +47,7 @@
     {
       "keyword": "can dogs have guar gum",
       "volume": 350,
+      "original_keyword": "Guar gum",
       "parent_topic": "guar gum dogs",
       "intents": [
         "informational"
@@ -46,6 +56,7 @@
     {
       "keyword": "is guar gum bad for dogs",
       "volume": 300,
+      "original_keyword": "Guar gum",
       "parent_topic": "is guar gum bad for dogs",
       "intents": [
         "informational"
@@ -54,6 +65,7 @@
     {
       "keyword": "is guar gum vegan",
       "volume": 250,
+      "original_keyword": "Guar gum",
       "parent_topic": "is guar gum vegan",
       "intents": [
         "informational"
@@ -62,6 +74,7 @@
     {
       "keyword": "is guar gum bad",
       "volume": 200,
+      "original_keyword": "Guar gum",
       "parent_topic": "guar gum bad for you",
       "intents": [
         "informational"
@@ -70,15 +83,17 @@
     {
       "keyword": "is guar gum healthy",
       "volume": 200,
+      "original_keyword": "Guar gum",
       "parent_topic": "guar gum bad for you",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "can dogs eat guar gum",
-      "volume": 150,
-      "parent_topic": "guar gum dogs",
+      "keyword": "is guar gum inflammatory",
+      "volume": 200,
+      "original_keyword": "Guar gum",
+      "parent_topic": "guar gum",
       "intents": [
         "informational"
       ]

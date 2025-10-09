@@ -1,11 +1,15 @@
 {
-  "keyword": "Hydrogen",
+  "keywords": [
+    "Hydrogen",
+    "E949"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:23:53.770Z",
+  "fetchedAt": "2025-10-09T03:23:37.644Z",
   "questions": [
     {
       "keyword": "what is hydrogen",
       "volume": 8000,
+      "original_keyword": "Hydrogen",
       "parent_topic": "hydrogen",
       "intents": [
         "informational"
@@ -14,7 +18,8 @@
     {
       "keyword": "what is a hydrogen bond",
       "volume": 7000,
-      "parent_topic": "hydrogen bonds",
+      "original_keyword": "Hydrogen",
+      "parent_topic": "hydrogen bonding",
       "intents": [
         "informational"
       ]
@@ -22,6 +27,7 @@
     {
       "keyword": "does hydrogen peroxide expire",
       "volume": 6200,
+      "original_keyword": "Hydrogen",
       "parent_topic": "does hydrogen peroxide expire",
       "intents": [
         "informational"
@@ -30,7 +36,8 @@
     {
       "keyword": "is hydrogen water good for you",
       "volume": 5800,
-      "parent_topic": "hydrogen water bottle benefits",
+      "original_keyword": "Hydrogen",
+      "parent_topic": "hydrogen water tablets",
       "intents": [
         "informational"
       ]
@@ -38,6 +45,7 @@
     {
       "keyword": "is hydrogen a metal",
       "volume": 4600,
+      "original_keyword": "Hydrogen",
       "parent_topic": "is hydrogen a metal",
       "intents": [
         "informational"
@@ -46,6 +54,7 @@
     {
       "keyword": "does hydrogen peroxide kill mold",
       "volume": 4300,
+      "original_keyword": "Hydrogen",
       "parent_topic": "does hydrogen peroxide kill mold",
       "intents": [
         "informational"
@@ -54,7 +63,8 @@
     {
       "keyword": "what is hydrogen water",
       "volume": 4300,
-      "parent_topic": "hydrogen water",
+      "original_keyword": "Hydrogen",
+      "parent_topic": "hydrogen water benefits",
       "intents": [
         "informational"
       ]
@@ -62,7 +72,17 @@
     {
       "keyword": "how many neutrons does hydrogen have",
       "volume": 3800,
-      "parent_topic": "hydrogen neutrons",
+      "original_keyword": "Hydrogen",
+      "parent_topic": "how many neutrons does hydrogen have",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is hydrogen water a hoax",
+      "volume": 3800,
+      "original_keyword": "Hydrogen",
+      "parent_topic": "hydrogen water",
       "intents": [
         "informational"
       ]
@@ -70,15 +90,8 @@
     {
       "keyword": "how many valence electrons does hydrogen have",
       "volume": 3700,
-      "parent_topic": "hydrogen valence electrons",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is hydrogen water a hoax",
-      "volume": 3700,
-      "parent_topic": "hydrogen water",
+      "original_keyword": "Hydrogen",
+      "parent_topic": "how many valence electrons does hydrogen have",
       "intents": [
         "informational"
       ]

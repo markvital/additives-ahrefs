@@ -1,6 +1,31 @@
 {
-  "keyword": "Ethulose",
+  "keywords": [
+    "Ethulose",
+    "E467"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:45.558Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:21:53.900Z",
+  "questions": [
+    {
+      "keyword": "how to change number e467 pager",
+      "volume": 0,
+      "original_keyword": "E467",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to change number e467 pager 101 to 102",
+      "volume": 0,
+      "original_keyword": "E467",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to program alphanumeric text pager (model e467)",
+      "volume": 0,
+      "original_keyword": "E467",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

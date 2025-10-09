@@ -1,11 +1,22 @@
 {
-  "keyword": "Sodium aluminium phosphate",
+  "keywords": [
+    "Sodium aluminium phosphate",
+    "E541"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:49.878Z",
+  "fetchedAt": "2025-10-09T03:29:21.511Z",
   "questions": [
     {
       "keyword": "what is sodium aluminium phosphate",
       "volume": 10,
+      "original_keyword": "Sodium aluminium phosphate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to take apart a lenovo e541",
+      "volume": 0,
+      "original_keyword": "E541",
       "parent_topic": "",
       "intents": []
     }

@@ -1,11 +1,15 @@
 {
-  "keyword": "Thaumatin",
+  "keywords": [
+    "Thaumatin",
+    "E957"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:19:04.898Z",
+  "fetchedAt": "2025-10-09T03:30:01.812Z",
   "questions": [
     {
       "keyword": "what is thaumatin",
       "volume": 150,
+      "original_keyword": "Thaumatin",
       "parent_topic": "thaumatin",
       "intents": [
         "informational"
@@ -14,54 +18,63 @@
     {
       "keyword": "thaumatin where to buy",
       "volume": 20,
+      "original_keyword": "Thaumatin",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "thaumatin sweetener where to buy",
       "volume": 10,
+      "original_keyword": "Thaumatin",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is thaumatin sweetener",
       "volume": 10,
+      "original_keyword": "Thaumatin",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "where to buy thaumatin",
       "volume": 10,
+      "original_keyword": "Thaumatin",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how sweet is thaumatin",
       "volume": 0,
+      "original_keyword": "Thaumatin",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "thaumatin what is it",
       "volume": 0,
+      "original_keyword": "Thaumatin",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "thaumatin, the sweet protein in katemfe, a plant which grows primarily in nigeria.",
       "volume": 0,
+      "original_keyword": "Thaumatin",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what does pure thaumatin taste like",
       "volume": 0,
+      "original_keyword": "Thaumatin",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what does thaumatin taste like",
       "volume": 0,
+      "original_keyword": "Thaumatin",
       "parent_topic": "",
       "intents": []
     }

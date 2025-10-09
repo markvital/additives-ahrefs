@@ -1,41 +1,50 @@
 {
-  "keyword": "Bleached starch",
+  "keywords": [
+    "Bleached starch",
+    "E1403"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.853Z",
+  "fetchedAt": "2025-10-09T03:16:34.167Z",
   "questions": [
     {
       "keyword": "how is bleached starch used in food",
       "volume": 0,
+      "original_keyword": "Bleached starch",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how is tapioca starch bleached?",
       "volume": 0,
+      "original_keyword": "Bleached starch",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what foods have bleached starch",
       "volume": 0,
+      "original_keyword": "Bleached starch",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is bleached starch",
       "volume": 0,
+      "original_keyword": "Bleached starch",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is bleached starch used for",
       "volume": 0,
+      "original_keyword": "Bleached starch",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is the e number of bleached starch",
       "volume": 0,
+      "original_keyword": "Bleached starch",
       "parent_topic": "",
       "intents": []
     }

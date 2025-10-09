@@ -1,23 +1,78 @@
 {
-  "keyword": "Calcium lactobionate",
+  "keywords": [
+    "Calcium lactobionate",
+    "E399"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.336Z",
+  "fetchedAt": "2025-10-09T03:20:45.539Z",
   "questions": [
     {
       "keyword": "calcium bromo lactobionate is equivalent to what medication in usa",
       "volume": 0,
+      "original_keyword": "Calcium lactobionate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "calcium lactobionate where to buy",
       "volume": 0,
+      "original_keyword": "Calcium lactobionate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "e399 = what in american dollars",
+      "volume": 0,
+      "original_keyword": "E399",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "e399 = what in english",
+      "volume": 0,
+      "original_keyword": "E399",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how many batteries are in razor e399",
+      "volume": 0,
+      "original_keyword": "E399",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to find pq astm e399",
+      "volume": 0,
+      "original_keyword": "E399",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is e399",
+      "volume": 0,
+      "original_keyword": "E399",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is the e number of calcium lactobionate",
       "volume": 0,
+      "original_keyword": "Calcium lactobionate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "who is e399 girlsdoporn",
+      "volume": 0,
+      "original_keyword": "E399",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "why astm e399",
+      "volume": 0,
+      "original_keyword": "E399",
       "parent_topic": "",
       "intents": []
     }

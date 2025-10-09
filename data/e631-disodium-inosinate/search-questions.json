@@ -1,11 +1,16 @@
 {
-  "keyword": "Disodium inosinate",
+  "keywords": [
+    "Disodium inosinate",
+    "E631",
+    "Sodium inosinate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:45.039Z",
+  "fetchedAt": "2025-10-09T03:21:53.634Z",
   "questions": [
     {
       "keyword": "what is disodium inosinate",
-      "volume": 300,
+      "volume": 250,
+      "original_keyword": "Disodium inosinate",
       "parent_topic": "disodium inosinate",
       "intents": [
         "informational"
@@ -14,6 +19,7 @@
     {
       "keyword": "is disodium inosinate bad for you",
       "volume": 150,
+      "original_keyword": "Disodium inosinate",
       "parent_topic": "disodium guanylate",
       "intents": [
         "informational"
@@ -22,6 +28,7 @@
     {
       "keyword": "is disodium inosinate gluten free",
       "volume": 50,
+      "original_keyword": "Disodium inosinate",
       "parent_topic": "disodium inosinate gluten free",
       "intents": [
         "informational"
@@ -30,6 +37,16 @@
     {
       "keyword": "is disodium inosinate and guanylate bad for you",
       "volume": 20,
+      "original_keyword": "Disodium inosinate",
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is e631 halal",
+      "volume": 10,
+      "original_keyword": "E631",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -38,40 +55,40 @@
     {
       "keyword": "what does disodium inosinate do to your body",
       "volume": 10,
+      "original_keyword": "Disodium inosinate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is disodium inosinate and disodium guanylate",
       "volume": 10,
+      "original_keyword": "Disodium inosinate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is disodium inosinate and guanylate",
       "volume": 10,
+      "original_keyword": "Disodium inosinate",
       "parent_topic": "",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "where does disodium inosinate come from",
+      "keyword": "what is e631",
       "volume": 10,
+      "original_keyword": "E631",
       "parent_topic": "disodium inosinate",
       "intents": [
-        "informational"
+        "informational",
+        "branded"
       ]
     },
     {
-      "keyword": "disodium inosinate how does it work chemical reaction",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "disodium inosinate what are there other useage",
-      "volume": 0,
+      "keyword": "what is e631 flavour enhancer",
+      "volume": 10,
+      "original_keyword": "E631",
       "parent_topic": "",
       "intents": []
     }

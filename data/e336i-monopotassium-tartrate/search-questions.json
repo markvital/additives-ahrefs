@@ -1,6 +1,104 @@
 {
-  "keyword": "Monopotassium tartrate",
+  "keywords": [
+    "Monopotassium tartrate",
+    "E336I",
+    "monopotassic tartrate",
+    "Potassium bitartrate",
+    "potassium hydrogen tartrate",
+    "cream of tartar"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:23.278Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:25:36.152Z",
+  "questions": [
+    {
+      "keyword": "what is cream of tartar",
+      "volume": 13000,
+      "original_keyword": "cream of tartar",
+      "parent_topic": "cream of tartar",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does cream of tartar do",
+      "volume": 4400,
+      "original_keyword": "cream of tartar",
+      "parent_topic": "cream of tartar",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is cream of tartar used for",
+      "volume": 2500,
+      "original_keyword": "cream of tartar",
+      "parent_topic": "cream of tartar uses",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does cream of tartar go bad",
+      "volume": 1600,
+      "original_keyword": "cream of tartar",
+      "parent_topic": "where is cream of tartar in grocery store",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does cream of tartar do in cookies",
+      "volume": 1100,
+      "original_keyword": "cream of tartar",
+      "parent_topic": "cream of tartar",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to make cream of tartar",
+      "volume": 800,
+      "original_keyword": "cream of tartar",
+      "parent_topic": "cream of tartar",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is cream of tartar made of",
+      "volume": 600,
+      "original_keyword": "cream of tartar",
+      "parent_topic": "cream of tartar uses",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does cream of tartar expire",
+      "volume": 400,
+      "original_keyword": "cream of tartar",
+      "parent_topic": "does cream of tartar go bad",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what can i use instead of cream of tartar",
+      "volume": 400,
+      "original_keyword": "cream of tartar",
+      "parent_topic": "cream of tartar substitute",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how long does cream of tartar last",
+      "volume": 300,
+      "original_keyword": "cream of tartar",
+      "parent_topic": "does cream of tartar go bad",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
 }

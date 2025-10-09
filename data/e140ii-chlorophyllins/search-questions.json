@@ -1,11 +1,86 @@
 {
-  "keyword": "Chlorophyllins",
+  "keywords": [
+    "Chlorophyllins",
+    "E140II",
+    "CI Natural Green 5",
+    "Sodium Chlorophyllin"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.719Z",
+  "fetchedAt": "2025-10-09T03:20:51.510Z",
   "questions": [
     {
-      "keyword": "what is copper complexes of chlorophyllins",
+      "keyword": "what is sodium copper chlorophyllin",
+      "volume": 100,
+      "original_keyword": "Sodium Chlorophyllin",
+      "parent_topic": "chlorophyll",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sodium copper chlorophyllin safe",
+      "volume": 80,
+      "original_keyword": "Sodium Chlorophyllin",
+      "parent_topic": "sodium copper chlorophyllin",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is sodium copper chlorophyllin used for",
+      "volume": 30,
+      "original_keyword": "Sodium Chlorophyllin",
+      "parent_topic": "sodium copper chlorophyllin",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does sodium copper chlorophyllin do",
+      "volume": 20,
+      "original_keyword": "Sodium Chlorophyllin",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much copper is in sodium copper chlorophyllin",
+      "volume": 10,
+      "original_keyword": "Sodium Chlorophyllin",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much oxalate sodium copper chlorophyllin content",
       "volume": 0,
+      "original_keyword": "Sodium Chlorophyllin",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much oxalate sodium copper chlorophyllin oxalate content",
+      "volume": 0,
+      "original_keyword": "Sodium Chlorophyllin",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much sodium in sodium copper chlorophyllin",
+      "volume": 0,
+      "original_keyword": "Sodium Chlorophyllin",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to get real chlorophyll and not sodium copper chlorophyllin",
+      "volume": 0,
+      "original_keyword": "Sodium Chlorophyllin",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to get sodium copper chlorophyllin",
+      "volume": 0,
+      "original_keyword": "Sodium Chlorophyllin",
       "parent_topic": "",
       "intents": []
     }

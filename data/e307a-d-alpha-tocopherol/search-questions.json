@@ -1,11 +1,15 @@
 {
-  "keyword": "D-Alpha-tocopherol",
+  "keywords": [
+    "D-Alpha-tocopherol",
+    "E307A"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:45.210Z",
+  "fetchedAt": "2025-10-09T03:20:54.067Z",
   "questions": [
     {
       "keyword": "what is d alpha tocopherol",
       "volume": 40,
+      "original_keyword": "D-Alpha-tocopherol",
       "parent_topic": "vitamin e",
       "intents": [
         "informational"
@@ -14,6 +18,7 @@
     {
       "keyword": "is d alpha tocopherol natural",
       "volume": 20,
+      "original_keyword": "D-Alpha-tocopherol",
       "parent_topic": "vitamin e",
       "intents": [
         "informational"
@@ -22,6 +27,7 @@
     {
       "keyword": "what is d-alpha tocopherol",
       "volume": 20,
+      "original_keyword": "D-Alpha-tocopherol",
       "parent_topic": "vitamin e",
       "intents": [
         "informational"
@@ -30,7 +36,8 @@
     {
       "keyword": "is d alpha tocopherol synthetic",
       "volume": 10,
-      "parent_topic": "vitamin e dl alpha",
+      "original_keyword": "D-Alpha-tocopherol",
+      "parent_topic": "synthetic vitamin e",
       "intents": [
         "informational"
       ]
@@ -38,12 +45,14 @@
     {
       "keyword": "what is d alpha tocopherol acetate",
       "volume": 10,
+      "original_keyword": "D-Alpha-tocopherol",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is d-alpha-tocopherol made from",
       "volume": 10,
+      "original_keyword": "D-Alpha-tocopherol",
       "parent_topic": "vitamin e",
       "intents": [
         "informational"
@@ -52,28 +61,30 @@
     {
       "keyword": "d alpha tocopherol acetate how to take",
       "volume": 0,
+      "original_keyword": "D-Alpha-tocopherol",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "d-alpha tocopherol is what",
       "volume": 0,
+      "original_keyword": "D-Alpha-tocopherol",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "d-alpha tocopherol what is it",
+      "keyword": "how does vitamin e with 54,600 d-alpha tocopherol compare to 5,000 iu vitamin e oil for skin use?",
       "volume": 0,
+      "original_keyword": "D-Alpha-tocopherol",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "does d alpha tocopherol cause cancer",
+      "keyword": "how much to take of d alpha tocopherol",
       "volume": 0,
+      "original_keyword": "D-Alpha-tocopherol",
       "parent_topic": "",
-      "intents": [
-        "informational"
-      ]
+      "intents": []
     }
   ]
 }

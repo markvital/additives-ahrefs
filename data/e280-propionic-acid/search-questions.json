@@ -1,11 +1,17 @@
 {
-  "keyword": "Propionic acid",
+  "keywords": [
+    "Propionic acid",
+    "E280",
+    "Propanoic acid",
+    "CH3CH2COOH"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:44.415Z",
+  "fetchedAt": "2025-10-09T03:29:08.736Z",
   "questions": [
     {
       "keyword": "what is propionic acid",
       "volume": 150,
+      "original_keyword": "Propionic acid",
       "parent_topic": "propionic acid",
       "intents": [
         "informational"
@@ -14,6 +20,7 @@
     {
       "keyword": "where does propionic acid come from",
       "volume": 30,
+      "original_keyword": "Propionic acid",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -22,6 +29,7 @@
     {
       "keyword": "is propionic acid a strong acid",
       "volume": 20,
+      "original_keyword": "Propionic acid",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -30,6 +38,7 @@
     {
       "keyword": "what is propionic acid used for",
       "volume": 20,
+      "original_keyword": "Propionic acid",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -38,38 +47,48 @@
     {
       "keyword": "how is propionic acid made",
       "volume": 10,
+      "original_keyword": "Propionic acid",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what is a propionic acid",
+      "keyword": "how to reset a sansa e280",
       "volume": 10,
+      "original_keyword": "E280",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "where to buy propionic acid",
+      "keyword": "how to reset sansa e280",
       "volume": 10,
+      "original_keyword": "E280",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "\"what is the ph when 40 ml of .25 m naoh is mixed with 20 ml of 0.50 m propionic acid",
-      "volume": 0,
+      "keyword": "how to test for propanoic acid",
+      "volume": 10,
+      "original_keyword": "Propanoic acid",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "a weak acid propionic has a ka of 7.37*10^-4 ph of 2.7 what is the formal charge",
-      "volume": 0,
+      "keyword": "is propanoic acid a strong acid",
+      "volume": 10,
+      "original_keyword": "Propanoic acid",
       "parent_topic": "",
-      "intents": []
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "how many moles of naoh should be added to 1.00 l of 0.10 molar propionic acid yahoo answers",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what functional group is shown here: ch3ch2cooh",
+      "volume": 10,
+      "original_keyword": "CH3CH2COOH",
+      "parent_topic": "what functional group is shown here: ch3ch2cooh",
+      "intents": [
+        "informational"
+      ]
     }
   ]
 }

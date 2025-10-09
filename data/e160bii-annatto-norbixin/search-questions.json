@@ -1,11 +1,30 @@
 {
-  "keyword": "Annatto norbixin",
+  "keywords": [
+    "Annatto norbixin",
+    "E160BII",
+    "Norbixin"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.671Z",
+  "fetchedAt": "2025-10-09T03:16:33.980Z",
   "questions": [
     {
-      "keyword": "what is annatto norbixin",
+      "keyword": "what is norbixin",
       "volume": 10,
+      "original_keyword": "Norbixin",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is annatto norbixin",
+      "volume": 0,
+      "original_keyword": "Annatto norbixin",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the e number of norbixin",
+      "volume": 0,
+      "original_keyword": "Norbixin",
       "parent_topic": "",
       "intents": []
     }

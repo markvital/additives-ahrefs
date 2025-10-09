@@ -1,17 +1,82 @@
 {
-  "keyword": "Sodium hydrogen sulphate",
+  "keywords": [
+    "Sodium hydrogen sulphate",
+    "E514II",
+    "Acid sodium sulphate",
+    "Sodium bisulphate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:25:10.643Z",
+  "fetchedAt": "2025-10-09T03:29:30.078Z",
   "questions": [
     {
-      "keyword": "what happens when magnesium is placed in sodium hydrogen sulphate",
+      "keyword": "what is sodium bisulphate",
+      "volume": 10,
+      "original_keyword": "Sodium bisulphate",
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how do i mix sodium bisulphate to use as silver pickle",
       "volume": 0,
+      "original_keyword": "Sodium bisulphate",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what is sodium hydrogen sulphate",
+      "keyword": "how much sodium bisulphate do you add to lower ph per 10,000 gallons of pool water",
       "volume": 0,
+      "original_keyword": "Sodium bisulphate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much sodium bisulphate in 350 gal spa?",
+      "volume": 0,
+      "original_keyword": "Sodium bisulphate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much sodium bisulphate to add to lower ph in swimming pool water",
+      "volume": 0,
+      "original_keyword": "Sodium bisulphate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to make acetic acid from sodium sulphate",
+      "volume": 0,
+      "original_keyword": "Acid sodium sulphate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to make sodium bisulphate solution",
+      "volume": 0,
+      "original_keyword": "Sodium bisulphate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to use trisodium phospate in a hot tub instead of sodium bisulphate",
+      "volume": 0,
+      "original_keyword": "Sodium bisulphate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "sodium bisulphate is acidic salt why",
+      "volume": 0,
+      "original_keyword": "Sodium bisulphate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "sodium bisulphate is which type of salt",
+      "volume": 0,
+      "original_keyword": "Sodium bisulphate",
       "parent_topic": "",
       "intents": []
     }

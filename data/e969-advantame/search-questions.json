@@ -1,11 +1,15 @@
 {
-  "keyword": "Advantame",
+  "keywords": [
+    "Advantame",
+    "E969"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.227Z",
+  "fetchedAt": "2025-10-09T03:16:32.424Z",
   "questions": [
     {
       "keyword": "what is advantame",
       "volume": 30,
+      "original_keyword": "Advantame",
       "parent_topic": "advantame",
       "intents": [
         "informational",
@@ -15,54 +19,63 @@
     {
       "keyword": "\"advantame\" where to buy",
       "volume": 0,
+      "original_keyword": "Advantame",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "advantame when approve",
       "volume": 0,
+      "original_keyword": "Advantame",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "advantame when approved by fda",
       "volume": 0,
+      "original_keyword": "Advantame",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "advantame where to buy",
       "volume": 0,
+      "original_keyword": "Advantame",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how is advantame used in food",
       "volume": 0,
+      "original_keyword": "Advantame",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what drinks contain advantame",
       "volume": 0,
+      "original_keyword": "Advantame",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what drinks have advantame",
       "volume": 0,
+      "original_keyword": "Advantame",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is advantame used in",
       "volume": 0,
+      "original_keyword": "Advantame",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is the e number for advantame",
       "volume": 0,
+      "original_keyword": "Advantame",
       "parent_topic": "",
       "intents": []
     }

@@ -1,17 +1,46 @@
 {
-  "keyword": "Aluminium sulphate",
+  "keywords": [
+    "Aluminium sulphate",
+    "E520",
+    "Aluminium sulfate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.328Z",
+  "fetchedAt": "2025-10-09T03:16:33.087Z",
   "questions": [
+    {
+      "keyword": "aluminium sulfate where to buy",
+      "volume": 10,
+      "original_keyword": "Aluminium sulfate",
+      "parent_topic": "",
+      "intents": []
+    },
     {
       "keyword": "aluminium sulphate where to buy",
       "volume": 10,
+      "original_keyword": "Aluminium sulphate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is aluminium sulfate",
+      "volume": 10,
+      "original_keyword": "Aluminium sulfate",
+      "parent_topic": "aluminum sulfate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is aluminium sulfate used for",
+      "volume": 10,
+      "original_keyword": "Aluminium sulfate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is aluminium sulphate",
       "volume": 10,
+      "original_keyword": "Aluminium sulphate",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -20,50 +49,41 @@
     {
       "keyword": "what is aluminium sulphate used for",
       "volume": 10,
+      "original_keyword": "Aluminium sulphate",
       "parent_topic": "",
       "intents": [
         "informational"
       ]
     },
     {
+      "keyword": "where to buy aluminium sulfate",
+      "volume": 10,
+      "original_keyword": "Aluminium sulfate",
+      "parent_topic": "",
+      "intents": [
+        "informational",
+        "commercial",
+        "transactional"
+      ]
+    },
+    {
+      "keyword": "3 sulfate ions for every 2 aluminium ions what is the solute",
+      "volume": 0,
+      "original_keyword": "Aluminium sulfate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
       "keyword": "aluminium sulphate when dissolved in water forms",
       "volume": 0,
+      "original_keyword": "Aluminium sulphate",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "how many atoms are present in the compound aluminium sulphate, al2(so4)3",
+      "keyword": "dell dimmesion e520 lights 1,3,4 green what does that mean",
       "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how many moles of aluminium sulphate",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how much aluminium sulphate for hydrangeas",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how much aluminium sulphate in water treatment",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how to make aluminium chlorohydrate from aluminum sulphate",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how to make aluminium sulphate",
-      "volume": 0,
+      "original_keyword": "E520",
       "parent_topic": "",
       "intents": []
     }

@@ -1,65 +1,78 @@
 {
-  "keyword": "Gardenia Blue",
+  "keywords": [
+    "Gardenia Blue",
+    "E165"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:45.665Z",
+  "fetchedAt": "2025-10-09T03:21:54.427Z",
   "questions": [
     {
       "keyword": "what is gardenia blue",
       "volume": 40,
+      "original_keyword": "Gardenia Blue",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how much is ucla gardenia blue 14 plan?",
       "volume": 0,
+      "original_keyword": "Gardenia Blue",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "the blue gardenia closed on what date?",
       "volume": 0,
+      "original_keyword": "Gardenia Blue",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what business bought the blue gardenia restaurant",
       "volume": 0,
+      "original_keyword": "Gardenia Blue",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what does blue gardenia mean",
       "volume": 0,
+      "original_keyword": "Gardenia Blue",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is gardenia blue dye",
       "volume": 0,
+      "original_keyword": "Gardenia Blue",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is the movie blue gardenia about?",
       "volume": 0,
+      "original_keyword": "Gardenia Blue",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is the movie the blue gardenia about?",
       "volume": 0,
+      "original_keyword": "Gardenia Blue",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what restaurant is blue gardenia in movie?",
       "volume": 0,
+      "original_keyword": "Gardenia Blue",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what street was the blue gardenia on in rochester ny",
       "volume": 0,
+      "original_keyword": "Gardenia Blue",
       "parent_topic": "",
       "intents": []
     }

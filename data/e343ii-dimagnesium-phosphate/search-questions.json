@@ -1,17 +1,29 @@
 {
-  "keyword": "Dimagnesium phosphate",
+  "keywords": [
+    "Dimagnesium phosphate",
+    "E343II",
+    "Magnesiumhydrogenphosphate",
+    "Magnesiumphosphate - dibasic",
+    "Dimagnesium orthophosphate",
+    "magnesium hydrogen phosphate",
+    "E 343ii",
+    "E-343ii",
+    "E343 ii"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.843Z",
+  "fetchedAt": "2025-10-09T03:23:22.771Z",
   "questions": [
     {
       "keyword": "what is dimagnesium phosphate",
       "volume": 10,
+      "original_keyword": "Dimagnesium phosphate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "where to buy dimagnesium phosphate 450 mesh",
       "volume": 0,
+      "original_keyword": "Dimagnesium phosphate",
       "parent_topic": "",
       "intents": []
     }

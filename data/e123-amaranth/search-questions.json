@@ -1,11 +1,16 @@
 {
-  "keyword": "Amaranth",
+  "keywords": [
+    "Amaranth",
+    "E123",
+    "FD&C Red 2"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.355Z",
+  "fetchedAt": "2025-10-09T03:16:32.880Z",
   "questions": [
     {
       "keyword": "what is amaranth",
       "volume": 2600,
+      "original_keyword": "Amaranth",
       "parent_topic": "what is amaranth",
       "intents": [
         "informational"
@@ -14,6 +19,7 @@
     {
       "keyword": "how to cook amaranth",
       "volume": 1300,
+      "original_keyword": "Amaranth",
       "parent_topic": "how to cook amaranth",
       "intents": [
         "informational"
@@ -22,6 +28,7 @@
     {
       "keyword": "is amaranth gluten free",
       "volume": 800,
+      "original_keyword": "Amaranth",
       "parent_topic": "is amaranth gluten free",
       "intents": [
         "informational"
@@ -30,6 +37,7 @@
     {
       "keyword": "how to eat amaranth",
       "volume": 250,
+      "original_keyword": "Amaranth",
       "parent_topic": "what is amaranth",
       "intents": [
         "informational"
@@ -38,6 +46,7 @@
     {
       "keyword": "what does amaranth taste like",
       "volume": 250,
+      "original_keyword": "Amaranth",
       "parent_topic": "amaranth grain taste",
       "intents": [
         "informational"
@@ -46,6 +55,7 @@
     {
       "keyword": "what is amaranth in stardew valley",
       "volume": 250,
+      "original_keyword": "Amaranth",
       "parent_topic": "stardew valley amaranth",
       "intents": [
         "informational"
@@ -54,6 +64,7 @@
     {
       "keyword": "does amaranth have gluten",
       "volume": 200,
+      "original_keyword": "Amaranth",
       "parent_topic": "is amaranth gluten free",
       "intents": [
         "informational"
@@ -62,6 +73,7 @@
     {
       "keyword": "is amaranth a grain",
       "volume": 200,
+      "original_keyword": "Amaranth",
       "parent_topic": "amaranth grain",
       "intents": [
         "informational"
@@ -70,6 +82,7 @@
     {
       "keyword": "is amaranth good for you",
       "volume": 200,
+      "original_keyword": "Amaranth",
       "parent_topic": "amaranth benefits",
       "intents": [
         "informational"
@@ -78,6 +91,7 @@
     {
       "keyword": "amaranth how to cook",
       "volume": 150,
+      "original_keyword": "Amaranth",
       "parent_topic": "amaranth grain",
       "intents": [
         "informational"

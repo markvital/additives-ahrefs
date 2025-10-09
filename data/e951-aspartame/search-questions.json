@@ -1,11 +1,25 @@
 {
-  "keyword": "Aspartame",
+  "keywords": [
+    "Aspartame",
+    "E951",
+    "1-Methyl N-L-alpha-aspartyl-L-phenylalanine",
+    "Asp-phe-ome",
+    "3-Amino-N-(alpha-methoxycarbonylphenethyl) succinamic acid",
+    "3-Amino-N-(α-carboxyphenethyl)succinamic acid N-methyl ester",
+    "L-Aspartyl-L-phenylalanine methyl ester",
+    "1-methyl N-L-α-aspartyl-L-phenylalanate",
+    "Aspartylphenylalanine methyl ester",
+    "3-Amino-N-(alpha-carboxyphenethyl)succinamic acid N-methyl ester",
+    "3-Amino-N-(α-methoxycarbonylphenethyl) succinamic acid",
+    "1-Methyl N-L-alpha-aspartyl-L-phenylalanate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.752Z",
+  "fetchedAt": "2025-10-09T03:20:40.300Z",
   "questions": [
     {
       "keyword": "is aspartame bad for you",
       "volume": 16000,
+      "original_keyword": "Aspartame",
       "parent_topic": "aspartame",
       "intents": [
         "informational",
@@ -15,6 +29,7 @@
     {
       "keyword": "what is aspartame",
       "volume": 8800,
+      "original_keyword": "Aspartame",
       "parent_topic": "aspartame side effects",
       "intents": [
         "informational",
@@ -24,6 +39,7 @@
     {
       "keyword": "does aspartame cause cancer",
       "volume": 5100,
+      "original_keyword": "Aspartame",
       "parent_topic": "does aspartame cause cancer",
       "intents": [
         "informational"
@@ -32,6 +48,7 @@
     {
       "keyword": "does coke zero have aspartame",
       "volume": 3600,
+      "original_keyword": "Aspartame",
       "parent_topic": "does coke zero have aspartame",
       "intents": [
         "informational",
@@ -41,7 +58,8 @@
     {
       "keyword": "why is aspartame bad for you",
       "volume": 1700,
-      "parent_topic": "why is aspartame bad",
+      "original_keyword": "Aspartame",
+      "parent_topic": "why is aspartame bad for you",
       "intents": [
         "informational",
         "branded"
@@ -50,6 +68,7 @@
     {
       "keyword": "does aspartame raise blood sugar",
       "volume": 1500,
+      "original_keyword": "Aspartame",
       "parent_topic": "does sucralose raise blood sugar",
       "intents": [
         "informational",
@@ -59,6 +78,7 @@
     {
       "keyword": "how much aspartame is in diet coke",
       "volume": 1500,
+      "original_keyword": "Aspartame",
       "parent_topic": "how much aspartame is in diet coke",
       "intents": [
         "informational",
@@ -68,7 +88,8 @@
     {
       "keyword": "is aspartame banned in europe",
       "volume": 1400,
-      "parent_topic": "is aspartame banned in europe",
+      "original_keyword": "Aspartame",
+      "parent_topic": "aspartame",
       "intents": [
         "informational"
       ]
@@ -76,6 +97,7 @@
     {
       "keyword": "is aspartame a carcinogen",
       "volume": 1200,
+      "original_keyword": "Aspartame",
       "parent_topic": "aspartame cancer",
       "intents": [
         "informational"
@@ -84,6 +106,7 @@
     {
       "keyword": "does diet coke have aspartame",
       "volume": 1100,
+      "original_keyword": "Aspartame",
       "parent_topic": "aspartame",
       "intents": [
         "informational",

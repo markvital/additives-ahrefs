@@ -14,20 +14,6 @@
   "description": "Butylated hydroxytoluene -BHT-, also known as dibutylhydroxytoluene, is a lipophilic organic compound, chemically a derivative of phenol, that is useful for its antioxidant properties. European and U.S. regulations allow small amounts to be used as a food additive. In addition to this use, BHT is widely used to prevent oxidation in fluids -e.g. fuel, oil- and other materials where free radicals must be controlled.",
   "wikipedia": "https://en.wikipedia.org/wiki/Butylated_hydroxytoluene",
   "wikidata": "Q221945",
-  "searchVolume": 2100,
-  "searchRank": 184,
-  "searchSparkline": [
-    2243,
-    2284,
-    1987,
-    1752,
-    1332,
-    1259,
-    1610,
-    2054,
-    2166,
-    2051
-  ],
   "origin": [
     "synthetic",
     "artificial"

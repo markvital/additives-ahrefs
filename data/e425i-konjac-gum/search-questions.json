@@ -1,11 +1,16 @@
 {
-  "keyword": "Konjac gum",
+  "keywords": [
+    "Konjac gum",
+    "E425I",
+    "Konjak gum"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:11.404Z",
+  "fetchedAt": "2025-10-09T03:23:43.983Z",
   "questions": [
     {
       "keyword": "what is konjac gum",
-      "volume": 30,
+      "volume": 20,
+      "original_keyword": "Konjac gum",
       "parent_topic": "konjac gum",
       "intents": [
         "informational"
@@ -14,54 +19,63 @@
     {
       "keyword": "how much konjac gum to use",
       "volume": 0,
+      "original_keyword": "Konjac gum",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how much pure konjac gum should you take at one time in powder form",
       "volume": 0,
+      "original_keyword": "Konjac gum",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how to use konjac gum",
       "volume": 0,
+      "original_keyword": "Konjac gum",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is konjac gum xanthan gum used for",
       "volume": 0,
+      "original_keyword": "Konjac gum",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is konjac root gum",
       "volume": 0,
+      "original_keyword": "Konjac gum",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is the difference between konjac powder or gum",
       "volume": 0,
+      "original_keyword": "Konjac gum",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is the e number of konjac gum",
       "volume": 0,
+      "original_keyword": "Konjac gum",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "where to buy konjac gum powder",
       "volume": 0,
+      "original_keyword": "Konjac gum",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "xanthum gum, guar gum or konjac powder which is better for you",
       "volume": 0,
+      "original_keyword": "Konjac gum",
       "parent_topic": "",
       "intents": []
     }

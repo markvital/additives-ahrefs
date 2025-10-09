@@ -1,74 +1,99 @@
 {
-  "keyword": "Nicotinic acid",
+  "keywords": [
+    "Nicotinic acid",
+    "E375",
+    "Niacin",
+    "Nicotinamide"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:25.487Z",
+  "fetchedAt": "2025-10-09T03:25:38.952Z",
   "questions": [
     {
-      "keyword": "is nicotinic acid the same as niacin",
-      "volume": 50,
-      "parent_topic": "vitamin b3",
+      "keyword": "what is niacin",
+      "volume": 9800,
+      "original_keyword": "Niacin",
+      "parent_topic": "niacin",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is nicotinic acid",
-      "volume": 40,
-      "parent_topic": "nicotinic acid",
+      "keyword": "is it safe to take 500mg of niacin a day",
+      "volume": 5300,
+      "original_keyword": "Niacin",
+      "parent_topic": "niacin",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "does nicotinic acid cause flushing",
-      "volume": 10,
-      "parent_topic": "niacin flush",
+      "keyword": "what is niacin good for",
+      "volume": 3000,
+      "original_keyword": "Niacin",
+      "parent_topic": "niacin",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "is niacin and nicotinic acid the same thing",
-      "volume": 10,
-      "parent_topic": "",
+      "keyword": "what does niacin do",
+      "volume": 2800,
+      "original_keyword": "Niacin",
+      "parent_topic": "niacin",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what are the side effects of nicotinic acid",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "nicotinamide riboside para que sirve",
+      "volume": 2000,
+      "original_keyword": "Nicotinamide",
+      "parent_topic": "nicotinamide riboside para que sirve",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "a client is taking nicotinic acid (niacin) for hyperlipidemia. which of the following instructions",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "is niacin good for you",
+      "volume": 1300,
+      "original_keyword": "Niacin",
+      "parent_topic": "niacin",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "a patient reports having adverse effects with nicotinic acid the nurse can suggest performing which",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "how much niacin per day",
+      "volume": 1100,
+      "original_keyword": "Niacin",
+      "parent_topic": "niacin",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "bill's physician has written a prescription for 1.5 grams of nicotinic acid (a form of niacin) per day. which of the following is a benefit of high doses of niacin?",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what foods have niacin",
+      "volume": 900,
+      "original_keyword": "Niacin",
+      "parent_topic": "niacin",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "how does nicotinic acid affect digestion and why?",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is nicotinamide",
+      "volume": 900,
+      "original_keyword": "Nicotinamide",
+      "parent_topic": "nicotinamide benefits",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "how does nicotinic acid lower cholesterol",
-      "volume": 0,
-      "parent_topic": "",
+      "keyword": "what is nicotinamide riboside",
+      "volume": 900,
+      "original_keyword": "Nicotinamide",
+      "parent_topic": "nicotinamide riboside benefits",
       "intents": [
         "informational"
       ]

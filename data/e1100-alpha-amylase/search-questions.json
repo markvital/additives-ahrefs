@@ -1,78 +1,100 @@
 {
-  "keyword": "Alpha-Amylase",
+  "keywords": [
+    "Alpha-Amylase",
+    "E1100",
+    "amylase",
+    "E-1100",
+    "E 1100"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.267Z",
+  "fetchedAt": "2025-10-09T03:16:33.890Z",
   "questions": [
     {
-      "keyword": "what is alpha amylase",
-      "volume": 100,
-      "parent_topic": "alpha amylase",
+      "keyword": "what is amylase",
+      "volume": 2800,
+      "original_keyword": "amylase",
+      "parent_topic": "amylase",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what does alpha amylase do",
-      "volume": 40,
-      "parent_topic": "alpha amylase",
+      "keyword": "what does amylase break down",
+      "volume": 1100,
+      "original_keyword": "amylase",
+      "parent_topic": "amylase",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is alpha-amylase",
-      "volume": 30,
-      "parent_topic": "alpha amylase",
+      "keyword": "what does amylase do",
+      "volume": 800,
+      "original_keyword": "amylase",
+      "parent_topic": "what does amylase do",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "where is alpha amylase found",
-      "volume": 20,
-      "parent_topic": "alpha amylase",
+      "keyword": "where is amylase produced",
+      "volume": 500,
+      "original_keyword": "amylase",
+      "parent_topic": "amylase",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "how much alpha amylase to use",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what are the monomers from which alpha amylase is synthesized",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what does alpha amylase break down",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is alpha amylase enzyme",
-      "volume": 10,
-      "parent_topic": "",
+      "keyword": "where is amylase found",
+      "volume": 450,
+      "original_keyword": "amylase",
+      "parent_topic": "amylase enzyme",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is alpha amylase used for",
-      "volume": 10,
-      "parent_topic": "",
+      "keyword": "is amylase an enzyme",
+      "volume": 300,
+      "original_keyword": "amylase",
+      "parent_topic": "amylase",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is fungal alpha amylase",
-      "volume": 10,
-      "parent_topic": "",
+      "keyword": "what does amylase digest",
+      "volume": 250,
+      "original_keyword": "amylase",
+      "parent_topic": "amylase",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is the function of amylase",
+      "volume": 200,
+      "original_keyword": "amylase",
+      "parent_topic": "amylase",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to lower amylase levels",
+      "volume": 150,
+      "original_keyword": "amylase",
+      "parent_topic": "how to reduce amylase naturally",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is amylase a protein",
+      "volume": 150,
+      "original_keyword": "amylase",
+      "parent_topic": "amylase levels",
       "intents": [
         "informational"
       ]

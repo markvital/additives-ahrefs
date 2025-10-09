@@ -1,11 +1,15 @@
 {
-  "keyword": "Candelilla wax",
+  "keywords": [
+    "Candelilla wax",
+    "E902"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.323Z",
+  "fetchedAt": "2025-10-09T03:20:47.833Z",
   "questions": [
     {
       "keyword": "what is candelilla wax",
       "volume": 150,
+      "original_keyword": "Candelilla wax",
       "parent_topic": "candelilla wax",
       "intents": [
         "informational"
@@ -14,12 +18,14 @@
     {
       "keyword": "candelilla wax candle where to buy",
       "volume": 20,
+      "original_keyword": "Candelilla wax",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "is candelilla wax an emulsifier",
       "volume": 20,
+      "original_keyword": "Candelilla wax",
       "parent_topic": "candelilla wax vs beeswax",
       "intents": [
         "informational"
@@ -28,12 +34,14 @@
     {
       "keyword": "what is candelilla wax made of",
       "volume": 20,
+      "original_keyword": "Candelilla wax",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "where to buy candelilla wax",
       "volume": 20,
+      "original_keyword": "Candelilla wax",
       "parent_topic": "",
       "intents": [
         "commercial",
@@ -43,6 +51,7 @@
     {
       "keyword": "does candelilla wax clog pores",
       "volume": 10,
+      "original_keyword": "Candelilla wax",
       "parent_topic": "does candelilla wax clog pores",
       "intents": [
         "informational"
@@ -51,6 +60,7 @@
     {
       "keyword": "what is candelilla wax used for",
       "volume": 10,
+      "original_keyword": "Candelilla wax",
       "parent_topic": "candelilla wax",
       "intents": [
         "informational"
@@ -59,18 +69,21 @@
     {
       "keyword": "what is euphorbia cerifera (candelilla) wax",
       "volume": 10,
+      "original_keyword": "Candelilla wax",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "where does candelilla wax come from",
       "volume": 10,
+      "original_keyword": "Candelilla wax",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "where to buy candelilla wax near me",
       "volume": 10,
+      "original_keyword": "Candelilla wax",
       "parent_topic": "",
       "intents": []
     }

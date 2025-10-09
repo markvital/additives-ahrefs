@@ -1,11 +1,15 @@
 {
-  "keyword": "Nisin",
+  "keywords": [
+    "Nisin",
+    "E234"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:25.723Z",
+  "fetchedAt": "2025-10-09T03:25:38.692Z",
   "questions": [
     {
       "keyword": "what is nisin",
       "volume": 100,
+      "original_keyword": "Nisin",
       "parent_topic": "nisin",
       "intents": [
         "informational"
@@ -14,6 +18,7 @@
     {
       "keyword": "what is nisin preparation",
       "volume": 50,
+      "original_keyword": "Nisin",
       "parent_topic": "nisin preparation",
       "intents": [
         "informational"
@@ -22,6 +27,7 @@
     {
       "keyword": "is nisin bad for you",
       "volume": 10,
+      "original_keyword": "Nisin",
       "parent_topic": "food preservatives",
       "intents": [
         "informational"
@@ -30,6 +36,7 @@
     {
       "keyword": "what is nisin in food",
       "volume": 10,
+      "original_keyword": "Nisin",
       "parent_topic": "nisin in food",
       "intents": [
         "informational"
@@ -38,36 +45,42 @@
     {
       "keyword": "what is nisin made from",
       "volume": 10,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "• describe what nisin looks like and how it inhibits the growth of spoilage bacteria? (2 points)",
-      "volume": 0,
+      "original_keyword": "Nisin",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "cheddar nisin which brands",
       "volume": 0,
+      "original_keyword": "Nisin",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how can i enhance my \"nisin top ramin\" noodles?",
       "volume": 0,
+      "original_keyword": "Nisin",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "how does nisin inhibit bacterial growth",
+      "keyword": "how is nisin made",
       "volume": 0,
+      "original_keyword": "Nisin",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "how does nisin prohibit microbial growth",
+      "keyword": "how is nisin used in food",
       "volume": 0,
+      "original_keyword": "Nisin",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much nicin e234 is used each year",
+      "volume": 0,
+      "original_keyword": "E234",
       "parent_topic": "",
       "intents": []
     }

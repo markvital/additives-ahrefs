@@ -1,11 +1,16 @@
 {
-  "keyword": "Ferrous lactate",
+  "keywords": [
+    "Ferrous lactate",
+    "E585",
+    "Iron-II lactate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:45.439Z",
+  "fetchedAt": "2025-10-09T03:23:28.459Z",
   "questions": [
     {
       "keyword": "what is ferrous lactate",
       "volume": 20,
+      "original_keyword": "Ferrous lactate",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -14,36 +19,63 @@
     {
       "keyword": "ferrous lactate vs ferric orthophosphate, which is better",
       "volume": 0,
+      "original_keyword": "Ferrous lactate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how many waters in ferrous lactate hydrate",
       "volume": 0,
+      "original_keyword": "Ferrous lactate",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what food can you find ferrous lactate",
+      "keyword": "how to add a bootable ssd in a levono e585",
       "volume": 0,
+      "original_keyword": "E585",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what foods can you find ferrous lactate",
+      "keyword": "how to change apn settings on huawei e585",
       "volume": 0,
+      "original_keyword": "E585",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what is ferrous lactate derived from",
+      "keyword": "how to change e585 hard drive",
       "volume": 0,
+      "original_keyword": "E585",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "why is ferrous lactate in food",
+      "keyword": "how to connect network to nec e585 tv wirelessly",
       "volume": 0,
+      "original_keyword": "E585",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to enter lenovo e585 bios",
+      "volume": 0,
+      "original_keyword": "E585",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to fill out e585",
+      "volume": 0,
+      "original_keyword": "E585",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to remove lenovo bloatware from thinkpad e585",
+      "volume": 0,
+      "original_keyword": "E585",
       "parent_topic": "",
       "intents": []
     }

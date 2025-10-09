@@ -1,11 +1,16 @@
 {
-  "keyword": "Triethyl citrate",
+  "keywords": [
+    "Triethyl citrate",
+    "E1505",
+    "triethyl 2-hydroxypropane-1‚2‚3-tricarboxylate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:19:04.273Z",
+  "fetchedAt": "2025-10-09T03:30:06.473Z",
   "questions": [
     {
       "keyword": "what is triethyl citrate",
-      "volume": 200,
+      "volume": 150,
+      "original_keyword": "Triethyl citrate",
       "parent_topic": "triethyl citrate",
       "intents": [
         "informational"
@@ -14,56 +19,65 @@
     {
       "keyword": "what is triethyl citrate oil",
       "volume": 30,
+      "original_keyword": "Triethyl citrate",
       "parent_topic": "triethyl citrate",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what does triethyl citrate do in a deodorant",
-      "volume": 0,
+      "keyword": "how to open dell inspiron e1505",
+      "volume": 10,
+      "original_keyword": "E1505",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what flavourart flavors contain triethyl citrate",
-      "volume": 0,
+      "keyword": "how to replace dell e1505 keyboard",
+      "volume": 10,
+      "original_keyword": "E1505",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what foods contain triethyl citrate",
+      "keyword": "dell e1505 not charging when plugged in",
       "volume": 0,
+      "original_keyword": "E1505",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what is natural triethyl citrate",
+      "keyword": "how can i reinstall windows 7 if i forgot my password on a dell inspiron e1505",
       "volume": 0,
+      "original_keyword": "E1505",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what is the flash point of triethyl citrate",
+      "keyword": "how do i determine which display screen is in my e1505 laptop",
       "volume": 0,
+      "original_keyword": "E1505",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what is triethyl citrate made from",
+      "keyword": "how do i partition my dell inspiron e1505 hard drive",
       "volume": 0,
+      "original_keyword": "E1505",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what is triethyl citrate used for",
+      "keyword": "how do you turn off inspiron e1505 touchpad",
       "volume": 0,
+      "original_keyword": "E1505",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "where does triethyl citrate come from",
+      "keyword": "how much ram can i install on adell inspiron e1505",
       "volume": 0,
+      "original_keyword": "E1505",
       "parent_topic": "",
       "intents": []
     }

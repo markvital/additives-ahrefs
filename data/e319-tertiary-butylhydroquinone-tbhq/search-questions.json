@@ -1,6 +1,103 @@
 {
-  "keyword": "Tertiary-butylhydroquinone (tbhq)",
+  "keywords": [
+    "Tertiary-butylhydroquinone (tbhq)",
+    "E319",
+    "Tert-butyl-1‚4-benzenediol",
+    "Butylhydroxinon",
+    "TBHQ",
+    "Tert-Butylhydroquinone",
+    "tertiary butylhydroquinone"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:19:04.764Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:30:05.144Z",
+  "questions": [
+    {
+      "keyword": "what is tbhq",
+      "volume": 3100,
+      "original_keyword": "TBHQ",
+      "parent_topic": "tbhq",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is tbhq in food",
+      "volume": 1100,
+      "original_keyword": "TBHQ",
+      "parent_topic": "tbhq",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is tbhq bad for you",
+      "volume": 450,
+      "original_keyword": "TBHQ",
+      "parent_topic": "tbhq",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "tbhq what is it",
+      "volume": 200,
+      "original_keyword": "TBHQ",
+      "parent_topic": "tbhq",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what foods contain tbhq",
+      "volume": 100,
+      "original_keyword": "TBHQ",
+      "parent_topic": "tbhq in food",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "whats tbhq",
+      "volume": 100,
+      "original_keyword": "TBHQ",
+      "parent_topic": "tbhq",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how much tbhq is harmful",
+      "volume": 90,
+      "original_keyword": "TBHQ",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is tbhq used for in food",
+      "volume": 90,
+      "original_keyword": "TBHQ",
+      "parent_topic": "tbhq",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does tbhq do to your body",
+      "volume": 80,
+      "original_keyword": "TBHQ",
+      "parent_topic": "tbhq",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is tbhq made of",
+      "volume": 80,
+      "original_keyword": "TBHQ",
+      "parent_topic": "tbhq",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
 }

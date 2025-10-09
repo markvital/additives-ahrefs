@@ -1,11 +1,85 @@
 {
-  "keyword": "E642",
+  "keywords": [
+    "L-lysine hydrochloride",
+    "E642",
+    "L lysine hydrochloride"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:45.348Z",
+  "fetchedAt": "2025-10-09T03:21:53.731Z",
   "questions": [
+    {
+      "keyword": "what is l lysine hydrochloride",
+      "volume": 10,
+      "original_keyword": "L-lysine hydrochloride",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is l-lysine hydrochloride",
+      "volume": 10,
+      "original_keyword": "L-lysine hydrochloride",
+      "parent_topic": "l-lysine monohydrochloride",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how long \"freeze\" nα-tosyl-l-lysine chloromethyl ketone hydrochloride ≥96% (tlc), powder",
+      "volume": 0,
+      "original_keyword": "L-lysine hydrochloride",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how long freeze nα-tosyl-l-lysine chloromethyl ketone hydrochloride ≥96% (tlc), powder",
+      "volume": 0,
+      "original_keyword": "L-lysine hydrochloride",
+      "parent_topic": "",
+      "intents": []
+    },
     {
       "keyword": "how to change fan in dell e642",
       "volume": 0,
+      "original_keyword": "E642",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what does l lysine hydrochloride do",
+      "volume": 0,
+      "original_keyword": "L-lysine hydrochloride",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is difference between l lysine hydrochloride and lysine mono hydrochloride",
+      "volume": 0,
+      "original_keyword": "L-lysine hydrochloride",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is l lysine hydrochloride used for",
+      "volume": 0,
+      "original_keyword": "L-lysine hydrochloride",
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is l-lysine hydrochloride used for",
+      "volume": 0,
+      "original_keyword": "L-lysine hydrochloride",
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is l-lysine mono-hydrochloride",
+      "volume": 0,
+      "original_keyword": "L-lysine hydrochloride",
       "parent_topic": "",
       "intents": []
     }

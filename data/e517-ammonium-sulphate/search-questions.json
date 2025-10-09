@@ -1,71 +1,101 @@
 {
-  "keyword": "Ammonium sulphate",
+  "keywords": [
+    "Ammonium sulphate",
+    "E517",
+    "ammonium sulfate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.801Z",
+  "fetchedAt": "2025-10-09T03:16:33.806Z",
   "questions": [
     {
-      "keyword": "where to buy ammonium sulphate",
-      "volume": 60,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how is ammonium sulphate fertilizer manufactured",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how is ammonium sulphate manufactured",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is ammonium sulphate",
-      "volume": 10,
+      "keyword": "what is ammonium sulfate",
+      "volume": 350,
+      "original_keyword": "ammonium sulfate",
       "parent_topic": "ammonium sulfate",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is the formula of ammonium sulphate",
-      "volume": 10,
+      "keyword": "what is the formula for ammonium sulfate",
+      "volume": 300,
+      "original_keyword": "ammonium sulfate",
+      "parent_topic": "ammonium sulphate formula",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is ammonium sulfate flammable",
+      "volume": 200,
+      "original_keyword": "ammonium sulfate",
       "parent_topic": "",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "\"what happens when you mix barium chloride and ammonium sulphate\"",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is the formula for ammonium sulfate?",
+      "volume": 200,
+      "original_keyword": "ammonium sulfate",
+      "parent_topic": "ammonium sulfate",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "\"what happens when you mix baru\\ium chloride and ammonium sulphate\"",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is ammonium sulfate used for",
+      "volume": 100,
+      "original_keyword": "ammonium sulfate",
+      "parent_topic": "ammonium sulfate fertilizer",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "ammonium sulphate 21-0-0 green house brand..where to buy",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is the chemical formula for ammonium sulfate",
+      "volume": 100,
+      "original_keyword": "ammonium sulfate",
+      "parent_topic": "ammonium sulfate formula",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "ammonium sulphate is which type of fertilizer",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "is ammonium sulfate soluble in water",
+      "volume": 80,
+      "original_keyword": "ammonium sulfate",
+      "parent_topic": "ammonium sulphate formula",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "how does ammonium sulphate lead to deciliation",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "is ammonium lauryl sulfate bad for hair",
+      "volume": 70,
+      "original_keyword": "ammonium sulfate",
+      "parent_topic": "what ingredients to avoid in shampoo",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is ammonium lauryl sulfate",
+      "volume": 70,
+      "original_keyword": "ammonium sulfate",
+      "parent_topic": "ammonium lauryl sulfate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "when to use ammonium sulfate fertilizer",
+      "volume": 70,
+      "original_keyword": "ammonium sulfate",
+      "parent_topic": "ammonium sulfate fertilizer",
+      "intents": [
+        "informational"
+      ]
     }
   ]
 }

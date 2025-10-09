@@ -1,11 +1,15 @@
 {
-  "keyword": "Maltitol syrup",
+  "keywords": [
+    "Maltitol syrup",
+    "E965II"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:18.628Z",
+  "fetchedAt": "2025-10-09T03:23:55.710Z",
   "questions": [
     {
       "keyword": "what is maltitol syrup",
-      "volume": 600,
+      "volume": 700,
+      "original_keyword": "Maltitol syrup",
       "parent_topic": "maltitol",
       "intents": [
         "informational"
@@ -14,7 +18,17 @@
     {
       "keyword": "is maltitol syrup bad for you",
       "volume": 100,
+      "original_keyword": "Maltitol syrup",
       "parent_topic": "maltitol",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is maltitol syrup made from",
+      "volume": 40,
+      "original_keyword": "Maltitol syrup",
+      "parent_topic": "",
       "intents": [
         "informational"
       ]
@@ -22,15 +36,8 @@
     {
       "keyword": "is maltitol syrup gluten free",
       "volume": 30,
+      "original_keyword": "Maltitol syrup",
       "parent_topic": "is maltitol gluten free",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what is maltitol syrup made from",
-      "volume": 30,
-      "parent_topic": "",
       "intents": [
         "informational"
       ]
@@ -38,6 +45,7 @@
     {
       "keyword": "what is maltitol syrup made of",
       "volume": 30,
+      "original_keyword": "Maltitol syrup",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -46,6 +54,7 @@
     {
       "keyword": "does maltitol syrup raise blood sugar",
       "volume": 10,
+      "original_keyword": "Maltitol syrup",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -54,6 +63,7 @@
     {
       "keyword": "is maltitol syrup keto friendly",
       "volume": 10,
+      "original_keyword": "Maltitol syrup",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -62,18 +72,21 @@
     {
       "keyword": "maltitol syrup what is it",
       "volume": 10,
+      "original_keyword": "Maltitol syrup",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "maltitol syrup where to buy",
       "volume": 10,
+      "original_keyword": "Maltitol syrup",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is maltitol sweetener syrup",
       "volume": 10,
+      "original_keyword": "Maltitol syrup",
       "parent_topic": "",
       "intents": []
     }

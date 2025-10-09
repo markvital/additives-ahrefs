@@ -1,11 +1,17 @@
 {
-  "keyword": "Synthetic wax",
+  "keywords": [
+    "Synthetic wax",
+    "E905",
+    "Hydrocarbon wax",
+    "Fischer-Tropsch wax"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:19:04.772Z",
+  "fetchedAt": "2025-10-09T03:30:00.633Z",
   "questions": [
     {
       "keyword": "what is synthetic wax",
       "volume": 50,
+      "original_keyword": "Synthetic wax",
       "parent_topic": "synthetic wax",
       "intents": [
         "informational"
@@ -14,54 +20,63 @@
     {
       "keyword": "what is synthetic wax made of",
       "volume": 20,
+      "original_keyword": "Synthetic wax",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how to remove candle wax from synthetic material",
       "volume": 10,
+      "original_keyword": "Synthetic wax",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is synthetic wax in cosmetics",
       "volume": 10,
+      "original_keyword": "Synthetic wax",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "can use synthetic wax lip balm when not using lipsense",
+      "keyword": "candles contain parafin wax, a hydrocarbon. when a test tube filled with cold water",
       "volume": 0,
+      "original_keyword": "Hydrocarbon wax",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "how good is 3m 39164 synthetic wax protection for headlight restoration",
+      "keyword": "dia what does e905 mean\\",
       "volume": 0,
+      "original_keyword": "E905",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how is synthetic thc wax used",
       "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how is synthetic wax made",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how it's made peg/ppg-19/19 synthetic wax cosmetics",
-      "volume": 0,
+      "original_keyword": "Synthetic wax",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how last mothers synthetic wax site:www.autogeekonline.net",
       "volume": 0,
+      "original_keyword": "Synthetic wax",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how long does synthetic wax protect",
+      "volume": 0,
+      "original_keyword": "Synthetic wax",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how long last synthetic wax",
+      "volume": 0,
+      "original_keyword": "Synthetic wax",
       "parent_topic": "",
       "intents": []
     }

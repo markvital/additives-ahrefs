@@ -1,11 +1,16 @@
 {
-  "keyword": "Beetroot red",
+  "keywords": [
+    "Beetroot red",
+    "E162",
+    "betanin"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.916Z",
+  "fetchedAt": "2025-10-09T03:16:34.005Z",
   "questions": [
     {
       "keyword": "does beetroot make your poop red",
       "volume": 70,
+      "original_keyword": "Beetroot red",
       "parent_topic": "does beet juice make your poop red",
       "intents": [
         "informational"
@@ -14,6 +19,7 @@
     {
       "keyword": "does beetroot make you poop red",
       "volume": 50,
+      "original_keyword": "Beetroot red",
       "parent_topic": "does beet juice make your poop red",
       "intents": [
         "informational"
@@ -22,6 +28,7 @@
     {
       "keyword": "can beetroot make poop red",
       "volume": 40,
+      "original_keyword": "Beetroot red",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -30,12 +37,14 @@
     {
       "keyword": "what is beetroot red soup",
       "volume": 40,
+      "original_keyword": "Beetroot red",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "can beetroot cause red urine",
       "volume": 10,
+      "original_keyword": "Beetroot red",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -44,6 +53,7 @@
     {
       "keyword": "can beetroot make urine red",
       "volume": 10,
+      "original_keyword": "Beetroot red",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -52,6 +62,7 @@
     {
       "keyword": "can beetroot make your urine red",
       "volume": 10,
+      "original_keyword": "Beetroot red",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -60,6 +71,7 @@
     {
       "keyword": "can beetroot turn urine red",
       "volume": 10,
+      "original_keyword": "Beetroot red",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -68,6 +80,7 @@
     {
       "keyword": "can beetroot turn your urine red",
       "volume": 10,
+      "original_keyword": "Beetroot red",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -76,6 +89,7 @@
     {
       "keyword": "does beetroot cause red urine",
       "volume": 10,
+      "original_keyword": "Beetroot red",
       "parent_topic": "",
       "intents": [
         "informational"

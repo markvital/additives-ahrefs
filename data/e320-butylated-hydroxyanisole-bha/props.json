@@ -13,20 +13,6 @@
   "description": "Butylated hydroxyanisole -BHA- is an antioxidant consisting of a mixture of two isomeric organic compounds, 2-tert-butyl-4-hydroxyanisole and 3-tert-butyl-4-hydroxyanisole.  It is prepared from 4-methoxyphenol and isobutylene. It is a waxy solid used as a food additive with the E number E320. The primary use for BHA is as an antioxidant and preservative in food, food packaging, animal feed, cosmetics, rubber, and petroleum products. BHA also is commonly used in medicines, such as isotretinoin, lovastatin, and simvastatin, among others.",
   "wikipedia": "https://en.wikipedia.org/wiki/Butylated_hydroxyanisole",
   "wikidata": "Q409401",
-  "searchVolume": 70,
-  "searchRank": 335,
-  "searchSparkline": [
-    15,
-    85,
-    65,
-    106,
-    5,
-    12,
-    14,
-    30,
-    51,
-    58
-  ],
   "origin": [
     "synthetic"
   ],

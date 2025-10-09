@@ -1,6 +1,9 @@
 {
-  "keyword": "Monopotassium citrate",
+  "keywords": [
+    "Monopotassium citrate",
+    "E332I"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:22.658Z",
+  "fetchedAt": "2025-10-09T03:25:31.146Z",
   "questions": []
 }

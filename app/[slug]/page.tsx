@@ -15,7 +15,9 @@ import {
 import { formatMonthlyVolume, formatProductCount, getCountryFlagEmoji, getCountryLabel } from '../../lib/format';
 import { getSearchHistory } from '../../lib/search-history';
 import { getSearchQuestions } from '../../lib/search-questions';
+import { getSearchVolumeDataset } from '../../lib/search-volume';
 import { SearchHistoryChart } from '../../components/SearchHistoryChart';
+import { SearchKeywordShare } from '../../components/SearchKeywordShare';
 import { MarkdownArticle } from '../../components/MarkdownArticle';
 import { SearchQuestions } from '../../components/SearchQuestions';
 
@@ -60,25 +62,115 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
 
   const synonymList = additive.synonyms.filter((value, index, list) => list.indexOf(value) === index);
   const searchHistory = getSearchHistory(additive.slug);
-  const searchKeyword = searchHistory?.keyword?.trim();
+  const searchHistoryKeywords = searchHistory?.keywords ?? [];
   const hasSearchHistory =
     !!searchHistory &&
     searchHistory.metrics.length > 0 &&
-    !!searchKeyword;
+    (Array.isArray(searchHistoryKeywords) ? searchHistoryKeywords.length > 0 : false);
   const searchQuestions = getSearchQuestions(additive.slug);
   const questionItems = searchQuestions?.questions ?? [];
   const displayName = formatAdditiveDisplayName(additive.eNumber, additive.title);
   const searchRank = typeof additive.searchRank === 'number' ? additive.searchRank : null;
-  const searchVolume = typeof additive.searchVolume === 'number' ? additive.searchVolume : null;
+  const searchVolumeDataset = getSearchVolumeDataset(additive.slug);
+  const keywordVolumeEntries = searchVolumeDataset?.keywords ?? [];
+  const resolvedSearchVolume =
+    typeof searchVolumeDataset?.totalSearchVolume === 'number'
+      ? searchVolumeDataset.totalSearchVolume
+      : typeof additive.searchVolume === 'number'
+        ? additive.searchVolume
+        : null;
+  const searchVolume =
+    typeof resolvedSearchVolume === 'number' && Number.isFinite(resolvedSearchVolume)
+      ? resolvedSearchVolume
+      : null;
+  const normalizedKeywordShareSegments = keywordVolumeEntries
+    .map((entry) => {
+      const keyword = typeof entry?.keyword === 'string' ? entry.keyword.trim() : '';
+      const volume =
+        typeof entry?.volume === 'number' && Number.isFinite(entry.volume) ? Math.max(0, entry.volume) : 0;
+      return { keyword, volume };
+    })
+    .filter((entry) => entry.keyword.length > 0);
+  const uniqueKeywordCount = normalizedKeywordShareSegments
+    .map((entry) => entry.keyword)
+    .filter((keyword, index, list) => keyword.length > 0 && list.indexOf(keyword) === index).length;
+  const aggregatedKeywordShareTotal =
+    typeof searchVolumeDataset?.totalSearchVolume === 'number' &&
+    Number.isFinite(searchVolumeDataset.totalSearchVolume) &&
+    searchVolumeDataset.totalSearchVolume > 0
+      ? searchVolumeDataset.totalSearchVolume
+      : normalizedKeywordShareSegments.reduce((acc, entry) => acc + entry.volume, 0);
+  const keywordShareTotal =
+    aggregatedKeywordShareTotal > 0
+      ? aggregatedKeywordShareTotal
+      : typeof searchVolume === 'number' && Number.isFinite(searchVolume) && searchVolume > 0
+        ? searchVolume
+        : 0;
+  const hasKeywordShare = normalizedKeywordShareSegments.length > 0 && keywordShareTotal > 0;
   const searchCountryCode = searchHistory?.country;
   const searchFlagEmoji = searchCountryCode ? getCountryFlagEmoji(searchCountryCode) : null;
   const searchCountryLabel =
     searchCountryCode && searchFlagEmoji ? getCountryLabel(searchCountryCode) ?? searchCountryCode.toUpperCase() : null;
+  const searchCountryText =
+    searchCountryLabel ?? (searchCountryCode ? searchCountryCode.trim().toUpperCase() : null);
   const productCount = typeof additive.productCount === 'number' ? additive.productCount : null;
   const productSearchUrl = `https://us.openfoodfacts.org/facets/additives/${additive.slug}`;
   const articleSummary = extractArticleSummary(additive.article);
   const articleBody = extractArticleBody(additive.article);
   const originList = additive.origin.filter((value, index, list) => list.indexOf(value) === index);
+  const searchHistoryKeywordNames = searchHistoryKeywords
+    .map((entry) => (typeof entry?.keyword === 'string' ? entry.keyword.trim() : ''))
+    .filter((keyword, index, list) => keyword.length > 0 && list.indexOf(keyword) === index);
+  let searchKeywordLabel: string | null = null;
+  let searchKeywordPrefix: string | null = null;
+  if (searchHistoryKeywordNames.length === 1) {
+    searchKeywordLabel = `“${searchHistoryKeywordNames[0]}”`;
+    searchKeywordPrefix = 'for';
+  } else if (searchHistoryKeywordNames.length > 1) {
+    searchKeywordLabel = `${searchHistoryKeywordNames.length} keywords`;
+    searchKeywordPrefix = 'across';
+  } else if (displayName) {
+    searchKeywordLabel = `“${displayName}”`;
+    searchKeywordPrefix = 'for';
+  }
+
+  const searchInterestKeywordTrigger =
+    hasKeywordShare && searchKeywordLabel
+      ? (
+          <SearchKeywordShare
+            keywords={normalizedKeywordShareSegments}
+            total={keywordShareTotal}
+            label={searchKeywordLabel}
+            sx={{ fontSize: 'inherit', lineHeight: 'inherit' }}
+          />
+        )
+      : searchKeywordLabel
+        ? (
+            <Box component="span" sx={{ color: 'text.primary' }}>
+              {searchKeywordLabel}
+            </Box>
+          )
+        : null;
+
+  const searchInterestCaption = (
+    <>
+      Interest over time
+      {searchKeywordLabel && searchKeywordPrefix && searchInterestKeywordTrigger && (
+        <>
+          {' '}
+          {searchKeywordPrefix}{' '}
+          {searchInterestKeywordTrigger}
+        </>
+      )}
+      {searchCountryText && (
+        <>
+          {' '}
+          in {searchCountryText}
+        </>
+      )}
+      {' for the last 10 years'}
+    </>
+  );
 
   return (
     <Box component="article" display="flex" flexDirection="column" gap={4} alignItems="center" width="100%">
@@ -112,32 +204,56 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
               ))}
             </Typography>
           )}
-          {(searchRank !== null || searchVolume !== null || searchFlagEmoji) && (
-            <Typography variant="body1" color="text.secondary" sx={{ display: 'flex', flexWrap: 'wrap', gap: 0.75 }}>
+          {(searchRank !== null || searchVolume !== null || searchCountryText || hasKeywordShare) && (
+            <Box
+              sx={{
+                display: 'flex',
+                alignItems: 'center',
+                flexWrap: 'wrap',
+                gap: 1,
+                color: 'text.secondary',
+                typography: 'body1',
+              }}
+            >
               <Box component="span" sx={{ fontWeight: 600 }}>
                 Search interest:
               </Box>
               {searchRank !== null && (
-                <Box component="span" sx={{ fontVariantNumeric: 'tabular-nums' }}>
+                <Box component="span" sx={{ fontVariantNumeric: 'tabular-nums', color: 'text.primary' }}>
                   #{searchRank}
                 </Box>
               )}
               {searchVolume !== null && (
-                <Box component="span" sx={{ fontVariantNumeric: 'tabular-nums' }}>
+                <Box component="span" sx={{ fontVariantNumeric: 'tabular-nums', color: 'text.primary' }}>
                   {formatMonthlyVolume(searchVolume)} / mo
                 </Box>
               )}
-              {searchFlagEmoji && (
-                <Box
-                  component="span"
-                  role="img"
-                  aria-label={searchCountryLabel ?? undefined}
-                  sx={{ fontSize: '1rem', lineHeight: 1 }}
-                >
-                  {searchFlagEmoji}
+              {(searchCountryText || searchFlagEmoji) && (
+                <Box component="span" sx={{ display: 'inline-flex', alignItems: 'center', gap: 0.5 }}>
+                  {searchCountryText ? `in ${searchCountryText}` : null}
+                  {searchFlagEmoji && (
+                    <Box
+                      component="span"
+                      role="img"
+                      aria-label={searchCountryLabel ?? undefined}
+                      sx={{ fontSize: '1rem', lineHeight: 1 }}
+                    >
+                      {searchFlagEmoji}
+                    </Box>
+                  )}
                 </Box>
               )}
-            </Typography>
+              {hasKeywordShare && (
+                <Box component="span" sx={{ display: 'inline-flex', alignItems: 'center', gap: 0.5 }}>
+                  <Box component="span">data from</Box>
+                  <SearchKeywordShare
+                    keywords={normalizedKeywordShareSegments}
+                    total={keywordShareTotal}
+                    label={`${uniqueKeywordCount} ${uniqueKeywordCount === 1 ? 'keyword' : 'keywords'}`}
+                  />
+                </Box>
+              )}
+            </Box>
           )}
         </Box>
 
@@ -228,7 +344,7 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
         )}
       </Box>
 
-      {hasSearchHistory && searchHistory && searchKeyword && (
+      {hasSearchHistory && searchHistory && (
         <Box
           id="search-history"
           sx={{
@@ -243,7 +359,7 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
           <SearchHistoryChart metrics={searchHistory.metrics} />
 
           <Typography variant="body2" color="text.secondary" textAlign="center">
-            Interest over time on &ldquo;{searchKeyword}&rdquo; in the U.S. for the last 10 years
+            {searchInterestCaption}
           </Typography>
         </Box>
       )}

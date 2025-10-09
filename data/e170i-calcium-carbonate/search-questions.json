@@ -1,12 +1,54 @@
 {
-  "keyword": "Calcium carbonate",
+  "keywords": [
+    "Calcium carbonate",
+    "E170I",
+    "CI Pigment White 18",
+    "Chalk"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.164Z",
+  "fetchedAt": "2025-10-09T03:20:43.232Z",
   "questions": [
     {
       "keyword": "what is calcium carbonate",
       "volume": 4200,
-      "parent_topic": "caco3",
+      "original_keyword": "Calcium carbonate",
+      "parent_topic": "calcium carbonate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is chalk made of",
+      "volume": 2500,
+      "original_keyword": "Chalk",
+      "parent_topic": "chalk",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is chalk paint",
+      "volume": 2200,
+      "original_keyword": "Chalk",
+      "parent_topic": "what is chalk paint",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to make chalk paint",
+      "volume": 2100,
+      "original_keyword": "Chalk",
+      "parent_topic": "how to make chalk paint",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "can you eat chalk",
+      "volume": 1400,
+      "original_keyword": "Chalk",
+      "parent_topic": "can you eat chalk",
       "intents": [
         "informational"
       ]
@@ -14,71 +56,44 @@
     {
       "keyword": "what is calcium carbonate used for",
       "volume": 900,
-      "parent_topic": "calcium carbonate",
+      "original_keyword": "Calcium carbonate",
+      "parent_topic": "calcium carbonate side effects",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "is calcium carbonate bad for you",
-      "volume": 500,
-      "parent_topic": "calcium supplements",
+      "keyword": "what is chalk",
+      "volume": 900,
+      "original_keyword": "Chalk",
+      "parent_topic": "chalk",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "does calcium carbonate cause constipation",
-      "volume": 250,
-      "parent_topic": "does calcium carbonate cause constipation",
+      "keyword": "how to remove chalk marker",
+      "volume": 800,
+      "original_keyword": "Chalk",
+      "parent_topic": "how to remove chalk marker",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "is calcium carbonate soluble in water",
-      "volume": 200,
-      "parent_topic": "caco3",
+      "keyword": "how to use chalk paint",
+      "volume": 800,
+      "original_keyword": "Chalk",
+      "parent_topic": "how to use chalk paint",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "where does calcium carbonate come from",
-      "volume": 200,
-      "parent_topic": "calcium carbonate",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "which is better for osteoporosis calcium citrate or carbonate",
-      "volume": 200,
-      "parent_topic": "best calcium supplement",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "can dogs have calcium carbonate",
-      "volume": 150,
-      "parent_topic": "can dogs have calcium carbonate",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "how much calcium carbonate per day",
-      "volume": 150,
-      "parent_topic": "is it safe to take tums everyday for calcium",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is calcium carbonate ionic or covalent",
-      "volume": 150,
-      "parent_topic": "caco3 ionic or covalent",
+      "keyword": "how to make chalk",
+      "volume": 700,
+      "original_keyword": "Chalk",
+      "parent_topic": "how to make chalk",
       "intents": [
         "informational"
       ]

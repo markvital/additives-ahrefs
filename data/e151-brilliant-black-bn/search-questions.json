@@ -1,17 +1,86 @@
 {
-  "keyword": "Brilliant black bn",
+  "keywords": [
+    "Brilliant black bn",
+    "E151",
+    "black pn",
+    "E 151",
+    "C.I. 28440",
+    "Brilliant Black PN",
+    "Food Black 1",
+    "Naphthol Black",
+    "C.I. Food Brown 1",
+    "Brilliant Black A"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.851Z",
+  "fetchedAt": "2025-10-09T03:20:43.789Z",
   "questions": [
     {
-      "keyword": "what is brilliant black bn",
+      "keyword": "black desert online how many green food = 1 blue food",
       "volume": 0,
+      "original_keyword": "Food Black 1",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what is the e number of brilliant black bn",
+      "keyword": "black ops 4 pc how to wing suit pn foot exploit",
       "volume": 0,
+      "original_keyword": "black pn",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "black screen when playing budokai 3 pn pscx2",
+      "volume": 0,
+      "original_keyword": "black pn",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "brilliant black minds gave me a shot when none of the white guys woild meme jim carrey",
+      "volume": 0,
+      "original_keyword": "Brilliant Black A",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "brilliant black minds gave me a shot when none of the white guys would meme jim carrey",
+      "volume": 0,
+      "original_keyword": "Brilliant Black A",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how close is 841 w. randolph st. to 151 e. wacker drive?",
+      "volume": 0,
+      "original_keyword": "E 151",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how do you play black ops pn xbox one x",
+      "volume": 0,
+      "original_keyword": "black pn",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how does the shelter in 151 e151 st reviews",
+      "volume": 0,
+      "original_keyword": "E151",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how does the shelter in 151 e151 st work ?",
+      "volume": 0,
+      "original_keyword": "E151",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how far from 2301 s. lake shore drive, chicago to 151 e. wacker drive, chicago",
+      "volume": 0,
+      "original_keyword": "E 151",
       "parent_topic": "",
       "intents": []
     }

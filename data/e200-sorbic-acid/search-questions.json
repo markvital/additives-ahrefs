@@ -1,11 +1,15 @@
 {
-  "keyword": "Sorbic acid",
+  "keywords": [
+    "Sorbic acid",
+    "E200"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:25:16.458Z",
+  "fetchedAt": "2025-10-09T03:29:39.980Z",
   "questions": [
     {
       "keyword": "what is sorbic acid",
       "volume": 250,
+      "original_keyword": "Sorbic acid",
       "parent_topic": "is sorbic acid bad for you",
       "intents": [
         "informational"
@@ -14,6 +18,7 @@
     {
       "keyword": "is sorbic acid bad for you",
       "volume": 200,
+      "original_keyword": "Sorbic acid",
       "parent_topic": "is sorbic acid bad for you",
       "intents": [
         "informational"
@@ -22,6 +27,7 @@
     {
       "keyword": "is sorbic acid safe for dogs",
       "volume": 50,
+      "original_keyword": "Sorbic acid",
       "parent_topic": "is sorbic acid safe for dogs",
       "intents": [
         "informational"
@@ -30,6 +36,7 @@
     {
       "keyword": "is sorbic acid safe",
       "volume": 30,
+      "original_keyword": "Sorbic acid",
       "parent_topic": "is sorbic acid bad for you",
       "intents": [
         "informational"
@@ -38,6 +45,7 @@
     {
       "keyword": "what is sorbic acid made from",
       "volume": 30,
+      "original_keyword": "Sorbic acid",
       "parent_topic": "sorbic acid",
       "intents": [
         "informational"
@@ -46,14 +54,7 @@
     {
       "keyword": "is sorbic acid natural",
       "volume": 20,
-      "parent_topic": "sorbic acid",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what is a sorbic acid",
-      "volume": 20,
+      "original_keyword": "Sorbic acid",
       "parent_topic": "sorbic acid",
       "intents": [
         "informational"
@@ -62,6 +63,7 @@
     {
       "keyword": "what is sorbic acid used for",
       "volume": 20,
+      "original_keyword": "Sorbic acid",
       "parent_topic": "is sorbic acid bad for you",
       "intents": [
         "informational"
@@ -70,6 +72,7 @@
     {
       "keyword": "where does sorbic acid come from",
       "volume": 20,
+      "original_keyword": "Sorbic acid",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -78,6 +81,14 @@
     {
       "keyword": "how is sorbic acid made",
       "volume": 10,
+      "original_keyword": "Sorbic acid",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to fix error e200 on xbox one",
+      "volume": 10,
+      "original_keyword": "E200",
       "parent_topic": "",
       "intents": []
     }

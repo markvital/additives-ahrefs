@@ -1,11 +1,15 @@
 {
-  "keyword": "Mannitol",
+  "keywords": [
+    "Mannitol",
+    "E421"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:19.293Z",
+  "fetchedAt": "2025-10-09T03:23:56.658Z",
   "questions": [
     {
       "keyword": "what is mannitol",
       "volume": 1900,
+      "original_keyword": "Mannitol",
       "parent_topic": "mannitol side effects",
       "intents": [
         "informational"
@@ -13,7 +17,8 @@
     },
     {
       "keyword": "what is mannitol used for",
-      "volume": 400,
+      "volume": 350,
+      "original_keyword": "Mannitol",
       "parent_topic": "mannitol",
       "intents": [
         "informational"
@@ -21,7 +26,8 @@
     },
     {
       "keyword": "how mannitol works",
-      "volume": 300,
+      "volume": 250,
+      "original_keyword": "Mannitol",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -30,6 +36,7 @@
     {
       "keyword": "how does mannitol work",
       "volume": 150,
+      "original_keyword": "Mannitol",
       "parent_topic": "mannitol",
       "intents": [
         "informational"
@@ -38,6 +45,7 @@
     {
       "keyword": "is mannitol safe for dogs",
       "volume": 150,
+      "original_keyword": "Mannitol",
       "parent_topic": "mannitol dogs",
       "intents": [
         "informational"
@@ -46,6 +54,7 @@
     {
       "keyword": "is mannitol salt agar selective or differential",
       "volume": 150,
+      "original_keyword": "Mannitol",
       "parent_topic": "mannitol salt agar",
       "intents": [
         "informational"
@@ -54,6 +63,7 @@
     {
       "keyword": "mannitol salt agar is selective for which bacterial genus",
       "volume": 100,
+      "original_keyword": "Mannitol",
       "parent_topic": "mannitol salt agar is selective for which bacterial genus",
       "intents": [
         "informational"
@@ -62,6 +72,7 @@
     {
       "keyword": "what does mannitol salt agar test for",
       "volume": 100,
+      "original_keyword": "Mannitol",
       "parent_topic": "mannitol salt agar",
       "intents": [
         "informational"
@@ -70,7 +81,8 @@
     {
       "keyword": "where to buy mannitol powder",
       "volume": 100,
-      "parent_topic": "mannitol near me",
+      "original_keyword": "Mannitol",
+      "parent_topic": "mannitol buy",
       "intents": [
         "commercial",
         "transactional"
@@ -79,6 +91,7 @@
     {
       "keyword": "does staphylococcus epidermidis ferment mannitol",
       "volume": 80,
+      "original_keyword": "Mannitol",
       "parent_topic": "does staphylococcus epidermidis ferment mannitol",
       "intents": [
         "informational"

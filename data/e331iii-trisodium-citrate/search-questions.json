@@ -1,11 +1,15 @@
 {
-  "keyword": "Trisodium citrate",
+  "keywords": [
+    "Trisodium citrate",
+    "E331III"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:19:04.448Z",
+  "fetchedAt": "2025-10-09T03:30:06.420Z",
   "questions": [
     {
       "keyword": "what is trisodium citrate",
       "volume": 150,
+      "original_keyword": "Trisodium citrate",
       "parent_topic": "trisodium citrate",
       "intents": [
         "informational"
@@ -14,6 +18,7 @@
     {
       "keyword": "is trisodium citrate bad for you",
       "volume": 30,
+      "original_keyword": "Trisodium citrate",
       "parent_topic": "trisodium citrate dihydrate",
       "intents": [
         "informational"
@@ -22,7 +27,8 @@
     {
       "keyword": "what is trisodium citrate dihydrate",
       "volume": 30,
-      "parent_topic": "trisodium citrate",
+      "original_keyword": "Trisodium citrate",
+      "parent_topic": "is trisodium citrate bad for you",
       "intents": [
         "informational"
       ]
@@ -30,42 +36,49 @@
     {
       "keyword": "what is trisodium citrate used for",
       "volume": 10,
+      "original_keyword": "Trisodium citrate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "during sample preparation, why must the solutions be buffered with trisodium citrate",
       "volume": 0,
+      "original_keyword": "Trisodium citrate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "fe during sample preparation, why must the solutions be buffered with trisodium citrate",
       "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how much sodium in trisodium citrate",
-      "volume": 0,
+      "original_keyword": "Trisodium citrate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how to create trisodium citrate",
       "volume": 0,
+      "original_keyword": "Trisodium citrate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how to find ml of .09 m hcl when you have 6.919 ml .087m trisodium citrate at 2nd equivalence",
       "volume": 0,
+      "original_keyword": "Trisodium citrate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how to functionalize trisodium citrate gold nanoparticles",
       "volume": 0,
+      "original_keyword": "Trisodium citrate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to functionllize trisodium citrate gold nanoparticles",
+      "volume": 0,
+      "original_keyword": "Trisodium citrate",
       "parent_topic": "",
       "intents": []
     }

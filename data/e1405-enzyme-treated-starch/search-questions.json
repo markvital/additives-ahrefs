@@ -1,11 +1,78 @@
 {
-  "keyword": "Enzyme treated starch",
+  "keywords": [
+    "Enzyme treated starch",
+    "E1405"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:45.361Z",
+  "fetchedAt": "2025-10-09T03:21:52.897Z",
   "questions": [
     {
-      "keyword": "what is the e number of enzyme treated starch",
+      "keyword": "dell inspiron e1405 price when made",
       "volume": 0,
+      "original_keyword": "E1405",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how do i reinstall sound drivers on my dell inspiron e1405",
+      "volume": 0,
+      "original_keyword": "E1405",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much ram inspiron e1405",
+      "volume": 0,
+      "original_keyword": "E1405",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how old is the dell inspiron e1405",
+      "volume": 0,
+      "original_keyword": "E1405",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how ram can dell e1405 hold",
+      "volume": 0,
+      "original_keyword": "E1405",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to adjust brightness on inspiron e1405",
+      "volume": 0,
+      "original_keyword": "E1405",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to boot from usb on dell inspiron e1405",
+      "volume": 0,
+      "original_keyword": "E1405",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to brighten the screen on a dell laptop e1405",
+      "volume": 0,
+      "original_keyword": "E1405",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to clean install windows 7 e1405",
+      "volume": 0,
+      "original_keyword": "E1405",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to clean the fan on a dell inspiron e1405",
+      "volume": 0,
+      "original_keyword": "E1405",
       "parent_topic": "",
       "intents": []
     }

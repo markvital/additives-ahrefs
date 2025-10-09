@@ -1,11 +1,15 @@
 {
-  "keyword": "Sucrose acetate isobutyrate",
+  "keywords": [
+    "Sucrose acetate isobutyrate",
+    "E444"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:25:20.882Z",
+  "fetchedAt": "2025-10-09T03:29:58.130Z",
   "questions": [
     {
       "keyword": "what is sucrose acetate isobutyrate",
       "volume": 100,
+      "original_keyword": "Sucrose acetate isobutyrate",
       "parent_topic": "sucrose acetate isobutyrate",
       "intents": [
         "informational"
@@ -13,7 +17,8 @@
     },
     {
       "keyword": "is sucrose acetate isobutyrate an artificial sweetener",
-      "volume": 30,
+      "volume": 20,
+      "original_keyword": "Sucrose acetate isobutyrate",
       "parent_topic": "is sucrose acetate isobutyrate an artificial sweetener",
       "intents": [
         "informational"
@@ -22,36 +27,49 @@
     {
       "keyword": "what is sucrose acetate isobutyrate used for",
       "volume": 10,
+      "original_keyword": "Sucrose acetate isobutyrate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "acer e444 fit band how to set up",
+      "volume": 0,
+      "original_keyword": "E444",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how is sucrose acetate isobutyrate made",
       "volume": 0,
+      "original_keyword": "Sucrose acetate isobutyrate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how to compound deslorelin acetate in sucrose acetate isobutyrate (saib) and propylene carbonate",
       "volume": 0,
+      "original_keyword": "Sucrose acetate isobutyrate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what does sucrose acetate isobutyrate do to your body",
       "volume": 0,
+      "original_keyword": "Sucrose acetate isobutyrate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "why natural flavour and carbonated water and sucrose acetate isobutyrate",
       "volume": 0,
+      "original_keyword": "Sucrose acetate isobutyrate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "why natural flavour and carbonated water and sucrose acetate isobutyrate are in fanta pineapple",
       "volume": 0,
+      "original_keyword": "Sucrose acetate isobutyrate",
       "parent_topic": "",
       "intents": []
     }

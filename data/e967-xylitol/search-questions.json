@@ -1,11 +1,15 @@
 {
-  "keyword": "Xylitol",
+  "keywords": [
+    "Xylitol",
+    "E967"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:19:04.410Z",
+  "fetchedAt": "2025-10-09T03:30:09.431Z",
   "questions": [
     {
       "keyword": "what is xylitol",
       "volume": 9100,
+      "original_keyword": "Xylitol",
       "parent_topic": "xylitol",
       "intents": [
         "informational"
@@ -13,7 +17,8 @@
     },
     {
       "keyword": "is xylitol bad for you",
-      "volume": 5500,
+      "volume": 5400,
+      "original_keyword": "Xylitol",
       "parent_topic": "xylitol",
       "intents": [
         "informational"
@@ -21,7 +26,8 @@
     },
     {
       "keyword": "does xylitol cause cancer",
-      "volume": 5100,
+      "volume": 5000,
+      "original_keyword": "Xylitol",
       "parent_topic": "does xylitol cause cancer",
       "intents": [
         "informational"
@@ -30,6 +36,7 @@
     {
       "keyword": "is xylitol good for your teeth",
       "volume": 1700,
+      "original_keyword": "Xylitol",
       "parent_topic": "xylitol",
       "intents": [
         "informational"
@@ -38,6 +45,7 @@
     {
       "keyword": "is xylitol safe",
       "volume": 1200,
+      "original_keyword": "Xylitol",
       "parent_topic": "xylitol",
       "intents": [
         "informational"
@@ -46,6 +54,7 @@
     {
       "keyword": "does extra gum have xylitol",
       "volume": 1000,
+      "original_keyword": "Xylitol",
       "parent_topic": "extra gum ingredients xylitol",
       "intents": [
         "informational",
@@ -55,6 +64,7 @@
     {
       "keyword": "does jif have xylitol",
       "volume": 1000,
+      "original_keyword": "Xylitol",
       "parent_topic": "does jif have xylitol",
       "intents": [
         "informational",
@@ -64,6 +74,7 @@
     {
       "keyword": "what peanut butter has xylitol",
       "volume": 1000,
+      "original_keyword": "Xylitol",
       "parent_topic": "peanut butter with xylitol",
       "intents": [
         "informational"
@@ -72,6 +83,7 @@
     {
       "keyword": "how much xylitol is toxic to dogs",
       "volume": 900,
+      "original_keyword": "Xylitol",
       "parent_topic": "xylitol",
       "intents": [
         "informational"
@@ -80,6 +92,7 @@
     {
       "keyword": "is xylitol bad for dogs",
       "volume": 800,
+      "original_keyword": "Xylitol",
       "parent_topic": "xylitol",
       "intents": [
         "informational"

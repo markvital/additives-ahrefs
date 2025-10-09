@@ -1,19 +1,31 @@
 {
-  "keyword": "calcium glycerophosphate",
+  "keywords": [
+    "calcium glycerophosphate",
+    "E383"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.333Z",
+  "fetchedAt": "2025-10-09T03:20:44.251Z",
   "questions": [
     {
       "keyword": "what is calcium glycerophosphate",
       "volume": 40,
+      "original_keyword": "calcium glycerophosphate",
       "parent_topic": "what is calcium glycerophosphate",
       "intents": [
         "informational"
       ]
     },
     {
+      "keyword": "2605:a000:e383:1400:a1c9:90c2:edad:55e0 where is this location?",
+      "volume": 0,
+      "original_keyword": "E383",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
       "keyword": "calcium glycerophosphate where to buy",
       "volume": 0,
+      "original_keyword": "calcium glycerophosphate",
       "parent_topic": "",
       "intents": [
         "commercial",
@@ -21,38 +33,51 @@
       ]
     },
     {
-      "keyword": "what does calcium glycerophosphate do",
+      "keyword": "how do i get a driver for nwz e383 sony",
       "volume": 0,
+      "original_keyword": "E383",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what is calcium glycerophosphate good for",
+      "keyword": "how do you get the sony e383 mp3 player no pause to shut it off",
       "volume": 0,
+      "original_keyword": "E383",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what is calcium glycerophosphate used for",
+      "keyword": "how do you get the sony e383 mp3 player o pause to shut it off",
       "volume": 0,
+      "original_keyword": "E383",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what is the difference between calcium and calcium glycerophosphate",
+      "keyword": "how do you get the sony e383 mp3 player pause to shut it off",
       "volume": 0,
+      "original_keyword": "E383",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what is the e number of calcium glycerophosphate",
+      "keyword": "how do you turn off a sony walkman nwz e383?",
       "volume": 0,
+      "original_keyword": "E383",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "where can you get calcium glycerophosphate",
+      "keyword": "how long does it take for the sony nwz-e383 to fully charge",
       "volume": 0,
+      "original_keyword": "E383",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to create playlist on walkman nwz-e383",
+      "volume": 0,
+      "original_keyword": "E383",
       "parent_topic": "",
       "intents": []
     }

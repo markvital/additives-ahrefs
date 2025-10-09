@@ -11,20 +11,6 @@
   "description": "Nisin is a polycyclic antibacterial peptide produced by the bacterium Lactococcus lactis that is used as a food preservative. It has 34 amino acid residues, including the uncommon amino acids lanthionine -Lan-, methyllanthionine -MeLan-, didehydroalanine -Dha-, and didehydroaminobutyric acid -Dhb-. These unusual amino acids are introduced by posttranslational modification of the precursor peptide. In these reactions a ribosomally synthesized 57-mer is converted to the final peptide. The unsaturated amino acids originate from serine and threonine, and the enzyme-catalysed addition of cysteine residues to the didehydro amino acids result in the multiple -5- thioether bridges. Subtilin and epidermin are related to nisin. All are members of a class of molecules known as lantibiotics. In the food industry, nisin is obtained from the culturing of L. lactis on natural substrates, such as milk or dextrose, and it is not chemically synthesized. It was originally isolated in the late 1930s, and produced since the 1950s as Nisaplin from naturally occurring sources by Aplin and Barrett in laboratories in Beaminster in Dorset, and approved as an additive for food use in the USA in the late 1960s, although the Beaminster factory now is owned by DuPont.",
   "wikipedia": "https://en.wikipedia.org/wiki/Nisin",
   "wikidata": "Q415798",
-  "searchVolume": 1600,
-  "searchRank": 196,
-  "searchSparkline": [
-    2056,
-    1768,
-    1809,
-    1803,
-    1230,
-    1356,
-    1343,
-    1680,
-    1642,
-    1544
-  ],
   "origin": [],
   "productCount": 309
 }

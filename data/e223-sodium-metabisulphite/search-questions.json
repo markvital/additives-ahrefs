@@ -1,69 +1,105 @@
 {
-  "keyword": "Sodium metabisulphite",
+  "keywords": [
+    "Sodium metabisulphite",
+    "E223",
+    "Pyrosulphite",
+    "Sodium metabisulfite",
+    "Pyrosulfite"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:25:11.616Z",
+  "fetchedAt": "2025-10-09T03:29:32.344Z",
   "questions": [
     {
-      "keyword": "what is sodium metabisulphite",
-      "volume": 10,
-      "parent_topic": "sodium metabisuphite",
+      "keyword": "what is sodium metabisulfite",
+      "volume": 500,
+      "original_keyword": "Sodium metabisulfite",
+      "parent_topic": "sodium metabisulfite",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "where can i buy sodium metabisulphite",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "is sodium metabisulfite bad for you",
+      "volume": 200,
+      "original_keyword": "Sodium metabisulfite",
+      "parent_topic": "sodium metabisulfite",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "how does sodium metabisulphite react with chlorine compounds",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "is sodium metabisulfite safe",
+      "volume": 100,
+      "original_keyword": "Sodium metabisulfite",
+      "parent_topic": "sodium metabisulfite in food",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "how harmful to humans is sodium metabisulphite",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "is sodium metabisulfite gluten free",
+      "volume": 40,
+      "original_keyword": "Sodium metabisulfite",
+      "parent_topic": "is sodium metabisulfite gluten free",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "how long does sodium metabisulphite last",
-      "volume": 0,
+      "keyword": "what is sodium metabisulfite used for",
+      "volume": 30,
+      "original_keyword": "Sodium metabisulfite",
       "parent_topic": "",
-      "intents": []
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "how long does sodium metabisulphite solution last",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "how much sodium metabisulfite per gallon of wine",
+      "volume": 20,
+      "original_keyword": "Sodium metabisulfite",
+      "parent_topic": "how much sodium metabisulfite per gallon of wine",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "how many mg sodium metabisulphite",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "is sodium metabisulfite a sulfa drug",
+      "volume": 20,
+      "original_keyword": "Sodium metabisulfite",
+      "parent_topic": "sulfa",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "how many mg sodium metabisulphite per gallon",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "is sodium metabisulfite vegan",
+      "volume": 20,
+      "original_keyword": "Sodium metabisulfite",
+      "parent_topic": "sodium metabisulfite vegan",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "how much sodium metabisulphite to use in cider",
-      "volume": 0,
+      "keyword": "where can i buy sodium metabisulfite",
+      "volume": 20,
+      "original_keyword": "Sodium metabisulfite",
       "parent_topic": "",
-      "intents": []
+      "intents": [
+        "commercial",
+        "transactional"
+      ]
     },
     {
-      "keyword": "how much sodium metabisulphite to wine",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "where to buy sodium metabisulfite",
+      "volume": 20,
+      "original_keyword": "Sodium metabisulfite",
+      "parent_topic": "where to buy sodium metabisulfite",
+      "intents": [
+        "commercial",
+        "transactional"
+      ]
     }
   ]
 }

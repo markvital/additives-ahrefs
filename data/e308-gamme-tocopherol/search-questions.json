@@ -1,6 +1,83 @@
 {
-  "keyword": "Gamme-tocopherol",
+  "keywords": [
+    "Gamme-tocopherol",
+    "E308",
+    "gamma-Tocopherol"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:45.676Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:21:54.929Z",
+  "questions": [
+    {
+      "keyword": "what is d gamma tocopherol",
+      "volume": 10,
+      "original_keyword": "gamma-Tocopherol",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is gamma tocopherol",
+      "volume": 10,
+      "original_keyword": "gamma-Tocopherol",
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "why is e308 infinity",
+      "volume": 10,
+      "original_keyword": "E308",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "10 mg gamma tocopherol is how many iu",
+      "volume": 0,
+      "original_keyword": "gamma-Tocopherol",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "beta gamma tocopherol standard what is normal range",
+      "volume": 0,
+      "original_keyword": "gamma-Tocopherol",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "crusaders of the lost idol how to get past the e308 cap",
+      "volume": 0,
+      "original_keyword": "E308",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "e vitamin how much gamma tocopherol to alpha tocopherol",
+      "volume": 0,
+      "original_keyword": "gamma-Tocopherol",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "gamma tocopherol where to buy",
+      "volume": 0,
+      "original_keyword": "gamma-Tocopherol",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "gamma tocopherol, how much is too much",
+      "volume": 0,
+      "original_keyword": "gamma-Tocopherol",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how does gamma tocopherol enhance immunity",
+      "volume": 0,
+      "original_keyword": "gamma-Tocopherol",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

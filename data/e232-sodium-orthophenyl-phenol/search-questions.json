@@ -1,6 +1,80 @@
 {
-  "keyword": "Sodium orthophenyl phenol",
+  "keywords": [
+    "Sodium orthophenyl phenol",
+    "E232"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:25:12.512Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:29:31.811Z",
+  "questions": [
+    {
+      "keyword": "estudio e232 + folds page when duplexing",
+      "volume": 0,
+      "original_keyword": "E232",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how do i turn off power button lock on hp elite display e232 monitor",
+      "volume": 0,
+      "original_keyword": "E232",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how many hertz elitedisplay e232 hp",
+      "volume": 0,
+      "original_keyword": "E232",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to change e232 coil",
+      "volume": 0,
+      "original_keyword": "E232",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to change e232 coil 2000 dodge dakota",
+      "volume": 0,
+      "original_keyword": "E232",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to change e232 coil 2001 dodge dakota",
+      "volume": 0,
+      "original_keyword": "E232",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to connect lexmark e232 to network",
+      "volume": 0,
+      "original_keyword": "E232",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to print configuration page on lexmark e232",
+      "volume": 0,
+      "original_keyword": "E232",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to put toner in lexmark e232",
+      "volume": 0,
+      "original_keyword": "E232",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to refill lexmark e232 toner",
+      "volume": 0,
+      "original_keyword": "E232",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

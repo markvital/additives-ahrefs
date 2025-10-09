@@ -1,25 +1,102 @@
 {
-  "keyword": "Plain caramel",
+  "keywords": [
+    "Plain caramel",
+    "E150A",
+    "caramel color",
+    "caramel coloring"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:32.120Z",
+  "fetchedAt": "2025-10-09T03:25:52.427Z",
   "questions": [
     {
-      "keyword": "how many calories in 6 ounces of plain caramel corn",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is caramel color",
+      "volume": 800,
+      "original_keyword": "caramel color",
+      "parent_topic": "caramel color",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "what is \"plain caramel\"",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what color is caramel",
+      "volume": 700,
+      "original_keyword": "caramel color",
+      "parent_topic": "caramel color",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "where to buy plain caramel in hawaii",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is caramel color made of",
+      "volume": 450,
+      "original_keyword": "caramel color",
+      "parent_topic": "caramel color",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does caramel color cause cancer",
+      "volume": 250,
+      "original_keyword": "caramel color",
+      "parent_topic": "does caramel color cause cancer",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does caramel color have gluten",
+      "volume": 200,
+      "original_keyword": "caramel color",
+      "parent_topic": "is caramel color gluten free",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to lighten dark brown hair to caramel color",
+      "volume": 200,
+      "original_keyword": "caramel color",
+      "parent_topic": "caramel highlights hair",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is caramel color banned in europe",
+      "volume": 150,
+      "original_keyword": "caramel color",
+      "parent_topic": "food additives banned in europe",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is organic caramel color",
+      "volume": 150,
+      "original_keyword": "caramel color",
+      "parent_topic": "what is organic caramel color",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is caramel a color",
+      "volume": 100,
+      "original_keyword": "caramel color",
+      "parent_topic": "does caramel color have dairy",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is in caramel color",
+      "volume": 100,
+      "original_keyword": "caramel color",
+      "parent_topic": "caramel color",
+      "intents": [
+        "informational"
+      ]
     }
   ]
 }

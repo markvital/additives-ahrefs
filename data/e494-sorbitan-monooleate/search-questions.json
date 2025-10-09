@@ -1,17 +1,22 @@
 {
-  "keyword": "Sorbitan monooleate",
+  "keywords": [
+    "Sorbitan monooleate",
+    "E494"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:25:16.953Z",
+  "fetchedAt": "2025-10-09T03:29:42.125Z",
   "questions": [
     {
       "keyword": "what is polyoxyethylene 20 sorbitan monooleate",
       "volume": 0,
+      "original_keyword": "Sorbitan monooleate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is sorbitan monooleate",
       "volume": 0,
+      "original_keyword": "Sorbitan monooleate",
       "parent_topic": "",
       "intents": []
     }

@@ -1,6 +1,25 @@
 {
-  "keyword": "Dipotassium guanylate",
+  "keywords": [
+    "Dipotassium guanylate",
+    "E628",
+    "Potassium guanylate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.908Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:21:53.570Z",
+  "questions": [
+    {
+      "keyword": "what application is {c97fcc79-e628-407d-ae68-a06ad6d8b4d1}",
+      "volume": 0,
+      "original_keyword": "E628",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is clsid {c97fcc79-e628-407d-ae68-a06ad6d8b4d1}",
+      "volume": 0,
+      "original_keyword": "E628",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

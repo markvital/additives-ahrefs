@@ -1,21 +1,81 @@
 {
-  "keyword": "Polyglycerol esters of fatty acids",
+  "keywords": [
+    "Polyglycerol esters of fatty acids",
+    "E475",
+    "Polyglycerol fatty acid esters"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:32.920Z",
+  "fetchedAt": "2025-10-09T03:25:52.824Z",
   "questions": [
     {
-      "keyword": "what are polyglycerol esters of fatty acids",
+      "keyword": "how long does thinkpad e475 battery last",
       "volume": 0,
+      "original_keyword": "E475",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what is polyglycerol esters of fatty acids",
+      "keyword": "how long does thinkpad e475 last",
       "volume": 0,
+      "original_keyword": "E475",
       "parent_topic": "",
-      "intents": [
-        "informational"
-      ]
+      "intents": []
+    },
+    {
+      "keyword": "how to change memory on thinkpad e475",
+      "volume": 0,
+      "original_keyword": "E475",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to open sony e475 mp3 playe",
+      "volume": 0,
+      "original_keyword": "E475",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to open sony e475 mp3 player",
+      "volume": 0,
+      "original_keyword": "E475",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to remove a e475 keyboard",
+      "volume": 0,
+      "original_keyword": "E475",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "lenovo e475 turns black when i move the computer",
+      "volume": 0,
+      "original_keyword": "E475",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "nwz -e475 how do i turn language back to english?",
+      "volume": 0,
+      "original_keyword": "E475",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what are polyglycerol esters of fatty acids",
+      "volume": 0,
+      "original_keyword": "Polyglycerol esters of fatty acids",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is e475",
+      "volume": 0,
+      "original_keyword": "E475",
+      "parent_topic": "",
+      "intents": []
     }
   ]
 }

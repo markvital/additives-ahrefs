@@ -1,6 +1,24 @@
 {
-  "keyword": "Starch sodium octenyl succinate",
+  "keywords": [
+    "Starch sodium octenyl succinate",
+    "E1450"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:25:19.117Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:29:44.292Z",
+  "questions": [
+    {
+      "keyword": "dell inspiron e1450 windows 10 how well does it run",
+      "volume": 0,
+      "original_keyword": "E1450",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what does k-n e1450 fit",
+      "volume": 0,
+      "original_keyword": "E1450",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

@@ -16,20 +16,6 @@
   "description": "A protease -also called a peptidase or proteinase- is an enzyme that performs proteolysis: protein catabolism by hydrolysis of peptide bonds. Proteases have evolved multiple times, and different classes of protease can perform the same reaction by completely different catalytic mechanisms. Proteases can be found in Animalia, Plantae, Fungi, Bacteria, Archaea and viruses.",
   "wikipedia": "https://en.wikipedia.org/wiki/Protease",
   "wikidata": "Q212410",
-  "searchVolume": 15000,
-  "searchRank": 101,
-  "searchSparkline": [
-    19109,
-    20197,
-    20727,
-    18272,
-    15868,
-    14765,
-    17039,
-    16090,
-    15954,
-    13694
-  ],
   "origin": [],
   "productCount": 345
 }

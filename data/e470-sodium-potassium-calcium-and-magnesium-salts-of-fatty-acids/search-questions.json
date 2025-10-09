@@ -1,6 +1,89 @@
 {
-  "keyword": "Sodium/potassium/calcium and magnesium salts of fatty acids",
+  "keywords": [
+    "Sodium/potassium/calcium and magnesium salts of fatty acids",
+    "E470"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:25:16.036Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:29:40.045Z",
+  "questions": [
+    {
+      "keyword": "how much is the toll on e470",
+      "volume": 50,
+      "original_keyword": "E470",
+      "parent_topic": "e 470 tolls rates",
+      "intents": []
+    },
+    {
+      "keyword": "how much is e470 toll",
+      "volume": 40,
+      "original_keyword": "E470",
+      "parent_topic": "e470 toll calculator",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "who owns e470",
+      "volume": 40,
+      "original_keyword": "E470",
+      "parent_topic": "e 470",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how much does e470 cost",
+      "volume": 20,
+      "original_keyword": "E470",
+      "parent_topic": "e470 toll calculator",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how many tolls on e470",
+      "volume": 10,
+      "original_keyword": "E470",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much is e470",
+      "volume": 10,
+      "original_keyword": "E470",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much is the e470 toll",
+      "volume": 10,
+      "original_keyword": "E470",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to pay e470 toll",
+      "volume": 10,
+      "original_keyword": "E470",
+      "parent_topic": "colorado toll pay",
+      "intents": [
+        "informational",
+        "local"
+      ]
+    },
+    {
+      "keyword": "how to pay e470 tolls",
+      "volume": 10,
+      "original_keyword": "E470",
+      "parent_topic": "colorado toll pay",
+      "intents": []
+    },
+    {
+      "keyword": "who owns e470 colorado",
+      "volume": 10,
+      "original_keyword": "E470",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

@@ -1,12 +1,17 @@
 {
-  "keyword": "Formaldehyde",
+  "keywords": [
+    "Formaldehyde",
+    "E240",
+    "methanal"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:45.436Z",
+  "fetchedAt": "2025-10-09T03:21:54.788Z",
   "questions": [
     {
       "keyword": "what is formaldehyde",
       "volume": 4100,
-      "parent_topic": "formaldehyde uses",
+      "original_keyword": "Formaldehyde",
+      "parent_topic": "what is formaldehyde",
       "intents": [
         "informational"
       ]
@@ -14,6 +19,7 @@
     {
       "keyword": "what is formaldehyde used for",
       "volume": 2300,
+      "original_keyword": "Formaldehyde",
       "parent_topic": "formaldehyde uses",
       "intents": [
         "informational"
@@ -22,6 +28,7 @@
     {
       "keyword": "what does formaldehyde smell like",
       "volume": 1300,
+      "original_keyword": "Formaldehyde",
       "parent_topic": "what does formaldehyde smell like",
       "intents": [
         "informational"
@@ -30,6 +37,7 @@
     {
       "keyword": "is formaldehyde toxic",
       "volume": 900,
+      "original_keyword": "Formaldehyde",
       "parent_topic": "is formaldehyde toxic",
       "intents": [
         "informational"
@@ -38,6 +46,7 @@
     {
       "keyword": "what does formaldehyde do to the body",
       "volume": 700,
+      "original_keyword": "Formaldehyde",
       "parent_topic": "what does formaldehyde do to the body",
       "intents": [
         "informational"
@@ -46,7 +55,8 @@
     {
       "keyword": "does fireball have formaldehyde in it",
       "volume": 500,
-      "parent_topic": "fireball proof",
+      "original_keyword": "Formaldehyde",
+      "parent_topic": "fireball ingredients",
       "intents": [
         "informational",
         "branded"
@@ -55,6 +65,7 @@
     {
       "keyword": "is formaldehyde",
       "volume": 500,
+      "original_keyword": "Formaldehyde",
       "parent_topic": "formaldehyde",
       "intents": [
         "informational"
@@ -63,6 +74,7 @@
     {
       "keyword": "how to get formaldehyde smell out of jeans",
       "volume": 350,
+      "original_keyword": "Formaldehyde",
       "parent_topic": "how to get chemical smell out of jeans",
       "intents": [
         "informational"
@@ -71,6 +83,7 @@
     {
       "keyword": "where is formaldehyde found",
       "volume": 350,
+      "original_keyword": "Formaldehyde",
       "parent_topic": "formaldehyde uses",
       "intents": [
         "informational"
@@ -79,6 +92,7 @@
     {
       "keyword": "does formaldehyde make you hungry",
       "volume": 300,
+      "original_keyword": "Formaldehyde",
       "parent_topic": "does formaldehyde make you hungry",
       "intents": [
         "informational"

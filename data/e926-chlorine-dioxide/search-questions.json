@@ -1,11 +1,15 @@
 {
-  "keyword": "Chlorine dioxide",
+  "keywords": [
+    "Chlorine dioxide",
+    "E926"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.697Z",
+  "fetchedAt": "2025-10-09T03:20:50.421Z",
   "questions": [
     {
       "keyword": "what is chlorine dioxide",
-      "volume": 600,
+      "volume": 700,
+      "original_keyword": "Chlorine dioxide",
       "parent_topic": "chlorine dioxide benefits",
       "intents": [
         "informational"
@@ -14,6 +18,7 @@
     {
       "keyword": "does chlorine dioxide kill good bacteria",
       "volume": 150,
+      "original_keyword": "Chlorine dioxide",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -22,6 +27,7 @@
     {
       "keyword": "how do you make chlorine dioxide",
       "volume": 150,
+      "original_keyword": "Chlorine dioxide",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -30,12 +36,14 @@
     {
       "keyword": "chlorine dioxide what is it",
       "volume": 100,
+      "original_keyword": "Chlorine dioxide",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is chlorine dioxide used for",
       "volume": 100,
+      "original_keyword": "Chlorine dioxide",
       "parent_topic": "chlorine dioxide",
       "intents": [
         "informational"
@@ -44,6 +52,7 @@
     {
       "keyword": "does chlorine dioxide kill mold",
       "volume": 80,
+      "original_keyword": "Chlorine dioxide",
       "parent_topic": "does chlorine dioxide kill mold",
       "intents": [
         "informational"
@@ -52,6 +61,7 @@
     {
       "keyword": "where to buy chlorine dioxide tablets",
       "volume": 80,
+      "original_keyword": "Chlorine dioxide",
       "parent_topic": "",
       "intents": [
         "commercial",
@@ -59,17 +69,19 @@
       ]
     },
     {
-      "keyword": "what is the formula for chlorine dioxide",
+      "keyword": "how to make chlorine dioxide",
       "volume": 70,
-      "parent_topic": "clo2",
+      "original_keyword": "Chlorine dioxide",
+      "parent_topic": "how to make chlorine dioxide",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "how to make chlorine dioxide",
-      "volume": 60,
-      "parent_topic": "how to make chlorine dioxide",
+      "keyword": "what is the formula for chlorine dioxide",
+      "volume": 70,
+      "original_keyword": "Chlorine dioxide",
+      "parent_topic": "clo2",
       "intents": [
         "informational"
       ]
@@ -77,6 +89,7 @@
     {
       "keyword": "is chlorine dioxide safe",
       "volume": 60,
+      "original_keyword": "Chlorine dioxide",
       "parent_topic": "",
       "intents": [
         "informational"

@@ -1,11 +1,15 @@
 {
-  "keyword": "Lecithin",
+  "keywords": [
+    "Lecithin",
+    "E322I"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:13.293Z",
+  "fetchedAt": "2025-10-09T03:23:48.118Z",
   "questions": [
     {
       "keyword": "what is soy lecithin",
       "volume": 4900,
+      "original_keyword": "Lecithin",
       "parent_topic": "soy lecithin",
       "intents": [
         "informational"
@@ -14,6 +18,7 @@
     {
       "keyword": "what is lecithin",
       "volume": 4800,
+      "original_keyword": "Lecithin",
       "parent_topic": "lecithin",
       "intents": [
         "informational"
@@ -22,6 +27,7 @@
     {
       "keyword": "what is sunflower lecithin",
       "volume": 4400,
+      "original_keyword": "Lecithin",
       "parent_topic": "sunflower lecithin",
       "intents": [
         "informational"
@@ -30,6 +36,7 @@
     {
       "keyword": "is sunflower lecithin bad for you",
       "volume": 4200,
+      "original_keyword": "Lecithin",
       "parent_topic": "is sunflower lecithin bad for you",
       "intents": [
         "informational"
@@ -38,6 +45,7 @@
     {
       "keyword": "is soy lecithin bad for you",
       "volume": 2700,
+      "original_keyword": "Lecithin",
       "parent_topic": "soy lecithin",
       "intents": [
         "informational"
@@ -46,6 +54,7 @@
     {
       "keyword": "why is lecithin bad for you",
       "volume": 2700,
+      "original_keyword": "Lecithin",
       "parent_topic": "lecithin",
       "intents": [
         "informational"
@@ -54,6 +63,7 @@
     {
       "keyword": "is soy lecithin gluten free",
       "volume": 1600,
+      "original_keyword": "Lecithin",
       "parent_topic": "soy lecithin gluten free",
       "intents": [
         "informational"
@@ -62,6 +72,7 @@
     {
       "keyword": "is sunflower lecithin a seed oil",
       "volume": 1500,
+      "original_keyword": "Lecithin",
       "parent_topic": "is sunflower lecithin a seed oil",
       "intents": [
         "informational"
@@ -70,6 +81,7 @@
     {
       "keyword": "is lecithin bad for you",
       "volume": 800,
+      "original_keyword": "Lecithin",
       "parent_topic": "lecithin",
       "intents": [
         "informational"
@@ -78,6 +90,7 @@
     {
       "keyword": "does sunflower lecithin increase milk supply",
       "volume": 700,
+      "original_keyword": "Lecithin",
       "parent_topic": "does sunflower lecithin increase milk supply",
       "intents": [
         "informational"
