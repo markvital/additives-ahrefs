@@ -22,9 +22,11 @@ const DATA_DIR = path.join(__dirname, '..', 'data');
 const ADDITIVES_INDEX_PATH = path.join(DATA_DIR, 'additives.json');
 const API_URL = 'https://api.ahrefs.com/v3/keywords-explorer/overview';
 const COUNTRY = 'us';
-const MAX_CONCURRENCY = 3;
+const DEFAULT_PARALLEL = 10;
+const DEFAULT_LIMIT = Infinity;
 const MAX_RETRIES = 3;
 const REQUEST_DELAY_MS = 200;
+const REQUEST_SPACING_MS = 500;
 const SEARCH_VOLUME_FILENAME = 'searchVolume.json';
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
@@ -36,11 +38,55 @@ const debugLog = (...args) => {
   }
 };
 
+const parsePositiveInteger = (value, label) => {
+  const parsed = Number.parseInt(String(value), 10);
+  if (!Number.isFinite(parsed) || parsed <= 0) {
+    throw new Error(`Invalid value for ${label}: ${value}`);
+  }
+  return parsed;
+};
+
+let requestChain = Promise.resolve();
+let lastRequestTimestamp = 0;
+
+const runWithRequestSpacing = (task) => {
+  const invoke = async () => {
+    const now = Date.now();
+    const wait = Math.max(0, lastRequestTimestamp + REQUEST_SPACING_MS - now);
+    if (wait > 0) {
+      debugLog(`    ↳ Waiting ${wait}ms before issuing request to respect pacing.`);
+      await sleep(wait);
+    }
+
+    try {
+      return await task();
+    } finally {
+      lastRequestTimestamp = Date.now();
+    }
+  };
+
+  const result = requestChain.then(invoke, invoke);
+  requestChain = result.catch(() => {});
+  return result;
+};
+
+const fileExists = async (filePath) => {
+  try {
+    await fs.access(filePath);
+    return true;
+  } catch (error) {
+    return false;
+  }
+};
+
 const parseArgs = (argv) => {
   const result = {
     additiveSlugs: [],
     help: false,
     debug: false,
+    limit: null,
+    parallel: null,
+    override: false,
   };
 
   const args = Array.isArray(argv) ? argv.slice(2) : [];
@@ -57,6 +103,44 @@ const parseArgs = (argv) => {
 
     if (arg === '--debug' || arg === '-d') {
       result.debug = true;
+      index += 1;
+      continue;
+    }
+
+    if (arg === '--limit' || arg === '-n' || arg === '-limit') {
+      if (index + 1 >= args.length) {
+        throw new Error('Missing value for --limit.');
+      }
+      result.limit = parsePositiveInteger(args[index + 1], '--limit');
+      index += 2;
+      continue;
+    }
+
+    if (arg.startsWith('--limit=')) {
+      const value = arg.substring(arg.indexOf('=') + 1);
+      result.limit = parsePositiveInteger(value, '--limit');
+      index += 1;
+      continue;
+    }
+
+    if (arg === '--parallel' || arg === '--batch' || arg === '-p') {
+      if (index + 1 >= args.length) {
+        throw new Error('Missing value for --parallel.');
+      }
+      result.parallel = parsePositiveInteger(args[index + 1], '--parallel');
+      index += 2;
+      continue;
+    }
+
+    if (arg.startsWith('--parallel=') || arg.startsWith('--batch=')) {
+      const value = arg.substring(arg.indexOf('=') + 1);
+      result.parallel = parsePositiveInteger(value, '--parallel');
+      index += 1;
+      continue;
+    }
+
+    if (arg === '--override' || arg === '--overide' || arg === '--force') {
+      result.override = true;
       index += 1;
       continue;
     }
@@ -115,13 +199,16 @@ const parseArgs = (argv) => {
 
 const printUsage = () => {
   console.log(
-    'Usage: node scripts/update-search-volume.js [options]\n' +
-      '\n' +
-      'Options:\n' +
-      '  --additive <slug...>     Only update the specified additive slugs.\n' +
-      '  --additive=<slug,slug>   Same as above using a comma separated list.\n' +
-      '  --debug                  Enable verbose logging.\n' +
-      '  --help                   Show this message.\n',
+    `Usage: node scripts/update-search-volume.js [options]\n` +
+      `\n` +
+      `Options:\n` +
+      `  --additive <slug...>     Only update the specified additive slugs.\n` +
+      `  --additive=<slug,slug>   Same as above using a comma separated list.\n` +
+      `  --limit <n>              Process at most <n> additives (default: unlimited).\n` +
+      `  --parallel <n>           Run up to <n> additives in parallel (default: ${DEFAULT_PARALLEL}).\n` +
+      `  --override               Re-fetch data even if it already exists.\n` +
+      `  --debug                  Enable verbose logging.\n` +
+      `  --help                   Show this message.\n`,
   );
 };
 
@@ -191,7 +278,31 @@ const writeProps = async (slug, props) => {
   await fs.writeFile(propsPathForSlug(slug), `${JSON.stringify(props, null, 2)}\n`);
 };
 
-const fetchVolumesForKeywords = async (apiKey, keywords) => {
+const hasExistingSearchVolume = async (slug, props) => {
+  if (await fileExists(searchVolumePathForSlug(slug))) {
+    return true;
+  }
+
+  if (props && typeof props === 'object') {
+    if (typeof props.searchVolume === 'number' && Number.isFinite(props.searchVolume)) {
+      return true;
+    }
+  }
+
+  try {
+    const raw = await fs.readFile(propsPathForSlug(slug), 'utf8');
+    const data = JSON.parse(raw);
+    if (typeof data.searchVolume === 'number' && Number.isFinite(data.searchVolume)) {
+      return true;
+    }
+  } catch (error) {
+    // ignore
+  }
+
+  return false;
+};
+
+const fetchVolumesForKeywords = async (apiKey, keywords, attempt = 1) => {
   if (!keywords.length) {
     return new Map();
   }
@@ -204,33 +315,37 @@ const fetchVolumesForKeywords = async (apiKey, keywords) => {
   const url = `${API_URL}?${params.toString()}`;
 
   try {
-    debugLog('  ↳ Requesting volumes with URL:', url);
-    const { stdout } = await execFileAsync('curl', [
-      '-fsS',
-      '-H',
-      `Authorization: Bearer ${apiKey}`,
-      url,
-    ]);
+    return await runWithRequestSpacing(async () => {
+      debugLog(`  ↳ Attempt ${attempt}: GET ${url}`);
+      const { stdout } = await execFileAsync('curl', [
+        '-fsS',
+        '-H',
+        `Authorization: Bearer ${apiKey}`,
+        url,
+      ]);
 
-    const data = JSON.parse(stdout);
-    const entries = Array.isArray(data.keywords) ? data.keywords : [];
-    const result = new Map();
+      debugLog(`    ↳ Attempt ${attempt} succeeded (${stdout.length} bytes).`);
 
-    entries.forEach((entry) => {
-      if (entry && typeof entry.keyword === 'string') {
-        const normalised = entry.keyword.trim().toLowerCase();
-        if (!normalised) {
-          return;
+      const data = JSON.parse(stdout);
+      const entries = Array.isArray(data.keywords) ? data.keywords : [];
+      const result = new Map();
+
+      entries.forEach((entry) => {
+        if (entry && typeof entry.keyword === 'string') {
+          const normalised = entry.keyword.trim().toLowerCase();
+          if (!normalised) {
+            return;
+          }
+          const volume =
+            typeof entry.volume === 'number' && Number.isFinite(entry.volume)
+              ? Math.max(0, Math.round(entry.volume))
+              : 0;
+          result.set(normalised, volume);
         }
-        const volume =
-          typeof entry.volume === 'number' && Number.isFinite(entry.volume)
-            ? Math.max(0, Math.round(entry.volume))
-            : 0;
-        result.set(normalised, volume);
-      }
-    });
+      });
 
-    return result;
+      return result;
+    });
   } catch (error) {
     const stderr = error.stderr ? error.stderr.toString() : '';
     const message = stderr || error.message || 'Unknown error';
@@ -240,8 +355,9 @@ const fetchVolumesForKeywords = async (apiKey, keywords) => {
 
 const fetchVolumesForKeywordsWithRetry = async (apiKey, keywords, attempt = 1) => {
   try {
-    return await fetchVolumesForKeywords(apiKey, keywords);
+    return await fetchVolumesForKeywords(apiKey, keywords, attempt);
   } catch (error) {
+    debugLog(`    ↳ Attempt ${attempt} failed: ${error.message}`);
     if (attempt >= MAX_RETRIES) {
       throw error;
     }
@@ -277,7 +393,7 @@ const writeSearchVolumeDataset = async (slug, dataset) => {
 };
 
 async function main() {
-  const { additiveSlugs, help, debug } = parseArgs(process.argv);
+  const { additiveSlugs, help, debug, limit, parallel, override } = parseArgs(process.argv);
 
   if (help) {
     printUsage();
@@ -292,54 +408,131 @@ async function main() {
     throw new Error('Missing Ahrefs API key. Set AHREFS_API_KEY in the environment or env.local.');
   }
   const additives = await readAdditivesIndex();
+  const additiveEntries = additives.map((item) => ({
+    additive: item,
+    slug: createAdditiveSlug({ eNumber: item.eNumber, title: item.title }),
+  }));
+  const additiveMap = new Map(additiveEntries.map((entry) => [entry.slug, entry]));
 
-  let targets = additives;
-  if (additiveSlugs.length > 0) {
-    const slugSet = new Set(additiveSlugs);
-    targets = additives.filter((item) => {
-      const slug = createAdditiveSlug({ eNumber: item.eNumber, title: item.title });
-      return slugSet.has(slug);
-    });
+  const targeted = additiveSlugs.length > 0;
+  if (targeted && limit !== null) {
+    console.warn('Ignoring --limit because specific additives were provided via --additive.');
+  }
 
-    const missing = additiveSlugs.filter((slug) => {
-      const match = targets.some((item) => {
-        const derived = createAdditiveSlug({ eNumber: item.eNumber, title: item.title });
-        return derived === slug;
-      });
-      return !match;
-    });
+  const effectiveOverride = targeted ? true : override;
+
+  const candidates = [];
+  const missing = [];
+  let skipped = 0;
+
+  if (targeted) {
+    for (const slug of additiveSlugs) {
+      const entry = additiveMap.get(slug);
+      if (!entry) {
+        missing.push(slug);
+        continue;
+      }
+
+      const props = await readProps(entry.slug, entry.additive);
+      const hasExisting = await hasExistingSearchVolume(entry.slug, props);
+
+      if (hasExisting && effectiveOverride) {
+        console.log(`Refreshing existing search volume for ${entry.slug}.`);
+      }
+
+      if (hasExisting && !effectiveOverride) {
+        if (DEBUG) {
+          console.log(`Skipping existing search volume for ${entry.slug}.`);
+        }
+        skipped += 1;
+        continue;
+      }
+
+      candidates.push({ slug: entry.slug, additive: entry.additive, props });
+    }
 
     if (missing.length > 0) {
       console.warn(`⚠️  Unknown additive slugs: ${missing.join(', ')}`);
     }
 
-    if (targets.length === 0) {
-      console.warn('No additives to process.');
+    if (candidates.length === 0) {
+      if (!DEBUG && skipped > 0) {
+        console.log(`skipped: ${skipped}`);
+      }
+      console.log('No additives to process.');
+      return;
+    }
+  } else {
+    const resolvedLimit = limit ?? DEFAULT_LIMIT;
+
+    for (const entry of additiveEntries) {
+      const props = await readProps(entry.slug, entry.additive);
+      const hasExisting = await hasExistingSearchVolume(entry.slug, props);
+      if (hasExisting && !effectiveOverride) {
+        if (DEBUG) {
+          console.log(`Skipping existing search volume: ${entry.slug}`);
+        }
+        skipped += 1;
+        continue;
+      }
+
+      if (hasExisting && effectiveOverride) {
+        console.log(`Refreshing existing search volume for ${entry.slug}.`);
+      }
+
+      candidates.push({ slug: entry.slug, additive: entry.additive, props });
+      if (Number.isFinite(resolvedLimit) && candidates.length >= resolvedLimit) {
+        break;
+      }
+    }
+
+    if (candidates.length === 0) {
+      if (!DEBUG && skipped > 0) {
+        console.log(`skipped: ${skipped}`);
+      }
+      console.log('No additives require search volume updates.');
       return;
     }
   }
 
-  const total = targets.length;
+  if (!DEBUG && skipped > 0) {
+    console.log(`skipped: ${skipped}`);
+  }
+
+  const total = candidates.length;
   console.log(`Total additives to update: ${total}`);
 
+  const parallelLimit = Math.max(1, Math.min(candidates.length, parallel ?? DEFAULT_PARALLEL));
   const results = new Array(total);
   let nextIndex = 0;
 
   const worker = async () => {
-    while (nextIndex < total) {
+    while (true) {
       const currentIndex = nextIndex;
+      if (currentIndex >= total) {
+        return;
+      }
       nextIndex += 1;
 
-      const additive = targets[currentIndex];
-      const slug = createAdditiveSlug({ eNumber: additive.eNumber, title: additive.title });
-      const props = await readProps(slug, additive);
+      const entry = candidates[currentIndex];
+      const { slug, additive, props } = entry;
       const keywords = toKeywordList(props);
+      const position = currentIndex + 1;
+      const remaining = targeted ? null : total - position;
+      const suffix = targeted ? '' : ` (${remaining} remaining)`;
+      const keywordSummary = keywords.length > 0 ? keywords.join(', ') : 'none';
 
       console.log(
-        `[${currentIndex + 1}/${total}] ${slug} → ${keywords.length} keyword${
+        `[${position}/${total}] ${slug} → ${keywords.length} keyword${
           keywords.length === 1 ? '' : 's'
-        }`,
+        }: ${keywordSummary}${suffix}`,
       );
+
+      if (DEBUG && keywords.length > 0) {
+        keywords.forEach((keyword, keywordIndex) => {
+          console.log(`    • [${keywordIndex + 1}] ${keyword}`);
+        });
+      }
 
       let keywordVolumes = null;
       let totalVolume = null;
@@ -382,7 +575,7 @@ async function main() {
     }
   };
 
-  await Promise.all(Array.from({ length: Math.min(MAX_CONCURRENCY, total) }, () => worker()));
+  await Promise.all(Array.from({ length: parallelLimit }, () => worker()));
 
   const successfulEntries = results.filter(
     (entry) => !entry.error && typeof entry.totalVolume === 'number',
@@ -407,6 +600,11 @@ async function main() {
 
       await writeSearchVolumeDataset(entry.slug, dataset);
 
+      if (DEBUG) {
+        const relativeDatasetPath = path.relative(process.cwd(), searchVolumePathForSlug(entry.slug));
+        console.log(`  → Saved search volume dataset in ${relativeDatasetPath}.`);
+      }
+
       const hasVolume = Array.isArray(entry.keywordVolumes)
         ? entry.keywordVolumes.some((item) => item.volume > 0)
         : false;
@@ -420,6 +618,11 @@ async function main() {
       }
 
       await writeProps(entry.slug, entry.props);
+
+      if (DEBUG) {
+        const relativePropsPath = path.relative(process.cwd(), propsPathForSlug(entry.slug));
+        console.log(`  → Updated props in ${relativePropsPath}.`);
+      }
     }),
   );
 

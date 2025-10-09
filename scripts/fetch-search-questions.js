@@ -16,12 +16,12 @@ const DATA_DIR = path.join(__dirname, '..', 'data');
 const ADDITIVES_INDEX_PATH = path.join(DATA_DIR, 'additives.json');
 const QUESTIONS_FILENAME = 'search-questions.json';
 const DEFAULT_COUNTRY = 'us';
-const FETCH_LIMIT = 50;
+const FETCH_LIMIT = 1000;
 const MAX_QUESTIONS = 10;
 const REQUEST_DELAY_MS = 200;
-const MAX_ATTEMPTS = 5;
+const MAX_ATTEMPTS = 3;
 const DEFAULT_LIMIT = Infinity;
-const DEFAULT_BATCH_SIZE = 5;
+const DEFAULT_PARALLEL = 10;
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
@@ -58,10 +58,10 @@ const parseArgs = (argv) => {
   const args = Array.isArray(argv) ? argv.slice(2) : [];
   const result = {
     additiveSlugs: [],
-    force: false,
+    override: false,
     help: false,
     limit: null,
-    batchSize: null,
+    parallel: null,
     debug: false,
   };
 
@@ -82,8 +82,8 @@ const parseArgs = (argv) => {
       continue;
     }
 
-    if (arg === '--force' || arg === '-f') {
-      result.force = true;
+    if (arg === '--override' || arg === '--overide' || arg === '--force' || arg === '-f') {
+      result.override = true;
       index += 1;
       continue;
     }
@@ -108,14 +108,14 @@ const parseArgs = (argv) => {
       if (index + 1 >= args.length) {
         throw new Error('Missing value for --parallel.');
       }
-      result.batchSize = parsePositiveInteger(args[index + 1], '--parallel');
+      result.parallel = parsePositiveInteger(args[index + 1], '--parallel');
       index += 2;
       continue;
     }
 
     if (arg.startsWith('--parallel=') || arg.startsWith('--batch=')) {
       const value = arg.substring(arg.indexOf('=') + 1);
-      result.batchSize = parsePositiveInteger(value, '--parallel');
+      result.parallel = parsePositiveInteger(value, '--parallel');
       index += 1;
       continue;
     }
@@ -173,10 +173,10 @@ const printUsage = () => {
       `Options:\n` +
       `  --additive <slug...>          Fetch questions for the specified additive slugs (bypasses skip logic).\n` +
       `  --additive=<slug,slug>        Same as above using a comma separated list.\n` +
-      `  --force                       Re-fetch questions even if the file already exists.\n` +
-      `  --limit, -n, --limit=<value>  Process at most <value> additives (ignored with --additive).\n` +
-      `  --parallel, --batch, -p <value>  Run up to <value> requests in parallel.\n` +
-      `  --debug                        Enable verbose logging.\n` +
+      `  --override                    Re-fetch questions even if they already exist.\n` +
+      `  --limit <n>                   Process at most <n> additives (ignored with --additive).\n` +
+      `  --parallel <n>                Run up to <n> additives in parallel (default: ${DEFAULT_PARALLEL}).\n` +
+      `  --debug                       Enable verbose logging.\n` +
       `  --help                        Show this message.\n` +
       `\n` +
       `Examples:\n` +
@@ -185,7 +185,7 @@ const printUsage = () => {
       `  node scripts/fetch-search-questions.js --parallel 3\n` +
       `  node scripts/fetch-search-questions.js --additive e345-magnesium-citrate\n` +
       `  node scripts/fetch-search-questions.js --additive=e345-magnesium-citrate,e1503-castor-oil\n` +
-      `  node scripts/fetch-search-questions.js --force\n`,
+      `  node scripts/fetch-search-questions.js --override\n`,
   );
 };
 
@@ -263,6 +263,9 @@ const sanitiseQuestion = (entry) => {
     return null;
   }
 
+  const rawOriginalKeyword =
+    typeof entry.original_keyword === 'string' ? entry.original_keyword.trim() : '';
+
   const volume = typeof entry.volume === 'number' && Number.isFinite(entry.volume)
     ? Math.max(0, Math.round(entry.volume))
     : null;
@@ -276,12 +279,23 @@ const sanitiseQuestion = (entry) => {
   return {
     keyword,
     volume,
+    original_keyword: rawOriginalKeyword || keyword,
     parent_topic: parentTopic,
     intents,
   };
 };
 
 const fetchQuestions = async (keyword, apiToken) => {
+  const requestUrl = new URL(API_BASE_URL);
+  requestUrl.searchParams.set('country', DEFAULT_COUNTRY);
+  requestUrl.searchParams.set('keywords', keyword);
+  requestUrl.searchParams.set('limit', FETCH_LIMIT);
+  requestUrl.searchParams.set('match_mode', 'terms');
+  requestUrl.searchParams.set('order_by', 'volume:desc');
+  requestUrl.searchParams.set('search_engine', 'google');
+  requestUrl.searchParams.set('select', 'keyword,volume,parent_topic,intents');
+  requestUrl.searchParams.set('terms', 'questions');
+
   const args = [
     '-fsS',
     '-H',
@@ -308,7 +322,7 @@ const fetchQuestions = async (keyword, apiToken) => {
 
   for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt += 1) {
     try {
-      debugLog('  ↳ Fetching questions for keyword:', keyword);
+      debugLog(`  ↳ Attempt ${attempt}: GET ${requestUrl.toString()}`);
       const { stdout } = await execFileAsync('curl', args);
       const payload = JSON.parse(stdout);
       const questions = Array.isArray(payload?.keywords) ? payload.keywords : [];
@@ -325,6 +339,10 @@ const fetchQuestions = async (keyword, apiToken) => {
 
       if (DEBUG && stderr) {
         debugLog('    stderr:', stderr.trim());
+      }
+
+      if (DEBUG) {
+        debugLog(`    ↳ GET ${requestUrl.toString()} failed (${error.message.trim()})`);
       }
 
       if (attempt === MAX_ATTEMPTS) {
@@ -389,16 +407,10 @@ const ensureDataset = (keywords, questions) => {
 
 const questionsPathForSlug = (slug) => path.join(DATA_DIR, slug, QUESTIONS_FILENAME);
 
-const shouldSkip = async (slug, options) => {
-  if (options.force || options.targeted) {
-    return false;
-  }
-
-  return fileExists(questionsPathForSlug(slug));
-};
+const hasExistingQuestions = (slug) => fileExists(questionsPathForSlug(slug));
 
 const main = async () => {
-  const { additiveSlugs, force, help, limit, batchSize, debug } = parseArgs(process.argv);
+  const { additiveSlugs, override, help, limit, parallel, debug } = parseArgs(process.argv);
 
   if (help) {
     printUsage();
@@ -413,61 +425,118 @@ const main = async () => {
     throw new Error('Missing Ahrefs API key. Set AHREFS_API_KEY in the environment or env.local.');
   }
   const additives = await readAdditivesIndex();
+  const additiveMap = new Map(additives.map((entry) => [entry.slug, entry]));
 
-  let targets = additives;
-  let targeted = false;
+  const targeted = additiveSlugs.length > 0;
+  if (targeted && limit !== null) {
+    console.warn('Ignoring --limit because specific additives were provided via --additive.');
+  }
 
-  if (additiveSlugs.length > 0) {
-    const slugSet = new Set(additiveSlugs);
-    targets = additives.filter((entry) => slugSet.has(entry.slug));
-    targeted = true;
+  const effectiveOverride = targeted ? true : override;
 
-    const missing = additiveSlugs.filter((slug) => !targets.some((entry) => entry.slug === slug));
+  const candidates = [];
+  const missing = [];
+  let skipped = 0;
+
+  if (targeted) {
+    for (const slug of additiveSlugs) {
+      const additive = additiveMap.get(slug);
+      if (!additive) {
+        missing.push(slug);
+        continue;
+      }
+
+      const existing = await hasExistingQuestions(additive.slug);
+      if (existing && effectiveOverride) {
+        console.log(`Refreshing existing search questions for ${additive.slug}.`);
+      }
+
+      if (existing && !effectiveOverride) {
+        if (DEBUG) {
+          console.log(`Skipping existing search questions for ${additive.slug}.`);
+        }
+        skipped += 1;
+        continue;
+      }
+
+      candidates.push(additive);
+    }
+
     if (missing.length > 0) {
       console.warn(`⚠️  Unknown additive slugs: ${missing.join(', ')}`);
     }
 
-    if (targets.length === 0) {
-      console.warn('No valid additives to process.');
+    if (candidates.length === 0) {
+      if (!DEBUG && skipped > 0) {
+        console.log(`skipped: ${skipped}`);
+      }
+      console.log('No valid additives to process.');
+      return;
+    }
+  } else {
+    const resolvedLimit = limit ?? DEFAULT_LIMIT;
+
+    for (const additive of additives) {
+      const existing = await hasExistingQuestions(additive.slug);
+      if (existing && !effectiveOverride) {
+        if (DEBUG) {
+          console.log(`Skipping existing search questions: ${additive.slug}`);
+        }
+        skipped += 1;
+        continue;
+      }
+
+      if (existing && effectiveOverride) {
+        console.log(`Refreshing existing search questions for ${additive.slug}.`);
+      }
+
+      candidates.push(additive);
+      if (Number.isFinite(resolvedLimit) && candidates.length >= resolvedLimit) {
+        break;
+      }
+    }
+
+    if (candidates.length === 0) {
+      if (!DEBUG && skipped > 0) {
+        console.log(`skipped: ${skipped}`);
+      }
+      console.log('No additives require question updates.');
       return;
     }
   }
 
-  const resolvedLimit = targeted ? targets.length : limit ?? DEFAULT_LIMIT;
-  if (!targeted && Number.isFinite(resolvedLimit)) {
-    const sliceEnd = Math.min(resolvedLimit, targets.length);
-    targets = targets.slice(0, sliceEnd);
+  if (!DEBUG && skipped > 0) {
+    console.log(`skipped: ${skipped}`);
   }
 
-  if (targets.length === 0) {
-    console.log('No additives to process.');
-    return;
-  }
+  const total = candidates.length;
+  console.log(`Total additives to process: ${total}`);
 
-  const total = targets.length;
-  const resolvedBatchSize = Math.max(1, Math.min(batchSize ?? DEFAULT_BATCH_SIZE, total));
-
-  let cursor = 0;
+  const parallelLimit = Math.max(1, Math.min(candidates.length, parallel ?? DEFAULT_PARALLEL));
+  let nextIndex = 0;
 
   const worker = async () => {
-    while (cursor < total) {
-      const currentIndex = cursor;
-      cursor += 1;
-      const additive = targets[currentIndex];
-      const position = currentIndex + 1;
-      const slug = additive.slug;
+    while (true) {
+      const currentIndex = nextIndex;
+      if (currentIndex >= total) {
+        return;
+      }
+      nextIndex += 1;
 
-      console.log(`[${position}/${total}] ${slug}`);
+      const additive = candidates[currentIndex];
+      const position = currentIndex + 1;
+      const remaining = targeted ? null : total - position;
+      const suffix = targeted ? '' : ` (${remaining} remaining)`;
 
       try {
-        const skip = await shouldSkip(slug, { force, targeted });
+        const queryKeywords = await resolveQueryKeywords(additive.slug, additive);
+        const keywordSummary = queryKeywords.length > 0 ? queryKeywords.join(', ') : 'none';
 
-        if (skip) {
-          console.log('  → Skipping (questions already exist).');
-          continue;
-        }
-
-        const queryKeywords = await resolveQueryKeywords(slug, additive);
+        console.log(
+          `[${position}/${total}] ${additive.slug} → ${queryKeywords.length} keyword${
+            queryKeywords.length === 1 ? '' : 's'
+          }: ${keywordSummary}${suffix}`,
+        );
 
         if (!queryKeywords.length) {
           console.warn('  → Skipping (unable to determine keywords).');
@@ -485,12 +554,26 @@ const main = async () => {
         for (const keyword of queryKeywords) {
           const rawQuestions = await fetchQuestions(keyword, apiToken);
           await sleep(REQUEST_DELAY_MS);
-          aggregated.push(...rawQuestions);
+          const annotatedQuestions = Array.isArray(rawQuestions)
+          ? rawQuestions.map((entry) => ({
+              ...entry,
+              original_keyword: keyword,
+            }))
+          : [];
+        aggregated.push(...annotatedQuestions);
         }
 
         const dataset = ensureDataset(queryKeywords, aggregated);
-        await writeQuestions(slug, dataset);
-        console.log(`  → Saved ${dataset.questions.length} questions.`);
+        const questionsAbsolutePath = questionsPathForSlug(additive.slug);
+        const questionsRelativePath = path.relative(process.cwd(), questionsAbsolutePath);
+
+        await writeQuestions(additive.slug, dataset);
+
+        const savedMessage = DEBUG
+          ? `  → Saved ${dataset.questions.length} questions in ${questionsRelativePath}.`
+          : `  → Saved ${dataset.questions.length} questions.`;
+
+        console.log(savedMessage);
       } catch (error) {
         console.error(`  → Failed: ${error.message}`);
         if (DEBUG && error?.stderr) {
@@ -500,9 +583,7 @@ const main = async () => {
     }
   };
 
-  const workerCount = Math.min(resolvedBatchSize, total);
-  const workers = Array.from({ length: workerCount }, () => worker());
-  await Promise.all(workers);
+  await Promise.all(Array.from({ length: parallelLimit }, () => worker()));
 };
 
 main().catch((error) => {

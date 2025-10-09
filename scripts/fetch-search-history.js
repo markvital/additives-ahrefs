@@ -16,8 +16,10 @@ const DATA_DIR = path.join(__dirname, '..', 'data');
 const ADDITIVES_PATH = path.join(DATA_DIR, 'additives.json');
 
 const REQUEST_DELAY_MS = 200;
-const MAX_ATTEMPTS = 5;
+const MAX_ATTEMPTS = 3;
 const COUNTRY = 'us';
+const DEFAULT_PARALLEL = 10;
+const DEFAULT_LIMIT = Infinity;
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
@@ -28,11 +30,31 @@ const debugLog = (...args) => {
   }
 };
 
+const parsePositiveInteger = (value, label) => {
+  const parsed = Number.parseInt(String(value), 10);
+  if (!Number.isFinite(parsed) || parsed <= 0) {
+    throw new Error(`Invalid value for ${label}: ${value}`);
+  }
+  return parsed;
+};
+
+const fileExists = async (filePath) => {
+  try {
+    await fs.access(filePath);
+    return true;
+  } catch (error) {
+    return false;
+  }
+};
+
 const parseArgs = (argv) => {
   const result = {
     additiveSlugs: [],
     help: false,
     debug: false,
+    limit: null,
+    parallel: null,
+    override: false,
   };
 
   const args = Array.isArray(argv) ? argv.slice(2) : [];
@@ -49,6 +71,44 @@ const parseArgs = (argv) => {
 
     if (arg === '--debug' || arg === '-d') {
       result.debug = true;
+      index += 1;
+      continue;
+    }
+
+    if (arg === '--limit' || arg === '-n' || arg === '-limit') {
+      if (index + 1 >= args.length) {
+        throw new Error('Missing value for --limit.');
+      }
+      result.limit = parsePositiveInteger(args[index + 1], '--limit');
+      index += 2;
+      continue;
+    }
+
+    if (arg.startsWith('--limit=')) {
+      const value = arg.substring(arg.indexOf('=') + 1);
+      result.limit = parsePositiveInteger(value, '--limit');
+      index += 1;
+      continue;
+    }
+
+    if (arg === '--parallel' || arg === '--batch' || arg === '-p') {
+      if (index + 1 >= args.length) {
+        throw new Error('Missing value for --parallel.');
+      }
+      result.parallel = parsePositiveInteger(args[index + 1], '--parallel');
+      index += 2;
+      continue;
+    }
+
+    if (arg.startsWith('--parallel=') || arg.startsWith('--batch=')) {
+      const value = arg.substring(arg.indexOf('=') + 1);
+      result.parallel = parsePositiveInteger(value, '--parallel');
+      index += 1;
+      continue;
+    }
+
+    if (arg === '--override' || arg === '--overide' || arg === '--force') {
+      result.override = true;
       index += 1;
       continue;
     }
@@ -107,13 +167,16 @@ const parseArgs = (argv) => {
 
 const printUsage = () => {
   console.log(
-    'Usage: node scripts/fetch-search-history.js [options]\n' +
-      '\n' +
-      'Options:\n' +
-      '  --additive <slug...>     Only fetch history for the specified additive slugs.\n' +
-      '  --additive=<slug,slug>   Same as above using a comma separated list.\n' +
-      '  --debug                  Enable verbose logging.\n' +
-      '  --help                   Show this message.\n',
+    `Usage: node scripts/fetch-search-history.js [options]\n` +
+      `\n` +
+      `Options:\n` +
+      `  --additive <slug...>     Only fetch history for the specified additive slugs.\n` +
+      `  --additive=<slug,slug>   Same as above using a comma separated list.\n` +
+      `  --limit <n>              Process at most <n> additives (default: unlimited).\n` +
+      `  --parallel <n>           Run up to <n> additives in parallel (default: ${DEFAULT_PARALLEL}).\n` +
+      `  --override               Re-fetch data even if it already exists.\n` +
+      `  --debug                  Enable verbose logging.\n` +
+      `  --help                   Show this message.\n`,
   );
 };
 
@@ -184,7 +247,33 @@ async function writeProps(slug, props) {
   await fs.writeFile(propsPathForSlug(slug), `${JSON.stringify(props, null, 2)}\n`);
 }
 
+async function hasExistingHistory(slug, props) {
+  if (await fileExists(historyPathForSlug(slug))) {
+    return true;
+  }
+
+  if (props && Array.isArray(props.searchSparkline) && props.searchSparkline.length > 0) {
+    return true;
+  }
+
+  try {
+    const raw = await fs.readFile(propsPathForSlug(slug), 'utf8');
+    const data = JSON.parse(raw);
+    if (Array.isArray(data.searchSparkline) && data.searchSparkline.length > 0) {
+      return true;
+    }
+  } catch (error) {
+    // ignore
+  }
+
+  return false;
+}
+
 async function fetchHistory(keyword, apiToken) {
+  const requestUrl = new URL(API_BASE_URL);
+  requestUrl.searchParams.set('keyword', keyword);
+  requestUrl.searchParams.set('country', COUNTRY);
+
   const baseArgs = [
     '-fsS',
     '-H',
@@ -199,7 +288,7 @@ async function fetchHistory(keyword, apiToken) {
 
   for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt += 1) {
     try {
-      debugLog('  ↳ Fetching history for keyword:', keyword);
+      debugLog(`  ↳ Attempt ${attempt}: GET ${requestUrl.toString()}`);
       const { stdout } = await execFileAsync('curl', baseArgs);
       return JSON.parse(stdout);
     } catch (error) {
@@ -214,6 +303,10 @@ async function fetchHistory(keyword, apiToken) {
 
       if (DEBUG && stderr) {
         debugLog('    stderr:', stderr.trim());
+      }
+
+      if (DEBUG) {
+        debugLog(`    ↳ GET ${requestUrl.toString()} failed (${error.message.trim()})`);
       }
 
       if (attempt === MAX_ATTEMPTS) {
@@ -314,7 +407,7 @@ const aggregateKeywordMetrics = (series) => {
 };
 
 async function main() {
-  const { additiveSlugs, help, debug } = parseArgs(process.argv);
+  const { additiveSlugs, help, debug, limit, parallel, override } = parseArgs(process.argv);
 
   if (help) {
     printUsage();
@@ -330,73 +423,153 @@ async function main() {
   }
 
   const additives = await readAdditivesIndex();
+  const additiveEntries = additives.map((entry) => ({
+    additive: entry,
+    slug: createAdditiveSlug({ eNumber: entry.eNumber, title: entry.title }),
+  }));
+  const additiveMap = new Map(additiveEntries.map((entry) => [entry.slug, entry]));
 
-  let targets = additives;
-  if (additiveSlugs.length > 0) {
-    const slugSet = new Set(additiveSlugs);
-    targets = additives.filter((entry) => {
-      const slug = createAdditiveSlug({ eNumber: entry.eNumber, title: entry.title });
-      return slugSet.has(slug);
-    });
+  const targeted = additiveSlugs.length > 0;
+  if (targeted && limit !== null) {
+    console.warn('Ignoring --limit because specific additives were provided via --additive.');
+  }
 
-    const missing = additiveSlugs.filter((slug) => {
-      const match = targets.some((entry) => {
-        const derived = createAdditiveSlug({ eNumber: entry.eNumber, title: entry.title });
-        return derived === slug;
-      });
-      return !match;
-    });
+  const effectiveOverride = targeted ? true : override;
+
+  const candidates = [];
+  const missing = [];
+  let skipped = 0;
+
+  if (targeted) {
+    for (const slug of additiveSlugs) {
+      const entry = additiveMap.get(slug);
+      if (!entry) {
+        missing.push(slug);
+        continue;
+      }
+
+      const props = await readProps(entry.slug, entry.additive);
+      const hasExisting = await hasExistingHistory(entry.slug, props);
+
+      if (hasExisting && effectiveOverride) {
+        console.log(`Refreshing existing search history for ${entry.slug}.`);
+      }
+
+      if (hasExisting && !effectiveOverride) {
+        if (DEBUG) {
+          console.log(`Skipping existing search history for ${entry.slug}.`);
+        }
+        skipped += 1;
+        continue;
+      }
+
+      candidates.push({ slug: entry.slug, additive: entry.additive, props });
+    }
 
     if (missing.length > 0) {
       console.warn(`⚠️  Unknown additive slugs: ${missing.join(', ')}`);
     }
 
-    if (targets.length === 0) {
-      console.warn('No additives to process.');
+    if (candidates.length === 0) {
+      if (!DEBUG && skipped > 0) {
+        console.log(`skipped: ${skipped}`);
+      }
+      console.log('No additives to process.');
+      return;
+    }
+  } else {
+    const resolvedLimit = limit ?? DEFAULT_LIMIT;
+
+    for (const entry of additiveEntries) {
+      const props = await readProps(entry.slug, entry.additive);
+      const hasExisting = await hasExistingHistory(entry.slug, props);
+      if (hasExisting && !effectiveOverride) {
+        if (DEBUG) {
+          console.log(`Skipping existing search history: ${entry.slug}`);
+        }
+        skipped += 1;
+        continue;
+      }
+
+      if (hasExisting && effectiveOverride) {
+        console.log(`Refreshing existing search history for ${entry.slug}.`);
+      }
+
+      candidates.push({ slug: entry.slug, additive: entry.additive, props });
+      if (Number.isFinite(resolvedLimit) && candidates.length >= resolvedLimit) {
+        break;
+      }
+    }
+
+    if (candidates.length === 0) {
+      if (!DEBUG && skipped > 0) {
+        console.log(`skipped: ${skipped}`);
+      }
+      console.log('No additives require new search history.');
       return;
     }
   }
 
-  const total = targets.length;
-  let processed = 0;
+  if (!DEBUG && skipped > 0) {
+    console.log(`skipped: ${skipped}`);
+  }
 
+  const total = candidates.length;
+  console.log(`Total additives to process: ${total}`);
+
+  const parallelLimit = Math.max(1, Math.min(candidates.length, parallel ?? DEFAULT_PARALLEL));
   const failures = [];
+  let nextIndex = 0;
 
-  for (const additive of targets) {
-    processed += 1;
-    const slug = createAdditiveSlug({ eNumber: additive.eNumber, title: additive.title });
-    const dirPath = path.join(DATA_DIR, slug);
-    await fs.mkdir(dirPath, { recursive: true });
-    const historyPath = historyPathForSlug(slug);
+  const worker = async () => {
+    while (true) {
+      const currentIndex = nextIndex;
+      if (currentIndex >= total) {
+        return;
+      }
+      nextIndex += 1;
 
-    const props = await readProps(slug, additive);
-
-    try {
+      const entry = candidates[currentIndex];
+      const { slug, additive, props } = entry;
       const keywords = toKeywordList(props);
+      const position = currentIndex + 1;
+      const remaining = targeted ? null : total - position;
+      const suffix = targeted ? '' : ` (${remaining} remaining)`;
+      const keywordSummary = keywords.length > 0 ? keywords.join(', ') : 'none';
 
       console.log(
-        `[${processed}/${total}] ${slug} → ${keywords.length} keyword${
+        `[${position}/${total}] ${slug} → ${keywords.length} keyword${
           keywords.length === 1 ? '' : 's'
-        }`,
+        }: ${keywordSummary}${suffix}`,
       );
 
-      const keywordSeries = [];
+      const dirPath = path.join(DATA_DIR, slug);
+      await fs.mkdir(dirPath, { recursive: true });
+      const historyPath = historyPathForSlug(slug);
 
-      for (const keyword of keywords) {
-        const payload = await fetchHistory(keyword, apiToken);
-        await sleep(REQUEST_DELAY_MS);
-
-        if (!payload || !Array.isArray(payload.metrics) || payload.metrics.length === 0) {
-          keywordSeries.push({ keyword, metrics: [] });
+      try {
+        if (keywords.length === 0) {
+          console.warn('  → Skipping (unable to determine keywords).');
           continue;
         }
 
-        const filteredMetrics = filterLastTenYears(payload.metrics);
-        keywordSeries.push({ keyword, metrics: filteredMetrics });
-      }
+        const keywordSeries = [];
 
-      const aggregateMetrics = aggregateKeywordMetrics(keywordSeries);
-      const sparkline = computeYearlyAverage(aggregateMetrics);
+        for (const keyword of keywords) {
+          const payload = await fetchHistory(keyword, apiToken);
+          await sleep(REQUEST_DELAY_MS);
+
+          if (!payload || !Array.isArray(payload.metrics) || payload.metrics.length === 0) {
+            keywordSeries.push({ keyword, metrics: [] });
+            continue;
+          }
+
+          const filteredMetrics = filterLastTenYears(payload.metrics);
+          keywordSeries.push({ keyword, metrics: filteredMetrics });
+        }
+
+        const aggregateMetrics = aggregateKeywordMetrics(keywordSeries);
+        const sparkline = computeYearlyAverage(aggregateMetrics);
 
       const dataset = {
         country: COUNTRY,
@@ -407,20 +580,33 @@ async function main() {
 
       await fs.writeFile(historyPath, `${JSON.stringify(dataset, null, 2)}\n`);
 
+      if (DEBUG) {
+        const relativeHistoryPath = path.relative(process.cwd(), historyPath);
+        console.log(`  → Saved search history in ${relativeHistoryPath}.`);
+      }
+
       const updatedProps = ensureProps(props, additive);
       updatedProps.searchSparkline = sparkline;
       await writeProps(slug, updatedProps);
+
+      if (DEBUG) {
+        const relativePropsPath = path.relative(process.cwd(), propsPathForSlug(slug));
+        console.log(`  → Updated props in ${relativePropsPath}.`);
+      }
     } catch (error) {
       console.error(`Error processing ${additive.title}: ${error.message}`);
       if (DEBUG && error?.stderr) {
         debugLog('  ↳ stderr:', String(error.stderr).trim());
       }
-      failures.push({ slug, error });
+        failures.push({ slug, error });
+      }
     }
-  }
+  };
 
-  const successful = processed - failures.length;
-  console.log(`Completed fetching history for ${successful} of ${processed} additives.`);
+  await Promise.all(Array.from({ length: parallelLimit }, () => worker()));
+
+  const successful = total - failures.length;
+  console.log(`Completed fetching history for ${successful} of ${total} additives.`);
   if (failures.length > 0) {
     failures.forEach((entry) => {
       console.error(`  • ${entry.slug}: ${entry.error.message}`);
