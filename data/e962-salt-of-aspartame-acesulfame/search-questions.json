@@ -1,6 +1,99 @@
 {
-  "keyword": "Salt of aspartame-acesulfame",
+  "keywords": [
+    "Salt of aspartame-acesulfame",
+    "E962",
+    "Aspartame-acesulfame",
+    "Aspartame-acesulfame salt",
+    "E-962",
+    "E 962"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:47.781Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:29:18.987Z",
+  "questions": [
+    {
+      "keyword": "is acesulfame potassium the same as aspartame",
+      "volume": 40,
+      "original_keyword": "Aspartame-acesulfame",
+      "parent_topic": "acesulfame potassium",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "acesulfame potassium how does it compared to aspartame",
+      "volume": 0,
+      "original_keyword": "Aspartame-acesulfame",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "acesulfame potassium is it aspartame",
+      "volume": 0,
+      "original_keyword": "Aspartame-acesulfame",
+      "parent_topic": "",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "acesulfame potassium vs aspartame which is better than",
+      "volume": 0,
+      "original_keyword": "Aspartame-acesulfame",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "aspartame and acesulfame what is it",
+      "volume": 0,
+      "original_keyword": "Aspartame-acesulfame",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "does acesulfame potassium contain aspartame",
+      "volume": 0,
+      "original_keyword": "Aspartame-acesulfame",
+      "parent_topic": "",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "how far is 962 e chicken road from 1701 meadowdale dr. dublin ga",
+      "volume": 0,
+      "original_keyword": "E-962",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much acesulfame potassium is in a can of aspartame free diet pepsi",
+      "volume": 0,
+      "original_keyword": "Aspartame-acesulfame",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "is acesulfame aspartame",
+      "volume": 0,
+      "original_keyword": "Aspartame-acesulfame",
+      "parent_topic": "",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "is acesulfame the same as aspartame",
+      "volume": 0,
+      "original_keyword": "Aspartame-acesulfame",
+      "parent_topic": "acesulfame potassium",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    }
+  ]
 }

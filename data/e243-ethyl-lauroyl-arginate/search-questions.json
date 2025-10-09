@@ -1,17 +1,78 @@
 {
-  "keyword": "Ethyl lauroyl arginate",
+  "keywords": [
+    "Ethyl lauroyl arginate",
+    "E243"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:45.562Z",
+  "fetchedAt": "2025-10-09T03:21:53.959Z",
   "questions": [
     {
-      "keyword": "what is .ethyl lauroyl arginate",
+      "keyword": "how can i play the yamaha digital keyboard psr e243",
       "volume": 0,
+      "original_keyword": "E243",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what is ethyl lauroyl arginate",
+      "keyword": "how old is the yamaha psr-e243",
       "volume": 0,
+      "original_keyword": "E243",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to connect psr e243 to computer",
+      "volume": 0,
+      "original_keyword": "E243",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to connect yamaha psr e243",
+      "volume": 0,
+      "original_keyword": "E243",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to connect yamaha psr e243 to computer",
+      "volume": 0,
+      "original_keyword": "E243",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to establish a midi connection to cubase 8 from a yamaha psr e243",
+      "volume": 0,
+      "original_keyword": "E243",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to install a hp b300 mount on a hp e243 monitor",
+      "volume": 0,
+      "original_keyword": "E243",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to play we are the champions how to play yamaha keyboards psr e243 ypt 240",
+      "volume": 0,
+      "original_keyword": "E243",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to play we are the champions how to play yamaha keyboards psr e243 ypt 240 we are the champions",
+      "volume": 0,
+      "original_keyword": "E243",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to play yamaha keyboards psr e243 ypt 240",
+      "volume": 0,
+      "original_keyword": "E243",
       "parent_topic": "",
       "intents": []
     }

@@ -1,11 +1,15 @@
 {
-  "keyword": "Wax ester",
+  "keywords": [
+    "Wax ester",
+    "E910"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:19:04.410Z",
+  "fetchedAt": "2025-10-09T03:30:08.154Z",
   "questions": [
     {
       "keyword": "what is a wax ester",
       "volume": 10,
+      "original_keyword": "Wax ester",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -14,54 +18,63 @@
     {
       "keyword": ". the condensed structure of the alcohol from which carnauba wax ester is formed is:",
       "volume": 0,
+      "original_keyword": "Wax ester",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "draw the fatty acid and alcohol obtained when the wax ester below is hydrolyzed",
       "volume": 0,
+      "original_keyword": "Wax ester",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how can i change default setting for my hp officejet 7500 e910 from fax?",
+      "volume": 0,
+      "original_keyword": "E910",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how do check the ink levels on my hp 7500 e910",
+      "volume": 0,
+      "original_keyword": "E910",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to change paper tray from tray 1 to tray 2 for hp officejet 7500 e910",
+      "volume": 0,
+      "original_keyword": "E910",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to clean pickrollers office jet 7500a e910",
+      "volume": 0,
+      "original_keyword": "E910",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how to disolve ester wax",
       "volume": 0,
+      "original_keyword": "Wax ester",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how to get marine wax ester ffxiv",
       "volume": 0,
+      "original_keyword": "Wax ester",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "how to make liquid wax ester from oleic acid and oleyl alcohol",
+      "keyword": "how to install hp officejet 7500 e910 in mac",
       "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "the condensed structure of the alcohol from which carnauba wax ester",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "the condensed structure of the alcohol from which carnauba wax ester is formed is:",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is a wax made of ester",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is jojoba wax ester",
-      "volume": 0,
+      "original_keyword": "E910",
       "parent_topic": "",
       "intents": []
     }

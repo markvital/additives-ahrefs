@@ -1,15 +1,103 @@
 {
-  "keyword": "Hydroxypropyl methyl cellulose",
+  "keywords": [
+    "Hydroxypropyl methyl cellulose",
+    "E464",
+    "hypromellose",
+    "hydroxypropyl methylcellulose",
+    "HPMC",
+    "hydroxypropylmethylcellulose",
+    "hydroxy propyl methyl cellulose"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:23:54.749Z",
+  "fetchedAt": "2025-10-09T03:23:42.272Z",
   "questions": [
     {
-      "keyword": "what is hydroxypropyl methyl cellulose",
-      "volume": 20,
-      "parent_topic": "hydroxypropyl methyl cellulose",
+      "keyword": "what is hypromellose",
+      "volume": 1100,
+      "original_keyword": "hypromellose",
+      "parent_topic": "hydroxypropyl methylcellulose",
       "intents": [
         "informational"
       ]
+    },
+    {
+      "keyword": "what is hydroxypropyl methylcellulose",
+      "volume": 400,
+      "original_keyword": "hydroxypropyl methylcellulose",
+      "parent_topic": "hydroxypropyl methylcellulose",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is hypromellose safe",
+      "volume": 200,
+      "original_keyword": "hypromellose",
+      "parent_topic": "hypromellose",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is hpmc",
+      "volume": 150,
+      "original_keyword": "HPMC",
+      "parent_topic": "hydroxypropyl methylcellulose",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is hypromellose capsule",
+      "volume": 150,
+      "original_keyword": "hypromellose",
+      "parent_topic": "hypromellose capsule",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is hypromellose made from",
+      "volume": 150,
+      "original_keyword": "hypromellose",
+      "parent_topic": "hydroxypropyl methylcellulose",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is hypromellose vegan",
+      "volume": 100,
+      "original_keyword": "hypromellose",
+      "parent_topic": "is hypromellose vegan",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is hypromellose gluten free",
+      "volume": 80,
+      "original_keyword": "hypromellose",
+      "parent_topic": "hypromellose gluten free",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is hpmc capsules",
+      "volume": 70,
+      "original_keyword": "HPMC",
+      "parent_topic": "hypromellose capsule",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is hypromellose in supplements",
+      "volume": 60,
+      "original_keyword": "hypromellose",
+      "parent_topic": "",
+      "intents": []
     }
   ]
 }

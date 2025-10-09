@@ -1,11 +1,86 @@
 {
-  "keyword": "Sulphite ammonia caramel",
+  "keywords": [
+    "Sulphite ammonia caramel",
+    "E150D",
+    "Sulfite ammonia caramel",
+    "Caramel Colour Ammonium Sulphite Process",
+    "Colour Sulphite Ammonia Caramel",
+    "Colour E150d",
+    "Food Colour 150d",
+    "CAS 8028-89-5",
+    "acid-proof caramel",
+    "soft-drink caramel"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:25:21.304Z",
+  "fetchedAt": "2025-10-09T03:30:02.990Z",
   "questions": [
+    {
+      "keyword": "e150d how its made",
+      "volume": 0,
+      "original_keyword": "E150D",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much is a hinomoto e150d worth",
+      "volume": 0,
+      "original_keyword": "E150D",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to add additional hydrulics to an hinomoto e150d",
+      "volume": 0,
+      "original_keyword": "E150D",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is caramel e150d",
+      "volume": 0,
+      "original_keyword": "E150D",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is caramel e150d derived from?",
+      "volume": 0,
+      "original_keyword": "E150D",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is colour e150d",
+      "volume": 0,
+      "original_keyword": "E150D",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is e150d",
+      "volume": 0,
+      "original_keyword": "E150D",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is e150d in food",
+      "volume": 0,
+      "original_keyword": "E150D",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is e150d made of",
+      "volume": 0,
+      "original_keyword": "E150D",
+      "parent_topic": "",
+      "intents": []
+    },
     {
       "keyword": "what is sulphite ammonia caramel",
       "volume": 0,
+      "original_keyword": "Sulphite ammonia caramel",
       "parent_topic": "",
       "intents": []
     }

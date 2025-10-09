@@ -1,6 +1,80 @@
 {
-  "keyword": "Chlorophylls and Chlorophyllins",
+  "keywords": [
+    "Chlorophylls and Chlorophyllins",
+    "E140"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.697Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:20:51.026Z",
+  "questions": [
+    {
+      "keyword": "e140 corolla which year",
+      "volume": 0,
+      "original_keyword": "E140",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how do you start a john deere e140",
+      "volume": 0,
+      "original_keyword": "E140",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much is e140 mower",
+      "volume": 0,
+      "original_keyword": "E140",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much oil does a john deere e140 hold?",
+      "volume": 0,
+      "original_keyword": "E140",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much oil does a john deere e140 take",
+      "volume": 0,
+      "original_keyword": "E140",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much oil for john deere e140",
+      "volume": 0,
+      "original_keyword": "E140",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to adjust a john deere e140 mower deck to cut evenly",
+      "volume": 0,
+      "original_keyword": "E140",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to bypass reverse see witch john deere e140",
+      "volume": 0,
+      "original_keyword": "E140",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to change oil on john deere e140",
+      "volume": 0,
+      "original_keyword": "E140",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to install mulching guard on john deere e140",
+      "volume": 0,
+      "original_keyword": "E140",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

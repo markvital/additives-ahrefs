@@ -1,11 +1,15 @@
 {
-  "keyword": "Paraffin wax",
+  "keywords": [
+    "Paraffin wax",
+    "E905CII"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:29.301Z",
+  "fetchedAt": "2025-10-09T03:25:43.928Z",
   "questions": [
     {
       "keyword": "is paraffin wax toxic",
       "volume": 2000,
+      "original_keyword": "Paraffin wax",
       "parent_topic": "is paraffin wax toxic",
       "intents": [
         "informational"
@@ -14,7 +18,8 @@
     {
       "keyword": "what is paraffin wax",
       "volume": 1600,
-      "parent_topic": "paraffin wax",
+      "original_keyword": "Paraffin wax",
+      "parent_topic": "paraffin",
       "intents": [
         "informational"
       ]
@@ -22,6 +27,7 @@
     {
       "keyword": "what is paraffin wax made of",
       "volume": 600,
+      "original_keyword": "Paraffin wax",
       "parent_topic": "paraffin wax",
       "intents": [
         "informational"
@@ -30,6 +36,7 @@
     {
       "keyword": "is paraffin wax edible",
       "volume": 350,
+      "original_keyword": "Paraffin wax",
       "parent_topic": "is paraffin wax edible",
       "intents": [
         "informational"
@@ -38,6 +45,7 @@
     {
       "keyword": "what does paraffin wax do",
       "volume": 250,
+      "original_keyword": "Paraffin wax",
       "parent_topic": "paraffin wax for hands",
       "intents": [
         "informational"
@@ -46,6 +54,7 @@
     {
       "keyword": "what does paraffin wax do for feet",
       "volume": 250,
+      "original_keyword": "Paraffin wax",
       "parent_topic": "paraffin wax for hands",
       "intents": [
         "informational"
@@ -54,6 +63,7 @@
     {
       "keyword": "where does paraffin wax come from",
       "volume": 250,
+      "original_keyword": "Paraffin wax",
       "parent_topic": "paraffin",
       "intents": [
         "informational"
@@ -62,6 +72,7 @@
     {
       "keyword": "where to buy paraffin wax",
       "volume": 250,
+      "original_keyword": "Paraffin wax",
       "parent_topic": "paraffin wax for candle making",
       "intents": [
         "informational",
@@ -72,6 +83,7 @@
     {
       "keyword": "can you eat paraffin wax",
       "volume": 200,
+      "original_keyword": "Paraffin wax",
       "parent_topic": "can you eat paraffin wax",
       "intents": [
         "informational"
@@ -80,6 +92,7 @@
     {
       "keyword": "how is paraffin wax made",
       "volume": 200,
+      "original_keyword": "Paraffin wax",
       "parent_topic": "is paraffin wax toxic",
       "intents": [
         "informational"

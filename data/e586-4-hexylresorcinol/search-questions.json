@@ -1,11 +1,65 @@
 {
-  "keyword": "4-hexylresorcinol",
+  "keywords": [
+    "4-hexylresorcinol",
+    "E586",
+    "4-Hexyl-1‚3-benzenediol"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.238Z",
+  "fetchedAt": "2025-10-09T03:16:32.872Z",
   "questions": [
+    {
+      "keyword": "how do i access messages on huawei e586",
+      "volume": 0,
+      "original_keyword": "E586",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how do i access voice mail on huawei e586",
+      "volume": 0,
+      "original_keyword": "E586",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how do i recharge my data on huawei e586 for glo sim",
+      "volume": 0,
+      "original_keyword": "E586",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how many devices can i connect to my huawei e586",
+      "volume": 0,
+      "original_keyword": "E586",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to operate my huawei e586",
+      "volume": 0,
+      "original_keyword": "E586",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to reset huawei e586 to factory default",
+      "volume": 0,
+      "original_keyword": "E586",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "huawei e586 how to take back off",
+      "volume": 0,
+      "original_keyword": "E586",
+      "parent_topic": "",
+      "intents": []
+    },
     {
       "keyword": "what is 4-hexylresorcinol",
       "volume": 0,
+      "original_keyword": "4-hexylresorcinol",
       "parent_topic": "",
       "intents": []
     }

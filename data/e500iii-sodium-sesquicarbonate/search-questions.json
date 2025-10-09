@@ -1,11 +1,15 @@
 {
-  "keyword": "Sodium sesquicarbonate",
+  "keywords": [
+    "Sodium sesquicarbonate",
+    "E500III"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:25:13.666Z",
+  "fetchedAt": "2025-10-09T03:29:33.822Z",
   "questions": [
     {
       "keyword": "what is sodium sesquicarbonate",
       "volume": 30,
+      "original_keyword": "Sodium sesquicarbonate",
       "parent_topic": "sodium sesquicarbonate",
       "intents": [
         "informational"
@@ -14,6 +18,7 @@
     {
       "keyword": "where to buy sodium sesquicarbonate",
       "volume": 10,
+      "original_keyword": "Sodium sesquicarbonate",
       "parent_topic": "",
       "intents": [
         "commercial",
@@ -23,24 +28,28 @@
     {
       "keyword": "how much sodium sesquicarbonate added to laundry sop",
       "volume": 0,
+      "original_keyword": "Sodium sesquicarbonate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how ro clean bronze with sodium sesquicarbonate",
       "volume": 0,
+      "original_keyword": "Sodium sesquicarbonate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how to make sodium sesquicarbonate",
       "volume": 0,
+      "original_keyword": "Sodium sesquicarbonate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "is sodium sesquicarbonate safe",
       "volume": 0,
+      "original_keyword": "Sodium sesquicarbonate",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -49,18 +58,21 @@
     {
       "keyword": "sodium sesquicarbonate what is it used for",
       "volume": 0,
+      "original_keyword": "Sodium sesquicarbonate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is sodium sesquicarbonate used for",
       "volume": 0,
+      "original_keyword": "Sodium sesquicarbonate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is the e number of sodium sesquicarbonate",
       "volume": 0,
+      "original_keyword": "Sodium sesquicarbonate",
       "parent_topic": "",
       "intents": []
     }

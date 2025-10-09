@@ -1,36 +1,44 @@
 {
-  "keyword": "Sodium silicate",
+  "keywords": [
+    "Sodium silicate",
+    "E550",
+    "Sodium Silicates i‚ Sodium silicate (ii)‚ Sodium metasilicate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:25:13.925Z",
+  "fetchedAt": "2025-10-09T03:29:36.556Z",
   "questions": [
     {
       "keyword": "what is sodium silicate",
       "volume": 150,
+      "original_keyword": "Sodium silicate",
       "parent_topic": "sodium silicate",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is sodium silicate used for",
-      "volume": 70,
-      "parent_topic": "sodium silicate storage",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
       "keyword": "where to buy sodium silicate",
-      "volume": 70,
-      "parent_topic": "sodium silicate water glass",
+      "volume": 80,
+      "original_keyword": "Sodium silicate",
+      "parent_topic": "sodium silicate powder",
       "intents": [
         "commercial",
         "transactional"
       ]
     },
     {
+      "keyword": "what is sodium silicate used for",
+      "volume": 70,
+      "original_keyword": "Sodium silicate",
+      "parent_topic": "sodium silicate storage",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
       "keyword": "is sodium silicate toxic",
       "volume": 50,
+      "original_keyword": "Sodium silicate",
       "parent_topic": "is sodium silicate toxic",
       "intents": [
         "informational"
@@ -39,6 +47,7 @@
     {
       "keyword": "where can i buy sodium silicate",
       "volume": 50,
+      "original_keyword": "Sodium silicate",
       "parent_topic": "where can i buy water glass sodium silicate",
       "intents": [
         "commercial",
@@ -48,6 +57,7 @@
     {
       "keyword": "where can i buy water glass sodium silicate",
       "volume": 40,
+      "original_keyword": "Sodium silicate",
       "parent_topic": "liquid sodium silicate",
       "intents": [
         "commercial",
@@ -57,6 +67,7 @@
     {
       "keyword": "where to buy sodium silicate near me",
       "volume": 40,
+      "original_keyword": "Sodium silicate",
       "parent_topic": "where to buy sodium silicate near me",
       "intents": [
         "commercial",
@@ -67,12 +78,14 @@
     {
       "keyword": "how to use sodium silicate in pottery",
       "volume": 20,
+      "original_keyword": "Sodium silicate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "is sodium silicate safe for skin",
       "volume": 20,
+      "original_keyword": "Sodium silicate",
       "parent_topic": "sodium silicate",
       "intents": [
         "informational"
@@ -81,6 +94,7 @@
     {
       "keyword": "sodium silicate where to buy",
       "volume": 20,
+      "original_keyword": "Sodium silicate",
       "parent_topic": "where to buy sodium silicate near me",
       "intents": [
         "commercial",

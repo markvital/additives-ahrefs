@@ -1,67 +1,103 @@
 {
-  "keyword": "Calcium phosphates",
+  "keywords": [
+    "Calcium phosphates",
+    "E341",
+    "calcium phosphate",
+    "E 341",
+    "E-341"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.319Z",
+  "fetchedAt": "2025-10-09T03:20:48.008Z",
   "questions": [
     {
-      "keyword": "10. the inorganic portion of bone matrix composed of calcium phosphates forms what substances?",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is calcium phosphate",
+      "volume": 200,
+      "original_keyword": "calcium phosphate",
+      "parent_topic": "calcium phosphate supplement",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "how easily are calcium and magnesium phosphates formed?",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "how does calcium phosphate transfection work",
+      "volume": 150,
+      "original_keyword": "calcium phosphate",
+      "parent_topic": "how does calcium phosphate transfection work",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "what are calcium phosphates",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is mono calcium phosphate",
+      "volume": 150,
+      "original_keyword": "calcium phosphate",
+      "parent_topic": "monocalcium phosphate",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "what foods are high in calcium and low in phosphates",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is dibasic calcium phosphate",
+      "volume": 60,
+      "original_keyword": "calcium phosphate",
+      "parent_topic": "dicalcium phosphate",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "what gland regulates calcium and phosphates?",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "is calcium phosphate soluble in water",
+      "volume": 40,
+      "original_keyword": "calcium phosphate",
+      "parent_topic": "calcium phosphate",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "what hormone regulates calcium and phosphates",
-      "volume": 0,
+      "keyword": "what is di calcium phosphate",
+      "volume": 40,
+      "original_keyword": "calcium phosphate",
       "parent_topic": "",
-      "intents": []
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "what makes calcium phosphates",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "how to take calcium carbonate as phosphate binder",
+      "volume": 30,
+      "original_keyword": "calcium phosphate",
+      "parent_topic": "phosphate binders",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "when phosphates are high what happens to calcium levels",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "is calcium phosphate bad for you",
+      "volume": 30,
+      "original_keyword": "calcium phosphate",
+      "parent_topic": "calcium phosphate supplement",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "which metal regulates the absorption of calcium and phosphates",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "is calcium phosphate vegan",
+      "volume": 30,
+      "original_keyword": "calcium phosphate",
+      "parent_topic": "calcium phosphate vegan",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "which of the following hormones increases concentration of calcium and phosphates in the blood",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what causes calcium phosphate kidney stones",
+      "volume": 30,
+      "original_keyword": "calcium phosphate",
+      "parent_topic": "potassium citrate for kidney stones",
+      "intents": [
+        "informational"
+      ]
     }
   ]
 }

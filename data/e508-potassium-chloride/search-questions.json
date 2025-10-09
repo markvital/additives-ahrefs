@@ -1,11 +1,16 @@
 {
-  "keyword": "Potassium chloride",
+  "keywords": [
+    "Potassium chloride",
+    "E508",
+    "Sylvine"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:38.558Z",
+  "fetchedAt": "2025-10-09T03:26:01.694Z",
   "questions": [
     {
       "keyword": "what is potassium chloride",
       "volume": 4400,
+      "original_keyword": "Potassium chloride",
       "parent_topic": "potassium chloride",
       "intents": [
         "informational"
@@ -14,6 +19,7 @@
     {
       "keyword": "what is potassium chloride used for",
       "volume": 2000,
+      "original_keyword": "Potassium chloride",
       "parent_topic": "potassium chloride",
       "intents": [
         "informational"
@@ -22,7 +28,8 @@
     {
       "keyword": "is potassium chloride good for you",
       "volume": 700,
-      "parent_topic": "is potassium chloride good for you",
+      "original_keyword": "Potassium chloride",
+      "parent_topic": "potassium chloride",
       "intents": [
         "informational"
       ]
@@ -30,6 +37,7 @@
     {
       "keyword": "is potassium chloride safe",
       "volume": 700,
+      "original_keyword": "Potassium chloride",
       "parent_topic": "potassium chloride",
       "intents": [
         "informational"
@@ -38,6 +46,7 @@
     {
       "keyword": "is potassium chloride bad for you",
       "volume": 400,
+      "original_keyword": "Potassium chloride",
       "parent_topic": "potassium chloride",
       "intents": [
         "informational"
@@ -46,6 +55,7 @@
     {
       "keyword": "is potassium chloride a salt",
       "volume": 250,
+      "original_keyword": "Potassium chloride",
       "parent_topic": "potassium chloride",
       "intents": [
         "informational"
@@ -53,7 +63,8 @@
     },
     {
       "keyword": "what does potassium chloride do",
-      "volume": 250,
+      "volume": 200,
+      "original_keyword": "Potassium chloride",
       "parent_topic": "potassium chloride",
       "intents": [
         "informational"
@@ -62,6 +73,7 @@
     {
       "keyword": "is potassium chloride salt",
       "volume": 150,
+      "original_keyword": "Potassium chloride",
       "parent_topic": "potassium chloride salt substitute",
       "intents": [
         "informational"
@@ -70,14 +82,16 @@
     {
       "keyword": "what is potassium chloride in food",
       "volume": 150,
+      "original_keyword": "Potassium chloride",
       "parent_topic": "what is potassium chloride in food",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "where can i buy potassium chloride",
+      "keyword": "where to buy potassium chloride",
       "volume": 150,
+      "original_keyword": "Potassium chloride",
       "parent_topic": "potassium chloride",
       "intents": [
         "commercial",

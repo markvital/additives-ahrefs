@@ -1,36 +1,62 @@
 {
-  "keyword": "Sodium carbonate",
+  "keywords": [
+    "Sodium carbonate",
+    "E500I",
+    "washing soda"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:51.145Z",
+  "fetchedAt": "2025-10-09T03:29:24.203Z",
   "questions": [
     {
+      "keyword": "what is washing soda",
+      "volume": 5600,
+      "original_keyword": "washing soda",
+      "parent_topic": "washing soda",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
       "keyword": "what is sodium carbonate",
-      "volume": 2300,
+      "volume": 2400,
+      "original_keyword": "Sodium carbonate",
       "parent_topic": "sodium carbonate",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is sodium carbonate used for",
-      "volume": 250,
-      "parent_topic": "sodium carbonate",
+      "keyword": "how to clean washing machine with vinegar and baking soda",
+      "volume": 2100,
+      "original_keyword": "washing soda",
+      "parent_topic": "how to clean a washing machine",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "is sodium carbonate baking soda",
-      "volume": 200,
-      "parent_topic": "sodium carbonate vs sodium bicarbonate",
+      "keyword": "can you put baking soda in washing machine",
+      "volume": 800,
+      "original_keyword": "washing soda",
+      "parent_topic": "how to use baking soda in laundry",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "where to buy sodium carbonate",
-      "volume": 200,
-      "parent_topic": "buy sodium carbonate",
+      "keyword": "how to make washing soda",
+      "volume": 600,
+      "original_keyword": "washing soda",
+      "parent_topic": "how to make washing soda",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where to buy washing soda",
+      "volume": 500,
+      "original_keyword": "washing soda",
+      "parent_topic": "washing soda",
       "intents": [
         "informational",
         "commercial",
@@ -38,47 +64,37 @@
       ]
     },
     {
-      "keyword": "is sodium carbonate ionic or covalent",
-      "volume": 150,
-      "parent_topic": "na2co3 ionic or covalent",
+      "keyword": "can i put baking soda in washing machine",
+      "volume": 300,
+      "original_keyword": "washing soda",
+      "parent_topic": "can you put baking soda in washing machine",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "is sodium carbonate toxic",
-      "volume": 150,
-      "parent_topic": "is sodium carbonate safe",
+      "keyword": "is baking soda good for washing fruits and vegetables",
+      "volume": 300,
+      "original_keyword": "washing soda",
+      "parent_topic": "baking soda to clean fruit",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is sodium hydrogen carbonate",
-      "volume": 150,
-      "parent_topic": "baking soda",
+      "keyword": "how to clean washing machine with baking soda",
+      "volume": 250,
+      "original_keyword": "washing soda",
+      "parent_topic": "clean washing machine",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is the formula for sodium carbonate",
-      "volume": 150,
-      "parent_topic": "sodium carbonate",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what is the percent composition of sodium hydrogen carbonate nahco3",
-      "volume": 150,
-      "parent_topic": "what is the percent composition of sodium hydrogen carbonate nahco3",
-      "intents": []
-    },
-    {
-      "keyword": "is sodium carbonate a base",
-      "volume": 100,
-      "parent_topic": "sodium carbonate",
+      "keyword": "is sodium carbonate baking soda",
+      "volume": 250,
+      "original_keyword": "Sodium carbonate",
+      "parent_topic": "sodium carbonate vs sodium bicarbonate",
       "intents": [
         "informational"
       ]

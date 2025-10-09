@@ -1,13 +1,105 @@
 {
-  "keyword": "Black 7984",
+  "keywords": [
+    "Black 7984",
+    "E152",
+    "Food Black 2",
+    "carbon black"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.878Z",
+  "fetchedAt": "2025-10-09T03:20:39.666Z",
   "questions": [
     {
-      "keyword": "what is the e number of black 7984",
-      "volume": 0,
+      "keyword": "what is carbon black",
+      "volume": 800,
+      "original_keyword": "carbon black",
+      "parent_topic": "carbon black",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is black carbon",
+      "volume": 200,
+      "original_keyword": "carbon black",
+      "parent_topic": "black carbon",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is carbon black used for",
+      "volume": 200,
+      "original_keyword": "carbon black",
+      "parent_topic": "carbon black",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is carbon black software",
+      "volume": 150,
+      "original_keyword": "carbon black",
+      "parent_topic": "carbon black",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "what is carbon black cloud",
+      "volume": 100,
+      "original_keyword": "carbon black",
+      "parent_topic": "carbon black cloud",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "who owns carbon black",
+      "volume": 100,
+      "original_keyword": "carbon black",
+      "parent_topic": "who owns carbon black",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "is carbon black darker than black",
+      "volume": 80,
+      "original_keyword": "carbon black",
+      "parent_topic": "is carbon black darker than black",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how is carbon black made",
+      "volume": 70,
+      "original_keyword": "carbon black",
+      "parent_topic": "how is carbon black made",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "can reducing black carbon emissions counteract global warming",
+      "volume": 60,
+      "original_keyword": "carbon black",
       "parent_topic": "",
-      "intents": []
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how does black carbon affect the climate?",
+      "volume": 60,
+      "original_keyword": "carbon black",
+      "parent_topic": "black carbon",
+      "intents": [
+        "informational"
+      ]
     }
   ]
 }

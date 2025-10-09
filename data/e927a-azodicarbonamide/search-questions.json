@@ -1,11 +1,15 @@
 {
-  "keyword": "Azodicarbonamide",
+  "keywords": [
+    "Azodicarbonamide",
+    "E927A"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.775Z",
+  "fetchedAt": "2025-10-09T03:16:33.501Z",
   "questions": [
     {
       "keyword": "what is azodicarbonamide",
       "volume": 100,
+      "original_keyword": "Azodicarbonamide",
       "parent_topic": "azodicarbonamide",
       "intents": [
         "informational"
@@ -14,12 +18,14 @@
     {
       "keyword": "what breads have azodicarbonamide",
       "volume": 20,
+      "original_keyword": "Azodicarbonamide",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is azodicarbonamide used for",
       "volume": 20,
+      "original_keyword": "Azodicarbonamide",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -28,12 +34,14 @@
     {
       "keyword": "what does azodicarbonamide do to your body",
       "volume": 10,
+      "original_keyword": "Azodicarbonamide",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what foods contain azodicarbonamide",
       "volume": 10,
+      "original_keyword": "Azodicarbonamide",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -42,30 +50,35 @@
     {
       "keyword": "what products contain azodicarbonamide",
       "volume": 10,
+      "original_keyword": "Azodicarbonamide",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "who makes azodicarbonamide",
       "volume": 10,
+      "original_keyword": "Azodicarbonamide",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "who uses azodicarbonamide in their bread",
       "volume": 10,
+      "original_keyword": "Azodicarbonamide",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "why is azodicarbonamide banned in europe",
       "volume": 10,
+      "original_keyword": "Azodicarbonamide",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "azodicarbonamide in what products",
       "volume": 0,
+      "original_keyword": "Azodicarbonamide",
       "parent_topic": "",
       "intents": []
     }

@@ -1,19 +1,33 @@
 {
-  "keyword": "Titanium dioxide",
+  "keywords": [
+    "Titanium dioxide",
+    "E171"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:19:04.561Z",
+  "fetchedAt": "2025-10-09T03:30:03.940Z",
   "questions": [
     {
       "keyword": "what is titanium dioxide",
-      "volume": 3700,
+      "volume": 3800,
+      "original_keyword": "Titanium dioxide",
       "parent_topic": "titanium dioxide",
       "intents": [
         "informational"
       ]
     },
     {
+      "keyword": "is titanium dioxide safe",
+      "volume": 2400,
+      "original_keyword": "Titanium dioxide",
+      "parent_topic": "is titanium dioxide safe",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
       "keyword": "is titanium dioxide bad for you",
-      "volume": 450,
+      "volume": 400,
+      "original_keyword": "Titanium dioxide",
       "parent_topic": "is titanium dioxide safe",
       "intents": [
         "informational"
@@ -22,6 +36,7 @@
     {
       "keyword": "is titanium dioxide safe in sunscreen",
       "volume": 400,
+      "original_keyword": "Titanium dioxide",
       "parent_topic": "sunscreen ingredients to avoid",
       "intents": [
         "informational"
@@ -30,6 +45,7 @@
     {
       "keyword": "what is titanium dioxide used for",
       "volume": 400,
+      "original_keyword": "Titanium dioxide",
       "parent_topic": "titanium dioxide",
       "intents": [
         "informational"
@@ -38,6 +54,7 @@
     {
       "keyword": "what does titanium dioxide do",
       "volume": 300,
+      "original_keyword": "Titanium dioxide",
       "parent_topic": "what does titanium dioxide do",
       "intents": [
         "informational"
@@ -46,6 +63,7 @@
     {
       "keyword": "is titanium dioxide safe for skin",
       "volume": 250,
+      "original_keyword": "Titanium dioxide",
       "parent_topic": "titanium dioxide",
       "intents": [
         "informational"
@@ -54,6 +72,7 @@
     {
       "keyword": "does titanium dioxide cause cancer",
       "volume": 150,
+      "original_keyword": "Titanium dioxide",
       "parent_topic": "titanium dioxide",
       "intents": [
         "informational"
@@ -62,6 +81,7 @@
     {
       "keyword": "is titanium dioxide safe in makeup",
       "volume": 150,
+      "original_keyword": "Titanium dioxide",
       "parent_topic": "is titanium dioxide safe in makeup",
       "intents": [
         "informational"
@@ -70,15 +90,8 @@
     {
       "keyword": "is titanium dioxide safe to eat",
       "volume": 150,
+      "original_keyword": "Titanium dioxide",
       "parent_topic": "e171",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what foods contain titanium dioxide",
-      "volume": 150,
-      "parent_topic": "what foods contain titanium dioxide",
       "intents": [
         "informational"
       ]

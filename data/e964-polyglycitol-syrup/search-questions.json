@@ -1,37 +1,59 @@
 {
-  "keyword": "Polyglycitol syrup",
+  "keywords": [
+    "Polyglycitol syrup",
+    "E964"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:33.349Z",
+  "fetchedAt": "2025-10-09T03:25:53.482Z",
   "questions": [
     {
       "keyword": "what is polyglycitol syrup",
       "volume": 60,
+      "original_keyword": "Polyglycitol syrup",
       "parent_topic": "polyglycitol syrup",
       "intents": [
         "informational"
       ]
     },
     {
+      "keyword": "usa http://www.ondemandkorea.com/capture-the-moment-how-is-that-possible-e964.html",
+      "volume": 0,
+      "original_keyword": "E964",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "usajhttp://www.ondemandkorea.com/capture-the-moment-how-is-that-possible-e964.html",
+      "volume": 0,
+      "original_keyword": "E964",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
       "keyword": "what is in polyglycitol syrup",
       "volume": 0,
+      "original_keyword": "Polyglycitol syrup",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is polyglycitol syrup made of",
       "volume": 0,
+      "original_keyword": "Polyglycitol syrup",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is polyglycitol syrup?",
       "volume": 0,
+      "original_keyword": "Polyglycitol syrup",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is the glycemic index of polyglycitol syrup",
       "volume": 0,
+      "original_keyword": "Polyglycitol syrup",
       "parent_topic": "",
       "intents": []
     }

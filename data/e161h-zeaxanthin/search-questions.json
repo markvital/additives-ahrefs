@@ -1,11 +1,15 @@
 {
-  "keyword": "Zeaxanthin",
+  "keywords": [
+    "Zeaxanthin",
+    "E161H"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:19:04.413Z",
+  "fetchedAt": "2025-10-09T03:30:10.495Z",
   "questions": [
     {
       "keyword": "what is zeaxanthin",
       "volume": 450,
+      "original_keyword": "Zeaxanthin",
       "parent_topic": "zeaxanthin",
       "intents": [
         "informational"
@@ -14,6 +18,7 @@
     {
       "keyword": "how much lutein and zeaxanthin should i take daily",
       "volume": 200,
+      "original_keyword": "Zeaxanthin",
       "parent_topic": "lutein",
       "intents": [
         "informational"
@@ -22,6 +27,7 @@
     {
       "keyword": "what is lutein and zeaxanthin",
       "volume": 150,
+      "original_keyword": "Zeaxanthin",
       "parent_topic": "lutein and zeaxanthin",
       "intents": [
         "informational"
@@ -30,6 +36,7 @@
     {
       "keyword": "how do you pronounce zeaxanthin",
       "volume": 100,
+      "original_keyword": "Zeaxanthin",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -38,6 +45,7 @@
     {
       "keyword": "how much lutein and zeaxanthin per day",
       "volume": 100,
+      "original_keyword": "Zeaxanthin",
       "parent_topic": "lutein and zeaxanthin",
       "intents": [
         "informational"
@@ -46,6 +54,7 @@
     {
       "keyword": "what is the best brand of lutein and zeaxanthin",
       "volume": 100,
+      "original_keyword": "Zeaxanthin",
       "parent_topic": "lutein supplement",
       "intents": [
         "informational",
@@ -54,7 +63,8 @@
     },
     {
       "keyword": "how much zeaxanthin per day",
-      "volume": 90,
+      "volume": 80,
+      "original_keyword": "Zeaxanthin",
       "parent_topic": "lutein",
       "intents": [
         "informational"
@@ -63,6 +73,7 @@
     {
       "keyword": "does lutein and zeaxanthin work",
       "volume": 70,
+      "original_keyword": "Zeaxanthin",
       "parent_topic": "lutein and zeaxanthin",
       "intents": [
         "informational"
@@ -71,7 +82,8 @@
     {
       "keyword": "what foods have lutein and zeaxanthin",
       "volume": 60,
-      "parent_topic": "lutein foods",
+      "original_keyword": "Zeaxanthin",
+      "parent_topic": "lutein and zeaxanthin",
       "intents": [
         "informational"
       ]
@@ -79,6 +91,7 @@
     {
       "keyword": "what is zeaxanthin and lutein",
       "volume": 60,
+      "original_keyword": "Zeaxanthin",
       "parent_topic": "lutein and zeaxanthin",
       "intents": [
         "informational"

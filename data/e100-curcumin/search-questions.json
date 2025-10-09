@@ -1,11 +1,18 @@
 {
-  "keyword": "Curcumin",
+  "keywords": [
+    "Curcumin",
+    "E100",
+    "Turmeric extract",
+    "curcuma extract",
+    "turmeric color"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.818Z",
+  "fetchedAt": "2025-10-09T03:20:54.678Z",
   "questions": [
     {
       "keyword": "what is curcumin",
       "volume": 3800,
+      "original_keyword": "Curcumin",
       "parent_topic": "curcumin",
       "intents": [
         "informational"
@@ -14,6 +21,7 @@
     {
       "keyword": "is curcumin the same as turmeric",
       "volume": 1200,
+      "original_keyword": "Curcumin",
       "parent_topic": "turmeric",
       "intents": [
         "informational"
@@ -22,15 +30,8 @@
     {
       "keyword": "what is turmeric curcumin good for",
       "volume": 1000,
+      "original_keyword": "Curcumin",
       "parent_topic": "turmeric benefits",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "turmeric curcumin para que sirve",
-      "volume": 900,
-      "parent_topic": "cúrcuma",
       "intents": [
         "informational"
       ]
@@ -38,7 +39,17 @@
     {
       "keyword": "how much curcumin per day",
       "volume": 800,
+      "original_keyword": "Curcumin",
       "parent_topic": "how much turmeric per day",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "turmeric curcumin para que sirve",
+      "volume": 800,
+      "original_keyword": "Curcumin",
+      "parent_topic": "cúrcuma",
       "intents": [
         "informational"
       ]
@@ -46,6 +57,7 @@
     {
       "keyword": "what is curcumin good for",
       "volume": 600,
+      "original_keyword": "Curcumin",
       "parent_topic": "turmeric benefits",
       "intents": [
         "informational"
@@ -53,7 +65,8 @@
     },
     {
       "keyword": "is turmeric and curcumin the same",
-      "volume": 500,
+      "volume": 450,
+      "original_keyword": "Curcumin",
       "parent_topic": "tumeric",
       "intents": [
         "informational"
@@ -62,7 +75,17 @@
     {
       "keyword": "is turmeric the same as curcumin",
       "volume": 350,
+      "original_keyword": "Curcumin",
       "parent_topic": "tumeric",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what color is turmeric",
+      "volume": 300,
+      "original_keyword": "turmeric color",
+      "parent_topic": "turmeric",
       "intents": [
         "informational"
       ]
@@ -70,15 +93,8 @@
     {
       "keyword": "what does curcumin do",
       "volume": 250,
+      "original_keyword": "Curcumin",
       "parent_topic": "what is turmeric good for",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is curcumin the same as cumin",
-      "volume": 200,
-      "parent_topic": "is cumin and curcumin the same thing",
       "intents": [
         "informational"
       ]

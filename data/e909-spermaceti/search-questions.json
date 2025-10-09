@@ -1,11 +1,15 @@
 {
-  "keyword": "Spermaceti",
+  "keywords": [
+    "Spermaceti",
+    "E909"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:25:18.514Z",
+  "fetchedAt": "2025-10-09T03:29:43.695Z",
   "questions": [
     {
       "keyword": "what is spermaceti",
       "volume": 100,
+      "original_keyword": "Spermaceti",
       "parent_topic": "spermaceti",
       "intents": [
         "informational"
@@ -14,6 +18,7 @@
     {
       "keyword": "what is spermaceti used for",
       "volume": 30,
+      "original_keyword": "Spermaceti",
       "parent_topic": "spermaceti",
       "intents": [
         "informational"
@@ -22,6 +27,7 @@
     {
       "keyword": "is spermaceti still used",
       "volume": 20,
+      "original_keyword": "Spermaceti",
       "parent_topic": "spermaceti",
       "intents": [
         "informational"
@@ -30,42 +36,49 @@
     {
       "keyword": "what does spermaceti look like",
       "volume": 20,
+      "original_keyword": "Spermaceti",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what was spermaceti used for",
       "volume": 20,
+      "original_keyword": "Spermaceti",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how much spermaceti is in a sperm whale",
       "volume": 10,
+      "original_keyword": "Spermaceti",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what does spermaceti do",
       "volume": 10,
+      "original_keyword": "Spermaceti",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "where to buy spermaceti",
       "volume": 10,
+      "original_keyword": "Spermaceti",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "why do sperm whales have spermaceti",
       "volume": 10,
+      "original_keyword": "Spermaceti",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "why is it called spermaceti",
       "volume": 10,
+      "original_keyword": "Spermaceti",
       "parent_topic": "",
       "intents": []
     }

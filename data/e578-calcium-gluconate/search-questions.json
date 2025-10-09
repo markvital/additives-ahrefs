@@ -1,11 +1,15 @@
 {
-  "keyword": "calcium gluconate",
+  "keywords": [
+    "calcium gluconate",
+    "E578"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.426Z",
+  "fetchedAt": "2025-10-09T03:20:44.324Z",
   "questions": [
     {
       "keyword": "what is calcium gluconate used for",
       "volume": 150,
+      "original_keyword": "calcium gluconate",
       "parent_topic": "calcium gluconate",
       "intents": [
         "informational"
@@ -14,6 +18,7 @@
     {
       "keyword": "how does calcium gluconate treat hyperkalemia",
       "volume": 100,
+      "original_keyword": "calcium gluconate",
       "parent_topic": "calcium gluconate",
       "intents": [
         "informational"
@@ -22,6 +27,7 @@
     {
       "keyword": "what is calcium gluconate",
       "volume": 90,
+      "original_keyword": "calcium gluconate",
       "parent_topic": "calcium gluconate",
       "intents": [
         "informational"
@@ -30,6 +36,7 @@
     {
       "keyword": "what does calcium gluconate do",
       "volume": 70,
+      "original_keyword": "calcium gluconate",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -37,7 +44,8 @@
     },
     {
       "keyword": "what is calcium gluconate the antidote for",
-      "volume": 50,
+      "volume": 40,
+      "original_keyword": "calcium gluconate",
       "parent_topic": "calcium gluconate",
       "intents": [
         "informational"
@@ -46,18 +54,21 @@
     {
       "keyword": "how to administer calcium gluconate injection",
       "volume": 20,
+      "original_keyword": "calcium gluconate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what does calcium gluconate do to potassium",
       "volume": 20,
+      "original_keyword": "calcium gluconate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "calcium gluconate where to buy",
       "volume": 10,
+      "original_keyword": "calcium gluconate",
       "parent_topic": "",
       "intents": [
         "commercial",
@@ -67,6 +78,7 @@
     {
       "keyword": "how does calcium gluconate treat hypermagnesemia",
       "volume": 10,
+      "original_keyword": "calcium gluconate",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -75,6 +87,7 @@
     {
       "keyword": "how does calcium gluconate work",
       "volume": 10,
+      "original_keyword": "calcium gluconate",
       "parent_topic": "",
       "intents": [
         "informational"

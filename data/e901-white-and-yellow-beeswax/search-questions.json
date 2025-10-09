@@ -1,73 +1,106 @@
 {
-  "keyword": "white and yellow beeswax",
+  "keywords": [
+    "white and yellow beeswax",
+    "E901",
+    "beeswax",
+    "white beeswax",
+    "yellow beeswax",
+    "white wax"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:19:04.561Z",
+  "fetchedAt": "2025-10-09T03:30:11.391Z",
   "questions": [
     {
-      "keyword": "what is the difference between white and yellow beeswax",
-      "volume": 40,
-      "parent_topic": "white vs yellow beeswax",
+      "keyword": "how to make beeswax candles",
+      "volume": 1700,
+      "original_keyword": "beeswax",
+      "parent_topic": "how to make beeswax candles",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what's the difference between white and yellow beeswax",
-      "volume": 40,
-      "parent_topic": "white vs yellow beeswax",
+      "keyword": "what is beeswax",
+      "volume": 1500,
+      "original_keyword": "beeswax",
+      "parent_topic": "beeswax",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is the difference between yellow and white beeswax",
-      "volume": 20,
-      "parent_topic": "",
+      "keyword": "how to make beeswax wraps",
+      "volume": 1400,
+      "original_keyword": "beeswax",
+      "parent_topic": "how to make beeswax wraps",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "lappe's united states iowa bee supply and honey farm farms yellow white beeswax pellets 1 lb for sale free shipping where buy in iowa usa near me around 117 florence ave east peru iowa 50222",
-      "volume": 0,
-      "parent_topic": "lappes bee supply",
-      "intents": []
+      "keyword": "can you eat beeswax",
+      "volume": 1300,
+      "original_keyword": "beeswax",
+      "parent_topic": "can you eat beeswax",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "what is the difference between white and yellow beeswax?",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "how to get beeswax in minecraft",
+      "volume": 1200,
+      "original_keyword": "beeswax",
+      "parent_topic": "how to get wax minecraft",
+      "intents": [
+        "informational",
+        "branded"
+      ]
     },
     {
-      "keyword": "what is the difference between yellow and white beeswax?",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "is beeswax good for skin",
+      "volume": 900,
+      "original_keyword": "beeswax",
+      "parent_topic": "beeswax",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "what is the difference between yellow beeswax and white beeswax",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is beeswax used for",
+      "volume": 800,
+      "original_keyword": "beeswax",
+      "parent_topic": "beeswax",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "why are some beeswax yellow and others white",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "where to buy beeswax",
+      "volume": 600,
+      "original_keyword": "beeswax",
+      "parent_topic": "beeswax for sale",
+      "intents": [
+        "commercial",
+        "transactional"
+      ]
     },
     {
-      "keyword": "why is some beeswax white and some yellow",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "is beeswax comedogenic",
+      "volume": 450,
+      "original_keyword": "beeswax",
+      "parent_topic": "is beeswax comedogenic",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "why is some beeswax yellow and some white?",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "is beeswax vegan",
+      "volume": 450,
+      "original_keyword": "beeswax",
+      "parent_topic": "is beeswax vegan",
+      "intents": [
+        "informational"
+      ]
     }
   ]
 }

@@ -1,11 +1,21 @@
 {
-  "keyword": "Gellan gum",
+  "keywords": [
+    "Gellan gum",
+    "E418",
+    "gellan",
+    "E-418",
+    "E 418",
+    "INS418",
+    "INS-418",
+    "INS 418"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:45.668Z",
+  "fetchedAt": "2025-10-09T03:23:32.265Z",
   "questions": [
     {
       "keyword": "what is gellan gum",
       "volume": 3200,
+      "original_keyword": "Gellan gum",
       "parent_topic": "gellan gum",
       "intents": [
         "informational"
@@ -14,6 +24,7 @@
     {
       "keyword": "is gellan gum bad for you",
       "volume": 1700,
+      "original_keyword": "Gellan gum",
       "parent_topic": "gellan gum",
       "intents": [
         "informational"
@@ -22,7 +33,8 @@
     {
       "keyword": "what is gellan gum made of",
       "volume": 500,
-      "parent_topic": "is gellan gum bad for you",
+      "original_keyword": "Gellan gum",
+      "parent_topic": "gellan gum",
       "intents": [
         "informational"
       ]
@@ -30,6 +42,7 @@
     {
       "keyword": "is gellan gum vegan",
       "volume": 300,
+      "original_keyword": "Gellan gum",
       "parent_topic": "gellan gum",
       "intents": [
         "informational"
@@ -38,6 +51,7 @@
     {
       "keyword": "is gellan gum bad for your gut",
       "volume": 200,
+      "original_keyword": "Gellan gum",
       "parent_topic": "is gellan gum bad for you",
       "intents": [
         "informational"
@@ -46,6 +60,7 @@
     {
       "keyword": "is gellan gum inflammatory",
       "volume": 150,
+      "original_keyword": "Gellan gum",
       "parent_topic": "is gellan gum inflammatory",
       "intents": [
         "informational"
@@ -54,6 +69,7 @@
     {
       "keyword": "is gellan gum vegetarian",
       "volume": 100,
+      "original_keyword": "Gellan gum",
       "parent_topic": "gellan gum",
       "intents": [
         "informational"
@@ -62,15 +78,8 @@
     {
       "keyword": "is gellan gum bad",
       "volume": 80,
+      "original_keyword": "Gellan gum",
       "parent_topic": "gellan gum",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what is gellan gum halal",
-      "volume": 80,
-      "parent_topic": "gellan gum halal",
       "intents": [
         "informational"
       ]
@@ -78,7 +87,17 @@
     {
       "keyword": "is gellan gum an emulsifier",
       "volume": 70,
+      "original_keyword": "Gellan gum",
       "parent_topic": "guar gum bad for you",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is gellan gum safe",
+      "volume": 70,
+      "original_keyword": "Gellan gum",
+      "parent_topic": "gellan gum",
       "intents": [
         "informational"
       ]

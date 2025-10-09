@@ -1,11 +1,15 @@
 {
-  "keyword": "Potassium bromate",
+  "keywords": [
+    "Potassium bromate",
+    "E924A"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:38.031Z",
+  "fetchedAt": "2025-10-09T03:26:00.335Z",
   "questions": [
     {
       "keyword": "what is potassium bromate",
       "volume": 600,
+      "original_keyword": "Potassium bromate",
       "parent_topic": "potassium bromate",
       "intents": [
         "informational"
@@ -14,6 +18,7 @@
     {
       "keyword": "what foods have potassium bromate",
       "volume": 100,
+      "original_keyword": "Potassium bromate",
       "parent_topic": "list of foods with potassium bromate",
       "intents": [
         "informational"
@@ -22,7 +27,8 @@
     {
       "keyword": "what foods contain potassium bromate",
       "volume": 80,
-      "parent_topic": "list of foods with potassium bromate",
+      "original_keyword": "Potassium bromate",
+      "parent_topic": "potassium bromate",
       "intents": [
         "informational"
       ]
@@ -30,6 +36,7 @@
     {
       "keyword": "what brands use potassium bromate",
       "volume": 70,
+      "original_keyword": "Potassium bromate",
       "parent_topic": "potassium bromate foods",
       "intents": [
         "informational"
@@ -37,7 +44,8 @@
     },
     {
       "keyword": "does king arthur flour have potassium bromate",
-      "volume": 60,
+      "volume": 50,
+      "original_keyword": "Potassium bromate",
       "parent_topic": "bromated flour",
       "intents": [
         "informational",
@@ -47,6 +55,7 @@
     {
       "keyword": "what is potassium bromate in",
       "volume": 30,
+      "original_keyword": "Potassium bromate",
       "parent_topic": "potassium bromate",
       "intents": [
         "informational"
@@ -55,30 +64,36 @@
     {
       "keyword": "what is potassium bromate used for",
       "volume": 30,
+      "original_keyword": "Potassium bromate",
       "parent_topic": "what is potassium bromate",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is potassium bromate used in",
-      "volume": 30,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
       "keyword": "why is potassium bromate banned",
       "volume": 30,
+      "original_keyword": "Potassium bromate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "does gold medal flour contain potassium bromate",
       "volume": 20,
+      "original_keyword": "Potassium bromate",
       "parent_topic": "gold medal unbleached flour",
       "intents": [
         "informational",
         "branded"
+      ]
+    },
+    {
+      "keyword": "is potassium bromate bad for you",
+      "volume": 20,
+      "original_keyword": "Potassium bromate",
+      "parent_topic": "bromated flour",
+      "intents": [
+        "informational"
       ]
     }
   ]

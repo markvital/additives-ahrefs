@@ -1,11 +1,79 @@
 {
-  "keyword": "Ascorbyl stearate",
+  "keywords": [
+    "Ascorbyl stearate",
+    "E304II",
+    "E305"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.801Z",
+  "fetchedAt": "2025-10-09T03:16:34.016Z",
   "questions": [
     {
-      "keyword": "what is the e number of ascorbyl stearate",
+      "keyword": "error e305 when starting xbox one for first time",
       "volume": 0,
+      "original_keyword": "E305",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to access hard drive on toshiba satellite e305-s1990",
+      "volume": 0,
+      "original_keyword": "E305",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to add music to a sony bean nw-e305",
+      "volume": 0,
+      "original_keyword": "E305",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to change memory in toshiba satellite e305-s1990x",
+      "volume": 0,
+      "original_keyword": "E305",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to connect external audio source to radio on 2008 mercede-benz e305 sedan",
+      "volume": 0,
+      "original_keyword": "E305",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to connect external audio source to radio on 2008 mercedes-benz e305 sedan",
+      "volume": 0,
+      "original_keyword": "E305",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to fix bosch oven e305",
+      "volume": 0,
+      "original_keyword": "E305",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to fix e305 code",
+      "volume": 0,
+      "original_keyword": "E305",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to fix error e305",
+      "volume": 0,
+      "original_keyword": "E305",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to fix xbox one e305",
+      "volume": 0,
+      "original_keyword": "E305",
       "parent_topic": "",
       "intents": []
     }

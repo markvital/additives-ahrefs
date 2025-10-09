@@ -1,17 +1,50 @@
 {
-  "keyword": "Potassium fumarate",
+  "keywords": [
+    "Potassium fumarate",
+    "E366"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:39.155Z",
+  "fetchedAt": "2025-10-09T03:26:01.593Z",
   "questions": [
+    {
+      "keyword": "how to flash e366 to e347",
+      "volume": 0,
+      "original_keyword": "E366",
+      "parent_topic": "",
+      "intents": []
+    },
     {
       "keyword": "how to order potassium fumarate",
       "volume": 0,
+      "original_keyword": "Potassium fumarate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to reset e366",
+      "volume": 0,
+      "original_keyword": "E366",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is low e366",
+      "volume": 0,
+      "original_keyword": "E366",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is the e number of potassium fumarate",
       "volume": 0,
+      "original_keyword": "Potassium fumarate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what percent ir heat does low-e366 block?",
+      "volume": 0,
+      "original_keyword": "E366",
       "parent_topic": "",
       "intents": []
     }

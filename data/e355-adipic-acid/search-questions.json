@@ -1,11 +1,16 @@
 {
-  "keyword": "Adipic acid",
+  "keywords": [
+    "Adipic acid",
+    "E355",
+    "Hexanedioic acid"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.283Z",
+  "fetchedAt": "2025-10-09T03:16:32.967Z",
   "questions": [
     {
       "keyword": "what is adipic acid",
       "volume": 150,
+      "original_keyword": "Adipic acid",
       "parent_topic": "adipic acid",
       "intents": [
         "informational"
@@ -14,6 +19,7 @@
     {
       "keyword": "what is adipic acid used for",
       "volume": 20,
+      "original_keyword": "Adipic acid",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -22,12 +28,14 @@
     {
       "keyword": "how is adipic acid made",
       "volume": 10,
+      "original_keyword": "Adipic acid",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "is adipic acid polar or nonpolar",
       "volume": 10,
+      "original_keyword": "Adipic acid",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -36,38 +44,44 @@
     {
       "keyword": "is adipic acid soluble in water",
       "volume": 10,
+      "original_keyword": "Adipic acid",
       "parent_topic": "",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is adipic acid made from",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
       "keyword": "(3) could you substitute adipoyl chloride with adipic acid in this reaction? explain why or why not",
       "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "adipic acid why doesn’t the temperature of the reaction mixture rise before the addition of naoh?",
-      "volume": 0,
+      "original_keyword": "Adipic acid",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "considering the structure of adipic acid, explain why it has soe solubility",
       "volume": 0,
+      "original_keyword": "Adipic acid",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "could you substitute adipoyl chloride with adipic acid in this reaction? explain why or why not",
+      "keyword": "how can i buy adipic acid",
       "volume": 0,
+      "original_keyword": "Adipic acid",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how do we get adipic acid",
+      "volume": 0,
+      "original_keyword": "Adipic acid",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how does e355 works",
+      "volume": 0,
+      "original_keyword": "E355",
       "parent_topic": "",
       "intents": []
     }

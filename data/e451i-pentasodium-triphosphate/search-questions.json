@@ -1,43 +1,84 @@
 {
-  "keyword": "Pentasodium triphosphate",
+  "keywords": [
+    "Pentasodium triphosphate",
+    "E451I",
+    "Pentasodium tripolyphosphate",
+    "Sodium triphosphate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:30.662Z",
+  "fetchedAt": "2025-10-09T03:25:48.082Z",
   "questions": [
+    {
+      "keyword": "what is sodium triphosphate",
+      "volume": 60,
+      "original_keyword": "Sodium triphosphate",
+      "parent_topic": "sodium tripolyphosphate",
+      "intents": [
+        "informational"
+      ]
+    },
     {
       "keyword": "what is pentasodium triphosphate",
       "volume": 20,
+      "original_keyword": "Pentasodium triphosphate",
       "parent_topic": "",
       "intents": [
         "informational"
       ]
     },
     {
+      "keyword": "how many formula units of magnesium phosphate will be produced from 35.8 g of sodium triphosphate",
+      "volume": 0,
+      "original_keyword": "Sodium triphosphate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much sodium triphosphate in dish soap",
+      "volume": 0,
+      "original_keyword": "Sodium triphosphate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what chemistry experiment to do with sodium triphosphate",
+      "volume": 0,
+      "original_keyword": "Sodium triphosphate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
       "keyword": "what is pentasodium triphosphate toothpaste",
       "volume": 0,
+      "original_keyword": "Pentasodium triphosphate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is pentasodium triphosphate used for",
       "volume": 0,
+      "original_keyword": "Pentasodium triphosphate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is pentasodium triphosphate used in",
       "volume": 0,
+      "original_keyword": "Pentasodium triphosphate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is pentasodium triphosphate?",
       "volume": 0,
+      "original_keyword": "Pentasodium triphosphate",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "why is pentasodium triphosphate used in toothpaste",
+      "keyword": "what is pentasodium tripolyphosphate?",
       "volume": 0,
+      "original_keyword": "Pentasodium tripolyphosphate",
       "parent_topic": "",
       "intents": []
     }

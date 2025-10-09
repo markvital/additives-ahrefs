@@ -1,6 +1,60 @@
 {
-  "keyword": "Calcium bisulphite",
+  "keywords": [
+    "Calcium bisulphite",
+    "E227",
+    "Calcium bisulfite"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.212Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:20:42.037Z",
+  "questions": [
+    {
+      "keyword": "e220 – e227 preservatives first used in what year",
+      "volume": 0,
+      "original_keyword": "E227",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to write calcium bisulfite",
+      "volume": 0,
+      "original_keyword": "Calcium bisulfite",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is e227",
+      "volume": 0,
+      "original_keyword": "E227",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is pill e227",
+      "volume": 0,
+      "original_keyword": "E227",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the e number of calcium bisulfite",
+      "volume": 0,
+      "original_keyword": "Calcium bisulfite",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the formula for calcium bisulfite",
+      "volume": 0,
+      "original_keyword": "Calcium bisulfite",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "where is src src e227 room + dvc",
+      "volume": 0,
+      "original_keyword": "E227",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

@@ -1,6 +1,38 @@
 {
-  "keyword": "Oxidised polyethylene wax",
+  "keywords": [
+    "Oxidised polyethylene wax",
+    "E914"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:28.460Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:25:42.629Z",
+  "questions": [
+    {
+      "keyword": "what is e914",
+      "volume": 0,
+      "original_keyword": "E914",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is e914 in food",
+      "volume": 0,
+      "original_keyword": "E914",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what size bolts for bwd e914",
+      "volume": 0,
+      "original_keyword": "E914",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what size bolts for bwd e914 coil",
+      "volume": 0,
+      "original_keyword": "E914",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

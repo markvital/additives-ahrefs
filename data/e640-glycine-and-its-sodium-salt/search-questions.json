@@ -1,6 +1,80 @@
 {
-  "keyword": "Glycine and its sodium salt",
+  "keywords": [
+    "Glycine and its sodium salt",
+    "E640"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:45.778Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:21:54.911Z",
+  "questions": [
+    {
+      "keyword": "clean install on dell e640 which drivers",
+      "volume": 0,
+      "original_keyword": "E640",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "einstein e640 not working when hot",
+      "volume": 0,
+      "original_keyword": "E640",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how many times has einstein e640 flash fired",
+      "volume": 0,
+      "original_keyword": "E640",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to do flash exposure bracketing with einstein e640",
+      "volume": 0,
+      "original_keyword": "E640",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to fix a dell latitude e640",
+      "volume": 0,
+      "original_keyword": "E640",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to get hss einstein e640",
+      "volume": 0,
+      "original_keyword": "E640",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to reset password on fel e640",
+      "volume": 0,
+      "original_keyword": "E640",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to restart e640 without monitor",
+      "volume": 0,
+      "original_keyword": "E640",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to shoot with einstein e640 product shot",
+      "volume": 0,
+      "original_keyword": "E640",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to shot with einstein e640 product shot",
+      "volume": 0,
+      "original_keyword": "E640",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

@@ -1,11 +1,15 @@
 {
-  "keyword": "Calcium chloride",
+  "keywords": [
+    "Calcium chloride",
+    "E509"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.181Z",
+  "fetchedAt": "2025-10-09T03:20:42.264Z",
   "questions": [
     {
       "keyword": "what is calcium chloride",
       "volume": 6000,
+      "original_keyword": "Calcium chloride",
       "parent_topic": "calcium chloride",
       "intents": [
         "informational"
@@ -14,6 +18,7 @@
     {
       "keyword": "is calcium chloride safe",
       "volume": 2200,
+      "original_keyword": "Calcium chloride",
       "parent_topic": "is calcium chloride safe",
       "intents": [
         "informational"
@@ -21,7 +26,8 @@
     },
     {
       "keyword": "is calcium chloride bad for you",
-      "volume": 700,
+      "volume": 800,
+      "original_keyword": "Calcium chloride",
       "parent_topic": "is calcium chloride bad for you",
       "intents": [
         "informational"
@@ -30,6 +36,7 @@
     {
       "keyword": "is calcium chloride safe for pets",
       "volume": 700,
+      "original_keyword": "Calcium chloride",
       "parent_topic": "is calcium chloride safe for pets to walk on",
       "intents": [
         "informational"
@@ -38,6 +45,7 @@
     {
       "keyword": "what is calcium chloride used for",
       "volume": 700,
+      "original_keyword": "Calcium chloride",
       "parent_topic": "what is calcium chloride",
       "intents": [
         "informational"
@@ -46,6 +54,7 @@
     {
       "keyword": "what is calcium chloride in food",
       "volume": 450,
+      "original_keyword": "Calcium chloride",
       "parent_topic": "calcium chloride in food",
       "intents": [
         "informational"
@@ -54,6 +63,7 @@
     {
       "keyword": "is calcium chloride safe for concrete",
       "volume": 400,
+      "original_keyword": "Calcium chloride",
       "parent_topic": "calcium chloride on concrete",
       "intents": [
         "informational"
@@ -62,6 +72,7 @@
     {
       "keyword": "why is calcium chloride in water",
       "volume": 350,
+      "original_keyword": "Calcium chloride",
       "parent_topic": "why is calcium chloride in water",
       "intents": [
         "informational"
@@ -70,6 +81,7 @@
     {
       "keyword": "where to buy calcium chloride",
       "volume": 300,
+      "original_keyword": "Calcium chloride",
       "parent_topic": "calcium chloride pellets",
       "intents": [
         "commercial",
@@ -79,6 +91,7 @@
     {
       "keyword": "is calcium chloride good for you",
       "volume": 250,
+      "original_keyword": "Calcium chloride",
       "parent_topic": "is calcium chloride safe",
       "intents": [
         "informational"

@@ -1,11 +1,16 @@
 {
-  "keyword": "Argon",
+  "keywords": [
+    "Argon",
+    "E938",
+    "element 18"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.680Z",
+  "fetchedAt": "2025-10-09T03:16:34.037Z",
   "questions": [
     {
       "keyword": "how many valence electrons does argon have",
-      "volume": 1900,
+      "volume": 1600,
+      "original_keyword": "Argon",
       "parent_topic": "how many valence electrons does argon have",
       "intents": [
         "informational"
@@ -14,6 +19,7 @@
     {
       "keyword": "what is argon used for",
       "volume": 1600,
+      "original_keyword": "Argon",
       "parent_topic": "argon",
       "intents": [
         "informational"
@@ -22,6 +28,7 @@
     {
       "keyword": "what is argon",
       "volume": 1500,
+      "original_keyword": "Argon",
       "parent_topic": "argon",
       "intents": [
         "informational"
@@ -30,7 +37,17 @@
     {
       "keyword": "how many neutrons does argon have",
       "volume": 800,
+      "original_keyword": "Argon",
       "parent_topic": "how many neutrons does argon have",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is argon flammable",
+      "volume": 800,
+      "original_keyword": "Argon",
+      "parent_topic": "is argon flammable",
       "intents": [
         "informational"
       ]
@@ -38,15 +55,8 @@
     {
       "keyword": "is argon a noble gas",
       "volume": 700,
+      "original_keyword": "Argon",
       "parent_topic": "argon",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is argon flammable",
-      "volume": 700,
-      "parent_topic": "is argon flammable",
       "intents": [
         "informational"
       ]
@@ -54,6 +64,7 @@
     {
       "keyword": "is argon a gas",
       "volume": 450,
+      "original_keyword": "Argon",
       "parent_topic": "argon",
       "intents": [
         "informational"
@@ -62,6 +73,16 @@
     {
       "keyword": "what is argon gas",
       "volume": 450,
+      "original_keyword": "Argon",
+      "parent_topic": "argon",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how many electrons does argon have",
+      "volume": 400,
+      "original_keyword": "Argon",
       "parent_topic": "argon",
       "intents": [
         "informational"
@@ -70,15 +91,8 @@
     {
       "keyword": "how many protons does argon have",
       "volume": 400,
-      "parent_topic": "ar number of protons",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is argon a greenhouse gas",
-      "volume": 400,
-      "parent_topic": "is argon a greenhouse gas",
+      "original_keyword": "Argon",
+      "parent_topic": "argon element",
       "intents": [
         "informational"
       ]

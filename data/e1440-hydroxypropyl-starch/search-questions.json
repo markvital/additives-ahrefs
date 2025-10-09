@@ -1,65 +1,78 @@
 {
-  "keyword": "Hydroxypropyl starch",
+  "keywords": [
+    "Hydroxypropyl starch",
+    "E1440"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:23:54.952Z",
+  "fetchedAt": "2025-10-09T03:23:39.615Z",
   "questions": [
     {
       "keyword": "what is hydroxypropyl starch phosphate",
       "volume": 10,
+      "original_keyword": "Hydroxypropyl starch",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how to make boba with hydroxypropyl starch",
       "volume": 0,
+      "original_keyword": "Hydroxypropyl starch",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what does sodium hydroxypropyl starch phosphate dp",
       "volume": 0,
+      "original_keyword": "Hydroxypropyl starch",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what foods contain hydroxypropyl starch",
       "volume": 0,
+      "original_keyword": "Hydroxypropyl starch",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is hydroxypropyl starch",
       "volume": 0,
+      "original_keyword": "Hydroxypropyl starch",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is hydroxypropyl starch made of",
       "volume": 0,
+      "original_keyword": "Hydroxypropyl starch",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is hydroxypropyl starch phosphate.",
       "volume": 0,
+      "original_keyword": "Hydroxypropyl starch",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is sodium hydroxypropyl starch phosphate",
       "volume": 0,
+      "original_keyword": "Hydroxypropyl starch",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "where to buy hydroxypropyl starch phosphate",
       "volume": 0,
+      "original_keyword": "Hydroxypropyl starch",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "why use hydroxypropyl starch phosphate",
       "volume": 0,
+      "original_keyword": "Hydroxypropyl starch",
       "parent_topic": "",
       "intents": []
     }

@@ -1,11 +1,15 @@
 {
-  "keyword": "Butane",
+  "keywords": [
+    "Butane",
+    "E943A"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.862Z",
+  "fetchedAt": "2025-10-09T03:16:34.684Z",
   "questions": [
     {
       "keyword": "how to refill a butane lighter",
       "volume": 2700,
+      "original_keyword": "Butane",
       "parent_topic": "how to refill a butane lighter",
       "intents": [
         "informational"
@@ -14,6 +18,7 @@
     {
       "keyword": "what is butane",
       "volume": 1800,
+      "original_keyword": "Butane",
       "parent_topic": "butane fuel",
       "intents": [
         "informational"
@@ -22,6 +27,7 @@
     {
       "keyword": "how to fill a butane lighter",
       "volume": 1700,
+      "original_keyword": "Butane",
       "parent_topic": "how to refill a butane lighter",
       "intents": [
         "informational"
@@ -29,8 +35,9 @@
     },
     {
       "keyword": "how to refill butane lighter",
-      "volume": 1000,
-      "parent_topic": "butane refill",
+      "volume": 1100,
+      "original_keyword": "Butane",
+      "parent_topic": "how to fill a butane lighter",
       "intents": [
         "informational"
       ]
@@ -38,6 +45,7 @@
     {
       "keyword": "where to buy butane",
       "volume": 1000,
+      "original_keyword": "Butane",
       "parent_topic": "butane delivery",
       "intents": [
         "informational",
@@ -48,22 +56,36 @@
     {
       "keyword": "how to fill butane lighter",
       "volume": 900,
+      "original_keyword": "Butane",
       "parent_topic": "butane refill",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "how to refill butane torch",
+      "keyword": "where to buy butane refill",
       "volume": 500,
+      "original_keyword": "Butane",
+      "parent_topic": "butane lighter refill",
+      "intents": [
+        "informational",
+        "commercial",
+        "transactional"
+      ]
+    },
+    {
+      "keyword": "how to fill butane torch",
+      "volume": 450,
+      "original_keyword": "Butane",
       "parent_topic": "how to refill butane torch",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "how to fill butane torch",
+      "keyword": "how to refill butane torch",
       "volume": 450,
+      "original_keyword": "Butane",
       "parent_topic": "how to refill butane torch",
       "intents": [
         "informational"
@@ -72,19 +94,10 @@
     {
       "keyword": "what is butane used for",
       "volume": 450,
+      "original_keyword": "Butane",
       "parent_topic": "what is butane",
       "intents": [
         "informational"
-      ]
-    },
-    {
-      "keyword": "where to buy butane refill",
-      "volume": 450,
-      "parent_topic": "butane lighter refill",
-      "intents": [
-        "informational",
-        "commercial",
-        "transactional"
       ]
     }
   ]

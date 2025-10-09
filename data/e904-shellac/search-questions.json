@@ -1,11 +1,16 @@
 {
-  "keyword": "Shellac",
+  "keywords": [
+    "Shellac",
+    "E904",
+    "Bleached shellac"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:48.470Z",
+  "fetchedAt": "2025-10-09T03:29:18.596Z",
   "questions": [
     {
       "keyword": "what is shellac",
       "volume": 3500,
+      "original_keyword": "Shellac",
       "parent_topic": "shellac",
       "intents": [
         "informational"
@@ -14,6 +19,7 @@
     {
       "keyword": "what is shellac nails",
       "volume": 1500,
+      "original_keyword": "Shellac",
       "parent_topic": "what is shellac nails",
       "intents": [
         "informational",
@@ -23,6 +29,7 @@
     {
       "keyword": "how to remove shellac nail polish",
       "volume": 900,
+      "original_keyword": "Shellac",
       "parent_topic": "how to remove shellac nail polish",
       "intents": [
         "informational"
@@ -31,6 +38,7 @@
     {
       "keyword": "is shellac the same as gel",
       "volume": 800,
+      "original_keyword": "Shellac",
       "parent_topic": "shellac vs gel",
       "intents": [
         "informational"
@@ -39,6 +47,7 @@
     {
       "keyword": "what is a shellac manicure",
       "volume": 700,
+      "original_keyword": "Shellac",
       "parent_topic": "what is shellac nails",
       "intents": [
         "informational",
@@ -48,6 +57,7 @@
     {
       "keyword": "what are shellac nails",
       "volume": 500,
+      "original_keyword": "Shellac",
       "parent_topic": "what is shellac nails",
       "intents": [
         "informational"
@@ -56,6 +66,7 @@
     {
       "keyword": "what is shellac made of",
       "volume": 500,
+      "original_keyword": "Shellac",
       "parent_topic": "what is shellac",
       "intents": [
         "informational"
@@ -64,6 +75,7 @@
     {
       "keyword": "how long does shellac last",
       "volume": 450,
+      "original_keyword": "Shellac",
       "parent_topic": "how long does shellac last",
       "intents": [
         "informational",
@@ -73,6 +85,7 @@
     {
       "keyword": "what is shellac manicure",
       "volume": 400,
+      "original_keyword": "Shellac",
       "parent_topic": "what is shellac nails",
       "intents": [
         "informational",
@@ -80,11 +93,13 @@
       ]
     },
     {
-      "keyword": "what is shellac used for",
-      "volume": 350,
-      "parent_topic": "what is shellac",
+      "keyword": "how to remove shellac",
+      "volume": 300,
+      "original_keyword": "Shellac",
+      "parent_topic": "how to remove shellac nail polish",
       "intents": [
-        "informational"
+        "informational",
+        "branded"
       ]
     }
   ]

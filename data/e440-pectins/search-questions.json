@@ -1,69 +1,101 @@
 {
-  "keyword": "Pectins",
+  "keywords": [
+    "Pectins",
+    "E440",
+    "pectin"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:30.419Z",
+  "fetchedAt": "2025-10-09T03:25:45.717Z",
   "questions": [
     {
-      "keyword": "what are pectins",
-      "volume": 30,
+      "keyword": "what is pectin",
+      "volume": 12000,
+      "original_keyword": "pectin",
       "parent_topic": "pectin",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is pectins",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is fruit pectin",
+      "volume": 2000,
+      "original_keyword": "pectin",
+      "parent_topic": "what is pectin",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "\"which of the following includes lignin, cellulose, gums, and pectins?\"",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "is pectin bad for you",
+      "volume": 1400,
+      "original_keyword": "pectin",
+      "parent_topic": "what is pectin",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "how do pectins work",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is pectin made of",
+      "volume": 1400,
+      "original_keyword": "pectin",
+      "parent_topic": "pectin",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "how does the breakdown of grape pectins and polysaccharides affect wine quality?",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "is pectin vegan",
+      "volume": 1300,
+      "original_keyword": "pectin",
+      "parent_topic": "is pectin vegan",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "how pectins kill good bacteria",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is pectin used for",
+      "volume": 700,
+      "original_keyword": "pectin",
+      "parent_topic": "pectin",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "pectins are a type of fiber which",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "why is pectin bad for you",
+      "volume": 700,
+      "original_keyword": "pectin",
+      "parent_topic": "what is pectin",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "pectins are what",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "is pectin gluten free",
+      "volume": 450,
+      "original_keyword": "pectin",
+      "parent_topic": "is pectin gluten free",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "pectins are what fibers",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "is pectin the same as gelatin",
+      "volume": 400,
+      "original_keyword": "pectin",
+      "parent_topic": "pectin vs gelatin",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "what are cellulose, pectins, lignins, mucilages, and gums all considered?",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what does pectin do",
+      "volume": 350,
+      "original_keyword": "pectin",
+      "parent_topic": "apple pectin",
+      "intents": [
+        "informational"
+      ]
     }
   ]
 }

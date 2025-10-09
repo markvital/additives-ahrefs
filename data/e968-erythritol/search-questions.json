@@ -1,11 +1,19 @@
 {
-  "keyword": "Erythritol",
+  "keywords": [
+    "Erythritol",
+    "E968",
+    "Meso-erythritol",
+    "Tetrahydroxybutane",
+    "E-968",
+    "E 968"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:16:17.003Z",
+  "fetchedAt": "2025-10-09T03:23:25.877Z",
   "questions": [
     {
       "keyword": "what is erythritol",
       "volume": 21000,
+      "original_keyword": "Erythritol",
       "parent_topic": "erythritol",
       "intents": [
         "informational"
@@ -13,7 +21,8 @@
     },
     {
       "keyword": "is erythritol bad for you",
-      "volume": 7500,
+      "volume": 7400,
+      "original_keyword": "Erythritol",
       "parent_topic": "is erythritol bad for you",
       "intents": [
         "informational"
@@ -22,6 +31,7 @@
     {
       "keyword": "what are the dangers of erythritol",
       "volume": 4100,
+      "original_keyword": "Erythritol",
       "parent_topic": "what are the dangers of erythritol",
       "intents": [
         "informational"
@@ -29,7 +39,8 @@
     },
     {
       "keyword": "is erythritol safe",
-      "volume": 3000,
+      "volume": 2900,
+      "original_keyword": "Erythritol",
       "parent_topic": "is erythritol bad for you",
       "intents": [
         "informational"
@@ -38,6 +49,7 @@
     {
       "keyword": "what is erythritol made from",
       "volume": 800,
+      "original_keyword": "Erythritol",
       "parent_topic": "erythritol",
       "intents": [
         "informational"
@@ -46,6 +58,7 @@
     {
       "keyword": "does erythritol raise blood sugar",
       "volume": 600,
+      "original_keyword": "Erythritol",
       "parent_topic": "is erythritol bad for you",
       "intents": [
         "informational"
@@ -54,6 +67,7 @@
     {
       "keyword": "erythritol what is it",
       "volume": 600,
+      "original_keyword": "Erythritol",
       "parent_topic": "erythritol",
       "intents": [
         "informational"
@@ -62,6 +76,7 @@
     {
       "keyword": "is erythritol bad for dogs",
       "volume": 500,
+      "original_keyword": "Erythritol",
       "parent_topic": "can dogs have stevia",
       "intents": [
         "informational"
@@ -70,6 +85,7 @@
     {
       "keyword": "does stevia have erythritol",
       "volume": 400,
+      "original_keyword": "Erythritol",
       "parent_topic": "stevia dangers",
       "intents": [
         "informational"
@@ -78,6 +94,7 @@
     {
       "keyword": "is erythritol safe for dogs",
       "volume": 400,
+      "original_keyword": "Erythritol",
       "parent_topic": "can dogs have stevia",
       "intents": [
         "informational"

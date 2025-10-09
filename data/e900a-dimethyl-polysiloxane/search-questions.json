@@ -1,31 +1,106 @@
 {
-  "keyword": "Dimethyl polysiloxane",
+  "keywords": [
+    "Dimethyl polysiloxane",
+    "E900A",
+    "Polydimethyl siloxane",
+    "Silicone fluid",
+    "Silicone oil",
+    "Polydimethylsiloxane",
+    "dimethicone",
+    "dimethylpolysiloxane"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.828Z",
+  "fetchedAt": "2025-10-09T03:23:22.245Z",
   "questions": [
     {
-      "keyword": "what is dimethyl polysiloxane",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is dimethicone",
+      "volume": 2900,
+      "original_keyword": "dimethicone",
+      "parent_topic": "dimethicone",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "how is diphenyl dimethyl polysiloxane",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "is dimethicone bad for skin",
+      "volume": 900,
+      "original_keyword": "dimethicone",
+      "parent_topic": "is dimethicone bad for skin",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "why use dimethyl polysiloxane for fire debris",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "is dimethicone bad for hair",
+      "volume": 700,
+      "original_keyword": "dimethicone",
+      "parent_topic": "dimethicone for hair",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "why use dimethyl polysiloxane for firedebris",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "is dimethicone a silicone",
+      "volume": 600,
+      "original_keyword": "dimethicone",
+      "parent_topic": "dimethicone",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does dimethicone clog pores",
+      "volume": 250,
+      "original_keyword": "dimethicone",
+      "parent_topic": "does dimethicone clog pores",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is dimethicone safe",
+      "volume": 250,
+      "original_keyword": "dimethicone",
+      "parent_topic": "dimethicone",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does dimethicone kill lice eggs",
+      "volume": 200,
+      "original_keyword": "dimethicone",
+      "parent_topic": "does dimethicone kill lice eggs",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is dimethicone safe for skin",
+      "volume": 200,
+      "original_keyword": "dimethicone",
+      "parent_topic": "dimethicone",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is dimethicone used for",
+      "volume": 200,
+      "original_keyword": "dimethicone",
+      "parent_topic": "dimethicone",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is dimethylpolysiloxane",
+      "volume": 200,
+      "original_keyword": "dimethylpolysiloxane",
+      "parent_topic": "pdms",
+      "intents": [
+        "informational"
+      ]
     }
   ]
 }

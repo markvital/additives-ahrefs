@@ -1,29 +1,36 @@
 {
-  "keyword": "Amidated pectin",
+  "keywords": [
+    "Amidated pectin",
+    "E440II"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.261Z",
+  "fetchedAt": "2025-10-09T03:16:32.279Z",
   "questions": [
     {
       "keyword": "what is amidated pectin",
       "volume": 10,
+      "original_keyword": "Amidated pectin",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how to tell if your pectin is amidated",
       "volume": 0,
+      "original_keyword": "Amidated pectin",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "less reactive types of amidated pectin where to buy",
       "volume": 0,
+      "original_keyword": "Amidated pectin",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is non-amidated pectin",
       "volume": 0,
+      "original_keyword": "Amidated pectin",
       "parent_topic": "",
       "intents": []
     }

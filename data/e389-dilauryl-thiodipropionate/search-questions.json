@@ -1,11 +1,36 @@
 {
-  "keyword": "E389",
+  "keywords": [
+    "Dilauryl thiodipropionate",
+    "E389"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:45.276Z",
+  "fetchedAt": "2025-10-09T03:21:52.848Z",
   "questions": [
+    {
+      "keyword": "how dilauryl thiodipropionate is made",
+      "volume": 0,
+      "original_keyword": "Dilauryl thiodipropionate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is dilauryl thiodipropionate",
+      "volume": 0,
+      "original_keyword": "Dilauryl thiodipropionate",
+      "parent_topic": "",
+      "intents": []
+    },
     {
       "keyword": "what is e389",
       "volume": 0,
+      "original_keyword": "E389",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the e number of dilauryl thiodipropionate",
+      "volume": 0,
+      "original_keyword": "Dilauryl thiodipropionate",
       "parent_topic": "",
       "intents": []
     }

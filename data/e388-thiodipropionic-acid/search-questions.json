@@ -1,17 +1,50 @@
 {
-  "keyword": "Thiodipropionic acid",
+  "keywords": [
+    "Thiodipropionic acid",
+    "E388"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:19:04.561Z",
+  "fetchedAt": "2025-10-09T03:30:03.065Z",
   "questions": [
+    {
+      "keyword": "e388 girlsdoporn who",
+      "volume": 0,
+      "original_keyword": "E388",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "girlsdoporn e388 who is she",
+      "volume": 0,
+      "original_keyword": "E388",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to get notifications on my gear fit e388",
+      "volume": 0,
+      "original_keyword": "E388",
+      "parent_topic": "",
+      "intents": []
+    },
     {
       "keyword": "thiodipropionic acid what is",
       "volume": 0,
+      "original_keyword": "Thiodipropionic acid",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what are the differences between channellock e388 xlt and e388 xlt hl",
+      "volume": 0,
+      "original_keyword": "E388",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is thiodipropionic acid",
       "volume": 0,
+      "original_keyword": "Thiodipropionic acid",
       "parent_topic": "",
       "intents": []
     }

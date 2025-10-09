@@ -1,6 +1,41 @@
 {
-  "keyword": "Neohesperidine dihydrochalcone",
+  "keywords": [
+    "Neohesperidine dihydrochalcone",
+    "E959",
+    "Neohesperidin dihydrochalcone",
+    "Neohesperidine DC",
+    "NHDC"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:24.882Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:25:38.859Z",
+  "questions": [
+    {
+      "keyword": "how to apply for an nhdc house in mauritius",
+      "volume": 0,
+      "original_keyword": "NHDC",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is neohesperidin dihydrochalcone",
+      "volume": 0,
+      "original_keyword": "Neohesperidin dihydrochalcone",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is nhdc",
+      "volume": 0,
+      "original_keyword": "NHDC",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "who is hyal.com/nhdc",
+      "volume": 0,
+      "original_keyword": "NHDC",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

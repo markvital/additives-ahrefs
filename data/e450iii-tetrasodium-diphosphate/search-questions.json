@@ -1,13 +1,104 @@
 {
-  "keyword": "Tetrasodium diphosphate",
+  "keywords": [
+    "Tetrasodium diphosphate",
+    "E450III",
+    "Tetrasodium pyrophosphate",
+    "Tetrasodium disphosphate",
+    "sodium pyrophosphate",
+    "TSPP"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:19:04.776Z",
+  "fetchedAt": "2025-10-09T03:30:04.999Z",
   "questions": [
     {
-      "keyword": "what is tetrasodium diphosphate",
-      "volume": 0,
+      "keyword": "what is sodium acid pyrophosphate",
+      "volume": 400,
+      "original_keyword": "sodium pyrophosphate",
+      "parent_topic": "sodium acid pyrophosphate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is tetrasodium pyrophosphate",
+      "volume": 150,
+      "original_keyword": "Tetrasodium pyrophosphate",
+      "parent_topic": "tetrasodium pyrophosphate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sodium acid pyrophosphate bad for you",
+      "volume": 100,
+      "original_keyword": "sodium pyrophosphate",
+      "parent_topic": "sodium acid pyrophosphate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sodium acid pyrophosphate gluten free",
+      "volume": 40,
+      "original_keyword": "sodium pyrophosphate",
+      "parent_topic": "is sodium acid pyrophosphate gluten free",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is sodium pyrophosphate",
+      "volume": 40,
+      "original_keyword": "sodium pyrophosphate",
+      "parent_topic": "tetrasodium pyrophosphate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is tetrasodium pyrophosphate safe",
+      "volume": 30,
+      "original_keyword": "Tetrasodium pyrophosphate",
+      "parent_topic": "tetrasodium pyrophosphate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sodium acid pyrophosphate safe",
+      "volume": 20,
+      "original_keyword": "sodium pyrophosphate",
+      "parent_topic": "sodium acid pyrophosphate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sodium acid pyrophosphate vegan",
+      "volume": 20,
+      "original_keyword": "sodium pyrophosphate",
+      "parent_topic": "is sodium acid pyrophosphate gluten free",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is tetrasodium pyrophosphate gluten free",
+      "volume": 20,
+      "original_keyword": "Tetrasodium pyrophosphate",
+      "parent_topic": "is tetrasodium pyrophosphate gluten free",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is sodium acid pyrophosphate in food",
+      "volume": 20,
+      "original_keyword": "sodium pyrophosphate",
       "parent_topic": "",
-      "intents": []
+      "intents": [
+        "informational"
+      ]
     }
   ]
 }

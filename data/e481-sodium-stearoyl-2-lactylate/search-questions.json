@@ -1,15 +1,89 @@
 {
-  "keyword": "Sodium stearoyl-2-lactylate",
+  "keywords": [
+    "Sodium stearoyl-2-lactylate",
+    "E481",
+    "Sodium stearoyl lactylate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:25:14.304Z",
+  "fetchedAt": "2025-10-09T03:29:36.529Z",
   "questions": [
     {
-      "keyword": "what is sodium stearoyl-2-lactylate",
-      "volume": 0,
-      "parent_topic": "",
+      "keyword": "what is sodium stearoyl lactylate",
+      "volume": 100,
+      "original_keyword": "Sodium stearoyl lactylate",
+      "parent_topic": "sodium stearoyl lactylate",
       "intents": [
         "informational"
       ]
+    },
+    {
+      "keyword": "is sodium stearoyl lactylate dairy",
+      "volume": 60,
+      "original_keyword": "Sodium stearoyl lactylate",
+      "parent_topic": "is sodium stearoyl lactylate dairy",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sodium stearoyl lactylate bad for you",
+      "volume": 40,
+      "original_keyword": "Sodium stearoyl lactylate",
+      "parent_topic": "sodium stearoyl lactylate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sodium stearoyl lactylate vegan",
+      "volume": 30,
+      "original_keyword": "Sodium stearoyl lactylate",
+      "parent_topic": "is sodium stearoyl lactylate vegan",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is sodium stearoyl lactylate made of",
+      "volume": 20,
+      "original_keyword": "Sodium stearoyl lactylate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how is sodium stearoyl lactylate made",
+      "volume": 0,
+      "original_keyword": "Sodium stearoyl lactylate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to use sodium stearoyl lactylate",
+      "volume": 0,
+      "original_keyword": "Sodium stearoyl lactylate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "sodium stearoyl lactylate in what",
+      "volume": 0,
+      "original_keyword": "Sodium stearoyl lactylate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "sodium stearoyl lactylate what kind of emulsifier",
+      "volume": 0,
+      "original_keyword": "Sodium stearoyl lactylate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "sodium stearoyl lactylate what kind of emulsifier o/w doe it make",
+      "volume": 0,
+      "original_keyword": "Sodium stearoyl lactylate",
+      "parent_topic": "",
+      "intents": []
     }
   ]
 }

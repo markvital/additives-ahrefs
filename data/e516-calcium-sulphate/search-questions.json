@@ -1,73 +1,104 @@
 {
-  "keyword": "Calcium sulphate",
+  "keywords": [
+    "Calcium sulphate",
+    "E516",
+    "Gypsum",
+    "Selenite",
+    "Calcium sulfate",
+    "calcium sulfate added to prevent caking"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.346Z",
+  "fetchedAt": "2025-10-09T03:20:49.972Z",
   "questions": [
     {
-      "keyword": "what is calcium sulphate",
-      "volume": 30,
+      "keyword": "what is gypsum",
+      "volume": 3700,
+      "original_keyword": "Gypsum",
+      "parent_topic": "gypsum",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is gypsum used for",
+      "volume": 1300,
+      "original_keyword": "Gypsum",
+      "parent_topic": "gypsum",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is gypsum board",
+      "volume": 1100,
+      "original_keyword": "Gypsum",
+      "parent_topic": "gypsum board",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is selenite",
+      "volume": 700,
+      "original_keyword": "Selenite",
+      "parent_topic": "selenite",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does gypsum do for soil",
+      "volume": 500,
+      "original_keyword": "Gypsum",
+      "parent_topic": "gypsum for soil",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is selenite good for",
+      "volume": 450,
+      "original_keyword": "Selenite",
+      "parent_topic": "selenite properties",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is calcium sulfate",
+      "volume": 400,
+      "original_keyword": "Calcium sulfate",
       "parent_topic": "calcium sulfate",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "is calcium sulphate soluble",
-      "volume": 10,
-      "parent_topic": "",
+      "keyword": "how to cleanse selenite",
+      "volume": 350,
+      "original_keyword": "Selenite",
+      "parent_topic": "does selenite need to be cleansed",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is calcium sulphate used for",
-      "volume": 10,
-      "parent_topic": "",
+      "keyword": "how much gypsum to add to soil",
+      "volume": 300,
+      "original_keyword": "Gypsum",
+      "parent_topic": "how much gypsum to add to soil",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "why is anhydrous calcium sulphate a good desiccant",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "calcium sulphate how to get it",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "companies where calcium sulphate(plaster of paris) is produced",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how calcium sulphate is formed",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how dissolve calcium sulphate",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how is calcium sulphate formed in water",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how many atoms of oxygen are there in one molecule of calcium sulphate",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is selenite used for",
+      "volume": 300,
+      "original_keyword": "Selenite",
+      "parent_topic": "selenite crystal",
+      "intents": [
+        "informational"
+      ]
     }
   ]
 }

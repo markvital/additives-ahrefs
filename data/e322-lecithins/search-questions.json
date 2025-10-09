@@ -1,11 +1,16 @@
 {
-  "keyword": "Lecithins",
+  "keywords": [
+    "Lecithins",
+    "E322",
+    "Phosphatides"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:13.637Z",
+  "fetchedAt": "2025-10-09T03:23:48.969Z",
   "questions": [
     {
       "keyword": "are lecithins bad for you",
       "volume": 50,
+      "original_keyword": "Lecithins",
       "parent_topic": "lecithin",
       "intents": [
         "informational"
@@ -14,56 +19,65 @@
     {
       "keyword": "what are soya lecithins",
       "volume": 20,
+      "original_keyword": "Lecithins",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is soya lecithins",
       "volume": 20,
+      "original_keyword": "Lecithins",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what are lecithins",
       "volume": 10,
+      "original_keyword": "Lecithins",
       "parent_topic": "",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what are lecithins in food",
+      "keyword": "what are phosphatides",
       "volume": 10,
+      "original_keyword": "Phosphatides",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "lecithins are phosphoglycerides where",
+      "keyword": "ammonium phosphatides in what products",
       "volume": 0,
+      "original_keyword": "Phosphatides",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "lecithins are phosphoglycerides where the fatty acid is",
+      "keyword": "compound 1 is a member of which class of lipid molecules phosphatides",
       "volume": 0,
+      "original_keyword": "Phosphatides",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "lecithins is what",
+      "keyword": "e322 food additive lecithin what is e322",
       "volume": 0,
+      "original_keyword": "E322",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "vegetarians do not produce lecithins this when they eat meat",
+      "keyword": "e322 lecithin soya where to buy",
       "volume": 0,
+      "original_keyword": "E322",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what are lecithins and cephalin",
+      "keyword": "how to make channel number display bigger vizio e322",
       "volume": 0,
+      "original_keyword": "E322",
       "parent_topic": "",
       "intents": []
     }

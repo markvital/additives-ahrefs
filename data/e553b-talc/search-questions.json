@@ -1,11 +1,17 @@
 {
-  "keyword": "Talc",
+  "keywords": [
+    "Talc",
+    "E553B",
+    "talcum",
+    "hydrated magnesium silicate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:19:04.801Z",
+  "fetchedAt": "2025-10-09T03:30:01.486Z",
   "questions": [
     {
       "keyword": "what is talc",
       "volume": 3400,
+      "original_keyword": "Talc",
       "parent_topic": "talc",
       "intents": [
         "informational"
@@ -13,8 +19,18 @@
     },
     {
       "keyword": "is talc bad for you",
-      "volume": 2500,
+      "volume": 2400,
+      "original_keyword": "Talc",
       "parent_topic": "is talc bad for you",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is talcum powder",
+      "volume": 1800,
+      "original_keyword": "talcum",
+      "parent_topic": "baby powder cancer",
       "intents": [
         "informational"
       ]
@@ -22,6 +38,7 @@
     {
       "keyword": "does talc cause cancer",
       "volume": 1000,
+      "original_keyword": "Talc",
       "parent_topic": "talcum powder",
       "intents": [
         "informational"
@@ -30,7 +47,26 @@
     {
       "keyword": "what is talc used for",
       "volume": 900,
+      "original_keyword": "Talc",
       "parent_topic": "talc",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is talcum powder safe",
+      "volume": 800,
+      "original_keyword": "talcum",
+      "parent_topic": "baby powder cancer",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is talcum powder used for",
+      "volume": 450,
+      "original_keyword": "talcum",
+      "parent_topic": "talcum powder",
       "intents": [
         "informational"
       ]
@@ -38,6 +74,7 @@
     {
       "keyword": "is talc bad in makeup",
       "volume": 400,
+      "original_keyword": "Talc",
       "parent_topic": "is talc bad for you",
       "intents": [
         "informational"
@@ -46,39 +83,17 @@
     {
       "keyword": "why is talc bad",
       "volume": 400,
+      "original_keyword": "Talc",
       "parent_topic": "is talc bad for you",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "is talc bad",
-      "volume": 250,
-      "parent_topic": "talc in makeup",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is talc bad for skin",
-      "volume": 250,
-      "parent_topic": "is talc bad for you",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is talc bad for your skin",
-      "volume": 250,
-      "parent_topic": "talc in makeup",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is talc safe",
-      "volume": 250,
-      "parent_topic": "baby powder cancer",
+      "keyword": "is talcum powder safe for adults",
+      "volume": 300,
+      "original_keyword": "talcum",
+      "parent_topic": "talcum powder",
       "intents": [
         "informational"
       ]

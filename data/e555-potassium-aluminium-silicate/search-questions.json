@@ -1,6 +1,80 @@
 {
-  "keyword": "Potassium aluminium silicate",
+  "keywords": [
+    "Potassium aluminium silicate",
+    "E555"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:37.111Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:25:59.649Z",
+  "questions": [
+    {
+      "keyword": "\"lenovo thinkpad e555\" disable touchpad when mouse connected",
+      "volume": 0,
+      "original_keyword": "E555",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "e555 thinkpad touchpad disable when mouse plugged in",
+      "volume": 0,
+      "original_keyword": "E555",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how do i take a screenshot on my lenovo e555 thinkpad",
+      "volume": 0,
+      "original_keyword": "E555",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to boot to bios in lenovo e555",
+      "volume": 0,
+      "original_keyword": "E555",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to check thinkpad e555 bios",
+      "volume": 0,
+      "original_keyword": "E555",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to enter bios windows 7 lenovo thinkpad e555",
+      "volume": 0,
+      "original_keyword": "E555",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to factory reset lonovo e555",
+      "volume": 0,
+      "original_keyword": "E555",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to get to safe mode lenovo e555",
+      "volume": 0,
+      "original_keyword": "E555",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to manuaally configure com port on lenovo thinkpad e555",
+      "volume": 0,
+      "original_keyword": "E555",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to reset lenovo e555",
+      "volume": 0,
+      "original_keyword": "E555",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

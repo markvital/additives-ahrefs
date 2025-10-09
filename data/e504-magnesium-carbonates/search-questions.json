@@ -1,11 +1,29 @@
 {
-  "keyword": "Magnesium carbonates",
+  "keywords": [
+    "Magnesium carbonates",
+    "E504"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:15.460Z",
+  "fetchedAt": "2025-10-09T03:23:52.016Z",
   "questions": [
+    {
+      "keyword": "what category is e504 in ruby princess",
+      "volume": 0,
+      "original_keyword": "E504",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what year is a tree farmer skidder serial number e504-019",
+      "volume": 0,
+      "original_keyword": "E504",
+      "parent_topic": "",
+      "intents": []
+    },
     {
       "keyword": "why take calcium and magnesium carbonates",
       "volume": 0,
+      "original_keyword": "Magnesium carbonates",
       "parent_topic": "",
       "intents": []
     }

@@ -1,71 +1,101 @@
 {
-  "keyword": "Aluminium silicate",
+  "keywords": [
+    "Aluminium silicate",
+    "E559",
+    "Kaolin"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.352Z",
+  "fetchedAt": "2025-10-09T03:16:32.971Z",
   "questions": [
     {
-      "keyword": "how to aluminium silicate formula",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is kaolin",
+      "volume": 1000,
+      "original_keyword": "Kaolin",
+      "parent_topic": "kaolin clay",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "how to make aluminium silicate formula",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is kaolin clay",
+      "volume": 350,
+      "original_keyword": "Kaolin",
+      "parent_topic": "kaolin",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "what desolves aluminium silicate",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is kaolin used for",
+      "volume": 350,
+      "original_keyword": "Kaolin",
+      "parent_topic": "kaolin medicine",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "what gemstone is aluminium silicate",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "where is kaolin clay found",
+      "volume": 70,
+      "original_keyword": "Kaolin",
+      "parent_topic": "kaolin",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "what is aluminium silicate",
-      "volume": 0,
+      "keyword": "how much kaolin clay per pound of soap",
+      "volume": 60,
+      "original_keyword": "Kaolin",
       "parent_topic": "",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is aluminium silicate used for",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is magnesium aluminium silicate",
-      "volume": 0,
-      "parent_topic": "",
+      "keyword": "is kaolin clay good for skin",
+      "volume": 60,
+      "original_keyword": "Kaolin",
+      "parent_topic": "kaolin clay benefits",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is the chemical formula for aluminium silicate",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "is kaolin safe for dogs",
+      "volume": 60,
+      "original_keyword": "Kaolin",
+      "parent_topic": "kaolin for dogs",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "where to buy aluminium silicate",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is kaolin clay good for",
+      "volume": 60,
+      "original_keyword": "Kaolin",
+      "parent_topic": "kaolin clay benefits",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "where to buy cheap aluminium-silicate",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is kaolin clay used for",
+      "volume": 60,
+      "original_keyword": "Kaolin",
+      "parent_topic": "kaolin clay",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is kaolin clay safe",
+      "volume": 50,
+      "original_keyword": "Kaolin",
+      "parent_topic": "kaolin uses in agriculture",
+      "intents": [
+        "informational"
+      ]
     }
   ]
 }

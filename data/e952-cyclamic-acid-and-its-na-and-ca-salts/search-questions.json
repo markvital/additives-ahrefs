@@ -1,6 +1,85 @@
 {
-  "keyword": "Cyclamic acid and its Na and Ca salts",
+  "keywords": [
+    "Cyclamic acid and its Na and Ca salts",
+    "E952",
+    "Cyclamic acid",
+    "sodium cyclamate",
+    "cyclamates"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.825Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:20:55.362Z",
+  "questions": [
+    {
+      "keyword": "how can i order canadian cyclamates for the us",
+      "volume": 0,
+      "original_keyword": "cyclamates",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how many moles of sodium cyclamate are contained in a 25.6 g sample?",
+      "volume": 0,
+      "original_keyword": "sodium cyclamate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much is sodium cyclamate in kano",
+      "volume": 0,
+      "original_keyword": "sodium cyclamate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "ordered sugar twin cyclamates from canada how long til it arrives",
+      "volume": 0,
+      "original_keyword": "cyclamates",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "sodium cyclamate where to buy",
+      "volume": 0,
+      "original_keyword": "sodium cyclamate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "the truth about cyclamates and why they were banned",
+      "volume": 0,
+      "original_keyword": "cyclamates",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what are cyclamates",
+      "volume": 0,
+      "original_keyword": "cyclamates",
+      "parent_topic": "cyclamates",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what bad effect sodium cyclamate",
+      "volume": 0,
+      "original_keyword": "sodium cyclamate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what diet drinks used cyclamates",
+      "volume": 0,
+      "original_keyword": "cyclamates",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what does cyclamic acid do?",
+      "volume": 0,
+      "original_keyword": "Cyclamic acid",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

@@ -1,6 +1,82 @@
 {
-  "keyword": "Hydrogenated poly-1-decene",
+  "keywords": [
+    "Hydrogenated poly-1-decene",
+    "E907",
+    "Hydrogenated polydec-1-ene",
+    "Crystalline wax"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:23:54.249Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:23:38.725Z",
+  "questions": [
+    {
+      "keyword": "renaissance micro crystalline wax polish where to buy",
+      "volume": 20,
+      "original_keyword": "Crystalline wax",
+      "parent_topic": "renaissance wax polish",
+      "intents": []
+    },
+    {
+      "keyword": "what is micro crystalline wax",
+      "volume": 10,
+      "original_keyword": "Crystalline wax",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to use renaissance micro crystalline wax polish",
+      "volume": 0,
+      "original_keyword": "Crystalline wax",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "micro crystalline wax where to buy",
+      "volume": 0,
+      "original_keyword": "Crystalline wax",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "renaissance micro-crystalline wax polish how to use",
+      "volume": 0,
+      "original_keyword": "Crystalline wax",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "state why paraffin wax of small crystalline structure is important",
+      "volume": 0,
+      "original_keyword": "Crystalline wax",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what can you do with renaissance micro crystalline wax polish",
+      "volume": 0,
+      "original_keyword": "Crystalline wax",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is \"crystalline clear museum wax\"?",
+      "volume": 0,
+      "original_keyword": "Crystalline wax",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is \"crystalline wax\"?",
+      "volume": 0,
+      "original_keyword": "Crystalline wax",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is crystalline wax",
+      "volume": 0,
+      "original_keyword": "Crystalline wax",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

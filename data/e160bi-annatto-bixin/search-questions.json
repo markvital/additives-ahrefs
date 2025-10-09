@@ -1,11 +1,79 @@
 {
-  "keyword": "Annatto bixin",
+  "keywords": [
+    "Annatto bixin",
+    "E160BI",
+    "Bixin"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.698Z",
+  "fetchedAt": "2025-10-09T03:16:33.919Z",
   "questions": [
+    {
+      "keyword": "how common is bad tast with bixin",
+      "volume": 0,
+      "original_keyword": "Bixin",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how is bixin used in food",
+      "volume": 0,
+      "original_keyword": "Bixin",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to solubilize bixin",
+      "volume": 0,
+      "original_keyword": "Bixin",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to test for bixin in spices",
+      "volume": 0,
+      "original_keyword": "Bixin",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to test for bixin on spices",
+      "volume": 0,
+      "original_keyword": "Bixin",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what color is methyl bixin",
+      "volume": 0,
+      "original_keyword": "Bixin",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what happens when bixin is heated in oil",
+      "volume": 0,
+      "original_keyword": "Bixin",
+      "parent_topic": "",
+      "intents": []
+    },
     {
       "keyword": "what is annatto bixin",
       "volume": 0,
+      "original_keyword": "Annatto bixin",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is bixin",
+      "volume": 0,
+      "original_keyword": "Bixin",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is bixin 500mg used for",
+      "volume": 0,
+      "original_keyword": "Bixin",
       "parent_topic": "",
       "intents": []
     }

@@ -1,19 +1,20 @@
 {
-  "keyword": "Protease",
+  "keywords": [
+    "Protease",
+    "E1101",
+    "peptidase",
+    "proteinase",
+    "EC 3.4",
+    "E-1101",
+    "E 1101"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:45.518Z",
+  "fetchedAt": "2025-10-09T03:29:14.705Z",
   "questions": [
     {
       "keyword": "what is protease",
       "volume": 1000,
-      "parent_topic": "protease",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what does protease do",
-      "volume": 500,
+      "original_keyword": "Protease",
       "parent_topic": "protease",
       "intents": [
         "informational"
@@ -22,6 +23,16 @@
     {
       "keyword": "what is a protease",
       "volume": 500,
+      "original_keyword": "Protease",
+      "parent_topic": "protease",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does protease do",
+      "volume": 450,
+      "original_keyword": "Protease",
       "parent_topic": "protease",
       "intents": [
         "informational"
@@ -30,6 +41,7 @@
     {
       "keyword": "what does protease break down",
       "volume": 250,
+      "original_keyword": "Protease",
       "parent_topic": "protease enzymes",
       "intents": [
         "informational"
@@ -38,6 +50,7 @@
     {
       "keyword": "what is a protease inhibitor",
       "volume": 150,
+      "original_keyword": "Protease",
       "parent_topic": "protease inhibitors",
       "intents": [
         "informational"
@@ -46,6 +59,7 @@
     {
       "keyword": "where is protease produced",
       "volume": 150,
+      "original_keyword": "Protease",
       "parent_topic": "protease enzymes",
       "intents": [
         "informational"
@@ -54,15 +68,8 @@
     {
       "keyword": "what are protease",
       "volume": 100,
+      "original_keyword": "Protease",
       "parent_topic": "protease enzymes",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what are protease inhibitors",
-      "volume": 100,
-      "parent_topic": "protease inhibitors",
       "intents": [
         "informational"
       ]
@@ -70,7 +77,17 @@
     {
       "keyword": "where is protease found",
       "volume": 100,
+      "original_keyword": "Protease",
       "parent_topic": "protease enzymes",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what are protease inhibitors",
+      "volume": 90,
+      "original_keyword": "Protease",
+      "parent_topic": "protease inhibitors",
       "intents": [
         "informational"
       ]
@@ -78,6 +95,7 @@
     {
       "keyword": "what does a protease do",
       "volume": 90,
+      "original_keyword": "Protease",
       "parent_topic": "protease enzymes",
       "intents": [
         "informational"

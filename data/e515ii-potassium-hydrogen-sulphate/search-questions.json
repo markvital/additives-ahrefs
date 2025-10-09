@@ -1,6 +1,32 @@
 {
-  "keyword": "Potassium hydrogen sulphate",
+  "keywords": [
+    "Potassium hydrogen sulphate",
+    "E515II",
+    "Potassium bisulphate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:39.713Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:26:03.119Z",
+  "questions": [
+    {
+      "keyword": "what is potassium bisulphate",
+      "volume": 0,
+      "original_keyword": "Potassium bisulphate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the formula of potassium bisulphate",
+      "volume": 0,
+      "original_keyword": "Potassium bisulphate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "why are there differences in the solubility of calcium chloride and of potassium bisulphate",
+      "volume": 0,
+      "original_keyword": "Potassium bisulphate",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

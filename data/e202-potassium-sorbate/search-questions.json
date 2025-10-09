@@ -1,11 +1,15 @@
 {
-  "keyword": "Potassium sorbate",
+  "keywords": [
+    "Potassium sorbate",
+    "E202"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:42.601Z",
+  "fetchedAt": "2025-10-09T03:27:56.896Z",
   "questions": [
     {
       "keyword": "what is potassium sorbate",
       "volume": 2900,
+      "original_keyword": "Potassium sorbate",
       "parent_topic": "potassium sorbate",
       "intents": [
         "informational"
@@ -14,15 +18,8 @@
     {
       "keyword": "is potassium sorbate bad for you",
       "volume": 2000,
+      "original_keyword": "Potassium sorbate",
       "parent_topic": "is potassium sorbate bad for you",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "why is potassium sorbate banned in europe",
-      "volume": 300,
-      "parent_topic": "why is potassium sorbate banned in europe",
       "intents": [
         "informational"
       ]
@@ -30,6 +27,7 @@
     {
       "keyword": "is potassium sorbate safe",
       "volume": 250,
+      "original_keyword": "Potassium sorbate",
       "parent_topic": "is potassium sorbate bad for you",
       "intents": [
         "informational"
@@ -38,6 +36,7 @@
     {
       "keyword": "how much potassium sorbate per gallon of mead",
       "volume": 200,
+      "original_keyword": "Potassium sorbate",
       "parent_topic": "how much potassium sorbate per gallon of mead",
       "intents": [
         "informational"
@@ -46,6 +45,7 @@
     {
       "keyword": "how much potassium sorbate per gallon of wine",
       "volume": 150,
+      "original_keyword": "Potassium sorbate",
       "parent_topic": "how much potassium sorbate per gallon of wine",
       "intents": [
         "informational"
@@ -54,6 +54,7 @@
     {
       "keyword": "is potassium sorbate gluten free",
       "volume": 150,
+      "original_keyword": "Potassium sorbate",
       "parent_topic": "is potassium sorbate gluten free",
       "intents": [
         "informational"
@@ -62,7 +63,17 @@
     {
       "keyword": "what is potassium sorbate used for",
       "volume": 150,
+      "original_keyword": "Potassium sorbate",
       "parent_topic": "potassium sorbate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "why is potassium sorbate banned in europe",
+      "volume": 150,
+      "original_keyword": "Potassium sorbate",
+      "parent_topic": "why is potassium sorbate banned in europe",
       "intents": [
         "informational"
       ]
@@ -70,6 +81,7 @@
     {
       "keyword": "is potassium sorbate bad for kidneys",
       "volume": 100,
+      "original_keyword": "Potassium sorbate",
       "parent_topic": "is potassium sorbate bad for kidneys",
       "intents": [
         "informational"
@@ -78,6 +90,7 @@
     {
       "keyword": "is potassium sorbate natural",
       "volume": 100,
+      "original_keyword": "Potassium sorbate",
       "parent_topic": "potassium sorbate",
       "intents": [
         "informational"

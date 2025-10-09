@@ -1,6 +1,96 @@
 {
-  "keyword": "Propyl para-hydroxybenzoate",
+  "keywords": [
+    "Propyl para-hydroxybenzoate",
+    "E216",
+    "Sodium Salt of Propyl-p-hydroxy Benzoic Acid",
+    "Propylparaben"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:44.775Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:29:10.079Z",
+  "questions": [
+    {
+      "keyword": "what is propylparaben",
+      "volume": 150,
+      "original_keyword": "Propylparaben",
+      "parent_topic": "propylparaben",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is propylparaben safe",
+      "volume": 50,
+      "original_keyword": "Propylparaben",
+      "parent_topic": "propylparaben in food",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is propylparaben bad",
+      "volume": 20,
+      "original_keyword": "Propylparaben",
+      "parent_topic": "propylparaben",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is propylparaben used for",
+      "volume": 20,
+      "original_keyword": "Propylparaben",
+      "parent_topic": "propylparaben",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "are methylparaben and propylparaben safe",
+      "volume": 10,
+      "original_keyword": "Propylparaben",
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does propylparaben cause cancer",
+      "volume": 10,
+      "original_keyword": "Propylparaben",
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is propylparaben a paraben",
+      "volume": 10,
+      "original_keyword": "Propylparaben",
+      "parent_topic": "propylparaben",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "e216 supergirl which flash episode",
+      "volume": 0,
+      "original_keyword": "E216",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how is propylparaben made",
+      "volume": 0,
+      "original_keyword": "Propylparaben",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to repair designers edge e216",
+      "volume": 0,
+      "original_keyword": "E216",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

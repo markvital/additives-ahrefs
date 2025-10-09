@@ -1,6 +1,62 @@
 {
-  "keyword": "Aluminium stearate",
+  "keywords": [
+    "Aluminium stearate",
+    "E573",
+    "Aluminum stearate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.275Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:16:32.923Z",
+  "questions": [
+    {
+      "keyword": "what is aluminum stearate",
+      "volume": 10,
+      "original_keyword": "Aluminum stearate",
+      "parent_topic": "aluminum stearate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what charger to use for acer e e573",
+      "volume": 0,
+      "original_keyword": "E573",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what does aluminum stearate do in injection",
+      "volume": 0,
+      "original_keyword": "Aluminum stearate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is a metal soap aluminum stearate",
+      "volume": 0,
+      "original_keyword": "Aluminum stearate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is aluminum stearate?",
+      "volume": 0,
+      "original_keyword": "Aluminum stearate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is magnesium stearate and aluminum",
+      "volume": 0,
+      "original_keyword": "Aluminum stearate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the e number of aluminum stearate",
+      "volume": 0,
+      "original_keyword": "Aluminum stearate",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

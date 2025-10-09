@@ -1,11 +1,15 @@
 {
-  "keyword": "Potassium benzoate",
+  "keywords": [
+    "Potassium benzoate",
+    "E212"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:37.541Z",
+  "fetchedAt": "2025-10-09T03:25:59.936Z",
   "questions": [
     {
       "keyword": "what is potassium benzoate",
       "volume": 350,
+      "original_keyword": "Potassium benzoate",
       "parent_topic": "is potassium benzoate bad for you",
       "intents": [
         "informational"
@@ -14,64 +18,82 @@
     {
       "keyword": "is potassium benzoate bad for you",
       "volume": 300,
+      "original_keyword": "Potassium benzoate",
       "parent_topic": "is potassium benzoate bad for you",
       "intents": [
         "informational"
+      ]
+    },
+    {
+      "keyword": "e212: can't open file for writing",
+      "volume": 250,
+      "original_keyword": "E212",
+      "parent_topic": "vim can't open file for writing",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "e212 can't open file for writing",
+      "volume": 100,
+      "original_keyword": "E212",
+      "parent_topic": "vim can't open file for writing",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "vim e212 can't open file for writing",
+      "volume": 30,
+      "original_keyword": "E212",
+      "parent_topic": "vim can't open file for writing",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "vim e212: can't open file for writing",
+      "volume": 20,
+      "original_keyword": "E212",
+      "parent_topic": "vim can't open file for writing",
+      "intents": [
+        "informational",
+        "branded"
       ]
     },
     {
       "keyword": "what is potassium benzoate used for",
       "volume": 20,
+      "original_keyword": "Potassium benzoate",
       "parent_topic": "",
       "intents": [
         "informational"
+      ]
+    },
+    {
+      "keyword": "e212 can t open file for writing",
+      "volume": 10,
+      "original_keyword": "E212",
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "e212 can't open file for writing vim",
+      "volume": 10,
+      "original_keyword": "E212",
+      "parent_topic": "vim can't open file for writing",
+      "intents": [
+        "informational",
+        "branded"
       ]
     },
     {
       "keyword": "how bad is potassium benzoate",
       "volume": 10,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "is potassium benzoate bad for kidneys",
-      "volume": 10,
-      "parent_topic": "is potassium sorbate bad for kidneys",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is potassium benzoate good for you",
-      "volume": 10,
-      "parent_topic": "is potassium benzoate bad for you",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is potassium benzoate safe",
-      "volume": 10,
-      "parent_topic": "potassium benzoate",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "how did sodium or potassium benzoate come about",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how is potassium benzoate used",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how many mg of potassium benzoate in diet coke can",
-      "volume": 0,
+      "original_keyword": "Potassium benzoate",
       "parent_topic": "",
       "intents": []
     }

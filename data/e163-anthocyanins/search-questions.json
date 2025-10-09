@@ -1,12 +1,26 @@
 {
-  "keyword": "Anthocyanins",
+  "keywords": [
+    "Anthocyanins",
+    "E163",
+    "Anthocyanin"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.700Z",
+  "fetchedAt": "2025-10-09T03:16:33.916Z",
   "questions": [
     {
       "keyword": "what are anthocyanins",
       "volume": 200,
+      "original_keyword": "Anthocyanins",
       "parent_topic": "anthocyanins benefits",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is anthocyanin",
+      "volume": 150,
+      "original_keyword": "Anthocyanin",
+      "parent_topic": "anthocyanins",
       "intents": [
         "informational"
       ]
@@ -14,6 +28,25 @@
     {
       "keyword": "what is anthocyanins",
       "volume": 60,
+      "original_keyword": "Anthocyanins",
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is anthocyanin always present in leaves",
+      "volume": 50,
+      "original_keyword": "Anthocyanin",
+      "parent_topic": "is anthocyanin always present in leaves",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how much anthocyanin per day",
+      "volume": 30,
+      "original_keyword": "Anthocyanin",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -22,12 +55,21 @@
     {
       "keyword": "what colors come from anthocyanins",
       "volume": 30,
+      "original_keyword": "Anthocyanins",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to extract anthocyanin from plants",
+      "volume": 10,
+      "original_keyword": "Anthocyanin",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what are anthocyanins good for",
       "volume": 10,
+      "original_keyword": "Anthocyanins",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -36,6 +78,7 @@
     {
       "keyword": "what are anthocyanins?",
       "volume": 10,
+      "original_keyword": "Anthocyanins",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -44,40 +87,9 @@
     {
       "keyword": "what color are anthocyanins",
       "volume": 10,
+      "original_keyword": "Anthocyanins",
       "parent_topic": "",
       "intents": []
-    },
-    {
-      "keyword": "what do anthocyanins do",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what do anthocyanins do for the body",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what does anthocyanins do",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what foods contain anthocyanins",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": [
-        "informational"
-      ]
     }
   ]
 }

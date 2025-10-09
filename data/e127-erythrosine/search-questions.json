@@ -1,67 +1,114 @@
 {
-  "keyword": "Erythrosine",
+  "keywords": [
+    "Erythrosine",
+    "E127",
+    "FD&C Red 3",
+    "FD & C Red No.3",
+    "Red No. 3",
+    "FD&C Red no3",
+    "FD and C Red 3",
+    "Red 3",
+    "Red 3 lake"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:45.336Z",
+  "fetchedAt": "2025-10-09T03:23:28.206Z",
   "questions": [
     {
-      "keyword": "what foods contain erythrosine",
-      "volume": 20,
+      "keyword": "what foods have red dye 3",
+      "volume": 9400,
+      "original_keyword": "Red 3",
+      "parent_topic": "what foods have red dye 3",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "what has red dye 3 in it",
+      "volume": 3800,
+      "original_keyword": "Red 3",
+      "parent_topic": "what foods have red dye 3",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "what food has red dye 3",
+      "volume": 1900,
+      "original_keyword": "Red 3",
+      "parent_topic": "what foods have red dye 3",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "will there be a red dead redemption 3",
+      "volume": 1800,
+      "original_keyword": "Red 3",
+      "parent_topic": "will there be a red dead redemption 3",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "what foods contain red dye 3",
+      "volume": 1700,
+      "original_keyword": "Red 3",
+      "parent_topic": "what foods have red dye 3",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "when is red dead redemption 3 coming out",
+      "volume": 1500,
+      "original_keyword": "Red 3",
+      "parent_topic": "rdr3 release date",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "what is red 3 in",
+      "volume": 1400,
+      "original_keyword": "Red 3",
+      "parent_topic": "red 3",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "what products have red dye 3",
+      "volume": 1100,
+      "original_keyword": "Red 3",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what is erythrosine",
-      "volume": 20,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what contains red dye 3",
+      "volume": 1000,
+      "original_keyword": "Red 3",
+      "parent_topic": "what foods have red dye 3",
+      "intents": [
+        "informational",
+        "branded"
+      ]
     },
     {
-      "keyword": "experiment 7 kinetics of erythrosine b oxidation how to calculate nacl concentration chem 201",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how does erythrosine affect behavior",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how does erythrosine work",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how does erythrosine work as an indicator",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how to determine k in a pseudo 1st order oxidation of erythrosine",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what color erythrosine absorb",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what color is the mixture of brilliant blue fcf and tartrazine and erythrosine",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what does erythrosine do to the body",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is red 3",
+      "volume": 1000,
+      "original_keyword": "Red 3",
+      "parent_topic": "red 3",
+      "intents": [
+        "informational",
+        "branded"
+      ]
     }
   ]
 }

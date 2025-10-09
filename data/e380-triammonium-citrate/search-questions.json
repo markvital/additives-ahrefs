@@ -1,6 +1,80 @@
 {
-  "keyword": "Triammonium citrate",
+  "keywords": [
+    "Triammonium citrate",
+    "E380"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:19:04.242Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:30:04.553Z",
+  "questions": [
+    {
+      "keyword": "acer aspire e380 how to remove cpu",
+      "volume": 0,
+      "original_keyword": "E380",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much is e380 in the u.s",
+      "volume": 0,
+      "original_keyword": "E380",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to add playlists to walkman e380",
+      "volume": 0,
+      "original_keyword": "E380",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to get movies on walkman nwz-e380",
+      "volume": 0,
+      "original_keyword": "E380",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to reboot sony ericsson walkman e380",
+      "volume": 0,
+      "original_keyword": "E380",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to reboot sony ericsson walkman nwz-e380",
+      "volume": 0,
+      "original_keyword": "E380",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to remove instrument meter for 98 mercedes e380",
+      "volume": 0,
+      "original_keyword": "E380",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to replace power switch acer aspire e380",
+      "volume": 0,
+      "original_keyword": "E380",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to take the housing off a an acer aspire e380",
+      "volume": 0,
+      "original_keyword": "E380",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to tesr power button acer aspire e380 desktop will not turn on",
+      "volume": 0,
+      "original_keyword": "E380",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

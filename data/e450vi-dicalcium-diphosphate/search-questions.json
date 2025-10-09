@@ -1,11 +1,16 @@
 {
-  "keyword": "Dicalcium diphosphate",
+  "keywords": [
+    "Dicalcium diphosphate",
+    "E450VI",
+    "dicalcium pyrophosphate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.825Z",
+  "fetchedAt": "2025-10-09T03:21:53.718Z",
   "questions": [
     {
       "keyword": "what is the e number of dicalcium diphosphate",
       "volume": 0,
+      "original_keyword": "Dicalcium diphosphate",
       "parent_topic": "",
       "intents": []
     }

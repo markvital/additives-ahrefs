@@ -1,23 +1,36 @@
 {
-  "keyword": "Distarch phosphate",
+  "keywords": [
+    "Distarch phosphate",
+    "E1412"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:45.173Z",
+  "fetchedAt": "2025-10-09T03:21:53.105Z",
   "questions": [
     {
       "keyword": "what is hydroxypropyl distarch phosphate",
       "volume": 10,
+      "original_keyword": "Distarch phosphate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to do e1412",
+      "volume": 0,
+      "original_keyword": "E1412",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is distarch phosphate",
       "volume": 0,
+      "original_keyword": "Distarch phosphate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is the e number for acetylated distarch phosphate",
       "volume": 0,
+      "original_keyword": "Distarch phosphate",
       "parent_topic": "",
       "intents": []
     }

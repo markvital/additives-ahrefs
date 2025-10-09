@@ -1,6 +1,102 @@
 {
-  "keyword": "Calcium citrates",
+  "keywords": [
+    "Calcium citrates",
+    "E333",
+    "Calcium citrate",
+    "Calcium salts of citric acid"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.196Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:20:43.537Z",
+  "questions": [
+    {
+      "keyword": "what is calcium citrate",
+      "volume": 600,
+      "original_keyword": "Calcium citrate",
+      "parent_topic": "calcium citrate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does calcium citrate cause constipation",
+      "volume": 300,
+      "original_keyword": "Calcium citrate",
+      "parent_topic": "does calcium cause constipation",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "which is better for osteoporosis calcium citrate or carbonate",
+      "volume": 200,
+      "original_keyword": "Calcium citrate",
+      "parent_topic": "best calcium supplement",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is calcium citrate the same as calcium",
+      "volume": 150,
+      "original_keyword": "Calcium citrate",
+      "parent_topic": "calcium citrate vs calcium carbonate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is the difference between calcium and calcium citrate",
+      "volume": 150,
+      "original_keyword": "Calcium citrate",
+      "parent_topic": "best calcium supplement",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "can calcium citrate cause constipation",
+      "volume": 100,
+      "original_keyword": "Calcium citrate",
+      "parent_topic": "does calcium carbonate cause constipation",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is calcium citrate constipating",
+      "volume": 100,
+      "original_keyword": "Calcium citrate",
+      "parent_topic": "does calcium carbonate cause constipation",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what's the difference between calcium and calcium citrate",
+      "volume": 100,
+      "original_keyword": "Calcium citrate",
+      "parent_topic": "best calcium supplement",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "which is better calcium citrate or calcium carbonate",
+      "volume": 100,
+      "original_keyword": "Calcium citrate",
+      "parent_topic": "calcium citrate vs calcium carbonate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is the difference between calcium carbonate and calcium citrate",
+      "volume": 70,
+      "original_keyword": "Calcium citrate",
+      "parent_topic": "calcium citrate vs calcium carbonate",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
 }

@@ -1,11 +1,16 @@
 {
-  "keyword": "Riboflavin",
+  "keywords": [
+    "Riboflavin",
+    "E101I",
+    "Vitamin B2"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:46.870Z",
+  "fetchedAt": "2025-10-09T03:29:14.931Z",
   "questions": [
     {
       "keyword": "what is riboflavin",
-      "volume": 2900,
+      "volume": 3000,
+      "original_keyword": "Riboflavin",
       "parent_topic": "riboflavin",
       "intents": [
         "informational"
@@ -14,7 +19,35 @@
     {
       "keyword": "what does riboflavin do",
       "volume": 500,
+      "original_keyword": "Riboflavin",
       "parent_topic": "vitamin b2",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does vitamin b2 do",
+      "volume": 500,
+      "original_keyword": "Vitamin B2",
+      "parent_topic": "vitamin b2",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is vitamin b2",
+      "volume": 500,
+      "original_keyword": "Vitamin B2",
+      "parent_topic": "riboflavin",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is vitamin b2 good for",
+      "volume": 500,
+      "original_keyword": "Vitamin B2",
+      "parent_topic": "vitamin b2 benefits",
       "intents": [
         "informational"
       ]
@@ -22,6 +55,7 @@
     {
       "keyword": "what is riboflavin good for",
       "volume": 450,
+      "original_keyword": "Riboflavin",
       "parent_topic": "vitamin b2",
       "intents": [
         "informational"
@@ -30,6 +64,7 @@
     {
       "keyword": "what foods have riboflavin",
       "volume": 400,
+      "original_keyword": "Riboflavin",
       "parent_topic": "vitamin b2",
       "intents": [
         "informational"
@@ -38,6 +73,7 @@
     {
       "keyword": "how much riboflavin per day",
       "volume": 300,
+      "original_keyword": "Riboflavin",
       "parent_topic": "vitamin b2",
       "intents": [
         "informational"
@@ -46,39 +82,17 @@
     {
       "keyword": "is riboflavin good for you",
       "volume": 300,
+      "original_keyword": "Riboflavin",
       "parent_topic": "vitamin b2",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is riboflavin in food",
-      "volume": 200,
+      "keyword": "what foods have vitamin b2",
+      "volume": 300,
+      "original_keyword": "Vitamin B2",
       "parent_topic": "vitamin b2",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what vitamin is riboflavin",
-      "volume": 200,
-      "parent_topic": "riboflavin",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "whats riboflavin",
-      "volume": 200,
-      "parent_topic": "",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what does riboflavin do for the body",
-      "volume": 150,
-      "parent_topic": "what does vitamin b2 do",
       "intents": [
         "informational"
       ]

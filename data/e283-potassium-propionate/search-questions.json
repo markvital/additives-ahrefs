@@ -1,29 +1,58 @@
 {
-  "keyword": "Potassium propionate",
+  "keywords": [
+    "Potassium propionate",
+    "E283",
+    "Potassium propanoate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:41.968Z",
+  "fetchedAt": "2025-10-09T03:27:55.791Z",
   "questions": [
+    {
+      "keyword": "consider an aqueous solution which is .20m in potassium propanoate",
+      "volume": 0,
+      "original_keyword": "Potassium propanoate",
+      "parent_topic": "",
+      "intents": []
+    },
     {
       "keyword": "potassium propionate and aluminum powder make what",
       "volume": 0,
+      "original_keyword": "Potassium propionate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the decimal value for the hexadecimal number e283",
+      "volume": 0,
+      "original_keyword": "E283",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is the fraction of association (α) for the following potassium propionate solutions",
       "volume": 0,
+      "original_keyword": "Potassium propionate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is the fraction of association (α) for the following potassium propionate solutions?",
       "volume": 0,
+      "original_keyword": "Potassium propionate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is the fraction of association (α) for the following potassium propionate solutions? chegg",
       "volume": 0,
+      "original_keyword": "Potassium propionate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "when were astm e283 standards started",
+      "volume": 0,
+      "original_keyword": "E283",
       "parent_topic": "",
       "intents": []
     }

@@ -1,19 +1,46 @@
 {
-  "keyword": "Quillaia extract",
+  "keywords": [
+    "Quillaia extract",
+    "E999",
+    "Soapbark extract",
+    "Quillay bark extract",
+    "Panama bark extract",
+    "Quillai extract",
+    "Murillo bark extract",
+    "Quillaia"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:45.817Z",
+  "fetchedAt": "2025-10-09T03:29:14.811Z",
   "questions": [
     {
       "keyword": "what is quillaia extract",
       "volume": 250,
+      "original_keyword": "Quillaia extract",
       "parent_topic": "quillaia extract",
       "intents": [
         "informational"
       ]
     },
     {
+      "keyword": "what is quillaia",
+      "volume": 30,
+      "original_keyword": "Quillaia",
+      "parent_topic": "quillaia extract",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is e999 kindle error",
+      "volume": 10,
+      "original_keyword": "E999",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
       "keyword": "what is quillaia extract in root beer",
-      "volume": 20,
+      "volume": 10,
+      "original_keyword": "Quillaia extract",
       "parent_topic": "quillaia extract root beer",
       "intents": [
         "informational"
@@ -22,50 +49,44 @@
     {
       "keyword": "what is quillaia extract made from",
       "volume": 10,
+      "original_keyword": "Quillaia extract",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "why is quillaia extract in root beer",
       "volume": 10,
+      "original_keyword": "Quillaia extract",
       "parent_topic": "quillaia extract root beer",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "quillaia extract what is it",
+      "keyword": "an e-code from category e990 – e999 would be reported in which of the following circumstances?",
       "volume": 0,
+      "original_keyword": "E999",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "quillaia extract where to buy",
+      "keyword": "how much is e999 in american money",
       "volume": 0,
+      "original_keyword": "E999",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what does quillaia extract taste like",
+      "keyword": "how much quillaia is needed to make soap",
       "volume": 0,
+      "original_keyword": "Quillaia",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what is quillaia extract good for",
+      "keyword": "how to fix e999 kindle error",
       "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is quillaia extract hound in",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is quillaia extract used for",
-      "volume": 0,
+      "original_keyword": "E999",
       "parent_topic": "",
       "intents": []
     }

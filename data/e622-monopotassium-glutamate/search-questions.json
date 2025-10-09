@@ -1,21 +1,83 @@
 {
-  "keyword": "Monopotassium glutamate",
+  "keywords": [
+    "Monopotassium glutamate",
+    "E622",
+    "Potassium glutamate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:22.914Z",
+  "fetchedAt": "2025-10-09T03:25:32.454Z",
   "questions": [
+    {
+      "keyword": "what is e622",
+      "volume": 10,
+      "original_keyword": "E622",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is potassium glutamate",
+      "volume": 10,
+      "original_keyword": "Potassium glutamate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much potassium glutamate good for blood pressure",
+      "volume": 0,
+      "original_keyword": "Potassium glutamate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much to take potassium glutamate supplements with lisinopril",
+      "volume": 0,
+      "original_keyword": "Potassium glutamate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "potassium aspartate potassium glutamate potassium which is the best?",
+      "volume": 0,
+      "original_keyword": "Potassium glutamate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what are sites similar to e622",
+      "volume": 0,
+      "original_keyword": "E622",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what do potassium and sodium glutamate have in common",
+      "volume": 0,
+      "original_keyword": "Potassium glutamate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is color boarder on e622",
+      "volume": 0,
+      "original_keyword": "E622",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is color border on e622",
+      "volume": 0,
+      "original_keyword": "E622",
+      "parent_topic": "",
+      "intents": []
+    },
     {
       "keyword": "what is monopotassium glutamate",
       "volume": 0,
+      "original_keyword": "Monopotassium glutamate",
       "parent_topic": "",
       "intents": [
         "informational"
       ]
-    },
-    {
-      "keyword": "where does monopotassium glutamate come from",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
     }
   ]
 }

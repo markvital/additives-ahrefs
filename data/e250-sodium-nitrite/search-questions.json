@@ -1,20 +1,26 @@
 {
-  "keyword": "Sodium nitrite",
+  "keywords": [
+    "Sodium nitrite",
+    "E250",
+    "NaNO2"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:25:12.290Z",
+  "fetchedAt": "2025-10-09T03:29:31.944Z",
   "questions": [
     {
-      "keyword": "is sodium nitrite bad for you",
+      "keyword": "what is sodium nitrite",
       "volume": 200,
-      "parent_topic": "sodium nitrate",
+      "original_keyword": "Sodium nitrite",
+      "parent_topic": "sodium nitrite",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is sodium nitrite",
-      "volume": 200,
-      "parent_topic": "sodium nitrite",
+      "keyword": "is sodium nitrite bad for you",
+      "volume": 150,
+      "original_keyword": "Sodium nitrite",
+      "parent_topic": "sodium nitrate",
       "intents": [
         "informational"
       ]
@@ -22,30 +28,42 @@
     {
       "keyword": "where to buy sodium nitrite",
       "volume": 150,
+      "original_keyword": "Sodium nitrite",
       "parent_topic": "buy sodium nitrite",
       "intents": [
-        "informational",
         "commercial",
         "transactional"
       ]
     },
     {
-      "keyword": "how much sodium nitrite is deadly",
-      "volume": 90,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
       "keyword": "what is sodium nitrite used for",
       "volume": 80,
+      "original_keyword": "Sodium nitrite",
       "parent_topic": "sodium nitrite",
       "intents": [
         "informational"
       ]
     },
     {
+      "keyword": "what is nano2",
+      "volume": 70,
+      "original_keyword": "NaNO2",
+      "parent_topic": "sodium nitrite",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how much sodium nitrite is deadly",
+      "volume": 50,
+      "original_keyword": "Sodium nitrite",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
       "keyword": "does sodium nitrite cause cancer",
       "volume": 40,
+      "original_keyword": "Sodium nitrite",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -54,6 +72,7 @@
     {
       "keyword": "sodium nitrite where to buy",
       "volume": 40,
+      "original_keyword": "Sodium nitrite",
       "parent_topic": "buy sodium nitrite",
       "intents": [
         "commercial",
@@ -63,6 +82,7 @@
     {
       "keyword": "how to buy sodium nitrite",
       "volume": 30,
+      "original_keyword": "Sodium nitrite",
       "parent_topic": "buy sodium nitrite",
       "intents": [
         "informational",
@@ -71,18 +91,13 @@
       ]
     },
     {
-      "keyword": "what is the formula for sodium nitrite",
+      "keyword": "is nano2 a strong base",
       "volume": 30,
+      "original_keyword": "NaNO2",
       "parent_topic": "",
       "intents": [
         "informational"
       ]
-    },
-    {
-      "keyword": "what is the formula for sodium nitrite?",
-      "volume": 30,
-      "parent_topic": "",
-      "intents": []
     }
   ]
 }

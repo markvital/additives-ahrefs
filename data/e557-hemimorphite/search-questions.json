@@ -1,75 +1,102 @@
 {
-  "keyword": "hemimorphite",
+  "keywords": [
+    "hemimorphite",
+    "E557",
+    "calamine"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:23:53.171Z",
+  "fetchedAt": "2025-10-09T03:23:36.692Z",
   "questions": [
     {
-      "keyword": "what is hemimorphite",
-      "volume": 30,
-      "parent_topic": "hemimorphite crystal",
+      "keyword": "what is calamine lotion used for",
+      "volume": 1300,
+      "original_keyword": "calamine",
+      "parent_topic": "calamine lotion",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is hemimorphite used for",
-      "volume": 30,
-      "parent_topic": "hemimorphite crystal",
+      "keyword": "what does calamine lotion do",
+      "volume": 1100,
+      "original_keyword": "calamine",
+      "parent_topic": "calamine lotion",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "can you leave calamine lotion on overnight",
+      "volume": 700,
+      "original_keyword": "calamine",
+      "parent_topic": "calamine lotion",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "is hemimorphite rare",
-      "volume": 20,
-      "parent_topic": "is hemimorphite rare",
+      "keyword": "does calamine lotion expire",
+      "volume": 600,
+      "original_keyword": "calamine",
+      "parent_topic": "does calamine lotion expire",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "where is hemimorphite found",
-      "volume": 20,
-      "parent_topic": "hemimorphite",
+      "keyword": "what is calamine",
+      "volume": 600,
+      "original_keyword": "calamine",
+      "parent_topic": "calamine lotion",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "gem grade hemimorphite where does it get its color",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "can you put calamine lotion on a dog",
+      "volume": 500,
+      "original_keyword": "calamine",
+      "parent_topic": "can you put calamine lotion on a dog",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "how abundant are sphalerite, wurtzite, smithsonite and hemimorphite.",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "how does calamine lotion work",
+      "volume": 500,
+      "original_keyword": "calamine",
+      "parent_topic": "calamine lotion",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "how abundant are sphalerite, wurzite, smithsonite and hemimorphite.",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "how fast does calamine lotion work",
+      "volume": 500,
+      "original_keyword": "calamine",
+      "parent_topic": "how fast does calamine lotion work",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "how is hemimorphite formed",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is calamine lotion",
+      "volume": 500,
+      "original_keyword": "calamine",
+      "parent_topic": "calamine lotion",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "how to cleanse hemimorphite",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how to draw hemimorphite stereonet",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "can you use calamine lotion on dogs",
+      "volume": 450,
+      "original_keyword": "calamine",
+      "parent_topic": "can you put calamine lotion on a dog",
+      "intents": [
+        "informational"
+      ]
     }
   ]
 }

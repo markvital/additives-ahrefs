@@ -1,11 +1,15 @@
 {
-  "keyword": "Sodium gluconate",
+  "keywords": [
+    "Sodium gluconate",
+    "E576"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:25:10.020Z",
+  "fetchedAt": "2025-10-09T03:29:28.523Z",
   "questions": [
     {
       "keyword": "what is sodium gluconate",
       "volume": 70,
+      "original_keyword": "Sodium gluconate",
       "parent_topic": "sodium gluconate",
       "intents": [
         "informational"
@@ -14,6 +18,7 @@
     {
       "keyword": "is sodium gluconate safe",
       "volume": 30,
+      "original_keyword": "Sodium gluconate",
       "parent_topic": "sodium gluconate",
       "intents": [
         "informational"
@@ -22,20 +27,23 @@
     {
       "keyword": "what is sodium gluconate in soap",
       "volume": 30,
+      "original_keyword": "Sodium gluconate",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what is sodium gluconate used for",
-      "volume": 30,
+      "keyword": "is sodium gluconate gluten free",
+      "volume": 20,
+      "original_keyword": "Sodium gluconate",
       "parent_topic": "",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "is sodium gluconate gluten free",
+      "keyword": "what is sodium gluconate used for",
       "volume": 20,
+      "original_keyword": "Sodium gluconate",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -44,30 +52,35 @@
     {
       "keyword": "how to get sodium ferric gluconate",
       "volume": 10,
+      "original_keyword": "Sodium gluconate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what does sodium gluconate do",
       "volume": 10,
+      "original_keyword": "Sodium gluconate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how is sodium gluconate made",
       "volume": 0,
+      "original_keyword": "Sodium gluconate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how long should a patient be on sodium ferric gluconate complex for?",
       "volume": 0,
+      "original_keyword": "Sodium gluconate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how long sodium ferric gluconate complex for?",
       "volume": 0,
+      "original_keyword": "Sodium gluconate",
       "parent_topic": "",
       "intents": []
     }

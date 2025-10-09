@@ -1,11 +1,22 @@
 {
-  "keyword": "Acetylated distarch phosphate",
+  "keywords": [
+    "Acetylated distarch phosphate",
+    "E1414"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.227Z",
+  "fetchedAt": "2025-10-09T03:16:32.277Z",
   "questions": [
+    {
+      "keyword": "what is additive e1414",
+      "volume": 0,
+      "original_keyword": "E1414",
+      "parent_topic": "",
+      "intents": []
+    },
     {
       "keyword": "what is the e number for acetylated distarch phosphate",
       "volume": 0,
+      "original_keyword": "Acetylated distarch phosphate",
       "parent_topic": "",
       "intents": []
     }

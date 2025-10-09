@@ -1,12 +1,17 @@
 {
-  "keyword": "Oxygen",
+  "keywords": [
+    "Oxygen",
+    "E948",
+    "element 8"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:28.885Z",
+  "fetchedAt": "2025-10-09T03:25:44.099Z",
   "questions": [
     {
       "keyword": "what is a dangerously low oxygen level",
       "volume": 15000,
-      "parent_topic": "what is a dangerously low oxygen level",
+      "original_keyword": "Oxygen",
+      "parent_topic": "blood oxygen level",
       "intents": [
         "informational"
       ]
@@ -14,7 +19,8 @@
     {
       "keyword": "how many valence electrons does oxygen have",
       "volume": 11000,
-      "parent_topic": "oxygen valence electrons",
+      "original_keyword": "Oxygen",
+      "parent_topic": "valence electrons",
       "intents": [
         "informational"
       ]
@@ -22,6 +28,7 @@
     {
       "keyword": "how to increase blood oxygen level",
       "volume": 5900,
+      "original_keyword": "Oxygen",
       "parent_topic": "blood oxygen level",
       "intents": [
         "informational"
@@ -30,6 +37,7 @@
     {
       "keyword": "how many electrons does oxygen have",
       "volume": 4100,
+      "original_keyword": "Oxygen",
       "parent_topic": "how many electrons does oxygen have",
       "intents": [
         "informational"
@@ -38,6 +46,7 @@
     {
       "keyword": "how much oxygen is in the air",
       "volume": 4100,
+      "original_keyword": "Oxygen",
       "parent_topic": "atmosphere",
       "intents": [
         "informational"
@@ -45,7 +54,8 @@
     },
     {
       "keyword": "what is a normal oxygen level",
-      "volume": 4000,
+      "volume": 4100,
+      "original_keyword": "Oxygen",
       "parent_topic": "blood oxygen level",
       "intents": [
         "informational"
@@ -54,6 +64,7 @@
     {
       "keyword": "is oxygen flammable",
       "volume": 3900,
+      "original_keyword": "Oxygen",
       "parent_topic": "is oxygen flammable",
       "intents": [
         "informational"
@@ -62,6 +73,7 @@
     {
       "keyword": "what is a good oxygen level",
       "volume": 3900,
+      "original_keyword": "Oxygen",
       "parent_topic": "blood oxygen level",
       "intents": [
         "informational"
@@ -70,6 +82,7 @@
     {
       "keyword": "what is normal oxygen level",
       "volume": 3800,
+      "original_keyword": "Oxygen",
       "parent_topic": "blood oxygen level",
       "intents": [
         "informational"
@@ -78,6 +91,7 @@
     {
       "keyword": "what is oxygen",
       "volume": 3700,
+      "original_keyword": "Oxygen",
       "parent_topic": "oxygen",
       "intents": [
         "informational"

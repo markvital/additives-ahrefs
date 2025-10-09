@@ -1,29 +1,36 @@
 {
-  "keyword": "Sodium dehydroacetate",
+  "keywords": [
+    "Sodium dehydroacetate",
+    "E266"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:25:08.417Z",
+  "fetchedAt": "2025-10-09T03:29:24.865Z",
   "questions": [
     {
       "keyword": "what is sodium dehydroacetate",
       "volume": 10,
+      "original_keyword": "Sodium dehydroacetate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what does sodium dehydroacetate do",
       "volume": 0,
+      "original_keyword": "Sodium dehydroacetate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is sodium dehydroacetate derived from",
       "volume": 0,
+      "original_keyword": "Sodium dehydroacetate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is the e number of sodium dehydroacetate",
       "volume": 0,
+      "original_keyword": "Sodium dehydroacetate",
       "parent_topic": "",
       "intents": []
     }

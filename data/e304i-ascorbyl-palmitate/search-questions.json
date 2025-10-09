@@ -1,11 +1,16 @@
 {
-  "keyword": "Ascorbyl palmitate",
+  "keywords": [
+    "Ascorbyl palmitate",
+    "E304I",
+    "L-Ascorbyl Palmitate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.889Z",
+  "fetchedAt": "2025-10-09T03:16:34.177Z",
   "questions": [
     {
       "keyword": "what is ascorbyl palmitate",
       "volume": 600,
+      "original_keyword": "Ascorbyl palmitate",
       "parent_topic": "ascorbyl palmitate",
       "intents": [
         "informational"
@@ -14,6 +19,7 @@
     {
       "keyword": "is ascorbyl palmitate safe",
       "volume": 70,
+      "original_keyword": "Ascorbyl palmitate",
       "parent_topic": "ascorbyl palmitate",
       "intents": [
         "informational"
@@ -21,13 +27,15 @@
     },
     {
       "keyword": "what is ascorbyl palmitate in supplements",
-      "volume": 30,
+      "volume": 40,
+      "original_keyword": "Ascorbyl palmitate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is ascorbyl palmitate made from",
       "volume": 30,
+      "original_keyword": "Ascorbyl palmitate",
       "parent_topic": "ascorbyl palmitate",
       "intents": [
         "informational"
@@ -36,12 +44,14 @@
     {
       "keyword": "ascorbyl palmitate what is it",
       "volume": 20,
+      "original_keyword": "Ascorbyl palmitate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is ascorbyl palmitate used for",
       "volume": 20,
+      "original_keyword": "Ascorbyl palmitate",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -50,26 +60,30 @@
     {
       "keyword": "is ascorbyl palmitate natural",
       "volume": 10,
+      "original_keyword": "Ascorbyl palmitate",
       "parent_topic": "",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "acerola cherry vs ascorbyl palmitate which is better for liposomal c",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "ascorbyl palmitate derive from what source",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
       "keyword": "ascorbyl palmitate how is it made",
       "volume": 0,
+      "original_keyword": "Ascorbyl palmitate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "cetaphil moisturizer has what percentage of ascorbyl palmitate (vitamin c), ...",
+      "volume": 0,
+      "original_keyword": "Ascorbyl palmitate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how is ascorbyl palmitate derived",
+      "volume": 0,
+      "original_keyword": "Ascorbyl palmitate",
       "parent_topic": "",
       "intents": []
     }

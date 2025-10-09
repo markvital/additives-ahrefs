@@ -1,65 +1,78 @@
 {
-  "keyword": "Potassium sulphate",
+  "keywords": [
+    "Potassium sulphate",
+    "E515I"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:42.782Z",
+  "fetchedAt": "2025-10-09T03:27:57.332Z",
   "questions": [
+    {
+      "keyword": "where to buy potassium sulphate fertilizer",
+      "volume": 10,
+      "original_keyword": "Potassium sulphate",
+      "parent_topic": "",
+      "intents": []
+    },
     {
       "keyword": "1 gram of aluminum will produce how many grams of potassium aluminum sulphate dodecahydrate",
       "volume": 0,
+      "original_keyword": "Potassium sulphate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "1..00 gram of aluminum will produce how many grams of potassium aluminum sulphate decahydrate",
       "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "1..00 gram of aluminum will produce how may grams of potassium aluminum sulphate odecahydate",
-      "volume": 0,
+      "original_keyword": "Potassium sulphate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "assumming a 100 yeild 1 gram of aluminum will produce how many grams of potassium aluminum sulphate",
       "volume": 0,
+      "original_keyword": "Potassium sulphate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how much \"potassium sulphate\" should i apply to raise *ppm",
       "volume": 0,
+      "original_keyword": "Potassium sulphate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how much potassium is in glucosamine sulphate",
       "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how potassium sulphate is formed",
-      "volume": 0,
+      "original_keyword": "Potassium sulphate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how to make a chemical battery using zinc sulphate and copper sulphate and potassium nitrate",
       "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how to make potassium sulphate",
-      "volume": 0,
+      "original_keyword": "Potassium sulphate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how to make potassium sulphate solution",
       "volume": 0,
+      "original_keyword": "Potassium sulphate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to remove water from potassium aluminium sulphate",
+      "volume": 0,
+      "original_keyword": "Potassium sulphate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to use potassium sulphate",
+      "volume": 0,
+      "original_keyword": "Potassium sulphate",
       "parent_topic": "",
       "intents": []
     }

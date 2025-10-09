@@ -1,11 +1,15 @@
 {
-  "keyword": "Lycopene",
+  "keywords": [
+    "Lycopene",
+    "E160D"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:14.837Z",
+  "fetchedAt": "2025-10-09T03:23:49.996Z",
   "questions": [
     {
       "keyword": "what is lycopene",
       "volume": 2100,
+      "original_keyword": "Lycopene",
       "parent_topic": "lycopene",
       "intents": [
         "informational"
@@ -14,6 +18,7 @@
     {
       "keyword": "what is lycopene good for",
       "volume": 600,
+      "original_keyword": "Lycopene",
       "parent_topic": "lycopene benefits",
       "intents": [
         "informational"
@@ -21,13 +26,15 @@
     },
     {
       "keyword": "how much lycopene per day for prostate health",
-      "volume": 400,
+      "volume": 350,
+      "original_keyword": "Lycopene",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how much lycopene per day",
       "volume": 300,
+      "original_keyword": "Lycopene",
       "parent_topic": "lycopene",
       "intents": [
         "informational"
@@ -36,6 +43,7 @@
     {
       "keyword": "what does lycopene do",
       "volume": 250,
+      "original_keyword": "Lycopene",
       "parent_topic": "lycopene benefits",
       "intents": [
         "informational"
@@ -44,15 +52,8 @@
     {
       "keyword": "what foods have lycopene",
       "volume": 250,
+      "original_keyword": "Lycopene",
       "parent_topic": "what foods have lycopene",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "does lycopene reduce prostate size",
-      "volume": 150,
-      "parent_topic": "lycopene benefits",
       "intents": [
         "informational"
       ]
@@ -60,6 +61,7 @@
     {
       "keyword": "is lycopene good for you",
       "volume": 150,
+      "original_keyword": "Lycopene",
       "parent_topic": "lycopene benefits",
       "intents": [
         "informational"
@@ -68,6 +70,7 @@
     {
       "keyword": "what does lycopene do for the body",
       "volume": 150,
+      "original_keyword": "Lycopene",
       "parent_topic": "lycopene benefits",
       "intents": [
         "informational"
@@ -76,7 +79,17 @@
     {
       "keyword": "what foods contain lycopene",
       "volume": 150,
+      "original_keyword": "Lycopene",
       "parent_topic": "what foods have lycopene",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does lycopene reduce prostate size",
+      "volume": 100,
+      "original_keyword": "Lycopene",
+      "parent_topic": "lycopene benefits",
       "intents": [
         "informational"
       ]

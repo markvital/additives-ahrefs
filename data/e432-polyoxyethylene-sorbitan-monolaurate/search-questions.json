@@ -1,13 +1,99 @@
 {
-  "keyword": "Polyoxyethylene sorbitan monolaurate",
+  "keywords": [
+    "Polyoxyethylene sorbitan monolaurate",
+    "E432",
+    "Polysorbate 20",
+    "Alkest TW 20",
+    "Tween 20",
+    "PEG(20)sorbitan monolaurate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:33.953Z",
+  "fetchedAt": "2025-10-09T03:25:55.805Z",
   "questions": [
     {
-      "keyword": "what is polyoxyethylene sorbitan monolaurate",
-      "volume": 0,
+      "keyword": "what is polysorbate 20",
+      "volume": 700,
+      "original_keyword": "Polysorbate 20",
+      "parent_topic": "polysorbate 20",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is polysorbate 20 safe for skin",
+      "volume": 150,
+      "original_keyword": "Polysorbate 20",
+      "parent_topic": "polysorbate 20",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is the cmc of tween 20",
+      "volume": 150,
+      "original_keyword": "Tween 20",
       "parent_topic": "",
       "intents": []
+    },
+    {
+      "keyword": "is polysorbate 20 safe",
+      "volume": 100,
+      "original_keyword": "Polysorbate 20",
+      "parent_topic": "polysorbate 20",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is polysorbate 20 toxic",
+      "volume": 70,
+      "original_keyword": "Polysorbate 20",
+      "parent_topic": "polysorbate 20",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is polysorbate 20 natural",
+      "volume": 60,
+      "original_keyword": "Polysorbate 20",
+      "parent_topic": "polysorbate 20",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to make 0.1% tween 20 in pbs",
+      "volume": 50,
+      "original_keyword": "Tween 20",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is tween 20",
+      "volume": 50,
+      "original_keyword": "Tween 20",
+      "parent_topic": "polysorbate 20",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "how to make 0.1 tween 20 in pbs",
+      "volume": 40,
+      "original_keyword": "Tween 20",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is polysorbate 20 used for",
+      "volume": 40,
+      "original_keyword": "Polysorbate 20",
+      "parent_topic": "polysorbate 20",
+      "intents": [
+        "informational"
+      ]
     }
   ]
 }

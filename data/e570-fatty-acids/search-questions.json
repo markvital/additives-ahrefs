@@ -1,12 +1,48 @@
 {
-  "keyword": "Fatty acids",
+  "keywords": [
+    "Fatty acids",
+    "E570",
+    "Linear fatty acids",
+    "caprylic acid (C8)",
+    "caprylic acid",
+    "capric acid (C10)",
+    "capric acid",
+    "lauric acid (C12)",
+    "lauric acid",
+    "myristic acid (C14)",
+    "myristic acid",
+    "palmitic acid (C16)",
+    "palmitic acid",
+    "stearic acid (C18)",
+    "stearic acid",
+    "fatty acid"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:45.589Z",
+  "fetchedAt": "2025-10-09T03:23:34.312Z",
   "questions": [
     {
       "keyword": "what are fatty acids",
       "volume": 2400,
-      "parent_topic": "what are fatty acids",
+      "original_keyword": "Fatty acids",
+      "parent_topic": "fatty acids",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is stearic acid",
+      "volume": 1300,
+      "original_keyword": "stearic acid",
+      "parent_topic": "stearic acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how many fatty acids are in a phospholipid?",
+      "volume": 800,
+      "original_keyword": "Fatty acids",
+      "parent_topic": "phospholipid structure",
       "intents": [
         "informational"
       ]
@@ -14,15 +50,35 @@
     {
       "keyword": "what are omega 3 fatty acids",
       "volume": 700,
+      "original_keyword": "Fatty acids",
       "parent_topic": "omega 3",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "how many fatty acids are in a phospholipid?",
-      "volume": 600,
-      "parent_topic": "how many fatty acids are in a phospholipid",
+      "keyword": "what is a fatty acid",
+      "volume": 700,
+      "original_keyword": "fatty acid",
+      "parent_topic": "fatty acids",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where does fatty acid synthesis occur",
+      "volume": 500,
+      "original_keyword": "fatty acid",
+      "parent_topic": "fatty acid synthesis",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is a saturated fatty acid",
+      "volume": 400,
+      "original_keyword": "fatty acid",
+      "parent_topic": "saturated fatty acid",
       "intents": [
         "informational"
       ]
@@ -30,6 +86,7 @@
     {
       "keyword": "what is the difference between saturated and unsaturated fatty acids",
       "volume": 400,
+      "original_keyword": "Fatty acids",
       "parent_topic": "saturated vs unsaturated fat",
       "intents": [
         "informational"
@@ -38,6 +95,7 @@
     {
       "keyword": "how many fatty acids are in a phospholipid",
       "volume": 350,
+      "original_keyword": "Fatty acids",
       "parent_topic": "phospholipids are important components of",
       "intents": [
         "informational"
@@ -46,40 +104,8 @@
     {
       "keyword": "are fatty acids lipids",
       "volume": 300,
-      "parent_topic": "fatty acid",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what foods have omega 3 fatty acids",
-      "volume": 300,
-      "parent_topic": "omega 3 foods",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what are essential fatty acids",
-      "volume": 200,
-      "parent_topic": "essential fatty acids",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what are fatty acids milady",
-      "volume": 200,
-      "parent_topic": "what are fatty acids milady",
-      "intents": [
-        "informational",
-        "branded"
-      ]
-    },
-    {
-      "keyword": "what has omega 3 fatty acids",
-      "volume": 200,
-      "parent_topic": "omega 3 foods",
+      "original_keyword": "Fatty acids",
+      "parent_topic": "lipids",
       "intents": [
         "informational"
       ]

@@ -1,69 +1,97 @@
 {
-  "keyword": "Triphosphates",
+  "keywords": [
+    "Triphosphates",
+    "E451",
+    "triphosphate",
+    "E 451",
+    "e-451"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:19:04.416Z",
+  "fetchedAt": "2025-10-09T03:30:07.866Z",
   "questions": [
+    {
+      "keyword": "what is adenosine triphosphate",
+      "volume": 700,
+      "original_keyword": "triphosphate",
+      "parent_topic": "adenosine triphosphate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is adenosine triphosphate?",
+      "volume": 70,
+      "original_keyword": "triphosphate",
+      "parent_topic": "atp meaning",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is sodium triphosphate",
+      "volume": 60,
+      "original_keyword": "triphosphate",
+      "parent_topic": "sodium tripolyphosphate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "which of the following statements about inositol triphosphate is false",
+      "volume": 50,
+      "original_keyword": "triphosphate",
+      "parent_topic": "which of the following statements about inositol triphosphate is false",
+      "intents": []
+    },
     {
       "keyword": "what are nucleoside triphosphates",
       "volume": 30,
+      "original_keyword": "Triphosphates",
       "parent_topic": "",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what are nucleotide triphosphates",
-      "volume": 10,
+      "keyword": "what does adenosine triphosphate mean",
+      "volume": 30,
+      "original_keyword": "triphosphate",
+      "parent_topic": "adenosine triphosphate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is a adenosine triphosphate",
+      "volume": 30,
+      "original_keyword": "triphosphate",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "\"dna contains decoxyribonucleotide triphosphates joined together by what\"",
-      "volume": 0,
+      "keyword": "how is atp created from adenosine triphosphate?",
+      "volume": 20,
+      "original_keyword": "triphosphate",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "dideoxynucleotide triphosphates (ddntps) are used when sequencing dna because:",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "how to increase adenosine triphosphate",
+      "volume": 20,
+      "original_keyword": "triphosphate",
+      "parent_topic": "i have no energy",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "explain why gluconeogenesis requires the input of six molecules of nucleoside triphosphates",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "gluconeogenesis, how many total nucleotide triphosphates",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how are ddntps (dideoxyribonucleoside triphosphates) used for dna sequencing",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how are deoxynucleoside diphosphate transformed to deoxynucleotide triphosphates?",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how many nucleotide triphosphates are used in the formation of one glucose molecule?",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how many triphosphates needed for 10 nucleotide primer",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "how to pronounce adenosine triphosphate",
+      "volume": 20,
+      "original_keyword": "triphosphate",
+      "parent_topic": "adenosine triphosphate pronunciation",
+      "intents": [
+        "informational"
+      ]
     }
   ]
 }

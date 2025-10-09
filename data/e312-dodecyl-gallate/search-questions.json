@@ -1,35 +1,71 @@
 {
-  "keyword": "Dodecyl gallate",
+  "keywords": [
+    "Dodecyl gallate",
+    "E312"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:45.171Z",
+  "fetchedAt": "2025-10-09T03:21:53.354Z",
   "questions": [
     {
       "keyword": "based on the lineweaver-burk plot provided, what type of inhibitor is dodecyl gallate and why?",
       "volume": 0,
+      "original_keyword": "Dodecyl gallate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to make lexmark optra e312 to print darker",
+      "volume": 0,
+      "original_keyword": "E312",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what causes e312 lennox",
+      "volume": 0,
+      "original_keyword": "E312",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is e312 gallate",
+      "volume": 0,
+      "original_keyword": "E312",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is e312 gallate used in",
+      "volume": 0,
+      "original_keyword": "E312",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what type of inhibitor is dodecyl gallate and why",
       "volume": 0,
+      "original_keyword": "Dodecyl gallate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "why is dodecyl gallate a competitive inhibitor",
       "volume": 0,
+      "original_keyword": "Dodecyl gallate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "why is dodecyl gallate an inhibitor",
       "volume": 0,
+      "original_keyword": "Dodecyl gallate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "why is dodecyl gallate an inhibitor tyrosinase",
       "volume": 0,
+      "original_keyword": "Dodecyl gallate",
       "parent_topic": "",
       "intents": []
     }

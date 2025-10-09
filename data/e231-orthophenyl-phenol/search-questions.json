@@ -1,6 +1,81 @@
 {
-  "keyword": "Orthophenyl phenol",
+  "keywords": [
+    "Orthophenyl phenol",
+    "E231",
+    "2-hydroxybiphenyl"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:28.268Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:25:42.643Z",
+  "questions": [
+    {
+      "keyword": "cse e231 how to get to",
+      "volume": 0,
+      "original_keyword": "E231",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "elitedisplat e231 why resolutin only 640 480",
+      "volume": 0,
+      "original_keyword": "E231",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "elitedisplay e231 why resolution only 640x480",
+      "volume": 0,
+      "original_keyword": "E231",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how do i connect my dvd player to my vizio e231-b1",
+      "volume": 0,
+      "original_keyword": "E231",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how do i get the hp elitedisplay e231 back in the box",
+      "volume": 0,
+      "original_keyword": "E231",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how do i repair a hp e231 monitor",
+      "volume": 0,
+      "original_keyword": "E231",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how do i take apart a hp e231 monitor",
+      "volume": 0,
+      "original_keyword": "E231",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how do you add a channel on vizio e231-b1",
+      "volume": 0,
+      "original_keyword": "E231",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how do you get no signal off of vizio e231-b1 screen",
+      "volume": 0,
+      "original_keyword": "E231",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how e231",
+      "volume": 0,
+      "original_keyword": "E231",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

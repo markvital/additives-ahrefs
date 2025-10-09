@@ -1,6 +1,101 @@
 {
-  "keyword": "Extracts of rosemary",
+  "keywords": [
+    "Extracts of rosemary",
+    "E392",
+    "rosemary extract"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:45.386Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:21:54.713Z",
+  "questions": [
+    {
+      "keyword": "can dogs have rosemary extract",
+      "volume": 800,
+      "original_keyword": "rosemary extract",
+      "parent_topic": "can dogs have rosemary extract",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "can dogs eat rosemary extract",
+      "volume": 250,
+      "original_keyword": "rosemary extract",
+      "parent_topic": "can dogs have rosemary",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "can cats have rosemary extract",
+      "volume": 150,
+      "original_keyword": "rosemary extract",
+      "parent_topic": "is rosemary extract safe for cats",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to extract rosemary oil",
+      "volume": 150,
+      "original_keyword": "rosemary extract",
+      "parent_topic": "how to make rosemary oil",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is rosemary extract",
+      "volume": 150,
+      "original_keyword": "rosemary extract",
+      "parent_topic": "rosemary extract",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to make rosemary extract",
+      "volume": 100,
+      "original_keyword": "rosemary extract",
+      "parent_topic": "rosemary tincture",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to extract oil from rosemary",
+      "volume": 90,
+      "original_keyword": "rosemary extract",
+      "parent_topic": "how to make rosemary oil for hair",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is rosemary extract good for dogs",
+      "volume": 70,
+      "original_keyword": "rosemary extract",
+      "parent_topic": "can dogs have rosemary extract",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is rosemary extract bad for dogs",
+      "volume": 60,
+      "original_keyword": "rosemary extract",
+      "parent_topic": "can dogs have rosemary extract",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is rosemary extract safe during pregnancy",
+      "volume": 60,
+      "original_keyword": "rosemary extract",
+      "parent_topic": "rosemary oil pregnancy",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
 }

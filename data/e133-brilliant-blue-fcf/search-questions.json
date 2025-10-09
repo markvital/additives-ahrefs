@@ -1,67 +1,115 @@
 {
-  "keyword": "Brilliant blue FCF",
+  "keywords": [
+    "Brilliant blue FCF",
+    "E133",
+    "FD&C Blue 1",
+    "FD and C Blue 1",
+    "Blue 1",
+    "fd&c blue no. 1",
+    "Blue 1 lake"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.799Z",
+  "fetchedAt": "2025-10-09T03:20:42.084Z",
   "questions": [
     {
-      "keyword": "what is brilliant blue fcf",
-      "volume": 50,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is blue 1",
+      "volume": 1300,
+      "original_keyword": "Blue 1",
+      "parent_topic": "blue 1",
+      "intents": [
+        "informational",
+        "branded"
+      ]
     },
     {
-      "keyword": "what is brilliant blue fcf made of",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is blue 1 made of",
+      "volume": 800,
+      "original_keyword": "Blue 1",
+      "parent_topic": "blue 1",
+      "intents": [
+        "informational",
+        "branded"
+      ]
     },
     {
-      "keyword": "how is brilliant blue fcf made",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what does blue 1 do to your body",
+      "volume": 400,
+      "original_keyword": "Blue 1",
+      "parent_topic": "is blue 1 bad for you",
+      "intents": [
+        "informational",
+        "branded"
+      ]
     },
     {
-      "keyword": "how much moles of brilliant blue fcf is 10 ml",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "is blue 1 dye bad for you",
+      "volume": 300,
+      "original_keyword": "Blue 1",
+      "parent_topic": "is blue 1 bad for you",
+      "intents": [
+        "informational",
+        "branded"
+      ]
     },
     {
-      "keyword": "what color is the mixture of brilliant blue fcf and tartrazine and erythrosine",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "how is blue 1 made",
+      "volume": 200,
+      "original_keyword": "Blue 1",
+      "parent_topic": "blue 1",
+      "intents": [
+        "informational",
+        "branded"
+      ]
     },
     {
-      "keyword": "what is brilliant blue fcf made from",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is blue 1 lake",
+      "volume": 200,
+      "original_keyword": "Blue 1",
+      "parent_topic": "blue 1",
+      "intents": [
+        "informational",
+        "branded"
+      ]
     },
     {
-      "keyword": "what is brilliant blue fcf used for",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "does blue 1 cause cancer",
+      "volume": 150,
+      "original_keyword": "Blue 1",
+      "parent_topic": "blue 1 side effects",
+      "intents": [
+        "informational",
+        "branded"
+      ]
     },
     {
-      "keyword": "what is fd&c blue no. 1 (brilliant blue fcf)",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "does blue cross blue shield cover glp-1",
+      "volume": 150,
+      "original_keyword": "Blue 1",
+      "parent_topic": "bcbs glp-1 coverage",
+      "intents": [
+        "informational",
+        "branded"
+      ]
     },
     {
-      "keyword": "what is the mass of brilliant blue fcf",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "how bad is blue 1",
+      "volume": 150,
+      "original_keyword": "Blue 1",
+      "parent_topic": "is blue 1 bad for you",
+      "intents": [
+        "informational",
+        "branded"
+      ]
     },
     {
-      "keyword": "what is the mass of brilliant blue fcf molecule",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "is blue 1 dangerous",
+      "volume": 150,
+      "original_keyword": "Blue 1",
+      "parent_topic": "blue 1 side effects",
+      "intents": [
+        "informational",
+        "branded"
+      ]
     }
   ]
 }

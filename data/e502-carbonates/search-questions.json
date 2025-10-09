@@ -1,11 +1,15 @@
 {
-  "keyword": "Carbonates",
+  "keywords": [
+    "Carbonates",
+    "E502"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.431Z",
+  "fetchedAt": "2025-10-09T03:20:48.918Z",
   "questions": [
     {
       "keyword": "are carbonates soluble",
       "volume": 150,
+      "original_keyword": "Carbonates",
       "parent_topic": "are carbonates soluble",
       "intents": [
         "informational"
@@ -14,6 +18,7 @@
     {
       "keyword": "what carbonates soda",
       "volume": 100,
+      "original_keyword": "Carbonates",
       "parent_topic": "sparkling water",
       "intents": [
         "informational"
@@ -22,6 +27,7 @@
     {
       "keyword": "do bases react with carbonates",
       "volume": 40,
+      "original_keyword": "Carbonates",
       "parent_topic": "do bases react with carbonates",
       "intents": [
         "informational"
@@ -30,15 +36,8 @@
     {
       "keyword": "what are carbonates",
       "volume": 40,
+      "original_keyword": "Carbonates",
       "parent_topic": "carbonate formula",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "do acids react with carbonates",
-      "volume": 30,
-      "parent_topic": "acid and carbonate reaction",
       "intents": [
         "informational"
       ]
@@ -46,7 +45,17 @@
     {
       "keyword": "what carbonates water",
       "volume": 30,
+      "original_keyword": "Carbonates",
       "parent_topic": "carbonated water",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "do acids react with carbonates",
+      "volume": 20,
+      "original_keyword": "Carbonates",
+      "parent_topic": "acid and carbonate reaction",
       "intents": [
         "informational"
       ]
@@ -54,6 +63,7 @@
     {
       "keyword": "do acids or bases react with carbonates",
       "volume": 10,
+      "original_keyword": "Carbonates",
       "parent_topic": "do bases react with carbonates",
       "intents": [
         "informational"
@@ -62,6 +72,7 @@
     {
       "keyword": "how do bases react with carbonates",
       "volume": 10,
+      "original_keyword": "Carbonates",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -70,12 +81,14 @@
     {
       "keyword": "what are cap carbonates",
       "volume": 10,
+      "original_keyword": "Carbonates",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what are carbonates in water",
       "volume": 10,
+      "original_keyword": "Carbonates",
       "parent_topic": "",
       "intents": []
     }

@@ -1,11 +1,16 @@
 {
-  "keyword": "Tragacanth",
+  "keywords": [
+    "Tragacanth",
+    "E413",
+    "Tragacanth gum"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:19:04.245Z",
+  "fetchedAt": "2025-10-09T03:30:05.117Z",
   "questions": [
     {
       "keyword": "what is gum tragacanth",
       "volume": 80,
+      "original_keyword": "Tragacanth",
       "parent_topic": "tragacanth gum",
       "intents": [
         "informational"
@@ -14,6 +19,7 @@
     {
       "keyword": "what is tragacanth",
       "volume": 30,
+      "original_keyword": "Tragacanth",
       "parent_topic": "tragacanth gum",
       "intents": [
         "informational"
@@ -22,6 +28,7 @@
     {
       "keyword": "what is tragacanth gum",
       "volume": 20,
+      "original_keyword": "Tragacanth",
       "parent_topic": "tragacanth gum",
       "intents": [
         "informational"
@@ -30,6 +37,7 @@
     {
       "keyword": "how to use gum tragacanth",
       "volume": 10,
+      "original_keyword": "Tragacanth",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -38,36 +46,42 @@
     {
       "keyword": "how to use gum tragacanth on leather",
       "volume": 10,
+      "original_keyword": "Tragacanth",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how to use tragacanth gum",
       "volume": 10,
+      "original_keyword": "Tragacanth",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "tragacanth where to buy",
       "volume": 10,
+      "original_keyword": "Tragacanth",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "where can i buy tragacanth",
       "volume": 10,
+      "original_keyword": "Tragacanth",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "where to buy tragacanth",
       "volume": 10,
+      "original_keyword": "Tragacanth",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "gond katira what is it edible gum tragacanth",
       "volume": 0,
+      "original_keyword": "Tragacanth",
       "parent_topic": "",
       "intents": []
     }

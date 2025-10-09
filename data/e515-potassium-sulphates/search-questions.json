@@ -1,6 +1,102 @@
 {
-  "keyword": "Potassium sulphates",
+  "keywords": [
+    "Potassium sulphates",
+    "E515",
+    "Potassium sulfates",
+    "potassium sulfate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:43.108Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:27:59.091Z",
+  "questions": [
+    {
+      "keyword": "what is potassium sulfate",
+      "volume": 50,
+      "original_keyword": "potassium sulfate",
+      "parent_topic": "potassium sulfate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where to buy potassium sulfate",
+      "volume": 30,
+      "original_keyword": "potassium sulfate",
+      "parent_topic": "potassium sulfate fertilizer",
+      "intents": [
+        "commercial",
+        "transactional"
+      ]
+    },
+    {
+      "keyword": "how much potassium is in glucosamine sulfate potassium chloride",
+      "volume": 20,
+      "original_keyword": "potassium sulfate",
+      "parent_topic": "glucosamine sulfate potassium chloride",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to use potassium sulfate fertilizer",
+      "volume": 20,
+      "original_keyword": "potassium sulfate",
+      "parent_topic": "potassium sulfate fertilizer",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is potassium sulfate soluble",
+      "volume": 20,
+      "original_keyword": "potassium sulfate",
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is aluminum potassium sulfate",
+      "volume": 20,
+      "original_keyword": "potassium sulfate",
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is potassium aluminum sulfate",
+      "volume": 20,
+      "original_keyword": "potassium sulfate",
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where to buy potassium aluminum sulfate",
+      "volume": 20,
+      "original_keyword": "potassium sulfate",
+      "parent_topic": "aluminum potassium sulfate crystals",
+      "intents": [
+        "commercial",
+        "transactional"
+      ]
+    },
+    {
+      "keyword": "how many atoms are in potassium sulfate",
+      "volume": 10,
+      "original_keyword": "potassium sulfate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much potassium sulfate per gallon",
+      "volume": 10,
+      "original_keyword": "potassium sulfate",
+      "parent_topic": "potassium sulfate fertilizer",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
 }

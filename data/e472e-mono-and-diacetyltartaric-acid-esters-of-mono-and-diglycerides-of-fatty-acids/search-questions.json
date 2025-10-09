@@ -1,6 +1,104 @@
 {
-  "keyword": "Mono- and diacetyltartaric acid esters of mono- and diglycerides of fatty acids",
+  "keywords": [
+    "Mono- and diacetyltartaric acid esters of mono- and diglycerides of fatty acids",
+    "E472E",
+    "Mono- and diacetyl tartaric acid esters of mono- and diglycerides of fatty acids",
+    "DATEM",
+    "Mono- and diacetyltartaric esters of mono- and diglycerides of fatty acids",
+    "emulsifier E472e"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:21.245Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:25:30.883Z",
+  "questions": [
+    {
+      "keyword": "what is datem",
+      "volume": 900,
+      "original_keyword": "DATEM",
+      "parent_topic": "datem",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is datem in food",
+      "volume": 200,
+      "original_keyword": "DATEM",
+      "parent_topic": "datem",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is datem harmful",
+      "volume": 80,
+      "original_keyword": "DATEM",
+      "parent_topic": "datem side effects",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is datem banned in europe",
+      "volume": 60,
+      "original_keyword": "DATEM",
+      "parent_topic": "food additives banned in europe",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is datem ingredient",
+      "volume": 50,
+      "original_keyword": "DATEM",
+      "parent_topic": "datem",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is datem bad for you",
+      "volume": 40,
+      "original_keyword": "DATEM",
+      "parent_topic": "datem side effects",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "whats datem",
+      "volume": 30,
+      "original_keyword": "DATEM",
+      "parent_topic": "datem",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is datem safe",
+      "volume": 20,
+      "original_keyword": "DATEM",
+      "parent_topic": "datem side effects",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is datem in bread",
+      "volume": 20,
+      "original_keyword": "DATEM",
+      "parent_topic": "datem",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is datem made from",
+      "volume": 20,
+      "original_keyword": "DATEM",
+      "parent_topic": "datem",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
 }

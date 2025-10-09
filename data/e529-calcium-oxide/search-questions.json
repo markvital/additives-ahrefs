@@ -1,11 +1,15 @@
 {
-  "keyword": "Calcium oxide",
+  "keywords": [
+    "Calcium oxide",
+    "E529"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.369Z",
+  "fetchedAt": "2025-10-09T03:20:46.011Z",
   "questions": [
     {
       "keyword": "what is calcium oxide",
       "volume": 200,
+      "original_keyword": "Calcium oxide",
       "parent_topic": "quick lime",
       "intents": [
         "informational"
@@ -13,7 +17,8 @@
     },
     {
       "keyword": "what is calcium oxide used for",
-      "volume": 80,
+      "volume": 70,
+      "original_keyword": "Calcium oxide",
       "parent_topic": "quicklime",
       "intents": [
         "informational"
@@ -22,6 +27,7 @@
     {
       "keyword": "what is the formula for calcium oxide",
       "volume": 70,
+      "original_keyword": "Calcium oxide",
       "parent_topic": "quicklime",
       "intents": [
         "informational"
@@ -29,7 +35,8 @@
     },
     {
       "keyword": "is calcium oxide a compound",
-      "volume": 50,
+      "volume": 40,
+      "original_keyword": "Calcium oxide",
       "parent_topic": "is cao a compound",
       "intents": [
         "informational"
@@ -38,6 +45,7 @@
     {
       "keyword": "what is the formula for calcium oxide?",
       "volume": 40,
+      "original_keyword": "Calcium oxide",
       "parent_topic": "calcium oxide formula",
       "intents": [
         "informational"
@@ -46,6 +54,7 @@
     {
       "keyword": "where to buy calcium oxide",
       "volume": 40,
+      "original_keyword": "Calcium oxide",
       "parent_topic": "calcium oxide for sale",
       "intents": [
         "commercial",
@@ -55,12 +64,14 @@
     {
       "keyword": "why add calcium oxide in bayer process",
       "volume": 40,
+      "original_keyword": "Calcium oxide",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "where can i buy calcium oxide",
       "volume": 30,
+      "original_keyword": "Calcium oxide",
       "parent_topic": "calcium oxide for sale",
       "intents": [
         "commercial",
@@ -70,6 +81,7 @@
     {
       "keyword": "is calcium oxide a solid",
       "volume": 20,
+      "original_keyword": "Calcium oxide",
       "parent_topic": "quicklime",
       "intents": [
         "informational"
@@ -78,6 +90,7 @@
     {
       "keyword": "is calcium oxide ionic or covalent",
       "volume": 20,
+      "original_keyword": "Calcium oxide",
       "parent_topic": "",
       "intents": [
         "informational"

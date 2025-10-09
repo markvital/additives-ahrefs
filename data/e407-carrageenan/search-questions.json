@@ -1,11 +1,16 @@
 {
-  "keyword": "Carrageenan",
+  "keywords": [
+    "Carrageenan",
+    "E407",
+    "e407 stabilizer"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.451Z",
+  "fetchedAt": "2025-10-09T03:20:49.966Z",
   "questions": [
     {
       "keyword": "what is carrageenan",
-      "volume": 7100,
+      "volume": 7000,
+      "original_keyword": "Carrageenan",
       "parent_topic": "carrageenan",
       "intents": [
         "informational"
@@ -13,7 +18,8 @@
     },
     {
       "keyword": "is carrageenan bad for you",
-      "volume": 3600,
+      "volume": 3700,
+      "original_keyword": "Carrageenan",
       "parent_topic": "carrageenan",
       "intents": [
         "informational"
@@ -21,7 +27,8 @@
     },
     {
       "keyword": "carrageenan what is it",
-      "volume": 1300,
+      "volume": 1400,
+      "original_keyword": "Carrageenan",
       "parent_topic": "carrageenan",
       "intents": [
         "informational"
@@ -30,6 +37,7 @@
     {
       "keyword": "does carrageenan cause cancer",
       "volume": 450,
+      "original_keyword": "Carrageenan",
       "parent_topic": "carrageenan",
       "intents": [
         "informational"
@@ -37,15 +45,8 @@
     },
     {
       "keyword": "what is carrageenan used for",
-      "volume": 400,
-      "parent_topic": "carrageenan",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what is carrageenan in food",
-      "volume": 300,
+      "volume": 350,
+      "original_keyword": "Carrageenan",
       "parent_topic": "carrageenan",
       "intents": [
         "informational"
@@ -53,8 +54,18 @@
     },
     {
       "keyword": "is carrageenan bad for dogs",
-      "volume": 250,
+      "volume": 300,
+      "original_keyword": "Carrageenan",
       "parent_topic": "is carrageenan bad for dogs",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is carrageenan in food",
+      "volume": 300,
+      "original_keyword": "Carrageenan",
+      "parent_topic": "carrageenan",
       "intents": [
         "informational"
       ]
@@ -62,6 +73,7 @@
     {
       "keyword": "is carrageenan gluten free",
       "volume": 250,
+      "original_keyword": "Carrageenan",
       "parent_topic": "carrageenan gluten free",
       "intents": [
         "informational"
@@ -70,6 +82,7 @@
     {
       "keyword": "is carrageenan vegan",
       "volume": 250,
+      "original_keyword": "Carrageenan",
       "parent_topic": "is carrageenan vegan",
       "intents": [
         "informational"
@@ -78,6 +91,7 @@
     {
       "keyword": "is carrageenan bad",
       "volume": 200,
+      "original_keyword": "Carrageenan",
       "parent_topic": "is carrageenan bad for you",
       "intents": [
         "informational"

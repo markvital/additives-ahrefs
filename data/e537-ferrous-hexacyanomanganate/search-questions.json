@@ -1,6 +1,31 @@
 {
-  "keyword": "ferrous hexacyanomanganate",
+  "keywords": [
+    "ferrous hexacyanomanganate",
+    "E537"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:45.559Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:21:54.284Z",
+  "questions": [
+    {
+      "keyword": "how often do seth thomas helmsman ships clock with barometer e537-007 with wood base sell",
+      "volume": 0,
+      "original_keyword": "E537",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how old is my nickel e537-00 corsair ships clock",
+      "volume": 0,
+      "original_keyword": "E537",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the key size for e537-005",
+      "volume": 0,
+      "original_keyword": "E537",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

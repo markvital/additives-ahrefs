@@ -1,6 +1,81 @@
 {
-  "keyword": "Calcium formiate",
+  "keywords": [
+    "Calcium formiate",
+    "E238",
+    "calcium formate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.249Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:20:44.462Z",
+  "questions": [
+    {
+      "keyword": "what is calcium formate",
+      "volume": 10,
+      "original_keyword": "calcium formate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how do i clean my lexmark e238 printer head",
+      "volume": 0,
+      "original_keyword": "E238",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how do i clean my lexmark e238?",
+      "volume": 0,
+      "original_keyword": "E238",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to get calcium formate",
+      "volume": 0,
+      "original_keyword": "calcium formate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to make calcium formate",
+      "volume": 0,
+      "original_keyword": "calcium formate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to open up the back of the ink printer on a lexmark e238",
+      "volume": 0,
+      "original_keyword": "E238",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to print a test page lexmark e238",
+      "volume": 0,
+      "original_keyword": "E238",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to print network setup page lexmark e238",
+      "volume": 0,
+      "original_keyword": "E238",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to pronounce calcium formate",
+      "volume": 0,
+      "original_keyword": "calcium formate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "lexmark e238 how to stop printing instructions for two-sided printing",
+      "volume": 0,
+      "original_keyword": "E238",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

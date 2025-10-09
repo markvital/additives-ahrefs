@@ -1,65 +1,94 @@
 {
-  "keyword": "Calcium hydrogen carbonate",
+  "keywords": [
+    "Calcium hydrogen carbonate",
+    "E170II",
+    "Calcium bicarbonate",
+    "Calcium acid carbonate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.529Z",
+  "fetchedAt": "2025-10-09T03:20:45.824Z",
   "questions": [
     {
-      "keyword": ", indicate how calcium carbonate chemically removes hydrogen from soil solution.",
-      "volume": 0,
+      "keyword": "what is calcium bicarbonate",
+      "volume": 60,
+      "original_keyword": "Calcium bicarbonate",
+      "parent_topic": "calcium bicarbonate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how does calcium carbonate neutralize stomach acid",
+      "volume": 50,
+      "original_keyword": "Calcium acid carbonate",
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "when calcium carbonate is added to hydrochloric acid",
+      "volume": 40,
+      "original_keyword": "Calcium acid carbonate",
+      "parent_topic": "calcium carbonate and hydrochloric acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how does calcium carbonate neutralize acid",
+      "volume": 20,
+      "original_keyword": "Calcium acid carbonate",
+      "parent_topic": "antacid ph level",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "why does calcium carbonate dissolve in acid",
+      "volume": 20,
+      "original_keyword": "Calcium acid carbonate",
+      "parent_topic": "why does calcium carbonate dissolve in acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how does calcium carbonate reduce acid rain",
+      "volume": 10,
+      "original_keyword": "Calcium acid carbonate",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "calcium carbonate will come apart when you hear it to leave calcium sulfate and hydrogen fluoride",
-      "volume": 0,
+      "keyword": "is calcium bicarbonate baking soda",
+      "volume": 10,
+      "original_keyword": "Calcium bicarbonate",
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is calcium carbonate an acid or base",
+      "volume": 10,
+      "original_keyword": "Calcium acid carbonate",
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what affects how quickly acid reacts with calcium carbonate",
+      "volume": 10,
+      "original_keyword": "Calcium acid carbonate",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "how calcium carbonate chemically removes hydrogen from soil solution",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how do hydrogen ions react with calcium carbonate",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how does hydrogen react with calcium carbonate",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how many calcium atoms are in a formula unit of calcium hydrogen carbonate",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how many grams of calcium carbonate do i need to neutralize hydrogen ions",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how many ml of 0.773m hydrogen chloride are needed to react with 52.2g of calcium carbonate?",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how many moles of calcium carbonate do i need to neutralize hydrogen ions",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how much calcium carbonate is needed to neutralize 10 moles of hydrogen ions",
-      "volume": 0,
+      "keyword": "what does calcium bicarbonate do",
+      "volume": 10,
+      "original_keyword": "Calcium bicarbonate",
       "parent_topic": "",
       "intents": []
     }

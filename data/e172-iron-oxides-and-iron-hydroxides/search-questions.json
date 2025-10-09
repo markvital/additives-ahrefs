@@ -1,17 +1,78 @@
 {
-  "keyword": "Iron oxides and iron hydroxides",
+  "keywords": [
+    "Iron oxides and iron hydroxides",
+    "E172"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:23:56.155Z",
+  "fetchedAt": "2025-10-09T03:23:41.561Z",
   "questions": [
+    {
+      "keyword": "what happen on the bold and beautiful on s31 e172",
+      "volume": 0,
+      "original_keyword": "E172",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is e171 and e172",
+      "volume": 0,
+      "original_keyword": "E172",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is e172",
+      "volume": 0,
+      "original_keyword": "E172",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is e172 in food",
+      "volume": 0,
+      "original_keyword": "E172",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is e172 in medicine",
+      "volume": 0,
+      "original_keyword": "E172",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is e172 in resaerch article",
+      "volume": 0,
+      "original_keyword": "E172",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is e172 in research article",
+      "volume": 0,
+      "original_keyword": "E172",
+      "parent_topic": "",
+      "intents": []
+    },
     {
       "keyword": "where do iron oxides and aluminum hydroxides form",
       "volume": 0,
+      "original_keyword": "Iron oxides and iron hydroxides",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "why iron oxides and hydroxides not allowed in europe",
       "volume": 0,
+      "original_keyword": "Iron oxides and iron hydroxides",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "why is e172 banned in germany",
+      "volume": 0,
+      "original_keyword": "E172",
       "parent_topic": "",
       "intents": []
     }

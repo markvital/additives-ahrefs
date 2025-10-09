@@ -1,6 +1,9 @@
 {
-  "keyword": "Acid sodium aluminium phosphate",
+  "keywords": [
+    "Acid sodium aluminium phosphate",
+    "E541I"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.282Z",
+  "fetchedAt": "2025-10-09T03:16:32.334Z",
   "questions": []
 }

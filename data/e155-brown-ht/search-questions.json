@@ -1,65 +1,79 @@
 {
-  "keyword": "Brown ht",
+  "keywords": [
+    "Brown ht",
+    "E155",
+    "Chocolate brown HT"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.834Z",
+  "fetchedAt": "2025-10-09T03:20:40.076Z",
   "questions": [
     {
       "keyword": "from where is brown ht derived",
       "volume": 0,
+      "original_keyword": "Brown ht",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how hard do you press an espresso basket for a delonghi e155",
+      "volume": 0,
+      "original_keyword": "E155",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how i met your mother s2 e155",
+      "volume": 0,
+      "original_keyword": "E155",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how long should i bake frozen ht traders sweet honey brown bread loaves",
       "volume": 0,
+      "original_keyword": "Brown ht",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how much does howard brown ht cost",
       "volume": 0,
+      "original_keyword": "Brown ht",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much for an e155 wood gassifier",
+      "volume": 0,
+      "original_keyword": "E155",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much is e155",
+      "volume": 0,
+      "original_keyword": "E155",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how to disassemble the brown leather power reclining sofa by ht",
       "volume": 0,
+      "original_keyword": "Brown ht",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how to set ht club 40 fore brown sound",
       "volume": 0,
+      "original_keyword": "Brown ht",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what food companies use brown ht",
+      "keyword": "how to turn on 4k resolution on a vizio e155",
       "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is brown ht",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what major companies use brown ht",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "when was brown ht introduced into the food supply",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "who discovered brown ht",
-      "volume": 0,
+      "original_keyword": "E155",
       "parent_topic": "",
       "intents": []
     }

@@ -1,6 +1,84 @@
 {
-  "keyword": "Scarlet GN",
+  "keywords": [
+    "Scarlet GN",
+    "E125",
+    "C.I. Food Red 1",
+    "Ponceau SX",
+    "FD&C Red No. 4",
+    "C.I. 14700"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:48.169Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:29:19.791Z",
+  "questions": [
+    {
+      "keyword": "bolens e125 how to change carborator",
+      "volume": 0,
+      "original_keyword": "E125",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "e125 boiler error how to fix",
+      "volume": 0,
+      "original_keyword": "E125",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how fast can a razor e125 motor powered electric 24v motorized scooter black/silver (open box)",
+      "volume": 0,
+      "original_keyword": "E125",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how many pounds does the razor e125 hold",
+      "volume": 0,
+      "original_keyword": "E125",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how many volts is a razor scooter e125",
+      "volume": 0,
+      "original_keyword": "E125",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much weight can a mitsubishi fuso e125 hold in rear box",
+      "volume": 0,
+      "original_keyword": "E125",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much weight can a razor e125 scooter hold",
+      "volume": 0,
+      "original_keyword": "E125",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to change razor e125 battery",
+      "volume": 0,
+      "original_keyword": "E125",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to charge razon e125",
+      "volume": 0,
+      "original_keyword": "E125",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to fit razor a e125 with tire air",
+      "volume": 0,
+      "original_keyword": "E125",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

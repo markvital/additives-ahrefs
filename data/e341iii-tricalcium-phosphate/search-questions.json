@@ -1,11 +1,20 @@
 {
-  "keyword": "Tricalcium phosphate",
+  "keywords": [
+    "Tricalcium phosphate",
+    "E341III",
+    "Tricalciumphosphate",
+    "tri-calcium phosphate",
+    "E 341iii",
+    "E-341iii",
+    "E341 iii"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:19:04.249Z",
+  "fetchedAt": "2025-10-09T03:30:09.130Z",
   "questions": [
     {
       "keyword": "what is tricalcium phosphate",
       "volume": 1100,
+      "original_keyword": "Tricalcium phosphate",
       "parent_topic": "tricalcium phosphate",
       "intents": [
         "informational"
@@ -13,7 +22,8 @@
     },
     {
       "keyword": "is tricalcium phosphate gluten free",
-      "volume": 200,
+      "volume": 150,
+      "original_keyword": "Tricalcium phosphate",
       "parent_topic": "tricalcium phosphate gluten free",
       "intents": [
         "informational"
@@ -22,6 +32,7 @@
     {
       "keyword": "is tricalcium phosphate safe",
       "volume": 150,
+      "original_keyword": "Tricalcium phosphate",
       "parent_topic": "tricalcium phosphate",
       "intents": [
         "informational"
@@ -30,6 +41,7 @@
     {
       "keyword": "is tricalcium phosphate bad for you",
       "volume": 100,
+      "original_keyword": "Tricalcium phosphate",
       "parent_topic": "tricalcium phosphate",
       "intents": [
         "informational"
@@ -38,6 +50,7 @@
     {
       "keyword": "is tricalcium phosphate safe in body powder",
       "volume": 50,
+      "original_keyword": "Tricalcium phosphate",
       "parent_topic": "is tricalcium phosphate safe in body powder",
       "intents": [
         "informational"
@@ -46,15 +59,8 @@
     {
       "keyword": "what is tricalcium phosphate in baby powder",
       "volume": 40,
+      "original_keyword": "Tricalcium phosphate",
       "parent_topic": "tricalcium phosphate vs talc",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is tricalcium phosphate the same as calcium citrate",
-      "volume": 30,
-      "parent_topic": "calcium citrate vs calcium carbonate",
       "intents": [
         "informational"
       ]
@@ -62,6 +68,7 @@
     {
       "keyword": "is tricalcium phosphate the same as talc",
       "volume": 30,
+      "original_keyword": "Tricalcium phosphate",
       "parent_topic": "tricalcium phosphate vs talc",
       "intents": [
         "informational"
@@ -70,15 +77,26 @@
     {
       "keyword": "is tricalcium phosphate vegan",
       "volume": 30,
+      "original_keyword": "Tricalcium phosphate",
       "parent_topic": "tricalcium phosphate",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is tricalcium phosphate used for",
-      "volume": 30,
+      "keyword": "does tricalcium phosphate contain gluten",
+      "volume": 20,
+      "original_keyword": "Tricalcium phosphate",
       "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is tricalcium phosphate safe for cats",
+      "volume": 20,
+      "original_keyword": "Tricalcium phosphate",
+      "parent_topic": "tricalcium phosphate in cat food",
       "intents": [
         "informational"
       ]

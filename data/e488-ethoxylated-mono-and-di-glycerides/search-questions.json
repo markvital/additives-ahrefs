@@ -1,6 +1,17 @@
 {
-  "keyword": "Ethoxylated Mono- and Di-Glycerides",
+  "keywords": [
+    "Ethoxylated Mono- and Di-Glycerides",
+    "E488"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:45.559Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:21:53.831Z",
+  "questions": [
+    {
+      "keyword": "girlsdoporn e488 who is",
+      "volume": 0,
+      "original_keyword": "E488",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

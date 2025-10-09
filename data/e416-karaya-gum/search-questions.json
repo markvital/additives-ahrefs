@@ -1,11 +1,22 @@
 {
-  "keyword": "Karaya-gum",
+  "keywords": [
+    "Karaya-gum",
+    "E416",
+    "Katilo",
+    "Kadaya",
+    "Gum sterculia",
+    "Sterculia",
+    "Karaya",
+    "gum karaya",
+    "Kullo"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:23:56.945Z",
+  "fetchedAt": "2025-10-09T03:23:46.452Z",
   "questions": [
     {
       "keyword": "what is karaya gum",
       "volume": 10,
+      "original_keyword": "Karaya-gum",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -14,54 +25,63 @@
     {
       "keyword": "granules of karaya gum and sennosides how to use",
       "volume": 0,
+      "original_keyword": "Karaya-gum",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much does medicare/ medicaid allow for karaya 5 802932-413 adhesive per month",
+      "volume": 0,
+      "original_keyword": "Karaya",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much does medicare/ medicaid allow for karaya adheasive per monthve",
+      "volume": 0,
+      "original_keyword": "Karaya",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to apply karaya gom powder",
+      "volume": 0,
+      "original_keyword": "Karaya",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how to be karaya gum supplier",
       "volume": 0,
+      "original_keyword": "Karaya-gum",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to buy sterculia setigera leaves",
+      "volume": 0,
+      "original_keyword": "Sterculia",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how to extract karaya gum",
       "volume": 0,
+      "original_keyword": "Karaya-gum",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what foods contain karaya gum",
+      "keyword": "how to use karaya 5",
       "volume": 0,
+      "original_keyword": "Karaya",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what foods is gum karaya",
+      "keyword": "how to use karaya paste",
       "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what has gum karaya food",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is gum karaya",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is gum karaya in",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is karaya gum in food",
-      "volume": 0,
+      "original_keyword": "Karaya",
       "parent_topic": "",
       "intents": []
     }

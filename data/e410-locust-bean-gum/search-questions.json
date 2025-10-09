@@ -1,11 +1,19 @@
 {
-  "keyword": "Locust bean gum",
+  "keywords": [
+    "Locust bean gum",
+    "E410",
+    "Carob bean gum",
+    "Carob gum",
+    "garrofin gum",
+    "peruvian carob gum"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:14.727Z",
+  "fetchedAt": "2025-10-09T03:23:51.929Z",
   "questions": [
     {
       "keyword": "what is locust bean gum",
       "volume": 2200,
+      "original_keyword": "Locust bean gum",
       "parent_topic": "locust bean gum",
       "intents": [
         "informational"
@@ -14,6 +22,16 @@
     {
       "keyword": "is locust bean gum bad for you",
       "volume": 500,
+      "original_keyword": "Locust bean gum",
+      "parent_topic": "locust bean gum",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is carob bean gum",
+      "volume": 500,
+      "original_keyword": "Carob bean gum",
       "parent_topic": "locust bean gum",
       "intents": [
         "informational"
@@ -22,7 +40,26 @@
     {
       "keyword": "can dogs have locust bean gum",
       "volume": 150,
+      "original_keyword": "Locust bean gum",
       "parent_topic": "can dogs have locust bean gum",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is carob bean gum bad for you",
+      "volume": 150,
+      "original_keyword": "Carob bean gum",
+      "parent_topic": "locust bean gum",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "can dogs have carob bean gum",
+      "volume": 70,
+      "original_keyword": "Carob bean gum",
+      "parent_topic": "can dogs eat carob",
       "intents": [
         "informational"
       ]
@@ -30,7 +67,17 @@
     {
       "keyword": "can dogs eat locust bean gum",
       "volume": 50,
+      "original_keyword": "Locust bean gum",
       "parent_topic": "can dogs have locust bean gum",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is carob gum",
+      "volume": 50,
+      "original_keyword": "Carob gum",
+      "parent_topic": "locust bean gum",
       "intents": [
         "informational"
       ]
@@ -38,6 +85,7 @@
     {
       "keyword": "what is locust bean gum made of",
       "volume": 50,
+      "original_keyword": "Locust bean gum",
       "parent_topic": "locust bean gum",
       "intents": [
         "informational"
@@ -46,40 +94,9 @@
     {
       "keyword": "locust bean gum what is it",
       "volume": 40,
+      "original_keyword": "Locust bean gum",
       "parent_topic": "",
       "intents": []
-    },
-    {
-      "keyword": "what is locust bean gum made from",
-      "volume": 40,
-      "parent_topic": "",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what is locust bean gum?",
-      "volume": 40,
-      "parent_topic": "locust bean gum",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is locust bean gum a legume",
-      "volume": 30,
-      "parent_topic": "",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what is locust bean gum used for",
-      "volume": 30,
-      "parent_topic": "",
-      "intents": [
-        "informational"
-      ]
     }
   ]
 }

@@ -1,6 +1,39 @@
 {
-  "keyword": "Dipotassium inosinate",
+  "keywords": [
+    "Dipotassium inosinate",
+    "E632",
+    "Potassium inosinate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.905Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:21:53.379Z",
+  "questions": [
+    {
+      "keyword": "how do i adjust temperature on my axvue baby monitor e632",
+      "volume": 0,
+      "original_keyword": "E632",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much does 15 e632 worth steet",
+      "volume": 0,
+      "original_keyword": "E632",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to get to your router arris e632",
+      "volume": 0,
+      "original_keyword": "E632",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what cameras are compatible with the axvue e632 video baby monitor",
+      "volume": 0,
+      "original_keyword": "E632",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

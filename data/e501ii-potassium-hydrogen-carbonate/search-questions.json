@@ -1,69 +1,106 @@
 {
-  "keyword": "Potassium hydrogen carbonate",
+  "keywords": [
+    "Potassium hydrogen carbonate",
+    "E501II",
+    "Potassium bicarbonate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:39.591Z",
+  "fetchedAt": "2025-10-09T03:26:03.048Z",
   "questions": [
     {
-      "keyword": "what is the formula for potassium hydrogen carbonate",
-      "volume": 20,
+      "keyword": "what is potassium bicarbonate",
+      "volume": 600,
+      "original_keyword": "Potassium bicarbonate",
       "parent_topic": "potassium bicarbonate",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "5. what is the molecular mass of potassium hydrogen carbonate (khco3)?",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "where to buy potassium bicarbonate",
+      "volume": 200,
+      "original_keyword": "Potassium bicarbonate",
+      "parent_topic": "potassium bicarbonate",
+      "intents": [
+        "commercial",
+        "transactional"
+      ]
     },
     {
-      "keyword": "a sample of potassium hydrogen carbonate, 8.4 g is used to preapare ml of solution, what is the ph",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "is potassium bicarbonate good for you",
+      "volume": 60,
+      "original_keyword": "Potassium bicarbonate",
+      "parent_topic": "what is potassium bicarbonate",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "reaction when potassium hydrogen carbonate is put in water",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "potassium bicarbonate where to buy",
+      "volume": 60,
+      "original_keyword": "Potassium bicarbonate",
+      "parent_topic": "potassium bicarbonate",
+      "intents": [
+        "commercial",
+        "transactional"
+      ]
     },
     {
-      "keyword": "rection when potassium hydrogen carbonate",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "where to buy potassium bicarbonate for plants",
+      "volume": 50,
+      "original_keyword": "Potassium bicarbonate",
+      "parent_topic": "potassium bicarbonate",
+      "intents": [
+        "commercial",
+        "transactional"
+      ]
     },
     {
-      "keyword": "rection when potassium hydrogen carbonate is put in water",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "is potassium bicarbonate baking soda",
+      "volume": 40,
+      "original_keyword": "Potassium bicarbonate",
+      "parent_topic": "sub for baking soda",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "what does potassium hydrogen carbonate dissolve into",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what are the two sizes of potassium bicarbonate portable extinguishers",
+      "volume": 40,
+      "original_keyword": "Potassium bicarbonate",
+      "parent_topic": "what are the two sizes of potassium bicarbonate portable extinguishers",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "what happens when you heat potassium hydrogen carbonate",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "where can i buy potassium bicarbonate",
+      "volume": 40,
+      "original_keyword": "Potassium bicarbonate",
+      "parent_topic": "potassium bicarbonate",
+      "intents": [
+        "informational",
+        "commercial",
+        "transactional"
+      ]
     },
     {
-      "keyword": "what is potassium hydrogen carbonate",
-      "volume": 0,
+      "keyword": "is potassium bicarbonate the same as baking soda",
+      "volume": 30,
+      "original_keyword": "Potassium bicarbonate",
       "parent_topic": "",
-      "intents": []
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "what is potassium hydrogen carbonate formula",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is potassium bicarbonate used for",
+      "volume": 30,
+      "original_keyword": "Potassium bicarbonate",
+      "parent_topic": "potassium bicarbonate uses",
+      "intents": [
+        "informational"
+      ]
     }
   ]
 }

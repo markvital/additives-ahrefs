@@ -1,11 +1,15 @@
 {
-  "keyword": "Potassium carbonate",
+  "keywords": [
+    "Potassium carbonate",
+    "E501I"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:38.122Z",
+  "fetchedAt": "2025-10-09T03:26:00.668Z",
   "questions": [
     {
       "keyword": "what is potassium carbonate",
-      "volume": 350,
+      "volume": 400,
+      "original_keyword": "Potassium carbonate",
       "parent_topic": "potassium carbonate",
       "intents": [
         "informational"
@@ -14,23 +18,8 @@
     {
       "keyword": "is potassium carbonate soluble",
       "volume": 90,
+      "original_keyword": "Potassium carbonate",
       "parent_topic": "potassium carbonate",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what is potassium carbonate used for",
-      "volume": 70,
-      "parent_topic": "potassium carbonate",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is potassium carbonate dangerous",
-      "volume": 60,
-      "parent_topic": "is potassium carbonate dangerous",
       "intents": [
         "informational"
       ]
@@ -38,7 +27,26 @@
     {
       "keyword": "is potassium carbonate soluble in water",
       "volume": 60,
+      "original_keyword": "Potassium carbonate",
       "parent_topic": "potassium carbonate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is potassium carbonate used for",
+      "volume": 60,
+      "original_keyword": "Potassium carbonate",
+      "parent_topic": "potassium carbonate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is potassium carbonate dangerous",
+      "volume": 50,
+      "original_keyword": "Potassium carbonate",
+      "parent_topic": "is potassium carbonate dangerous",
       "intents": [
         "informational"
       ]
@@ -46,6 +54,7 @@
     {
       "keyword": "how to make potassium carbonate",
       "volume": 20,
+      "original_keyword": "Potassium carbonate",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -54,6 +63,7 @@
     {
       "keyword": "is potassium carbonate bad for you",
       "volume": 20,
+      "original_keyword": "Potassium carbonate",
       "parent_topic": "potassium carbonate",
       "intents": [
         "informational"
@@ -62,15 +72,8 @@
     {
       "keyword": "is potassium carbonate in food bad for you",
       "volume": 20,
+      "original_keyword": "Potassium carbonate",
       "parent_topic": "potassium carbonate in food",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is potassium carbonate toxic",
-      "volume": 20,
-      "parent_topic": "",
       "intents": [
         "informational"
       ]
@@ -78,7 +81,17 @@
     {
       "keyword": "what is potassium carbonate in food",
       "volume": 20,
+      "original_keyword": "Potassium carbonate",
       "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is the formula for potassium carbonate",
+      "volume": 20,
+      "original_keyword": "Potassium carbonate",
+      "parent_topic": "potassium carbonate",
       "intents": [
         "informational"
       ]

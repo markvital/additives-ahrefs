@@ -1,11 +1,15 @@
 {
-  "keyword": "Alanin",
+  "keywords": [
+    "Alanin",
+    "E369"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.291Z",
+  "fetchedAt": "2025-10-09T03:16:32.337Z",
   "questions": [
     {
       "keyword": "alanin aminotransferaz nedir",
       "volume": 30,
+      "original_keyword": "Alanin",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -14,6 +18,7 @@
     {
       "keyword": "beta alanin nedir",
       "volume": 10,
+      "original_keyword": "Alanin",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -22,30 +27,35 @@
     {
       "keyword": "what does beta alanin do",
       "volume": 10,
+      "original_keyword": "Alanin",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is alanin",
       "volume": 10,
+      "original_keyword": "Alanin",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is beta alanin",
       "volume": 10,
+      "original_keyword": "Alanin",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "for what is good alanin in liver",
       "volume": 0,
+      "original_keyword": "Alanin",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how many grans of beta alanin in food",
       "volume": 0,
+      "original_keyword": "Alanin",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -54,18 +64,21 @@
     {
       "keyword": "how much alanin is in c4",
       "volume": 0,
+      "original_keyword": "Alanin",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how to find the zero point of charge for poly-alanin",
       "volume": 0,
+      "original_keyword": "Alanin",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what are the alanin steps",
+      "keyword": "how to set schlage e369",
       "volume": 0,
+      "original_keyword": "E369",
       "parent_topic": "",
       "intents": []
     }

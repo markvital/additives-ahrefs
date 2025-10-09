@@ -1,11 +1,15 @@
 {
-  "keyword": "Ammonium carbonate",
+  "keywords": [
+    "Ammonium carbonate",
+    "E503I"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.352Z",
+  "fetchedAt": "2025-10-09T03:16:32.284Z",
   "questions": [
     {
       "keyword": "what is ammonium carbonate",
       "volume": 100,
+      "original_keyword": "Ammonium carbonate",
       "parent_topic": "ammonium carbonate",
       "intents": [
         "informational"
@@ -14,14 +18,16 @@
     {
       "keyword": "is ammonium carbonate soluble in water",
       "volume": 60,
-      "parent_topic": "is ammonium carbonate soluble in water",
+      "original_keyword": "Ammonium carbonate",
+      "parent_topic": "ammonium carbonate solubility",
       "intents": [
         "informational"
       ]
     },
     {
       "keyword": "is ammonium carbonate ionic or covalent",
-      "volume": 20,
+      "volume": 30,
+      "original_keyword": "Ammonium carbonate",
       "parent_topic": "(nh4)2co3 ionic or covalent",
       "intents": [
         "informational"
@@ -30,6 +36,7 @@
     {
       "keyword": "what is ammonium carbonate used for",
       "volume": 20,
+      "original_keyword": "Ammonium carbonate",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -38,6 +45,7 @@
     {
       "keyword": "ammonium carbonate where to buy",
       "volume": 10,
+      "original_keyword": "Ammonium carbonate",
       "parent_topic": "",
       "intents": [
         "commercial",
@@ -47,6 +55,7 @@
     {
       "keyword": "is ammonium carbonate soluble",
       "volume": 10,
+      "original_keyword": "Ammonium carbonate",
       "parent_topic": "ammonium carbonate solubility",
       "intents": [
         "informational"
@@ -55,6 +64,7 @@
     {
       "keyword": "what is the chemical formula for ammonium carbonate",
       "volume": 10,
+      "original_keyword": "Ammonium carbonate",
       "parent_topic": "ammonium carbonate",
       "intents": [
         "informational"
@@ -63,6 +73,7 @@
     {
       "keyword": "what is the formula for ammonium carbonate",
       "volume": 10,
+      "original_keyword": "Ammonium carbonate",
       "parent_topic": "ammonium carbonate",
       "intents": [
         "informational"
@@ -71,6 +82,7 @@
     {
       "keyword": "where to buy ammonium carbonate",
       "volume": 10,
+      "original_keyword": "Ammonium carbonate",
       "parent_topic": "",
       "intents": [
         "commercial",
@@ -78,8 +90,9 @@
       ]
     },
     {
-      "keyword": "(a) how many moles of ammonium ions are in 0.390 g of ammonium carbonate?",
+      "keyword": "(a) how many moles of ammonium ions are in 0.537 g of ammonium carbonate?",
       "volume": 0,
+      "original_keyword": "Ammonium carbonate",
       "parent_topic": "",
       "intents": []
     }

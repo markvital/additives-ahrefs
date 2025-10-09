@@ -1,11 +1,20 @@
 {
-  "keyword": "Dicalcium phosphate",
+  "keywords": [
+    "Dicalcium phosphate",
+    "E341II",
+    "Dibasic calcium phosphate",
+    "di-calcium phosphate",
+    "E 341ii",
+    "E-341ii",
+    "E341 ii"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.851Z",
+  "fetchedAt": "2025-10-09T03:23:21.506Z",
   "questions": [
     {
       "keyword": "what is dicalcium phosphate",
       "volume": 600,
+      "original_keyword": "Dicalcium phosphate",
       "parent_topic": "dicalcium phosphate",
       "intents": [
         "informational"
@@ -14,6 +23,7 @@
     {
       "keyword": "where to buy dicalcium phosphate for deer",
       "volume": 100,
+      "original_keyword": "Dicalcium phosphate",
       "parent_topic": "trace mineral for deer",
       "intents": [
         "commercial",
@@ -21,17 +31,19 @@
       ]
     },
     {
-      "keyword": "is dicalcium phosphate safe for dogs",
+      "keyword": "what is dicalcium phosphate used for",
       "volume": 80,
-      "parent_topic": "dicalcium phosphate in dog food",
+      "original_keyword": "Dicalcium phosphate",
+      "parent_topic": "dicalcium phosphate uses",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is dicalcium phosphate used for",
-      "volume": 80,
-      "parent_topic": "dicalcium phosphate uses",
+      "keyword": "is dicalcium phosphate safe for dogs",
+      "volume": 70,
+      "original_keyword": "Dicalcium phosphate",
+      "parent_topic": "dicalcium phosphate in dog food",
       "intents": [
         "informational"
       ]
@@ -39,6 +51,7 @@
     {
       "keyword": "where to buy dicalcium phosphate",
       "volume": 70,
+      "original_keyword": "Dicalcium phosphate",
       "parent_topic": "di calcium phosphate",
       "intents": [
         "commercial",
@@ -48,7 +61,17 @@
     {
       "keyword": "dicalcium phosphate para que sirve",
       "volume": 60,
+      "original_keyword": "Dicalcium phosphate",
       "parent_topic": "dicalcium phosphate para que sirve",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is dibasic calcium phosphate",
+      "volume": 60,
+      "original_keyword": "Dibasic calcium phosphate",
+      "parent_topic": "dicalcium phosphate",
       "intents": [
         "informational"
       ]
@@ -56,6 +79,7 @@
     {
       "keyword": "is dicalcium phosphate safe for kidneys",
       "volume": 50,
+      "original_keyword": "Dicalcium phosphate",
       "parent_topic": "is dicalcium phosphate safe for kidneys",
       "intents": [
         "informational"
@@ -64,23 +88,17 @@
     {
       "keyword": "is dicalcium phosphate bad for you",
       "volume": 40,
+      "original_keyword": "Dicalcium phosphate",
       "parent_topic": "",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "can dogs have dicalcium phosphate",
-      "volume": 20,
-      "parent_topic": "dicalcium phosphate in dog food",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is dicalcium phosphate vegan",
-      "volume": 20,
-      "parent_topic": "is dicalcium phosphate vegan",
+      "keyword": "what is di calcium phosphate",
+      "volume": 40,
+      "original_keyword": "di-calcium phosphate",
+      "parent_topic": "",
       "intents": [
         "informational"
       ]

@@ -1,17 +1,81 @@
 {
-  "keyword": "Ammonium phosphatides",
+  "keywords": [
+    "Ammonium phosphatides",
+    "E442",
+    "Mixed ammonium salts of phosphorylated glycerides",
+    "Emulsifier YN",
+    "Ammonium phosphatide"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.513Z",
+  "fetchedAt": "2025-10-09T03:16:34.725Z",
   "questions": [
     {
       "keyword": "ammonium phosphatides in what products",
       "volume": 0,
+      "original_keyword": "Ammonium phosphatides",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "emachine e442-v133 how to adjust the display",
+      "volume": 0,
+      "original_keyword": "E442",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "emachine e442-v133 how to adjust the display stretched",
+      "volume": 0,
+      "original_keyword": "E442",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how old is emachines e442",
+      "volume": 0,
+      "original_keyword": "E442",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to bring up bios e442-v133",
+      "volume": 0,
+      "original_keyword": "E442",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to close emachines e442 v133 lid with external monitor",
+      "volume": 0,
+      "original_keyword": "E442",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to restore a e442-v133",
+      "volume": 0,
+      "original_keyword": "E442",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to wake up emachines e442 with closed lid external monitor",
+      "volume": 0,
+      "original_keyword": "E442",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what does ammonium phosphatide\\ do",
+      "volume": 0,
+      "original_keyword": "Ammonium phosphatide",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what foods contain ammonium phosphatides",
       "volume": 0,
+      "original_keyword": "Ammonium phosphatides",
       "parent_topic": "",
       "intents": []
     }

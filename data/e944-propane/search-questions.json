@@ -1,20 +1,25 @@
 {
-  "keyword": "Propane",
+  "keywords": [
+    "Propane",
+    "E944"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:43.765Z",
+  "fetchedAt": "2025-10-09T03:29:06.732Z",
   "questions": [
     {
-      "keyword": "what is propane",
+      "keyword": "how much is propane per gallon",
       "volume": 3400,
-      "parent_topic": "propane",
+      "original_keyword": "Propane",
+      "parent_topic": "propane prices delaware",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "how much is propane per gallon",
-      "volume": 3200,
-      "parent_topic": "propane prices",
+      "keyword": "what is propane",
+      "volume": 3400,
+      "original_keyword": "Propane",
+      "parent_topic": "propane",
       "intents": [
         "informational"
       ]
@@ -22,6 +27,7 @@
     {
       "keyword": "does propane go bad",
       "volume": 2900,
+      "original_keyword": "Propane",
       "parent_topic": "does propane go bad",
       "intents": [
         "informational"
@@ -30,6 +36,7 @@
     {
       "keyword": "how much does a gallon of propane weigh",
       "volume": 2000,
+      "original_keyword": "Propane",
       "parent_topic": "how much does a gallon of propane weigh",
       "intents": [
         "informational"
@@ -37,7 +44,8 @@
     },
     {
       "keyword": "how much is a propane tank",
-      "volume": 1900,
+      "volume": 2000,
+      "original_keyword": "Propane",
       "parent_topic": "propane tank",
       "intents": [
         "informational",
@@ -46,7 +54,8 @@
     },
     {
       "keyword": "where to refill propane tank",
-      "volume": 1800,
+      "volume": 1900,
+      "original_keyword": "Propane",
       "parent_topic": "propane refill near me",
       "intents": [
         "informational"
@@ -55,6 +64,7 @@
     {
       "keyword": "is propane natural gas",
       "volume": 1700,
+      "original_keyword": "Propane",
       "parent_topic": "is propane natural gas",
       "intents": [
         "informational"
@@ -63,7 +73,17 @@
     {
       "keyword": "how much is propane",
       "volume": 1600,
+      "original_keyword": "Propane",
       "parent_topic": "propane tank",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does propane smell like",
+      "volume": 1600,
+      "original_keyword": "Propane",
+      "parent_topic": "what does a propane leak smell like",
       "intents": [
         "informational"
       ]
@@ -71,15 +91,8 @@
     {
       "keyword": "how many gallons in a propane tank",
       "volume": 1500,
+      "original_keyword": "Propane",
       "parent_topic": "propane tank sizes",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "how many gallons of propane in a 100 lb tank",
-      "volume": 1500,
-      "parent_topic": "100 gallon propane tank",
       "intents": [
         "informational"
       ]

@@ -1,6 +1,59 @@
 {
-  "keyword": "Anoxomer",
+  "keywords": [
+    "Anoxomer",
+    "E323"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.834Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:16:33.593Z",
+  "questions": [
+    {
+      "keyword": "global causes of maternal death: a who systematic analysis. lancet global health. 2014;2:e323–e333.",
+      "volume": 0,
+      "original_keyword": "E323",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to add paper to the lexmark e323",
+      "volume": 0,
+      "original_keyword": "E323",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to connect yamaha psr e323 to computer",
+      "volume": 0,
+      "original_keyword": "E323",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to format sd card e323 camera",
+      "volume": 0,
+      "original_keyword": "E323",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is toner reset chip for in e323",
+      "volume": 0,
+      "original_keyword": "E323",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what keyboard replaced the yamaha psr-e323",
+      "volume": 0,
+      "original_keyword": "E323",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "yamaha psr e323 how to get beat in key",
+      "volume": 0,
+      "original_keyword": "E323",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

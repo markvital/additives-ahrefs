@@ -1,67 +1,103 @@
 {
-  "keyword": "Butylated hydroxyanisole (bha)",
+  "keywords": [
+    "Butylated hydroxyanisole (bha)",
+    "E320",
+    "Butylated hydroxyanisole",
+    "BHA"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.831Z",
+  "fetchedAt": "2025-10-09T03:20:41.723Z",
   "questions": [
     {
-      "keyword": "bht/bha (butylated hydroxytoluene.butylated hydroxyanisole) – why is it used",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is bha",
+      "volume": 4200,
+      "original_keyword": "BHA",
+      "parent_topic": "aha bha",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "butylated hydroxyanisole (bha)what are the side effects of these ingredients",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is bha in food",
+      "volume": 1700,
+      "original_keyword": "BHA",
+      "parent_topic": "what is bha in food",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "food additive:what are alternaitives of butylated hydroxyanisole (bha)",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is aha and bha",
+      "volume": 1000,
+      "original_keyword": "BHA",
+      "parent_topic": "aha vs bha",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "food additive:what are alternatives of butylated hydroxyanisole (bha)",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "is salicylic acid a bha",
+      "volume": 700,
+      "original_keyword": "BHA",
+      "parent_topic": "salicylic acid for face",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "food additive:what are the health risk of butylated hydroxyanisole (bha)",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is bha and bht",
+      "volume": 500,
+      "original_keyword": "BHA",
+      "parent_topic": "bha and bht",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "food additive:what are the heath risk of butylated hydroxyanisole (bha)",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is bha in skin care",
+      "volume": 500,
+      "original_keyword": "BHA",
+      "parent_topic": "aha bha",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "what are butylated hydroxyanisole (bha) and butylated hydroxytoluene (bht) made from",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "is bha bad for you",
+      "volume": 400,
+      "original_keyword": "BHA",
+      "parent_topic": "is bht bad for you",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "what is bha (butylated hydroxyanisole) bht (butylated hydroxytoluene)",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what does bha do for your skin",
+      "volume": 400,
+      "original_keyword": "BHA",
+      "parent_topic": "aha bha",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "what is butylated hydroxyanisole (bha) and the related compound butylated hydroxytoluene (bht)",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is a bha",
+      "volume": 400,
+      "original_keyword": "BHA",
+      "parent_topic": "what is bha",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "where to buy butylated hydroxyanisole bha",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "how to use paula's choice bha",
+      "volume": 350,
+      "original_keyword": "BHA",
+      "parent_topic": "paula's choice bha",
+      "intents": [
+        "informational",
+        "branded"
+      ]
     }
   ]
 }

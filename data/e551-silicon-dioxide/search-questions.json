@@ -1,11 +1,26 @@
 {
-  "keyword": "Silicon dioxide",
+  "keywords": [
+    "Silicon dioxide",
+    "E551",
+    "Silica",
+    "SiO2"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:48.579Z",
+  "fetchedAt": "2025-10-09T03:29:20.077Z",
   "questions": [
     {
+      "keyword": "what is silica",
+      "volume": 8200,
+      "original_keyword": "Silica",
+      "parent_topic": "what is silica",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
       "keyword": "what is silicon dioxide",
-      "volume": 5100,
+      "volume": 5600,
+      "original_keyword": "Silicon dioxide",
       "parent_topic": "silica",
       "intents": [
         "informational"
@@ -14,73 +29,74 @@
     {
       "keyword": "is silicon dioxide safe",
       "volume": 2100,
+      "original_keyword": "Silicon dioxide",
       "parent_topic": "silicon dioxide",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what happens if you eat silica gel",
+      "volume": 1800,
+      "original_keyword": "Silica",
+      "parent_topic": "silica gel packets",
       "intents": [
         "informational"
       ]
     },
     {
       "keyword": "is silicon dioxide bad for you",
-      "volume": 1600,
+      "volume": 1700,
+      "original_keyword": "Silicon dioxide",
       "parent_topic": "silicon dioxide",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is silica bad for you",
+      "volume": 1600,
+      "original_keyword": "Silica",
+      "parent_topic": "what is silica",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is silica gel",
+      "volume": 1500,
+      "original_keyword": "Silica",
+      "parent_topic": "silica gel",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is silica used for",
+      "volume": 1200,
+      "original_keyword": "Silica",
+      "parent_topic": "what is silica used for",
       "intents": [
         "informational"
       ]
     },
     {
       "keyword": "is silicon dioxide harmful to humans",
+      "volume": 900,
+      "original_keyword": "Silicon dioxide",
+      "parent_topic": "silicon dioxide",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to get silica pearls in ark",
       "volume": 800,
-      "parent_topic": "silicon dioxide",
+      "original_keyword": "Silica",
+      "parent_topic": "ark silica pearls",
       "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what is silicon dioxide in food",
-      "volume": 500,
-      "parent_topic": "silicon dioxide",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is silicon dioxide safe in supplements",
-      "volume": 200,
-      "parent_topic": "silicon dioxide",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "why is silicon dioxide bad",
-      "volume": 200,
-      "parent_topic": "silicon dioxide",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is silicon dioxide ionic or covalent",
-      "volume": 150,
-      "parent_topic": "sio2 bond type",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is silicon dioxide safe to eat",
-      "volume": 150,
-      "parent_topic": "silicon dioxide bad for you",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "silicon dioxide para que sirve",
-      "volume": 150,
-      "parent_topic": "silicon dioxide para que sirve",
-      "intents": [
-        "informational"
+        "informational",
+        "branded"
       ]
     }
   ]

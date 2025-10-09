@@ -1,76 +1,97 @@
 {
-  "keyword": "methyl cellulose",
+  "keywords": [
+    "methyl cellulose",
+    "E461",
+    "methylcellulose"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:19.802Z",
+  "fetchedAt": "2025-10-09T03:23:57.402Z",
   "questions": [
+    {
+      "keyword": "what is methylcellulose",
+      "volume": 700,
+      "original_keyword": "methylcellulose",
+      "parent_topic": "methylcellulose",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is hydroxypropyl methylcellulose",
+      "volume": 400,
+      "original_keyword": "methylcellulose",
+      "parent_topic": "hydroxypropyl methylcellulose",
+      "intents": [
+        "informational"
+      ]
+    },
     {
       "keyword": "what is methyl cellulose",
       "volume": 150,
+      "original_keyword": "methyl cellulose",
       "parent_topic": "methyl cellulose",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is hydroxypropyl methyl cellulose",
-      "volume": 20,
-      "parent_topic": "hydroxypropyl methyl cellulose",
+      "keyword": "is hydroxypropyl methylcellulose safe",
+      "volume": 50,
+      "original_keyword": "methylcellulose",
+      "parent_topic": "hydroxypropyl methylcellulose",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "where to buy methyl cellulose",
-      "volume": 20,
-      "parent_topic": "",
-      "intents": [
-        "commercial",
-        "transactional"
-      ]
-    },
-    {
-      "keyword": "how to make methyl cellulose glue",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "is methyl cellulose bad for you",
-      "volume": 10,
+      "keyword": "what is methylcellulose in food",
+      "volume": 40,
+      "original_keyword": "methylcellulose",
       "parent_topic": "",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is carboxy methyl cellulose",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is methyl cellulose in food",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is methyl cellulose made from",
-      "volume": 10,
-      "parent_topic": "",
+      "keyword": "hydroxypropyl methylcellulose para que sirve",
+      "volume": 30,
+      "original_keyword": "methylcellulose",
+      "parent_topic": "hydroxypropyl methylcellulose para que sirve",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is methyl cellulose used for",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "is methylcellulose vegan",
+      "volume": 30,
+      "original_keyword": "methylcellulose",
+      "parent_topic": "is methylcellulose vegan",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "where can i buy methyl cellulose",
-      "volume": 10,
+      "keyword": "what is hydroxypropyl methylcellulose made from",
+      "volume": 30,
+      "original_keyword": "methylcellulose",
+      "parent_topic": "hydroxypropyl methylcellulose",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is hydroxypropyl methylcellulose used for",
+      "volume": 30,
+      "original_keyword": "methylcellulose",
+      "parent_topic": "hypromellose",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where to buy methylcellulose powder",
+      "volume": 30,
+      "original_keyword": "methylcellulose",
       "parent_topic": "",
       "intents": [
         "commercial",

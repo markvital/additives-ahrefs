@@ -1,41 +1,96 @@
 {
-  "keyword": "Aluminium potassium sulphate",
+  "keywords": [
+    "Aluminium potassium sulphate",
+    "E522",
+    "Potassium alum",
+    "Potassium aluminium sulfate",
+    "potash alum"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.267Z",
+  "fetchedAt": "2025-10-09T03:16:34.252Z",
   "questions": [
     {
-      "keyword": "how to remove water from potassium aluminium sulphate",
-      "volume": 0,
+      "keyword": "what is potassium alum",
+      "volume": 200,
+      "original_keyword": "Potassium alum",
+      "parent_topic": "potassium alum",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is potassium alum safe",
+      "volume": 100,
+      "original_keyword": "Potassium alum",
+      "parent_topic": "potassium alum deodorant",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does potassium alum contain aluminum",
+      "volume": 40,
+      "original_keyword": "Potassium alum",
+      "parent_topic": "potassium alum deodorant",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is potassium alum aluminum",
+      "volume": 20,
+      "original_keyword": "Potassium alum",
+      "parent_topic": "what is potassium alum",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where to buy potassium alum",
+      "volume": 20,
+      "original_keyword": "Potassium alum",
+      "parent_topic": "",
+      "intents": [
+        "commercial",
+        "transactional"
+      ]
+    },
+    {
+      "keyword": "is potassium alum bad for you",
+      "volume": 10,
+      "original_keyword": "Potassium alum",
+      "parent_topic": "how does crystal deodorant work",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is potassium alum the same as aluminum",
+      "volume": 10,
+      "original_keyword": "Potassium alum",
+      "parent_topic": "potassium alum deodorant",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "potash alum where to buy",
+      "volume": 10,
+      "original_keyword": "potash alum",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "potassium aluminium sulphate when dissolved in water forms",
-      "volume": 0,
+      "keyword": "potash of alum where can you buy it",
+      "volume": 10,
+      "original_keyword": "potash alum",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "potassium aluminium sulphate when dissolved in water forms ions",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is aluminium potassium sulphate",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is use of potassium aluminium sulphate",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "where to buy potassium aluminium sulphate",
-      "volume": 0,
+      "keyword": "potassium alum where to buy",
+      "volume": 10,
+      "original_keyword": "Potassium alum",
       "parent_topic": "",
       "intents": [
         "commercial",

@@ -1,11 +1,94 @@
 {
-  "keyword": "Glycerol esters of wood rosin",
+  "keywords": [
+    "Glycerol esters of wood rosin",
+    "E445",
+    "Glycerol ester of wood rosin",
+    "glyceryl abietate",
+    "ester gum"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:45.750Z",
+  "fetchedAt": "2025-10-09T03:23:32.991Z",
   "questions": [
     {
-      "keyword": "what is glycerol esters of wood rosin",
+      "keyword": "what is ester gum",
+      "volume": 350,
+      "original_keyword": "ester gum",
+      "parent_topic": "glycerol ester of rosin",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "is ester gum bad for you",
+      "volume": 200,
+      "original_keyword": "ester gum",
+      "parent_topic": "is ester gum bad for you",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "what is glycerol ester of wood rosin",
+      "volume": 90,
+      "original_keyword": "Glycerol ester of wood rosin",
+      "parent_topic": "ester gum",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is ester gum in drinks",
+      "volume": 30,
+      "original_keyword": "ester gum",
+      "parent_topic": "glycerol ester of rosin",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "is ester gum vegan",
+      "volume": 20,
+      "original_keyword": "ester gum",
+      "parent_topic": "ester gum vegan",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is ester gum made of",
+      "volume": 20,
+      "original_keyword": "ester gum",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is ester gum used for",
+      "volume": 10,
+      "original_keyword": "ester gum",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is glycerol ester of wood rosin made from",
+      "volume": 10,
+      "original_keyword": "Glycerol ester of wood rosin",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "ester gum what is it",
       "volume": 0,
+      "original_keyword": "ester gum",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to flash e445 via octopus",
+      "volume": 0,
+      "original_keyword": "E445",
       "parent_topic": "",
       "intents": []
     }

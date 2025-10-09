@@ -1,12 +1,96 @@
 {
-  "keyword": "Tartrazine",
+  "keywords": [
+    "Tartrazine",
+    "E102",
+    "Yellow 5",
+    "Yellow number 5",
+    "Yellow no 5",
+    "Yellow no5",
+    "FD&C Yellow 5",
+    "FD&C Yellow no 5",
+    "FD&C Yellow no5",
+    "FD and C Yellow no. 5",
+    "FD and C Yellow 5",
+    "Yellow 5 lake"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:19:04.780Z",
+  "fetchedAt": "2025-10-09T03:30:08.484Z",
   "questions": [
+    {
+      "keyword": "is yellow 5 bad for you",
+      "volume": 2300,
+      "original_keyword": "Yellow 5",
+      "parent_topic": "is yellow 5 bad for you",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "what is yellow 5",
+      "volume": 2300,
+      "original_keyword": "Yellow 5",
+      "parent_topic": "yellow 5 side effects",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "what is yellow 5 made of",
+      "volume": 900,
+      "original_keyword": "Yellow 5",
+      "parent_topic": "yellow 5 ingredients",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "is yellow 5 bad",
+      "volume": 600,
+      "original_keyword": "Yellow 5",
+      "parent_topic": "yellow 5 side effects",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "what does yellow 5 do to your body",
+      "volume": 500,
+      "original_keyword": "Yellow 5",
+      "parent_topic": "yellow 5 side effects",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
     {
       "keyword": "what is tartrazine",
       "volume": 500,
+      "original_keyword": "Tartrazine",
       "parent_topic": "tartrazine",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "how is yellow 5 made",
+      "volume": 300,
+      "original_keyword": "Yellow 5",
+      "parent_topic": "tartrazine",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "what foods have yellow 5",
+      "volume": 250,
+      "original_keyword": "Yellow 5",
+      "parent_topic": "food with yellow 5",
       "intents": [
         "informational",
         "branded"
@@ -15,6 +99,7 @@
     {
       "keyword": "what is tartrazine made of",
       "volume": 250,
+      "original_keyword": "Tartrazine",
       "parent_topic": "",
       "intents": [
         "informational",
@@ -22,62 +107,14 @@
       ]
     },
     {
-      "keyword": "what foods contain tartrazine",
+      "keyword": "does yellow 5 cause cancer",
       "volume": 150,
-      "parent_topic": "",
+      "original_keyword": "Yellow 5",
+      "parent_topic": "yellow 5",
       "intents": [
-        "informational"
+        "informational",
+        "branded"
       ]
-    },
-    {
-      "keyword": "what foods have tartrazine",
-      "volume": 150,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "where does tartrazine come from",
-      "volume": 100,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what products contain tartrazine",
-      "volume": 80,
-      "parent_topic": "what foods contain yellow 6",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "how is tartrazine made",
-      "volume": 60,
-      "parent_topic": "",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "why is tartrazine bad for you",
-      "volume": 50,
-      "parent_topic": "",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "tartrazine what is it",
-      "volume": 40,
-      "parent_topic": "",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what foods have tartrazine in them",
-      "volume": 40,
-      "parent_topic": "",
-      "intents": []
     }
   ]
 }

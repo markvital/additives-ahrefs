@@ -1,65 +1,78 @@
 {
-  "keyword": "Petroleum wax",
+  "keywords": [
+    "Petroleum wax",
+    "E905C"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:31.317Z",
+  "fetchedAt": "2025-10-09T03:25:49.623Z",
   "questions": [
     {
       "keyword": "what is petroleum wax",
       "volume": 10,
+      "original_keyword": "Petroleum wax",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how can a petroleum-based curl wax not hurt your paint on your car",
       "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how do you cotton ball dipped in petroleum jelly and covered in wax.",
-      "volume": 0,
+      "original_keyword": "Petroleum wax",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how do you put petroleum jelly and wax on cotton balls",
       "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how does petroleum wax work in moisturizers",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how is paraffin wax produced from petroleum",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how much waste disposal petroleum paraffin wax usa",
-      "volume": 0,
+      "original_keyword": "Petroleum wax",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how to deal with petroleum smell of jubilee wax",
       "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how to make beard wax without petroleum jelly",
-      "volume": 0,
+      "original_keyword": "Petroleum wax",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how to make non petroleum jelly using castor wax",
       "volume": 0,
+      "original_keyword": "Petroleum wax",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to make petroleum wax",
+      "volume": 0,
+      "original_keyword": "Petroleum wax",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to make scar wax without vaseline or petroleum jelly",
+      "volume": 0,
+      "original_keyword": "Petroleum wax",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to mix the urea into the wax, lanolin and petroleum",
+      "volume": 0,
+      "original_keyword": "Petroleum wax",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to mix wax with petroleum jelly",
+      "volume": 0,
+      "original_keyword": "Petroleum wax",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "wax what non-petroleum based sovents desolve wax",
+      "volume": 0,
+      "original_keyword": "Petroleum wax",
       "parent_topic": "",
       "intents": []
     }

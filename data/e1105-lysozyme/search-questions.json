@@ -1,11 +1,18 @@
 {
-  "keyword": "Lysozyme",
+  "keywords": [
+    "Lysozyme",
+    "E1105",
+    "Lysozyme hydrochloride",
+    "E 1105",
+    "E-1105"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:15.015Z",
+  "fetchedAt": "2025-10-09T03:23:51.996Z",
   "questions": [
     {
       "keyword": "what is lysozyme",
       "volume": 400,
+      "original_keyword": "Lysozyme",
       "parent_topic": "lysozyme",
       "intents": [
         "informational"
@@ -14,6 +21,7 @@
     {
       "keyword": "what is lysozyme?",
       "volume": 80,
+      "original_keyword": "Lysozyme",
       "parent_topic": "lysozyme",
       "intents": [
         "informational"
@@ -22,6 +30,16 @@
     {
       "keyword": "what does lysozyme do",
       "volume": 70,
+      "original_keyword": "Lysozyme",
+      "parent_topic": "lysozyme",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is a lysozyme",
+      "volume": 70,
+      "original_keyword": "Lysozyme",
       "parent_topic": "lysozyme",
       "intents": [
         "informational"
@@ -30,6 +48,7 @@
     {
       "keyword": "where is lysozyme found",
       "volume": 60,
+      "original_keyword": "Lysozyme",
       "parent_topic": "lysozyme",
       "intents": [
         "informational"
@@ -37,15 +56,8 @@
     },
     {
       "keyword": "is lysozyme an enzyme",
-      "volume": 50,
-      "parent_topic": "lysozyme",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what is a lysozyme",
-      "volume": 50,
+      "volume": 40,
+      "original_keyword": "Lysozyme",
       "parent_topic": "lysozyme",
       "intents": [
         "informational"
@@ -54,6 +66,7 @@
     {
       "keyword": "what foods contain lysozyme",
       "volume": 30,
+      "original_keyword": "Lysozyme",
       "parent_topic": "lysozyme in food",
       "intents": [
         "informational"
@@ -62,6 +75,7 @@
     {
       "keyword": "what is lysozyme used for",
       "volume": 30,
+      "original_keyword": "Lysozyme",
       "parent_topic": "lysozyme function",
       "intents": [
         "informational"
@@ -70,12 +84,14 @@
     {
       "keyword": "what is the enzyme classification of lysozyme?",
       "volume": 30,
+      "original_keyword": "Lysozyme",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "where is lysozyme found in the body",
       "volume": 30,
+      "original_keyword": "Lysozyme",
       "parent_topic": "",
       "intents": [
         "informational"

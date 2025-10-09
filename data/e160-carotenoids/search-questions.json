@@ -1,11 +1,15 @@
 {
-  "keyword": "Carotenoids",
+  "keywords": [
+    "Carotenoids",
+    "E160"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.426Z",
+  "fetchedAt": "2025-10-09T03:20:49.476Z",
   "questions": [
     {
       "keyword": "what are carotenoids",
       "volume": 700,
+      "original_keyword": "Carotenoids",
       "parent_topic": "carotenoids foods",
       "intents": [
         "informational"
@@ -13,7 +17,8 @@
     },
     {
       "keyword": "what is carotenoids",
-      "volume": 200,
+      "volume": 150,
+      "original_keyword": "Carotenoids",
       "parent_topic": "carotenoid",
       "intents": [
         "informational"
@@ -21,7 +26,8 @@
     },
     {
       "keyword": "what foods have carotenoids",
-      "volume": 50,
+      "volume": 40,
+      "original_keyword": "Carotenoids",
       "parent_topic": "carotenoids foods",
       "intents": [
         "informational"
@@ -30,12 +36,14 @@
     {
       "keyword": "what is the ul for carotenoids?",
       "volume": 30,
+      "original_keyword": "Carotenoids",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what are carotenoids in photosynthesis",
       "volume": 20,
+      "original_keyword": "Carotenoids",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -44,6 +52,7 @@
     {
       "keyword": "what are carotenoids?",
       "volume": 20,
+      "original_keyword": "Carotenoids",
       "parent_topic": "carotenoids",
       "intents": [
         "informational"
@@ -52,6 +61,7 @@
     {
       "keyword": "what foods are high in carotenoids",
       "volume": 20,
+      "original_keyword": "Carotenoids",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -60,6 +70,7 @@
     {
       "keyword": "what foods contain carotenoids",
       "volume": 20,
+      "original_keyword": "Carotenoids",
       "parent_topic": "carotenoids foods",
       "intents": [
         "informational"
@@ -68,6 +79,7 @@
     {
       "keyword": "which of the following is true of carotenoids?",
       "volume": 20,
+      "original_keyword": "Carotenoids",
       "parent_topic": "which of the following is true of carotenoids?",
       "intents": [
         "informational"
@@ -76,6 +88,7 @@
     {
       "keyword": "what are carotenoids good for",
       "volume": 10,
+      "original_keyword": "Carotenoids",
       "parent_topic": "carotenoids",
       "intents": [
         "informational"

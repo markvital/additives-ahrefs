@@ -1,65 +1,78 @@
 {
-  "keyword": "Orcein",
+  "keywords": [
+    "Orcein",
+    "E182"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:28.121Z",
+  "fetchedAt": "2025-10-09T03:25:41.647Z",
   "questions": [
     {
       "keyword": "aceto orcein dye what",
       "volume": 0,
+      "original_keyword": "Orcein",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "aceto orcein what is",
       "volume": 0,
+      "original_keyword": "Orcein",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how to dye with orcein",
       "volume": 0,
+      "original_keyword": "Orcein",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how to get aceto orcein stain",
       "volume": 0,
+      "original_keyword": "Orcein",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how to get aceto orcein stain off skin",
       "volume": 0,
+      "original_keyword": "Orcein",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what does orcein stain",
       "volume": 0,
+      "original_keyword": "Orcein",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what does orcein stain do",
       "volume": 0,
+      "original_keyword": "Orcein",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is acetic orcein",
       "volume": 0,
+      "original_keyword": "Orcein",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is the e number of orcein",
       "volume": 0,
+      "original_keyword": "Orcein",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "why is aceto-orcein stain better contrast",
       "volume": 0,
+      "original_keyword": "Orcein",
       "parent_topic": "",
       "intents": []
     }

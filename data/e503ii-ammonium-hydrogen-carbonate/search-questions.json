@@ -1,69 +1,104 @@
 {
-  "keyword": "Ammonium hydrogen carbonate",
+  "keywords": [
+    "Ammonium hydrogen carbonate",
+    "E503II",
+    "Baker's ammonia",
+    "Sal volatile",
+    "Salt of hartshorn",
+    "Ammonium bicarbonate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.234Z",
+  "fetchedAt": "2025-10-09T03:16:34.623Z",
   "questions": [
     {
-      "keyword": "ammonium hydrogen carbonate how many ions",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "for each 20.0g of ammonium hydrogen carbonate heated, how many grams of co2 is produced",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "he transformation that occurs when solid ammonium hydrogen carbonate dissolves in water",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how is ammonium hydrogen carbonate produced",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how many aatoms are in ammonium hydrogen carbonate",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how many atomes in ammonium hydrogen carbonate",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how many atoms are in ammonium hydrogen carbonate",
-      "volume": 0,
-      "parent_topic": "",
+      "keyword": "what is ammonium bicarbonate",
+      "volume": 400,
+      "original_keyword": "Ammonium bicarbonate",
+      "parent_topic": "ammonium bicarbonate",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "how many atoms in ammonium hydrogen carbonate",
-      "volume": 0,
+      "keyword": "is ammonium bicarbonate bad for you",
+      "volume": 80,
+      "original_keyword": "Ammonium bicarbonate",
+      "parent_topic": "ammonium bicarbonate side effects",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is ammonium bicarbonate safe in food",
+      "volume": 80,
+      "original_keyword": "Ammonium bicarbonate",
+      "parent_topic": "is ammonium bicarbonate safe in food",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is baker's ammonia",
+      "volume": 60,
+      "original_keyword": "Baker's ammonia",
+      "parent_topic": "what is baking ammonia",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is ammonium bicarbonate in food",
+      "volume": 50,
+      "original_keyword": "Ammonium bicarbonate",
+      "parent_topic": "ammonium bicarbonate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "baker's ammonia where to buy",
+      "volume": 20,
+      "original_keyword": "Baker's ammonia",
+      "parent_topic": "baker's ammonia",
+      "intents": [
+        "commercial",
+        "transactional"
+      ]
+    },
+    {
+      "keyword": "how to make ammonium bicarbonate buffer",
+      "volume": 20,
+      "original_keyword": "Ammonium bicarbonate",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "how many hydrogen atoms (h) are in ammonium carbonate",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is ammonium bicarbonate used for",
+      "volume": 20,
+      "original_keyword": "Ammonium bicarbonate",
+      "parent_topic": "ammonium bicarbonate",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "how many hydrogen atoms are in 41.6g of ammonium carbonate",
-      "volume": 0,
+      "keyword": "where to buy baker's ammonia",
+      "volume": 20,
+      "original_keyword": "Baker's ammonia",
       "parent_topic": "",
-      "intents": []
+      "intents": [
+        "commercial",
+        "transactional"
+      ]
+    },
+    {
+      "keyword": "what is ammonium bicarbonate used for in food",
+      "volume": 10,
+      "original_keyword": "Ammonium bicarbonate",
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
     }
   ]
 }

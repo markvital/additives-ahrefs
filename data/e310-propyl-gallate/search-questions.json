@@ -1,11 +1,16 @@
 {
-  "keyword": "Propyl gallate",
+  "keywords": [
+    "Propyl gallate",
+    "E310",
+    "Propyl ester of gallic acid"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:44.617Z",
+  "fetchedAt": "2025-10-09T03:29:08.626Z",
   "questions": [
     {
       "keyword": "what is propyl gallate",
       "volume": 200,
+      "original_keyword": "Propyl gallate",
       "parent_topic": "propyl gallate",
       "intents": [
         "informational"
@@ -13,7 +18,8 @@
     },
     {
       "keyword": "what is propyl gallate in food",
-      "volume": 80,
+      "volume": 70,
+      "original_keyword": "Propyl gallate",
       "parent_topic": "propyl gallate in food",
       "intents": [
         "informational"
@@ -22,50 +28,58 @@
     {
       "keyword": "is propyl gallate gluten free",
       "volume": 20,
+      "original_keyword": "Propyl gallate",
       "parent_topic": "",
       "intents": [
         "informational"
       ]
     },
     {
+      "keyword": "how to install memory in dell dimension e310",
+      "volume": 10,
+      "original_keyword": "E310",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
       "keyword": "what foods contain propyl gallate",
       "volume": 10,
+      "original_keyword": "Propyl gallate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is propyl gallate used for",
       "volume": 10,
+      "original_keyword": "Propyl gallate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "where is propyl gallate banned",
       "volume": 10,
+      "original_keyword": "Propyl gallate",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "bha, bht, propyl gallate in what food brand",
+      "keyword": "dell dimension e310 with lubuntu how much is it worth",
       "volume": 0,
+      "original_keyword": "E310",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "how bad is bha and propyl gallate",
+      "keyword": "dell e310 computer beeps when its turned on",
       "volume": 0,
+      "original_keyword": "E310",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "how do you know if you are allergic to propyl gallate",
+      "keyword": "dimension e310 how do i make it faster",
       "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "propyl gallate what is it",
-      "volume": 0,
+      "original_keyword": "E310",
       "parent_topic": "",
       "intents": []
     }

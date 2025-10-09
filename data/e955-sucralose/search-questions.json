@@ -1,11 +1,15 @@
 {
-  "keyword": "Sucralose",
+  "keywords": [
+    "Sucralose",
+    "E955"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:17:06.497Z",
+  "fetchedAt": "2025-10-09T03:29:58.387Z",
   "questions": [
     {
       "keyword": "is sucralose bad for you",
       "volume": 24000,
+      "original_keyword": "Sucralose",
       "parent_topic": "is sucralose bad for you",
       "intents": [
         "informational",
@@ -15,6 +19,7 @@
     {
       "keyword": "what is sucralose",
       "volume": 24000,
+      "original_keyword": "Sucralose",
       "parent_topic": "what is sucralose",
       "intents": [
         "informational",
@@ -24,6 +29,7 @@
     {
       "keyword": "does sucralose raise blood sugar",
       "volume": 3200,
+      "original_keyword": "Sucralose",
       "parent_topic": "does sucralose raise blood sugar",
       "intents": [
         "informational",
@@ -33,6 +39,7 @@
     {
       "keyword": "is sucralose bad",
       "volume": 1700,
+      "original_keyword": "Sucralose",
       "parent_topic": "is sucralose bad for you",
       "intents": [
         "informational",
@@ -42,6 +49,7 @@
     {
       "keyword": "is sucralose worse than sugar",
       "volume": 1300,
+      "original_keyword": "Sucralose",
       "parent_topic": "sucralose vs sugar",
       "intents": [
         "informational"
@@ -50,6 +58,7 @@
     {
       "keyword": "sucralose what is it",
       "volume": 1300,
+      "original_keyword": "Sucralose",
       "parent_topic": "is sucralose an artificial sweetener",
       "intents": [
         "informational",
@@ -59,16 +68,8 @@
     {
       "keyword": "what is sucralose made of",
       "volume": 1300,
+      "original_keyword": "Sucralose",
       "parent_topic": "what is sucralose",
-      "intents": [
-        "informational",
-        "branded"
-      ]
-    },
-    {
-      "keyword": "is sucralose sugar",
-      "volume": 1200,
-      "parent_topic": "sucralose side effects",
       "intents": [
         "informational",
         "branded"
@@ -77,14 +78,26 @@
     {
       "keyword": "is sucralose an artificial sweetener",
       "volume": 1100,
+      "original_keyword": "Sucralose",
       "parent_topic": "sucralose side effects",
       "intents": [
         "informational"
       ]
     },
     {
+      "keyword": "is sucralose sugar",
+      "volume": 1100,
+      "original_keyword": "Sucralose",
+      "parent_topic": "sucralose side effects",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
       "keyword": "is sucralose bad for diabetics",
       "volume": 1000,
+      "original_keyword": "Sucralose",
       "parent_topic": "does sucralose raise blood sugar",
       "intents": [
         "informational"

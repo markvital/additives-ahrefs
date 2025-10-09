@@ -1,17 +1,36 @@
 {
-  "keyword": "Calcium polyphosphate",
+  "keywords": [
+    "Calcium polyphosphate",
+    "E544"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.333Z",
+  "fetchedAt": "2025-10-09T03:20:46.646Z",
   "questions": [
+    {
+      "keyword": "fujitsu e544 wifi adapter where to find",
+      "volume": 0,
+      "original_keyword": "E544",
+      "parent_topic": "",
+      "intents": []
+    },
     {
       "keyword": "how does polyphosphate remove calcium",
       "volume": 0,
+      "original_keyword": "Calcium polyphosphate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the current model that compares with the dell e544",
+      "volume": 0,
+      "original_keyword": "E544",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is the e number of calcium polyphosphate",
       "volume": 0,
+      "original_keyword": "Calcium polyphosphate",
       "parent_topic": "",
       "intents": []
     }

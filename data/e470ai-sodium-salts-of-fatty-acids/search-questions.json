@@ -1,35 +1,43 @@
 {
-  "keyword": "Sodium salts of fatty acids",
+  "keywords": [
+    "Sodium salts of fatty acids",
+    "E470AI"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:25:13.514Z",
+  "fetchedAt": "2025-10-09T03:29:33.384Z",
   "questions": [
     {
       "keyword": "explain why sodium salts of fatty acids, although they are salts, are not very soluble in water",
       "volume": 0,
+      "original_keyword": "Sodium salts of fatty acids",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what are sodium or potassium salts of fatty acids",
       "volume": 0,
+      "original_keyword": "Sodium salts of fatty acids",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what are sodium salts of long chain fatty acids called",
       "volume": 0,
+      "original_keyword": "Sodium salts of fatty acids",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what do the sodium salts of fatty acids taste like",
       "volume": 0,
+      "original_keyword": "Sodium salts of fatty acids",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is special about sodium salts of fatty acids",
       "volume": 0,
+      "original_keyword": "Sodium salts of fatty acids",
       "parent_topic": "",
       "intents": []
     }

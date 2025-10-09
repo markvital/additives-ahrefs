@@ -1,17 +1,87 @@
 {
-  "keyword": "Glyceryl triacetate",
+  "keywords": [
+    "Glyceryl triacetate",
+    "E1518",
+    "Triacetin",
+    "glycerin triacetate",
+    "1‚2‚3-triacetoxypropane"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:45.750Z",
+  "fetchedAt": "2025-10-09T03:23:33.461Z",
   "questions": [
     {
-      "keyword": "what are dicalcium phosphate dihydrate, glyceryl triacetate, hypromellose,",
-      "volume": 0,
+      "keyword": "what is triacetin",
+      "volume": 150,
+      "original_keyword": "Triacetin",
+      "parent_topic": "triacetin",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "why is triacetin bad for you",
+      "volume": 40,
+      "original_keyword": "Triacetin",
+      "parent_topic": "why is triacetin bad for you",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is triacetin made from",
+      "volume": 10,
+      "original_keyword": "Triacetin",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what foods are high in glyceryl triacetate",
+      "keyword": "what is triacetin used for",
+      "volume": 10,
+      "original_keyword": "Triacetin",
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to make triacetin",
       "volume": 0,
+      "original_keyword": "Triacetin",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how triacetin acts as penetration enhancer",
+      "volume": 0,
+      "original_keyword": "Triacetin",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "triacetin ecig flavors how to mix",
+      "volume": 0,
+      "original_keyword": "Triacetin",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what % of triacetin is irritating to skin",
+      "volume": 0,
+      "original_keyword": "Triacetin",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what are dicalcium phosphate dihydrate, glyceryl triacetate, hypromellose,",
+      "volume": 0,
+      "original_keyword": "Glyceryl triacetate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what are the effects on the body using titanium triacetin",
+      "volume": 0,
+      "original_keyword": "Triacetin",
       "parent_topic": "",
       "intents": []
     }

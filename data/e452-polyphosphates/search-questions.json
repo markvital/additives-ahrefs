@@ -1,67 +1,81 @@
 {
-  "keyword": "Polyphosphates",
+  "keywords": [
+    "Polyphosphates",
+    "E452",
+    "Polyphosphate E452"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:34.883Z",
+  "fetchedAt": "2025-10-09T03:25:56.216Z",
   "questions": [
     {
       "keyword": "what are polyphosphates",
       "volume": 20,
+      "original_keyword": "Polyphosphates",
       "parent_topic": "polyphosphate",
       "intents": [
         "informational"
       ]
     },
     {
+      "keyword": "girlsdoporn e452 who is she",
+      "volume": 0,
+      "original_keyword": "E452",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
       "keyword": "how does polyphosphates reduce affinity of hemoglobin for oxygen",
       "volume": 0,
+      "original_keyword": "Polyphosphates",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how many states use polyphosphates",
       "volume": 0,
+      "original_keyword": "Polyphosphates",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how many states use polyphosphates to treat water",
       "volume": 0,
+      "original_keyword": "Polyphosphates",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how to remove polyphosphates from drinking water",
       "volume": 0,
+      "original_keyword": "Polyphosphates",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "polyphosphates are present in which granules",
       "volume": 0,
+      "original_keyword": "Polyphosphates",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what are polyphosphates foud in",
       "volume": 0,
+      "original_keyword": "Polyphosphates",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what are polyphosphates in food",
       "volume": 0,
+      "original_keyword": "Polyphosphates",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what are polyphosphates used for",
       "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is polyphosphates",
-      "volume": 0,
+      "original_keyword": "Polyphosphates",
       "parent_topic": "",
       "intents": []
     }

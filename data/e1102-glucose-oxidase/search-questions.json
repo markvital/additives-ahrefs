@@ -1,11 +1,15 @@
 {
-  "keyword": "Glucose oxidase",
+  "keywords": [
+    "Glucose oxidase",
+    "E1102"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:45.664Z",
+  "fetchedAt": "2025-10-09T03:21:54.968Z",
   "questions": [
     {
       "keyword": "what is glucose oxidase",
       "volume": 20,
+      "original_keyword": "Glucose oxidase",
       "parent_topic": "glucose oxidase",
       "intents": [
         "informational"
@@ -14,54 +18,63 @@
     {
       "keyword": "what does glucose oxidase do",
       "volume": 10,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "color when glucose oxidase preparation contaminated with catalase",
-      "volume": 0,
+      "original_keyword": "Glucose oxidase",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "cytochrome oxidase is used in which stage of the aerobic respiration of glucose",
       "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "glucose fermentation and nitrate reduction positive,negative oxidase what is the result",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "glucose oxidase is an enzyme that oxidizes glucose to what acid",
-      "volume": 0,
+      "original_keyword": "Glucose oxidase",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "glucose oxidase produces what",
       "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how does ascorbic acid interference with glucose oxidase",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how does glucose oxidase release chemical energy",
-      "volume": 0,
+      "original_keyword": "Glucose oxidase",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how does glucose oxidase work",
       "volume": 0,
+      "original_keyword": "Glucose oxidase",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much hydrogen peroxide does glucose oxidase produce",
+      "volume": 0,
+      "original_keyword": "Glucose oxidase",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to glucose oxidase",
+      "volume": 0,
+      "original_keyword": "Glucose oxidase",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to test for blood glucose oxidase chemical reaction",
+      "volume": 0,
+      "original_keyword": "Glucose oxidase",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "the glucose oxidase test is the only way to distinguish between what two sugars?",
+      "volume": 0,
+      "original_keyword": "Glucose oxidase",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what does a glucose oxidase test check",
+      "volume": 0,
+      "original_keyword": "Glucose oxidase",
       "parent_topic": "",
       "intents": []
     }

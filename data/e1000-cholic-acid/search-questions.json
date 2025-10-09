@@ -1,67 +1,80 @@
 {
-  "keyword": "Cholic acid",
+  "keywords": [
+    "Cholic acid",
+    "E1000"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.647Z",
+  "fetchedAt": "2025-10-09T03:20:51.043Z",
   "questions": [
     {
       "keyword": "what is cholic acid",
       "volume": 50,
+      "original_keyword": "Cholic acid",
       "parent_topic": "cholic acid",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "biosynthesis of a cholic acid requires what type of oxidation",
-      "volume": 0,
+      "keyword": "how much is e1000 in us dollars",
+      "volume": 10,
+      "original_keyword": "E1000",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "how does cholic acid form glycoconjugates",
-      "volume": 0,
+      "keyword": "how to connect linksys e1000 wireless router",
+      "volume": 10,
+      "original_keyword": "E1000",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "how does the body produce cholic acid",
-      "volume": 0,
+      "keyword": "how to install e1000 driver in linux",
+      "volume": 10,
+      "original_keyword": "E1000",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "how does the structure of cholic acid differ fro cholestoral",
-      "volume": 0,
+      "keyword": "how to reset e1000 router",
+      "volume": 10,
+      "original_keyword": "E1000",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "how long to dissolving gallstones with ursodeoxycholic acid or chenodeoxy-cholic acid",
-      "volume": 0,
+      "keyword": "what is a psp e1000",
+      "volume": 10,
+      "original_keyword": "E1000",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "how many enantiomers of cholic acid are there",
-      "volume": 0,
+      "keyword": "what is the default password for cisco e1000 router",
+      "volume": 10,
+      "original_keyword": "E1000",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "how much cholic acid is in bovine powder",
-      "volume": 0,
+      "keyword": "what is the default password for linksys e1000",
+      "volume": 10,
+      "original_keyword": "E1000",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "how to get cholic acid",
-      "volume": 0,
+      "keyword": "what is the difference between psp e1000 and psp 3000",
+      "volume": 10,
+      "original_keyword": "E1000",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "how to identify cholic acid",
-      "volume": 0,
+      "keyword": "what is the psp e1000",
+      "volume": 10,
+      "original_keyword": "E1000",
       "parent_topic": "",
       "intents": []
     }

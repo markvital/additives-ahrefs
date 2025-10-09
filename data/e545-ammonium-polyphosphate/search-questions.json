@@ -1,23 +1,78 @@
 {
-  "keyword": "Ammonium polyphosphate",
+  "keywords": [
+    "Ammonium polyphosphate",
+    "E545"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.668Z",
+  "fetchedAt": "2025-10-09T03:16:33.315Z",
   "questions": [
     {
-      "keyword": "what is ammonium polyphosphate",
+      "keyword": "bluetooth in laptop how to activate in lenovo e545",
       "volume": 0,
+      "original_keyword": "E545",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "who imports ammonium polyphosphate into the united states",
+      "keyword": "how to get rid of e545 auto dim",
       "volume": 0,
+      "original_keyword": "E545",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "why usa use ammonium polyphosphate",
+      "keyword": "how to improve boot up time lenovo thinkpad e545 windows 7",
       "volume": 0,
+      "original_keyword": "E545",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to recall lenovo e545 from sleep",
+      "volume": 0,
+      "original_keyword": "E545",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to reinstall webcam lenovo e545",
+      "volume": 0,
+      "original_keyword": "E545",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to replace lenovo e545 keyboard replacement",
+      "volume": 0,
+      "original_keyword": "E545",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to reset an e545",
+      "volume": 0,
+      "original_keyword": "E545",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to reset lenovo e545",
+      "volume": 0,
+      "original_keyword": "E545",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to route wifi antenna on thinkpad e545",
+      "volume": 0,
+      "original_keyword": "E545",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to screenshot on lenovo laptop e545",
+      "volume": 0,
+      "original_keyword": "E545",
       "parent_topic": "",
       "intents": []
     }

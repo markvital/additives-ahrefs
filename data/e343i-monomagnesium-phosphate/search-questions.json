@@ -1,6 +1,96 @@
 {
-  "keyword": "Monomagnesium phosphate",
+  "keywords": [
+    "Monomagnesium phosphate",
+    "E343I",
+    "Magnesiumdihydrogenphosphate",
+    "Magnesiumphosphate",
+    "monobasic",
+    "magnesium phosphate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:22.494Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:25:32.735Z",
+  "questions": [
+    {
+      "keyword": "what is the formula for magnesium phosphate",
+      "volume": 50,
+      "original_keyword": "magnesium phosphate",
+      "parent_topic": "what is the formula for magnesium phosphate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does monobasic mean",
+      "volume": 30,
+      "original_keyword": "monobasic",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is magnesium phosphate",
+      "volume": 30,
+      "original_keyword": "magnesium phosphate",
+      "parent_topic": "magnesium phosphate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is magnesium ascorbyl phosphate",
+      "volume": 20,
+      "original_keyword": "magnesium phosphate",
+      "parent_topic": "magnesium ascorbyl phosphate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is the molar mass of magnesium phosphate",
+      "volume": 20,
+      "original_keyword": "magnesium phosphate",
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "why boric acid is monobasic acid",
+      "volume": 20,
+      "original_keyword": "monobasic",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how many atoms are in this compound magnesium phosphate",
+      "volume": 10,
+      "original_keyword": "magnesium phosphate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how many atoms in magnesium phosphate",
+      "volume": 10,
+      "original_keyword": "magnesium phosphate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "is magnesium phosphate good for you",
+      "volume": 10,
+      "original_keyword": "magnesium phosphate",
+      "parent_topic": "magnesium phosphate benefits",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is magnesium phosphate soluble",
+      "volume": 10,
+      "original_keyword": "magnesium phosphate",
+      "parent_topic": "is magnesium phosphate soluble in water",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
 }

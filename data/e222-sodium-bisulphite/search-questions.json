@@ -1,27 +1,101 @@
 {
-  "keyword": "Sodium bisulphite",
+  "keywords": [
+    "Sodium bisulphite",
+    "E222",
+    "Sodium bisulfite"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:50.585Z",
+  "fetchedAt": "2025-10-09T03:29:23.028Z",
   "questions": [
     {
-      "keyword": "how long to wait for sodium bisulphite before pitching yeast",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is sodium bisulfite",
+      "volume": 150,
+      "original_keyword": "Sodium bisulfite",
+      "parent_topic": "sodium bisulfite",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "what is sodium bisulphite",
-      "volume": 0,
+      "keyword": "is sodium bisulfite bad for you",
+      "volume": 100,
+      "original_keyword": "Sodium bisulfite",
+      "parent_topic": "sodium bisulfite in food",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is sodium bisulfite used for",
+      "volume": 30,
+      "original_keyword": "Sodium bisulfite",
       "parent_topic": "",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "where to dump pool filter cleaner sodium bisulphite",
-      "volume": 0,
+      "keyword": "what is sodium bisulfite in food",
+      "volume": 20,
+      "original_keyword": "Sodium bisulfite",
       "parent_topic": "",
-      "intents": []
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how much sodium bisulfite to neutralize chlorine",
+      "volume": 10,
+      "original_keyword": "Sodium bisulfite",
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sodium bisulfite gluten free",
+      "volume": 10,
+      "original_keyword": "Sodium bisulfite",
+      "parent_topic": "is sodium bisulfite gluten free",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sodium bisulfite harmful to humans",
+      "volume": 10,
+      "original_keyword": "Sodium bisulfite",
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sodium bisulfite safe",
+      "volume": 10,
+      "original_keyword": "Sodium bisulfite",
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sodium bisulfite safe to eat",
+      "volume": 10,
+      "original_keyword": "Sodium bisulfite",
+      "parent_topic": "sodium bisulfite in food",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does sodium bisulfite do",
+      "volume": 10,
+      "original_keyword": "Sodium bisulfite",
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
     }
   ]
 }

@@ -8,12 +8,13 @@
     "baking soda"
   ],
   "country": "us",
-  "fetchedAt": "2025-10-07T23:55:28.428Z",
+  "fetchedAt": "2025-10-09T03:24:24.480Z",
   "questions": [
     {
       "keyword": "what is sodium bicarbonate",
-      "volume": 9500,
-      "parent_topic": "baking soda for acid reflux",
+      "volume": 9600,
+      "original_keyword": "Sodium bicarbonate",
+      "parent_topic": "sodium bicarbonate uses",
       "intents": [
         "informational"
       ]
@@ -21,6 +22,7 @@
     {
       "keyword": "what is baking soda",
       "volume": 9000,
+      "original_keyword": "baking soda",
       "parent_topic": "sodium bicarbonate",
       "intents": [
         "informational"
@@ -29,6 +31,7 @@
     {
       "keyword": "what does baking soda do",
       "volume": 5100,
+      "original_keyword": "baking soda",
       "parent_topic": "baking soda",
       "intents": [
         "informational"
@@ -37,6 +40,7 @@
     {
       "keyword": "what's the difference between baking soda and baking powder",
       "volume": 5000,
+      "original_keyword": "baking soda",
       "parent_topic": "baking soda vs baking powder",
       "intents": [
         "informational"
@@ -45,6 +49,7 @@
     {
       "keyword": "can i use baking soda instead of baking powder",
       "volume": 4000,
+      "original_keyword": "baking soda",
       "parent_topic": "can i use baking soda instead of baking powder",
       "intents": [
         "informational"
@@ -53,6 +58,7 @@
     {
       "keyword": "does baking soda go bad",
       "volume": 3900,
+      "original_keyword": "baking soda",
       "parent_topic": "does baking soda expire",
       "intents": [
         "informational"
@@ -61,6 +67,7 @@
     {
       "keyword": "can i use baking powder instead of baking soda",
       "volume": 3800,
+      "original_keyword": "baking soda",
       "parent_topic": "can you substitute baking powder for baking soda",
       "intents": [
         "informational"
@@ -69,6 +76,7 @@
     {
       "keyword": "what is baking soda made of",
       "volume": 3800,
+      "original_keyword": "baking soda",
       "parent_topic": "what is baking soda made of",
       "intents": [
         "informational"
@@ -77,6 +85,7 @@
     {
       "keyword": "does baking soda whiten teeth",
       "volume": 3700,
+      "original_keyword": "baking soda",
       "parent_topic": "does baking soda whiten teeth",
       "intents": [
         "informational"
@@ -85,6 +94,7 @@
     {
       "keyword": "how to wash strawberries with baking soda",
       "volume": 3500,
+      "original_keyword": "baking soda",
       "parent_topic": "how to wash strawberries",
       "intents": [
         "informational"

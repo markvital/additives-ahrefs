@@ -1,69 +1,103 @@
 {
-  "keyword": "Chlorophylls",
+  "keywords": [
+    "Chlorophylls",
+    "E140I",
+    "CI Natural Green 3",
+    "Magnesium Chlorophyll",
+    "chlorophyll"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.654Z",
+  "fetchedAt": "2025-10-09T03:20:52.040Z",
   "questions": [
     {
-      "keyword": "what are chlorophylls",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is chlorophylls role in photosynthesis",
-      "volume": 10,
-      "parent_topic": "what is chlorophyll",
+      "keyword": "what is chlorophyll",
+      "volume": 10000,
+      "original_keyword": "chlorophyll",
+      "parent_topic": "chlorophyll",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "a photosynthetic reaction center contains how many chlorophylls.",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what does chlorophyll do",
+      "volume": 5400,
+      "original_keyword": "chlorophyll",
+      "parent_topic": "chlorophyll benefits",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "chlorophylls and how do carotenoids assist in the photosynthetic process",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "is chlorophyll good for you",
+      "volume": 3500,
+      "original_keyword": "chlorophyll",
+      "parent_topic": "chlorophyll benefits",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "explain which parts of the color spectrum are absorbed by chlorophylls",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is chlorophyll good for",
+      "volume": 2500,
+      "original_keyword": "chlorophyll",
+      "parent_topic": "chlorophyll benefits",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "how can you explain the difference in polarity of the two chlorophylls in your sample",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what does chlorophyll do for the body",
+      "volume": 2400,
+      "original_keyword": "chlorophyll",
+      "parent_topic": "chlorophyll",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "how do chlorophylls work",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "does chlorophyll make you poop",
+      "volume": 1600,
+      "original_keyword": "chlorophyll",
+      "parent_topic": "chlorophyll water",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "how do explain the differences of polarizability of the two chlorophylls",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "does chlorophyll help with body odor",
+      "volume": 1000,
+      "original_keyword": "chlorophyll",
+      "parent_topic": "does chlorophyll help with body odor",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "how do you explain the difference in polarity of the two chlorophylls chm2211l",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what does liquid chlorophyll do",
+      "volume": 1000,
+      "original_keyword": "chlorophyll",
+      "parent_topic": "chlorophyll water",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "how do you explain the difference in polatiry of the two chlorophylls",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is chlorophyll?",
+      "volume": 1000,
+      "original_keyword": "chlorophyll",
+      "parent_topic": "chlorophyll benefits",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "can chlorophyll kill you",
+      "volume": 900,
+      "original_keyword": "chlorophyll",
+      "parent_topic": "can chlorophyll kill you",
+      "intents": [
+        "informational"
+      ]
     }
   ]
 }

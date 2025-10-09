@@ -1,11 +1,15 @@
 {
-  "keyword": "Magnesium hydroxide",
+  "keywords": [
+    "Magnesium hydroxide",
+    "E528"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:16.193Z",
+  "fetchedAt": "2025-10-09T03:23:52.927Z",
   "questions": [
     {
       "keyword": "how magnesium hydroxide works",
-      "volume": 2100,
+      "volume": 1900,
+      "original_keyword": "Magnesium hydroxide",
       "parent_topic": "magnesium hydroxide side effects",
       "intents": [
         "informational"
@@ -14,6 +18,7 @@
     {
       "keyword": "what is magnesium hydroxide",
       "volume": 350,
+      "original_keyword": "Magnesium hydroxide",
       "parent_topic": "magnesium hydroxide",
       "intents": [
         "informational"
@@ -22,7 +27,17 @@
     {
       "keyword": "is magnesium hydroxide safe",
       "volume": 150,
+      "original_keyword": "Magnesium hydroxide",
       "parent_topic": "is magnesium hydroxide safe",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is magnesium hydroxide a strong base",
+      "volume": 80,
+      "original_keyword": "Magnesium hydroxide",
+      "parent_topic": "",
       "intents": [
         "informational"
       ]
@@ -30,15 +45,8 @@
     {
       "keyword": "what is magnesium hydroxide used for",
       "volume": 80,
+      "original_keyword": "Magnesium hydroxide",
       "parent_topic": "how magnesium hydroxide works",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is magnesium hydroxide a strong base",
-      "volume": 70,
-      "parent_topic": "",
       "intents": [
         "informational"
       ]
@@ -46,6 +54,7 @@
     {
       "keyword": "what does magnesium hydroxide do",
       "volume": 70,
+      "original_keyword": "Magnesium hydroxide",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -54,6 +63,7 @@
     {
       "keyword": "is magnesium hydroxide safe during pregnancy",
       "volume": 50,
+      "original_keyword": "Magnesium hydroxide",
       "parent_topic": "magnesium citrate pregnancy",
       "intents": [
         "informational"
@@ -62,7 +72,17 @@
     {
       "keyword": "is magnesium hydroxide safe in deodorant",
       "volume": 50,
+      "original_keyword": "Magnesium hydroxide",
       "parent_topic": "magnesium hydroxide in deodorant",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is magnesium hydroxide soluble",
+      "volume": 50,
+      "original_keyword": "Magnesium hydroxide",
+      "parent_topic": "",
       "intents": [
         "informational"
       ]
@@ -70,15 +90,8 @@
     {
       "keyword": "what is magnesium hydroxide in deodorant",
       "volume": 50,
+      "original_keyword": "Magnesium hydroxide",
       "parent_topic": "magnesium hydroxide in deodorant",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is magnesium hydroxide safe for skin",
-      "volume": 40,
-      "parent_topic": "is magnesium hydroxide safe for skin",
       "intents": [
         "informational"
       ]

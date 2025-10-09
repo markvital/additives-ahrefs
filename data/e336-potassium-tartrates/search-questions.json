@@ -1,6 +1,31 @@
 {
-  "keyword": "Potassium tartrates",
+  "keywords": [
+    "Potassium tartrates",
+    "E336"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:43.227Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:29:06.503Z",
+  "questions": [
+    {
+      "keyword": "what will be the use for s&s s e336 conversion kit",
+      "volume": 0,
+      "original_keyword": "E336",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "who is girlsdoporn e336",
+      "volume": 0,
+      "original_keyword": "E336",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "who is the girl in e336?",
+      "volume": 0,
+      "original_keyword": "E336",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

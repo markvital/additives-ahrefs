@@ -1,11 +1,17 @@
 {
-  "keyword": "Red iron oxide",
+  "keywords": [
+    "Red iron oxide",
+    "E172II",
+    "iron(III) oxide",
+    "ferric oxide"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:46.393Z",
+  "fetchedAt": "2025-10-09T03:29:14.197Z",
   "questions": [
     {
       "keyword": "what is red iron oxide",
       "volume": 50,
+      "original_keyword": "Red iron oxide",
       "parent_topic": "fe2o3",
       "intents": [
         "informational"
@@ -14,18 +20,21 @@
     {
       "keyword": "iron oxide gives what planet red color",
       "volume": 40,
+      "original_keyword": "Red iron oxide",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "iron oxide gives which planet its red color",
       "volume": 40,
+      "original_keyword": "Red iron oxide",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is iron oxide red",
       "volume": 40,
+      "original_keyword": "Red iron oxide",
       "parent_topic": "iron oxide red",
       "intents": [
         "informational"
@@ -34,40 +43,48 @@
     {
       "keyword": "how to apply red oxide on iron",
       "volume": 20,
+      "original_keyword": "Red iron oxide",
       "parent_topic": "",
       "intents": []
     },
     {
+      "keyword": "what is ferric oxide",
+      "volume": 20,
+      "original_keyword": "ferric oxide",
+      "parent_topic": "ferric oxide",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
       "keyword": "what is red iron oxide used for",
       "volume": 20,
+      "original_keyword": "Red iron oxide",
       "parent_topic": "iron oxide glaze",
       "intents": [
         "informational"
       ]
     },
     {
+      "keyword": "what the formula for iron iii oxide",
+      "volume": 20,
+      "original_keyword": "iron(III) oxide",
+      "parent_topic": "iron 3 oxide",
+      "intents": []
+    },
+    {
       "keyword": "how to make red iron oxide",
       "volume": 10,
+      "original_keyword": "Red iron oxide",
       "parent_topic": "",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "iron oxide gives what planet its red color",
+      "keyword": "how to test the magnetic strength of ferric iron oxide",
       "volume": 10,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "iron oxide gives which planet red color",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "iron oxide gives which planet the red color",
-      "volume": 10,
+      "original_keyword": "ferric oxide",
       "parent_topic": "",
       "intents": []
     }

@@ -1,11 +1,15 @@
 {
-  "keyword": "Calcium ascorbate",
+  "keywords": [
+    "Calcium ascorbate",
+    "E302"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.960Z",
+  "fetchedAt": "2025-10-09T03:20:41.159Z",
   "questions": [
     {
       "keyword": "what is calcium ascorbate",
       "volume": 250,
+      "original_keyword": "Calcium ascorbate",
       "parent_topic": "calcium ascorbate",
       "intents": [
         "informational"
@@ -14,6 +18,7 @@
     {
       "keyword": "is calcium ascorbate bad for you",
       "volume": 70,
+      "original_keyword": "Calcium ascorbate",
       "parent_topic": "calcium ascorbate",
       "intents": [
         "informational"
@@ -22,6 +27,7 @@
     {
       "keyword": "what is calcium ascorbate made from",
       "volume": 50,
+      "original_keyword": "Calcium ascorbate",
       "parent_topic": "calcium ascorbate",
       "intents": [
         "informational"
@@ -30,6 +36,7 @@
     {
       "keyword": "is calcium ascorbate safe",
       "volume": 30,
+      "original_keyword": "Calcium ascorbate",
       "parent_topic": "calcium ascorbate",
       "intents": [
         "informational"
@@ -38,6 +45,7 @@
     {
       "keyword": "is calcium ascorbate synthetic",
       "volume": 30,
+      "original_keyword": "Calcium ascorbate",
       "parent_topic": "synthetic vitamin c",
       "intents": [
         "informational"
@@ -46,30 +54,35 @@
     {
       "keyword": "what is calcium ascorbate used for",
       "volume": 10,
+      "original_keyword": "Calcium ascorbate",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "calcium ascorbate dc what does dc mean",
+      "keyword": "bosch wall oven e302 when in self-clean",
       "volume": 0,
+      "original_keyword": "E302",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "calcium ascorbate how to make",
       "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "calcium ascorbate vitamin c how much in one day",
-      "volume": 0,
+      "original_keyword": "Calcium ascorbate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "ester c ascorbate calcium how much calcium is added to diet",
       "volume": 0,
+      "original_keyword": "Calcium ascorbate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how does ester-c calcium ascorbate become vitamin c",
+      "volume": 0,
+      "original_keyword": "Calcium ascorbate",
       "parent_topic": "",
       "intents": []
     }

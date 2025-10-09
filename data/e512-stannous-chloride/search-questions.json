@@ -1,11 +1,17 @@
 {
-  "keyword": "Stannous chloride",
+  "keywords": [
+    "Stannous chloride",
+    "E512",
+    "Tin chloride",
+    "TinII chloride"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:25:18.693Z",
+  "fetchedAt": "2025-10-09T03:29:44.420Z",
   "questions": [
     {
       "keyword": "how to make stannous chloride solution",
       "volume": 30,
+      "original_keyword": "Stannous chloride",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -14,6 +20,7 @@
     {
       "keyword": "what is stannous chloride",
       "volume": 30,
+      "original_keyword": "Stannous chloride",
       "parent_topic": "stannous chloride",
       "intents": [
         "informational"
@@ -22,50 +29,58 @@
     {
       "keyword": "how to make stannous chloride",
       "volume": 20,
+      "original_keyword": "Stannous chloride",
       "parent_topic": "",
       "intents": [
         "informational"
       ]
     },
     {
+      "keyword": "how to \"reduce\" tin chloride",
+      "volume": 10,
+      "original_keyword": "Tin chloride",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
       "keyword": "how to make stannous chloride at home",
       "volume": 10,
+      "original_keyword": "Stannous chloride",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "how is stannous chloride made",
+      "keyword": "how to reduce tin chloride",
+      "volume": 10,
+      "original_keyword": "Tin chloride",
+      "parent_topic": "stannous chloride",
+      "intents": []
+    },
+    {
+      "keyword": "describe how you would make 45 ml of a .10m tin(ii) chloride solution using a common soluble salt",
       "volume": 0,
+      "original_keyword": "Tin chloride",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "how much stannous chloride for tin electroplating",
+      "keyword": "describe how you would make 45 ml of a 0.10 m tin(ii) chloride solution using a common soluble salt",
       "volume": 0,
+      "original_keyword": "Tin chloride",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how much stannous chloride for tin plating",
       "volume": 0,
+      "original_keyword": "Stannous chloride",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "how sensitive is stannous chloride test for gold?",
+      "keyword": "how to dispose of tin 2 chloride",
       "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how to dissolve stannous chloride",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how to make and use stannous chloride at home",
-      "volume": 0,
+      "original_keyword": "Tin chloride",
       "parent_topic": "",
       "intents": []
     }

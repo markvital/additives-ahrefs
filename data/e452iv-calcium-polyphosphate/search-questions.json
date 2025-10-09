@@ -1,17 +1,30 @@
 {
-  "keyword": "Calcium polyphosphate",
+  "keywords": [
+    "Calcium polyphosphate",
+    "E452IV",
+    "Calcium metaphosphate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.314Z",
+  "fetchedAt": "2025-10-09T03:20:46.848Z",
   "questions": [
     {
       "keyword": "how does polyphosphate remove calcium",
       "volume": 0,
+      "original_keyword": "Calcium polyphosphate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is the e number of calcium polyphosphate",
       "volume": 0,
+      "original_keyword": "Calcium polyphosphate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "when calcium ions complex with sodium metaphosphate, a solid calcium phosphate precipitate forms",
+      "volume": 0,
+      "original_keyword": "Calcium metaphosphate",
       "parent_topic": "",
       "intents": []
     }

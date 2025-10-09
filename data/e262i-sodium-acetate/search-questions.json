@@ -1,11 +1,15 @@
 {
-  "keyword": "Sodium acetate",
+  "keywords": [
+    "Sodium acetate",
+    "E262I"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:49.037Z",
+  "fetchedAt": "2025-10-09T03:29:20.123Z",
   "questions": [
     {
       "keyword": "what is sodium acetate",
       "volume": 250,
+      "original_keyword": "Sodium acetate",
       "parent_topic": "sodium acetate",
       "intents": [
         "informational"
@@ -14,6 +18,7 @@
     {
       "keyword": "how to make sodium acetate",
       "volume": 50,
+      "original_keyword": "Sodium acetate",
       "parent_topic": "hot ice experiment",
       "intents": [
         "informational"
@@ -22,6 +27,7 @@
     {
       "keyword": "is sodium acetate dangerous",
       "volume": 50,
+      "original_keyword": "Sodium acetate",
       "parent_topic": "is sodium acetate toxic",
       "intents": [
         "informational"
@@ -30,15 +36,8 @@
     {
       "keyword": "what is sodium acetate used for",
       "volume": 50,
+      "original_keyword": "Sodium acetate",
       "parent_topic": "sodium acetate",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is sodium acetate safe",
-      "volume": 40,
-      "parent_topic": "is sodium acetate toxic",
       "intents": [
         "informational"
       ]
@@ -46,6 +45,7 @@
     {
       "keyword": "is sodium acetate soluble in water",
       "volume": 40,
+      "original_keyword": "Sodium acetate",
       "parent_topic": "sodium acetate",
       "intents": [
         "informational"
@@ -54,6 +54,7 @@
     {
       "keyword": "what is sodium acetate trihydrate",
       "volume": 40,
+      "original_keyword": "Sodium acetate",
       "parent_topic": "sodium acetate",
       "intents": [
         "informational"
@@ -62,6 +63,7 @@
     {
       "keyword": "where to buy sodium acetate",
       "volume": 40,
+      "original_keyword": "Sodium acetate",
       "parent_topic": "sodium acetate for sale",
       "intents": [
         "informational",
@@ -70,17 +72,28 @@
       ]
     },
     {
-      "keyword": "is sodium acetate a base",
+      "keyword": "is sodium acetate a buffer",
       "volume": 30,
+      "original_keyword": "Sodium acetate",
       "parent_topic": "",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "is sodium acetate a buffer",
+      "keyword": "is sodium acetate flammable",
       "volume": 30,
-      "parent_topic": "",
+      "original_keyword": "Sodium acetate",
+      "parent_topic": "sodium acetate sds",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sodium acetate safe",
+      "volume": 30,
+      "original_keyword": "Sodium acetate",
+      "parent_topic": "is sodium acetate toxic",
       "intents": [
         "informational"
       ]

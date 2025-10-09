@@ -1,11 +1,15 @@
 {
-  "keyword": "carotene",
+  "keywords": [
+    "carotene",
+    "E160A"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.426Z",
+  "fetchedAt": "2025-10-09T03:20:48.959Z",
   "questions": [
     {
       "keyword": "what is beta carotene",
       "volume": 2400,
+      "original_keyword": "carotene",
       "parent_topic": "beta carotene",
       "intents": [
         "informational"
@@ -13,7 +17,8 @@
     },
     {
       "keyword": "does beta carotene make you tan",
-      "volume": 450,
+      "volume": 400,
+      "original_keyword": "carotene",
       "parent_topic": "does beta carotene make you tan",
       "intents": [
         "informational"
@@ -22,6 +27,7 @@
     {
       "keyword": "what is carotene",
       "volume": 400,
+      "original_keyword": "carotene",
       "parent_topic": "carotene",
       "intents": [
         "informational"
@@ -30,6 +36,7 @@
     {
       "keyword": "is beta carotene bad for you",
       "volume": 300,
+      "original_keyword": "carotene",
       "parent_topic": "beta carotene",
       "intents": [
         "informational"
@@ -38,6 +45,7 @@
     {
       "keyword": "what foods have beta carotene",
       "volume": 300,
+      "original_keyword": "carotene",
       "parent_topic": "beta carotene foods",
       "intents": [
         "informational"
@@ -46,6 +54,7 @@
     {
       "keyword": "is beta carotene vitamin a",
       "volume": 200,
+      "original_keyword": "carotene",
       "parent_topic": "vitamin a",
       "intents": [
         "informational"
@@ -54,6 +63,7 @@
     {
       "keyword": "how much beta carotene per day",
       "volume": 150,
+      "original_keyword": "carotene",
       "parent_topic": "beta carotene",
       "intents": [
         "informational"
@@ -62,6 +72,7 @@
     {
       "keyword": "what does beta carotene do",
       "volume": 150,
+      "original_keyword": "carotene",
       "parent_topic": "beta carotene",
       "intents": [
         "informational"
@@ -70,6 +81,7 @@
     {
       "keyword": "what is beta carotene good for",
       "volume": 150,
+      "original_keyword": "carotene",
       "parent_topic": "beta carotene benefits",
       "intents": [
         "informational"
@@ -78,6 +90,7 @@
     {
       "keyword": "what is beta-carotene",
       "volume": 150,
+      "original_keyword": "carotene",
       "parent_topic": "beta carotene",
       "intents": [
         "informational"

@@ -1,65 +1,94 @@
 {
-  "keyword": "Polyglycerol polyricinoleate",
+  "keywords": [
+    "Polyglycerol polyricinoleate",
+    "E476",
+    "PGPR"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:33.105Z",
+  "fetchedAt": "2025-10-09T03:25:52.988Z",
   "questions": [
     {
-      "keyword": "what is polyglycerol polyricinoleate",
-      "volume": 20,
+      "keyword": "what is pgpr",
+      "volume": 800,
+      "original_keyword": "PGPR",
+      "parent_topic": "pgpr",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is pgpr in chocolate",
+      "volume": 450,
+      "original_keyword": "PGPR",
+      "parent_topic": "what is pgpr in chocolate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is pgpr banned in europe",
+      "volume": 400,
+      "original_keyword": "PGPR",
+      "parent_topic": "is pgpr banned in europe",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is pgpr in food",
+      "volume": 400,
+      "original_keyword": "PGPR",
+      "parent_topic": "pgpr",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is pgpr in chocolate bars",
+      "volume": 80,
+      "original_keyword": "PGPR",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "how can polyglycerol and polyricinoleate be used in salad dressings?",
-      "volume": 0,
+      "keyword": "what is pgpr in hershey's chocolate",
+      "volume": 70,
+      "original_keyword": "PGPR",
+      "parent_topic": "hershey's headquarters",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "what is pgpr ingredient",
+      "volume": 50,
+      "original_keyword": "PGPR",
+      "parent_topic": "pgpr",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "whats pgpr",
+      "volume": 40,
+      "original_keyword": "PGPR",
+      "parent_topic": "pgpr",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is pgpr in food side effects",
+      "volume": 30,
+      "original_keyword": "PGPR",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "how do you pronounce polyglycerol polyricinoleate",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how to determine a product has polyglycerol polyricinoleate",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "polyglycerol polyricinoleate in chocolate how much",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "polyglycerol polyricinoleate what is it",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "science experiment to determine how much polyglycerol polyricinoleate present",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is polyglycerol polyricinoleate derived from",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is polyglycerol polyricinoleate made of",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is polyglycerol polyricinoleate side effects",
-      "volume": 0,
+      "keyword": "what is pgpr?",
+      "volume": 30,
+      "original_keyword": "PGPR",
       "parent_topic": "",
       "intents": []
     }

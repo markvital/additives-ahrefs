@@ -1,17 +1,29 @@
 {
-  "keyword": "Acetylated starch",
+  "keywords": [
+    "Acetylated starch",
+    "E1420"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.341Z",
+  "fetchedAt": "2025-10-09T03:16:32.416Z",
   "questions": [
+    {
+      "keyword": "what is e1420 in food",
+      "volume": 0,
+      "original_keyword": "E1420",
+      "parent_topic": "",
+      "intents": []
+    },
     {
       "keyword": "what is the e number for acetylated oxidized starch",
       "volume": 0,
+      "original_keyword": "Acetylated starch",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "why is starch acetylated",
       "volume": 0,
+      "original_keyword": "Acetylated starch",
       "parent_topic": "",
       "intents": []
     }

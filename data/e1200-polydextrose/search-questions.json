@@ -1,11 +1,16 @@
 {
-  "keyword": "Polydextrose",
+  "keywords": [
+    "Polydextrose",
+    "E1200",
+    "68424-04-4"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:32.568Z",
+  "fetchedAt": "2025-10-09T03:25:52.436Z",
   "questions": [
     {
       "keyword": "what is polydextrose",
       "volume": 1100,
+      "original_keyword": "Polydextrose",
       "parent_topic": "polydextrose",
       "intents": [
         "informational"
@@ -13,35 +18,40 @@
     },
     {
       "keyword": "is polydextrose bad for you",
-      "volume": 70,
-      "parent_topic": "is polydextrose bad for you",
+      "volume": 80,
+      "original_keyword": "Polydextrose",
+      "parent_topic": "what is polydextrose",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "polydextrose what is it",
-      "volume": 60,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
       "keyword": "does polydextrose raise blood sugar",
       "volume": 50,
+      "original_keyword": "Polydextrose",
       "parent_topic": "polydextrose",
       "intents": [
         "informational"
       ]
     },
     {
+      "keyword": "polydextrose what is it",
+      "volume": 50,
+      "original_keyword": "Polydextrose",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
       "keyword": "what is polydextrose fiber",
       "volume": 30,
+      "original_keyword": "Polydextrose",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "is polydextrose good for you",
       "volume": 20,
+      "original_keyword": "Polydextrose",
       "parent_topic": "what is polydextrose",
       "intents": [
         "informational"
@@ -50,6 +60,7 @@
     {
       "keyword": "is polydextrose safe for dogs",
       "volume": 20,
+      "original_keyword": "Polydextrose",
       "parent_topic": "is polydextrose safe for dogs",
       "intents": [
         "informational"
@@ -58,24 +69,25 @@
     {
       "keyword": "what is polydextrose?",
       "volume": 20,
+      "original_keyword": "Polydextrose",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "does polydextrose spike blood sugar",
       "volume": 10,
+      "original_keyword": "Polydextrose",
       "parent_topic": "polydextrose glycemic index",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "is polydextrose a sugar",
+      "keyword": "how to configure linksys e1200 wireless router",
       "volume": 10,
-      "parent_topic": "polydextrose",
-      "intents": [
-        "informational"
-      ]
+      "original_keyword": "E1200",
+      "parent_topic": "",
+      "intents": []
     }
   ]
 }

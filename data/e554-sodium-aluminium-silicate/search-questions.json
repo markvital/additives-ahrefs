@@ -1,11 +1,84 @@
 {
-  "keyword": "Sodium aluminium silicate",
+  "keywords": [
+    "Sodium aluminium silicate",
+    "E554",
+    "Sodium silicoaluminate",
+    "Sodium aluminosilicate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:50.016Z",
+  "fetchedAt": "2025-10-09T03:29:23.790Z",
   "questions": [
     {
-      "keyword": "where to buy sodium aluminium silicate",
+      "keyword": "what is sodium aluminosilicate",
+      "volume": 20,
+      "original_keyword": "Sodium aluminosilicate",
+      "parent_topic": "sodium aluminosilicate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is sodium silicoaluminate",
+      "volume": 20,
+      "original_keyword": "Sodium silicoaluminate",
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "calcium silicate or sodium silicoaluminate which is worse",
       "volume": 0,
+      "original_keyword": "Sodium silicoaluminate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "does what is sodium aluminosilicate contain iodine",
+      "volume": 0,
+      "original_keyword": "Sodium aluminosilicate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to install a wireless card in a dell latitude e554",
+      "volume": 0,
+      "original_keyword": "E554",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "sodium aluminosilicate where to buy",
+      "volume": 0,
+      "original_keyword": "Sodium aluminosilicate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "sodium silicoaluminate are found in what addidive",
+      "volume": 0,
+      "original_keyword": "Sodium silicoaluminate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "sodium silicoaluminate are found in what additive",
+      "volume": 0,
+      "original_keyword": "Sodium silicoaluminate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "sodium silicoaluminate in salt what is?",
+      "volume": 0,
+      "original_keyword": "Sodium silicoaluminate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is hydrated sodium calcium aluminosilicate",
+      "volume": 0,
+      "original_keyword": "Sodium aluminosilicate",
       "parent_topic": "",
       "intents": []
     }

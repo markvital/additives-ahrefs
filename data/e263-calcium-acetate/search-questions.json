@@ -1,11 +1,15 @@
 {
-  "keyword": "Calcium acetate",
+  "keywords": [
+    "Calcium acetate",
+    "E263"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.848Z",
+  "fetchedAt": "2025-10-09T03:20:41.118Z",
   "questions": [
     {
       "keyword": "what is calcium acetate used for",
       "volume": 70,
+      "original_keyword": "Calcium acetate",
       "parent_topic": "calcium acetate",
       "intents": [
         "informational"
@@ -14,6 +18,7 @@
     {
       "keyword": "calcium magnesium acetate where to buy",
       "volume": 50,
+      "original_keyword": "Calcium acetate",
       "parent_topic": "calcium magnesium acetate",
       "intents": [
         "commercial",
@@ -21,8 +26,18 @@
       ]
     },
     {
+      "keyword": "is calcium acetate soluble in water",
+      "volume": 40,
+      "original_keyword": "Calcium acetate",
+      "parent_topic": "calcium acetate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
       "keyword": "what is calcium acetate",
       "volume": 40,
+      "original_keyword": "Calcium acetate",
       "parent_topic": "calcium acetate",
       "intents": [
         "informational"
@@ -31,15 +46,8 @@
     {
       "keyword": "what is the formula for calcium acetate",
       "volume": 40,
+      "original_keyword": "Calcium acetate",
       "parent_topic": "calcium acetate formula",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is calcium acetate soluble in water",
-      "volume": 30,
-      "parent_topic": "calcium acetate",
       "intents": [
         "informational"
       ]
@@ -47,6 +55,7 @@
     {
       "keyword": "calcium acetate 667 mg para que sirve",
       "volume": 20,
+      "original_keyword": "Calcium acetate",
       "parent_topic": "calcium acetate 667 mg para que sirve",
       "intents": [
         "informational",
@@ -56,6 +65,7 @@
     {
       "keyword": "calcium acetate para que sirve",
       "volume": 20,
+      "original_keyword": "Calcium acetate",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -64,6 +74,7 @@
     {
       "keyword": "where to buy calcium magnesium acetate",
       "volume": 20,
+      "original_keyword": "Calcium acetate",
       "parent_topic": "",
       "intents": [
         "commercial",
@@ -73,6 +84,7 @@
     {
       "keyword": "can calcium acetate capsules be opened",
       "volume": 10,
+      "original_keyword": "Calcium acetate",
       "parent_topic": "can midodrine be crushed",
       "intents": [
         "informational",
@@ -82,6 +94,7 @@
     {
       "keyword": "can you open calcium acetate capsules",
       "volume": 10,
+      "original_keyword": "Calcium acetate",
       "parent_topic": "",
       "intents": [
         "informational"

@@ -1,6 +1,59 @@
 {
-  "keyword": "Propane-1‚2-diol esters of fatty acids",
+  "keywords": [
+    "Propane-1‚2-diol esters of fatty acids",
+    "E477"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:44.295Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:29:07.533Z",
+  "questions": [
+    {
+      "keyword": "how to change cartridge for canon e477",
+      "volume": 0,
+      "original_keyword": "E477",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to connect canon e477 printer to laptop",
+      "volume": 0,
+      "original_keyword": "E477",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to connect canon e477 printer to mobile",
+      "volume": 0,
+      "original_keyword": "E477",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to connect canon e477 printer to wifi",
+      "volume": 0,
+      "original_keyword": "E477",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to reset canon e477 printer",
+      "volume": 0,
+      "original_keyword": "E477",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to setup canon e477 wireless printer",
+      "volume": 0,
+      "original_keyword": "E477",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to setup canon e477 wireless printer to lenovo laptop",
+      "volume": 0,
+      "original_keyword": "E477",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

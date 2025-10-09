@@ -1,6 +1,34 @@
 {
-  "keyword": "Pentapotassium triphosphate",
+  "keywords": [
+    "Pentapotassium triphosphate",
+    "E451II",
+    "potassium triphosphate",
+    "potassium tripolyphosphate",
+    "KTPP"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:30.503Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:25:48.700Z",
+  "questions": [
+    {
+      "keyword": "what is the refractive index of ktpp",
+      "volume": 0,
+      "original_keyword": "KTPP",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the refractive index of potassium triphosphate",
+      "volume": 0,
+      "original_keyword": "potassium triphosphate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the refractive index of potassium tripolyphosphate",
+      "volume": 0,
+      "original_keyword": "potassium tripolyphosphate",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

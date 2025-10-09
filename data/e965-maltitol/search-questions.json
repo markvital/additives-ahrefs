@@ -1,11 +1,15 @@
 {
-  "keyword": "maltitol",
+  "keywords": [
+    "maltitol",
+    "E965"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:18.428Z",
+  "fetchedAt": "2025-10-09T03:23:55.650Z",
   "questions": [
     {
       "keyword": "what is maltitol",
       "volume": 2700,
+      "original_keyword": "maltitol",
       "parent_topic": "maltitol",
       "intents": [
         "informational"
@@ -13,7 +17,8 @@
     },
     {
       "keyword": "is maltitol bad for you",
-      "volume": 1000,
+      "volume": 1100,
+      "original_keyword": "maltitol",
       "parent_topic": "maltitol",
       "intents": [
         "informational"
@@ -21,7 +26,8 @@
     },
     {
       "keyword": "what is maltitol syrup",
-      "volume": 600,
+      "volume": 700,
+      "original_keyword": "maltitol",
       "parent_topic": "maltitol",
       "intents": [
         "informational"
@@ -29,7 +35,8 @@
     },
     {
       "keyword": "does maltitol raise blood sugar",
-      "volume": 300,
+      "volume": 250,
+      "original_keyword": "maltitol",
       "parent_topic": "maltitol",
       "intents": [
         "informational"
@@ -38,6 +45,7 @@
     {
       "keyword": "is maltitol safe for dogs",
       "volume": 250,
+      "original_keyword": "maltitol",
       "parent_topic": "maltitol dogs",
       "intents": [
         "informational"
@@ -46,6 +54,7 @@
     {
       "keyword": "is maltitol gluten free",
       "volume": 150,
+      "original_keyword": "maltitol",
       "parent_topic": "is maltitol gluten free",
       "intents": [
         "informational"
@@ -54,6 +63,7 @@
     {
       "keyword": "maltitol que es",
       "volume": 150,
+      "original_keyword": "maltitol",
       "parent_topic": "maltitol que es",
       "intents": [
         "informational"
@@ -62,6 +72,7 @@
     {
       "keyword": "is maltitol syrup bad for you",
       "volume": 100,
+      "original_keyword": "maltitol",
       "parent_topic": "maltitol",
       "intents": [
         "informational"
@@ -70,6 +81,7 @@
     {
       "keyword": "is maltitol safe",
       "volume": 90,
+      "original_keyword": "maltitol",
       "parent_topic": "is maltitol bad for you",
       "intents": [
         "informational"
@@ -78,6 +90,7 @@
     {
       "keyword": "what is maltitol made from",
       "volume": 70,
+      "original_keyword": "maltitol",
       "parent_topic": "maltitol",
       "intents": [
         "informational"

@@ -1,11 +1,16 @@
 {
-  "keyword": "ethyl acetate",
+  "keywords": [
+    "ethyl acetate",
+    "E1504",
+    "ethyl ethanoate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:45.577Z",
+  "fetchedAt": "2025-10-09T03:21:54.337Z",
   "questions": [
     {
       "keyword": "is ethyl acetate polar",
       "volume": 1100,
+      "original_keyword": "ethyl acetate",
       "parent_topic": "is ethyl acetate polar",
       "intents": [
         "informational"
@@ -14,15 +19,8 @@
     {
       "keyword": "what is ethyl acetate",
       "volume": 500,
-      "parent_topic": "ethyl acetate",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is ethyl acetate miscible in water",
-      "volume": 150,
-      "parent_topic": "is ethyl acetate miscible in water",
+      "original_keyword": "ethyl acetate",
+      "parent_topic": "ethyl ethanoate",
       "intents": [
         "informational"
       ]
@@ -30,6 +28,16 @@
     {
       "keyword": "is ethyl acetate soluble in water",
       "volume": 150,
+      "original_keyword": "ethyl acetate",
+      "parent_topic": "is ethyl acetate miscible in water",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is ethyl acetate miscible in water",
+      "volume": 100,
+      "original_keyword": "ethyl acetate",
       "parent_topic": "is ethyl acetate miscible in water",
       "intents": [
         "informational"
@@ -38,6 +46,7 @@
     {
       "keyword": "is ethyl acetate polar or nonpolar",
       "volume": 100,
+      "original_keyword": "ethyl acetate",
       "parent_topic": "is ethyl acetate polar",
       "intents": [
         "informational"
@@ -46,15 +55,8 @@
     {
       "keyword": "ethyl acetate can be prepared by an sn2 reaction",
       "volume": 90,
+      "original_keyword": "ethyl acetate",
       "parent_topic": "ethyl acetate can be prepared by an sn2 reaction",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what is ethyl acetate used for",
-      "volume": 90,
-      "parent_topic": "ethyl acetate",
       "intents": [
         "informational"
       ]
@@ -62,15 +64,17 @@
     {
       "keyword": "ethyl acetate where to buy",
       "volume": 80,
-      "parent_topic": "ethyl acetate buy",
+      "original_keyword": "ethyl acetate",
+      "parent_topic": "ethyl acetate where to buy",
       "intents": [
         "commercial",
         "transactional"
       ]
     },
     {
-      "keyword": "is ethyl acetate organic",
+      "keyword": "what is ethyl acetate used for",
       "volume": 80,
+      "original_keyword": "ethyl acetate",
       "parent_topic": "ethyl acetate",
       "intents": [
         "informational"
@@ -78,8 +82,18 @@
     },
     {
       "keyword": "is ethyl acetate an ester",
-      "volume": 70,
+      "volume": 60,
+      "original_keyword": "ethyl acetate",
       "parent_topic": "ethyl acetate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is ethyl acetate flammable",
+      "volume": 60,
+      "original_keyword": "ethyl acetate",
+      "parent_topic": "ethyl acetate hazards",
       "intents": [
         "informational"
       ]

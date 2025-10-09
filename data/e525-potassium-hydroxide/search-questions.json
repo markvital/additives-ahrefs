@@ -1,11 +1,15 @@
 {
-  "keyword": "Potassium hydroxide",
+  "keywords": [
+    "Potassium hydroxide",
+    "E525"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:39.952Z",
+  "fetchedAt": "2025-10-09T03:26:02.738Z",
   "questions": [
     {
       "keyword": "what is potassium hydroxide",
       "volume": 700,
+      "original_keyword": "Potassium hydroxide",
       "parent_topic": "potassium hydroxide",
       "intents": [
         "informational"
@@ -14,6 +18,7 @@
     {
       "keyword": "is potassium hydroxide a strong base",
       "volume": 250,
+      "original_keyword": "Potassium hydroxide",
       "parent_topic": "koh acid or base",
       "intents": [
         "informational"
@@ -22,6 +27,7 @@
     {
       "keyword": "what is potassium hydroxide used for",
       "volume": 200,
+      "original_keyword": "Potassium hydroxide",
       "parent_topic": "potassium hydroxide",
       "intents": [
         "informational"
@@ -30,6 +36,7 @@
     {
       "keyword": "is potassium hydroxide safe",
       "volume": 100,
+      "original_keyword": "Potassium hydroxide",
       "parent_topic": "potassium hydroxide",
       "intents": [
         "informational"
@@ -38,6 +45,7 @@
     {
       "keyword": "what is the formula for potassium hydroxide?",
       "volume": 100,
+      "original_keyword": "Potassium hydroxide",
       "parent_topic": "koh name chemistry",
       "intents": [
         "informational"
@@ -46,6 +54,7 @@
     {
       "keyword": "where to buy potassium hydroxide",
       "volume": 100,
+      "original_keyword": "Potassium hydroxide",
       "parent_topic": "caustic potash",
       "intents": [
         "commercial",
@@ -55,7 +64,17 @@
     {
       "keyword": "what is the formula for potassium hydroxide",
       "volume": 90,
+      "original_keyword": "Potassium hydroxide",
       "parent_topic": "koh cas number",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is potassium hydroxide toxic",
+      "volume": 70,
+      "original_keyword": "Potassium hydroxide",
+      "parent_topic": "is potassium hydroxide toxic",
       "intents": [
         "informational"
       ]
@@ -63,6 +82,7 @@
     {
       "keyword": "how is potassium hydroxide made",
       "volume": 60,
+      "original_keyword": "Potassium hydroxide",
       "parent_topic": "koh",
       "intents": [
         "informational"
@@ -71,15 +91,8 @@
     {
       "keyword": "is potassium hydroxide a base",
       "volume": 60,
-      "parent_topic": "koh acid or base",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is potassium hydroxide toxic",
-      "volume": 60,
-      "parent_topic": "is potassium hydroxide toxic",
+      "original_keyword": "Potassium hydroxide",
+      "parent_topic": "koh",
       "intents": [
         "informational"
       ]

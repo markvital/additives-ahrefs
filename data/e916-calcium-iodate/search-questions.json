@@ -1,11 +1,15 @@
 {
-  "keyword": "Calcium iodate",
+  "keywords": [
+    "Calcium iodate",
+    "E916"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.263Z",
+  "fetchedAt": "2025-10-09T03:20:45.295Z",
   "questions": [
     {
       "keyword": "what is calcium iodate",
       "volume": 30,
+      "original_keyword": "Calcium iodate",
       "parent_topic": "calcium iodate",
       "intents": [
         "informational"
@@ -14,54 +18,63 @@
     {
       "keyword": "how to calculate calcium iodate solubility in potassium iodate solution",
       "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how to calculate ksp of calcium iodate",
-      "volume": 0,
+      "original_keyword": "Calcium iodate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how to calculate solubility of calcium iodate",
       "volume": 0,
+      "original_keyword": "Calcium iodate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how to calculate the concentration of iodate from calcium iodate in 0.1 kio3",
       "volume": 0,
+      "original_keyword": "Calcium iodate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how to calculate the concentration of iodate from calcium iodate in pure water",
       "volume": 0,
+      "original_keyword": "Calcium iodate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how to find molar solubility of calcium iodate",
       "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how to find the concentration of iodate in calcium iodate after titrating",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "if [io3] is 1.13*10^-2 m at equilibrium (at 298 k), what is the ksp for calcium iodate",
-      "volume": 0,
+      "original_keyword": "Calcium iodate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "if io3 is 1.13*10^-2 m at equilibrium at 298k what is the ksp for calcium iodate",
       "volume": 0,
+      "original_keyword": "Calcium iodate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "if io3- is 1.13 at equilibrium , what is the ksp fotr calcium iodate",
+      "volume": 0,
+      "original_keyword": "Calcium iodate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what hexadecimal number immediately precedes the following e916",
+      "volume": 0,
+      "original_keyword": "E916",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what hexadecimal number immediately precedes the following: e916 20016",
+      "volume": 0,
+      "original_keyword": "E916",
       "parent_topic": "",
       "intents": []
     }

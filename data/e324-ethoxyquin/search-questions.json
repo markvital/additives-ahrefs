@@ -1,71 +1,84 @@
 {
-  "keyword": "Ethoxyquin",
+  "keywords": [
+    "Ethoxyquin",
+    "E324"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:45.581Z",
+  "fetchedAt": "2025-10-09T03:21:53.753Z",
   "questions": [
     {
       "keyword": "what is ethoxyquin",
       "volume": 70,
+      "original_keyword": "Ethoxyquin",
       "parent_topic": "ethoxyquin",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is ethoxyquin in food",
+      "keyword": "how to fix e324 error edd",
       "volume": 10,
+      "original_keyword": "E324",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what does e324 mean on edd",
+      "volume": 10,
+      "original_keyword": "E324",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is error e324 on edd",
+      "volume": 10,
+      "original_keyword": "E324",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "ethoxyquin what level is safe",
       "volume": 0,
+      "original_keyword": "Ethoxyquin",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "ethoxyquin what level is safe paprika",
       "volume": 0,
+      "original_keyword": "Ethoxyquin",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how much ethoxyquin is allowed in seafood",
       "volume": 0,
+      "original_keyword": "Ethoxyquin",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what are bha, bht, and ethoxyquin?",
       "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what can ethoxyquin do to your body",
-      "volume": 0,
+      "original_keyword": "Ethoxyquin",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what dog food contains ethoxyquin",
       "volume": 0,
+      "original_keyword": "Ethoxyquin",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what dog foods contain ethoxyquin",
       "volume": 0,
+      "original_keyword": "Ethoxyquin",
       "parent_topic": "",
       "intents": [
         "informational"
       ]
-    },
-    {
-      "keyword": "what dog foods contain ethoxyquin?",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
     }
   ]
 }

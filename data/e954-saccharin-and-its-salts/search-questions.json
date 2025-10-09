@@ -1,6 +1,114 @@
 {
-  "keyword": "saccharin and its salts",
+  "keywords": [
+    "saccharin and its salts",
+    "E954",
+    "saccharin",
+    "saccharin sodium salt",
+    "saccharin sodium",
+    "sodium saccharin salt",
+    "saccharin calcium salt",
+    "saccharin calcium",
+    "calcium saccharine",
+    "saccharin potassium salt",
+    "saccharine potassium",
+    "potassium saccharine",
+    "sodium saccharin"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:47.363Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:29:22.420Z",
+  "questions": [
+    {
+      "keyword": "what is saccharin",
+      "volume": 900,
+      "original_keyword": "saccharin",
+      "parent_topic": "sodium saccharin",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "why is saccharin banned",
+      "volume": 350,
+      "original_keyword": "saccharin",
+      "parent_topic": "why is saccharin banned",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "is saccharin bad for you",
+      "volume": 300,
+      "original_keyword": "saccharin",
+      "parent_topic": "sodium saccharin",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is sodium saccharin",
+      "volume": 200,
+      "original_keyword": "saccharin",
+      "parent_topic": "sodium saccharin",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is saccharin banned in europe",
+      "volume": 90,
+      "original_keyword": "saccharin",
+      "parent_topic": "is saccharin banned in europe",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does saccharin raise blood sugar",
+      "volume": 80,
+      "original_keyword": "saccharin",
+      "parent_topic": "does saccharin raise blood sugar",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "is saccharin safe",
+      "volume": 70,
+      "original_keyword": "saccharin",
+      "parent_topic": "what is saccharin",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is saccharin made of",
+      "volume": 60,
+      "original_keyword": "saccharin",
+      "parent_topic": "sodium saccharin",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does saccharin cause cancer",
+      "volume": 50,
+      "original_keyword": "saccharin",
+      "parent_topic": "does splenda cause cancer",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is saccharin safe for dogs",
+      "volume": 50,
+      "original_keyword": "saccharin",
+      "parent_topic": "can dogs have stevia",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
 }

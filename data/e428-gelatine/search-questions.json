@@ -1,86 +1,103 @@
 {
-  "keyword": "Gelatine",
+  "keywords": [
+    "Gelatine",
+    "E428",
+    "gelatin"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:45.677Z",
+  "fetchedAt": "2025-10-09T03:21:55.056Z",
   "questions": [
     {
-      "keyword": "what is gelatine made of",
-      "volume": 350,
-      "parent_topic": "what is gelatin made of",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what is gelatine",
-      "volume": 300,
-      "parent_topic": "what is gelatin made of",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is gelatine bovine halal",
-      "volume": 70,
-      "parent_topic": "is gelatin bovine halal",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is gelatine halal",
-      "volume": 60,
-      "parent_topic": "is gelatin halal",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "does gelatine expire",
-      "volume": 50,
-      "parent_topic": "does gelatin expire",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is beef gelatine halal",
-      "volume": 50,
-      "parent_topic": "is beef gelatin halal",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what is gelatine made out of",
-      "volume": 50,
+      "keyword": "what is gelatin made of",
+      "volume": 18000,
+      "original_keyword": "gelatin",
       "parent_topic": "gelatin",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "does gelatine have pork",
-      "volume": 40,
-      "parent_topic": "is gelatin pork",
+      "keyword": "what is gelatin",
+      "volume": 7200,
+      "original_keyword": "gelatin",
+      "parent_topic": "what is gelatin made of",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "how is gelatine made",
-      "volume": 40,
+      "keyword": "do sour patch kids have gelatin",
+      "volume": 4200,
+      "original_keyword": "gelatin",
+      "parent_topic": "does sour patch have gelatin",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "how is gelatin made",
+      "volume": 3300,
+      "original_keyword": "gelatin",
       "parent_topic": "how is gelatin made",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "how to use gelatine powder",
-      "volume": 40,
-      "parent_topic": "how to make gelatin",
+      "keyword": "is gelatin good for you",
+      "volume": 2700,
+      "original_keyword": "gelatin",
+      "parent_topic": "is gelatin good for you",
       "intents": [
         "informational"
+      ]
+    },
+    {
+      "keyword": "where does gelatin come from",
+      "volume": 2600,
+      "original_keyword": "gelatin",
+      "parent_topic": "what is gelatin made of",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is gelatin made out of",
+      "volume": 2400,
+      "original_keyword": "gelatin",
+      "parent_topic": "what is gelatin made of",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is gelatin pork",
+      "volume": 2300,
+      "original_keyword": "gelatin",
+      "parent_topic": "what is gelatin made of",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "do skittles have gelatin",
+      "volume": 1900,
+      "original_keyword": "gelatin",
+      "parent_topic": "do skittles have gelatin",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "does starburst have gelatin",
+      "volume": 1800,
+      "original_keyword": "gelatin",
+      "parent_topic": "does starburst have gelatin",
+      "intents": [
+        "informational",
+        "branded"
       ]
     }
   ]

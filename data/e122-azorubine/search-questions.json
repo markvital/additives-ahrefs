@@ -1,17 +1,90 @@
 {
-  "keyword": "Azorubine",
+  "keywords": [
+    "Azorubine",
+    "E122",
+    "carmoisine",
+    "Food Red 3",
+    "Brillantcarmoisin O",
+    "Acid Red 14",
+    "Azorubin S",
+    "C.I. 14720"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.795Z",
+  "fetchedAt": "2025-10-09T03:20:37.869Z",
   "questions": [
     {
-      "keyword": "how is azorubine used in food",
-      "volume": 0,
+      "keyword": "what food has red dye 3",
+      "volume": 1900,
+      "original_keyword": "Food Red 3",
+      "parent_topic": "what foods have red dye 3",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "what food is red dye 3 in",
+      "volume": 350,
+      "original_keyword": "Food Red 3",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "why is azorubine banned in the us",
-      "volume": 0,
+      "keyword": "what food contains red dye 3",
+      "volume": 250,
+      "original_keyword": "Food Red 3",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what food have red dye 3",
+      "volume": 250,
+      "original_keyword": "Food Red 3",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what food has red 3",
+      "volume": 200,
+      "original_keyword": "Food Red 3",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what food uses red dye 3",
+      "volume": 100,
+      "original_keyword": "Food Red 3",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is red 3 in food",
+      "volume": 90,
+      "original_keyword": "Food Red 3",
+      "parent_topic": "red 3",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "what food is red 3 in",
+      "volume": 70,
+      "original_keyword": "Food Red 3",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what food and drinks have red dye 3",
+      "volume": 60,
+      "original_keyword": "Food Red 3",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what food contain red dye 3",
+      "volume": 60,
+      "original_keyword": "Food Red 3",
       "parent_topic": "",
       "intents": []
     }

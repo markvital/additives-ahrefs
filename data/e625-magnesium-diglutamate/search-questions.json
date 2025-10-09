@@ -1,6 +1,80 @@
 {
-  "keyword": "Magnesium diglutamate",
+  "keywords": [
+    "Magnesium diglutamate",
+    "E625"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:15.812Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:23:52.780Z",
+  "questions": [
+    {
+      "keyword": "e625 cooling fan how to replace",
+      "volume": 0,
+      "original_keyword": "E625",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to disassemble an emachines e625",
+      "volume": 0,
+      "original_keyword": "E625",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to factory reset emachines e625",
+      "volume": 0,
+      "original_keyword": "E625",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to fix black screen in emachines e625",
+      "volume": 0,
+      "original_keyword": "E625",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to hook up external moniter on emachines e625",
+      "volume": 0,
+      "original_keyword": "E625",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to reset bios password on emachines e625 laptop",
+      "volume": 0,
+      "original_keyword": "E625",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to reset bios password on emachines e625 lptop",
+      "volume": 0,
+      "original_keyword": "E625",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to take apart emachines e625",
+      "volume": 0,
+      "original_keyword": "E625",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to use external moniter on emachines e625",
+      "volume": 0,
+      "original_keyword": "E625",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what level is e625 on island princess",
+      "volume": 0,
+      "original_keyword": "E625",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

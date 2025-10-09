@@ -1,65 +1,78 @@
 {
-  "keyword": "Magnesium hydroxide carbonate",
+  "keywords": [
+    "Magnesium hydroxide carbonate",
+    "E504II"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:16.438Z",
+  "fetchedAt": "2025-10-09T03:23:52.957Z",
   "questions": [
     {
       "keyword": "550 mg of calcium carbonate and 110 mg of magnesium hydroxide what is the total of moles",
       "volume": 0,
+      "original_keyword": "Magnesium hydroxide carbonate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "bone contains living cells and organic matter such as collagen, protein, and polysaccharides. however, much of the volume of bone is made up of minerals, which may comprise as much as 65% of bone mass. calcium and phosphate are the most common minerals, with calcium in the form of hydroxyapatite [ca₁₀(po₄)₆(oh)₂] and calcium carbonate [caco₃]. magnesium hydroxide, fluoride, and sulfate may also be present. where do you think the body gets the needed minerals?",
       "volume": 0,
+      "original_keyword": "Magnesium hydroxide carbonate",
       "parent_topic": "the organic matter of living bone includes",
       "intents": []
     },
     {
       "keyword": "calcium carbonate or magnesium hydroxide a stronger base when treated with hci",
       "volume": 0,
+      "original_keyword": "Magnesium hydroxide carbonate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "calcium carbonate vs magnesium hydroxide which is a stronger base",
       "volume": 0,
+      "original_keyword": "Magnesium hydroxide carbonate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how does calcium carbonate differ from magnesium hydroxide",
       "volume": 0,
+      "original_keyword": "Magnesium hydroxide carbonate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how much base in magnesium hydroxide compared to calcium carbonate?",
       "volume": 0,
+      "original_keyword": "Magnesium hydroxide carbonate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "is calcium carbonate or magnesium hydroxide a stronger base when treated with hci",
       "volume": 0,
+      "original_keyword": "Magnesium hydroxide carbonate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "is calcium carbonate or magnesium hydroxide a stronger base when treated with hci acid",
       "volume": 0,
+      "original_keyword": "Magnesium hydroxide carbonate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "liquid calcium carbonate magnesium hydroxide simethicone who makes?",
       "volume": 0,
+      "original_keyword": "Magnesium hydroxide carbonate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what brand has calcium carbonate magnesium hydroxide simethicone",
       "volume": 0,
+      "original_keyword": "Magnesium hydroxide carbonate",
       "parent_topic": "",
       "intents": []
     }

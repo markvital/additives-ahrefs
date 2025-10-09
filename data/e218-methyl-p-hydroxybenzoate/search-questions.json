@@ -1,17 +1,96 @@
 {
-  "keyword": "Methyl p-hydroxybenzoate",
+  "keywords": [
+    "Methyl p-hydroxybenzoate",
+    "E218",
+    "Methylparaben",
+    "methyl 4-hydroxybenzoate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:20.053Z",
+  "fetchedAt": "2025-10-09T03:23:58.869Z",
   "questions": [
     {
-      "keyword": "what is the chemical reaction for methyl-p-hydroxybenzoate that occured with a base oh",
+      "keyword": "what is methylparaben",
+      "volume": 200,
+      "original_keyword": "Methylparaben",
+      "parent_topic": "methylparaben",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is methylparaben bad",
+      "volume": 90,
+      "original_keyword": "Methylparaben",
+      "parent_topic": "methylparaben",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is methylparaben safe",
+      "volume": 60,
+      "original_keyword": "Methylparaben",
+      "parent_topic": "methylparaben",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does methylparaben cause cancer",
+      "volume": 30,
+      "original_keyword": "Methylparaben",
+      "parent_topic": "methylparaben",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "are methylparaben and propylparaben safe",
+      "volume": 10,
+      "original_keyword": "Methylparaben",
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is methylparaben bad for you",
+      "volume": 10,
+      "original_keyword": "Methylparaben",
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is methylparaben good for hair",
+      "volume": 10,
+      "original_keyword": "Methylparaben",
+      "parent_topic": "methylparaben",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is methylparaben safe for skin",
+      "volume": 10,
+      "original_keyword": "Methylparaben",
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how to dissolve methylparaben in water",
       "volume": 0,
+      "original_keyword": "Methylparaben",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what is the formula for methyl-p-hydroxybenzoate + oh",
+      "keyword": "how to remove jenn air ice maker jrt e218",
       "volume": 0,
+      "original_keyword": "E218",
       "parent_topic": "",
       "intents": []
     }

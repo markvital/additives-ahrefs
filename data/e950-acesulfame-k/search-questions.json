@@ -1,11 +1,16 @@
 {
-  "keyword": "Acesulfame k",
+  "keywords": [
+    "Acesulfame k",
+    "E950",
+    "Acesulfame potassium"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.333Z",
+  "fetchedAt": "2025-10-09T03:16:33.049Z",
   "questions": [
     {
-      "keyword": "what is acesulfame k",
-      "volume": 100,
+      "keyword": "what is acesulfame potassium",
+      "volume": 2000,
+      "original_keyword": "Acesulfame potassium",
       "parent_topic": "acesulfame potassium bad for you",
       "intents": [
         "informational",
@@ -13,8 +18,71 @@
       ]
     },
     {
-      "keyword": "acesulfame-k is how much sweeter than sugar?",
-      "volume": 20,
+      "keyword": "is acesulfame potassium bad for you",
+      "volume": 900,
+      "original_keyword": "Acesulfame potassium",
+      "parent_topic": "acesulfame",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "why is acesulfame potassium bad for you",
+      "volume": 800,
+      "original_keyword": "Acesulfame potassium",
+      "parent_topic": "acesulfame",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is acesulfame k",
+      "volume": 100,
+      "original_keyword": "Acesulfame k",
+      "parent_topic": "acesulfame potassium bad for you",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "does acesulfame potassium cause cancer",
+      "volume": 80,
+      "original_keyword": "Acesulfame potassium",
+      "parent_topic": "artificial sweetener cancer",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is acesulfame potassium bad for kidneys",
+      "volume": 50,
+      "original_keyword": "Acesulfame potassium",
+      "parent_topic": "sucralose and acesulfame potassium",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is acesulfame potassium safe",
+      "volume": 50,
+      "original_keyword": "Acesulfame potassium",
+      "parent_topic": "acesulfame",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how much acesulfame potassium is safe",
+      "volume": 40,
+      "original_keyword": "Acesulfame potassium",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "is acesulfame potassium the same as aspartame",
+      "volume": 40,
+      "original_keyword": "Acesulfame potassium",
       "parent_topic": "acesulfame potassium",
       "intents": [
         "informational",
@@ -22,58 +90,14 @@
       ]
     },
     {
-      "keyword": "is acesulfame k safe",
-      "volume": 20,
+      "keyword": "what does acesulfame potassium do to the body",
+      "volume": 40,
+      "original_keyword": "Acesulfame potassium",
       "parent_topic": "",
       "intents": [
         "informational",
         "branded"
       ]
-    },
-    {
-      "keyword": "what is acesulfame k found in",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is acesulfame k made from",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is acesulfame-k",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": [
-        "informational",
-        "branded"
-      ]
-    },
-    {
-      "keyword": "what is concentrated acesulfame k",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "why is acesulfame k bad for you",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "acesulfame k are in which foods",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "acesulfame k what is it",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
     }
   ]
 }

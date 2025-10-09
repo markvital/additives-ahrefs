@@ -1,20 +1,25 @@
 {
-  "keyword": "Tricalcium citrate",
+  "keywords": [
+    "Tricalcium citrate",
+    "E333III"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:19:04.291Z",
+  "fetchedAt": "2025-10-09T03:30:04.641Z",
   "questions": [
     {
-      "keyword": "is tricalcium phosphate the same as calcium citrate",
+      "keyword": "what is tricalcium citrate",
       "volume": 30,
-      "parent_topic": "calcium citrate vs calcium carbonate",
+      "original_keyword": "Tricalcium citrate",
+      "parent_topic": "tricalcium citrate",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is tricalcium citrate",
-      "volume": 30,
-      "parent_topic": "tricalcium citrate",
+      "keyword": "is tricalcium phosphate the same as calcium citrate",
+      "volume": 20,
+      "original_keyword": "Tricalcium citrate",
+      "parent_topic": "calcium citrate vs calcium carbonate",
       "intents": [
         "informational"
       ]
@@ -22,6 +27,7 @@
     {
       "keyword": "is tricalcium citrate bad for you",
       "volume": 0,
+      "original_keyword": "Tricalcium citrate",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -30,18 +36,21 @@
     {
       "keyword": "what is tricalcium citrate used for",
       "volume": 0,
+      "original_keyword": "Tricalcium citrate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "which is better calcium citrate vs tricalcium phosphate",
       "volume": 0,
+      "original_keyword": "Tricalcium citrate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "which is easier to absorb tricalcium pjosphatw or calcium citrate?",
       "volume": 0,
+      "original_keyword": "Tricalcium citrate",
       "parent_topic": "",
       "intents": []
     }

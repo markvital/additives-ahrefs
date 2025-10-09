@@ -1,6 +1,38 @@
 {
-  "keyword": "Azodicarbonamide and Carbamide",
+  "keywords": [
+    "Azodicarbonamide and Carbamide",
+    "E927"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.818Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:16:33.509Z",
+  "questions": [
+    {
+      "keyword": "how to put on atlas snowshoes electra e927",
+      "volume": 0,
+      "original_keyword": "E927",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is e927 carbanide",
+      "volume": 0,
+      "original_keyword": "E927",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the difference between a es927 and a e927 raymarine",
+      "volume": 0,
+      "original_keyword": "E927",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the difference between a raymarine es927 and a e927",
+      "volume": 0,
+      "original_keyword": "E927",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

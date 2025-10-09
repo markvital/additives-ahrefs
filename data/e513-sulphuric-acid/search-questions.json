@@ -1,35 +1,81 @@
 {
-  "keyword": "Sulphuric acid",
+  "keywords": [
+    "Sulphuric acid",
+    "E513",
+    "Oil of vitriol",
+    "sulfuric acid",
+    "H2SO4"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:25:21.700Z",
+  "fetchedAt": "2025-10-09T03:30:00.490Z",
   "questions": [
     {
-      "keyword": "what is sulphuric acid used for",
-      "volume": 90,
+      "keyword": "is h2so4 a strong acid",
+      "volume": 1800,
+      "original_keyword": "H2SO4",
       "parent_topic": "sulfuric acid",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is sulphuric acid",
-      "volume": 60,
+      "keyword": "what is sulfuric acid used for",
+      "volume": 1100,
+      "original_keyword": "sulfuric acid",
       "parent_topic": "sulfuric acid",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "is sulphuric acid dangerous",
-      "volume": 40,
-      "parent_topic": "",
+      "keyword": "is h2so4 an acid or base",
+      "volume": 800,
+      "original_keyword": "H2SO4",
+      "parent_topic": "h2so4 acid or base",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "where to buy sulphuric acid",
-      "volume": 40,
+      "keyword": "what is sulfuric acid",
+      "volume": 800,
+      "original_keyword": "sulfuric acid",
+      "parent_topic": "sulfuric acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is h2so4",
+      "volume": 700,
+      "original_keyword": "H2SO4",
+      "parent_topic": "sulfuric acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sulfuric acid a strong acid",
+      "volume": 450,
+      "original_keyword": "sulfuric acid",
+      "parent_topic": "is h2so4 a strong acid",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does h2so4 do in a reaction",
+      "volume": 300,
+      "original_keyword": "H2SO4",
+      "parent_topic": "acid catalyzed dehydration",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where to buy sulfuric acid",
+      "volume": 300,
+      "original_keyword": "sulfuric acid",
       "parent_topic": "sulfuric acid",
       "intents": [
         "commercial",
@@ -37,42 +83,22 @@
       ]
     },
     {
-      "keyword": "what does sulphuric acid do to skin",
-      "volume": 20,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is sulphuric acid used for in everyday life",
-      "volume": 20,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how dangerous is sulphuric acid",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how do you make sulphuric acid",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how is sulphuric acid made",
-      "volume": 10,
+      "keyword": "how to make sulfuric acid",
+      "volume": 200,
+      "original_keyword": "sulfuric acid",
       "parent_topic": "sulfuric acid",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "how strong is sulphuric acid",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "is sulfuric acid an element compound or mixture",
+      "volume": 200,
+      "original_keyword": "sulfuric acid",
+      "parent_topic": "is sulfuric acid an element compound or mixture",
+      "intents": [
+        "informational"
+      ]
     }
   ]
 }

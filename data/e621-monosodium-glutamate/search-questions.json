@@ -1,11 +1,20 @@
 {
-  "keyword": "Monosodium glutamate",
+  "keywords": [
+    "Monosodium glutamate",
+    "E621",
+    "monosodium l-glutamate",
+    "Sodium glutamate",
+    "L-Glutamic acid‚ monosodium salt",
+    "Glutamate",
+    "MSG"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:23.695Z",
+  "fetchedAt": "2025-10-09T03:25:36.457Z",
   "questions": [
     {
-      "keyword": "what is monosodium glutamate",
-      "volume": 2000,
+      "keyword": "what is msg",
+      "volume": 48000,
+      "original_keyword": "MSG",
       "parent_topic": "what is msg",
       "intents": [
         "informational",
@@ -13,8 +22,9 @@
       ]
     },
     {
-      "keyword": "is monosodium glutamate bad for you",
-      "volume": 700,
+      "keyword": "is msg bad for you",
+      "volume": 18000,
+      "original_keyword": "MSG",
       "parent_topic": "what is msg",
       "intents": [
         "informational",
@@ -22,44 +32,9 @@
       ]
     },
     {
-      "keyword": "what is monosodium glutamate made from",
-      "volume": 150,
-      "parent_topic": "monosodium glutamate",
-      "intents": [
-        "informational",
-        "branded"
-      ]
-    },
-    {
-      "keyword": "which taste is associated with monosodium glutamate",
-      "volume": 100,
-      "parent_topic": "which taste is associated with monosodium glutamate",
-      "intents": [
-        "informational",
-        "branded"
-      ]
-    },
-    {
-      "keyword": "how is monosodium glutamate made",
-      "volume": 80,
-      "parent_topic": "msg",
-      "intents": [
-        "informational",
-        "branded"
-      ]
-    },
-    {
-      "keyword": "what is monosodium glutamate made of",
-      "volume": 70,
-      "parent_topic": "monosodium glutamate",
-      "intents": [
-        "informational",
-        "branded"
-      ]
-    },
-    {
-      "keyword": "what is monosodium glutamate used for",
-      "volume": 70,
+      "keyword": "what is msg in food",
+      "volume": 7200,
+      "original_keyword": "MSG",
       "parent_topic": "what is msg",
       "intents": [
         "informational",
@@ -67,17 +42,9 @@
       ]
     },
     {
-      "keyword": "where does monosodium glutamate come from",
-      "volume": 70,
-      "parent_topic": "msg",
-      "intents": [
-        "informational",
-        "branded"
-      ]
-    },
-    {
-      "keyword": "what does monosodium glutamate do",
-      "volume": 60,
+      "keyword": "what is msg made of",
+      "volume": 3600,
+      "original_keyword": "MSG",
       "parent_topic": "what is msg",
       "intents": [
         "informational",
@@ -85,9 +52,58 @@
       ]
     },
     {
-      "keyword": "does monosodium glutamate have gluten",
-      "volume": 50,
-      "parent_topic": "is msg gluten free",
+      "keyword": "why is msg bad for you",
+      "volume": 3400,
+      "original_keyword": "MSG",
+      "parent_topic": "what is msg",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "what does msg do",
+      "volume": 3300,
+      "original_keyword": "MSG",
+      "parent_topic": "what is msg",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "is msg bad",
+      "volume": 3100,
+      "original_keyword": "MSG",
+      "parent_topic": "what is msg",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "what does msg stand for",
+      "volume": 2800,
+      "original_keyword": "MSG",
+      "parent_topic": "what is msg",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is glutamate",
+      "volume": 2500,
+      "original_keyword": "Glutamate",
+      "parent_topic": "glutamate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "whats msg",
+      "volume": 2500,
+      "original_keyword": "MSG",
+      "parent_topic": "what is msg",
       "intents": [
         "informational",
         "branded"

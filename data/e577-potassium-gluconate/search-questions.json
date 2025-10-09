@@ -1,20 +1,16 @@
 {
-  "keyword": "Potassium gluconate",
+  "keywords": [
+    "Potassium gluconate",
+    "E577"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:39.328Z",
+  "fetchedAt": "2025-10-09T03:26:02.016Z",
   "questions": [
     {
       "keyword": "how much potassium gluconate should i take daily",
       "volume": 350,
+      "original_keyword": "Potassium gluconate",
       "parent_topic": "potassium",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "how much potassium gluconate per day",
-      "volume": 150,
-      "parent_topic": "potassium gluconate dosage for adults",
       "intents": [
         "informational"
       ]
@@ -22,6 +18,7 @@
     {
       "keyword": "is potassium gluconate the same as potassium",
       "volume": 150,
+      "original_keyword": "Potassium gluconate",
       "parent_topic": "potassium gluconate vs potassium citrate",
       "intents": [
         "informational"
@@ -30,7 +27,17 @@
     {
       "keyword": "what is potassium gluconate",
       "volume": 150,
+      "original_keyword": "Potassium gluconate",
       "parent_topic": "potassium gluconate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how much potassium gluconate per day",
+      "volume": 100,
+      "original_keyword": "Potassium gluconate",
+      "parent_topic": "potassium gluconate dosage for adults",
       "intents": [
         "informational"
       ]
@@ -38,6 +45,7 @@
     {
       "keyword": "potassium gluconate para que sirve",
       "volume": 100,
+      "original_keyword": "Potassium gluconate",
       "parent_topic": "gluconato de potasio para que sirve",
       "intents": [
         "informational"
@@ -46,6 +54,7 @@
     {
       "keyword": "what is potassium gluconate good for",
       "volume": 100,
+      "original_keyword": "Potassium gluconate",
       "parent_topic": "potassium gluconate",
       "intents": [
         "informational"
@@ -54,6 +63,7 @@
     {
       "keyword": "what is the difference between potassium citrate and potassium gluconate",
       "volume": 100,
+      "original_keyword": "Potassium gluconate",
       "parent_topic": "potassium gluconate vs potassium citrate",
       "intents": [
         "informational"
@@ -62,6 +72,7 @@
     {
       "keyword": "is potassium gluconate good for you",
       "volume": 80,
+      "original_keyword": "Potassium gluconate",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -70,15 +81,17 @@
     {
       "keyword": "what does potassium gluconate do",
       "volume": 80,
+      "original_keyword": "Potassium gluconate",
       "parent_topic": "potassium gluconate",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is potassium gluconate used for",
+      "keyword": "what's the difference between potassium citrate and potassium gluconate",
       "volume": 70,
-      "parent_topic": "potassium gluconate 99 mg dosage",
+      "original_keyword": "Potassium gluconate",
+      "parent_topic": "potassium gluconate vs potassium citrate",
       "intents": [
         "informational"
       ]

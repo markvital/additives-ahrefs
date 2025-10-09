@@ -1,6 +1,62 @@
 {
-  "keyword": "Calcium aluminium silicate",
+  "keywords": [
+    "Calcium aluminium silicate",
+    "E556",
+    "Calcium aluminosilicate",
+    "Calcium silicoaluminate",
+    "Aluminium calcium silicate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.857Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:20:42.962Z",
+  "questions": [
+    {
+      "keyword": "calcium silicate or sodium silicoaluminate which is worse",
+      "volume": 0,
+      "original_keyword": "Calcium silicoaluminate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to bring thinkpad e556 to factory reset",
+      "volume": 0,
+      "original_keyword": "E556",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is hydrated sodium calcium aluminosilicate",
+      "volume": 0,
+      "original_keyword": "Calcium aluminosilicate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is the e number of calcium aluminosilicate",
+      "volume": 0,
+      "original_keyword": "Calcium aluminosilicate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "where to buy calcium aluminosilicate",
+      "volume": 0,
+      "original_keyword": "Calcium aluminosilicate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "where to buy hydrated calcium aluminosilicate",
+      "volume": 0,
+      "original_keyword": "Calcium aluminosilicate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "where to purchase hydrated sodium calcium aluminosilicate",
+      "volume": 0,
+      "original_keyword": "Calcium aluminosilicate",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

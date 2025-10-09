@@ -1,11 +1,15 @@
 {
-  "keyword": "Benzoin resin",
+  "keywords": [
+    "Benzoin resin",
+    "E906"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.775Z",
+  "fetchedAt": "2025-10-09T03:16:33.687Z",
   "questions": [
     {
       "keyword": "what is benzoin resin",
       "volume": 30,
+      "original_keyword": "Benzoin resin",
       "parent_topic": "benzoin",
       "intents": [
         "informational"
@@ -14,54 +18,63 @@
     {
       "keyword": "what does benzoin resin smell like",
       "volume": 10,
+      "original_keyword": "Benzoin resin",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "benzoin sumatra resin how to use",
       "volume": 0,
+      "original_keyword": "Benzoin resin",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how many protons does e906 get per spill",
+      "volume": 0,
+      "original_keyword": "E906",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how to burn benzoin resin",
       "volume": 0,
+      "original_keyword": "Benzoin resin",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how to dilute benzoin resin",
       "volume": 0,
+      "original_keyword": "Benzoin resin",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how to dissolve benzoin resin",
       "volume": 0,
+      "original_keyword": "Benzoin resin",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how to make a benzoin resin tincture",
       "volume": 0,
+      "original_keyword": "Benzoin resin",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how to make a tincture out of benzoin resin",
       "volume": 0,
+      "original_keyword": "Benzoin resin",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how to make tinctures with benzoin resin",
       "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how to make tintures with benzoin resin",
-      "volume": 0,
+      "original_keyword": "Benzoin resin",
       "parent_topic": "",
       "intents": []
     }

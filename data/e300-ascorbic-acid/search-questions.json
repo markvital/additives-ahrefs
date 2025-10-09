@@ -1,11 +1,17 @@
 {
-  "keyword": "Ascorbic acid",
+  "keywords": [
+    "Ascorbic acid",
+    "E300",
+    "l-ascorbic acid",
+    "Synonyms L-xylo-Ascorbic acid"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.797Z",
+  "fetchedAt": "2025-10-09T03:20:35.728Z",
   "questions": [
     {
       "keyword": "what is ascorbic acid",
       "volume": 3100,
+      "original_keyword": "Ascorbic acid",
       "parent_topic": "vitamin c",
       "intents": [
         "informational"
@@ -14,6 +20,7 @@
     {
       "keyword": "is ascorbic acid bad for you",
       "volume": 800,
+      "original_keyword": "Ascorbic acid",
       "parent_topic": "too much vitamin c",
       "intents": [
         "informational"
@@ -22,6 +29,7 @@
     {
       "keyword": "can dogs have ascorbic acid",
       "volume": 350,
+      "original_keyword": "Ascorbic acid",
       "parent_topic": "can dogs have ascorbic acid",
       "intents": [
         "informational"
@@ -30,6 +38,7 @@
     {
       "keyword": "what is ascorbic acid made from",
       "volume": 300,
+      "original_keyword": "Ascorbic acid",
       "parent_topic": "acide ascorbique",
       "intents": [
         "informational"
@@ -38,6 +47,7 @@
     {
       "keyword": "where to buy ascorbic acid powder",
       "volume": 200,
+      "original_keyword": "Ascorbic acid",
       "parent_topic": "vitamin c powder",
       "intents": [
         "commercial",
@@ -47,6 +57,7 @@
     {
       "keyword": "how is ascorbic acid made",
       "volume": 150,
+      "original_keyword": "Ascorbic acid",
       "parent_topic": "acide ascorbique",
       "intents": [
         "informational"
@@ -55,6 +66,7 @@
     {
       "keyword": "is ascorbic acid the same as citric acid",
       "volume": 150,
+      "original_keyword": "Ascorbic acid",
       "parent_topic": "citric acid vs ascorbic acid",
       "intents": [
         "informational"
@@ -63,6 +75,7 @@
     {
       "keyword": "where does ascorbic acid come from",
       "volume": 150,
+      "original_keyword": "Ascorbic acid",
       "parent_topic": "ascorbic acid formula",
       "intents": [
         "informational"
@@ -71,6 +84,7 @@
     {
       "keyword": "is ascorbic acid a preservative",
       "volume": 100,
+      "original_keyword": "Ascorbic acid",
       "parent_topic": "what is ascorbic acid in food",
       "intents": [
         "informational"
@@ -79,6 +93,7 @@
     {
       "keyword": "is ascorbic acid natural",
       "volume": 100,
+      "original_keyword": "Ascorbic acid",
       "parent_topic": "is ascorbic acid natural",
       "intents": [
         "informational"

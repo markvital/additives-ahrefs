@@ -1,67 +1,101 @@
 {
-  "keyword": "Potassium metabisulphite",
+  "keywords": [
+    "Potassium metabisulphite",
+    "E224",
+    "Potassium metabisulfite"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:40.745Z",
+  "fetchedAt": "2025-10-09T03:26:04.656Z",
   "questions": [
     {
-      "keyword": "how long does potassium metabisulphite last in wine",
-      "volume": 0,
+      "keyword": "how much potassium metabisulfite per gallon of wine",
+      "volume": 100,
+      "original_keyword": "Potassium metabisulfite",
       "parent_topic": "",
-      "intents": []
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "how long to wait until potassium metabisulphite kills natural yeast",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is potassium metabisulfite",
+      "volume": 100,
+      "original_keyword": "Potassium metabisulfite",
+      "parent_topic": "potassium metabisulfite",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "how many active potassium metabisulphite pre gallon",
-      "volume": 0,
+      "keyword": "how much potassium metabisulfite per gallon of mead",
+      "volume": 80,
+      "original_keyword": "Potassium metabisulfite",
       "parent_topic": "",
-      "intents": []
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "how many activr potassium metabisulphite pre gallon",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "is potassium metabisulfite harmful",
+      "volume": 40,
+      "original_keyword": "Potassium metabisulfite",
+      "parent_topic": "is potassium metabisulfite harmful",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "how many grams is a 1/2 teaspoon of potassium metabisulphite",
-      "volume": 0,
+      "keyword": "when to add potassium metabisulfite to wine",
+      "volume": 30,
+      "original_keyword": "Potassium metabisulfite",
       "parent_topic": "",
-      "intents": []
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "how many milligrams of potassium metabisulphite to kill apple yeast per gallon",
-      "volume": 0,
+      "keyword": "how much potassium metabisulfite per gallon",
+      "volume": 20,
+      "original_keyword": "Potassium metabisulfite",
       "parent_topic": "",
-      "intents": []
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "how many tablets equal a teaspoon of potassium metabisulphite",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "is potassium metabisulfite bad for you",
+      "volume": 20,
+      "original_keyword": "Potassium metabisulfite",
+      "parent_topic": "metabisulfite side effects",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "how much potassium metabisulphite per gallon of wine",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "is potassium metabisulfite safe",
+      "volume": 20,
+      "original_keyword": "Potassium metabisulfite",
+      "parent_topic": "is potassium metabisulfite bad for you",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "how much potassium metabisulphite to add chlorine",
-      "volume": 0,
+      "keyword": "how much potassium metabisulfite to add to wine",
+      "volume": 10,
+      "original_keyword": "Potassium metabisulfite",
       "parent_topic": "",
-      "intents": []
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "how to mix potassium metabisulphite",
-      "volume": 0,
+      "keyword": "is potassium metabisulfite gluten free",
+      "volume": 10,
+      "original_keyword": "Potassium metabisulfite",
       "parent_topic": "",
-      "intents": []
+      "intents": [
+        "informational"
+      ]
     }
   ]
 }

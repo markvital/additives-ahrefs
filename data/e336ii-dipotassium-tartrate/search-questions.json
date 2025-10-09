@@ -1,6 +1,82 @@
 {
-  "keyword": "Dipotassium tartrate",
+  "keywords": [
+    "Dipotassium tartrate",
+    "E336II",
+    "dipotassic tartrate",
+    "Potassium tartrate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.937Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:21:54.140Z",
+  "questions": [
+    {
+      "keyword": "how much potassium hydrogen tartrate in cream of tartar?",
+      "volume": 0,
+      "original_keyword": "Potassium tartrate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to grow potassium sodium tartrate crystal",
+      "volume": 0,
+      "original_keyword": "Potassium tartrate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to prepare potassium sodium tartrate",
+      "volume": 0,
+      "original_keyword": "Potassium tartrate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "potassium hydrogen tartrate what is the ka",
+      "volume": 0,
+      "original_keyword": "Potassium tartrate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "potassium hydrogen tartrate what isthe ka",
+      "volume": 0,
+      "original_keyword": "Potassium tartrate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "potassium sodium tartrate is in what foods",
+      "volume": 0,
+      "original_keyword": "Potassium tartrate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "potassium sodium tartrate where to buy",
+      "volume": 0,
+      "original_keyword": "Potassium tartrate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "tartrate crystals build up when ____ bonds with potassium:",
+      "volume": 0,
+      "original_keyword": "Potassium tartrate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what are in potassium acid tartrate,potassium hydrogen tartrate, and potassium bitartrate.",
+      "volume": 0,
+      "original_keyword": "Potassium tartrate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what are inpotassium acid tartrate,potassium hydrogen tartrate, andpotassium bitartrate.",
+      "volume": 0,
+      "original_keyword": "Potassium tartrate",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

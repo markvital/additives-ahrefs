@@ -1,11 +1,16 @@
 {
-  "keyword": "Fumaric acid",
+  "keywords": [
+    "Fumaric acid",
+    "E297",
+    "trans-Butenedioic acid"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:45.559Z",
+  "fetchedAt": "2025-10-09T03:21:54.929Z",
   "questions": [
     {
       "keyword": "what is fumaric acid",
       "volume": 200,
+      "original_keyword": "Fumaric acid",
       "parent_topic": "fumaric acid",
       "intents": [
         "informational"
@@ -14,6 +19,7 @@
     {
       "keyword": "is fumaric acid bad for you",
       "volume": 40,
+      "original_keyword": "Fumaric acid",
       "parent_topic": "fumaric acid side effects",
       "intents": [
         "informational"
@@ -22,6 +28,7 @@
     {
       "keyword": "is fumaric acid safe in food",
       "volume": 10,
+      "original_keyword": "Fumaric acid",
       "parent_topic": "fumaric acid benefits",
       "intents": [
         "informational"
@@ -30,6 +37,7 @@
     {
       "keyword": "is fumaric acid vegan",
       "volume": 10,
+      "original_keyword": "Fumaric acid",
       "parent_topic": "fumaric acid vegan",
       "intents": [
         "informational"
@@ -38,6 +46,7 @@
     {
       "keyword": "what is fumaric acid in food",
       "volume": 10,
+      "original_keyword": "Fumaric acid",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -46,30 +55,35 @@
     {
       "keyword": "what is fumaric acid made from",
       "volume": 10,
+      "original_keyword": "Fumaric acid",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is fumaric acid used for",
       "volume": 10,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "explain why maleic acid and fumaric acid have very different melting points",
-      "volume": 0,
+      "original_keyword": "Fumaric acid",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "fumaric acid can cause which conditions",
       "volume": 0,
+      "original_keyword": "Fumaric acid",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "fumaric acid where is it found?",
+      "keyword": "how to open tsa e297 lock",
       "volume": 0,
+      "original_keyword": "E297",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to open tsa e297 lovk",
+      "volume": 0,
+      "original_keyword": "E297",
       "parent_topic": "",
       "intents": []
     }

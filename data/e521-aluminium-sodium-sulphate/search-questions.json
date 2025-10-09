@@ -1,6 +1,82 @@
 {
-  "keyword": "Aluminium sodium sulphate",
+  "keywords": [
+    "Aluminium sodium sulphate",
+    "E521",
+    "Soda alum",
+    "Sodium aluminium sulfate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.326Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:16:33.502Z",
+  "questions": [
+    {
+      "keyword": "buying caustic soda, how to use it to dissolve alum",
+      "volume": 0,
+      "original_keyword": "Soda alum",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "cinema modeoff how to repair a 12 volt battery for under 5 dollars using alum and baking soda",
+      "volume": 0,
+      "original_keyword": "Soda alum",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "dell dimension e521 how remove a firewire pci card",
+      "volume": 0,
+      "original_keyword": "E521",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "dell dimension e521 when to replace battery",
+      "volume": 0,
+      "original_keyword": "E521",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "e521 how to know if a comic is updated",
+      "volume": 0,
+      "original_keyword": "E521",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how do i boot my usb flash drive with windows 10 for dell dimension e521",
+      "volume": 0,
+      "original_keyword": "E521",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how do you upgrade t0 quad core processor on the dimension e521",
+      "volume": 0,
+      "original_keyword": "E521",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how dp i remove the hard drive fromdell dimension e521",
+      "volume": 0,
+      "original_keyword": "E521",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to add second hard drive to dell dimension e521",
+      "volume": 0,
+      "original_keyword": "E521",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to make a dell dimension e521 faster",
+      "volume": 0,
+      "original_keyword": "E521",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

@@ -1,6 +1,85 @@
 {
-  "keyword": "Propane-1‚2-diol alginate",
+  "keywords": [
+    "Propane-1‚2-diol alginate",
+    "E405",
+    "Propylene glycol alginate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:44.015Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:29:06.863Z",
+  "questions": [
+    {
+      "keyword": "what is propylene glycol alginate",
+      "volume": 100,
+      "original_keyword": "Propylene glycol alginate",
+      "parent_topic": "propylene glycol alginate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is propylene glycol alginate bad for you",
+      "volume": 20,
+      "original_keyword": "Propylene glycol alginate",
+      "parent_topic": "propylene glycol alginate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is propylene glycol alginate made from",
+      "volume": 10,
+      "original_keyword": "Propylene glycol alginate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how do they make propylene glycol alginate",
+      "volume": 0,
+      "original_keyword": "Propylene glycol alginate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how is propylene glycol alginate made",
+      "volume": 0,
+      "original_keyword": "Propylene glycol alginate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to fix e405 fuel comms error",
+      "volume": 0,
+      "original_keyword": "E405",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to flash my lg e405",
+      "volume": 0,
+      "original_keyword": "E405",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "is what is propylene glycol alginate",
+      "volume": 0,
+      "original_keyword": "Propylene glycol alginate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what does e405 16\" on wall mean",
+      "volume": 0,
+      "original_keyword": "E405",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what does e405 mean on att air",
+      "volume": 0,
+      "original_keyword": "E405",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

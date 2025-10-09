@@ -1,83 +1,107 @@
 {
-  "keyword": "Magnesium sulphate",
+  "keywords": [
+    "Magnesium sulphate",
+    "E518",
+    "Epsom salts",
+    "magnesium sulfate"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:18.049Z",
+  "fetchedAt": "2025-10-09T03:23:55.907Z",
   "questions": [
     {
-      "keyword": "how long to leave magnesium sulphate paste on",
-      "volume": 30,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "how to use magnesium sulphate paste for boils",
-      "volume": 20,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is magnesium sulphate",
-      "volume": 20,
-      "parent_topic": "",
+      "keyword": "what is magnesium sulfate",
+      "volume": 1000,
+      "original_keyword": "magnesium sulfate",
+      "parent_topic": "magnesium sulfate",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "how does magnesium sulphate paste work",
-      "volume": 10,
-      "parent_topic": "magnesium paste",
+      "keyword": "what do epsom salts do",
+      "volume": 700,
+      "original_keyword": "Epsom salts",
+      "parent_topic": "epsom salt",
       "intents": [
         "informational",
         "branded"
       ]
     },
     {
-      "keyword": "how to dilute magnesium sulphate",
-      "volume": 10,
-      "parent_topic": "",
+      "keyword": "do epsom salts work",
+      "volume": 600,
+      "original_keyword": "Epsom salts",
+      "parent_topic": "how does epsom salt work",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what are the uses for magnesium sulphate",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is magnesium sulphate paste used for",
-      "volume": 10,
-      "parent_topic": "",
+      "keyword": "how do epsom salts work",
+      "volume": 600,
+      "original_keyword": "Epsom salts",
+      "parent_topic": "epsom salt bath benefits",
       "intents": [
         "informational",
         "branded"
       ]
     },
     {
-      "keyword": "what is magnesium sulphate used for",
-      "volume": 10,
-      "parent_topic": "",
+      "keyword": "what are epsom salts",
+      "volume": 600,
+      "original_keyword": "Epsom salts",
+      "parent_topic": "epsom salt",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "what is magnesium sulfate used for",
+      "volume": 400,
+      "original_keyword": "magnesium sulfate",
+      "parent_topic": "magnesium sulfate",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "where can i buy magnesium sulphate paste",
-      "volume": 10,
-      "parent_topic": "",
+      "keyword": "what plants like epsom salts",
+      "volume": 350,
+      "original_keyword": "Epsom salts",
+      "parent_topic": "epsom salt for plants",
       "intents": [
-        "commercial",
-        "transactional",
+        "informational",
         "branded"
       ]
     },
     {
-      "keyword": "can you use magnesium sulphate when pregnant",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "is magnesium sulfate good for you",
+      "volume": 250,
+      "original_keyword": "magnesium sulfate",
+      "parent_topic": "magnesium sulfate in pregnancy",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does magnesium sulfate do",
+      "volume": 250,
+      "original_keyword": "magnesium sulfate",
+      "parent_topic": "magnesium sulfate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "which plants benefit from epsom salts",
+      "volume": 250,
+      "original_keyword": "Epsom salts",
+      "parent_topic": "epsom salt for plants",
+      "intents": [
+        "informational",
+        "branded"
+      ]
     }
   ]
 }

@@ -1,71 +1,103 @@
 {
-  "keyword": "Butylated hydroxytoluene",
+  "keywords": [
+    "Butylated hydroxytoluene",
+    "E321",
+    "BHT",
+    "2‚6-Ditertiary-butyl-p-cresol",
+    "bht added to preserve freshness"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.851Z",
+  "fetchedAt": "2025-10-09T03:20:42.474Z",
   "questions": [
     {
-      "keyword": "what is butylated hydroxytoluene",
-      "volume": 100,
+      "keyword": "what is bht",
+      "volume": 6000,
+      "original_keyword": "BHT",
+      "parent_topic": "bht in food",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is bht in food",
+      "volume": 2900,
+      "original_keyword": "BHT",
+      "parent_topic": "bht preservative",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is bht bad for you",
+      "volume": 1500,
+      "original_keyword": "BHT",
+      "parent_topic": "is bht bad for you",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is bht in cereal",
+      "volume": 700,
+      "original_keyword": "BHT",
+      "parent_topic": "bht preservative",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is bha and bht",
+      "volume": 500,
+      "original_keyword": "BHT",
+      "parent_topic": "bha and bht",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is bht and why you should avoid it",
+      "volume": 500,
+      "original_keyword": "BHT",
+      "parent_topic": "bht danger",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does bht cause cancer",
+      "volume": 450,
+      "original_keyword": "BHT",
+      "parent_topic": "is bht bad for you",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is bht in cosmetics",
+      "volume": 300,
+      "original_keyword": "BHT",
       "parent_topic": "bht",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what foods contain butylated hydroxytoluene",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is butylated hydroxytoluene bht",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is butylated hydroxytoluene used for",
-      "volume": 10,
-      "parent_topic": "",
+      "keyword": "is bht banned in europe",
+      "volume": 250,
+      "original_keyword": "BHT",
+      "parent_topic": "is bht banned in europe",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "where can i buy butylated hydroxytoluene",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "250 mg equals how many teaspoons bht (butylated hydroxytoluene)",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "bht (butylated hydroxytoluene) 1000 mg equals how many teaspoons",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "bht (butylated hydroxytoluene) 250 mg equals how many teaspoons",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "butylated hydroxytoluene (bht) how to use",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "butylated hydroxytoluene (bht) how to use as perservative",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what foods have bht",
+      "volume": 200,
+      "original_keyword": "BHT",
+      "parent_topic": "bht foods to avoid",
+      "intents": [
+        "informational"
+      ]
     }
   ]
 }

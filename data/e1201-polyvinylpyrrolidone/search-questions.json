@@ -1,69 +1,105 @@
 {
-  "keyword": "Polyvinylpyrrolidone",
+  "keywords": [
+    "Polyvinylpyrrolidone",
+    "E1201",
+    "Povidone",
+    "PVP"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:35.712Z",
+  "fetchedAt": "2025-10-09T03:25:58.074Z",
   "questions": [
     {
-      "keyword": "what is polyvinylpyrrolidone",
-      "volume": 20,
-      "parent_topic": "polyvinylpyrrolidone",
+      "keyword": "what is pvp",
+      "volume": 1100,
+      "original_keyword": "PVP",
+      "parent_topic": "pvp",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "how does polyvinylpyrrolidone distribute drugs",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what does pvp mean",
+      "volume": 1000,
+      "original_keyword": "PVP",
+      "parent_topic": "pvp",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "how is polyvinylpyrrolidone k30 made",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is povidone",
+      "volume": 500,
+      "original_keyword": "Povidone",
+      "parent_topic": "povidone",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "how is polyvinylpyrrolidone made",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is pvp in gaming",
+      "volume": 450,
+      "original_keyword": "PVP",
+      "parent_topic": "pvp",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "how is polyvinylpyrrolidone) commercially made",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is povidone iodine",
+      "volume": 400,
+      "original_keyword": "Povidone",
+      "parent_topic": "povidone iodine",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "how light sensitive is polyvinylpyrrolidone",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "is povidone iodine the same as betadine",
+      "volume": 300,
+      "original_keyword": "Povidone",
+      "parent_topic": "betadine vs iodine",
+      "intents": [
+        "informational",
+        "branded"
+      ]
     },
     {
-      "keyword": "how to pronounce polyvinylpyrrolidone",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what does pvp stand for",
+      "volume": 250,
+      "original_keyword": "PVP",
+      "parent_topic": "pvp",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "how to purify polyvinylpyrrolidone",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "how to turn off pvp in minecraft",
+      "volume": 200,
+      "original_keyword": "PVP",
+      "parent_topic": "how to turn pvp off in minecraft",
+      "intents": [
+        "informational",
+        "branded"
+      ]
     },
     {
-      "keyword": "how to remove polyvinylpyrrolidone",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what does pvp mean in gaming",
+      "volume": 200,
+      "original_keyword": "PVP",
+      "parent_topic": "pvp",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "how to remove polyvinylpyrrolidone film",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is povidone iodine used for",
+      "volume": 200,
+      "original_keyword": "Povidone",
+      "parent_topic": "povidone-iodine",
+      "intents": [
+        "informational",
+        "branded"
+      ]
     }
   ]
 }

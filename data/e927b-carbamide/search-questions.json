@@ -1,87 +1,99 @@
 {
-  "keyword": "Carbamide",
+  "keywords": [
+    "Carbamide",
+    "E927B",
+    "urea"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.373Z",
+  "fetchedAt": "2025-10-09T03:20:49.022Z",
   "questions": [
     {
-      "keyword": "what is carbamide peroxide",
-      "volume": 400,
-      "parent_topic": "carbamide peroxide",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "how long to leave carbamide peroxide in ear",
-      "volume": 200,
-      "parent_topic": "carbamide peroxide",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "does carbamide peroxide expire",
-      "volume": 100,
-      "parent_topic": "does teeth whitening gel expire",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "how does carbamide peroxide work",
-      "volume": 100,
-      "parent_topic": "carbamide peroxide",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is carbamide peroxide safe for teeth",
-      "volume": 100,
-      "parent_topic": "is carbamide peroxide safe for teeth",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what is carbamide",
-      "volume": 100,
+      "keyword": "what is urea",
+      "volume": 16000,
+      "original_keyword": "urea",
       "parent_topic": "urea",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "carbamide peroxide para que sirve",
-      "volume": 90,
-      "parent_topic": "carbamide peroxide para que sirve",
+      "keyword": "what is blood urea nitrogen",
+      "volume": 2100,
+      "original_keyword": "urea",
+      "parent_topic": "bun blood test",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "is carbamide peroxide safe",
-      "volume": 90,
-      "parent_topic": "is carbamide peroxide safe for teeth",
+      "keyword": "what is urea cream",
+      "volume": 2100,
+      "original_keyword": "urea",
+      "parent_topic": "urea cream",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "is carbamide peroxide safe for ears",
-      "volume": 90,
-      "parent_topic": "ear wax softener drops",
+      "keyword": "what is urea nitrogen",
+      "volume": 2100,
+      "original_keyword": "urea",
+      "parent_topic": "bun blood test",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "is carbamide peroxide the same as hydrogen peroxide",
-      "volume": 90,
-      "parent_topic": "carbamide peroxide vs hydrogen peroxide",
+      "keyword": "what is urea in def",
+      "volume": 900,
+      "original_keyword": "urea",
+      "parent_topic": "what is urea in def made from",
       "intents": [
         "informational"
       ]
+    },
+    {
+      "keyword": "what does urea do for skin",
+      "volume": 800,
+      "original_keyword": "urea",
+      "parent_topic": "what does urea do for skin",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is urea nitrogen in blood test",
+      "volume": 800,
+      "original_keyword": "urea",
+      "parent_topic": "bun blood test",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is urea?",
+      "volume": 700,
+      "original_keyword": "urea",
+      "parent_topic": "urea",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where does urea enter the blood",
+      "volume": 700,
+      "original_keyword": "urea",
+      "parent_topic": "the urea cycle",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "how urea works",
+      "volume": 600,
+      "original_keyword": "urea",
+      "parent_topic": "",
+      "intents": []
     }
   ]
 }

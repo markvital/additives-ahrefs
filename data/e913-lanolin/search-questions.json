@@ -1,11 +1,18 @@
 {
-  "keyword": "Lanolin",
+  "keywords": [
+    "Lanolin",
+    "E913",
+    "sheep wool grease",
+    "wool wax",
+    "wool grease"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:13.003Z",
+  "fetchedAt": "2025-10-09T03:23:48.918Z",
   "questions": [
     {
       "keyword": "what is lanolin",
       "volume": 4300,
+      "original_keyword": "Lanolin",
       "parent_topic": "lanolin",
       "intents": [
         "informational"
@@ -14,6 +21,7 @@
     {
       "keyword": "why is lanolin bad for skin",
       "volume": 900,
+      "original_keyword": "Lanolin",
       "parent_topic": "why is lanolin bad for skin",
       "intents": [
         "informational"
@@ -22,6 +30,7 @@
     {
       "keyword": "what is lanolin made of",
       "volume": 600,
+      "original_keyword": "Lanolin",
       "parent_topic": "lanolin",
       "intents": [
         "informational"
@@ -30,6 +39,7 @@
     {
       "keyword": "is lanolin safe for baby",
       "volume": 500,
+      "original_keyword": "Lanolin",
       "parent_topic": "is lanolin safe for babies",
       "intents": [
         "informational"
@@ -38,6 +48,7 @@
     {
       "keyword": "is lanolin good for your skin",
       "volume": 450,
+      "original_keyword": "Lanolin",
       "parent_topic": "is lanolin good for your skin",
       "intents": [
         "informational"
@@ -46,6 +57,7 @@
     {
       "keyword": "is lanolin safe",
       "volume": 450,
+      "original_keyword": "Lanolin",
       "parent_topic": "what is lanolin",
       "intents": [
         "informational"
@@ -54,7 +66,17 @@
     {
       "keyword": "where does lanolin come from",
       "volume": 350,
+      "original_keyword": "Lanolin",
       "parent_topic": "where does lanolin come from",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is lanolin safe for babies",
+      "volume": 250,
+      "original_keyword": "Lanolin",
+      "parent_topic": "how does lanolin help nipples",
       "intents": [
         "informational"
       ]
@@ -62,6 +84,7 @@
     {
       "keyword": "what is lanolin used for",
       "volume": 250,
+      "original_keyword": "Lanolin",
       "parent_topic": "lanolin cream",
       "intents": [
         "informational"
@@ -70,18 +93,11 @@
     {
       "keyword": "does vaseline have lanolin",
       "volume": 200,
+      "original_keyword": "Lanolin",
       "parent_topic": "is aquaphor petroleum jelly",
       "intents": [
         "informational",
         "branded"
-      ]
-    },
-    {
-      "keyword": "is lanolin bad for you",
-      "volume": 200,
-      "parent_topic": "is lanolin bad for you",
-      "intents": [
-        "informational"
       ]
     }
   ]

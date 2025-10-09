@@ -1,67 +1,80 @@
 {
-  "keyword": "Alginic acid",
+  "keywords": [
+    "Alginic acid",
+    "E400"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.341Z",
+  "fetchedAt": "2025-10-09T03:16:32.335Z",
   "questions": [
     {
       "keyword": "what is alginic acid",
       "volume": 20,
+      "original_keyword": "Alginic acid",
       "parent_topic": "alginate",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "a. draw the haworth structure of alginic acid b. why does this substance act as a thickening agent?",
-      "volume": 0,
+      "keyword": "how to connect wifi in lg e400",
+      "volume": 10,
+      "original_keyword": "E400",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to format lg e400 phone",
+      "volume": 10,
+      "original_keyword": "E400",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to update lg e400 software",
+      "volume": 10,
+      "original_keyword": "E400",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "acid gone how much alginic acid",
       "volume": 0,
+      "original_keyword": "Alginic acid",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "alginic acid how stuff works",
       "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "alginic acid is obtained from which algae",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "alginic acid what is n",
-      "volume": 0,
+      "original_keyword": "Alginic acid",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "alginic acid where does it come from",
       "volume": 0,
+      "original_keyword": "Alginic acid",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "alginic acid where to find",
       "volume": 0,
+      "original_keyword": "Alginic acid",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "denon e400 how to change equalizer settings",
+      "volume": 0,
+      "original_keyword": "E400",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "described as \"hairy\" in appearance, produce alginic acid, which can be used as a thickening agent",
       "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "described as \"hairy\" in appearance, produce alginic acid, which can be used as a thickening agent.",
-      "volume": 0,
+      "original_keyword": "Alginic acid",
       "parent_topic": "",
       "intents": []
     }

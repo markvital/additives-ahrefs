@@ -1,67 +1,94 @@
 {
-  "keyword": "Sodium sulphite",
+  "keywords": [
+    "Sodium sulphite",
+    "E221",
+    "Sodium sulfite"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:25:14.875Z",
+  "fetchedAt": "2025-10-09T03:29:38.692Z",
   "questions": [
     {
-      "keyword": "what is sodium sulphite",
+      "keyword": "what is sodium sulfite",
+      "volume": 90,
+      "original_keyword": "Sodium sulfite",
+      "parent_topic": "sodium sulfite",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is the formula for sodium sulfite",
+      "volume": 30,
+      "original_keyword": "Sodium sulfite",
+      "parent_topic": "sodium sulfite",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is the chemical formula for sodium sulfite",
+      "volume": 20,
+      "original_keyword": "Sodium sulfite",
+      "parent_topic": "sodium sulfite",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sodium phosphate a sulfite",
       "volume": 10,
+      "original_keyword": "Sodium sulfite",
       "parent_topic": "",
       "intents": [
         "informational"
       ]
     },
     {
+      "keyword": "what is sodium sulfite used for",
+      "volume": 10,
+      "original_keyword": "Sodium sulfite",
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is sodium sulphite",
+      "volume": 10,
+      "original_keyword": "Sodium sulphite",
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where to buy sodium sulfite",
+      "volume": 10,
+      "original_keyword": "Sodium sulfite",
+      "parent_topic": "",
+      "intents": [
+        "commercial",
+        "transactional"
+      ]
+    },
+    {
+      "keyword": "\"sodium sulfite as a preservative is not allowed on what foods\"",
+      "volume": 0,
+      "original_keyword": "Sodium sulfite",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
       "keyword": "\"sodium sulphite\" what food contain",
       "volume": 0,
+      "original_keyword": "Sodium sulphite",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "how to make sodium sulphite",
+      "keyword": "\"what effect does the presence of the sodium sulfite\"",
       "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "sodium sulphite what food",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "sodium sulphite which fruits",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what happen if the process watertreat with sodium sulphite at low ph",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what has sodium sulphite",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is sodium sulphite used for",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is the chemical formula of sodium sulphite",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what is the formula of sodium sulphite",
-      "volume": 0,
+      "original_keyword": "Sodium sulfite",
       "parent_topic": "",
       "intents": []
     }

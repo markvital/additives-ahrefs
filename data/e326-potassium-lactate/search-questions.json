@@ -1,11 +1,15 @@
 {
-  "keyword": "potassium lactate",
+  "keywords": [
+    "potassium lactate",
+    "E326"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:40.429Z",
+  "fetchedAt": "2025-10-09T03:26:03.483Z",
   "questions": [
     {
       "keyword": "is potassium lactate dairy",
       "volume": 200,
+      "original_keyword": "potassium lactate",
       "parent_topic": "potassium lactate dairy",
       "intents": [
         "informational"
@@ -14,6 +18,7 @@
     {
       "keyword": "what is potassium lactate",
       "volume": 150,
+      "original_keyword": "potassium lactate",
       "parent_topic": "potassium lactate",
       "intents": [
         "informational"
@@ -22,15 +27,8 @@
     {
       "keyword": "is potassium lactate bad for you",
       "volume": 80,
+      "original_keyword": "potassium lactate",
       "parent_topic": "potassium lactate",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is potassium lactate dairy free",
-      "volume": 40,
-      "parent_topic": "potassium lactate dairy",
       "intents": [
         "informational"
       ]
@@ -38,6 +36,7 @@
     {
       "keyword": "what is potassium lactate in food",
       "volume": 40,
+      "original_keyword": "potassium lactate",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -46,6 +45,16 @@
     {
       "keyword": "does potassium lactate have dairy",
       "volume": 30,
+      "original_keyword": "potassium lactate",
+      "parent_topic": "potassium lactate dairy",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is potassium lactate dairy free",
+      "volume": 30,
+      "original_keyword": "potassium lactate",
       "parent_topic": "potassium lactate dairy",
       "intents": [
         "informational"
@@ -54,6 +63,7 @@
     {
       "keyword": "does potassium lactate contain dairy",
       "volume": 20,
+      "original_keyword": "potassium lactate",
       "parent_topic": "potassium lactate dairy",
       "intents": [
         "informational"
@@ -62,6 +72,7 @@
     {
       "keyword": "is potassium lactate milk",
       "volume": 10,
+      "original_keyword": "potassium lactate",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -70,12 +81,14 @@
     {
       "keyword": "what is potassium lactate made from",
       "volume": 10,
+      "original_keyword": "potassium lactate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "how is potassium lactate made",
       "volume": 0,
+      "original_keyword": "potassium lactate",
       "parent_topic": "",
       "intents": []
     }

@@ -1,6 +1,80 @@
 {
-  "keyword": "Ethyl gallate",
+  "keywords": [
+    "Ethyl gallate",
+    "E313"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:45.374Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:21:53.842Z",
+  "questions": [
+    {
+      "keyword": "how do you play a yamaha e313 keyboard",
+      "volume": 0,
+      "original_keyword": "E313",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to connect yamaha psr-e313 to pc",
+      "volume": 0,
+      "original_keyword": "E313",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to fix edd error e313",
+      "volume": 0,
+      "original_keyword": "E313",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to go to recovery in micromax e313",
+      "volume": 0,
+      "original_keyword": "E313",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to install custom recovery in micromax e313 lollipop",
+      "volume": 0,
+      "original_keyword": "E313",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to install custom roms in micromax e313",
+      "volume": 0,
+      "original_keyword": "E313",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to install twrp recovery in micromax e313",
+      "volume": 0,
+      "original_keyword": "E313",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to install twrp recovery in micromax e313 with sp tools",
+      "volume": 0,
+      "original_keyword": "E313",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to install twrp recovery on e313",
+      "volume": 0,
+      "original_keyword": "E313",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to restore imei number in micromax e313",
+      "volume": 0,
+      "original_keyword": "E313",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

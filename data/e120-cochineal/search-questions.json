@@ -1,11 +1,19 @@
 {
-  "keyword": "Cochineal",
+  "keywords": [
+    "Cochineal",
+    "E120",
+    "carminic acid",
+    "carmines",
+    "Natural Red 4",
+    "Cochineal Red"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.763Z",
+  "fetchedAt": "2025-10-09T03:20:54.082Z",
   "questions": [
     {
       "keyword": "what foods contain cochineal",
       "volume": 450,
+      "original_keyword": "Cochineal",
       "parent_topic": "cochineal foods",
       "intents": [
         "informational"
@@ -13,7 +21,8 @@
     },
     {
       "keyword": "is cochineal extract bad for you",
-      "volume": 350,
+      "volume": 300,
+      "original_keyword": "Cochineal",
       "parent_topic": "what is red 40 made of",
       "intents": [
         "informational"
@@ -22,6 +31,7 @@
     {
       "keyword": "what is cochineal",
       "volume": 200,
+      "original_keyword": "Cochineal",
       "parent_topic": "cochineal",
       "intents": [
         "informational"
@@ -30,6 +40,7 @@
     {
       "keyword": "what is cochineal extract",
       "volume": 150,
+      "original_keyword": "Cochineal",
       "parent_topic": "cochineal",
       "intents": [
         "informational"
@@ -38,6 +49,7 @@
     {
       "keyword": "is cochineal safe to eat",
       "volume": 90,
+      "original_keyword": "Cochineal",
       "parent_topic": "cochineal foods",
       "intents": [
         "informational"
@@ -46,14 +58,25 @@
     {
       "keyword": "what is cochineal used for",
       "volume": 90,
+      "original_keyword": "Cochineal",
       "parent_topic": "cochineal",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is a cochineal insect",
+      "keyword": "what is e120",
       "volume": 70,
+      "original_keyword": "E120",
+      "parent_topic": "carmine color",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is a cochineal insect",
+      "volume": 60,
+      "original_keyword": "Cochineal",
       "parent_topic": "cochineal",
       "intents": [
         "informational"
@@ -62,21 +85,15 @@
     {
       "keyword": "what foods have cochineal in them",
       "volume": 50,
+      "original_keyword": "Cochineal",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what is a cochineal",
       "volume": 50,
+      "original_keyword": "Cochineal",
       "parent_topic": "cochineal",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "how to get rid of cochineal on cactus",
-      "volume": 40,
-      "parent_topic": "",
       "intents": [
         "informational"
       ]

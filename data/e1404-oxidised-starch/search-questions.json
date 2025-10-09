@@ -1,11 +1,29 @@
 {
-  "keyword": "Oxidised starch",
+  "keywords": [
+    "Oxidised starch",
+    "E1404"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:28.653Z",
+  "fetchedAt": "2025-10-09T03:25:42.694Z",
   "questions": [
+    {
+      "keyword": "how to change language on dell inspiron e1404",
+      "volume": 0,
+      "original_keyword": "E1404",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is e1404",
+      "volume": 0,
+      "original_keyword": "E1404",
+      "parent_topic": "",
+      "intents": []
+    },
     {
       "keyword": "what is oxidised starch",
       "volume": 0,
+      "original_keyword": "Oxidised starch",
       "parent_topic": "",
       "intents": []
     }

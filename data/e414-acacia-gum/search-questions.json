@@ -1,12 +1,41 @@
 {
-  "keyword": "Acacia gum",
+  "keywords": [
+    "Acacia gum",
+    "E414",
+    "gum arabic",
+    "gum acacia",
+    "arabic gum",
+    "E-414",
+    "E 414",
+    "INS414",
+    "INS 414"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.319Z",
+  "fetchedAt": "2025-10-09T03:20:38.467Z",
   "questions": [
+    {
+      "keyword": "what is gum arabic",
+      "volume": 1400,
+      "original_keyword": "gum arabic",
+      "parent_topic": "acacia gum",
+      "intents": [
+        "informational"
+      ]
+    },
     {
       "keyword": "what is acacia gum",
       "volume": 500,
+      "original_keyword": "Acacia gum",
       "parent_topic": "acacia gum",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is gum arabic bad for you",
+      "volume": 350,
+      "original_keyword": "gum arabic",
+      "parent_topic": "is gum arabic bad for you",
       "intents": [
         "informational"
       ]
@@ -14,6 +43,7 @@
     {
       "keyword": "what is gum acacia",
       "volume": 350,
+      "original_keyword": "Acacia gum",
       "parent_topic": "acacia gum",
       "intents": [
         "informational"
@@ -22,64 +52,56 @@
     {
       "keyword": "is acacia gum bad for you",
       "volume": 250,
+      "original_keyword": "Acacia gum",
       "parent_topic": "acacia gum",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "is gum acacia bad for you",
-      "volume": 100,
+      "keyword": "what is arabic gum",
+      "volume": 150,
+      "original_keyword": "gum arabic",
       "parent_topic": "acacia gum",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is acacia gum used for",
-      "volume": 30,
-      "parent_topic": "acacia powder benefits",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what is gum acacia made of",
-      "volume": 30,
-      "parent_topic": "acacia gum",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what is organic gum acacia",
-      "volume": 30,
-      "parent_topic": "organic acacia gum",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "can dogs have acacia gum",
-      "volume": 20,
-      "parent_topic": "can dogs have acacia gum",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is acacia gum vegan",
-      "volume": 20,
+      "keyword": "is gum arabic vegan",
+      "volume": 80,
+      "original_keyword": "gum arabic",
       "parent_topic": "is gum arabic vegan",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "acacia gum what is it",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "is gum arabic gluten free",
+      "volume": 70,
+      "original_keyword": "gum arabic",
+      "parent_topic": "gum acacia gluten free",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is gum arabic used for",
+      "volume": 70,
+      "original_keyword": "gum arabic",
+      "parent_topic": "is gum arabic bad for you",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is gum arabic made of",
+      "volume": 60,
+      "original_keyword": "gum arabic",
+      "parent_topic": "gum arabic source",
+      "intents": [
+        "informational"
+      ]
     }
   ]
 }

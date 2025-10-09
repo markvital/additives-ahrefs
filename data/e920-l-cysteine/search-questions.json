@@ -1,11 +1,21 @@
 {
-  "keyword": "l-cysteine",
+  "keywords": [
+    "l-cysteine",
+    "E920",
+    "L-cysteine hydrochloride",
+    "L-2-Amino-3-mercaptopropionic acid",
+    "L-Cys",
+    "(R)-2-Amino-3-mercaptopropanoic acid",
+    "(2R)-2-amino-3-sulfanylpropanoic acid",
+    "(2R)-2-amino-3-mercaptopropanoic acid"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:11.640Z",
+  "fetchedAt": "2025-10-09T03:23:47.130Z",
   "questions": [
     {
       "keyword": "what is l-cysteine",
-      "volume": 250,
+      "volume": 200,
+      "original_keyword": "l-cysteine",
       "parent_topic": "l-cysteine",
       "intents": [
         "informational"
@@ -14,6 +24,7 @@
     {
       "keyword": "what is l cysteine",
       "volume": 150,
+      "original_keyword": "l-cysteine",
       "parent_topic": "l-cysteine",
       "intents": [
         "informational"
@@ -22,15 +33,8 @@
     {
       "keyword": "what is n-acetyl-l-cysteine",
       "volume": 50,
+      "original_keyword": "l-cysteine",
       "parent_topic": "nac supplement",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what is l cysteine made of",
-      "volume": 40,
-      "parent_topic": "l cysteine in food",
       "intents": [
         "informational"
       ]
@@ -38,14 +42,7 @@
     {
       "keyword": "what is l-cysteine made of",
       "volume": 40,
-      "parent_topic": "l cysteine in food",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "which bread brands contain l-cysteine",
-      "volume": 40,
+      "original_keyword": "l-cysteine",
       "parent_topic": "l cysteine in food",
       "intents": [
         "informational"
@@ -54,15 +51,17 @@
     {
       "keyword": "is cysteine l or d",
       "volume": 30,
+      "original_keyword": "l-cysteine",
       "parent_topic": "is cysteine r or s",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what does l cysteine do",
+      "keyword": "n-acetyl-l-cysteine para que sirve",
       "volume": 30,
-      "parent_topic": "l-cysteine",
+      "original_keyword": "l-cysteine",
+      "parent_topic": "nac para que sirve",
       "intents": [
         "informational"
       ]
@@ -70,7 +69,17 @@
     {
       "keyword": "what does n-acetyl-l-cysteine do",
       "volume": 30,
+      "original_keyword": "l-cysteine",
       "parent_topic": "nac supplement",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is l cysteine made of",
+      "volume": 30,
+      "original_keyword": "l-cysteine",
+      "parent_topic": "l cysteine in food",
       "intents": [
         "informational"
       ]
@@ -78,7 +87,17 @@
     {
       "keyword": "what is n acetyl l cysteine good for",
       "volume": 30,
+      "original_keyword": "l-cysteine",
       "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "which bread brands contain l-cysteine",
+      "volume": 30,
+      "original_keyword": "l-cysteine",
+      "parent_topic": "l cysteine in food",
       "intents": [
         "informational"
       ]

@@ -1,75 +1,105 @@
 {
-  "keyword": "sodium dodecyl sulfate",
+  "keywords": [
+    "sodium dodecyl sulfate",
+    "E487",
+    "sodium laurilsulfate",
+    "sodium lauryl sulfate",
+    "NaDS"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:25:08.803Z",
+  "fetchedAt": "2025-10-09T03:29:28.691Z",
   "questions": [
     {
-      "keyword": "what is sodium dodecyl sulfate",
-      "volume": 60,
+      "keyword": "what is sodium lauryl sulfate",
+      "volume": 1000,
+      "original_keyword": "sodium lauryl sulfate",
       "parent_topic": "sodium lauryl sulfate",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "is sodium dodecyl sulfate toxic",
-      "volume": 20,
-      "parent_topic": "is sodium dodecyl sulfate toxic",
+      "keyword": "what are nads",
+      "volume": 700,
+      "original_keyword": "NaDS",
+      "parent_topic": "nad supplement",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "how does sodium dodecyl sulfate denature protein",
-      "volume": 10,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "what does sodium dodecyl sulfate do",
-      "volume": 10,
-      "parent_topic": "",
+      "keyword": "is sodium lauryl sulfate bad",
+      "volume": 600,
+      "original_keyword": "sodium lauryl sulfate",
+      "parent_topic": "is sodium lauryl sulfate bad",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is sodium dodecyl sulfate used for",
-      "volume": 10,
-      "parent_topic": "",
+      "keyword": "what is nads",
+      "volume": 300,
+      "original_keyword": "NaDS",
+      "parent_topic": "nad",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "\"sodium dodecyl sulfate\" \"high concentration\" sticky why",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "does sensodyne have sodium lauryl sulfate",
+      "volume": 250,
+      "original_keyword": "sodium lauryl sulfate",
+      "parent_topic": "how does sensodyne work",
+      "intents": [
+        "informational",
+        "branded"
+      ]
     },
     {
-      "keyword": "how does sodium dodecyl sulfate interfere with uv absorbance at 280",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "is sodium lauryl sulfate bad for hair",
+      "volume": 250,
+      "original_keyword": "sodium lauryl sulfate",
+      "parent_topic": "sodium laureth sulfate bad for hair",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "how is sodium dodecyl sulfate disposed of",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what toothpaste does not have sodium lauryl sulfate",
+      "volume": 200,
+      "original_keyword": "sodium lauryl sulfate",
+      "parent_topic": "sls free toothpaste",
+      "intents": [
+        "informational",
+        "commercial"
+      ]
     },
     {
-      "keyword": "how long is 10% sodium dodecyl sulfate chemical good for",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "does sodium lauryl sulfate cause hair loss",
+      "volume": 150,
+      "original_keyword": "sodium lauryl sulfate",
+      "parent_topic": "does sulfate cause hair loss",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "how many grams of sodium dodecyl sulfate",
-      "volume": 0,
-      "parent_topic": "",
-      "intents": []
+      "keyword": "does sodium lauryl sulfate cause canker sores",
+      "volume": 100,
+      "original_keyword": "sodium lauryl sulfate",
+      "parent_topic": "best toothpaste for canker sores",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sodium lauryl sulfate safe",
+      "volume": 100,
+      "original_keyword": "sodium lauryl sulfate",
+      "parent_topic": "is sodium lauryl sulfate bad",
+      "intents": [
+        "informational"
+      ]
     }
   ]
 }

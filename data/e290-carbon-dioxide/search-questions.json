@@ -1,11 +1,21 @@
 {
-  "keyword": "Carbon dioxide",
+  "keywords": [
+    "Carbon dioxide",
+    "E290",
+    "Carbonic acid gas",
+    "Fermentation carbon dioxide",
+    "Spring carbon dioxide",
+    "Gärungskohlensäure",
+    "Natürliche Quellkohlensäure",
+    "Quellkohlensäure"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.452Z",
+  "fetchedAt": "2025-10-09T03:20:52.659Z",
   "questions": [
     {
       "keyword": "what is carbon dioxide",
       "volume": 12000,
+      "original_keyword": "Carbon dioxide",
       "parent_topic": "carbon dioxide",
       "intents": [
         "informational"
@@ -13,7 +23,8 @@
     },
     {
       "keyword": "how to treat low carbon dioxide in blood",
-      "volume": 6200,
+      "volume": 5400,
+      "original_keyword": "Carbon dioxide",
       "parent_topic": "how to treat low carbon dioxide in blood",
       "intents": [
         "informational"
@@ -21,7 +32,8 @@
     },
     {
       "keyword": "is carbon dioxide a compound",
-      "volume": 3100,
+      "volume": 2900,
+      "original_keyword": "Carbon dioxide",
       "parent_topic": "carbon dioxide",
       "intents": [
         "informational"
@@ -29,7 +41,8 @@
     },
     {
       "keyword": "is carbon dioxide a pure substance",
-      "volume": 1700,
+      "volume": 1800,
+      "original_keyword": "Carbon dioxide",
       "parent_topic": "is carbon dioxide a pure substance",
       "intents": [
         "informational"
@@ -37,8 +50,9 @@
     },
     {
       "keyword": "is carbon dioxide bad for you",
-      "volume": 1500,
-      "parent_topic": "what co2 level is dangerous",
+      "volume": 1600,
+      "original_keyword": "Carbon dioxide",
+      "parent_topic": "is carbon dioxide bad",
       "intents": [
         "informational"
       ]
@@ -46,6 +60,7 @@
     {
       "keyword": "where does carbon dioxide come from",
       "volume": 1500,
+      "original_keyword": "Carbon dioxide",
       "parent_topic": "where does carbon dioxide come from",
       "intents": [
         "informational"
@@ -53,7 +68,8 @@
     },
     {
       "keyword": "what does low carbon dioxide mean",
-      "volume": 1300,
+      "volume": 1400,
+      "original_keyword": "Carbon dioxide",
       "parent_topic": "co2 blood test",
       "intents": [
         "informational"
@@ -62,15 +78,8 @@
     {
       "keyword": "is carbon dioxide a greenhouse gas",
       "volume": 1100,
+      "original_keyword": "Carbon dioxide",
       "parent_topic": "greenhouse gases",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what is carbon dioxide used for",
-      "volume": 1100,
-      "parent_topic": "carbon dioxide",
       "intents": [
         "informational"
       ]
@@ -78,7 +87,17 @@
     {
       "keyword": "do we breathe out carbon dioxide",
       "volume": 1000,
+      "original_keyword": "Carbon dioxide",
       "parent_topic": "do humans breathe out carbon dioxide",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is carbon dioxide in blood test",
+      "volume": 1000,
+      "original_keyword": "Carbon dioxide",
+      "parent_topic": "co2 blood test",
       "intents": [
         "informational"
       ]

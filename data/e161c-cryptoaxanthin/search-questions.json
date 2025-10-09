@@ -1,6 +1,83 @@
 {
-  "keyword": "Cryptoaxanthin",
+  "keywords": [
+    "Cryptoaxanthin",
+    "E161C",
+    "Cryptoxanthin"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:44.925Z",
-  "questions": []
+  "fetchedAt": "2025-10-09T03:20:53.056Z",
+  "questions": [
+    {
+      "keyword": "alpha-carotene, beta-carotene, beta-cryptoxanthin, lutein, and zeanthin are all part of what family",
+      "volume": 0,
+      "original_keyword": "Cryptoxanthin",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "cryptoxanthin how to say",
+      "volume": 0,
+      "original_keyword": "Cryptoxanthin",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how do you say cryptoxanthin",
+      "volume": 0,
+      "original_keyword": "Cryptoxanthin",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much beta cryptoxanthin in carrots",
+      "volume": 0,
+      "original_keyword": "Cryptoxanthin",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much beta cryptoxanthin in foods",
+      "volume": 0,
+      "original_keyword": "Cryptoxanthin",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to pronounce cryptoxanthin",
+      "volume": 0,
+      "original_keyword": "Cryptoxanthin",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what foods are rich in beta cryptoxanthin foods",
+      "volume": 0,
+      "original_keyword": "Cryptoxanthin",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is beta cryptoxanthin",
+      "volume": 0,
+      "original_keyword": "Cryptoxanthin",
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is beta cryptoxanthin good for",
+      "volume": 0,
+      "original_keyword": "Cryptoxanthin",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is beta-cryptoxanthin",
+      "volume": 0,
+      "original_keyword": "Cryptoxanthin",
+      "parent_topic": "",
+      "intents": []
+    }
+  ]
 }

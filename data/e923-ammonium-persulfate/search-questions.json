@@ -1,11 +1,15 @@
 {
-  "keyword": "ammonium persulfate",
+  "keywords": [
+    "ammonium persulfate",
+    "E923"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:18:43.291Z",
+  "fetchedAt": "2025-10-09T03:16:32.466Z",
   "questions": [
     {
       "keyword": "what is ammonium persulfate",
       "volume": 20,
+      "original_keyword": "ammonium persulfate",
       "parent_topic": "",
       "intents": [
         "informational"
@@ -14,54 +18,63 @@
     {
       "keyword": "what is ammonium persulfate used for",
       "volume": 10,
+      "original_keyword": "ammonium persulfate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "what products contain ammonium persulfate",
       "volume": 10,
+      "original_keyword": "ammonium persulfate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "5. what aspects of your experiment are controlled by temed and ammonium persulfate?",
       "volume": 0,
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "ammonium persulfate amp how to dilute",
-      "volume": 0,
+      "original_keyword": "ammonium persulfate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "ammonium persulfate how to make solution",
       "volume": 0,
+      "original_keyword": "ammonium persulfate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "ammonium persulfate how to make solution cu",
       "volume": 0,
+      "original_keyword": "ammonium persulfate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "ammonium persulfate where to buj",
       "volume": 0,
+      "original_keyword": "ammonium persulfate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "ammonium persulfate where to bujy",
       "volume": 0,
+      "original_keyword": "ammonium persulfate",
       "parent_topic": "",
       "intents": []
     },
     {
       "keyword": "ammonium persulfate where to buy",
       "volume": 0,
+      "original_keyword": "ammonium persulfate",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how long does ammonium persulfate last",
+      "volume": 0,
+      "original_keyword": "ammonium persulfate",
       "parent_topic": "",
       "intents": []
     }

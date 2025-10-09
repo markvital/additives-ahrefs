@@ -1,19 +1,83 @@
 {
-  "keyword": "Sucrose esters of fatty acids",
+  "keywords": [
+    "Sucrose esters of fatty acids",
+    "E473",
+    "Sucroesters",
+    "sugar ester",
+    "sucrose esters"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:25:21.128Z",
+  "fetchedAt": "2025-10-09T03:29:59.383Z",
   "questions": [
+    {
+      "keyword": "where to buy sucrose esters",
+      "volume": 30,
+      "original_keyword": "sucrose esters",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what is sucrose esters",
+      "volume": 20,
+      "original_keyword": "sucrose esters",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what are sucrose esters",
+      "volume": 10,
+      "original_keyword": "sucrose esters",
+      "parent_topic": "",
+      "intents": []
+    },
     {
       "keyword": "what is sucrose esters of fatty acids",
       "volume": 10,
+      "original_keyword": "Sucrose esters of fatty acids",
       "parent_topic": "",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what are sucrose esters of fatty acids",
+      "keyword": "what is sucrose fatty acid esters",
+      "volume": 10,
+      "original_keyword": "sucrose esters",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how do you delete a song from a walkman nwz-e473",
       "volume": 0,
+      "original_keyword": "E473",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how long does the e473 online part take?",
+      "volume": 0,
+      "original_keyword": "E473",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how much is psr e473 in nigeria",
+      "volume": 0,
+      "original_keyword": "E473",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to create a playlist on sony walkman nwz-e473",
+      "volume": 0,
+      "original_keyword": "E473",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "how to transpose on psr e473",
+      "volume": 0,
+      "original_keyword": "E473",
       "parent_topic": "",
       "intents": []
     }

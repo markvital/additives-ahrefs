@@ -1,11 +1,16 @@
 {
-  "keyword": "Silver",
+  "keywords": [
+    "Silver",
+    "E174",
+    "element 47"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:48.827Z",
+  "fetchedAt": "2025-10-09T03:29:20.194Z",
   "questions": [
     {
       "keyword": "how to tame a silver fox",
       "volume": 24000,
+      "original_keyword": "Silver",
       "parent_topic": "how to tame a silver fox",
       "intents": [
         "informational",
@@ -14,7 +19,8 @@
     },
     {
       "keyword": "what is the price of silver today",
-      "volume": 18000,
+      "volume": 19000,
+      "original_keyword": "Silver",
       "parent_topic": "silver price today",
       "intents": [
         "informational"
@@ -23,6 +29,7 @@
     {
       "keyword": "how to tame a silver fox dailymotion",
       "volume": 16000,
+      "original_keyword": "Silver",
       "parent_topic": "how to tame a silver fox full movie",
       "intents": [
         "navigational",
@@ -31,7 +38,8 @@
     },
     {
       "keyword": "how much is silver per ounce",
-      "volume": 13000,
+      "volume": 14000,
+      "original_keyword": "Silver",
       "parent_topic": "silver price today",
       "intents": [
         "informational"
@@ -40,6 +48,7 @@
     {
       "keyword": "how to clean silver",
       "volume": 13000,
+      "original_keyword": "Silver",
       "parent_topic": "how to clean silver",
       "intents": [
         "informational"
@@ -48,6 +57,7 @@
     {
       "keyword": "how to tame a silver fox full movie",
       "volume": 13000,
+      "original_keyword": "Silver",
       "parent_topic": "how to tame a silver fox full movie",
       "intents": [
         "branded"
@@ -56,6 +66,7 @@
     {
       "keyword": "does sterling silver tarnish",
       "volume": 12000,
+      "original_keyword": "Silver",
       "parent_topic": "does 925 sterling silver tarnish",
       "intents": [
         "informational"
@@ -63,7 +74,8 @@
     },
     {
       "keyword": "what is the price of silver",
-      "volume": 10000,
+      "volume": 11000,
+      "original_keyword": "Silver",
       "parent_topic": "silver price today",
       "intents": [
         "informational"
@@ -71,7 +83,8 @@
     },
     {
       "keyword": "how much is an ounce of silver",
-      "volume": 8800,
+      "volume": 9000,
+      "original_keyword": "Silver",
       "parent_topic": "silver spot price",
       "intents": [
         "informational"
@@ -80,6 +93,7 @@
     {
       "keyword": "is silver magnetic",
       "volume": 8800,
+      "original_keyword": "Silver",
       "parent_topic": "is silver magnetic",
       "intents": [
         "informational"

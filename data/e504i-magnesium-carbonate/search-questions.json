@@ -1,11 +1,15 @@
 {
-  "keyword": "Magnesium carbonate",
+  "keywords": [
+    "Magnesium carbonate",
+    "E504I"
+  ],
   "country": "us",
-  "fetchedAt": "2025-10-06T04:24:15.195Z",
+  "fetchedAt": "2025-10-09T03:23:51.012Z",
   "questions": [
     {
       "keyword": "what is magnesium carbonate",
       "volume": 450,
+      "original_keyword": "Magnesium carbonate",
       "parent_topic": "magnesium carbonate",
       "intents": [
         "informational"
@@ -14,6 +18,7 @@
     {
       "keyword": "what is magnesium carbonate good for",
       "volume": 350,
+      "original_keyword": "Magnesium carbonate",
       "parent_topic": "magnesium carbonate benefits",
       "intents": [
         "informational"
@@ -22,6 +27,7 @@
     {
       "keyword": "is magnesium carbonate good for you",
       "volume": 200,
+      "original_keyword": "Magnesium carbonate",
       "parent_topic": "magnesium carbonate benefits",
       "intents": [
         "informational"
@@ -30,21 +36,42 @@
     {
       "keyword": "how do you make magnesium carbonate",
       "volume": 150,
+      "original_keyword": "Magnesium carbonate",
       "parent_topic": "",
       "intents": []
     },
     {
+      "keyword": "is magnesium carbonate the same as magnesium citrate",
+      "volume": 100,
+      "original_keyword": "Magnesium carbonate",
+      "parent_topic": "magnesium carbonate vs citrate",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
       "keyword": "what is magnesium carbonate used for",
-      "volume": 150,
+      "volume": 100,
+      "original_keyword": "Magnesium carbonate",
       "parent_topic": "magnesium carbonate benefits",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "is magnesium carbonate the same as magnesium citrate",
-      "volume": 100,
-      "parent_topic": "magnesium carbonate vs citrate",
+      "keyword": "what is the formula for magnesium carbonate",
+      "volume": 90,
+      "original_keyword": "Magnesium carbonate",
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is magnesium carbonate soluble in water",
+      "volume": 80,
+      "original_keyword": "Magnesium carbonate",
+      "parent_topic": "mgco3",
       "intents": [
         "informational"
       ]
@@ -52,15 +79,8 @@
     {
       "keyword": "what does magnesium carbonate do",
       "volume": 80,
+      "original_keyword": "Magnesium carbonate",
       "parent_topic": "what is magnesium carbonate good for",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is magnesium carbonate soluble in water",
-      "volume": 60,
-      "parent_topic": "mgco3",
       "intents": [
         "informational"
       ]
@@ -68,16 +88,9 @@
     {
       "keyword": "what does magnesium carbonate do for the body",
       "volume": 60,
+      "original_keyword": "Magnesium carbonate",
       "parent_topic": "",
       "intents": []
-    },
-    {
-      "keyword": "is magnesium carbonate good for sleep",
-      "volume": 50,
-      "parent_topic": "magnesium for sleep",
-      "intents": [
-        "informational"
-      ]
     }
   ]
 }
