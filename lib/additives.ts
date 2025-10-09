@@ -4,6 +4,7 @@ import path from 'path';
 import additivesIndex from '../data/additives.json';
 import { createAdditiveSlug } from './additive-slug';
 import { getSearchVolumeDataset } from './search-volume';
+import { getSearchHistory } from './search-history';
 
 export interface AdditivePropsFile {
   title?: string;
@@ -189,11 +190,17 @@ const attachSearchMetrics = (additives: Additive[]): Additive[] => {
     rankMap.set(slug, index + 1);
   });
 
-  return additives.map((additive) => ({
-    ...additive,
-    searchVolume: totals.get(additive.slug) ?? null,
-    searchRank: rankMap.get(additive.slug) ?? null,
-  }));
+  return additives.map((additive) => {
+    const history = getSearchHistory(additive.slug);
+    const sparkline = Array.isArray(history?.sparkline) ? [...history!.sparkline] : [];
+
+    return {
+      ...additive,
+      searchVolume: totals.get(additive.slug) ?? null,
+      searchRank: rankMap.get(additive.slug) ?? null,
+      searchSparkline: sparkline,
+    };
+  });
 };
 
 const mapAdditives = (): Additive[] => {

@@ -16,12 +16,16 @@ export interface SearchHistoryDataset {
   fetchedAt: string;
   metrics: SearchHistoryMetric[];
   keywords: KeywordHistoryEntry[];
+  sparkline: Array<number | null>;
 }
 
 const historyCache = new Map<string, SearchHistoryDataset | null>();
 
 const getHistoryPath = (slug: string): string =>
   path.join(process.cwd(), 'data', slug, 'searchHistory.json');
+
+const getFullHistoryPath = (slug: string): string =>
+  path.join(process.cwd(), 'data', slug, 'searchHistoryFull.json');
 
 const normaliseMetric = (entry: unknown): SearchHistoryMetric | null => {
   if (!entry || typeof entry !== 'object') {
@@ -96,17 +100,63 @@ const aggregateMetricsFromKeywords = (keywords: KeywordHistoryEntry[]): SearchHi
     .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
 };
 
-const mapDataset = (parsed: any): SearchHistoryDataset => {
-  const keywordsRaw: unknown[] = Array.isArray(parsed?.keywords) ? parsed.keywords : [];
+const normaliseSparkline = (value: unknown): Array<number | null> => {
+  if (!Array.isArray(value)) {
+    return [];
+  }
+
+  return value.map((entry) => {
+    if (typeof entry === 'number' && Number.isFinite(entry)) {
+      return entry;
+    }
+
+    if (entry === null) {
+      return null;
+    }
+
+    return null;
+  });
+};
+
+const buildSparklineFromMetrics = (data: SearchHistoryMetric[]): Array<number | null> => {
+  if (data.length === 0) {
+    return [];
+  }
+
+  const now = new Date();
+  const startYear = now.getUTCFullYear() - 9;
+  const endYear = now.getUTCFullYear();
+  const result: Array<number | null> = [];
+
+  for (let year = startYear; year <= endYear; year += 1) {
+    const yearly = data.filter((entry) => new Date(entry.date).getUTCFullYear() === year);
+    if (yearly.length === 0) {
+      result.push(null);
+      continue;
+    }
+
+    const sum = yearly.reduce((acc, entry) => acc + entry.volume, 0);
+    result.push(Math.round(sum / yearly.length));
+  }
+
+  return result;
+};
+
+const mapDataset = (aggregated: any, full?: any): SearchHistoryDataset => {
+  const keywordsRaw: unknown[] = Array.isArray(full?.keywords)
+    ? full!.keywords
+    : Array.isArray(aggregated?.keywords)
+    ? aggregated.keywords
+    : [];
 
   const keywords = keywordsRaw
     .map((entry: unknown) => normaliseKeywordHistory(entry))
     .filter((entry): entry is KeywordHistoryEntry => entry !== null);
 
-  if (keywords.length === 0 && typeof parsed?.keyword === 'string') {
-    const keyword = parsed.keyword.trim();
+  if (keywords.length === 0 && typeof aggregated?.keyword === 'string') {
+    const keyword = aggregated.keyword.trim();
     if (keyword) {
-      keywords.push({ keyword, metrics: normaliseMetrics(parsed?.metrics) });
+      keywords.push({ keyword, metrics: normaliseMetrics(aggregated?.metrics) });
     }
   }
 
@@ -121,16 +171,30 @@ const mapDataset = (parsed: any): SearchHistoryDataset => {
     deduped.push(entry);
   });
 
-  let metrics = normaliseMetrics(parsed?.metrics);
+  let metrics = normaliseMetrics(aggregated?.metrics);
   if (metrics.length === 0) {
     metrics = aggregateMetricsFromKeywords(deduped);
   }
 
+  let sparkline = normaliseSparkline(aggregated?.sparkline);
+  if (sparkline.length === 0) {
+    sparkline = buildSparklineFromMetrics(metrics);
+  }
+
   return {
-    country: typeof parsed?.country === 'string' ? parsed.country : '',
-    fetchedAt: typeof parsed?.fetchedAt === 'string' ? parsed.fetchedAt : '',
+    country: typeof aggregated?.country === 'string'
+      ? aggregated.country
+      : typeof full?.country === 'string'
+      ? full.country
+      : '',
+    fetchedAt: typeof aggregated?.fetchedAt === 'string'
+      ? aggregated.fetchedAt
+      : typeof full?.fetchedAt === 'string'
+      ? full.fetchedAt
+      : '',
     metrics,
     keywords: deduped,
+    sparkline,
   };
 };
 
@@ -146,9 +210,21 @@ export const getSearchHistory = (slug: string): SearchHistoryDataset | null => {
   }
 
   try {
-    const raw = fs.readFileSync(filePath, 'utf8');
-    const parsed = JSON.parse(raw);
-    const dataset = mapDataset(parsed);
+    const aggregatedRaw = fs.readFileSync(filePath, 'utf8');
+    const aggregated = JSON.parse(aggregatedRaw);
+
+    let full: any = null;
+    const fullPath = getFullHistoryPath(slug);
+    if (fs.existsSync(fullPath)) {
+      try {
+        const fullRaw = fs.readFileSync(fullPath, 'utf8');
+        full = JSON.parse(fullRaw);
+      } catch (error) {
+        console.error(`Failed to parse full search history for ${slug}:`, error);
+      }
+    }
+
+    const dataset = mapDataset(aggregated, full ?? undefined);
     historyCache.set(slug, dataset);
     return dataset;
   } catch (error) {

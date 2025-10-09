@@ -552,11 +552,13 @@ const main = async () => {
           continue;
         }
 
-        console.log(
-          `  → Fetching questions for ${queryKeywords.length} keyword${
-            queryKeywords.length === 1 ? '' : 's'
-          }`,
-        );
+        if (DEBUG) {
+          console.log(
+            `  → Fetching questions for ${queryKeywords.length} keyword${
+              queryKeywords.length === 1 ? '' : 's'
+            }`,
+          );
+        }
 
         const aggregated = [];
 
@@ -578,11 +580,9 @@ const main = async () => {
 
         await writeQuestions(additive.slug, dataset);
 
-        const savedMessage = DEBUG
-          ? `  → Saved ${dataset.questions.length} questions in ${questionsRelativePath}.`
-          : `  → Saved ${dataset.questions.length} questions.`;
-
-        console.log(savedMessage);
+        if (DEBUG) {
+          console.log(`  → Saved ${dataset.questions.length} questions in ${questionsRelativePath}.`);
+        }
       } catch (error) {
         console.error(`  → Failed: ${error.message}`);
         if (DEBUG && error?.stderr) {
