@@ -9,6 +9,9 @@
   "description": "",
   "wikipedia": "https://en.wikipedia.org/wiki/Caramel",
   "wikidata": "Q183440",
-  "origin": [],
+  "origin": [
+    "plant",
+    "animal"
+  ],
   "productCount": 795
 }

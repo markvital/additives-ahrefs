@@ -10,6 +10,9 @@
   "description": "Disodium guanylate, also known as sodium 5'-guanylate and disodium 5'-guanylate, is a natural sodium salt of the flavor enhancing nucleotide guanosine monophosphate -GMP-. Disodium guanylate is a food additive with the E number E627. It is commonly used in conjunction with glutamic acid. As it is a fairly expensive additive, it is not used independently of glutamic acid; if disodium guanylate is present in a list of ingredients but MSG does not appear to be, it is likely that glutamic acid is provided as part of another ingredient such as a processed soy protein complex. It is often added to foods in conjunction with disodium inosinate; the combination is known as disodium 5'-ribonucleotides. Disodium guanylate is produced from dried seaweed and is often added to instant noodles, potato chips and other snacks, savory rice, tinned vegetables, cured meats, and packaged soup.",
   "wikipedia": "https://en.wikipedia.org/wiki/Disodium_guanylate",
   "wikidata": "Q905776",
-  "origin": [],
+  "origin": [
+    "animal",
+    "microbiological"
+  ],
   "productCount": 6422
 }

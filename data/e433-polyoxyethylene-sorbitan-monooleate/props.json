@@ -13,6 +13,10 @@
   "description": "Polysorbate 80 is a nonionic surfactant and emulsifier often used in foods and cosmetics. This synthetic compound is a viscous, water-soluble yellow liquid.",
   "wikipedia": "https://en.wikipedia.org/wiki/Polysorbate_80",
   "wikidata": "Q420358",
-  "origin": [],
+  "origin": [
+    "plant",
+    "animal",
+    "synthetic"
+  ],
   "productCount": 5529
 }

@@ -15,6 +15,9 @@
   "description": "",
   "wikipedia": "https://en.wikipedia.org/wiki/Magnesium_phosphate",
   "wikidata": "Q2634889 # Q723683",
-  "origin": [],
+  "origin": [
+    "artificial",
+    "mineral"
+  ],
   "productCount": 496
 }

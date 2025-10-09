@@ -9,6 +9,8 @@
   "description": "Ethoxyquin is a quinoline-based antioxidant used as a food preservative in certain countries and originally to control scald on pears after harvest -under commercial names such as \"Stop-Scald\"-. It is used as a preservative in some pet foods to slow the development of rancidity of fats.  Ethoxyquin is also used in some spices to prevent color loss due to oxidation of the natural carotenoid pigments.",
   "wikipedia": "https://en.wikipedia.org/wiki/Ethoxyquin",
   "wikidata": "Q1657816",
-  "origin": [],
+  "origin": [
+    "synthetic"
+  ],
   "productCount": 92
 }

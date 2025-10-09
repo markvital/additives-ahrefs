@@ -10,6 +10,10 @@
   "description": "",
   "wikipedia": "https://en.wikipedia.org/wiki/Disodium_ribonucleotides",
   "wikidata": "Q18967210",
-  "origin": [],
+  "origin": [
+    "plant",
+    "animal",
+    "microbiological"
+  ],
   "productCount": 116
 }

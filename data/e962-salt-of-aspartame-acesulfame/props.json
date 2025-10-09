@@ -15,6 +15,9 @@
   "description": "Aspartame-acesulfame salt is an artificial sweetener marketed under the name Twinsweet. It is produced by soaking a 2-1 mixture of aspartame and acesulfame potassium in an acidic solution and allowing it to crystallize; moisture and potassium are removed during this process. It is approximately 350 times as sweet as sucrose. It has been given the E number E962.",
   "wikipedia": "https://en.wikipedia.org/wiki/Aspartame-acesulfame_salt",
   "wikidata": "Q409847",
-  "origin": [],
+  "origin": [
+    "synthetic",
+    "artificial"
+  ],
   "productCount": 72
 }

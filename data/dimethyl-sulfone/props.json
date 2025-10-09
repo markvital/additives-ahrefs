@@ -10,6 +10,10 @@
   "description": "",
   "wikipedia": "https://en.wikipedia.org/wiki/Methylsulfonylmethane",
   "wikidata": "Q423842",
-  "origin": [],
+  "origin": [
+    "plant",
+    "animal",
+    "synthetic"
+  ],
   "productCount": 6
 }

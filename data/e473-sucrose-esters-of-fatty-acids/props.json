@@ -15,6 +15,9 @@
   "description": "",
   "wikipedia": "https://en.wikipedia.org/wiki/Sucrose_esters",
   "wikidata": "Q55648666",
-  "origin": [],
+  "origin": [
+    "plant",
+    "animal"
+  ],
   "productCount": 155
 }

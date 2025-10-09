@@ -12,6 +12,8 @@
   "description": "Sulfuric acid -alternative spelling sulphuric acid-, also known as vitriol, is a mineral acid composed of the elements sulfur, oxygen and hydrogen, with molecular formula H2SO4. It is a colorless, odorless, and syrupy liquid that is soluble in water, in a reaction that is highly exothermic.Its corrosiveness can be mainly ascribed to its strong acidic nature, and, if at a high concentration, its dehydrating and oxidizing properties. It is also hygroscopic, readily absorbing water vapor from the air. Upon contact, sulfuric acid can cause severe chemical burns and even secondary thermal burns; it is very dangerous even at moderate concentrations.Sulfuric acid is a very important commodity chemical, and indeed, a nation's sulfuric acid production is a good indicator of its industrial strength. It is widely produced with different methods, such as contact process, wet sulfuric acid process, lead chamber process and some other methods.The most common use of sulfuric acid -60% of total- is for fertilizer manufacture. It is also a central substance in the chemical industry. Principal uses include fertilizer manufacturing -and other mineral processing-, oil refining, wastewater processing, and chemical synthesis. It has a wide range of end applications including in domestic acidic drain cleaners, as an electrolyte in lead-acid batteries and in various cleaning agents.",
   "wikipedia": "https://en.wikipedia.org/wiki/Sulfuric_acid",
   "wikidata": "Q4118",
-  "origin": [],
+  "origin": [
+    "artificial"
+  ],
   "productCount": 4
 }

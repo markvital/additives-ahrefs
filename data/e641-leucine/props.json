@@ -10,6 +10,9 @@
   "description": "",
   "wikipedia": "https://en.wikipedia.org/wiki/Leucine",
   "wikidata": "Q483745",
-  "origin": [],
+  "origin": [
+    "microbiological",
+    "synthetic"
+  ],
   "productCount": 180
 }

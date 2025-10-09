@@ -14,6 +14,9 @@
   "description": "Potassium chloride -KCl- is a metal halide salt composed of potassium and chlorine. It is odorless and has a white or colorless vitreous crystal appearance. The solid dissolves readily in water and its solutions have a salt-like taste.  KCl is used as a fertilizer, in medicine, in scientific applications, and in food processing.  In a few states of the United States it is used to cause cardiac arrest as the third drug in the \"three drug cocktail\" for executions by lethal injection. It occurs naturally as the mineral sylvite, and in combination with sodium chloride as sylvinite.The version for injection is on the World Health Organization's List of Essential Medicines, the most important medications needed in a basic health system.",
   "wikipedia": "https://en.wikipedia.org/wiki/Potassium_chloride",
   "wikidata": "Q184630",
-  "origin": [],
+  "origin": [
+    "artificial",
+    "mineral"
+  ],
   "productCount": 33
 }

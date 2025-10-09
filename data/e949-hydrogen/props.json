@@ -9,6 +9,8 @@
   "description": "",
   "wikipedia": "",
   "wikidata": "Q556",
-  "origin": [],
+  "origin": [
+    "synthetic"
+  ],
   "productCount": 4
 }

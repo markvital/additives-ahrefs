@@ -12,6 +12,9 @@
   "description": "",
   "wikipedia": "https://en.wikipedia.org/wiki/Talc",
   "wikidata": "",
-  "origin": [],
+  "origin": [
+    "synthetic",
+    "mineral"
+  ],
   "productCount": 173
 }

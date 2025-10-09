@@ -10,6 +10,9 @@
   "description": "Octyl gallate is the ester of 1-octanol and gallic acid.  As a food additive, it is used under the E number E311 as an antioxidant and preservative.",
   "wikipedia": "https://en.wikipedia.org/wiki/Octyl_gallate",
   "wikidata": "Q2317929",
-  "origin": [],
+  "origin": [
+    "plant",
+    "synthetic"
+  ],
   "productCount": 1
 }

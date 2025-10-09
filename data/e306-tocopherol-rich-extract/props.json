@@ -13,6 +13,8 @@
   "description": "",
   "wikipedia": "https://en.wikipedia.org/wiki/Vitamin_E",
   "wikidata": "Q141180",
-  "origin": [],
+  "origin": [
+    "plant"
+  ],
   "productCount": 5813
 }

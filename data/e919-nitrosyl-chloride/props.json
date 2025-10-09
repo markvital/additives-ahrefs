@@ -9,6 +9,8 @@
   "description": "Nitrosyl chloride is the chemical compound with the formula NOCl. It is a yellow gas that is most commonly encountered as a decomposition product of aqua regia, a mixture of hydrochloric acid and nitric acid. It is a strong electrophile and oxidizing agent. It is sometimes called Tilden's reagent.",
   "wikipedia": "https://en.wikipedia.org/wiki/Nitrosyl_chloride",
   "wikidata": "Q419266",
-  "origin": [],
+  "origin": [
+    "synthetic"
+  ],
   "productCount": 1
 }

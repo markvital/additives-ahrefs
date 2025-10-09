@@ -9,6 +9,9 @@
   "description": "",
   "wikipedia": "",
   "wikidata": "Q18668392",
-  "origin": [],
+  "origin": [
+    "synthetic",
+    "artificial"
+  ],
   "productCount": 3
 }

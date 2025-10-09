@@ -12,6 +12,10 @@
   "description": "Calcium stearoyl-2-lactylate -calcium stearoyl lactylate or CSL- or E482 is a versatile,  FDA approved food additive.  It is one type of a commercially available lactylate.  CSL is  non-toxic,  biodegradable, and typically manufactured using  biorenewable  feedstocks.  Because CSL is a safe and highly effective food additive, it is used in a wide variety of products from  baked goods and  desserts to packaging.As described by the  Food Chemicals Codex 7th edition, CSL is a cream-colored powder.  CSL is currently manufactured by the esterification of stearic acid and lactic acid with partial neutralization using food-grade hydrated lime -calcium hydroxide-.  Commercial grade CSL is a mixture of calcium salts of stearoyl lactic acid, with minor proportions of other salts of related acids.  The  HLB for CSL is 5.1.  It is slightly soluble in hot water.  The pH of a 2% aqueous suspension is approximately 4.7.",
   "wikipedia": "https://en.wikipedia.org/wiki/Calcium_stearoyl-2-lactylate",
   "wikidata": "Q788535",
-  "origin": [],
+  "origin": [
+    "plant",
+    "animal",
+    "microbiological"
+  ],
   "productCount": 126
 }

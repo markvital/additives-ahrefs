@@ -16,6 +16,8 @@
   "description": "",
   "wikipedia": "https://en.wikipedia.org/wiki/Monomagnesium_phosphate",
   "wikidata": "Q4161317",
-  "origin": [],
+  "origin": [
+    "mineral"
+  ],
   "productCount": 406
 }

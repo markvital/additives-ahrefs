@@ -20,6 +20,9 @@
   "description": "",
   "wikipedia": "https://en.wikipedia.org/wiki/Dimagnesium_phosphate",
   "wikidata": "Q14325507",
-  "origin": [],
+  "origin": [
+    "synthetic",
+    "mineral"
+  ],
   "productCount": 90
 }

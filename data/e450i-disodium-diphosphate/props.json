@@ -22,6 +22,9 @@
   "description": "",
   "wikipedia": "https://en.wikipedia.org/wiki/Disodium_pyrophosphate",
   "wikidata": "Q418498",
-  "origin": [],
+  "origin": [
+    "synthetic",
+    "mineral"
+  ],
   "productCount": 13177
 }

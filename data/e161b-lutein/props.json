@@ -14,6 +14,8 @@
   "description": "",
   "wikipedia": "https://en.wikipedia.org/wiki/Lutein",
   "wikidata": "Q422067",
-  "origin": [],
+  "origin": [
+    "plant"
+  ],
   "productCount": 241
 }

@@ -20,6 +20,9 @@
   "description": "",
   "wikipedia": "https://en.wikipedia.org/wiki/Tetrasodium_pyrophosphate",
   "wikidata": "Q418504",
-  "origin": [],
+  "origin": [
+    "artificial",
+    "mineral"
+  ],
   "productCount": 1336
 }

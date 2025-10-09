@@ -15,6 +15,9 @@
   "description": "Steviol glycosides are the chemical compounds responsible for the sweet taste of the leaves of the South American plant Stevia rebaudiana -Asteraceae- and the main ingredients -or precursors- of many sweeteners marketed under the generic name stevia and several trade names.  They also occur in the related species Stevia phlebophylla -but in no other species of Stevia- and in the plant Rubus chingii -Rosaceae-.Steviol glycosides from Stevia rebaudiana have been reported to be between 30 and 320 times sweeter than sucrose, although there is some disagreement in the technical literature about these numbers. They are heat-stable, pH-stable, and do not ferment.  Additionally, they do not induce a glycemic response when ingested, because humans can not metabolize stevia. This makes them attractive as natural sugar substitutes for diabetics and other people on carbohydrate-controlled diets. Steviol glycosides stimulate the insulin secretion through potentiation of the β-cell, preventing high blood glucose after a meal.  The acceptable daily intake -ADI- for steviol glycosides, expressed as steviol equivalents, has been established to be 4 mg/kg body weight/day, and is based on no observed effects of a 100 fold higher dose in a rat study.",
   "wikipedia": "https://en.wikipedia.org/wiki/Steviol_glycoside",
   "wikidata": "Q2805600",
-  "origin": [],
+  "origin": [
+    "plant",
+    "microbiological"
+  ],
   "productCount": 3675
 }

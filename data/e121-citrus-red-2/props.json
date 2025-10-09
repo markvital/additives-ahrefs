@@ -9,6 +9,9 @@
   "description": "Citrus Red 2, Citrus Red No. 2, C.I. Solvent Red 80, or C.I. 12156 is an artificial dye. As a food dye, it has been permitted by the US Food and Drug Administration -FDA- since 1956 to color the skin of oranges. Citrus Red 2 is listed by the International Agency for Research on Cancer -IARC- as a group 2B carcinogen, a substance \"possibly carcinogenic to humans\".",
   "wikipedia": "https://en.wikipedia.org/wiki/Citrus_Red_2",
   "wikidata": "Q2653981",
-  "origin": [],
+  "origin": [
+    "synthetic",
+    "artificial"
+  ],
   "productCount": 1
 }

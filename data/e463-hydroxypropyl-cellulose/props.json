@@ -14,6 +14,9 @@
   "description": "Hydroxypropyl cellulose -HPC- is a derivative of cellulose with both water solubility and organic solubility.  It is used as an excipient, and topical ophthalmic protectant and lubricant.",
   "wikipedia": "https://en.wikipedia.org/wiki/Hydroxypropyl_cellulose",
   "wikidata": "Q724426",
-  "origin": [],
+  "origin": [
+    "plant",
+    "synthetic"
+  ],
   "productCount": 72
 }

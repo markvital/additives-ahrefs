@@ -12,6 +12,8 @@
   "description": "Carnauba -; Portuguese: carnaúba [kaʁnɐˈubɐ]-, also called Brazil wax and palm wax, is a wax of the leaves of the palm Copernicia prunifera -Synonym: Copernicia cerifera-, a plant native to and grown only in the northeastern Brazilian states of Piauí, Ceará, Maranhão, Bahia, and Rio Grande do Norte. It is known as \"queen of waxes\" and in its pure state, usually comes in the form of hard yellow-brown flakes. It is obtained from the leaves of the carnauba palm by collecting and drying them, beating them to loosen the wax, then refining and bleaching the wax.",
   "wikipedia": "https://en.wikipedia.org/wiki/Carnauba_wax",
   "wikidata": "Q839494",
-  "origin": [],
+  "origin": [
+    "plant"
+  ],
   "productCount": 9053
 }

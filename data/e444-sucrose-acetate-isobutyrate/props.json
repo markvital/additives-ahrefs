@@ -12,6 +12,8 @@
   "description": "Sucrose acetoisobutyrate -SAIB- is an emulsifier and has E number E444. In the United States, SAIB is categorized as generally recognized as safe -GRAS- as a food additive in cocktail mixers, beer, malt beverages, or wine coolers and is a potential replacement for brominated vegetable oil.",
   "wikipedia": "https://en.wikipedia.org/wiki/Sucrose_acetate_isobutyrate",
   "wikidata": "Q410537",
-  "origin": [],
+  "origin": [
+    "synthetic"
+  ],
   "productCount": 416
 }

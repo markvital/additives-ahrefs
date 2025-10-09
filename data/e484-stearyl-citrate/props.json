@@ -13,6 +13,11 @@
   "description": "",
   "wikipedia": "",
   "wikidata": "Q18608830",
-  "origin": [],
+  "origin": [
+    "plant",
+    "animal",
+    "microbiological",
+    "synthetic"
+  ],
   "productCount": 0
 }

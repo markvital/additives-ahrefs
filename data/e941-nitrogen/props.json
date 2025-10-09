@@ -12,6 +12,8 @@
   "description": "",
   "wikipedia": "https://en.wikipedia.org/wiki/Nitrogen",
   "wikidata": "Q627",
-  "origin": [],
+  "origin": [
+    "artificial"
+  ],
   "productCount": 79
 }

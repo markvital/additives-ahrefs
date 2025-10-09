@@ -16,6 +16,9 @@
   "description": "tert-Butylhydroquinone -TBHQ, tertiary butylhydroquinone- is a synthetic aromatic organic compound which is a type of phenol. It is a derivative of hydroquinone, substituted with a tert-butyl group.",
   "wikipedia": "https://en.wikipedia.org/wiki/Tert-Butylhydroquinone",
   "wikidata": "Q662443",
-  "origin": [],
+  "origin": [
+    "synthetic",
+    "artificial"
+  ],
   "productCount": 3147
 }

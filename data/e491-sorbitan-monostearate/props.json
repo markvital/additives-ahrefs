@@ -11,6 +11,9 @@
   "description": "Sorbitan monostearate is an ester of sorbitan -a sorbitol derivative- and stearic acid and is sometimes referred to as a synthetic wax.  It is primarily used as an emulsifier to keep water and oils mixed. Sorbitan monostearate is used in the manufacture of food and healthcare products and is a non-ionic surfactant with emulsifying, dispersing, and wetting properties. It is also employed to create synthetic fibers, metal machining fluid, and brighteners in the leather industry, and as an emulsifier in coatings, pesticides, and various applications in the plastics, food and cosmetics industries. Sorbitans are also known as \"Spans\".  Sorbitan monostearate has been approved by the European Union for use as a food additive -emulsifier- -E number: E 491-",
   "wikipedia": "https://en.wikipedia.org/wiki/Sorbitan_monostearate",
   "wikidata": "Q907898",
-  "origin": [],
+  "origin": [
+    "plant",
+    "animal"
+  ],
   "productCount": 2328
 }

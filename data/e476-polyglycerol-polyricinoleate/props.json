@@ -12,6 +12,8 @@
   "description": "Polyglycerol polyricinoleate -PGPR-, E476, is an emulsifier made from glycerol and fatty acids -usually from castor bean, but also from soybean oil-. In chocolate, compound chocolate and similar coatings, PGPR is mainly used with another substance like lecithin to reduce viscosity. It is used at low levels -below 0.5%-, and works by decreasing the friction between the solid particles -e.g. cacao, sugar, milk- in molten chocolate, reducing the yield stress so that it flows more easily, approaching the behaviour of a Newtonian fluid. It can also be used as an emulsifier in spreads and in salad dressings, or to improve the texture of baked goods. It is made up of a short chain of glycerol molecules connected by ether bonds, with ricinoleic acid side chains connected by ester bonds. PGPR is a yellowish, viscous liquid, and is strongly lipophilic: it is soluble in fats and oils and insoluble in water and ethanol.",
   "wikipedia": "https://en.wikipedia.org/wiki/Polyglycerol_polyricinoleate",
   "wikidata": "Q168686",
-  "origin": [],
+  "origin": [
+    "plant"
+  ],
   "productCount": 1962
 }

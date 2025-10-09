@@ -16,6 +16,8 @@
   "description": "",
   "wikipedia": "",
   "wikidata": "Q11867365",
-  "origin": [],
+  "origin": [
+    "synthetic"
+  ],
   "productCount": 5226
 }

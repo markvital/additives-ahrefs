@@ -11,6 +11,8 @@
   "description": "Glycyrrhizin -or glycyrrhizic acid  or glycyrrhizinic acid- is the chief sweet-tasting constituent of Glycyrrhiza glabra -liquorice- root. Structurally, it is a saponin used as an emulsifier and gel-forming agent in foodstuffs and cosmetics. Its aglycone is enoxolone assessed as a prodrug used in Japan to reduce the risk of liver cancer in people with chronic hepatitis C.",
   "wikipedia": "https://en.wikipedia.org/wiki/Glycyrrhizin",
   "wikidata": "Q418705",
-  "origin": [],
+  "origin": [
+    "plant"
+  ],
   "productCount": 7
 }

@@ -17,6 +17,8 @@
   "description": "Sodium phosphate is a generic term for a variety of salts of sodium -Na+- and phosphate -PO43−-. Phosphate also forms families or condensed anions including di-, tri-, tetra-, and polyphosphates. Most of these salts are known in both anhydrous -water-free- and hydrated forms. The hydrates are more common than the anhydrous forms.",
   "wikipedia": "https://en.wikipedia.org/wiki/Trisodium_phosphate",
   "wikidata": "Q3249706",
-  "origin": [],
+  "origin": [
+    "synthetic"
+  ],
   "productCount": 1058
 }

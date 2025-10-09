@@ -9,6 +9,8 @@
   "description": "Sodium dehydroacetate is a compound with the formula Na-CH3C5HO-O2--CH3-CO-. It is the sodium salt of dehydroacetic acid. It has E number E266.",
   "wikipedia": "https://en.wikipedia.org/wiki/Sodium_dehydroacetate",
   "wikidata": "Q7553316",
-  "origin": [],
+  "origin": [
+    "synthetic"
+  ],
   "productCount": 17
 }

@@ -13,6 +13,9 @@
   "description": "",
   "wikipedia": "https://en.wikipedia.org/wiki/Caramel_color",
   "wikidata": "Q227816",
-  "origin": [],
+  "origin": [
+    "plant",
+    "animal"
+  ],
   "productCount": 156
 }

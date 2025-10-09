@@ -14,6 +14,8 @@
   "description": "Quinoline Yellow WS is a mixture of organic compounds derived from the dye Quinoline Yellow SS -Spirit Soluble-.  Owing to the presence of sulfonate groups, the WS dyes are water-soluble -WS-.  It is a mixture of disulfonates -principally-, monosulfonates and trisulfonates of 2--2-quinolyl-indan-1‚3-dione with a maximum absorption wavelength of 416 nm.p. 119",
   "wikipedia": "https://en.wikipedia.org/wiki/Quinoline_Yellow_WS",
   "wikidata": "Q420123",
-  "origin": [],
+  "origin": [
+    "synthetic"
+  ],
   "productCount": 7
 }

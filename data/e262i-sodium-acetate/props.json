@@ -12,6 +12,9 @@
   "description": "Sodium acetate, CH3COONa, also abbreviated NaOAc, is the sodium salt of acetic acid. This colorless deliquescent salt has a wide range of uses.",
   "wikipedia": "https://en.wikipedia.org/wiki/Sodium_acetate",
   "wikidata": "Q339940",
-  "origin": [],
+  "origin": [
+    "microbiological",
+    "synthetic"
+  ],
   "productCount": 597
 }

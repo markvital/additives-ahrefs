@@ -14,6 +14,8 @@
   "description": "Chlorophyll d is a form of chlorophyll, identified by Harold Strain and Winston Manning in 1943. It is present in cyanobacteria which use energy captured from sunlight for photosynthesis. Chlorophyll d absorbs far-red light, at 710 nm wavelength, just outside the optical range. An organism that contains chlorophyll d is adapted to an environment such as moderately deep water, where it can use far red light for photosynthesis, although there is not a lot of visible light.",
   "wikipedia": "https://en.wikipedia.org/wiki/Chlorophyll",
   "wikidata": "Q82182",
-  "origin": [],
+  "origin": [
+    "plant"
+  ],
   "productCount": 61
 }

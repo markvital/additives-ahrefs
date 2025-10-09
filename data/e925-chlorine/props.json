@@ -10,6 +10,9 @@
   "description": "",
   "wikipedia": "",
   "wikidata": "Q688",
-  "origin": [],
+  "origin": [
+    "synthetic",
+    "mineral"
+  ],
   "productCount": 31
 }

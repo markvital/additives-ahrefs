@@ -13,6 +13,11 @@
   "description": "Potassium lactate is a compound with formula KC3H5O3, or H3C-CHOH-COOK. It is the potassium salt of lactic acid. It is produced by neutralizing lactic acid which is fermented from a sugar source.  It has E number \"E326\".  Potassium lactate is a liquid product that is usually 60% solids but is available at up to 78% solids.Potassium lactate is commonly used in meat and poultry products to extend shelf life and increase food safety as it has a broad antimicrobial action and is effective at inhibiting most spoilage and pathogenic bacteria. Potassium lactate is also used as an extinguishing medium in the First Alert Tundra fire extinguishers.",
   "wikipedia": "https://en.wikipedia.org/wiki/Potassium_lactate",
   "wikidata": "Q411342",
-  "origin": [],
+  "origin": [
+    "plant",
+    "animal",
+    "microbiological",
+    "synthetic"
+  ],
   "productCount": 2226
 }

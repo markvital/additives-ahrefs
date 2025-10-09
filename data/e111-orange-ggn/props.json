@@ -12,6 +12,9 @@
   "description": "Orange GGN, also known as alpha-naphthol orange, is an azo dye formerly used as a food dye. It is the disodium salt of 1--m-sulfophenylazo--2-naphthol-6-sulfonic acid. In Europe, it was denoted by the E Number E111, but has been forbidden for use in foods since 1 January 1978. It has never been included in the food additives list of the Codex Alimentarius.  As such, it is forbidden for food use in general, because toxicological data has shown it is harmful.The absorption spectrum of Orange GGN and Sunset Yellow is nearly identical in visible and ultraviolet range, but they can be distinguished by their IR spectra.",
   "wikipedia": "https://en.wikipedia.org/wiki/Orange_GGN",
   "wikidata": "Q929052",
-  "origin": [],
+  "origin": [
+    "synthetic",
+    "artificial"
+  ],
   "productCount": 4
 }

@@ -9,6 +9,9 @@
   "description": "Potassium fumarate is a compound with formula K2C4H2O4. It is the potassium salt of fumaric acid. It has E number \"E366\".",
   "wikipedia": "https://en.wikipedia.org/wiki/Potassium_fumarate",
   "wikidata": "Q723321",
-  "origin": [],
+  "origin": [
+    "microbiological",
+    "synthetic"
+  ],
   "productCount": 1
 }

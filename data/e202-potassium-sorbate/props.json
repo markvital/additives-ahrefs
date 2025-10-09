@@ -11,6 +11,8 @@
   "description": "Potassium sorbate is the potassium salt of sorbic acid, chemical formula CH3CH=CH−CH=CH−CO2K.  It is a white salt that is very soluble in water -58.2% at 20 °C-.  It is primarily used as a food preservative -E number 202-. Potassium sorbate is effective in a variety of applications including food, wine, and personal-care products. While sorbic acid is naturally occurring in some berries, virtually all of the world's production of sorbic acid, from which potassium sorbate is derived, is manufactured synthetically.",
   "wikipedia": "https://en.wikipedia.org/wiki/Potassium_sorbate",
   "wikidata": "Q410744",
-  "origin": [],
+  "origin": [
+    "synthetic"
+  ],
   "productCount": 23547
 }

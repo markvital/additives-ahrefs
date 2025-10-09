@@ -11,6 +11,8 @@
   "description": "Calcium sorbate is the calcium salt of sorbic acid. Calcium sorbate is a polyunsaturated fatty acid salt.  It is a commonly used food preservative; its E number is E203.",
   "wikipedia": "https://en.wikipedia.org/wiki/Calcium_sorbate",
   "wikidata": "Q425183",
-  "origin": [],
+  "origin": [
+    "synthetic"
+  ],
   "productCount": 8
 }

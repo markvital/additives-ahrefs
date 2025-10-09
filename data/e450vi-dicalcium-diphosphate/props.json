@@ -17,6 +17,9 @@
   "description": "",
   "wikipedia": "https://en.wikipedia.org/wiki/Calcium_pyrophosphate",
   "wikidata": "Q4363460",
-  "origin": [],
+  "origin": [
+    "synthetic",
+    "mineral"
+  ],
   "productCount": 1
 }

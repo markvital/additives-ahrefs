@@ -11,6 +11,10 @@
   "description": "",
   "wikipedia": "",
   "wikidata": "Q18944660",
-  "origin": [],
+  "origin": [
+    "plant",
+    "animal",
+    "synthetic"
+  ],
   "productCount": 339
 }

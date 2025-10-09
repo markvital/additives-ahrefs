@@ -13,6 +13,8 @@
   "description": "Sulfur dioxide -also sulphur dioxide in British English- is the chemical compound with the formula SO2. It is a toxic gas with a burnt match smell. It is released naturally by volcanic activity and is produced as a by-product of the burning of fossil fuels contaminated with sulfur compounds.",
   "wikipedia": "https://en.wikipedia.org/wiki/Sulfur_dioxide",
   "wikidata": "Q5282",
-  "origin": [],
+  "origin": [
+    "synthetic"
+  ],
   "productCount": 1996
 }

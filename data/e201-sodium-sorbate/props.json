@@ -12,6 +12,8 @@
   "description": "Sodium sorbate is the sodium salt of sorbic acid. Its formula is NaC6H7O2 and systematic name is sodium -E,E--hexa-2‚4-dienoate. It is a food additive with E-number E201.",
   "wikipedia": "https://en.wikipedia.org/wiki/Sodium_sorbate",
   "wikidata": "Q420152",
-  "origin": [],
+  "origin": [
+    "synthetic"
+  ],
   "productCount": 9
 }

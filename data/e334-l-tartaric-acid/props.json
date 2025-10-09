@@ -19,6 +19,9 @@
   "description": "Tartaric acid is a white, crystalline organic acid that occurs naturally in many fruits, most notably in grapes, but also in  bananas, tamarinds, and citrus.  Its salt, potassium bitartrate, commonly known as cream of tartar, develops naturally in the process of winemaking. It is commonly mixed with sodium bicarbonate and is sold as baking powder used as a leavening agent in food preparation.  The acid itself is added to foods as an antioxidant and to impart its distinctive sour taste. Tartaric is an alpha-hydroxy-carboxylic acid, is diprotic and aldaric in acid characteristics, and is a dihydroxyl derivative of succinic acid.",
   "wikipedia": "https://en.wikipedia.org/wiki/Tartaric_acid",
   "wikidata": "Q194322",
-  "origin": [],
+  "origin": [
+    "plant",
+    "synthetic"
+  ],
   "productCount": 2434
 }

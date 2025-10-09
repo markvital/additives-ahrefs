@@ -20,6 +20,9 @@
   "description": "",
   "wikipedia": "https://en.wikipedia.org/wiki/Pyrophosphate",
   "wikidata": "Q55506489",
-  "origin": [],
+  "origin": [
+    "synthetic",
+    "mineral"
+  ],
   "productCount": 15646
 }
