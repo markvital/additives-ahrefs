@@ -31,8 +31,29 @@ This folder stores the static dataset that powers the catalogue. All files are c
 1. **Open Food Facts** — `scripts/fetch-additives.js` queries the Open Food Facts taxonomy to build the additive list. It normalises metadata and writes the per-additive `props.json` files alongside the updated `additives.json` index.
 2. **Ahrefs keyword metrics** — `scripts/update-search-volume.js` reads the index, retrieves the latest U.S. search volume, and stores the `searchVolume` and `searchRank` values inside each additive's `props.json`.
 3. **Ahrefs volume history** — `scripts/fetch-search-history.js` collects the ten-year volume trend for each additive and writes `searchHistory.json`. It also updates the `searchSparkline` array inside `props.json` for quick access on the grid view.
+4. **Ahrefs question ideas** — `scripts/fetch-search-questions.js` requests matching-question keywords for each additive and stores the top ten results (including an `original_keyword` field that records which query produced the question) inside `<slug>/search-questions.json`.
 
 The scripts are idempotent and can be re-run to refresh the dataset. Each script expects the `data/` directory to exist and will create per-additive folders as needed.
+
+## Ahrefs data scripts quick reference
+
+All Ahrefs-driven scripts (`update-search-volume`, `fetch-search-history`, `fetch-search-questions`, `generate-articles` and others) share the same CLI surface and behaviour. They require API key to be available in the environment or `env.local`.
+
+### Common flags
+
+| Flag | Description |
+| --- | --- |
+| `--additive <slug...>` / `--additive=slug,slug` | Process only the specified additive slugs. Targeted mode forces regeneration even if local files exist. |
+| `--limit <n>` | Process at most _n_ additives (ignored when `--additive` is supplied). |
+| `--parallel <n>` | Maximum number of additives processed concurrently (defaults to 10 in most scripts). |
+| `--override` / `--overide` | Regenerate data even when the target files already exist. Without this flag, bulk runs skip existing outputs. |
+| `--debug` | Enables verbose logging: request URLs, API errors, per-keyword lists, skipped slug names, and the exact file paths written. |
+
+### Skip and override behaviour
+
+- **Targeted runs (`--additive`)** always refresh the requested additives. Existing data is overwritten and the console prints the updated file paths when `--debug` is set.
+- **Bulk runs** skip additives that already have data unless `--override` is supplied. In non-debug mode, the script prints a single `skipped: <count>` summary before processing the remaining additives.
+
 
 ## Non-E-numbered additives
 
