@@ -16,10 +16,10 @@ const DATA_DIR = path.join(__dirname, '..', 'data');
 const ADDITIVES_INDEX_PATH = path.join(DATA_DIR, 'additives.json');
 const QUESTIONS_FILENAME = 'search-questions.json';
 const DEFAULT_COUNTRY = 'us';
-const FETCH_LIMIT = 1000;
+const FETCH_LIMIT = 25;
 const MAX_QUESTIONS = 10;
 const REQUEST_DELAY_MS = 200;
-const MAX_ATTEMPTS = 3;
+const MAX_ATTEMPTS = 2;
 const DEFAULT_LIMIT = Infinity;
 const DEFAULT_PARALLEL = 10;
 
@@ -320,9 +320,16 @@ const fetchQuestions = async (keyword, apiToken) => {
     API_BASE_URL,
   ];
 
+  const curlCommand = `curl ${args
+    .map((arg) => (arg.includes(' ') ? `'${arg.replace(/'/g, "'\\''")}'` : arg))
+    .join(' ')}`;
+
   for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt += 1) {
     try {
       debugLog(`  ↳ Attempt ${attempt}: GET ${requestUrl.toString()}`);
+      if (DEBUG) {
+        debugLog('    curl command:', curlCommand);
+      }
       const { stdout } = await execFileAsync('curl', args);
       const payload = JSON.parse(stdout);
       const questions = Array.isArray(payload?.keywords) ? payload.keywords : [];
@@ -337,12 +344,14 @@ const fetchQuestions = async (keyword, apiToken) => {
         `Failed to fetch questions for "${keyword}" (attempt ${attempt}): ${error.message.trim()}`,
       );
 
-      if (DEBUG && stderr) {
-        debugLog('    stderr:', stderr.trim());
-      }
-
       if (DEBUG) {
-        debugLog(`    ↳ GET ${requestUrl.toString()} failed (${error.message.trim()})`);
+        debugLog('    curl command (failure):', curlCommand);
+        if (error.stdout) {
+          debugLog('    stdout:', String(error.stdout).trim());
+        }
+        if (stderr) {
+          debugLog('    stderr:', stderr.trim());
+        }
       }
 
       if (attempt === MAX_ATTEMPTS) {

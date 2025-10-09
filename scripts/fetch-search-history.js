@@ -16,7 +16,7 @@ const DATA_DIR = path.join(__dirname, '..', 'data');
 const ADDITIVES_PATH = path.join(DATA_DIR, 'additives.json');
 
 const REQUEST_DELAY_MS = 200;
-const MAX_ATTEMPTS = 3;
+const MAX_ATTEMPTS = 2;
 const COUNTRY = 'us';
 const DEFAULT_PARALLEL = 10;
 const DEFAULT_LIMIT = Infinity;
@@ -280,9 +280,16 @@ async function fetchHistory(keyword, apiToken) {
     API_BASE_URL,
   ];
 
+  const curlCommand = `curl ${baseArgs
+    .map((arg) => (arg.includes(' ') ? `'${arg.replace(/'/g, "'\\''")}'` : arg))
+    .join(' ')}`;
+
   for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt += 1) {
     try {
       debugLog(`  ↳ Attempt ${attempt}: GET ${requestUrl.toString()}`);
+      if (DEBUG) {
+        debugLog('    curl command:', curlCommand);
+      }
       const { stdout } = await execFileAsync('curl', baseArgs);
       return JSON.parse(stdout);
     } catch (error) {
@@ -295,12 +302,14 @@ async function fetchHistory(keyword, apiToken) {
         `Failed to fetch history for "${keyword}" (attempt ${attempt}): ${error.message.trim()}`,
       );
 
-      if (DEBUG && stderr) {
-        debugLog('    stderr:', stderr.trim());
-      }
-
       if (DEBUG) {
-        debugLog(`    ↳ GET ${requestUrl.toString()} failed (${error.message.trim()})`);
+        debugLog('    curl command (failure):', curlCommand);
+        if (error.stdout) {
+          debugLog('    stdout:', String(error.stdout).trim());
+        }
+        if (stderr) {
+          debugLog('    stderr:', stderr.trim());
+        }
       }
 
       if (attempt === MAX_ATTEMPTS) {

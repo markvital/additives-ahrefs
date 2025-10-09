@@ -302,15 +302,24 @@ const fetchVolumesForKeywords = async (apiKey, keywords, attempt = 1) => {
 
   const url = `${API_URL}?${params.toString()}`;
 
+  const curlArgs = [
+    '-fsS',
+    '-H',
+    `Authorization: Bearer ${apiKey}`,
+    url,
+  ];
+  const curlCommand = `curl ${curlArgs
+    .map((arg) => (arg.includes(' ') ? `'${arg.replace(/'/g, "'\\''")}'` : arg))
+    .join(' ')}`;
+
   try {
     return await runWithRequestSpacing(async () => {
       debugLog(`  ↳ Attempt ${attempt}: GET ${url}`);
-      const { stdout } = await execFileAsync('curl', [
-        '-fsS',
-        '-H',
-        `Authorization: Bearer ${apiKey}`,
-        url,
-      ]);
+      if (DEBUG) {
+        debugLog('    curl command:', curlCommand);
+      }
+
+      const { stdout } = await execFileAsync('curl', curlArgs);
 
       debugLog(`    ↳ Attempt ${attempt} succeeded (${stdout.length} bytes).`);
 
@@ -337,6 +346,15 @@ const fetchVolumesForKeywords = async (apiKey, keywords, attempt = 1) => {
   } catch (error) {
     const stderr = error.stderr ? error.stderr.toString() : '';
     const message = stderr || error.message || 'Unknown error';
+    if (DEBUG) {
+      debugLog('    curl command (failure):', curlCommand);
+      if (error.stdout) {
+        debugLog('    stdout:', String(error.stdout).trim());
+      }
+      if (stderr) {
+        debugLog('    stderr:', stderr.trim());
+      }
+    }
     throw new Error(message.trim());
   }
 };
