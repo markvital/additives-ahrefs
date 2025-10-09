@@ -190,7 +190,11 @@ async function readAdditivesIndex() {
 }
 
 const propsPathForSlug = (slug) => path.join(DATA_DIR, slug, 'props.json');
-const historyPathForSlug = (slug) => path.join(DATA_DIR, slug, 'searchHistory.json');
+const HISTORY_FILENAME = 'searchHistory.json';
+const FULL_HISTORY_FILENAME = 'searchHistoryFull.json';
+
+const historyPathForSlug = (slug) => path.join(DATA_DIR, slug, HISTORY_FILENAME);
+const fullHistoryPathForSlug = (slug) => path.join(DATA_DIR, slug, FULL_HISTORY_FILENAME);
 
 async function readProps(slug, fallback) {
   try {
@@ -574,28 +578,47 @@ async function main() {
         const aggregateMetrics = aggregateKeywordMetrics(keywordSeries);
         const sparkline = computeYearlyAverage(aggregateMetrics);
 
-      const dataset = {
-        country: COUNTRY,
-        fetchedAt: new Date().toISOString(),
-        keywords: keywordSeries,
-        metrics: aggregateMetrics,
-      };
+        const totalKeywordMetrics = keywordSeries.reduce(
+          (acc, entry) => acc + (Array.isArray(entry.metrics) ? entry.metrics.length : 0),
+          0,
+        );
 
-      await fs.writeFile(historyPath, `${JSON.stringify(dataset, null, 2)}\n`);
+        if (DEBUG) {
+          console.log(
+            `    • Aggregated ${totalKeywordMetrics} keyword metrics into ${aggregateMetrics.length} total data points for history.`,
+          );
+          console.log(
+            `    • Aggregated ${aggregateMetrics.length} history entries into ${sparkline.length} sparkline data points.`,
+          );
+        }
 
-      if (DEBUG) {
-        const relativeHistoryPath = path.relative(process.cwd(), historyPath);
-        console.log(`  → Saved search history in ${relativeHistoryPath}.`);
-      }
+        const aggregatedPayload = {
+          country: COUNTRY,
+          fetchedAt: new Date().toISOString(),
+          metrics: aggregateMetrics,
+          sparkline,
+        };
 
-      const updatedProps = ensureProps(props, additive);
-      updatedProps.searchSparkline = sparkline;
-      await writeProps(slug, updatedProps);
+        await fs.writeFile(historyPath, `${JSON.stringify(aggregatedPayload, null, 2)}\n`);
 
-      if (DEBUG) {
-        const relativePropsPath = path.relative(process.cwd(), propsPathForSlug(slug));
-        console.log(`  → Updated props in ${relativePropsPath}.`);
-      }
+        if (DEBUG) {
+          const relativeHistoryPath = path.relative(process.cwd(), historyPath);
+          console.log(`  → Saved search history in ${relativeHistoryPath}.`);
+        }
+
+        const fullHistoryPath = fullHistoryPathForSlug(slug);
+        const fullPayload = {
+          country: aggregatedPayload.country,
+          fetchedAt: aggregatedPayload.fetchedAt,
+          keywords: keywordSeries,
+        };
+
+        await fs.writeFile(fullHistoryPath, `${JSON.stringify(fullPayload, null, 2)}\n`);
+
+        if (DEBUG) {
+          const relativeFullPath = path.relative(process.cwd(), fullHistoryPath);
+          console.log(`  → Saved full keyword history in ${relativeFullPath}.`);
+        }
     } catch (error) {
       console.error(`Error processing ${additive.title}: ${error.message}`);
       if (DEBUG && error?.stderr) {

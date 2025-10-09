@@ -2,10 +2,9 @@
 
 /**
  * Fetches Ahrefs Keywords Explorer search volume data for each additive
- * and updates the per-additive `props.json` file with aggregated
- * `searchVolume` and `searchRank` properties. The per-additive
- * `searchVolume.json` file stores the keyword level breakdown.
- */
+ * and writes the per-additive `searchVolume.json` file containing the
+ * aggregated total and keyword-level breakdown.
+*/
 
 const fs = require('fs/promises');
 const path = require('path');

@@ -294,9 +294,6 @@ async function writeAdditiveDataset(additives) {
       description: additive.description || '',
       wikipedia: additive.wikipedia || '',
       wikidata: additive.wikidata || '',
-      searchSparkline: Array.isArray(existingProps?.searchSparkline)
-        ? existingProps.searchSparkline
-        : [],
     };
 
     await fs.writeFile(propsPath, `${JSON.stringify(payload, null, 2)}\n`);
