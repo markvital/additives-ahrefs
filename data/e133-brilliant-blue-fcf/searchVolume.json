@@ -1,0 +1,33 @@
+{
+  "totalSearchVolume": 10000,
+  "keywords": [
+    {
+      "keyword": "Blue 1",
+      "volume": 6200
+    },
+    {
+      "keyword": "Blue 1 lake",
+      "volume": 1600
+    },
+    {
+      "keyword": "Brilliant blue FCF",
+      "volume": 800
+    },
+    {
+      "keyword": "FD&C Blue 1",
+      "volume": 500
+    },
+    {
+      "keyword": "E133",
+      "volume": 400
+    },
+    {
+      "keyword": "fd&c blue no. 1",
+      "volume": 300
+    },
+    {
+      "keyword": "FD and C Blue 1",
+      "volume": 200
+    }
+  ]
+}

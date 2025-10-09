@@ -1,0 +1,53 @@
+{
+  "totalSearchVolume": 75000,
+  "keywords": [
+    {
+      "keyword": "achiote",
+      "volume": 42000
+    },
+    {
+      "keyword": "Annatto",
+      "volume": 32000
+    },
+    {
+      "keyword": "bixin",
+      "volume": 400
+    },
+    {
+      "keyword": "roucou",
+      "volume": 350
+    },
+    {
+      "keyword": "Orlean",
+      "volume": 100
+    },
+    {
+      "keyword": "E160B",
+      "volume": 50
+    },
+    {
+      "keyword": "norbixin",
+      "volume": 50
+    },
+    {
+      "keyword": "annatto norbixin",
+      "volume": 40
+    },
+    {
+      "keyword": "annatto bixin",
+      "volume": 10
+    },
+    {
+      "keyword": "CI Natural Orange 4",
+      "volume": 0
+    },
+    {
+      "keyword": "L. Orange",
+      "volume": 0
+    },
+    {
+      "keyword": "Terre orellana",
+      "volume": 0
+    }
+  ]
+}
