@@ -8,19 +8,5 @@
   "functions": [],
   "description": "Polyethylene glycol -PEG- is a polyether compound with many applications, from industrial manufacturing to medicine. PEG is also known as polyethylene oxide -PEO- or polyoxyethylene -POE-, depending on its molecular weight. The structure of PEG is commonly expressed as H−-O−CH2−CH2-n−OH.",
   "wikipedia": "https://en.wikipedia.org/wiki/Polyethylene_glycol",
-  "wikidata": "Q410083",
-  "searchVolume": 69000,
-  "searchRank": 33,
-  "searchSparkline": [
-    49272,
-    56534,
-    58962,
-    54442,
-    58028,
-    102217,
-    70037,
-    68988,
-    67415,
-    68604
-  ]
+  "wikidata": "Q410083"
 }

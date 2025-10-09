@@ -13,20 +13,6 @@
   "description": "Calcium chloride is an inorganic compound, a salt with the chemical formula CaCl2.  It is a colorless crystalline solid at room temperature, highly soluble in water. Calcium chloride is commonly encountered as a hydrated solid with generic formula CaCl2-H2O-x, where x = 0, 1, 2, 4, and 6.  These compounds are mainly used for de-icing and dust control. Because the anhydrous salt is hygroscopic, it is used as a desiccant.",
   "wikipedia": "https://en.wikipedia.org/wiki/Calcium_chloride",
   "wikidata": "Q208451",
-  "searchVolume": 71000,
-  "searchRank": 29,
-  "searchSparkline": [
-    65095,
-    69330,
-    71125,
-    72296,
-    62698,
-    64563,
-    71595,
-    69813,
-    69625,
-    71940
-  ],
   "origin": [
     "artificial",
     "mineral"

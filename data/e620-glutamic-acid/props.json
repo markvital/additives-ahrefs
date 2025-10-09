@@ -9,19 +9,5 @@
   "functions": [],
   "description": "Glutamic acid -symbol Glu or E- is an α-amino acid that is used by almost all living beings in the biosynthesis of proteins.  It is non-essential in humans, meaning the body can synthesize it. It is also an excitatory neurotransmitter, in fact the most abundant one, in the vertebrate nervous system. It serves as the precursor for the synthesis of the inhibitory gamma-aminobutyric acid -GABA- in GABA-ergic neurons. It has a formula C5H9O4N. Its molecular structure could be idealized as HOOC-CH-NH2---CH2-2-COOH, with two carboxyl groups -COOH and one amino group -NH2.  However, in the solid state and mildly acid water solutions, the molecule assumes an electrically neutral zwitterion structure −OOC-CH-NH+3---CH2-2-COOH. It is encoded by the codons GAA or GAG. The acid can lose one proton from its second carboxyl group to form the conjugate base, the singly-negative anion glutamate −OOC-CH-NH+3---CH2-2-COO−.  This form of the compound is prevalent in neutral solutions. The glutamate neurotransmitter plays the principal role in neural activation.  This anion is also responsible for the savory flavor -umami- of certain foods, and used in glutamate flavorings such as MSG.  In highly alkaline solutions the doubly negative anion −OOC-CH-NH2---CH2-2-COO− prevails. The radical corresponding to glutamate is called glutamyl.",
   "wikipedia": "https://en.wikipedia.org/wiki/Glutamic_acid",
-  "wikidata": "Q181136",
-  "searchVolume": 9900,
-  "searchRank": 112,
-  "searchSparkline": [
-    12783,
-    14641,
-    15074,
-    14119,
-    5989,
-    8730,
-    9961,
-    9613,
-    9973,
-    9472
-  ]
+  "wikidata": "Q181136"
 }

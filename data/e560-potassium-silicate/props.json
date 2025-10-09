@@ -8,19 +8,5 @@
   "functions": [],
   "description": "Potassium silicate is the name for a family of inorganic compounds.  The most common potassium silicate has the formula K2SiO3, samples of which contain varying amounts of water.  These are white solids or colorless solutions.",
   "wikipedia": "https://en.wikipedia.org/wiki/Potassium_silicate",
-  "wikidata": "Q419390",
-  "searchVolume": 600,
-  "searchRank": 235,
-  "searchSparkline": [
-    1383,
-    1918,
-    1686,
-    1210,
-    569,
-    542,
-    432,
-    486,
-    570,
-    540
-  ]
+  "wikidata": "Q419390"
 }

@@ -9,20 +9,6 @@
   "description": "Brominated vegetable oil -BVO- is a complex mixture of plant-derived triglycerides that have been reacted to contain atoms of the element bromine bonded to the molecules. Brominated vegetable oil is used primarily to help emulsify citrus-flavored soft drinks, preventing them from separating during distribution. Brominated vegetable oil has been used by the soft drink industry since 1931, generally at a level of about 8 ppm.Careful control of the type of oil used allows bromination of it to produce BVO with a specific density of 1.33 g/mL, which is noticeably greater than that of water -1 g/mL-. As a result, it can be mixed with less-dense flavoring agents such as citrus flavor oil to produce a resulting oil whose density matches that of water or other products. The droplets containing BVO remain suspended in the water rather than separating and floating at the surface.Alternative food additives used for the same purpose include sucrose acetate isobutyrate -SAIB, E444- and glycerol ester of wood rosin -ester gum, E445-.",
   "wikipedia": "https://en.wikipedia.org/wiki/Brominated_vegetable_oil",
   "wikidata": "Q4164502",
-  "searchVolume": 6200,
-  "searchRank": 135,
-  "searchSparkline": [
-    5886,
-    10850,
-    16698,
-    5471,
-    2346,
-    1469,
-    2405,
-    4647,
-    6362,
-    6084
-  ],
   "origin": [
     "plant",
     "synthetic"

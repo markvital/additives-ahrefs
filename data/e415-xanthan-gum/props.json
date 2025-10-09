@@ -15,19 +15,5 @@
   ],
   "description": "Xanthan gum -- is a polysaccharide with many industrial uses, including as a common food additive. It is an effective thickening agent and stabilizer to prevent ingredients from separating. It can be produced from simple sugars using a fermentation process, and derives its name from the species of bacteria used, Xanthomonas campestris.",
   "wikipedia": "https://en.wikipedia.org/wiki/Xanthan_gum",
-  "wikidata": "Q410768",
-  "searchVolume": 82000,
-  "searchRank": 25,
-  "searchSparkline": [
-    56793,
-    68922,
-    89831,
-    93538,
-    93076,
-    83840,
-    81442,
-    80749,
-    83829,
-    81941
-  ]
+  "wikidata": "Q410768"
 }

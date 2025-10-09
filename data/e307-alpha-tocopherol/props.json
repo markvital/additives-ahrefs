@@ -9,20 +9,6 @@
   "description": "α-Tocopherol is a type of vitamin E. It has E number \"E307\". Vitamin E exists in eight different forms, four tocopherols and four tocotrienols. All feature a chromane ring, with a hydroxyl group that can donate a hydrogen atom to reduce free radicals and a hydrophobic side chain which allows for penetration into biological membranes. Compared to the others, α-tocopherol is preferentially absorbed and accumulated in humans.",
   "wikipedia": "https://en.wikipedia.org/wiki/Alpha-Tocopherol",
   "wikidata": "Q158348",
-  "searchVolume": 350,
-  "searchRank": 259,
-  "searchSparkline": [
-    1216,
-    1264,
-    1172,
-    1313,
-    245,
-    210,
-    204,
-    321,
-    325,
-    326
-  ],
   "origin": [
     "plant",
     "synthetic"

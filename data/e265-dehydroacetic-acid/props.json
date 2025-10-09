@@ -8,19 +8,5 @@
   "functions": [],
   "description": "Dehydroacetic acid is an organic compound which has several industrial applications. The compound is classified as a pyrone derivative. It presents as an odorless, colorless to white crystalline powder, almost insoluble in water and moderately soluble in most organic solvents.",
   "wikipedia": "https://en.wikipedia.org/wiki/Dehydroacetic_acid",
-  "wikidata": "Q920725",
-  "searchVolume": 500,
-  "searchRank": 239,
-  "searchSparkline": [
-    1162,
-    1189,
-    1718,
-    1625,
-    692,
-    621,
-    496,
-    573,
-    566,
-    484
-  ]
+  "wikidata": "Q920725"
 }

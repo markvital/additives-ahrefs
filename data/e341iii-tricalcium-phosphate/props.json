@@ -20,19 +20,5 @@
   ],
   "description": "Calcium phosphate is a family of materials and minerals containing calcium ions -Ca2+- together with inorganic phosphate anions.  Some so-called calcium phosphates contain oxide and hydroxide as well.  They are white solids of nutritious value.",
   "wikipedia": "https://en.wikipedia.org/wiki/Tricalcium_phosphate",
-  "wikidata": "Q278387",
-  "searchVolume": 8600,
-  "searchRank": 120,
-  "searchSparkline": [
-    8811,
-    11174,
-    8996,
-    7881,
-    7088,
-    6840,
-    8932,
-    9961,
-    8639,
-    8544
-  ]
+  "wikidata": "Q278387"
 }

@@ -10,19 +10,5 @@
   ],
   "description": "Sodium benzoate is a substance which has the chemical formula NaC7H5O2. It is a widely used food preservative, with an E number of E211. It is the sodium salt of benzoic acid and exists in this form when dissolved in water. It can be produced by reacting sodium hydroxide with benzoic acid.",
   "wikipedia": "https://en.wikipedia.org/wiki/Sodium_benzoate",
-  "wikidata": "Q423971",
-  "searchVolume": 38000,
-  "searchRank": 60,
-  "searchSparkline": [
-    27890,
-    29912,
-    30312,
-    29361,
-    25235,
-    25034,
-    32740,
-    35466,
-    36769,
-    37188
-  ]
+  "wikidata": "Q423971"
 }

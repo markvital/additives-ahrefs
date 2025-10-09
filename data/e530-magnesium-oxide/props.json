@@ -9,19 +9,5 @@
   "functions": [],
   "description": "Magnesium oxide -MgO-, or magnesia, is a white hygroscopic solid mineral that occurs naturally as periclase and is a source of magnesium -see also oxide-. It has an empirical formula of MgO and consists of a lattice of Mg2+ ions and O2− ions held together by ionic bonding. Magnesium hydroxide forms in the presence of water -MgO + H2O → Mg-OH-2-, but it can be reversed by heating it to separate moisture. Magnesium oxide was historically known as magnesia alba -literally, the white mineral from magnesia – other sources give magnesia alba as MgCO3-, to differentiate it from magnesia negra, a black mineral containing what is now known as manganese. While \"magnesium oxide\" normally refers to MgO, magnesium peroxide MgO2 is also known as a compound. According to evolutionary crystal structure prediction, MgO2 is thermodynamically stable at pressures above 116 GPa -gigapascals-, and a semiconducting suboxide Mg3O2 is thermodynamically stable above 500 GPa. Because of its stability, MgO is used as a model system for investigating vibrational properties of crystals.",
   "wikipedia": "https://en.wikipedia.org/wiki/Magnesium_oxide",
-  "wikidata": "Q214769",
-  "searchVolume": 93000,
-  "searchRank": 16,
-  "searchSparkline": [
-    55469,
-    60965,
-    62182,
-    60842,
-    62160,
-    64822,
-    71598,
-    91254,
-    87780,
-    92793
-  ]
+  "wikidata": "Q214769"
 }

@@ -17,19 +17,5 @@
   ],
   "description": "Erythrosine, also known as Red No. 3, is an organoiodine compound, specifically a derivative of fluorone.  It is cherry-pink synthetic, primarily used for food coloring. It is the disodium salt of 2‚4,5‚7-tetraiodofluorescein. Its maximum absorbance is at 530 nm in an aqueous solution, and it is subject to photodegradation.",
   "wikipedia": "https://en.wikipedia.org/wiki/Erythrosine",
-  "wikidata": "Q420101",
-  "searchVolume": 1500,
-  "searchRank": 201,
-  "searchSparkline": [
-    897,
-    655,
-    747,
-    584,
-    354,
-    573,
-    415,
-    585,
-    908,
-    1667
-  ]
+  "wikidata": "Q420101"
 }
