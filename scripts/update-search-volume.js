@@ -263,19 +263,7 @@ const ensureProps = (props, fallback) => {
   if (!Array.isArray(result.searchSparkline)) {
     result.searchSparkline = [];
   }
-  if (typeof result.searchVolume !== 'number') {
-    result.searchVolume = null;
-  }
-  if (typeof result.searchRank !== 'number') {
-    result.searchRank = null;
-  }
-
   return result;
-};
-
-const writeProps = async (slug, props) => {
-  await fs.mkdir(path.join(DATA_DIR, slug), { recursive: true });
-  await fs.writeFile(propsPathForSlug(slug), `${JSON.stringify(props, null, 2)}\n`);
 };
 
 const hasExistingSearchVolume = async (slug, props) => {
@@ -371,18 +359,6 @@ const fetchVolumesForKeywordsWithRetry = async (apiKey, keywords, attempt = 1) =
     await sleep(delay);
     return fetchVolumesForKeywordsWithRetry(apiKey, keywords, attempt + 1);
   }
-};
-
-const assignRanks = (items) => {
-  const sorted = items
-    .filter((item) => typeof item.volume === 'number' && item.volume > 0)
-    .sort((a, b) => b.volume - a.volume);
-
-  const rankMap = new Map();
-  sorted.forEach((item, index) => {
-    rankMap.set(item.slug, index + 1);
-  });
-  return rankMap;
 };
 
 const searchVolumePathForSlug = (slug) => path.join(DATA_DIR, slug, SEARCH_VOLUME_FILENAME);
@@ -577,15 +553,6 @@ async function main() {
 
   await Promise.all(Array.from({ length: parallelLimit }, () => worker()));
 
-  const successfulEntries = results.filter(
-    (entry) => !entry.error && typeof entry.totalVolume === 'number',
-  );
-
-  const rankMap = assignRanks(successfulEntries.map((entry) => ({
-    slug: entry.slug,
-    volume: entry.totalVolume,
-  })));
-
   await Promise.all(
     results.map(async (entry) => {
       if (entry.error) {
@@ -604,25 +571,6 @@ async function main() {
         const relativeDatasetPath = path.relative(process.cwd(), searchVolumePathForSlug(entry.slug));
         console.log(`  → Saved search volume dataset in ${relativeDatasetPath}.`);
       }
-
-      const hasVolume = Array.isArray(entry.keywordVolumes)
-        ? entry.keywordVolumes.some((item) => item.volume > 0)
-        : false;
-
-      if (typeof entry.totalVolume === 'number') {
-        entry.props.searchVolume = entry.totalVolume;
-        entry.props.searchRank = hasVolume ? rankMap.get(entry.slug) ?? null : null;
-      } else {
-        entry.props.searchVolume = null;
-        entry.props.searchRank = null;
-      }
-
-      await writeProps(entry.slug, entry.props);
-
-      if (DEBUG) {
-        const relativePropsPath = path.relative(process.cwd(), propsPathForSlug(entry.slug));
-        console.log(`  → Updated props in ${relativePropsPath}.`);
-      }
     }),
   );
 
@@ -635,7 +583,7 @@ async function main() {
     });
     process.exitCode = 1;
   } else {
-    console.log('Additive props updated successfully.');
+    console.log('Search volume datasets updated successfully.');
   }
 }
 

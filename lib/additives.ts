@@ -3,6 +3,7 @@ import path from 'path';
 
 import additivesIndex from '../data/additives.json';
 import { createAdditiveSlug } from './additive-slug';
+import { getSearchVolumeDataset } from './search-volume';
 
 export interface AdditivePropsFile {
   title?: string;
@@ -14,8 +15,6 @@ export interface AdditivePropsFile {
   wikipedia?: unknown;
   wikidata?: unknown;
   searchSparkline?: unknown;
-  searchVolume?: unknown;
-  searchRank?: unknown;
 }
 
 export interface Additive {
@@ -96,14 +95,6 @@ const createFilterSlug = (value: string): string =>
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-+|-+$/g, '');
 
-const toOptionalNumber = (value: unknown): number | null => {
-  if (typeof value === 'number' && Number.isFinite(value)) {
-    return value;
-  }
-
-  return null;
-};
-
 const readAdditiveProps = (
   slug: string,
   fallback: AdditiveIndexEntry,
@@ -149,8 +140,8 @@ const readAdditiveProps = (
       wikipedia: toString(parsed.wikipedia),
       wikidata: toString(parsed.wikidata),
       searchSparkline: toSparkline(parsed.searchSparkline),
-      searchVolume: toOptionalNumber(parsed.searchVolume),
-      searchRank: toOptionalNumber(parsed.searchRank),
+      searchVolume: null,
+      searchRank: null,
     };
   } catch (error) {
     console.error(`Failed to read additive props for ${slug}:`, error);
@@ -174,6 +165,37 @@ const readAdditiveProps = (
   }
 };
 
+const attachSearchMetrics = (additives: Additive[]): Additive[] => {
+  const totals = new Map<string, number | null>();
+
+  additives.forEach((additive) => {
+    const dataset = getSearchVolumeDataset(additive.slug);
+    const total =
+      typeof dataset?.totalSearchVolume === 'number' &&
+      Number.isFinite(dataset.totalSearchVolume) &&
+      dataset.totalSearchVolume > 0
+        ? dataset.totalSearchVolume
+        : null;
+
+    totals.set(additive.slug, total);
+  });
+
+  const ranked = Array.from(totals.entries())
+    .filter(([, total]) => typeof total === 'number' && (total as number) > 0)
+    .sort((a, b) => (b[1]! as number) - (a[1]! as number));
+
+  const rankMap = new Map<string, number>();
+  ranked.forEach(([slug], index) => {
+    rankMap.set(slug, index + 1);
+  });
+
+  return additives.map((additive) => ({
+    ...additive,
+    searchVolume: totals.get(additive.slug) ?? null,
+    searchRank: rankMap.get(additive.slug) ?? null,
+  }));
+};
+
 const mapAdditives = (): Additive[] => {
   if (!Array.isArray(additivesIndex.additives)) {
     return [];
@@ -189,7 +211,9 @@ const mapAdditives = (): Additive[] => {
     };
   });
 
-  enriched.sort((a, b) => {
+  const withMetrics = attachSearchMetrics(enriched);
+
+  withMetrics.sort((a, b) => {
     const aHasRank = typeof a.searchRank === 'number';
     const bHasRank = typeof b.searchRank === 'number';
 
@@ -211,7 +235,7 @@ const mapAdditives = (): Additive[] => {
     return a.title.localeCompare(b.title);
   });
 
-  return enriched;
+  return withMetrics;
 };
 
 const additiveCache = mapAdditives();

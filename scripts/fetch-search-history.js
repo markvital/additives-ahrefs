@@ -229,12 +229,6 @@ const ensureProps = (props, additive) => {
   if (typeof result.wikidata !== 'string') {
     result.wikidata = '';
   }
-  if (typeof result.searchVolume !== 'number') {
-    result.searchVolume = result.searchVolume ?? null;
-  }
-  if (typeof result.searchRank !== 'number') {
-    result.searchRank = result.searchRank ?? null;
-  }
   if (!Array.isArray(result.searchSparkline)) {
     result.searchSparkline = [];
   }

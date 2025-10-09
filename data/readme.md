@@ -21,15 +21,13 @@ This folder stores the static dataset that powers the catalogue. All files are c
   - `description`
   - `wikipedia`
   - `wikidata`
-  - `searchVolume`
-  - `searchRank`
   - `searchSparkline`
 - **`<slug>/searchHistory.json`** — historical monthly keyword volume returned by the Ahrefs API. This drives the search history chart on the detail page.
 
 ## Data pipeline
 
 1. **Open Food Facts** — `scripts/fetch-additives.js` queries the Open Food Facts taxonomy to build the additive list. It normalises metadata and writes the per-additive `props.json` files alongside the updated `additives.json` index.
-2. **Ahrefs keyword metrics** — `scripts/update-search-volume.js` reads the index, retrieves the latest U.S. search volume, and stores the `searchVolume` and `searchRank` values inside each additive's `props.json`.
+2. **Ahrefs keyword metrics** — `scripts/update-search-volume.js` reads the index, retrieves the latest U.S. search volume, and writes `<slug>/searchVolume.json` with the aggregated total and keyword breakdown.
 3. **Ahrefs volume history** — `scripts/fetch-search-history.js` collects the ten-year volume trend for each additive and writes `searchHistory.json`. It also updates the `searchSparkline` array inside `props.json` for quick access on the grid view.
 4. **Ahrefs question ideas** — `scripts/fetch-search-questions.js` requests matching-question keywords for each additive and stores the top ten results (including an `original_keyword` field that records which query produced the question) inside `<slug>/search-questions.json`.
 
@@ -53,6 +51,22 @@ All Ahrefs-driven scripts (`update-search-volume`, `fetch-search-history`, `fetc
 
 - **Targeted runs (`--additive`)** always refresh the requested additives. Existing data is overwritten and the console prints the updated file paths when `--debug` is set.
 - **Bulk runs** skip additives that already have data unless `--override` is supplied. In non-debug mode, the script prints a single `skipped: <count>` summary before processing the remaining additives.
+
+### Per-script notes
+
+- `scripts/update-search-volume.js`
+  - Writes `<slug>/searchVolume.json` (containing `totalSearchVolume` and the keyword breakdown).
+  - Debug mode logs the saved dataset path for each additive.
+- `scripts/fetch-search-history.js`
+  - Writes `<slug>/searchHistory.json` and updates the `searchSparkline` array in `<slug>/props.json`.
+  - Aggregates all keyword time series per additive before saving.
+  - Debug mode logs the history file path and props path.
+- `scripts/fetch-search-questions.js`
+  - Writes `<slug>/search-questions.json` with the ten highest-volume questions across all generated keywords.
+  - Each question includes `original_keyword` to indicate which additive keyword produced it.
+  - Debug mode logs the JSON path that was refreshed.
+
+Search ranks and monthly totals are derived during the Next.js build by reading `<slug>/searchVolume.json`; they are not stored inside `props.json`.
 
 
 ## Non-E-numbered additives

@@ -294,12 +294,6 @@ async function writeAdditiveDataset(additives) {
       description: additive.description || '',
       wikipedia: additive.wikipedia || '',
       wikidata: additive.wikidata || '',
-      searchVolume: existingProps && typeof existingProps.searchVolume === 'number'
-        ? existingProps.searchVolume
-        : null,
-      searchRank: existingProps && typeof existingProps.searchRank === 'number'
-        ? existingProps.searchRank
-        : null,
       searchSparkline: Array.isArray(existingProps?.searchSparkline)
         ? existingProps.searchSparkline
         : [],
