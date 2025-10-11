@@ -28,13 +28,28 @@ function readAdditives() {
       const functions = Array.isArray(props.functions) ? props.functions : [];
       const searchVolume = readSearchVolume(dirPath);
 
-      additives.push({ eNumber, title, synonyms, functions, searchVolume });
+      additives.push({
+        eNumber,
+        title,
+        synonyms,
+        functions,
+        searchVolume,
+      });
     } catch (error) {
       throw new Error(`Failed to parse ${propsPath}: ${error.message}`);
     }
   }
 
   additives.sort((a, b) => {
+    const totalA =
+      typeof a.searchVolume.totalSortValue === 'number' ? a.searchVolume.totalSortValue : -1;
+    const totalB =
+      typeof b.searchVolume.totalSortValue === 'number' ? b.searchVolume.totalSortValue : -1;
+
+    if (totalA !== totalB) {
+      return totalB - totalA;
+    }
+
     const eNumberA = a.eNumber || '\uFFFF';
     const eNumberB = b.eNumber || '\uFFFF';
 
@@ -66,20 +81,24 @@ function arrayToCsvField(values) {
 function readSearchVolume(dirPath) {
   const searchVolumePath = path.join(dirPath, 'searchVolume.json');
   if (!fs.existsSync(searchVolumePath)) {
-    return { total: '', keywords: [] };
+    return { total: '', keywords: [], totalSortValue: -1 };
   }
 
   const raw = fs.readFileSync(searchVolumePath, 'utf8');
   try {
     const data = JSON.parse(raw);
     const total = typeof data.totalSearchVolume === 'number' ? data.totalSearchVolume : '';
+    const totalSortValue =
+      typeof data.totalSearchVolume === 'number' && Number.isFinite(data.totalSearchVolume)
+        ? data.totalSearchVolume
+        : -1;
     const keywords = Array.isArray(data.keywords)
       ? data.keywords
           .filter((item) => item && typeof item.keyword === 'string' && typeof item.volume === 'number')
           .map((item) => ({ keyword: item.keyword, volume: item.volume }))
       : [];
 
-    return { total, keywords };
+    return { total, keywords, totalSortValue };
   } catch (error) {
     throw new Error(`Failed to parse ${searchVolumePath}: ${error.message}`);
   }
