@@ -61,7 +61,7 @@ function arrayToCsvField(values) {
   return escapeCsvValue(joined);
 }
 
-function exportCsv(additives) {
+function buildCsv(additives) {
   const header = ['e_number', 'title', 'synonyms', 'functions'];
   const lines = [header.join(',')];
 
@@ -75,11 +75,38 @@ function exportCsv(additives) {
     lines.push(row.join(','));
   }
 
-  fs.writeFileSync(outputPath, `${lines.join('\n')}\n`, 'utf8');
+  return `${lines.join('\n')}\n`;
 }
 
 (function main() {
   const additives = readAdditives();
-  exportCsv(additives);
-  console.log(`Exported ${additives.length} additives to ${path.relative(process.cwd(), outputPath)}`);
+  const csvContent = buildCsv(additives);
+  const args = new Set(process.argv.slice(2));
+  const shouldPrint = args.has('--stdout') || args.has('--stdout-only');
+  const shouldWrite = !args.has('--stdout-only') && !args.has('--no-write');
+  const shouldLog = !args.has('--quiet');
+
+  if (shouldWrite) {
+    fs.writeFileSync(outputPath, csvContent, 'utf8');
+  }
+
+  if (shouldPrint) {
+    process.stdout.write(csvContent);
+  }
+
+  if (shouldLog) {
+    const messageParts = [];
+    if (shouldWrite) {
+      messageParts.push(`exported ${additives.length} additives to ${path.relative(process.cwd(), outputPath)}`);
+    }
+    if (shouldPrint) {
+      messageParts.push(`printed ${additives.length} additives to stdout`);
+    }
+    if (messageParts.length === 0) {
+      messageParts.push(`processed ${additives.length} additives`);
+    }
+
+    const log = shouldPrint ? console.error : console.log;
+    log(`Successfully ${messageParts.join(' and ')}.`);
+  }
 })();
