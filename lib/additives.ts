@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 
 import additivesIndex from '../data/additives.json';
-import { createAdditiveSlug } from './additive-slug';
+import { createAdditiveSlug, normaliseENumber } from './additive-slug';
 import { getSearchVolumeDataset } from './search-volume';
 import { getSearchHistory } from './search-history';
 
@@ -16,6 +16,8 @@ export interface AdditivePropsFile {
   wikipedia?: unknown;
   wikidata?: unknown;
   productCount?: unknown;
+  parents?: unknown;
+  children?: unknown;
 }
 
 export interface Additive {
@@ -33,6 +35,14 @@ export interface Additive {
   searchVolume: number | null;
   searchRank: number | null;
   productCount: number | null;
+  parents: AdditiveRelation[];
+  children: AdditiveRelation[];
+}
+
+export interface AdditiveRelation {
+  slug: string;
+  title: string;
+  eNumber: string;
 }
 
 export type AdditiveSortMode = 'search-rank' | 'product-count';
@@ -91,10 +101,45 @@ const createFilterSlug = (value: string): string =>
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-+|-+$/g, '');
 
+const toRelationIdList = (value: unknown): string[] => {
+  if (!Array.isArray(value)) {
+    return [];
+  }
+
+  const ids = new Set<string>();
+
+  value.forEach((entry) => {
+    if (typeof entry !== 'string') {
+      return;
+    }
+
+    const trimmed = entry.trim();
+
+    if (!trimmed) {
+      return;
+    }
+
+    const raw = trimmed.split(':').pop() ?? '';
+    const normalised = normaliseENumber(raw);
+
+    if (normalised) {
+      ids.add(normalised);
+    }
+  });
+
+  return Array.from(ids.values());
+};
+
+interface RawAdditiveProps
+  extends Omit<Additive, 'slug' | 'parents' | 'children'> {
+  parentIds: string[];
+  childIds: string[];
+}
+
 const readAdditiveProps = (
   slug: string,
   fallback: AdditiveIndexEntry,
-): Omit<Additive, 'slug'> => {
+): RawAdditiveProps => {
   const filePath = path.join(dataDir, slug, 'props.json');
   const article = readAdditiveArticle(slug);
 
@@ -116,6 +161,8 @@ const readAdditiveProps = (
       searchVolume: null,
       searchRank: null,
       productCount: null,
+      parentIds: [],
+      childIds: [],
     };
   }
 
@@ -140,6 +187,8 @@ const readAdditiveProps = (
       searchVolume: null,
       searchRank: null,
       productCount: toOptionalNumber(parsed.productCount),
+      parentIds: toRelationIdList(parsed.parents),
+      childIds: toRelationIdList(parsed.children),
     };
   } catch (error) {
     console.error(`Failed to read additive props for ${slug}:`, error);
@@ -160,6 +209,8 @@ const readAdditiveProps = (
       searchVolume: null,
       searchRank: null,
       productCount: null,
+      parentIds: [],
+      childIds: [],
     };
   }
 };
@@ -243,6 +294,24 @@ export const parseAdditiveSortMode = (
   return DEFAULT_ADDITIVE_SORT_MODE;
 };
 
+export const parseShowClassesParam = (
+  value: string | string[] | null | undefined,
+): boolean => {
+  const raw = Array.isArray(value) ? value[0] : value;
+
+  if (typeof raw !== 'string') {
+    return false;
+  }
+
+  const normalised = raw.trim().toLowerCase();
+
+  if (!normalised) {
+    return false;
+  }
+
+  return normalised === '1' || normalised === 'true' || normalised === 'yes';
+};
+
 export const sortAdditivesByMode = (items: Additive[], mode: AdditiveSortMode): Additive[] => {
   const copy = [...items];
 
@@ -253,6 +322,17 @@ export const sortAdditivesByMode = (items: Additive[], mode: AdditiveSortMode): 
 
   copy.sort(compareBySearchRank);
   return copy;
+};
+
+export const filterAdditivesByClassVisibility = (
+  items: Additive[],
+  showClasses: boolean,
+): Additive[] => {
+  if (showClasses) {
+    return items;
+  }
+
+  return items.filter((item) => item.children.length === 0);
 };
 
 const mapAdditives = (): Additive[] => {
@@ -270,7 +350,41 @@ const mapAdditives = (): Additive[] => {
     };
   });
 
-  const withMetrics = attachSearchMetrics(enriched);
+  const relationLookup = new Map<
+    string,
+    { slug: string; title: string; eNumber: string }
+  >();
+
+  enriched.forEach(({ slug, title, eNumber }) => {
+    const normalised = normaliseENumber(eNumber);
+
+    if (normalised) {
+      relationLookup.set(normalised, { slug, title, eNumber });
+    }
+  });
+
+  const withRelations = enriched.map(({ parentIds, childIds, ...rest }) => {
+    const selfNormalised = normaliseENumber(rest.eNumber);
+
+    const resolveRelations = (ids: string[]): AdditiveRelation[] =>
+      ids
+        .filter((id) => (selfNormalised ? id !== selfNormalised : true))
+        .map((id) => relationLookup.get(id))
+        .filter((entry): entry is { slug: string; title: string; eNumber: string } => Boolean(entry))
+        .map((entry) => ({
+          slug: entry.slug,
+          title: entry.title,
+          eNumber: entry.eNumber,
+        }));
+
+    return {
+      ...rest,
+      parents: resolveRelations(parentIds),
+      children: resolveRelations(childIds),
+    };
+  });
+
+  const withMetrics = attachSearchMetrics(withRelations);
 
   withMetrics.sort(compareBySearchRank);
 

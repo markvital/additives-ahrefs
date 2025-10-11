@@ -3,11 +3,13 @@ import { notFound } from 'next/navigation';
 import { Box, Typography } from '@mui/material';
 
 import {
+  filterAdditivesByClassVisibility,
   getAdditivesByFunctionSlug,
   getFunctionFilters,
   getOriginFilters,
   getFunctionValueBySlug,
   parseAdditiveSortMode,
+  parseShowClassesParam,
   sortAdditivesByMode,
 } from '../../../lib/additives';
 import { formatFilterLabel } from '../../../lib/text';
@@ -16,7 +18,7 @@ import { FilterPanel } from '../../../components/FilterPanel';
 
 interface FunctionPageProps {
   params: Promise<{ functionSlug: string }>;
-  searchParams?: Promise<{ sort?: string | string[] }>;
+  searchParams?: Promise<{ sort?: string | string[]; classes?: string | string[] }>;
 }
 
 const formatCountLabel = (count: number): string =>
@@ -70,7 +72,9 @@ export default async function FunctionPage({ params, searchParams }: FunctionPag
   const additives = getAdditivesByFunctionSlug(functionSlug);
   const resolvedSearchParams = searchParams ? await searchParams : undefined;
   const sortMode = parseAdditiveSortMode(resolvedSearchParams?.sort ?? null);
+  const showClasses = parseShowClassesParam(resolvedSearchParams?.classes ?? null);
   const sortedAdditives = sortAdditivesByMode(additives, sortMode);
+  const visibleAdditives = filterAdditivesByClassVisibility(sortedAdditives, showClasses);
   const label = formatFilterLabel(functionValue);
 
   return (
@@ -89,9 +93,10 @@ export default async function FunctionPage({ params, searchParams }: FunctionPag
         originOptions={originOptions}
         currentFunctionSlug={functionSlug}
         currentSortMode={sortMode}
+        currentShowClasses={showClasses}
       />
       <AdditiveGrid
-        items={sortedAdditives}
+        items={visibleAdditives}
         sortMode={sortMode}
         emptyMessage="No additives found for this function."
       />

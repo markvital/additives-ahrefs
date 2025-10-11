@@ -21,5 +21,9 @@
     "artificial",
     "mineral"
   ],
-  "productCount": 1968
+  "productCount": 1968,
+  "children": [
+    "en:e339i",
+    "en:e339iii"
+  ]
 }

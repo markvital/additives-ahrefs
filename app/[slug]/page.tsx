@@ -61,6 +61,10 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
   }
 
   const synonymList = additive.synonyms.filter((value, index, list) => list.indexOf(value) === index);
+  const parentRelations = additive.parents;
+  const childRelations = additive.children;
+  const hasParents = parentRelations.length > 0;
+  const hasChildren = childRelations.length > 0;
   const searchHistory = getSearchHistory(additive.slug);
   const searchHistoryKeywords = searchHistory?.keywords ?? [];
   const hasSearchHistory =
@@ -115,6 +119,32 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
     searchCountryLabel ?? (searchCountryCode ? searchCountryCode.trim().toUpperCase() : null);
   const productCount = typeof additive.productCount === 'number' ? additive.productCount : null;
   const productSearchUrl = `https://us.openfoodfacts.org/facets/additives/${additive.slug}`;
+  const renderRelationLinks = (relations: typeof parentRelations) =>
+    relations.map((relation) => {
+      const label = formatAdditiveDisplayName(relation.eNumber, relation.title);
+
+      return (
+        <Box
+          component="span"
+          key={relation.slug}
+          sx={{
+            display: 'inline-block',
+            '&:not(:last-of-type)::after': {
+              content: '", "',
+            },
+          }}
+        >
+          <MuiLink
+            component={NextLink}
+            href={`/${relation.slug}`}
+            underline="hover"
+            sx={{ fontWeight: 500 }}
+          >
+            {label}
+          </MuiLink>
+        </Box>
+      );
+    });
   const articleSummary = extractArticleSummary(additive.article);
   const articleBody = extractArticleBody(additive.article);
   const originList = additive.origin.filter((value, index, list) => list.indexOf(value) === index);
@@ -202,6 +232,22 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
                   {synonym}
                 </Box>
               ))}
+            </Typography>
+          )}
+          {hasParents && (
+            <Typography variant="body1" color="text.secondary">
+              <Box component="span" sx={{ fontWeight: 600 }}>
+                Belongs to:
+              </Box>{' '}
+              {renderRelationLinks(parentRelations)}
+            </Typography>
+          )}
+          {hasChildren && (
+            <Typography variant="body1" color="text.secondary">
+              <Box component="span" sx={{ fontWeight: 600 }}>
+                Contains:
+              </Box>{' '}
+              {renderRelationLinks(childRelations)}
             </Typography>
           )}
           {(searchRank !== null || searchVolume !== null || searchCountryText || hasKeywordShare) && (

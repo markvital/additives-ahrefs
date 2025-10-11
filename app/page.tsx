@@ -3,10 +3,12 @@ import { Box, Typography } from '@mui/material';
 import { AdditiveGrid } from '../components/AdditiveGrid';
 import { FilterPanel } from '../components/FilterPanel';
 import {
+  filterAdditivesByClassVisibility,
   getAdditives,
   getFunctionFilters,
   getOriginFilters,
   parseAdditiveSortMode,
+  parseShowClassesParam,
   sortAdditivesByMode,
 } from '../lib/additives';
 import { formatFilterLabel } from '../lib/text';
@@ -22,13 +24,15 @@ const originOptions = getOriginFilters().map(({ slug, value }) => ({
 }));
 
 interface HomePageProps {
-  searchParams?: Promise<{ sort?: string | string[] }>;
+  searchParams?: Promise<{ sort?: string | string[]; classes?: string | string[] }>;
 }
 
 export default async function HomePage({ searchParams }: HomePageProps) {
   const resolvedSearchParams = searchParams ? await searchParams : undefined;
   const sortMode = parseAdditiveSortMode(resolvedSearchParams?.sort ?? null);
+  const showClasses = parseShowClassesParam(resolvedSearchParams?.classes ?? null);
   const sortedAdditives = sortAdditivesByMode(additives, sortMode);
+  const visibleAdditives = filterAdditivesByClassVisibility(sortedAdditives, showClasses);
 
   return (
     <Box component="section" display="flex" flexDirection="column" gap={4}>
@@ -46,8 +50,9 @@ export default async function HomePage({ searchParams }: HomePageProps) {
         functionOptions={functionOptions}
         originOptions={originOptions}
         currentSortMode={sortMode}
+        currentShowClasses={showClasses}
       />
-      <AdditiveGrid items={sortedAdditives} sortMode={sortMode} />
+      <AdditiveGrid items={visibleAdditives} sortMode={sortMode} />
     </Box>
   );
 }

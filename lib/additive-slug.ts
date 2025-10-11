@@ -17,7 +17,7 @@ const slugifySegment = (value: string | undefined | null): string => {
     .replace(/(^-|-$)/g, '');
 };
 
-const normaliseENumber = (value: string | undefined | null): string => {
+export const normaliseENumber = (value: string | undefined | null): string => {
   if (!value) {
     return '';
   }

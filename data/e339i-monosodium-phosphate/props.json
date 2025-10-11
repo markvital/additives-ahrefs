@@ -24,5 +24,8 @@
     "synthetic",
     "mineral"
   ],
-  "productCount": 126
+  "productCount": 126,
+  "parents": [
+    "en:e339"
+  ]
 }

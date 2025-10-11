@@ -1,8 +1,16 @@
 'use client';
 
-import { useTransition } from 'react';
+import { useTransition, ChangeEvent } from 'react';
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
-import { FormControl, InputLabel, MenuItem, Select, Stack } from '@mui/material';
+import {
+  Checkbox,
+  FormControl,
+  FormControlLabel,
+  InputLabel,
+  MenuItem,
+  Select,
+  Stack,
+} from '@mui/material';
 import type { SelectChangeEvent } from '@mui/material/Select';
 
 import type { AdditiveSortMode } from '../lib/additives';
@@ -18,9 +26,11 @@ interface FilterPanelProps {
   currentFunctionSlug?: string | null;
   currentOriginSlug?: string | null;
   currentSortMode?: AdditiveSortMode;
+  currentShowClasses?: boolean;
 }
 
 const HOME_ROUTE = '/';
+const SHOW_CLASSES_PARAM = 'classes';
 
 export function FilterPanel({
   functionOptions,
@@ -28,6 +38,7 @@ export function FilterPanel({
   currentFunctionSlug = null,
   currentOriginSlug = null,
   currentSortMode = 'search-rank',
+  currentShowClasses = false,
 }: FilterPanelProps) {
   const router = useRouter();
   const pathname = usePathname();
@@ -43,6 +54,12 @@ export function FilterPanel({
       params.set('sort', 'products');
     } else {
       params.delete('sort');
+    }
+
+    if (currentShowClasses) {
+      params.set(SHOW_CLASSES_PARAM, '1');
+    } else {
+      params.delete(SHOW_CLASSES_PARAM);
     }
 
     const queryString = params.toString();
@@ -81,6 +98,29 @@ export function FilterPanel({
     });
   };
 
+  const handleShowClassesChange = (event: ChangeEvent<HTMLInputElement>) => {
+    const checked = event.target.checked;
+
+    startTransition(() => {
+      const params = new URLSearchParams(searchParams?.toString() ?? '');
+
+      if (checked) {
+        params.set(SHOW_CLASSES_PARAM, '1');
+      } else {
+        params.delete(SHOW_CLASSES_PARAM);
+      }
+
+      if (currentSortValue === 'products') {
+        params.set('sort', 'products');
+      } else {
+        params.delete('sort');
+      }
+
+      const queryString = params.toString();
+      router.push(queryString ? `${pathname}?${queryString}` : pathname);
+    });
+  };
+
   return (
     <Stack
       direction={{ xs: 'column', sm: 'row' }}
@@ -90,6 +130,19 @@ export function FilterPanel({
       width="100%"
       flexWrap="wrap"
     >
+      <FormControlLabel
+        control={
+          <Checkbox
+            size="small"
+            checked={currentShowClasses}
+            onChange={handleShowClassesChange}
+            disabled={isPending}
+          />
+        }
+        label="Show classes"
+        sx={{ margin: 0 }}
+      />
+
       <FormControl
         size="small"
         sx={{ minWidth: { xs: '100%', sm: 180 } }}
