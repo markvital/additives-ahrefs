@@ -152,6 +152,33 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
           )
         : null;
 
+  const parentAdditives = additive.parentSlugs
+    .map((parentSlug) => {
+      const parent = getAdditiveBySlug(parentSlug);
+
+      if (!parent || parent.slug === additive.slug) {
+        return null;
+      }
+
+      return parent;
+    })
+    .filter((parent): parent is NonNullable<typeof parent> => parent !== null);
+
+  const childAdditives = additive.childSlugs
+    .map((childSlug) => {
+      const child = getAdditiveBySlug(childSlug);
+
+      if (!child || child.slug === additive.slug) {
+        return null;
+      }
+
+      return child;
+    })
+    .filter((child): child is NonNullable<typeof child> => child !== null);
+
+  const hasParentAdditives = parentAdditives.length > 0;
+  const hasChildAdditives = childAdditives.length > 0;
+
   const searchInterestCaption = (
     <>
       Interest over time
@@ -201,6 +228,46 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
                 >
                   {synonym}
                 </Box>
+              ))}
+            </Typography>
+          )}
+          {hasParentAdditives && (
+            <Typography variant="body1" color="text.secondary">
+              <Box component="span" sx={{ fontWeight: 600 }}>
+                Belongs to:
+              </Box>{' '}
+              {parentAdditives.map((parent, index) => (
+                <span key={parent.slug}>
+                  {index > 0 ? ', ' : null}
+                  <MuiLink
+                    component={NextLink}
+                    href={`/${parent.slug}`}
+                    underline="hover"
+                    sx={{ fontWeight: 500 }}
+                  >
+                    {formatAdditiveDisplayName(parent.eNumber, parent.title)}
+                  </MuiLink>
+                </span>
+              ))}
+            </Typography>
+          )}
+          {hasChildAdditives && (
+            <Typography variant="body1" color="text.secondary">
+              <Box component="span" sx={{ fontWeight: 600 }}>
+                Contains:
+              </Box>{' '}
+              {childAdditives.map((child, index) => (
+                <span key={child.slug}>
+                  {index > 0 ? ', ' : null}
+                  <MuiLink
+                    component={NextLink}
+                    href={`/${child.slug}`}
+                    underline="hover"
+                    sx={{ fontWeight: 500 }}
+                  >
+                    {formatAdditiveDisplayName(child.eNumber, child.title)}
+                  </MuiLink>
+                </span>
               ))}
             </Typography>
           )}

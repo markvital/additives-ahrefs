@@ -16,6 +16,8 @@ export interface AdditivePropsFile {
   wikipedia?: unknown;
   wikidata?: unknown;
   productCount?: unknown;
+  parents?: unknown;
+  children?: unknown;
 }
 
 export interface Additive {
@@ -33,6 +35,8 @@ export interface Additive {
   searchVolume: number | null;
   searchRank: number | null;
   productCount: number | null;
+  parentSlugs: string[];
+  childSlugs: string[];
 }
 
 export type AdditiveSortMode = 'search-rank' | 'product-count';
@@ -116,6 +120,8 @@ const readAdditiveProps = (
       searchVolume: null,
       searchRank: null,
       productCount: null,
+      parentSlugs: [],
+      childSlugs: [],
     };
   }
 
@@ -140,6 +146,8 @@ const readAdditiveProps = (
       searchVolume: null,
       searchRank: null,
       productCount: toOptionalNumber(parsed.productCount),
+      parentSlugs: toStringArray(parsed.parents),
+      childSlugs: toStringArray(parsed.children),
     };
   } catch (error) {
     console.error(`Failed to read additive props for ${slug}:`, error);
@@ -160,6 +168,8 @@ const readAdditiveProps = (
       searchVolume: null,
       searchRank: null,
       productCount: null,
+      parentSlugs: [],
+      childSlugs: [],
     };
   }
 };
@@ -243,6 +253,24 @@ export const parseAdditiveSortMode = (
   return DEFAULT_ADDITIVE_SORT_MODE;
 };
 
+export const parseShowClassesParam = (
+  value: string | string[] | null | undefined,
+): boolean => {
+  const raw = Array.isArray(value) ? value[0] : value;
+
+  if (typeof raw !== 'string') {
+    return false;
+  }
+
+  const normalised = raw.trim().toLowerCase();
+
+  if (!normalised) {
+    return false;
+  }
+
+  return normalised === '1' || normalised === 'true' || normalised === 'yes' || normalised === 'show';
+};
+
 export const sortAdditivesByMode = (items: Additive[], mode: AdditiveSortMode): Additive[] => {
   const copy = [...items];
 
@@ -253,6 +281,14 @@ export const sortAdditivesByMode = (items: Additive[], mode: AdditiveSortMode): 
 
   copy.sort(compareBySearchRank);
   return copy;
+};
+
+export const filterAdditivesByClassVisibility = (items: Additive[], showClasses: boolean): Additive[] => {
+  if (showClasses) {
+    return [...items];
+  }
+
+  return items.filter((item) => item.childSlugs.length === 0);
 };
 
 const mapAdditives = (): Additive[] => {

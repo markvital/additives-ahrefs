@@ -20,5 +20,8 @@
   "origin": [
     "synthetic"
   ],
-  "productCount": 1058
+  "productCount": 1058,
+  "parents": [
+    "e339-sodium-phosphates"
+  ]
 }
