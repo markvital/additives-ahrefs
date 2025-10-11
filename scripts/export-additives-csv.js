@@ -13,7 +13,8 @@ function readAdditives() {
       continue;
     }
 
-    const propsPath = path.join(dataDir, entry.name, 'props.json');
+    const dirPath = path.join(dataDir, entry.name);
+    const propsPath = path.join(dirPath, 'props.json');
     if (!fs.existsSync(propsPath)) {
       continue;
     }
@@ -25,8 +26,9 @@ function readAdditives() {
       const title = typeof props.title === 'string' ? props.title : '';
       const synonyms = Array.isArray(props.synonyms) ? props.synonyms : [];
       const functions = Array.isArray(props.functions) ? props.functions : [];
+      const searchVolume = readSearchVolume(dirPath);
 
-      additives.push({ eNumber, title, synonyms, functions });
+      additives.push({ eNumber, title, synonyms, functions, searchVolume });
     } catch (error) {
       throw new Error(`Failed to parse ${propsPath}: ${error.message}`);
     }
@@ -61,16 +63,51 @@ function arrayToCsvField(values) {
   return escapeCsvValue(joined);
 }
 
+function readSearchVolume(dirPath) {
+  const searchVolumePath = path.join(dirPath, 'searchVolume.json');
+  if (!fs.existsSync(searchVolumePath)) {
+    return { total: '', keywords: [] };
+  }
+
+  const raw = fs.readFileSync(searchVolumePath, 'utf8');
+  try {
+    const data = JSON.parse(raw);
+    const total = typeof data.totalSearchVolume === 'number' ? data.totalSearchVolume : '';
+    const keywords = Array.isArray(data.keywords)
+      ? data.keywords
+          .filter((item) => item && typeof item.keyword === 'string' && typeof item.volume === 'number')
+          .map((item) => ({ keyword: item.keyword, volume: item.volume }))
+      : [];
+
+    return { total, keywords };
+  } catch (error) {
+    throw new Error(`Failed to parse ${searchVolumePath}: ${error.message}`);
+  }
+}
+
+function formatKeywordVolumes(keywords) {
+  if (!Array.isArray(keywords) || keywords.length === 0) {
+    return '';
+  }
+
+  const parts = keywords.map((item) => `${item.keyword}: ${item.volume}`);
+  return escapeCsvValue(parts.join('; '));
+}
+
 function buildCsv(additives) {
-  const header = ['e_number', 'title', 'synonyms', 'functions'];
+  const header = ['e_number', 'title', 'synonyms', 'functions', 'search_volume_total', 'search_volume_keywords'];
   const lines = [header.join(',')];
 
   for (const additive of additives) {
+    const totalSearchVolume = additive.searchVolume.total;
+    const keywordBreakdown = formatKeywordVolumes(additive.searchVolume.keywords);
     const row = [
       escapeCsvValue(additive.eNumber),
       escapeCsvValue(additive.title),
       arrayToCsvField(additive.synonyms),
       arrayToCsvField(additive.functions),
+      escapeCsvValue(totalSearchVolume),
+      keywordBreakdown,
     ];
     lines.push(row.join(','));
   }

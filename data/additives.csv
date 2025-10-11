@@ -1,612 +1,612 @@
-e_number,title,synonyms,functions
-E100,Curcumin,"E100, Curcumin, Turmeric extract, curcuma extract, turmeric color",colour
-E1000,Cholic acid,"E1000, Cholic acid",
-E1001,Choline salt,"E1001, Choline salt",
-E101,Riboflavin,"E101, Riboflavin, Vitamin B2, Flavaxin, Vitamin B 2, Vitamin G, Riboflavine, Lactoflavine, Lactoflavin",colour
-E101A,Riboflavin-5'-phosphate,"E101A, E101a, Riboflavin-5'-phosphate",
-E101I,Riboflavin,"E101i, Riboflavin, Vitamin B2",colour
-E101II,Riboflavin-5′-phosphate,"E101ii, Riboflavin-5′-phosphate, phosphate lactoflavina",colour
-E102,Tartrazine,"E102, Tartrazine, Yellow 5, Yellow number 5, Yellow no 5, Yellow no5, FD&C Yellow 5, FD&C Yellow no 5, FD&C Yellow no5, FD and C Yellow no. 5, FD and C Yellow 5, Yellow 5 lake",colour
-E103,Alkannin,"E103, Alkannin",
-E104,Quinoline yellow,"E104, Quinoline yellow, Quinoline Yellow WS, C.I. 47005, Food Yellow 13",colour
-E105,Fast Yellow AB,"E105, Fast Yellow AB",
-E106,flavin mononucleotide,"E106, flavin mononucleotide",
-E107,Yellow 2G,"E107, Yellow 2G",
-E110,Sunset yellow FCF,"E110, Sunset yellow FCF, CI Food Yellow 3, Orange Yellow S, FD&C Yellow 6, FD & C Yellow No.6, FD and C Yellow No. 6, Yellow No.6, Yellow 6, FD and C Yellow 6, C.I. 15985, Yellow 6 lake, Sunset Yellow",colour
-E1100,Alpha-Amylase,"E1100, Alpha-Amylase, amylase, E-1100, E 1100",
-E1101,Protease,"E1101, Protease, peptidase, proteinase, EC 3.4, E-1101, E 1101",stabiliser
-E1102,Glucose oxidase,"E1102, Glucose oxidase",antioxidant
-E1103,Invertase,"E1103, Invertase",stabiliser
-E1104,lipase,"E1104, lipase",
-E1105,Lysozyme,"E1105, Lysozyme, Lysozyme hydrochloride, E 1105, E-1105",preservative
-E111,Orange GGN,"E111, Orange GGN, Alpha-naphthol, Alpha-naphtol, alpha-naphthol orange",
-E120,Cochineal,"E120, Cochineal, carminic acid, carmines, Natural Red 4, Cochineal Red",colour
-E1200,Polydextrose,"E1200, Polydextrose, 68424-04-4","humectant, stabiliser, thickener"
-E1201,Polyvinylpyrrolidone,"E1201, Polyvinylpyrrolidone, Povidone, PVP","emulsifier, stabiliser, thickener"
-E1202,Polyvinylpolypyrrolidone,"E1202, Polyvinylpolypyrrolidone, Crospovidone, Cross-linked polyvidone",stabiliser
-E1203,Polyvinyl alcohol,"E1203, Polyvinyl alcohol, Vinyl alcohol polymer, PVOH, PVAl",thickener
-E1204,Pullulan,"E1204, Pullulan, Linear",thickener
-E1205,Basic methacrylate copolymer,"E1205, Basic methacrylate copolymer",
-E1206,Neutral methacrylate copolymer,"E1206, Neutral methacrylate copolymer",
-E1207,Anionic methacrylate copolymer,"E1207, Anionic methacrylate copolymer",
-E1208,Polyvinylpyrrolidone-vinyl acetate copolymer,"E1208, Polyvinylpyrrolidone-vinyl acetate copolymer",
-E1209,Polyvinyl alcohol-polyethylene glycol-graft-co-polymer,"E1209, Polyvinyl alcohol-polyethylene glycol-graft-co-polymer",
-E121,Citrus Red 2,"E121, Citrus Red 2",
-E1210,Carbomer,"E1210, Carbomer",
-E122,Azorubine,"E122, Azorubine, carmoisine, Food Red 3, Brillantcarmoisin O, Acid Red 14, Azorubin S, C.I. 14720",colour
-E123,Amaranth,"E123, Amaranth, FD&C Red 2",colour
-E124,Ponceau 4r,"E124, Ponceau 4r, cochineal red a, CI Food Red 7, Brilliant Scarlet 4R, Ponceau",colour
-E125,Scarlet GN,"E125, Scarlet GN, C.I. Food Red 1, Ponceau SX, FD&C Red No. 4, C.I. 14700",
-E126,Ponceau 6R,"E126, Ponceau 6R",
-E127,Erythrosine,"E127, Erythrosine, FD&C Red 3, FD & C Red No.3, Red No. 3, FD&C Red no3, FD and C Red 3, Red 3, Red 3 lake",colour
-E128,Red 2G,"E128, Red 2G",colour
-E129,Allura red,"E129, Allura red, Allura red ac, Allura Red AC, FD&C Red 40, FD and C Red 40, Red 40, Red no40, Red no. 40, FD and C Red no. 40, Food Red 17, C.I. 16035, Red 40 lake",colour
-E130,Indanthrene blue RS,"E130, Indanthrene blue RS, Indanthrone blue, indanthrene",
-E131,Patent blue v,"E131, Patent blue v, Food Blue 5, Sulphan Blue, Acid Blue 3, L-Blau 3, C-Blau 20, Patentblau V, Sky Blue, C.I. 42051",
-E132,Indigotine,"E132, Indigotine, indigo carmine, FD&C Blue 2, FD and C Blue 2, C.I. Food Blue 2, Blue 2 lake, Blue 2",colour
-E133,Brilliant blue FCF,"E133, Brilliant blue FCF, FD&C Blue 1, FD and C Blue 1, Blue 1, fd&c blue no. 1, Blue 1 lake",colour
-E140,Chlorophylls and Chlorophyllins,"E140, Chlorophylls and Chlorophyllins",colour
-E1400,Dextrin,"E1400, Dextrin","carrier, emulsifier, stabiliser, thickener"
-E1401,Acid-treated modified starch,"E1401, Acid-treated modified starch","emulsifier, stabiliser, thickener"
-E1402,Alkaline modified starch,"E1402, Alkaline modified starch","emulsifier, stabiliser, thickener"
-E1403,Bleached starch,"E1403, Bleached starch","emulsifier, stabiliser, thickener"
-E1404,Oxidised starch,"E1404, Oxidised starch","emulsifier, stabiliser, thickener"
-E1405,Enzyme treated starch,"E1405, Enzyme treated starch","emulsifier, stabiliser, thickener"
-E140I,Chlorophylls,"E140i, Chlorophylls, CI Natural Green 3, Magnesium Chlorophyll, chlorophyll",colour
-E140II,Chlorophyllins,"E140ii, Chlorophyllins, CI Natural Green 5, Sodium Chlorophyllin",colour
-E141,Copper complexes of chlorophylls and chlorophyllins,"E141, Copper complexes of chlorophylls and chlorophyllins, Copper complexes of chlorophyll and chlorophyllins",colour
-E1410,Monostarch phosphate,"E1410, Monostarch phosphate","emulsifier, stabiliser, thickener"
-E1411,Distarch glycerol,"E1411, Distarch glycerol","emulsifier, stabiliser, thickener"
-E1412,Distarch phosphate,"E1412, Distarch phosphate","emulsifier, stabiliser, thickener"
-E1413,Phosphated distarch phosphate,"E1413, Phosphated distarch phosphate","emulsifier, stabiliser, thickener"
-E1414,Acetylated distarch phosphate,"E1414, Acetylated distarch phosphate","emulsifier, stabiliser, thickener"
-E141I,Copper complexes of chlorophylls,"E141i, Copper complexes of chlorophylls, CI Natural Green 3, Copper Chlorophyll",colour
-E141II,Copper complexes of chlorophyllins,"E141ii, Copper complexes of chlorophyllins, Sodium Copper Chlorophyllin, Potassium Copper Chlorophyllin, Copper Chlorophyllin",colour
-E142,Green s,"E142, Green s, CI Food Green 4",
-E1420,Acetylated starch,"E1420, Acetylated starch","emulsifier, stabiliser, thickener"
-E1421,Acetylated starch,"E1421, Acetylated starch, mono starch acetate, Starch acetate esterified with vinyl acetate","emulsifier, stabiliser, thickener"
-E1422,Acetylated distarch adipate,"E1422, Acetylated distarch adipate","emulsifier, stabiliser, thickener"
-E143,Fast Green FCF,"E143, Fast Green FCF, Food green 3, C.I. 42053, Solid Green FCF, Green 1724, FD&C Green No. 3, Green 3",colour
-E1440,Hydroxypropyl starch,"E1440, Hydroxypropyl starch","emulsifier, stabiliser, thickener"
-E1441,Hydroxy propyl distarch glycerine,"E1441, Hydroxy propyl distarch glycerine","emulsifier, stabiliser, thickener"
-E1442,Hydroxypropyl distarch phosphate,"E1442, Hydroxypropyl distarch phosphate","emulsifier, stabiliser, thickener"
-E1450,Starch sodium octenyl succinate,"E1450, Starch sodium octenyl succinate","emulsifier, stabiliser, thickener"
-E1451,Acetylated oxidised starch,"E1451, Acetylated oxidised starch","emulsifier, stabiliser, thickener"
-E1452,Starch aluminium octenyl succinate,"E1452, Starch aluminium octenyl succinate","emulsifier, stabiliser, thickener"
-E14XX,Modified Starch,"E14XX, Modified Starch","emulsifier, stabiliser, thickener"
-E150,Caramel,"E150, Caramel",
-E1503,Castor oil,"E1503, Castor oil","carrier, emulsifier"
-E1504,ethyl acetate,"E1504, ethyl acetate, ethyl ethanoate",carrier
-E1505,Triethyl citrate,"E1505, Triethyl citrate, triethyl 2-hydroxypropane-1‚2‚3-tricarboxylate","carrier, emulsifier, sequestrant, stabiliser"
-E150A,Plain caramel,"E150a, Plain caramel, caramel color, caramel coloring",colour
-E150B,Caustic sulphite caramel,"E150b, Caustic sulphite caramel, caramel E150b",colour
-E150C,Ammonia caramel,"E150c, Ammonia caramel, baker's caramel, confectioner's caramel, beer caramel, Caramel Color Ammonia, Caramel Color",colour
-E150D,Sulphite ammonia caramel,"E150d, Sulphite ammonia caramel, Sulfite ammonia caramel, Caramel Colour Ammonium Sulphite Process, Colour Sulphite Ammonia Caramel, Colour E150d, Food Colour 150d, CAS 8028-89-5, acid-proof caramel, soft-drink caramel",colour
-E151,Brilliant black bn,"E151, Brilliant black bn, black pn, E 151, C.I. 28440, Brilliant Black PN, Food Black 1, Naphthol Black, C.I. Food Brown 1, Brilliant Black A",colour
-E1510,Ethanol,"E1510, Ethanol, ethyl alcohol, Methylcarbinol, Ethyl hydroxide, Ethyl hydrate",
-E1517,Glyceryl diacetate,"E1517, Glyceryl diacetate",
-E1518,Glyceryl triacetate,"E1518, Glyceryl triacetate, Triacetin, glycerin triacetate, 1‚2‚3-triacetoxypropane","carrier, emulsifier, humectant"
-E1519,Benzyl alcohol,"E1519, Benzyl alcohol, Phenylcarbinol, Phenylmethyl alcohol, Benzenemethanol",
-E152,Black 7984,"E152, Black 7984, Food Black 2, carbon black",
-E1520,Propylene Glycol,"E1520, Propylene Glycol, Propane-1‚2-diol, Propan-1‚2-diol","emulsifier, humectant"
-E1521,Polyethylene glycol,"E1521, Polyethylene glycol",
-E153,Vegetable carbon,"E153, Vegetable carbon",
-E154,Brown FK,"E154, Brown FK, Kipper Brown",
-E155,Brown ht,"E155, Brown ht, Chocolate brown HT",colour
-E160,Carotenoids,"E160, Carotenoids",
-E160A,carotene,"E160a, carotene",colour
-E160AI,Beta-carotene,"E160ai, Beta-carotene",colour
-E160AII,Plant carotenes,"E160aii, Plant carotenes",colour
-E160AIII,Beta-carotene from blakeslea trispora,"E160aiii, Beta-carotene from blakeslea trispora",colour
-E160AIV,Algal carotenes,"E160aiv, Algal carotenes",colour
-E160B,Annatto,"E160b, Annatto, bixin, norbixin, roucou, achiote, annatto norbixin, annatto bixin, Orlean, Terre orellana, L. Orange, CI Natural Orange 4",colour
-E160BI,Annatto bixin,"E160bi, Annatto bixin, Bixin",colour
-E160BII,Annatto norbixin,"E160bii, Annatto norbixin, Norbixin",colour
-E160C,Paprika extract,"E160c, Paprika extract, capsanthin, capsorubin, Paprika oleoresin, oleoresin of paprika, oleoresin paprika, paprika color, colored with paprika",colour
-E160D,Lycopene,"E160d, Lycopene",colour
-E160E,Beta-apo-8′-carotenal (c30),"E160e, Beta-apo-8′-carotenal (c30), Apocarotenal, Beta-apo-8'-carotenal, C.I. Food orange 6, E number 160E, Trans-beta-apo-8'-carotenal, C30H40O",colour
-E160F,Ethyl ester of beta-apo-8'-carotenic acid (C 30),"E160f, Ethyl ester of beta-apo-8'-carotenic acid (C 30), Ethyl ester of beta-apo-8'-carotenic acid, Food orange 7",colour
-E161,Xanthophylls,"E161, Xanthophylls",
-E161B,Lutein,"E161b, Lutein, Mixed Carotenoids, Xanthophyll, tagete extract",colour
-E161C,Cryptoaxanthin,"E161c, Cryptoaxanthin, Cryptoxanthin",
-E161G,Canthaxanthin,"E161g, Canthaxanthin",colour
-E161H,Zeaxanthin,"E161h, Zeaxanthin",colour
-E161J,Astaxanthin,"E161j, Astaxanthin",
-E162,Beetroot red,"E162, Beetroot red, betanin",colour
-E163,Anthocyanins,"E163, Anthocyanins, Anthocyanin",colour
-E163C,Malvidin,"E163c, Malvidin",colour
-E164,saffron,"E164, saffron, Gardenia Yellow",
-E165,Gardenia Blue,"E165, Gardenia Blue",
-E166,Sandalwood,"E166, Sandalwood",
-E170,Calcium carbonates,"E170, Calcium carbonates",
-E170I,Calcium carbonate,"E170i, Calcium carbonate, CI Pigment White 18, Chalk","colour, stabiliser"
-E170II,Calcium hydrogen carbonate,"E170ii, Calcium hydrogen carbonate, Calcium bicarbonate, Calcium acid carbonate",
-E171,Titanium dioxide,"E171, Titanium dioxide",colour
-E172,Iron oxides and iron hydroxides,"E172, Iron oxides and iron hydroxides",colour
-E172I,Black iron oxide,"E172i, Black iron oxide",colour
-E172II,Red iron oxide,"E172ii, Red iron oxide, iron(III) oxide, ferric oxide",colour
-E172III,Yellow iron oxide,"E172iii, Yellow iron oxide",colour
-E173,Aluminium,"E173, Aluminium, Aluminum, element 13",
-E174,Silver,"E174, Silver, element 47",
-E175,Gold,"Edible gold, E175, Gold, Pigment Metal 3, element 79",
-E180,Litholrubine bk,"E180, Litholrubine bk, CI Pigment Red 57, Rubinpigment, Pigment Rubine, Lithol rubine bk",
-E181,Tannin,"E181, Tannin","colour, emulsifier, stabiliser, thickener"
-E182,Orcein,"E182, Orcein",
-E200,Sorbic acid,"E200, Sorbic acid",preservative
-E201,Sodium sorbate,"E201, Sodium sorbate, sodium (E‚E)-hexa-2‚4-dienoate",preservative
-E202,Potassium sorbate,"E202, Potassium sorbate",preservative
-E203,Calcium sorbate,"E203, Calcium sorbate",preservative
-E209,Heptylparaben,"E209, Heptylparaben",
-E210,Benzoic acid,"E210, Benzoic acid",preservative
-E211,Sodium benzoate,"E211, Sodium benzoate",preservative
-E212,Potassium benzoate,"E212, Potassium benzoate",preservative
-E213,Calcium benzoate,"E213, Calcium benzoate",preservative
-E214,Ethyl p-hydroxybenzoate,"E214, Ethyl p-hydroxybenzoate, Ethylparaben, ethyl para-hydroxybenzoate",preservative
-E215,Sodium ethyl p-hydroxybenzoate,"E215, Sodium ethyl p-hydroxybenzoate",
-E216,Propyl para-hydroxybenzoate,"E216, Propyl para-hydroxybenzoate, Sodium Salt of Propyl-p-hydroxy Benzoic Acid, Propylparaben",
-E217,Sodium propyl para-hydroxybenzoate,"E217, Sodium propyl para-hydroxybenzoate",
-E218,Methyl p-hydroxybenzoate,"E218, Methyl p-hydroxybenzoate, Methylparaben, methyl 4-hydroxybenzoate",preservative
-E219,Sodium methyl p-hydroxybenzoate,"E219, Sodium methyl p-hydroxybenzoate, sodium methylparaben",
-E220,Sulphur dioxide,"E220, Sulphur dioxide, Sulfur dioxide","antioxidant, preservative"
-E221,Sodium sulphite,"E221, Sodium sulphite, Sodium sulfite","antioxidant, preservative"
-E222,Sodium bisulphite,"E222, Sodium bisulphite, Sodium bisulfite","antioxidant, preservative"
-E223,Sodium metabisulphite,"E223, Sodium metabisulphite, Pyrosulphite, Sodium metabisulfite, Pyrosulfite","antioxidant, preservative"
-E224,Potassium metabisulphite,"E224, Potassium metabisulphite, Potassium metabisulfite","antioxidant, preservative"
-E225,Calcium Disulphite,"E225, Calcium Disulphite, Calcium Disulfite, Calcium Pyrosulphite, Calcium Pyrosulfite, Potassium sulfite, Potassium sulphite","antioxidant, preservative"
-E226,Calcium sulphite,"E226, Calcium sulphite, Calcium sulfite",
-E227,Calcium bisulphite,"E227, Calcium bisulphite, Calcium bisulfite",
-E228,Potassium bisulphite,"E228, Potassium bisulphite, Potassium bisulfite",
-E230,Biphenyl,"E230, Biphenyl, diphenyl, (C6H5)2",preservative
-E231,Orthophenyl phenol,"E231, Orthophenyl phenol, 2-hydroxybiphenyl",preservative
-E232,Sodium orthophenyl phenol,"E232, Sodium orthophenyl phenol",preservative
-E233,Thiabendazole,"E233, Thiabendazole",
-E234,Nisin,"E234, Nisin",preservative
-E235,Natamycin,"E235, Natamycin, Pimaracin",preservative
-E236,Formic acid,"E236, Formic acid, methanoic acid",
-E237,Sodium formiate,"E237, Sodium formiate, Sodium formate",
-E238,Calcium formiate,"E238, Calcium formiate, calcium formate",
-E239,Hexamethylene tetramine,"E239, Hexamethylene tetramine, Hexamine, hexamethylenetetramine",preservative
-E240,Formaldehyde,"E240, Formaldehyde, methanal",
-E241,Gum Guaicum,"E241, Gum Guaicum",
-E242,Dimethyl dicarbonate,"E242, Dimethyl dicarbonate, DMDC, methoxycarbonyl methyl carbonate, dicarbonic acid dimethyl ester, Velcorin",preservative
-E243,Ethyl lauroyl arginate,"E243, Ethyl lauroyl arginate",preservative
-E246,Glycolipids,"E246, Glycolipids",
-E249,Potassium nitrite,"E249, Potassium nitrite",preservative
-E250,Sodium nitrite,"E250, Sodium nitrite, NaNO2",preservative
-E251,Sodium nitrate,"E251, Sodium nitrate",preservative
-E252,Potassium nitrate,"E252, Potassium nitrate",preservative
-E260,Acetic acid,"E260, Acetic acid, ethanoic acid",preservative
-E261,Potassium acetate,"E261, Potassium acetate",preservative
-E262,Sodium acetates,"E262, Sodium acetates","preservative, sequestrant"
-E262I,Sodium acetate,"E262i, Sodium acetate","preservative, sequestrant"
-E262II,Sodium diacetate,"E262ii, Sodium diacetate","preservative, sequestrant"
-E263,Calcium acetate,"E263, Calcium acetate","preservative, stabiliser"
-E264,Ammonium acetate,"E264, Ammonium acetate",
-E265,Dehydroacetic acid,"E265, Dehydroacetic acid",
-E266,Sodium dehydroacetate,"E266, Sodium dehydroacetate",
-E267,Buffered vinegar,"E267, Buffered vinegar",
-E270,Lactic acid,"E270, Lactic acid, milk acid, 2-Hydroxypropanoic acid",
-E280,Propionic acid,"E280, Propionic acid, Propanoic acid, CH3CH2COOH",preservative
-E281,Sodium propionate,"E281, Sodium propionate",preservative
-E282,calcium propionate,"E282, calcium propionate, calcium propanoate, cal. pro., cal.pro.",preservative
-E283,Potassium propionate,"E283, Potassium propionate, Potassium propanoate",preservative
-E284,Boric acid,"E284, Boric acid, Boracic acid, Orthoboric acid",
-E285,Sodium tetraborate (borax),"E285, Sodium tetraborate (borax), borax, sodium borate, sodium tetraborate, disodium tetraborate",
-E290,Carbon dioxide,"E290, Carbon dioxide, Carbonic acid gas, Fermentation carbon dioxide, Spring carbon dioxide, Gärungskohlensäure, Natürliche Quellkohlensäure, Quellkohlensäure","preservative, propellent-gas"
-E296,Malic acid,"E296, Malic acid, hydroxybutanedioic acid, l-malic acid",
-E297,Fumaric acid,"E297, Fumaric acid, trans-Butenedioic acid",
-E300,Ascorbic acid,"E300, Ascorbic acid, l-ascorbic acid, Synonyms L-xylo-Ascorbic acid","antioxidant, sequestrant"
-E301,Sodium ascorbate,"E301, Sodium ascorbate, Sodium L-ascorbate",antioxidant
-E302,Calcium ascorbate,"E302, Calcium ascorbate",antioxidant
-E303,Potassium ascorbate,"E303, Potassium ascorbate",
-E304,Fatty acid esters of ascorbic acid,"E304, Fatty acid esters of ascorbic acid, ascorbic acid esters of fatty acid",antioxidant
-E304I,Ascorbyl palmitate,"E304i, Ascorbyl palmitate, L-Ascorbyl Palmitate",antioxidant
-E304II,Ascorbyl stearate,"E304ii, Ascorbyl stearate, E305",antioxidant
-E306,Tocopherol-rich extract,"E306, Tocopherol-rich extract, Tocopherols, natural tocopherols, mixed tocopherols, natural mixed tocopherols",
-E307,Alpha-tocopherol,"E307, Alpha-tocopherol",
-E307A,D-Alpha-tocopherol,"E307a, D-Alpha-tocopherol",antioxidant
-E307B,concentrated tocopherol,"E307b, concentrated tocopherol",antioxidant
-E307C,DL-Alpha-tocopherol,"E307c, DL-Alpha-tocopherol",antioxidant
-E308,Gamme-tocopherol,"E308, Gamme-tocopherol, gamma-Tocopherol",
-E309,Delta-tocopherol,"E309, Delta-tocopherol, δ-tocopherol",
-E310,Propyl gallate,"E310, Propyl gallate, Propyl ester of gallic acid",antioxidant
-E311,Octyl gallate,"E311, Octyl gallate, Octyl ester of gallic acid",
-E312,Dodecyl gallate,"E312, Dodecyl gallate",
-E313,Ethyl gallate,"E313, Ethyl gallate",
-E314,Guaiacum,"E314, Guaiacum",antioxidant
-E315,Erythorbic acid,"E315, Erythorbic acid, Isoascorbic acid",antioxidant
-E316,sodium erythorbate,"E316, sodium erythorbate",antioxidant
-E317,Erythorbin acid,"E317, Erythorbin acid",
-E318,Calcium erythorbin,"E318, Calcium erythorbin",
-E319,Tertiary-butylhydroquinone (tbhq),"E319, Tertiary-butylhydroquinone (tbhq), Tert-butyl-1‚4-benzenediol, Butylhydroxinon, TBHQ, Tert-Butylhydroquinone, tertiary butylhydroquinone",antioxidant
-E320,Butylated hydroxyanisole (bha),"E320, Butylated hydroxyanisole (bha), Butylated hydroxyanisole, BHA",antioxidant
-E321,Butylated hydroxytoluene,"E321, Butylated hydroxytoluene, BHT, 2‚6-Ditertiary-butyl-p-cresol, bht added to preserve freshness",antioxidant
-E322,Lecithins,"E322, Lecithins, Phosphatides","antioxidant, emulsifier"
-E322A,Oat lecithin,"E322a, Oat lecithin",
-E322I,Lecithin,"E322i, Lecithin","antioxidant, emulsifier"
-E322II,Partially hydrolyzed lecithin,"E322ii, Partially hydrolyzed lecithin","antioxidant, emulsifier"
-E323,Anoxomer,"E323, Anoxomer",
-E324,Ethoxyquin,"E324, Ethoxyquin",
-E325,sodium lactate,"E325, sodium lactate","antioxidant, emulsifier, humectant, thickener"
-E326,potassium lactate,"E326, potassium lactate","antioxidant, emulsifier, humectant"
-E327,calcium lactate,"E327, calcium lactate",thickener
-E328,ammonium lactate,"E328, ammonium lactate",
-E329,Magnesium lactate,"E329, Magnesium lactate",
-E330,Citric acid,"E330, Citric acid","antioxidant, sequestrant"
-E331,Sodium citrates,"E331, Sodium citrates","emulsifier, sequestrant, stabiliser"
-E331I,Monosodium citrate,"E331i, Monosodium citrate","emulsifier, sequestrant, stabiliser"
-E331II,Disodium citrate,"E331ii, Disodium citrate","emulsifier, sequestrant, stabiliser"
-E331III,Trisodium citrate,"E331iii, Trisodium citrate",
-E332,Potassium citrates,"E332, Potassium citrates","sequestrant, stabiliser"
-E332I,Monopotassium citrate,"E332i, Monopotassium citrate","sequestrant, stabiliser"
-E332II,Tripotassium citrate,"E332ii, Tripotassium citrate, potassium citrate","sequestrant, stabiliser"
-E333,Calcium citrates,"E333, Calcium citrates, Calcium citrate, Calcium salts of citric acid","sequestrant, stabiliser"
-E333I,Monocalcium citrate,"E333i, Monocalcium citrate","sequestrant, stabiliser"
-E333II,Dicalcium citrate,"E333ii, Dicalcium citrate","sequestrant, stabiliser"
-E333III,Tricalcium citrate,"E333iii, Tricalcium citrate","sequestrant, stabiliser"
-E334,L(+)-tartaric acid,"E334, L(+)-tartaric acid, tartaric acid, 2‚3-dihydroxybutanedioic acid, 2‚3-dihydroxysuccinic acid, threaric acid, racemic acid, uvic acid, paratartaric acid","antioxidant, sequestrant"
-E335,Sodium tartrates,"E335, Sodium tartrates","sequestrant, stabiliser"
-E335I,Monosodium tartrate,"E335i, Monosodium tartrate","sequestrant, stabiliser"
-E335II,Disodium tartrate,"E335ii, Disodium tartrate","sequestrant, stabiliser"
-E336,Potassium tartrates,"E336, Potassium tartrates",
-E336I,Monopotassium tartrate,"E336i, Monopotassium tartrate, monopotassic tartrate, Potassium bitartrate, potassium hydrogen tartrate, cream of tartar",
-E336II,Dipotassium tartrate,"E336ii, Dipotassium tartrate, dipotassic tartrate, Potassium tartrate",
-E337,Potassium sodium tartrate,"E337, Potassium sodium tartrate","sequestrant, stabiliser"
-E338,Phosphoric acid,"E338, Phosphoric acid, Orthophosphoric acid, phosphoricV acid","antioxidant, sequestrant"
-E339,Sodium phosphates,"E339, Sodium phosphates, sodium phosphate","emulsifier, humectant, preservative, sequestrant, stabiliser, thickener"
-E339I,Monosodium phosphate,"E339i, Monosodium phosphate, Monosodium monophosphate, Acid monosodium monophosphate, Monosodium orthophosphate, Monobasic sodium phosphate","emulsifier, humectant, preservative, sequestrant, stabiliser, thickener"
-E339II,Disodium phosphate,"E339ii, Disodium phosphate, Disodium monophosphate, Secondary sodium phosphate","emulsifier, humectant, preservative, sequestrant, stabiliser, thickener"
-E339III,Trisodium phosphate,"E339iii, Trisodium phosphate, Tribasic sodium phosphate","emulsifier, humectant, preservative, sequestrant, stabiliser, thickener"
-E340,Potassium phosphates,"E340, Potassium phosphates, potassium phosphate, E 340, E-340","emulsifier, humectant, sequestrant, stabiliser, thickener"
-E340I,Monopotassium phosphate,"E340i, Monopotassium phosphate, Monobasic potassium phosphate, Monopotassium monophosphate, E 340i, E-340i, E340 i","emulsifier, humectant, sequestrant, stabiliser, thickener"
-E340II,Dipotassium phosphate,"E340ii, Dipotassium phosphate, Dipotassium monophosphate, Secondary potassium phosphate, Dipotassium orthophosphate, E 340ii, E-340ii, E340 ii","emulsifier, humectant, sequestrant, stabiliser, thickener"
-E340III,Tripotassium phosphate,"E340iii, Tripotassium phosphate, tripotassium phosphate, E 340iii, E340 iii, E-340iii, Tribasic potassium phosphate","emulsifier, humectant, sequestrant, stabiliser, thickener"
-E341,Calcium phosphates,"E341, Calcium phosphates, calcium phosphate, calcium phosphates, E 341, E-341","emulsifier, humectant, sequestrant, stabiliser, thickener"
-E341I,Monocalcium phosphate,"E341i, Monocalcium phosphate, Monobasic calcium phosphate, mono-calcium phosphate, monocalcium phosphate, E 341i, E-341i, E341 i","emulsifier, humectant, sequestrant, stabiliser, thickener"
-E341II,Dicalcium phosphate,"E341ii, Dicalcium phosphate, Dibasic calcium phosphate, di-calcium phosphate, dicalcium phosphate, E 341ii, E-341ii, E341 ii","emulsifier, humectant, sequestrant, stabiliser, thickener"
-E341III,Tricalcium phosphate,"E341iii, Tricalcium phosphate, Tricalciumphosphate, tri-calcium phosphate, tricalcium phosphate, E 341iii, E-341iii, E341 iii","emulsifier, humectant, sequestrant, stabiliser, thickener"
-E342,Ammonium phosphate,"E342, Ammonium phosphate, monoammonium phosphate, diammonium phosphate","stabiliser, thickener"
-E343,Magnesium phosphates,"E343, Magnesium phosphates, magnesium phosphates, E 343, E-343","stabiliser, thickener"
-E343I,Monomagnesium phosphate,"E343i, Monomagnesium phosphate, Magnesiumdihydrogenphosphate, Magnesiumphosphate, monobasic, magnesium phosphate","stabiliser, thickener"
-E343II,Dimagnesium phosphate,"E343ii, Dimagnesium phosphate, Magnesiumhydrogenphosphate, Magnesiumphosphate - dibasic, Dimagnesium orthophosphate, magnesium hydrogen phosphate, dimagnesium phosphate, E 343ii, E-343ii, E343 ii","stabiliser, thickener"
-E344,Lecithin citrate,"E344, Lecithin citrate",
-E345,Magnesium citrate,"E345, Magnesium citrate",
-E349,ammonium malate,"E349, ammonium malate",
-E350,Sodium malates,"E350, Sodium malates",humectant
-E350I,Sodium malate,"E350i, Sodium malate",humectant
-E350II,Sodium hydrogen malate,"E350ii, Sodium hydrogen malate",humectant
-E351,Potassium malate,"E351, Potassium malate",
-E352,Calcium malates,"E352, Calcium malates",
-E352I,Calcium malate,"E352i, Calcium malate",
-E353,Metatartaric acid,"E353, Metatartaric acid",
-E354,Calcium tartrate,"E354, Calcium tartrate",
-E355,Adipic acid,"E355, Adipic acid, Hexanedioic acid",
-E356,Sodium adipate,"E356, Sodium adipate",
-E357,Potassium adipate,"E357, Potassium adipate",
-E359,ammonium adipate,"E359, ammonium adipate",
-E363,Succinic acid,"E363, Succinic acid, Asuccin, Amber acid, 1/2-Ethanedicarboxylic acid, Butanedioic acid, Bernsteinsaeure, Ethylenesuccinic acid, Spirit of amber, Butanedionic acid, Bernsteinsaure, Succinate, Butandisaeure, Dihydrofumaric acid, Acidum succinicum, Acide butanedioique, Acide succinique",
-E365,Sodium fumarate,"E365, Sodium fumarate",
-E366,Potassium fumarate,"E366, Potassium fumarate",
-E367,Calcium fumarate,"E367, Calcium fumarate",
-E369,Alanin,"E369, Alanin",
-E370,1‚4-Heptonolactone,"E370, 1‚4-Heptonolactone",
-E375,Nicotinic acid,"E375, Nicotinic acid, Niacin, Nicotinamide",
-E380,Triammonium citrate,"E380, Triammonium citrate",
-E381,ferric ammonium citrate,"E381, ferric ammonium citrate, ammonium ferric citrate",
-E383,calcium glycerophosphate,"E383, calcium glycerophosphate",
-E384,Isopropyl citrates,"E384, Isopropyl citrates","antioxidant, preservative, sequestrant"
-E385,Calcium disodium ethylenediaminetetraacetate,"E385, Calcium disodium ethylenediaminetetraacetate, Calcium disodium EDTA, Calcium disodium ethylene diamine tetra-acetate, calcium disodium EDTA, calcium-dinatrium-EDTA, E-385, E 385","antioxidant, preservative, sequestrant"
-E386,Disodium ethylenediaminetetraacetate (Disodium EDTA),"E386, Disodium ethylenediaminetetraacetate, Disodium EDTA",
-E387,Oxystearin,"E387, Oxystearin",
-E388,Thiodipropionic acid,"E388, Thiodipropionic acid",antioxidant
-E389,Dilauryl thiodipropionate,"E389, Dilauryl thiodipropionate",
-E390,Distearyl thiodipropionate,"E390, Distearyl thiodipropionate",
-E391,Phytic acid,"E391, Phytic acid",
-E392,Extracts of rosemary,"E392, Extracts of rosemary, rosemary extract",
-E399,Calcium lactobionate,"E399, Calcium lactobionate",
-E400,Alginic acid,"E400, Alginic acid","carrier, emulsifier, humectant, sequestrant, stabiliser, thickener"
-E401,sodium alginate,"E401, sodium alginate","carrier, emulsifier, humectant, sequestrant, stabiliser, thickener"
-E402,Potassium alginate,"E402, Potassium alginate","carrier, emulsifier, humectant, sequestrant, stabiliser, thickener"
-E403,Ammonium alginate,"E403, Ammonium alginate","carrier, emulsifier, humectant, sequestrant, stabiliser, thickener"
-E404,Calcium alginate,"E404, Calcium alginate","carrier, humectant, sequestrant, stabiliser, thickener"
-E405,Propane-1‚2-diol alginate,"E405, Propane-1‚2-diol alginate, Propylene glycol alginate","carrier, emulsifier, stabiliser, thickener"
-E406,Agar,"E406, Agar, Gelose, Kanten, Bengal, Ceylon, Chinese or Japanese isinglass, agar-agar, agar agar","carrier, emulsifier, humectant, stabiliser, thickener"
-E407,Carrageenan,"E407, Carrageenan, e407 stabilizer","carrier, emulsifier, humectant, stabiliser, thickener"
-E407A,Processed eucheuma seaweed,"E407a, Processed eucheuma seaweed","carrier, emulsifier, humectant, stabiliser, thickener"
-E408,Bakers yeast glycan,"E408, Bakers yeast glycan",
-E409,Arabinogalactan,"E409, Arabinogalactan",
-E410,Locust bean gum,"E410, Locust bean gum, Carob bean gum, Carob gum, garrofin gum, peruvian carob gum","emulsifier, stabiliser, thickener"
-E411,Oat gum,"E411, Oat gum",
-E412,Guar gum,"E412, Guar gum, Gum cyamopsis, guar flour","emulsifier, stabiliser, thickener"
-E413,Tragacanth,"E413, Tragacanth, Tragacanth gum","emulsifier, stabiliser, thickener"
-E414,Acacia gum,"E414, Acacia gum, gum arabic, gum acacia, arabic gum, Gum arabic, E-414, E 414, INS414, INS 414","carrier, emulsifier, stabiliser, thickener"
-E415,Xanthan gum,"E415, Xanthan gum, xanthan, E-415, e 415","emulsifier, stabiliser, thickener"
-E416,Karaya-gum,"E416, Karaya-gum, Katilo, Kadaya, Gum sterculia, Sterculia, Karaya, gum karaya, Kullo","emulsifier, stabiliser, thickener"
-E417,Tara gum,"E417, Tara gum","stabiliser, thickener"
-E418,Gellan gum,"E418, Gellan gum, gellan, E-418, E 418, INS418, INS-418, INS 418","stabiliser, thickener"
-E419,Gum ghatti,"E419, Gum ghatti","stabiliser, thickener"
-E420,Sorbitol,"E420, Sorbitol, glucitol","humectant, sequestrant, stabiliser, sweetener, thickener"
-E420I,D-sorbitol,"E420i, D-sorbitol, D-glucitol","humectant, sequestrant, stabiliser, sweetener, thickener"
-E420II,Sorbitol syrup,"E420ii, Sorbitol syrup","humectant, sequestrant, stabiliser, sweetener, thickener"
-E421,Mannitol,"E421, Mannitol","humectant, stabiliser, sweetener, thickener"
-E422,Glycerol,"E422, Glycerol, Glycerin, Glycerine, vegetable glycerine","humectant, thickener"
-E424,Curdlan,"E424, Curdlan","stabiliser, thickener"
-E425,Konjac,"E425, Konjac","carrier, emulsifier, humectant, stabiliser, thickener"
-E425I,Konjac gum,"E425i, Konjac gum, Konjak gum","carrier, emulsifier, humectant, stabiliser, thickener"
-E425II,Konjac glucomannan,"E425ii, Konjac glucomannan","carrier, emulsifier, humectant, stabiliser, thickener"
-E426,Soybean hemicellulose,"E426, Soybean hemicellulose",
-E427,Cassia gum,"E427, Cassia gum","emulsifier, stabiliser, thickener"
-E428,Gelatine,"E428, Gelatine, gelatin",
-E429,peptone,"E429, peptone, tryptone",
-E430,Polyoxyethylene (8) stearate,"E430, Polyoxyethylene (8) stearate",emulsifier
-E431,Polyoxyethylene (40) stearate,"E431, Polyoxyethylene (40) stearate, Polyoxyl (40) stearate",emulsifier
-E432,Polyoxyethylene sorbitan monolaurate,"E432, Polyoxyethylene sorbitan monolaurate, Polysorbate 20, Alkest TW 20, Tween 20, PEG(20)sorbitan monolaurate","emulsifier, stabiliser"
-E433,Polyoxyethylene sorbitan monooleate,"E433, Polyoxyethylene sorbitan monooleate, Polysorbate 80","emulsifier, stabiliser"
-E434,Polyoxyethylene sorbitan monopalmitate,"E434, Polyoxyethylene sorbitan monopalmitate, Polysorbate 40",emulsifier
-E435,Polyoxyethylene sorbitan monostearate,"E435, Polyoxyethylene sorbitan monostearate, Polysorbate 60","emulsifier, stabiliser"
-E436,Polyoxyethylene sorbitan tristearate,"E436, Polyoxyethylene sorbitan tristearate, Polysorbate 65","emulsifier, stabiliser"
-E440,Pectins,"E440, Pectins, pectin","emulsifier, stabiliser, thickener"
-E440A,Pectin,"E440a, Pectin","emulsifier, stabiliser, thickener"
-E440B,pectin amide,"E440b, pectin amide, amidated pectin","emulsifier, stabiliser, thickener"
-E440I,non-amidated pectines,"E440i, non-amidated pectines","emulsifier, stabiliser, thickener"
-E440II,Amidated pectin,"E440ii, Amidated pectin","emulsifier, stabiliser, thickener"
-E441,Superglycerinated hydrogenated rapeseed oil,"E441, Superglycerinated hydrogenated rapeseed oil, Hydrogenated rapeseed oil superglycerinated, Superglycerinated fully hydrogenated rapeseed oil",
-E442,Ammonium phosphatides,"E442, Ammonium phosphatides, Mixed ammonium salts of phosphorylated glycerides, Emulsifier YN, Ammonium phosphatide",emulsifier
-E443,Brominated vegetable oil,"E443, Brominated vegetable oil",
-E444,Sucrose acetate isobutyrate,"E444, Sucrose acetate isobutyrate","emulsifier, stabiliser"
-E445,Glycerol esters of wood rosin,"E445, Glycerol esters of wood rosin, Glycerol ester of wood rosin, glyceryl abietate, ester gum","emulsifier, stabiliser"
-E446,Succistearin,"E446, Succistearin",
-E450,Diphosphates,"E450, Diphosphates, Pyrophosphate, diphosphate, E-450, e 450, e450 stabilizer","emulsifier, humectant, sequestrant, stabiliser, thickener"
-E450I,Disodium diphosphate,"E450i, Disodium diphosphate, Sodium Acid Pyrophosphate, sapp, disodium dihydrogen pyrophosphate, disodium pyrophosphate, sodium acid pyrophosphate, disodium diphosphate, disodium dihydrogen diphosphate","emulsifier, humectant, sequestrant, stabiliser, thickener"
-E450II,Trisodium diphosphate,"E450ii, Trisodium diphosphate, e450ii","emulsifier, humectant, sequestrant, stabiliser, thickener"
-E450III,Tetrasodium diphosphate,"E450iii, Tetrasodium diphosphate, Tetrasodium pyrophosphate, Tetrasodium disphosphate, sodium pyrophosphate, TSPP, e450iii","emulsifier, humectant, sequestrant, stabiliser, thickener"
-E450IV,dipotassium dihydrogenpyrophosphate,"E450iv, dipotassium dihydrogenpyrophosphate, E-450iv","emulsifier, humectant, sequestrant, stabiliser, thickener"
-E450V,Tetrapotassium diphosphate,"E450v, Tetrapotassium diphosphate, tetrapotassium pyrophosphate, e450v","emulsifier, humectant, sequestrant, stabiliser, thickener"
-E450VI,Dicalcium diphosphate,"E450vi, Dicalcium diphosphate, dicalcium pyrophosphate, e450vi","emulsifier, humectant, sequestrant, stabiliser, thickener"
-E450VII,Calcium dihydrogen diphosphate,"E450vii, Calcium dihydrogen diphosphate, Acid calcium pyrophosphate","emulsifier, humectant, sequestrant, stabiliser, thickener"
-E450VIII,Dimagnesium diphosphate,"E450VIII, E450viii, Dimagnesium diphosphate",
-E451,Triphosphates,"E451, Triphosphates, triphosphate, E 451, e-451","emulsifier, humectant, sequestrant, stabiliser, thickener"
-E451I,Pentasodium triphosphate,"E451i, Pentasodium triphosphate, Pentasodium tripolyphosphate, Sodium triphosphate","emulsifier, humectant, sequestrant, stabiliser, thickener"
-E451II,Pentapotassium triphosphate,"E451ii, Pentapotassium triphosphate, potassium triphosphate, potassium tripolyphosphate, KTPP","emulsifier, humectant, sequestrant, stabiliser, thickener"
-E452,Polyphosphates,"E452, Polyphosphates, Polyphosphate E452","emulsifier, humectant, sequestrant, stabiliser, thickener"
-E452I,Sodium polyphosphate,"E452i, Sodium polyphosphate, sodium hexametaphosphate, sodium polymetaphosphate","emulsifier, humectant, sequestrant, stabiliser, thickener"
-E452II,Potassium polyphosphate,"E452ii, Potassium polyphosphate, Potassium metaphosphate, Potassium polymetaphosphate","emulsifier, humectant, sequestrant, stabiliser, thickener"
-E452III,Sodium calcium polyphosphate,"E452iii, Sodium calcium polyphosphate","emulsifier, humectant, sequestrant, stabiliser, thickener"
-E452IV,Calcium polyphosphate,"E452iv, Calcium polyphosphate, Calcium metaphosphate","emulsifier, humectant, sequestrant, stabiliser, thickener"
-E452VI,Sodium tripolyphosphate,"E452vi, Sodium tripolyphosphate","emulsifier, humectant, sequestrant, stabiliser, thickener"
-E457,Alpha-Cyclodextrine,"E457, Alpha-Cyclodextrine","stabiliser, thickener"
-E458,Gamma-Cyclodextrine,"E458, Gamma-Cyclodextrine","stabiliser, thickener"
-E459,Beta-cyclodextrine,"E459, Beta-cyclodextrine","carrier, stabiliser, thickener"
-E460,Cellulose,"E460, Cellulose, cellulose powder to prevent caking, cellulose powder added to prevent caking","carrier, emulsifier, humectant, stabiliser, thickener"
-E460I,Microcrystalline cellulose,"E460i, Microcrystalline cellulose","carrier, emulsifier, humectant, stabiliser, thickener"
-E460II,Powdered cellulose,"E460ii, Powdered cellulose, Purified cellulose","carrier, emulsifier, humectant, stabiliser, thickener"
-E461,methyl cellulose,"E461, methyl cellulose, methylcellulose","emulsifier, stabiliser, thickener"
-E462,Ethyl cellulose,"E462, Ethyl cellulose, Ethylcellulose","carrier, thickener"
-E463,Hydroxypropyl cellulose,"E463, Hydroxypropyl cellulose, Hydroxypropylcellulose","emulsifier, stabiliser, thickener"
-E464,Hydroxypropyl methyl cellulose,"E464, Hydroxypropyl methyl cellulose, hypromellose, hydroxypropyl methylcellulose, HPMC, hydroxypropylmethylcellulose, hydroxy propyl methyl cellulose","emulsifier, stabiliser, thickener"
-E465,Ethyl methyl cellulose,"E465, Ethyl methyl cellulose, Ethylmethylcellulose","emulsifier, stabiliser, thickener"
-E466,Sodium carboxy methyl cellulose,"E466, Sodium carboxy methyl cellulose, sodium carboxymethylcellulose, carboxy methyl cellulose, Carboxymethylcellulose, cellulose gum, carboxymethyl cellulose, CMC, NaCMC","emulsifier, humectant, stabiliser, thickener"
-E467,Ethulose,"E467, Ethulose","emulsifier, stabiliser, thickener"
-E468,Cross-linked sodium carboxymethylcellulose,"E468, Cross-linked sodium carboxymethylcellulose, cross-linked cellulose gum, Crosslinked sodium carboxy methyl cellulose","stabiliser, thickener"
-E469,Enzymatically hydrolysed carboxymethylcellulose,"E469, Enzymatically hydrolysed carboxymethylcellulose, enzymatically hydrolised cellulose gum","stabiliser, thickener"
-E470,Sodium/potassium/calcium and magnesium salts of fatty acids,"E470, Sodium/potassium/calcium and magnesium salts of fatty acids","emulsifier, stabiliser, thickener"
-E470A,Sodium/potassium and calcium salts of fatty acids,"E470a, Sodium/potassium and calcium salts of fatty acids","emulsifier, stabiliser, thickener"
-E470AI,Sodium salts of fatty acids,"E470ai, Sodium salts of fatty acids","emulsifier, stabiliser, thickener"
-E470AIII,Calcium salts of fatty acids,"E470aiii, Calcium salts of fatty acids","emulsifier, stabiliser, thickener"
-E470B,Magnesium salts of fatty acids,"E470b, Magnesium salts of fatty acids","emulsifier, stabiliser, thickener"
-E471,Mono- and diglycerides of fatty acids,"E471, Mono- and diglycerides of fatty acids, Glyceryl monostearate, Glyceryl monopalmitate, Glyceryl monooleate, Monostearin, Monopalmitin, Monoolein, Mono and diglycerides","emulsifier, stabiliser"
-E471,Mono- and diglycerides of vegetable fatty acids,,
-E472,acid esters of mono- and diglycerides of fatty acids,"E472, acid esters of mono- and diglycerides of fatty acids",
-E472A,Acetic acid esters of mono- and diglycerides of fatty acids,"E472a, Acetic acid esters of mono- and diglycerides of fatty acids","emulsifier, sequestrant, stabiliser"
-E472B,Lactic acid esters of mono- and diglycerides of fatty acids,"E472b, Lactic acid esters of mono- and diglycerides of fatty acids","emulsifier, sequestrant, stabiliser"
-E472C,Citric acid esters of mono- and diglycerides of fatty acids,"E472c, Citric acid esters of mono- and diglycerides of fatty acids","antioxidant, emulsifier, sequestrant, stabiliser"
-E472D,Tartaric acid esters of mono- and diglycerides of fatty acids,"E472d, Tartaric acid esters of mono- and diglycerides of fatty acids",
-E472E,Mono- and diacetyltartaric acid esters of mono- and diglycerides of fatty acids,"E472e, Mono- and diacetyltartaric acid esters of mono- and diglycerides of fatty acids, Mono- and diacetyl tartaric acid esters of mono- and diglycerides of fatty acids, DATEM, Mono- and diacetyltartaric esters of mono- and diglycerides of fatty acids, emulsifier E472e","emulsifier, sequestrant, stabiliser"
-E472F,Mixed acetic and tartaric acid esters of mono- and diglycerides of fatty acids,"E472f, Mixed acetic and tartaric acid esters of mono- and diglycerides of fatty acids",
-E472G,Succinylated monoglycerides,"E472g, Succinylated monoglycerides",
-E473,Sucrose esters of fatty acids,"E473, Sucrose esters of fatty acids, Sucroesters, sugar ester, sucrose esters","emulsifier, stabiliser"
-E473A,Oligoesters of sucrose type I,"E473a, Oligoesters of sucrose type I, Oligoesters of sucrose type II, Oligoesters of sucrose","emulsifier, stabiliser"
-E474,Sucroglycerides,"E474, Sucroglycerides, Sucroglyceride",emulsifier
-E475,Polyglycerol esters of fatty acids,"E475, Polyglycerol esters of fatty acids, Polyglycerol fatty acid esters","emulsifier, stabiliser"
-E476,Polyglycerol polyricinoleate,"E476, Polyglycerol polyricinoleate, PGPR",emulsifier
-E477,Propane-1‚2-diol esters of fatty acids,"E477, Propane-1‚2-diol esters of fatty acids",emulsifier
-E478,Lactylated fatty acid esters of glycerol and propane-1,"E478, Lactylated fatty acid esters of glycerol and propane-1",
-E479B,Thermally oxidised soya bean oil interacted with mono- and diglycerides of fatty acids,"E479b, Thermally oxidised soya bean oil interacted with mono- and diglycerides of fatty acids, Thermally oxidised soya bean oil interacted with mono­ and diglycerides of fatty acids",emulsifier
-E481,Sodium stearoyl-2-lactylate,"E481, Sodium stearoyl-2-lactylate, Sodium stearoyl lactylate","emulsifier, stabiliser"
-E482,Calcium stearoyl-2-lactylate,"E482, Calcium stearoyl-2-lactylate","emulsifier, stabiliser"
-E483,Stearyl tartrate,"E483, Stearyl tartrate, Stearyl palmityl tartrate",
-E484,Stearyl citrate,"E484, Stearyl citrate","antioxidant, emulsifier, sequestrant"
-E486,Calcium stearoyl fumarate,"E486, Calcium stearoyl fumarate",
-E487,sodium dodecyl sulfate,"E487, sodium dodecyl sulfate, sodium laurilsulfate, sodium lauryl sulfate, NaDS",
-E488,Ethoxylated Mono- and Di-Glycerides,"E488, Ethoxylated Mono- and Di-Glycerides",
-E489,Methyl glucoside-coconut oil ester,"E489, Methyl glucoside-coconut oil ester",
-E490,Propylene glycol,"E490, Propylene glycol, 1‚2-propanediol, propane-1‚2-diol, 1‚2-dihydroxypropane, α-propylene glycol, methyl ethyl glycol, methylethylene glycol, Propan-1‚2-diol",
-E491,Sorbitan monostearate,"E491, Sorbitan monostearate",emulsifier
-E492,Sorbitan tristearate,"E492, Sorbitan tristearate","emulsifier, stabiliser"
-E493,Sorbitan monolaurate,"E493, Sorbitan monolaurate","emulsifier, stabiliser"
-E494,Sorbitan monooleate,"E494, Sorbitan monooleate","emulsifier, stabiliser"
-E495,Sorbitan monopalmitate,"E495, Sorbitan monopalmitate",emulsifier
-E496,Sorbitan trioleate,"E496, Sorbitan trioleate",
-E500,Sodium carbonates,"E500, Sodium carbonates","stabiliser, thickener"
-E500I,Sodium carbonate,"E500i, Sodium carbonate, washing soda","stabiliser, thickener"
-E500II,Sodium hydrogen carbonate,"E500ii, Sodium hydrogen carbonate, Sodium bicarbonate, sodium acid carbonate, Bicarbonate of soda, baking soda","stabiliser, thickener"
-E500III,Sodium sesquicarbonate,"E500iii, Sodium sesquicarbonate","stabiliser, thickener"
-E501,Potassium carbonates,"E501, Potassium carbonates",stabiliser
-E501I,Potassium carbonate,"E501i, Potassium carbonate",stabiliser
-E501II,Potassium hydrogen carbonate,"E501ii, Potassium hydrogen carbonate, Potassium bicarbonate",stabiliser
-E502,Carbonates,"E502, Carbonates",
-E503,Ammonium carbonates,"E503, Ammonium carbonates",
-E503I,Ammonium carbonate,"E503i, Ammonium carbonate",
-E503II,Ammonium hydrogen carbonate,"E503ii, Ammonium hydrogen carbonate, Baker's ammonia, Sal volatile, Salt of hartshorn, Ammonium bicarbonate",
-E504,Magnesium carbonates,"E504, Magnesium carbonates",carrier
-E504I,Magnesium carbonate,"E504i, Magnesium carbonate",carrier
-E504II,Magnesium hydroxide carbonate,"E504ii, Magnesium hydroxide carbonate",carrier
-E505,Ferrous carbonate,"E505, Ferrous carbonate",
-E507,Hydrochloric acid,"E507, Hydrochloric acid, Hydrogen chloride",
-E508,Potassium chloride,"E508, Potassium chloride, Sylvine","stabiliser, thickener, preservative"
-E509,Calcium chloride,"E509, Calcium chloride","stabiliser, thickener, coagulant"
-E510,Ammonium chloride,"E510, Ammonium chloride, ammonia solution",
-E511,Magnesium chloride,"E511, Magnesium chloride","stabiliser, coagulant"
-E512,Stannous chloride,"E512, Stannous chloride, Tin chloride, TinII chloride",antioxidant
-E513,Sulphuric acid,"E513, Sulphuric acid, Oil of vitriol, sulfuric acid, H2SO4",
-E514,Sodium sulphates,"E514, Sodium sulphates",
-E514I,Sodium sulphate,"E514i, Sodium sulphate",
-E514II,Sodium hydrogen sulphate,"E514ii, Sodium hydrogen sulphate, Acid sodium sulphate, Sodium bisulphate",
-E515,Potassium sulphates,"E515, Potassium sulphates, Potassium sulfates, potassium sulfate",
-E515I,Potassium sulphate,"E515i, Potassium sulphate",
-E515II,Potassium hydrogen sulphate,"E515ii, Potassium hydrogen sulphate, Potassium bisulphate",
-E516,Calcium sulphate,"E516, Calcium sulphate, Gypsum, Selenite, Calcium sulfate, calcium sulfate added to prevent caking","sequestrant, stabiliser"
-E517,Ammonium sulphate,"E517, Ammonium sulphate, ammonium sulfate",
-E518,Magnesium sulphate,"E518, Magnesium sulphate, Epsom salts, magnesium sulfate",
-E519,Copper sulphate,"E519, Copper sulphate, copperII sulfate",
-E520,Aluminium sulphate,"E520, Aluminium sulphate, Aluminium sulfate",
-E521,Aluminium sodium sulphate,"E521, Aluminium sodium sulphate, Soda alum, Sodium aluminium sulfate",
-E522,Aluminium potassium sulphate,"E522, Aluminium potassium sulphate, Potassium alum, Potassium aluminium sulfate, potash alum",
-E523,Aluminium ammonium sulphate,"E523, Aluminium ammonium sulphate, ammonium aluminium sulfate",stabiliser
-E524,Sodium hydroxide,"E524, Sodium hydroxide, Caustic soda",
-E525,Potassium hydroxide,"E525, Potassium hydroxide",
-E526,Calcium hydroxide,"E526, Calcium hydroxide, Slaked lime",
-E527,Ammonium hydroxide,"E527, Ammonium hydroxide, Aqua ammonia, ammonia, household ammonia, ammonia water, ammonical liquor, ammonia liquor, aqueous ammonia",
-E528,Magnesium hydroxide,"E528, Magnesium hydroxide",
-E529,Calcium oxide,"E529, Calcium oxide",
-E530,Magnesium oxide,"E530, Magnesium oxide, magnesia",
-E535,Sodium ferrocyanide,"E535, Sodium ferrocyanide, Yellow prussiate of soda",
-E536,Potassium ferrocyanide,"E536, Potassium ferrocyanide, Yellow prussiate of potash",
-E537,ferrous hexacyanomanganate,"E537, ferrous hexacyanomanganate",
-E538,Calcium ferrocyanide,"E538, Calcium ferrocyanide, Yellow prussiate of lime",
-E539,sodium thiosulfate,"E539, sodium thiosulfate","antioxidant, sequestrant"
-E540,Dicalcium diphosphate,"E540, Dicalcium diphosphate",
-E541,Sodium aluminium phosphate,"E541, Sodium aluminium phosphate","emulsifier, stabiliser, thickener"
-E541I,Acid sodium aluminium phosphate,"E541i, Acid sodium aluminium phosphate","emulsifier, stabiliser, thickener"
-E542,Bone phosphate,"E542, Bone phosphate, Bone phosphate (Essentiale Calcium Phosphate‚ Tribasic)","emulsifier, humectant"
-E544,Calcium polyphosphate,"E544, Calcium polyphosphate",
-E545,Ammonium polyphosphate,"E545, Ammonium polyphosphate",
-E546,Magnesium pyrophosphate,"E546, Magnesium pyrophosphate",
-E550,Sodium silicate,"E550, Sodium silicate, Sodium Silicates i‚ Sodium silicate (ii)‚ Sodium metasilicate",
-E551,Silicon dioxide,"E551, Silicon dioxide, Silica, SiO2",carrier
-E552,Calcium silicate,"E552, Calcium silicate",
-E553,Magnesium silicates,"E553, Magnesium silicates, magnesium silicate",thickener
-E553A,synthetic magnesium silicates,"E553a, synthetic magnesium silicates",thickener
-E553B,Talc,"E553b, Talc, talcum, hydrated magnesium silicate",thickener
-E554,Sodium aluminium silicate,"E554, Sodium aluminium silicate, Sodium silicoaluminate, Sodium aluminosilicate",
-E555,Potassium aluminium silicate,"E555, Potassium aluminium silicate",
-E556,Calcium aluminium silicate,"E556, Calcium aluminium silicate, Calcium aluminosilicate, Calcium silicoaluminate, Aluminium calcium silicate",
-E557,hemimorphite,"E557, hemimorphite, calamine",
-E558,Bentonite,"E558, Bentonite",
-E559,Aluminium silicate,"E559, Aluminium silicate, Kaolin",
-E560,Potassium silicate,"E560, Potassium silicate",
-E570,Fatty acids,"E570, Fatty acids, Linear fatty acids, caprylic acid (C8), caprylic acid, capric acid (C10), capric acid, lauric acid (C12), lauric acid, myristic acid (C14), myristic acid, palmitic acid (C16), palmitic acid, stearic acid (C18), stearic acid, fatty acid",
-E571,Ammonium stearate,"E571, Ammonium stearate",
-E572,Magnesium stearate,"E572, Magnesium stearate",
-E573,Aluminium stearate,"E573, Aluminium stearate, Aluminum stearate",
-E574,Gluconic acid,"E574, Gluconic acid, D-gluconic acid",
-E575,Glucono-delta-lactone,"E575, Glucono-delta-lactone, Gluconolactone, GDL, D-Gluconic acid delta-lactone",sequestrant
-E576,Sodium gluconate,"E576, Sodium gluconate","sequestrant, stabiliser, thickener"
-E577,Potassium gluconate,"E577, Potassium gluconate",sequestrant
-E578,calcium gluconate,"E578, calcium gluconate",sequestrant
-E579,iron gluconate,"E579, iron gluconate, ferrous gluconate",
-E580,Magnesium Gluconate,"E580, Magnesium Gluconate",
-E585,Ferrous lactate,"E585, Ferrous lactate, Iron-II lactate",
-E586,4-hexylresorcinol,"E586, 4-hexylresorcinol, 4-Hexyl-1‚3-benzenediol",
-E620,Glutamic acid,"E620, Glutamic acid, L-Glutamic acid",
-E621,Monosodium glutamate,"E621, Monosodium glutamate, monosodium l-glutamate, Sodium glutamate, L-Glutamic acid‚ monosodium salt, Glutamate, MSG",flavour-enhancer
-E622,Monopotassium glutamate,"E622, Monopotassium glutamate, Potassium glutamate",
-E623,Calcium diglutamate,"E623, Calcium diglutamate",
-E624,Monoammonium glutamate,"E624, Monoammonium glutamate",
-E625,Magnesium diglutamate,"E625, Magnesium diglutamate",
-E626,Guanylic acid,"E626, Guanylic acid, guanosine monophosphate",
-E627,Disodium guanylate,"E627, Disodium guanylate, Sodium guanylate",
-E628,Dipotassium guanylate,"E628, Dipotassium guanylate, Potassium guanylate",
-E629,Calcium guanylate,"E629, Calcium guanylate",
-E630,Inosinic acid,"E630, Inosinic acid",
-E631,Disodium inosinate,"E631, Disodium inosinate, Sodium inosinate",
-E632,Dipotassium inosinate,"E632, Dipotassium inosinate, Potassium inosinate",
-E633,Calcium inosinate,"E633, Calcium inosinate",
-E634,Calcium 5'-ribonucleotide,"E634, Calcium 5'-ribonucleotide, Calcium 5'-ribonucleotides",
-E635,Disodium 5'-ribonucleotide,"E635, Disodium 5'-ribonucleotide, Disodium 5'-ribonucleotides",
-E636,Maltol,"E636, Maltol",
-E637,Ethyl maltol,"E637, Ethyl maltol",
-E638,Sodium L-aspartate,"E638, Sodium L-aspartate, Sodium L aspartate",
-E639,DL-alanine,"E639, DL-alanine, DL alanine",
-E640,Glycine and its sodium salt,"E640, Glycine and its sodium salt",
-E640I,Glycine,"E640i, Glycine",
-E640II,Sodiumglycinate,"E640ii, Sodiumglycinate",
-E641,Leucine,"E641, Leucine, L-Leucine",
-E642,L-lysine hydrochloride,"E642, L-lysine hydrochloride, L lysine hydrochloride",
-E650,Zinc acetate,"E650, Zinc acetate, zinc salt",
-E900,Dimethylpolysiloxane and Methylphenylpolysiloxane,"E900, Dimethylpolysiloxane and Methylphenylpolysiloxane",
-E900A,Dimethyl polysiloxane,"E900a, Dimethyl polysiloxane, Polydimethyl siloxane, Silicone fluid, Silicone oil, Polydimethylsiloxane, dimethicone, dimethylpolysiloxane",emulsifier
-E901,white and yellow beeswax,"E901, white and yellow beeswax, beeswax, white beeswax, yellow beeswax, white wax","carrier, emulsifier, stabiliser, thickener"
-E902,Candelilla wax,"E902, Candelilla wax","carrier, emulsifier, thickener"
-E903,Carnauba wax,"E903, Carnauba wax, carnauba wax coating agents",carrier
-E904,Shellac,"E904, Shellac, Bleached shellac",
-E905,Synthetic wax,"E905, Synthetic wax, Hydrocarbon wax, Fischer-Tropsch wax",
-E905A,mineral oil,"E905a, mineral oil",
-E905B,petroleum jelly,"E905b, petroleum jelly, petrolatum, white petrolatum, soft paraffin, multi-hydrocarbon",
-E905C,Petroleum wax,"E905c, Petroleum wax",
-E905CI,Microcrystalline wax,"E905ci, Microcrystalline wax",
-E905CII,Paraffin wax,"E905cii, Paraffin wax",
-E906,Benzoin resin,"E906, Benzoin resin",
-E907,Hydrogenated poly-1-decene,"E907, Hydrogenated poly-1-decene, Hydrogenated polydec-1-ene, Crystalline wax",
-E908,Rice bran wax,"E908, Rice bran wax",
-E909,Spermaceti,"E909, Spermaceti",
-E910,Wax ester,"E910, Wax ester",
-E911,Fatty acid methyl ester,"E911, Fatty acid methyl ester",
-E912,Montanic acid esters,"E912, Montanic acid esters, Montan acid esters",
-E913,Lanolin,"E913, Lanolin, sheep wool grease, wool wax, wool grease",
-E914,Oxidised polyethylene wax,"E914, Oxidised polyethylene wax",
-E916,Calcium iodate,"E916, Calcium iodate",
-E917,potassium iodate,"E917, potassium iodate",
-E919,Nitrosyl chloride,"E919, Nitrosyl chloride",
-E920,l-cysteine,"E920, l-cysteine, L-cysteine hydrochloride, L-Cysteine, L-2-Amino-3-mercaptopropionic acid, L-Cys, (R)-2-Amino-3-mercaptopropanoic acid, (2R)-2-amino-3-sulfanylpropanoic acid, (2R)-2-amino-3-mercaptopropanoic acid",
-E921,L-cysteine hydrochloride monohydrate,"E921, L-cysteine hydrochloride monohydrate",
-E922,Potassium persulfate,"E922, Potassium persulfate",
-E923,ammonium persulfate,"E923, ammonium persulfate",
-E924A,Potassium bromate,"E924a, Potassium bromate",
-E925,Chlorine,"E925, Chlorine, element 17",
-E926,Chlorine dioxide,"E926, Chlorine dioxide",
-E927,Azodicarbonamide and Carbamide,"E927, Azodicarbonamide and Carbamide",
-E927A,Azodicarbonamide,"E927a, Azodicarbonamide",
-E927B,Carbamide,"E927b, Carbamide, urea",
-E928,Benzole peroxide,"E928, Benzole peroxide, benzoyl peroxide",preservative
-E929,acetone peroxide,"E929, acetone peroxide, Mother of Satan, Triacetone Triperoxide, Peroxyacetone",
-E930,calcium peroxide,"E930, calcium peroxide",
-E931,Nitrogen,"E931, Nitrogen",
-E932,Nitrogen oxide,"E932, Nitrogen oxide",
-E938,Argon,"E938, Argon, element 18",
-E939,Helium,"E939, Helium, element 2",
-E941,Nitrogen,"E941, Nitrogen, nitrogen E941",propellent-gas
-E942,Nitrous oxide,"E942, Nitrous oxide, propellent gas E942","antioxidant, propellent-gas"
-E943A,Butane,"E943a, Butane",
-E943B,Isobutane,"E943b, Isobutane",
-E944,Propane,"E944, Propane",
-E946,octafluorocyclobutane,"E946, octafluorocyclobutane",
-E948,Oxygen,"E948, Oxygen, element 8",
-E949,Hydrogen,"E949, Hydrogen",
-E950,Acesulfame k,"E950, Acesulfame k, Acesulfame potassium",sweetener
-E951,Aspartame,"E951, Aspartame, 1-Methyl N-L-alpha-aspartyl-L-phenylalanine, Asp-phe-ome, 3-Amino-N-(alpha-methoxycarbonylphenethyl) succinamic acid, 3-Amino-N-(α-carboxyphenethyl)succinamic acid N-methyl ester, L-Aspartyl-L-phenylalanine methyl ester, 1-methyl N-L-α-aspartyl-L-phenylalanate, Aspartylphenylalanine methyl ester, 3-Amino-N-(alpha-carboxyphenethyl)succinamic acid N-methyl ester, 3-Amino-N-(α-methoxycarbonylphenethyl) succinamic acid, 1-Methyl N-L-alpha-aspartyl-L-phenylalanate",sweetener
-E952,Cyclamic acid and its Na and Ca salts,"E952, Cyclamic acid and its Na and Ca salts, Cyclamic acid, sodium cyclamate, cyclamates",sweetener
-E953,isomalt,"E953, isomalt","stabiliser, sweetener, thickener"
-E954,saccharin and its salts,"E954, saccharin and its salts, saccharin, saccharin sodium salt, saccharin sodium, sodium saccharin salt, saccharin calcium salt, saccharin calcium, calcium saccharine, saccharin potassium salt, saccharine potassium, potassium saccharine, sodium saccharin",sweetener
-E955,Sucralose,"E955, Sucralose",sweetener
-E957,Thaumatin,"E957, Thaumatin",sweetener
-E958,Glycyrrhizin,"E958, Glycyrrhizin",sweetener
-E959,Neohesperidine dihydrochalcone,"E959, Neohesperidine dihydrochalcone, Neohesperidin dihydrochalcone, Neohesperidine DC, NHDC",sweetener
-E960,Steviol glycosides,"E960, Steviol glycosides, Steviol glycoside, stevia rebaudiana extract, stevia leaf extract, steviol",sweetener
-E960A,Steviol glycosides from Stevia,"E960a, Steviol glycosides from Stevia",sweetener
-E960C,Enzymatically produced steviol glycosides,"E960c, Enzymatically produced steviol glycosides",sweetener
-E960D,Glucosylated steviol glycosides,"E960d, Glucosylated steviol glycosides",sweetener
-E961,Neotame,"E961, Neotame",sweetener
-E962,Salt of aspartame-acesulfame,"E962, Salt of aspartame-acesulfame, Aspartame-acesulfame, Aspartame-acesulfame salt, E-962, E 962",sweetener
-E963,Tagatose,"E963, Tagatose",sweetener
-E964,Polyglycitol syrup,"E964, Polyglycitol syrup",sweetener
-E965,maltitol,"E965, maltitol","emulsifier, humectant, stabiliser, sweetener, thickener"
-E965I,D-Maltitol,"E965i, D-Maltitol","emulsifier, humectant, stabiliser, sweetener, thickener"
-E965II,Maltitol syrup,"E965ii, Maltitol syrup","emulsifier, humectant, stabiliser, sweetener, thickener"
-E966,Lactitol,"E966, Lactitol, Lactit, Lactositol","emulsifier, sweetener, thickener"
-E967,Xylitol,"E967, Xylitol","emulsifier, humectant, stabiliser, sweetener, thickener"
-E968,Erythritol,"E968, Erythritol, Meso-erythritol, Tetrahydroxybutane, E-968, E 968","humectant, sweetener"
-E969,Advantame,"E969, Advantame",sweetener
-E999,Quillaia extract,"E999, Quillaia extract, Soapbark extract, Quillay bark extract, Panama bark extract, Quillai extract, Murillo bark extract, Quillaia",emulsifier
-,Ammonium and sodium carbonates,ammonium and sodium carbonates,
-,dimethyl sulfone,"methylsulfonylmethane, dimethyl sulfone, methyl sulfone",
+e_number,title,synonyms,functions,search_volume_total,search_volume_keywords
+E100,Curcumin,"E100, Curcumin, Turmeric extract, curcuma extract, turmeric color",colour,66120,Curcumin: 63000; E100: 1300; Turmeric extract: 1100; turmeric color: 700; curcuma extract: 20
+E1000,Cholic acid,"E1000, Cholic acid",,850,Cholic acid: 500; E1000: 350
+E1001,Choline salt,"E1001, Choline salt",,40,Choline salt: 30; E1001: 10
+E101,Riboflavin,"E101, Riboflavin, Vitamin B2, Flavaxin, Vitamin B 2, Vitamin G, Riboflavine, Lactoflavine, Lactoflavin",colour,85990,Riboflavin: 65000; Vitamin B2: 19000; Vitamin G: 1400; Vitamin B 2: 300; E101: 200; Riboflavine: 70; Lactoflavin: 20; Flavaxin: 0; Lactoflavine: 0
+E101A,Riboflavin-5'-phosphate,"E101A, E101a, Riboflavin-5'-phosphate",,10,Riboflavin-5'-phosphate: 10; E101A: 0
+E101I,Riboflavin,"E101i, Riboflavin, Vitamin B2",colour,84000,Riboflavin: 65000; Vitamin B2: 19000; E101I: 0
+E101II,Riboflavin-5′-phosphate,"E101ii, Riboflavin-5′-phosphate, phosphate lactoflavina",colour,0,E101II: 0; phosphate lactoflavina: 0; Riboflavin-5′-phosphate: 0
+E102,Tartrazine,"E102, Tartrazine, Yellow 5, Yellow number 5, Yellow no 5, Yellow no5, FD&C Yellow 5, FD&C Yellow no 5, FD&C Yellow no5, FD and C Yellow no. 5, FD and C Yellow 5, Yellow 5 lake",colour,26910,Yellow 5: 14000; Tartrazine: 8200; Yellow 5 lake: 1300; FD&C Yellow 5: 1200; Yellow number 5: 1200; E102: 450; Yellow no 5: 400; FD and C Yellow 5: 150; FD&C Yellow no 5: 10; FD and C Yellow no. 5: 0; FD&C Yellow no5: 0; Yellow no5: 0
+E103,Alkannin,"E103, Alkannin",,130,E103: 100; Alkannin: 30
+E104,Quinoline yellow,"E104, Quinoline yellow, Quinoline Yellow WS, C.I. 47005, Food Yellow 13",colour,290,E104: 150; Quinoline yellow: 100; Quinoline Yellow WS: 30; C.I. 47005: 10; Food Yellow 13: 0
+E105,Fast Yellow AB,"E105, Fast Yellow AB",,10,E105: 10; Fast Yellow AB: 0
+E106,flavin mononucleotide,"E106, flavin mononucleotide",,300,flavin mononucleotide: 200; E106: 100
+E107,Yellow 2G,"E107, Yellow 2G",,110,E107: 100; Yellow 2G: 10
+E110,Sunset yellow FCF,"E110, Sunset yellow FCF, CI Food Yellow 3, Orange Yellow S, FD&C Yellow 6, FD & C Yellow No.6, FD and C Yellow No. 6, Yellow No.6, Yellow 6, FD and C Yellow 6, C.I. 15985, Yellow 6 lake, Sunset Yellow",colour,8760,Yellow 6: 4500; Yellow 6 lake: 1500; Sunset Yellow: 1200; FD&C Yellow 6: 600; E110: 450; Sunset yellow FCF: 400; FD and C Yellow 6: 80; Yellow No.6: 20; Orange Yellow S: 10; C.I. 15985: 0; CI Food Yellow 3: 0; FD & C Yellow No.6: 0; FD and C Yellow No. 6: 0
+E1100,Alpha-Amylase,"E1100, Alpha-Amylase, amylase, E-1100, E 1100",,40350,amylase: 40000; Alpha-Amylase: 300; E1100: 40; E-1100: 10; E 1100: 0
+E1101,Protease,"E1101, Protease, peptidase, proteinase, EC 3.4, E-1101, E 1101",stabiliser,16550,Protease: 15000; peptidase: 1200; proteinase: 300; E1101: 30; E-1101: 20; E 1101: 0; EC 3.4: 0
+E1102,Glucose oxidase,"E1102, Glucose oxidase",antioxidant,910,Glucose oxidase: 900; E1102: 10
+E1103,Invertase,"E1103, Invertase",stabiliser,2010,Invertase: 2000; E1103: 10
+E1104,lipase,"E1104, lipase",,61000,lipase: 61000; E1104: 0
+E1105,Lysozyme,"E1105, Lysozyme, Lysozyme hydrochloride, E 1105, E-1105",preservative,9700,Lysozyme: 9600; E1105: 50; Lysozyme hydrochloride: 30; E 1105: 20; E-1105: 0
+E111,Orange GGN,"E111, Orange GGN, Alpha-naphthol, Alpha-naphtol, alpha-naphthol orange",,380,E111: 350; Alpha-naphthol: 20; Orange GGN: 10; alpha-naphthol orange: 0; Alpha-naphtol: 0
+E120,Cochineal,"E120, Cochineal, carminic acid, carmines, Natural Red 4, Cochineal Red",colour,41600,Cochineal: 19000; carmines: 18000; E120: 3000; carminic acid: 800; Natural Red 4: 500; Cochineal Red: 300
+E1200,Polydextrose,"E1200, Polydextrose, 68424-04-4","humectant, stabiliser, thickener",5250,Polydextrose: 5100; E1200: 150; 68424-04-4: 0
+E1201,Polyvinylpyrrolidone,"E1201, Polyvinylpyrrolidone, Povidone, PVP","emulsifier, stabiliser, thickener",10720,Povidone: 5600; PVP: 3300; Polyvinylpyrrolidone: 1800; E1201: 20
+E1202,Polyvinylpolypyrrolidone,"E1202, Polyvinylpolypyrrolidone, Crospovidone, Cross-linked polyvidone",stabiliser,2670,Crospovidone: 2600; Polyvinylpolypyrrolidone: 60; E1202: 10; Cross-linked polyvidone: 0
+E1203,Polyvinyl alcohol,"E1203, Polyvinyl alcohol, Vinyl alcohol polymer, PVOH, PVAl",thickener,7310,Polyvinyl alcohol: 6500; PVAl: 450; PVOH: 350; E1203: 10; Vinyl alcohol polymer: 0
+E1204,Pullulan,"E1204, Pullulan, Linear",thickener,44600,Linear: 43000; Pullulan: 1600; E1204: 0
+E1205,Basic methacrylate copolymer,"E1205, Basic methacrylate copolymer",,0,Basic methacrylate copolymer: 0; E1205: 0
+E1206,Neutral methacrylate copolymer,"E1206, Neutral methacrylate copolymer",,0,E1206: 0; Neutral methacrylate copolymer: 0
+E1207,Anionic methacrylate copolymer,"E1207, Anionic methacrylate copolymer",,0,Anionic methacrylate copolymer: 0; E1207: 0
+E1208,Polyvinylpyrrolidone-vinyl acetate copolymer,"E1208, Polyvinylpyrrolidone-vinyl acetate copolymer",,10,E1208: 10; Polyvinylpyrrolidone-vinyl acetate copolymer: 0
+E1209,Polyvinyl alcohol-polyethylene glycol-graft-co-polymer,"E1209, Polyvinyl alcohol-polyethylene glycol-graft-co-polymer",,0,E1209: 0; Polyvinyl alcohol-polyethylene glycol-graft-co-polymer: 0
+E121,Citrus Red 2,"E121, Citrus Red 2",,310,Citrus Red 2: 250; E121: 60
+E1210,Carbomer,"E1210, Carbomer",,5840,Carbomer: 5800; E1210: 40
+E122,Azorubine,"E122, Azorubine, carmoisine, Food Red 3, Brillantcarmoisin O, Acid Red 14, Azorubin S, C.I. 14720",colour,430,carmoisine: 200; E122: 150; Azorubine: 60; Azorubin S: 10; Food Red 3: 10; Acid Red 14: 0; Brillantcarmoisin O: 0; C.I. 14720: 0
+E123,Amaranth,"E123, Amaranth, FD&C Red 2",colour,86210,Amaranth: 86000; E123: 200; FD&C Red 2: 10
+E124,Ponceau 4r,"E124, Ponceau 4r, cochineal red a, CI Food Red 7, Brilliant Scarlet 4R, Ponceau",colour,760,Ponceau: 500; Ponceau 4r: 150; E124: 100; cochineal red a: 10; Brilliant Scarlet 4R: 0; CI Food Red 7: 0
+E125,Scarlet GN,"E125, Scarlet GN, C.I. Food Red 1, Ponceau SX, FD&C Red No. 4, C.I. 14700",,50,E125: 30; FD&C Red No. 4: 20; C.I. 14700: 0; C.I. Food Red 1: 0; Ponceau SX: 0; Scarlet GN: 0
+E126,Ponceau 6R,"E126, Ponceau 6R",,100,E126: 100; Ponceau 6R: 0
+E127,Erythrosine,"E127, Erythrosine, FD&C Red 3, FD & C Red No.3, Red No. 3, FD&C Red no3, FD and C Red 3, Red 3, Red 3 lake",colour,11990,Red 3: 9300; Erythrosine: 1500; Red No. 3: 800; FD&C Red 3: 300; E127: 60; FD and C Red 3: 20; Red 3 lake: 10; FD & C Red No.3: 0; FD&C Red no3: 0
+E128,Red 2G,"E128, Red 2G",colour,80,E128: 50; Red 2G: 30
+E129,Allura red,"E129, Allura red, Allura red ac, Allura Red AC, FD&C Red 40, FD and C Red 40, Red 40, Red no40, Red no. 40, FD and C Red no. 40, Food Red 17, C.I. 16035, Red 40 lake",colour,142310,Red 40: 130000; Red 40 lake: 7100; FD&C Red 40: 2900; Allura red ac: 900; Allura red: 800; FD and C Red 40: 300; Red no. 40: 200; E129: 100; Red no40: 10; C.I. 16035: 0; FD and C Red no. 40: 0; Food Red 17: 0
+E130,Indanthrene blue RS,"E130, Indanthrene blue RS, Indanthrone blue, indanthrene",,470,E130: 300; Indanthrone blue: 150; indanthrene: 20; Indanthrene blue RS: 0
+E131,Patent blue v,"E131, Patent blue v, Food Blue 5, Sulphan Blue, Acid Blue 3, L-Blau 3, C-Blau 20, Patentblau V, Sky Blue, C.I. 42051",,48170,Sky Blue: 48000; E131: 70; Patent blue v: 50; Acid Blue 3: 20; C.I. 42051: 10; Patentblau V: 10; Sulphan Blue: 10; C-Blau 20: 0; Food Blue 5: 0; L-Blau 3: 0
+E132,Indigotine,"E132, Indigotine, indigo carmine, FD&C Blue 2, FD and C Blue 2, C.I. Food Blue 2, Blue 2 lake, Blue 2",colour,3640,Blue 2: 1800; indigo carmine: 1200; Blue 2 lake: 500; FD&C Blue 2: 50; Indigotine: 50; E132: 30; FD and C Blue 2: 10; C.I. Food Blue 2: 0
+E133,Brilliant blue FCF,"E133, Brilliant blue FCF, FD&C Blue 1, FD and C Blue 1, Blue 1, fd&c blue no. 1, Blue 1 lake",colour,10000,Blue 1: 6200; Blue 1 lake: 1600; Brilliant blue FCF: 800; FD&C Blue 1: 500; E133: 400; fd&c blue no. 1: 300; FD and C Blue 1: 200
+E140,Chlorophylls and Chlorophyllins,"E140, Chlorophylls and Chlorophyllins",colour,200,E140: 200; Chlorophylls and Chlorophyllins: 0
+E1400,Dextrin,"E1400, Dextrin","carrier, emulsifier, stabiliser, thickener",9310,Dextrin: 9300; E1400: 10
+E1401,Acid-treated modified starch,"E1401, Acid-treated modified starch","emulsifier, stabiliser, thickener",0,Acid-treated modified starch: 0; E1401: 0
+E1402,Alkaline modified starch,"E1402, Alkaline modified starch","emulsifier, stabiliser, thickener",0,Alkaline modified starch: 0; E1402: 0
+E1403,Bleached starch,"E1403, Bleached starch","emulsifier, stabiliser, thickener",10,Bleached starch: 10; E1403: 0
+E1404,Oxidised starch,"E1404, Oxidised starch","emulsifier, stabiliser, thickener",20,E1404: 10; Oxidised starch: 10
+E1405,Enzyme treated starch,"E1405, Enzyme treated starch","emulsifier, stabiliser, thickener",10,E1405: 10; Enzyme treated starch: 0
+E140I,Chlorophylls,"E140i, Chlorophylls, CI Natural Green 3, Magnesium Chlorophyll, chlorophyll",colour,167120,chlorophyll: 167000; Chlorophylls: 100; Magnesium Chlorophyll: 20; CI Natural Green 3: 0; E140I: 0
+E140II,Chlorophyllins,"E140ii, Chlorophyllins, CI Natural Green 5, Sodium Chlorophyllin",colour,20,Chlorophyllins: 10; Sodium Chlorophyllin: 10; CI Natural Green 5: 0; E140II: 0
+E141,Copper complexes of chlorophylls and chlorophyllins,"E141, Copper complexes of chlorophylls and chlorophyllins, Copper complexes of chlorophyll and chlorophyllins",colour,60,E141: 60; Copper complexes of chlorophyll and chlorophyllins: 0; Copper complexes of chlorophylls and chlorophyllins: 0
+E1410,Monostarch phosphate,"E1410, Monostarch phosphate","emulsifier, stabiliser, thickener",10,Monostarch phosphate: 10; E1410: 0
+E1411,Distarch glycerol,"E1411, Distarch glycerol","emulsifier, stabiliser, thickener",0,Distarch glycerol: 0; E1411: 0
+E1412,Distarch phosphate,"E1412, Distarch phosphate","emulsifier, stabiliser, thickener",180,E1412: 100; Distarch phosphate: 80
+E1413,Phosphated distarch phosphate,"E1413, Phosphated distarch phosphate","emulsifier, stabiliser, thickener",0,E1413: 0; Phosphated distarch phosphate: 0
+E1414,Acetylated distarch phosphate,"E1414, Acetylated distarch phosphate","emulsifier, stabiliser, thickener",40,E1414: 30; Acetylated distarch phosphate: 10
+E141I,Copper complexes of chlorophylls,"E141i, Copper complexes of chlorophylls, CI Natural Green 3, Copper Chlorophyll",colour,60,Copper Chlorophyll: 60; CI Natural Green 3: 0; Copper complexes of chlorophylls: 0; E141I: 0
+E141II,Copper complexes of chlorophyllins,"E141ii, Copper complexes of chlorophyllins, Sodium Copper Chlorophyllin, Potassium Copper Chlorophyllin, Copper Chlorophyllin",colour,1560,Sodium Copper Chlorophyllin: 1300; Copper Chlorophyllin: 250; Copper complexes of chlorophyllins: 10; E141II: 0; Potassium Copper Chlorophyllin: 0
+E142,Green s,"E142, Green s, CI Food Green 4",,470,Green s: 450; E142: 20; CI Food Green 4: 0
+E1420,Acetylated starch,"E1420, Acetylated starch","emulsifier, stabiliser, thickener",20,Acetylated starch: 10; E1420: 10
+E1421,Acetylated starch,"E1421, Acetylated starch, mono starch acetate, Starch acetate esterified with vinyl acetate","emulsifier, stabiliser, thickener",10,Acetylated starch: 10; E1421: 0; mono starch acetate: 0; Starch acetate esterified with vinyl acetate: 0
+E1422,Acetylated distarch adipate,"E1422, Acetylated distarch adipate","emulsifier, stabiliser, thickener",160,E1422: 100; Acetylated distarch adipate: 60
+E143,Fast Green FCF,"E143, Fast Green FCF, Food green 3, C.I. 42053, Solid Green FCF, Green 1724, FD&C Green No. 3, Green 3",colour,1090,Green 3: 800; Fast Green FCF: 200; FD&C Green No. 3: 80; E143: 10; C.I. 42053: 0; Food green 3: 0; Green 1724: 0; Solid Green FCF: 0
+E1440,Hydroxypropyl starch,"E1440, Hydroxypropyl starch","emulsifier, stabiliser, thickener",80,Hydroxypropyl starch: 70; E1440: 10
+E1441,Hydroxy propyl distarch glycerine,"E1441, Hydroxy propyl distarch glycerine","emulsifier, stabiliser, thickener",0,E1441: 0; Hydroxy propyl distarch glycerine: 0
+E1442,Hydroxypropyl distarch phosphate,"E1442, Hydroxypropyl distarch phosphate","emulsifier, stabiliser, thickener",240,Hydroxypropyl distarch phosphate: 150; E1442: 90
+E1450,Starch sodium octenyl succinate,"E1450, Starch sodium octenyl succinate","emulsifier, stabiliser, thickener",30,Starch sodium octenyl succinate: 20; E1450: 10
+E1451,Acetylated oxidised starch,"E1451, Acetylated oxidised starch","emulsifier, stabiliser, thickener",0,Acetylated oxidised starch: 0; E1451: 0
+E1452,Starch aluminium octenyl succinate,"E1452, Starch aluminium octenyl succinate","emulsifier, stabiliser, thickener",0,E1452: 0; Starch aluminium octenyl succinate: 0
+E14XX,Modified Starch,"E14XX, Modified Starch","emulsifier, stabiliser, thickener",600,Modified Starch: 600; E14XX: 0
+E150,Caramel,"E150, Caramel",,78450,Caramel: 78000; E150: 450
+E1503,Castor oil,"E1503, Castor oil","carrier, emulsifier",209000,Castor oil: 209000; E1503: 0
+E1504,ethyl acetate,"E1504, ethyl acetate, ethyl ethanoate",carrier,35210,ethyl acetate: 34000; ethyl ethanoate: 1200; E1504: 10
+E1505,Triethyl citrate,"E1505, Triethyl citrate, triethyl 2-hydroxypropane-1‚2‚3-tricarboxylate","carrier, emulsifier, sequestrant, stabiliser",1810,Triethyl citrate: 1800; E1505: 10; triethyl 2-hydroxypropane-1‚2‚3-tricarboxylate: 0
+E150A,Plain caramel,"E150a, Plain caramel, caramel color, caramel coloring",colour,6710,caramel color: 6100; caramel coloring: 500; E150A: 100; Plain caramel: 10
+E150B,Caustic sulphite caramel,"E150b, Caustic sulphite caramel, caramel E150b",colour,50,E150B: 30; caramel E150b: 10; Caustic sulphite caramel: 10
+E150C,Ammonia caramel,"E150c, Ammonia caramel, baker's caramel, confectioner's caramel, beer caramel, Caramel Color Ammonia, Caramel Color",colour,6200,Caramel Color: 6100; E150C: 50; beer caramel: 40; Ammonia caramel: 10; baker's caramel: 0; Caramel Color Ammonia: 0; confectioner's caramel: 0
+E150D,Sulphite ammonia caramel,"E150d, Sulphite ammonia caramel, Sulfite ammonia caramel, Caramel Colour Ammonium Sulphite Process, Colour Sulphite Ammonia Caramel, Colour E150d, Food Colour 150d, CAS 8028-89-5, acid-proof caramel, soft-drink caramel",colour,180,E150D: 150; Sulphite ammonia caramel: 20; Sulfite ammonia caramel: 10; acid-proof caramel: 0; Caramel Colour Ammonium Sulphite Process: 0; CAS 8028-89-5: 0; Colour E150d: 0; Colour Sulphite Ammonia Caramel: 0; Food Colour 150d: 0; soft-drink caramel: 0
+E151,Brilliant black bn,"E151, Brilliant black bn, black pn, E 151, C.I. 28440, Brilliant Black PN, Food Black 1, Naphthol Black, C.I. Food Brown 1, Brilliant Black A",colour,90,black pn: 40; E151: 30; Brilliant black bn: 10; E 151: 10; Brilliant Black A: 0; Brilliant Black PN: 0; C.I. 28440: 0; C.I. Food Brown 1: 0; Food Black 1: 0; Naphthol Black: 0
+E1510,Ethanol,"E1510, Ethanol, ethyl alcohol, Methylcarbinol, Ethyl hydroxide, Ethyl hydrate",,101090,Ethanol: 90000; ethyl alcohol: 11000; E1510: 60; Ethyl hydroxide: 20; Methylcarbinol: 10; Ethyl hydrate: 0
+E1517,Glyceryl diacetate,"E1517, Glyceryl diacetate",,0,E1517: 0; Glyceryl diacetate: 0
+E1518,Glyceryl triacetate,"E1518, Glyceryl triacetate, Triacetin, glycerin triacetate, 1‚2‚3-triacetoxypropane","carrier, emulsifier, humectant",1970,Triacetin: 1900; Glyceryl triacetate: 60; E1518: 10; 1‚2‚3-triacetoxypropane: 0; glycerin triacetate: 0
+E1519,Benzyl alcohol,"E1519, Benzyl alcohol, Phenylcarbinol, Phenylmethyl alcohol, Benzenemethanol",,17330,Benzyl alcohol: 17000; Phenylcarbinol: 250; Benzenemethanol: 80; E1519: 0; Phenylmethyl alcohol: 0
+E152,Black 7984,"E152, Black 7984, Food Black 2, carbon black",,15030,carbon black: 15000; E152: 30; Black 7984: 0; Food Black 2: 0
+E1520,Propylene Glycol,"E1520, Propylene Glycol, Propane-1‚2-diol, Propan-1‚2-diol","emulsifier, humectant",65050,Propylene Glycol: 65000; E1520: 50; Propan-1‚2-diol: 0; Propane-1‚2-diol: 0
+E1521,Polyethylene glycol,"E1521, Polyethylene glycol",,68010,Polyethylene glycol: 68000; E1521: 10
+E153,Vegetable carbon,"E153, Vegetable carbon",,180,Vegetable carbon: 100; E153: 80
+E154,Brown FK,"E154, Brown FK, Kipper Brown",,20,E154: 20; Brown FK: 0; Kipper Brown: 0
+E155,Brown ht,"E155, Brown ht, Chocolate brown HT",colour,50,E155: 30; Brown ht: 20; Chocolate brown HT: 0
+E160,Carotenoids,"E160, Carotenoids",,10150,Carotenoids: 10000; E160: 150
+E160A,carotene,"E160a, carotene",colour,8900,carotene: 8800; E160A: 100
+E160AI,Beta-carotene,"E160ai, Beta-carotene",colour,4300,Beta-carotene: 4300; E160AI: 0
+E160AII,Plant carotenes,"E160aii, Plant carotenes",colour,0,E160AII: 0; Plant carotenes: 0
+E160AIII,Beta-carotene from blakeslea trispora,"E160aiii, Beta-carotene from blakeslea trispora",colour,0,Beta-carotene from blakeslea trispora: 0; E160AIII: 0
+E160AIV,Algal carotenes,"E160aiv, Algal carotenes",colour,0,Algal carotenes: 0; E160AIV: 0
+E160B,Annatto,"E160b, Annatto, bixin, norbixin, roucou, achiote, annatto norbixin, annatto bixin, Orlean, Terre orellana, L. Orange, CI Natural Orange 4",colour,75000,achiote: 42000; Annatto: 32000; bixin: 400; roucou: 350; Orlean: 100; E160B: 50; norbixin: 50; annatto norbixin: 40; annatto bixin: 10; CI Natural Orange 4: 0; L. Orange: 0; Terre orellana: 0
+E160BI,Annatto bixin,"E160bi, Annatto bixin, Bixin",colour,410,Bixin: 400; Annatto bixin: 10; E160BI: 0
+E160BII,Annatto norbixin,"E160bii, Annatto norbixin, Norbixin",colour,90,Norbixin: 50; Annatto norbixin: 40; E160BII: 0
+E160C,Paprika extract,"E160c, Paprika extract, capsanthin, capsorubin, Paprika oleoresin, oleoresin of paprika, oleoresin paprika, paprika color, colored with paprika",colour,2950,oleoresin paprika: 1100; paprika color: 600; Paprika oleoresin: 600; Paprika extract: 250; capsanthin: 200; oleoresin of paprika: 100; E160C: 60; capsorubin: 40; colored with paprika: 0
+E160D,Lycopene,"E160d, Lycopene",colour,31010,Lycopene: 31000; E160D: 10
+E160E,Beta-apo-8′-carotenal (c30),"E160e, Beta-apo-8′-carotenal (c30), Apocarotenal, Beta-apo-8'-carotenal, C.I. Food orange 6, E number 160E, Trans-beta-apo-8'-carotenal, C30H40O",colour,620,Apocarotenal: 450; Beta-apo-8'-carotenal: 150; E160E: 20; Beta-apo-8′-carotenal (c30): 0; C.I. Food orange 6: 0; C30H40O: 0; E number 160E: 0; Trans-beta-apo-8'-carotenal: 0
+E160F,Ethyl ester of beta-apo-8'-carotenic acid (C 30),"E160f, Ethyl ester of beta-apo-8'-carotenic acid (C 30), Ethyl ester of beta-apo-8'-carotenic acid, Food orange 7",colour,0,E160F: 0; Ethyl ester of beta-apo-8'-carotenic acid: 0; Ethyl ester of beta-apo-8'-carotenic acid (C 30): 0; Food orange 7: 0
+E161,Xanthophylls,"E161, Xanthophylls",,530,Xanthophylls: 500; E161: 30
+E161B,Lutein,"E161b, Lutein, Mixed Carotenoids, Xanthophyll, tagete extract",colour,33280,Lutein: 31000; Xanthophyll: 2200; Mixed Carotenoids: 70; E161B: 10; tagete extract: 0
+E161C,Cryptoaxanthin,"E161c, Cryptoaxanthin, Cryptoxanthin",,70,Cryptoxanthin: 70; Cryptoaxanthin: 0; E161C: 0
+E161G,Canthaxanthin,"E161g, Canthaxanthin",colour,450,Canthaxanthin: 450; E161G: 0
+E161H,Zeaxanthin,"E161h, Zeaxanthin",colour,9400,Zeaxanthin: 9400; E161H: 0
+E161J,Astaxanthin,"E161j, Astaxanthin",,70000,Astaxanthin: 70000; E161J: 0
+E162,Beetroot red,"E162, Beetroot red, betanin",colour,550,E162: 300; betanin: 150; Beetroot red: 100
+E163,Anthocyanins,"E163, Anthocyanins, Anthocyanin",colour,19350,Anthocyanin: 11000; Anthocyanins: 8200; E163: 150
+E163C,Malvidin,"E163c, Malvidin",colour,50,Malvidin: 50; E163C: 0
+E164,saffron,"E164, saffron, Gardenia Yellow",,196450,saffron: 196000; E164: 400; Gardenia Yellow: 50
+E165,Gardenia Blue,"E165, Gardenia Blue",,800,Gardenia Blue: 700; E165: 100
+E166,Sandalwood,"E166, Sandalwood",,24010,Sandalwood: 24000; E166: 10
+E170,Calcium carbonates,"E170, Calcium carbonates",,1530,E170: 1500; Calcium carbonates: 30
+E170I,Calcium carbonate,"E170i, Calcium carbonate, CI Pigment White 18, Chalk","colour, stabiliser",119000,Calcium carbonate: 83000; Chalk: 36000; CI Pigment White 18: 0; E170I: 0
+E170II,Calcium hydrogen carbonate,"E170ii, Calcium hydrogen carbonate, Calcium bicarbonate, Calcium acid carbonate",,1350,Calcium bicarbonate: 1100; Calcium hydrogen carbonate: 250; Calcium acid carbonate: 0; E170II: 0
+E171,Titanium dioxide,"E171, Titanium dioxide",colour,46080,Titanium dioxide: 46000; E171: 80
+E172,Iron oxides and iron hydroxides,"E172, Iron oxides and iron hydroxides",colour,60,E172: 60; Iron oxides and iron hydroxides: 0
+E172I,Black iron oxide,"E172i, Black iron oxide",colour,500,Black iron oxide: 500; E172I: 0
+E172II,Red iron oxide,"E172ii, Red iron oxide, iron(III) oxide, ferric oxide",colour,3200,ferric oxide: 2100; iron(III) oxide: 700; Red iron oxide: 400; E172II: 0
+E172III,Yellow iron oxide,"E172iii, Yellow iron oxide",colour,200,Yellow iron oxide: 200; E172III: 0
+E173,Aluminium,"E173, Aluminium, Aluminum, element 13",,210260,Aluminum: 178000; Aluminium: 32000; element 13: 250; E173: 10
+E174,Silver,"E174, Silver, element 47",,175350,Silver: 174000; element 47: 1300; E174: 50
+E175,Gold,"Edible gold, E175, Gold, Pigment Metal 3, element 79",,385900,Gold: 378000; Edible gold: 3800; E175: 3400; element 79: 700; Pigment Metal 3: 0
+E180,Litholrubine bk,"E180, Litholrubine bk, CI Pigment Red 57, Rubinpigment, Pigment Rubine, Lithol rubine bk",,160,E180: 150; Lithol rubine bk: 10; CI Pigment Red 57: 0; Litholrubine bk: 0; Pigment Rubine: 0; Rubinpigment: 0
+E181,Tannin,"E181, Tannin","colour, emulsifier, stabiliser, thickener",8410,Tannin: 8400; E181: 10
+E182,Orcein,"E182, Orcein",,110,Orcein: 100; E182: 10
+E200,Sorbic acid,"E200, Sorbic acid",preservative,3200,Sorbic acid: 2500; E200: 700
+E201,Sodium sorbate,"E201, Sodium sorbate, sodium (E‚E)-hexa-2‚4-dienoate",preservative,200,E201: 100; Sodium sorbate: 100; sodium (E‚E)-hexa-2‚4-dienoate: 0
+E202,Potassium sorbate,"E202, Potassium sorbate",preservative,22200,Potassium sorbate: 22000; E202: 200
+E203,Calcium sorbate,"E203, Calcium sorbate",preservative,250,Calcium sorbate: 150; E203: 100
+E209,Heptylparaben,"E209, Heptylparaben",,60,E209: 50; Heptylparaben: 10
+E210,Benzoic acid,"E210, Benzoic acid",preservative,34250,Benzoic acid: 34000; E210: 250
+E211,Sodium benzoate,"E211, Sodium benzoate",preservative,37150,Sodium benzoate: 37000; E211: 150
+E212,Potassium benzoate,"E212, Potassium benzoate",preservative,6000,Potassium benzoate: 5900; E212: 100
+E213,Calcium benzoate,"E213, Calcium benzoate",preservative,140,E213: 100; Calcium benzoate: 40
+E214,Ethyl p-hydroxybenzoate,"E214, Ethyl p-hydroxybenzoate, Ethylparaben, ethyl para-hydroxybenzoate",preservative,400,Ethylparaben: 300; E214: 80; Ethyl p-hydroxybenzoate: 20; ethyl para-hydroxybenzoate: 0
+E215,Sodium ethyl p-hydroxybenzoate,"E215, Sodium ethyl p-hydroxybenzoate",,50,E215: 50; Sodium ethyl p-hydroxybenzoate: 0
+E216,Propyl para-hydroxybenzoate,"E216, Propyl para-hydroxybenzoate, Sodium Salt of Propyl-p-hydroxy Benzoic Acid, Propylparaben",,3600,Propylparaben: 3200; E216: 400; Propyl para-hydroxybenzoate: 0; Sodium Salt of Propyl-p-hydroxy Benzoic Acid: 0
+E217,Sodium propyl para-hydroxybenzoate,"E217, Sodium propyl para-hydroxybenzoate",,40,E217: 30; Sodium propyl para-hydroxybenzoate: 10
+E218,Methyl p-hydroxybenzoate,"E218, Methyl p-hydroxybenzoate, Methylparaben, methyl 4-hydroxybenzoate",preservative,4700,Methylparaben: 4500; methyl 4-hydroxybenzoate: 100; E218: 50; Methyl p-hydroxybenzoate: 50
+E219,Sodium methyl p-hydroxybenzoate,"E219, Sodium methyl p-hydroxybenzoate, sodium methylparaben",,80,E219: 40; sodium methylparaben: 40; Sodium methyl p-hydroxybenzoate: 0
+E220,Sulphur dioxide,"E220, Sulphur dioxide, Sulfur dioxide","antioxidant, preservative",18600,Sulfur dioxide: 17000; Sulphur dioxide: 1300; E220: 300
+E221,Sodium sulphite,"E221, Sodium sulphite, Sodium sulfite","antioxidant, preservative",5000,Sodium sulfite: 4900; E221: 80; Sodium sulphite: 20
+E222,Sodium bisulphite,"E222, Sodium bisulphite, Sodium bisulfite","antioxidant, preservative",4840,Sodium bisulfite: 4600; E222: 150; Sodium bisulphite: 90
+E223,Sodium metabisulphite,"E223, Sodium metabisulphite, Pyrosulphite, Sodium metabisulfite, Pyrosulfite","antioxidant, preservative",7320,Sodium metabisulfite: 6900; Sodium metabisulphite: 300; E223: 100; Pyrosulfite: 10; Pyrosulphite: 10
+E224,Potassium metabisulphite,"E224, Potassium metabisulphite, Potassium metabisulfite","antioxidant, preservative",2610,Potassium metabisulfite: 2500; Potassium metabisulphite: 80; E224: 30
+E225,Calcium Disulphite,"E225, Calcium Disulphite, Calcium Disulfite, Calcium Pyrosulphite, Calcium Pyrosulfite, Potassium sulfite, Potassium sulphite","antioxidant, preservative",1690,Potassium sulfite: 1600; Potassium sulphite: 50; E225: 40; Calcium Disulfite: 0; Calcium Disulphite: 0; Calcium Pyrosulfite: 0; Calcium Pyrosulphite: 0
+E226,Calcium sulphite,"E226, Calcium sulphite, Calcium sulfite",,540,Calcium sulfite: 500; E226: 40; Calcium sulphite: 0
+E227,Calcium bisulphite,"E227, Calcium bisulphite, Calcium bisulfite",,40,Calcium bisulfite: 30; E227: 10; Calcium bisulphite: 0
+E228,Potassium bisulphite,"E228, Potassium bisulphite, Potassium bisulfite",,90,Potassium bisulfite: 80; E228: 10; Potassium bisulphite: 0
+E230,Biphenyl,"E230, Biphenyl, diphenyl, (C6H5)2",preservative,4200,Biphenyl: 3900; diphenyl: 150; E230: 150; (C6H5)2: 0
+E231,Orthophenyl phenol,"E231, Orthophenyl phenol, 2-hydroxybiphenyl",preservative,150,E231: 150; 2-hydroxybiphenyl: 0; Orthophenyl phenol: 0
+E232,Sodium orthophenyl phenol,"E232, Sodium orthophenyl phenol",preservative,90,E232: 80; Sodium orthophenyl phenol: 10
+E233,Thiabendazole,"E233, Thiabendazole",,1160,Thiabendazole: 1100; E233: 60
+E234,Nisin,"E234, Nisin",preservative,1750,Nisin: 1600; E234: 150
+E235,Natamycin,"E235, Natamycin, Pimaracin",preservative,3850,Natamycin: 3700; E235: 150; Pimaracin: 0
+E236,Formic acid,"E236, Formic acid, methanoic acid",,20680,Formic acid: 19000; methanoic acid: 1600; E236: 80
+E237,Sodium formiate,"E237, Sodium formiate, Sodium formate",,1730,Sodium formate: 1700; E237: 30; Sodium formiate: 0
+E238,Calcium formiate,"E238, Calcium formiate, calcium formate",,220,calcium formate: 200; Calcium formiate: 10; E238: 10
+E239,Hexamethylene tetramine,"E239, Hexamethylene tetramine, Hexamine, hexamethylenetetramine",preservative,1020,hexamethylenetetramine: 500; Hexamine: 450; E239: 40; Hexamethylene tetramine: 30
+E240,Formaldehyde,"E240, Formaldehyde, methanal",,79240,Formaldehyde: 77000; methanal: 2200; E240: 40
+E241,Gum Guaicum,"E241, Gum Guaicum",,10,E241: 10; Gum Guaicum: 0
+E242,Dimethyl dicarbonate,"E242, Dimethyl dicarbonate, DMDC, methoxycarbonyl methyl carbonate, dicarbonic acid dimethyl ester, Velcorin",preservative,5830,DMDC: 5300; Velcorin: 350; E242: 100; Dimethyl dicarbonate: 80; dicarbonic acid dimethyl ester: 0; methoxycarbonyl methyl carbonate: 0
+E243,Ethyl lauroyl arginate,"E243, Ethyl lauroyl arginate",preservative,110,E243: 70; Ethyl lauroyl arginate: 40
+E246,Glycolipids,"E246, Glycolipids",,1500,Glycolipids: 1400; E246: 100
+E249,Potassium nitrite,"E249, Potassium nitrite",preservative,1530,Potassium nitrite: 1500; E249: 30
+E250,Sodium nitrite,"E250, Sodium nitrite, NaNO2",preservative,15400,Sodium nitrite: 11000; NaNO2: 3200; E250: 1200
+E251,Sodium nitrate,"E251, Sodium nitrate",preservative,34030,Sodium nitrate: 34000; E251: 30
+E252,Potassium nitrate,"E252, Potassium nitrate",preservative,20050,Potassium nitrate: 20000; E252: 50
+E260,Acetic acid,"E260, Acetic acid, ethanoic acid",preservative,98750,Acetic acid: 94000; ethanoic acid: 4600; E260: 150
+E261,Potassium acetate,"E261, Potassium acetate",preservative,10200,E261: 5400; Potassium acetate: 4800
+E262,Sodium acetates,"E262, Sodium acetates","preservative, sequestrant",60,E262: 60; Sodium acetates: 0
+E262I,Sodium acetate,"E262i, Sodium acetate","preservative, sequestrant",23000,Sodium acetate: 23000; E262I: 0
+E262II,Sodium diacetate,"E262ii, Sodium diacetate","preservative, sequestrant",1600,Sodium diacetate: 1600; E262II: 0
+E263,Calcium acetate,"E263, Calcium acetate","preservative, stabiliser",15080,Calcium acetate: 15000; E263: 80
+E264,Ammonium acetate,"E264, Ammonium acetate",,5200,Ammonium acetate: 5100; E264: 100
+E265,Dehydroacetic acid,"E265, Dehydroacetic acid",,550,Dehydroacetic acid: 500; E265: 50
+E266,Sodium dehydroacetate,"E266, Sodium dehydroacetate",,370,Sodium dehydroacetate: 350; E266: 20
+E267,Buffered vinegar,"E267, Buffered vinegar",,200,Buffered vinegar: 150; E267: 50
+E270,Lactic acid,"E270, Lactic acid, milk acid, 2-Hydroxypropanoic acid",,92350,Lactic acid: 92000; 2-Hydroxypropanoic acid: 200; E270: 90; milk acid: 60
+E280,Propionic acid,"E280, Propionic acid, Propanoic acid, CH3CH2COOH",preservative,9940,Propionic acid: 5300; Propanoic acid: 4200; CH3CH2COOH: 350; E280: 90
+E281,Sodium propionate,"E281, Sodium propionate",preservative,1010,Sodium propionate: 1000; E281: 10
+E282,calcium propionate,"E282, calcium propionate, calcium propanoate, cal. pro., cal.pro.",preservative,2710,calcium propionate: 2600; E282: 90; calcium propanoate: 20; cal. pro.: 0; cal.pro.: 0
+E283,Potassium propionate,"E283, Potassium propionate, Potassium propanoate",preservative,200,Potassium propanoate: 100; Potassium propionate: 70; E283: 30
+E284,Boric acid,"E284, Boric acid, Boracic acid, Orthoboric acid",,138550,Boric acid: 138000; Orthoboric acid: 500; Boracic acid: 30; E284: 20
+E285,Sodium tetraborate (borax),"E285, Sodium tetraborate (borax), borax, sodium borate, sodium tetraborate, disodium tetraborate",,85120,borax: 79000; sodium borate: 3100; sodium tetraborate: 2800; E285: 150; disodium tetraborate: 70; Sodium tetraborate (borax): 0
+E290,Carbon dioxide,"E290, Carbon dioxide, Carbonic acid gas, Fermentation carbon dioxide, Spring carbon dioxide, Gärungskohlensäure, Natürliche Quellkohlensäure, Quellkohlensäure","preservative, propellent-gas",109080,Carbon dioxide: 109000; E290: 50; Carbonic acid gas: 20; Fermentation carbon dioxide: 10; Gärungskohlensäure: 0; Natürliche Quellkohlensäure: 0; Quellkohlensäure: 0; Spring carbon dioxide: 0
+E296,Malic acid,"E296, Malic acid, hydroxybutanedioic acid, l-malic acid",,29270,Malic acid: 29000; l-malic acid: 150; E296: 100; hydroxybutanedioic acid: 20
+E297,Fumaric acid,"E297, Fumaric acid, trans-Butenedioic acid",,3310,Fumaric acid: 3300; E297: 10; trans-Butenedioic acid: 0
+E300,Ascorbic acid,"E300, Ascorbic acid, l-ascorbic acid, Synonyms L-xylo-Ascorbic acid","antioxidant, sequestrant",55300,Ascorbic acid: 50000; E300: 3900; l-ascorbic acid: 1400; Synonyms L-xylo-Ascorbic acid: 0
+E301,Sodium ascorbate,"E301, Sodium ascorbate, Sodium L-ascorbate",antioxidant,3370,Sodium ascorbate: 3200; E301: 150; Sodium L-ascorbate: 20
+E302,Calcium ascorbate,"E302, Calcium ascorbate",antioxidant,1570,Calcium ascorbate: 1500; E302: 70
+E303,Potassium ascorbate,"E303, Potassium ascorbate",,200,E303: 150; Potassium ascorbate: 50
+E304,Fatty acid esters of ascorbic acid,"E304, Fatty acid esters of ascorbic acid, ascorbic acid esters of fatty acid",antioxidant,100,E304: 100; ascorbic acid esters of fatty acid: 0; Fatty acid esters of ascorbic acid: 0
+E304I,Ascorbyl palmitate,"E304i, Ascorbyl palmitate, L-Ascorbyl Palmitate",antioxidant,5410,Ascorbyl palmitate: 5400; L-Ascorbyl Palmitate: 10; E304I: 0
+E304II,Ascorbyl stearate,"E304ii, Ascorbyl stearate, E305",antioxidant,20,E305: 20; Ascorbyl stearate: 0; E304II: 0
+E306,Tocopherol-rich extract,"E306, Tocopherol-rich extract, Tocopherols, natural tocopherols, mixed tocopherols, natural mixed tocopherols",,9900,Tocopherols: 6200; mixed tocopherols: 3500; E306: 70; natural mixed tocopherols: 60; natural tocopherols: 60; Tocopherol-rich extract: 10
+E307,Alpha-tocopherol,"E307, Alpha-tocopherol",,380,Alpha-tocopherol: 350; E307: 30
+E307A,D-Alpha-tocopherol,"E307a, D-Alpha-tocopherol",antioxidant,150,D-Alpha-tocopherol: 150; E307A: 0
+E307B,concentrated tocopherol,"E307b, concentrated tocopherol",antioxidant,30,E307B: 30; concentrated tocopherol: 0
+E307C,DL-Alpha-tocopherol,"E307c, DL-Alpha-tocopherol",antioxidant,60,DL-Alpha-tocopherol: 60; E307C: 0
+E308,Gamme-tocopherol,"E308, Gamme-tocopherol, gamma-Tocopherol",,100,E308: 90; gamma-Tocopherol: 10; Gamme-tocopherol: 0
+E309,Delta-tocopherol,"E309, Delta-tocopherol, δ-tocopherol",,50,E309: 40; Delta-tocopherol: 10; δ-tocopherol: 0
+E310,Propyl gallate,"E310, Propyl gallate, Propyl ester of gallic acid",antioxidant,1700,Propyl gallate: 1500; E310: 200; Propyl ester of gallic acid: 0
+E311,Octyl gallate,"E311, Octyl gallate, Octyl ester of gallic acid",,100,E311: 70; Octyl gallate: 30; Octyl ester of gallic acid: 0
+E312,Dodecyl gallate,"E312, Dodecyl gallate",,60,Dodecyl gallate: 30; E312: 30
+E313,Ethyl gallate,"E313, Ethyl gallate",,70,E313: 50; Ethyl gallate: 20
+E314,Guaiacum,"E314, Guaiacum",antioxidant,200,Guaiacum: 150; E314: 50
+E315,Erythorbic acid,"E315, Erythorbic acid, Isoascorbic acid",antioxidant,530,Erythorbic acid: 500; E315: 20; Isoascorbic acid: 10
+E316,sodium erythorbate,"E316, sodium erythorbate",antioxidant,2100,sodium erythorbate: 2000; E316: 100
+E317,Erythorbin acid,"E317, Erythorbin acid",,10,E317: 10; Erythorbin acid: 0
+E318,Calcium erythorbin,"E318, Calcium erythorbin",,30,E318: 30; Calcium erythorbin: 0
+E319,Tertiary-butylhydroquinone (tbhq),"E319, Tertiary-butylhydroquinone (tbhq), Tert-butyl-1‚4-benzenediol, Butylhydroxinon, TBHQ, Tert-Butylhydroquinone, tertiary butylhydroquinone",antioxidant,11400,TBHQ: 11000; tertiary butylhydroquinone: 200; Tert-Butylhydroquinone: 150; E319: 50; Butylhydroxinon: 0; Tert-butyl-1‚4-benzenediol: 0; Tertiary-butylhydroquinone (tbhq): 0
+E320,Butylated hydroxyanisole (bha),"E320, Butylated hydroxyanisole (bha), Butylated hydroxyanisole, BHA",antioxidant,25070,BHA: 23000; E320: 1200; Butylated hydroxyanisole: 800; Butylated hydroxyanisole (bha): 70
+E321,Butylated hydroxytoluene,"E321, Butylated hydroxytoluene, BHT, 2‚6-Ditertiary-butyl-p-cresol, bht added to preserve freshness",antioxidant,27540,BHT: 25000; Butylated hydroxytoluene: 2100; E321: 400; bht added to preserve freshness: 40; 2‚6-Ditertiary-butyl-p-cresol: 0
+E322,Lecithins,"E322, Lecithins, Phosphatides","antioxidant, emulsifier",600,Phosphatides: 350; Lecithins: 150; E322: 100
+E322A,Oat lecithin,"E322a, Oat lecithin",,0,E322A: 0; Oat lecithin: 0
+E322I,Lecithin,"E322i, Lecithin","antioxidant, emulsifier",50010,Lecithin: 50000; E322I: 10
+E322II,Partially hydrolyzed lecithin,"E322ii, Partially hydrolyzed lecithin","antioxidant, emulsifier",0,E322II: 0; Partially hydrolyzed lecithin: 0
+E323,Anoxomer,"E323, Anoxomer",,10,E323: 10; Anoxomer: 0
+E324,Ethoxyquin,"E324, Ethoxyquin",,680,Ethoxyquin: 600; E324: 80
+E325,sodium lactate,"E325, sodium lactate","antioxidant, emulsifier, humectant, thickener",3960,sodium lactate: 3900; E325: 60
+E326,potassium lactate,"E326, potassium lactate","antioxidant, emulsifier, humectant",900,potassium lactate: 800; E326: 100
+E327,calcium lactate,"E327, calcium lactate",thickener,5830,calcium lactate: 5800; E327: 30
+E328,ammonium lactate,"E328, ammonium lactate",,15060,ammonium lactate: 15000; E328: 60
+E329,Magnesium lactate,"E329, Magnesium lactate",,2840,Magnesium lactate: 2800; E329: 40
+E330,Citric acid,"E330, Citric acid","antioxidant, sequestrant",98450,Citric acid: 98000; E330: 450
+E331,Sodium citrates,"E331, Sodium citrates","emulsifier, sequestrant, stabiliser",170,E331: 150; Sodium citrates: 20
+E331I,Monosodium citrate,"E331i, Monosodium citrate","emulsifier, sequestrant, stabiliser",150,Monosodium citrate: 150; E331I: 0
+E331II,Disodium citrate,"E331ii, Disodium citrate","emulsifier, sequestrant, stabiliser",40,Disodium citrate: 40; E331II: 0
+E331III,Trisodium citrate,"E331iii, Trisodium citrate",,1600,Trisodium citrate: 1600; E331III: 0
+E332,Potassium citrates,"E332, Potassium citrates","sequestrant, stabiliser",20,E332: 20; Potassium citrates: 0
+E332I,Monopotassium citrate,"E332i, Monopotassium citrate","sequestrant, stabiliser",20,Monopotassium citrate: 20; E332I: 0
+E332II,Tripotassium citrate,"E332ii, Tripotassium citrate, potassium citrate","sequestrant, stabiliser",23450,potassium citrate: 23000; Tripotassium citrate: 450; E332II: 0
+E333,Calcium citrates,"E333, Calcium citrates, Calcium citrate, Calcium salts of citric acid","sequestrant, stabiliser",21050,Calcium citrate: 21000; E333: 50; Calcium citrates: 0; Calcium salts of citric acid: 0
+E333I,Monocalcium citrate,"E333i, Monocalcium citrate","sequestrant, stabiliser",10,Monocalcium citrate: 10; E333I: 0
+E333II,Dicalcium citrate,"E333ii, Dicalcium citrate","sequestrant, stabiliser",0,Dicalcium citrate: 0; E333II: 0
+E333III,Tricalcium citrate,"E333iii, Tricalcium citrate","sequestrant, stabiliser",250,Tricalcium citrate: 250; E333III: 0
+E334,L(+)-tartaric acid,"E334, L(+)-tartaric acid, tartaric acid, 2‚3-dihydroxybutanedioic acid, 2‚3-dihydroxysuccinic acid, threaric acid, racemic acid, uvic acid, paratartaric acid","antioxidant, sequestrant",7870,tartaric acid: 7800; E334: 60; racemic acid: 10; 2‚3-dihydroxybutanedioic acid: 0; 2‚3-dihydroxysuccinic acid: 0; L(+)-tartaric acid: 0; paratartaric acid: 0; threaric acid: 0; uvic acid: 0
+E335,Sodium tartrates,"E335, Sodium tartrates","sequestrant, stabiliser",40,E335: 40; Sodium tartrates: 0
+E335I,Monosodium tartrate,"E335i, Monosodium tartrate","sequestrant, stabiliser",30,Monosodium tartrate: 20; E335I: 10
+E335II,Disodium tartrate,"E335ii, Disodium tartrate","sequestrant, stabiliser",20,Disodium tartrate: 20; E335II: 0
+E336,Potassium tartrates,"E336, Potassium tartrates",,50,E336: 50; Potassium tartrates: 0
+E336I,Monopotassium tartrate,"E336i, Monopotassium tartrate, monopotassic tartrate, Potassium bitartrate, potassium hydrogen tartrate, cream of tartar",,65610,cream of tartar: 65000; Potassium bitartrate: 500; potassium hydrogen tartrate: 100; Monopotassium tartrate: 10; E336I: 0; monopotassic tartrate: 0
+E336II,Dipotassium tartrate,"E336ii, Dipotassium tartrate, dipotassic tartrate, Potassium tartrate",,80,Potassium tartrate: 80; dipotassic tartrate: 0; Dipotassium tartrate: 0; E336II: 0
+E337,Potassium sodium tartrate,"E337, Potassium sodium tartrate","sequestrant, stabiliser",220,Potassium sodium tartrate: 200; E337: 20
+E338,Phosphoric acid,"E338, Phosphoric acid, Orthophosphoric acid, phosphoricV acid","antioxidant, sequestrant",49520,Phosphoric acid: 49000; Orthophosphoric acid: 450; E338: 70; phosphoricV acid: 0
+E339,Sodium phosphates,"E339, Sodium phosphates, sodium phosphate","emulsifier, humectant, preservative, sequestrant, stabiliser, thickener",26450,sodium phosphate: 26000; Sodium phosphates: 400; E339: 50
+E339I,Monosodium phosphate,"E339i, Monosodium phosphate, Monosodium monophosphate, Acid monosodium monophosphate, Monosodium orthophosphate, Monobasic sodium phosphate","emulsifier, humectant, preservative, sequestrant, stabiliser, thickener",1060,Monosodium phosphate: 700; Monobasic sodium phosphate: 350; Monosodium orthophosphate: 10; Acid monosodium monophosphate: 0; E339I: 0; Monosodium monophosphate: 0
+E339II,Disodium phosphate,"E339ii, Disodium phosphate, Disodium monophosphate, Secondary sodium phosphate","emulsifier, humectant, preservative, sequestrant, stabiliser, thickener",5800,Disodium phosphate: 5800; Disodium monophosphate: 0; E339II: 0; Secondary sodium phosphate: 0
+E339III,Trisodium phosphate,"E339iii, Trisodium phosphate, Tribasic sodium phosphate","emulsifier, humectant, preservative, sequestrant, stabiliser, thickener",17040,Trisodium phosphate: 17000; Tribasic sodium phosphate: 40; E339III: 0
+E340,Potassium phosphates,"E340, Potassium phosphates, potassium phosphate, E 340, E-340","emulsifier, humectant, sequestrant, stabiliser, thickener",14450,potassium phosphate: 14000; E340: 400; Potassium phosphates: 40; E 340: 10; E-340: 0
+E340I,Monopotassium phosphate,"E340i, Monopotassium phosphate, Monobasic potassium phosphate, Monopotassium monophosphate, E 340i, E-340i, E340 i","emulsifier, humectant, sequestrant, stabiliser, thickener",2900,Monopotassium phosphate: 2200; Monobasic potassium phosphate: 700; E 340i: 0; E-340i: 0; E340 i: 0; E340I: 0; Monopotassium monophosphate: 0
+E340II,Dipotassium phosphate,"E340ii, Dipotassium phosphate, Dipotassium monophosphate, Secondary potassium phosphate, Dipotassium orthophosphate, E 340ii, E-340ii, E340 ii","emulsifier, humectant, sequestrant, stabiliser, thickener",8520,Dipotassium phosphate: 8500; E340II: 20; Dipotassium monophosphate: 0; Dipotassium orthophosphate: 0; E 340ii: 0; E-340ii: 0; E340 ii: 0; Secondary potassium phosphate: 0
+E340III,Tripotassium phosphate,"E340iii, Tripotassium phosphate, tripotassium phosphate, E 340iii, E340 iii, E-340iii, Tribasic potassium phosphate","emulsifier, humectant, sequestrant, stabiliser, thickener",3550,Tripotassium phosphate: 3500; Tribasic potassium phosphate: 50; E 340iii: 0; E-340iii: 0; E340 iii: 0; E340III: 0
+E341,Calcium phosphates,"E341, Calcium phosphates, calcium phosphate, calcium phosphates, E 341, E-341","emulsifier, humectant, sequestrant, stabiliser, thickener",17620,calcium phosphate: 17000; E341: 300; E 341: 250; Calcium phosphates: 70; E-341: 0
+E341I,Monocalcium phosphate,"E341i, Monocalcium phosphate, Monobasic calcium phosphate, mono-calcium phosphate, monocalcium phosphate, E 341i, E-341i, E341 i","emulsifier, humectant, sequestrant, stabiliser, thickener",4420,Monocalcium phosphate: 4400; mono-calcium phosphate: 10; Monobasic calcium phosphate: 10; E 341i: 0; E-341i: 0; E341 i: 0; E341I: 0
+E341II,Dicalcium phosphate,"E341ii, Dicalcium phosphate, Dibasic calcium phosphate, di-calcium phosphate, dicalcium phosphate, E 341ii, E-341ii, E341 ii","emulsifier, humectant, sequestrant, stabiliser, thickener",6450,Dicalcium phosphate: 5800; Dibasic calcium phosphate: 500; di-calcium phosphate: 150; E 341ii: 0; E-341ii: 0; E341 ii: 0; E341II: 0
+E341III,Tricalcium phosphate,"E341iii, Tricalcium phosphate, Tricalciumphosphate, tri-calcium phosphate, tricalcium phosphate, E 341iii, E-341iii, E341 iii","emulsifier, humectant, sequestrant, stabiliser, thickener",8620,Tricalcium phosphate: 8600; tri-calcium phosphate: 10; Tricalciumphosphate: 10; E 341iii: 0; E-341iii: 0; E341 iii: 0; E341III: 0
+E342,Ammonium phosphate,"E342, Ammonium phosphate, monoammonium phosphate, diammonium phosphate","stabiliser, thickener",8610,Ammonium phosphate: 6900; diammonium phosphate: 900; monoammonium phosphate: 800; E342: 10
+E343,Magnesium phosphates,"E343, Magnesium phosphates, magnesium phosphates, E 343, E-343","stabiliser, thickener",270,E343: 250; E 343: 20; E-343: 0; Magnesium phosphates: 0
+E343I,Monomagnesium phosphate,"E343i, Monomagnesium phosphate, Magnesiumdihydrogenphosphate, Magnesiumphosphate, monobasic, magnesium phosphate","stabiliser, thickener",4010,magnesium phosphate: 3900; monobasic: 100; Monomagnesium phosphate: 10; E343I: 0; Magnesiumdihydrogenphosphate: 0; Magnesiumphosphate: 0
+E343II,Dimagnesium phosphate,"E343ii, Dimagnesium phosphate, Magnesiumhydrogenphosphate, Magnesiumphosphate - dibasic, Dimagnesium orthophosphate, magnesium hydrogen phosphate, dimagnesium phosphate, E 343ii, E-343ii, E343 ii","stabiliser, thickener",140,magnesium hydrogen phosphate: 80; Dimagnesium phosphate: 60; Dimagnesium orthophosphate: 0; E 343ii: 0; E-343ii: 0; E343 ii: 0; E343II: 0; Magnesiumhydrogenphosphate: 0; Magnesiumphosphate - dibasic: 0
+E344,Lecithin citrate,"E344, Lecithin citrate",,350,E344: 350; Lecithin citrate: 0
+E345,Magnesium citrate,"E345, Magnesium citrate",,293250,Magnesium citrate: 293000; E345: 250
+E349,ammonium malate,"E349, ammonium malate",,20,E349: 20; ammonium malate: 0
+E350,Sodium malates,"E350, Sodium malates",humectant,6800,E350: 6800; Sodium malates: 0
+E350I,Sodium malate,"E350i, Sodium malate",humectant,110,Sodium malate: 100; E350I: 10
+E350II,Sodium hydrogen malate,"E350ii, Sodium hydrogen malate",humectant,50,Sodium hydrogen malate: 50; E350II: 0
+E351,Potassium malate,"E351, Potassium malate",,90,E351: 60; Potassium malate: 30
+E352,Calcium malates,"E352, Calcium malates",,50,E352: 50; Calcium malates: 0
+E352I,Calcium malate,"E352i, Calcium malate",,250,Calcium malate: 250; E352I: 0
+E353,Metatartaric acid,"E353, Metatartaric acid",,40,E353: 20; Metatartaric acid: 20
+E354,Calcium tartrate,"E354, Calcium tartrate",,100,Calcium tartrate: 70; E354: 30
+E355,Adipic acid,"E355, Adipic acid, Hexanedioic acid",,4680,Adipic acid: 4400; Hexanedioic acid: 200; E355: 80
+E356,Sodium adipate,"E356, Sodium adipate",,30,Sodium adipate: 20; E356: 10
+E357,Potassium adipate,"E357, Potassium adipate",,30,E357: 20; Potassium adipate: 10
+E359,ammonium adipate,"E359, ammonium adipate",,90,E359: 90; ammonium adipate: 0
+E363,Succinic acid,"E363, Succinic acid, Asuccin, Amber acid, 1/2-Ethanedicarboxylic acid, Butanedioic acid, Bernsteinsaeure, Ethylenesuccinic acid, Spirit of amber, Butanedionic acid, Bernsteinsaure, Succinate, Butandisaeure, Dihydrofumaric acid, Acidum succinicum, Acide butanedioique, Acide succinique",,14860,Succinic acid: 7400; Succinate: 7100; Butanedioic acid: 250; Amber acid: 50; E363: 40; Acide succinique: 20; 1/2-Ethanedicarboxylic acid: 0; Acide butanedioique: 0; Acidum succinicum: 0; Asuccin: 0; Bernsteinsaeure: 0; Bernsteinsaure: 0; Butandisaeure: 0; Butanedionic acid: 0; Dihydrofumaric acid: 0; Ethylenesuccinic acid: 0; Spirit of amber: 0
+E365,Sodium fumarate,"E365, Sodium fumarate",,180,E365: 150; Sodium fumarate: 30
+E366,Potassium fumarate,"E366, Potassium fumarate",,30,E366: 20; Potassium fumarate: 10
+E367,Calcium fumarate,"E367, Calcium fumarate",,20,Calcium fumarate: 20; E367: 0
+E369,Alanin,"E369, Alanin",,270,Alanin: 250; E369: 20
+E370,1‚4-Heptonolactone,"E370, 1‚4-Heptonolactone",,10,E370: 10; 1‚4-Heptonolactone: 0
+E375,Nicotinic acid,"E375, Nicotinic acid, Niacin, Nicotinamide",,140060,Niacin: 110000; Nicotinamide: 24000; Nicotinic acid: 6000; E375: 60
+E380,Triammonium citrate,"E380, Triammonium citrate",,100,Triammonium citrate: 70; E380: 30
+E381,ferric ammonium citrate,"E381, ferric ammonium citrate, ammonium ferric citrate",,580,ferric ammonium citrate: 500; ammonium ferric citrate: 70; E381: 10
+E383,calcium glycerophosphate,"E383, calcium glycerophosphate",,520,calcium glycerophosphate: 500; E383: 20
+E384,Isopropyl citrates,"E384, Isopropyl citrates","antioxidant, preservative, sequestrant",20,E384: 20; Isopropyl citrates: 0
+E385,Calcium disodium ethylenediaminetetraacetate,"E385, Calcium disodium ethylenediaminetetraacetate, Calcium disodium EDTA, Calcium disodium ethylene diamine tetra-acetate, calcium disodium EDTA, calcium-dinatrium-EDTA, E-385, E 385","antioxidant, preservative, sequestrant",3700,Calcium disodium EDTA: 3600; E385: 60; E-385: 20; Calcium disodium ethylenediaminetetraacetate: 10; E 385: 10; Calcium disodium ethylene diamine tetra-acetate: 0; calcium-dinatrium-EDTA: 0
+E386,Disodium ethylenediaminetetraacetate (Disodium EDTA),"E386, Disodium ethylenediaminetetraacetate, Disodium EDTA",,5670,Disodium EDTA: 5600; Disodium ethylenediaminetetraacetate: 50; E386: 20; Disodium ethylenediaminetetraacetate (Disodium EDTA): 0
+E387,Oxystearin,"E387, Oxystearin",,0,E387: 0; Oxystearin: 0
+E388,Thiodipropionic acid,"E388, Thiodipropionic acid",antioxidant,30,E388: 20; Thiodipropionic acid: 10
+E389,Dilauryl thiodipropionate,"E389, Dilauryl thiodipropionate",,60,Dilauryl thiodipropionate: 50; E389: 10
+E390,Distearyl thiodipropionate,"E390, Distearyl thiodipropionate",,30,E390: 20; Distearyl thiodipropionate: 10
+E391,Phytic acid,"E391, Phytic acid",,7530,Phytic acid: 7500; E391: 30
+E392,Extracts of rosemary,"E392, Extracts of rosemary, rosemary extract",,1320,rosemary extract: 1300; E392: 20; Extracts of rosemary: 0
+E399,Calcium lactobionate,"E399, Calcium lactobionate",,50,Calcium lactobionate: 30; E399: 20
+E400,Alginic acid,"E400, Alginic acid","carrier, emulsifier, humectant, sequestrant, stabiliser, thickener",2400,E400: 1600; Alginic acid: 800
+E401,sodium alginate,"E401, sodium alginate","carrier, emulsifier, humectant, sequestrant, stabiliser, thickener",8600,sodium alginate: 8100; E401: 500
+E402,Potassium alginate,"E402, Potassium alginate","carrier, emulsifier, humectant, sequestrant, stabiliser, thickener",100,E402: 60; Potassium alginate: 40
+E403,Ammonium alginate,"E403, Ammonium alginate","carrier, emulsifier, humectant, sequestrant, stabiliser, thickener",110,E403: 100; Ammonium alginate: 10
+E404,Calcium alginate,"E404, Calcium alginate","carrier, humectant, sequestrant, stabiliser, thickener",5300,Calcium alginate: 4600; E404: 700
+E405,Propane-1‚2-diol alginate,"E405, Propane-1‚2-diol alginate, Propylene glycol alginate","carrier, emulsifier, stabiliser, thickener",980,Propylene glycol alginate: 900; E405: 80; Propane-1‚2-diol alginate: 0
+E406,Agar,"E406, Agar, Gelose, Kanten, Bengal, Ceylon, Chinese or Japanese isinglass, agar-agar, agar agar","carrier, emulsifier, humectant, stabiliser, thickener",113320,Bengal: 38000; Agar: 36000; Ceylon: 22000; agar agar: 16000; Kanten: 800; agar-agar: 500; E406: 10; Gelose: 10; Chinese or Japanese isinglass: 0
+E407,Carrageenan,"E407, Carrageenan, e407 stabilizer","carrier, emulsifier, humectant, stabiliser, thickener",66160,Carrageenan: 66000; E407: 150; e407 stabilizer: 10
+E407A,Processed eucheuma seaweed,"E407a, Processed eucheuma seaweed","carrier, emulsifier, humectant, stabiliser, thickener",10,E407A: 10; Processed eucheuma seaweed: 0
+E408,Bakers yeast glycan,"E408, Bakers yeast glycan",,20,E408: 20; Bakers yeast glycan: 0
+E409,Arabinogalactan,"E409, Arabinogalactan",,1330,Arabinogalactan: 1300; E409: 30
+E410,Locust bean gum,"E410, Locust bean gum, Carob bean gum, Carob gum, garrofin gum, peruvian carob gum","emulsifier, stabiliser, thickener",13510,Locust bean gum: 9800; Carob bean gum: 3300; Carob gum: 300; E410: 80; peruvian carob gum: 30; garrofin gum: 0
+E411,Oat gum,"E411, Oat gum",,80,E411: 80; Oat gum: 0
+E412,Guar gum,"E412, Guar gum, Gum cyamopsis, guar flour","emulsifier, stabiliser, thickener",35100,Guar gum: 35000; E412: 70; guar flour: 30; Gum cyamopsis: 0
+E413,Tragacanth,"E413, Tragacanth, Tragacanth gum","emulsifier, stabiliser, thickener",1720,Tragacanth gum: 900; Tragacanth: 800; E413: 20
+E414,Acacia gum,"E414, Acacia gum, gum arabic, gum acacia, arabic gum, Gum arabic, E-414, E 414, INS414, INS 414","carrier, emulsifier, stabiliser, thickener",21500,gum arabic: 13000; Acacia gum: 4200; gum acacia: 2700; arabic gum: 1500; E414: 90; E 414: 10; E-414: 0; INS 414: 0; INS414: 0
+E415,Xanthan gum,"E415, Xanthan gum, xanthan, E-415, e 415","emulsifier, stabiliser, thickener",82720,Xanthan gum: 82000; xanthan: 600; E415: 100; e 415: 20; E-415: 0
+E416,Karaya-gum,"E416, Karaya-gum, Katilo, Kadaya, Gum sterculia, Sterculia, Karaya, gum karaya, Kullo","emulsifier, stabiliser, thickener",520,E416: 150; Karaya: 150; Sterculia: 150; gum karaya: 40; Kadaya: 10; Katilo: 10; Kullo: 10; Gum sterculia: 0; Karaya-gum: 0
+E417,Tara gum,"E417, Tara gum","stabiliser, thickener",1910,Tara gum: 1900; E417: 10
+E418,Gellan gum,"E418, Gellan gum, gellan, E-418, E 418, INS418, INS-418, INS 418","stabiliser, thickener",18380,Gellan gum: 18000; gellan: 350; E418: 30; E 418: 0; E-418: 0; INS 418: 0; INS-418: 0; INS418: 0
+E419,Gum ghatti,"E419, Gum ghatti","stabiliser, thickener",30,Gum ghatti: 20; E419: 10
+E420,Sorbitol,"E420, Sorbitol, glucitol","humectant, sequestrant, stabiliser, sweetener, thickener",42040,Sorbitol: 40000; E420: 2000; glucitol: 40
+E420I,D-sorbitol,"E420i, D-sorbitol, D-glucitol","humectant, sequestrant, stabiliser, sweetener, thickener",240,D-sorbitol: 200; D-glucitol: 40; E420I: 0
+E420II,Sorbitol syrup,"E420ii, Sorbitol syrup","humectant, sequestrant, stabiliser, sweetener, thickener",160,Sorbitol syrup: 150; E420II: 10
+E421,Mannitol,"E421, Mannitol","humectant, stabiliser, sweetener, thickener",34100,Mannitol: 34000; E421: 100
+E422,Glycerol,"E422, Glycerol, Glycerin, Glycerine, vegetable glycerine","humectant, thickener",194080,Glycerin: 111000; Glycerol: 53000; Glycerine: 17000; vegetable glycerine: 13000; E422: 80
+E424,Curdlan,"E424, Curdlan","stabiliser, thickener",110,Curdlan: 90; E424: 20
+E425,Konjac,"E425, Konjac","carrier, emulsifier, humectant, stabiliser, thickener",40050,Konjac: 40000; E425: 50
+E425I,Konjac gum,"E425i, Konjac gum, Konjak gum","carrier, emulsifier, humectant, stabiliser, thickener",150,Konjac gum: 150; E425I: 0; Konjak gum: 0
+E425II,Konjac glucomannan,"E425ii, Konjac glucomannan","carrier, emulsifier, humectant, stabiliser, thickener",200,Konjac glucomannan: 200; E425II: 0
+E426,Soybean hemicellulose,"E426, Soybean hemicellulose",,50,E426: 50; Soybean hemicellulose: 0
+E427,Cassia gum,"E427, Cassia gum","emulsifier, stabiliser, thickener",70,Cassia gum: 60; E427: 10
+E428,Gelatine,"E428, Gelatine, gelatin",,66430,gelatin: 62000; Gelatine: 4400; E428: 30
+E429,peptone,"E429, peptone, tryptone",,2740,peptone: 1900; tryptone: 800; E429: 40
+E430,Polyoxyethylene (8) stearate,"E430, Polyoxyethylene (8) stearate",emulsifier,250,E430: 250; Polyoxyethylene (8) stearate: 0
+E431,Polyoxyethylene (40) stearate,"E431, Polyoxyethylene (40) stearate, Polyoxyl (40) stearate",emulsifier,50,E431: 50; Polyoxyethylene (40) stearate: 0; Polyoxyl (40) stearate: 0
+E432,Polyoxyethylene sorbitan monolaurate,"E432, Polyoxyethylene sorbitan monolaurate, Polysorbate 20, Alkest TW 20, Tween 20, PEG(20)sorbitan monolaurate","emulsifier, stabiliser",9030,Polysorbate 20: 6500; Tween 20: 2500; Alkest TW 20: 10; E432: 10; Polyoxyethylene sorbitan monolaurate: 10; PEG(20)sorbitan monolaurate: 0
+E433,Polyoxyethylene sorbitan monooleate,"E433, Polyoxyethylene sorbitan monooleate, Polysorbate 80","emulsifier, stabiliser",21060,Polysorbate 80: 21000; E433: 30; Polyoxyethylene sorbitan monooleate: 30
+E434,Polyoxyethylene sorbitan monopalmitate,"E434, Polyoxyethylene sorbitan monopalmitate, Polysorbate 40",emulsifier,60,Polysorbate 40: 50; E434: 10; Polyoxyethylene sorbitan monopalmitate: 0
+E435,Polyoxyethylene sorbitan monostearate,"E435, Polyoxyethylene sorbitan monostearate, Polysorbate 60","emulsifier, stabiliser",3980,Polysorbate 60: 3900; E435: 40; Polyoxyethylene sorbitan monostearate: 40
+E436,Polyoxyethylene sorbitan tristearate,"E436, Polyoxyethylene sorbitan tristearate, Polysorbate 65","emulsifier, stabiliser",60,Polysorbate 65: 40; E436: 20; Polyoxyethylene sorbitan tristearate: 0
+E440,Pectins,"E440, Pectins, pectin","emulsifier, stabiliser, thickener",53580,pectin: 53000; Pectins: 500; E440: 80
+E440A,Pectin,"E440a, Pectin","emulsifier, stabiliser, thickener",53010,Pectin: 53000; E440A: 10
+E440B,pectin amide,"E440b, pectin amide, amidated pectin","emulsifier, stabiliser, thickener",40,amidated pectin: 40; E440B: 0; pectin amide: 0
+E440I,non-amidated pectines,"E440i, non-amidated pectines","emulsifier, stabiliser, thickener",10,E440I: 10; non-amidated pectines: 0
+E440II,Amidated pectin,"E440ii, Amidated pectin","emulsifier, stabiliser, thickener",40,Amidated pectin: 40; E440II: 0
+E441,Superglycerinated hydrogenated rapeseed oil,"E441, Superglycerinated hydrogenated rapeseed oil, Hydrogenated rapeseed oil superglycerinated, Superglycerinated fully hydrogenated rapeseed oil",,70,E441: 70; Hydrogenated rapeseed oil superglycerinated: 0; Superglycerinated fully hydrogenated rapeseed oil: 0; Superglycerinated hydrogenated rapeseed oil: 0
+E442,Ammonium phosphatides,"E442, Ammonium phosphatides, Mixed ammonium salts of phosphorylated glycerides, Emulsifier YN, Ammonium phosphatide",emulsifier,80,E442: 50; Ammonium phosphatides: 20; Ammonium phosphatide: 10; Emulsifier YN: 0; Mixed ammonium salts of phosphorylated glycerides: 0
+E443,Brominated vegetable oil,"E443, Brominated vegetable oil",,6010,Brominated vegetable oil: 6000; E443: 10
+E444,Sucrose acetate isobutyrate,"E444, Sucrose acetate isobutyrate","emulsifier, stabiliser",1220,Sucrose acetate isobutyrate: 1200; E444: 20
+E445,Glycerol esters of wood rosin,"E445, Glycerol esters of wood rosin, Glycerol ester of wood rosin, glyceryl abietate, ester gum","emulsifier, stabiliser",2830,ester gum: 2000; Glycerol ester of wood rosin: 700; Glycerol esters of wood rosin: 60; E445: 50; glyceryl abietate: 20
+E446,Succistearin,"E446, Succistearin",,20,E446: 20; Succistearin: 0
+E450,Diphosphates,"E450, Diphosphates, Pyrophosphate, diphosphate, E-450, e 450, e450 stabilizer","emulsifier, humectant, sequestrant, stabiliser, thickener",7000,E450: 3500; Pyrophosphate: 2800; e 450: 450; diphosphate: 150; E-450: 80; Diphosphates: 20; e450 stabilizer: 0
+E450I,Disodium diphosphate,"E450i, Disodium diphosphate, Sodium Acid Pyrophosphate, sapp, disodium dihydrogen pyrophosphate, disodium pyrophosphate, sodium acid pyrophosphate, disodium diphosphate, disodium dihydrogen diphosphate","emulsifier, humectant, sequestrant, stabiliser, thickener",8350,Sodium Acid Pyrophosphate: 4500; sapp: 2600; disodium dihydrogen pyrophosphate: 500; disodium pyrophosphate: 400; Disodium diphosphate: 300; E450I: 30; disodium dihydrogen diphosphate: 20
+E450II,Trisodium diphosphate,"E450ii, Trisodium diphosphate, e450ii","emulsifier, humectant, sequestrant, stabiliser, thickener",0,E450II: 0; Trisodium diphosphate: 0
+E450III,Tetrasodium diphosphate,"E450iii, Tetrasodium diphosphate, Tetrasodium pyrophosphate, Tetrasodium disphosphate, sodium pyrophosphate, TSPP, e450iii","emulsifier, humectant, sequestrant, stabiliser, thickener",2320,Tetrasodium pyrophosphate: 1500; sodium pyrophosphate: 600; TSPP: 200; Tetrasodium diphosphate: 20; E450III: 0; Tetrasodium disphosphate: 0
+E450IV,dipotassium dihydrogenpyrophosphate,"E450iv, dipotassium dihydrogenpyrophosphate, E-450iv","emulsifier, humectant, sequestrant, stabiliser, thickener",0,dipotassium dihydrogenpyrophosphate: 0; E-450iv: 0; E450IV: 0
+E450V,Tetrapotassium diphosphate,"E450v, Tetrapotassium diphosphate, tetrapotassium pyrophosphate, e450v","emulsifier, humectant, sequestrant, stabiliser, thickener",160,tetrapotassium pyrophosphate: 150; Tetrapotassium diphosphate: 10; E450V: 0
+E450VI,Dicalcium diphosphate,"E450vi, Dicalcium diphosphate, dicalcium pyrophosphate, e450vi","emulsifier, humectant, sequestrant, stabiliser, thickener",0,Dicalcium diphosphate: 0; dicalcium pyrophosphate: 0; E450VI: 0
+E450VII,Calcium dihydrogen diphosphate,"E450vii, Calcium dihydrogen diphosphate, Acid calcium pyrophosphate","emulsifier, humectant, sequestrant, stabiliser, thickener",0,Acid calcium pyrophosphate: 0; Calcium dihydrogen diphosphate: 0; E450VII: 0
+E450VIII,Dimagnesium diphosphate,"E450VIII, E450viii, Dimagnesium diphosphate",,0,Dimagnesium diphosphate: 0; E450VIII: 0
+E451,Triphosphates,"E451, Triphosphates, triphosphate, E 451, e-451","emulsifier, humectant, sequestrant, stabiliser, thickener",1160,triphosphate: 1000; Triphosphates: 100; E451: 50; E 451: 10; e-451: 0
+E451I,Pentasodium triphosphate,"E451i, Pentasodium triphosphate, Pentasodium tripolyphosphate, Sodium triphosphate","emulsifier, humectant, sequestrant, stabiliser, thickener",870,Sodium triphosphate: 700; Pentasodium triphosphate: 150; E451I: 10; Pentasodium tripolyphosphate: 10
+E451II,Pentapotassium triphosphate,"E451ii, Pentapotassium triphosphate, potassium triphosphate, potassium tripolyphosphate, KTPP","emulsifier, humectant, sequestrant, stabiliser, thickener",120,KTPP: 40; potassium tripolyphosphate: 40; potassium triphosphate: 30; Pentapotassium triphosphate: 10; E451II: 0
+E452,Polyphosphates,"E452, Polyphosphates, Polyphosphate E452","emulsifier, humectant, sequestrant, stabiliser, thickener",160,Polyphosphates: 100; E452: 60; Polyphosphate E452: 0
+E452I,Sodium polyphosphate,"E452i, Sodium polyphosphate, sodium hexametaphosphate, sodium polymetaphosphate","emulsifier, humectant, sequestrant, stabiliser, thickener",3920,sodium hexametaphosphate: 3600; Sodium polyphosphate: 300; E452I: 10; sodium polymetaphosphate: 10
+E452II,Potassium polyphosphate,"E452ii, Potassium polyphosphate, Potassium metaphosphate, Potassium polymetaphosphate","emulsifier, humectant, sequestrant, stabiliser, thickener",30,Potassium polyphosphate: 20; Potassium metaphosphate: 10; E452II: 0; Potassium polymetaphosphate: 0
+E452III,Sodium calcium polyphosphate,"E452iii, Sodium calcium polyphosphate","emulsifier, humectant, sequestrant, stabiliser, thickener",0,E452III: 0; Sodium calcium polyphosphate: 0
+E452IV,Calcium polyphosphate,"E452iv, Calcium polyphosphate, Calcium metaphosphate","emulsifier, humectant, sequestrant, stabiliser, thickener",10,Calcium polyphosphate: 10; Calcium metaphosphate: 0; E452IV: 0
+E452VI,Sodium tripolyphosphate,"E452vi, Sodium tripolyphosphate","emulsifier, humectant, sequestrant, stabiliser, thickener",3500,Sodium tripolyphosphate: 3500; E452VI: 0
+E457,Alpha-Cyclodextrine,"E457, Alpha-Cyclodextrine","stabiliser, thickener",10,E457: 10; Alpha-Cyclodextrine: 0
+E458,Gamma-Cyclodextrine,"E458, Gamma-Cyclodextrine","stabiliser, thickener",10,E458: 10; Gamma-Cyclodextrine: 0
+E459,Beta-cyclodextrine,"E459, Beta-cyclodextrine","carrier, stabiliser, thickener",10,E459: 10; Beta-cyclodextrine: 0
+E460,Cellulose,"E460, Cellulose, cellulose powder to prevent caking, cellulose powder added to prevent caking","carrier, emulsifier, humectant, stabiliser, thickener",53100,Cellulose: 53000; E460: 100; cellulose powder added to prevent caking: 0; cellulose powder to prevent caking: 0
+E460I,Microcrystalline cellulose,"E460i, Microcrystalline cellulose","carrier, emulsifier, humectant, stabiliser, thickener",13010,Microcrystalline cellulose: 13000; E460I: 10
+E460II,Powdered cellulose,"E460ii, Powdered cellulose, Purified cellulose","carrier, emulsifier, humectant, stabiliser, thickener",2900,Powdered cellulose: 2900; E460II: 0; Purified cellulose: 0
+E461,methyl cellulose,"E461, methyl cellulose, methylcellulose","emulsifier, stabiliser, thickener",11070,methylcellulose: 9400; methyl cellulose: 1600; E461: 70
+E462,Ethyl cellulose,"E462, Ethyl cellulose, Ethylcellulose","carrier, thickener",520,Ethyl cellulose: 300; Ethylcellulose: 200; E462: 20
+E463,Hydroxypropyl cellulose,"E463, Hydroxypropyl cellulose, Hydroxypropylcellulose","emulsifier, stabiliser, thickener",1570,Hydroxypropyl cellulose: 1500; Hydroxypropylcellulose: 50; E463: 20
+E464,Hydroxypropyl methyl cellulose,"E464, Hydroxypropyl methyl cellulose, hypromellose, hydroxypropyl methylcellulose, HPMC, hydroxypropylmethylcellulose, hydroxy propyl methyl cellulose","emulsifier, stabiliser, thickener",15380,hypromellose: 9000; hydroxypropyl methylcellulose: 4900; HPMC: 1100; Hydroxypropyl methyl cellulose: 150; hydroxypropylmethylcellulose: 150; E464: 50; hydroxy propyl methyl cellulose: 30
+E465,Ethyl methyl cellulose,"E465, Ethyl methyl cellulose, Ethylmethylcellulose","emulsifier, stabiliser, thickener",20,E465: 10; Ethyl methyl cellulose: 10; Ethylmethylcellulose: 0
+E466,Sodium carboxy methyl cellulose,"E466, Sodium carboxy methyl cellulose, sodium carboxymethylcellulose, carboxy methyl cellulose, Carboxymethylcellulose, cellulose gum, carboxymethyl cellulose, CMC, NaCMC","emulsifier, humectant, stabiliser, thickener",76750,CMC: 62000; Carboxymethylcellulose: 8100; cellulose gum: 4800; carboxymethyl cellulose: 800; sodium carboxymethylcellulose: 800; carboxy methyl cellulose: 100; E466: 90; Sodium carboxy methyl cellulose: 40; NaCMC: 20
+E467,Ethulose,"E467, Ethulose","emulsifier, stabiliser, thickener",30,E467: 20; Ethulose: 10
+E468,Cross-linked sodium carboxymethylcellulose,"E468, Cross-linked sodium carboxymethylcellulose, cross-linked cellulose gum, Crosslinked sodium carboxy methyl cellulose","stabiliser, thickener",10,E468: 10; cross-linked cellulose gum: 0; Cross-linked sodium carboxymethylcellulose: 0; Crosslinked sodium carboxy methyl cellulose: 0
+E469,Enzymatically hydrolysed carboxymethylcellulose,"E469, Enzymatically hydrolysed carboxymethylcellulose, enzymatically hydrolised cellulose gum","stabiliser, thickener",0,E469: 0; enzymatically hydrolised cellulose gum: 0; Enzymatically hydrolysed carboxymethylcellulose: 0
+E470,Sodium/potassium/calcium and magnesium salts of fatty acids,"E470, Sodium/potassium/calcium and magnesium salts of fatty acids","emulsifier, stabiliser, thickener",2900,E470: 2900; Sodium/potassium/calcium and magnesium salts of fatty acids: 0
+E470A,Sodium/potassium and calcium salts of fatty acids,"E470a, Sodium/potassium and calcium salts of fatty acids","emulsifier, stabiliser, thickener",0,E470A: 0; Sodium/potassium and calcium salts of fatty acids: 0
+E470AI,Sodium salts of fatty acids,"E470ai, Sodium salts of fatty acids","emulsifier, stabiliser, thickener",0,E470AI: 0; Sodium salts of fatty acids: 0
+E470AIII,Calcium salts of fatty acids,"E470aiii, Calcium salts of fatty acids","emulsifier, stabiliser, thickener",0,Calcium salts of fatty acids: 0; E470AIII: 0
+E470B,Magnesium salts of fatty acids,"E470b, Magnesium salts of fatty acids","emulsifier, stabiliser, thickener",20,E470B: 10; Magnesium salts of fatty acids: 10
+E471,Mono- and diglycerides of fatty acids,"E471, Mono- and diglycerides of fatty acids, Glyceryl monostearate, Glyceryl monopalmitate, Glyceryl monooleate, Monostearin, Monopalmitin, Monoolein, Mono and diglycerides","emulsifier, stabiliser",4050,Mono and diglycerides: 3200; Glyceryl monostearate: 400; E471: 300; Glyceryl monooleate: 60; Mono- and diglycerides of fatty acids: 30; Monoolein: 30; Monopalmitin: 20; Monostearin: 10; Glyceryl monopalmitate: 0
+E471,Mono- and diglycerides of vegetable fatty acids,,,300,E471: 300; Mono- and diglycerides of vegetable fatty acids: 0
+E472,acid esters of mono- and diglycerides of fatty acids,"E472, acid esters of mono- and diglycerides of fatty acids",,30,E472: 30; acid esters of mono- and diglycerides of fatty acids: 0
+E472A,Acetic acid esters of mono- and diglycerides of fatty acids,"E472a, Acetic acid esters of mono- and diglycerides of fatty acids","emulsifier, sequestrant, stabiliser",10,E472A: 10; Acetic acid esters of mono- and diglycerides of fatty acids: 0
+E472B,Lactic acid esters of mono- and diglycerides of fatty acids,"E472b, Lactic acid esters of mono- and diglycerides of fatty acids","emulsifier, sequestrant, stabiliser",20,E472B: 20; Lactic acid esters of mono- and diglycerides of fatty acids: 0
+E472C,Citric acid esters of mono- and diglycerides of fatty acids,"E472c, Citric acid esters of mono- and diglycerides of fatty acids","antioxidant, emulsifier, sequestrant, stabiliser",10,E472C: 10; Citric acid esters of mono- and diglycerides of fatty acids: 0
+E472D,Tartaric acid esters of mono- and diglycerides of fatty acids,"E472d, Tartaric acid esters of mono- and diglycerides of fatty acids",,0,E472D: 0; Tartaric acid esters of mono- and diglycerides of fatty acids: 0
+E472E,Mono- and diacetyltartaric acid esters of mono- and diglycerides of fatty acids,"E472e, Mono- and diacetyltartaric acid esters of mono- and diglycerides of fatty acids, Mono- and diacetyl tartaric acid esters of mono- and diglycerides of fatty acids, DATEM, Mono- and diacetyltartaric esters of mono- and diglycerides of fatty acids, emulsifier E472e","emulsifier, sequestrant, stabiliser",3650,DATEM: 3600; E472E: 50; emulsifier E472e: 0; Mono- and diacetyl tartaric acid esters of mono- and diglycerides of fatty acids: 0; Mono- and diacetyltartaric acid esters of mono- and diglycerides of fatty acids: 0; Mono- and diacetyltartaric esters of mono- and diglycerides of fatty acids: 0
+E472F,Mixed acetic and tartaric acid esters of mono- and diglycerides of fatty acids,"E472f, Mixed acetic and tartaric acid esters of mono- and diglycerides of fatty acids",,0,E472F: 0; Mixed acetic and tartaric acid esters of mono- and diglycerides of fatty acids: 0
+E472G,Succinylated monoglycerides,"E472g, Succinylated monoglycerides",,0,E472G: 0; Succinylated monoglycerides: 0
+E473,Sucrose esters of fatty acids,"E473, Sucrose esters of fatty acids, Sucroesters, sugar ester, sucrose esters","emulsifier, stabiliser",510,sucrose esters: 250; Sucrose esters of fatty acids: 150; E473: 90; sugar ester: 20; Sucroesters: 0
+E473A,Oligoesters of sucrose type I,"E473a, Oligoesters of sucrose type I, Oligoesters of sucrose type II, Oligoesters of sucrose","emulsifier, stabiliser",0,E473A: 0; Oligoesters of sucrose: 0; Oligoesters of sucrose type I: 0; Oligoesters of sucrose type II: 0
+E474,Sucroglycerides,"E474, Sucroglycerides, Sucroglyceride",emulsifier,10,E474: 10; Sucroglyceride: 0; Sucroglycerides: 0
+E475,Polyglycerol esters of fatty acids,"E475, Polyglycerol esters of fatty acids, Polyglycerol fatty acid esters","emulsifier, stabiliser",130,Polyglycerol esters of fatty acids: 100; E475: 30; Polyglycerol fatty acid esters: 0
+E476,Polyglycerol polyricinoleate,"E476, Polyglycerol polyricinoleate, PGPR",emulsifier,3780,PGPR: 3300; Polyglycerol polyricinoleate: 400; E476: 80
+E477,Propane-1‚2-diol esters of fatty acids,"E477, Propane-1‚2-diol esters of fatty acids",emulsifier,10,E477: 10; Propane-1‚2-diol esters of fatty acids: 0
+E478,Lactylated fatty acid esters of glycerol and propane-1,"E478, Lactylated fatty acid esters of glycerol and propane-1",,10,E478: 10; Lactylated fatty acid esters of glycerol and propane-1: 0
+E479B,Thermally oxidised soya bean oil interacted with mono- and diglycerides of fatty acids,"E479b, Thermally oxidised soya bean oil interacted with mono- and diglycerides of fatty acids, Thermally oxidised soya bean oil interacted with mono­ and diglycerides of fatty acids",emulsifier,0,E479B: 0; Thermally oxidised soya bean oil interacted with mono­ and diglycerides of fatty acids: 0; Thermally oxidised soya bean oil interacted with mono- and diglycerides of fatty acids: 0
+E481,Sodium stearoyl-2-lactylate,"E481, Sodium stearoyl-2-lactylate, Sodium stearoyl lactylate","emulsifier, stabiliser",1550,Sodium stearoyl lactylate: 1500; Sodium stearoyl-2-lactylate: 30; E481: 20
+E482,Calcium stearoyl-2-lactylate,"E482, Calcium stearoyl-2-lactylate","emulsifier, stabiliser",10,E482: 10; Calcium stearoyl-2-lactylate: 0
+E483,Stearyl tartrate,"E483, Stearyl tartrate, Stearyl palmityl tartrate",,10,Stearyl tartrate: 10; E483: 0; Stearyl palmityl tartrate: 0
+E484,Stearyl citrate,"E484, Stearyl citrate","antioxidant, emulsifier, sequestrant",20,E484: 20; Stearyl citrate: 0
+E486,Calcium stearoyl fumarate,"E486, Calcium stearoyl fumarate",,0,Calcium stearoyl fumarate: 0; E486: 0
+E487,sodium dodecyl sulfate,"E487, sodium dodecyl sulfate, sodium laurilsulfate, sodium lauryl sulfate, NaDS",,27720,sodium lauryl sulfate: 21000; sodium dodecyl sulfate: 3700; NaDS: 3000; E487: 10; sodium laurilsulfate: 10
+E488,Ethoxylated Mono- and Di-Glycerides,"E488, Ethoxylated Mono- and Di-Glycerides",,10,E488: 10; Ethoxylated Mono- and Di-Glycerides: 0
+E489,Methyl glucoside-coconut oil ester,"E489, Methyl glucoside-coconut oil ester",,10,E489: 10; Methyl glucoside-coconut oil ester: 0
+E490,Propylene glycol,"E490, Propylene glycol, 1‚2-propanediol, propane-1‚2-diol, 1‚2-dihydroxypropane, α-propylene glycol, methyl ethyl glycol, methylethylene glycol, Propan-1‚2-diol",,65090,Propylene glycol: 65000; E490: 60; methyl ethyl glycol: 30; 1‚2-dihydroxypropane: 0; 1‚2-propanediol: 0; methylethylene glycol: 0; Propan-1‚2-diol: 0; propane-1‚2-diol: 0; α-propylene glycol: 0
+E491,Sorbitan monostearate,"E491, Sorbitan monostearate",emulsifier,1950,Sorbitan monostearate: 1900; E491: 50
+E492,Sorbitan tristearate,"E492, Sorbitan tristearate","emulsifier, stabiliser",370,Sorbitan tristearate: 350; E492: 20
+E493,Sorbitan monolaurate,"E493, Sorbitan monolaurate","emulsifier, stabiliser",160,Sorbitan monolaurate: 150; E493: 10
+E494,Sorbitan monooleate,"E494, Sorbitan monooleate","emulsifier, stabiliser",210,Sorbitan monooleate: 200; E494: 10
+E495,Sorbitan monopalmitate,"E495, Sorbitan monopalmitate",emulsifier,190,E495: 150; Sorbitan monopalmitate: 40
+E496,Sorbitan trioleate,"E496, Sorbitan trioleate",,80,Sorbitan trioleate: 70; E496: 10
+E500,Sodium carbonates,"E500, Sodium carbonates","stabiliser, thickener",1750,E500: 1700; Sodium carbonates: 50
+E500I,Sodium carbonate,"E500i, Sodium carbonate, washing soda","stabiliser, thickener",66000,Sodium carbonate: 43000; washing soda: 23000; E500I: 0
+E500II,Sodium hydrogen carbonate,"E500ii, Sodium hydrogen carbonate, Sodium bicarbonate, sodium acid carbonate, Bicarbonate of soda, baking soda","stabiliser, thickener",279670,Sodium bicarbonate: 133000; baking soda: 130000; Bicarbonate of soda: 12000; Sodium hydrogen carbonate: 4600; E500II: 60; sodium acid carbonate: 10
+E500III,Sodium sesquicarbonate,"E500iii, Sodium sesquicarbonate","stabiliser, thickener",400,Sodium sesquicarbonate: 400; E500III: 0
+E501,Potassium carbonates,"E501, Potassium carbonates",stabiliser,160,E501: 150; Potassium carbonates: 10
+E501I,Potassium carbonate,"E501i, Potassium carbonate",stabiliser,14000,Potassium carbonate: 14000; E501I: 0
+E501II,Potassium hydrogen carbonate,"E501ii, Potassium hydrogen carbonate, Potassium bicarbonate",stabiliser,14800,Potassium bicarbonate: 14000; Potassium hydrogen carbonate: 800; E501II: 0
+E502,Carbonates,"E502, Carbonates",,500,Carbonates: 350; E502: 150
+E503,Ammonium carbonates,"E503, Ammonium carbonates",,70,E503: 60; Ammonium carbonates: 10
+E503I,Ammonium carbonate,"E503i, Ammonium carbonate",,8100,Ammonium carbonate: 8100; E503I: 0
+E503II,Ammonium hydrogen carbonate,"E503ii, Ammonium hydrogen carbonate, Baker's ammonia, Sal volatile, Salt of hartshorn, Ammonium bicarbonate",,4070,Ammonium bicarbonate: 3200; Baker's ammonia: 450; Ammonium hydrogen carbonate: 300; Sal volatile: 100; E503II: 10; Salt of hartshorn: 10
+E504,Magnesium carbonates,"E504, Magnesium carbonates",carrier,160,E504: 150; Magnesium carbonates: 10
+E504I,Magnesium carbonate,"E504i, Magnesium carbonate",carrier,11000,Magnesium carbonate: 11000; E504I: 0
+E504II,Magnesium hydroxide carbonate,"E504ii, Magnesium hydroxide carbonate",carrier,30,Magnesium hydroxide carbonate: 30; E504II: 0
+E505,Ferrous carbonate,"E505, Ferrous carbonate",,310,E505: 250; Ferrous carbonate: 60
+E507,Hydrochloric acid,"E507, Hydrochloric acid, Hydrogen chloride",,79420,Hydrochloric acid: 72000; Hydrogen chloride: 7400; E507: 20
+E508,Potassium chloride,"E508, Potassium chloride, Sylvine","stabiliser, thickener, preservative",85130,Potassium chloride: 85000; E508: 70; Sylvine: 60
+E509,Calcium chloride,"E509, Calcium chloride","stabiliser, thickener, coagulant",71050,Calcium chloride: 71000; E509: 50
+E510,Ammonium chloride,"E510, Ammonium chloride, ammonia solution",,23670,Ammonium chloride: 22000; ammonia solution: 1600; E510: 70
+E511,Magnesium chloride,"E511, Magnesium chloride","stabiliser, coagulant",36050,Magnesium chloride: 36000; E511: 50
+E512,Stannous chloride,"E512, Stannous chloride, Tin chloride, TinII chloride",antioxidant,1440,Stannous chloride: 800; Tin chloride: 600; E512: 40; TinII chloride: 0
+E513,Sulphuric acid,"E513, Sulphuric acid, Oil of vitriol, sulfuric acid, H2SO4",,115060,sulfuric acid: 71000; H2SO4: 40000; Sulphuric acid: 3800; Oil of vitriol: 250; E513: 10
+E514,Sodium sulphates,"E514, Sodium sulphates",,10,E514: 10; Sodium sulphates: 0
+E514I,Sodium sulphate,"E514i, Sodium sulphate",,300,Sodium sulphate: 300; E514I: 0
+E514II,Sodium hydrogen sulphate,"E514ii, Sodium hydrogen sulphate, Acid sodium sulphate, Sodium bisulphate",,180,Sodium bisulphate: 150; Sodium hydrogen sulphate: 30; Acid sodium sulphate: 0; E514II: 0
+E515,Potassium sulphates,"E515, Potassium sulphates, Potassium sulfates, potassium sulfate",,6220,potassium sulfate: 6200; E515: 20; Potassium sulfates: 0; Potassium sulphates: 0
+E515I,Potassium sulphate,"E515i, Potassium sulphate",,50,Potassium sulphate: 50; E515I: 0
+E515II,Potassium hydrogen sulphate,"E515ii, Potassium hydrogen sulphate, Potassium bisulphate",,30,Potassium bisulphate: 20; Potassium hydrogen sulphate: 10; E515II: 0
+E516,Calcium sulphate,"E516, Calcium sulphate, Gypsum, Selenite, Calcium sulfate, calcium sulfate added to prevent caking","sequestrant, stabiliser",103320,Selenite: 48000; Gypsum: 45000; Calcium sulfate: 10000; Calcium sulphate: 300; E516: 20; calcium sulfate added to prevent caking: 0
+E517,Ammonium sulphate,"E517, Ammonium sulphate, ammonium sulfate",,19620,ammonium sulfate: 19000; Ammonium sulphate: 600; E517: 20
+E518,Magnesium sulphate,"E518, Magnesium sulphate, Epsom salts, magnesium sulfate",,54610,magnesium sulfate: 47000; Epsom salts: 6300; Magnesium sulphate: 1300; E518: 10
+E519,Copper sulphate,"E519, Copper sulphate, copperII sulfate",,1120,Copper sulphate: 1100; E519: 20; copperII sulfate: 0
+E520,Aluminium sulphate,"E520, Aluminium sulphate, Aluminium sulfate",,1080,Aluminium sulfate: 1000; Aluminium sulphate: 50; E520: 30
+E521,Aluminium sodium sulphate,"E521, Aluminium sodium sulphate, Soda alum, Sodium aluminium sulfate",,1810,E521: 1800; Sodium aluminium sulfate: 10; Aluminium sodium sulphate: 0; Soda alum: 0
+E522,Aluminium potassium sulphate,"E522, Aluminium potassium sulphate, Potassium alum, Potassium aluminium sulfate, potash alum",,1290,Potassium alum: 1100; potash alum: 100; E522: 60; Potassium aluminium sulfate: 20; Aluminium potassium sulphate: 10
+E523,Aluminium ammonium sulphate,"E523, Aluminium ammonium sulphate, ammonium aluminium sulfate",stabiliser,40,Aluminium ammonium sulphate: 20; E523: 20; ammonium aluminium sulfate: 0
+E524,Sodium hydroxide,"E524, Sodium hydroxide, Caustic soda",,64030,Sodium hydroxide: 55000; Caustic soda: 9000; E524: 30
+E525,Potassium hydroxide,"E525, Potassium hydroxide",,22030,Potassium hydroxide: 22000; E525: 30
+E526,Calcium hydroxide,"E526, Calcium hydroxide, Slaked lime",,20040,Calcium hydroxide: 17000; Slaked lime: 3000; E526: 40
+E527,Ammonium hydroxide,"E527, Ammonium hydroxide, Aqua ammonia, ammonia, household ammonia, ammonia water, ammonical liquor, ammonia liquor, aqueous ammonia",,171380,ammonia: 158000; Ammonium hydroxide: 11000; household ammonia: 1000; aqueous ammonia: 600; Aqua ammonia: 500; ammonia water: 250; E527: 20; ammonia liquor: 10; ammonical liquor: 0
+E528,Magnesium hydroxide,"E528, Magnesium hydroxide",,22010,Magnesium hydroxide: 22000; E528: 10
+E529,Calcium oxide,"E529, Calcium oxide",,12010,Calcium oxide: 12000; E529: 10
+E530,Magnesium oxide,"E530, Magnesium oxide, magnesia",,95550,Magnesium oxide: 93000; magnesia: 2500; E530: 50
+E535,Sodium ferrocyanide,"E535, Sodium ferrocyanide, Yellow prussiate of soda",,2550,Yellow prussiate of soda: 2300; Sodium ferrocyanide: 200; E535: 50
+E536,Potassium ferrocyanide,"E536, Potassium ferrocyanide, Yellow prussiate of potash",,910,Potassium ferrocyanide: 800; Yellow prussiate of potash: 70; E536: 40
+E537,ferrous hexacyanomanganate,"E537, ferrous hexacyanomanganate",,20,E537: 20; ferrous hexacyanomanganate: 0
+E538,Calcium ferrocyanide,"E538, Calcium ferrocyanide, Yellow prussiate of lime",,50,E538: 30; Calcium ferrocyanide: 20; Yellow prussiate of lime: 0
+E539,sodium thiosulfate,"E539, sodium thiosulfate","antioxidant, sequestrant",12020,sodium thiosulfate: 12000; E539: 20
+E540,Dicalcium diphosphate,"E540, Dicalcium diphosphate",,40,E540: 40; Dicalcium diphosphate: 0
+E541,Sodium aluminium phosphate,"E541, Sodium aluminium phosphate","emulsifier, stabiliser, thickener",90,Sodium aluminium phosphate: 80; E541: 10
+E541I,Acid sodium aluminium phosphate,"E541i, Acid sodium aluminium phosphate","emulsifier, stabiliser, thickener",0,Acid sodium aluminium phosphate: 0; E541I: 0
+E542,Bone phosphate,"E542, Bone phosphate, Bone phosphate (Essentiale Calcium Phosphate‚ Tribasic)","emulsifier, humectant",60,Bone phosphate: 40; E542: 20; Bone phosphate (Essentiale Calcium Phosphate‚ Tribasic): 0
+E544,Calcium polyphosphate,"E544, Calcium polyphosphate",,10,Calcium polyphosphate: 10; E544: 0
+E545,Ammonium polyphosphate,"E545, Ammonium polyphosphate",,120,E545: 80; Ammonium polyphosphate: 40
+E546,Magnesium pyrophosphate,"E546, Magnesium pyrophosphate",,30,Magnesium pyrophosphate: 30; E546: 0
+E550,Sodium silicate,"E550, Sodium silicate, Sodium Silicates i‚ Sodium silicate (ii)‚ Sodium metasilicate",,7000,Sodium silicate: 4900; E550: 2100; Sodium Silicates i‚ Sodium silicate (ii)‚ Sodium metasilicate: 0
+E551,Silicon dioxide,"E551, Silicon dioxide, Silica, SiO2",carrier,97480,Silica: 45000; Silicon dioxide: 44000; SiO2: 8400; E551: 80
+E552,Calcium silicate,"E552, Calcium silicate",,2900,Calcium silicate: 2900; E552: 0
+E553,Magnesium silicates,"E553, Magnesium silicates, magnesium silicate",thickener,810,magnesium silicate: 800; E553: 10; Magnesium silicates: 0
+E553A,synthetic magnesium silicates,"E553a, synthetic magnesium silicates",thickener,0,E553A: 0; synthetic magnesium silicates: 0
+E553B,Talc,"E553b, Talc, talcum, hydrated magnesium silicate",thickener,33260,Talc: 31000; talcum: 2100; hydrated magnesium silicate: 150; E553B: 10
+E554,Sodium aluminium silicate,"E554, Sodium aluminium silicate, Sodium silicoaluminate, Sodium aluminosilicate",,770,Sodium silicoaluminate: 450; Sodium aluminosilicate: 300; Sodium aluminium silicate: 20; E554: 0
+E555,Potassium aluminium silicate,"E555, Potassium aluminium silicate",,20,E555: 10; Potassium aluminium silicate: 10
+E556,Calcium aluminium silicate,"E556, Calcium aluminium silicate, Calcium aluminosilicate, Calcium silicoaluminate, Aluminium calcium silicate",,30,E556: 20; Calcium aluminosilicate: 10; Aluminium calcium silicate: 0; Calcium aluminium silicate: 0; Calcium silicoaluminate: 0
+E557,hemimorphite,"E557, hemimorphite, calamine",,12700,calamine: 8900; hemimorphite: 3800; E557: 0
+E558,Bentonite,"E558, Bentonite",,10040,Bentonite: 10000; E558: 40
+E559,Aluminium silicate,"E559, Aluminium silicate, Kaolin",,13240,Kaolin: 13000; E559: 150; Aluminium silicate: 90
+E560,Potassium silicate,"E560, Potassium silicate",,640,Potassium silicate: 600; E560: 40
+E570,Fatty acids,"E570, Fatty acids, Linear fatty acids, caprylic acid (C8), caprylic acid, capric acid (C10), capric acid, lauric acid (C12), lauric acid, myristic acid (C14), myristic acid, palmitic acid (C16), palmitic acid, stearic acid (C18), stearic acid, fatty acid",,69670,fatty acid: 17000; stearic acid: 16000; Fatty acids: 9800; caprylic acid: 8500; palmitic acid: 7500; lauric acid: 6200; myristic acid: 3600; capric acid: 1000; E570: 60; caprylic acid (C8): 10; capric acid (C10): 0; lauric acid (C12): 0; Linear fatty acids: 0; myristic acid (C14): 0; palmitic acid (C16): 0; stearic acid (C18): 0
+E571,Ammonium stearate,"E571, Ammonium stearate",,20,Ammonium stearate: 10; E571: 10
+E572,Magnesium stearate,"E572, Magnesium stearate",,24020,Magnesium stearate: 24000; E572: 20
+E573,Aluminium stearate,"E573, Aluminium stearate, Aluminum stearate",,380,Aluminum stearate: 300; Aluminium stearate: 70; E573: 10
+E574,Gluconic acid,"E574, Gluconic acid, D-gluconic acid",,2880,Gluconic acid: 2800; D-gluconic acid: 70; E574: 10
+E575,Glucono-delta-lactone,"E575, Glucono-delta-lactone, Gluconolactone, GDL, D-Gluconic acid delta-lactone",sequestrant,8030,GDL: 4000; Gluconolactone: 3900; Glucono-delta-lactone: 100; E575: 30; D-Gluconic acid delta-lactone: 0
+E576,Sodium gluconate,"E576, Sodium gluconate","sequestrant, stabiliser, thickener",1800,Sodium gluconate: 1800; E576: 0
+E577,Potassium gluconate,"E577, Potassium gluconate",sequestrant,7000,Potassium gluconate: 7000; E577: 0
+E578,calcium gluconate,"E578, calcium gluconate",sequestrant,17010,calcium gluconate: 17000; E578: 10
+E579,iron gluconate,"E579, iron gluconate, ferrous gluconate",,15510,ferrous gluconate: 15000; iron gluconate: 500; E579: 10
+E580,Magnesium Gluconate,"E580, Magnesium Gluconate",,6850,Magnesium Gluconate: 6800; E580: 50
+E585,Ferrous lactate,"E585, Ferrous lactate, Iron-II lactate",,210,Ferrous lactate: 150; E585: 60; Iron-II lactate: 0
+E586,4-hexylresorcinol,"E586, 4-hexylresorcinol, 4-Hexyl-1‚3-benzenediol",,30,4-hexylresorcinol: 20; E586: 10; 4-Hexyl-1‚3-benzenediol: 0
+E620,Glutamic acid,"E620, Glutamic acid, L-Glutamic acid",,10050,Glutamic acid: 9700; L-Glutamic acid: 250; E620: 100
+E621,Monosodium glutamate,"E621, Monosodium glutamate, monosodium l-glutamate, Sodium glutamate, L-Glutamic acid‚ monosodium salt, Glutamate, MSG",flavour-enhancer,1307520,E621: 1090000; MSG: 154000; Glutamate: 40000; Monosodium glutamate: 23000; Sodium glutamate: 450; monosodium l-glutamate: 70; L-Glutamic acid‚ monosodium salt: 0
+E622,Monopotassium glutamate,"E622, Monopotassium glutamate, Potassium glutamate",,8390,E622: 8200; Potassium glutamate: 150; Monopotassium glutamate: 40
+E623,Calcium diglutamate,"E623, Calcium diglutamate",,600,E623: 600; Calcium diglutamate: 0
+E624,Monoammonium glutamate,"E624, Monoammonium glutamate",,410,E624: 350; Monoammonium glutamate: 60
+E625,Magnesium diglutamate,"E625, Magnesium diglutamate",,30,E625: 30; Magnesium diglutamate: 0
+E626,Guanylic acid,"E626, Guanylic acid, guanosine monophosphate",,240,guanosine monophosphate: 150; E626: 70; Guanylic acid: 20
+E627,Disodium guanylate,"E627, Disodium guanylate, Sodium guanylate",,3400,Disodium guanylate: 3300; E627: 100; Sodium guanylate: 0
+E628,Dipotassium guanylate,"E628, Dipotassium guanylate, Potassium guanylate",,70,E628: 70; Dipotassium guanylate: 0; Potassium guanylate: 0
+E629,Calcium guanylate,"E629, Calcium guanylate",,200,E629: 200; Calcium guanylate: 0
+E630,Inosinic acid,"E630, Inosinic acid",,100,Inosinic acid: 70; E630: 30
+E631,Disodium inosinate,"E631, Disodium inosinate, Sodium inosinate",,7410,Disodium inosinate: 4000; E631: 3400; Sodium inosinate: 10
+E632,Dipotassium inosinate,"E632, Dipotassium inosinate, Potassium inosinate",,1400,E632: 1400; Dipotassium inosinate: 0; Potassium inosinate: 0
+E633,Calcium inosinate,"E633, Calcium inosinate",,10,E633: 10; Calcium inosinate: 0
+E634,Calcium 5'-ribonucleotide,"E634, Calcium 5'-ribonucleotide, Calcium 5'-ribonucleotides",,150,E634: 150; Calcium 5'-ribonucleotide: 0; Calcium 5'-ribonucleotides: 0
+E635,Disodium 5'-ribonucleotide,"E635, Disodium 5'-ribonucleotide, Disodium 5'-ribonucleotides",,260,E635: 150; Disodium 5'-ribonucleotides: 100; Disodium 5'-ribonucleotide: 10
+E636,Maltol,"E636, Maltol",,460,Maltol: 450; E636: 10
+E637,Ethyl maltol,"E637, Ethyl maltol",,730,Ethyl maltol: 700; E637: 30
+E638,Sodium L-aspartate,"E638, Sodium L-aspartate, Sodium L aspartate",,0,E638: 0; Sodium L aspartate: 0; Sodium L-aspartate: 0
+E639,DL-alanine,"E639, DL-alanine, DL alanine",,90,DL-alanine: 40; E639: 30; DL alanine: 20
+E640,Glycine and its sodium salt,"E640, Glycine and its sodium salt",,20,E640: 20; Glycine and its sodium salt: 0
+E640I,Glycine,"E640i, Glycine",,60000,Glycine: 60000; E640I: 0
+E640II,Sodiumglycinate,"E640ii, Sodiumglycinate",,0,E640II: 0; Sodiumglycinate: 0
+E641,Leucine,"E641, Leucine, L-Leucine",,39350,Leucine: 36000; L-Leucine: 3000; E641: 350
+E642,L-lysine hydrochloride,"E642, L-lysine hydrochloride, L lysine hydrochloride",,340,L-lysine hydrochloride: 150; E642: 100; L lysine hydrochloride: 90
+E650,Zinc acetate,"E650, Zinc acetate, zinc salt",,4130,Zinc acetate: 4000; zinc salt: 80; E650: 50
+E900,Dimethylpolysiloxane and Methylphenylpolysiloxane,"E900, Dimethylpolysiloxane and Methylphenylpolysiloxane",,60,E900: 60; Dimethylpolysiloxane and Methylphenylpolysiloxane: 0
+E900A,Dimethyl polysiloxane,"E900a, Dimethyl polysiloxane, Polydimethyl siloxane, Silicone fluid, Silicone oil, Polydimethylsiloxane, dimethicone, dimethylpolysiloxane",emulsifier,39070,dimethicone: 30000; Silicone oil: 3500; dimethylpolysiloxane: 3000; Polydimethylsiloxane: 2200; Dimethyl polysiloxane: 200; Silicone fluid: 100; Polydimethyl siloxane: 70; E900A: 0
+E901,white and yellow beeswax,"E901, white and yellow beeswax, beeswax, white beeswax, yellow beeswax, white wax","carrier, emulsifier, stabiliser, thickener",34210,beeswax: 33000; white wax: 450; white beeswax: 350; yellow beeswax: 300; E901: 100; white and yellow beeswax: 10
+E902,Candelilla wax,"E902, Candelilla wax","carrier, emulsifier, thickener",3150,Candelilla wax: 3000; E902: 150
+E903,Carnauba wax,"E903, Carnauba wax, carnauba wax coating agents",carrier,17060,Carnauba wax: 17000; E903: 60; carnauba wax coating agents: 0
+E904,Shellac,"E904, Shellac, Bleached shellac",,22360,Shellac: 22000; E904: 350; Bleached shellac: 10
+E905,Synthetic wax,"E905, Synthetic wax, Hydrocarbon wax, Fischer-Tropsch wax",,460,Synthetic wax: 350; E905: 40; Fischer-Tropsch wax: 40; Hydrocarbon wax: 30
+E905A,mineral oil,"E905a, mineral oil",,49000,mineral oil: 49000; E905A: 0
+E905B,petroleum jelly,"E905b, petroleum jelly, petrolatum, white petrolatum, soft paraffin, multi-hydrocarbon",,61120,petroleum jelly: 41000; petrolatum: 17000; white petrolatum: 3100; soft paraffin: 20; E905B: 0; multi-hydrocarbon: 0
+E905C,Petroleum wax,"E905c, Petroleum wax",,150,Petroleum wax: 150; E905C: 0
+E905CI,Microcrystalline wax,"E905ci, Microcrystalline wax",,1500,Microcrystalline wax: 1500; E905CI: 0
+E905CII,Paraffin wax,"E905cii, Paraffin wax",,26000,Paraffin wax: 26000; E905CII: 0
+E906,Benzoin resin,"E906, Benzoin resin",,850,Benzoin resin: 450; E906: 400
+E907,Hydrogenated poly-1-decene,"E907, Hydrogenated poly-1-decene, Hydrogenated polydec-1-ene, Crystalline wax",,90,Crystalline wax: 80; E907: 10; Hydrogenated poly-1-decene: 0; Hydrogenated polydec-1-ene: 0
+E908,Rice bran wax,"E908, Rice bran wax",,310,Rice bran wax: 300; E908: 10
+E909,Spermaceti,"E909, Spermaceti",,2310,Spermaceti: 2300; E909: 10
+E910,Wax ester,"E910, Wax ester",,120,Wax ester: 100; E910: 20
+E911,Fatty acid methyl ester,"E911, Fatty acid methyl ester",,2150,E911: 1900; Fatty acid methyl ester: 250
+E912,Montanic acid esters,"E912, Montanic acid esters, Montan acid esters",,30,E912: 30; Montan acid esters: 0; Montanic acid esters: 0
+E913,Lanolin,"E913, Lanolin, sheep wool grease, wool wax, wool grease",,41740,Lanolin: 40000; wool wax: 1100; wool grease: 600; sheep wool grease: 30; E913: 10
+E914,Oxidised polyethylene wax,"E914, Oxidised polyethylene wax",,60,E914: 50; Oxidised polyethylene wax: 10
+E916,Calcium iodate,"E916, Calcium iodate",,470,Calcium iodate: 450; E916: 20
+E917,potassium iodate,"E917, potassium iodate",,1900,potassium iodate: 1900; E917: 0
+E919,Nitrosyl chloride,"E919, Nitrosyl chloride",,200,Nitrosyl chloride: 200; E919: 0
+E920,l-cysteine,"E920, l-cysteine, L-cysteine hydrochloride, L-Cysteine, L-2-Amino-3-mercaptopropionic acid, L-Cys, (R)-2-Amino-3-mercaptopropanoic acid, (2R)-2-amino-3-sulfanylpropanoic acid, (2R)-2-amino-3-mercaptopropanoic acid",,4350,l-cysteine: 4100; L-cysteine hydrochloride: 200; E920: 40; L-Cys: 10; (2R)-2-amino-3-mercaptopropanoic acid: 0; (2R)-2-amino-3-sulfanylpropanoic acid: 0; (R)-2-Amino-3-mercaptopropanoic acid: 0; L-2-Amino-3-mercaptopropionic acid: 0
+E921,L-cysteine hydrochloride monohydrate,"E921, L-cysteine hydrochloride monohydrate",,400,E921: 350; L-cysteine hydrochloride monohydrate: 50
+E922,Potassium persulfate,"E922, Potassium persulfate",,410,Potassium persulfate: 400; E922: 10
+E923,ammonium persulfate,"E923, ammonium persulfate",,1420,ammonium persulfate: 1400; E923: 20
+E924A,Potassium bromate,"E924a, Potassium bromate",,7200,Potassium bromate: 7200; E924A: 0
+E925,Chlorine,"E925, Chlorine, element 17",,48330,Chlorine: 48000; element 17: 250; E925: 80
+E926,Chlorine dioxide,"E926, Chlorine dioxide",,21900,Chlorine dioxide: 17000; E926: 4900
+E927,Azodicarbonamide and Carbamide,"E927, Azodicarbonamide and Carbamide",,10,E927: 10; Azodicarbonamide and Carbamide: 0
+E927A,Azodicarbonamide,"E927a, Azodicarbonamide",,3400,Azodicarbonamide: 3400; E927A: 0
+E927B,Carbamide,"E927b, Carbamide, urea",,86700,urea: 85000; Carbamide: 1700; E927B: 0
+E928,Benzole peroxide,"E928, Benzole peroxide, benzoyl peroxide",preservative,133050,benzoyl peroxide: 133000; Benzole peroxide: 50; E928: 0
+E929,acetone peroxide,"E929, acetone peroxide, Mother of Satan, Triacetone Triperoxide, Peroxyacetone",,870,Triacetone Triperoxide: 450; acetone peroxide: 350; Mother of Satan: 70; E929: 0; Peroxyacetone: 0
+E930,calcium peroxide,"E930, calcium peroxide",,310,calcium peroxide: 300; E930: 10
+E931,Nitrogen,"E931, Nitrogen",,71010,Nitrogen: 71000; E931: 10
+E932,Nitrogen oxide,"E932, Nitrogen oxide",,6910,Nitrogen oxide: 6900; E932: 10
+E938,Argon,"E938, Argon, element 18",,31360,Argon: 31000; element 18: 350; E938: 10
+E939,Helium,"E939, Helium, element 2",,67300,Helium: 67000; element 2: 300; E939: 0
+E941,Nitrogen,"E941, Nitrogen, nitrogen E941",propellent-gas,71010,Nitrogen: 71000; E941: 10; nitrogen E941: 0
+E942,Nitrous oxide,"E942, Nitrous oxide, propellent gas E942","antioxidant, propellent-gas",93080,Nitrous oxide: 93000; E942: 80; propellent gas E942: 0
+E943A,Butane,"E943a, Butane",,41000,Butane: 41000; E943A: 0
+E943B,Isobutane,"E943b, Isobutane",,6500,Isobutane: 6500; E943B: 0
+E944,Propane,"E944, Propane",,82000,Propane: 82000; E944: 0
+E946,octafluorocyclobutane,"E946, octafluorocyclobutane",,60,octafluorocyclobutane: 60; E946: 0
+E948,Oxygen,"E948, Oxygen, element 8",,106810,Oxygen: 106000; element 8: 800; E948: 10
+E949,Hydrogen,"E949, Hydrogen",,92000,Hydrogen: 92000; E949: 0
+E950,Acesulfame k,"E950, Acesulfame k, Acesulfame potassium",sweetener,29880,Acesulfame potassium: 27000; Acesulfame k: 2800; E950: 80
+E951,Aspartame,"E951, Aspartame, 1-Methyl N-L-alpha-aspartyl-L-phenylalanine, Asp-phe-ome, 3-Amino-N-(alpha-methoxycarbonylphenethyl) succinamic acid, 3-Amino-N-(α-carboxyphenethyl)succinamic acid N-methyl ester, L-Aspartyl-L-phenylalanine methyl ester, 1-methyl N-L-α-aspartyl-L-phenylalanate, Aspartylphenylalanine methyl ester, 3-Amino-N-(alpha-carboxyphenethyl)succinamic acid N-methyl ester, 3-Amino-N-(α-methoxycarbonylphenethyl) succinamic acid, 1-Methyl N-L-alpha-aspartyl-L-phenylalanate",sweetener,98020,Aspartame: 98000; E951: 20; 1-Methyl N-L-alpha-aspartyl-L-phenylalanate: 0; 1-Methyl N-L-alpha-aspartyl-L-phenylalanine: 0; 1-methyl N-L-α-aspartyl-L-phenylalanate: 0; 3-Amino-N-(alpha-carboxyphenethyl)succinamic acid N-methyl ester: 0; 3-Amino-N-(alpha-methoxycarbonylphenethyl) succinamic acid: 0; 3-Amino-N-(α-carboxyphenethyl)succinamic acid N-methyl ester: 0; 3-Amino-N-(α-methoxycarbonylphenethyl) succinamic acid: 0; Asp-phe-ome: 0; Aspartylphenylalanine methyl ester: 0; L-Aspartyl-L-phenylalanine methyl ester: 0
+E952,Cyclamic acid and its Na and Ca salts,"E952, Cyclamic acid and its Na and Ca salts, Cyclamic acid, sodium cyclamate, cyclamates",sweetener,450,cyclamates: 250; sodium cyclamate: 150; E952: 30; Cyclamic acid: 20; Cyclamic acid and its Na and Ca salts: 0
+E953,isomalt,"E953, isomalt","stabiliser, sweetener, thickener",14020,isomalt: 14000; E953: 20
+E954,saccharin and its salts,"E954, saccharin and its salts, saccharin, saccharin sodium salt, saccharin sodium, sodium saccharin salt, saccharin calcium salt, saccharin calcium, calcium saccharine, saccharin potassium salt, saccharine potassium, potassium saccharine, sodium saccharin",sweetener,9130,saccharin: 7100; sodium saccharin: 1700; saccharin sodium: 300; E954: 30; calcium saccharine: 0; potassium saccharine: 0; saccharin and its salts: 0; saccharin calcium: 0; saccharin calcium salt: 0; saccharin potassium salt: 0; saccharin sodium salt: 0; saccharine potassium: 0; sodium saccharin salt: 0
+E955,Sucralose,"E955, Sucralose",sweetener,155100,Sucralose: 155000; E955: 100
+E957,Thaumatin,"E957, Thaumatin",sweetener,2510,Thaumatin: 2500; E957: 10
+E958,Glycyrrhizin,"E958, Glycyrrhizin",sweetener,600,Glycyrrhizin: 600; E958: 0
+E959,Neohesperidine dihydrochalcone,"E959, Neohesperidine dihydrochalcone, Neohesperidin dihydrochalcone, Neohesperidine DC, NHDC",sweetener,160,NHDC: 90; Neohesperidin dihydrochalcone: 60; E959: 10; Neohesperidine DC: 0; Neohesperidine dihydrochalcone: 0
+E960,Steviol glycosides,"E960, Steviol glycosides, Steviol glycoside, stevia rebaudiana extract, stevia leaf extract, steviol",sweetener,22640,stevia leaf extract: 14000; Steviol glycosides: 6600; steviol: 1700; Steviol glycoside: 250; stevia rebaudiana extract: 50; E960: 40
+E960A,Steviol glycosides from Stevia,"E960a, Steviol glycosides from Stevia",sweetener,20,E960A: 20; Steviol glycosides from Stevia: 0
+E960C,Enzymatically produced steviol glycosides,"E960c, Enzymatically produced steviol glycosides",sweetener,0,E960C: 0; Enzymatically produced steviol glycosides: 0
+E960D,Glucosylated steviol glycosides,"E960d, Glucosylated steviol glycosides",sweetener,0,E960D: 0; Glucosylated steviol glycosides: 0
+E961,Neotame,"E961, Neotame",sweetener,1080,Neotame: 1000; E961: 80
+E962,Salt of aspartame-acesulfame,"E962, Salt of aspartame-acesulfame, Aspartame-acesulfame, Aspartame-acesulfame salt, E-962, E 962",sweetener,300,E962: 300; Aspartame-acesulfame: 0; Aspartame-acesulfame salt: 0; E 962: 0; E-962: 0; Salt of aspartame-acesulfame: 0
+E963,Tagatose,"E963, Tagatose",sweetener,810,Tagatose: 800; E963: 10
+E964,Polyglycitol syrup,"E964, Polyglycitol syrup",sweetener,610,Polyglycitol syrup: 600; E964: 10
+E965,maltitol,"E965, maltitol","emulsifier, humectant, stabiliser, sweetener, thickener",19100,maltitol: 19000; E965: 100
+E965I,D-Maltitol,"E965i, D-Maltitol","emulsifier, humectant, stabiliser, sweetener, thickener",20,D-Maltitol: 20; E965I: 0
+E965II,Maltitol syrup,"E965ii, Maltitol syrup","emulsifier, humectant, stabiliser, sweetener, thickener",4200,Maltitol syrup: 4200; E965II: 0
+E966,Lactitol,"E966, Lactitol, Lactit, Lactositol","emulsifier, sweetener, thickener",300,Lactitol: 300; E966: 0; Lactit: 0; Lactositol: 0
+E967,Xylitol,"E967, Xylitol","emulsifier, humectant, stabiliser, sweetener, thickener",133020,Xylitol: 133000; E967: 20
+E968,Erythritol,"E968, Erythritol, Meso-erythritol, Tetrahydroxybutane, E-968, E 968","humectant, sweetener",156060,Erythritol: 156000; Meso-erythritol: 50; E968: 10; E 968: 0; E-968: 0; Tetrahydroxybutane: 0
+E969,Advantame,"E969, Advantame",sweetener,460,Advantame: 450; E969: 10
+E999,Quillaia extract,"E999, Quillaia extract, Soapbark extract, Quillay bark extract, Panama bark extract, Quillai extract, Murillo bark extract, Quillaia",emulsifier,4990,Quillaia extract: 3400; Quillaia: 1500; E999: 70; Panama bark extract: 10; Soapbark extract: 10; Murillo bark extract: 0; Quillai extract: 0; Quillay bark extract: 0
+,Ammonium and sodium carbonates,ammonium and sodium carbonates,,0,Ammonium and sodium carbonates: 0
+,dimethyl sulfone,"methylsulfonylmethane, dimethyl sulfone, methyl sulfone",,7320,methylsulfonylmethane: 6500; dimethyl sulfone: 800; methyl sulfone: 20
