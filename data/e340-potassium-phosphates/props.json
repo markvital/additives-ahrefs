@@ -22,5 +22,10 @@
     "synthetic",
     "mineral"
   ],
-  "productCount": 6339
+  "productCount": 6339,
+  "children": [
+    "e340i-monopotassium-phosphate",
+    "e340ii-dipotassium-phosphate",
+    "e340iii-tripotassium-phosphate"
+  ]
 }

@@ -19,5 +19,8 @@
     "plant",
     "synthetic"
   ],
-  "productCount": 0
+  "productCount": 0,
+  "parents": [
+    "e965-maltitol"
+  ]
 }

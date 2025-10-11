@@ -24,5 +24,15 @@
     "synthetic",
     "mineral"
   ],
-  "productCount": 15646
+  "productCount": 15646,
+  "children": [
+    "e450i-disodium-diphosphate",
+    "e450ii-trisodium-diphosphate",
+    "e450iii-tetrasodium-diphosphate",
+    "e450iv-dipotassium-dihydrogenpyrophosphate",
+    "e450v-tetrapotassium-diphosphate",
+    "e450vi-dicalcium-diphosphate",
+    "e450vii-calcium-dihydrogen-diphosphate",
+    "e450viii-dimagnesium-diphosphate"
+  ]
 }

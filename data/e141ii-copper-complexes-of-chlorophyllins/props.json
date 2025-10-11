@@ -18,5 +18,8 @@
     "plant",
     "synthetic"
   ],
-  "productCount": 29
+  "productCount": 29,
+  "parents": [
+    "e141-copper-complexes-of-chlorophylls-and-chlorophyllins"
+  ]
 }

@@ -17,5 +17,9 @@
   "origin": [
     "plant"
   ],
-  "productCount": 14322
+  "productCount": 14322,
+  "children": [
+    "e440i-non-amidated-pectines",
+    "e440ii-amidated-pectin"
+  ]
 }

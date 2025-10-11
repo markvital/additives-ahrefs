@@ -19,5 +19,12 @@
   "origin": [
     "synthetic"
   ],
-  "productCount": 5226
+  "productCount": 5226,
+  "children": [
+    "e452i-sodium-polyphosphate",
+    "e452ii-potassium-polyphosphate",
+    "e452iii-sodium-calcium-polyphosphate",
+    "e452iv-calcium-polyphosphate",
+    "e452vi-sodium-tripolyphosphate"
+  ]
 }

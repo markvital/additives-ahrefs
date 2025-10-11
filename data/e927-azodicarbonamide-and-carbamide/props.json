@@ -14,5 +14,9 @@
     "synthetic",
     "artificial"
   ],
-  "productCount": 763
+  "productCount": 763,
+  "children": [
+    "e927a-azodicarbonamide",
+    "e927b-carbamide"
+  ]
 }

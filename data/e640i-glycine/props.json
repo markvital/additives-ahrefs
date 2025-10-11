@@ -13,5 +13,8 @@
     "animal",
     "synthetic"
   ],
-  "productCount": 210
+  "productCount": 210,
+  "parents": [
+    "e640-glycine-and-its-sodium-salt"
+  ]
 }

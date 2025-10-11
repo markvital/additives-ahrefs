@@ -16,5 +16,8 @@
     "artificial",
     "mineral"
   ],
-  "productCount": 458
+  "productCount": 458,
+  "parents": [
+    "e501-potassium-carbonates"
+  ]
 }

@@ -22,5 +22,8 @@
     "synthetic",
     "mineral"
   ],
-  "productCount": 15
+  "productCount": 15,
+  "parents": [
+    "e451-triphosphates"
+  ]
 }

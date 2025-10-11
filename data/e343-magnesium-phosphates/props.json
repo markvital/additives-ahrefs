@@ -19,5 +19,9 @@
     "artificial",
     "mineral"
   ],
-  "productCount": 496
+  "productCount": 496,
+  "children": [
+    "e343i-monomagnesium-phosphate",
+    "e343ii-dimagnesium-phosphate"
+  ]
 }

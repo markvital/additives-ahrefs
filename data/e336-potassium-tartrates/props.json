@@ -13,5 +13,9 @@
     "plant",
     "synthetic"
   ],
-  "productCount": 1597
+  "productCount": 1597,
+  "children": [
+    "e336i-monopotassium-tartrate",
+    "e336ii-dipotassium-tartrate"
+  ]
 }

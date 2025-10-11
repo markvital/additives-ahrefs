@@ -16,5 +16,8 @@
     "microbiological",
     "synthetic"
   ],
-  "productCount": 5601
+  "productCount": 5601,
+  "parents": [
+    "e160a-carotene"
+  ]
 }

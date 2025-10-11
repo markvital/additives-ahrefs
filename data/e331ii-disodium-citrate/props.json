@@ -17,5 +17,8 @@
     "microbiological",
     "synthetic"
   ],
-  "productCount": 6
+  "productCount": 6,
+  "parents": [
+    "e331-sodium-citrates"
+  ]
 }

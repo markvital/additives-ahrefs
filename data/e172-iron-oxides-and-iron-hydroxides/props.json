@@ -15,5 +15,10 @@
     "synthetic",
     "mineral"
   ],
-  "productCount": 23
+  "productCount": 23,
+  "children": [
+    "e172i-black-iron-oxide",
+    "e172ii-red-iron-oxide",
+    "e172iii-yellow-iron-oxide"
+  ]
 }

@@ -13,5 +13,8 @@
     "animal",
     "synthetic"
   ],
-  "productCount": 103
+  "productCount": 103,
+  "parents": [
+    "e503-ammonium-carbonates"
+  ]
 }

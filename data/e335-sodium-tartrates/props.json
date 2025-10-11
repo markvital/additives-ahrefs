@@ -16,5 +16,9 @@
     "plant",
     "synthetic"
   ],
-  "productCount": 1
+  "productCount": 1,
+  "children": [
+    "e335i-monosodium-tartrate",
+    "e335ii-disodium-tartrate"
+  ]
 }

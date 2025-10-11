@@ -15,5 +15,8 @@
   "origin": [
     "plant"
   ],
-  "productCount": 3
+  "productCount": 3,
+  "parents": [
+    "e160b-annatto"
+  ]
 }

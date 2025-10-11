@@ -13,5 +13,9 @@
     "animal",
     "synthetic"
   ],
-  "productCount": 213
+  "productCount": 213,
+  "children": [
+    "e640i-glycine",
+    "e640ii-sodiumglycinate"
+  ]
 }

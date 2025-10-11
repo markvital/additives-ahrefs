@@ -16,5 +16,9 @@
     "synthetic",
     "mineral"
   ],
-  "productCount": 1085
+  "productCount": 1085,
+  "children": [
+    "e501i-potassium-carbonate",
+    "e501ii-potassium-hydrogen-carbonate"
+  ]
 }

@@ -16,5 +16,8 @@
   "origin": [
     "plant"
   ],
-  "productCount": 4
+  "productCount": 4,
+  "parents": [
+    "e440-pectins"
+  ]
 }

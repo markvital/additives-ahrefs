@@ -15,5 +15,9 @@
     "synthetic",
     "mineral"
   ],
-  "productCount": 37
+  "productCount": 37,
+  "children": [
+    "e515i-potassium-sulphate",
+    "e515ii-potassium-hydrogen-sulphate"
+  ]
 }

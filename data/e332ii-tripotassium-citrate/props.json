@@ -18,5 +18,8 @@
     "synthetic",
     "mineral"
   ],
-  "productCount": 191
+  "productCount": 191,
+  "parents": [
+    "e332-potassium-citrates"
+  ]
 }

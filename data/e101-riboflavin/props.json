@@ -22,5 +22,9 @@
     "microbiological",
     "synthetic"
   ],
-  "productCount": 555
+  "productCount": 555,
+  "children": [
+    "e101i-riboflavin",
+    "e101ii-riboflavin-5-phosphate"
+  ]
 }

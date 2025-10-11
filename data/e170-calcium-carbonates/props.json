@@ -14,5 +14,9 @@
     "synthetic",
     "mineral"
   ],
-  "productCount": 1542
+  "productCount": 1542,
+  "children": [
+    "e170i-calcium-carbonate",
+    "e170ii-calcium-hydrogen-carbonate"
+  ]
 }

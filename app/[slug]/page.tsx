@@ -256,10 +256,17 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
               <Box component="span" sx={{ fontWeight: 600 }}>
                 Contains:
               </Box>{' '}
-              {childAdditives.map((child, index) => (
-                <span key={child.slug}>
-                  {index > 0 ? ', ' : null}
+              <Box
+                component="span"
+                sx={{
+                  display: 'inline-flex',
+                  flexWrap: 'wrap',
+                  gap: 1.5,
+                }}
+              >
+                {childAdditives.map((child) => (
                   <MuiLink
+                    key={child.slug}
                     component={NextLink}
                     href={`/${child.slug}`}
                     underline="hover"
@@ -267,8 +274,8 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
                   >
                     {formatAdditiveDisplayName(child.eNumber, child.title)}
                   </MuiLink>
-                </span>
-              ))}
+                ))}
+              </Box>
             </Typography>
           )}
           {(searchRank !== null || searchVolume !== null || searchCountryText || hasKeywordShare) && (

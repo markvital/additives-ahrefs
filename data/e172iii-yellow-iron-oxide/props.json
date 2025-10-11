@@ -15,5 +15,8 @@
     "artificial",
     "mineral"
   ],
-  "productCount": 2
+  "productCount": 2,
+  "parents": [
+    "e172-iron-oxides-and-iron-hydroxides"
+  ]
 }

@@ -13,5 +13,8 @@
     "synthetic",
     "mineral"
   ],
-  "productCount": 2
+  "productCount": 2,
+  "parents": [
+    "e905c-petroleum-wax"
+  ]
 }

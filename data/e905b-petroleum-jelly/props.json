@@ -16,5 +16,8 @@
   "origin": [
     "mineral"
   ],
-  "productCount": 98
+  "productCount": 98,
+  "parents": [
+    "e905-synthetic-wax"
+  ]
 }

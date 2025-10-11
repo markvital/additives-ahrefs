@@ -14,5 +14,8 @@
     "synthetic",
     "mineral"
   ],
-  "productCount": 6
+  "productCount": 6,
+  "parents": [
+    "e352-calcium-malates"
+  ]
 }

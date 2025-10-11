@@ -13,5 +13,8 @@
     "synthetic",
     "mineral"
   ],
-  "productCount": 3
+  "productCount": 3,
+  "parents": [
+    "e514-sodium-sulphates"
+  ]
 }

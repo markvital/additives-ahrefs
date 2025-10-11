@@ -14,5 +14,8 @@
     "animal",
     "synthetic"
   ],
-  "productCount": 44
+  "productCount": 44,
+  "parents": [
+    "e927-azodicarbonamide-and-carbamide"
+  ]
 }

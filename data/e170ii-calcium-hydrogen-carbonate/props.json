@@ -15,5 +15,8 @@
     "synthetic",
     "mineral"
   ],
-  "productCount": 5
+  "productCount": 5,
+  "parents": [
+    "e170-calcium-carbonates"
+  ]
 }

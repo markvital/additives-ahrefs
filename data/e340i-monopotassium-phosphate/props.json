@@ -24,5 +24,8 @@
     "artificial",
     "mineral"
   ],
-  "productCount": 811
+  "productCount": 811,
+  "parents": [
+    "e340-potassium-phosphates"
+  ]
 }

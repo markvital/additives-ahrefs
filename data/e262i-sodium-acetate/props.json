@@ -16,5 +16,8 @@
     "microbiological",
     "synthetic"
   ],
-  "productCount": 597
+  "productCount": 597,
+  "parents": [
+    "e262-sodium-acetates"
+  ]
 }

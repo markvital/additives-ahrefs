@@ -24,5 +24,8 @@
   "origin": [
     "mineral"
   ],
-  "productCount": 4401
+  "productCount": 4401,
+  "parents": [
+    "e340-potassium-phosphates"
+  ]
 }

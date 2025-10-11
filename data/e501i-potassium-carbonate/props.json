@@ -15,5 +15,8 @@
     "plant",
     "synthetic"
   ],
-  "productCount": 619
+  "productCount": 619,
+  "parents": [
+    "e501-potassium-carbonates"
+  ]
 }

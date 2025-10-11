@@ -25,5 +25,8 @@
     "artificial",
     "mineral"
   ],
-  "productCount": 14697
+  "productCount": 14697,
+  "parents": [
+    "e341-calcium-phosphates"
+  ]
 }

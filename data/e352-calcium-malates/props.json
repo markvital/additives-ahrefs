@@ -14,5 +14,8 @@
     "microbiological",
     "synthetic"
   ],
-  "productCount": 7
+  "productCount": 7,
+  "children": [
+    "e352i-calcium-malate"
+  ]
 }

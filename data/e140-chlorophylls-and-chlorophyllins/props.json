@@ -14,5 +14,9 @@
   "origin": [
     "plant"
   ],
-  "productCount": 97
+  "productCount": 97,
+  "children": [
+    "e140i-chlorophylls",
+    "e140ii-chlorophyllins"
+  ]
 }

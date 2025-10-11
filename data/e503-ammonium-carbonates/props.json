@@ -12,5 +12,9 @@
   "origin": [
     "synthetic"
   ],
-  "productCount": 3670
+  "productCount": 3670,
+  "children": [
+    "e503i-ammonium-carbonate",
+    "e503ii-ammonium-hydrogen-carbonate"
+  ]
 }

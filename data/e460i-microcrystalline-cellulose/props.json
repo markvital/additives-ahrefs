@@ -18,5 +18,8 @@
   "origin": [
     "plant"
   ],
-  "productCount": 1203
+  "productCount": 1203,
+  "parents": [
+    "e460-cellulose"
+  ]
 }

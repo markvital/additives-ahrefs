@@ -17,5 +17,9 @@
     "plant",
     "animal"
   ],
-  "productCount": 9
+  "productCount": 9,
+  "children": [
+    "e470ai-sodium-salts-of-fatty-acids",
+    "e470aiii-calcium-salts-of-fatty-acids"
+  ]
 }

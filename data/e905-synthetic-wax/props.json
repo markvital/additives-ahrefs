@@ -15,5 +15,10 @@
     "synthetic",
     "mineral"
   ],
-  "productCount": 1468
+  "productCount": 1468,
+  "children": [
+    "e905a-mineral-oil",
+    "e905b-petroleum-jelly",
+    "e905c-petroleum-wax"
+  ]
 }

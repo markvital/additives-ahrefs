@@ -20,5 +20,9 @@
     "plant",
     "synthetic"
   ],
-  "productCount": 5351
+  "productCount": 5351,
+  "children": [
+    "e420i-d-sorbitol",
+    "e420ii-sorbitol-syrup"
+  ]
 }

@@ -15,5 +15,8 @@
     "synthetic",
     "mineral"
   ],
-  "productCount": 365
+  "productCount": 365,
+  "parents": [
+    "e331-sodium-citrates"
+  ]
 }

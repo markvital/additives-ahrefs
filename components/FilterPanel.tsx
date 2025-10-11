@@ -3,7 +3,7 @@
 import { useTransition } from 'react';
 import type { ChangeEvent } from 'react';
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
-import { Checkbox, FormControl, FormControlLabel, InputLabel, MenuItem, Select, Stack } from '@mui/material';
+import { Box, Checkbox, FormControl, FormControlLabel, InputLabel, MenuItem, Select, Stack } from '@mui/material';
 import type { SelectChangeEvent } from '@mui/material/Select';
 
 import type { AdditiveSortMode } from '../lib/additives';
@@ -111,26 +111,34 @@ export function FilterPanel({
       width="100%"
       flexWrap="wrap"
     >
-      <FormControlLabel
-        control={
-          <Checkbox
-            size="small"
-            checked={currentShowClasses}
-            onChange={handleShowClassesChange}
-            disabled={isPending}
-          />
-        }
-        label="Show classes"
+      <Box
+        component="span"
+        title="Show generic parent additives"
         sx={{
           mr: { xs: 0, sm: 1 },
           ml: { xs: -0.5, sm: 0 },
           alignSelf: { xs: 'flex-start', sm: 'center' },
-          color: 'text.secondary',
-          '& .MuiFormControlLabel-label': {
-            fontSize: 14,
-          },
+          display: 'flex',
         }}
-      />
+      >
+        <FormControlLabel
+          control={
+            <Checkbox
+              size="small"
+              checked={currentShowClasses}
+              onChange={handleShowClassesChange}
+              disabled={isPending}
+            />
+          }
+          label="parent E"
+          sx={{
+            color: 'text.secondary',
+            '& .MuiFormControlLabel-label': {
+              fontSize: 14,
+            },
+          }}
+        />
+      </Box>
       <FormControl
         size="small"
         sx={{ minWidth: { xs: '100%', sm: 180 } }}

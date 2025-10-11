@@ -17,5 +17,9 @@
     "microbiological",
     "synthetic"
   ],
-  "productCount": 213
+  "productCount": 213,
+  "children": [
+    "e332i-monopotassium-citrate",
+    "e332ii-tripotassium-citrate"
+  ]
 }

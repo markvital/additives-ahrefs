@@ -16,5 +16,8 @@
     "microbiological",
     "synthetic"
   ],
-  "productCount": 420
+  "productCount": 420,
+  "parents": [
+    "e101-riboflavin"
+  ]
 }

@@ -15,5 +15,8 @@
     "artificial",
     "mineral"
   ],
-  "productCount": 9
+  "productCount": 9,
+  "parents": [
+    "e504-magnesium-carbonates"
+  ]
 }

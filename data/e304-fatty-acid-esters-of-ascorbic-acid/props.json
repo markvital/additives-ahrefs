@@ -18,5 +18,9 @@
     "microbiological",
     "synthetic"
   ],
-  "productCount": 527
+  "productCount": 527,
+  "children": [
+    "e304i-ascorbyl-palmitate",
+    "e304ii-ascorbyl-stearate"
+  ]
 }

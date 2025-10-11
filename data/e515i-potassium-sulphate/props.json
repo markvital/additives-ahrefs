@@ -13,5 +13,8 @@
     "artificial",
     "mineral"
   ],
-  "productCount": 1
+  "productCount": 1,
+  "parents": [
+    "e515-potassium-sulphates"
+  ]
 }

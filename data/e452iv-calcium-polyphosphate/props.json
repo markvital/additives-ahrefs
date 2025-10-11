@@ -19,5 +19,8 @@
   "origin": [
     "synthetic"
   ],
-  "productCount": 1
+  "productCount": 1,
+  "parents": [
+    "e452-polyphosphates"
+  ]
 }

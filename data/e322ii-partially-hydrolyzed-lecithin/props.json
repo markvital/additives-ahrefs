@@ -16,5 +16,8 @@
     "plant",
     "animal"
   ],
-  "productCount": 0
+  "productCount": 0,
+  "parents": [
+    "e322-lecithins"
+  ]
 }

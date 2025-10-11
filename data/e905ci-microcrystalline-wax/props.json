@@ -12,5 +12,8 @@
   "origin": [
     "mineral"
   ],
-  "productCount": 23
+  "productCount": 23,
+  "parents": [
+    "e905c-petroleum-wax"
+  ]
 }
