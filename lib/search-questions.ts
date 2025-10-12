@@ -1,11 +1,15 @@
 import fs from 'fs';
 import path from 'path';
 
+import { shouldExcludeQuestion } from '../shared/question-filter';
+
 export interface SearchQuestionItem {
   keyword: string;
   volume: number | null;
   parent_topic: string;
   intents: string[];
+  answer?: string;
+  answeredAt?: string;
 }
 
 export interface SearchQuestionsDataset {
@@ -75,13 +79,25 @@ const normaliseQuestion = (entry: SearchQuestionItem): SearchQuestionItem | null
     : '';
 
   const intents = normaliseIntents(entry.intents);
+  const answer = typeof (entry as any).answer === 'string' ? (entry as any).answer.trim() : '';
+  const answeredAt = typeof (entry as any).answeredAt === 'string' ? (entry as any).answeredAt.trim() : '';
 
-  return {
+  const normalised: SearchQuestionItem = {
     keyword,
     volume,
     parent_topic: parentTopic,
     intents,
   };
+
+  if (answer) {
+    normalised.answer = answer;
+  }
+
+  if (answeredAt) {
+    normalised.answeredAt = answeredAt;
+  }
+
+  return normalised;
 };
 
 export const getSearchQuestions = (slug: string): SearchQuestionsDataset | null => {
@@ -105,15 +121,18 @@ export const getSearchQuestions = (slug: string): SearchQuestionsDataset | null 
       return null;
     }
 
-    const questions = parsed.questions
-      .map((entry) => normaliseQuestion(entry))
-      .filter((entry): entry is SearchQuestionItem => entry !== null);
-
-    const keywordList: string[] = Array.isArray((parsed as any)?.keywords)
+    const keywords = Array.isArray((parsed as any)?.keywords)
       ? ((parsed as any).keywords as unknown[])
           .map((value) => (typeof value === 'string' ? value.trim() : ''))
           .filter((value): value is string => value.length > 0)
       : [];
+
+    const questions = parsed.questions
+      .map((entry) => normaliseQuestion(entry))
+      .filter((entry): entry is SearchQuestionItem => entry !== null)
+      .filter((entry) => !shouldExcludeQuestion(entry.keyword, { keywords }));
+
+    const keywordList: string[] = keywords;
 
     if (keywordList.length === 0 && typeof (parsed as any)?.keyword === 'string') {
       const keyword = (parsed as any).keyword.trim();
