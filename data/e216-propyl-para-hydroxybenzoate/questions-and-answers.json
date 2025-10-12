@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2025-10-12T02:40:43.796Z",
+  "answers": [
+    {
+      "q": "is propylparaben safe",
+      "a": "At the low levels used in foods it’s considered safe by some regulators (e.g., FDA recognizes it as GRAS), but it is not permitted as a food additive in the EU.",
+      "answeredAt": "2025-10-12T02:40:43.796Z"
+    },
+    {
+      "q": "is propylparaben bad",
+      "a": "At permitted food-use levels it isn’t considered harmful by regulators that allow it; however, it is no longer authorized for use as a food additive in the EU.",
+      "answeredAt": "2025-10-12T02:40:43.796Z"
+    },
+    {
+      "q": "what is propylparaben used for",
+      "a": "It’s an antimicrobial preservative (especially against molds and yeasts) used to extend shelf life in foods, and is also widely used in cosmetics and pharmaceuticals.",
+      "answeredAt": "2025-10-12T02:40:43.796Z"
+    },
+    {
+      "q": "are methylparaben and propylparaben safe",
+      "a": "Both are considered safe at the low levels allowed in foods by some regulators (e.g., FDA GRAS), but neither is currently authorized as a food additive in the EU.",
+      "answeredAt": "2025-10-12T02:40:43.796Z"
+    },
+    {
+      "q": "does propylparaben cause cancer",
+      "a": "There’s no good evidence that propylparaben causes cancer in humans, and major reviews have not classified it as carcinogenic; it shows weak estrogen-like activity in lab tests at doses far above typical dietary exposure.",
+      "answeredAt": "2025-10-12T02:40:43.796Z"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2025-10-12T02:31:12.421Z",
+  "answers": [
+    {
+      "q": "is phosphoric acid bad for you",
+      "a": "At permitted food levels it’s considered safe (GRAS in the U.S.; EFSA sets a group ADI for phosphates of 40 mg/kg bw/day as phosphorus). Overconsumption—especially via acidic soft drinks—can contribute to dental enamel erosion, and high phosphate intakes may be a concern for people with kidney disease.",
+      "answeredAt": "2025-10-12T02:31:12.421Z"
+    },
+    {
+      "q": "is phosphoric acid a strong acid",
+      "a": "No—it's a weak, triprotic acid (pKa ≈ 2.15, 7.2, 12.3), though concentrated solutions are corrosive.",
+      "answeredAt": "2025-10-12T02:31:12.421Z"
+    },
+    {
+      "q": "what is phosphoric acid used for",
+      "a": "In foods it’s used as an acidulant to add tartness and control pH (e.g., in colas) and as a sequestrant/antioxidant to stabilize color and flavor.",
+      "answeredAt": "2025-10-12T02:31:12.421Z"
+    },
+    {
+      "q": "what does phosphoric acid do to the body",
+      "a": "It dissociates into phosphate ions, which are essential for bones and energy metabolism, while the acid load is buffered and excreted. High intakes from acidic drinks can erode tooth enamel, and excess phosphate may be problematic in kidney disease or with low calcium intake.",
+      "answeredAt": "2025-10-12T02:31:12.421Z"
+    },
+    {
+      "q": "what is the formula for phosphoric acid?",
+      "a": "H3PO4.",
+      "answeredAt": "2025-10-12T02:31:12.421Z"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2025-10-12T02:41:10.186Z",
+  "answers": [
+    {
+      "q": "is ethyl acetate polar",
+      "a": "Yes—it's a moderately polar, aprotic solvent due to its ester carbonyl, though it’s less polar than acetone, acetonitrile, or alcohols.",
+      "answeredAt": "2025-10-12T02:41:10.186Z"
+    },
+    {
+      "q": "is ethyl acetate soluble in water",
+      "a": "Slightly—it's only moderately soluble in water (on the order of about 8–10% at room temperature).",
+      "answeredAt": "2025-10-12T02:41:10.186Z"
+    },
+    {
+      "q": "is ethyl acetate miscible in water",
+      "a": "No; it’s only partially miscible with water (limited mutual solubility rather than full miscibility).",
+      "answeredAt": "2025-10-12T02:41:10.186Z"
+    },
+    {
+      "q": "is ethyl acetate polar or nonpolar",
+      "a": "It is moderately polar and aprotic—more polar than hydrocarbons but less than acetone or alcohols.",
+      "answeredAt": "2025-10-12T02:41:10.186Z"
+    },
+    {
+      "q": "ethyl acetate can be prepared by an sn2 reaction",
+      "a": "Yes—acetate ion can alkylate primary ethyl halides via an SN2 reaction to form ethyl acetate, though industry more commonly uses acid-catalyzed esterification or catalytic routes from ethanol/acetaldehyde.",
+      "answeredAt": "2025-10-12T02:41:10.186Z"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2025-10-12T02:45:52.920Z",
+  "answers": [
+    {
+      "q": "what is a peptone",
+      "a": "A peptone is a water‑soluble mix of short peptides, amino acids, and nutrients made by partial hydrolysis of proteins (e.g., casein, meat, or soy); it’s used as a nutrient source in culture media (tryptone is a casein peptone).",
+      "answeredAt": "2025-10-12T02:45:52.920Z"
+    },
+    {
+      "q": "what is the purpose of peptone in the media",
+      "a": "It supplies readily assimilable nitrogen (peptides and amino acids), vitamins, and minerals to support microbial growth, including fastidious organisms.",
+      "answeredAt": "2025-10-12T02:45:52.920Z"
+    },
+    {
+      "q": "how to make peptone water",
+      "a": "Dissolve 10 g peptone and 5 g sodium chloride in 1 L purified water, adjust pH to about 7.2 at 25°C, dispense, and sterilize by autoclaving at 121°C for 15 minutes.",
+      "answeredAt": "2025-10-12T02:45:52.920Z"
+    },
+    {
+      "q": "what is buffered peptone water",
+      "a": "A phosphate‑buffered version of peptone water (per liter: peptone 10 g, NaCl 5 g, Na2HPO4 3.5 g, KH2PO4 1.5 g; pH ~7.2) used as a non‑selective pre‑enrichment medium to resuscitate stressed bacteria, especially Salmonella, from foods.",
+      "answeredAt": "2025-10-12T02:45:52.920Z"
+    },
+    {
+      "q": "what is peptone in microbiology",
+      "a": "In microbiology, peptone refers to protein hydrolysates (from casein, meat, soy, etc.) rich in peptides and amino acids that serve as the main nitrogen source in culture media; different peptones (e.g., tryptone) can influence growth and test outcomes.",
+      "answeredAt": "2025-10-12T02:45:52.920Z"
+    }
+  ]
+}

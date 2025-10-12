@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2025-10-12T02:54:16.917Z",
+  "answers": [
+    {
+      "q": "1 gram of aluminum will produce how many grams of potassium aluminum sulphate dodecahydrate",
+      "a": "About 17.6 g, assuming the aluminum is fully converted to potassium alum dodecahydrate (KAl(SO4)2·12H2O) using potassium sulphate (E515i) and sulfuric acid at 100% yield.",
+      "answeredAt": "2025-10-12T02:54:16.917Z"
+    },
+    {
+      "q": "1..00 gram of aluminum will produce how many grams of potassium aluminum sulphate decahydrate",
+      "a": "About 16.3 g if the product is the decahydrate (KAl(SO4)2·10H2O) at 100% yield.",
+      "answeredAt": "2025-10-12T02:54:16.917Z"
+    },
+    {
+      "q": "assumming a 100 yeild 1 gram of aluminum will produce how many grams of potassium aluminum sulphate",
+      "a": "About 17.6 g as the common dodecahydrate; if you mean anhydrous KAl(SO4)2, it’s about 9.6 g per 1 g Al (both at 100% yield).",
+      "answeredAt": "2025-10-12T02:54:16.917Z"
+    },
+    {
+      "q": "how much \"potassium sulphate\" should i apply to raise *ppm",
+      "a": "K2SO4 is 44.9% potassium by weight, so grams needed ≈ 0.00223 × desired K ppm × volume in liters (e.g., raising K by 10 ppm in 100 L needs ~2.23 g K2SO4).",
+      "answeredAt": "2025-10-12T02:54:16.917Z"
+    },
+    {
+      "q": "how much potassium is in glucosamine sulphate",
+      "a": "In the common glucosamine sulfate 2KCl form, potassium is about 13% by weight (≈195 mg K per 1500 mg); sodium-chloride–stabilized forms contain no potassium.",
+      "answeredAt": "2025-10-12T02:54:16.917Z"
+    }
+  ]
+}

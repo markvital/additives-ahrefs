@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-10-12T01:30:00.000Z",
+  "updatedAt": "2025-10-12T02:42:39.991Z",
   "answers": [
     {
       "q": "what is ethyl maltol",
@@ -8,23 +8,28 @@
     },
     {
       "q": "how much ethyl maltol",
-      "a": "Typical food use levels are tiny—often 10 to 200 ppm (about 0.001–0.02%) depending on the application. Always follow local regulatory limits and formulation guidelines for your product type.",
-      "answeredAt": "2025-10-12T01:30:00.000Z"
+      "a": "It’s very potent; in foods it’s typically used at tens of ppm (about 0.001–0.01%), and JECFA’s acceptable daily intake is 0–2 mg/kg body weight per day.",
+      "answeredAt": "2025-10-12T02:42:39.991Z"
     },
     {
       "q": "ejuice ethyl maltol how much",
-      "a": "In DIY e-liquids, mixers commonly dissolve ethyl maltol crystals to make a 10% solution and then use 0.25–1% of that solution in the final mix (roughly 0.025–0.1% ethyl maltol). Do not exceed supplier recommendations and ensure ingredients are food grade.",
-      "answeredAt": "2025-10-12T01:30:00.000Z"
+      "a": "Use only tiny amounts; many formulators add about 0.25–1% of a 10% ethyl maltol-in-propylene glycol solution (roughly 0.025–0.1% EM, or ~250–1000 ppm), as higher levels can mute flavors.",
+      "answeredAt": "2025-10-12T02:42:39.991Z"
     },
     {
       "q": "ejuice how to use ethyl maltol",
-      "a": "Dissolve the crystals in propylene glycol or ethanol to make a concentrated solution, then add drops to your base until the sweetness is balanced. Allow the e-liquid to steep and test in small batches to avoid muting other flavors.",
-      "answeredAt": "2025-10-12T01:30:00.000Z"
+      "a": "Dissolve it in propylene glycol to make ~10% solution, then add sparingly to the flavor base and adjust after steeping; start very low because too much can flatten flavors.",
+      "answeredAt": "2025-10-12T02:42:39.991Z"
     },
     {
       "q": "ethyl maltol what is it",
-      "a": "It is the same flavoring molecule used as E637—a sweet, cotton-candy-like enhancer derived from maltol chemistry. Manufacturers use it to round out harsh notes in confectionery, beverages, and vaping liquids.",
-      "answeredAt": "2025-10-12T01:30:00.000Z"
+      "a": "A synthetic flavor enhancer (E637) that provides sweet, caramelized “cotton candy” notes and boosts perceived sweetness; it’s an approved flavoring substance used at very low levels.",
+      "answeredAt": "2025-10-12T02:42:39.991Z"
+    },
+    {
+      "q": "how much ethyl maltol in e liquid",
+      "a": "Typically 0.025–0.1% ethyl maltol by weight (e.g., 0.25–1% of a 10% solution) is enough for e-liquids; exceeding this often mutes or overly candies the mix.",
+      "answeredAt": "2025-10-12T02:42:39.991Z"
     }
   ]
 }

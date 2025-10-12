@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2025-10-12T02:39:45.098Z",
+  "answers": [
+    {
+      "q": "how does ponceau stain work",
+      "a": "In labs, “Ponceau stain” usually means Ponceau S (not the food color E124 Ponceau 4R); it’s an anionic azo dye that reversibly binds proteins on nitrocellulose or PVDF via electrostatic and hydrophobic interactions, giving red bands. As a similar sulfonated azo dye, E124 would color proteins non‑specifically by the same principle but isn’t the standard reagent.",
+      "answeredAt": "2025-10-12T02:39:45.098Z"
+    },
+    {
+      "q": "how to image ponceau stained membrane",
+      "a": "Rinse to lower background, then image the wet membrane under white light with a flatbed scanner, gel imager, or phone camera—no special filters needed. After imaging, destain with water or TBST before immunodetection.",
+      "answeredAt": "2025-10-12T02:39:45.098Z"
+    },
+    {
+      "q": "how to make ponceau s solution",
+      "a": "Ponceau S (different from E124) is typically prepared as 0.1% w/v dye in 5% v/v acetic acid in water; mix to dissolve and filter. Store at room temperature; optionally include ~0.1% SDS to speed staining.",
+      "answeredAt": "2025-10-12T02:39:45.098Z"
+    },
+    {
+      "q": "how to make ponceau stain",
+      "a": "For protein blots, use Ponceau S: 0.1% w/v in 5% v/v acetic acid (water), filter, and use to briefly stain the membrane. E124 Ponceau 4R is a food colorant and isn’t standard for this application.",
+      "answeredAt": "2025-10-12T02:39:45.098Z"
+    },
+    {
+      "q": "how to remove ponceau stain",
+      "a": "Wash the membrane in water or TBST until the red color disappears (typically 1–5 minutes); the staining is fully reversible and compatible with later antibody probing. If background persists, a brief rinse in dilute base (e.g., ~0.1 M NaOH) can clear it quickly.",
+      "answeredAt": "2025-10-12T02:39:45.098Z"
+    }
+  ]
+}

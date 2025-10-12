@@ -1,0 +1,15 @@
+{
+  "updatedAt": "2025-10-12T02:47:46.580Z",
+  "answers": [
+    {
+      "q": "what is the formula of potassium bisulphate",
+      "a": "KHSO4 (potassium hydrogen sulphate).",
+      "answeredAt": "2025-10-12T02:47:46.580Z"
+    },
+    {
+      "q": "why are there differences in the solubility of calcium chloride and of potassium bisulphate",
+      "a": "Because their ions differ in charge, size and hydration: CaCl2 has very favorable hydration enthalpy (Ca2+ and Cl−), making it highly soluble and hygroscopic, while for KHSO4 the larger HSO4− anion and hydrogen-bonded crystal structure make the overall balance of lattice energy vs hydration less favorable, so it dissolves less readily (also varying with pH and temperature).",
+      "answeredAt": "2025-10-12T02:47:46.580Z"
+    }
+  ]
+}

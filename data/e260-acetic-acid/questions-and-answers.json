@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2025-10-12T02:32:31.563Z",
+  "answers": [
+    {
+      "q": "is acetic acid a strong acid",
+      "a": "No—acetic acid (E260) is a weak acid in water (pKa ≈ 4.76), though concentrated (glacial) acetic acid is corrosive.",
+      "answeredAt": "2025-10-12T02:32:31.563Z"
+    },
+    {
+      "q": "is vinegar acetic acid",
+      "a": "Vinegar is a solution of acetic acid in water (typically about 4–8% acetic acid by volume), not pure acetic acid.",
+      "answeredAt": "2025-10-12T02:32:31.563Z"
+    },
+    {
+      "q": "what is acetic acid used for",
+      "a": "In foods, E260 is used as an acidity regulator, preservative, and flavoring (e.g., pickling, sauces); industrially it’s a precursor to vinyl acetate and cellulose acetate and is used in descaling/cleaning.",
+      "answeredAt": "2025-10-12T02:32:31.563Z"
+    },
+    {
+      "q": "which statement describes the acid found in vinegar acetic acid",
+      "a": "It is a weak organic acid (ethanoic acid, CH3COOH) that gives vinegar its sour taste and antimicrobial effect; food-grade vinegar contains at least about 4% acetic acid by volume.",
+      "answeredAt": "2025-10-12T02:32:31.563Z"
+    },
+    {
+      "q": "is acetic acid polar",
+      "a": "Yes—acetic acid is a polar, hydrogen-bonding (protic) molecule due to its carboxyl group, and it mixes well with water and many polar solvents.",
+      "answeredAt": "2025-10-12T02:32:31.563Z"
+    }
+  ]
+}

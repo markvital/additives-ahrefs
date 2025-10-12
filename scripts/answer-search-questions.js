@@ -29,7 +29,7 @@ const ANSWERS_FILENAME = 'questions-and-answers.json';
 
 const QUESTIONS_PER_ADDITIVE = 5;
 const OPENAI_MODEL = 'gpt-5';
-const OPENAI_MAX_OUTPUT_TOKENS = 700;
+const OPENAI_MAX_OUTPUT_TOKENS = 4000;
 const MAX_ATTEMPTS = 3;
 const BASE_RETRY_DELAY_MS = 1500;
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));

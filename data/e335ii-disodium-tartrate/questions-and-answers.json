@@ -1,0 +1,15 @@
+{
+  "updatedAt": "2025-10-12T02:31:48.580Z",
+  "answers": [
+    {
+      "q": "why disodium tartrate dihydrate is used for kf",
+      "a": "Because it is a stable, well-defined hydrate (Na2C4H4O6·2H2O) with a precise water content of about 15.66% w/w, it can be weighed accurately and releases its water quantitatively, making it an ideal primary standard for Karl Fischer titration.",
+      "answeredAt": "2025-10-12T02:31:48.580Z"
+    },
+    {
+      "q": "why disodium tartrate used in karl fischer",
+      "a": "It provides a known, constant amount of water to calibrate or verify KF titrators, dissolves cleanly without side reactions, and is easy to handle and store compared with other potential water standards.",
+      "answeredAt": "2025-10-12T02:31:48.580Z"
+    }
+  ]
+}

@@ -1,30 +1,30 @@
 {
-  "updatedAt": "2025-10-12T01:20:00.000Z",
+  "updatedAt": "2025-10-12T02:32:07.603Z",
   "answers": [
     {
       "q": "is xanthan gum bad for you",
-      "a": "Xanthan gum (E415) is approved by major regulators and the small amounts used in foods are considered safe for most people. Large supplemental doses may cause gas or loose stools, and xanthan-based thickeners aren’t recommended for premature infants.",
-      "answeredAt": "2025-10-12T01:20:00.000Z"
+      "a": "No—at typical food levels it isn’t considered harmful; it’s approved for use in the U.S. and EU. Very high intakes can cause gas or a laxative effect in some people.",
+      "answeredAt": "2025-10-12T02:32:07.603Z"
     },
     {
       "q": "is xanthan gum safe",
-      "a": "Yes—xanthan gum has an ADI of “not specified,” indicating very low toxicity at normal dietary levels. People with sensitivities to high fiber intakes may notice bloating, but typical food portions are well tolerated.",
-      "answeredAt": "2025-10-12T01:20:00.000Z"
+      "a": "Yes—xanthan gum (E415) is approved by regulators like the FDA and EFSA and is considered safe at normal food-use levels. Large supplemental amounts may cause digestive upset, and xanthan-gum–based thickeners are not recommended for premature infants.",
+      "answeredAt": "2025-10-12T02:32:07.603Z"
     },
     {
       "q": "what is xanthan gum made from",
-      "a": "Manufacturers ferment sugars such as glucose or sucrose with the bacterium Xanthomonas campestris to produce xanthan gum, then purify and dry the polysaccharide. The final ingredient is vegan and gluten-free, though the sugar source can vary.",
-      "answeredAt": "2025-10-12T01:20:00.000Z"
+      "a": "It’s a polysaccharide made by fermenting simple sugars (often from corn, sugarcane, or wheat) with the bacterium Xanthomonas campestris, then precipitated, dried, and milled into a powder.",
+      "answeredAt": "2025-10-12T02:32:07.603Z"
     },
     {
       "q": "is xanthan gum bad for dogs",
-      "a": "Pet-food use levels of xanthan gum are generally safe for dogs, and regulators allow it as a stabilizer. Some pets may get mild digestive upset if they’re sensitive to gums, so monitor for loose stools when changing diets.",
-      "answeredAt": "2025-10-12T01:20:00.000Z"
+      "a": "No—it's not considered toxic to dogs, and small amounts used in pet foods are generally safe. Large amounts may cause diarrhea or gas, so avoid overuse and consult a vet if your dog has GI sensitivities.",
+      "answeredAt": "2025-10-12T02:32:07.603Z"
     },
     {
       "q": "what does xanthan gum do",
-      "a": "Xanthan gum thickens and stabilizes foods by increasing viscosity and suspending particles, which keeps sauces, dressings, and dairy alternatives smooth. In gluten-free baking it adds structure and moisture retention.",
-      "answeredAt": "2025-10-12T01:20:00.000Z"
+      "a": "It works as a thickener, stabilizer, and emulsifier—adding viscosity, suspending particles, and preventing separation. In gluten-free baking it helps bind dough and improve texture, and it’s shear‑thinning so it pours easily but thickens at rest.",
+      "answeredAt": "2025-10-12T02:32:07.603Z"
     }
   ]
 }

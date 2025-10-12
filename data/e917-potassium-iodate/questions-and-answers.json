@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2025-10-12T02:48:19.254Z",
+  "answers": [
+    {
+      "q": "is potassium iodate dangerous",
+      "a": "At permitted food-use levels it’s considered safe, but it’s a strong oxidizer and excessive iodine intake can disturb thyroid function (especially in people with thyroid disease, infants, or during pregnancy). As a pure chemical it can irritate eyes/skin and should be handled with care.",
+      "answeredAt": "2025-10-12T02:48:19.254Z"
+    },
+    {
+      "q": "why is potassium iodate banned",
+      "a": "In the EU/UK it’s not authorized as a food additive (flour treatment agent) due to safety concerns about excess iodine exposure and lack of technological need; however, some countries still allow limited uses such as salt iodization. Regulations vary by country.",
+      "answeredAt": "2025-10-12T02:48:19.254Z"
+    },
+    {
+      "q": "what is potassium iodate used for",
+      "a": "It’s used as an oxidizing flour improver/dough conditioner in some countries and as a stable iodine source for iodizing table salt.",
+      "answeredAt": "2025-10-12T02:48:19.254Z"
+    },
+    {
+      "q": "how does sodium bisulfite and potassium iodate react to make iodine reaction with starch equations",
+      "a": "In acid, bisulfite first reduces iodate to iodide: IO3− + 3 HSO3− → I− + 3 HSO4−; once bisulfite is consumed, iodate oxidizes iodide to iodine: IO3− + 5 I− + 6 H+ → 3 I2 + 3 H2O; iodine then forms I3− with I− (I2 + I− → I3−), which gives the blue starch–iodine complex.",
+      "answeredAt": "2025-10-12T02:48:19.254Z"
+    },
+    {
+      "q": "how much of solid kio3 do you need to make 25.00ml of a 0.20m potassium iodate solution? 1.07 g",
+      "a": "About 1.07 g KIO3 (0.02500 L × 0.200 mol/L = 0.00500 mol; molar mass ≈ 214 g/mol; mass ≈ 1.07 g).",
+      "answeredAt": "2025-10-12T02:48:19.254Z"
+    }
+  ]
+}

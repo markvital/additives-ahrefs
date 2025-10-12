@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2025-10-12T02:49:14.153Z",
+  "answers": [
+    {
+      "q": "is methylparaben bad",
+      "a": "Not generally—methylparaben (E218) is a permitted food preservative and is considered safe at the low levels used in foods, being rapidly metabolized and excreted.",
+      "answeredAt": "2025-10-12T02:49:14.153Z"
+    },
+    {
+      "q": "is methylparaben safe",
+      "a": "Yes; regulators such as JECFA set an acceptable daily intake of 0–10 mg/kg body weight/day (for methyl and ethyl parabens), and typical dietary exposure is well below this.",
+      "answeredAt": "2025-10-12T02:49:14.153Z"
+    },
+    {
+      "q": "does methylparaben cause cancer",
+      "a": "There’s no convincing evidence that methylparaben causes cancer at dietary exposures, and it isn’t classified as a human carcinogen; its weak estrogenic activity occurs at doses far above food-use levels.",
+      "answeredAt": "2025-10-12T02:49:14.153Z"
+    },
+    {
+      "q": "are methylparaben and propylparaben safe",
+      "a": "Methylparaben is considered safe at permitted food levels; propylparaben is allowed at low levels in some places (e.g., GRAS in the U.S.) but is not authorized as a food additive in the EU.",
+      "answeredAt": "2025-10-12T02:49:14.153Z"
+    },
+    {
+      "q": "is methylparaben bad for you",
+      "a": "For most people, no—within legal limits it is regarded as safe and helps prevent spoilage; adverse reactions from ingestion are uncommon.",
+      "answeredAt": "2025-10-12T02:49:14.153Z"
+    }
+  ]
+}

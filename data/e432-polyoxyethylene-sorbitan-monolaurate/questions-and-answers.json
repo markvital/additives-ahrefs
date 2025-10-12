@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2025-10-12T02:36:25.757Z",
+  "answers": [
+    {
+      "q": "is polysorbate 20 safe for skin",
+      "a": "Yes—it's widely used in cosmetics and is generally considered safe at typical use levels; regulatory reviews (e.g., Cosmetic Ingredient Review) support its safety, though some people may experience mild irritation or allergy.",
+      "answeredAt": "2025-10-12T02:36:25.757Z"
+    },
+    {
+      "q": "what is the cmc of tween 20",
+      "a": "Approximately 0.007% w/v in water (~0.06 mM) at about 25°C; reported values vary with temperature, ionic strength, and formulation.",
+      "answeredAt": "2025-10-12T02:36:25.757Z"
+    },
+    {
+      "q": "is polysorbate 20 safe",
+      "a": "Yes—when used as a food additive within regulatory limits it’s considered safe; authorities such as JECFA have set an ADI of 0–25 mg/kg body weight per day for polysorbates.",
+      "answeredAt": "2025-10-12T02:36:25.757Z"
+    },
+    {
+      "q": "is polysorbate 20 toxic",
+      "a": "It has low toxicity at permitted food and cosmetic use levels; very high doses or parenteral exposure can cause adverse effects, and potential impurities (e.g., ethylene oxide/1,4-dioxane) are tightly controlled.",
+      "answeredAt": "2025-10-12T02:36:25.757Z"
+    },
+    {
+      "q": "is polysorbate 20 natural",
+      "a": "No—it's a synthetic surfactant made by ethoxylating sorbitan and esterifying with lauric acid, so it isn’t considered “natural,” even if some feedstocks are plant-derived.",
+      "answeredAt": "2025-10-12T02:36:25.757Z"
+    }
+  ]
+}

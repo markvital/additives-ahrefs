@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2025-10-12T01:25:00.000Z",
+  "updatedAt": "2025-10-12T02:47:23.339Z",
   "answers": [
     {
       "q": "what is poe 80 sorbitan monolaurate",
-      "a": "Sorbitan monolaurate (E493) is a non-ionic emulsifier made from sorbitol and lauric acid; it is not the same as polysorbate 80, which is the ethoxylated derivative E433. E493 helps oils disperse in water-based foods like baked goods and desserts.",
-      "answeredAt": "2025-10-12T01:25:00.000Z"
+      "a": "That name is inconsistent: 'POE 80' typically refers to polysorbate 80 (polyoxyethylene sorbitan monooleate, E433), not monolaurate; E493 is sorbitan monolaurate (Span 20) without ethoxylation. The ethoxylated monolaurate is polysorbate 20 (E432).",
+      "answeredAt": "2025-10-12T02:47:23.339Z"
     },
     {
       "q": "what is polyoxyethylene sorbitan monolaurate",
-      "a": "Polyoxyethylene sorbitan monolaurate refers to the ethoxylated form better known as polysorbate 20 or 80, whereas E493 is the unethoxylated sorbitan monolaurate. Both are permitted emulsifiers, but E493 has a lower HLB value suited to water-in-oil systems.",
-      "answeredAt": "2025-10-12T01:25:00.000Z"
+      "a": "It’s polysorbate 20 (E432), the ethoxylated form of sorbitan monolaurate; by contrast, E493 is the non‑ethoxylated sorbitan monolaurate (Span 20).",
+      "answeredAt": "2025-10-12T02:47:23.339Z"
     }
   ]
 }

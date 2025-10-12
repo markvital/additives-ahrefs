@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2025-10-12T02:50:37.173Z",
+  "answers": [
+    {
+      "q": "how many grams of potassium nitrite are present in 1.48 moles",
+      "a": "Approximately 126 g, using KNO2 molar mass ≈85.1 g/mol (1.48 mol × 85.1 g/mol).",
+      "answeredAt": "2025-10-12T02:50:37.173Z"
+    },
+    {
+      "q": "how many grams of potassium nitrite exist in 143 ml of a 2.80 m solution",
+      "a": "If 2.80 M (mol/L) was intended, about 34.1 g (0.143 L × 2.80 mol/L × 85.1 g/mol); if 2.80 m (mol/kg solvent), you need the solvent mass or solution density to determine grams.",
+      "answeredAt": "2025-10-12T02:50:37.173Z"
+    },
+    {
+      "q": "how many moles of potassium nitrite kno3 are present in a sample with a mass of 85.2g.",
+      "a": "KNO2 and KNO3 are different: 85.2 g is about 1.00 mol of KNO2 (M≈85.1 g/mol) or about 0.843 mol of KNO3 (M≈101.1 g/mol)—clarify which compound you have.",
+      "answeredAt": "2025-10-12T02:50:37.173Z"
+    },
+    {
+      "q": "how to balance potassium nitrite",
+      "a": "Balance equations by equalizing K, N, and O atoms on both sides; for example, the oxidation is 2 KNO2 + O2 → 2 KNO3, which is balanced as written.",
+      "answeredAt": "2025-10-12T02:50:37.173Z"
+    },
+    {
+      "q": "how to make a storm glass without potassium nitrite or ammonium chloride",
+      "a": "Use a salt‑free formulation: dissolve camphor in ethanol and add distilled water (e.g., ~10 g camphor in 40 mL ethanol plus ~35–40 mL water), seal tightly; it will form temperature‑responsive crystals, but it’s not a true weather predictor and avoids toxic nitrite salts.",
+      "answeredAt": "2025-10-12T02:50:37.173Z"
+    }
+  ]
+}

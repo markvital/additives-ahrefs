@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2025-10-12T02:46:38.996Z",
+  "answers": [
+    {
+      "q": "what is ammonium persulfate used for",
+      "a": "As E923, it has been used as a flour treatment/bleaching agent, though its authorization for food use is limited and varies by country (not permitted in the EU/UK). Outside food, it’s a strong oxidizing initiator used in polymerization, etching, and hair-bleaching products.",
+      "answeredAt": "2025-10-12T02:46:38.996Z"
+    },
+    {
+      "q": "what products contain ammonium persulfate",
+      "a": "You may rarely find it in some flours where permitted, labeled as ammonium persulfate or E923; many regions no longer allow it in food. It’s more commonly present in hair-bleach powders, lab reagents (e.g., gel electrophoresis), and PCB etchants.",
+      "answeredAt": "2025-10-12T02:46:38.996Z"
+    },
+    {
+      "q": "5. what aspects of your experiment are controlled by temed and ammonium persulfate?",
+      "a": "TEMED and ammonium persulfate generate free radicals to initiate and control the rate of acrylamide polymerization, which affects gelation time and pore size/uniformity in gels. Handle both with care—they are irritants and strong oxidizers.",
+      "answeredAt": "2025-10-12T02:46:38.996Z"
+    },
+    {
+      "q": "ammonium persulfate how to make solution",
+      "a": "For food use, consumers should not be preparing solutions of E923; its food authorization is limited. In labs it’s typically dissolved freshly in water because it decomposes—follow your protocol and the SDS for concentrations and safety.",
+      "answeredAt": "2025-10-12T02:46:38.996Z"
+    },
+    {
+      "q": "ammonium persulfate how to make solution cu",
+      "a": "Copper etching with ammonium persulfate is an electronics application, not a food use; follow the product manufacturer’s instructions for concentration and temperature and observe oxidizer safety. Food use of E923 is restricted and not permitted in the EU/UK.",
+      "answeredAt": "2025-10-12T02:46:38.996Z"
+    }
+  ]
+}

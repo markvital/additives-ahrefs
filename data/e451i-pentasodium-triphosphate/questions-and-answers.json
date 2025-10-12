@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2025-10-12T02:45:23.291Z",
+  "answers": [
+    {
+      "q": "how many formula units of magnesium phosphate will be produced from 35.8 g of sodium triphosphate",
+      "a": "You can’t determine that from 35.8 g of pentasodium triphosphate alone—you need a balanced reaction and the amount of Mg2+ present, and in practice STPP mainly chelates magnesium rather than precipitating Mg3(PO4)2 unless it hydrolyzes to orthophosphate under specific conditions.",
+      "answeredAt": "2025-10-12T02:45:23.291Z"
+    },
+    {
+      "q": "how much sodium triphosphate in dish soap",
+      "a": "Most household dishwashing liquids (and many automatic dishwasher detergents) now contain 0% phosphate due to regulations; some industrial/ institutional formulations can still include up to several–tens of percent STPP—check the product label or safety data sheet.",
+      "answeredAt": "2025-10-12T02:45:23.291Z"
+    },
+    {
+      "q": "what chemistry experiment to do with sodium triphosphate",
+      "a": "Demonstrate water softening by comparing soap lather or measuring water hardness (EDTA titration) before and after adding a small, known amount of STPP to hard water.",
+      "answeredAt": "2025-10-12T02:45:23.291Z"
+    },
+    {
+      "q": "what is pentasodium triphosphate toothpaste",
+      "a": "A toothpaste that includes pentasodium triphosphate (STPP) as a tartar‑control/whitening agent, binding calcium to reduce calculus and help lift surface stains; it’s used at low, safe levels for oral care.",
+      "answeredAt": "2025-10-12T02:45:23.291Z"
+    },
+    {
+      "q": "what is pentasodium triphosphate used for",
+      "a": "As a food additive (E451i) it acts as a sequestrant, emulsifier and stabiliser to retain moisture and improve texture in processed meats/seafood and to control metal ions; outside food it’s widely used as a detergent builder and water softener, with an EFSA group ADI for phosphates of 40 mg/kg bw/day (as phosphorus).",
+      "answeredAt": "2025-10-12T02:45:23.291Z"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2025-10-12T02:38:55.462Z",
+  "answers": [
+    {
+      "q": "how to calculate calcium iodate solubility in potassium iodate solution",
+      "a": "Use the dissolution Ca(IO3)2(s) ⇌ Ca2+ + 2 IO3− and Ksp = [Ca2+][IO3−]^2; with initial iodate C from KIO3, solve Ksp = s(C + 2s)^2 for molar solubility s (if C ≫ s, s ≈ Ksp/C^2).",
+      "answeredAt": "2025-10-12T02:38:55.462Z"
+    },
+    {
+      "q": "how to calculate solubility of calcium iodate",
+      "a": "In pure water, let s be molar solubility: Ksp = s(2s)^2 = 4s^3, so s = (Ksp/4)^(1/3); convert to g/L by multiplying s by the molar mass of Ca(IO3)2.",
+      "answeredAt": "2025-10-12T02:38:55.462Z"
+    },
+    {
+      "q": "how to calculate the concentration of iodate from calcium iodate in 0.1 kio3",
+      "a": "With [IO3−]0 = 0.1 M from KIO3, the iodate contributed by dissolving Ca(IO3)2 is 2s where s solves Ksp = s(0.1 + 2s)^2 (if 0.1 ≫ s, [IO3−] from Ca(IO3)2 ≈ 2Ksp/(0.1)^2).",
+      "answeredAt": "2025-10-12T02:38:55.462Z"
+    },
+    {
+      "q": "how to calculate the concentration of iodate from calcium iodate in pure water",
+      "a": "For Ca(IO3)2 in water, [IO3−] = 2s with s = (Ksp/4)^(1/3), so [IO3−] = 2(Ksp/4)^(1/3) assuming activities ≈ concentrations.",
+      "answeredAt": "2025-10-12T02:38:55.462Z"
+    },
+    {
+      "q": "how to find molar solubility of calcium iodate",
+      "a": "Write Ksp = [Ca2+][IO3−]^2; in pure water s = (Ksp/4)^(1/3), and in a solution with iodate C (common ion) s is given by Ksp = s(C + 2s)^2 ≈ Ksp/C^2 when C ≫ s.",
+      "answeredAt": "2025-10-12T02:38:55.462Z"
+    }
+  ]
+}

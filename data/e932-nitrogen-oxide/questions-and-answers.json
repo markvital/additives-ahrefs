@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2025-10-12T02:38:14.696Z",
+  "answers": [
+    {
+      "q": "is nitrogen oxide a greenhouse gas",
+      "a": "Nitric oxide (NO), often called “nitrogen oxide,” is not considered a significant greenhouse gas; nitrous oxide (N2O, a different nitrogen oxide used as E942) is a potent greenhouse gas.",
+      "answeredAt": "2025-10-12T02:38:14.696Z"
+    },
+    {
+      "q": "what is the formula for nitrogen oxide",
+      "a": "The common “nitrogen oxide” in this context is nitric oxide, with the formula NO (other nitrogen oxides include NO2 and N2O).",
+      "answeredAt": "2025-10-12T02:38:14.696Z"
+    },
+    {
+      "q": "where does nitrogen oxide come from",
+      "a": "It’s formed during high‑temperature combustion (e.g., engines, power plants) and produced industrially by catalytic oxidation of ammonia (Ostwald process).",
+      "answeredAt": "2025-10-12T02:38:14.696Z"
+    },
+    {
+      "q": "is nitrogen oxide harmful",
+      "a": "Yes—NO and NO2 are respiratory irritants, and high exposures can damage the lungs; they are regulated air pollutants.",
+      "answeredAt": "2025-10-12T02:38:14.696Z"
+    },
+    {
+      "q": "what does a catalytic converter turn nitrogen oxide into",
+      "a": "Automotive three‑way catalytic converters reduce NOx primarily to nitrogen (N2) and oxygen (O2), often yielding N2, CO2, and H2O using CO and hydrocarbons as reductants.",
+      "answeredAt": "2025-10-12T02:38:14.696Z"
+    }
+  ]
+}

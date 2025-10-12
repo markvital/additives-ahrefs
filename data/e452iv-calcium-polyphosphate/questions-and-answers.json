@@ -1,0 +1,20 @@
+{
+  "updatedAt": "2025-10-12T02:41:44.796Z",
+  "answers": [
+    {
+      "q": "how does polyphosphate remove calcium",
+      "a": "It acts as a sequestrant: the polyphosphate chain binds Ca2+ at multiple oxygen sites to form soluble complexes, preventing calcium from precipitating or causing scale/texture issues. Over time, hydrolysis to orthophosphate can convert some bound calcium into insoluble calcium phosphate, effectively removing it from solution.",
+      "answeredAt": "2025-10-12T02:41:44.796Z"
+    },
+    {
+      "q": "what is the e number of calcium polyphosphate",
+      "a": "E452iv.",
+      "answeredAt": "2025-10-12T02:41:44.796Z"
+    },
+    {
+      "q": "when calcium ions complex with sodium metaphosphate, a solid calcium phosphate precipitate forms",
+      "a": "Not initially—calcium typically remains in soluble complexes with sodium metaphosphate (a polyphosphate). Precipitation of calcium phosphate generally occurs after the polyphosphate hydrolyzes to orthophosphate or under conditions (e.g., high pH/aging) that drive conversion.",
+      "answeredAt": "2025-10-12T02:41:44.796Z"
+    }
+  ]
+}

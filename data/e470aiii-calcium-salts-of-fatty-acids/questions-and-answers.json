@@ -1,0 +1,15 @@
+{
+  "updatedAt": "2025-10-12T02:42:37.430Z",
+  "answers": [
+    {
+      "q": "calcium salts of fatty acids why insoluble in water",
+      "a": "Their long hydrocarbon chains are strongly hydrophobic, and Ca2+ forms tightly bound, poorly hydrated ion pairs with the carboxylates, leading to crystalline aggregates that water cannot solvate (unlike the more soluble sodium/potassium soaps).",
+      "answeredAt": "2025-10-12T02:42:37.430Z"
+    },
+    {
+      "q": "calcium salts of fatty acids why insoluble in water divalent",
+      "a": "Because Ca2+ is divalent, it can coordinate two carboxylate groups, effectively cross-linking fatty acid anions into poorly hydrated networks that resist dissolution; monovalent cations (Na+, K+) don’t cross-link this way, so their soaps are more water‑soluble.",
+      "answeredAt": "2025-10-12T02:42:37.430Z"
+    }
+  ]
+}
