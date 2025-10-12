@@ -16,5 +16,10 @@
     "artificial",
     "mineral"
   ],
-  "productCount": 37570
+  "productCount": 37570,
+  "children": [
+    "e500i-sodium-carbonate",
+    "e500ii-sodium-hydrogen-carbonate",
+    "e500iii-sodium-sesquicarbonate"
+  ]
 }

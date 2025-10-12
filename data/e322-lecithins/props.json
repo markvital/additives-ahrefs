@@ -17,5 +17,9 @@
     "plant",
     "animal"
   ],
-  "productCount": 64937
+  "productCount": 64937,
+  "children": [
+    "e322i-lecithin",
+    "e322ii-partially-hydrolyzed-lecithin"
+  ]
 }

@@ -16,5 +16,8 @@
   "origin": [
     "plant"
   ],
-  "productCount": 9
+  "productCount": 9,
+  "parents": [
+    "e141-copper-complexes-of-chlorophylls-and-chlorophyllins"
+  ]
 }

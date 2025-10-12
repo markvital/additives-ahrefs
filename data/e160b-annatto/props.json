@@ -24,5 +24,9 @@
   "origin": [
     "plant"
   ],
-  "productCount": 11746
+  "productCount": 11746,
+  "children": [
+    "e160bi-annatto-bixin",
+    "e160bii-annatto-norbixin"
+  ]
 }

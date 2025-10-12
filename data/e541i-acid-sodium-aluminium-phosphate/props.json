@@ -17,5 +17,8 @@
     "artificial",
     "mineral"
   ],
-  "productCount": 1
+  "productCount": 1,
+  "parents": [
+    "e541-sodium-aluminium-phosphate"
+  ]
 }

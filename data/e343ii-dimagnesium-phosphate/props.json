@@ -24,5 +24,8 @@
     "synthetic",
     "mineral"
   ],
-  "productCount": 90
+  "productCount": 90,
+  "parents": [
+    "e343-magnesium-phosphates"
+  ]
 }

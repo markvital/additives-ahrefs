@@ -17,5 +17,8 @@
     "plant",
     "animal"
   ],
-  "productCount": 1
+  "productCount": 1,
+  "parents": [
+    "e470a-sodium-potassium-and-calcium-salts-of-fatty-acids"
+  ]
 }

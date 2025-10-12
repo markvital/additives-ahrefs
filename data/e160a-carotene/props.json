@@ -16,5 +16,11 @@
     "microbiological",
     "synthetic"
   ],
-  "productCount": 5839
+  "productCount": 5839,
+  "children": [
+    "e160ai-beta-carotene",
+    "e160aii-plant-carotenes",
+    "e160aiii-beta-carotene-from-blakeslea-trispora",
+    "e160aiv-algal-carotenes"
+  ]
 }

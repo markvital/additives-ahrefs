@@ -19,5 +19,8 @@
     "synthetic",
     "mineral"
   ],
-  "productCount": 2571
+  "productCount": 2571,
+  "parents": [
+    "e452-polyphosphates"
+  ]
 }

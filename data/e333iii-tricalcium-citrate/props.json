@@ -16,5 +16,8 @@
     "microbiological",
     "synthetic"
   ],
-  "productCount": 4
+  "productCount": 4,
+  "parents": [
+    "e333-calcium-citrates"
+  ]
 }

@@ -18,5 +18,8 @@
     "microbiological",
     "synthetic"
   ],
-  "productCount": 1
+  "productCount": 1,
+  "parents": [
+    "e304-fatty-acid-esters-of-ascorbic-acid"
+  ]
 }

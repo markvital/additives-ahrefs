@@ -14,5 +14,8 @@
   "origin": [
     "plant"
   ],
-  "productCount": 5
+  "productCount": 5,
+  "parents": [
+    "e160a-carotene"
+  ]
 }

@@ -20,5 +20,9 @@
   "origin": [
     "plant"
   ],
-  "productCount": 7310
+  "productCount": 7310,
+  "children": [
+    "e460i-microcrystalline-cellulose",
+    "e460ii-powdered-cellulose"
+  ]
 }

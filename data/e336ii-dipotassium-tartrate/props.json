@@ -15,5 +15,8 @@
     "plant",
     "synthetic"
   ],
-  "productCount": 11
+  "productCount": 11,
+  "parents": [
+    "e336-potassium-tartrates"
+  ]
 }

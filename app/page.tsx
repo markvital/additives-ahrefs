@@ -6,7 +6,9 @@ import {
   getAdditives,
   getFunctionFilters,
   getOriginFilters,
+  filterAdditivesByClassVisibility,
   parseAdditiveSortMode,
+  parseShowClassesParam,
   sortAdditivesByMode,
 } from '../lib/additives';
 import { formatFilterLabel } from '../lib/text';
@@ -22,13 +24,15 @@ const originOptions = getOriginFilters().map(({ slug, value }) => ({
 }));
 
 interface HomePageProps {
-  searchParams?: Promise<{ sort?: string | string[] }>;
+  searchParams?: Promise<{ sort?: string | string[]; classes?: string | string[] }>;
 }
 
 export default async function HomePage({ searchParams }: HomePageProps) {
   const resolvedSearchParams = searchParams ? await searchParams : undefined;
   const sortMode = parseAdditiveSortMode(resolvedSearchParams?.sort ?? null);
-  const sortedAdditives = sortAdditivesByMode(additives, sortMode);
+  const showClasses = parseShowClassesParam(resolvedSearchParams?.classes ?? null);
+  const filteredAdditives = filterAdditivesByClassVisibility(additives, showClasses);
+  const sortedAdditives = sortAdditivesByMode(filteredAdditives, sortMode);
 
   return (
     <Box component="section" display="flex" flexDirection="column" gap={4}>
@@ -46,6 +50,7 @@ export default async function HomePage({ searchParams }: HomePageProps) {
         functionOptions={functionOptions}
         originOptions={originOptions}
         currentSortMode={sortMode}
+        currentShowClasses={showClasses}
       />
       <AdditiveGrid items={sortedAdditives} sortMode={sortMode} />
     </Box>

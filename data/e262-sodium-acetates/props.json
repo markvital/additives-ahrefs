@@ -16,5 +16,9 @@
     "microbiological",
     "synthetic"
   ],
-  "productCount": 5778
+  "productCount": 5778,
+  "children": [
+    "e262i-sodium-acetate",
+    "e262ii-sodium-diacetate"
+  ]
 }

@@ -7,7 +7,9 @@ import {
   getFunctionFilters,
   getOriginFilters,
   getOriginValueBySlug,
+  filterAdditivesByClassVisibility,
   parseAdditiveSortMode,
+  parseShowClassesParam,
   sortAdditivesByMode,
 } from '../../../lib/additives';
 import { formatFilterLabel } from '../../../lib/text';
@@ -16,7 +18,7 @@ import { FilterPanel } from '../../../components/FilterPanel';
 
 interface OriginPageProps {
   params: Promise<{ originSlug: string }>;
-  searchParams?: Promise<{ sort?: string | string[] }>;
+  searchParams?: Promise<{ sort?: string | string[]; classes?: string | string[] }>;
 }
 
 const formatCountLabel = (count: number): string =>
@@ -70,7 +72,9 @@ export default async function OriginPage({ params, searchParams }: OriginPagePro
   const additives = getAdditivesByOriginSlug(originSlug);
   const resolvedSearchParams = searchParams ? await searchParams : undefined;
   const sortMode = parseAdditiveSortMode(resolvedSearchParams?.sort ?? null);
-  const sortedAdditives = sortAdditivesByMode(additives, sortMode);
+  const showClasses = parseShowClassesParam(resolvedSearchParams?.classes ?? null);
+  const filteredAdditives = filterAdditivesByClassVisibility(additives, showClasses);
+  const sortedAdditives = sortAdditivesByMode(filteredAdditives, sortMode);
   const label = formatFilterLabel(originValue);
 
   return (
@@ -80,7 +84,7 @@ export default async function OriginPage({ params, searchParams }: OriginPagePro
           Origin: {label}
         </Typography>
         <Typography variant="body1" color="text.secondary">
-          {formatCountLabel(additives.length)}
+          {formatCountLabel(filteredAdditives.length)}
         </Typography>
       </Box>
 
@@ -89,6 +93,7 @@ export default async function OriginPage({ params, searchParams }: OriginPagePro
         originOptions={originOptions}
         currentOriginSlug={originSlug}
         currentSortMode={sortMode}
+        currentShowClasses={showClasses}
       />
       <AdditiveGrid
         items={sortedAdditives}

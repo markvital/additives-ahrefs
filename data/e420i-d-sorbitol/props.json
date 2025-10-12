@@ -20,5 +20,8 @@
     "plant",
     "synthetic"
   ],
-  "productCount": 29
+  "productCount": 29,
+  "parents": [
+    "e420-sorbitol"
+  ]
 }

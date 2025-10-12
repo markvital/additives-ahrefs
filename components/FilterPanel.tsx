@@ -1,8 +1,9 @@
 'use client';
 
 import { useTransition } from 'react';
+import type { ChangeEvent } from 'react';
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
-import { FormControl, InputLabel, MenuItem, Select, Stack } from '@mui/material';
+import { Box, Checkbox, FormControl, FormControlLabel, InputLabel, MenuItem, Select, Stack } from '@mui/material';
 import type { SelectChangeEvent } from '@mui/material/Select';
 
 import type { AdditiveSortMode } from '../lib/additives';
@@ -18,6 +19,7 @@ interface FilterPanelProps {
   currentFunctionSlug?: string | null;
   currentOriginSlug?: string | null;
   currentSortMode?: AdditiveSortMode;
+  currentShowClasses?: boolean;
 }
 
 const HOME_ROUTE = '/';
@@ -28,6 +30,7 @@ export function FilterPanel({
   currentFunctionSlug = null,
   currentOriginSlug = null,
   currentSortMode = 'search-rank',
+  currentShowClasses = false,
 }: FilterPanelProps) {
   const router = useRouter();
   const pathname = usePathname();
@@ -36,13 +39,23 @@ export function FilterPanel({
   type SortSelectValue = 'search-rank' | 'products';
   const currentSortValue: SortSelectValue = currentSortMode === 'product-count' ? 'products' : 'search-rank';
 
-  const buildUrlWithSort = (path: string, sort: SortSelectValue) => {
+  const buildUrlWithState = (
+    path: string,
+    sort: SortSelectValue = currentSortValue,
+    showClasses: boolean = currentShowClasses,
+  ) => {
     const params = new URLSearchParams(searchParams?.toString() ?? '');
 
     if (sort === 'products') {
       params.set('sort', 'products');
     } else {
       params.delete('sort');
+    }
+
+    if (showClasses) {
+      params.set('classes', '1');
+    } else {
+      params.delete('classes');
     }
 
     const queryString = params.toString();
@@ -54,9 +67,9 @@ export function FilterPanel({
 
     startTransition(() => {
       if (slug) {
-        router.push(buildUrlWithSort(`/function/${slug}`, currentSortValue));
+        router.push(buildUrlWithState(`/function/${slug}`));
       } else {
-        router.push(buildUrlWithSort(HOME_ROUTE, currentSortValue));
+        router.push(buildUrlWithState(HOME_ROUTE));
       }
     });
   };
@@ -66,9 +79,9 @@ export function FilterPanel({
 
     startTransition(() => {
       if (slug) {
-        router.push(buildUrlWithSort(`/origin/${slug}`, currentSortValue));
+        router.push(buildUrlWithState(`/origin/${slug}`));
       } else {
-        router.push(buildUrlWithSort(HOME_ROUTE, currentSortValue));
+        router.push(buildUrlWithState(HOME_ROUTE));
       }
     });
   };
@@ -77,7 +90,15 @@ export function FilterPanel({
     const value = (event.target.value as SortSelectValue) || 'search-rank';
 
     startTransition(() => {
-      router.push(buildUrlWithSort(pathname, value));
+      router.push(buildUrlWithState(pathname, value));
+    });
+  };
+
+  const handleShowClassesChange = (event: ChangeEvent<HTMLInputElement>) => {
+    const showClasses = event.target.checked;
+
+    startTransition(() => {
+      router.push(buildUrlWithState(pathname, currentSortValue, showClasses));
     });
   };
 
@@ -90,6 +111,34 @@ export function FilterPanel({
       width="100%"
       flexWrap="wrap"
     >
+      <Box
+        component="span"
+        title="Show generic parent additives"
+        sx={{
+          mr: { xs: 0, sm: 1 },
+          ml: { xs: -0.5, sm: 0 },
+          alignSelf: { xs: 'flex-start', sm: 'center' },
+          display: 'flex',
+        }}
+      >
+        <FormControlLabel
+          control={
+            <Checkbox
+              size="small"
+              checked={currentShowClasses}
+              onChange={handleShowClassesChange}
+              disabled={isPending}
+            />
+          }
+          label="parent E"
+          sx={{
+            color: 'text.secondary',
+            '& .MuiFormControlLabel-label': {
+              fontSize: 14,
+            },
+          }}
+        />
+      </Box>
       <FormControl
         size="small"
         sx={{ minWidth: { xs: '100%', sm: 180 } }}

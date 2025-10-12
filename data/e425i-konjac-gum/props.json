@@ -19,5 +19,8 @@
   "origin": [
     "plant"
   ],
-  "productCount": 111
+  "productCount": 111,
+  "parents": [
+    "e425-konjac"
+  ]
 }

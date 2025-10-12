@@ -17,5 +17,10 @@
     "plant",
     "microbiological"
   ],
-  "productCount": 14247
+  "productCount": 14247,
+  "children": [
+    "e331i-monosodium-citrate",
+    "e331ii-disodium-citrate",
+    "e331iii-trisodium-citrate"
+  ]
 }

@@ -18,5 +18,9 @@
   "origin": [
     "plant"
   ],
-  "productCount": 244
+  "productCount": 244,
+  "children": [
+    "e425i-konjac-gum",
+    "e425ii-konjac-glucomannan"
+  ]
 }

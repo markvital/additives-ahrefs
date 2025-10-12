@@ -17,5 +17,8 @@
     "microbiological",
     "mineral"
   ],
-  "productCount": 0
+  "productCount": 0,
+  "parents": [
+    "e332-potassium-citrates"
+  ]
 }

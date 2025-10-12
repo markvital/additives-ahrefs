@@ -16,5 +16,9 @@
     "microbiological",
     "synthetic"
   ],
-  "productCount": 59
+  "productCount": 59,
+  "children": [
+    "e350i-sodium-malate",
+    "e350ii-sodium-hydrogen-malate"
+  ]
 }

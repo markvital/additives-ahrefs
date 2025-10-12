@@ -15,5 +15,9 @@
     "synthetic",
     "mineral"
   ],
-  "productCount": 17
+  "productCount": 17,
+  "children": [
+    "e504i-magnesium-carbonate",
+    "e504ii-magnesium-hydroxide-carbonate"
+  ]
 }

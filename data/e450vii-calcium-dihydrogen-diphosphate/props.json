@@ -20,5 +20,8 @@
     "synthetic",
     "mineral"
   ],
-  "productCount": 16
+  "productCount": 16,
+  "parents": [
+    "e450-diphosphates"
+  ]
 }

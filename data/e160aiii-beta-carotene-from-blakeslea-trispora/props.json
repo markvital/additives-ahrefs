@@ -14,5 +14,8 @@
   "origin": [
     "microbiological"
   ],
-  "productCount": 0
+  "productCount": 0,
+  "parents": [
+    "e160a-carotene"
+  ]
 }

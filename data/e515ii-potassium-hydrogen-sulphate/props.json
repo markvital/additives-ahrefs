@@ -13,5 +13,8 @@
   "origin": [
     "synthetic"
   ],
-  "productCount": 0
+  "productCount": 0,
+  "parents": [
+    "e515-potassium-sulphates"
+  ]
 }

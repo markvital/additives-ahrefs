@@ -13,5 +13,9 @@
     "artificial",
     "mineral"
   ],
-  "productCount": 9
+  "productCount": 9,
+  "children": [
+    "e514i-sodium-sulphate",
+    "e514ii-sodium-hydrogen-sulphate"
+  ]
 }

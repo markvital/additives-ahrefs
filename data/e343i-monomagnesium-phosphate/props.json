@@ -19,5 +19,8 @@
   "origin": [
     "mineral"
   ],
-  "productCount": 406
+  "productCount": 406,
+  "parents": [
+    "e343-magnesium-phosphates"
+  ]
 }

@@ -16,5 +16,9 @@
     "synthetic",
     "mineral"
   ],
-  "productCount": 173
+  "productCount": 173,
+  "children": [
+    "e553a-synthetic-magnesium-silicates",
+    "e553b-talc"
+  ]
 }

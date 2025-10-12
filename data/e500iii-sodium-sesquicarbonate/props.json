@@ -16,5 +16,8 @@
     "artificial",
     "mineral"
   ],
-  "productCount": 3
+  "productCount": 3,
+  "parents": [
+    "e500-sodium-carbonates"
+  ]
 }

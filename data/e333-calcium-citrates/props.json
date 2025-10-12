@@ -19,5 +19,10 @@
     "microbiological",
     "mineral"
   ],
-  "productCount": 59
+  "productCount": 59,
+  "children": [
+    "e333i-monocalcium-citrate",
+    "e333ii-dicalcium-citrate",
+    "e333iii-tricalcium-citrate"
+  ]
 }

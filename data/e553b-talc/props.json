@@ -16,5 +16,8 @@
   "origin": [
     "mineral"
   ],
-  "productCount": 119
+  "productCount": 119,
+  "parents": [
+    "e553-magnesium-silicates"
+  ]
 }

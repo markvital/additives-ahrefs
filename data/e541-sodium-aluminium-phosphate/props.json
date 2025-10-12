@@ -16,5 +16,8 @@
   "origin": [
     "synthetic"
   ],
-  "productCount": 6240
+  "productCount": 6240,
+  "children": [
+    "e541i-acid-sodium-aluminium-phosphate"
+  ]
 }

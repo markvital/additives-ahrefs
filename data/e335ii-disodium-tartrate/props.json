@@ -16,5 +16,8 @@
     "plant",
     "synthetic"
   ],
-  "productCount": 0
+  "productCount": 0,
+  "parents": [
+    "e335-sodium-tartrates"
+  ]
 }

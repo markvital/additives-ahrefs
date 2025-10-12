@@ -12,5 +12,12 @@
   "origin": [
     "mineral"
   ],
-  "productCount": 25
+  "productCount": 25,
+  "parents": [
+    "e905-synthetic-wax"
+  ],
+  "children": [
+    "e905ci-microcrystalline-wax",
+    "e905cii-paraffin-wax"
+  ]
 }

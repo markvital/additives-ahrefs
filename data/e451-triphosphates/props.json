@@ -22,5 +22,9 @@
     "synthetic",
     "mineral"
   ],
-  "productCount": 169
+  "productCount": 169,
+  "children": [
+    "e451i-pentasodium-triphosphate",
+    "e451ii-pentapotassium-triphosphate"
+  ]
 }

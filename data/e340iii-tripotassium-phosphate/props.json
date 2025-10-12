@@ -23,5 +23,8 @@
   "origin": [
     "synthetic"
   ],
-  "productCount": 514
+  "productCount": 514,
+  "parents": [
+    "e340-potassium-phosphates"
+  ]
 }

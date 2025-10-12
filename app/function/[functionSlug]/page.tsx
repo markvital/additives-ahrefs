@@ -7,7 +7,9 @@ import {
   getFunctionFilters,
   getOriginFilters,
   getFunctionValueBySlug,
+  filterAdditivesByClassVisibility,
   parseAdditiveSortMode,
+  parseShowClassesParam,
   sortAdditivesByMode,
 } from '../../../lib/additives';
 import { formatFilterLabel } from '../../../lib/text';
@@ -16,7 +18,7 @@ import { FilterPanel } from '../../../components/FilterPanel';
 
 interface FunctionPageProps {
   params: Promise<{ functionSlug: string }>;
-  searchParams?: Promise<{ sort?: string | string[] }>;
+  searchParams?: Promise<{ sort?: string | string[]; classes?: string | string[] }>;
 }
 
 const formatCountLabel = (count: number): string =>
@@ -70,7 +72,9 @@ export default async function FunctionPage({ params, searchParams }: FunctionPag
   const additives = getAdditivesByFunctionSlug(functionSlug);
   const resolvedSearchParams = searchParams ? await searchParams : undefined;
   const sortMode = parseAdditiveSortMode(resolvedSearchParams?.sort ?? null);
-  const sortedAdditives = sortAdditivesByMode(additives, sortMode);
+  const showClasses = parseShowClassesParam(resolvedSearchParams?.classes ?? null);
+  const filteredAdditives = filterAdditivesByClassVisibility(additives, showClasses);
+  const sortedAdditives = sortAdditivesByMode(filteredAdditives, sortMode);
   const label = formatFilterLabel(functionValue);
 
   return (
@@ -80,7 +84,7 @@ export default async function FunctionPage({ params, searchParams }: FunctionPag
           Function: {label}
         </Typography>
         <Typography variant="body1" color="text.secondary">
-          {formatCountLabel(additives.length)}
+          {formatCountLabel(filteredAdditives.length)}
         </Typography>
       </Box>
 
@@ -89,6 +93,7 @@ export default async function FunctionPage({ params, searchParams }: FunctionPag
         originOptions={originOptions}
         currentFunctionSlug={functionSlug}
         currentSortMode={sortMode}
+        currentShowClasses={showClasses}
       />
       <AdditiveGrid
         items={sortedAdditives}

@@ -16,5 +16,8 @@
     "microbiological",
     "artificial"
   ],
-  "productCount": 22
+  "productCount": 22,
+  "parents": [
+    "e350-sodium-malates"
+  ]
 }

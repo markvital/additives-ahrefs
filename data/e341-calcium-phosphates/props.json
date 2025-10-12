@@ -23,5 +23,10 @@
     "artificial",
     "mineral"
   ],
-  "productCount": 17598
+  "productCount": 17598,
+  "children": [
+    "e341i-monocalcium-phosphate",
+    "e341ii-dicalcium-phosphate",
+    "e341iii-tricalcium-phosphate"
+  ]
 }

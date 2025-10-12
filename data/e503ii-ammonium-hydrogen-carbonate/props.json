@@ -17,5 +17,8 @@
     "synthetic",
     "mineral"
   ],
-  "productCount": 3466
+  "productCount": 3466,
+  "parents": [
+    "e503-ammonium-carbonates"
+  ]
 }
