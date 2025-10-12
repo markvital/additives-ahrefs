@@ -41,7 +41,7 @@ export interface Additive {
 
 export type AdditiveSortMode = 'search-rank' | 'product-count';
 
-export const DEFAULT_ADDITIVE_SORT_MODE: AdditiveSortMode = 'search-rank';
+export const DEFAULT_ADDITIVE_SORT_MODE: AdditiveSortMode = 'product-count';
 
 interface AdditiveIndexEntry {
   title?: string;

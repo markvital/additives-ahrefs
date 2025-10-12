@@ -23,13 +23,14 @@ interface FilterPanelProps {
 }
 
 const HOME_ROUTE = '/';
+const DEFAULT_SORT_MODE: AdditiveSortMode = 'product-count';
 
 export function FilterPanel({
   functionOptions,
   originOptions,
   currentFunctionSlug = null,
   currentOriginSlug = null,
-  currentSortMode = 'search-rank',
+  currentSortMode = DEFAULT_SORT_MODE,
   currentShowClasses = false,
 }: FilterPanelProps) {
   const router = useRouter();
@@ -46,8 +47,8 @@ export function FilterPanel({
   ) => {
     const params = new URLSearchParams(searchParams?.toString() ?? '');
 
-    if (sort === 'products') {
-      params.set('sort', 'products');
+    if (sort === 'search-rank') {
+      params.set('sort', 'search-rank');
     } else {
       params.delete('sort');
     }
@@ -87,7 +88,7 @@ export function FilterPanel({
   };
 
   const handleSortChange = (event: SelectChangeEvent<string>) => {
-    const value = (event.target.value as SortSelectValue) || 'search-rank';
+    const value = (event.target.value as SortSelectValue) || 'products';
 
     startTransition(() => {
       router.push(buildUrlWithState(pathname, value));
