@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2025-10-12T02:33:10.169Z",
+  "answers": [
+    {
+      "q": "how common is bad tast with bixin",
+      "a": "Off-taste from bixin is uncommon at typical use levels; annatto’s flavor is usually mild and not noticeable. Bitterness or earthy/painty notes are more likely if overdosed, oxidized/aged, or used in very neutral-flavored matrices.",
+      "answeredAt": "2025-10-12T02:33:10.169Z"
+    },
+    {
+      "q": "how is bixin used in food",
+      "a": "It’s an oil-soluble annatto carotenoid used to give yellow–orange color, especially in cheeses, margarines, snacks, and other fat-containing foods. For water-based products, manufacturers typically use the saponified, water-dispersible form (norbixin).",
+      "answeredAt": "2025-10-12T02:33:10.169Z"
+    },
+    {
+      "q": "how to solubilize bixin",
+      "a": "Dissolve it in warm vegetable oil or other food-grade nonpolar carriers (often 40–60°C), or formulate it as an oil-in-water emulsion with suitable emulsifiers while protecting from light and oxygen. For water systems, convert it to norbixin via mild alkaline saponification and then neutralize to maintain dispersion.",
+      "answeredAt": "2025-10-12T02:33:10.169Z"
+    },
+    {
+      "q": "how to test for bixin in spices",
+      "a": "Extract with hexane/acetone (or ethanol) and screen by UV–Vis absorption around 470–480 nm or by TLC/HPTLC against a bixin standard, noting potential interference from other carotenoids. For specific identification and quantification, use RP-HPLC with diode-array detection (or LC–MS) and compare retention time and spectrum to a certified standard.",
+      "answeredAt": "2025-10-12T02:33:10.169Z"
+    },
+    {
+      "q": "how to test for bixin on spices",
+      "a": "Swab the surface with a solvent-wetted swab (hexane/acetone or ethanol), extract the swab, and analyze as above by UV–Vis/TLC for a quick screen and HPLC-DAD (or LC–MS) for confirmation. Simple color spot tests can indicate annatto, but chromatography against a bixin standard is needed for definitive results.",
+      "answeredAt": "2025-10-12T02:33:10.169Z"
+    }
+  ]
+}

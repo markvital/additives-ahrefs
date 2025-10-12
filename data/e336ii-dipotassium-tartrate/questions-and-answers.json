@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2025-10-12T02:46:14.008Z",
+  "answers": [
+    {
+      "q": "how much potassium hydrogen tartrate in cream of tartar?",
+      "a": "Cream of tartar is essentially pure potassium hydrogen tartrate (E336i), typically >99%, and does not contain dipotassium tartrate (E336ii), which is a different salt.",
+      "answeredAt": "2025-10-12T02:46:14.008Z"
+    },
+    {
+      "q": "how to grow potassium sodium tartrate crystal",
+      "a": "That’s Rochelle salt (potassium sodium tartrate), not E336ii; dipotassium tartrate (E336ii) crystals can be grown by making a hot saturated aqueous solution and letting it cool and evaporate slowly.",
+      "answeredAt": "2025-10-12T02:46:14.008Z"
+    },
+    {
+      "q": "how to prepare potassium sodium tartrate",
+      "a": "Potassium sodium tartrate is a different compound; dipotassium tartrate (E336ii) is prepared by neutralizing tartaric acid with a potassium base (e.g., K2CO3 or KOH) and crystallizing the salt.",
+      "answeredAt": "2025-10-12T02:46:14.008Z"
+    },
+    {
+      "q": "potassium hydrogen tartrate what is the ka",
+      "a": "For potassium hydrogen tartrate (E336i), the relevant dissociation is tartaric acid’s second step: Ka2 ≈ 4×10^-5 at 25°C (pKa ≈ 4.3); dipotassium tartrate (E336ii) is fully neutralized and doesn’t have an acid dissociation constant.",
+      "answeredAt": "2025-10-12T02:46:14.008Z"
+    },
+    {
+      "q": "potassium hydrogen tartrate what isthe ka",
+      "a": "For potassium hydrogen tartrate (E336i), Ka2 ≈ 4×10^-5 at 25°C (pKa ≈ 4.3); E336ii (dipotassium tartrate) is a neutral salt and does not have a Ka.",
+      "answeredAt": "2025-10-12T02:46:14.008Z"
+    }
+  ]
+}

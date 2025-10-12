@@ -1,0 +1,20 @@
+{
+  "updatedAt": "2025-10-12T02:45:10.723Z",
+  "answers": [
+    {
+      "q": "what is the refractive index of ktpp",
+      "a": "There isn’t a single published refractive index for solid pentapotassium triphosphate; food-grade specs don’t list it. For aqueous solutions, refractive index depends on concentration and temperature, so you’d need to measure nD under your specific conditions.",
+      "answeredAt": "2025-10-12T02:45:10.723Z"
+    },
+    {
+      "q": "what is the refractive index of potassium triphosphate",
+      "a": "A fixed refractive index isn’t typically reported for the solid; it’s not a standard QC parameter for this additive. In solution, the refractive index increases with concentration and varies with temperature and wavelength, so measure it for your formulation.",
+      "answeredAt": "2025-10-12T02:45:10.723Z"
+    },
+    {
+      "q": "what is the refractive index of potassium tripolyphosphate",
+      "a": "No standard single value is published for the solid; specifications for E451ii don’t include refractive index. For practical purposes, determine nD on your specific potassium tripolyphosphate solution at the required concentration and temperature.",
+      "answeredAt": "2025-10-12T02:45:10.723Z"
+    }
+  ]
+}

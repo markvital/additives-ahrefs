@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2025-10-12T02:43:28.326Z",
+  "answers": [
+    {
+      "q": "how to prepare ammonium acetate buffer solution",
+      "a": "Dissolve ammonium acetate in water to the desired concentration (e.g., 1 M: about 77 g per liter), then adjust pH to your target with acetic acid (to lower) or ammonia (to raise) and dilute to volume. Use food-/pharma-grade materials and verify pH after mixing.",
+      "answeredAt": "2025-10-12T02:43:28.326Z"
+    },
+    {
+      "q": "is ammonium acetate soluble in water",
+      "a": "Yes—it's highly soluble in water.",
+      "answeredAt": "2025-10-12T02:43:28.326Z"
+    },
+    {
+      "q": "ammonium acetate dissolves into what ions",
+      "a": "It dissociates into ammonium (NH4+) and acetate (CH3COO−) ions.",
+      "answeredAt": "2025-10-12T02:43:28.326Z"
+    },
+    {
+      "q": "ammonium acetate in what products contain",
+      "a": "It may appear in some pickled products, sauces, and baked goods as an acidity regulator/buffer (E264). It’s relatively uncommon and is often replaced by sodium or potassium acetates.",
+      "answeredAt": "2025-10-12T02:43:28.326Z"
+    },
+    {
+      "q": "consider the reaction when aqueous solutions of ammonium acetate and sodium phosphate are combined.",
+      "a": "All ions remain in solution (no precipitate), leaving NH4+, CH3COO−, Na+, and phosphate species in equilibrium. In a sufficiently basic phosphate solution, some NH4+ can convert to ammonia, making the mixture slightly basic and possibly giving a mild ammonia odor.",
+      "answeredAt": "2025-10-12T02:43:28.326Z"
+    }
+  ]
+}

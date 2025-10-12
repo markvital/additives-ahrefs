@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2025-10-12T02:34:38.351Z",
+  "answers": [
+    {
+      "q": "what does glucose oxidase do",
+      "a": "It’s an enzyme that oxidizes glucose to D-glucono-delta-lactone (which becomes gluconic acid) while producing hydrogen peroxide and consuming oxygen; in foods it acts as an oxygen scavenger/antioxidant and can strengthen dough.",
+      "answeredAt": "2025-10-12T02:34:38.351Z"
+    },
+    {
+      "q": "cytochrome oxidase is used in which stage of the aerobic respiration of glucose",
+      "a": "Cytochrome c oxidase works in the electron transport chain (oxidative phosphorylation), the final stage of aerobic respiration; this is a different enzyme from the food additive glucose oxidase (E1102).",
+      "answeredAt": "2025-10-12T02:34:38.351Z"
+    },
+    {
+      "q": "glucose oxidase produces what",
+      "a": "Hydrogen peroxide and D-glucono-delta-lactone (which hydrolyzes to gluconic acid), while consuming oxygen.",
+      "answeredAt": "2025-10-12T02:34:38.351Z"
+    },
+    {
+      "q": "how does glucose oxidase work",
+      "a": "It is an FAD-dependent oxidoreductase that binds beta-D-glucose, oxidizes it to D-glucono-delta-lactone, and reduces oxygen to hydrogen peroxide—removing oxygen and generating a mild antimicrobial oxidant.",
+      "answeredAt": "2025-10-12T02:34:38.351Z"
+    },
+    {
+      "q": "how much hydrogen peroxide does glucose oxidase produce",
+      "a": "Stoichiometry is 1 mole of H2O2 per mole of glucose oxidized (about 34 mg H2O2 per mmol of glucose); in foods the actual amount formed depends on available glucose and oxygen and may be further decomposed or consumed.",
+      "answeredAt": "2025-10-12T02:34:38.351Z"
+    }
+  ]
+}

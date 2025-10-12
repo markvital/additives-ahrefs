@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2025-10-12T02:41:27.868Z",
+  "answers": [
+    {
+      "q": "where does helium come from",
+      "a": "On Earth it’s produced by the radioactive decay of uranium and thorium and is commercially extracted from certain natural gas fields by cryogenic separation.",
+      "answeredAt": "2025-10-12T02:41:27.868Z"
+    },
+    {
+      "q": "is helium flammable",
+      "a": "No—helium is non-flammable and chemically inert.",
+      "answeredAt": "2025-10-12T02:41:27.868Z"
+    },
+    {
+      "q": "how long do helium balloons last",
+      "a": "Typical latex helium balloons float for about 8–12 hours (longer if treated), while foil/Mylar balloons often last 3–7 days or more depending on size and temperature.",
+      "answeredAt": "2025-10-12T02:41:27.868Z"
+    },
+    {
+      "q": "how many valence electrons does helium have",
+      "a": "Two; its 1s shell is full, which is why helium is very inert.",
+      "answeredAt": "2025-10-12T02:41:27.868Z"
+    },
+    {
+      "q": "what is helium used for",
+      "a": "As E939 it’s used as an inert packaging gas to displace oxygen and protect foods; more broadly, helium is used for lifting balloons, cryogenics (e.g., MRI), leak detection, pressurizing, and as a shielding gas in welding.",
+      "answeredAt": "2025-10-12T02:41:27.868Z"
+    }
+  ]
+}

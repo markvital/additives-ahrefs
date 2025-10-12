@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2025-10-12T02:34:53.756Z",
+  "answers": [
+    {
+      "q": "is monosodium phosphate bad for you",
+      "a": "At permitted food levels E339(i) is generally considered safe; EFSA has set a group ADI for phosphates of 40 mg/kg body weight per day (as phosphorus). Very high intakes may be a concern for people with kidney disease or those needing to limit sodium/phosphate.",
+      "answeredAt": "2025-10-12T02:34:53.756Z"
+    },
+    {
+      "q": "explain why an aqueous solution of monosodium phosphate would be ineffective",
+      "a": "As a buffer near neutral pH, a solution of only monosodium phosphate (NaH2PO4) is too acidic and lacks its conjugate base; effective phosphate buffering requires a mixture of mono- and disodium phosphate (H2PO4−/HPO42−) at the target pH.",
+      "answeredAt": "2025-10-12T02:34:53.756Z"
+    },
+    {
+      "q": "how does monosodium phosphate make gas?",
+      "a": "In leavening systems it acts as an acid that reacts with baking soda (sodium bicarbonate) to release carbon dioxide gas, which aerates doughs and batters; by itself it does not generate gas.",
+      "answeredAt": "2025-10-12T02:34:53.756Z"
+    },
+    {
+      "q": "how to change the ph of protein solution without precipitation using monobasic sodium phosphate",
+      "a": "Use a phosphate buffer pair: slowly titrate with small amounts of monobasic (NaH2PO4) and disodium phosphate (Na2HPO4) to reach the target pH, staying away from the protein’s isoelectric point and keeping the buffer modest (e.g., ~10–50 mM). Make adjustments gradually with constant stirring and temperature, maintaining ionic strength (a little NaCl can help) to minimize precipitation.",
+      "answeredAt": "2025-10-12T02:34:53.756Z"
+    },
+    {
+      "q": "how to clean up monosodium phosphate",
+      "a": "For small spills, avoid dust, sweep or scoop up the solid and rinse the area with water; for solutions, absorb with inert material and dispose according to local regulations. Because it’s highly water‑soluble and nutrient-rich, avoid flushing large amounts to drains or waterways.",
+      "answeredAt": "2025-10-12T02:34:53.756Z"
+    }
+  ]
+}

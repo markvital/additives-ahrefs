@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2025-10-12T02:35:42.428Z",
+  "answers": [
+    {
+      "q": "is ascorbic acid bad for you",
+      "a": "No—ascorbic acid (vitamin C) is considered safe at typical food levels and is essential for health; it’s GRAS in the U.S. and approved in the EU. Very high supplemental doses can cause gastrointestinal upset and, in susceptible people, increase kidney stone risk.",
+      "answeredAt": "2025-10-12T02:35:42.428Z"
+    },
+    {
+      "q": "can dogs have ascorbic acid",
+      "a": "Yes, small amounts in foods are safe, but dogs synthesize their own vitamin C and usually don’t need supplements. High doses may cause diarrhea, so consult a veterinarian before supplementing.",
+      "answeredAt": "2025-10-12T02:35:42.428Z"
+    },
+    {
+      "q": "what is ascorbic acid made from",
+      "a": "Commercial ascorbic acid is typically made from glucose (often derived from corn, wheat, or cassava) that’s converted via microbial fermentation and chemical steps into L‑ascorbic acid.",
+      "answeredAt": "2025-10-12T02:35:42.428Z"
+    },
+    {
+      "q": "how is ascorbic acid made",
+      "a": "Industrially, D‑glucose is converted to 2‑keto‑L‑gulonic acid by fermentation (or via the older Reichstein process: glucose → sorbitol → L‑sorbose → 2‑KGA) and then chemically cyclized to ascorbic acid. Modern methods use two-step fermentation to improve efficiency.",
+      "answeredAt": "2025-10-12T02:35:42.428Z"
+    },
+    {
+      "q": "is ascorbic acid the same as citric acid",
+      "a": "No—ascorbic acid (E300) is vitamin C and an antioxidant, while citric acid (E330) is a different compound mainly used as an acidulant and does not provide vitamin C.",
+      "answeredAt": "2025-10-12T02:35:42.428Z"
+    }
+  ]
+}

@@ -4,6 +4,7 @@ const path = require('path');
 const ROOT_DIR = path.join(__dirname, '..', '..');
 const ENV_FILENAMES = ['.env.local', 'env.local'];
 const AHREFS_KEYS = ['AHREFS_API_KEY', 'AHREFS_API_TOKEN', 'AHREFS_TOKEN'];
+const OPENAI_KEYS = ['OPENAI_API_KEY'];
 
 let cachedEnv = null;
 let loadPromise = null;
@@ -103,7 +104,18 @@ const resolveAhrefsApiKey = () => {
   return null;
 };
 
+const resolveOpenAiApiKey = () => {
+  for (const key of OPENAI_KEYS) {
+    const value = process.env[key];
+    if (typeof value === 'string' && value.trim()) {
+      return value.trim();
+    }
+  }
+  return null;
+};
+
 module.exports = {
   loadEnvConfig,
   resolveAhrefsApiKey,
+  resolveOpenAiApiKey,
 };

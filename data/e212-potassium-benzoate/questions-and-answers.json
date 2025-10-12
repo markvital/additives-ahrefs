@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2025-10-12T02:42:22.583Z",
+  "answers": [
+    {
+      "q": "is potassium benzoate bad for you",
+      "a": "At permitted food-use levels it's considered safe by regulators (JECFA ADI for benzoates: 0–5 mg/kg body weight/day, expressed as benzoic acid); a small number of people may be sensitive. In acidic drinks with vitamin C and heat/light, trace benzene can form, so manufacturers manage formulations and conditions.",
+      "answeredAt": "2025-10-12T02:42:22.583Z"
+    },
+    {
+      "q": "e212: can't open file for writing",
+      "a": "That message refers to a Vim editor error, not the food additive E212; in foods, E212 is potassium benzoate, a preservative used to inhibit yeast and mold in acidic products.",
+      "answeredAt": "2025-10-12T02:42:22.583Z"
+    },
+    {
+      "q": "e212 can't open file for writing",
+      "a": "This is a Vim error code rather than the additive; E212 in food labeling denotes potassium benzoate, a preservative effective in low‑pH beverages and foods.",
+      "answeredAt": "2025-10-12T02:42:22.583Z"
+    },
+    {
+      "q": "vim e212 can't open file for writing",
+      "a": "You're citing a Vim error, not the food additive; E212 on ingredient lists is potassium benzoate, used to preserve acidic foods and soft drinks.",
+      "answeredAt": "2025-10-12T02:42:22.583Z"
+    },
+    {
+      "q": "vim e212: can't open file for writing",
+      "a": "That line is about a Vim error, whereas E212 in food is potassium benzoate, a common preservative for acidic products to curb yeast and mold growth.",
+      "answeredAt": "2025-10-12T02:42:22.583Z"
+    }
+  ]
+}

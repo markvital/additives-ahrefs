@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2025-10-12T02:47:58.561Z",
+  "answers": [
+    {
+      "q": "is sorbitan monostearate safe",
+      "a": "Yes—E491 is an approved food emulsifier; EFSA set a group ADI of 10 mg/kg body weight per day (expressed as sorbitan) for sorbitan esters, and it’s considered safe at permitted use levels.",
+      "answeredAt": "2025-10-12T02:47:58.561Z"
+    },
+    {
+      "q": "is sorbitan monostearate vegan",
+      "a": "Not always—the stearic acid can be sourced from either vegetable oils or animal fat, so vegan status depends on the supplier; check with the manufacturer for plant-derived sources.",
+      "answeredAt": "2025-10-12T02:47:58.561Z"
+    },
+    {
+      "q": "what is sorbitan monostearate made from",
+      "a": "It’s an ester of sorbitan (from dehydrated sorbitol) and stearic acid, which can come from vegetable oils (e.g., palm/soy) or animal fat (tallow).",
+      "answeredAt": "2025-10-12T02:47:58.561Z"
+    },
+    {
+      "q": "e491 what is it made from",
+      "a": "E491 is produced by reacting sorbitan (derived from sorbitol) with stearic acid; the stearic acid may be plant- or animal-derived.",
+      "answeredAt": "2025-10-12T02:47:58.561Z"
+    },
+    {
+      "q": "how is sorbitan monostearate and sorbitan tristearate different",
+      "a": "Sorbitan monostearate (E491) has one stearic acid group, while sorbitan tristearate (E492) has three. The tri-ester is more lipophilic (lower HLB) and is used for stronger water-in-oil emulsification and fat crystal control compared with the mono-ester.",
+      "answeredAt": "2025-10-12T02:47:58.561Z"
+    }
+  ]
+}

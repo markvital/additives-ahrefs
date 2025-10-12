@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2025-10-12T02:45:42.274Z",
+  "answers": [
+    {
+      "q": "how to make potassium ferrocyanide",
+      "a": "It’s produced industrially from iron salts and cyanide chemistry under tightly controlled conditions; do not attempt to synthesize it yourself, and only food‑grade E536 from reputable suppliers is suitable for food use.",
+      "answeredAt": "2025-10-12T02:45:42.274Z"
+    },
+    {
+      "q": "how could one ingest potassium ferrocyanide",
+      "a": "You don’t ingest it directly; when permitted, it’s present only in trace amounts as an anticaking agent in table salt (e.g., EU max 20 mg/kg salt), and normal dietary exposure via salt is considered safe.",
+      "answeredAt": "2025-10-12T02:45:42.274Z"
+    },
+    {
+      "q": "how many grams of potassium ferrocyanide must be used to prepare 800.0ml of 6.00m solution",
+      "a": "A 6.00 M aqueous solution is not practically achievable due to solubility limits; in theory it would require about 2.03 kg of K4[Fe(CN)6]·3H2O for 0.800 L, which far exceeds what will dissolve.",
+      "answeredAt": "2025-10-12T02:45:42.274Z"
+    },
+    {
+      "q": "how to dry potassium ferrocyanide",
+      "a": "Do not heat it to “dry” it—E536 is typically used as the trihydrate, and heating can decompose it and release toxic gases; for food use, simply store the sealed container in a dry place.",
+      "answeredAt": "2025-10-12T02:45:42.274Z"
+    },
+    {
+      "q": "how to make .5m potassium ferrocyanide",
+      "a": "Using the common trihydrate, 0.5 M corresponds to about 211 g per liter of solution; this is a laboratory preparation and not a food‑use practice, so it should only be done with appropriate lab controls and PPE.",
+      "answeredAt": "2025-10-12T02:45:42.274Z"
+    }
+  ]
+}

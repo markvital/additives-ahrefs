@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2025-10-12T02:35:02.198Z",
+  "answers": [
+    {
+      "q": "is glutamic acid the same as glutamine",
+      "a": "No. Glutamic acid (E620) is an amino acid, while glutamine is its amide derivative; they’re related but chemically distinct and serve different roles.",
+      "answeredAt": "2025-10-12T02:35:02.198Z"
+    },
+    {
+      "q": "is glutamate the same as glutamic acid",
+      "a": "They’re the deprotonated (glutamate) and protonated (glutamic acid, E620) forms of the same molecule; at typical physiological and food pH, glutamate predominates.",
+      "answeredAt": "2025-10-12T02:35:02.198Z"
+    },
+    {
+      "q": "is glutamic acid acidic or basic",
+      "a": "Acidic—glutamic acid has two carboxyl groups and is largely present as its negatively charged form (glutamate) at neutral pH.",
+      "answeredAt": "2025-10-12T02:35:02.198Z"
+    },
+    {
+      "q": "is glutamic acid the same as glutamate",
+      "a": "Yes—glutamate is the ionized form of glutamic acid (E620); which term is used depends on pH or whether it’s in a salt (e.g., MSG).",
+      "answeredAt": "2025-10-12T02:35:02.198Z"
+    },
+    {
+      "q": "are glutamate and glutamic acid the same",
+      "a": "Yes—they refer to the same substance in different forms: glutamic acid is the acid, and glutamate is its anion or salt.",
+      "answeredAt": "2025-10-12T02:35:02.198Z"
+    }
+  ]
+}

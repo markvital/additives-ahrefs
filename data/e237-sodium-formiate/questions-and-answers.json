@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2025-10-12T02:34:21.592Z",
+  "answers": [
+    {
+      "q": "is sodium formate an acid or base",
+      "a": "It’s the sodium salt of formic acid; in water the formate ion acts as a weak base, so its solutions are mildly basic.",
+      "answeredAt": "2025-10-12T02:34:21.592Z"
+    },
+    {
+      "q": "is sodium formate a strong base",
+      "a": "No—it's a weak base; the formate ion only hydrolyzes slightly in water (formic acid pKa ≈ 3.75).",
+      "answeredAt": "2025-10-12T02:34:21.592Z"
+    },
+    {
+      "q": ". what is the effect on equilibrium when sodium formate is added to a solution of formic acid?",
+      "a": "It adds the common ion (formate), shifting HA ⇌ H+ + A− to the left, suppressing dissociation and creating a buffer; the solution becomes less acidic than pure formic acid.",
+      "answeredAt": "2025-10-12T02:34:21.592Z"
+    },
+    {
+      "q": "1l solution of .05m sodium formate. what is final ph if 12ml of 1.0m hcl is added",
+      "a": "About pH 4.25. Reaction converts 12 mmol formate to formic acid, leaving ~38 mmol A− and 12 mmol HA; with pKa ≈ 3.75, pH ≈ 3.75 + log(38/12) ≈ 4.25.",
+      "answeredAt": "2025-10-12T02:34:21.592Z"
+    },
+    {
+      "q": "determind how much formic acid and sodium formate to make buffer",
+      "a": "Specify the target pH and total buffer concentration, then use Henderson–Hasselbalch: [A−]/[HA] = 10^(pH − pKa). For example, at pH 4.25 with 0.10 M total buffer in 1 L, you’d need ~0.076 mol sodium formate and ~0.024 mol formic acid.",
+      "answeredAt": "2025-10-12T02:34:21.592Z"
+    }
+  ]
+}

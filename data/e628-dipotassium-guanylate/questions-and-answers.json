@@ -1,0 +1,15 @@
+{
+  "updatedAt": "2025-10-12T02:45:19.728Z",
+  "answers": [
+    {
+      "q": "what application is {c97fcc79-e628-407d-ae68-a06ad6d8b4d1}",
+      "a": "That looks like a software GUID/CLSID and isn’t applicable to E628; E628 is dipotassium guanylate, a food flavor enhancer used to boost umami (often with MSG) in savory products.",
+      "answeredAt": "2025-10-12T02:45:19.728Z"
+    },
+    {
+      "q": "what is clsid {c97fcc79-e628-407d-ae68-a06ad6d8b4d1}",
+      "a": "Unrelated to this additive—E628 isn’t a CLSID but the E‑number for dipotassium guanylate, a flavor enhancer used in foods.",
+      "answeredAt": "2025-10-12T02:45:19.728Z"
+    }
+  ]
+}

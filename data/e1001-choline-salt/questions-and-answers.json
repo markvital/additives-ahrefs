@@ -1,0 +1,20 @@
+{
+  "updatedAt": "2025-10-12T02:34:51.238Z",
+  "answers": [
+    {
+      "q": "does a salt water pool generate choline when running",
+      "a": "No—saltwater pool systems electrolyze sodium chloride to produce chlorine (mainly hypochlorous acid), not choline; E1001 choline salts are quaternary ammonium nutrients made industrially, not formed in pools.",
+      "answeredAt": "2025-10-12T02:34:51.238Z"
+    },
+    {
+      "q": "what’s the smiles structure of tmc647055 choline salt",
+      "a": "For the E1001 component, the choline cation SMILES is C[N+](C)(C)CCO; the full salt would pair that cation with the deprotonated TMC647055 species, whose exact SMILES must be taken from the drug’s structural data.",
+      "answeredAt": "2025-10-12T02:34:51.238Z"
+    },
+    {
+      "q": "which works better for keto rash bile salt or choline",
+      "a": "There’s no strong evidence that either choline salts (E1001) or bile salts treat keto rash (prurigo pigmentosa); management typically involves dietary changes or clinician‑directed therapy, while choline should be used only to meet normal nutritional needs.",
+      "answeredAt": "2025-10-12T02:34:51.238Z"
+    }
+  ]
+}

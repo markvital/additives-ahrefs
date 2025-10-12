@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2025-10-12T02:35:16.427Z",
+  "answers": [
+    {
+      "q": "what is adipic acid used for",
+      "a": "In foods (E355) it’s an acidulant that provides a clean, persistent tartness and pH control in powdered drink mixes, gelatin desserts, chewing gum, and as a slow-acting leavening acid in baking powders.",
+      "answeredAt": "2025-10-12T02:35:16.427Z"
+    },
+    {
+      "q": "how is adipic acid made",
+      "a": "Industrial production mainly oxidizes a cyclohexanone/cyclohexanol (KA oil) mixture with nitric acid, which generates nitrous oxide; newer routes use catalytic oxygen processes or bio-based fermentations.",
+      "answeredAt": "2025-10-12T02:35:16.427Z"
+    },
+    {
+      "q": "is adipic acid polar or nonpolar",
+      "a": "Polar, due to its two carboxylic acid groups (though its six‑carbon chain makes it less polar than shorter dicarboxylic acids).",
+      "answeredAt": "2025-10-12T02:35:16.427Z"
+    },
+    {
+      "q": "is adipic acid soluble in water",
+      "a": "Sparingly soluble in cold water (about 1.5 g/100 mL at ~25°C), with solubility increasing substantially at higher temperatures.",
+      "answeredAt": "2025-10-12T02:35:16.427Z"
+    },
+    {
+      "q": "(3) could you substitute adipoyl chloride with adipic acid in this reaction? explain why or why not",
+      "a": "Not directly—acid chlorides are far more reactive acylating agents, so adipoyl chloride reacts with amines at mild conditions, whereas adipic acid generally requires activation (e.g., conversion to the acid chloride/anhydride or use of coupling/dehydrating agents) or high‑temperature condensation.",
+      "answeredAt": "2025-10-12T02:35:16.427Z"
+    }
+  ]
+}

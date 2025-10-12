@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2025-10-12T02:41:44.895Z",
+  "answers": [
+    {
+      "q": "explain why sodium salts of fatty acids, although they are salts, are not very soluble in water",
+      "a": "Their long hydrophobic hydrocarbon tails outweigh the small ionic (carboxylate) head, so they prefer to aggregate into micelles or lamellar phases rather than disperse as individual ions; solubility decreases with chain length and is generally lower for sodium than potassium salts.",
+      "answeredAt": "2025-10-12T02:41:44.895Z"
+    },
+    {
+      "q": "what are sodium or potassium salts of fatty acids",
+      "a": "They are soaps—anionic surfactants (RCOO− Na+ or RCOO− K+) formed by neutralizing fatty acids with sodium or potassium hydroxide, used in foods as emulsifiers and stabilizers.",
+      "answeredAt": "2025-10-12T02:41:44.895Z"
+    },
+    {
+      "q": "what are sodium salts of long chain fatty acids called",
+      "a": "They are commonly called soaps, for example sodium stearate or sodium palmitate.",
+      "answeredAt": "2025-10-12T02:41:44.895Z"
+    },
+    {
+      "q": "what do the sodium salts of fatty acids taste like",
+      "a": "They have a characteristic soapy, slightly bitter/alkaline taste; at typical food-use levels they contribute little flavor but can cause a soapy off-note if overused.",
+      "answeredAt": "2025-10-12T02:41:44.895Z"
+    },
+    {
+      "q": "what is special about sodium salts of fatty acids",
+      "a": "They are amphiphilic surfactants that lower surface tension and self-assemble (e.g., into micelles), enabling them to emulsify and stabilize fat–water mixtures. They can also form insoluble “soaps” with calcium or magnesium ions.",
+      "answeredAt": "2025-10-12T02:41:44.895Z"
+    }
+  ]
+}

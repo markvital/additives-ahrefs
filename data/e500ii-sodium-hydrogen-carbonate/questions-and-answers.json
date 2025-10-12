@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2025-10-12T02:35:35.022Z",
+  "answers": [
+    {
+      "q": "what does baking soda do",
+      "a": "In baking it acts as a leavening agent: sodium bicarbonate reacts with acids to release carbon dioxide, helping batters and doughs rise. It also raises pH, which can increase browning and reduce acidity.",
+      "answeredAt": "2025-10-12T02:35:35.022Z"
+    },
+    {
+      "q": "what's the difference between baking soda and baking powder",
+      "a": "Baking soda is pure sodium bicarbonate and needs an acid in the recipe to produce gas; baking powder contains sodium bicarbonate plus acid salts and starch, so it works with added moisture/heat. Most baking powders are double-acting, releasing CO2 during mixing and again in the oven.",
+      "answeredAt": "2025-10-12T02:35:35.022Z"
+    },
+    {
+      "q": "can i use baking soda instead of baking powder",
+      "a": "Yes, but only if you add an acid: a common swap is 1 tsp baking powder = 1/4 tsp baking soda + 1/2 tsp cream of tartar (or equivalent acidity from buttermilk/yogurt). Expect slightly more browning and adjust liquids as needed.",
+      "answeredAt": "2025-10-12T02:35:35.022Z"
+    },
+    {
+      "q": "does baking soda go bad",
+      "a": "Dry sodium bicarbonate doesn’t spoil, but it can lose leavening power if it absorbs moisture or odors. Test it by adding a little to vinegar or lemon juice—vigorous bubbling means it’s still active; store airtight and dry.",
+      "answeredAt": "2025-10-12T02:35:35.022Z"
+    },
+    {
+      "q": "can i use baking powder instead of baking soda",
+      "a": "You can, but use about 3 times as much baking powder to match the leavening effect, and expect changes in taste and browning due to the added acids and starch. If possible, reduce other acidic ingredients to avoid a sour or bitter note.",
+      "answeredAt": "2025-10-12T02:35:35.022Z"
+    }
+  ]
+}

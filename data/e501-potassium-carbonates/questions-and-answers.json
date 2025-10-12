@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2025-10-12T02:44:06.521Z",
+  "answers": [
+    {
+      "q": "flake8 e501 line too long how to fix",
+      "a": "In food labeling, E501 refers to potassium carbonates, a permitted pH regulator/stabiliser; there's nothing to fix, but you can avoid it by choosing products without E501 on the label.",
+      "answeredAt": "2025-10-12T02:44:06.521Z"
+    },
+    {
+      "q": "how does potassium carbonates structure allow it to perform its function",
+      "a": "As an ionic salt (K2CO3/KHCO3), it dissociates in water to potassium and carbonate/bicarbonate ions, creating alkalinity and buffering pH. The carbonate reacts with acids to release CO2, aiding leavening and stabilizing textures.",
+      "answeredAt": "2025-10-12T02:44:06.521Z"
+    },
+    {
+      "q": "how to avoid e501 line too long",
+      "a": "To avoid E501 in foods, check ingredient lists and pick products labeled additive‑free or without potassium carbonates. In recipes, use alternatives like sodium bicarbonate (E500), baking powder, or yeast depending on the application.",
+      "answeredAt": "2025-10-12T02:44:06.521Z"
+    },
+    {
+      "q": "how to fix e501 errors",
+      "a": "If a recipe tastes overly alkaline from potassium carbonates, reduce the amount and balance with an acid (e.g., cream of tartar, lemon juice, or acidic dairy), or substitute a milder leavening/pH regulator like baking powder.",
+      "answeredAt": "2025-10-12T02:44:06.521Z"
+    },
+    {
+      "q": "how to fix e501 errorsi n python",
+      "a": "E501 in food labeling is potassium carbonates, an approved pH regulator/stabiliser; if you meant the Python lint rule E501, that’s unrelated to food additives.",
+      "answeredAt": "2025-10-12T02:44:06.521Z"
+    }
+  ]
+}

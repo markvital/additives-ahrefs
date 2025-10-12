@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2025-10-12T02:38:07.725Z",
+  "answers": [
+    {
+      "q": "what is tagatose made from",
+      "a": "Industrial tagatose is typically made by hydrolyzing lactose (from whey) to galactose and then enzymatically isomerizing the galactose to D‑tagatose; newer processes can start from plant sugars using microbial enzymes.",
+      "answeredAt": "2025-10-12T02:38:07.725Z"
+    },
+    {
+      "q": "what is tagatose sweetener",
+      "a": "Tagatose (E963) is a low‑calorie rare sugar used as a bulk sweetener, about 90% as sweet as sucrose and providing roughly 1.5 kcal/g with a low glycemic impact.",
+      "answeredAt": "2025-10-12T02:38:07.725Z"
+    },
+    {
+      "q": "below is the open-chain of the monosaccharide d-tagatose, which is the ketohexose",
+      "a": "D‑Tagatose is a ketohexose (the C‑4 epimer of D‑fructose) whose open‑chain form has a ketone at C‑2 and cyclizes in solution to furanose or pyranose rings.",
+      "answeredAt": "2025-10-12T02:38:07.725Z"
+    },
+    {
+      "q": "below is the open-chain structure of the monosaccharide d-tagatose, which is a ketohexose. like most monosaccharides, it has more than one chiral carbon. select all of the chiral carbon atoms.",
+      "a": "In the open‑chain D‑tagatose, the chiral centers are C‑3, C‑4, and C‑5.",
+      "answeredAt": "2025-10-12T02:38:07.725Z"
+    },
+    {
+      "q": "haworth projection tagatose which carbon supplies the oh",
+      "a": "For ring formation, the OH on C‑5 typically attacks C‑2 to give the furanose, while the OH on C‑6 can attack C‑2 to give the pyranose.",
+      "answeredAt": "2025-10-12T02:38:07.725Z"
+    }
+  ]
+}

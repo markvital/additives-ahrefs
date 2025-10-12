@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2025-10-12T02:43:47.166Z",
+  "answers": [
+    {
+      "q": "is biphenyl polar",
+      "a": "No—biphenyl is essentially nonpolar due to its symmetric aromatic hydrocarbon structure and lack of polar functional groups.",
+      "answeredAt": "2025-10-12T02:43:47.166Z"
+    },
+    {
+      "q": "is biphenyl polar or nonpolar",
+      "a": "Nonpolar; it has no significant dipole moment.",
+      "answeredAt": "2025-10-12T02:43:47.166Z"
+    },
+    {
+      "q": "is biphenyl soluble in methanol",
+      "a": "Only sparingly; it dissolves much better in nonpolar organic solvents, with limited solubility in methanol that increases with heat.",
+      "answeredAt": "2025-10-12T02:43:47.166Z"
+    },
+    {
+      "q": "is biphenyl soluble in water",
+      "a": "No—it's practically insoluble in water.",
+      "answeredAt": "2025-10-12T02:43:47.166Z"
+    },
+    {
+      "q": "what is a polychlorinated biphenyl",
+      "a": "A PCB is a biphenyl molecule with multiple chlorine atoms attached; these synthetic chemicals were used as dielectric and coolant fluids but are now widely restricted due to persistence and toxicity.",
+      "answeredAt": "2025-10-12T02:43:47.166Z"
+    }
+  ]
+}

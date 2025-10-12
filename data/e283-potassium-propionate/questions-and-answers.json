@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2025-10-12T02:31:36.876Z",
+  "answers": [
+    {
+      "q": "consider an aqueous solution which is .20m in potassium propanoate",
+      "a": "It will be basic, since propionate is the conjugate base of propionic acid (pKa ≈ 4.87); a 0.20 m aqueous solution has a pH of about 9.1.",
+      "answeredAt": "2025-10-12T02:31:36.876Z"
+    },
+    {
+      "q": "potassium propionate and aluminum powder make what",
+      "a": "They do not form a special or energetic compound under normal conditions—mixing them typically yields just a physical mixture with no reaction.",
+      "answeredAt": "2025-10-12T02:31:36.876Z"
+    },
+    {
+      "q": "what is the decimal value for the hexadecimal number e283",
+      "a": "57987.",
+      "answeredAt": "2025-10-12T02:31:36.876Z"
+    },
+    {
+      "q": "what is the fraction of association (α) for the following potassium propionate solutions",
+      "a": "In water, potassium propionate is essentially fully dissociated, so the fraction of association is ~0 (the degree of dissociation is ~1 at typical concentrations).",
+      "answeredAt": "2025-10-12T02:31:36.876Z"
+    },
+    {
+      "q": "what is the fraction of association (α) for the following potassium propionate solutions?",
+      "a": "In aqueous solution it remains dissociated, so α for association is approximately 0 (i.e., near-complete dissociation).",
+      "answeredAt": "2025-10-12T02:31:36.876Z"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2025-10-12T02:37:07.429Z",
+  "answers": [
+    {
+      "q": "is aspartame bad for you",
+      "a": "For most people, no—regulators like EFSA, FDA, and WHO/JECFA consider aspartame safe at typical intakes within the acceptable daily intake (about 40–50 mg/kg body weight/day). People with phenylketonuria (PKU) must avoid it because it provides phenylalanine.",
+      "answeredAt": "2025-10-12T02:37:07.429Z"
+    },
+    {
+      "q": "does aspartame cause cancer",
+      "a": "Current evidence does not show a cancer risk at typical dietary exposures; EFSA, FDA, and WHO/JECFA have maintained its ADI and found it safe at current intakes. IARC classified it as “possibly carcinogenic” (Group 2B) in 2023 based on limited evidence, which did not change regulatory safety conclusions.",
+      "answeredAt": "2025-10-12T02:37:07.429Z"
+    },
+    {
+      "q": "does coke zero have aspartame",
+      "a": "Yes—Coca‑Cola Zero Sugar in many countries contains aspartame (often with acesulfame K); formulas can vary by market, so check your local label.",
+      "answeredAt": "2025-10-12T02:37:07.429Z"
+    },
+    {
+      "q": "why is aspartame bad for you",
+      "a": "It isn’t generally “bad” at normal food levels; the key exception is for people with PKU, who must avoid the phenylalanine it provides. Some individuals report sensitivities (e.g., headaches), so staying within the ADI is advised.",
+      "answeredAt": "2025-10-12T02:37:07.429Z"
+    },
+    {
+      "q": "does aspartame raise blood sugar",
+      "a": "No—aspartame does not raise blood glucose or insulin on its own and is considered suitable for people with diabetes within the ADI. Other ingredients in the food or drink may still affect blood sugar.",
+      "answeredAt": "2025-10-12T02:37:07.429Z"
+    }
+  ]
+}

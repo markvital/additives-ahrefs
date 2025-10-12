@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2025-10-12T02:39:08.880Z",
+  "answers": [
+    {
+      "q": "is erythritol bad for you",
+      "a": "No—regulators (e.g., FDA, EFSA) consider erythritol safe at typical food-use levels, and it doesn’t raise blood sugar or cause tooth decay. Large amounts can cause digestive upset, and a recent observational study linked high blood erythritol levels with cardiovascular risk, but causation hasn’t been shown.",
+      "answeredAt": "2025-10-12T02:39:08.880Z"
+    },
+    {
+      "q": "what are the dangers of erythritol",
+      "a": "The main concern is gastrointestinal discomfort (bloating, diarrhea) when large amounts are consumed; in the EU, polyol-containing foods may carry a laxative-effect warning. An observational study has linked high circulating erythritol with cardiovascular events, but evidence is not conclusive and guidance has not changed.",
+      "answeredAt": "2025-10-12T02:39:08.880Z"
+    },
+    {
+      "q": "is erythritol safe",
+      "a": "Yes—it's authorized in the EU (E968) and considered GRAS in the U.S., with no safety concern at reported uses. Some people may experience digestive upset if they consume a lot at once.",
+      "answeredAt": "2025-10-12T02:39:08.880Z"
+    },
+    {
+      "q": "what is erythritol made from",
+      "a": "It’s typically produced by fermenting glucose (often from corn or wheat starch) with yeast-like microorganisms (e.g., Moniliella), then purified and crystallized.",
+      "answeredAt": "2025-10-12T02:39:08.880Z"
+    },
+    {
+      "q": "does erythritol raise blood sugar",
+      "a": "No—erythritol has little to no effect on blood glucose or insulin and is largely excreted unchanged.",
+      "answeredAt": "2025-10-12T02:39:08.880Z"
+    }
+  ]
+}

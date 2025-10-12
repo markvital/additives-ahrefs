@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2025-10-12T02:35:13.785Z",
+  "answers": [
+    {
+      "q": "how many valence electrons does argon have",
+      "a": "Eight; its outer shell is full (3s2 3p6).",
+      "answeredAt": "2025-10-12T02:35:13.785Z"
+    },
+    {
+      "q": "what is argon used for",
+      "a": "As food additive E938, it’s used as an inert packaging gas and propellant to displace oxygen in modified-atmosphere packaging and beverage/wine dispensing, helping prevent oxidation and spoilage.",
+      "answeredAt": "2025-10-12T02:35:13.785Z"
+    },
+    {
+      "q": "how many neutrons does argon have",
+      "a": "The most abundant isotope, argon-40, has 22 neutrons; natural argon also includes argon-36 (18 neutrons) and argon-38 (20 neutrons).",
+      "answeredAt": "2025-10-12T02:35:13.785Z"
+    },
+    {
+      "q": "is argon flammable",
+      "a": "No—argon is nonflammable and chemically inert; its main hazard is oxygen displacement (asphyxiation) in confined spaces.",
+      "answeredAt": "2025-10-12T02:35:13.785Z"
+    },
+    {
+      "q": "is argon a noble gas",
+      "a": "Yes—argon is a noble gas (group 18).",
+      "answeredAt": "2025-10-12T02:35:13.785Z"
+    }
+  ]
+}

@@ -20,12 +20,28 @@ export function SearchQuestions({ questions }: SearchQuestionsProps) {
     return hasQuestionMark ? capitalized : `${capitalized}?`;
   };
 
-  const items = questions
-    .map((question) => question.keyword.trim())
-    .filter((keyword, index, list) => keyword.length > 0 && list.indexOf(keyword) === index)
-    .map(formatQuestion)
-    .filter((keyword): keyword is string => keyword.length > 0)
-    .slice(0, 5);
+  const formatted = questions
+    .map((question) => {
+      const keyword = typeof question.keyword === 'string' ? question.keyword : '';
+      const answer = typeof question.answer === 'string' ? question.answer.trim() : '';
+      const formattedQuestion = formatQuestion(keyword);
+
+      if (!formattedQuestion) {
+        return null;
+      }
+
+      return {
+        keyword: formattedQuestion,
+        answer,
+        hasAnswer: answer.length > 0,
+      };
+    })
+    .filter((entry): entry is { keyword: string; answer: string; hasAnswer: boolean } => entry !== null)
+    .filter((entry, index, list) => list.findIndex((item) => item.keyword.toLowerCase() === entry.keyword.toLowerCase()) === index);
+
+  const answeredItems = formatted.filter((entry) => entry.hasAnswer).slice(0, 5);
+  const fallbackItems = formatted.slice(0, 5);
+  const items = answeredItems.length > 0 ? answeredItems : fallbackItems;
 
   if (items.length === 0) {
     return null;
@@ -40,19 +56,27 @@ export function SearchQuestions({ questions }: SearchQuestionsProps) {
       <Box
         component="ol"
         sx={{
-          listStyle: 'decimal',
+          listStyleType: 'decimal',
+          listStylePosition: 'outside',
           pl: 3,
-          display: 'flex',
-          flexDirection: 'column',
-          gap: 0.75,
           m: 0,
+          '& > li:not(:last-of-type)': {
+            mb: 1.5,
+          },
         }}
       >
-        {items.map((keyword) => (
-          <Box key={keyword} component="li">
-            <Typography variant="body1" color="text.primary">
-              {keyword}
-            </Typography>
+        {items.map((item) => (
+          <Box key={item.keyword} component="li">
+            <Box sx={{ display: 'flex', flexDirection: 'column', gap: 0.75 }}>
+              <Typography variant="body1" color="text.primary" sx={{ fontWeight: 600 }}>
+                {item.keyword}
+              </Typography>
+              {item.hasAnswer && (
+                <Typography variant="body1" color="text.secondary" component="p">
+                  {item.answer}
+                </Typography>
+              )}
+            </Box>
           </Box>
         ))}
       </Box>

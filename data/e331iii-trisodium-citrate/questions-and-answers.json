@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2025-10-12T02:46:21.174Z",
+  "answers": [
+    {
+      "q": "is trisodium citrate bad for you",
+      "a": "No—trisodium citrate (E331iii) is widely used as a food acidity regulator and is considered safe at typical food levels (JECFA ADI: “not specified”); those on sodium-restricted diets or consuming very large amounts should be mindful of the added sodium and possible mild stomach upset.",
+      "answeredAt": "2025-10-12T02:46:21.174Z"
+    },
+    {
+      "q": "what is trisodium citrate dihydrate",
+      "a": "It’s the hydrated crystalline form of trisodium citrate (Na3C6H5O7·2H2O); it functions the same in foods as a buffer/chelating agent, with the water of crystallization only affecting dosing by weight.",
+      "answeredAt": "2025-10-12T02:46:21.174Z"
+    },
+    {
+      "q": "what is trisodium citrate used for",
+      "a": "In foods it serves as an acidity regulator/buffer and emulsifying salt (especially in processed cheese), and as a chelator that controls tartness and helps prevent oxidation; it’s also used to stabilize flavors in beverages.",
+      "answeredAt": "2025-10-12T02:46:21.174Z"
+    },
+    {
+      "q": "during sample preparation, why must the solutions be buffered with trisodium citrate",
+      "a": "Citrate buffer maintains a controlled pH and chelates multivalent metals, helping prevent precipitation or oxidation and stabilizing analytes during preparation.",
+      "answeredAt": "2025-10-12T02:46:21.174Z"
+    },
+    {
+      "q": "fe during sample preparation, why must the solutions be buffered with trisodium citrate",
+      "a": "For iron analyses, citrate complexes Fe2+/Fe3+ and holds the pH where ferric hydroxide won’t precipitate, reducing losses and interferences from other metals.",
+      "answeredAt": "2025-10-12T02:46:21.174Z"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2025-10-12T02:30:41.058Z",
+  "answers": [
+    {
+      "q": "how much potassium persulfate do i put in a phosphorus digestin",
+      "a": "Use the amount specified by a validated phosphorus digestion method (e.g., Standard Methods 4500-P or EPA 365.x), as the required mass depends on sample volume and reagent strength; persulfate oxidant solutions are typically prepared at a few grams per liter and added in small aliquots.",
+      "answeredAt": "2025-10-12T02:30:41.058Z"
+    },
+    {
+      "q": "how much potassium persulfate do i put in a phosphorus digestion",
+      "a": "Follow a published method because the dose depends on protocol and sample size; many standard formulations use roughly 4–10 g K2S2O8 per liter in the digestion reagent, but defer to your method’s exact instructions.",
+      "answeredAt": "2025-10-12T02:30:41.058Z"
+    },
+    {
+      "q": "how much potassium persulfate do i put in a phosphorus digestion in gram",
+      "a": "It’s method-dependent; as a rough reference, some persulfate digestion reagents contain on the order of 4–10 grams of potassium persulfate per liter and are used at milliliter-scale additions to the sample—always follow the specific procedure in your method.",
+      "answeredAt": "2025-10-12T02:30:41.058Z"
+    },
+    {
+      "q": "how to dispose of potassium persulfate",
+      "a": "Treat potassium persulfate as a strong oxidizer: do not pour it down the drain; collect unused solid and concentrated solutions in a labeled, compatible container kept away from organics/reducing agents and arrange disposal through your institution’s hazardous-waste program per the SDS and local regulations.",
+      "answeredAt": "2025-10-12T02:30:41.058Z"
+    },
+    {
+      "q": "if an experiment calls for 110 ul of potassium persulfate, what size pipetman should you use?",
+      "a": "Use a P200 (20–200 µL) pipettor for 110 µL; a P100 is too small and a P1000 will be less accurate at that volume.",
+      "answeredAt": "2025-10-12T02:30:41.058Z"
+    }
+  ]
+}

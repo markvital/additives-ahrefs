@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2025-10-12T02:38:01.398Z",
+  "answers": [
+    {
+      "q": "how many valence electrons does nitrogen have",
+      "a": "Five; its outer shell configuration is 2s2 2p3.",
+      "answeredAt": "2025-10-12T02:38:01.398Z"
+    },
+    {
+      "q": "what is nitrogen fixation",
+      "a": "The conversion of atmospheric N2 into ammonia or related biologically usable forms, mainly by certain microbes, lightning, or the industrial Haber-Bosch process.",
+      "answeredAt": "2025-10-12T02:38:01.398Z"
+    },
+    {
+      "q": "what is nitrogen used for",
+      "a": "As a food additive (E931), nitrogen is used as an inert packaging gas and for flushing/blanketing to prevent oxidation, for rapid freezing as liquid nitrogen, and to create fine bubbles in “nitro” beverages.",
+      "answeredAt": "2025-10-12T02:38:01.398Z"
+    },
+    {
+      "q": "is nitrogen a greenhouse gas",
+      "a": "No—dinitrogen (N2) is not a greenhouse gas because it does not absorb infrared radiation; nitrous oxide (N2O) is a different compound that is a potent greenhouse gas.",
+      "answeredAt": "2025-10-12T02:38:01.398Z"
+    },
+    {
+      "q": "what is the nitrogen cycle",
+      "a": "The biogeochemical cycle moving nitrogen among the atmosphere, soils, waters, and organisms via fixation, nitrification, assimilation, ammonification, and denitrification.",
+      "answeredAt": "2025-10-12T02:38:01.398Z"
+    }
+  ]
+}

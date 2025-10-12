@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2025-10-12T02:42:36.104Z",
+  "answers": [
+    {
+      "q": "how are bisulfite ions generated in the iodine clock reaction potassium iodate and sodium sulfite",
+      "a": "Bisulfite (HSO3−) comes either directly from dissolving potassium bisulfite (KHSO3 → K+ + HSO3−) or by protonation of sulfite from sodium sulfite in acidic solution (SO3^2− + H+ → HSO3−), which is the pH range used in the iodine clock.",
+      "answeredAt": "2025-10-12T02:42:36.104Z"
+    },
+    {
+      "q": "how does sodium bisulfite and potassium iodate react to make iodine reaction with starch",
+      "a": "In acid, iodate (IO3−) oxidizes bisulfite (HSO3−) to sulfate while being reduced to iodide; once bisulfite is depleted, remaining iodate oxidizes iodide to iodine (I2), which then forms the blue complex with starch.",
+      "answeredAt": "2025-10-12T02:42:36.104Z"
+    },
+    {
+      "q": "how does sodium bisulfite and potassium iodate react to make iodine reaction with starch equations",
+      "a": "Key steps (acidic medium): IO3− + 3 HSO3− → I− + 3 SO4^2− + 3 H+; then IO3− + 5 I− + 6 H+ → 3 I2 + 3 H2O; and while bisulfite remains, it removes iodine: I2 + HSO3− + H2O → 2 I− + HSO4− + 2 H+.",
+      "answeredAt": "2025-10-12T02:42:36.104Z"
+    },
+    {
+      "q": "how long is potassium bisulfite good for",
+      "a": "Stored airtight in a cool, dry place, solid potassium bisulfite is typically usable for about 1–2 years; in solution it loses strength much faster (weeks to a few months) as it oxidizes to sulfate.",
+      "answeredAt": "2025-10-12T02:42:36.104Z"
+    },
+    {
+      "q": "how most potassium bisulfite or metab",
+      "a": "Potassium metabisulfite (E224) is more commonly used because it’s more stable, but both it and potassium bisulfite (E228) release SO2; for dosing, KHSO3 is ~53% SO2 by weight and K2S2O5 is ~58%, so slightly less metabisulfite is needed to achieve the same SO2 level.",
+      "answeredAt": "2025-10-12T02:42:36.104Z"
+    }
+  ]
+}
