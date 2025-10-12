@@ -25,6 +25,7 @@ if (proxyUrl) {
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const ADDITIVES_INDEX_PATH = path.join(DATA_DIR, 'additives.json');
 const PROMPT_PATH = path.join(__dirname, 'prompts', 'search-question-answer.txt');
+const ANSWERS_FILENAME = 'questions-and-answers.json';
 
 const QUESTIONS_PER_ADDITIVE = 5;
 const OPENAI_MODEL = 'gpt-5';
@@ -207,6 +208,81 @@ const normaliseArray = (value) => {
     .filter((item, index, list) => item.length > 0 && list.indexOf(item) === index);
 };
 
+const normaliseText = (value) => {
+  if (typeof value !== 'string') {
+    return '';
+  }
+
+  return value.trim();
+};
+
+const createQuestionKey = (value) => normaliseText(value).toLowerCase();
+
+const loadAnswersDataset = async (slug) => {
+  const answersPath = path.join(DATA_DIR, slug, ANSWERS_FILENAME);
+  const dataset = {
+    updatedAt: '',
+    answers: [],
+  };
+  const map = new Map();
+
+  if (!(await fileExists(answersPath))) {
+    return { dataset, map, answersPath };
+  }
+
+  try {
+    const raw = await readJson(answersPath);
+    if (raw && typeof raw === 'object') {
+      const updatedAt = normaliseText(raw.updatedAt);
+      if (updatedAt) {
+        dataset.updatedAt = updatedAt;
+      }
+
+      if (Array.isArray(raw.answers)) {
+        for (const entry of raw.answers) {
+          const question = normaliseText(entry?.q ?? entry?.question ?? '');
+          const answer = normaliseText(entry?.a ?? entry?.answer ?? '');
+          const answeredAt = normaliseText(entry?.answeredAt ?? '');
+
+          if (!question || !answer) {
+            continue;
+          }
+
+          const record = {
+            q: question,
+            a: answer,
+          };
+
+          if (answeredAt) {
+            record.answeredAt = answeredAt;
+          }
+
+          dataset.answers.push(record);
+          map.set(createQuestionKey(question), record);
+        }
+      }
+    }
+  } catch (error) {
+    console.warn(`Failed to parse existing answers for ${slug}: ${error.message}`);
+  }
+
+  return { dataset, map, answersPath };
+};
+
+const serialiseAnswers = (answers) =>
+  answers.map((entry) => {
+    const payload = {
+      q: entry.q,
+      a: entry.a,
+    };
+
+    if (entry.answeredAt) {
+      payload.answeredAt = entry.answeredAt;
+    }
+
+    return payload;
+  });
+
 const loadAdditiveMetadata = async (slug) => {
   const propsPath = path.join(DATA_DIR, slug, 'props.json');
   const articlePath = path.join(DATA_DIR, slug, 'article.md');
@@ -252,7 +328,7 @@ const loadAdditiveMetadata = async (slug) => {
   return metadata;
 };
 
-const extractAnswerText = (response) => {
+const extractResponseText = (response) => {
   if (!response) {
     return '';
   }
@@ -278,19 +354,72 @@ const extractAnswerText = (response) => {
   const uniqueSegments = segments.filter((segment, index, list) => list.indexOf(segment) === index);
   return uniqueSegments.join('\n').trim();
 };
+const parseAnswerList = (text, expectedCount) => {
+  if (!text) {
+    throw new Error('OpenAI API returned an empty answer set.');
+  }
 
-const generateAnswer = async ({
+  const trimmed = text.trim();
+  const startIndex = trimmed.indexOf('[');
+  const endIndex = trimmed.lastIndexOf(']');
+
+  if (startIndex === -1 || endIndex === -1 || endIndex <= startIndex) {
+    throw new Error('OpenAI API response did not contain a JSON array.');
+  }
+
+  const jsonPayload = trimmed.slice(startIndex, endIndex + 1);
+
+  let parsed;
+  try {
+    parsed = JSON.parse(jsonPayload);
+  } catch (error) {
+    throw new Error(`Unable to parse JSON answer payload: ${error.message}`);
+  }
+
+  if (!Array.isArray(parsed)) {
+    throw new Error('OpenAI API response JSON was not an array.');
+  }
+
+  if (typeof expectedCount === 'number' && expectedCount > 0 && parsed.length !== expectedCount) {
+    throw new Error(`Expected ${expectedCount} answers but received ${parsed.length}.`);
+  }
+
+  return parsed.map((entry, index) => {
+    const question = normaliseText(entry?.q ?? entry?.question ?? '');
+    const answer = normaliseText(entry?.a ?? entry?.answer ?? '');
+
+    if (!answer) {
+      throw new Error(`Answer ${index + 1} was empty.`);
+    }
+
+    return {
+      q: question,
+      a: answer,
+    };
+  });
+};
+
+const generateAnswers = async ({
   client,
   prompt,
   additive,
-  question,
+  questions,
   metadata,
   debug = false,
 }) => {
+  const additiveLabelParts = [normaliseText(additive.eNumber), normaliseText(additive.title)].filter(Boolean);
+  const additiveLabel = additiveLabelParts.length > 0 ? additiveLabelParts.join(' - ') : additive.slug;
+
+  const questionLines = questions.map((item) => normaliseText(item.keyword)).filter(Boolean);
+
+  if (questionLines.length === 0) {
+    return [];
+  }
+
   const payload = {
     additive,
     metadata,
-    question,
+    questions: questionLines,
   };
 
   const requestPayload = {
@@ -306,15 +435,7 @@ const generateAnswer = async ({
         content: [
           {
             type: 'input_text',
-            text: [
-              'Answer the following question about the additive.',
-              `Question: ${question.keyword}`,
-              '',
-              `Context:\n${JSON.stringify(payload, null, 2)}`,
-              '',
-              'Respond with a direct answer in no more than three sentences.',
-              'If you cannot answer confidently, reply with: "The available data does not provide a clear answer yet."',
-            ].join('\n'),
+            text: [`Context:`, JSON.stringify(payload, null, 2), '', `food additive: ${additiveLabel}`, ...questionLines].join('\n'),
           },
         ],
       },
@@ -342,13 +463,10 @@ const generateAnswer = async ({
       }
     }
 
-    const answer = extractAnswerText(response);
+    const answerText = extractResponseText(response);
+    const answers = parseAnswerList(answerText, questionLines.length);
 
-    if (!answer) {
-      throw new Error('OpenAI API returned an empty answer.');
-    }
-
-    return answer.trim();
+    return answers;
   } catch (error) {
     if (error instanceof OpenAI.APIError) {
       const details = error?.error?.message || error.message;
@@ -368,7 +486,6 @@ const processAdditive = async ({
   debug = false,
 }) => {
   const questionPath = path.join(DATA_DIR, additive.slug, 'search-questions.json');
-  const relativePath = path.join('data', additive.slug, 'search-questions.json');
 
   if (!(await fileExists(questionPath))) {
     console.warn(`Skipping ${additive.slug}: no search-questions.json found.`);
@@ -406,80 +523,123 @@ const processAdditive = async ({
   }
 
   const metadata = await loadAdditiveMetadata(additive.slug);
-  const now = new Date().toISOString();
-  let updated = false;
-  let answeredCount = 0;
+  const { map: existingAnswers, answersPath } = await loadAnswersDataset(additive.slug);
+  const answersRelativePath = path.join('data', additive.slug, ANSWERS_FILENAME);
 
-  for (const { question, index } of candidates) {
-    const existingAnswer = typeof question.answer === 'string' ? question.answer.trim() : '';
-    if (existingAnswer && !override) {
+  const pending = [];
+  for (const { question } of candidates) {
+    const keyword = normaliseText(question.keyword);
+    if (!keyword) {
       continue;
     }
 
-    try {
-      console.log(`→ Answering “${question.keyword}” for ${additive.slug}...`);
+    const key = createQuestionKey(keyword);
+    const existing = existingAnswers.get(key);
 
-      let answer = '';
-      let attempt = 0;
-      // Simple retry loop to handle transient connection issues.
-      while (attempt < MAX_ATTEMPTS) {
-        attempt += 1;
-        try {
-          answer = await generateAnswer({
-            client,
-            prompt,
-            additive,
-            question,
-            metadata,
-            debug,
-          });
-          break;
-        } catch (error) {
-          if (attempt >= MAX_ATTEMPTS) {
-            throw error;
-          }
-
-          const delayMs = BASE_RETRY_DELAY_MS * attempt;
-          console.warn(
-            `  Attempt ${attempt} failed: ${error.message || error}. Retrying in ${delayMs} ms...`,
-          );
-          await sleep(delayMs);
-        }
-      }
-
-      dataset.questions[index].answer = answer;
-      dataset.questions[index].answeredAt = now;
-      answeredCount += 1;
-      updated = true;
-    } catch (error) {
-      console.warn(`Failed to answer “${question.keyword}” for ${additive.slug}: ${error.message}`);
+    if (existing?.a && !override) {
+      continue;
     }
 
-    if (delay > 0) {
-      await sleep(delay);
-    }
+    pending.push({ keyword, key });
   }
 
-  if (!updated) {
-    console.log(`No new answers generated for ${additive.slug}.`);
+  if (pending.length === 0) {
+    console.log(`No new answers needed for ${additive.slug}.`);
     return;
   }
 
-  dataset.questions = dataset.questions.map((entry) => {
-    if (!entry || typeof entry !== 'object') {
-      return entry;
-    }
-    if (typeof entry.answer === 'string') {
-      entry.answer = entry.answer.trim();
-    }
-    if (typeof entry.answeredAt === 'string') {
-      entry.answeredAt = entry.answeredAt.trim();
-    }
-    return entry;
-  });
+  console.log(
+    `→ Answering ${pending.length} question(s) for ${additive.slug}: ${pending
+      .map((entry) => `“${entry.keyword}”`)
+      .join(', ')}`,
+  );
 
-  await fs.writeFile(questionPath, `${JSON.stringify(dataset, null, 2)}\n`, 'utf8');
-  console.log(`Saved ${answeredCount} answer(s) to ${relativePath}.`);
+  const now = new Date().toISOString();
+  let responses = [];
+  let attempt = 0;
+
+  while (attempt < MAX_ATTEMPTS) {
+    attempt += 1;
+    try {
+      responses = await generateAnswers({
+        client,
+        prompt,
+        additive,
+        questions: pending.map((entry) => ({ keyword: entry.keyword })),
+        metadata,
+        debug,
+      });
+      break;
+    } catch (error) {
+      if (attempt >= MAX_ATTEMPTS) {
+        console.warn(`Failed to answer questions for ${additive.slug}: ${error.message}`);
+        return;
+      }
+
+      const delayMs = BASE_RETRY_DELAY_MS * attempt;
+      console.warn(`  Attempt ${attempt} failed: ${error.message || error}. Retrying in ${delayMs} ms...`);
+      await sleep(delayMs);
+    }
+  }
+
+  if (!responses || responses.length === 0) {
+    console.log(`No answers returned for ${additive.slug}.`);
+    return;
+  }
+
+  for (let index = 0; index < pending.length; index += 1) {
+    const pendingEntry = pending[index];
+    const responseEntry = responses[index];
+
+    if (!responseEntry) {
+      continue;
+    }
+
+    const questionText = normaliseText(responseEntry.q) || pendingEntry.keyword;
+    const record = {
+      q: questionText,
+      a: responseEntry.a,
+      answeredAt: now,
+    };
+
+    existingAnswers.set(pendingEntry.key, record);
+  }
+
+  const orderedAnswers = [];
+  const seen = new Set();
+
+  for (const entry of dataset.questions) {
+    const keyword = normaliseText(entry?.keyword ?? '');
+    if (!keyword) {
+      continue;
+    }
+
+    const key = createQuestionKey(keyword);
+    const answerRecord = existingAnswers.get(key);
+    if (answerRecord && !seen.has(answerRecord)) {
+      orderedAnswers.push(answerRecord);
+      seen.add(answerRecord);
+    }
+  }
+
+  for (const answerRecord of existingAnswers.values()) {
+    if (!seen.has(answerRecord)) {
+      orderedAnswers.push(answerRecord);
+      seen.add(answerRecord);
+    }
+  }
+
+  const output = {
+    updatedAt: now,
+    answers: serialiseAnswers(orderedAnswers),
+  };
+
+  await fs.writeFile(answersPath, `${JSON.stringify(output, null, 2)}\n`, 'utf8');
+  console.log(`Saved ${orderedAnswers.length} answer(s) to ${answersRelativePath}.`);
+
+  if (delay > 0) {
+    await sleep(delay);
+  }
 };
 
 const formatAdditiveLabel = (additive) => {

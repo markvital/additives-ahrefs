@@ -35,9 +35,7 @@
       "parent_topic": "baking soda",
       "intents": [
         "informational"
-      ],
-      "answer": "Baking soda (sodium bicarbonate, E500ii) is a leavening agent that releases carbon dioxide when it reacts with acid and moisture/heat, helping batters and doughs rise. It also raises pH to neutralize acidity and promote browning; use it with an acidic ingredient and in measured amounts to avoid a soapy taste and excess sodium.",
-      "answeredAt": "2025-10-12T00:57:08.913Z"
+      ]
     },
     {
       "keyword": "what's the difference between baking soda and baking powder",
@@ -46,9 +44,7 @@
       "parent_topic": "baking soda vs baking powder",
       "intents": [
         "informational"
-      ],
-      "answer": "Baking soda (sodium bicarbonate, E500ii) is a single-ingredient base that needs added acid and moisture to release CO2; without enough acid it can taste soapy and over-brown. Baking powder contains baking soda plus dry acids and starch—usually double-acting—so it leavens when wet and again when heated and doesn’t need extra acid. For substitution, about 1 tsp baking powder ≈ 1/4 tsp baking soda + 1/2 tsp cream of tartar (or another acid), but recipes may need adjustment.",
-      "answeredAt": "2025-10-12T00:57:08.913Z"
+      ]
     },
     {
       "keyword": "can i use baking soda instead of baking powder",
@@ -57,9 +53,7 @@
       "parent_topic": "can i use baking soda instead of baking powder",
       "intents": [
         "informational"
-      ],
-      "answer": "Yes, but only if you add an acid and adjust amounts: replace 1 teaspoon baking powder with about 1/4 teaspoon baking soda (E500ii) plus 1/2 teaspoon cream of tartar, or use 1/4 teaspoon baking soda with about 1 teaspoon lemon juice or vinegar (or an acidic dairy like buttermilk/yogurt, reducing other liquid). Without enough acid it won’t rise properly and can taste soapy, so mix and bake promptly.",
-      "answeredAt": "2025-10-12T00:57:08.913Z"
+      ]
     },
     {
       "keyword": "does baking soda go bad",
@@ -68,9 +62,7 @@
       "parent_topic": "does baking soda expire",
       "intents": [
         "informational"
-      ],
-      "answer": "Baking soda (sodium bicarbonate, E500ii) doesn’t spoil or become unsafe; kept dry and sealed, it can last indefinitely. It can lose leavening power after opening or if it absorbs moisture, so many brands recommend replacing it for baking after about 6–12 months. To check potency, add a pinch to vinegar or lemon juice—vigorous fizz means it’s still good for baking.",
-      "answeredAt": "2025-10-12T00:57:08.913Z"
+      ]
     },
     {
       "keyword": "can i use baking powder instead of baking soda",
@@ -79,9 +71,7 @@
       "parent_topic": "can you substitute baking powder for baking soda",
       "intents": [
         "informational"
-      ],
-      "answer": "Sometimes. Baking powder can replace baking soda (E500ii), but it’s weaker—use about three times as much and expect less browning and potentially denser results; if the recipe has an acid (buttermilk, yogurt, vinegar), reduce it slightly to avoid excess acidity. For best results, use baking soda when the recipe relies on alkalinity for browning or spread.",
-      "answeredAt": "2025-10-12T00:57:08.913Z"
+      ]
     },
     {
       "keyword": "what is baking soda made of",
