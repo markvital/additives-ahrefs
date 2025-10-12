@@ -1,0 +1,63 @@
+{
+  "generatedAt": "2025-10-12T01:10:17.029Z",
+  "model": "gpt-5",
+  "items": [
+    {
+      "question": "What does baking soda do?",
+      "answer": "It’s a leavening agent and acidity regulator: when it reacts with an acid and heat, it releases CO2 that makes batters and doughs rise. It also raises pH, promoting browning and a crisper texture.",
+      "source": "what does baking soda do"
+    },
+    {
+      "question": "What's the difference between baking soda and baking powder?",
+      "answer": "Baking soda is pure sodium bicarbonate and needs an acidic ingredient to work. Baking powder contains sodium bicarbonate plus acids and starch, often double-acting to release gas when moistened and again when heated.",
+      "source": "what's the difference between baking soda and baking powder"
+    },
+    {
+      "question": "Can i use baking soda instead of baking powder?",
+      "answer": "Yes—add an acid: for each 1 tsp baking powder, use about 1/4 tsp baking soda plus 1/2 tsp cream of tartar (or another acid), adjusting liquids if using buttermilk/yogurt/lemon juice. Without added acid, it won’t rise properly and can taste soapy.",
+      "source": "can i use baking soda instead of baking powder"
+    },
+    {
+      "question": "Does baking soda go bad?",
+      "answer": "It doesn’t spoil, but it loses leavening strength after opening—best within about 6 months. Test by adding some to vinegar or lemon juice; vigorous fizz means it’s still active.",
+      "source": "does baking soda go bad"
+    },
+    {
+      "question": "Can i use baking powder instead of baking soda?",
+      "answer": "Often, yes—use roughly 3 times as much baking powder as baking soda and, if possible, reduce other acidic ingredients to avoid tartness. Expect a slight change in flavor/texture due to added starch and acids.",
+      "source": "can i use baking powder instead of baking soda"
+    }
+  ],
+  "questions": [
+    {
+      "keyword": "what does baking soda do",
+      "question": "What does baking soda do?",
+      "volume": 5100,
+      "parent_topic": "baking soda"
+    },
+    {
+      "keyword": "what's the difference between baking soda and baking powder",
+      "question": "What's the difference between baking soda and baking powder?",
+      "volume": 5000,
+      "parent_topic": "baking soda vs baking powder"
+    },
+    {
+      "keyword": "can i use baking soda instead of baking powder",
+      "question": "Can i use baking soda instead of baking powder?",
+      "volume": 4000,
+      "parent_topic": "can i use baking soda instead of baking powder"
+    },
+    {
+      "keyword": "does baking soda go bad",
+      "question": "Does baking soda go bad?",
+      "volume": 3900,
+      "parent_topic": "does baking soda expire"
+    },
+    {
+      "keyword": "can i use baking powder instead of baking soda",
+      "question": "Can i use baking powder instead of baking soda?",
+      "volume": 3800,
+      "parent_topic": "can you substitute baking powder for baking soda"
+    }
+  ]
+}

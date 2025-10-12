@@ -15,6 +15,7 @@ import {
 import { formatMonthlyVolume, formatProductCount, getCountryFlagEmoji, getCountryLabel } from '../../lib/format';
 import { getSearchHistory } from '../../lib/search-history';
 import { getSearchQuestions } from '../../lib/search-questions';
+import { getQuestionAnswers } from '../../lib/questions-answers';
 import { getSearchVolumeDataset } from '../../lib/search-volume';
 import { SearchHistoryChart } from '../../components/SearchHistoryChart';
 import { SearchKeywordShare } from '../../components/SearchKeywordShare';
@@ -69,6 +70,8 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
     (Array.isArray(searchHistoryKeywords) ? searchHistoryKeywords.length > 0 : false);
   const searchQuestions = getSearchQuestions(additive.slug);
   const questionItems = searchQuestions?.questions ?? [];
+  const questionAnswers = getQuestionAnswers(additive.slug);
+  const questionAnswerItems = questionAnswers?.items ?? [];
   const displayName = formatAdditiveDisplayName(additive.eNumber, additive.title);
   const searchRank = typeof additive.searchRank === 'number' ? additive.searchRank : null;
   const searchVolumeDataset = getSearchVolumeDataset(additive.slug);
@@ -441,7 +444,9 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
       <Box sx={{ width: '100%', maxWidth: 760, display: 'flex', flexDirection: 'column', gap: 3 }}>
         {articleBody && <MarkdownArticle content={articleBody} />}
 
-        {questionItems.length > 0 && <SearchQuestions questions={questionItems} />}
+        {(questionAnswerItems.length > 0 || questionItems.length > 0) && (
+          <SearchQuestions questions={questionItems} answers={questionAnswerItems} />
+        )}
 
         {additive.wikipedia && (
           <Typography variant="body1">

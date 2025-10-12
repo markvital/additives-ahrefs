@@ -1,0 +1,63 @@
+{
+  "generatedAt": "2025-10-12T01:09:25.988Z",
+  "model": "gpt-5",
+  "items": [
+    {
+      "question": "Is xanthan gum bad for you?",
+      "answer": "It isn’t inherently bad; it’s widely used and generally recognized as safe for most people. Large amounts can cause gas or a laxative effect, and xanthan-based thickeners are not recommended for premature infants.",
+      "source": "is xanthan gum bad for you"
+    },
+    {
+      "question": "Is xanthan gum safe?",
+      "answer": "Yes—food regulators consider it safe at typical use levels. Rarely, very sensitive individuals may react depending on the source material, and high intakes can upset digestion.",
+      "source": "is xanthan gum safe"
+    },
+    {
+      "question": "Is xanthan gum bad for dogs?",
+      "answer": "No—it's not toxic, and small amounts in pet foods are generally fine. Large or concentrated amounts may cause diarrhea or gas.",
+      "source": "is xanthan gum bad for dogs"
+    },
+    {
+      "question": "What does xanthan gum do?",
+      "answer": "It thickens and stabilizes foods, helping prevent separation and improve texture and mouthfeel. In gluten-free baking it adds viscosity and binding for better structure.",
+      "source": "what does xanthan gum do"
+    },
+    {
+      "question": "Can dogs have xanthan gum?",
+      "answer": "Yes, small amounts like those in commercial foods or occasional treats are typically safe. Avoid large doses, especially if your dog has a sensitive stomach.",
+      "source": "can dogs have xanthan gum"
+    }
+  ],
+  "questions": [
+    {
+      "keyword": "is xanthan gum bad for you",
+      "question": "Is xanthan gum bad for you?",
+      "volume": 7500,
+      "parent_topic": "is xanthan gum bad for you"
+    },
+    {
+      "keyword": "is xanthan gum safe",
+      "question": "Is xanthan gum safe?",
+      "volume": 1900,
+      "parent_topic": "is xanthan gum bad for you"
+    },
+    {
+      "keyword": "is xanthan gum bad for dogs",
+      "question": "Is xanthan gum bad for dogs?",
+      "volume": 1100,
+      "parent_topic": "xanthan gum dogs"
+    },
+    {
+      "keyword": "what does xanthan gum do",
+      "question": "What does xanthan gum do?",
+      "volume": 1100,
+      "parent_topic": "is xanthan gum bad for you"
+    },
+    {
+      "keyword": "can dogs have xanthan gum",
+      "question": "Can dogs have xanthan gum?",
+      "volume": 1000,
+      "parent_topic": "xanthan gum dogs"
+    }
+  ]
+}

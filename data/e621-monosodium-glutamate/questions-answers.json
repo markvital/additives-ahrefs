@@ -1,0 +1,63 @@
+{
+  "generatedAt": "2025-10-12T01:09:48.544Z",
+  "model": "gpt-5",
+  "items": [
+    {
+      "question": "Is msg bad for you?",
+      "answer": "No—major health authorities consider MSG safe at typical food levels; a small subset of people may get mild, short-term symptoms after large doses, especially on an empty stomach.",
+      "source": "is msg bad for you"
+    },
+    {
+      "question": "Why is msg bad for you?",
+      "answer": "It's generally not; the belief stems from old anecdotal reports and flawed studies about \"Chinese restaurant syndrome.\" Controlled trials usually find no consistent adverse effects except in rare sensitivity at high doses.",
+      "source": "why is msg bad for you"
+    },
+    {
+      "question": "What does msg do?",
+      "answer": "It enhances flavor by adding umami and boosting savory taste in foods; it can also help reduce overall sodium because it contains less sodium than table salt while enhancing flavor.",
+      "source": "what does msg do"
+    },
+    {
+      "question": "Is msg bad?",
+      "answer": "For most people, no—it's recognized as safe at normal dietary amounts; only some individuals may experience transient symptoms with large, isolated doses.",
+      "source": "is msg bad"
+    },
+    {
+      "question": "What does msg stand for?",
+      "answer": "Monosodium glutamate.",
+      "source": "what does msg stand for"
+    }
+  ],
+  "questions": [
+    {
+      "keyword": "is msg bad for you",
+      "question": "Is msg bad for you?",
+      "volume": 18000,
+      "parent_topic": "what is msg"
+    },
+    {
+      "keyword": "why is msg bad for you",
+      "question": "Why is msg bad for you?",
+      "volume": 3400,
+      "parent_topic": "what is msg"
+    },
+    {
+      "keyword": "what does msg do",
+      "question": "What does msg do?",
+      "volume": 3300,
+      "parent_topic": "what is msg"
+    },
+    {
+      "keyword": "is msg bad",
+      "question": "Is msg bad?",
+      "volume": 3100,
+      "parent_topic": "what is msg"
+    },
+    {
+      "keyword": "what does msg stand for",
+      "question": "What does msg stand for?",
+      "volume": 2800,
+      "parent_topic": "what is msg"
+    }
+  ]
+}

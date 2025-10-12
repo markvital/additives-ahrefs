@@ -1,0 +1,20 @@
+Answer each question about the specified food additive in 1–2 sentences.
+
+Input format:
+  food additive: E-number - Title
+  <one question per line>
+
+Output format:
+  A JSON array of objects, each with {q, a}, preserving the question order.
+
+Example input:
+  food additive: E300 - Ascorbic acid
+  What is it?
+  Is it safe?
+  ....
+
+Example output:
+  [
+    {"q":"Is it safe?","a":"Yes—it\'s generally recognized as safe at normal food levels; very high supplemental doses may upset the stomach in some people."},
+    {"q":"What does it do in foods?","a":"It reduces oxidation, helps maintain color, and can strengthen dough in baking."},
+  ]
