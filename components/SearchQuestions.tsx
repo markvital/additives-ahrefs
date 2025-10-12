@@ -56,24 +56,27 @@ export function SearchQuestions({ questions }: SearchQuestionsProps) {
       <Box
         component="ol"
         sx={{
-          listStyle: 'decimal',
+          listStyleType: 'decimal',
+          listStylePosition: 'outside',
           pl: 3,
-          display: 'flex',
-          flexDirection: 'column',
-          gap: 1.5,
           m: 0,
+          '& > li:not(:last-of-type)': {
+            mb: 1.5,
+          },
         }}
       >
         {items.map((item) => (
-          <Box key={item.keyword} component="li" sx={{ display: 'flex', flexDirection: 'column', gap: 0.75 }}>
-            <Typography variant="body1" color="text.primary" sx={{ fontWeight: 600 }}>
-              {item.keyword}
-            </Typography>
-            {item.hasAnswer && (
-              <Typography variant="body1" color="text.secondary" component="p">
-                {item.answer}
+          <Box key={item.keyword} component="li">
+            <Box sx={{ display: 'flex', flexDirection: 'column', gap: 0.75 }}>
+              <Typography variant="body1" color="text.primary" sx={{ fontWeight: 600 }}>
+                {item.keyword}
               </Typography>
-            )}
+              {item.hasAnswer && (
+                <Typography variant="body1" color="text.secondary" component="p">
+                  {item.answer}
+                </Typography>
+              )}
+            </Box>
           </Box>
         ))}
       </Box>
