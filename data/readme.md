@@ -19,12 +19,14 @@ This folder stores the static dataset that powers the catalogue. All files are c
   - `title`
   - `eNumber`
   - `synonyms`
+  - `searchKeywords` — optional supplementary keywords that are force-included when querying Ahrefs.
+  - `searchFilter` — optional list of keywords that should be excluded from Ahrefs calls.
   - `functions`
   - `description`
   - `wikipedia`
 - **`<slug>/searchHistory.json`** — aggregated monthly keyword volume returned by the Ahrefs API (summed across all keywords) plus a precomputed ten-year sparkline.
 - **`<slug>/searchHistoryFull.json`** — raw keyword-level history returned by the Ahrefs API. Useful for debugging and secondary analysis; not shipped to the client.
-- **`<slug>/searchVolume.json`** — aggregated snapshot of the latest monthly search volume and per-keyword breakdown.
+- **`<slug>/searchVolume.json`** — aggregated snapshot of the latest monthly search volume and per-keyword breakdown. Includes a `keywordConfig` object showing which keywords were queried, which were added manually, and which were excluded.
 
 ## Data pipeline
 
@@ -34,6 +36,12 @@ This folder stores the static dataset that powers the catalogue. All files are c
 4. **Ahrefs question ideas** — `scripts/fetch-search-questions.js` requests matching-question keywords for each additive and stores the top ten results (including an `original_keyword` field that records which query produced the question) inside `<slug>/search-questions.json`.
 
 The scripts are idempotent and can be re-run to refresh the dataset. Each script expects the `data/` directory to exist and will create per-additive folders as needed.
+
+### Search keyword filters
+
+- **`searchFilter`** removes overly broad or misleading keywords from Ahrefs requests. The excluded keywords are still listed in the generated datasets for traceability.
+- **`searchKeywords`** appends extra keywords to the Ahrefs requests. These supplementary keywords also appear in `keywordConfig.supplementary` so the UI can flag them as manual additions.
+- `keywordConfig.included` mirrors the final keyword list sent to Ahrefs for a given additive. The search volume tooltip surfaces this alongside the excluded keywords to keep the dataset auditable.
 
 ## Ahrefs data scripts quick reference
 

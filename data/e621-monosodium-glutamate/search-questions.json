@@ -1,15 +1,13 @@
 {
   "keywords": [
     "Monosodium glutamate",
-    "E621",
     "monosodium l-glutamate",
     "Sodium glutamate",
     "L-Glutamic acid‚ monosodium salt",
-    "Glutamate",
     "MSG"
   ],
   "country": "us",
-  "fetchedAt": "2025-10-09T03:25:36.457Z",
+  "fetchedAt": "2025-10-12T02:07:07.821Z",
   "questions": [
     {
       "keyword": "what is msg",
@@ -43,7 +41,7 @@
     },
     {
       "keyword": "what is msg made of",
-      "volume": 3600,
+      "volume": 3500,
       "original_keyword": "MSG",
       "parent_topic": "what is msg",
       "intents": [
@@ -62,8 +60,8 @@
       ]
     },
     {
-      "keyword": "what does msg do",
-      "volume": 3300,
+      "keyword": "is msg bad",
+      "volume": 3100,
       "original_keyword": "MSG",
       "parent_topic": "what is msg",
       "intents": [
@@ -72,8 +70,8 @@
       ]
     },
     {
-      "keyword": "is msg bad",
-      "volume": 3100,
+      "keyword": "what does msg do",
+      "volume": 2800,
       "original_keyword": "MSG",
       "parent_topic": "what is msg",
       "intents": [
@@ -91,18 +89,19 @@
       ]
     },
     {
-      "keyword": "what is glutamate",
-      "volume": 2500,
-      "original_keyword": "Glutamate",
-      "parent_topic": "glutamate",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
       "keyword": "whats msg",
       "volume": 2500,
       "original_keyword": "MSG",
+      "parent_topic": "what is msg",
+      "intents": [
+        "informational",
+        "branded"
+      ]
+    },
+    {
+      "keyword": "what is monosodium glutamate",
+      "volume": 2000,
+      "original_keyword": "Monosodium glutamate",
       "parent_topic": "what is msg",
       "intents": [
         "informational",

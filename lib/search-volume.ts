@@ -6,9 +6,16 @@ export interface SearchVolumeKeyword {
   volume: number;
 }
 
+export interface SearchKeywordConfig {
+  included: string[];
+  supplementary: string[];
+  excluded: string[];
+}
+
 export interface SearchVolumeDataset {
   totalSearchVolume: number;
   keywords: SearchVolumeKeyword[];
+  keywordConfig?: SearchKeywordConfig;
 }
 
 const cache = new Map<string, SearchVolumeDataset | null>();
@@ -33,6 +40,36 @@ const normaliseKeyword = (entry: unknown): SearchVolumeKeyword | null => {
       : 0;
 
   return { keyword, volume };
+};
+
+const normaliseKeywordList = (source: unknown): string[] => {
+  if (!Array.isArray(source)) {
+    return [];
+  }
+
+  const seen = new Set<string>();
+  const result: string[] = [];
+
+  source.forEach((value) => {
+    if (typeof value !== 'string') {
+      return;
+    }
+
+    const trimmed = value.trim();
+    if (!trimmed) {
+      return;
+    }
+
+    const key = trimmed.toLowerCase();
+    if (seen.has(key)) {
+      return;
+    }
+
+    seen.add(key);
+    result.push(trimmed);
+  });
+
+  return result;
 };
 
 const mapDataset = (parsed: any): SearchVolumeDataset => {
@@ -66,9 +103,22 @@ const mapDataset = (parsed: any): SearchVolumeDataset => {
     return b.volume - a.volume;
   });
 
+  const keywordConfigSource = parsed?.keywordConfig;
+  let keywordConfig: SearchKeywordConfig | undefined;
+  if (keywordConfigSource && typeof keywordConfigSource === 'object') {
+    const included = normaliseKeywordList((keywordConfigSource as any).included);
+    const supplementary = normaliseKeywordList((keywordConfigSource as any).supplementary);
+    const excluded = normaliseKeywordList((keywordConfigSource as any).excluded);
+
+    if (included.length > 0 || supplementary.length > 0 || excluded.length > 0) {
+      keywordConfig = { included, supplementary, excluded };
+    }
+  }
+
   return {
     totalSearchVolume,
     keywords: deduped,
+    keywordConfig,
   };
 };
 

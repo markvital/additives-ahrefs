@@ -1,100 +1,100 @@
 {
   "keywords": [
-    "Gold",
     "E175",
     "Edible gold",
     "Pigment Metal 3",
-    "element 79"
+    "edible gold leaf"
   ],
   "country": "us",
-  "fetchedAt": "2025-10-09T03:57:01.716Z",
+  "fetchedAt": "2025-10-12T02:07:07.376Z",
   "questions": [
     {
-      "keyword": "what is the price of gold today",
-      "volume": 24000,
-      "original_keyword": "Gold",
-      "parent_topic": "gold price today",
+      "keyword": "is gold edible",
+      "volume": 800,
+      "original_keyword": "Edible gold",
+      "parent_topic": "edible gold",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "how much is gold per ounce",
-      "volume": 23000,
-      "original_keyword": "Gold",
-      "parent_topic": "gold price today",
+      "keyword": "is edible gold real gold",
+      "volume": 400,
+      "original_keyword": "Edible gold",
+      "parent_topic": "is gold leaf real gold",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "how much is an ounce of gold",
-      "volume": 21000,
-      "original_keyword": "Gold",
-      "parent_topic": "gold price today",
+      "keyword": "what is edible gold made of",
+      "volume": 300,
+      "original_keyword": "Edible gold",
+      "parent_topic": "what is edible gold made of",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is the price of gold",
-      "volume": 15000,
-      "original_keyword": "Gold",
-      "parent_topic": "gold price per ounce",
+      "keyword": "is gold leaf edible",
+      "volume": 200,
+      "original_keyword": "Edible gold",
+      "parent_topic": "edible gold",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "how much is a gram of gold",
-      "volume": 14000,
-      "original_keyword": "Gold",
-      "parent_topic": "1 gram of gold price today",
+      "keyword": "what does edible gold taste like",
+      "volume": 150,
+      "original_keyword": "Edible gold",
+      "parent_topic": "what does gold taste like",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "is gold magnetic",
-      "volume": 12000,
-      "original_keyword": "Gold",
-      "parent_topic": "is gold magnetic",
+      "keyword": "what is edible gold",
+      "volume": 150,
+      "original_keyword": "Edible gold",
+      "parent_topic": "edible gold",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what's the price of gold today",
-      "volume": 12000,
-      "original_keyword": "Gold",
-      "parent_topic": "price of gold",
+      "keyword": "what is edible gold leaf made of",
+      "volume": 150,
+      "original_keyword": "Edible gold",
+      "parent_topic": "what is edible gold leaf made of",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "how much is gold per gram",
-      "volume": 11000,
-      "original_keyword": "Gold",
-      "parent_topic": "1 gram of gold price today",
+      "keyword": "how is gold edible",
+      "volume": 90,
+      "original_keyword": "Edible gold",
+      "parent_topic": "edible gold",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "how much is gold worth",
-      "volume": 11000,
-      "original_keyword": "Gold",
-      "parent_topic": "gold price today",
+      "keyword": "how much is edible gold leaf",
+      "volume": 90,
+      "original_keyword": "Edible gold",
+      "parent_topic": "edible gold leaf",
       "intents": [
-        "informational"
+        "informational",
+        "commercial"
       ]
     },
     {
-      "keyword": "how much is a gold bar worth",
-      "volume": 9200,
-      "original_keyword": "Gold",
-      "parent_topic": "how much is a gold bar worth",
+      "keyword": "are gold flakes edible",
+      "volume": 60,
+      "original_keyword": "Edible gold",
+      "parent_topic": "real gold flakes",
       "intents": [
         "informational"
       ]
