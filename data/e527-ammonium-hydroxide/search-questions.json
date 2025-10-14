@@ -3,102 +3,98 @@
     "Ammonium hydroxide",
     "E527",
     "Aqua ammonia",
-    "ammonia",
-    "household ammonia",
-    "ammonia water",
     "ammonical liquor",
-    "ammonia liquor",
     "aqueous ammonia"
   ],
   "country": "us",
-  "fetchedAt": "2025-10-09T03:20:38.380Z",
+  "fetchedAt": "2025-10-12T02:07:07.944Z",
   "questions": [
     {
-      "keyword": "what does ammonia smell like",
-      "volume": 13000,
-      "original_keyword": "ammonia",
-      "parent_topic": "what does ammonia smell like",
+      "keyword": "is ammonium hydroxide soluble",
+      "volume": 150,
+      "original_keyword": "Ammonium hydroxide",
+      "parent_topic": "is ammonium hydroxide soluble in water",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is ammonia",
-      "volume": 8300,
-      "original_keyword": "ammonia",
-      "parent_topic": "ammonia",
+      "keyword": "what is ammonium hydroxide",
+      "volume": 150,
+      "original_keyword": "Ammonium hydroxide",
+      "parent_topic": "nh4oh",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "why does my pee smell like ammonia",
-      "volume": 4100,
-      "original_keyword": "ammonia",
-      "parent_topic": "pee smells like ammonia",
+      "keyword": "is ammonium hydroxide a base",
+      "volume": 70,
+      "original_keyword": "Ammonium hydroxide",
+      "parent_topic": "is ammonium hydroxide a base",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is ammonia used for",
-      "volume": 4000,
-      "original_keyword": "ammonia",
-      "parent_topic": "what is ammonia used for",
+      "keyword": "is ammonium hydroxide ammonia",
+      "volume": 70,
+      "original_keyword": "Ammonium hydroxide",
+      "parent_topic": "is ammonium hydroxide ammonia",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "why does my urine smell like ammonia",
-      "volume": 2800,
-      "original_keyword": "ammonia",
-      "parent_topic": "pee smells like ammonia",
+      "keyword": "is ammonium hydroxide a strong base",
+      "volume": 60,
+      "original_keyword": "Ammonium hydroxide",
+      "parent_topic": "is ammonium hydroxide a strong base",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "why does my vagina smell like ammonia",
-      "volume": 2600,
-      "original_keyword": "ammonia",
-      "parent_topic": "why does my discharge smell like bleach",
+      "keyword": "what is ammonium hydroxide used for",
+      "volume": 60,
+      "original_keyword": "Ammonium hydroxide",
+      "parent_topic": "what is ammonium hydroxide used for",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "how to stop urine from smelling like ammonia",
-      "volume": 1900,
-      "original_keyword": "ammonia",
-      "parent_topic": "urine smells like ammonia",
+      "keyword": "is ammonium hydroxide soluble in water",
+      "volume": 40,
+      "original_keyword": "Ammonium hydroxide",
+      "parent_topic": "is nh4oh soluble in water",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "why does my sweat smell like ammonia",
-      "volume": 1800,
-      "original_keyword": "ammonia",
-      "parent_topic": "sweat smells like ammonia",
+      "keyword": "is ammonium hydroxide an acid or base",
+      "volume": 30,
+      "original_keyword": "Ammonium hydroxide",
+      "parent_topic": "ammonium hydroxide formula",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "is ammonia polar",
-      "volume": 1700,
-      "original_keyword": "ammonia",
-      "parent_topic": "nh3 polar or nonpolar",
+      "keyword": "is ammonium hydroxide the same as ammonia",
+      "volume": 30,
+      "original_keyword": "Ammonium hydroxide",
+      "parent_topic": "is ammonium hydroxide ammonia",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "why does my underwear smell like ammonia",
-      "volume": 1300,
-      "original_keyword": "ammonia",
-      "parent_topic": "why does my underwear smell like ammonia",
+      "keyword": "what is aqua ammonia",
+      "volume": 30,
+      "original_keyword": "Aqua ammonia",
+      "parent_topic": "ammonium hydroxide",
       "intents": [
         "informational"
       ]

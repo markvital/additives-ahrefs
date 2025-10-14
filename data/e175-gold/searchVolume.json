@@ -1,25 +1,36 @@
 {
-  "totalSearchVolume": 385900,
+  "totalSearchVolume": 10800,
   "keywords": [
-    {
-      "keyword": "Gold",
-      "volume": 378000
-    },
     {
       "keyword": "Edible gold",
       "volume": 3800
+    },
+    {
+      "keyword": "edible gold leaf",
+      "volume": 3600
     },
     {
       "keyword": "E175",
       "volume": 3400
     },
     {
-      "keyword": "element 79",
-      "volume": 700
-    },
-    {
       "keyword": "Pigment Metal 3",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "E175",
+      "Edible gold",
+      "Pigment Metal 3",
+      "edible gold leaf"
+    ],
+    "supplementary": [
+      "edible gold leaf"
+    ],
+    "excluded": [
+      "gold",
+      "element 79"
+    ]
+  }
 }

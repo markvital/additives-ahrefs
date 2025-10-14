@@ -141,6 +141,7 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
             keywords={normalizedKeywordShareSegments}
             total={keywordShareTotal}
             label={searchKeywordLabel}
+            keywordConfig={searchVolumeDataset?.keywordConfig ?? null}
             sx={{ fontSize: 'inherit', lineHeight: 'inherit' }}
           />
         )
@@ -324,6 +325,7 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
                     keywords={normalizedKeywordShareSegments}
                     total={keywordShareTotal}
                     label={`${uniqueKeywordCount} ${uniqueKeywordCount === 1 ? 'keyword' : 'keywords'}`}
+                    keywordConfig={searchVolumeDataset?.keywordConfig ?? null}
                   />
                 </Box>
               )}

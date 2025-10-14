@@ -226,8 +226,10 @@ const resolveQueryKeywords = async (slug, additive) => {
   const title = titleCandidates.find((value) => value && value.trim()) ?? '';
   const eNumber = eNumberCandidates.find((value) => value && value.trim()) ?? '';
   const synonyms = Array.isArray(props?.synonyms) ? props.synonyms : [];
+  const searchKeywords = Array.isArray(props?.searchKeywords) ? props.searchKeywords : [];
+  const searchFilter = Array.isArray(props?.searchFilter) ? props.searchFilter : [];
 
-  return toKeywordList({ title, eNumber, synonyms });
+  return toKeywordList({ title, eNumber, synonyms, searchKeywords, searchFilter });
 };
 
 const KNOWN_INTENTS = [

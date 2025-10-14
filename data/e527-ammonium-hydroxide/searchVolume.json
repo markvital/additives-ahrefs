@@ -1,17 +1,9 @@
 {
-  "totalSearchVolume": 171380,
+  "totalSearchVolume": 12110,
   "keywords": [
-    {
-      "keyword": "ammonia",
-      "volume": 158000
-    },
     {
       "keyword": "Ammonium hydroxide",
       "volume": 11000
-    },
-    {
-      "keyword": "household ammonia",
-      "volume": 1000
     },
     {
       "keyword": "aqueous ammonia",
@@ -22,20 +14,30 @@
       "volume": 500
     },
     {
-      "keyword": "ammonia water",
-      "volume": 250
-    },
-    {
       "keyword": "E527",
-      "volume": 20
-    },
-    {
-      "keyword": "ammonia liquor",
       "volume": 10
     },
     {
       "keyword": "ammonical liquor",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Ammonium hydroxide",
+      "E527",
+      "Aqua ammonia",
+      "ammonical liquor",
+      "aqueous ammonia"
+    ],
+    "supplementary": [
+      "aqueous ammonia"
+    ],
+    "excluded": [
+      "ammonia",
+      "ammonia water",
+      "household ammonia",
+      "ammonia liquor"
+    ]
+  }
 }

@@ -12,7 +12,7 @@ const { execFile } = require('child_process');
 const { promisify } = require('util');
 
 const { createAdditiveSlug } = require('./utils/slug');
-const { toKeywordList } = require('./utils/keywords');
+const { resolveKeywordConfig } = require('./utils/keywords');
 const { loadEnvConfig, resolveAhrefsApiKey } = require('./utils/env');
 
 const execFileAsync = promisify(execFile);
@@ -487,7 +487,8 @@ async function main() {
 
       const entry = candidates[currentIndex];
       const { slug, additive, props } = entry;
-      const keywords = toKeywordList(props);
+      const keywordConfig = resolveKeywordConfig(props);
+      const keywords = keywordConfig.included;
       const position = currentIndex + 1;
       const remaining = targeted ? null : total - position;
       const suffix = targeted ? '' : ` (${remaining} remaining)`;
@@ -542,6 +543,7 @@ async function main() {
         totalVolume,
         error: fetchError,
         keywords,
+        keywordConfig,
       };
     }
   };
@@ -559,6 +561,10 @@ async function main() {
         totalSearchVolume: entry.totalVolume ?? 0,
         keywords: entry.keywordVolumes ?? [],
       };
+
+      if (entry.keywordConfig) {
+        dataset.keywordConfig = entry.keywordConfig;
+      }
 
       await writeSearchVolumeDataset(entry.slug, dataset);
 

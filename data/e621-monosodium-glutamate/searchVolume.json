@@ -1,17 +1,9 @@
 {
-  "totalSearchVolume": 1307520,
+  "totalSearchVolume": 177520,
   "keywords": [
-    {
-      "keyword": "E621",
-      "volume": 1090000
-    },
     {
       "keyword": "MSG",
       "volume": 154000
-    },
-    {
-      "keyword": "Glutamate",
-      "volume": 40000
     },
     {
       "keyword": "Monosodium glutamate",
@@ -29,5 +21,20 @@
       "keyword": "L-Glutamic acid‚ monosodium salt",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Monosodium glutamate",
+      "monosodium l-glutamate",
+      "Sodium glutamate",
+      "L-Glutamic acid‚ monosodium salt",
+      "MSG"
+    ],
+    "supplementary": [],
+    "excluded": [
+      "E621",
+      "Glutamate",
+      "Ajinomoto"
+    ]
+  }
 }

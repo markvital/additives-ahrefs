@@ -14,6 +14,7 @@ import {
 } from '@mui/material';
 
 import { formatMonthlyVolume } from '../lib/format';
+import type { SearchKeywordConfig } from '../lib/search-volume';
 
 export interface KeywordVolumeEntry {
   keyword: string;
@@ -25,13 +26,14 @@ interface SearchKeywordShareProps {
   total: number;
   label?: string;
   sx?: Parameters<typeof Box>[0]['sx'];
+  keywordConfig?: SearchKeywordConfig | null;
 }
 
 const percentageFormatter = new Intl.NumberFormat(undefined, {
   maximumFractionDigits: 1,
 });
 
-export function SearchKeywordShare({ keywords, total, label, sx }: SearchKeywordShareProps) {
+export function SearchKeywordShare({ keywords, total, label, sx, keywordConfig }: SearchKeywordShareProps) {
   const theme = useTheme();
   const [open, setOpen] = useState(false);
 
@@ -69,6 +71,71 @@ export function SearchKeywordShare({ keywords, total, label, sx }: SearchKeyword
     }
     return [...segments].sort((a, b) => b.volume - a.volume);
   }, [hasSegments, segments]);
+
+  const includedKeywords = useMemo(() => {
+    if (!keywordConfig || !Array.isArray(keywordConfig.included)) {
+      return [] as string[];
+    }
+    return keywordConfig.included;
+  }, [keywordConfig]);
+
+  const supplementaryKeywords = useMemo(() => {
+    if (!keywordConfig || !Array.isArray(keywordConfig.supplementary)) {
+      return [] as string[];
+    }
+    return keywordConfig.supplementary;
+  }, [keywordConfig]);
+
+  const excludedKeywords = useMemo(() => {
+    if (!keywordConfig || !Array.isArray(keywordConfig.excluded)) {
+      return [] as string[];
+    }
+    return keywordConfig.excluded;
+  }, [keywordConfig]);
+
+  const supplementarySet = useMemo(() => {
+    return new Set(
+      supplementaryKeywords
+        .map((keyword) => (typeof keyword === 'string' ? keyword.trim().toLowerCase() : ''))
+        .filter((keyword) => keyword.length > 0),
+    );
+  }, [supplementaryKeywords]);
+
+  const includedKeywordSummary = useMemo(() => {
+    if (!Array.isArray(includedKeywords) || includedKeywords.length === 0) {
+      return '';
+    }
+
+    return includedKeywords
+      .map((keyword) => {
+        const trimmed = typeof keyword === 'string' ? keyword.trim() : '';
+        if (!trimmed) {
+          return null;
+        }
+
+        if (supplementarySet.has(trimmed.toLowerCase())) {
+          return `${trimmed} (supplementary)`;
+        }
+
+        return trimmed;
+      })
+      .filter((entry): entry is string => typeof entry === 'string' && entry.length > 0)
+      .join(', ');
+  }, [includedKeywords, supplementarySet]);
+
+  const excludedKeywordSummary = useMemo(() => {
+    if (!Array.isArray(excludedKeywords) || excludedKeywords.length === 0) {
+      return '';
+    }
+
+    return excludedKeywords
+      .map((keyword) => (typeof keyword === 'string' ? keyword.trim() : ''))
+      .filter((keyword) => keyword.length > 0)
+      .join(', ');
+  }, [excludedKeywords]);
+
+  const hasSupplementaryKeywords = supplementaryKeywords.length > 0;
+  const hasKeywordMeta = includedKeywordSummary.length > 0 || excludedKeywordSummary.length > 0;
 
   const handleButtonClick = () => {
     setOpen((previous) => !previous);
@@ -122,58 +189,135 @@ export function SearchKeywordShare({ keywords, total, label, sx }: SearchKeyword
           disableTouchListener
           placement="bottom"
           title={
-            <Table
-              size="small"
-              aria-label="Keyword search volume breakdown"
-              sx={{
-                '& td, & th': {
-                  borderBottom: `1px solid ${theme.palette.divider}`,
-                },
-              }}
-            >
-              <TableBody>
-                {sortedSegments.map((segment, index) => {
-                  const share = segment.volume / totalVolume;
-                  return (
-                    <TableRow key={`${segment.keyword}-${index}`} sx={{ '&:last-of-type td': { borderBottom: 0 } }}>
-                      <TableCell
-                        component="th"
-                        scope="row"
+            <Box>
+              <Table
+                size="small"
+                aria-label="Keyword search volume breakdown"
+                sx={{
+                  '& td, & th': {
+                    borderBottom: `1px solid ${theme.palette.divider}`,
+                  },
+                }}
+              >
+                <TableBody>
+                  {sortedSegments.map((segment, index) => {
+                    const share = segment.volume / totalVolume;
+                    return (
+                      <TableRow key={`${segment.keyword}-${index}`} sx={{ '&:last-of-type td': { borderBottom: 0 } }}>
+                        <TableCell
+                          component="th"
+                          scope="row"
+                          sx={{
+                            fontWeight: 600,
+                            whiteSpace: 'nowrap',
+                            fontVariantNumeric: 'tabular-nums',
+                            pr: 2,
+                          }}
+                        >
+                          {percentageFormatter.format(share * 100)}%
+                        </TableCell>
+                        <TableCell
+                          align="right"
+                          sx={{
+                            color: 'text.secondary',
+                            whiteSpace: 'nowrap',
+                            fontVariantNumeric: 'tabular-nums',
+                            pr: 2,
+                          }}
+                        >
+                          {formatMonthlyVolume(segment.volume)} / mo
+                        </TableCell>
+                        <TableCell
+                          sx={{
+                            color: 'text.primary',
+                            whiteSpace: 'normal',
+                            wordBreak: 'break-word',
+                            pr: 1,
+                          }}
+                        >
+                          {segment.keyword}
+                        </TableCell>
+                      </TableRow>
+                    );
+                  })}
+                </TableBody>
+              </Table>
+              {hasKeywordMeta && (
+                <Box
+                  sx={{
+                    borderTop: `1px solid ${theme.palette.divider}`,
+                    px: 2,
+                    py: 1.5,
+                    display: 'flex',
+                    flexDirection: 'column',
+                    gap: 1,
+                  }}
+                >
+                  {includedKeywordSummary.length > 0 && (
+                    <Box>
+                      <Typography
+                        variant="caption"
                         sx={{
-                          fontWeight: 600,
-                          whiteSpace: 'nowrap',
-                          fontVariantNumeric: 'tabular-nums',
-                          pr: 2,
-                        }}
-                      >
-                        {percentageFormatter.format(share * 100)}%
-                      </TableCell>
-                      <TableCell
-                        align="right"
-                        sx={{
+                          display: 'block',
                           color: 'text.secondary',
-                          whiteSpace: 'nowrap',
-                          fontVariantNumeric: 'tabular-nums',
-                          pr: 2,
+                          textTransform: 'uppercase',
+                          letterSpacing: 0.4,
+                          mb: 0.5,
                         }}
                       >
-                        {formatMonthlyVolume(segment.volume)} / mo
-                      </TableCell>
-                      <TableCell
+                        Keywords used
+                      </Typography>
+                      <Typography
+                        variant="body2"
                         sx={{
                           color: 'text.primary',
                           whiteSpace: 'normal',
-                          wordBreak: 'break-word',
-                          pr: 1,
                         }}
                       >
-                        {segment.keyword}
-                      </TableCell>
-                    </TableRow>
-                  );
-                })}
-              </TableBody>
-            </Table>
+                        {includedKeywordSummary}
+                      </Typography>
+                      {hasSupplementaryKeywords && (
+                        <Typography
+                          variant="caption"
+                          sx={{
+                            display: 'block',
+                            color: 'text.secondary',
+                            mt: 0.5,
+                          }}
+                        >
+                          Supplementary keywords were added manually to improve coverage.
+                        </Typography>
+                      )}
+                    </Box>
+                  )}
+                  {excludedKeywordSummary.length > 0 && (
+                    <Box>
+                      <Typography
+                        variant="caption"
+                        sx={{
+                          display: 'block',
+                          color: 'text.secondary',
+                          textTransform: 'uppercase',
+                          letterSpacing: 0.4,
+                          mb: 0.5,
+                        }}
+                      >
+                        Excluded keywords
+                      </Typography>
+                      <Typography
+                        variant="body2"
+                        sx={{
+                          color: 'text.secondary',
+                          whiteSpace: 'normal',
+                        }}
+                      >
+                        {excludedKeywordSummary}
+                      </Typography>
+                    </Box>
+                  )}
+                </Box>
+              )}
+            </Box>
           }
           slotProps={{
             popper: {
