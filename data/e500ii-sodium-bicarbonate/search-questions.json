@@ -1,14 +1,14 @@
 {
   "keywords": [
-    "Sodium hydrogen carbonate",
-    "E500II",
     "Sodium bicarbonate",
+    "E500II",
+    "Sodium hydrogen carbonate",
     "sodium acid carbonate",
     "Bicarbonate of soda",
     "baking soda"
   ],
   "country": "us",
-  "fetchedAt": "2025-10-09T03:24:24.480Z",
+  "fetchedAt": "2025-10-15T01:44:02.039Z",
   "questions": [
     {
       "keyword": "what is sodium bicarbonate",
@@ -23,14 +23,14 @@
       "keyword": "what is baking soda",
       "volume": 9000,
       "original_keyword": "baking soda",
-      "parent_topic": "sodium bicarbonate",
+      "parent_topic": "baking soda",
       "intents": [
         "informational"
       ]
     },
     {
       "keyword": "what does baking soda do",
-      "volume": 5100,
+      "volume": 5000,
       "original_keyword": "baking soda",
       "parent_topic": "baking soda",
       "intents": [
@@ -39,7 +39,7 @@
     },
     {
       "keyword": "what's the difference between baking soda and baking powder",
-      "volume": 5000,
+      "volume": 4900,
       "original_keyword": "baking soda",
       "parent_topic": "baking soda vs baking powder",
       "intents": [
@@ -93,7 +93,7 @@
     },
     {
       "keyword": "how to wash strawberries with baking soda",
-      "volume": 3500,
+      "volume": 3600,
       "original_keyword": "baking soda",
       "parent_topic": "how to wash strawberries",
       "intents": [

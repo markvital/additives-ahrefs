@@ -1,17 +1,23 @@
 {
-  "totalSearchVolume": 31360,
+  "totalSearchVolume": 410,
   "keywords": [
     {
-      "keyword": "Argon",
-      "volume": 31000
-    },
-    {
       "keyword": "element 18",
-      "volume": 350
+      "volume": 400
     },
     {
       "keyword": "E938",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "E938",
+      "element 18"
+    ],
+    "supplementary": [],
+    "excluded": [
+      "argon"
+    ]
+  }
 }

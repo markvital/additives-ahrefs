@@ -1,17 +1,23 @@
 {
-  "totalSearchVolume": 95550,
+  "totalSearchVolume": 93050,
   "keywords": [
     {
       "keyword": "Magnesium oxide",
       "volume": 93000
     },
     {
-      "keyword": "magnesia",
-      "volume": 2500
-    },
-    {
       "keyword": "E530",
       "volume": 50
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Magnesium oxide",
+      "E530"
+    ],
+    "supplementary": [],
+    "excluded": [
+      "magnesia"
+    ]
+  }
 }

@@ -1,18 +1,16 @@
 {
   "keywords": [
-    "Aluminium",
     "E173",
-    "Aluminum",
-    "element 13"
+    "Aluminum"
   ],
   "country": "us",
-  "fetchedAt": "2025-10-09T03:16:33.681Z",
+  "fetchedAt": "2025-10-15T01:43:56.087Z",
   "questions": [
     {
       "keyword": "can you put aluminum foil in an air fryer",
       "volume": 14000,
       "original_keyword": "Aluminum",
-      "parent_topic": "can i put foil in an air fryer",
+      "parent_topic": "can you put foil in an air fryer",
       "intents": [
         "informational"
       ]
@@ -39,7 +37,7 @@
       "keyword": "is aluminum magnetic",
       "volume": 11000,
       "original_keyword": "Aluminum",
-      "parent_topic": "is aluminum magnetic",
+      "parent_topic": "is cast aluminum magnetic",
       "intents": [
         "informational"
       ]
@@ -54,19 +52,19 @@
       ]
     },
     {
-      "keyword": "can you put aluminum foil in the oven",
-      "volume": 4000,
+      "keyword": "how many valence electrons does aluminum have",
+      "volume": 4100,
       "original_keyword": "Aluminum",
-      "parent_topic": "can tin foil go in the oven",
+      "parent_topic": "how many valence electrons does aluminum have",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "is aluminum foil toxic",
-      "volume": 4000,
+      "keyword": "can you put aluminum foil in the oven",
+      "volume": 3900,
       "original_keyword": "Aluminum",
-      "parent_topic": "is aluminum foil toxic",
+      "parent_topic": "can tin foil go in the oven",
       "intents": [
         "informational"
       ]
@@ -84,16 +82,16 @@
       "keyword": "how to weld aluminum",
       "volume": 3900,
       "original_keyword": "Aluminum",
-      "parent_topic": "how to weld aluminum",
+      "parent_topic": "welding aluminum",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "can i put aluminum foil in an air fryer",
-      "volume": 3800,
+      "keyword": "is aluminum foil toxic",
+      "volume": 3900,
       "original_keyword": "Aluminum",
-      "parent_topic": "can you put foil in an air fryer",
+      "parent_topic": "is aluminum foil toxic",
       "intents": [
         "informational"
       ]

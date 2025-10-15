@@ -1,17 +1,19 @@
 {
-  "totalSearchVolume": 175350,
+  "totalSearchVolume": 50,
   "keywords": [
-    {
-      "keyword": "Silver",
-      "volume": 174000
-    },
-    {
-      "keyword": "element 47",
-      "volume": 1300
-    },
     {
       "keyword": "E174",
       "volume": 50
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "E174"
+    ],
+    "supplementary": [],
+    "excluded": [
+      "Silver",
+      "element 47"
+    ]
+  }
 }

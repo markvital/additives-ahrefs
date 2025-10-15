@@ -1,10 +1,6 @@
 {
-  "totalSearchVolume": 48330,
+  "totalSearchVolume": 330,
   "keywords": [
-    {
-      "keyword": "Chlorine",
-      "volume": 48000
-    },
     {
       "keyword": "element 17",
       "volume": 250
@@ -13,5 +9,15 @@
       "keyword": "E925",
       "volume": 80
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "E925",
+      "element 17"
+    ],
+    "supplementary": [],
+    "excluded": [
+      "chlorine"
+    ]
+  }
 }

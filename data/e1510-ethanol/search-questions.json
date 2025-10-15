@@ -1,6 +1,5 @@
 {
   "keywords": [
-    "Ethanol",
     "E1510",
     "ethyl alcohol",
     "Methylcarbinol",
@@ -8,72 +7,8 @@
     "Ethyl hydrate"
   ],
   "country": "us",
-  "fetchedAt": "2025-10-09T03:23:26.502Z",
+  "fetchedAt": "2025-10-15T01:43:58.892Z",
   "questions": [
-    {
-      "keyword": "what is ethanol",
-      "volume": 6100,
-      "original_keyword": "Ethanol",
-      "parent_topic": "ethanol",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is ethanol polar",
-      "volume": 3800,
-      "original_keyword": "Ethanol",
-      "parent_topic": "is ethanol polar",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what is ethanol free gas",
-      "volume": 1900,
-      "original_keyword": "Ethanol",
-      "parent_topic": "ethanol free gas",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what is ethanol used for",
-      "volume": 1400,
-      "original_keyword": "Ethanol",
-      "parent_topic": "ethanol",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what is non ethanol gas",
-      "volume": 1200,
-      "original_keyword": "Ethanol",
-      "parent_topic": "what is non ethanol gas",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "who sells ethanol free gas near me",
-      "volume": 1200,
-      "original_keyword": "Ethanol",
-      "parent_topic": "ethanol free gas",
-      "intents": [
-        "informational",
-        "local"
-      ]
-    },
-    {
-      "keyword": "how is ethanol made",
-      "volume": 1000,
-      "original_keyword": "Ethanol",
-      "parent_topic": "how is ethanol made",
-      "intents": [
-        "informational"
-      ]
-    },
     {
       "keyword": "what is ethyl alcohol",
       "volume": 1000,
@@ -84,19 +19,82 @@
       ]
     },
     {
-      "keyword": "how much ethanol is in 87 octane gas",
-      "volume": 900,
-      "original_keyword": "Ethanol",
-      "parent_topic": "how much ethanol is in 87 octane gas",
+      "keyword": "is ethyl alcohol the same as ethanol",
+      "volume": 500,
+      "original_keyword": "ethyl alcohol",
+      "parent_topic": "is ethyl alcohol the same as ethanol",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "is ethanol alcohol",
-      "volume": 900,
-      "original_keyword": "Ethanol",
+      "keyword": "can you drink ethyl alcohol",
+      "volume": 200,
+      "original_keyword": "ethyl alcohol",
+      "parent_topic": "is ethanol drinkable",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is ethyl alcohol halal",
+      "volume": 150,
+      "original_keyword": "ethyl alcohol",
+      "parent_topic": "is ethyl alcohol halal",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is ethyl alcohol the same as isopropyl alcohol",
+      "volume": 150,
+      "original_keyword": "ethyl alcohol",
+      "parent_topic": "isopropyl vs ethyl alcohol",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is ethanol ethyl alcohol",
+      "volume": 100,
+      "original_keyword": "ethyl alcohol",
       "parent_topic": "ethanol",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is ethyl alcohol ethanol",
+      "volume": 100,
+      "original_keyword": "ethyl alcohol",
+      "parent_topic": "ethyl alcohol",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is ethyl alcohol used for",
+      "volume": 100,
+      "original_keyword": "ethyl alcohol",
+      "parent_topic": "what is ethanol",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is the difference between ethyl alcohol and isopropyl alcohol",
+      "volume": 100,
+      "original_keyword": "ethyl alcohol",
+      "parent_topic": "isopropyl vs ethyl alcohol",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what's the difference between ethyl alcohol and isopropyl alcohol",
+      "volume": 100,
+      "original_keyword": "ethyl alcohol",
+      "parent_topic": "isopropyl vs ethyl alcohol",
       "intents": [
         "informational"
       ]

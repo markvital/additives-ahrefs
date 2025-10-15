@@ -1,5 +1,5 @@
 {
-  "totalSearchVolume": 279670,
+  "totalSearchVolume": 280670,
   "keywords": [
     {
       "keyword": "Sodium bicarbonate",
@@ -7,7 +7,7 @@
     },
     {
       "keyword": "baking soda",
-      "volume": 130000
+      "volume": 131000
     },
     {
       "keyword": "Bicarbonate of soda",
@@ -25,5 +25,17 @@
       "keyword": "sodium acid carbonate",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sodium bicarbonate",
+      "E500II",
+      "Sodium hydrogen carbonate",
+      "sodium acid carbonate",
+      "Bicarbonate of soda",
+      "baking soda"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

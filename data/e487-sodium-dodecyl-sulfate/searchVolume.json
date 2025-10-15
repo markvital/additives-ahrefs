@@ -1,13 +1,9 @@
 {
-  "totalSearchVolume": 27720,
+  "totalSearchVolume": 6620,
   "keywords": [
     {
-      "keyword": "sodium lauryl sulfate",
-      "volume": 21000
-    },
-    {
       "keyword": "sodium dodecyl sulfate",
-      "volume": 3700
+      "volume": 3600
     },
     {
       "keyword": "NaDS",
@@ -21,5 +17,17 @@
       "keyword": "sodium laurilsulfate",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "sodium dodecyl sulfate",
+      "E487",
+      "sodium laurilsulfate",
+      "NaDS"
+    ],
+    "supplementary": [],
+    "excluded": [
+      "sodium lauryl sulfate"
+    ]
+  }
 }

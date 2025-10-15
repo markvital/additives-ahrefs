@@ -1,25 +1,30 @@
 {
-  "updatedAt": "2025-10-12T02:43:53.422Z",
+  "updatedAt": "2025-10-15T01:45:02.744Z",
   "answers": [
     {
       "q": "what is gypsum used for",
-      "a": "In foods (as E516), calcium sulfate is used as a firming and anticaking agent, stabilizer, dough conditioner, and as a coagulant in tofu and for adjusting brewing water. Outside food, gypsum is widely used to make plaster and drywall.",
-      "answeredAt": "2025-10-12T02:43:53.422Z"
+      "a": "In foods (E516), gypsum (calcium sulfate) is used as a stabiliser/firming and anti‑caking agent, a tofu coagulant, and to adjust brewing water; outside food it’s used for plaster, drywall, and as a desiccant.",
+      "answeredAt": "2025-10-15T01:45:02.744Z"
     },
     {
       "q": "what is gypsum board",
-      "a": "Gypsum board (drywall) is a construction panel with a calcium sulfate dihydrate core faced with paper; it’s not a food use, though it’s the same chemical as food‑grade E516.",
-      "answeredAt": "2025-10-12T02:43:53.422Z"
+      "a": "Gypsum board (drywall) is a building panel with a calcium sulfate core faced with paper, used for interior walls and ceilings—it's a construction use of the same mineral, not a food application of E516.",
+      "answeredAt": "2025-10-15T01:45:02.744Z"
     },
     {
       "q": "what does gypsum do for soil",
-      "a": "Agricultural gypsum supplies calcium and sulfur and can improve structure and infiltration in sodic or compacted soils without significantly changing pH. It also helps reduce surface crusting and aluminum toxicity in some acidic subsoils.",
-      "answeredAt": "2025-10-12T02:43:53.422Z"
+      "a": "It supplies calcium and sulfate without notably changing pH, and can improve structure and water infiltration in sodic (sodium-affected) soils by displacing sodium; it has little effect on non‑sodic clays.",
+      "answeredAt": "2025-10-15T01:45:02.744Z"
     },
     {
       "q": "what is selenite good for",
-      "a": "Selenite is a crystalline form of calcium sulfate used mainly as a decorative or collector mineral; it’s not used as a food additive. Food applications use purified, food‑grade calcium sulfate (E516) for firming and anticaking.",
-      "answeredAt": "2025-10-12T02:43:53.422Z"
+      "a": "Selenite is the crystalline mineral form of gypsum (calcium sulfate); it’s used like gypsum in construction materials and as a source of calcium and sulfate, including limited food uses as additive E516.",
+      "answeredAt": "2025-10-15T01:45:02.744Z"
+    },
+    {
+      "q": "how much gypsum to add to soil",
+      "a": "Apply based on a soil test: typical maintenance rates are about 10–40 lb per 1,000 sq ft (50–200 g/m²) for lawns/gardens, while reclaiming sodic soils can require much more (around 1–4 tons/acre, 2–9 t/ha). Over‑application won’t fix non‑sodic clays and can add unnecessary salts.",
+      "answeredAt": "2025-10-15T01:45:02.744Z"
     },
     {
       "q": "how to cleanse selenite",

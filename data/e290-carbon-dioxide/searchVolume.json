@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 109080,
+  "totalSearchVolume": 530,
   "keywords": [
     {
-      "keyword": "Carbon dioxide",
-      "volume": 109000
+      "keyword": "food grade co2",
+      "volume": 450
     },
     {
       "keyword": "E290",
@@ -18,20 +18,23 @@
       "volume": 10
     },
     {
-      "keyword": "Gärungskohlensäure",
-      "volume": 0
-    },
-    {
-      "keyword": "Natürliche Quellkohlensäure",
-      "volume": 0
-    },
-    {
-      "keyword": "Quellkohlensäure",
-      "volume": 0
-    },
-    {
       "keyword": "Spring carbon dioxide",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "E290",
+      "Carbonic acid gas",
+      "Fermentation carbon dioxide",
+      "Spring carbon dioxide",
+      "food grade co2"
+    ],
+    "supplementary": [
+      "food grade co2"
+    ],
+    "excluded": [
+      "carbon dioxide"
+    ]
+  }
 }

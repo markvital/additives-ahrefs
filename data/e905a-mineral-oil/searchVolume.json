@@ -1,13 +1,18 @@
 {
-  "totalSearchVolume": 49000,
+  "totalSearchVolume": 0,
   "keywords": [
-    {
-      "keyword": "mineral oil",
-      "volume": 49000
-    },
     {
       "keyword": "E905A",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "E905A"
+    ],
+    "supplementary": [],
+    "excluded": [
+      "mineral oil"
+    ]
+  }
 }

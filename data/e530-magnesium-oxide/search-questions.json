@@ -1,27 +1,16 @@
 {
   "keywords": [
     "Magnesium oxide",
-    "E530",
-    "magnesia"
+    "E530"
   ],
   "country": "us",
-  "fetchedAt": "2025-10-09T03:23:54.239Z",
+  "fetchedAt": "2025-10-15T01:43:57.856Z",
   "questions": [
     {
-      "keyword": "what is milk of magnesia",
-      "volume": 3300,
-      "original_keyword": "magnesia",
-      "parent_topic": "milk of magnesia uses",
-      "intents": [
-        "informational",
-        "branded"
-      ]
-    },
-    {
       "keyword": "what is magnesium oxide good for",
-      "volume": 3000,
+      "volume": 3100,
       "original_keyword": "Magnesium oxide",
-      "parent_topic": "magnesium oxide",
+      "parent_topic": "magnesium oxide benefits",
       "intents": [
         "informational"
       ]
@@ -36,52 +25,12 @@
       ]
     },
     {
-      "keyword": "what is milk of magnesia used for",
-      "volume": 2300,
-      "original_keyword": "magnesia",
-      "parent_topic": "milk of magnesia",
-      "intents": [
-        "informational",
-        "branded"
-      ]
-    },
-    {
-      "keyword": "how long does milk of magnesia take to wear off",
-      "volume": 2200,
-      "original_keyword": "magnesia",
-      "parent_topic": "how long does milk of magnesia take to wear off",
-      "intents": [
-        "informational",
-        "branded"
-      ]
-    },
-    {
-      "keyword": "what does milk of magnesia do",
-      "volume": 2100,
-      "original_keyword": "magnesia",
-      "parent_topic": "milk of magnesia",
-      "intents": [
-        "informational",
-        "branded"
-      ]
-    },
-    {
       "keyword": "what is magnesium oxide 400 mg used for",
       "volume": 2100,
       "original_keyword": "Magnesium oxide",
       "parent_topic": "magnesium oxide",
       "intents": [
         "informational"
-      ]
-    },
-    {
-      "keyword": "how long does milk of magnesia take to work",
-      "volume": 1900,
-      "original_keyword": "magnesia",
-      "parent_topic": "how long does milk of magnesia take to work",
-      "intents": [
-        "informational",
-        "branded"
       ]
     },
     {
@@ -94,13 +43,57 @@
       ]
     },
     {
-      "keyword": "how does milk of magnesia work",
-      "volume": 1300,
-      "original_keyword": "magnesia",
-      "parent_topic": "how does milk of magnesia work",
+      "keyword": "is magnesium oxide good for you",
+      "volume": 900,
+      "original_keyword": "Magnesium oxide",
+      "parent_topic": "magnesium oxide benefits",
       "intents": [
-        "informational",
-        "branded"
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what does magnesium oxide do",
+      "volume": 900,
+      "original_keyword": "Magnesium oxide",
+      "parent_topic": "magnesium oxide benefits",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does magnesium oxide help you sleep",
+      "volume": 500,
+      "original_keyword": "Magnesium oxide",
+      "parent_topic": "magnesium for sleep",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "does magnesium oxide make you poop",
+      "volume": 450,
+      "original_keyword": "Magnesium oxide",
+      "parent_topic": "magnesium oxide benefits",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is magnesium oxide good",
+      "volume": 400,
+      "original_keyword": "Magnesium oxide",
+      "parent_topic": "magnesium oxide",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is magnesium oxide the same as magnesium glycinate",
+      "volume": 300,
+      "original_keyword": "Magnesium oxide",
+      "parent_topic": "magnesium oxide vs glycinate",
+      "intents": [
+        "informational"
       ]
     }
   ]

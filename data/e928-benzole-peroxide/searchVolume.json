@@ -1,10 +1,6 @@
 {
-  "totalSearchVolume": 133050,
+  "totalSearchVolume": 50,
   "keywords": [
-    {
-      "keyword": "benzoyl peroxide",
-      "volume": 133000
-    },
     {
       "keyword": "Benzole peroxide",
       "volume": 50
@@ -13,5 +9,15 @@
       "keyword": "E928",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Benzole peroxide",
+      "E928"
+    ],
+    "supplementary": [],
+    "excluded": [
+      "benzoyl peroxide"
+    ]
+  }
 }

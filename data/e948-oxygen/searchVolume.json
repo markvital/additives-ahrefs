@@ -1,5 +1,5 @@
 {
-  "totalSearchVolume": 106810,
+  "totalSearchVolume": 106710,
   "keywords": [
     {
       "keyword": "Oxygen",
@@ -7,11 +7,22 @@
     },
     {
       "keyword": "element 8",
-      "volume": 800
+      "volume": 700
     },
     {
       "keyword": "E948",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Oxygen",
+      "E948",
+      "element 8"
+    ],
+    "supplementary": [],
+    "excluded": [
+      "oxygen / element 8"
+    ]
+  }
 }

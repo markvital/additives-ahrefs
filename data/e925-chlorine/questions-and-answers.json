@@ -1,6 +1,31 @@
 {
-  "updatedAt": "2025-10-12T02:32:16.202Z",
+  "updatedAt": "2025-10-15T01:45:27.131Z",
   "answers": [
+    {
+      "q": "what element has 17 protons",
+      "a": "Chlorine (E925) has 17 protons; its atomic number is 17.",
+      "answeredAt": "2025-10-15T01:45:27.131Z"
+    },
+    {
+      "q": "what element has 17 electrons",
+      "a": "A neutral chlorine atom has 17 electrons, matching its atomic number of 17.",
+      "answeredAt": "2025-10-15T01:45:27.131Z"
+    },
+    {
+      "q": "which element has 17 protons",
+      "a": "Chlorine—the element with atomic number 17—has 17 protons.",
+      "answeredAt": "2025-10-15T01:45:27.131Z"
+    },
+    {
+      "q": "what element has 17 protons and 18 neutrons",
+      "a": "Chlorine‑35, an isotope of chlorine, has 17 protons and 18 neutrons and is its most abundant isotope.",
+      "answeredAt": "2025-10-15T01:45:27.131Z"
+    },
+    {
+      "q": "what is the most active element in group 17",
+      "a": "Fluorine is the most reactive halogen in Group 17; chlorine is also highly reactive but less so than fluorine.",
+      "answeredAt": "2025-10-15T01:45:27.131Z"
+    },
     {
       "q": "how many valence electrons does chlorine have",
       "a": "Seven; its outer shell is 3s2 3p5.",

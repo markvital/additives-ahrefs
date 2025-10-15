@@ -1,19 +1,34 @@
 {
-  "updatedAt": "2025-10-12T02:43:03.542Z",
+  "updatedAt": "2025-10-15T01:45:44.842Z",
   "answers": [
     {
-      "q": "what is milk of magnesia",
-      "a": "Milk of magnesia is a suspension of magnesium hydroxide (which forms when magnesium oxide reacts with water), commonly used as an antacid and osmotic laxative.",
-      "answeredAt": "2025-10-12T02:43:03.542Z"
-    },
-    {
       "q": "what is magnesium oxide good for",
-      "a": "In foods (E530) it prevents caking and helps regulate acidity, and it can provide magnesium for fortification or supplements; medicinally it also neutralizes stomach acid as an antacid.",
-      "answeredAt": "2025-10-12T02:43:03.542Z"
+      "a": "In foods, E530 is good for keeping powders free‑flowing (anti‑caking) and helping control acidity/alkalinity (pH); it may also serve as a source of magnesium in fortification.",
+      "answeredAt": "2025-10-15T01:45:44.842Z"
     },
     {
       "q": "what is magnesium oxide used for",
-      "a": "As a food additive (E530) it’s used mainly as an anti-caking agent and acidity regulator, and as an approved magnesium source in supplements or fortified foods. It is also used in OTC products as an antacid.",
+      "a": "As a food additive it’s used in products like table salt, spices, cocoa, and drink or baking mixes to prevent clumping and to adjust pH; it can also supply magnesium in some fortified foods.",
+      "answeredAt": "2025-10-15T01:45:44.842Z"
+    },
+    {
+      "q": "what is magnesium oxide 400 mg used for",
+      "a": "That tablet dose is a dietary supplement, not a food‑additive use; 400 mg MgO provides about 240 mg elemental magnesium and is used to address low magnesium or as an antacid/laxative, though it’s relatively poorly absorbed and can cause diarrhea at high doses.",
+      "answeredAt": "2025-10-15T01:45:44.842Z"
+    },
+    {
+      "q": "is magnesium oxide good for you",
+      "a": "At the small amounts used in foods, it’s considered safe (permitted in the EU as E530 and GRAS in the U.S.); as a supplement it can help correct deficiency but has lower bioavailability than some forms and high doses may upset the stomach or cause diarrhea.",
+      "answeredAt": "2025-10-15T01:45:44.842Z"
+    },
+    {
+      "q": "what does magnesium oxide do",
+      "a": "In foods it prevents caking and helps stabilize pH, and can contribute magnesium for fortification.",
+      "answeredAt": "2025-10-15T01:45:44.842Z"
+    },
+    {
+      "q": "what is milk of magnesia",
+      "a": "Milk of magnesia is a suspension of magnesium hydroxide (which forms when magnesium oxide reacts with water), commonly used as an antacid and osmotic laxative.",
       "answeredAt": "2025-10-12T02:43:03.542Z"
     },
     {

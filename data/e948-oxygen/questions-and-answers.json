@@ -1,30 +1,30 @@
 {
-  "updatedAt": "2025-10-12T02:42:51.725Z",
+  "updatedAt": "2025-10-15T01:45:51.466Z",
   "answers": [
     {
       "q": "what is a dangerously low oxygen level",
-      "a": "An oxygen saturation (SpO2) below 90% is generally considered dangerously low and warrants urgent evaluation; on arterial blood gas, a PaO2 below about 60 mmHg indicates hypoxemia.",
-      "answeredAt": "2025-10-12T02:42:51.725Z"
+      "a": "In air, an oxygen concentration below 19.5% by volume is considered oxygen-deficient and hazardous; in blood, an SpO2 below about 90% (or arterial PaO2 <60 mmHg) is dangerously low and needs urgent medical care.",
+      "answeredAt": "2025-10-15T01:45:51.466Z"
     },
     {
       "q": "how many valence electrons does oxygen have",
       "a": "Oxygen has six valence electrons.",
-      "answeredAt": "2025-10-12T02:42:51.725Z"
+      "answeredAt": "2025-10-15T01:45:51.466Z"
     },
     {
       "q": "how to increase blood oxygen level",
-      "a": "Move to fresh, well-ventilated air, sit upright, and practice slow deep breathing; avoid smoking and address underlying lung or heart conditions. If levels remain low, seek medical care—supplemental oxygen should only be used as prescribed.",
-      "answeredAt": "2025-10-12T02:42:51.725Z"
+      "a": "If your level is low or you have symptoms (e.g., shortness of breath, bluish lips), seek urgent medical care; improving ventilation, sitting upright, slow deep breathing, and treating underlying causes can help, while supplemental oxygen should only be used under medical supervision.",
+      "answeredAt": "2025-10-15T01:45:51.466Z"
+    },
+    {
+      "q": "how much oxygen is in the air",
+      "a": "About 21% of dry air by volume is oxygen (most of the rest is nitrogen).",
+      "answeredAt": "2025-10-15T01:45:51.466Z"
     },
     {
       "q": "how many electrons does oxygen have",
       "a": "A neutral oxygen atom has 8 electrons.",
-      "answeredAt": "2025-10-12T02:42:51.725Z"
-    },
-    {
-      "q": "how much oxygen is in the air",
-      "a": "Dry air is about 20.9% oxygen by volume (roughly 21%).",
-      "answeredAt": "2025-10-12T02:42:51.725Z"
+      "answeredAt": "2025-10-15T01:45:51.466Z"
     }
   ]
 }

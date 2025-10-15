@@ -1,98 +1,95 @@
 {
   "keywords": [
-    "Argon",
     "E938",
     "element 18"
   ],
   "country": "us",
-  "fetchedAt": "2025-10-09T03:16:34.037Z",
+  "fetchedAt": "2025-10-15T01:43:59.069Z",
   "questions": [
     {
-      "keyword": "how many valence electrons does argon have",
-      "volume": 1600,
-      "original_keyword": "Argon",
-      "parent_topic": "how many valence electrons does argon have",
+      "keyword": "what element has 18 electrons",
+      "volume": 150,
+      "original_keyword": "element 18",
+      "parent_topic": "krypton number of electrons",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is argon used for",
-      "volume": 1600,
-      "original_keyword": "Argon",
+      "keyword": "what element has 18 neutrons",
+      "volume": 150,
+      "original_keyword": "element 18",
+      "parent_topic": "chlorine atomic mass",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what element has 18 protons",
+      "volume": 150,
+      "original_keyword": "element 18",
       "parent_topic": "argon",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is argon",
-      "volume": 1500,
-      "original_keyword": "Argon",
+      "keyword": "what element has 17 protons and 18 neutrons",
+      "volume": 90,
+      "original_keyword": "element 18",
+      "parent_topic": "how many protons are there in any cl atom",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "which element has 18 electrons",
+      "volume": 60,
+      "original_keyword": "element 18",
+      "parent_topic": "which element has 18 electrons",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what element has 16 protons and 18 electrons",
+      "volume": 50,
+      "original_keyword": "element 18",
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what element has 18 protons and 22 neutrons",
+      "volume": 50,
+      "original_keyword": "element 18",
+      "parent_topic": "what isotope has 18 protons and 22 neutrons?",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "name the element in group 18 period 3",
+      "volume": 40,
+      "original_keyword": "element 18",
       "parent_topic": "argon",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "how many neutrons does argon have",
-      "volume": 800,
-      "original_keyword": "Argon",
-      "parent_topic": "how many neutrons does argon have",
-      "intents": [
-        "informational"
-      ]
+      "keyword": "what element has 15 protons and 18 electrons",
+      "volume": 30,
+      "original_keyword": "element 18",
+      "parent_topic": "",
+      "intents": []
     },
     {
-      "keyword": "is argon flammable",
-      "volume": 800,
-      "original_keyword": "Argon",
-      "parent_topic": "is argon flammable",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is argon a noble gas",
-      "volume": 700,
-      "original_keyword": "Argon",
-      "parent_topic": "argon",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is argon a gas",
-      "volume": 450,
-      "original_keyword": "Argon",
-      "parent_topic": "argon",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what is argon gas",
-      "volume": 450,
-      "original_keyword": "Argon",
-      "parent_topic": "argon",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "how many electrons does argon have",
-      "volume": 400,
-      "original_keyword": "Argon",
-      "parent_topic": "argon",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "how many protons does argon have",
-      "volume": 400,
-      "original_keyword": "Argon",
-      "parent_topic": "argon element",
+      "keyword": "what element has 16 protons 16 neutrons and 18 electrons",
+      "volume": 30,
+      "original_keyword": "element 18",
+      "parent_topic": "",
       "intents": [
         "informational"
       ]

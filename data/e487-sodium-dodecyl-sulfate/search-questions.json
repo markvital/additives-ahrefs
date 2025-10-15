@@ -3,35 +3,16 @@
     "sodium dodecyl sulfate",
     "E487",
     "sodium laurilsulfate",
-    "sodium lauryl sulfate",
     "NaDS"
   ],
   "country": "us",
-  "fetchedAt": "2025-10-09T03:29:28.691Z",
+  "fetchedAt": "2025-10-15T01:44:00.168Z",
   "questions": [
-    {
-      "keyword": "what is sodium lauryl sulfate",
-      "volume": 1000,
-      "original_keyword": "sodium lauryl sulfate",
-      "parent_topic": "sodium lauryl sulfate",
-      "intents": [
-        "informational"
-      ]
-    },
     {
       "keyword": "what are nads",
       "volume": 700,
       "original_keyword": "NaDS",
       "parent_topic": "nad supplement",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is sodium lauryl sulfate bad",
-      "volume": 600,
-      "original_keyword": "sodium lauryl sulfate",
-      "parent_topic": "is sodium lauryl sulfate bad",
       "intents": [
         "informational"
       ]
@@ -46,57 +27,63 @@
       ]
     },
     {
-      "keyword": "does sensodyne have sodium lauryl sulfate",
-      "volume": 250,
-      "original_keyword": "sodium lauryl sulfate",
-      "parent_topic": "how does sensodyne work",
-      "intents": [
-        "informational",
-        "branded"
-      ]
+      "keyword": "what are nads?",
+      "volume": 50,
+      "original_keyword": "NaDS",
+      "parent_topic": "",
+      "intents": []
     },
     {
-      "keyword": "is sodium lauryl sulfate bad for hair",
-      "volume": 250,
-      "original_keyword": "sodium lauryl sulfate",
-      "parent_topic": "sodium laureth sulfate bad for hair",
+      "keyword": "what is sodium dodecyl sulfate",
+      "volume": 50,
+      "original_keyword": "sodium dodecyl sulfate",
+      "parent_topic": "sodium lauryl sulfate",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what toothpaste does not have sodium lauryl sulfate",
-      "volume": 200,
-      "original_keyword": "sodium lauryl sulfate",
-      "parent_topic": "sls free toothpaste",
-      "intents": [
-        "informational",
-        "commercial"
-      ]
+      "keyword": "what are nads used for",
+      "volume": 40,
+      "original_keyword": "NaDS",
+      "parent_topic": "",
+      "intents": []
     },
     {
-      "keyword": "does sodium lauryl sulfate cause hair loss",
-      "volume": 150,
-      "original_keyword": "sodium lauryl sulfate",
-      "parent_topic": "does sulfate cause hair loss",
+      "keyword": "what do nads do",
+      "volume": 40,
+      "original_keyword": "NaDS",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what are nads good for",
+      "volume": 30,
+      "original_keyword": "NaDS",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what does nads mean",
+      "volume": 30,
+      "original_keyword": "NaDS",
+      "parent_topic": "",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "does sodium lauryl sulfate cause canker sores",
-      "volume": 100,
-      "original_keyword": "sodium lauryl sulfate",
-      "parent_topic": "best toothpaste for canker sores",
-      "intents": [
-        "informational"
-      ]
+      "keyword": "what is nads supplement",
+      "volume": 30,
+      "original_keyword": "NaDS",
+      "parent_topic": "",
+      "intents": []
     },
     {
-      "keyword": "is sodium lauryl sulfate safe",
-      "volume": 100,
-      "original_keyword": "sodium lauryl sulfate",
-      "parent_topic": "is sodium lauryl sulfate bad",
+      "keyword": "is sodium dodecyl sulfate toxic",
+      "volume": 20,
+      "original_keyword": "sodium dodecyl sulfate",
+      "parent_topic": "is sodium dodecyl sulfate toxic",
       "intents": [
         "informational"
       ]

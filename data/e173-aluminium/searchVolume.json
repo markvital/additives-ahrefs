@@ -1,21 +1,24 @@
 {
-  "totalSearchVolume": 210260,
+  "totalSearchVolume": 178010,
   "keywords": [
     {
       "keyword": "Aluminum",
       "volume": 178000
     },
     {
-      "keyword": "Aluminium",
-      "volume": 32000
-    },
-    {
-      "keyword": "element 13",
-      "volume": 250
-    },
-    {
       "keyword": "E173",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "E173",
+      "Aluminum"
+    ],
+    "supplementary": [],
+    "excluded": [
+      "Aluminium",
+      "element 13"
+    ]
+  }
 }

@@ -1,13 +1,18 @@
 {
-  "totalSearchVolume": 41000,
+  "totalSearchVolume": 0,
   "keywords": [
-    {
-      "keyword": "Butane",
-      "volume": 41000
-    },
     {
       "keyword": "E943A",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "E943A"
+    ],
+    "supplementary": [],
+    "excluded": [
+      "butane"
+    ]
+  }
 }

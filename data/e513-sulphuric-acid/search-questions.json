@@ -7,13 +7,13 @@
     "H2SO4"
   ],
   "country": "us",
-  "fetchedAt": "2025-10-09T03:30:00.490Z",
+  "fetchedAt": "2025-10-15T01:43:57.209Z",
   "questions": [
     {
       "keyword": "is h2so4 a strong acid",
       "volume": 1800,
       "original_keyword": "H2SO4",
-      "parent_topic": "sulfuric acid",
+      "parent_topic": "is h2so4 an acid or base",
       "intents": [
         "informational"
       ]
@@ -31,7 +31,7 @@
       "keyword": "is h2so4 an acid or base",
       "volume": 800,
       "original_keyword": "H2SO4",
-      "parent_topic": "h2so4 acid or base",
+      "parent_topic": "is h2so4 a strong acid",
       "intents": [
         "informational"
       ]
@@ -40,7 +40,7 @@
       "keyword": "what is sulfuric acid",
       "volume": 800,
       "original_keyword": "sulfuric acid",
-      "parent_topic": "sulfuric acid",
+      "parent_topic": "h2so4",
       "intents": [
         "informational"
       ]
@@ -49,7 +49,7 @@
       "keyword": "what is h2so4",
       "volume": 700,
       "original_keyword": "H2SO4",
-      "parent_topic": "sulfuric acid",
+      "parent_topic": "h2so4",
       "intents": [
         "informational"
       ]
@@ -83,19 +83,21 @@
       ]
     },
     {
-      "keyword": "how to make sulfuric acid",
+      "keyword": "can you buy sulfuric acid",
       "volume": 200,
       "original_keyword": "sulfuric acid",
       "parent_topic": "sulfuric acid",
       "intents": [
-        "informational"
+        "informational",
+        "commercial",
+        "transactional"
       ]
     },
     {
-      "keyword": "is sulfuric acid an element compound or mixture",
+      "keyword": "how to make sulfuric acid",
       "volume": 200,
       "original_keyword": "sulfuric acid",
-      "parent_topic": "is sulfuric acid an element compound or mixture",
+      "parent_topic": "sulfuric acid",
       "intents": [
         "informational"
       ]

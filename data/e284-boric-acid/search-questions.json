@@ -1,102 +1,89 @@
 {
   "keywords": [
-    "Boric acid",
     "E284",
     "Boracic acid",
     "Orthoboric acid"
   ],
   "country": "us",
-  "fetchedAt": "2025-10-09T03:20:39.937Z",
+  "fetchedAt": "2025-10-15T01:43:56.222Z",
   "questions": [
     {
-      "keyword": "is boric acid safe for vaginas",
-      "volume": 4700,
-      "original_keyword": "Boric acid",
-      "parent_topic": "is boric acid safe for vaginas",
+      "keyword": "is orthoboric acid the same as boric acid",
+      "volume": 20,
+      "original_keyword": "Orthoboric acid",
+      "parent_topic": "borax vs boric acid",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is boric acid",
-      "volume": 4300,
-      "original_keyword": "Boric acid",
+      "keyword": "what is orthoboric acid",
+      "volume": 20,
+      "original_keyword": "Orthoboric acid",
       "parent_topic": "boric acid",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "does boric acid help bv",
-      "volume": 4000,
-      "original_keyword": "Boric acid",
-      "parent_topic": "is boric acid safe for vaginas",
+      "keyword": "boracic acid where to buy",
+      "volume": 0,
+      "original_keyword": "Boracic acid",
+      "parent_topic": "",
       "intents": [
-        "informational"
+        "informational",
+        "commercial",
+        "transactional"
       ]
     },
     {
-      "keyword": "what does boric acid do",
-      "volume": 3000,
-      "original_keyword": "Boric acid",
-      "parent_topic": "what does boric acid do",
-      "intents": [
-        "informational"
-      ]
+      "keyword": "how does orthoboric acid poison work on insects",
+      "volume": 0,
+      "original_keyword": "Orthoboric acid",
+      "parent_topic": "",
+      "intents": []
     },
     {
-      "keyword": "what is boric acid used for",
-      "volume": 2500,
-      "original_keyword": "Boric acid",
-      "parent_topic": "boric acid suppositories",
-      "intents": [
-        "informational"
-      ]
+      "keyword": "how does orthoboric acid work",
+      "volume": 0,
+      "original_keyword": "Orthoboric acid",
+      "parent_topic": "",
+      "intents": []
     },
     {
-      "keyword": "does boric acid make you tighter",
-      "volume": 2400,
-      "original_keyword": "Boric acid",
-      "parent_topic": "does boric acid make you tighter",
-      "intents": [
-        "informational"
-      ]
+      "keyword": "how long does orthoboric acid kill ants",
+      "volume": 0,
+      "original_keyword": "Orthoboric acid",
+      "parent_topic": "",
+      "intents": []
     },
     {
-      "keyword": "how to use boric acid suppositories",
-      "volume": 2000,
-      "original_keyword": "Boric acid",
-      "parent_topic": "boric acid suppositories",
-      "intents": [
-        "informational"
-      ]
+      "keyword": "how much orthoboric acid must be ingested to be harmful?",
+      "volume": 0,
+      "original_keyword": "Orthoboric acid",
+      "parent_topic": "",
+      "intents": []
     },
     {
-      "keyword": "is boric acid safe for pets",
-      "volume": 2000,
-      "original_keyword": "Boric acid",
-      "parent_topic": "is boric acid safe for pets",
-      "intents": [
-        "informational"
-      ]
+      "keyword": "how safe is orthoboric acid",
+      "volume": 0,
+      "original_keyword": "Orthoboric acid",
+      "parent_topic": "",
+      "intents": []
     },
     {
-      "keyword": "does boric acid kill sperm",
-      "volume": 1900,
-      "original_keyword": "Boric acid",
-      "parent_topic": "does boric acid kill sperm",
-      "intents": [
-        "informational"
-      ]
+      "keyword": "how safe is orthoboric acid?",
+      "volume": 0,
+      "original_keyword": "Orthoboric acid",
+      "parent_topic": "",
+      "intents": []
     },
     {
-      "keyword": "can boric acid cure yeast infection",
-      "volume": 1700,
-      "original_keyword": "Boric acid",
-      "parent_topic": "boric acid for yeast infection",
-      "intents": [
-        "informational"
-      ]
+      "keyword": "how to get rid of ants orthoboric acid",
+      "volume": 0,
+      "original_keyword": "Orthoboric acid",
+      "parent_topic": "",
+      "intents": []
     }
   ]
 }

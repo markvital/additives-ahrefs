@@ -1,100 +1,65 @@
 {
   "keywords": [
-    "Magnesium citrate",
     "E345"
   ],
   "country": "us",
-  "fetchedAt": "2025-10-09T02:42:15.477Z",
+  "fetchedAt": "2025-10-15T01:43:59.761Z",
   "questions": [
     {
-      "keyword": "what is magnesium citrate good for",
-      "volume": 6900,
-      "original_keyword": "Magnesium citrate",
-      "parent_topic": "magnesium citrate benefits",
-      "intents": [
-        "informational"
-      ]
+      "keyword": "how to make sony walkman nwz-e345 recognize album from copied files",
+      "volume": 0,
+      "original_keyword": "E345",
+      "parent_topic": "",
+      "intents": []
     },
     {
-      "keyword": "is it safe to take magnesium citrate daily",
-      "volume": 4700,
-      "original_keyword": "Magnesium citrate",
-      "parent_topic": "magnesium citrate",
-      "intents": [
-        "informational"
-      ]
+      "keyword": "how to put music on sony walkman nwz-e345",
+      "volume": 0,
+      "original_keyword": "E345",
+      "parent_topic": "",
+      "intents": []
     },
     {
-      "keyword": "what does magnesium citrate do",
-      "volume": 4600,
-      "original_keyword": "Magnesium citrate",
-      "parent_topic": "magnesium citrate",
-      "intents": [
-        "informational"
-      ]
+      "keyword": "how to reset nwz e345",
+      "volume": 0,
+      "original_keyword": "E345",
+      "parent_topic": "",
+      "intents": []
     },
     {
-      "keyword": "how long does magnesium citrate take to wear off",
-      "volume": 4500,
-      "original_keyword": "Magnesium citrate",
-      "parent_topic": "how long will i poop after taking magnesium citrate",
-      "intents": [
-        "informational"
-      ]
+      "keyword": "how to reset toshiba satelite e345 to factory",
+      "volume": 0,
+      "original_keyword": "E345",
+      "parent_topic": "",
+      "intents": []
     },
     {
-      "keyword": "how long will i poop after taking magnesium citrate",
-      "volume": 4200,
-      "original_keyword": "Magnesium citrate",
-      "parent_topic": "magnesium citrate",
-      "intents": [
-        "informational"
-      ]
+      "keyword": "how to stop windows slow start toshiba satelite e345 to factory",
+      "volume": 0,
+      "original_keyword": "E345",
+      "parent_topic": "",
+      "intents": []
     },
     {
-      "keyword": "how much magnesium citrate should i take",
-      "volume": 3800,
-      "original_keyword": "Magnesium citrate",
-      "parent_topic": "how much magnesium citrate should i take",
-      "intents": [
-        "informational"
-      ]
+      "keyword": "what armband will fit a sony walkman nwz-e345",
+      "volume": 0,
+      "original_keyword": "E345",
+      "parent_topic": "",
+      "intents": []
     },
     {
-      "keyword": "what is magnesium citrate",
-      "volume": 3600,
-      "original_keyword": "Magnesium citrate",
-      "parent_topic": "magnesium citrate",
-      "intents": [
-        "informational"
-      ]
+      "keyword": "what brand is e345",
+      "volume": 0,
+      "original_keyword": "E345",
+      "parent_topic": "",
+      "intents": []
     },
     {
-      "keyword": "how long does it take for magnesium citrate to work",
-      "volume": 3500,
-      "original_keyword": "Magnesium citrate",
-      "parent_topic": "magnesium citrate",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "how long does magnesium citrate take to work",
-      "volume": 3300,
-      "original_keyword": "Magnesium citrate",
-      "parent_topic": "how long will i poop after taking magnesium citrate",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "how fast does magnesium citrate work",
-      "volume": 3000,
-      "original_keyword": "Magnesium citrate",
-      "parent_topic": "how long will i poop after taking magnesium citrate",
-      "intents": [
-        "informational"
-      ]
+      "keyword": "what kind of battery for nwz e345",
+      "volume": 0,
+      "original_keyword": "E345",
+      "parent_topic": "",
+      "intents": []
     }
   ]
 }

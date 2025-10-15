@@ -1,6 +1,31 @@
 {
-  "updatedAt": "2025-10-12T02:35:13.785Z",
+  "updatedAt": "2025-10-15T01:45:02.745Z",
   "answers": [
+    {
+      "q": "what element has 18 electrons",
+      "a": "Argon (E938); a neutral argon atom has 18 electrons because its atomic number is 18.",
+      "answeredAt": "2025-10-15T01:45:02.745Z"
+    },
+    {
+      "q": "what element has 18 neutrons",
+      "a": "The argon isotope argon‑36 (36Ar) has 18 neutrons (36 − 18 = 18).",
+      "answeredAt": "2025-10-15T01:45:02.745Z"
+    },
+    {
+      "q": "what element has 18 protons",
+      "a": "Argon—its atomic number is 18, meaning it has 18 protons.",
+      "answeredAt": "2025-10-15T01:45:02.745Z"
+    },
+    {
+      "q": "what element has 17 protons and 18 neutrons",
+      "a": "Chlorine‑35; that nucleus (17 protons, 18 neutrons) belongs to chlorine, not argon.",
+      "answeredAt": "2025-10-15T01:45:02.745Z"
+    },
+    {
+      "q": "which element has 18 electrons",
+      "a": "Argon (E938); a neutral argon atom carries 18 electrons.",
+      "answeredAt": "2025-10-15T01:45:02.745Z"
+    },
     {
       "q": "how many valence electrons does argon have",
       "a": "Eight; its outer shell is full (3s2 3p6).",

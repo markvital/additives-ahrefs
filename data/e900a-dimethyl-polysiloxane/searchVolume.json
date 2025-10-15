@@ -1,10 +1,6 @@
 {
-  "totalSearchVolume": 39070,
+  "totalSearchVolume": 9020,
   "keywords": [
-    {
-      "keyword": "dimethicone",
-      "volume": 30000
-    },
     {
       "keyword": "Silicone oil",
       "volume": 3500
@@ -19,7 +15,7 @@
     },
     {
       "keyword": "Dimethyl polysiloxane",
-      "volume": 200
+      "volume": 150
     },
     {
       "keyword": "Silicone fluid",
@@ -33,5 +29,20 @@
       "keyword": "E900A",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Dimethyl polysiloxane",
+      "E900A",
+      "Polydimethyl siloxane",
+      "Silicone fluid",
+      "Silicone oil",
+      "Polydimethylsiloxane",
+      "dimethylpolysiloxane"
+    ],
+    "supplementary": [],
+    "excluded": [
+      "dimethicone"
+    ]
+  }
 }

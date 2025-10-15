@@ -1,101 +1,94 @@
 {
   "keywords": [
-    "Chlorine",
     "E925",
     "element 17"
   ],
   "country": "us",
-  "fetchedAt": "2025-10-09T03:20:50.514Z",
+  "fetchedAt": "2025-10-15T01:43:58.278Z",
   "questions": [
     {
-      "keyword": "how many valence electrons does chlorine have",
-      "volume": 5900,
-      "original_keyword": "Chlorine",
-      "parent_topic": "cl valence electrons",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is chlorine a metal",
-      "volume": 3900,
-      "original_keyword": "Chlorine",
-      "parent_topic": "chlorine",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "how long does chlorine rash last",
-      "volume": 1900,
-      "original_keyword": "Chlorine",
-      "parent_topic": "how long does chlorine rash last",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what is chlorine",
-      "volume": 1800,
-      "original_keyword": "Chlorine",
-      "parent_topic": "chlorine",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "does chlorine kill lice",
-      "volume": 1500,
-      "original_keyword": "Chlorine",
-      "parent_topic": "does pool chlorine kill lice",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "how many electrons does chlorine have",
-      "volume": 1500,
-      "original_keyword": "Chlorine",
+      "keyword": "what element has 17 protons",
+      "volume": 200,
+      "original_keyword": "element 17",
       "parent_topic": "how many protons are there in any cl atom",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "how many neutrons does chlorine have",
-      "volume": 1500,
-      "original_keyword": "Chlorine",
-      "parent_topic": "ci element",
+      "keyword": "what element has 17 electrons",
+      "volume": 150,
+      "original_keyword": "element 17",
+      "parent_topic": "chlorine",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "does boiling water remove chlorine",
-      "volume": 1400,
-      "original_keyword": "Chlorine",
-      "parent_topic": "does boiling water remove chlorine",
+      "keyword": "which element has 17 protons",
+      "volume": 100,
+      "original_keyword": "element 17",
+      "parent_topic": "how many protons does chlorine have",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "does chlorine help acne",
-      "volume": 1400,
-      "original_keyword": "Chlorine",
-      "parent_topic": "does chlorine help acne",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "how many protons does chlorine have",
-      "volume": 1300,
-      "original_keyword": "Chlorine",
+      "keyword": "what element has 17 protons and 18 neutrons",
+      "volume": 90,
+      "original_keyword": "element 17",
       "parent_topic": "how many protons are there in any cl atom",
       "intents": [
         "informational"
       ]
+    },
+    {
+      "keyword": "what is the most active element in group 17",
+      "volume": 40,
+      "original_keyword": "element 17",
+      "parent_topic": "the most active element in group 17 is",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "which element has 17 electrons",
+      "volume": 40,
+      "original_keyword": "element 17",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what element has 17 protons and 18 electrons",
+      "volume": 30,
+      "original_keyword": "element 17",
+      "parent_topic": "what element has 17 protons and 18 neutrons",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what element has the atomic number 17",
+      "volume": 30,
+      "original_keyword": "element 17",
+      "parent_topic": "",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what element is in group 17 period 2",
+      "volume": 30,
+      "original_keyword": "element 17",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what neutral element has 17 electrons",
+      "volume": 30,
+      "original_keyword": "element 17",
+      "parent_topic": "",
+      "intents": []
     }
   ]
 }

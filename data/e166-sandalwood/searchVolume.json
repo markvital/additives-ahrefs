@@ -1,13 +1,18 @@
 {
-  "totalSearchVolume": 24010,
+  "totalSearchVolume": 10,
   "keywords": [
-    {
-      "keyword": "Sandalwood",
-      "volume": 24000
-    },
     {
       "keyword": "E166",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "E166"
+    ],
+    "supplementary": [],
+    "excluded": [
+      "sandalwood"
+    ]
+  }
 }

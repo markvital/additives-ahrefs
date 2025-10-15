@@ -1,101 +1,52 @@
 {
   "keywords": [
     "Benzole peroxide",
-    "E928",
-    "benzoyl peroxide"
+    "E928"
   ],
   "country": "us",
-  "fetchedAt": "2025-10-09T03:16:34.186Z",
+  "fetchedAt": "2025-10-15T01:43:55.654Z",
   "questions": [
     {
-      "keyword": "what does benzoyl peroxide do",
-      "volume": 2400,
-      "original_keyword": "benzoyl peroxide",
-      "parent_topic": "benzoyl peroxide",
-      "intents": [
-        "informational"
-      ]
+      "keyword": "how does benzole peroxide reduce acne",
+      "volume": 0,
+      "original_keyword": "Benzole peroxide",
+      "parent_topic": "",
+      "intents": []
     },
     {
-      "keyword": "does benzoyl peroxide bleach skin",
-      "volume": 1600,
-      "original_keyword": "benzoyl peroxide",
-      "parent_topic": "does benzoyl peroxide bleach skin",
-      "intents": [
-        "informational"
-      ]
+      "keyword": "how does benzole peroxide work?",
+      "volume": 0,
+      "original_keyword": "Benzole peroxide",
+      "parent_topic": "",
+      "intents": []
     },
     {
-      "keyword": "what is benzoyl peroxide",
-      "volume": 1600,
-      "original_keyword": "benzoyl peroxide",
-      "parent_topic": "benzoyl peroxide",
-      "intents": [
-        "informational"
-      ]
+      "keyword": "how to prevent bleached eyebrows benzole peroxide",
+      "volume": 0,
+      "original_keyword": "Benzole peroxide",
+      "parent_topic": "",
+      "intents": []
     },
     {
-      "keyword": "does benzoyl peroxide cause purging",
-      "volume": 1400,
-      "original_keyword": "benzoyl peroxide",
-      "parent_topic": "how long does skin purging last",
-      "intents": [
-        "informational"
-      ]
+      "keyword": "how to use benzole peroxide",
+      "volume": 0,
+      "original_keyword": "Benzole peroxide",
+      "parent_topic": "",
+      "intents": []
     },
     {
-      "keyword": "how benzoyl peroxide works",
-      "volume": 1300,
-      "original_keyword": "benzoyl peroxide",
-      "parent_topic": "benzoyl peroxide",
-      "intents": [
-        "informational"
-      ]
+      "keyword": "what store sells benzole peroxide shampoo",
+      "volume": 0,
+      "original_keyword": "Benzole peroxide",
+      "parent_topic": "",
+      "intents": []
     },
     {
-      "keyword": "is benzoyl peroxide safe",
-      "volume": 1300,
-      "original_keyword": "benzoyl peroxide",
-      "parent_topic": "is benzoyl peroxide safe",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "how does benzoyl peroxide work",
-      "volume": 1000,
-      "original_keyword": "benzoyl peroxide",
-      "parent_topic": "how long does benzoyl peroxide take to work",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "can you use benzoyl peroxide with retinol",
-      "volume": 700,
-      "original_keyword": "benzoyl peroxide",
-      "parent_topic": "can you use benzoyl peroxide with retinol",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is benzoyl peroxide good for acne",
-      "volume": 700,
-      "original_keyword": "benzoyl peroxide",
-      "parent_topic": "benzoyl peroxide or salicylic acid",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "can benzoyl peroxide cause acne",
-      "volume": 600,
-      "original_keyword": "benzoyl peroxide",
-      "parent_topic": "benzoyl peroxide",
-      "intents": [
-        "informational"
-      ]
+      "keyword": "when did benzole peroxide become avaiable by prescription?",
+      "volume": 0,
+      "original_keyword": "Benzole peroxide",
+      "parent_topic": "",
+      "intents": []
     }
   ]
 }

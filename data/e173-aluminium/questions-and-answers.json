@@ -1,30 +1,30 @@
 {
-  "updatedAt": "2025-10-12T02:39:45.093Z",
+  "updatedAt": "2025-10-15T01:45:02.712Z",
   "answers": [
     {
       "q": "can you put aluminum foil in an air fryer",
-      "a": "Yes—most air fryers allow aluminum foil if used properly: place it only in the basket, don’t cover the entire surface or block vents, and weigh it down so it can’t blow into the heater. Avoid acidic/salty foods on foil (they increase leaching) and follow your model’s instructions.",
-      "answeredAt": "2025-10-12T02:39:45.093Z"
+      "a": "Usually yes—if your model’s manual allows it; place foil only in the basket, don’t block airflow holes, keep it away from the heating element, weigh it down with food, and avoid acidic foods that can react with aluminum.",
+      "answeredAt": "2025-10-15T01:45:02.712Z"
     },
     {
       "q": "how to cook bacon in the oven with aluminum foil",
-      "a": "Line a rimmed sheet pan with foil, lay bacon in a single layer, and bake at about 400°F/200°C for 15–20 minutes until crisp. For extra crispness use a rack over the foil; pour off the rendered fat and lift off the foil for easy cleanup.",
-      "answeredAt": "2025-10-12T02:39:45.093Z"
+      "a": "Heat the oven to about 400°F (200°C), line a rimmed baking sheet with foil, lay bacon in a single layer (on a rack if you want it less greasy), bake 15–20 minutes to desired crispness, then drain and discard or save the rendered fat; the foil makes cleanup easy.",
+      "answeredAt": "2025-10-15T01:45:02.712Z"
     },
     {
       "q": "does aluminum rust",
-      "a": "No—rust is iron oxide; aluminum doesn’t rust but instead forms a thin aluminum oxide layer that protects it. In salty or caustic conditions it can still corrode or pit.",
-      "answeredAt": "2025-10-12T02:39:45.093Z"
+      "a": "No—rust is iron oxide; aluminum instead forms a thin, protective aluminum oxide layer, though it can still corrode (e.g., pitting) in salty or acidic conditions.",
+      "answeredAt": "2025-10-15T01:45:02.712Z"
     },
     {
       "q": "is aluminum magnetic",
-      "a": "No—aluminum isn’t ferromagnetic, so a fridge magnet won’t stick to it. It’s only weakly paramagnetic and may show subtle effects in strong changing magnetic fields.",
-      "answeredAt": "2025-10-12T02:39:45.093Z"
+      "a": "No, aluminum isn’t magnetic in everyday use; it’s paramagnetic and won’t stick to a magnet, though strong magnetic fields can induce weak effects via eddy currents.",
+      "answeredAt": "2025-10-15T01:45:02.712Z"
     },
     {
       "q": "is aluminum a metal",
-      "a": "Yes—aluminum is a lightweight, silvery metal (element 13) used in packaging and cookware; as E173, metallic aluminum is also used as a decorative food color in some regions.",
-      "answeredAt": "2025-10-12T02:39:45.093Z"
+      "a": "Yes—aluminum is a lightweight, ductile metal and good conductor of heat and electricity; in foods it appears as foil and cookware, and (as E173) as a decorative surface colorant in some regions.",
+      "answeredAt": "2025-10-15T01:45:02.712Z"
     }
   ]
 }

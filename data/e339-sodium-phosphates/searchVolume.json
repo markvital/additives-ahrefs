@@ -1,10 +1,6 @@
 {
-  "totalSearchVolume": 26450,
+  "totalSearchVolume": 450,
   "keywords": [
-    {
-      "keyword": "sodium phosphate",
-      "volume": 26000
-    },
     {
       "keyword": "Sodium phosphates",
       "volume": 400
@@ -13,5 +9,15 @@
       "keyword": "E339",
       "volume": 50
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sodium phosphates",
+      "E339"
+    ],
+    "supplementary": [],
+    "excluded": [
+      "sodium phosphate"
+    ]
+  }
 }

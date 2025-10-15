@@ -1,101 +1,84 @@
 {
   "keywords": [
     "Sodium phosphates",
-    "E339",
-    "sodium phosphate"
+    "E339"
   ],
   "country": "us",
-  "fetchedAt": "2025-10-09T03:29:32.684Z",
+  "fetchedAt": "2025-10-15T01:43:59.309Z",
   "questions": [
     {
-      "keyword": "what is sodium phosphate",
-      "volume": 2100,
-      "original_keyword": "sodium phosphate",
+      "keyword": "what are sodium phosphates",
+      "volume": 40,
+      "original_keyword": "Sodium phosphates",
       "parent_topic": "sodium phosphate in food",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "is sodium phosphate bad for you",
-      "volume": 900,
-      "original_keyword": "sodium phosphate",
+      "keyword": "what is sodium phosphates",
+      "volume": 20,
+      "original_keyword": "Sodium phosphates",
       "parent_topic": "sodium phosphate in food",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is sodium aluminum phosphate",
-      "volume": 500,
-      "original_keyword": "sodium phosphate",
-      "parent_topic": "sodium aluminum phosphate",
-      "intents": [
-        "informational"
-      ]
+      "keyword": "how are sodium phosphates made",
+      "volume": 0,
+      "original_keyword": "Sodium phosphates",
+      "parent_topic": "",
+      "intents": []
     },
     {
-      "keyword": "is sodium aluminum phosphate bad for you",
-      "volume": 150,
-      "original_keyword": "sodium phosphate",
-      "parent_topic": "sodium aluminum phosphate",
-      "intents": [
-        "informational"
-      ]
+      "keyword": "how do saline enema sodium phosphates work",
+      "volume": 0,
+      "original_keyword": "Sodium phosphates",
+      "parent_topic": "",
+      "intents": []
     },
     {
-      "keyword": "is sodium phosphate a nitrate",
-      "volume": 150,
-      "original_keyword": "sodium phosphate",
-      "parent_topic": "sodium phosphate in food",
-      "intents": [
-        "informational"
-      ]
+      "keyword": "how does sodium aluminate react with phosphates",
+      "volume": 0,
+      "original_keyword": "Sodium phosphates",
+      "parent_topic": "",
+      "intents": []
     },
     {
-      "keyword": "what is sodium phosphate in food",
-      "volume": 150,
-      "original_keyword": "sodium phosphate",
-      "parent_topic": "sodium phosphate in food",
-      "intents": [
-        "informational"
-      ]
+      "keyword": "how many meq of sodium does sodium phosphates have",
+      "volume": 0,
+      "original_keyword": "Sodium phosphates",
+      "parent_topic": "",
+      "intents": []
     },
     {
-      "keyword": "is sodium phosphate gluten free",
-      "volume": 90,
-      "original_keyword": "sodium phosphate",
-      "parent_topic": "is sodium phosphate gluten free",
-      "intents": [
-        "informational"
-      ]
+      "keyword": "how many sodium phosphates are there",
+      "volume": 0,
+      "original_keyword": "Sodium phosphates",
+      "parent_topic": "",
+      "intents": []
     },
     {
-      "keyword": "what does sodium aluminum phosphate do to your body",
-      "volume": 80,
-      "original_keyword": "sodium phosphate",
-      "parent_topic": "sodium aluminum phosphate",
-      "intents": [
-        "informational"
-      ]
+      "keyword": "how to avoid sodium phosphates in meat",
+      "volume": 0,
+      "original_keyword": "Sodium phosphates",
+      "parent_topic": "",
+      "intents": []
     },
     {
-      "keyword": "is sodium phosphate in food bad for you",
-      "volume": 70,
-      "original_keyword": "sodium phosphate",
-      "parent_topic": "sodium phosphate in food",
-      "intents": [
-        "informational"
-      ]
+      "keyword": "how to detox from sodium phosphates",
+      "volume": 0,
+      "original_keyword": "Sodium phosphates",
+      "parent_topic": "",
+      "intents": []
     },
     {
-      "keyword": "what is sodium phosphate used for",
-      "volume": 70,
-      "original_keyword": "sodium phosphate",
-      "parent_topic": "sodium phosphate",
-      "intents": [
-        "informational"
-      ]
+      "keyword": "how to detox sodium phosphates",
+      "volume": 0,
+      "original_keyword": "Sodium phosphates",
+      "parent_topic": "",
+      "intents": []
     }
   ]
 }

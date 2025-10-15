@@ -1,10 +1,6 @@
 {
-  "totalSearchVolume": 138550,
+  "totalSearchVolume": 550,
   "keywords": [
-    {
-      "keyword": "Boric acid",
-      "volume": 138000
-    },
     {
       "keyword": "Orthoboric acid",
       "volume": 500
@@ -17,5 +13,16 @@
       "keyword": "E284",
       "volume": 20
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "E284",
+      "Boracic acid",
+      "Orthoboric acid"
+    ],
+    "supplementary": [],
+    "excluded": [
+      "boric acid"
+    ]
+  }
 }

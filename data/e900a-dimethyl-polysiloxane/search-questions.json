@@ -6,98 +6,98 @@
     "Silicone fluid",
     "Silicone oil",
     "Polydimethylsiloxane",
-    "dimethicone",
     "dimethylpolysiloxane"
   ],
   "country": "us",
-  "fetchedAt": "2025-10-09T03:23:22.245Z",
+  "fetchedAt": "2025-10-15T01:44:02.230Z",
   "questions": [
-    {
-      "keyword": "what is dimethicone",
-      "volume": 2900,
-      "original_keyword": "dimethicone",
-      "parent_topic": "dimethicone",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is dimethicone bad for skin",
-      "volume": 900,
-      "original_keyword": "dimethicone",
-      "parent_topic": "is dimethicone bad for skin",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is dimethicone bad for hair",
-      "volume": 700,
-      "original_keyword": "dimethicone",
-      "parent_topic": "dimethicone for hair",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is dimethicone a silicone",
-      "volume": 600,
-      "original_keyword": "dimethicone",
-      "parent_topic": "dimethicone",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "does dimethicone clog pores",
-      "volume": 250,
-      "original_keyword": "dimethicone",
-      "parent_topic": "does dimethicone clog pores",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is dimethicone safe",
-      "volume": 250,
-      "original_keyword": "dimethicone",
-      "parent_topic": "dimethicone",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "does dimethicone kill lice eggs",
-      "volume": 200,
-      "original_keyword": "dimethicone",
-      "parent_topic": "does dimethicone kill lice eggs",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is dimethicone safe for skin",
-      "volume": 200,
-      "original_keyword": "dimethicone",
-      "parent_topic": "dimethicone",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what is dimethicone used for",
-      "volume": 200,
-      "original_keyword": "dimethicone",
-      "parent_topic": "dimethicone",
-      "intents": [
-        "informational"
-      ]
-    },
     {
       "keyword": "what is dimethylpolysiloxane",
       "volume": 200,
       "original_keyword": "dimethylpolysiloxane",
       "parent_topic": "pdms",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is silicone oil",
+      "volume": 150,
+      "original_keyword": "Silicone oil",
+      "parent_topic": "silicone oil",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "can you use coconut oil with silicone toys",
+      "volume": 90,
+      "original_keyword": "Silicone oil",
+      "parent_topic": "coconut oil on silicone toys",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is coconut oil safe for silicone toys",
+      "volume": 80,
+      "original_keyword": "Silicone oil",
+      "parent_topic": "coconut oil on silicone toys",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is polydimethylsiloxane",
+      "volume": 80,
+      "original_keyword": "Polydimethylsiloxane",
+      "parent_topic": "dimethylpolysiloxane",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is silicone oil toxic",
+      "volume": 70,
+      "original_keyword": "Silicone oil",
+      "parent_topic": "is silicone oil toxic",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is silicone oil used for",
+      "volume": 70,
+      "original_keyword": "Silicone oil",
+      "parent_topic": "silicone oil",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "where to buy silicone oil",
+      "volume": 60,
+      "original_keyword": "Silicone oil",
+      "parent_topic": "silicone oil",
+      "intents": [
+        "commercial",
+        "transactional"
+      ]
+    },
+    {
+      "keyword": "is dimethylpolysiloxane bad for you",
+      "volume": 50,
+      "original_keyword": "dimethylpolysiloxane",
+      "parent_topic": "dimethyl silicone",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "can i use coconut oil on silicone toys",
+      "volume": 40,
+      "original_keyword": "Silicone oil",
+      "parent_topic": "coconut oil on silicone toys",
       "intents": [
         "informational"
       ]

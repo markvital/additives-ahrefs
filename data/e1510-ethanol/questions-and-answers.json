@@ -1,6 +1,31 @@
 {
-  "updatedAt": "2025-10-12T02:40:06.698Z",
+  "updatedAt": "2025-10-15T01:45:33.268Z",
   "answers": [
+    {
+      "q": "is ethyl alcohol the same as ethanol",
+      "a": "Yes—ethyl alcohol is another name for ethanol (E1510), the same chemical (C2H5OH).",
+      "answeredAt": "2025-10-15T01:45:33.268Z"
+    },
+    {
+      "q": "can you drink ethyl alcohol",
+      "a": "Yes, but only beverage‑grade ethanol as found in alcoholic drinks; never consume denatured or industrial ethanol, and excessive intake is toxic.",
+      "answeredAt": "2025-10-15T01:45:33.268Z"
+    },
+    {
+      "q": "is ethyl alcohol halal",
+      "a": "Alcoholic beverages (intoxicating ethanol) are haram, but small residual amounts used as a processing solvent in foods may be deemed permissible by some halal certifiers—guidance varies, so check certification.",
+      "answeredAt": "2025-10-15T01:45:33.268Z"
+    },
+    {
+      "q": "is ethyl alcohol the same as isopropyl alcohol",
+      "a": "No—ethanol (ethyl alcohol) and isopropyl alcohol (isopropanol, 2‑propanol) are different chemicals; isopropyl alcohol is not for drinking or food use.",
+      "answeredAt": "2025-10-15T01:45:33.268Z"
+    },
+    {
+      "q": "is ethanol ethyl alcohol",
+      "a": "Yes—ethanol and ethyl alcohol are the same substance.",
+      "answeredAt": "2025-10-15T01:45:33.268Z"
+    },
     {
       "q": "is ethanol polar",
       "a": "Yes—ethanol is a polar molecule due to its hydroxyl (-OH) group, which enables hydrogen bonding and makes it miscible with water, though its ethyl tail is nonpolar.",

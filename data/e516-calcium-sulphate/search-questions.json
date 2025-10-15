@@ -8,7 +8,7 @@
     "calcium sulfate added to prevent caking"
   ],
   "country": "us",
-  "fetchedAt": "2025-10-09T03:20:49.972Z",
+  "fetchedAt": "2025-10-15T01:43:58.834Z",
   "questions": [
     {
       "keyword": "what is gypsum",
@@ -23,7 +23,7 @@
       "keyword": "what is gypsum used for",
       "volume": 1300,
       "original_keyword": "Gypsum",
-      "parent_topic": "gypsum",
+      "parent_topic": "gypsum uses",
       "intents": [
         "informational"
       ]
@@ -59,7 +59,7 @@
       "keyword": "what is selenite good for",
       "volume": 450,
       "original_keyword": "Selenite",
-      "parent_topic": "selenite properties",
+      "parent_topic": "selenite",
       "intents": [
         "informational"
       ]
@@ -74,19 +74,19 @@
       ]
     },
     {
-      "keyword": "how to cleanse selenite",
-      "volume": 350,
-      "original_keyword": "Selenite",
-      "parent_topic": "does selenite need to be cleansed",
+      "keyword": "how much gypsum to add to soil",
+      "volume": 300,
+      "original_keyword": "Gypsum",
+      "parent_topic": "how much gypsum to add to soil",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "how much gypsum to add to soil",
+      "keyword": "how to cleanse selenite",
       "volume": 300,
-      "original_keyword": "Gypsum",
-      "parent_topic": "how much gypsum to add to soil",
+      "original_keyword": "Selenite",
+      "parent_topic": "does selenite need to be cleansed",
       "intents": [
         "informational"
       ]

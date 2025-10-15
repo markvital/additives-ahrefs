@@ -1,5 +1,5 @@
 {
-  "totalSearchVolume": 115060,
+  "totalSearchVolume": 115010,
   "keywords": [
     {
       "keyword": "sulfuric acid",
@@ -11,15 +11,28 @@
     },
     {
       "keyword": "Sulphuric acid",
-      "volume": 3800
+      "volume": 3700
     },
     {
       "keyword": "Oil of vitriol",
-      "volume": 250
+      "volume": 300
     },
     {
       "keyword": "E513",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sulphuric acid",
+      "E513",
+      "Oil of vitriol",
+      "sulfuric acid",
+      "H2SO4"
+    ],
+    "supplementary": [],
+    "excluded": [
+      "sulfuric acid / H₂SO₄"
+    ]
+  }
 }
