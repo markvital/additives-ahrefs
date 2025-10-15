@@ -14,5 +14,8 @@
   "origin": [
     "mineral"
   ],
-  "productCount": 8902
+  "productCount": 8902,
+  "searchFilter": [
+    "titanium dioxide"
+  ]
 }

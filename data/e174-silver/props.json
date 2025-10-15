@@ -13,5 +13,9 @@
   "origin": [
     "mineral"
   ],
-  "productCount": 13
+  "productCount": 13,
+  "searchFilter": [
+    "Silver",
+    "element 47"
+  ]
 }

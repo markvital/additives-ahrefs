@@ -12,5 +12,8 @@
   "origin": [
     "mineral"
   ],
-  "productCount": 12
+  "productCount": 12,
+  "searchFilter": [
+    "butane"
+  ]
 }

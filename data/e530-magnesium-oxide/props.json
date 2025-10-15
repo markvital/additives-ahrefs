@@ -14,5 +14,8 @@
     "artificial",
     "mineral"
   ],
-  "productCount": 40
+  "productCount": 40,
+  "searchFilter": [
+    "magnesia"
+  ]
 }

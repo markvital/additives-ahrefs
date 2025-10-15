@@ -12,5 +12,8 @@
   "origin": [
     "plant"
   ],
-  "productCount": 2
+  "productCount": 2,
+  "searchFilter": [
+    "sandalwood"
+  ]
 }

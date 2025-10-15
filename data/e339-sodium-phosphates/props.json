@@ -25,5 +25,8 @@
   "children": [
     "e339i-monosodium-phosphate",
     "e339iii-trisodium-phosphate"
+  ],
+  "searchFilter": [
+    "sodium phosphate"
   ]
 }

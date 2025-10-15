@@ -20,5 +20,8 @@
     "artificial",
     "mineral"
   ],
-  "productCount": 2164
+  "productCount": 2164,
+  "searchFilter": [
+    "gypsum / selenite"
+  ]
 }

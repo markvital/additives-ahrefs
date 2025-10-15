@@ -13,5 +13,8 @@
   "origin": [
     "mineral"
   ],
-  "productCount": 2
+  "productCount": 2,
+  "searchFilter": [
+    "argon"
+  ]
 }

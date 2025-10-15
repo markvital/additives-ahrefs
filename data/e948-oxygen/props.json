@@ -13,5 +13,8 @@
   "origin": [
     "artificial"
   ],
-  "productCount": 8
+  "productCount": 8,
+  "searchFilter": [
+    "oxygen / element 8"
+  ]
 }

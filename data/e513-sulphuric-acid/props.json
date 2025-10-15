@@ -15,5 +15,8 @@
   "origin": [
     "artificial"
   ],
-  "productCount": 4
+  "productCount": 4,
+  "searchFilter": [
+    "sulfuric acid / H₂SO₄"
+  ]
 }

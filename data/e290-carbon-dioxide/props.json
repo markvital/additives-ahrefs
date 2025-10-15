@@ -6,10 +6,7 @@
     "Carbon dioxide",
     "Carbonic acid gas",
     "Fermentation carbon dioxide",
-    "Spring carbon dioxide",
-    "Gärungskohlensäure",
-    "Natürliche Quellkohlensäure",
-    "Quellkohlensäure"
+    "Spring carbon dioxide"
   ],
   "functions": [
     "preservative",
@@ -23,5 +20,11 @@
     "artificial",
     "mineral"
   ],
-  "productCount": 983
+  "productCount": 983,
+  "searchFilter": [
+    "carbon dioxide"
+  ],
+  "searchKeywords": [
+    "food grade co2"
+  ]
 }

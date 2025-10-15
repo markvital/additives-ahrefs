@@ -18,5 +18,8 @@
     "microbiological",
     "artificial"
   ],
-  "productCount": 918
+  "productCount": 918,
+  "searchFilter": [
+    "ethanol"
+  ]
 }

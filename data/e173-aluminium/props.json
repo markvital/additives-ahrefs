@@ -14,5 +14,9 @@
   "origin": [
     "mineral"
   ],
-  "productCount": 45
+  "productCount": 45,
+  "searchFilter": [
+    "Aluminium", "Aluminium",
+    "element 13"
+  ]
 }

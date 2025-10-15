@@ -16,5 +16,8 @@
     "plant",
     "synthetic"
   ],
-  "productCount": 165
+  "productCount": 165,
+  "searchFilter": [
+    "sodium lauryl sulfate"
+  ]
 }

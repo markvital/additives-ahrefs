@@ -15,5 +15,8 @@
     "synthetic",
     "mineral"
   ],
-  "productCount": 7
+  "productCount": 7,
+  "searchFilter": [
+    "boric acid"
+  ]
 }
