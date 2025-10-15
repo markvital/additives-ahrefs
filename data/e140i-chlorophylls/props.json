@@ -5,9 +5,12 @@
     "E140i",
     "Chlorophylls",
     "CI Natural Green 3",
-    "Magnesium Chlorophyll",
-    "chlorophyll"
+    "Magnesium Chlorophyll"
   ],
+  "searchFilter": [
+    "chlorophyll", "chlorophylls"
+  ],
+  "searchKeywords": [],
   "functions": [
     "colour"
   ],

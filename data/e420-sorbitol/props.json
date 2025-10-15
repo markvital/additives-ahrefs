@@ -6,6 +6,12 @@
     "Sorbitol",
     "glucitol"
   ],
+  "searchFilter": [
+    "E420"
+  ],
+  "searchKeywords": [
+    "E420 food additive"
+  ],
   "functions": [
     "humectant",
     "sequestrant",
