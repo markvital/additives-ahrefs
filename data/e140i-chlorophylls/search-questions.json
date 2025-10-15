@@ -1,103 +1,87 @@
 {
   "keywords": [
-    "Chlorophylls",
     "E140I",
     "CI Natural Green 3",
-    "Magnesium Chlorophyll",
-    "chlorophyll"
+    "Magnesium Chlorophyll"
   ],
   "country": "us",
-  "fetchedAt": "2025-10-09T03:20:52.040Z",
+  "fetchedAt": "2025-10-15T00:44:54.162Z",
   "questions": [
     {
-      "keyword": "what is chlorophyll",
-      "volume": 10000,
-      "original_keyword": "chlorophyll",
-      "parent_topic": "chlorophyll",
+      "keyword": "does chlorophyll have magnesium",
+      "volume": 10,
+      "original_keyword": "Magnesium Chlorophyll",
+      "parent_topic": "chlorophyll a",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what does chlorophyll do",
-      "volume": 5400,
-      "original_keyword": "chlorophyll",
-      "parent_topic": "chlorophyll benefits",
+      "keyword": "\"what is the function of the magnesium atom in a chlorophyll molecule\"",
+      "volume": 0,
+      "original_keyword": "Magnesium Chlorophyll",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "1 gram contains 2.68 % magnesium. how many atoms of mg will there be in 1.00 g of chlorophyll?",
+      "volume": 0,
+      "original_keyword": "Magnesium Chlorophyll",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "2. what is the function of the magnesium atom in a chlorophyll molecule?",
+      "volume": 0,
+      "original_keyword": "Magnesium Chlorophyll",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "3. what is the function of the magnesium atom in a chlorophyll molecule?",
+      "volume": 0,
+      "original_keyword": "Magnesium Chlorophyll",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "can you take magnesium and chlorophyll together",
+      "volume": 0,
+      "original_keyword": "Magnesium Chlorophyll",
+      "parent_topic": "chlorophyll and magnesium",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "is chlorophyll good for you",
-      "volume": 3500,
-      "original_keyword": "chlorophyll",
-      "parent_topic": "chlorophyll benefits",
+      "keyword": "how many atoms of magnesium are in a chlorophyll molecule",
+      "volume": 0,
+      "original_keyword": "Magnesium Chlorophyll",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "if a plant is deprived of magnesium what will the chlorophyll do",
+      "volume": 0,
+      "original_keyword": "Magnesium Chlorophyll",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "is magnesium in chlorophyll",
+      "volume": 0,
+      "original_keyword": "Magnesium Chlorophyll",
+      "parent_topic": "chlorophyll a",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "what is chlorophyll good for",
-      "volume": 2500,
-      "original_keyword": "chlorophyll",
-      "parent_topic": "chlorophyll benefits",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what does chlorophyll do for the body",
-      "volume": 2400,
-      "original_keyword": "chlorophyll",
-      "parent_topic": "chlorophyll",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "does chlorophyll make you poop",
-      "volume": 1600,
-      "original_keyword": "chlorophyll",
-      "parent_topic": "chlorophyll water",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "does chlorophyll help with body odor",
-      "volume": 1000,
-      "original_keyword": "chlorophyll",
-      "parent_topic": "does chlorophyll help with body odor",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what does liquid chlorophyll do",
-      "volume": 1000,
-      "original_keyword": "chlorophyll",
-      "parent_topic": "chlorophyll water",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what is chlorophyll?",
-      "volume": 1000,
-      "original_keyword": "chlorophyll",
-      "parent_topic": "chlorophyll benefits",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "can chlorophyll kill you",
-      "volume": 900,
-      "original_keyword": "chlorophyll",
-      "parent_topic": "can chlorophyll kill you",
-      "intents": [
-        "informational"
-      ]
+      "keyword": "what does a magnesium atom in a chlorophyll molecule do",
+      "volume": 0,
+      "original_keyword": "Magnesium Chlorophyll",
+      "parent_topic": "",
+      "intents": []
     }
   ]
 }

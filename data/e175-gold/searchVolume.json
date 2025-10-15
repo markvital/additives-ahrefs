@@ -1,5 +1,5 @@
 {
-  "totalSearchVolume": 10800,
+  "totalSearchVolume": 7400,
   "keywords": [
     {
       "keyword": "Edible gold",
@@ -10,17 +10,12 @@
       "volume": 3600
     },
     {
-      "keyword": "E175",
-      "volume": 3400
-    },
-    {
       "keyword": "Pigment Metal 3",
       "volume": 0
     }
   ],
   "keywordConfig": {
     "included": [
-      "E175",
       "Edible gold",
       "Pigment Metal 3",
       "edible gold leaf"
@@ -30,7 +25,8 @@
     ],
     "excluded": [
       "gold",
-      "element 79"
+      "element 79",
+      "E175"
     ]
   }
 }

@@ -1,6 +1,31 @@
 {
-  "updatedAt": "2025-10-12T02:33:35.931Z",
+  "updatedAt": "2025-10-15T00:48:38.013Z",
   "answers": [
+    {
+      "q": "does chlorophyll have magnesium",
+      "a": "Yes—chlorophylls (E140i) contain a central magnesium ion. If Mg is lost during processing (forming pheophytin), the green color dulls.",
+      "answeredAt": "2025-10-15T00:48:38.013Z"
+    },
+    {
+      "q": "\"what is the function of the magnesium atom in a chlorophyll molecule\"",
+      "a": "The magnesium sits at the center of the chlorin ring, coordinating four nitrogens and tuning the electronic structure to absorb light. This enables efficient energy/electron transfer in photosynthesis and contributes to the green color.",
+      "answeredAt": "2025-10-15T00:48:38.013Z"
+    },
+    {
+      "q": "1 gram contains 2.68 % magnesium. how many atoms of mg will there be in 1.00 g of chlorophyll?",
+      "a": "At 2.68% Mg, 1.00 g contains 0.0268 g Mg ≈ 0.00110 mol (24.305 g/mol). That is about 6.6×10^20 magnesium atoms (0.00110 × 6.022×10^23).",
+      "answeredAt": "2025-10-15T00:48:38.013Z"
+    },
+    {
+      "q": "2. what is the function of the magnesium atom in a chlorophyll molecule?",
+      "a": "The Mg ion is the central coordinating atom of the pigment’s ring, shaping the absorption spectrum so chlorophyll can harvest light and transfer energy.",
+      "answeredAt": "2025-10-15T00:48:38.013Z"
+    },
+    {
+      "q": "3. what is the function of the magnesium atom in a chlorophyll molecule?",
+      "a": "It serves as the central metal that stabilizes the chlorin ring and enables light absorption; removing Mg alters the color and photochemistry (pheophytin formation).",
+      "answeredAt": "2025-10-15T00:48:38.013Z"
+    },
     {
       "q": "what does chlorophyll do",
       "a": "In foods, E140i (chlorophylls) are natural green pigments used as a color additive to give or restore a green hue; they don’t change the taste.",

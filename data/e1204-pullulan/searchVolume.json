@@ -1,10 +1,6 @@
 {
-  "totalSearchVolume": 44600,
+  "totalSearchVolume": 1600,
   "keywords": [
-    {
-      "keyword": "Linear",
-      "volume": 43000
-    },
     {
       "keyword": "Pullulan",
       "volume": 1600
@@ -13,5 +9,13 @@
       "keyword": "E1204",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Pullulan",
+      "E1204"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

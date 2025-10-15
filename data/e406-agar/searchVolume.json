@@ -1,17 +1,9 @@
 {
-  "totalSearchVolume": 113320,
+  "totalSearchVolume": 53320,
   "keywords": [
-    {
-      "keyword": "Bengal",
-      "volume": 38000
-    },
     {
       "keyword": "Agar",
       "volume": 36000
-    },
-    {
-      "keyword": "Ceylon",
-      "volume": 22000
     },
     {
       "keyword": "agar agar",
@@ -37,5 +29,18 @@
       "keyword": "Chinese or Japanese isinglass",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Agar",
+      "E406",
+      "Gelose",
+      "Kanten",
+      "Chinese or Japanese isinglass",
+      "agar-agar",
+      "agar agar"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

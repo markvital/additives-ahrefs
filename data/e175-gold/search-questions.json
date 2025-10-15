@@ -1,12 +1,11 @@
 {
   "keywords": [
-    "E175",
     "Edible gold",
     "Pigment Metal 3",
     "edible gold leaf"
   ],
   "country": "us",
-  "fetchedAt": "2025-10-12T02:07:07.376Z",
+  "fetchedAt": "2025-10-15T00:44:54.124Z",
   "questions": [
     {
       "keyword": "is gold edible",
@@ -39,7 +38,7 @@
       "keyword": "is gold leaf edible",
       "volume": 200,
       "original_keyword": "Edible gold",
-      "parent_topic": "edible gold",
+      "parent_topic": "what is edible gold leaf made of",
       "intents": [
         "informational"
       ]

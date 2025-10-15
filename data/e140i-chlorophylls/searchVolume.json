@@ -1,14 +1,6 @@
 {
-  "totalSearchVolume": 167120,
+  "totalSearchVolume": 20,
   "keywords": [
-    {
-      "keyword": "chlorophyll",
-      "volume": 167000
-    },
-    {
-      "keyword": "Chlorophylls",
-      "volume": 100
-    },
     {
       "keyword": "Magnesium Chlorophyll",
       "volume": 20
@@ -21,5 +13,17 @@
       "keyword": "E140I",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "E140I",
+      "CI Natural Green 3",
+      "Magnesium Chlorophyll"
+    ],
+    "supplementary": [],
+    "excluded": [
+      "chlorophyll",
+      "chlorophylls"
+    ]
+  }
 }

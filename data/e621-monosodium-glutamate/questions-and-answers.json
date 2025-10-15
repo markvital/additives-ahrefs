@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-10-12T02:34:38.338Z",
+  "updatedAt": "2025-10-15T00:49:18.552Z",
   "answers": [
     {
       "q": "is msg bad for you",
@@ -20,6 +20,11 @@
       "q": "why is msg bad for you",
       "a": "It isn’t considered “bad” at normal intakes—regulators deem it safe, and EFSA set a group ADI for glutamates of 30 mg/kg body weight/day to limit high exposures. Some people may experience transient symptoms after large doses, and it can add to overall sodium intake if overused.",
       "answeredAt": "2025-10-12T02:34:38.338Z"
+    },
+    {
+      "q": "is msg bad",
+      "a": "No—MSG (E621) is considered safe at normal food levels (FDA GRAS; EFSA sets an acceptable daily intake of 30 mg/kg body weight/day), and well-controlled studies haven’t shown consistent harms. A small subset of people may get brief symptoms like headache or flushing after large doses, especially on an empty stomach, and it does add some sodium, but typical culinary use is fine for most.",
+      "answeredAt": "2025-10-15T00:49:18.552Z"
     },
     {
       "q": "what does msg do",

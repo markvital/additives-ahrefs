@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-10-12T02:48:40.339Z",
+  "updatedAt": "2025-10-15T00:50:19.949Z",
   "answers": [
     {
       "q": "is sorbitol safe for dogs",
@@ -20,6 +20,11 @@
       "q": "is sorbitol bad for dogs",
       "a": "It isn’t inherently harmful or toxic, but dogs may develop diarrhea and gas if they consume large amounts. Keep portions small and avoid high-polyol treats.",
       "answeredAt": "2025-10-12T02:48:40.339Z"
+    },
+    {
+      "q": "is sorbitol toxic to dogs",
+      "a": "No—unlike xylitol, sorbitol (E420) is not considered highly toxic to dogs and is even used in some pet products; however, large amounts can cause gastrointestinal upset and diarrhea due to its laxative effect. If a dog consumes a lot or shows persistent vomiting/diarrhea, contact a veterinarian to prevent dehydration.",
+      "answeredAt": "2025-10-15T00:50:19.949Z"
     },
     {
       "q": "is sorbitol safe",

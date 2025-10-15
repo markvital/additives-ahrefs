@@ -1,10 +1,6 @@
 {
-  "totalSearchVolume": 48170,
+  "totalSearchVolume": 170,
   "keywords": [
-    {
-      "keyword": "Sky Blue",
-      "volume": 48000
-    },
     {
       "keyword": "E131",
       "volume": 70
@@ -41,5 +37,20 @@
       "keyword": "L-Blau 3",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Patent blue v",
+      "E131",
+      "Food Blue 5",
+      "Sulphan Blue",
+      "Acid Blue 3",
+      "L-Blau 3",
+      "C-Blau 20",
+      "Patentblau V",
+      "C.I. 42051"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

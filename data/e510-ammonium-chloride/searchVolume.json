@@ -1,17 +1,21 @@
 {
-  "totalSearchVolume": 23670,
+  "totalSearchVolume": 22070,
   "keywords": [
     {
       "keyword": "Ammonium chloride",
       "volume": 22000
     },
     {
-      "keyword": "ammonia solution",
-      "volume": 1600
-    },
-    {
       "keyword": "E510",
       "volume": 70
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Ammonium chloride",
+      "E510"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

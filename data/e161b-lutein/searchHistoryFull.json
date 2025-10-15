@@ -1,6 +1,6 @@
 {
   "country": "us",
-  "fetchedAt": "2025-10-09T03:44:14.468Z",
+  "fetchedAt": "2025-10-15T00:44:24.527Z",
   "keywords": [
     {
       "keyword": "Lutein",
@@ -492,10 +492,6 @@
       "metrics": []
     },
     {
-      "keyword": "Mixed Carotenoids",
-      "metrics": []
-    },
-    {
       "keyword": "Xanthophyll",
       "metrics": [
         {
@@ -884,99 +880,99 @@
         },
         {
           "date": "2024-01-01T00:00:00Z",
-          "volume": 1769
+          "volume": 2024
         },
         {
           "date": "2024-02-01T00:00:00Z",
-          "volume": 2725
+          "volume": 2705
         },
         {
           "date": "2024-03-01T00:00:00Z",
-          "volume": 2829
+          "volume": 2863
         },
         {
           "date": "2024-04-01T00:00:00Z",
-          "volume": 1684
+          "volume": 1928
         },
         {
           "date": "2024-05-01T00:00:00Z",
-          "volume": 1155
+          "volume": 1305
         },
         {
           "date": "2024-06-01T00:00:00Z",
-          "volume": 972
+          "volume": 1165
         },
         {
           "date": "2024-07-01T00:00:00Z",
-          "volume": 653
+          "volume": 926
         },
         {
           "date": "2024-08-01T00:00:00Z",
-          "volume": 677
+          "volume": 958
         },
         {
           "date": "2024-09-01T00:00:00Z",
-          "volume": 2695
+          "volume": 2702
         },
         {
           "date": "2024-10-01T00:00:00Z",
-          "volume": 5222
+          "volume": 4966
         },
         {
           "date": "2024-11-01T00:00:00Z",
-          "volume": 4171
+          "volume": 3988
         },
         {
           "date": "2024-12-01T00:00:00Z",
-          "volume": 2213
+          "volume": 2291
         },
         {
           "date": "2025-01-01T00:00:00Z",
-          "volume": 1716
+          "volume": 2034
         },
         {
           "date": "2025-02-01T00:00:00Z",
-          "volume": 2673
+          "volume": 2716
         },
         {
           "date": "2025-03-01T00:00:00Z",
-          "volume": 2777
+          "volume": 2872
         },
         {
           "date": "2025-04-01T00:00:00Z",
-          "volume": 1631
+          "volume": 1932
         },
         {
           "date": "2025-05-01T00:00:00Z",
-          "volume": 1103
+          "volume": 1308
         },
         {
           "date": "2025-06-01T00:00:00Z",
-          "volume": 919
+          "volume": 1167
         },
         {
           "date": "2025-07-01T00:00:00Z",
-          "volume": 601
+          "volume": 927
         },
         {
           "date": "2025-08-01T00:00:00Z",
-          "volume": 624
+          "volume": 959
         },
         {
           "date": "2025-09-01T00:00:00Z",
-          "volume": 2642
+          "volume": 2705
         },
         {
           "date": "2025-10-01T00:00:00Z",
-          "volume": 5170
+          "volume": 4969
         },
         {
           "date": "2025-11-01T00:00:00Z",
-          "volume": 4118
+          "volume": 3990
         },
         {
           "date": "2025-12-01T00:00:00Z",
-          "volume": 2161
+          "volume": 2291
         }
       ]
     },

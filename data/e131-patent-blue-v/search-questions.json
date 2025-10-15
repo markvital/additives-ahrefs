@@ -8,101 +8,80 @@
     "L-Blau 3",
     "C-Blau 20",
     "Patentblau V",
-    "Sky Blue",
     "C.I. 42051"
   ],
   "country": "us",
-  "fetchedAt": "2025-10-09T03:25:49.381Z",
+  "fetchedAt": "2025-10-15T00:44:57.420Z",
   "questions": [
     {
-      "keyword": "why is the sky blue",
-      "volume": 33000,
-      "original_keyword": "Sky Blue",
-      "parent_topic": "why is the sky blue",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "why is the sky blue?",
-      "volume": 6100,
-      "original_keyword": "Sky Blue",
-      "parent_topic": "sky blue",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "what is blue sky",
-      "volume": 3400,
-      "original_keyword": "Sky Blue",
-      "parent_topic": "what is bluesky",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "who owns blue sky",
-      "volume": 3200,
-      "original_keyword": "Sky Blue",
+      "keyword": "3 acetic acid with methylene blue how much methylene blue",
+      "volume": 0,
+      "original_keyword": "Acid Blue 3",
       "parent_topic": "",
       "intents": []
     },
     {
-      "keyword": "what is blue sky social media",
-      "volume": 2900,
-      "original_keyword": "Sky Blue",
-      "parent_topic": "what is bluesky",
-      "intents": [
-        "informational",
-        "branded"
-      ]
+      "keyword": "e131 baxi how to fix",
+      "volume": 0,
+      "original_keyword": "E131",
+      "parent_topic": "",
+      "intents": []
     },
     {
-      "keyword": "what makes the sky blue",
-      "volume": 2200,
-      "original_keyword": "Sky Blue",
-      "parent_topic": "why is the sky blue",
-      "intents": [
-        "informational"
-      ]
+      "keyword": "how many universes e131",
+      "volume": 0,
+      "original_keyword": "E131",
+      "parent_topic": "",
+      "intents": []
     },
     {
-      "keyword": "what is blue sky social",
-      "volume": 1800,
-      "original_keyword": "Sky Blue",
-      "parent_topic": "what is bluesky",
-      "intents": [
-        "informational",
-        "branded"
-      ]
+      "keyword": "how much food does a 5 year old female blue heeler suposed to eat",
+      "volume": 0,
+      "original_keyword": "Food Blue 5",
+      "parent_topic": "",
+      "intents": []
     },
     {
-      "keyword": "is the sky blue",
-      "volume": 1400,
-      "original_keyword": "Sky Blue",
-      "parent_topic": "sky blue",
-      "intents": [
-        "informational"
-      ]
+      "keyword": "how much food does a 5 year old female blue heeler supposed to eat",
+      "volume": 0,
+      "original_keyword": "Food Blue 5",
+      "parent_topic": "",
+      "intents": []
     },
     {
-      "keyword": "why is the sky blue for kids",
-      "volume": 1200,
-      "original_keyword": "Sky Blue",
-      "parent_topic": "sky blue",
-      "intents": [
-        "informational"
-      ]
+      "keyword": "how to fix e131 error on boiler",
+      "volume": 0,
+      "original_keyword": "E131",
+      "parent_topic": "",
+      "intents": []
     },
     {
-      "keyword": "why is sky blue",
-      "volume": 800,
-      "original_keyword": "Sky Blue",
-      "parent_topic": "why is the sky blue",
-      "intents": [
-        "informational"
-      ]
+      "keyword": "how to set up e131 devices on windows 10",
+      "volume": 0,
+      "original_keyword": "E131",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "stoelting e131-38 how starting",
+      "volume": 0,
+      "original_keyword": "E131",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "stoelting e131-38 how work",
+      "volume": 0,
+      "original_keyword": "E131",
+      "parent_topic": "",
+      "intents": []
+    },
+    {
+      "keyword": "what contains acid blue #3",
+      "volume": 0,
+      "original_keyword": "Acid Blue 3",
+      "parent_topic": "",
+      "intents": []
     }
   ]
 }

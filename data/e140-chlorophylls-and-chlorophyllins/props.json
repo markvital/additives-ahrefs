@@ -5,6 +5,11 @@
     "E140",
     "Chlorophylls and Chlorophyllins"
   ],
+  "searchFilter": [
+    "E140"
+  ],
+  "searchKeywords": [
+  ],
   "functions": [
     "colour"
   ],

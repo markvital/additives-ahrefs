@@ -1,11 +1,11 @@
 {
   "keywords": [
     "Sorbitol",
-    "E420",
-    "glucitol"
+    "glucitol",
+    "E420 food additive"
   ],
   "country": "us",
-  "fetchedAt": "2025-10-09T03:29:43.101Z",
+  "fetchedAt": "2025-10-15T00:44:54.360Z",
   "questions": [
     {
       "keyword": "what is sorbitol",
@@ -29,7 +29,7 @@
       "keyword": "is sorbitol bad for you",
       "volume": 800,
       "original_keyword": "Sorbitol",
-      "parent_topic": "sorbitol",
+      "parent_topic": "sorbitol side effects",
       "intents": [
         "informational"
       ]
@@ -48,15 +48,6 @@
       "volume": 300,
       "original_keyword": "Sorbitol",
       "parent_topic": "sorbitol dogs",
-      "intents": [
-        "informational"
-      ]
-    },
-    {
-      "keyword": "is sorbitol safe",
-      "volume": 200,
-      "original_keyword": "Sorbitol",
-      "parent_topic": "sorbitol",
       "intents": [
         "informational"
       ]
@@ -93,6 +84,15 @@
       "volume": 150,
       "original_keyword": "Sorbitol",
       "parent_topic": "is sorbitol an artificial sweetener",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is sorbitol safe",
+      "volume": 150,
+      "original_keyword": "Sorbitol",
+      "parent_topic": "sorbitol",
       "intents": [
         "informational"
       ]
