@@ -32,6 +32,7 @@ const OPENAI_MODEL = 'gpt-5';
 const OPENAI_MAX_OUTPUT_TOKENS = 4000;
 const MAX_ATTEMPTS = 3;
 const BASE_RETRY_DELAY_MS = 1500;
+const DEFAULT_PARALLEL = 3;
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 const parsePositiveInteger = (value, label) => {
@@ -57,6 +58,7 @@ const parseArgs = (argv) => {
     override: false,
     delay: 0,
     debug: false,
+    parallel: null,
   };
 
   let index = 0;
@@ -109,6 +111,22 @@ const parseArgs = (argv) => {
     if (arg.startsWith('--delay=')) {
       const value = arg.substring(arg.indexOf('=') + 1);
       result.delay = parsePositiveInteger(value, '--delay');
+      index += 1;
+      continue;
+    }
+
+    if (arg === '--parallel' || arg === '--batch' || arg === '-p') {
+      if (index + 1 >= args.length) {
+        throw new Error('Missing value for --parallel.');
+      }
+      result.parallel = parsePositiveInteger(args[index + 1], '--parallel');
+      index += 2;
+      continue;
+    }
+
+    if (arg.startsWith('--parallel=') || arg.startsWith('--batch=')) {
+      const value = arg.substring(arg.indexOf('=') + 1);
+      result.parallel = parsePositiveInteger(value, '--parallel');
       index += 1;
       continue;
     }
@@ -656,6 +674,7 @@ const run = async () => {
       console.log('  --additive <slug...>      Limit processing to specific additive slugs.');
       console.log('  --limit <number>          Limit the number of additives processed.');
       console.log('  --delay <ms>              Optional delay in milliseconds between answers.');
+      console.log(`  --parallel <number>       Run up to <number> additives simultaneously (default: ${DEFAULT_PARALLEL}).`);
       console.log('  --override                Regenerate answers even if one already exists.');
       console.log('  --debug                   Print OpenAI request and response payloads.');
       console.log('  --help                    Show this help message.');
@@ -692,18 +711,38 @@ const run = async () => {
       return;
     }
 
-    for (let index = 0; index < targets.length; index += 1) {
-      const additive = targets[index];
-      console.log(`[${index + 1}/${targets.length}] Processing ${formatAdditiveLabel(additive)} (${additive.slug})`);
-      await processAdditive({
-        additive,
-        client,
-        prompt,
-        override: args.override,
-        delay: args.delay,
-        debug: args.debug,
-      });
-    }
+    const effectiveOverride = args.override || args.additives.length > 0;
+    const total = targets.length;
+    const parallelLimit = Math.max(1, Math.min(total, args.parallel ?? DEFAULT_PARALLEL));
+    let nextIndex = 0;
+
+    const worker = async () => {
+      while (true) {
+        const currentIndex = nextIndex;
+        if (currentIndex >= total) {
+          return;
+        }
+        nextIndex += 1;
+
+        const additive = targets[currentIndex];
+        console.log(`[${currentIndex + 1}/${total}] Processing ${formatAdditiveLabel(additive)} (${additive.slug})`);
+
+        try {
+          await processAdditive({
+            additive,
+            client,
+            prompt,
+            override: effectiveOverride,
+            delay: args.delay,
+            debug: args.debug,
+          });
+        } catch (error) {
+          console.error(`  → Failed to process ${additive.slug}: ${error.message || error}`);
+        }
+      }
+    };
+
+    await Promise.all(Array.from({ length: parallelLimit }, () => worker()));
   } catch (error) {
     console.error(error.message || error);
     process.exitCode = 1;
