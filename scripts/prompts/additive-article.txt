@@ -24,6 +24,7 @@ WRITING STYLE
 - Explain all the accronyms and special terms.
 - Summury section should be text only, no formating or reference.
 - All the sections should be formated using mardown tags.
+- Use references only where the fact is verifiable by the user. Avoid over-citing every sentence or paragraph.
 
 INTERNAL LINKS
 - When you mention other additives **and you know** their E-number and page title, create a Markdown link like `[additive name](/e<eNumber>-<kebab-title>)` (e.g., `[titanium dioxide](/e171-titanium-dioxide)`, `[tannin](/e181-tannin)`). If uncertain, do not link. List of all additives slugs, eg. "e330-citric-acid" will be provided.
@@ -38,7 +39,9 @@ REFERENCES
   - **If none above works, Wikipedia fallback:** use the **original sources** cited by Wikipedia (WHO/FAO/JECFA/Codex, peer-reviewed papers, official standards). Do **not** cite Wikipedia itself.
 - Include PubChem (NIH) **only if** it directly supports a fact you used (e.g., identity/spec data). Do not add any reference that doesn't substantively support a claim.
 - Do not link to broken URL, if possible.
-- Don't use the same footnote more than twice.
+- Keep references concise—roughly 3–7 total is enough.
+- Keep footnotes out of the summary and “At a glance” bullets; cite sources in the main sections instead.
+- Do not let any single footnote marker appear more than twice; after the second use, cite a different qualified source or rephrase so the extra mention appears without that marker.
 
 VALIDATION CHECKS (must all pass before finishing)
 - No placeholders of any kind.
