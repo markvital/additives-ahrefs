@@ -1,65 +1,71 @@
-Erythritol (E968) is a sugar alcohol used to sweeten foods with little to no energy contribution and to help replace table sugar in “sugar-free” and “no added sugar” products. It’s widely authorized as a sweetener in the EU and is permitted in many U.S. foods via FDA’s GRAS process. It’s often blended with other sweeteners to balance taste and texture. 
+Erythritol (E968) is a sugar alcohol used as a bulk sweetener and humectant in many “sugar‑free” and “no added sugar” foods. It provides about 60–70% of the sweetness of table sugar with a clean taste and is heat‑stable for baking and cooking. It is authorized in the EU as the food additive E968 and widely used worldwide.
+
 <!--more-->
 
 ## At a glance
-- **Also called / E-number:** Erythritol; E968; E 968; meso-erythritol; tetrahydroxybutane  
-- **What it does:** Sweetener (sugar substitute)  
-- **Common in:** Sugar-free gum and mints, candies, baked goods, beverages, tabletop sweeteners  
-- **Diet flags:** Sugar alcohol (polyol); very low-energy sweetener (0 kJ/g in the EU)  
+- What it is: a four‑carbon sugar alcohol (polyol) used as a sweetener and moisture‑keeper
+- How sweet: roughly 60–70% as sweet as table sugar
+- Calories: counts as 0 kcal per gram on EU labels
+- Taste and use: clean sweetness, no bitterness, works in baking, confectionery, and drinks
+- Typical products: sugar‑free gum, candies, chocolate, baked goods, beverages, and tabletop blends
+- Caution: like other polyols, large amounts may cause gastrointestinal discomfort in some people
+- Regulation: permitted in the EU as E968; specifications and purity are defined in EU law
 
-## Why is erythritol added to food?
-Erythritol is added to sweeten foods and beverages while reducing sugars and calories. In the EU it’s authorized as a food additive with the functional class “sweetener” under the name E 968, which allows its use across many food categories when conditions in the legislation are met.[^1] When shopping, look for “erythritol” in the ingredients of sugar-free or reduced-sugar items. If you’re avoiding sugar alcohols, check labels and choose products without them.
+## Why is Erythritol added to food?
+Food makers use erythritol to sweeten while cutting sugar and calories, and to add bulk and texture that high‑intensity sweeteners alone cannot provide. In the EU, erythritol has an energy value of 0 kcal/g for nutrition labeling, which helps reduce declared calories in reformulated foods.[^1] When polyols like erythritol are used to replace sugars, the resulting foods lead to a lower rise in blood glucose compared with sugar‑containing versions.[^4]
 
-## What foods contain erythritol?
-You’ll most often find erythritol in sugar-free and reduced-sugar products. Common categories include chewing gum and mints, candies, baked goods, beverages, and tabletop sweeteners; these uses were evaluated by the EU food safety authority when assessing E 968.[^2] Check labels for “erythritol,” “sugar alcohol,” or “E 968” (the E‑number may appear on EU labels). Avoid it if you know sugar alcohols don’t agree with you.
+Beyond sweetness, erythritol helps retain moisture (humectancy), improves mouthfeel in reduced‑sugar chocolates and baked goods, and supports structure in sugar‑reduced recipes.
 
-## What can replace erythritol?
-Other sweeteners can replace erythritol, but each has trade-offs. Polyols like [xylitol](/e967-xylitol) and [sorbitol](/e420-sorbitol) add bulk and some cooling effect but have more calories than erythritol and may cause more digestive upset. High-intensity sweeteners such as [sucralose](/e955-sucralose) or [steviol glycosides](/e960-steviol-glycosides) are far sweeter and used in tiny amounts, but they don’t provide bulk and may change texture or taste.
+## What foods contain Erythritol?
+Erythritol shows up in many “sugar‑free” or “reduced sugar” products, such as:
+- Chewing gum and mints
+- Hard and soft candies, chocolates, and fillings
+- Cakes, cookies, brownies, and frostings
+- Flavored dairy and non‑dairy desserts
+- Ready‑to‑drink beverages and powdered drink mixes
+- Tabletop sweeteners, often blended with high‑intensity sweeteners like [steviol glycosides](/e960-steviol-glycosides), [sucralose](/e955-sucralose), [aspartame](/e951-aspartame), or [acesulfame K](/e950-acesulfame-k)
 
-## How is erythritol made?
-Commercial erythritol is typically produced by fermenting sugars (such as glucose) with specific microorganisms, followed by purification and crystallization. It must meet the EU specifications for identity and purity in Commission Regulation (EU) No 231/2012, which include requirements for composition and contaminant limits.[^3]
+It is also used alongside other polyols such as [xylitol](/e967-xylitol), [sorbitol](/e420-sorbitol), [isomalt](/e953-isomalt), and [maltitol](/e965-maltitol) to fine‑tune sweetness, texture, and digestive tolerance.
 
-## Is erythritol safe to eat?
-Regulators consider erythritol safe when used as intended. In the U.S., FDA lists erythritol on its Food Additive Status List based on GRAS notices for use as a sweetener, and in the EU, EFSA concluded there is no safety concern at reported uses and use levels for E 968.[^4][^2]
-- In the EU, erythritol is authorized as a sweetener (E 968) under the food additives framework.[^1]
-- In U.S. Nutrition Facts, sugar alcohols (including erythritol) are declared under “Total Carbohydrate” when present, per 21 CFR 101.9.[^5]
-- EFSA’s safety opinion reviewed intake, metabolism, and tolerance data and found no safety concern at typical use levels.[^2]
+## What can replace Erythritol?
+- Other polyols (for bulk sweetness): [xylitol](/e967-xylitol), [sorbitol](/e420-sorbitol), [isomalt](/e953-isomalt), [maltitol](/e965-maltitol), [mannitol](/e421-mannitol)
+- High‑intensity sweeteners (for sweetness only; usually need a bulking agent too): [steviol glycosides](/e960-steviol-glycosides), [sucralose](/e955-sucralose), [aspartame](/e951-aspartame), [acesulfame K](/e950-acesulfame-k)
+- Bulking agents and fibers (for body and texture): [polydextrose](/e1200-polydextrose) or starch‑based systems
 
-## Does erythritol have any benefits?
-Erythritol sweetens with negligible energy, and the EU sets its energy conversion factor at 0 kJ/g for labeling.[^7] EFSA also concluded that replacing sugars with sugar replacers (including erythritol) helps maintain tooth mineralization and reduces post‑meal blood glucose responses when they replace sugars in foods and drinks.[^6]
+Swapping erythritol may change taste, texture, browning, and digestive tolerance, so formulators often blend ingredients to balance these factors.
 
-## Who should avoid erythritol?
-People who are sensitive to sugar alcohols should moderate intake, since large amounts may cause gastrointestinal discomfort. In the EU, foods with more than 10% added polyols must carry the warning “excessive consumption may produce laxative effects,” which can guide sensitive shoppers.[^7]
+## How is Erythritol made?
+Commercial erythritol is produced by fermenting a carbohydrate source (such as glucose) with specific microorganisms, then purifying and crystallizing the product to high purity.[^2] Its identity, purity criteria, and manufacturing specifications are laid down in EU law for food additives.[^2]
+
+## Is Erythritol safe to eat?
+In the EU, erythritol is authorized as E968 under the general food additives regulation, meaning it can be used in many categories within the applicable rules.[^3] As with all polyols, EU labeling requires the statement “excessive consumption may produce laxative effects” on foods containing more than 10% added polyols, reflecting possible gastrointestinal effects at high intakes.[^1]
+
+Research on erythritol continues. A 2023 observational study reported that higher blood levels of erythritol were associated with increased risk of certain cardiovascular events in people already at elevated risk; the study also included laboratory findings that erythritol can influence platelet function under test conditions.[^5] This type of study cannot prove cause and effect, and regulatory assessments to date have permitted erythritol’s use. If you have cardiovascular disease or blood‑clotting concerns, discuss your personal diet choices with your healthcare provider.
+
+## Does Erythritol have any benefits?
+- Sugar reduction with minimal taste trade‑off: it provides bulk and sweetness to replace part of the sugar in recipes.
+- Calorie reduction on EU labels: it counts as 0 kcal/g for nutrition labeling.[^1]
+- Glycemic impact: when polyols substitute for sugars in foods, they produce a lower post‑meal blood glucose rise than sugar‑containing versions.[^4]
+
+## Who should avoid Erythritol?
+- People who are sensitive to polyols may experience bloating or laxative effects if they consume large amounts (a risk that applies to polyols in general). Products with more than 10% added polyols in the EU must warn about possible laxative effects.[^1]
+- Anyone advised by a healthcare professional to limit polyols or manage specific gastrointestinal conditions should check labels and moderate intake.
 
 ## Myths & facts
-- Myth: “Erythritol is a petroleum-derived artificial chemical.” Fact: Food-grade erythritol is produced by fermentation of sugars and then purified and crystallized, per EU specifications.[^3]  
-- Myth: “Erythritol spikes blood sugar like regular sugar.” Fact: When erythritol replaces sugars, EFSA found it helps reduce post‑prandial blood glucose responses.[^6]  
-- Myth: “Erythritol is banned in the EU or U.S.” Fact: It’s authorized in the EU as E 968 and appears on FDA’s Food Additive Status List through GRAS notices.[^1][^4]
+- Myth: “Erythritol is a high‑intensity sweetener.” Fact: It is a bulk sweetener (a polyol) with about 60–70% the sweetness of sugar, so it often needs blending for equal sweetness.
+- Myth: “It always upsets your stomach.” Fact: Tolerance varies by person and amount; EU law only requires a laxative warning when foods contain more than 10% added polyols.[^1]
+- Myth: “It raises blood sugar like sugar does.” Fact: When polyols replace sugars in foods, the post‑meal blood glucose rise is lower than with sugar‑containing foods.[^4]
 
-## Erythritol in Branded Foods
-You’ll see erythritol in many sugar-free gums and mints, “keto” or reduced-sugar chocolates and baked goods, flavored beverages, and tabletop sweeteners, often blended with high-intensity sweeteners for balanced taste.
-
-## FAQ — Top 5 questions
-Q: Is erythritol a sugar alcohol?  
-A: Yes. It’s a polyol used as a bulk sweetener in many sugar-free foods, and it’s declared as a sugar alcohol on U.S. Nutrition Facts when listed.
-
-Q: How is erythritol labeled on packages?  
-A: Look for “erythritol” in the ingredient list. In the EU it may also appear by its E‑number “E 968,” and in the U.S. it contributes to the “sugar alcohol” line under Total Carbohydrate.
-
-Q: Does erythritol have calories?  
-A: In the EU, its energy conversion factor is 0 kJ/g for nutrition labeling, so it’s considered noncaloric there. U.S. labels count sugar alcohol grams under carbohydrates, but erythritol contributes negligible energy.
-
-Q: Can erythritol upset your stomach?  
-A: Some people may experience digestive discomfort from sugar alcohols, especially with high intakes. EU labels warn that excessive consumption of polyols may have a laxative effect.
-
-Q: Can I bake with erythritol?  
-A: Yes, it’s often used in baked goods and sweet treats. Results vary by recipe, and it’s commonly blended with other sweeteners to improve taste and texture.
+## Erythritol in branded foods
+You’ll commonly see erythritol:
+- In “sugar‑free” gums, mints, and candies for bulk sweetness and a clean taste
+- In chocolate and bakery items to cut sugar while keeping texture
+- In drink mixes and flavored beverages to lower added sugars
+- In tabletop sweetener blends marketed as “stevia” or “monk fruit,” where erythritol provides body and disperses the high‑intensity sweetener
 
 ## References
-[^1]: Regulation (EC) No 1333/2008 on food additives — EUR-Lex. https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32008R1333  
-[^2]: Scientific Opinion on the safety of erythritol (E 968) as a food additive — EFSA Journal 2010;8(5):1650. https://www.efsa.europa.eu/en/efsajournal/pub/1650  
-[^3]: Commission Regulation (EU) No 231/2012 laying down specifications for food additives — EUR-Lex. https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231  
-[^4]: Food Additive Status List — U.S. FDA. https://www.fda.gov/food/food-additives-petitions/food-additive-status-list  
-[^5]: 21 CFR 101.9 — Nutrition labeling of food — eCFR. https://www.ecfr.gov/current/title-21/section-101.9  
-[^6]: Scientific Opinion on sugar replacers (including polyols) and tooth mineralisation and reduction of post‑prandial glycaemic responses — EFSA Journal 2011;9(4):2076. https://www.efsa.europa.eu/en/efsajournal/pub/2076  
-[^7]: Regulation (EU) No 1169/2011 on the provision of food information to consumers (Annex III and energy conversion factors) — EUR-Lex. https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011R1169
+[^1]: Regulation (EU) No 1169/2011 on the provision of food information to consumers (Annexes III and XIV) — EUR-Lex. https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011R1169
+[^2]: Commission Regulation (EU) No 231/2012 laying down specifications for food additives (entry for E 968, erythritol) — EUR-Lex. https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231
+[^3]: Regulation (EC) No 1333/2008 on food additives (authorised additives; Union list) — EUR-Lex. https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32008R1333
+[^4]: Commission Regulation (EU) No 432/2012 establishing a list of permitted health claims (polyols and post‑prandial glycaemic response) — EUR-Lex. https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0432
+[^5]: Witkowski M, Nemet I, et al. The artificial sweetener erythritol and cardiovascular event risk — Nature Medicine (2023). https://www.nature.com/articles/s41591-023-02223-1
