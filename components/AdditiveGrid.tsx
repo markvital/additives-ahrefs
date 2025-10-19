@@ -1,25 +1,15 @@
+import Image from 'next/image';
 import Link from 'next/link';
-import { Avatar, Box, Card, CardActionArea, CardContent, Chip, Stack, Typography } from '@mui/material';
+import { Avatar, Box, Card, CardActionArea, CardContent, Chip, Stack, Tooltip, Typography } from '@mui/material';
 import type { Theme } from '@mui/material/styles';
 
 import type { Additive, AdditiveSortMode } from '../lib/additives';
 import { DEFAULT_ADDITIVE_SORT_MODE } from '../lib/additives';
+import { formatOriginLabel } from '../lib/additive-format';
 import { formatMonthlyVolume, formatProductCount } from '../lib/format';
+import { getOriginAbbreviation, getOriginIcon } from '../lib/origin-icons';
 import { SearchSparkline } from './SearchSparkline';
 import { theme } from '../lib/theme';
-
-const getOriginLabel = (origin: string) => {
-  const letters = origin.replace(/[^A-Za-z]/g, '');
-
-  if (letters.length === 0) {
-    return '';
-  }
-
-  const first = letters.charAt(0).toUpperCase();
-  const second = letters.charAt(1);
-
-  return `${first}${second ? second.toLowerCase() : ''}`;
-};
 
 const getTitleMinHeight = (muiTheme: Theme) => {
   const toRem = (value: string | number) => {
@@ -128,23 +118,37 @@ export function AdditiveGrid({
                     {origins.length > 0 ? (
                       <Stack direction="row" spacing={0.5}>
                         {origins.map((origin) => {
-                          const label = getOriginLabel(origin);
+                          const icon = getOriginIcon(origin);
+                          const abbreviation = getOriginAbbreviation(origin);
+                          const label = formatOriginLabel(origin);
 
                           return (
-                            <Avatar
-                              key={origin}
-                              variant="circular"
-                              sx={{
-                                width: 28,
-                                height: 28,
-                                bgcolor: 'grey.100',
-                                color: 'text.primary',
-                                fontSize: 12,
-                                fontWeight: 600,
-                              }}
-                            >
-                              {label}
-                            </Avatar>
+                            <Tooltip key={origin} title={label} arrow>
+                              <Avatar
+                                variant="circular"
+                                sx={{
+                                  width: 28,
+                                  height: 28,
+                                  bgcolor: 'grey.100',
+                                  color: 'text.primary',
+                                  fontSize: 12,
+                                  fontWeight: 600,
+                                  p: 0.5,
+                                }}
+                              >
+                                {icon ? (
+                                  <Image
+                                    src={icon}
+                                    alt={`${label} origin icon`}
+                                    width={20}
+                                    height={20}
+                                    style={{ width: '100%', height: '100%', objectFit: 'contain' }}
+                                  />
+                                ) : (
+                                  abbreviation
+                                )}
+                              </Avatar>
+                            </Tooltip>
                           );
                         })}
                       </Stack>

@@ -1,0 +1,28 @@
+{
+  "origins": [
+    {
+      "name": "animal",
+      "description": "Made from animal tissues or secretions (e.g., gelatin, rennet, carmine, shellac) and prized for textures, colors, and functional properties that are hard to mimic. They can conflict with vegetarian/vegan or religious diets, driving interest in plant-based or synthetic substitutes."
+    },
+    {
+      "name": "artificial",
+      "description": "Fully human-made chemicals not found in nature (e.g., FD&C Red No. 40, MSG, aspartame) that boost flavor, appearance, shelf life, and texture at low cost and with high consistency. Despite strict safety limits, they face ongoing regulatory review and mixed consumer perception."
+    },
+    {
+      "name": "microbiological",
+      "description": "Produced by microbes via fermentation or biotechnology (e.g., citric acid, xanthan gum, enzymes like amylases and proteases) to deliver reliable, large-scale outputs. Often viewed as closer to natural and widely accepted in clean-label formulations."
+    },
+    {
+      "name": "mineral",
+      "description": "Extracted from inorganic sources (e.g., calcium carbonate, sodium chloride, magnesium sulfate, iron salts) to improve texture, stability, acidity control, or prevent clumping. Also used for nutrient fortification (such as iron or iodine), with sourcing and purity tightly regulated."
+    },
+    {
+      "name": "plant",
+      "description": "Derived from fruits, seeds, leaves, roots, or bark (e.g., pectin, guar gum, starches, soy lecithin, turmeric/annatto/beet colors, essential oils) and favored by consumers seeking natural ingredients. Renewable but can vary by harvest and be less standardized for mass production."
+    },
+    {
+      "name": "synthetic",
+      "description": "Lab-made duplicates of natural molecules (e.g., vanillin, ascorbic acid, sorbic acid) that match natural functionality while improving cost, consistency, and supply. Some consumers still prefer naturally sourced versions, so labeling and marketing matter."
+    }
+  ]
+}

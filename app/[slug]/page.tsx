@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import NextLink from 'next/link';
 import { notFound } from 'next/navigation';
 import { Box, Chip, Link as MuiLink, Stack, Typography } from '@mui/material';
@@ -16,6 +17,7 @@ import { formatMonthlyVolume, formatProductCount, getCountryFlagEmoji, getCountr
 import { getSearchHistory } from '../../lib/search-history';
 import { getSearchQuestions } from '../../lib/search-questions';
 import { getSearchVolumeDataset } from '../../lib/search-volume';
+import { getOriginAbbreviation, getOriginIcon } from '../../lib/origin-icons';
 import { SearchHistoryChart } from '../../components/SearchHistoryChart';
 import { SearchKeywordShare } from '../../components/SearchKeywordShare';
 import { MarkdownArticle } from '../../components/MarkdownArticle';
@@ -375,19 +377,61 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
             {originList.map((origin) => {
               const originSlug = getOriginSlug(origin);
               const label = formatOriginLabel(origin);
+              const icon = getOriginIcon(origin);
+              const abbreviation = getOriginAbbreviation(origin);
+              const chipLabel = (
+                <Stack direction="row" spacing={0.75} alignItems="center">
+                  <Box
+                    component="span"
+                    aria-hidden="true"
+                    sx={{
+                      display: 'inline-flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      width: 18,
+                      height: 18,
+                    }}
+                  >
+                    {icon ? (
+                      <Image
+                        src={icon}
+                        alt=""
+                        width={16}
+                        height={16}
+                        style={{ width: '100%', height: '100%', objectFit: 'contain' }}
+                      />
+                    ) : (
+                      <Box component="span" sx={{ fontSize: 12, fontWeight: 600, lineHeight: 1 }}>
+                        {abbreviation}
+                      </Box>
+                    )}
+                  </Box>
+                  <Box component="span" sx={{ lineHeight: 1 }}>
+                    {label}
+                  </Box>
+                </Stack>
+              );
 
               if (!originSlug) {
-                return <Chip key={origin} label={label} variant="outlined" />;
+                return (
+                  <Chip
+                    key={origin}
+                    label={chipLabel}
+                    variant="outlined"
+                    sx={{ px: 1 }}
+                  />
+                );
               }
 
               return (
                 <Chip
                   key={origin}
-                  label={label}
+                  label={chipLabel}
                   variant="outlined"
                   component={NextLink}
                   href={`/origin/${originSlug}`}
                   clickable
+                  sx={{ px: 1 }}
                 />
               );
             })}
