@@ -124,7 +124,7 @@ export function AdditiveLookup<TAdditive extends Additive>({
       return 'Type at least two characters';
     }
 
-    return 'No additives found';
+    return 'No ingredients found';
   })();
 
   const handleSearch = (query: string) => {

@@ -297,8 +297,9 @@ const mapAdditives = (): Additive[] => {
   }
 
   const enriched = additivesIndex.additives.map((entry) => {
-    const slug = createAdditiveSlug({ eNumber: entry.eNumber, title: entry.title });
-    const props = readAdditiveProps(slug, entry);
+    const fallback = entry as AdditiveIndexEntry;
+    const slug = createAdditiveSlug({ eNumber: fallback.eNumber, title: fallback.title });
+    const props = readAdditiveProps(slug, fallback);
 
     return {
       ...props,
@@ -354,10 +355,13 @@ export const getAdditiveBySlug = (slug: string): Additive | undefined =>
 
 export const getAdditiveSlugs = (): string[] =>
   Array.isArray(additivesIndex.additives)
-    ? additivesIndex.additives.map((entry) => createAdditiveSlug({
-        eNumber: entry.eNumber,
-        title: entry.title,
-      }))
+    ? additivesIndex.additives.map((entry) => {
+        const fallback = entry as AdditiveIndexEntry;
+        return createAdditiveSlug({
+          eNumber: fallback.eNumber,
+          title: fallback.title,
+        });
+      })
     : [];
 
 export const getFunctionFilters = () => functionFilters;

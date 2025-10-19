@@ -1,6 +1,6 @@
-# Food Additives Catalogue
+# Skincare Ingredient Atlas
 
-A static catalogue that showcases a curated list of food additives. The site is built with Next.js, TypeScript, and MUI and presents each additive as a card in a clean, monochrome grid. Selecting a card reveals a detail page with synonyms, functions, descriptions, and links to further reading.
+A static catalogue that showcases a curated list of skincare ingredients. The site is built with Next.js, TypeScript, and MUI and presents each ingredient as a card in a clean, monochrome grid. Selecting a card reveals a detail page with aliases, benefits, sourcing notes, and links to further reading.
 
 ## Tech stack
 
@@ -30,15 +30,15 @@ The development server is available at [http://localhost:3000](http://localhost:
 
 ```text
 ├── app/                        # App Router entrypoints, layouts, and pages
-│   ├── [slug]/                 # Static additive detail pages
+│   ├── [slug]/                 # Static ingredient detail pages
 │   ├── globals.css             # Global styles and layout scaffolding
 │   ├── layout.tsx              # Shared layout with header and footer
 │   └── page.tsx                # Grid of additives with function pills
 ├── components/                 # Client-side providers and shared helpers
 ├── data/
-│   ├── additives.json          # Index of additives with title and E-number
-│   ├── <slug>/props.json       # Complete additive metadata and metrics
-│   └── <slug>/searchHistory.json # Ahrefs keyword volume history
+│   ├── additives.json          # Index of ingredients with display titles
+│   ├── <slug>/props.json       # Complete ingredient metadata and metrics
+│   └── <slug>/searchHistory.json # Optional keyword volume history
 ├── lib/                        # Utility helpers (theme, data loading, slugs)
 ├── public/                     # Public assets (placeholder)
 ├── vercel.json                 # Vercel static export configuration

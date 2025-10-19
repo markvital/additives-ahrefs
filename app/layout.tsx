@@ -14,9 +14,9 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: 'Food Additives Catalogue',
+  title: 'Skincare Ingredient Atlas',
   description:
-    'Browse essential information about food additives, including synonyms, functions, and links to additional resources.',
+    'Browse essential information about skincare ingredients, including alternative names, benefits, sourcing, and related resources.',
 };
 
 const currentYear = new Date().getFullYear();
@@ -46,7 +46,7 @@ export default function RootLayout({
                         textTransform: 'uppercase',
                       }}
                     >
-                      Additives
+                      Ingredients
                     </Typography>
                   </Link>
                   <nav className="header-nav">
@@ -64,7 +64,7 @@ export default function RootLayout({
             <footer className="site-footer">
               <div className="content-shell">
                 <Typography component="p" variant="body2">
-                  Food Additives © {currentYear}. All rights reserved.
+                  Skincare Ingredient Atlas © {currentYear}. All rights reserved.
                 </Typography>
               </div>
             </footer>

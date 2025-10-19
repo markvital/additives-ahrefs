@@ -69,7 +69,7 @@ interface AdditiveGridProps {
 
 export function AdditiveGrid({
   items,
-  emptyMessage = 'No additives found.',
+  emptyMessage = 'No ingredients found.',
   sortMode = DEFAULT_ADDITIVE_SORT_MODE,
 }: AdditiveGridProps) {
   if (items.length === 0) {

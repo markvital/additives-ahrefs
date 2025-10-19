@@ -22,7 +22,7 @@ interface FunctionPageProps {
 }
 
 const formatCountLabel = (count: number): string =>
-  count === 1 ? '1 additive uses this function.' : `${count} additives use this function.`;
+  count === 1 ? '1 ingredient delivers this benefit.' : `${count} ingredients deliver this benefit.`;
 
 const functionFilters = getFunctionFilters();
 const originFilters = getOriginFilters();
@@ -53,8 +53,8 @@ export async function generateMetadata({ params }: FunctionPageProps): Promise<M
   const label = formatFilterLabel(functionValue);
 
   return {
-    title: `${label} food additives`,
-    description: `Browse food additives that function as ${functionValue}.`,
+    title: `${label} skincare ingredients`,
+    description: `Browse skincare ingredients that deliver ${functionValue.toLowerCase()} benefits.`,
     alternates: {
       canonical: `/function/${functionSlug}`,
     },
@@ -81,7 +81,7 @@ export default async function FunctionPage({ params, searchParams }: FunctionPag
     <Box component="section" display="flex" flexDirection="column" gap={4}>
       <Box display="flex" flexDirection="column" gap={1.5} maxWidth={720}>
         <Typography component="h1" variant="h1">
-          Function: {label}
+          Benefit: {label}
         </Typography>
         <Typography variant="body1" color="text.secondary">
           {formatCountLabel(filteredAdditives.length)}
@@ -98,7 +98,7 @@ export default async function FunctionPage({ params, searchParams }: FunctionPag
       <AdditiveGrid
         items={sortedAdditives}
         sortMode={sortMode}
-        emptyMessage="No additives found for this function."
+        emptyMessage="No ingredients found for this benefit."
       />
     </Box>
   );

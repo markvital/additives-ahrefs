@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: AdditivePageProps): Promise<M
 
   if (!additive) {
     return {
-      title: 'Additive not found',
+      title: 'Ingredient not found',
     };
   }
 
@@ -114,7 +114,7 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
   const searchCountryText =
     searchCountryLabel ?? (searchCountryCode ? searchCountryCode.trim().toUpperCase() : null);
   const productCount = typeof additive.productCount === 'number' ? additive.productCount : null;
-  const productSearchUrl = `https://us.openfoodfacts.org/facets/additives/${additive.slug}`;
+  const productSearchUrl = `https://incidecoder.com/ingredients/${additive.slug}`;
   const articleSummary = extractArticleSummary(additive.article);
   const articleBody = extractArticleBody(additive.article);
   const originList = additive.origin.filter((value, index, list) => list.indexOf(value) === index);
@@ -340,7 +340,7 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
               color="text.secondary"
               sx={{ fontWeight: 600, whiteSpace: 'nowrap', marginRight: 1.5 }}
             >
-              Function:
+              Benefits:
             </Typography>
             {additive.functions.map((fn) => {
               const functionSlug = getFunctionSlug(fn);
@@ -406,10 +406,10 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
               underline="hover"
               sx={{ fontWeight: 500 }}
             >
-              Found in {formatProductCount(productCount)} products
+              Featured in {formatProductCount(productCount)} products
             </MuiLink>
           ) : (
-            'Data not available.'
+            'Product data not available.'
           )}
         </Typography>
 
