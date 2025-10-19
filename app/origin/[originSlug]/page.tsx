@@ -22,7 +22,7 @@ interface OriginPageProps {
 }
 
 const formatCountLabel = (count: number): string =>
-  count === 1 ? '1 additive has this origin.' : `${count} additives have this origin.`;
+  count === 1 ? '1 ingredient uses this source.' : `${count} ingredients use this source.`;
 
 const originFilters = getOriginFilters();
 const functionFilters = getFunctionFilters();
@@ -53,8 +53,8 @@ export async function generateMetadata({ params }: OriginPageProps): Promise<Met
   const label = formatFilterLabel(originValue);
 
   return {
-    title: `${label} origin additives`,
-    description: `Explore food additives that originate from ${originValue}.`,
+    title: `${label} ingredients`,
+    description: `Explore skin care ingredients sourced from ${originValue} origins.`,
     alternates: {
       canonical: `/origin/${originSlug}`,
     },
@@ -81,7 +81,7 @@ export default async function OriginPage({ params, searchParams }: OriginPagePro
     <Box component="section" display="flex" flexDirection="column" gap={4}>
       <Box display="flex" flexDirection="column" gap={1.5} maxWidth={720}>
         <Typography component="h1" variant="h1">
-          Origin: {label}
+          Source: {label}
         </Typography>
         <Typography variant="body1" color="text.secondary">
           {formatCountLabel(filteredAdditives.length)}
@@ -98,7 +98,7 @@ export default async function OriginPage({ params, searchParams }: OriginPagePro
       <AdditiveGrid
         items={sortedAdditives}
         sortMode={sortMode}
-        emptyMessage="No additives found for this origin."
+        emptyMessage="No ingredients found for this source."
       />
     </Box>
   );

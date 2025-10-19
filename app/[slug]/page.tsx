@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: AdditivePageProps): Promise<M
 
   if (!additive) {
     return {
-      title: 'Additive not found',
+      title: 'Ingredient not found',
     };
   }
 
@@ -116,7 +116,7 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
   const searchCountryText =
     searchCountryLabel ?? (searchCountryCode ? searchCountryCode.trim().toUpperCase() : null);
   const productCount = typeof additive.productCount === 'number' ? additive.productCount : null;
-  const productSearchUrl = `https://us.openfoodfacts.org/facets/additives/${additive.slug}`;
+  const productSearchUrl = `https://incidecoder.com/search?query=${encodeURIComponent(additive.title)}`;
   const articleSummary = extractArticleSummary(additive.article);
   const articleBody = extractArticleBody(additive.article);
   const originList = additive.origin.filter((value, index, list) => list.indexOf(value) === index);
@@ -342,7 +342,7 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
               color="text.secondary"
               sx={{ fontWeight: 600, whiteSpace: 'nowrap', marginRight: 1.5 }}
             >
-              Function:
+              Skin benefits:
             </Typography>
             {additive.functions.map((fn) => {
               const functionSlug = getFunctionSlug(fn);
@@ -372,7 +372,7 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
               color="text.secondary"
               sx={{ fontWeight: 600, whiteSpace: 'nowrap', marginRight: 1.5 }}
             >
-              Origin:
+              Source:
             </Typography>
             {originList.map((origin) => {
               const originSlug = getOriginSlug(origin);
@@ -440,7 +440,7 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
 
         <Typography variant="body1" color="text.secondary">
           <Box component="span" sx={{ fontWeight: 600 }}>
-            Products:
+            Product mentions:
           </Box>{' '}
           {productCount !== null ? (
             <MuiLink
@@ -450,7 +450,7 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
               underline="hover"
               sx={{ fontWeight: 500 }}
             >
-              Found in {formatProductCount(productCount)} products
+              Featured in {formatProductCount(productCount)} skin care products
             </MuiLink>
           ) : (
             'Data not available.'

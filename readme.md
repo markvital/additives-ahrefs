@@ -1,13 +1,13 @@
-# Food Additives Catalogue
+# Skin Care Ingredients Library
 
-A static catalogue that showcases a curated list of food additives. The site is built with Next.js, TypeScript, and MUI and presents each additive as a card in a clean, monochrome grid. Selecting a card reveals a detail page with synonyms, functions, descriptions, and links to further reading.
+A static library that showcases a curated list of skin care ingredients. The site is built with Next.js, TypeScript, and MUI and presents each ingredient as a card in a clean, monochrome grid. Selecting a card reveals a detail page with synonyms, benefits, descriptions, and links to further reading.
 
 ## Tech stack
 
 - [Next.js 14](https://nextjs.org/) with the App Router and static export (`output: export`)
 - [TypeScript](https://www.typescriptlang.org/)
 - [MUI](https://mui.com/material-ui/) with Roboto typography and custom grayscale theme
-- Static data files in `data/` (`additives.json` index plus per-additive folders)
+- Static data files in `data/` (`additives.json` index plus per-ingredient folders)
 
 ## Getting started
 
@@ -30,14 +30,14 @@ The development server is available at [http://localhost:3000](http://localhost:
 
 ```text
 ├── app/                        # App Router entrypoints, layouts, and pages
-│   ├── [slug]/                 # Static additive detail pages
+│   ├── [slug]/                 # Static ingredient detail pages
 │   ├── globals.css             # Global styles and layout scaffolding
 │   ├── layout.tsx              # Shared layout with header and footer
 │   └── page.tsx                # Grid of additives with function pills
 ├── components/                 # Client-side providers and shared helpers
 ├── data/
-│   ├── additives.json          # Index of additives with title and E-number
-│   ├── <slug>/props.json       # Complete additive metadata and metrics
+│   ├── additives.json          # Index of ingredients with display names
+│   ├── <slug>/props.json       # Complete ingredient metadata and metrics
 │   └── <slug>/searchHistory.json # Ahrefs keyword volume history
 ├── lib/                        # Utility helpers (theme, data loading, slugs)
 ├── public/                     # Public assets (placeholder)

@@ -38,11 +38,11 @@ export default async function HomePage({ searchParams }: HomePageProps) {
     <Box component="section" display="flex" flexDirection="column" gap={4}>
       <Box display="flex" flexDirection="column" gap={1.5} maxWidth={720}>
         <Typography component="h1" variant="h1">
-          Food additives
+          Skin care ingredients
         </Typography>
         <Typography variant="body1" color="text.secondary">
-          Explore the essential information behind common food additives. Compare their purposes and quickly
-          access in-depth resources to make informed decisions about what goes into your food.
+          Explore the hero actives behind modern skin care. Compare their benefits, learn how to pair them,
+          and build routines that match your skin goals.
         </Typography>
       </Box>
 

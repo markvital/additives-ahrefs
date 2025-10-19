@@ -117,14 +117,14 @@ export function AdditiveLookup<TAdditive extends Additive>({
 
   const noOptionsText = (() => {
     if (normalizedQuery.length === 0) {
-      return 'Start typing to search';
+      return 'Start typing to search ingredients';
     }
 
     if (normalizedQuery.length < MIN_QUERY_LENGTH) {
       return 'Type at least two characters';
     }
 
-    return 'No additives found';
+    return 'No ingredients found';
   })();
 
   const handleSearch = (query: string) => {

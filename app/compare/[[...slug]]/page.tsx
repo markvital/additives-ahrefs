@@ -15,7 +15,7 @@ interface ComparisonAdditive extends Additive {
 }
 
 const DEFAULT_DESCRIPTION =
-  'Compare food additives side by side to review their synonyms, functions, origins, and search trends.';
+  'Compare skin care ingredients side by side to review their benefits, sources, and search trends.';
 
 const parseComparisonParam = (segment?: string | null): [string | null, string | null] => {
   if (!segment) {
@@ -55,7 +55,7 @@ export async function generateMetadata({ params }: ComparePageProps): Promise<Me
 
       return {
         title: `Compare ${firstName} vs ${secondName}`,
-        description: `Side-by-side comparison of ${firstName} and ${secondName}, including synonyms, origin, search interest, and article highlights.`,
+        description: `Side-by-side comparison of ${firstName} and ${secondName}, including skin benefits, sources, search interest, and article highlights.`,
         alternates: {
           canonical,
         },
@@ -64,7 +64,7 @@ export async function generateMetadata({ params }: ComparePageProps): Promise<Me
   }
 
   return {
-    title: 'Compare food additives',
+    title: 'Compare skin care ingredients',
     description: DEFAULT_DESCRIPTION,
     alternates: {
       canonical: '/compare',

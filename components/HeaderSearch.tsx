@@ -44,7 +44,7 @@ export function HeaderSearch({ additives }: HeaderSearchProps) {
   }, [navigateToAdditive, results]);
 
   const normalizedQuery = query.trim();
-  const placeholder = !isFocused && normalizedQuery.length === 0 ? 'Search' : undefined;
+  const placeholder = !isFocused && normalizedQuery.length === 0 ? 'Search ingredients' : undefined;
   const shouldCollapseValue = !isFocused && normalizedQuery.length > 0;
 
   const transformDisplayValue = useCallback(

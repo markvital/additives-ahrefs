@@ -1,4 +1,4 @@
-const DEFAULT_SITE_URL = 'https://additives.ahrefs.com';
+const DEFAULT_SITE_URL = 'https://skincare-ingredients.ahrefs.com';
 
 const normalizeUrl = (url: string): string => {
   const trimmed = url.trim();
