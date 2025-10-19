@@ -34,7 +34,7 @@ const markdownComponents: Components = {
     </Typography>
   ),
   a: ({ children, href, ...props }) => (
-    <MuiLink href={href} underline="hover" target="_blank" rel="noopener noreferrer" {...props}>
+    <MuiLink href={href} underline="hover" {...props}>
       {children}
     </MuiLink>
   ),
@@ -72,7 +72,16 @@ export function MarkdownArticle({ content }: MarkdownArticleProps) {
   }
 
   return (
-    <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1.5 }}>
+    <Box
+      sx={{
+        display: 'flex',
+        flexDirection: 'column',
+        gap: 1.5,
+        '& section.footnotes > h2, & section.footnotes > h3': {
+          display: 'none',
+        },
+      }}
+    >
       <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownComponents}>
         {content}
       </ReactMarkdown>
