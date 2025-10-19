@@ -1,0 +1,92 @@
+{
+  "supplements": [
+    {
+      "slug": "e322-lecithins",
+      "roles": ["Emulsifier", "Dispersant"],
+      "deliveryFormats": ["Softgels", "Liquids"],
+      "highlights": "Keeps oil- and water-based ingredients uniformly mixed so actives stay evenly distributed in each dose.",
+      "safetyNotes": "Generally recognized as safe; derived from soy or sunflower and may not suit individuals with severe allergies.",
+      "regulatoryNotes": "Permitted as E322 in the EU and listed as an approved emulsifier for dietary supplements in the US." 
+    },
+    {
+      "slug": "e414-acacia-gum",
+      "roles": ["Binder", "Stabilizer"],
+      "deliveryFormats": ["Gummies", "Chewables", "Tablets"],
+      "highlights": "Provides chewiness and structure in gummies while suspending botanicals or minerals without grittiness.",
+      "safetyNotes": "Well tolerated at supplement levels, though high intakes can cause mild digestive upset in sensitive users.",
+      "regulatoryNotes": "Approved as E414 and allowed in nutraceutical confections across major markets." 
+    },
+    {
+      "slug": "e422-glycerol",
+      "roles": ["Humectant", "Plasticizer"],
+      "deliveryFormats": ["Capsules", "Softgels", "Liquids"],
+      "highlights": "Retains moisture so capsules do not become brittle and improves mouthfeel of liquid shots.",
+      "safetyNotes": "Widely regarded as safe; excessive amounts may have a mild laxative effect.",
+      "regulatoryNotes": "Listed as E422 and accepted globally for maintaining capsule flexibility." 
+    },
+    {
+      "slug": "e460i-microcrystalline-cellulose",
+      "roles": ["Filler", "Flow agent"],
+      "deliveryFormats": ["Tablets", "Capsules"],
+      "highlights": "Ensures consistent capsule weights and creates compressible tablets for fragile actives.",
+      "safetyNotes": "Insoluble fiber that is not absorbed; excessive use may cause bloating in sensitive individuals.",
+      "regulatoryNotes": "Authorized as E460i and accepted as a pharmaceutical excipient worldwide." 
+    },
+    {
+      "slug": "e464-hydroxypropyl-methyl-cellulose",
+      "roles": ["Capsule shell", "Film former"],
+      "deliveryFormats": ["Vegan capsules", "Controlled-release tablets"],
+      "highlights": "Plant-based alternative to gelatin capsules with good oxygen barrier properties.",
+      "safetyNotes": "Non-fermentable fiber; generally well tolerated even for restrictive diets.",
+      "regulatoryNotes": "Approved as E464 for supplement shells and sustained-release coatings." 
+    },
+    {
+      "slug": "e500ii-sodium-hydrogen-carbonate",
+      "roles": ["Effervescent base", "pH buffer"],
+      "deliveryFormats": ["Effervescent tablets", "Powder sachets"],
+      "highlights": "Generates effervescence with acids to improve dissolution and palatability of minerals.",
+      "safetyNotes": "Safe within typical serving sizes; high sodium load should be considered for restricted diets.",
+      "regulatoryNotes": "Permitted as E500ii and widely used in over-the-counter effervescent supplements." 
+    },
+    {
+      "slug": "e551-silicon-dioxide",
+      "roles": ["Anti-caking", "Flow agent"],
+      "deliveryFormats": ["Capsules", "Powders", "Stick packs"],
+      "highlights": "Prevents hygroscopic powders from clumping so automated filling remains accurate.",
+      "safetyNotes": "Amorphous silica is poorly absorbed and considered safe at the low levels used in supplements.",
+      "regulatoryNotes": "Recognized as E551 with clear usage limits in the EU and US for dietary supplements." 
+    },
+    {
+      "slug": "e572-magnesium-stearate",
+      "roles": ["Lubricant"],
+      "deliveryFormats": ["Capsules", "Tablets"],
+      "highlights": "Coats tooling to prevent sticking during high-speed compression or encapsulation.",
+      "safetyNotes": "Long history of safe use; very high amounts may slightly slow dissolution of some actives.",
+      "regulatoryNotes": "Allowed as E572 and referenced in pharmacopeias as a standard tablet lubricant." 
+    },
+    {
+      "slug": "e960-steviol-glycosides",
+      "roles": ["Sweetener"],
+      "deliveryFormats": ["Chewables", "Powders", "Liquids"],
+      "highlights": "Provides intense sweetness for sugar-free gummies and drink mixes without adding calories.",
+      "safetyNotes": "ADI established at 4 mg/kg body weight; blends with erythritol can smooth the aftertaste.",
+      "regulatoryNotes": "Approved as E960 with defined purity criteria for dietary supplement applications." 
+    },
+    {
+      "slug": "e967-xylitol",
+      "roles": ["Sweetener", "Bulking agent"],
+      "deliveryFormats": ["Chewables", "Gummies", "Oral sprays"],
+      "highlights": "Adds bulk and a cooling sweetness to chewable vitamins while supporting oral health claims.",
+      "safetyNotes": "Well tolerated up to 30–40 g/day; excessive intake can cause gastrointestinal discomfort.",
+      "regulatoryNotes": "Listed as E967 and accepted in sugar-free nutraceutical confectionery." 
+    },
+    {
+      "slug": "e330-citric-acid",
+      "roles": ["Acidifier", "Chelating agent"],
+      "deliveryFormats": ["Effervescent tablets", "Gummies", "Shots"],
+      "highlights": "Brightens fruit flavors and helps stabilize minerals and botanicals in liquid formats.",
+      "safetyNotes": "Extensively studied and considered safe; high acidity may irritate sensitive teeth when sipped slowly.",
+      "regulatoryNotes": "Permitted as E330 with GMP usage in supplements globally." 
+    }
+  ]
+}

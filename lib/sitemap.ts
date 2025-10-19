@@ -1,7 +1,8 @@
 import { getAdditives, getFunctionFilters, getOriginFilters } from './additives';
+import { getSupplementAdditiveSlugs } from './supplement-additives';
 import { absoluteUrl } from './site';
 
-const SITEMAP_BASE_PATHS = ['/', '/compare'] as const;
+const SITEMAP_BASE_PATHS = ['/', '/compare', '/supplements', '/supplements/compare'] as const;
 const SITEMAP_PAGE_SIZE = 5000;
 
 type SitemapSegment = {
@@ -49,6 +50,7 @@ const buildSegments = (): SitemapSegment[] => {
 
   const functionFilters = getFunctionFilters();
   const originFilters = getOriginFilters();
+  const supplementSlugs = getSupplementAdditiveSlugs();
 
   const functionUrls = functionFilters.map(({ slug }) => absoluteUrl(`/function/${slug}`));
   const originUrls = originFilters.map(({ slug }) => absoluteUrl(`/origin/${slug}`));
@@ -76,6 +78,14 @@ const buildSegments = (): SitemapSegment[] => {
         const [first, second] = getComparisonPair(additiveSlugs, index);
 
         return absoluteUrl(`/compare/${first}-vs-${second}`);
+      },
+    },
+    {
+      size: getComparisonCount(supplementSlugs.length),
+      getUrl: (index) => {
+        const [first, second] = getComparisonPair(supplementSlugs, index);
+
+        return absoluteUrl(`/supplements/compare/${first}-vs-${second}`);
       },
     },
   ];
