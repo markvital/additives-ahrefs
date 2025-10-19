@@ -21,7 +21,7 @@ const getOriginLabel = (origin: string) => {
   return `${first}${second ? second.toLowerCase() : ''}`;
 };
 
-const getTitleMinHeight = (muiTheme: Theme) => {
+const getTitleMinHeight = (muiTheme: Theme, lineCount = 2) => {
   const toRem = (value: string | number) => {
     if (typeof value === 'number') {
       return value / muiTheme.typography.htmlFontSize;
@@ -56,10 +56,34 @@ const getTitleMinHeight = (muiTheme: Theme) => {
   const safeFontSize = Number.isFinite(fontSize) && fontSize > 0 ? fontSize : 1;
   const safeLineHeight = Number.isFinite(lineHeight) && lineHeight > 0 ? lineHeight : 1.2;
 
-  return `${safeFontSize * safeLineHeight * 2}rem`;
+  return `${safeFontSize * safeLineHeight * lineCount}rem`;
 };
 
-const titleMinHeight = getTitleMinHeight(theme);
+const regularTitleMinHeight = getTitleMinHeight(theme, 2);
+const longTitleMinHeight = getTitleMinHeight(theme, 3);
+
+const scaleTypographyValue = (value: string | number | undefined, scale: number) => {
+  if (!value) {
+    return undefined;
+  }
+
+  if (typeof value === 'number') {
+    return value * scale;
+  }
+
+  if (value.endsWith('px')) {
+    const numeric = parseFloat(value);
+    return Number.isFinite(numeric) ? `${numeric * scale}px` : value;
+  }
+
+  if (value.endsWith('rem') || value.endsWith('em')) {
+    return `calc(${value} * ${scale})`;
+  }
+
+  return value;
+};
+
+const longTitleFontSize = scaleTypographyValue(theme.typography.h2.fontSize, 0.9);
 
 interface AdditiveGridProps {
   items: Additive[];
@@ -112,6 +136,7 @@ export function AdditiveGrid({
           typeof additive.productCount === 'number' ? Math.max(0, additive.productCount) : null;
         const showProductCount = typeof productCountValue === 'number' && productCountValue > 0;
         const productCountLabel = showProductCount ? formatProductCount(productCountValue) : null;
+        const isLongTitle = additive.title.trim().length > 36;
         return (
           <Card key={additive.slug} sx={{ display: 'flex', flexDirection: 'column' }}>
             <CardActionArea
@@ -158,10 +183,12 @@ export function AdditiveGrid({
                     variant="h2"
                     sx={{
                       display: '-webkit-box',
-                      WebkitLineClamp: 2,
                       WebkitBoxOrient: 'vertical',
                       overflow: 'hidden',
-                      minHeight: titleMinHeight,
+                      WebkitLineClamp: isLongTitle ? 3 : 2,
+                      minHeight: isLongTitle ? longTitleMinHeight : regularTitleMinHeight,
+                      fontSize: isLongTitle ? longTitleFontSize : undefined,
+                      overflowWrap: 'anywhere',
                     }}
                   >
                     {additive.title}
