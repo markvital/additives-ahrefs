@@ -39,7 +39,7 @@ a {
 
 
 .site-header {
-  padding: 0.75rem 0;
+  padding: 0.46875rem 0;
   border-bottom: 1px solid #e0e0e0;
 }
 
@@ -56,6 +56,24 @@ a {
   justify-content: space-between;
   gap: 1.5rem;
   width: 100%;
+}
+
+.header-logo {
+  display: inline-flex;
+  align-items: center;
+  height: 50px;
+}
+
+.header-logo span {
+  display: inline-flex;
+  height: 100%;
+  align-items: center;
+}
+
+.header-logo img {
+  display: block;
+  height: 100%;
+  width: auto;
 }
 
 .header-nav {
