@@ -263,7 +263,7 @@ function normaliseFunctions(functions) {
     .filter((item, index, list) => item.length > 0 && list.indexOf(item) === index);
 }
 
-async function callOpenAi(client, systemPrompt, payload, { debug = false } = {}) {
+async function callOpenAi(client, systemPrompt, payload, slugListText, { debug = false } = {}) {
   const additiveLabel = [payload.eNumber, payload.title].filter(Boolean).join(' — ') || 'the additive';
 
   try {
@@ -281,12 +281,16 @@ async function callOpenAi(client, systemPrompt, payload, { debug = false } = {})
             {
               type: 'input_text',
               text: [
+                'Known additive slugs for internal linking (comma separated):',
+                slugListText,
+                '',
                 `Create a publish-ready Markdown article about ${additiveLabel}.`,
                 'Respect all layout, linking, and validation requirements in the system prompt.',
-                'Use the PubChem URL exactly as provided. Do not fabricate URLs.',
                 'Return only the Markdown article content. Do not include summaries or additional formats.',
                 '',
                 `Additive metadata:\n${JSON.stringify(payload, null, 2)}`,
+                `Additive title: ${payload.title ?? ''}`,
+                `Additive e-number: ${payload.eNumber ?? ''}`,
               ].join('\n'),
             },
           ],
@@ -357,6 +361,7 @@ async function processAdditive({
   apiClient,
   index,
   total,
+  slugListText,
   debug = false,
 }) {
   const relativeSlugDir = path.join('data', additive.slug);
@@ -374,7 +379,7 @@ async function processAdditive({
     wikipedia: typeof props.wikipedia === 'string' ? props.wikipedia : '',
   };
 
-  const articleMarkdown = await callOpenAi(apiClient, promptTemplate, metadataPayload, { debug });
+  const articleMarkdown = await callOpenAi(apiClient, promptTemplate, metadataPayload, slugListText, { debug });
 
   await fs.mkdir(path.join(DATA_DIR, additive.slug), { recursive: true });
   await fs.writeFile(articlePath, `${articleMarkdown.trim()}\n`, 'utf8');
@@ -388,6 +393,8 @@ async function run() {
     const apiClient = new OpenAI({ apiKey });
     const promptTemplate = await readPromptTemplate();
     const additives = await readAdditivesIndex();
+    const allSlugs = Array.from(new Set(additives.map((entry) => entry.slug).filter(Boolean)));
+    const slugListText = allSlugs.join(', ');
     const cliArgs = parseCommandLineArgs(process.argv);
 
     const envLimitRaw = process.env.GENERATOR_LIMIT;
@@ -507,6 +514,7 @@ async function run() {
             apiClient,
             index: localIndex,
             total,
+            slugListText,
             debug: debugEnabled,
           });
         } catch (error) {
