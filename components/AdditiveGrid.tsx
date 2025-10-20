@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { Avatar, Box, Card, CardActionArea, CardContent, Chip, Stack, Tooltip, Typography } from '@mui/material';
-import type { Theme } from '@mui/material/styles';
 
 import type { Additive, AdditiveSortMode } from '../lib/additives';
 import { DEFAULT_ADDITIVE_SORT_MODE } from '../lib/additives';
@@ -11,69 +10,36 @@ import { getOriginAbbreviation, getOriginIcon } from '../lib/origin-icons';
 import { SearchSparkline } from './SearchSparkline';
 import { theme } from '../lib/theme';
 
-const getTitleMinHeight = (muiTheme: Theme, lineCount = 2) => {
-  const toRem = (value: string | number) => {
-    if (typeof value === 'number') {
-      return value / muiTheme.typography.htmlFontSize;
-    }
-
-    if (value.endsWith('rem')) {
-      return parseFloat(value);
-    }
-
-    if (value.endsWith('px')) {
-      return parseFloat(value) / muiTheme.typography.htmlFontSize;
-    }
-
-    return parseFloat(value);
-  };
-
-  const parseLineHeight = (value: string | number) => {
-    if (typeof value === 'number') {
-      return value;
-    }
-
-    if (value.endsWith('%')) {
-      return parseFloat(value) / 100;
-    }
-
-    return parseFloat(value);
-  };
-
-  const fontSize = toRem(muiTheme.typography.h2.fontSize ?? 0);
-  const lineHeight = parseLineHeight(muiTheme.typography.h2.lineHeight ?? 0);
-
-  const safeFontSize = Number.isFinite(fontSize) && fontSize > 0 ? fontSize : 1;
-  const safeLineHeight = Number.isFinite(lineHeight) && lineHeight > 0 ? lineHeight : 1.2;
-
-  return `${safeFontSize * safeLineHeight * lineCount}rem`;
-};
-
-const regularTitleMinHeight = getTitleMinHeight(theme, 2);
-const longTitleMinHeight = getTitleMinHeight(theme, 3);
-
-const scaleTypographyValue = (value: string | number | undefined, scale: number) => {
-  if (!value) {
-    return undefined;
-  }
-
+const resolveTypographySize = (value: string | number | undefined, fallback = '1.5rem') => {
   if (typeof value === 'number') {
-    return value * scale;
+    return `${value}px`;
   }
 
-  if (value.endsWith('px')) {
-    const numeric = parseFloat(value);
-    return Number.isFinite(numeric) ? `${numeric * scale}px` : value;
+  if (typeof value === 'string' && value.trim().length > 0) {
+    return value;
   }
 
-  if (value.endsWith('rem') || value.endsWith('em')) {
-    return `calc(${value} * ${scale})`;
-  }
-
-  return value;
+  return fallback;
 };
 
-const longTitleFontSize = scaleTypographyValue(theme.typography.h2.fontSize, 0.9);
+const baseTitleFontSize = resolveTypographySize(theme.typography.h2?.fontSize);
+const SOFT_HYPHEN = '\u00ad';
+
+const hyphenateLongWords = (text: string) =>
+  text.replace(/[A-Za-z]{12,}/g, (word) => {
+    let result = '';
+
+    for (let index = 0; index < word.length; index += 6) {
+      const sliceEnd = Math.min(word.length, index + 6);
+      result += word.slice(index, sliceEnd);
+
+      if (sliceEnd < word.length) {
+        result += SOFT_HYPHEN;
+      }
+    }
+
+    return result;
+  });
 
 interface AdditiveGridProps {
   items: Additive[];
@@ -126,7 +92,26 @@ export function AdditiveGrid({
           typeof additive.productCount === 'number' ? Math.max(0, additive.productCount) : null;
         const showProductCount = typeof productCountValue === 'number' && productCountValue > 0;
         const productCountLabel = showProductCount ? formatProductCount(productCountValue) : null;
-        const isLongTitle = additive.title.trim().length > 36;
+        const normalizedTitle = additive.title.replace(/\s+/g, ' ').trim();
+        const words = normalizedTitle.split(/\s+/);
+        const longestWordLength = words.reduce((max, word) => Math.max(max, word.replace(/[^A-Za-z]/g, '').length), 0);
+        const titleLength = normalizedTitle.length;
+        let titleFontScale = 1;
+
+        if (titleLength > 72 || longestWordLength > 32) {
+          titleFontScale = 0.78;
+        } else if (titleLength > 58 || longestWordLength > 26) {
+          titleFontScale = 0.84;
+        } else if (titleLength > 42 || longestWordLength > 22) {
+          titleFontScale = 0.9;
+        } else if (titleLength > 28 || longestWordLength > 18) {
+          titleFontScale = 0.96;
+        }
+
+        const titleFontSize =
+          titleFontScale === 1 ? undefined : `calc(${baseTitleFontSize} * ${titleFontScale})`;
+        const showSoftHyphenation = longestWordLength > 18;
+        const displayTitle = showSoftHyphenation ? hyphenateLongWords(normalizedTitle) : normalizedTitle;
 
         return (
           <Card key={additive.slug} sx={{ display: 'flex', flexDirection: 'column' }}>
@@ -186,17 +171,22 @@ export function AdditiveGrid({
                   <Typography
                     component="h2"
                     variant="h2"
+                    lang="en"
                     sx={{
                       display: '-webkit-box',
                       WebkitBoxOrient: 'vertical',
+                      WebkitLineClamp: 3,
                       overflow: 'hidden',
-                      WebkitLineClamp: isLongTitle ? 3 : 2,
-                      minHeight: isLongTitle ? longTitleMinHeight : regularTitleMinHeight,
-                      fontSize: isLongTitle ? longTitleFontSize : undefined,
-                      overflowWrap: 'anywhere',
+                      width: '100%',
+                      lineHeight: 1.2,
+                      fontSize: titleFontSize,
+                      overflowWrap: showSoftHyphenation ? 'anywhere' : 'break-word',
+                      wordBreak: 'break-word',
+                      hyphens: 'auto',
+                      textOverflow: 'ellipsis',
                     }}
                   >
-                    {additive.title}
+                    {displayTitle}
                   </Typography>
 
                   {visibleFunctions.length > 0 ? (
