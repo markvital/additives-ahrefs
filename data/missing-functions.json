@@ -1,0 +1,1302 @@
+[
+  {
+    "slug": "e370-1-4-heptonolactone",
+    "title": "1‚4-Heptonolactone",
+    "eNumber": "E370"
+  },
+  {
+    "slug": "e586-4-hexylresorcinol",
+    "title": "4-hexylresorcinol",
+    "eNumber": "E586"
+  },
+  {
+    "slug": "e929-acetone-peroxide",
+    "title": "acetone peroxide",
+    "eNumber": "E929"
+  },
+  {
+    "slug": "e472-acid-esters-of-mono-and-diglycerides-of-fatty-acids",
+    "title": "acid esters of mono- and diglycerides of fatty acids",
+    "eNumber": "E472"
+  },
+  {
+    "slug": "e355-adipic-acid",
+    "title": "Adipic acid",
+    "eNumber": "E355"
+  },
+  {
+    "slug": "e369-alanin",
+    "title": "Alanin",
+    "eNumber": "E369"
+  },
+  {
+    "slug": "e103-alkannin",
+    "title": "Alkannin",
+    "eNumber": "E103"
+  },
+  {
+    "slug": "e1100-alpha-amylase",
+    "title": "Alpha-Amylase",
+    "eNumber": "E1100"
+  },
+  {
+    "slug": "e307-alpha-tocopherol",
+    "title": "Alpha-tocopherol",
+    "eNumber": "E307"
+  },
+  {
+    "slug": "e173-aluminium",
+    "title": "Aluminium",
+    "eNumber": "E173"
+  },
+  {
+    "slug": "e522-aluminium-potassium-sulphate",
+    "title": "Aluminium potassium sulphate",
+    "eNumber": "E522"
+  },
+  {
+    "slug": "e559-aluminium-silicate",
+    "title": "Aluminium silicate",
+    "eNumber": "E559"
+  },
+  {
+    "slug": "e521-aluminium-sodium-sulphate",
+    "title": "Aluminium sodium sulphate",
+    "eNumber": "E521"
+  },
+  {
+    "slug": "e573-aluminium-stearate",
+    "title": "Aluminium stearate",
+    "eNumber": "E573"
+  },
+  {
+    "slug": "e520-aluminium-sulphate",
+    "title": "Aluminium sulphate",
+    "eNumber": "E520"
+  },
+  {
+    "slug": "e264-ammonium-acetate",
+    "title": "Ammonium acetate",
+    "eNumber": "E264"
+  },
+  {
+    "slug": "e359-ammonium-adipate",
+    "title": "ammonium adipate",
+    "eNumber": "E359"
+  },
+  {
+    "slug": "ammonium-and-sodium-carbonates",
+    "title": "Ammonium and sodium carbonates",
+    "eNumber": ""
+  },
+  {
+    "slug": "e503i-ammonium-carbonate",
+    "title": "Ammonium carbonate",
+    "eNumber": "E503I"
+  },
+  {
+    "slug": "e503-ammonium-carbonates",
+    "title": "Ammonium carbonates",
+    "eNumber": "E503"
+  },
+  {
+    "slug": "e510-ammonium-chloride",
+    "title": "Ammonium chloride",
+    "eNumber": "E510"
+  },
+  {
+    "slug": "e503ii-ammonium-hydrogen-carbonate",
+    "title": "Ammonium hydrogen carbonate",
+    "eNumber": "E503II"
+  },
+  {
+    "slug": "e527-ammonium-hydroxide",
+    "title": "Ammonium hydroxide",
+    "eNumber": "E527"
+  },
+  {
+    "slug": "e328-ammonium-lactate",
+    "title": "ammonium lactate",
+    "eNumber": "E328"
+  },
+  {
+    "slug": "e349-ammonium-malate",
+    "title": "ammonium malate",
+    "eNumber": "E349"
+  },
+  {
+    "slug": "e923-ammonium-persulfate",
+    "title": "ammonium persulfate",
+    "eNumber": "E923"
+  },
+  {
+    "slug": "e545-ammonium-polyphosphate",
+    "title": "Ammonium polyphosphate",
+    "eNumber": "E545"
+  },
+  {
+    "slug": "e517-ammonium-sulphate",
+    "title": "Ammonium sulphate",
+    "eNumber": "E517"
+  },
+  {
+    "slug": "e1207-anionic-methacrylate-copolymer",
+    "title": "Anionic methacrylate copolymer",
+    "eNumber": "E1207"
+  },
+  {
+    "slug": "e323-anoxomer",
+    "title": "Anoxomer",
+    "eNumber": "E323"
+  },
+  {
+    "slug": "e409-arabinogalactan",
+    "title": "Arabinogalactan",
+    "eNumber": "E409"
+  },
+  {
+    "slug": "e938-argon",
+    "title": "Argon",
+    "eNumber": "E938"
+  },
+  {
+    "slug": "e161j-astaxanthin",
+    "title": "Astaxanthin",
+    "eNumber": "E161J"
+  },
+  {
+    "slug": "e927a-azodicarbonamide",
+    "title": "Azodicarbonamide",
+    "eNumber": "E927A"
+  },
+  {
+    "slug": "e927-azodicarbonamide-and-carbamide",
+    "title": "Azodicarbonamide and Carbamide",
+    "eNumber": "E927"
+  },
+  {
+    "slug": "e408-bakers-yeast-glycan",
+    "title": "Bakers yeast glycan",
+    "eNumber": "E408"
+  },
+  {
+    "slug": "e1205-basic-methacrylate-copolymer",
+    "title": "Basic methacrylate copolymer",
+    "eNumber": "E1205"
+  },
+  {
+    "slug": "e558-bentonite",
+    "title": "Bentonite",
+    "eNumber": "E558"
+  },
+  {
+    "slug": "e906-benzoin-resin",
+    "title": "Benzoin resin",
+    "eNumber": "E906"
+  },
+  {
+    "slug": "e1519-benzyl-alcohol",
+    "title": "Benzyl alcohol",
+    "eNumber": "E1519"
+  },
+  {
+    "slug": "e152-black-7984",
+    "title": "Black 7984",
+    "eNumber": "E152"
+  },
+  {
+    "slug": "e284-boric-acid",
+    "title": "Boric acid",
+    "eNumber": "E284"
+  },
+  {
+    "slug": "e443-brominated-vegetable-oil",
+    "title": "Brominated vegetable oil",
+    "eNumber": "E443"
+  },
+  {
+    "slug": "e154-brown-fk",
+    "title": "Brown FK",
+    "eNumber": "E154"
+  },
+  {
+    "slug": "e267-buffered-vinegar",
+    "title": "Buffered vinegar",
+    "eNumber": "E267"
+  },
+  {
+    "slug": "e943a-butane",
+    "title": "Butane",
+    "eNumber": "E943A"
+  },
+  {
+    "slug": "e634-calcium-5-ribonucleotide",
+    "title": "Calcium 5'-ribonucleotide",
+    "eNumber": "E634"
+  },
+  {
+    "slug": "e556-calcium-aluminium-silicate",
+    "title": "Calcium aluminium silicate",
+    "eNumber": "E556"
+  },
+  {
+    "slug": "e227-calcium-bisulphite",
+    "title": "Calcium bisulphite",
+    "eNumber": "E227"
+  },
+  {
+    "slug": "e170-calcium-carbonates",
+    "title": "Calcium carbonates",
+    "eNumber": "E170"
+  },
+  {
+    "slug": "e623-calcium-diglutamate",
+    "title": "Calcium diglutamate",
+    "eNumber": "E623"
+  },
+  {
+    "slug": "e318-calcium-erythorbin",
+    "title": "Calcium erythorbin",
+    "eNumber": "E318"
+  },
+  {
+    "slug": "e538-calcium-ferrocyanide",
+    "title": "Calcium ferrocyanide",
+    "eNumber": "E538"
+  },
+  {
+    "slug": "e238-calcium-formiate",
+    "title": "Calcium formiate",
+    "eNumber": "E238"
+  },
+  {
+    "slug": "e367-calcium-fumarate",
+    "title": "Calcium fumarate",
+    "eNumber": "E367"
+  },
+  {
+    "slug": "e383-calcium-glycerophosphate",
+    "title": "calcium glycerophosphate",
+    "eNumber": "E383"
+  },
+  {
+    "slug": "e629-calcium-guanylate",
+    "title": "Calcium guanylate",
+    "eNumber": "E629"
+  },
+  {
+    "slug": "e170ii-calcium-hydrogen-carbonate",
+    "title": "Calcium hydrogen carbonate",
+    "eNumber": "E170II"
+  },
+  {
+    "slug": "e526-calcium-hydroxide",
+    "title": "Calcium hydroxide",
+    "eNumber": "E526"
+  },
+  {
+    "slug": "e633-calcium-inosinate",
+    "title": "Calcium inosinate",
+    "eNumber": "E633"
+  },
+  {
+    "slug": "e916-calcium-iodate",
+    "title": "Calcium iodate",
+    "eNumber": "E916"
+  },
+  {
+    "slug": "e399-calcium-lactobionate",
+    "title": "Calcium lactobionate",
+    "eNumber": "E399"
+  },
+  {
+    "slug": "e352i-calcium-malate",
+    "title": "Calcium malate",
+    "eNumber": "E352I"
+  },
+  {
+    "slug": "e352-calcium-malates",
+    "title": "Calcium malates",
+    "eNumber": "E352"
+  },
+  {
+    "slug": "e529-calcium-oxide",
+    "title": "Calcium oxide",
+    "eNumber": "E529"
+  },
+  {
+    "slug": "e930-calcium-peroxide",
+    "title": "calcium peroxide",
+    "eNumber": "E930"
+  },
+  {
+    "slug": "e544-calcium-polyphosphate",
+    "title": "Calcium polyphosphate",
+    "eNumber": "E544"
+  },
+  {
+    "slug": "e552-calcium-silicate",
+    "title": "Calcium silicate",
+    "eNumber": "E552"
+  },
+  {
+    "slug": "e486-calcium-stearoyl-fumarate",
+    "title": "Calcium stearoyl fumarate",
+    "eNumber": "E486"
+  },
+  {
+    "slug": "e226-calcium-sulphite",
+    "title": "Calcium sulphite",
+    "eNumber": "E226"
+  },
+  {
+    "slug": "e354-calcium-tartrate",
+    "title": "Calcium tartrate",
+    "eNumber": "E354"
+  },
+  {
+    "slug": "e150-caramel",
+    "title": "Caramel",
+    "eNumber": "E150"
+  },
+  {
+    "slug": "e927b-carbamide",
+    "title": "Carbamide",
+    "eNumber": "E927B"
+  },
+  {
+    "slug": "e1210-carbomer",
+    "title": "Carbomer",
+    "eNumber": "E1210"
+  },
+  {
+    "slug": "e502-carbonates",
+    "title": "Carbonates",
+    "eNumber": "E502"
+  },
+  {
+    "slug": "e160-carotenoids",
+    "title": "Carotenoids",
+    "eNumber": "E160"
+  },
+  {
+    "slug": "e925-chlorine",
+    "title": "Chlorine",
+    "eNumber": "E925"
+  },
+  {
+    "slug": "e926-chlorine-dioxide",
+    "title": "Chlorine dioxide",
+    "eNumber": "E926"
+  },
+  {
+    "slug": "e1000-cholic-acid",
+    "title": "Cholic acid",
+    "eNumber": "E1000"
+  },
+  {
+    "slug": "e1001-choline-salt",
+    "title": "Choline salt",
+    "eNumber": "E1001"
+  },
+  {
+    "slug": "e121-citrus-red-2",
+    "title": "Citrus Red 2",
+    "eNumber": "E121"
+  },
+  {
+    "slug": "e519-copper-sulphate",
+    "title": "Copper sulphate",
+    "eNumber": "E519"
+  },
+  {
+    "slug": "e161c-cryptoaxanthin",
+    "title": "Cryptoaxanthin",
+    "eNumber": "E161C"
+  },
+  {
+    "slug": "e265-dehydroacetic-acid",
+    "title": "Dehydroacetic acid",
+    "eNumber": "E265"
+  },
+  {
+    "slug": "e309-delta-tocopherol",
+    "title": "Delta-tocopherol",
+    "eNumber": "E309"
+  },
+  {
+    "slug": "e540-dicalcium-diphosphate",
+    "title": "Dicalcium diphosphate",
+    "eNumber": "E540"
+  },
+  {
+    "slug": "dimethyl-sulfone",
+    "title": "dimethyl sulfone",
+    "eNumber": ""
+  },
+  {
+    "slug": "e900-dimethylpolysiloxane-and-methylphenylpolysiloxane",
+    "title": "Dimethylpolysiloxane and Methylphenylpolysiloxane",
+    "eNumber": "E900"
+  },
+  {
+    "slug": "e628-dipotassium-guanylate",
+    "title": "Dipotassium guanylate",
+    "eNumber": "E628"
+  },
+  {
+    "slug": "e632-dipotassium-inosinate",
+    "title": "Dipotassium inosinate",
+    "eNumber": "E632"
+  },
+  {
+    "slug": "e336ii-dipotassium-tartrate",
+    "title": "Dipotassium tartrate",
+    "eNumber": "E336II"
+  },
+  {
+    "slug": "e635-disodium-5-ribonucleotide",
+    "title": "Disodium 5'-ribonucleotide",
+    "eNumber": "E635"
+  },
+  {
+    "slug": "e627-disodium-guanylate",
+    "title": "Disodium guanylate",
+    "eNumber": "E627"
+  },
+  {
+    "slug": "e631-disodium-inosinate",
+    "title": "Disodium inosinate",
+    "eNumber": "E631"
+  },
+  {
+    "slug": "e312-dodecyl-gallate",
+    "title": "Dodecyl gallate",
+    "eNumber": "E312"
+  },
+  {
+    "slug": "e101a-riboflavin-5-phosphate",
+    "title": "Riboflavin-5'-phosphate",
+    "eNumber": "E101A"
+  },
+  {
+    "slug": "e105-fast-yellow-ab",
+    "title": "Fast Yellow AB",
+    "eNumber": "E105"
+  },
+  {
+    "slug": "e386-disodium-ethylenediaminetetraacetate-disodium-edta",
+    "title": "Disodium ethylenediaminetetraacetate (Disodium EDTA)",
+    "eNumber": "E386"
+  },
+  {
+    "slug": "e387-oxystearin",
+    "title": "Oxystearin",
+    "eNumber": "E387"
+  },
+  {
+    "slug": "e389-dilauryl-thiodipropionate",
+    "title": "Dilauryl thiodipropionate",
+    "eNumber": "E389"
+  },
+  {
+    "slug": "e390-distearyl-thiodipropionate",
+    "title": "Distearyl thiodipropionate",
+    "eNumber": "E390"
+  },
+  {
+    "slug": "e411-oat-gum",
+    "title": "Oat gum",
+    "eNumber": "E411"
+  },
+  {
+    "slug": "e450viii-dimagnesium-diphosphate",
+    "title": "Dimagnesium diphosphate",
+    "eNumber": "E450VIII"
+  },
+  {
+    "slug": "e571-ammonium-stearate",
+    "title": "Ammonium stearate",
+    "eNumber": "E571"
+  },
+  {
+    "slug": "e638-sodium-l-aspartate",
+    "title": "Sodium L-aspartate",
+    "eNumber": "E638"
+  },
+  {
+    "slug": "e639-dl-alanine",
+    "title": "DL-alanine",
+    "eNumber": "E639"
+  },
+  {
+    "slug": "e642-l-lysine-hydrochloride",
+    "title": "L-lysine hydrochloride",
+    "eNumber": "E642"
+  },
+  {
+    "slug": "e317-erythorbin-acid",
+    "title": "Erythorbin acid",
+    "eNumber": "E317"
+  },
+  {
+    "slug": "e1510-ethanol",
+    "title": "Ethanol",
+    "eNumber": "E1510"
+  },
+  {
+    "slug": "e488-ethoxylated-mono-and-di-glycerides",
+    "title": "Ethoxylated Mono- and Di-Glycerides",
+    "eNumber": "E488"
+  },
+  {
+    "slug": "e324-ethoxyquin",
+    "title": "Ethoxyquin",
+    "eNumber": "E324"
+  },
+  {
+    "slug": "e313-ethyl-gallate",
+    "title": "Ethyl gallate",
+    "eNumber": "E313"
+  },
+  {
+    "slug": "e637-ethyl-maltol",
+    "title": "Ethyl maltol",
+    "eNumber": "E637"
+  },
+  {
+    "slug": "e392-extracts-of-rosemary",
+    "title": "Extracts of rosemary",
+    "eNumber": "E392"
+  },
+  {
+    "slug": "e911-fatty-acid-methyl-ester",
+    "title": "Fatty acid methyl ester",
+    "eNumber": "E911"
+  },
+  {
+    "slug": "e570-fatty-acids",
+    "title": "Fatty acids",
+    "eNumber": "E570"
+  },
+  {
+    "slug": "e381-ferric-ammonium-citrate",
+    "title": "ferric ammonium citrate",
+    "eNumber": "E381"
+  },
+  {
+    "slug": "e505-ferrous-carbonate",
+    "title": "Ferrous carbonate",
+    "eNumber": "E505"
+  },
+  {
+    "slug": "e537-ferrous-hexacyanomanganate",
+    "title": "ferrous hexacyanomanganate",
+    "eNumber": "E537"
+  },
+  {
+    "slug": "e585-ferrous-lactate",
+    "title": "Ferrous lactate",
+    "eNumber": "E585"
+  },
+  {
+    "slug": "e106-flavin-mononucleotide",
+    "title": "flavin mononucleotide",
+    "eNumber": "E106"
+  },
+  {
+    "slug": "e240-formaldehyde",
+    "title": "Formaldehyde",
+    "eNumber": "E240"
+  },
+  {
+    "slug": "e236-formic-acid",
+    "title": "Formic acid",
+    "eNumber": "E236"
+  },
+  {
+    "slug": "e297-fumaric-acid",
+    "title": "Fumaric acid",
+    "eNumber": "E297"
+  },
+  {
+    "slug": "e308-gamme-tocopherol",
+    "title": "Gamme-tocopherol",
+    "eNumber": "E308"
+  },
+  {
+    "slug": "e165-gardenia-blue",
+    "title": "Gardenia Blue",
+    "eNumber": "E165"
+  },
+  {
+    "slug": "e428-gelatine",
+    "title": "Gelatine",
+    "eNumber": "E428"
+  },
+  {
+    "slug": "e574-gluconic-acid",
+    "title": "Gluconic acid",
+    "eNumber": "E574"
+  },
+  {
+    "slug": "e620-glutamic-acid",
+    "title": "Glutamic acid",
+    "eNumber": "E620"
+  },
+  {
+    "slug": "e1517-glyceryl-diacetate",
+    "title": "Glyceryl diacetate",
+    "eNumber": "E1517"
+  },
+  {
+    "slug": "e640i-glycine",
+    "title": "Glycine",
+    "eNumber": "E640I"
+  },
+  {
+    "slug": "e640-glycine-and-its-sodium-salt",
+    "title": "Glycine and its sodium salt",
+    "eNumber": "E640"
+  },
+  {
+    "slug": "e246-glycolipids",
+    "title": "Glycolipids",
+    "eNumber": "E246"
+  },
+  {
+    "slug": "e175-gold",
+    "title": "Gold",
+    "eNumber": "E175"
+  },
+  {
+    "slug": "e142-green-s",
+    "title": "Green s",
+    "eNumber": "E142"
+  },
+  {
+    "slug": "e626-guanylic-acid",
+    "title": "Guanylic acid",
+    "eNumber": "E626"
+  },
+  {
+    "slug": "e241-gum-guaicum",
+    "title": "Gum Guaicum",
+    "eNumber": "E241"
+  },
+  {
+    "slug": "e939-helium",
+    "title": "Helium",
+    "eNumber": "E939"
+  },
+  {
+    "slug": "e557-hemimorphite",
+    "title": "hemimorphite",
+    "eNumber": "E557"
+  },
+  {
+    "slug": "e209-heptylparaben",
+    "title": "Heptylparaben",
+    "eNumber": "E209"
+  },
+  {
+    "slug": "e507-hydrochloric-acid",
+    "title": "Hydrochloric acid",
+    "eNumber": "E507"
+  },
+  {
+    "slug": "e949-hydrogen",
+    "title": "Hydrogen",
+    "eNumber": "E949"
+  },
+  {
+    "slug": "e907-hydrogenated-poly-1-decene",
+    "title": "Hydrogenated poly-1-decene",
+    "eNumber": "E907"
+  },
+  {
+    "slug": "e130-indanthrene-blue-rs",
+    "title": "Indanthrene blue RS",
+    "eNumber": "E130"
+  },
+  {
+    "slug": "e630-inosinic-acid",
+    "title": "Inosinic acid",
+    "eNumber": "E630"
+  },
+  {
+    "slug": "e579-iron-gluconate",
+    "title": "iron gluconate",
+    "eNumber": "E579"
+  },
+  {
+    "slug": "e943b-isobutane",
+    "title": "Isobutane",
+    "eNumber": "E943B"
+  },
+  {
+    "slug": "e920-l-cysteine",
+    "title": "l-cysteine",
+    "eNumber": "E920"
+  },
+  {
+    "slug": "e921-l-cysteine-hydrochloride-monohydrate",
+    "title": "L-cysteine hydrochloride monohydrate",
+    "eNumber": "E921"
+  },
+  {
+    "slug": "e270-lactic-acid",
+    "title": "Lactic acid",
+    "eNumber": "E270"
+  },
+  {
+    "slug": "e478-lactylated-fatty-acid-esters-of-glycerol-and-propane-1",
+    "title": "Lactylated fatty acid esters of glycerol and propane-1",
+    "eNumber": "E478"
+  },
+  {
+    "slug": "e913-lanolin",
+    "title": "Lanolin",
+    "eNumber": "E913"
+  },
+  {
+    "slug": "e344-lecithin-citrate",
+    "title": "Lecithin citrate",
+    "eNumber": "E344"
+  },
+  {
+    "slug": "e641-leucine",
+    "title": "Leucine",
+    "eNumber": "E641"
+  },
+  {
+    "slug": "e1104-lipase",
+    "title": "lipase",
+    "eNumber": "E1104"
+  },
+  {
+    "slug": "e180-litholrubine-bk",
+    "title": "Litholrubine bk",
+    "eNumber": "E180"
+  },
+  {
+    "slug": "e345-magnesium-citrate",
+    "title": "Magnesium citrate",
+    "eNumber": "E345"
+  },
+  {
+    "slug": "e625-magnesium-diglutamate",
+    "title": "Magnesium diglutamate",
+    "eNumber": "E625"
+  },
+  {
+    "slug": "e580-magnesium-gluconate",
+    "title": "Magnesium Gluconate",
+    "eNumber": "E580"
+  },
+  {
+    "slug": "e528-magnesium-hydroxide",
+    "title": "Magnesium hydroxide",
+    "eNumber": "E528"
+  },
+  {
+    "slug": "e329-magnesium-lactate",
+    "title": "Magnesium lactate",
+    "eNumber": "E329"
+  },
+  {
+    "slug": "e530-magnesium-oxide",
+    "title": "Magnesium oxide",
+    "eNumber": "E530"
+  },
+  {
+    "slug": "e546-magnesium-pyrophosphate",
+    "title": "Magnesium pyrophosphate",
+    "eNumber": "E546"
+  },
+  {
+    "slug": "e572-magnesium-stearate",
+    "title": "Magnesium stearate",
+    "eNumber": "E572"
+  },
+  {
+    "slug": "e518-magnesium-sulphate",
+    "title": "Magnesium sulphate",
+    "eNumber": "E518"
+  },
+  {
+    "slug": "e296-malic-acid",
+    "title": "Malic acid",
+    "eNumber": "E296"
+  },
+  {
+    "slug": "e636-maltol",
+    "title": "Maltol",
+    "eNumber": "E636"
+  },
+  {
+    "slug": "e353-metatartaric-acid",
+    "title": "Metatartaric acid",
+    "eNumber": "E353"
+  },
+  {
+    "slug": "e489-methyl-glucoside-coconut-oil-ester",
+    "title": "Methyl glucoside-coconut oil ester",
+    "eNumber": "E489"
+  },
+  {
+    "slug": "e905ci-microcrystalline-wax",
+    "title": "Microcrystalline wax",
+    "eNumber": "E905CI"
+  },
+  {
+    "slug": "e905a-mineral-oil",
+    "title": "mineral oil",
+    "eNumber": "E905A"
+  },
+  {
+    "slug": "e472f-mixed-acetic-and-tartaric-acid-esters-of-mono-and-diglycerides-of-fatty-acids",
+    "title": "Mixed acetic and tartaric acid esters of mono- and diglycerides of fatty acids",
+    "eNumber": "E472F"
+  },
+  {
+    "slug": "e624-monoammonium-glutamate",
+    "title": "Monoammonium glutamate",
+    "eNumber": "E624"
+  },
+  {
+    "slug": "e622-monopotassium-glutamate",
+    "title": "Monopotassium glutamate",
+    "eNumber": "E622"
+  },
+  {
+    "slug": "e336i-monopotassium-tartrate",
+    "title": "Monopotassium tartrate",
+    "eNumber": "E336I"
+  },
+  {
+    "slug": "e912-montanic-acid-esters",
+    "title": "Montanic acid esters",
+    "eNumber": "E912"
+  },
+  {
+    "slug": "e1206-neutral-methacrylate-copolymer",
+    "title": "Neutral methacrylate copolymer",
+    "eNumber": "E1206"
+  },
+  {
+    "slug": "e375-nicotinic-acid",
+    "title": "Nicotinic acid",
+    "eNumber": "E375"
+  },
+  {
+    "slug": "e931-nitrogen",
+    "title": "Nitrogen",
+    "eNumber": "E931"
+  },
+  {
+    "slug": "e932-nitrogen-oxide",
+    "title": "Nitrogen oxide",
+    "eNumber": "E932"
+  },
+  {
+    "slug": "e919-nitrosyl-chloride",
+    "title": "Nitrosyl chloride",
+    "eNumber": "E919"
+  },
+  {
+    "slug": "e322a-oat-lecithin",
+    "title": "Oat lecithin",
+    "eNumber": "E322A"
+  },
+  {
+    "slug": "e946-octafluorocyclobutane",
+    "title": "octafluorocyclobutane",
+    "eNumber": "E946"
+  },
+  {
+    "slug": "e311-octyl-gallate",
+    "title": "Octyl gallate",
+    "eNumber": "E311"
+  },
+  {
+    "slug": "e111-orange-ggn",
+    "title": "Orange GGN",
+    "eNumber": "E111"
+  },
+  {
+    "slug": "e182-orcein",
+    "title": "Orcein",
+    "eNumber": "E182"
+  },
+  {
+    "slug": "e914-oxidised-polyethylene-wax",
+    "title": "Oxidised polyethylene wax",
+    "eNumber": "E914"
+  },
+  {
+    "slug": "e948-oxygen",
+    "title": "Oxygen",
+    "eNumber": "E948"
+  },
+  {
+    "slug": "e905cii-paraffin-wax",
+    "title": "Paraffin wax",
+    "eNumber": "E905CII"
+  },
+  {
+    "slug": "e131-patent-blue-v",
+    "title": "Patent blue v",
+    "eNumber": "E131"
+  },
+  {
+    "slug": "e429-peptone",
+    "title": "peptone",
+    "eNumber": "E429"
+  },
+  {
+    "slug": "e905b-petroleum-jelly",
+    "title": "petroleum jelly",
+    "eNumber": "E905B"
+  },
+  {
+    "slug": "e905c-petroleum-wax",
+    "title": "Petroleum wax",
+    "eNumber": "E905C"
+  },
+  {
+    "slug": "e391-phytic-acid",
+    "title": "Phytic acid",
+    "eNumber": "E391"
+  },
+  {
+    "slug": "e1521-polyethylene-glycol",
+    "title": "Polyethylene glycol",
+    "eNumber": "E1521"
+  },
+  {
+    "slug": "e1209-polyvinyl-alcohol-polyethylene-glycol-graft-co-polymer",
+    "title": "Polyvinyl alcohol-polyethylene glycol-graft-co-polymer",
+    "eNumber": "E1209"
+  },
+  {
+    "slug": "e1208-polyvinylpyrrolidone-vinyl-acetate-copolymer",
+    "title": "Polyvinylpyrrolidone-vinyl acetate copolymer",
+    "eNumber": "E1208"
+  },
+  {
+    "slug": "e126-ponceau-6r",
+    "title": "Ponceau 6R",
+    "eNumber": "E126"
+  },
+  {
+    "slug": "e357-potassium-adipate",
+    "title": "Potassium adipate",
+    "eNumber": "E357"
+  },
+  {
+    "slug": "e555-potassium-aluminium-silicate",
+    "title": "Potassium aluminium silicate",
+    "eNumber": "E555"
+  },
+  {
+    "slug": "e303-potassium-ascorbate",
+    "title": "Potassium ascorbate",
+    "eNumber": "E303"
+  },
+  {
+    "slug": "e228-potassium-bisulphite",
+    "title": "Potassium bisulphite",
+    "eNumber": "E228"
+  },
+  {
+    "slug": "e924a-potassium-bromate",
+    "title": "Potassium bromate",
+    "eNumber": "E924A"
+  },
+  {
+    "slug": "e536-potassium-ferrocyanide",
+    "title": "Potassium ferrocyanide",
+    "eNumber": "E536"
+  },
+  {
+    "slug": "e366-potassium-fumarate",
+    "title": "Potassium fumarate",
+    "eNumber": "E366"
+  },
+  {
+    "slug": "e515ii-potassium-hydrogen-sulphate",
+    "title": "Potassium hydrogen sulphate",
+    "eNumber": "E515II"
+  },
+  {
+    "slug": "e525-potassium-hydroxide",
+    "title": "Potassium hydroxide",
+    "eNumber": "E525"
+  },
+  {
+    "slug": "e917-potassium-iodate",
+    "title": "potassium iodate",
+    "eNumber": "E917"
+  },
+  {
+    "slug": "e351-potassium-malate",
+    "title": "Potassium malate",
+    "eNumber": "E351"
+  },
+  {
+    "slug": "e922-potassium-persulfate",
+    "title": "Potassium persulfate",
+    "eNumber": "E922"
+  },
+  {
+    "slug": "e560-potassium-silicate",
+    "title": "Potassium silicate",
+    "eNumber": "E560"
+  },
+  {
+    "slug": "e515i-potassium-sulphate",
+    "title": "Potassium sulphate",
+    "eNumber": "E515I"
+  },
+  {
+    "slug": "e515-potassium-sulphates",
+    "title": "Potassium sulphates",
+    "eNumber": "E515"
+  },
+  {
+    "slug": "e336-potassium-tartrates",
+    "title": "Potassium tartrates",
+    "eNumber": "E336"
+  },
+  {
+    "slug": "e944-propane",
+    "title": "Propane",
+    "eNumber": "E944"
+  },
+  {
+    "slug": "e216-propyl-para-hydroxybenzoate",
+    "title": "Propyl para-hydroxybenzoate",
+    "eNumber": "E216"
+  },
+  {
+    "slug": "e490-propylene-glycol",
+    "title": "Propylene glycol",
+    "eNumber": "E490"
+  },
+  {
+    "slug": "e908-rice-bran-wax",
+    "title": "Rice bran wax",
+    "eNumber": "E908"
+  },
+  {
+    "slug": "e164-saffron",
+    "title": "saffron",
+    "eNumber": "E164"
+  },
+  {
+    "slug": "e166-sandalwood",
+    "title": "Sandalwood",
+    "eNumber": "E166"
+  },
+  {
+    "slug": "e125-scarlet-gn",
+    "title": "Scarlet GN",
+    "eNumber": "E125"
+  },
+  {
+    "slug": "e904-shellac",
+    "title": "Shellac",
+    "eNumber": "E904"
+  },
+  {
+    "slug": "e174-silver",
+    "title": "Silver",
+    "eNumber": "E174"
+  },
+  {
+    "slug": "e356-sodium-adipate",
+    "title": "Sodium adipate",
+    "eNumber": "E356"
+  },
+  {
+    "slug": "e554-sodium-aluminium-silicate",
+    "title": "Sodium aluminium silicate",
+    "eNumber": "E554"
+  },
+  {
+    "slug": "e266-sodium-dehydroacetate",
+    "title": "Sodium dehydroacetate",
+    "eNumber": "E266"
+  },
+  {
+    "slug": "e487-sodium-dodecyl-sulfate",
+    "title": "sodium dodecyl sulfate",
+    "eNumber": "E487"
+  },
+  {
+    "slug": "e215-sodium-ethyl-p-hydroxybenzoate",
+    "title": "Sodium ethyl p-hydroxybenzoate",
+    "eNumber": "E215"
+  },
+  {
+    "slug": "e535-sodium-ferrocyanide",
+    "title": "Sodium ferrocyanide",
+    "eNumber": "E535"
+  },
+  {
+    "slug": "e237-sodium-formiate",
+    "title": "Sodium formiate",
+    "eNumber": "E237"
+  },
+  {
+    "slug": "e365-sodium-fumarate",
+    "title": "Sodium fumarate",
+    "eNumber": "E365"
+  },
+  {
+    "slug": "e514ii-sodium-hydrogen-sulphate",
+    "title": "Sodium hydrogen sulphate",
+    "eNumber": "E514II"
+  },
+  {
+    "slug": "e524-sodium-hydroxide",
+    "title": "Sodium hydroxide",
+    "eNumber": "E524"
+  },
+  {
+    "slug": "e219-sodium-methyl-p-hydroxybenzoate",
+    "title": "Sodium methyl p-hydroxybenzoate",
+    "eNumber": "E219"
+  },
+  {
+    "slug": "e217-sodium-propyl-para-hydroxybenzoate",
+    "title": "Sodium propyl para-hydroxybenzoate",
+    "eNumber": "E217"
+  },
+  {
+    "slug": "e550-sodium-silicate",
+    "title": "Sodium silicate",
+    "eNumber": "E550"
+  },
+  {
+    "slug": "e514i-sodium-sulphate",
+    "title": "Sodium sulphate",
+    "eNumber": "E514I"
+  },
+  {
+    "slug": "e514-sodium-sulphates",
+    "title": "Sodium sulphates",
+    "eNumber": "E514"
+  },
+  {
+    "slug": "e285-sodium-tetraborate-borax",
+    "title": "Sodium tetraborate (borax)",
+    "eNumber": "E285"
+  },
+  {
+    "slug": "e640ii-sodiumglycinate",
+    "title": "Sodiumglycinate",
+    "eNumber": "E640II"
+  },
+  {
+    "slug": "e496-sorbitan-trioleate",
+    "title": "Sorbitan trioleate",
+    "eNumber": "E496"
+  },
+  {
+    "slug": "e426-soybean-hemicellulose",
+    "title": "Soybean hemicellulose",
+    "eNumber": "E426"
+  },
+  {
+    "slug": "e909-spermaceti",
+    "title": "Spermaceti",
+    "eNumber": "E909"
+  },
+  {
+    "slug": "e483-stearyl-tartrate",
+    "title": "Stearyl tartrate",
+    "eNumber": "E483"
+  },
+  {
+    "slug": "e363-succinic-acid",
+    "title": "Succinic acid",
+    "eNumber": "E363"
+  },
+  {
+    "slug": "e472g-succinylated-monoglycerides",
+    "title": "Succinylated monoglycerides",
+    "eNumber": "E472G"
+  },
+  {
+    "slug": "e446-succistearin",
+    "title": "Succistearin",
+    "eNumber": "E446"
+  },
+  {
+    "slug": "e513-sulphuric-acid",
+    "title": "Sulphuric acid",
+    "eNumber": "E513"
+  },
+  {
+    "slug": "e441-superglycerinated-hydrogenated-rapeseed-oil",
+    "title": "Superglycerinated hydrogenated rapeseed oil",
+    "eNumber": "E441"
+  },
+  {
+    "slug": "e905-synthetic-wax",
+    "title": "Synthetic wax",
+    "eNumber": "E905"
+  },
+  {
+    "slug": "e472d-tartaric-acid-esters-of-mono-and-diglycerides-of-fatty-acids",
+    "title": "Tartaric acid esters of mono- and diglycerides of fatty acids",
+    "eNumber": "E472D"
+  },
+  {
+    "slug": "e233-thiabendazole",
+    "title": "Thiabendazole",
+    "eNumber": "E233"
+  },
+  {
+    "slug": "e306-tocopherol-rich-extract",
+    "title": "Tocopherol-rich extract",
+    "eNumber": "E306"
+  },
+  {
+    "slug": "e380-triammonium-citrate",
+    "title": "Triammonium citrate",
+    "eNumber": "E380"
+  },
+  {
+    "slug": "e331iii-trisodium-citrate",
+    "title": "Trisodium citrate",
+    "eNumber": "E331III"
+  },
+  {
+    "slug": "e153-vegetable-carbon",
+    "title": "Vegetable carbon",
+    "eNumber": "E153"
+  },
+  {
+    "slug": "e910-wax-ester",
+    "title": "Wax ester",
+    "eNumber": "E910"
+  },
+  {
+    "slug": "e161-xanthophylls",
+    "title": "Xanthophylls",
+    "eNumber": "E161"
+  },
+  {
+    "slug": "e107-yellow-2g",
+    "title": "Yellow 2G",
+    "eNumber": "E107"
+  },
+  {
+    "slug": "e650-zinc-acetate",
+    "title": "Zinc acetate",
+    "eNumber": "E650"
+  }
+]
