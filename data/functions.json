@@ -15,7 +15,7 @@
   },
   {
     "name": "Anticaking agent",
-    "description": "Reduces the tendency of particles of food to adhere to one another.",
+    "description": "Anti-caking agents are substances which reduce the tendency of individual particles of a foodstuff to adhere to one another.",
     "usedAs": [
       "anticaking agent",
       "anti-stick agent",
@@ -25,7 +25,7 @@
   },
   {
     "name": "Antifoaming agent",
-    "description": "A food additive, which prevents or reduces foaming.",
+    "description": "Anti-foaming agents are substances which prevent or reduce foaming.",
     "usedAs": [
       "antifoaming agent",
       "defoaming agent"
