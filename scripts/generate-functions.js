@@ -43,7 +43,6 @@ const DATA_DIR = path.join(__dirname, '..', 'data');
 const ADDITIVES_INDEX_PATH = path.join(DATA_DIR, 'additives.json');
 const FUNCTIONS_REFERENCE_PATH = path.join(DATA_DIR, 'functions.json');
 
-const PROMPT_PLACEHOLDER = '{{FUNCTION_LIST}}';
 const ARTICLE_CHAR_LIMIT = 2400;
 
 async function fileExists(filePath) {
@@ -226,38 +225,50 @@ async function loadFunctionReference() {
     if (!label) {
       continue;
     }
+
     const description = typeof item?.description === 'string' ? item.description.trim() : '';
     const identifier = normaliseFunctionIdentifier(label);
     if (!identifier) {
       continue;
     }
 
+    const usedAs = Array.isArray(item?.usedAs)
+      ? item.usedAs
+          .map((entry) => (typeof entry === 'string' ? entry.trim() : ''))
+          .filter((entry) => entry.length > 0)
+      : [];
+
     const reference = {
       value: identifier,
       label,
       description,
+      usedAs,
     };
 
     entries.push(reference);
 
-    const lowerLabel = label.toLowerCase();
-    addLookupEntry(lookup, lowerLabel, reference);
-    addLookupEntry(lookup, lowerLabel.replace(/-/g, ' '), reference);
-    addLookupEntry(lookup, identifier, reference);
-    addLookupEntry(lookup, identifier.replace(/-/g, ' '), reference);
+    const aliasValues = [label, identifier.replace(/-/g, ' '), ...usedAs];
+
+    for (const alias of aliasValues) {
+      if (!alias) {
+        continue;
+      }
+
+      const lowerAlias = alias.toLowerCase();
+      addLookupEntry(lookup, lowerAlias, reference);
+      addLookupEntry(lookup, lowerAlias.replace(/-/g, ' '), reference);
+
+      const aliasIdentifier = normaliseFunctionIdentifier(alias);
+      if (aliasIdentifier) {
+        addLookupEntry(lookup, aliasIdentifier, reference);
+        addLookupEntry(lookup, aliasIdentifier.replace(/-/g, ' '), reference);
+      }
+    }
   }
 
-  const formattedList = entries
-    .map((entry) => {
-      const parts = [`value: ${entry.value}`, `label: ${entry.label}`];
-      if (entry.description) {
-        parts.push(`description: ${entry.description}`);
-      }
-      return `- ${parts.join(' | ')}`;
-    })
-    .join('\n');
+  const names = entries.map((entry) => entry.label);
 
-  return { entries, lookup, formattedList };
+  return { entries, lookup, names };
 }
 
 async function readPromptTemplate() {
@@ -496,7 +507,12 @@ function createAdditivePrompt(additive, props, article) {
   return lines.join('\n');
 }
 
-function callOpenAi({ apiKey, systemPrompt, additiveInput, debug = false }) {
+function callOpenAi({ apiKey, systemPrompt, functionListInput, additiveInput, debug = false }) {
+  const trimmedList = typeof functionListInput === 'string' ? functionListInput.trim() : '';
+  if (!trimmedList) {
+    throw new Error('Function list input must be a non-empty string.');
+  }
+
   const requestPayload = {
     model: OPENAI_MODEL,
     max_output_tokens: OPENAI_MAX_OUTPUT_TOKENS,
@@ -504,6 +520,15 @@ function callOpenAi({ apiKey, systemPrompt, additiveInput, debug = false }) {
       {
         role: 'system',
         content: [{ type: 'input_text', text: systemPrompt }],
+      },
+      {
+        role: 'user',
+        content: [
+          {
+            type: 'input_text',
+            text: trimmedList,
+          },
+        ],
       },
       {
         role: 'user',
@@ -589,6 +614,7 @@ async function processAdditive({
   props,
   article,
   systemPrompt,
+  functionListInput,
   lookup,
   apiKey,
   index,
@@ -601,7 +627,13 @@ async function processAdditive({
   console.log(`[${index + 1}/${total}] Fetching functions for ${additiveLabel}...`);
 
   const additiveInput = createAdditivePrompt(additive, props, article);
-  const outputText = await callOpenAi({ apiKey, systemPrompt, additiveInput, debug });
+  const outputText = await callOpenAi({
+    apiKey,
+    systemPrompt,
+    functionListInput,
+    additiveInput,
+    debug,
+  });
   const parsedPayload = extractJsonPayload(outputText);
 
   if (!parsedPayload || !Array.isArray(parsedPayload.functions)) {
@@ -636,12 +668,16 @@ async function run() {
 
     const functionReference = await loadFunctionReference();
     const promptTemplate = await readPromptTemplate();
-
-    if (!promptTemplate.includes(PROMPT_PLACEHOLDER)) {
-      throw new Error(`Prompt template is missing placeholder ${PROMPT_PLACEHOLDER}.`);
+    const systemPrompt = typeof promptTemplate === 'string' ? promptTemplate.trim() : '';
+    if (!systemPrompt) {
+      throw new Error('Prompt template is empty.');
     }
 
-    const systemPrompt = promptTemplate.replace(PROMPT_PLACEHOLDER, functionReference.formattedList);
+    if (functionReference.names.length === 0) {
+      throw new Error('No function names loaded from reference.');
+    }
+
+    const functionListInput = ['Allowed function names:', ...functionReference.names].join('\n');
     const additives = await readAdditivesIndex();
     const cliArgs = parseCommandLineArgs(process.argv);
 
@@ -786,6 +822,7 @@ async function run() {
             props: entry.props,
             article: entry.article,
             systemPrompt,
+            functionListInput,
             lookup: functionReference.lookup,
             apiKey,
             index: localIndex,

@@ -1,13 +1,10 @@
-Determine the technological functions performed by a food additive using the official function identifiers below.
-
-Allowed functions (value → label and optional description):
-{{FUNCTION_LIST}}
+Determine the technological functions performed by a food additive. You will receive the list of permitted function names in a separate message; only choose from that list.
 
 Guidelines:
 - Base your answer on the additive information provided by the user.
-- Choose every identifier that clearly applies; omit ones that are not supported.
-- If no identifiers apply, respond with an empty array.
-- Use only the `value` identifiers from the list. Do not invent new identifiers or free-form text.
+- Choose every function that clearly applies; omit ones that are not supported.
+- If no functions apply, respond with an empty array.
+- Reply using the exact function names from the provided list. Do not invent new names or free-form text.
 
 Respond with a single JSON object:
-{"functions": ["identifier-one", "identifier-two"]}
+{"functions": ["Function name", "Another function name"]}
