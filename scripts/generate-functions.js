@@ -565,8 +565,28 @@ function callOpenAi({ apiKey, systemPrompt, functionListInput, additiveInput, de
         return;
       }
 
+      const responseStatus = typeof parsedResponse?.status === 'string' ? parsedResponse.status : null;
+      if (responseStatus && responseStatus !== 'completed') {
+        const incompleteReason = parsedResponse?.incomplete_details?.reason;
+        const errorMessage = parsedResponse?.error?.message;
+        const detailFragments = [];
+        if (incompleteReason) {
+          detailFragments.push(`reason=${incompleteReason}`);
+        }
+        if (errorMessage) {
+          detailFragments.push(`error=${errorMessage}`);
+        }
+        const detailMessage = detailFragments.length > 0 ? detailFragments.join(', ') : 'no additional details';
+        console.error(`[error] OpenAI response not completed (status=${responseStatus}): ${detailMessage}`);
+        reject(new Error(`OpenAI API response status was ${responseStatus}.`));
+        return;
+      }
+
       const outputText = extractTextOutput(parsedResponse);
       if (!outputText) {
+        console.error('[error] OpenAI response did not include output_text field.', {
+          hasOutputArray: Array.isArray(parsedResponse?.output),
+        });
         reject(new Error('OpenAI API returned an empty response.'));
         return;
       }
