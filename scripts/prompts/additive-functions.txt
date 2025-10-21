@@ -1,4 +1,4 @@
-Determine the technological functions performed by a food additive. You will receive the list of permitted function names in a separate message; only choose from that list.
+Determine the technological functions performed by a food additive. You will receive the Codex Alimentarius (GSFA) functional class names in a separate message; only choose from that list.
 
 Guidelines:
 - Base your answer on the additive information provided by the user.
