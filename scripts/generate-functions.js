@@ -43,7 +43,6 @@ const DATA_DIR = path.join(__dirname, '..', 'data');
 const ADDITIVES_INDEX_PATH = path.join(DATA_DIR, 'additives.json');
 const FUNCTIONS_REFERENCE_PATH = path.join(DATA_DIR, 'functions.json');
 
-const ARTICLE_CHAR_LIMIT = 2400;
 
 async function fileExists(filePath) {
   try {
@@ -94,6 +93,7 @@ function parseCommandLineArgs(argv) {
     additives: [],
     mode: 'skip',
     debug: false,
+    modeExplicit: false,
   };
 
   const args = Array.isArray(argv) ? argv.slice(2) : [];
@@ -156,12 +156,14 @@ function parseCommandLineArgs(argv) {
 
     if (arg === '--override' || arg === '--mode=override') {
       result.mode = 'override';
+      result.modeExplicit = true;
       index += 1;
       continue;
     }
 
     if (arg === '--skip' || arg === '--mode=skip') {
       result.mode = 'skip';
+      result.modeExplicit = true;
       index += 1;
       continue;
     }
@@ -170,6 +172,7 @@ function parseCommandLineArgs(argv) {
       const value = arg.substring('--mode='.length).trim().toLowerCase();
       if (value === 'override' || value === 'skip') {
         result.mode = value;
+        result.modeExplicit = true;
       } else {
         throw new Error(`Unsupported mode: ${value}`);
       }
@@ -305,21 +308,6 @@ async function readAdditiveProps(slug) {
     };
   } catch (error) {
     throw new Error(`Failed to read props for ${slug}: ${error.message}`);
-  }
-}
-
-async function readAdditiveArticle(slug) {
-  const filePath = path.join(DATA_DIR, slug, 'article.md');
-  if (!(await fileExists(filePath))) {
-    return '';
-  }
-
-  try {
-    const raw = await fs.readFile(filePath, 'utf8');
-    return raw.trim();
-  } catch (error) {
-    console.warn(`Warning: failed to read article for ${slug}: ${error.message}`);
-    return '';
   }
 }
 
@@ -472,39 +460,20 @@ function sortFunctionValues(values) {
   return values.slice().sort((a, b) => a.localeCompare(b));
 }
 
-function createAdditivePrompt(additive, props, article) {
-  const lines = [];
-  const label = [additive.eNumber, additive.title].filter(Boolean).join(' – ') || additive.slug;
-  lines.push(`Additive: ${label}`);
-  lines.push(`Slug: ${additive.slug}`);
+function createAdditivePrompt(additive) {
+  const eNumber = typeof additive.eNumber === 'string' ? additive.eNumber.trim() : '';
+  const title = typeof additive.title === 'string' ? additive.title.trim() : '';
 
-  if (Array.isArray(props.data?.synonyms) && props.data.synonyms.length > 0) {
-    const synonyms = props.data.synonyms
-      .map((item) => (typeof item === 'string' ? item.trim() : ''))
-      .filter((item) => item.length > 0);
-    if (synonyms.length > 0) {
-      lines.push(`Synonyms: ${synonyms.join(', ')}`);
-    }
+  const parts = [];
+  if (eNumber) {
+    parts.push(eNumber);
+  }
+  if (title && title.toLowerCase() !== eNumber.toLowerCase()) {
+    parts.push(title);
   }
 
-  const description = typeof props.data?.description === 'string' ? props.data.description.trim() : '';
-  if (description) {
-    lines.push('Description:');
-    lines.push(description);
-  }
-
-  if (Array.isArray(props.functions) && props.functions.length > 0) {
-    lines.push(`Existing functions: ${props.functions.join(', ')}`);
-  }
-
-  const trimmedArticle = article.trim();
-  if (trimmedArticle) {
-    const snippet = trimmedArticle.length > ARTICLE_CHAR_LIMIT ? `${trimmedArticle.slice(0, ARTICLE_CHAR_LIMIT)}…` : trimmedArticle;
-    lines.push('Article excerpt:');
-    lines.push(snippet);
-  }
-
-  return lines.join('\n');
+  const label = parts.length > 0 ? parts.join(' – ') : additive.slug;
+  return `Additive: ${label}`;
 }
 
 function callOpenAi({ apiKey, systemPrompt, functionListInput, additiveInput, debug = false }) {
@@ -612,7 +581,6 @@ function callOpenAi({ apiKey, systemPrompt, functionListInput, additiveInput, de
 async function processAdditive({
   additive,
   props,
-  article,
   systemPrompt,
   functionListInput,
   lookup,
@@ -626,7 +594,7 @@ async function processAdditive({
 
   console.log(`[${index + 1}/${total}] Fetching functions for ${additiveLabel}...`);
 
-  const additiveInput = createAdditivePrompt(additive, props, article);
+  const additiveInput = createAdditivePrompt(additive);
   const outputText = await callOpenAi({
     apiKey,
     systemPrompt,
@@ -680,6 +648,10 @@ async function run() {
     const functionListInput = ['Allowed function names:', ...functionReference.names].join('\n');
     const additives = await readAdditivesIndex();
     const cliArgs = parseCommandLineArgs(process.argv);
+
+    if (cliArgs.additives.length > 0 && !cliArgs.modeExplicit) {
+      cliArgs.mode = 'override';
+    }
 
     const envLimitRaw = process.env.GENERATOR_LIMIT;
     const envBatchRaw = process.env.GENERATOR_BATCH;
@@ -744,15 +716,13 @@ async function run() {
           continue;
         }
 
-        const article = await readAdditiveArticle(additive.slug);
-
         if (props.functions.length > 0) {
           console.log(`Will regenerate existing functions for ${slug}.`);
         } else {
           console.log(`Will create new functions for ${slug}.`);
         }
 
-        candidates.push({ additive, props, article });
+        candidates.push({ additive, props });
       }
 
       if (missingSlugs.length) {
@@ -781,8 +751,7 @@ async function run() {
           continue;
         }
 
-        const article = await readAdditiveArticle(additive.slug);
-        candidates.push({ additive, props, article });
+        candidates.push({ additive, props });
 
         if (candidates.length >= limit) {
           break;
@@ -820,7 +789,6 @@ async function run() {
           await processAdditive({
             additive: entry.additive,
             props: entry.props,
-            article: entry.article,
             systemPrompt,
             functionListInput,
             lookup: functionReference.lookup,
