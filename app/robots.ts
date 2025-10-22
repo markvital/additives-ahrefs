@@ -13,18 +13,6 @@ export default function robots(): MetadataRoute.Robots {
         userAgent: 'AhrefsBot',
         allow: '/',
       },
-      {
-        userAgent: 'GPTBot',
-        allow: '/',
-      },
-      {
-        userAgent: 'ChatGPT-User',
-        allow: '/',
-      },
-      {
-        userAgent: 'ChatGPT',
-        allow: '/',
-      },
     ],
     sitemap: absoluteUrl('/sitemap.xml'),
   };
