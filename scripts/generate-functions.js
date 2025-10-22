@@ -784,11 +784,12 @@ async function run() {
           continue;
         }
 
+        if (candidates.length >= limit) {
+          continue;
+        }
+
         candidates.push({ additive, props });
 
-        if (candidates.length >= limit) {
-          break;
-        }
       }
 
       if (candidates.length === 0) {
