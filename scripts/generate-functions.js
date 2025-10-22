@@ -37,7 +37,7 @@ dns.setDefaultResultOrder('ipv4first');
 const DEFAULT_LIMIT = 10;
 const DEFAULT_BATCH_SIZE = 10;
 const OPENAI_MODEL = 'gpt-5';
-const OPENAI_MAX_OUTPUT_TOKENS = 2500;
+const OPENAI_MAX_OUTPUT_TOKENS = 5000;
 const PROMPT_PATH = path.join(__dirname, 'prompts', 'additive-functions.txt');
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const ADDITIVES_INDEX_PATH = path.join(DATA_DIR, 'additives.json');
@@ -706,6 +706,7 @@ async function run() {
 
     const additiveMap = new Map(additives.map((entry) => [entry.slug, entry]));
     const candidates = [];
+    let skippedCount = 0;
 
     if (cliArgs.additives.length > 0) {
       if (cliArgs.limit !== null) {
@@ -730,9 +731,13 @@ async function run() {
         }
 
         if (cliArgs.mode === 'skip' && props.functions.length > 0) {
-          console.log(
-            `Skipping ${slug} because functions already exist (${props.functions.join(', ')}). Use --override to regenerate.`,
-          );
+          const additiveLabel = [additive.eNumber, additive.title].filter(Boolean).join(' - ') || additive.slug;
+          if (cliArgs.debug) {
+            console.log(
+              `Skipping ${slug} because functions already exist (${props.functions.join(', ')}). Use --override to regenerate.`,
+            );
+          }
+          skippedCount += 1;
           continue;
         }
 
@@ -752,6 +757,11 @@ async function run() {
       }
 
       if (candidates.length === 0) {
+        if (skippedCount > 0) {
+          console.log(
+            `Skipped ${skippedCount} additive(s) with existing functions. Use --override to regenerate if needed.`,
+          );
+        }
         console.log('No additives matched the provided slugs. Exiting.');
         return;
       }
@@ -766,8 +776,11 @@ async function run() {
         }
 
         if (cliArgs.mode === 'skip' && props.functions.length > 0) {
-          const additiveLabel = [additive.eNumber, additive.title].filter(Boolean).join(' - ') || additive.slug;
-          console.log(`Skipping existing functions: ${additiveLabel}`);
+          if (cliArgs.debug) {
+            const additiveLabel = [additive.eNumber, additive.title].filter(Boolean).join(' - ') || additive.slug;
+            console.log(`Skipping existing functions: ${additiveLabel}`);
+          }
+          skippedCount += 1;
           continue;
         }
 
@@ -779,9 +792,20 @@ async function run() {
       }
 
       if (candidates.length === 0) {
+        if (skippedCount > 0) {
+          console.log(
+            `Skipped ${skippedCount} additive(s) with existing functions. Use --override to regenerate if needed.`,
+          );
+        }
         console.log('No additives require new functions. Exiting.');
         return;
       }
+    }
+
+    if (skippedCount > 0) {
+      console.log(
+        `Skipped ${skippedCount} additive(s) with existing functions. Use --override to regenerate if needed.`,
+      );
     }
 
     console.log(
