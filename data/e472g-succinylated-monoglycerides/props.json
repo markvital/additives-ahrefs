@@ -5,7 +5,10 @@
     "E472g",
     "Succinylated monoglycerides"
   ],
-  "functions": [],
+  "functions": [
+    "emulsifier",
+    "stabilizer"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "",

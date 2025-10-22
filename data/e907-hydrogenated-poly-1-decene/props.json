@@ -7,7 +7,9 @@
     "Hydrogenated polydec-1-ene",
     "Crystalline wax"
   ],
-  "functions": [],
+  "functions": [
+    "glazing-agent"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "Q18967207",

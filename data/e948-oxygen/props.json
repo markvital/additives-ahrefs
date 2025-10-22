@@ -6,7 +6,9 @@
     "Oxygen",
     "element 8"
   ],
-  "functions": [],
+  "functions": [
+    "packaging-gas"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "Q629",

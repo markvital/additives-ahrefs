@@ -5,7 +5,10 @@
     "E546",
     "Magnesium pyrophosphate"
   ],
-  "functions": [],
+  "functions": [
+    "sequestrant",
+    "stabilizer"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "",

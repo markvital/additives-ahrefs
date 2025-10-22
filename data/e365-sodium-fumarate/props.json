@@ -5,7 +5,9 @@
     "E365",
     "Sodium fumarate"
   ],
-  "functions": [],
+  "functions": [
+    "acidity-regulator"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "",

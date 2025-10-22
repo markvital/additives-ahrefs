@@ -5,7 +5,10 @@
     "E383",
     "calcium glycerophosphate"
   ],
-  "functions": [],
+  "functions": [
+    "acidity-regulator",
+    "stabilizer"
+  ],
   "description": "Calcium glycerylphosphate -or calcium glycerophosphate- is a mineral supplement.",
   "wikipedia": "https://en.wikipedia.org/wiki/Calcium_glycerylphosphate",
   "wikidata": "Q4119838",

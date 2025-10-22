@@ -5,7 +5,10 @@
     "E369",
     "Alanin"
   ],
-  "functions": [],
+  "functions": [
+    "flavour-enhancer",
+    "sweetener"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "",

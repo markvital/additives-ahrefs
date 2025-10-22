@@ -5,7 +5,10 @@
     "E380",
     "Triammonium citrate"
   ],
-  "functions": [],
+  "functions": [
+    "acidity-regulator",
+    "sequestrant"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "Q13081798",

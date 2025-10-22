@@ -6,7 +6,12 @@
     "Gelatine",
     "gelatin"
   ],
-  "functions": [],
+  "functions": [
+    "gelling-agent",
+    "glazing-agent",
+    "stabilizer",
+    "thickener"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "Q179254",

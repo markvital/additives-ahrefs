@@ -6,11 +6,8 @@
     "sodium alginate"
   ],
   "functions": [
-    "carrier",
-    "emulsifier",
-    "humectant",
-    "sequestrant",
-    "stabiliser",
+    "gelling-agent",
+    "stabilizer",
     "thickener"
   ],
   "description": "",

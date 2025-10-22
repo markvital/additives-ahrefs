@@ -5,7 +5,10 @@
     "E267",
     "Buffered vinegar"
   ],
-  "functions": [],
+  "functions": [
+    "acidity-regulator",
+    "preservative"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "Q130547560",

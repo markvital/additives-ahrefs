@@ -5,7 +5,9 @@
     "E153",
     "Vegetable carbon"
   ],
-  "functions": [],
+  "functions": [
+    "colour"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "Q59557415",

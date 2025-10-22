@@ -12,7 +12,9 @@
     "Patentblau V",
     "C.I. 42051"
   ],
-  "functions": [],
+  "functions": [
+    "colour"
+  ],
   "description": "Patent Blue V, also called Food Blue 5, Sulphan Blue, Acid Blue 3, L-Blau 3, C-Blau 20, Patentblau V, Sky Blue, or C.I. 42051 and is a dark bluish synthetic triphenylmethane dye used as a food coloring. As a food additive, it has E number E131. It is a sodium or calcium salt of [4--α--4-diethylaminophenyl--5-hydroxy- 2‚4-disulfophenylmethylidene--2‚5-cyclohexadien-1-ylidene] diethylammonium hydroxide inner salt.",
   "wikipedia": "https://en.wikipedia.org/wiki/Patent_Blue_V",
   "wikidata": "Q420087",

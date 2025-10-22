@@ -5,7 +5,9 @@
     "E446",
     "Succistearin"
   ],
-  "functions": [],
+  "functions": [
+    "emulsifier"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "Q18601547",

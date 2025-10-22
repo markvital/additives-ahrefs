@@ -5,7 +5,9 @@
     "E943b",
     "Isobutane"
   ],
-  "functions": [],
+  "functions": [
+    "propellant"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "",

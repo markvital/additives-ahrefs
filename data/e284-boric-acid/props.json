@@ -7,7 +7,9 @@
     "Boracic acid",
     "Orthoboric acid"
   ],
-  "functions": [],
+  "functions": [
+    "preservative"
+  ],
   "description": "Boric acid, also called hydrogen borate, boracic acid, orthoboric acid and acidum boricum, is a weak, monobasic Lewis acid of boron, which is often used as an antiseptic, insecticide, flame retardant, neutron absorber, or precursor to other chemical compounds. It has the chemical formula H3BO3 -sometimes written B-OH-3-, and exists in the form of colorless crystals or a white powder that dissolves in water. When occurring as a mineral, it is called sassolite.",
   "wikipedia": "https://en.wikipedia.org/wiki/Boric_acid",
   "wikidata": "Q187045",

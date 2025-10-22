@@ -5,7 +5,10 @@
     "E927",
     "Azodicarbonamide and Carbamide"
   ],
-  "functions": [],
+  "functions": [
+    "bleaching-agent",
+    "flour-treatment-agent"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "",

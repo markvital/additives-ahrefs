@@ -5,7 +5,10 @@
     "E344",
     "Lecithin citrate"
   ],
-  "functions": [],
+  "functions": [
+    "emulsifier",
+    "stabilizer"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "Q13081794",

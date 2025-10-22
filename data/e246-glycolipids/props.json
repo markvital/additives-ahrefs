@@ -5,7 +5,9 @@
     "E246",
     "Glycolipids"
   ],
-  "functions": [],
+  "functions": [
+    "preservative"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "",

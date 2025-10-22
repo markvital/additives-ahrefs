@@ -5,7 +5,11 @@
     "E488",
     "Ethoxylated Mono- and Di-Glycerides"
   ],
-  "functions": [],
+  "functions": [
+    "antifoaming-agent",
+    "emulsifier",
+    "stabilizer"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "Q18967225",

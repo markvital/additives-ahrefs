@@ -5,7 +5,9 @@
     "E1001",
     "Choline salt"
   ],
-  "functions": [],
+  "functions": [
+    "humectant"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "Q18668392",

@@ -6,7 +6,9 @@
     "Ammonium sulphate",
     "ammonium sulfate"
   ],
-  "functions": [],
+  "functions": [
+    "flour-treatment-agent"
+  ],
   "description": "Ammonium sulfate -American English and international scientific usage; ammonium sulphate in British English-; -NH4-2SO4, is an inorganic salt with a number of commercial uses. The most common use is as a soil fertilizer. It contains 21% nitrogen and 24% sulfur.",
   "wikipedia": "https://en.wikipedia.org/wiki/Ammonium_sulfate",
   "wikidata": "Q191831",

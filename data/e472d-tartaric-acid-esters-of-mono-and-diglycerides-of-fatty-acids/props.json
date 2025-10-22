@@ -5,7 +5,10 @@
     "E472d",
     "Tartaric acid esters of mono- and diglycerides of fatty acids"
   ],
-  "functions": [],
+  "functions": [
+    "emulsifier",
+    "stabilizer"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "",

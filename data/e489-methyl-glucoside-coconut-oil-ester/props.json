@@ -5,7 +5,10 @@
     "E489",
     "Methyl glucoside-coconut oil ester"
   ],
-  "functions": [],
+  "functions": [
+    "emulsifier",
+    "stabilizer"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "Q18967245",

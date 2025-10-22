@@ -5,7 +5,9 @@
     "E580",
     "Magnesium Gluconate"
   ],
-  "functions": [],
+  "functions": [
+    "sequestrant"
+  ],
   "description": "Magnesium gluconate is a compound with formula MgC12H22O14. It is the magnesium salt of gluconic acid. According to scientific research, magnesium gluconate shows the highest level of bioavailability of any magnesium salt and is recommended as the optimal salt for human supplementation although of the 10 salts studied, all increased Magnesium levels significantly.It has E number \"E580\".",
   "wikipedia": "https://en.wikipedia.org/wiki/Magnesium_gluconate",
   "wikidata": "Q6731392",

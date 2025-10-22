@@ -5,7 +5,11 @@
     "E426",
     "Soybean hemicellulose"
   ],
-  "functions": [],
+  "functions": [
+    "emulsifier",
+    "stabilizer",
+    "thickener"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "Q18967285",

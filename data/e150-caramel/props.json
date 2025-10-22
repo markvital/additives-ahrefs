@@ -5,7 +5,9 @@
     "E150",
     "Caramel"
   ],
-  "functions": [],
+  "functions": [
+    "colour"
+  ],
   "description": "",
   "wikipedia": "https://en.wikipedia.org/wiki/Caramel",
   "wikidata": "Q183440",

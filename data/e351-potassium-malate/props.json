@@ -5,7 +5,9 @@
     "E351",
     "Potassium malate"
   ],
-  "functions": [],
+  "functions": [
+    "acidity-regulator"
+  ],
   "description": "Potassium malate is a compound with formula K2-C2H4O-COO-2-. It is the potassium salt of malic acid. As a food additive, it has the E number E351. It is used as acidity regulator or acidifier for use in, for example, canned vegetables, soups, sauces, fruit products and soft drinks. It also acts as an antioxidant and as a food flavor. It is an important compound in the transport of nitrate from the roots of a plant to the leaves of the plant. Potassium malate is the salt that transports from the leaves to the root. At the root the potassium maleate oxidizes to potassium carbonate, then is converted to potassium nitrate by soil nitrate and transported back to the leaves.",
   "wikipedia": "https://en.wikipedia.org/wiki/Potassium_malate",
   "wikidata": "Q408755",

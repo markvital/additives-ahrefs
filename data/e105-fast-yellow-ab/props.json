@@ -5,7 +5,9 @@
     "E105",
     "Fast Yellow AB"
   ],
-  "functions": [],
+  "functions": [
+    "colour"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "",

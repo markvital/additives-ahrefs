@@ -6,7 +6,10 @@
     "Calcium hydroxide",
     "Slaked lime"
   ],
-  "functions": [],
+  "functions": [
+    "acidity-regulator",
+    "firming-agent"
+  ],
   "description": "Calcium hydroxide -traditionally called slaked lime- is an inorganic compound with the chemical formula Ca-OH-2. It is a colorless crystal or white powder and is obtained when calcium oxide -called lime or quicklime- is mixed, or slaked with water. It has many names including hydrated lime, caustic lime, builders' lime, slack lime, cal, or pickling lime. Calcium hydroxide is used in many applications, including food preparation. Limewater is the common name for a saturated solution of calcium hydroxide.",
   "wikipedia": "https://en.wikipedia.org/wiki/Calcium_hydroxide",
   "wikidata": "Q182849",

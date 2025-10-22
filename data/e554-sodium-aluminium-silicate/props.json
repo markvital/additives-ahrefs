@@ -7,7 +7,9 @@
     "Sodium silicoaluminate",
     "Sodium aluminosilicate"
   ],
-  "functions": [],
+  "functions": [
+    "anticaking-agent"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "Q18967277",

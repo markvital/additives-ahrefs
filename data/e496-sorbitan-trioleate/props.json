@@ -5,7 +5,10 @@
     "E496",
     "Sorbitan trioleate"
   ],
-  "functions": [],
+  "functions": [
+    "emulsifier",
+    "stabilizer"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "Q18601524",

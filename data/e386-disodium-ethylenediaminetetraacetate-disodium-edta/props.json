@@ -6,7 +6,9 @@
     "Disodium ethylenediaminetetraacetate",
     "Disodium EDTA"
   ],
-  "functions": [],
+  "functions": [
+    "sequestrant"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "Q13081804",

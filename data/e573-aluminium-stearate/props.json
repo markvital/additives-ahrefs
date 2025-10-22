@@ -6,7 +6,11 @@
     "Aluminium stearate",
     "Aluminum stearate"
   ],
-  "functions": [],
+  "functions": [
+    "anticaking-agent",
+    "emulsifier",
+    "stabilizer"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "",

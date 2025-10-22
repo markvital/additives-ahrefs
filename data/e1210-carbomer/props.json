@@ -5,7 +5,11 @@
     "E1210",
     "Carbomer"
   ],
-  "functions": [],
+  "functions": [
+    "gelling-agent",
+    "stabilizer",
+    "thickener"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "",

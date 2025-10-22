@@ -5,7 +5,9 @@
     "E161",
     "Xanthophylls"
   ],
-  "functions": [],
+  "functions": [
+    "colour"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "",

@@ -6,7 +6,9 @@
     "Monopotassium glutamate",
     "Potassium glutamate"
   ],
-  "functions": [],
+  "functions": [
+    "flavour-enhancer"
+  ],
   "description": "Monopotassium glutamate -MPG- is a compound with formula KC5H8NO4. It is a potassium acid salt of glutamic acid. It has the E number E622 and is used in foods as a flavor enhancer.  It is a non-sodium MSG alternative.",
   "wikipedia": "https://en.wikipedia.org/wiki/Monopotassium_glutamate",
   "wikidata": "Q3029787",

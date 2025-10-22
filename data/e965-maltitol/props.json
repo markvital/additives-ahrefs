@@ -6,11 +6,9 @@
     "maltitol"
   ],
   "functions": [
-    "emulsifier",
+    "bulking-agent",
     "humectant",
-    "stabiliser",
-    "sweetener",
-    "thickener"
+    "sweetener"
   ],
   "description": "Maltitol is a sugar alcohol -a polyol- used as a sugar substitute. It has 75–90% of the sweetness of sucrose -table sugar- and nearly identical properties, except for browning. It is used to replace table sugar because it is half as caloric, does not promote tooth decay, and has a somewhat lesser effect on blood glucose.  In chemical terms, maltitol is known as 4-O-α-glucopyranosyl-D-sorbitol. It is used in commercial products under trade names such as Lesys, Maltisweet and SweetPearl.",
   "wikipedia": "https://en.wikipedia.org/wiki/Maltitol",

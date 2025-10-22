@@ -6,7 +6,10 @@
     "Adipic acid",
     "Hexanedioic acid"
   ],
-  "functions": [],
+  "functions": [
+    "acidity-regulator",
+    "raising-agent"
+  ],
   "description": "Adipic acid or hexanedioic acid is the organic compound with the formula -CH2-4-COOH-2. From an industrial perspective, it is the most important dicarboxylic acid: About 2.5 billion kilograms of this white crystalline powder are produced annually, mainly as a precursor for the production of nylon.  Adipic acid otherwise rarely occurs in nature.",
   "wikipedia": "https://en.wikipedia.org/wiki/Adipic_acid",
   "wikidata": "Q357415",

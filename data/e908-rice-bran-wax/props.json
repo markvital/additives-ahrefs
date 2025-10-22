@@ -5,7 +5,9 @@
     "E908",
     "Rice bran wax"
   ],
-  "functions": [],
+  "functions": [
+    "glazing-agent"
+  ],
   "description": "Rice bran wax is the vegetable wax extracted from the bran oil of rice -Oryza sativa-.",
   "wikipedia": "https://en.wikipedia.org/wiki/Rice_bran_wax",
   "wikidata": "Q725234",

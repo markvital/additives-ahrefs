@@ -5,7 +5,9 @@
     "E165",
     "Gardenia Blue"
   ],
-  "functions": [],
+  "functions": [
+    "colour"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "",

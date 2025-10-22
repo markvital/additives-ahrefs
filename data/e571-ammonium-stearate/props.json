@@ -5,7 +5,9 @@
     "E571",
     "Ammonium stearate"
   ],
-  "functions": [],
+  "functions": [
+    "emulsifier"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "",

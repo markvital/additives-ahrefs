@@ -5,7 +5,9 @@
     "E910",
     "Wax ester"
   ],
-  "functions": [],
+  "functions": [
+    "glazing-agent"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "Q7975685",

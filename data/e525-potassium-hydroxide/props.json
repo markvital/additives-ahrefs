@@ -5,7 +5,9 @@
     "E525",
     "Potassium hydroxide"
   ],
-  "functions": [],
+  "functions": [
+    "acidity-regulator"
+  ],
   "description": "Potassium hydroxide is an inorganic compound with the formula KOH, and is commonly called caustic potash. Along with sodium hydroxide -NaOH-, this colorless solid is a prototypical strong base. It has many industrial and niche applications, most of which exploit its corrosive nature and its reactivity toward acids. An estimated 700‚000 to 800‚000 tonnes were produced in 2005. About 100 times more NaOH than KOH is produced annually. KOH is noteworthy as the precursor to most soft and liquid soaps, as well as numerous potassium-containing chemicals.",
   "wikipedia": "https://en.wikipedia.org/wiki/Potassium_hydroxide",
   "wikidata": "Q132298",

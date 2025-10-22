@@ -5,7 +5,10 @@
     "E1208",
     "Polyvinylpyrrolidone-vinyl acetate copolymer"
   ],
-  "functions": [],
+  "functions": [
+    "glazing-agent",
+    "stabilizer"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "",

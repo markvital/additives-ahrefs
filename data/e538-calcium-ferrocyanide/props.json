@@ -6,7 +6,9 @@
     "Calcium ferrocyanide",
     "Yellow prussiate of lime"
   ],
-  "functions": [],
+  "functions": [
+    "anticaking-agent"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "Q18967196",

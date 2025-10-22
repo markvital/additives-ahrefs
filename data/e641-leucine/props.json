@@ -6,7 +6,9 @@
     "Leucine",
     "L-Leucine"
   ],
-  "functions": [],
+  "functions": [
+    "flavour-enhancer"
+  ],
   "description": "",
   "wikipedia": "https://en.wikipedia.org/wiki/Leucine",
   "wikidata": "Q483745",

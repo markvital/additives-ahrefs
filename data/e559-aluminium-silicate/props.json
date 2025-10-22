@@ -6,7 +6,9 @@
     "Aluminium silicate",
     "Kaolin"
   ],
-  "functions": [],
+  "functions": [
+    "anticaking-agent"
+  ],
   "description": "Aluminium silicate -or aluminum silicate- is a name commonly applied to chemical compounds which are derived from aluminium oxide, Al2O3 and silicon dioxide, SiO2 which may be anhydrous or hydrated, naturally occurring as minerals or synthetic. Their chemical formulae are often expressed as xAl2O3.ySiO2.zH2O",
   "wikipedia": "https://en.wikipedia.org/wiki/Aluminium_silicate",
   "wikidata": "Q1284687",

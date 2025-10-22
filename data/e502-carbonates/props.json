@@ -5,7 +5,10 @@
     "E502",
     "Carbonates"
   ],
-  "functions": [],
+  "functions": [
+    "acidity-regulator",
+    "raising-agent"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "",
