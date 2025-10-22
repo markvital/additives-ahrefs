@@ -34,7 +34,7 @@ const { loadEnvConfig, resolveOpenAiApiKey } = require('./utils/env');
 
 dns.setDefaultResultOrder('ipv4first');
 
-const DEFAULT_LIMIT = 10;
+const DEFAULT_LIMIT = Number.POSITIVE_INFINITY;
 const DEFAULT_BATCH_SIZE = 10;
 const OPENAI_MODEL = 'gpt-5';
 const OPENAI_MAX_OUTPUT_TOKENS = 5000;
@@ -94,6 +94,7 @@ function parseCommandLineArgs(argv) {
     mode: 'skip',
     debug: false,
     modeExplicit: false,
+    helpRequested: false,
   };
 
   const args = Array.isArray(argv) ? argv.slice(2) : [];
@@ -101,6 +102,12 @@ function parseCommandLineArgs(argv) {
 
   while (index < args.length) {
     const arg = args[index];
+
+    if (arg === '--help' || arg === '-h') {
+      result.helpRequested = true;
+      index += 1;
+      continue;
+    }
 
     if (arg === '--limit' || arg === '-n' || arg === '-limit') {
       if (index + 1 >= args.length) {
@@ -192,7 +199,7 @@ function parseCommandLineArgs(argv) {
 
     result.additives.push(normaliseAdditiveSlug(arg));
     index += 1;
-  }
+    }
 
   result.additives = result.additives.filter(Boolean);
 
@@ -669,6 +676,26 @@ async function run() {
     const additives = await readAdditivesIndex();
     const cliArgs = parseCommandLineArgs(process.argv);
 
+    if (cliArgs.helpRequested) {
+      console.log(`Usage: node scripts/generate-functions.js [options]
+
+Options:
+  --help, -h                 Show this help message and exit.
+  --limit <number>, -n       Limit the number of additives to process (default: no limit).
+  --parallel <number>, -p    Number of concurrent requests (default 10).
+  --additive <slug[,slug]>   Process specific additive slug(s).
+  --mode=<skip|override>     Skip existing functions (default) or override them.
+  --override                 Alias for --mode=override.
+  --skip                     Alias for --mode=skip.
+  --debug                    Print OpenAI request/response payloads.
+
+Environment variables:
+  GENERATOR_LIMIT            Default limit override (positive integer).
+  GENERATOR_BATCH            Default parallel/concurrency override (positive integer).
+`);
+      return;
+    }
+
     if (cliArgs.additives.length > 0 && !cliArgs.modeExplicit) {
       cliArgs.mode = 'override';
     }
@@ -688,6 +715,9 @@ async function run() {
       } else {
         console.warn(`Ignoring invalid GENERATOR_LIMIT value: ${envLimitRaw}`);
       }
+    } else if (cliArgs.mode === 'override') {
+      limit = DEFAULT_LIMIT;
+      console.log('Using override mode default limit=Infinity (process all additives).');
     }
 
     let batchSize = DEFAULT_BATCH_SIZE;
