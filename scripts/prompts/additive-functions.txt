@@ -1,5 +1,10 @@
 Determine the technological functions performed by a food additive. You will receive the Codex Alimentarius (GSFA) functional class names in a separate message; only choose from that list.
 
+Each additive input will contain the following lines in order:
+1. E-number (e.g. "E260")
+2. Additive name (e.g. "Acetic acid")
+3. Optional line: "Existing functions: ..." listing functions that need validation
+
 Guidelines:
 - Base your answer on the additive information provided by the user.
 - Choose every function that clearly applies; omit ones that are not supported.
