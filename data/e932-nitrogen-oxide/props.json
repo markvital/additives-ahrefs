@@ -5,7 +5,10 @@
     "E932",
     "Nitrogen oxide"
   ],
-  "functions": [],
+  "functions": [
+    "packaging-gas",
+    "propellant"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "",

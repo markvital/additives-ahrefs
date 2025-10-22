@@ -5,7 +5,11 @@
     "E472",
     "acid esters of mono- and diglycerides of fatty acids"
   ],
-  "functions": [],
+  "functions": [
+    "emulsifier",
+    "flour-treatment-agent",
+    "stabilizer"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "",

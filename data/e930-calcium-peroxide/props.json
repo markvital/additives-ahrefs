@@ -5,7 +5,10 @@
     "E930",
     "calcium peroxide"
   ],
-  "functions": [],
+  "functions": [
+    "bleaching-agent",
+    "flour-treatment-agent"
+  ],
   "description": "Calcium peroxide or calcium dioxide is the inorganic compound with the formula CaO2. It is the peroxide -O22−- salt of Ca2+. Commercial samples can be yellowish, but the pure compound is white.  It is almost insoluble in water.",
   "wikipedia": "https://en.wikipedia.org/wiki/Calcium_peroxide",
   "wikidata": "Q94770",

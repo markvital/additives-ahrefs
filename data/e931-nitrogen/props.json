@@ -5,7 +5,10 @@
     "E931",
     "Nitrogen"
   ],
-  "functions": [],
+  "functions": [
+    "packaging-gas",
+    "propellant"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "",

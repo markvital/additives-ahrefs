@@ -6,7 +6,9 @@
     "ferric ammonium citrate",
     "ammonium ferric citrate"
   ],
-  "functions": [],
+  "functions": [
+    "acidity-regulator"
+  ],
   "description": "Ammonium ferric citrate has the formula -NH4-5[Fe-C6H4O7-2]. A distinguishing feature of this compound is that it is very soluble in water, in contrast to ferric citrate which is not very soluble. In its crystal structure each citric acid moiety has lost four protons, and the deprotonated hydroxyl groups act as ligands together with four carboxylate groups; two carboxylate groups are not coordinated to the ferric ion.",
   "wikipedia": "https://en.wikipedia.org/wiki/Ammonium_ferric_citrate",
   "wikidata": "Q473522",

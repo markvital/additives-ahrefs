@@ -5,7 +5,9 @@
     "E349",
     "ammonium malate"
   ],
-  "functions": [],
+  "functions": [
+    "acidity-regulator"
+  ],
   "description": "Ammonium malate is a compound with formula NH4-C2H4O-COO-2-. It is the ammonium salt of malic acid.  It is used as a food additive and has the E number E349. There is a recommendation to avoid this food additive.",
   "wikipedia": "https://en.wikipedia.org/wiki/Ammonium_malate",
   "wikidata": "Q4747303",

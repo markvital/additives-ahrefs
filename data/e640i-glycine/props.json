@@ -5,7 +5,9 @@
     "E640i",
     "Glycine"
   ],
-  "functions": [],
+  "functions": [
+    "flavour-enhancer"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "Q18967228",

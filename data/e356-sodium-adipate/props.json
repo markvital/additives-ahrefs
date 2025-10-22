@@ -5,7 +5,9 @@
     "E356",
     "Sodium adipate"
   ],
-  "functions": [],
+  "functions": [
+    "acidity-regulator"
+  ],
   "description": "Sodium adipate is a compound with formula Na2C6H8O4. It is the sodium salt of adipic acid. It has E number \"E356\".",
   "wikipedia": "https://en.wikipedia.org/wiki/Sodium_adipate",
   "wikidata": "Q423296",

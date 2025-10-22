@@ -5,7 +5,10 @@
     "E486",
     "Calcium stearoyl fumarate"
   ],
-  "functions": [],
+  "functions": [
+    "emulsifier",
+    "flour-treatment-agent"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "Q18606662",

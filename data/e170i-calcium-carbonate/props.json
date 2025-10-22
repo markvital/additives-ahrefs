@@ -8,8 +8,11 @@
     "Chalk"
   ],
   "functions": [
+    "acidity-regulator",
+    "anticaking-agent",
+    "carrier",
     "colour",
-    "stabiliser"
+    "stabilizer"
   ],
   "description": "",
   "wikipedia": "https://en.wikipedia.org/wiki/Calcium_carbonate",

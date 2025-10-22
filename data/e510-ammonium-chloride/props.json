@@ -5,7 +5,10 @@
     "E510",
     "Ammonium chloride"
   ],
-  "functions": [],
+  "functions": [
+    "acidity-regulator",
+    "flour-treatment-agent"
+  ],
   "description": "",
   "wikipedia": "https://en.wikipedia.org/wiki/Ammonium_chloride",
   "wikidata": "Q188543",

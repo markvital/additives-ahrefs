@@ -5,7 +5,9 @@
     "E353",
     "Metatartaric acid"
   ],
-  "functions": [],
+  "functions": [
+    "stabilizer"
+  ],
   "description": "Metatartaric acid a polymeric lactone of variable composition obtained by heating tartaric acid.",
   "wikipedia": "https://en.wikipedia.org/wiki/Metatartaric_acid",
   "wikidata": "Q17997708",

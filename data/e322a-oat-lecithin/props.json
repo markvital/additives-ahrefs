@@ -5,7 +5,10 @@
     "E322a",
     "Oat lecithin"
   ],
-  "functions": [],
+  "functions": [
+    "emulsifier",
+    "stabilizer"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "",

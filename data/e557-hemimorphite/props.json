@@ -6,7 +6,9 @@
     "hemimorphite",
     "calamine"
   ],
-  "functions": [],
+  "functions": [
+    "anticaking-agent"
+  ],
   "description": "Hemimorphite, is Zn4-Si2O7--OH-2·H2O, a component of calamine. It is a sorosilicate mineral which has been historically mined from the upper parts of zinc and lead ores, chiefly associated with smithsonite, ZnCO3. They were assumed to be the same mineral and both were classed under the same name of calamine. In the second half of the 18th century it was discovered that these two different minerals were both present in calamine. They closely resemble each other. The silicate was the rarer of the two, and was named hemimorphite,  because of the hemimorph development of its crystals. This unusual form, which is typical of only a few minerals, means that the crystals are terminated by dissimilar faces. Hemimorphite most commonly forms crystalline crusts and layers, also massive, granular, rounded and reniform aggregates, concentrically striated, or finely needle-shaped, fibrous or stalactitic, and rarely fan-shaped clusters of crystals. Some specimens show strong green fluorescence in shortwave ultraviolet light -253.7 nm- and weak light pink fluorescence in longwave UV.",
   "wikipedia": "https://en.wikipedia.org/wiki/Hemimorphite",
   "wikidata": "Q408008",

@@ -5,7 +5,9 @@
     "E166",
     "Sandalwood"
   ],
-  "functions": [],
+  "functions": [
+    "colour"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "",

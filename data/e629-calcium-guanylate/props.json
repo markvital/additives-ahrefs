@@ -5,7 +5,9 @@
     "E629",
     "Calcium guanylate"
   ],
-  "functions": [],
+  "functions": [
+    "flavour-enhancer"
+  ],
   "description": "Calcium guanylate is a compound with formula Ca-C10H12O4N5PO4-. It is the calcium salt of guanylic acid. As a food additive, it is used as a flavor enhancer and has the E number E629.",
   "wikipedia": "https://en.wikipedia.org/wiki/Calcium_guanylate",
   "wikidata": "Q5018832",

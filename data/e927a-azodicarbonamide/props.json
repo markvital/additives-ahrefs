@@ -5,7 +5,9 @@
     "E927a",
     "Azodicarbonamide"
   ],
-  "functions": [],
+  "functions": [
+    "flour-treatment-agent"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "Q415646",

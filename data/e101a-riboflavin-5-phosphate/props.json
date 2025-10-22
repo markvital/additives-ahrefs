@@ -6,7 +6,9 @@
     "E101a",
     "Riboflavin-5'-phosphate"
   ],
-  "functions": [],
+  "functions": [
+    "colour"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "",

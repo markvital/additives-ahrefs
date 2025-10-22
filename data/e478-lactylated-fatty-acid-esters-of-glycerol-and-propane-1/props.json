@@ -5,7 +5,10 @@
     "E478",
     "Lactylated fatty acid esters of glycerol and propane-1"
   ],
-  "functions": [],
+  "functions": [
+    "emulsifier",
+    "stabilizer"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "Q18935693",

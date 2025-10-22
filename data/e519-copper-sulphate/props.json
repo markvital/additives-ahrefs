@@ -6,7 +6,9 @@
     "Copper sulphate",
     "copperII sulfate"
   ],
-  "functions": [],
+  "functions": [
+    "firming-agent"
+  ],
   "description": "CopperII sulfate, also known as cupric sulfate, or copper sulphate, is the inorganic compound with the chemical formula CuSO4-H2O-x, where x can range from 0 to 5.  The pentahydrate -x = 5- is the most common form.  Older names for this compound include blue vitriol, bluestone, vitriol of copper, and Roman vitriol.The pentahydrate -CuSO4·5H2O-, the most commonly encountered salt, is bright blue. It exothermically dissolves in water to give the aquo complex [Cu-H2O-6]2+, which has octahedral molecular geometry.  The structure of the solid pentahydrate reveals a polymeric structure wherein copper is again octahedral but bound to four water ligands.  The Cu-II--H2O-4 centers are interconnected by sulfate anions to form chains. Anhydrous copper sulfate is a white powder.",
   "wikipedia": "https://en.wikipedia.org/wiki/CopperII_sulfate",
   "wikidata": "Q107184",

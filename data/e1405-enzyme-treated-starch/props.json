@@ -6,8 +6,9 @@
     "Enzyme treated starch"
   ],
   "functions": [
-    "emulsifier",
-    "stabiliser",
+    "bulking-agent",
+    "carrier",
+    "stabilizer",
     "thickener"
   ],
   "description": "",

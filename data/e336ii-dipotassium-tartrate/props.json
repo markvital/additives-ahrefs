@@ -7,7 +7,10 @@
     "dipotassic tartrate",
     "Potassium tartrate"
   ],
-  "functions": [],
+  "functions": [
+    "acidity-regulator",
+    "sequestrant"
+  ],
   "description": "Potassium tartrate, dipotassium tartrate or argol has formula K2C4H4O6. It is the potassium salt of tartaric acid.  It is often confused with potassium bitartrate, also known as cream of tartar.  As a food additive, it shares the E number E336 with potassium bitartrate.",
   "wikipedia": "https://en.wikipedia.org/wiki/Potassium_tartrate",
   "wikidata": "Q418064",

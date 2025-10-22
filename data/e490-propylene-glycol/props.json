@@ -12,7 +12,10 @@
     "methylethylene glycol",
     "Propan-1‚2-diol"
   ],
-  "functions": [],
+  "functions": [
+    "carrier",
+    "humectant"
+  ],
   "description": "Propylene glycol -IUPAC name: propane-1‚2-diol- is a synthetic organic compound with the chemical formula C3H8O2. It is a viscous, colorless liquid which is nearly odorless but possesses a faintly sweet taste. Chemically it is classed as a diol and is miscible with a broad range of solvents, including water, acetone, and chloroform. It is produced on a large scale and is primarily used in the production of polymers, but also sees use in food processing, and as a process fluid in low-temperature heat-exchange applications.  In the European Union, it has the E-number E1520 for food applications. For cosmetics and pharmacology, the number is E490. Propylene glycol is also present in propylene glycol alginate which known as E405. The compound is sometimes called -alpha- α-propylene glycol to distinguish it from the isomer propane-1‚3-diol, known as -beta- β-propylene glycol.",
   "wikipedia": "https://en.wikipedia.org/wiki/Propylene_glycol",
   "wikidata": "Q161495",

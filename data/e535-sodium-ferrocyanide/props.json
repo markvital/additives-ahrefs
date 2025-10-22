@@ -6,7 +6,9 @@
     "Sodium ferrocyanide",
     "Yellow prussiate of soda"
   ],
-  "functions": [],
+  "functions": [
+    "anticaking-agent"
+  ],
   "description": "Sodium ferrocyanide is the sodium salt of the coordination compound of formula [Fe-CN-6]4−. In its hydrous form, Na4Fe-CN-6 · 10 H2O -sodium ferrocyanide decahydrate-, it is sometimes known as yellow prussiate of soda. It is a yellow crystalline solid that is soluble in water and insoluble in alcohol. The yellow color is the color of ferrocyanide anion. Despite the presence of the cyanide ligands, sodium ferrocyanide has low toxicity -acceptable daily intake 0–0.025 mg/kg  body weight-. The ferrocyanides are less toxic than many salts of cyanide, because they tend not to release free cyanide. However, like all ferrocyanide salt solutions, addition of an acid can result in the production of hydrogen cyanide gas, which is toxic.",
   "wikipedia": "https://en.wikipedia.org/wiki/Sodium_ferrocyanide",
   "wikidata": "Q418474",

@@ -6,7 +6,9 @@
     "Gamme-tocopherol",
     "gamma-Tocopherol"
   ],
-  "functions": [],
+  "functions": [
+    "antioxidant"
+  ],
   "description": "γ-Tocopherol is one of the chemical compounds that is considered vitamin E.  As a food additive, it has E number E308. See the main article tocopherol for more information.",
   "wikipedia": "https://en.wikipedia.org/wiki/Gamma-Tocopherol",
   "wikidata": "Q155753",

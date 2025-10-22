@@ -5,7 +5,9 @@
     "E370",
     "1‚4-Heptonolactone"
   ],
-  "functions": [],
+  "functions": [
+    "acidity-regulator"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "",

@@ -6,7 +6,9 @@
     "DL-alanine",
     "DL alanine"
   ],
-  "functions": [],
+  "functions": [
+    "flavour-enhancer"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "",

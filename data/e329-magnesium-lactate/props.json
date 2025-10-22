@@ -5,7 +5,9 @@
     "E329",
     "Magnesium lactate"
   ],
-  "functions": [],
+  "functions": [
+    "acidity-regulator"
+  ],
   "description": "Magnesium lactate, the magnesium salt of lactic acid, is a mineral supplement. Added to some food and beverages as an acidity regulator and labeled as E329.",
   "wikipedia": "https://en.wikipedia.org/wiki/Magnesium_lactate",
   "wikidata": "Q594836",

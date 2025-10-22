@@ -7,7 +7,9 @@
     "Food Black 2",
     "carbon black"
   ],
-  "functions": [],
+  "functions": [
+    "colour"
+  ],
   "description": "Carbon black -subtypes are  acetylene black, channel black, furnace black, lamp black and thermal black- is a material produced by the incomplete combustion of heavy petroleum products such as FCC tar, coal tar, ethylene cracking tar, with the addition of a small amount of vegetable oil. Carbon black is a form of paracrystalline carbon that has a high surface-area-to-volume ratio, albeit lower than that of activated carbon. It is dissimilar to soot in its much higher surface-area-to-volume ratio and significantly lower -negligible and non-bioavailable- PAH -polycyclic aromatic hydrocarbon- content. However, carbon black is widely used as a model compound for diesel soot for diesel oxidation experiments. Carbon black is mainly used as a reinforcing filler in tires and other rubber products. In plastics, paints, and inks, carbon black is used as a color pigment.The current International Agency for Research on Cancer -IARC- evaluation is that, \"Carbon black is possibly carcinogenic to humans -Group 2B-\". Short-term exposure to high concentrations of carbon black dust may produce discomfort to the upper respiratory tract, through mechanical irritation.",
   "wikipedia": "https://en.wikipedia.org/wiki/Carbon_black",
   "wikidata": "Q764245",

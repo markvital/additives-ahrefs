@@ -6,7 +6,9 @@
     "saffron",
     "Gardenia Yellow"
   ],
-  "functions": [],
+  "functions": [
+    "colour"
+  ],
   "description": "",
   "wikipedia": "https://en.wikipedia.org/wiki/Saffron",
   "wikidata": "Q25434",

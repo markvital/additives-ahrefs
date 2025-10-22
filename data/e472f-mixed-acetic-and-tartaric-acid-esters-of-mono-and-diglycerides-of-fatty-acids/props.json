@@ -5,7 +5,10 @@
     "E472f",
     "Mixed acetic and tartaric acid esters of mono- and diglycerides of fatty acids"
   ],
-  "functions": [],
+  "functions": [
+    "emulsifier",
+    "stabilizer"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "Q18967248",

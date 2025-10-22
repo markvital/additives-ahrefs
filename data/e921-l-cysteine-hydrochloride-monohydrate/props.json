@@ -5,7 +5,9 @@
     "E921",
     "L-cysteine hydrochloride monohydrate"
   ],
-  "functions": [],
+  "functions": [
+    "flour-treatment-agent"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "",

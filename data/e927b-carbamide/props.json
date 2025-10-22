@@ -6,7 +6,9 @@
     "Carbamide",
     "urea"
   ],
-  "functions": [],
+  "functions": [
+    "flour-treatment-agent"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "Q48318",

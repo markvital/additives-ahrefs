@@ -5,7 +5,10 @@
     "E1517",
     "Glyceryl diacetate"
   ],
-  "functions": [],
+  "functions": [
+    "carrier",
+    "humectant"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "Q904648",

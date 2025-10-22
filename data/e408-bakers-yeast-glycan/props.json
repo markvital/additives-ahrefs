@@ -5,7 +5,10 @@
     "E408",
     "Bakers yeast glycan"
   ],
-  "functions": [],
+  "functions": [
+    "stabilizer",
+    "thickener"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "Q18935685",

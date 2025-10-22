@@ -6,7 +6,10 @@
     "Calcium sulphite",
     "Calcium sulfite"
   ],
-  "functions": [],
+  "functions": [
+    "antioxidant",
+    "preservative"
+  ],
   "description": "Calcium sulfite, or calcium sulphite, is a chemical compound, the calcium salt of sulfite with the formula CaSO3·x-H2O-. Two crystalline forms are known, the hemihydrate and the tetrahydrate, respectively CaSO3·½-H2O- and CaSO3·4-H2O-. All forms are white solids.  It is most notable as the product of flue-gas desulfurization.",
   "wikipedia": "https://en.wikipedia.org/wiki/Calcium_sulfite",
   "wikidata": "Q899410",

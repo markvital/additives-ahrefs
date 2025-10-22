@@ -5,7 +5,9 @@
     "E161j",
     "Astaxanthin"
   ],
-  "functions": [],
+  "functions": [
+    "colour"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "",

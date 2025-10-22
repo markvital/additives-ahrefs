@@ -5,7 +5,9 @@
     "E900",
     "Dimethylpolysiloxane and Methylphenylpolysiloxane"
   ],
-  "functions": [],
+  "functions": [
+    "antifoaming-agent"
+  ],
   "description": "Polydimethylsiloxane -PDMS- belongs to a group of polymeric organosilicon compounds that are commonly referred to as silicones. PDMS is the most widely used silicon-based organic polymer, and is particularly known for its unusual rheological -or flow- properties. PDMS is optically clear, and, in general, inert, non-toxic, and non-flammable. It is also called dimethylpolysiloxane or dimethicone and is one of several types of silicone oil -polymerized siloxane-. Its applications range from contact lenses and medical devices to elastomers; it is also present in shampoos -as dimethicone makes hair shiny and slippery-, food -antifoaming agent-, caulking, lubricants and heat-resistant tiles.",
   "wikipedia": "https://en.wikipedia.org/wiki/Polydimethylsiloxane",
   "wikidata": "Q411955",

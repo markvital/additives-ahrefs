@@ -5,7 +5,10 @@
     "E409",
     "Arabinogalactan"
   ],
-  "functions": [],
+  "functions": [
+    "stabilizer",
+    "thickener"
+  ],
   "description": "Arabinogalactan is a biopolymer consisting of arabinose and galactose monosaccharides.  Two classes of arabinogalactans are found in nature: plant arabinogalactan and microbial arabinogalactan.  In plants, it is a major component of many gums, including gum arabic and gum ghatti. It is often found attached to proteins, and the resulting arabinogalactan protein -AGP- functions as both an intercellular signaling molecule and a glue to seal plant wounds.The microbial arabinogalactan is a major structural component of the mycobacterial cell wall.  Both the arabinose and galactose exist solely in the furanose configuration.  The galactan portion of microbial arabinogalactan is linear, consisting of approximately 30 units with alternating β--1-5- and β--1-6- glycosidic linkages. The arabinan chain, which consists of about 30 residues, is attached at three branch points within the galactan chain, believed to be at residues 8, 10 and 12. The arabinan portion of the polymer is a complex branched structure, usually capped with mycolic acids; the arabinan glycosidic linkages are α--1-3-, α--1-5-, and β--1-2-. The mycobacterial arabinogalactan is recognized by a putative immune lectin intelectin present in chordates.",
   "wikipedia": "https://en.wikipedia.org/wiki/Arabinogalactan",
   "wikidata": "Q4783458",

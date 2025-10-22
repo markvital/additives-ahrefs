@@ -5,7 +5,9 @@
     "E943a",
     "Butane"
   ],
-  "functions": [],
+  "functions": [
+    "propellant"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "",

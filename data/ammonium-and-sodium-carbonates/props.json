@@ -4,7 +4,10 @@
   "synonyms": [
     "ammonium and sodium carbonates"
   ],
-  "functions": [],
+  "functions": [
+    "acidity-regulator",
+    "raising-agent"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "",

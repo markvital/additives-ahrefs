@@ -5,7 +5,9 @@
     "E359",
     "ammonium adipate"
   ],
-  "functions": [],
+  "functions": [
+    "acidity-regulator"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "Q4747299",

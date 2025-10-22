@@ -9,7 +9,9 @@
     "mixed tocopherols",
     "natural mixed tocopherols"
   ],
-  "functions": [],
+  "functions": [
+    "antioxidant"
+  ],
   "description": "",
   "wikipedia": "https://en.wikipedia.org/wiki/Vitamin_E",
   "wikidata": "Q141180",

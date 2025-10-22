@@ -5,7 +5,9 @@
     "E106",
     "flavin mononucleotide"
   ],
-  "functions": [],
+  "functions": [
+    "colour"
+  ],
   "description": "Flavin mononucleotide -FMN-, or riboflavin-5′-phosphate, is a biomolecule produced from riboflavin -vitamin B2- by the enzyme riboflavin kinase and functions as prosthetic group of various oxidoreductases including NADH dehydrogenase as well as cofactor in biological blue-light photo receptors. During the catalytic cycle, a reversible interconversion of the oxidized -FMN-, semiquinone -FMNH•- and reduced -FMNH2- forms occurs in the various oxidoreductases. FMN is a stronger oxidizing agent than NAD and is particularly useful because it can take part in both one- and two-electron transfers. In its role as blue-light photo receptor, -oxidized- FMN stands out from the 'conventional' photo receptors as the signaling state and not an E/Z isomerization. It is the principal form in which riboflavin is found in cells and tissues. It requires more energy to produce, but is more soluble than riboflavin.",
   "wikipedia": "https://en.wikipedia.org/wiki/Flavin_mononucleotide",
   "wikidata": "Q376061",

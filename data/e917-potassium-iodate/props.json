@@ -5,7 +5,9 @@
     "E917",
     "potassium iodate"
   ],
-  "functions": [],
+  "functions": [
+    "flour-treatment-agent"
+  ],
   "description": "Potassium iodate -KIO3- is a chemical compound. It is ionic, made up of K+ ions and IO3− ions in a 1:1 ratio.",
   "wikipedia": "https://en.wikipedia.org/wiki/Potassium_iodate",
   "wikidata": "Q414599",

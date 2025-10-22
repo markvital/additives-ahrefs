@@ -6,7 +6,13 @@
     "E450viii",
     "Dimagnesium diphosphate"
   ],
-  "functions": [],
+  "functions": [
+    "acidity-regulator",
+    "emulsifying-salt",
+    "raising-agent",
+    "sequestrant",
+    "stabilizer"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "Q290828",

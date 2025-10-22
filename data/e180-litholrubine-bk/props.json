@@ -9,7 +9,9 @@
     "Pigment Rubine",
     "Lithol rubine bk"
   ],
-  "functions": [],
+  "functions": [
+    "colour"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "Q427230",

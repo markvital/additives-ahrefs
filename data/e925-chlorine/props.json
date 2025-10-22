@@ -6,7 +6,10 @@
     "Chlorine",
     "element 17"
   ],
-  "functions": [],
+  "functions": [
+    "bleaching-agent",
+    "flour-treatment-agent"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "Q688",

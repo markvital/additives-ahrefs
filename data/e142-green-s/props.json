@@ -6,7 +6,9 @@
     "Green s",
     "CI Food Green 4"
   ],
-  "functions": [],
+  "functions": [
+    "colour"
+  ],
   "description": "Green S is a green synthetic coal tar triarylmethane dye with the molecular formula C27H25N2O7S2Na. As a food dye, it has E number E142. It can be used in mint sauce, desserts, gravy granules, sweets, ice creams, and tinned peas.  Green S is prohibited as a food additive in Canada, United States, Japan, and Norway. It is approved for use as a food additive in the EU and Australia and New Zealand.Green S is a vital dye, meaning it can be used to stain living cells. It is used in ophthalmology, along with fluorescein and rose bengal, to diagnose various disorders of the eye's surface, dry eyes for example.",
   "wikipedia": "https://en.wikipedia.org/wiki/Green_S",
   "wikidata": "Q420143",

@@ -6,7 +6,9 @@
     "Disodium 5'-ribonucleotide",
     "Disodium 5'-ribonucleotides"
   ],
-  "functions": [],
+  "functions": [
+    "flavour-enhancer"
+  ],
   "description": "",
   "wikipedia": "https://en.wikipedia.org/wiki/Disodium_ribonucleotides",
   "wikidata": "Q18967210",

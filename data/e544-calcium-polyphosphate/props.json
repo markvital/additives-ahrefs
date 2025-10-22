@@ -5,7 +5,11 @@
     "E544",
     "Calcium polyphosphate"
   ],
-  "functions": [],
+  "functions": [
+    "sequestrant",
+    "stabilizer",
+    "thickener"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "Q18967198",

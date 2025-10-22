@@ -6,7 +6,9 @@
     "Cryptoaxanthin",
     "Cryptoxanthin"
   ],
-  "functions": [],
+  "functions": [
+    "colour"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "",

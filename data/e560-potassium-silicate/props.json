@@ -5,7 +5,10 @@
     "E560",
     "Potassium silicate"
   ],
-  "functions": [],
+  "functions": [
+    "acidity-regulator",
+    "anticaking-agent"
+  ],
   "description": "Potassium silicate is the name for a family of inorganic compounds.  The most common potassium silicate has the formula K2SiO3, samples of which contain varying amounts of water.  These are white solids or colorless solutions.",
   "wikipedia": "https://en.wikipedia.org/wiki/Potassium_silicate",
   "wikidata": "Q419390",

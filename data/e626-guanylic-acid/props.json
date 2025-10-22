@@ -6,7 +6,9 @@
     "Guanylic acid",
     "guanosine monophosphate"
   ],
-  "functions": [],
+  "functions": [
+    "flavour-enhancer"
+  ],
   "description": "Guanosine monophosphate -GMP-, also known as 5'-guanidylic acid or guanylic acid -conjugate base guanylate-, is a nucleotide that is used as a monomer in RNA. It is an ester of phosphoric acid with the nucleoside guanosine. GMP consists of the phosphate group, the pentose sugar ribose, and the nucleobase guanine; hence it is a ribonucleoside monophosphate. Guanosine monophosphate is commercially produced by microbial fermentation.Guanosine monophosphate in the form of its salts, such as disodium guanylate -E627-, dipotassium guanylate -E628- and calcium guanylate -E629-, are food additives used as flavor enhancers to provide the umami taste. It is often used in synergy with disodium inosinate; the combination is known as disodium 5'-ribonucleotides. Disodium guanylate is often found in instant noodles, potato chips and snacks, savoury rice, tinned vegetables, cured meats, and packet soup. As it is a fairly expensive additive, it is usually not used independently of glutamic acid or monosodium glutamate -MSG-, which also contribute umami.  If inosinate and guanylate salts are present in a list of ingredients but MSG does not appear to be, the glutamic acid is likely provided as part of another ingredient, such as a processed soy protein complex -hydrolyzed soy protein-, autolyzed yeast, or soy sauce. As inhibitor of guanosine monophosphate synthesis in experimental models, the glutamine analogue DON can be used.As an acyl substituent, it takes the form of the prefix guanylyl-.",
   "wikipedia": "https://en.wikipedia.org/wiki/Guanosine_monophosphate",
   "wikidata": "Q422473",

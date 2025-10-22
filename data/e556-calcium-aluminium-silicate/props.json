@@ -8,7 +8,9 @@
     "Calcium silicoaluminate",
     "Aluminium calcium silicate"
   ],
-  "functions": [],
+  "functions": [
+    "anticaking-agent"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "Q18967182",

@@ -5,7 +5,9 @@
     "E916",
     "Calcium iodate"
   ],
-  "functions": [],
+  "functions": [
+    "flour-treatment-agent"
+  ],
   "description": "Calcium iodates are  inorganic compound composed of calcium and iodate anion. Two forms are known, anhydrous Ca-IO3-2 and the hexahydrate Ca-IO3-2-H2O-. Both are colourless salts that occur naturally as the minerals called lautarite and bruggenite, respectively.  A third mineral form of calcium iodate is dietzeite, a salt containing chromate with the formula Ca2-IO3-2CrO4.",
   "wikipedia": "https://en.wikipedia.org/wiki/Calcium_iodate",
   "wikidata": "Q2185998",

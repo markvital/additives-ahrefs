@@ -7,7 +7,8 @@
     "nitrogen E941"
   ],
   "functions": [
-    "propellent-gas"
+    "packaging-gas",
+    "propellant"
   ],
   "description": "",
   "wikipedia": "https://en.wikipedia.org/wiki/Nitrogen",

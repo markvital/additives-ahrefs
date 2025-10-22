@@ -5,7 +5,10 @@
     "E505",
     "Ferrous carbonate"
   ],
-  "functions": [],
+  "functions": [
+    "acidity-regulator",
+    "anticaking-agent"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "Q18967227",

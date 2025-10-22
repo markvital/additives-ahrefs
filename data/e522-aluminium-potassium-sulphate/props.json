@@ -8,7 +8,9 @@
     "Potassium aluminium sulfate",
     "potash alum"
   ],
-  "functions": [],
+  "functions": [
+    "firming-agent"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "Q411309",

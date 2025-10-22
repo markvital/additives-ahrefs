@@ -5,7 +5,9 @@
     "E215",
     "Sodium ethyl p-hydroxybenzoate"
   ],
-  "functions": [],
+  "functions": [
+    "preservative"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "",

@@ -5,7 +5,10 @@
     "E949",
     "Hydrogen"
   ],
-  "functions": [],
+  "functions": [
+    "packaging-gas",
+    "propellant"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "Q556",

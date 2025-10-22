@@ -6,7 +6,9 @@
     "Sodium methyl p-hydroxybenzoate",
     "sodium methylparaben"
   ],
-  "functions": [],
+  "functions": [
+    "preservative"
+  ],
   "description": "Sodium methylparaben -sodium methyl para-hydroxybenzoate- is a compound with formula Na-CH3-C6H4COO-O-. It is the sodium salt of methylparaben. It is a food additive with the E number E219 which is used as a preservative.",
   "wikipedia": "https://en.wikipedia.org/wiki/Sodium_methylparaben",
   "wikidata": "Q3963920",

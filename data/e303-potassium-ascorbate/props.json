@@ -5,7 +5,9 @@
     "E303",
     "Potassium ascorbate"
   ],
-  "functions": [],
+  "functions": [
+    "antioxidant"
+  ],
   "description": "",
   "wikipedia": "",
   "wikidata": "Q56410901",
