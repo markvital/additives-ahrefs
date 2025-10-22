@@ -467,7 +467,7 @@ function sortFunctionValues(values) {
   return values.slice().sort((a, b) => a.localeCompare(b));
 }
 
-function createAdditivePrompt(additive) {
+function createAdditivePrompt(additive, props) {
   const eNumber = typeof additive.eNumber === 'string' ? additive.eNumber.trim() : '';
   const title = typeof additive.title === 'string' ? additive.title.trim() : '';
 
@@ -480,7 +480,16 @@ function createAdditivePrompt(additive) {
   }
 
   const label = parts.length > 0 ? parts.join(' – ') : additive.slug;
-  return `Additive: ${label}`;
+  const lines = [`Additive: ${label}`];
+
+  if (Array.isArray(props.functions) && props.functions.length > 0) {
+    const existingFunctions = props.functions.filter((fn) => typeof fn === 'string' && fn.trim().length > 0);
+    if (existingFunctions.length > 0) {
+      lines.push(`Existing functions: ${existingFunctions.join(', ')}`);
+    }
+  }
+
+  return lines.join('\n');
 }
 
 function callOpenAi({ apiKey, systemPrompt, functionListInput, additiveInput, debug = false }) {
@@ -621,7 +630,7 @@ async function processAdditive({
 
   console.log(`[${index + 1}/${total}] Fetching functions for ${additiveLabel}...`);
 
-  const additiveInput = createAdditivePrompt(additive);
+  const additiveInput = createAdditivePrompt(additive, props);
   const outputText = await callOpenAi({
     apiKey,
     systemPrompt,
