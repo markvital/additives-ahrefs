@@ -15,6 +15,8 @@ import {
 import { formatFilterLabel } from '../../../lib/text';
 import { AdditiveGrid } from '../../../components/AdditiveGrid';
 import { FilterPanel } from '../../../components/FilterPanel';
+import { AdditiveLegendProvider } from '../../../components/AdditiveLegendContext';
+import { ShowLegendLink } from '../../../components/ShowLegendLink';
 
 interface FunctionPageProps {
   params: Promise<{ functionSlug: string }>;
@@ -78,28 +80,31 @@ export default async function FunctionPage({ params, searchParams }: FunctionPag
   const label = formatFilterLabel(functionValue);
 
   return (
-    <Box component="section" display="flex" flexDirection="column" gap={4}>
-      <Box display="flex" flexDirection="column" gap={1.5} maxWidth={720}>
-        <Typography component="h1" variant="h1">
-          Function: {label}
-        </Typography>
-        <Typography variant="body1" color="text.secondary">
-          {formatCountLabel(filteredAdditives.length)}
-        </Typography>
-      </Box>
+    <AdditiveLegendProvider>
+      <Box component="section" display="flex" flexDirection="column" gap={4}>
+        <Box display="flex" flexDirection="column" gap={1.5} maxWidth={720}>
+          <Typography component="h1" variant="h1">
+            Function: {label}
+          </Typography>
+          <Typography variant="body1" color="text.secondary">
+            {formatCountLabel(filteredAdditives.length)}
+          </Typography>
+          <ShowLegendLink />
+        </Box>
 
-      <FilterPanel
-        functionOptions={functionOptions}
-        originOptions={originOptions}
-        currentFunctionSlug={functionSlug}
-        currentSortMode={sortMode}
-        currentShowClasses={showClasses}
-      />
-      <AdditiveGrid
-        items={sortedAdditives}
-        sortMode={sortMode}
-        emptyMessage="No additives found for this function."
-      />
-    </Box>
+        <FilterPanel
+          functionOptions={functionOptions}
+          originOptions={originOptions}
+          currentFunctionSlug={functionSlug}
+          currentSortMode={sortMode}
+          currentShowClasses={showClasses}
+        />
+        <AdditiveGrid
+          items={sortedAdditives}
+          sortMode={sortMode}
+          emptyMessage="No additives found for this function."
+        />
+      </Box>
+    </AdditiveLegendProvider>
   );
 }
