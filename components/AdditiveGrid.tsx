@@ -234,6 +234,7 @@ export function AdditiveGrid({
                           width: '100%',
                           maxWidth: { xs: '100%', sm: 'min(100%, 320px)', lg: 'min(100%, 360px)' },
                           pr: { xs: 0, sm: 0.5, lg: 0 },
+                          ml: { xs: 0, sm: 'auto' },
                         }}
                       >
                         <SearchSparkline values={additive.searchSparkline ?? []} />
