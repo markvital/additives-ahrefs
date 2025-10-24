@@ -17,20 +17,15 @@ const isOverflowing = (element: HTMLElement) => {
   return widthOverflow || heightOverflow;
 };
 
-export function FunctionChipList({
-  functions,
-  maxVisible = 2,
-  spacing = 1,
-  sx,
-  ...rest
-}: FunctionChipListProps) {
+export function FunctionChipList({ functions, maxVisible, spacing = 1, sx, ...rest }: FunctionChipListProps) {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const normalizedFunctions = useMemo(
     () => functions.map((fn) => fn.trim()).filter((fn) => fn.length > 0),
     [functions]
   );
   const normalizedLength = normalizedFunctions.length;
-  const targetCount = Math.min(maxVisible, normalizedLength);
+  const desiredMax = typeof maxVisible === 'number' ? Math.max(0, maxVisible) : normalizedLength;
+  const targetCount = Math.max(0, Math.min(desiredMax, normalizedLength));
   const [displayCount, setDisplayCount] = useState(targetCount);
   const [resizeDirection, setResizeDirection] = useState<'grow' | 'shrink' | null>(null);
 

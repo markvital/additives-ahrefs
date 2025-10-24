@@ -241,15 +241,16 @@ export function AdditiveGrid({
                 {showProductCount && productCountLabel ? (
                   <Typography
                     variant="body2"
-                    color={highlightProducts ? 'text.primary' : 'text.secondary'}
                     sx={{
                       mt: 2,
-                      fontWeight: highlightProducts ? 600 : 400,
+                      color: '#5c5c5c',
+                      fontWeight: 400,
                     }}
                   >
-                    Found in <Box component="span" sx={{ fontWeight: highlightProducts ? 600 : 500 }}>
-                      {productCountLabel} products
-                    </Box>
+                    Found in <Box component="span" sx={{ fontWeight: 600, color: '#5c5c5c' }}>
+                      {productCountLabel}
+                    </Box>{' '}
+                    products
                   </Typography>
                 ) : null}
               </CardContent>
