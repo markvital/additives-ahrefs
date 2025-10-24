@@ -13,3 +13,11 @@ export const formatOriginLabel = (value: string): string => {
 
   return value.charAt(0).toUpperCase() + value.slice(1);
 };
+
+export const formatFunctionLabel = (value: string): string => {
+  if (!value) {
+    return '';
+  }
+
+  return value.replace(/-/g, ' ').replace(/\s+/g, ' ').trim().toLowerCase();
+};

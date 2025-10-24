@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { Avatar, Box, Card, CardActionArea, CardContent, Chip, Stack, Tooltip, Typography } from '@mui/material';
+import { Avatar, Box, Card, CardActionArea, CardContent, Stack, Tooltip, Typography } from '@mui/material';
 
 import type { Additive, AdditiveSortMode } from '../lib/additives';
 import { DEFAULT_ADDITIVE_SORT_MODE } from '../lib/additives';
@@ -9,6 +9,7 @@ import { formatMonthlyVolume, formatProductCount } from '../lib/format';
 import { getOriginAbbreviation, getOriginIcon } from '../lib/origin-icons';
 import { SearchSparkline } from './SearchSparkline';
 import { theme } from '../lib/theme';
+import { FunctionChipList } from './FunctionChipList';
 
 const resolveTypographySize = (value: string | number | undefined, fallback = '1.5rem') => {
   if (typeof value === 'number') {
@@ -83,8 +84,6 @@ export function AdditiveGrid({
         const hasSearchMetrics =
           typeof additive.searchRank === 'number' && typeof additive.searchVolume === 'number';
         const showSearchSection = hasSparkline || hasSearchMetrics;
-        const visibleFunctions = additive.functions.slice(0, 2);
-        const hiddenFunctionCount = Math.max(additive.functions.length - visibleFunctions.length, 0);
         const origins = additive.origin.filter((origin) => origin.trim().length > 0);
         const highlightProducts = sortMode === 'product-count';
         const searchSectionOpacity = highlightProducts ? 0.6 : 1;
@@ -120,7 +119,19 @@ export function AdditiveGrid({
               href={`/${additive.slug}`}
               sx={{ flexGrow: 1, display: 'flex', alignItems: 'stretch' }}
             >
-              <CardContent sx={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
+              <CardContent
+                sx={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  height: '100%',
+                  width: '100%',
+                  boxSizing: 'border-box',
+                  px: 1.25,
+                  pt: 1.875,
+                  pb: 1.875,
+                  '&:last-child': { pb: 1.875 },
+                }}
+              >
                 <Stack spacing={1.5} sx={{ flexGrow: 1 }}>
                   <Box display="flex" justifyContent="space-between" alignItems="flex-start">
                     <Typography variant="overline" color="text.secondary" letterSpacing={1.2}>
@@ -189,15 +200,8 @@ export function AdditiveGrid({
                     {displayTitle}
                   </Typography>
 
-                  {visibleFunctions.length > 0 ? (
-                    <Stack direction="row" spacing={1} alignItems="center" sx={{ flexWrap: 'nowrap', minHeight: 28 }}>
-                      {visibleFunctions.map((fn) => (
-                        <Chip key={fn} label={fn} variant="outlined" size="small" />
-                      ))}
-                      {hiddenFunctionCount > 0 && (
-                        <Chip label={`+${hiddenFunctionCount}`} variant="outlined" size="small" />
-                      )}
-                    </Stack>
+                  {additive.functions.length > 0 ? (
+                    <FunctionChipList functions={additive.functions} sx={{ maxWidth: '100%' }} />
                   ) : (
                     <Box sx={{ minHeight: 28 }} />
                   )}
@@ -223,7 +227,7 @@ export function AdditiveGrid({
                       <Box sx={{ minWidth: 0 }} />
                     )}
                     {hasSparkline ? (
-                      <Box sx={{ flexGrow: 1, minWidth: 96 }}>
+                      <Box sx={{ flexGrow: 1, minWidth: 96, pr: 3 }}>
                         <SearchSparkline values={additive.searchSparkline ?? []} />
                       </Box>
                     ) : (

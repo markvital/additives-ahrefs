@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
 import { Box, Button, Chip, Stack, Typography } from '@mui/material';
 import type { Additive } from '../lib/additives';
-import { formatAdditiveDisplayName, formatOriginLabel } from '../lib/additive-format';
+import { formatAdditiveDisplayName, formatFunctionLabel, formatOriginLabel } from '../lib/additive-format';
 import { extractArticleSummary, splitArticlePreview } from '../lib/article';
 import { formatMonthlyVolume, formatProductCount, getCountryFlagEmoji, getCountryLabel } from '../lib/format';
 import type { SearchHistoryDataset } from '../lib/search-history';
@@ -27,6 +27,20 @@ interface SelectionState {
   right: ComparisonAdditive | null;
 }
 
+const functionChipSx = {
+  borderRadius: '7.5px',
+  bgcolor: '#f4f4f4',
+  color: '#787878',
+  border: 'none',
+  textTransform: 'none',
+  whiteSpace: 'nowrap',
+  '& .MuiChip-label': {
+    px: '5px',
+    py: '3px',
+    color: '#787878',
+  },
+} as const;
+
 const renderSynonymContent = (additive: ComparisonAdditive | null) => {
   if (!additive) {
     return null;
@@ -45,7 +59,12 @@ const renderSynonymContent = (additive: ComparisonAdditive | null) => {
   return (
     <Stack direction="row" spacing={1} flexWrap="wrap">
       {synonyms.map((synonym) => (
-        <Chip key={synonym} label={synonym} variant="outlined" size="small" />
+        <Chip
+          key={synonym}
+          label={synonym}
+          variant="outlined"
+          size="small"
+        />
       ))}
     </Stack>
   );
@@ -69,7 +88,13 @@ const renderFunctionContent = (additive: ComparisonAdditive | null) => {
   return (
     <Stack direction="row" spacing={1} flexWrap="wrap">
       {functions.map((fn) => (
-        <Chip key={fn} label={fn} variant="outlined" size="small" />
+        <Chip
+          key={fn}
+          label={formatFunctionLabel(fn)}
+          variant="filled"
+          size="small"
+          sx={functionChipSx}
+        />
       ))}
     </Stack>
   );

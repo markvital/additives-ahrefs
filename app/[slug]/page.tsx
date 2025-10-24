@@ -4,7 +4,7 @@ import NextLink from 'next/link';
 import { notFound } from 'next/navigation';
 import { Box, Chip, Link as MuiLink, Stack, Typography } from '@mui/material';
 
-import { formatAdditiveDisplayName, formatOriginLabel } from '../../lib/additive-format';
+import { formatAdditiveDisplayName, formatFunctionLabel, formatOriginLabel } from '../../lib/additive-format';
 import { extractArticleBody, extractArticleSummary } from '../../lib/article';
 import {
   getAdditiveBySlug,
@@ -346,19 +346,21 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
             </Typography>
             {additive.functions.map((fn) => {
               const functionSlug = getFunctionSlug(fn);
+              const label = formatFunctionLabel(fn);
 
               if (!functionSlug) {
-                return <Chip key={fn} label={fn} variant="outlined" />;
+                return <Chip key={fn} label={label} variant="outlined" sx={{ textTransform: 'none' }} />;
               }
 
               return (
                 <Chip
                   key={fn}
-                  label={fn}
+                  label={label}
                   variant="outlined"
                   component={NextLink}
                   href={`/function/${functionSlug}`}
                   clickable
+                  sx={{ textTransform: 'none' }}
                 />
               );
             })}
