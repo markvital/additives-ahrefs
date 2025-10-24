@@ -58,57 +58,81 @@ interface LabelConfig {
   horizontalGap?: number;
   labelGap?: number;
   maxWidth?: number;
+  minHorizontalSpan?: number;
 }
 
 const LABEL_CONFIGS: Record<LegendKey, LabelConfig> = {
   eNumber: {
     label: 'e-number',
     side: 'left',
-    offsetY: -28,
-    maxWidth: 160,
+    offsetY: -32,
+    horizontalGap: 72,
+    labelGap: 20,
+    minHorizontalSpan: 36,
+    maxWidth: 120,
   },
   name: {
     label: 'name',
     side: 'right',
-    offsetY: -128,
-    maxWidth: 160,
-    horizontalGap: 28,
+    offsetY: -136,
+    horizontalGap: 88,
+    labelGap: 20,
+    minHorizontalSpan: 44,
+    maxWidth: 180,
   },
   origin: {
     label: 'origin',
     side: 'right',
-    offsetY: -60,
-    maxWidth: 160,
+    offsetY: -86,
+    horizontalGap: 92,
+    labelGap: 20,
+    minHorizontalSpan: 44,
+    maxWidth: 200,
   },
   functionalClass: {
     label: 'functional class',
     side: 'right',
-    offsetY: -18,
-    maxWidth: 220,
+    offsetY: 6,
+    horizontalGap: 104,
+    labelGap: 24,
+    minHorizontalSpan: 56,
+    maxWidth: 260,
   },
   sparkline: {
     label: 'search volume history sparkline',
     side: 'right',
-    offsetY: 62,
-    maxWidth: 260,
+    offsetY: 88,
+    horizontalGap: 112,
+    labelGap: 28,
+    minHorizontalSpan: 64,
+    maxWidth: 280,
   },
   productCount: {
     label: 'number of products containing this additive',
     side: 'left',
-    offsetY: 52,
-    maxWidth: 280,
+    offsetY: 76,
+    horizontalGap: 80,
+    labelGap: 24,
+    minHorizontalSpan: 52,
+    maxWidth: 320,
   },
   searchVolume: {
     label: 'search volume per month in U.S.',
     side: 'right',
-    offsetY: 92,
-    maxWidth: 240,
+    offsetY: 124,
+    horizontalGap: 120,
+    labelGap: 28,
+    minHorizontalSpan: 64,
+    maxWidth: 260,
   },
   searchRank: {
     label: 'search interest rank',
     side: 'left',
-    offsetY: -12,
-    maxWidth: 220,
+    offsetY: 20,
+    horizontalGap: 76,
+    labelGap: 24,
+    minHorizontalSpan: 44,
+    maxWidth: 240,
   },
 };
 
@@ -608,8 +632,9 @@ export function AdditiveLegendOverlay({ open, layout, onClose }: AdditiveLegendO
         return;
       }
 
-      const horizontalGap = config.horizontalGap ?? 32;
-      const labelGap = config.labelGap ?? 12;
+      const horizontalGap = config.horizontalGap ?? 48;
+      const labelGap = config.labelGap ?? 16;
+      const minHorizontalSpan = config.minHorizontalSpan ?? 32;
 
       const labelHeight = size.height;
       const labelWidth = size.width;
@@ -624,31 +649,35 @@ export function AdditiveLegendOverlay({ open, layout, onClose }: AdditiveLegendO
       let labelLeft: number;
 
       if (config.side === 'left') {
-        const baseLineEnd = cardLeft - horizontalGap;
-        lineHorizontalEndX = Math.max(baseLineEnd, MIN_VIEWPORT_PADDING);
+        const minAnchor = target.x - minHorizontalSpan;
+        lineHorizontalEndX = Math.min(cardLeft - horizontalGap, minAnchor);
         labelLeft = lineHorizontalEndX - labelGap - labelWidth;
 
         if (labelLeft < MIN_VIEWPORT_PADDING) {
-          labelLeft = MIN_VIEWPORT_PADDING;
-          lineHorizontalEndX = labelLeft + labelWidth + labelGap;
+          const shift = MIN_VIEWPORT_PADDING - labelLeft;
+          lineHorizontalEndX += shift;
+          labelLeft += shift;
         }
 
-        if (lineHorizontalEndX > target.x - 4) {
-          lineHorizontalEndX = target.x - 4;
+        if (lineHorizontalEndX > minAnchor) {
+          lineHorizontalEndX = minAnchor;
           labelLeft = lineHorizontalEndX - labelGap - labelWidth;
         }
       } else {
-        const baseLineEnd = cardRight + horizontalGap;
-        lineHorizontalEndX = Math.min(baseLineEnd, geometry.width - MIN_VIEWPORT_PADDING);
+        const maxAnchor = target.x + minHorizontalSpan;
+        lineHorizontalEndX = Math.max(cardRight + horizontalGap, maxAnchor);
         labelLeft = lineHorizontalEndX + labelGap;
 
-        if (labelLeft + labelWidth > geometry.width - MIN_VIEWPORT_PADDING) {
-          labelLeft = geometry.width - MIN_VIEWPORT_PADDING - labelWidth;
-          lineHorizontalEndX = labelLeft - labelGap;
+        const maxLabelRight = geometry.width - MIN_VIEWPORT_PADDING;
+        const overflow = labelLeft + labelWidth - maxLabelRight;
+
+        if (overflow > 0) {
+          lineHorizontalEndX -= overflow;
+          labelLeft -= overflow;
         }
 
-        if (lineHorizontalEndX < target.x + 4) {
-          lineHorizontalEndX = target.x + 4;
+        if (lineHorizontalEndX < maxAnchor) {
+          lineHorizontalEndX = maxAnchor;
           labelLeft = lineHorizontalEndX + labelGap;
         }
       }
