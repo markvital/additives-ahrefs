@@ -52,7 +52,7 @@ export function SearchSparkline({ values }: SearchSparklineProps) {
   const theme = useTheme();
   const series = useMemo(() => buildSparklineData(values), [values]);
   const color = theme.palette.grey[700] ?? theme.palette.text.secondary;
-  const chartMargins = { top: 12, right: 0, bottom: 12, left: 0 } as const;
+  const chartMargins = { top: 12, right: 0, bottom: 12, left: 6 } as const;
 
   return (
     <Box
