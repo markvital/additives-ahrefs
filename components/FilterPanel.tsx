@@ -52,7 +52,9 @@ export function FilterPanel({
   const searchParams = useSearchParams();
   const [isPending, startTransition] = useTransition();
   const [legendOpen, setLegendOpen] = useState(false);
-  const [legendPosition, setLegendPosition] = useState<{ top: number; left: number; width: number } | null>(null);
+  const [legendPosition, setLegendPosition] = useState<
+    { top: number; left: number; width: number; scaledWidth: number } | null
+  >(null);
   type SortSelectValue = 'search-rank' | 'products';
   const currentSortValue: SortSelectValue = currentSortMode === 'product-count' ? 'products' : 'search-rank';
 
@@ -70,7 +72,12 @@ export function FilterPanel({
     }
 
     const rect = firstCard.getBoundingClientRect();
-    setLegendPosition({ top: rect.top, left: rect.left, width: rect.width });
+    const viewportWidth = document.documentElement.clientWidth;
+    const rightMargin = 24;
+    const availableWidth = Math.max(viewportWidth - rect.left - rightMargin, rect.width);
+    const scaledWidth = Math.min(rect.width * 2, availableWidth);
+
+    setLegendPosition({ top: rect.top, left: rect.left, width: rect.width, scaledWidth });
   }, []);
 
   useEffect(() => {
@@ -188,7 +195,7 @@ export function FilterPanel({
             onClick={() => setLegendOpen(true)}
             startIcon={<InfoOutlinedIcon fontSize="small" />}
             sx={{
-              color: '#d000ff',
+              color: '#626262',
               textTransform: 'none',
               fontWeight: 500,
               fontSize: 16,
@@ -201,14 +208,23 @@ export function FilterPanel({
           >
             show legend
           </Button>
+        </Stack>
+
+        <Stack
+          direction={{ xs: 'column', sm: 'row' }}
+          spacing={1.5}
+          alignItems={{ xs: 'stretch', sm: 'center' }}
+          flexWrap="wrap"
+          justifyContent="flex-end"
+          sx={{ flexGrow: 1 }}
+        >
           <Box
             component="span"
             title="Show generic parent additives"
             sx={{
-              mr: { xs: 0, sm: 1 },
-              ml: { xs: -0.5, sm: 0 },
-              alignSelf: { xs: 'flex-start', sm: 'center' },
+              alignSelf: 'center',
               display: 'flex',
+              order: { xs: -1, sm: 0 },
             }}
           >
             <FormControlLabel
@@ -229,16 +245,7 @@ export function FilterPanel({
               }}
             />
           </Box>
-        </Stack>
 
-        <Stack
-          direction={{ xs: 'column', sm: 'row' }}
-          spacing={1.5}
-          alignItems={{ xs: 'stretch', sm: 'center' }}
-          flexWrap="wrap"
-          justifyContent="flex-end"
-          sx={{ flexGrow: 1 }}
-        >
           <FormControl
             size="small"
             sx={{ minWidth: { xs: '100%', sm: 180 } }}
@@ -356,9 +363,9 @@ export function FilterPanel({
               width: {
                 xs: 'min(544px, 92vw)',
                 sm: 'min(544px, 85vw)',
-                md: legendPosition ? `${legendPosition.width}px` : 'min(544px, 60vw)',
+                md: legendPosition ? `${legendPosition.scaledWidth}px` : 'min(544px, 60vw)',
               },
-              maxWidth: '544px',
+              maxWidth: { xs: '544px', md: 'min(1088px, 90vw)' },
               pointerEvents: 'auto',
               touchAction: 'pan-x pan-y pinch-zoom',
               filter: 'drop-shadow(0 24px 48px rgba(0, 0, 0, 0.45))',
