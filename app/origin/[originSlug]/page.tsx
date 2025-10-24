@@ -13,6 +13,7 @@ import {
   sortAdditivesByMode,
 } from '../../../lib/additives';
 import { formatFilterLabel } from '../../../lib/text';
+import { getOriginDescriptionBySlug, getOriginDescriptionByValue } from '../../../lib/origins';
 import { AdditiveGrid } from '../../../components/AdditiveGrid';
 import { FilterPanel } from '../../../components/FilterPanel';
 
@@ -76,6 +77,8 @@ export default async function OriginPage({ params, searchParams }: OriginPagePro
   const filteredAdditives = filterAdditivesByClassVisibility(additives, showClasses);
   const sortedAdditives = sortAdditivesByMode(filteredAdditives, sortMode);
   const label = formatFilterLabel(originValue);
+  const originDescription =
+    getOriginDescriptionBySlug(originSlug) ?? getOriginDescriptionByValue(originValue);
 
   return (
     <Box component="section" display="flex" flexDirection="column" gap={4}>
@@ -83,6 +86,11 @@ export default async function OriginPage({ params, searchParams }: OriginPagePro
         <Typography component="h1" variant="h1">
           Origin: {label}
         </Typography>
+        {originDescription && (
+          <Typography variant="body1" color="text.secondary">
+            {originDescription}
+          </Typography>
+        )}
         <Typography variant="body1" color="text.secondary">
           {formatCountLabel(filteredAdditives.length)}
         </Typography>
