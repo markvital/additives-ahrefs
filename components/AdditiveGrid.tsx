@@ -1,14 +1,19 @@
+"use client";
+
 import Image from 'next/image';
 import Link from 'next/link';
 import { Avatar, Box, Card, CardActionArea, CardContent, Chip, Stack, Tooltip, Typography } from '@mui/material';
+import { useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react';
 
 import type { Additive, AdditiveSortMode } from '../lib/additives';
-import { DEFAULT_ADDITIVE_SORT_MODE } from '../lib/additives';
 import { formatOriginLabel } from '../lib/additive-format';
 import { formatMonthlyVolume, formatProductCount } from '../lib/format';
 import { getOriginAbbreviation, getOriginIcon } from '../lib/origin-icons';
 import { SearchSparkline } from './SearchSparkline';
 import { theme } from '../lib/theme';
+import { useAdditiveLegend } from './AdditiveLegendContext';
+import { AdditiveLegendOverlay } from './AdditiveLegendOverlay';
+import type { LegendOverlayLayout } from './legend-types';
 
 const resolveTypographySize = (value: string | number | undefined, fallback = '1.5rem') => {
   if (typeof value === 'number') {
@@ -47,11 +52,108 @@ interface AdditiveGridProps {
   sortMode?: AdditiveSortMode;
 }
 
+const FALLBACK_SORT_MODE: AdditiveSortMode = 'product-count';
+
 export function AdditiveGrid({
   items,
   emptyMessage = 'No additives found.',
-  sortMode = DEFAULT_ADDITIVE_SORT_MODE,
+  sortMode = FALLBACK_SORT_MODE,
 }: AdditiveGridProps) {
+  const { isOpen: legendOpen, closeLegend } = useAdditiveLegend();
+  const gridRef = useRef<HTMLDivElement | null>(null);
+  const firstCardRef = useRef<HTMLDivElement | null>(null);
+  const [legendLayout, setLegendLayout] = useState<LegendOverlayLayout | null>(null);
+
+  const measureLegendLayout = useCallback((): LegendOverlayLayout | null => {
+    if (!firstCardRef.current) {
+      return null;
+    }
+
+    const rect = firstCardRef.current.getBoundingClientRect();
+    const viewportWidth = window.innerWidth;
+    const viewportHeight = window.innerHeight;
+
+    let gridColumnCount = 1;
+
+    if (gridRef.current) {
+      const computedStyle = window.getComputedStyle(gridRef.current);
+      const template = computedStyle.getPropertyValue('grid-template-columns');
+
+      if (template) {
+        const segments = template
+          .split(' ')
+          .map((segment) => segment.trim())
+          .filter((segment) => segment.length > 0);
+
+        if (segments.length > 0) {
+          gridColumnCount = segments.length;
+        }
+      }
+    }
+
+    return {
+      cardRect: {
+        top: rect.top,
+        left: rect.left,
+        width: rect.width,
+        height: rect.height,
+      },
+      viewportWidth,
+      viewportHeight,
+      gridColumnCount,
+    };
+  }, []);
+
+  const updateLegendLayout = useCallback(() => {
+    const measurement = measureLegendLayout();
+
+    if (measurement) {
+      setLegendLayout(measurement);
+    }
+  }, [measureLegendLayout]);
+
+  useLayoutEffect(() => {
+    if (!legendOpen) {
+      return;
+    }
+
+    updateLegendLayout();
+  }, [items, legendOpen, updateLegendLayout]);
+
+  useEffect(() => {
+    if (!legendOpen) {
+      setLegendLayout(null);
+      return;
+    }
+
+    updateLegendLayout();
+
+    const handleResize = () => {
+      updateLegendLayout();
+    };
+
+    window.addEventListener('resize', handleResize);
+    window.addEventListener('scroll', handleResize, true);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+      window.removeEventListener('scroll', handleResize, true);
+    };
+  }, [legendOpen, updateLegendLayout]);
+
+  useEffect(() => {
+    if (!legendOpen) {
+      return;
+    }
+
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+
+    return () => {
+      document.body.style.overflow = previousOverflow;
+    };
+  }, [legendOpen]);
+
   if (items.length === 0) {
     return (
       <Typography variant="body1" color="text.secondary">
@@ -64,6 +166,7 @@ export function AdditiveGrid({
     <Box
       display="grid"
       gap={{ xs: 2, sm: 3 }}
+      ref={gridRef}
       sx={{
         gridTemplateColumns: {
           xs: '1fr',
@@ -76,7 +179,7 @@ export function AdditiveGrid({
         },
       }}
     >
-      {items.map((additive) => {
+      {items.map((additive, index) => {
         const hasSparkline =
           Array.isArray(additive.searchSparkline) &&
           additive.searchSparkline.some((value) => value !== null);
@@ -114,7 +217,11 @@ export function AdditiveGrid({
         const displayTitle = showSoftHyphenation ? hyphenateLongWords(normalizedTitle) : normalizedTitle;
 
         return (
-          <Card key={additive.slug} sx={{ display: 'flex', flexDirection: 'column' }}>
+          <Card
+            key={additive.slug}
+            ref={index === 0 ? firstCardRef : undefined}
+            sx={{ display: 'flex', flexDirection: 'column' }}
+          >
             <CardActionArea
               component={Link}
               href={`/${additive.slug}`}
@@ -257,6 +364,13 @@ export function AdditiveGrid({
           </Card>
         );
       })}
+      {legendOpen ? (
+        <AdditiveLegendOverlay
+          open={legendOpen}
+          layout={legendLayout}
+          onClose={closeLegend}
+        />
+      ) : null}
     </Box>
   );
 }

@@ -2,6 +2,8 @@ import { Box, Typography } from '@mui/material';
 
 import { AdditiveGrid } from '../components/AdditiveGrid';
 import { FilterPanel } from '../components/FilterPanel';
+import { AdditiveLegendProvider } from '../components/AdditiveLegendContext';
+import { ShowLegendLink } from '../components/ShowLegendLink';
 import {
   getAdditives,
   getFunctionFilters,
@@ -35,24 +37,27 @@ export default async function HomePage({ searchParams }: HomePageProps) {
   const sortedAdditives = sortAdditivesByMode(filteredAdditives, sortMode);
 
   return (
-    <Box component="section" display="flex" flexDirection="column" gap={4}>
-      <Box display="flex" flexDirection="column" gap={1.5} maxWidth={720}>
-        <Typography component="h1" variant="h1">
-          Food additives
-        </Typography>
-        <Typography variant="body1" color="text.secondary">
-          Explore the essential information behind common food additives. Compare their purposes and quickly
-          access in-depth resources to make informed decisions about what goes into your food.
-        </Typography>
-      </Box>
+    <AdditiveLegendProvider>
+      <Box component="section" display="flex" flexDirection="column" gap={4}>
+        <Box display="flex" flexDirection="column" gap={1.5} maxWidth={720}>
+          <Typography component="h1" variant="h1">
+            Food additives
+          </Typography>
+          <Typography variant="body1" color="text.secondary">
+            Explore the essential information behind common food additives. Compare their purposes and quickly
+            access in-depth resources to make informed decisions about what goes into your food.
+          </Typography>
+          <ShowLegendLink />
+        </Box>
 
-      <FilterPanel
-        functionOptions={functionOptions}
-        originOptions={originOptions}
-        currentSortMode={sortMode}
-        currentShowClasses={showClasses}
-      />
-      <AdditiveGrid items={sortedAdditives} sortMode={sortMode} />
-    </Box>
+        <FilterPanel
+          functionOptions={functionOptions}
+          originOptions={originOptions}
+          currentSortMode={sortMode}
+          currentShowClasses={showClasses}
+        />
+        <AdditiveGrid items={sortedAdditives} sortMode={sortMode} />
+      </Box>
+    </AdditiveLegendProvider>
   );
 }
