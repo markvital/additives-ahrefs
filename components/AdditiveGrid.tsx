@@ -49,7 +49,7 @@ interface AdditiveGridProps {
 
 export function AdditiveGrid({
   items,
-  emptyMessage = 'No additives found.',
+  emptyMessage = 'No ingredients found.',
   sortMode = DEFAULT_ADDITIVE_SORT_MODE,
 }: AdditiveGridProps) {
   if (items.length === 0) {
@@ -248,8 +248,8 @@ export function AdditiveGrid({
                   color={highlightProducts ? 'text.primary' : 'text.secondary'}
                   sx={{ fontWeight: highlightProducts ? 600 : 400 }}
                 >
-                  Found in <Box component="span" sx={{ fontWeight: highlightProducts ? 600 : 500 }}>
-                    {productCountLabel} products
+                  Featured in <Box component="span" sx={{ fontWeight: highlightProducts ? 600 : 500 }}>
+                    {productCountLabel} skin care products
                   </Box>
                 </Typography>
               </Box>

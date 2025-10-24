@@ -16,9 +16,9 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: 'Food Additives Catalogue',
+  title: 'Skin Care Ingredients Library',
   description:
-    'Browse essential information about food additives, including synonyms, functions, and links to additional resources.',
+    'Browse expert snapshots of skin care ingredients, including their benefits, origins, and tips for pairing them in a routine.',
 };
 
 const currentYear = new Date().getFullYear();
@@ -38,10 +38,10 @@ export default function RootLayout({
             <header className="site-header">
               <div className="content-shell header-shell">
                 <div className="header-content">
-                  <Link href="/" aria-label="Food Additives home" className="header-logo">
+                  <Link href="/" aria-label="Skin Care Ingredients home" className="header-logo">
                     <Image
                       src={logo2x}
-                      alt="Food Additives logo"
+                      alt="Skin Care Ingredients logo"
                       width={41}
                       height={50}
                       priority
@@ -62,7 +62,7 @@ export default function RootLayout({
             <footer className="site-footer">
               <div className="content-shell">
                 <Typography component="p" variant="body2">
-                  Food Additives © {currentYear}. All rights reserved.
+                  Skin Care Ingredients © {currentYear}. All rights reserved.
                 </Typography>
               </div>
             </footer>

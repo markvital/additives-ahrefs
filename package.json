@@ -1,7 +1,7 @@
 {
-  "name": "additives-ahrefs",
+  "name": "skincare-ingredients-ahrefs",
   "version": "1.0.0",
-  "description": "Catalogue of food additives built with Next.js, TypeScript, and MUI.",
+  "description": "Catalogue of skin care ingredients built with Next.js, TypeScript, and MUI.",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -13,7 +13,7 @@
     "nextjs",
     "mui",
     "catalogue",
-    "food-additives"
+    "skincare-ingredients"
   ],
   "author": "",
   "license": "MIT",

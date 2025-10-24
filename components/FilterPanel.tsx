@@ -114,7 +114,7 @@ export function FilterPanel({
     >
       <Box
         component="span"
-        title="Show generic parent additives"
+        title="Show ingredient families"
         sx={{
           mr: { xs: 0, sm: 1 },
           ml: { xs: -0.5, sm: 0 },
@@ -131,7 +131,7 @@ export function FilterPanel({
               disabled={isPending}
             />
           }
-          label="parent E"
+          label="Ingredient families"
           sx={{
             color: 'text.secondary',
             '& .MuiFormControlLabel-label': {
@@ -153,8 +153,8 @@ export function FilterPanel({
           value={currentSortValue}
           onChange={handleSortChange}
         >
-          <MenuItem value="search-rank">Search rank</MenuItem>
-          <MenuItem value="products">Products</MenuItem>
+          <MenuItem value="search-rank">Search interest</MenuItem>
+          <MenuItem value="products">Product mentions</MenuItem>
         </Select>
       </FormControl>
 
@@ -163,15 +163,15 @@ export function FilterPanel({
         sx={{ minWidth: { xs: '100%', sm: 180 } }}
         disabled={isPending}
       >
-        <InputLabel id="origin-filter-label">Origin</InputLabel>
+        <InputLabel id="origin-filter-label">Source</InputLabel>
         <Select
           labelId="origin-filter-label"
           id="origin-filter"
-          label="Origin"
+          label="Source"
           value={currentOriginSlug ?? ''}
           onChange={handleOriginChange}
         >
-          <MenuItem value="">All origins</MenuItem>
+          <MenuItem value="">All sources</MenuItem>
           {originOptions.map((option) => (
             <MenuItem key={option.slug} value={option.slug}>
               {option.label}
@@ -185,15 +185,15 @@ export function FilterPanel({
         sx={{ minWidth: { xs: '100%', sm: 180 } }}
         disabled={isPending}
       >
-        <InputLabel id="function-filter-label">Function</InputLabel>
+        <InputLabel id="function-filter-label">Skin benefit</InputLabel>
         <Select
           labelId="function-filter-label"
           id="function-filter"
-          label="Function"
+          label="Skin benefit"
           value={currentFunctionSlug ?? ''}
           onChange={handleFunctionChange}
         >
-          <MenuItem value="">All functions</MenuItem>
+          <MenuItem value="">All benefits</MenuItem>
           {functionOptions.map((option) => (
             <MenuItem key={option.slug} value={option.slug}>
               {option.label}

@@ -3,7 +3,7 @@ export const formatAdditiveDisplayName = (eNumber: string, title: string): strin
     .map((part) => part.trim())
     .filter((part, index, list) => part.length > 0 && list.indexOf(part) === index);
 
-  return parts.join(' - ') || 'Additive';
+  return parts.join(' - ') || 'Ingredient';
 };
 
 export const formatOriginLabel = (value: string): string => {

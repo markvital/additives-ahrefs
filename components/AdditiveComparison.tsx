@@ -109,7 +109,7 @@ const renderProductMetrics = (additive: ComparisonAdditive | null) => {
   if (productCount === null) {
     return (
       <Typography variant="body2" color="text.secondary">
-        Product data is not available.
+        Product availability data is unavailable.
       </Typography>
     );
   }
@@ -118,8 +118,8 @@ const renderProductMetrics = (additive: ComparisonAdditive | null) => {
 
   return (
     <Typography variant="body1" color="text.secondary" sx={{ fontVariantNumeric: 'tabular-nums' }}>
-      Found in <Box component="span" sx={{ fontWeight: 600 }}>
-        {productLabel} products
+      Featured in <Box component="span" sx={{ fontWeight: 600 }}>
+        {productLabel} skin care products
       </Box>
     </Typography>
   );
@@ -247,7 +247,7 @@ const renderDetailLink = (additive: ComparisonAdditive | null) => {
         color="primary"
         sx={LARGE_BUTTON_STYLES}
       >
-        Read more
+        Open ingredient page
       </Button>
     </Box>
   );
@@ -263,7 +263,7 @@ const renderArticlePreview = (additive: ComparisonAdditive | null) => {
   if (!preview) {
     return (
       <Typography variant="body2" color="text.secondary">
-        Article content is not available for this additive.
+        Article content is not available for this ingredient.
       </Typography>
     );
   }
@@ -273,7 +273,7 @@ const renderArticlePreview = (additive: ComparisonAdditive | null) => {
       <MarkdownArticle content={preview} />
       {hasMore ? (
         <Typography variant="body2" color="text.secondary">
-          Preview truncated. Visit the additive page to read the full article.
+          Preview truncated. Visit the ingredient page to read the full guide.
         </Typography>
       ) : null}
       <Box sx={{ display: 'flex', justifyContent: 'center' }}>
@@ -288,7 +288,7 @@ const renderArticlePreview = (additive: ComparisonAdditive | null) => {
             '&:hover': { textDecoration: 'underline' },
           }}
         >
-          Read more
+          View ingredient guide
         </Typography>
       </Box>
     </Stack>
@@ -385,27 +385,27 @@ export function AdditiveComparison({ additives, initialSelection }: AdditiveComp
     },
     {
       key: 'functions',
-      label: 'Functions',
+      label: 'Skin benefits',
       render: renderFunctionContent,
     },
     {
       key: 'origin',
-      label: 'Origin',
+      label: 'Source',
       render: renderOriginContent,
     },
     {
       key: 'products',
-      label: 'Products',
+      label: 'Product mentions',
       render: renderProductMetrics,
     },
     {
       key: 'search-metrics',
-      label: 'Search rank & volume',
+      label: 'Search interest',
       render: renderSearchMetrics,
     },
     {
       key: 'search-history',
-      label: 'Search volume over time',
+      label: 'Interest over time',
       render: renderSearchHistory,
     },
     {
@@ -415,7 +415,7 @@ export function AdditiveComparison({ additives, initialSelection }: AdditiveComp
     },
     {
       key: 'article',
-      label: 'Article preview',
+      label: 'Ingredient overview',
       render: renderArticlePreview,
     },
   ];
@@ -425,7 +425,7 @@ export function AdditiveComparison({ additives, initialSelection }: AdditiveComp
       <Typography component="h1" variant="h1">
         {leftDisplayName && rightDisplayName
           ? `Comparing ${leftDisplayName} vs ${rightDisplayName}`
-          : 'Compare additives'}
+          : 'Compare ingredients'}
       </Typography>
 
       <Box
@@ -439,16 +439,16 @@ export function AdditiveComparison({ additives, initialSelection }: AdditiveComp
           additives={additives}
           value={selection.left}
           onChange={(value) => setSelection((prev) => ({ ...prev, left: value }))}
-          label="Select first additive"
-          placeholder="Type additive to compare"
+          label="Select first ingredient"
+          placeholder="Type ingredient to compare"
           disabledSlugs={selection.right ? [selection.right.slug] : undefined}
         />
         <AdditiveLookup
           additives={additives}
           value={selection.right}
           onChange={(value) => setSelection((prev) => ({ ...prev, right: value }))}
-          label="Select second additive"
-          placeholder="Type additive to compare"
+          label="Select second ingredient"
+          placeholder="Type ingredient to compare"
           disabledSlugs={selection.left ? [selection.left.slug] : undefined}
         />
       </Box>
