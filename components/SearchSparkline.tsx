@@ -52,10 +52,15 @@ export function SearchSparkline({ values }: SearchSparklineProps) {
   const theme = useTheme();
   const series = useMemo(() => buildSparklineData(values), [values]);
   const color = theme.palette.grey[700] ?? theme.palette.text.secondary;
-  const chartMargins = { top: 12, right: 16, bottom: 12, left: 16 } as const;
+  const chartMargins = { top: 12, right: 10, bottom: 12, left: 12 } as const;
 
   return (
-    <Box sx={{ width: '100%', height: 40 }}>
+    <Box
+      sx={{
+        width: '100%',
+        height: 40,
+      }}
+    >
       <ResponsiveLine
         data={[
           {
