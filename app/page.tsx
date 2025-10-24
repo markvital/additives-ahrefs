@@ -12,11 +12,12 @@ import {
   sortAdditivesByMode,
 } from '../lib/additives';
 import { formatFilterLabel } from '../lib/text';
+import { formatFunctionLabel } from '../lib/additive-format';
 
 const additives = getAdditives();
 const functionOptions = getFunctionFilters().map(({ slug, value }) => ({
   slug,
-  label: formatFilterLabel(value),
+  label: formatFunctionLabel(value),
 }));
 const originOptions = getOriginFilters().map(({ slug, value }) => ({
   slug,

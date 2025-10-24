@@ -13,6 +13,8 @@ import {
   sortAdditivesByMode,
 } from '../../../lib/additives';
 import { formatFilterLabel } from '../../../lib/text';
+import { formatFunctionLabel } from '../../../lib/additive-format';
+import { getFunctionInfo, formatUsedAsList } from '../../../lib/function-details';
 import { AdditiveGrid } from '../../../components/AdditiveGrid';
 import { FilterPanel } from '../../../components/FilterPanel';
 
@@ -29,7 +31,7 @@ const originFilters = getOriginFilters();
 
 const functionOptions = functionFilters.map(({ slug, value }) => ({
   slug,
-  label: formatFilterLabel(value),
+  label: formatFunctionLabel(value),
 }));
 const originOptions = originFilters.map(({ slug, value }) => ({
   slug,
@@ -75,14 +77,32 @@ export default async function FunctionPage({ params, searchParams }: FunctionPag
   const showClasses = parseShowClassesParam(resolvedSearchParams?.classes ?? null);
   const filteredAdditives = filterAdditivesByClassVisibility(additives, showClasses);
   const sortedAdditives = sortAdditivesByMode(filteredAdditives, sortMode);
-  const label = formatFilterLabel(functionValue);
+  const functionLabelRaw = formatFunctionLabel(functionValue);
+  const functionHeading = functionLabelRaw
+    ? functionLabelRaw.charAt(0).toUpperCase() + functionLabelRaw.slice(1)
+    : formatFilterLabel(functionValue);
+  const functionInfo = getFunctionInfo(functionValue);
+  const usedAsLine =
+    functionInfo && functionInfo.usedAs.length > 0
+      ? `In the food industry, such additives serve roles as ${formatUsedAsList(functionInfo.usedAs)}.`
+      : null;
 
   return (
     <Box component="section" display="flex" flexDirection="column" gap={4}>
       <Box display="flex" flexDirection="column" gap={1.5} maxWidth={720}>
         <Typography component="h1" variant="h1">
-          Function: {label}
+          Function: {functionHeading}
         </Typography>
+        {functionInfo?.description ? (
+          <Typography variant="body1" color="text.secondary">
+            {functionInfo.description}
+          </Typography>
+        ) : null}
+        {usedAsLine ? (
+          <Typography variant="body1" color="text.secondary">
+            {usedAsLine}
+          </Typography>
+        ) : null}
         <Typography variant="body1" color="text.secondary">
           {formatCountLabel(filteredAdditives.length)}
         </Typography>
