@@ -117,7 +117,7 @@ export function AdditiveGrid({
             <CardActionArea
               component={Link}
               href={`/${additive.slug}`}
-              sx={{ flexGrow: 1, display: 'flex', alignItems: 'stretch' }}
+              sx={{ flexGrow: 1, display: 'flex', flexDirection: 'column', alignItems: 'stretch', height: '100%' }}
             >
               <CardContent
                 sx={{
@@ -237,27 +237,23 @@ export function AdditiveGrid({
                 ) : (
                   <Box sx={{ height: 40, mt: 1.5 }} />
                 )}
+
+                {showProductCount && productCountLabel ? (
+                  <Typography
+                    variant="body2"
+                    color={highlightProducts ? 'text.primary' : 'text.secondary'}
+                    sx={{
+                      mt: 2,
+                      fontWeight: highlightProducts ? 600 : 400,
+                    }}
+                  >
+                    Found in <Box component="span" sx={{ fontWeight: highlightProducts ? 600 : 500 }}>
+                      {productCountLabel} products
+                    </Box>
+                  </Typography>
+                ) : null}
               </CardContent>
             </CardActionArea>
-            {showProductCount && productCountLabel ? (
-              <Box
-                sx={{
-                  px: 3,
-                  py: 2,
-                  bgcolor: highlightProducts ? 'grey.50' : 'background.paper',
-                }}
-              >
-                <Typography
-                  variant="body2"
-                  color={highlightProducts ? 'text.primary' : 'text.secondary'}
-                  sx={{ fontWeight: highlightProducts ? 600 : 400 }}
-                >
-                  Found in <Box component="span" sx={{ fontWeight: highlightProducts ? 600 : 500 }}>
-                    {productCountLabel} products
-                  </Box>
-                </Typography>
-              </Box>
-            ) : null}
           </Card>
         );
       })}
