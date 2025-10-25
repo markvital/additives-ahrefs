@@ -23,3 +23,11 @@ export const formatFilterLabel = (value: string): string => {
     )
     .join(' ');
 };
+
+export const normalizeFilterValue = (value: string): string =>
+  value
+    .trim()
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, ' ')
+    .trim()
+    .replace(/\s+/g, ' ');

@@ -155,6 +155,18 @@ a {
   font-size: 0.9rem;
 }
 
+.footer-shell {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
 .footer-link {
   font-weight: 600;
   color: inherit;

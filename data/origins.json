@@ -1,4 +1,5 @@
 {
+  "overview": "Explore where food additives come from. Each origin entry summarises the source and lists how many additives share it.",
   "origins": [
     {
       "name": "animal",

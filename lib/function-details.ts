@@ -1,4 +1,5 @@
 import functionsData from '../data/functions.json';
+import { normalizeFilterValue } from './text';
 
 interface FunctionDataEntry {
   name: string;
@@ -6,12 +7,9 @@ interface FunctionDataEntry {
   usedAs?: string[];
 }
 
-const normaliseValue = (value: string): string =>
-  value
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, ' ')
-    .trim()
-    .replace(/\s+/g, ' ');
+interface FunctionsData {
+  functions?: FunctionDataEntry[];
+}
 
 type FunctionInfo = {
   name: string;
@@ -21,7 +19,9 @@ type FunctionInfo = {
 
 const functionMap = new Map<string, FunctionInfo>();
 
-(functionsData as FunctionDataEntry[]).forEach((entry) => {
+const functionEntries = (functionsData as FunctionsData).functions ?? [];
+
+functionEntries.forEach((entry) => {
   if (!entry?.name) {
     return;
   }
@@ -36,11 +36,11 @@ const functionMap = new Map<string, FunctionInfo>();
       : [],
   };
 
-  const primaryKey = normaliseValue(entry.name);
+  const primaryKey = normalizeFilterValue(entry.name);
   functionMap.set(primaryKey, info);
 
   info.usedAs.forEach((alias) => {
-    const aliasKey = normaliseValue(alias);
+    const aliasKey = normalizeFilterValue(alias);
 
     if (!functionMap.has(aliasKey)) {
       functionMap.set(aliasKey, info);
@@ -53,7 +53,7 @@ export const getFunctionInfo = (value: string | null | undefined): FunctionInfo 
     return null;
   }
 
-  const key = normaliseValue(value);
+  const key = normalizeFilterValue(value);
 
   return functionMap.get(key) ?? null;
 };
