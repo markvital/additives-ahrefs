@@ -200,27 +200,7 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
         </>
       )}
       {' for the last 10 years from '}
-      <Box
-        component="span"
-        sx={{
-          display: 'inline-flex',
-          flexDirection: 'column',
-          alignItems: 'center',
-          position: 'relative',
-          gap: 0,
-        }}
-      >
-        <MuiLink
-          href="https://ahrefs.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          underline="hover"
-          sx={{ fontWeight: 500 }}
-        >
-          Ahrefs
-        </MuiLink>
-        <AhrefsAttributionTooltip />
-      </Box>
+      <AhrefsAttributionTooltip />
     </>
   );
 
