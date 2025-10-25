@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { Box, Typography } from '@mui/material';
 
 import { getAdditives, getFunctionFilters, getFunctionSlug } from '../../lib/additives';
-import { formatFilterLabel } from '../../lib/text';
+import { formatFilterLabel, normalizeFilterValue } from '../../lib/text';
 import functionsData from '../../data/functions.json';
 import InfoList from '../../components/InfoList';
 
@@ -23,8 +23,6 @@ interface FunctionSummary {
   count: number;
 }
 
-const normalize = (value: string): string => value.trim().toLowerCase();
-
 const functionInfoMap = new Map<string, { title: string; description: string | null }>();
 const functionsSource = (functionsData as FunctionsData).functions ?? [];
 const overview = (functionsData as FunctionsData).overview?.trim();
@@ -36,7 +34,7 @@ functionsSource.forEach((entry) => {
 
   const title = entry.name.trim();
   const description = entry.description?.trim() ?? null;
-  functionInfoMap.set(normalize(entry.name), { title, description });
+  functionInfoMap.set(normalizeFilterValue(entry.name), { title, description });
 });
 
 const additives = getAdditives();
@@ -58,7 +56,7 @@ additives.forEach((additive) => {
 
 const functions: FunctionSummary[] = functionFilters
   .map(({ slug, value }) => {
-    const info = functionInfoMap.get(normalize(value));
+    const info = functionInfoMap.get(normalizeFilterValue(value));
 
     return {
       slug,

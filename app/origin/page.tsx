@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { Box, Typography } from '@mui/material';
 
 import { getAdditives, getOriginFilters, getOriginSlug } from '../../lib/additives';
-import { formatFilterLabel } from '../../lib/text';
+import { formatFilterLabel, normalizeFilterValue } from '../../lib/text';
 import originsData from '../../data/origins.json';
 import { getOriginIcon } from '../../lib/origin-icons';
 import InfoList from '../../components/InfoList';
@@ -25,8 +25,6 @@ interface OriginSummary {
   count: number;
 }
 
-const normalize = (value: string): string => value.trim().toLowerCase();
-
 const originInfoMap = new Map<string, { title: string; description: string | null }>();
 
 ((originsData as OriginsData).origins ?? []).forEach((entry) => {
@@ -36,7 +34,7 @@ const originInfoMap = new Map<string, { title: string; description: string | nul
 
   const title = formatFilterLabel(entry.name);
   const description = entry.description?.trim() ?? null;
-  originInfoMap.set(normalize(entry.name), { title, description });
+  originInfoMap.set(normalizeFilterValue(entry.name), { title, description });
 });
 
 const additives = getAdditives();
@@ -59,7 +57,7 @@ additives.forEach((additive) => {
 
 const origins: OriginSummary[] = originFilters
   .map(({ slug, value }) => {
-    const info = originInfoMap.get(normalize(value));
+    const info = originInfoMap.get(normalizeFilterValue(value));
 
     return {
       slug,
