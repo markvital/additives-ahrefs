@@ -13,9 +13,10 @@ export interface SearchHistoryPoint {
 
 interface SearchHistoryChartProps {
   metrics: SearchHistoryPoint[];
+  domain?: { min: number; max: number } | null;
 }
 
-export function SearchHistoryChart({ metrics }: SearchHistoryChartProps) {
+export function SearchHistoryChart({ metrics, domain }: SearchHistoryChartProps) {
   const theme = useTheme();
 
   const data = useMemo(
@@ -35,7 +36,12 @@ export function SearchHistoryChart({ metrics }: SearchHistoryChartProps) {
         margin={{ top: 20, right: 24, bottom: 40, left: 56 }}
         xScale={{ type: 'time', format: 'native', precision: 'month' }}
         xFormat="time:%b %Y"
-        yScale={{ type: 'linear', min: 'auto', max: 'auto', stacked: false }}
+        yScale={{
+          type: 'linear',
+          min: domain?.min ?? 'auto',
+          max: domain?.max ?? 'auto',
+          stacked: false,
+        }}
         curve="monotoneX"
         colors={[theme.palette.primary.main]}
         axisBottom={{
