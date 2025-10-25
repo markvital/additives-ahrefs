@@ -49,6 +49,12 @@ export default function RootLayout({
                   </Link>
                   <nav className="header-nav">
                     <HeaderSearch additives={additives} />
+                    <Link href="/function" className="header-link">
+                      Functions
+                    </Link>
+                    <Link href="/origin" className="header-link">
+                      Origins
+                    </Link>
                     <Link href="/compare" className="header-link">
                       Compare
                     </Link>
