@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Image from 'next/image';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
@@ -98,8 +99,27 @@ export default async function OriginPage({ params, searchParams }: OriginPagePro
               priority
             />
           )}
-          <Typography component="h1" variant="h1">
-            Origin: {label}
+          <Typography
+            component="h1"
+            variant="h1"
+            sx={{ display: 'flex', alignItems: 'center', gap: 1 }}
+          >
+            <Box
+              component={Link}
+              href="/origin"
+              sx={{
+                color: 'inherit',
+                textDecoration: 'none',
+                '&:hover': { textDecoration: 'underline' },
+                '&:focus-visible': { textDecoration: 'underline' },
+              }}
+            >
+              Origin
+            </Box>
+            <Box component="span" aria-hidden="true">
+              &gt;
+            </Box>
+            {label}
           </Typography>
         </Box>
         {originDescription && (
