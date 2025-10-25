@@ -115,7 +115,7 @@ export default async function OriginPage({ params, searchParams }: OriginPagePro
       <FilterPanel
         functionOptions={functionOptions}
         originOptions={originOptions}
-        currentOriginSlug={originSlug}
+        currentFilter={{ type: 'origin', slug: originSlug }}
         currentSortMode={sortMode}
         currentShowClasses={showClasses}
       />
