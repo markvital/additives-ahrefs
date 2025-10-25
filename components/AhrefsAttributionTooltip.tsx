@@ -3,8 +3,6 @@
 import Image from 'next/image';
 import { Link as MuiLink, Typography, useTheme } from '@mui/material';
 
-import ahrefsLogo from '../img/branded/ahrefs-logo-transparent.svg';
-
 export function AhrefsAttributionTooltip() {
   const theme = useTheme();
   const spacingY = theme.spacing(0.75);
@@ -78,7 +76,7 @@ export function AhrefsAttributionTooltip() {
       aria-label="Explore all keywords on Ahrefs"
       sx={baseStyles}
     >
-      <Image src={ahrefsLogo} alt="Ahrefs" width={22} height={22} />
+      <Image src="/img/branded/ahrefs-logo-transparent.svg" alt="Ahrefs" width={22} height={22} />
       <Typography
         component="span"
         variant="body2"
