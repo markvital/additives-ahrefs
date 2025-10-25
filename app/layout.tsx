@@ -49,12 +49,6 @@ export default function RootLayout({
                   </Link>
                   <nav className="header-nav">
                     <HeaderSearch additives={additives} />
-                    <Link href="/function" className="header-link">
-                      Functions
-                    </Link>
-                    <Link href="/origin" className="header-link">
-                      Origins
-                    </Link>
                     <Link href="/compare" className="header-link">
                       Compare
                     </Link>
@@ -66,7 +60,15 @@ export default function RootLayout({
               <div className="content-shell">{children}</div>
             </main>
             <footer className="site-footer">
-              <div className="content-shell">
+              <div className="content-shell footer-shell">
+                <nav className="footer-nav" aria-label="Footer">
+                  <Link href="/function" className="header-link">
+                    Functions
+                  </Link>
+                  <Link href="/origin" className="header-link">
+                    Origins
+                  </Link>
+                </nav>
                 <Typography component="p" variant="body2">
                   Food Additives © {currentYear}. All rights reserved.
                 </Typography>

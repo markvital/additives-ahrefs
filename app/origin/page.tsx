@@ -1,6 +1,13 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Box, Typography } from '@mui/material';
+import type { SvgIconComponent } from '@mui/icons-material';
+import AutoAwesomeOutlinedIcon from '@mui/icons-material/AutoAwesomeOutlined';
+import BiotechOutlinedIcon from '@mui/icons-material/BiotechOutlined';
+import PetsOutlinedIcon from '@mui/icons-material/PetsOutlined';
+import ScienceOutlinedIcon from '@mui/icons-material/ScienceOutlined';
+import SpaOutlinedIcon from '@mui/icons-material/SpaOutlined';
+import TerrainOutlinedIcon from '@mui/icons-material/TerrainOutlined';
 
 import { getAdditives, getOriginFilters, getOriginSlug } from '../../lib/additives';
 import { formatFilterLabel } from '../../lib/text';
@@ -21,6 +28,15 @@ interface OriginSummary {
   description: string | null;
   count: number;
 }
+
+const originIcons: Record<string, SvgIconComponent> = {
+  animal: PetsOutlinedIcon,
+  artificial: ScienceOutlinedIcon,
+  microbiological: BiotechOutlinedIcon,
+  mineral: TerrainOutlinedIcon,
+  plant: SpaOutlinedIcon,
+  synthetic: AutoAwesomeOutlinedIcon,
+};
 
 const normalize = (value: string): string => value.trim().toLowerCase();
 
@@ -96,44 +112,46 @@ export default function OriginIndexPage() {
         </Typography>
       </Box>
 
-      <Box component="ul" sx={{ listStyle: 'none', margin: 0, padding: 0, display: 'flex', flexDirection: 'column', gap: 2 }}>
-        {origins.map(({ slug, title, description, count }) => (
-          <Box key={slug} component="li">
-            <Box
-              component={Link}
-              href={`/origin/${slug}`}
-              sx={{
-                display: 'flex',
-                flexDirection: 'column',
-                gap: 1,
-                p: 2,
-                borderRadius: 2,
-                border: '1px solid',
-                borderColor: 'divider',
-                textDecoration: 'none',
-                color: 'inherit',
-                backgroundColor: 'background.paper',
-                transition: 'border-color 0.2s ease, box-shadow 0.2s ease',
-                '&:hover': {
-                  borderColor: 'text.primary',
-                  boxShadow: 4,
-                },
-              }}
-            >
-              <Typography component="h2" variant="h5">
-                {title}
-              </Typography>
-              {description ? (
-                <Typography variant="body1" color="text.secondary">
-                  {description}
+      <Box component="ul" sx={{ listStyle: 'none', margin: 0, padding: 0, display: 'flex', flexDirection: 'column', gap: 1.5 }}>
+        {origins.map(({ slug, title, description, count }) => {
+          const Icon = originIcons[slug];
+
+          return (
+            <Box key={slug} component="li">
+              <Box
+                component={Link}
+                href={`/origin/${slug}`}
+                sx={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  gap: 0.75,
+                  textDecoration: 'none',
+                  color: 'text.primary',
+                  transition: 'color 0.2s ease',
+                  '&:hover': {
+                    textDecoration: 'underline',
+                  },
+                  '&:focus-visible': {
+                    textDecoration: 'underline',
+                  },
+                }}
+              >
+                <Typography component="h2" variant="h5" sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+                  {Icon ? <Icon fontSize="inherit" sx={{ lineHeight: 1 }} aria-hidden="true" /> : null}
+                  {title}
                 </Typography>
-              ) : null}
-              <Typography variant="body2" color="text.secondary">
-                {formatCountLabel(count)}
-              </Typography>
+                {description ? (
+                  <Typography variant="body1" color="text.secondary">
+                    {description}
+                  </Typography>
+                ) : null}
+                <Typography variant="body2" color="text.secondary">
+                  {formatCountLabel(count)}
+                </Typography>
+              </Box>
             </Box>
-          </Box>
-        ))}
+          );
+        })}
       </Box>
     </Box>
   );

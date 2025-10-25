@@ -123,6 +123,18 @@ a {
   font-size: 0.9rem;
 }
 
+.footer-shell {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
 .main-content {
   flex: 1;
   padding: 2rem 0 3rem;

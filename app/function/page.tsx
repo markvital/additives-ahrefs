@@ -92,7 +92,7 @@ export default function FunctionIndexPage() {
         </Typography>
       </Box>
 
-      <Box component="ul" sx={{ listStyle: 'none', margin: 0, padding: 0, display: 'flex', flexDirection: 'column', gap: 2 }}>
+      <Box component="ul" sx={{ listStyle: 'none', margin: 0, padding: 0, display: 'flex', flexDirection: 'column', gap: 1.5 }}>
         {functions.map(({ slug, title, description, count }) => (
           <Box key={slug} component="li">
             <Box
@@ -101,18 +101,15 @@ export default function FunctionIndexPage() {
               sx={{
                 display: 'flex',
                 flexDirection: 'column',
-                gap: 1,
-                p: 2,
-                borderRadius: 2,
-                border: '1px solid',
-                borderColor: 'divider',
+                gap: 0.75,
                 textDecoration: 'none',
-                color: 'inherit',
-                backgroundColor: 'background.paper',
-                transition: 'border-color 0.2s ease, box-shadow 0.2s ease',
+                color: 'text.primary',
+                transition: 'color 0.2s ease',
                 '&:hover': {
-                  borderColor: 'text.primary',
-                  boxShadow: 4,
+                  textDecoration: 'underline',
+                },
+                '&:focus-visible': {
+                  textDecoration: 'underline',
                 },
               }}
             >
