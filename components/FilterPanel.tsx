@@ -11,6 +11,7 @@ import {
   FormControlLabel,
   IconButton,
   InputLabel,
+  ListSubheader,
   MenuItem,
   Select,
   Stack,
@@ -27,11 +28,17 @@ export interface FilterOption {
   label: string;
 }
 
+type FilterType = 'origin' | 'function';
+
+export interface CurrentFilterSelection {
+  type: FilterType;
+  slug: string;
+}
+
 interface FilterPanelProps {
   functionOptions: FilterOption[];
   originOptions: FilterOption[];
-  currentFunctionSlug?: string | null;
-  currentOriginSlug?: string | null;
+  currentFilter?: CurrentFilterSelection | null;
   currentSortMode?: AdditiveSortMode;
   currentShowClasses?: boolean;
 }
@@ -42,8 +49,7 @@ const DEFAULT_SORT_MODE: AdditiveSortMode = 'product-count';
 export function FilterPanel({
   functionOptions,
   originOptions,
-  currentFunctionSlug = null,
-  currentOriginSlug = null,
+  currentFilter = null,
   currentSortMode = DEFAULT_SORT_MODE,
   currentShowClasses = false,
 }: FilterPanelProps) {
@@ -131,27 +137,29 @@ export function FilterPanel({
     return queryString ? `${path}?${queryString}` : path;
   };
 
-  const handleFunctionChange = (event: SelectChangeEvent<string>) => {
-    const slug = event.target.value;
+  const buildFilterValue = (selection: CurrentFilterSelection | null) =>
+    selection ? `${selection.type}:${selection.slug}` : '';
+
+  const handleFilterChange = (event: SelectChangeEvent<string>) => {
+    const value = event.target.value;
+
+    if (!value) {
+      startTransition(() => {
+        router.push(buildUrlWithState(HOME_ROUTE));
+      });
+      return;
+    }
+
+    const [type, slug] = value.split(':', 2) as [FilterType | undefined, string | undefined];
+
+    if (!type || !slug) {
+      return;
+    }
+
+    const targetPath = type === 'origin' ? `/origin/${slug}` : `/function/${slug}`;
 
     startTransition(() => {
-      if (slug) {
-        router.push(buildUrlWithState(`/function/${slug}`));
-      } else {
-        router.push(buildUrlWithState(HOME_ROUTE));
-      }
-    });
-  };
-
-  const handleOriginChange = (event: SelectChangeEvent<string>) => {
-    const slug = event.target.value;
-
-    startTransition(() => {
-      if (slug) {
-        router.push(buildUrlWithState(`/origin/${slug}`));
-      } else {
-        router.push(buildUrlWithState(HOME_ROUTE));
-      }
+      router.push(buildUrlWithState(targetPath));
     });
   };
 
@@ -269,39 +277,24 @@ export function FilterPanel({
             sx={{ minWidth: { xs: '100%', sm: 180 } }}
             disabled={isPending}
           >
-            <InputLabel id="origin-filter-label">Origin</InputLabel>
+            <InputLabel id="filter-select-label">Filter</InputLabel>
             <Select
-              labelId="origin-filter-label"
-              id="origin-filter"
-              label="Origin"
-              value={currentOriginSlug ?? ''}
-              onChange={handleOriginChange}
+              labelId="filter-select-label"
+              id="filter-select"
+              label="Filter"
+              value={buildFilterValue(currentFilter)}
+              onChange={handleFilterChange}
             >
-              <MenuItem value="">All origins</MenuItem>
+              <MenuItem value="">All filters</MenuItem>
+              <ListSubheader disableSticky>Origins</ListSubheader>
               {originOptions.map((option) => (
-                <MenuItem key={option.slug} value={option.slug}>
+                <MenuItem key={`origin:${option.slug}`} value={`origin:${option.slug}`}>
                   {option.label}
                 </MenuItem>
               ))}
-            </Select>
-          </FormControl>
-
-          <FormControl
-            size="small"
-            sx={{ minWidth: { xs: '100%', sm: 180 } }}
-            disabled={isPending}
-          >
-            <InputLabel id="function-filter-label">Function</InputLabel>
-            <Select
-              labelId="function-filter-label"
-              id="function-filter"
-              label="Function"
-              value={currentFunctionSlug ?? ''}
-              onChange={handleFunctionChange}
-            >
-              <MenuItem value="">All functions</MenuItem>
+              <ListSubheader disableSticky>Functions</ListSubheader>
               {functionOptions.map((option) => (
-                <MenuItem key={option.slug} value={option.slug}>
+                <MenuItem key={`function:${option.slug}`} value={`function:${option.slug}`}>
                   {option.label}
                 </MenuItem>
               ))}
