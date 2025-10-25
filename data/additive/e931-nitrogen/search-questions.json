@@ -1,0 +1,100 @@
+{
+  "keywords": [
+    "Nitrogen",
+    "E931"
+  ],
+  "country": "us",
+  "fetchedAt": "2025-10-09T03:25:38.956Z",
+  "questions": [
+    {
+      "keyword": "how many valence electrons does nitrogen have",
+      "volume": 7200,
+      "original_keyword": "Nitrogen",
+      "parent_topic": "nitrogen valence electrons",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is nitrogen",
+      "volume": 5900,
+      "original_keyword": "Nitrogen",
+      "parent_topic": "nitrogen",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is nitrogen fixation",
+      "volume": 4100,
+      "original_keyword": "Nitrogen",
+      "parent_topic": "nitrogen fixation",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is nitrogen used for",
+      "volume": 3700,
+      "original_keyword": "Nitrogen",
+      "parent_topic": "nitrogen",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is nitrogen a greenhouse gas",
+      "volume": 3100,
+      "original_keyword": "Nitrogen",
+      "parent_topic": "greenhouse gases",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is the nitrogen cycle",
+      "volume": 3100,
+      "original_keyword": "Nitrogen",
+      "parent_topic": "nitrogen cycle",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is nitrogen flammable",
+      "volume": 2400,
+      "original_keyword": "Nitrogen",
+      "parent_topic": "is nitrogen flammable",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is blood urea nitrogen",
+      "volume": 2100,
+      "original_keyword": "Nitrogen",
+      "parent_topic": "bun blood test",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is urea nitrogen",
+      "volume": 2100,
+      "original_keyword": "Nitrogen",
+      "parent_topic": "bun blood test",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "which of the following pathways indicate how nitrogen is added to the largest nitrogen reservoir?",
+      "volume": 1900,
+      "original_keyword": "Nitrogen",
+      "parent_topic": "which of the following pathways indicate how nitrogen is added to the largest nitrogen reservoir?",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
+}

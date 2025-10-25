@@ -6,16 +6,17 @@ This folder stores the static dataset that powers the catalogue. All files are c
 
 ```
 /data
+├── additive/
+│   ├── <slug>/
+│   │   ├── props.json
+│   │   ├── searchHistory.json
+│   │   ├── searchHistoryFull.json
+│   │   └── searchVolume.json
 ├── additives.json
-├── <slug>/
-│   ├── props.json
-│   ├── searchHistory.json
-│   ├── searchHistoryFull.json
-│   └── searchVolume.json
 ```
 
 - **`additives.json`** — lightweight index used during static generation. Each entry includes only the additive `title` and `eNumber`. The slug for each additive is derived from these two fields using the format `<eNumber>-<title>`, lowercased and slugified. If either field is missing the slug falls back to the available value.
-- **`<slug>/props.json`** — full metadata for a single additive. Keys include:
+- **`additive/<slug>/props.json`** — full metadata for a single additive. Keys include:
   - `title`
   - `eNumber`
   - `synonyms`
@@ -24,18 +25,18 @@ This folder stores the static dataset that powers the catalogue. All files are c
   - `functions`
   - `description`
   - `wikipedia`
-- **`<slug>/searchHistory.json`** — aggregated monthly keyword volume returned by the Ahrefs API (summed across all keywords) plus a precomputed ten-year sparkline.
-- **`<slug>/searchHistoryFull.json`** — raw keyword-level history returned by the Ahrefs API. Useful for debugging and secondary analysis; not shipped to the client.
-- **`<slug>/searchVolume.json`** — aggregated snapshot of the latest monthly search volume and per-keyword breakdown. Includes a `keywordConfig` object showing which keywords were queried, which were added manually, and which were excluded.
+- **`additive/<slug>/searchHistory.json`** — aggregated monthly keyword volume returned by the Ahrefs API (summed across all keywords) plus a precomputed ten-year sparkline.
+- **`additive/<slug>/searchHistoryFull.json`** — raw keyword-level history returned by the Ahrefs API. Useful for debugging and secondary analysis; not shipped to the client.
+- **`additive/<slug>/searchVolume.json`** — aggregated snapshot of the latest monthly search volume and per-keyword breakdown. Includes a `keywordConfig` object showing which keywords were queried, which were added manually, and which were excluded.
 
 ## Data pipeline
 
-1. **Open Food Facts** — `scripts/fetch-additives.js` queries the Open Food Facts taxonomy to build the additive list. It normalises metadata and writes the per-additive `props.json` files alongside the updated `additives.json` index.
-2. **Ahrefs keyword metrics** — `scripts/update-search-volume.js` reads the index, retrieves the latest U.S. search volume, and writes `<slug>/searchVolume.json` with the aggregated total and keyword breakdown.
-3. **Ahrefs volume history** — `scripts/fetch-search-history.js` collects the ten-year volume trend for each additive, writes the aggregated data to `searchHistory.json`, and stores the raw keyword-level series in `searchHistoryFull.json`.
-4. **Ahrefs question ideas** — `scripts/fetch-search-questions.js` requests matching-question keywords for each additive and stores the top ten results (including an `original_keyword` field that records which query produced the question) inside `<slug>/search-questions.json`.
+1. **Open Food Facts** — `scripts/fetch-additives.js` queries the Open Food Facts taxonomy to build the additive list. It normalises metadata and writes the per-additive `props.json` files to `data/additive/<slug>` alongside the updated `additives.json` index.
+2. **Ahrefs keyword metrics** — `scripts/update-search-volume.js` reads the index, retrieves the latest U.S. search volume, and writes `additive/<slug>/searchVolume.json` with the aggregated total and keyword breakdown.
+3. **Ahrefs volume history** — `scripts/fetch-search-history.js` collects the ten-year volume trend for each additive, writes the aggregated data to `additive/<slug>/searchHistory.json`, and stores the raw keyword-level series in `additive/<slug>/searchHistoryFull.json`.
+4. **Ahrefs question ideas** — `scripts/fetch-search-questions.js` requests matching-question keywords for each additive and stores the top ten results (including an `original_keyword` field that records which query produced the question) inside `additive/<slug>/search-questions.json`.
 
-The scripts are idempotent and can be re-run to refresh the dataset. Each script expects the `data/` directory to exist and will create per-additive folders as needed.
+The scripts are idempotent and can be re-run to refresh the dataset. Each script expects the `data/` directory to exist and will create per-additive folders under `data/additive` as needed.
 
 ### Search keyword filters
 
@@ -61,4 +62,3 @@ All Ahrefs-driven scripts (`update-search-volume`, `fetch-search-history`, `fetc
 
 - **Targeted runs (`--additive`)** always refresh the requested additives. Existing data is overwritten and the console prints the updated file paths when `--debug` is set.
 - **Bulk runs** skip additives that already have data unless `--override` is supplied. In non-debug mode, the script prints a single `skipped: <count>` summary before processing the remaining additives.
-
