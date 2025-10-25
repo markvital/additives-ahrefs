@@ -18,6 +18,7 @@ import { getSearchHistory } from '../../lib/search-history';
 import { getSearchQuestions } from '../../lib/search-questions';
 import { getSearchVolumeDataset } from '../../lib/search-volume';
 import { getOriginAbbreviation, getOriginIcon } from '../../lib/origin-icons';
+import { AhrefsAttributionTooltip } from '../../components/AhrefsAttributionTooltip';
 import { SearchHistoryChart } from '../../components/SearchHistoryChart';
 import { SearchKeywordShare } from '../../components/SearchKeywordShare';
 import { MarkdownArticle } from '../../components/MarkdownArticle';
@@ -198,7 +199,16 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
           in {searchCountryText}
         </>
       )}
-      {' for the last 10 years'}
+      {' for the last 10 years from '}
+      <MuiLink
+        href="https://ahrefs.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        underline="hover"
+        sx={{ fontWeight: 500 }}
+      >
+        Ahrefs
+      </MuiLink>
     </>
   );
 
@@ -480,9 +490,12 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
         >
           <SearchHistoryChart metrics={searchHistory.metrics} />
 
-          <Typography variant="body2" color="text.secondary" textAlign="center">
-            {searchInterestCaption}
-          </Typography>
+          <Stack spacing={1} alignItems="center">
+            <Typography variant="body2" color="text.secondary" textAlign="center">
+              {searchInterestCaption}
+            </Typography>
+            <AhrefsAttributionTooltip />
+          </Stack>
         </Box>
       )}
 
