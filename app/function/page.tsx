@@ -1,15 +1,20 @@
 import type { Metadata } from 'next';
-import Link from 'next/link';
 import { Box, Typography } from '@mui/material';
 
 import { getAdditives, getFunctionFilters, getFunctionSlug } from '../../lib/additives';
 import { formatFilterLabel } from '../../lib/text';
 import functionsData from '../../data/functions.json';
+import InfoList from '../../components/InfoList';
 
 type FunctionDataEntry = {
   name?: string;
   description?: string;
 };
+
+interface FunctionsData {
+  overview?: string;
+  functions?: FunctionDataEntry[];
+}
 
 interface FunctionSummary {
   slug: string;
@@ -21,8 +26,10 @@ interface FunctionSummary {
 const normalize = (value: string): string => value.trim().toLowerCase();
 
 const functionInfoMap = new Map<string, { title: string; description: string | null }>();
+const functionsSource = (functionsData as FunctionsData).functions ?? [];
+const overview = (functionsData as FunctionsData).overview?.trim();
 
-(functionsData as FunctionDataEntry[]).forEach((entry) => {
+functionsSource.forEach((entry) => {
   if (!entry?.name) {
     return;
   }
@@ -68,6 +75,15 @@ const functions: FunctionSummary[] = functionFilters
     return a.title.localeCompare(b.title);
   });
 
+const functionItems = functions.map(({ slug, title, description, count }) => ({
+  key: slug,
+  href: `/function/${slug}`,
+  title,
+  description,
+  count,
+  countSuffix: count === 1 ? 'additive uses this function.' : 'additives use this function.',
+}));
+
 export const metadata: Metadata = {
   title: 'Food additive functions',
   description: 'Browse every function used to classify food additives, including descriptions and usage counts.',
@@ -84,50 +100,11 @@ export default function FunctionIndexPage() {
           Food additive functions
         </Typography>
         <Typography variant="body1" color="text.secondary">
-          Discover the roles food additives play across the industry. Each function below includes a short
-          definition and the number of additives that use it.
+          {overview}
         </Typography>
       </Box>
 
-      <Box component="ul" sx={{ listStyle: 'none', margin: 0, padding: 0, display: 'flex', flexDirection: 'column', gap: 1.5 }}>
-        {functions.map(({ slug, title, description, count }) => (
-          <Box key={slug} component="li">
-            <Box
-              component={Link}
-              href={`/function/${slug}`}
-              sx={{
-                display: 'flex',
-                flexDirection: 'column',
-                gap: 0.75,
-                textDecoration: 'none',
-                color: 'text.primary',
-                transition: 'color 0.2s ease',
-                '&:hover': {
-                  textDecoration: 'underline',
-                },
-                '&:focus-visible': {
-                  textDecoration: 'underline',
-                },
-              }}
-            >
-              <Typography component="h2" variant="h5">
-                {title}
-              </Typography>
-              {description ? (
-                <Typography variant="body1" color="text.secondary" sx={{ maxWidth: 660 }}>
-                  {description}
-                </Typography>
-              ) : null}
-              <Typography variant="body2" color="text.secondary">
-                <Box component="span" fontWeight={600}>
-                  {count}
-                </Box>{' '}
-                {count === 1 ? 'additive uses this function.' : 'additives use this function.'}
-              </Typography>
-            </Box>
-          </Box>
-        ))}
-      </Box>
+      <InfoList items={functionItems} />
     </Box>
   );
 }

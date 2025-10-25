@@ -6,6 +6,10 @@ interface FunctionDataEntry {
   usedAs?: string[];
 }
 
+interface FunctionsData {
+  functions?: FunctionDataEntry[];
+}
+
 const normaliseValue = (value: string): string =>
   value
     .toLowerCase()
@@ -21,7 +25,9 @@ type FunctionInfo = {
 
 const functionMap = new Map<string, FunctionInfo>();
 
-(functionsData as FunctionDataEntry[]).forEach((entry) => {
+const functionEntries = (functionsData as FunctionsData).functions ?? [];
+
+functionEntries.forEach((entry) => {
   if (!entry?.name) {
     return;
   }
