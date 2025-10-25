@@ -1,9 +1,23 @@
 'use client';
 
-import { useTransition } from 'react';
+import { useCallback, useEffect, useState, useTransition } from 'react';
 import type { ChangeEvent } from 'react';
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
-import { Box, Checkbox, FormControl, FormControlLabel, InputLabel, MenuItem, Select, Stack } from '@mui/material';
+import {
+  Box,
+  Button,
+  Checkbox,
+  FormControl,
+  FormControlLabel,
+  IconButton,
+  InputLabel,
+  MenuItem,
+  Select,
+  Stack,
+  Typography,
+} from '@mui/material';
+import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
+import CloseIcon from '@mui/icons-material/Close';
 import type { SelectChangeEvent } from '@mui/material/Select';
 
 import type { AdditiveSortMode } from '../lib/additives';
@@ -37,8 +51,62 @@ export function FilterPanel({
   const pathname = usePathname();
   const searchParams = useSearchParams();
   const [isPending, startTransition] = useTransition();
+  const [legendOpen, setLegendOpen] = useState(false);
+  const [legendPosition, setLegendPosition] = useState<
+    { top: number; left: number; width: number; scaledWidth: number } | null
+  >(null);
   type SortSelectValue = 'search-rank' | 'products';
   const currentSortValue: SortSelectValue = currentSortMode === 'product-count' ? 'products' : 'search-rank';
+
+  const closeLegend = useCallback(() => {
+    setLegendOpen(false);
+    setLegendPosition(null);
+  }, []);
+
+  const updateLegendPosition = useCallback(() => {
+    const firstCard = document.querySelector('[data-additive-card-index="0"]') as HTMLElement | null;
+
+    if (!firstCard) {
+      setLegendPosition(null);
+      return;
+    }
+
+    const rect = firstCard.getBoundingClientRect();
+    const viewportWidth = document.documentElement.clientWidth;
+    const rightMargin = 24;
+    const availableWidth = Math.max(viewportWidth - rect.left - rightMargin, rect.width);
+    const scaledWidth = Math.min(rect.width * 2, availableWidth);
+
+    setLegendPosition({ top: rect.top, left: rect.left, width: rect.width, scaledWidth });
+  }, []);
+
+  useEffect(() => {
+    if (!legendOpen) {
+      return;
+    }
+
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+
+    updateLegendPosition();
+
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') {
+        closeLegend();
+      }
+    };
+
+    window.addEventListener('resize', updateLegendPosition);
+    window.addEventListener('scroll', updateLegendPosition, true);
+    window.addEventListener('keydown', handleKeyDown);
+
+    return () => {
+      document.body.style.overflow = previousOverflow;
+      window.removeEventListener('resize', updateLegendPosition);
+      window.removeEventListener('scroll', updateLegendPosition, true);
+      window.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [legendOpen, updateLegendPosition, closeLegend]);
 
   const buildUrlWithState = (
     path: string,
@@ -104,103 +172,227 @@ export function FilterPanel({
   };
 
   return (
-    <Stack
-      direction={{ xs: 'column', sm: 'row' }}
-      justifyContent={{ xs: 'flex-start', sm: 'flex-end' }}
-      alignItems={{ xs: 'stretch', sm: 'center' }}
-      spacing={1.5}
-      width="100%"
-      flexWrap="wrap"
-    >
-      <Box
-        component="span"
-        title="Show generic parent additives"
-        sx={{
-          mr: { xs: 0, sm: 1 },
-          ml: { xs: -0.5, sm: 0 },
-          alignSelf: { xs: 'flex-start', sm: 'center' },
-          display: 'flex',
-        }}
+    <>
+      <Stack
+        direction={{ xs: 'column', sm: 'row' }}
+        justifyContent={{ xs: 'flex-start', sm: 'space-between' }}
+        alignItems={{ xs: 'stretch', sm: 'center' }}
+        spacing={1.5}
+        width="100%"
+        flexWrap="wrap"
       >
-        <FormControlLabel
-          control={
-            <Checkbox
-              size="small"
-              checked={currentShowClasses}
-              onChange={handleShowClassesChange}
-              disabled={isPending}
-            />
-          }
-          label="parent E"
+        <Stack
+          direction={{ xs: 'column', sm: 'row' }}
+          spacing={{ xs: 1, sm: 1.5 }}
+          alignItems={{ xs: 'flex-start', sm: 'center' }}
+          flexWrap="wrap"
           sx={{
-            color: 'text.secondary',
-            '& .MuiFormControlLabel-label': {
-              fontSize: 14,
-            },
+            minWidth: { xs: '100%', sm: 'auto' },
           }}
-        />
-      </Box>
-      <FormControl
-        size="small"
-        sx={{ minWidth: { xs: '100%', sm: 180 } }}
-        disabled={isPending}
-      >
-        <InputLabel id="sort-filter-label">Sort by</InputLabel>
-        <Select
-          labelId="sort-filter-label"
-          id="sort-filter"
-          label="Sort by"
-          value={currentSortValue}
-          onChange={handleSortChange}
         >
-          <MenuItem value="search-rank">Search rank</MenuItem>
-          <MenuItem value="products">Products</MenuItem>
-        </Select>
-      </FormControl>
+          <Button
+            type="button"
+            onClick={() => setLegendOpen(true)}
+            startIcon={<InfoOutlinedIcon fontSize="small" />}
+            sx={{
+              color: '#626262',
+              textTransform: 'none',
+              fontWeight: 500,
+              fontSize: 16,
+              px: 0,
+              '&:hover': {
+                backgroundColor: 'transparent',
+                textDecoration: 'underline',
+              },
+            }}
+          >
+            show legend
+          </Button>
+        </Stack>
 
-      <FormControl
-        size="small"
-        sx={{ minWidth: { xs: '100%', sm: 180 } }}
-        disabled={isPending}
-      >
-        <InputLabel id="origin-filter-label">Origin</InputLabel>
-        <Select
-          labelId="origin-filter-label"
-          id="origin-filter"
-          label="Origin"
-          value={currentOriginSlug ?? ''}
-          onChange={handleOriginChange}
+        <Stack
+          direction={{ xs: 'column', sm: 'row' }}
+          spacing={1.5}
+          alignItems={{ xs: 'stretch', sm: 'center' }}
+          flexWrap="wrap"
+          justifyContent="flex-end"
+          sx={{ flexGrow: 1 }}
         >
-          <MenuItem value="">All origins</MenuItem>
-          {originOptions.map((option) => (
-            <MenuItem key={option.slug} value={option.slug}>
-              {option.label}
-            </MenuItem>
-          ))}
-        </Select>
-      </FormControl>
+          <Box
+            component="span"
+            title="Show generic parent additives"
+            sx={{
+              alignSelf: 'center',
+              display: 'flex',
+              order: { xs: -1, sm: 0 },
+            }}
+          >
+            <FormControlLabel
+              control={
+                <Checkbox
+                  size="small"
+                  checked={currentShowClasses}
+                  onChange={handleShowClassesChange}
+                  disabled={isPending}
+                />
+              }
+              label="parent E"
+              sx={{
+                color: 'text.secondary',
+                '& .MuiFormControlLabel-label': {
+                  fontSize: 14,
+                },
+              }}
+            />
+          </Box>
 
-      <FormControl
-        size="small"
-        sx={{ minWidth: { xs: '100%', sm: 180 } }}
-        disabled={isPending}
-      >
-        <InputLabel id="function-filter-label">Function</InputLabel>
-        <Select
-          labelId="function-filter-label"
-          id="function-filter"
-          label="Function"
-          value={currentFunctionSlug ?? ''}
-          onChange={handleFunctionChange}
+          <FormControl
+            size="small"
+            sx={{ minWidth: { xs: '100%', sm: 180 } }}
+            disabled={isPending}
+          >
+            <InputLabel id="sort-filter-label">Sort by</InputLabel>
+            <Select
+              labelId="sort-filter-label"
+              id="sort-filter"
+              label="Sort by"
+              value={currentSortValue}
+              onChange={handleSortChange}
+            >
+              <MenuItem value="search-rank">Search rank</MenuItem>
+              <MenuItem value="products">Products</MenuItem>
+            </Select>
+          </FormControl>
+
+          <FormControl
+            size="small"
+            sx={{ minWidth: { xs: '100%', sm: 180 } }}
+            disabled={isPending}
+          >
+            <InputLabel id="origin-filter-label">Origin</InputLabel>
+            <Select
+              labelId="origin-filter-label"
+              id="origin-filter"
+              label="Origin"
+              value={currentOriginSlug ?? ''}
+              onChange={handleOriginChange}
+            >
+              <MenuItem value="">All origins</MenuItem>
+              {originOptions.map((option) => (
+                <MenuItem key={option.slug} value={option.slug}>
+                  {option.label}
+                </MenuItem>
+              ))}
+            </Select>
+          </FormControl>
+
+          <FormControl
+            size="small"
+            sx={{ minWidth: { xs: '100%', sm: 180 } }}
+            disabled={isPending}
+          >
+            <InputLabel id="function-filter-label">Function</InputLabel>
+            <Select
+              labelId="function-filter-label"
+              id="function-filter"
+              label="Function"
+              value={currentFunctionSlug ?? ''}
+              onChange={handleFunctionChange}
+            >
+              <MenuItem value="">All functions</MenuItem>
+              {functionOptions.map((option) => (
+                <MenuItem key={option.slug} value={option.slug}>
+                  {option.label}
+                </MenuItem>
+              ))}
+            </Select>
+          </FormControl>
+        </Stack>
+      </Stack>
+
+      {legendOpen ? (
+        <Box
+          role="dialog"
+          aria-modal="true"
+          aria-label="Additive card legend"
+          onClick={closeLegend}
+          sx={{
+            position: 'fixed',
+            inset: 0,
+            zIndex: 1400,
+            bgcolor: 'rgba(10, 10, 16, 0.75)',
+            backdropFilter: 'blur(6px)',
+            WebkitBackdropFilter: 'blur(6px)',
+            display: 'flex',
+            alignItems: { xs: 'center', md: 'flex-start' },
+            justifyContent: { xs: 'center', md: 'flex-start' },
+            overflow: 'auto',
+            p: { xs: 2, sm: 4 },
+          }}
         >
-          <MenuItem value="">All functions</MenuItem>
-          {functionOptions.map((option) => (
-            <MenuItem key={option.slug} value={option.slug}>
-              {option.label}
-            </MenuItem>
-          ))}
-        </Select>
-      </FormControl>
-    </Stack>
+          <IconButton
+            aria-label="Close legend"
+            onClick={(event) => {
+              event.stopPropagation();
+              closeLegend();
+            }}
+            sx={{
+              position: 'fixed',
+              top: { xs: 12, sm: 20 },
+              right: { xs: 12, sm: 24 },
+              color: 'common.white',
+              bgcolor: 'rgba(30, 30, 36, 0.55)',
+              '&:hover': {
+                bgcolor: 'rgba(30, 30, 36, 0.75)',
+              },
+            }}
+            size="large"
+          >
+            <CloseIcon />
+          </IconButton>
+
+          <Box
+            onClick={(event) => event.stopPropagation()}
+            sx={{
+              position: { xs: 'relative', md: legendPosition ? 'absolute' : 'relative' },
+              top: { md: legendPosition ? `${legendPosition.top}px` : '50%' },
+              left: { md: legendPosition ? `${legendPosition.left}px` : '50%' },
+              transform: {
+                md: legendPosition ? 'translate(0, 0)' : 'translate(-50%, -50%)',
+              },
+              width: {
+                xs: 'min(544px, 92vw)',
+                sm: 'min(544px, 85vw)',
+                md: legendPosition ? `${legendPosition.scaledWidth}px` : 'min(544px, 60vw)',
+              },
+              maxWidth: { xs: '544px', md: 'min(1088px, 90vw)' },
+              pointerEvents: 'auto',
+              touchAction: 'pan-x pan-y pinch-zoom',
+              filter: 'drop-shadow(0 24px 48px rgba(0, 0, 0, 0.45))',
+            }}
+          >
+            <Box
+              component="img"
+              src="/img/card-legend.svg"
+              alt="Legend describing the additive card"
+              draggable={false}
+              sx={{
+                width: '100%',
+                height: 'auto',
+                display: 'block',
+                userSelect: 'none',
+              }}
+            />
+            <Typography
+              variant="caption"
+              color="grey.200"
+              sx={{ display: { xs: 'block', md: 'none' }, mt: 1, textAlign: 'center' }}
+            >
+              Pinch to zoom
+            </Typography>
+          </Box>
+        </Box>
+      ) : null}
+    </>
   );
 }
