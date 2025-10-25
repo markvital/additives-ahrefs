@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 import NextLink from 'next/link';
 import { notFound } from 'next/navigation';
-import { Box, Chip, Link as MuiLink, Stack, Typography } from '@mui/material';
+import { Box, Chip, Link as MuiLink, Stack, Tooltip, Typography } from '@mui/material';
 
 import { formatAdditiveDisplayName, formatFunctionLabel, formatOriginLabel } from '../../lib/additive-format';
 import { extractArticleBody, extractArticleSummary } from '../../lib/article';
@@ -18,6 +18,7 @@ import { getSearchHistory } from '../../lib/search-history';
 import { getSearchQuestions } from '../../lib/search-questions';
 import { getSearchVolumeDataset } from '../../lib/search-volume';
 import { getOriginAbbreviation, getOriginIcon } from '../../lib/origin-icons';
+import { getOriginDescriptionBySlug, getOriginDescriptionByValue } from '../../lib/origins';
 import { AhrefsAttributionTooltip } from '../../components/AhrefsAttributionTooltip';
 import { SearchHistoryChart } from '../../components/SearchHistoryChart';
 import { SearchKeywordShare } from '../../components/SearchKeywordShare';
@@ -383,6 +384,17 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
               const label = formatOriginLabel(origin);
               const icon = getOriginIcon(origin);
               const abbreviation = getOriginAbbreviation(origin);
+              const originDescription =
+                (originSlug ? getOriginDescriptionBySlug(originSlug) : null) ??
+                getOriginDescriptionByValue(origin);
+              const tooltipTitle = originDescription ?? '';
+              const tooltipProps = originDescription
+                ? {}
+                : {
+                    disableFocusListener: true,
+                    disableHoverListener: true,
+                    disableTouchListener: true,
+                  };
               const chipLabel = (
                 <Stack direction="row" spacing={0.75} alignItems="center">
                   <Box
@@ -418,25 +430,37 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
 
               if (!originSlug) {
                 return (
-                  <Chip
+                  <Tooltip
                     key={origin}
-                    label={chipLabel}
-                    variant="outlined"
-                    sx={{ px: 1 }}
-                  />
+                    title={tooltipTitle}
+                    arrow
+                    enterTouchDelay={0}
+                    leaveTouchDelay={1500}
+                    {...tooltipProps}
+                  >
+                    <Chip label={chipLabel} variant="outlined" sx={{ px: 1 }} />
+                  </Tooltip>
                 );
               }
 
               return (
-                <Chip
+                <Tooltip
                   key={origin}
-                  label={chipLabel}
-                  variant="outlined"
-                  component={NextLink}
-                  href={`/origin/${originSlug}`}
-                  clickable
-                  sx={{ px: 1 }}
-                />
+                  title={tooltipTitle}
+                  arrow
+                  enterTouchDelay={0}
+                  leaveTouchDelay={1500}
+                  {...tooltipProps}
+                >
+                  <Chip
+                    label={chipLabel}
+                    variant="outlined"
+                    component={NextLink}
+                    href={`/origin/${originSlug}`}
+                    clickable
+                    sx={{ px: 1 }}
+                  />
+                </Tooltip>
               );
             })}
           </Stack>

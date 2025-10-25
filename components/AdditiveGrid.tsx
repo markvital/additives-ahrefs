@@ -77,7 +77,7 @@ export function AdditiveGrid({
         },
       }}
     >
-      {items.map((additive) => {
+      {items.map((additive, index) => {
         const hasSparkline =
           Array.isArray(additive.searchSparkline) &&
           additive.searchSparkline.some((value) => value !== null);
@@ -113,7 +113,11 @@ export function AdditiveGrid({
         const displayTitle = showSoftHyphenation ? hyphenateLongWords(normalizedTitle) : normalizedTitle;
 
         return (
-          <Card key={additive.slug} sx={{ display: 'flex', flexDirection: 'column' }}>
+          <Card
+            key={additive.slug}
+            data-additive-card-index={index}
+            sx={{ display: 'flex', flexDirection: 'column' }}
+          >
             <CardActionArea
               component={Link}
               href={`/${additive.slug}`}
@@ -227,7 +231,16 @@ export function AdditiveGrid({
                       <Box sx={{ minWidth: 0 }} />
                     )}
                     {hasSparkline ? (
-                      <Box sx={{ flexGrow: 1, minWidth: 96, pr: 3 }}>
+                      <Box
+                        sx={{
+                          flexGrow: 1,
+                          minWidth: 96,
+                          width: '100%',
+                          maxWidth: { xs: '100%', sm: 'min(100%, 320px)', lg: 'min(100%, 360px)' },
+                          pr: { xs: 0, sm: 0.5, lg: 0 },
+                          ml: { xs: 0, sm: 'auto' },
+                        }}
+                      >
                         <SearchSparkline values={additive.searchSparkline ?? []} />
                       </Box>
                     ) : (

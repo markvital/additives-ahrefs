@@ -115,12 +115,55 @@ a {
   text-decoration: underline;
 }
 
+.header-about-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  letter-spacing: normal;
+  text-transform: none;
+  font-size: 0.95rem;
+}
+
+.header-about-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #5f6368;
+  transition: color 0.2s ease;
+  line-height: 0;
+}
+
+.header-about-icon svg {
+  display: block;
+}
+
+.header-about-link:hover .header-about-icon,
+.header-about-link:focus-visible .header-about-icon {
+  color: #0d47a1;
+}
+
+.header-about-text {
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
 .site-footer {
   padding: 1.5rem 0;
   margin-top: auto;
   border-top: 1px solid #e0e0e0;
   color: #6b6b6b;
   font-size: 0.9rem;
+}
+
+.footer-link {
+  font-weight: 600;
+  color: inherit;
+}
+
+.footer-link:hover,
+.footer-link:focus-visible {
+  color: #0d47a1;
+  text-decoration: underline;
 }
 
 .main-content {

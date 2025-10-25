@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
+import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 import { Typography } from '@mui/material';
 import { Roboto } from 'next/font/google';
 
@@ -52,6 +53,12 @@ export default function RootLayout({
                     <Link href="/compare" className="header-link">
                       Compare
                     </Link>
+                    <Link href="/about" className="header-link header-about-link">
+                      <span className="header-about-icon" aria-hidden="true">
+                        <InfoOutlinedIcon fontSize="small" />
+                      </span>
+                      <span className="header-about-text">About</span>
+                    </Link>
                   </nav>
                 </div>
               </div>
@@ -62,7 +69,10 @@ export default function RootLayout({
             <footer className="site-footer">
               <div className="content-shell">
                 <Typography component="p" variant="body2">
-                  Food Additives © {currentYear}. All rights reserved.
+                  Food Additives © {currentYear}. All rights reserved.{' '}
+                  <Link href="/about" className="footer-link">
+                    About
+                  </Link>
                 </Typography>
               </div>
             </footer>
