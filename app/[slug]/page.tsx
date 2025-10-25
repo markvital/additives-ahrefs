@@ -200,15 +200,27 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
         </>
       )}
       {' for the last 10 years from '}
-      <MuiLink
-        href="https://ahrefs.com"
-        target="_blank"
-        rel="noopener noreferrer"
-        underline="hover"
-        sx={{ fontWeight: 500 }}
+      <Box
+        component="span"
+        sx={{
+          display: 'inline-flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          position: 'relative',
+          gap: 0,
+        }}
       >
-        Ahrefs
-      </MuiLink>
+        <MuiLink
+          href="https://ahrefs.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          underline="hover"
+          sx={{ fontWeight: 500 }}
+        >
+          Ahrefs
+        </MuiLink>
+        <AhrefsAttributionTooltip />
+      </Box>
     </>
   );
 
@@ -490,12 +502,11 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
         >
           <SearchHistoryChart metrics={searchHistory.metrics} />
 
-          <Stack spacing={1} alignItems="center">
+          <Box sx={{ display: 'flex', justifyContent: 'center' }}>
             <Typography variant="body2" color="text.secondary" textAlign="center">
               {searchInterestCaption}
             </Typography>
-            <AhrefsAttributionTooltip />
-          </Stack>
+          </Box>
         </Box>
       )}
 

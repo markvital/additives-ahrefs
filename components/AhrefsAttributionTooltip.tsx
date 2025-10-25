@@ -3,33 +3,52 @@
 import Image from 'next/image';
 import { Box, Link as MuiLink, Typography, useTheme } from '@mui/material';
 
-import ahrefsLogo from '../img/logo/logo_cropped.png';
+import ahrefsLogo from '../img/branded/ahrefs-logo.svg';
 
 export function AhrefsAttributionTooltip() {
   const theme = useTheme();
   const spacingY = theme.spacing(0.75);
-  const spacingX = theme.spacing(2);
+  const spacingX = theme.spacing(1.75);
+  const arrowSize = 10;
 
   const baseStyles = {
+    position: 'relative',
     display: 'inline-flex',
     alignItems: 'center',
     gap: theme.spacing(1),
     padding: `${spacingY} ${spacingX}`,
-    borderRadius: 999,
-    backgroundColor: '#f4f4f4',
-    border: '1px solid rgba(15, 23, 42, 0.08)',
-    boxShadow: '0 2px 6px rgba(15, 23, 42, 0.08)',
+    borderRadius: theme.shape.borderRadius,
+    backgroundColor: theme.palette.background.paper,
+    border: `1px solid ${theme.palette.divider}`,
+    boxShadow: theme.shadows[3],
     color: theme.palette.text.primary,
     fontWeight: 600,
+    fontSize: theme.typography.pxToRem(13),
+    lineHeight: 1.2,
     textDecoration: 'none',
     transition: 'box-shadow 150ms ease, transform 150ms ease',
+    mt: 1,
     '&:hover': {
-      boxShadow: '0 6px 16px rgba(15, 23, 42, 0.12)',
+      boxShadow: theme.shadows[6],
       transform: 'translateY(-1px)',
     },
     '&:focus-visible': {
       outline: `2px solid ${theme.palette.primary.main}`,
       outlineOffset: 2,
+    },
+    '&::before': {
+      content: '""',
+      position: 'absolute',
+      top: -arrowSize / 2,
+      left: '50%',
+      width: arrowSize,
+      height: arrowSize,
+      transform: 'translateX(-50%) rotate(45deg)',
+      backgroundColor: theme.palette.background.paper,
+      borderLeft: `1px solid ${theme.palette.divider}`,
+      borderTop: `1px solid ${theme.palette.divider}`,
+      boxShadow: theme.shadows[1],
+      zIndex: 0,
     },
   } as const;
 
@@ -42,18 +61,7 @@ export function AhrefsAttributionTooltip() {
       aria-label="Explore all keywords on Ahrefs"
       sx={baseStyles}
     >
-      <Box
-        component="span"
-        sx={{
-          width: 22,
-          height: 22,
-          display: 'inline-flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-        }}
-      >
-        <Image src={ahrefsLogo} alt="Ahrefs" width={22} height={22} />
-      </Box>
+      <Image src={ahrefsLogo} alt="Ahrefs" width={22} height={22} />
       <Typography
         component="span"
         variant="body2"
