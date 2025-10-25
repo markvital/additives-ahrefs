@@ -231,7 +231,16 @@ export function AdditiveGrid({
                       <Box sx={{ minWidth: 0 }} />
                     )}
                     {hasSparkline ? (
-                      <Box sx={{ flexGrow: 1, minWidth: 96, pr: 3 }}>
+                      <Box
+                        sx={{
+                          flexGrow: 1,
+                          minWidth: 96,
+                          width: '100%',
+                          maxWidth: { xs: '100%', sm: 'min(100%, 320px)', lg: 'min(100%, 360px)' },
+                          pr: { xs: 0, sm: 0.5, lg: 0 },
+                          ml: { xs: 0, sm: 'auto' },
+                        }}
+                      >
                         <SearchSparkline values={additive.searchSparkline ?? []} />
                       </Box>
                     ) : (

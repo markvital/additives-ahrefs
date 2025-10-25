@@ -111,7 +111,7 @@ export default async function FunctionPage({ params, searchParams }: FunctionPag
       <FilterPanel
         functionOptions={functionOptions}
         originOptions={originOptions}
-        currentFunctionSlug={functionSlug}
+        currentFilter={{ type: 'function', slug: functionSlug }}
         currentSortMode={sortMode}
         currentShowClasses={showClasses}
       />

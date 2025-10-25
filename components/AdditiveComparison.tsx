@@ -223,7 +223,12 @@ const renderSearchMetrics = (additive: ComparisonAdditive | null) => {
   );
 };
 
-const renderSearchHistory = (additive: ComparisonAdditive | null) => {
+interface SearchHistoryDomain {
+  min: number;
+  max: number;
+}
+
+const renderSearchHistory = (additive: ComparisonAdditive | null, domain?: SearchHistoryDomain | null) => {
   if (!additive) {
     return null;
   }
@@ -242,7 +247,10 @@ const renderSearchHistory = (additive: ComparisonAdditive | null) => {
 
   return (
     <Stack spacing={2} sx={{ width: '100%' }}>
-      <SearchHistoryChart metrics={dataset.metrics} />
+      <SearchHistoryChart
+        metrics={dataset.metrics}
+        domain={domain ?? undefined}
+      />
       {label && (
         <Typography variant="body2" color="text.secondary" textAlign="center">
           {label}
@@ -367,6 +375,36 @@ export function AdditiveComparison({ additives, initialSelection }: AdditiveComp
     ? formatAdditiveDisplayName(selection.right.eNumber, selection.right.title)
     : null;
 
+  const leftMetrics = selection.left?.searchHistory?.metrics ?? null;
+  const rightMetrics = selection.right?.searchHistory?.metrics ?? null;
+
+  const searchHistoryDomain = useMemo<SearchHistoryDomain | null>(() => {
+    const metricsSets = [leftMetrics, rightMetrics].filter(
+      (metrics): metrics is Array<{ date: string; volume: number }> => Array.isArray(metrics) && metrics.length > 0,
+    );
+
+    if (metricsSets.length === 0) {
+      return null;
+    }
+
+    let maxVolume = 0;
+
+    metricsSets.forEach((metrics) => {
+      metrics.forEach((point) => {
+        if (typeof point.volume === 'number' && Number.isFinite(point.volume)) {
+          maxVolume = Math.max(maxVolume, point.volume);
+        }
+      });
+    });
+
+    const paddedMax = maxVolume > 0 ? maxVolume * 1.05 : 1;
+
+    return {
+      min: 0,
+      max: paddedMax,
+    };
+  }, [leftMetrics, rightMetrics]);
+
   const overviewSummary = (additive: ComparisonAdditive | null) => {
     if (!additive) {
       return null;
@@ -431,7 +469,7 @@ export function AdditiveComparison({ additives, initialSelection }: AdditiveComp
     {
       key: 'search-history',
       label: 'Search volume over time',
-      render: renderSearchHistory,
+      render: (additive: ComparisonAdditive | null) => renderSearchHistory(additive, searchHistoryDomain),
     },
     {
       key: 'detail-link',

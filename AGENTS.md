@@ -5,3 +5,4 @@
 - Data lives in `data/additives.json`. Do not fetch data at runtime—import the JSON directly for static generation.
 - Always run `npm run lint` and `npm run build` before completing a task. Address any issues before delivering changes.
 - For UI changes, capture relevant screenshots using the provided browser tooling so reviewers can see the impact.
+- Store local screenshots in `_tmp/screenshots/`.

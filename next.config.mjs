@@ -4,6 +4,7 @@ const nextConfig = {
   transpilePackages: ['@mui/material', '@mui/system', '@mui/icons-material', '@mui/utils'],
   images: {
     unoptimized: true,
+    dangerouslyAllowSVG: true,
   },
   async rewrites() {
     return [
