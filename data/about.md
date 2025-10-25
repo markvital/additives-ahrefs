@@ -1,22 +1,22 @@
 # About the Food Additives Catalogue
 
-The Food Additives Catalogue demystifies the long names and **E‑numbers** on food labels. It brings together open‑source data, authoritative classifications and search interest metrics in a single, easy‑to‑use interface so that consumers, researchers and food professionals can quickly see what each additive does and how widely it is used.
+The Food Additives Catalogue demystifies the long names and **E‑numbers** on food labels. It brings together open‑source data, authoritative classifications and search interest metrics in a single, easy‑to‑use interface so that consumers, researchers and food professionals can quickly see what each additive does and how widely it is used. We refresh the underlying dataset once a month to capture new [Open Food Facts](https://world.openfoodfacts.org/) entries and updated [Ahrefs](https://ahrefs.com/) search metrics.
 
 ## Data sources and methodology
 
-We started by extracting all additives from **Open Food Facts** (OFF) that are present in products sold in the United States. For each additive we compiled a list of relevant search keywords. Using these keywords we fetched **search volume**, **historical interest** and **popular questions** from Ahrefs’ Keywords Explorer. We then enriched the additive records with product counts from OFF and functional class labels from the **Codex Alimentarius**. Finally, we assigned one or more origin tags (plant‑derived, animal‑derived, microbiological or synthetic) based on encyclopaedic and Codex information.
+We started by extracting all additives from [Open Food Facts](https://world.openfoodfacts.org/) (OFF) that are present in products sold in the United States. For each additive we compiled a list of relevant search keywords. Using these keywords we fetched **search volume**, **historical interest** and **popular questions** from [Ahrefs](https://ahrefs.com/)’ Keywords Explorer. We then enriched the additive records with product counts from OFF and functional class labels from the **Codex Alimentarius**. Finally, we assigned one or more origin tags (plant‑derived, animal‑derived, microbiological or synthetic) based on encyclopaedic and Codex information. This pipeline updates each month so the catalogue reflects the latest OFF submissions and Ahrefs demand trends.
+
+### Ahrefs search‑interest metrics
+
+To reflect public curiosity, we draw on [Ahrefs](https://ahrefs.com/)’ Keywords Explorer. Ahrefs defines **search volume** as the average number of times people search for a query in a target country each month and bases its estimates on Google Keyword Planner data. After compiling keywords for each additive, we aggregate their U.S. search volumes to report a single monthly volume and ranking. Small spark‑line charts on additive cards show how interest has changed over time.
 
 ### Open Food Facts (OFF)
 
-OFF is a non‑profit project that runs the world’s largest open database of food products. It contains **over three million products** and more than **seven million images** and is released under an **Open Database Licence**. We used OFF to identify the list of additives used in U.S. products and to count how many products contain each additive. Because the OFF database is constantly evolving, these counts should be viewed as approximations rather than exact figures.
+[Open Food Facts](https://world.openfoodfacts.org/) is a non‑profit project that runs the world’s largest open database of food products. It contains **over three million products** and more than **seven million images** and is released under an **Open Database Licence**. We used OFF to identify the list of additives used in U.S. products and to count how many products contain each additive. Because the OFF database is constantly evolving, these counts should be viewed as approximations rather than exact figures.
 
 ### Codex functional classes
 
 The **Codex Alimentarius Commission** maintains the *International Numbering System* and groups additives into 23 functional classes, including **acids**, **acidity regulators**, **anti‑caking agents**, **antioxidants**, **colours**, **emulsifiers**, **preservatives** and **sweeteners**. We use these classes to tag each additive and, where applicable, assign multiple functions.
-
-### Ahrefs search‑interest metrics
-
-To reflect public curiosity, we draw on Ahrefs’ Keywords Explorer. Ahrefs defines **search volume** as the average number of times people search for a query in a target country each month and bases its estimates on Google Keyword Planner data. After compiling keywords for each additive, we aggregate their U.S. search volumes to report a single monthly volume and ranking. Small spark‑line charts on additive cards show how interest has changed over time.
 
 ### Linking to official sources
 
@@ -36,7 +36,7 @@ The catalogue has three main aims:
 
 1. **Educate & empower.** By unifying product counts, functions and search‑interest metrics, it gives people a clear picture of what each additive does and how common it is.
 2. **Encourage transparency.** Links to regulations and safety assessments foster evidence‑based discussions about food additives.
-3. **Champion open data.** Built on openly licensed data, it demonstrates the value of combining OFF, Codex and Ahrefs datasets to create practical, reusable tools.
+3. **Champion open data.** Built on openly licensed data, it demonstrates the value of combining [Open Food Facts](https://world.openfoodfacts.org/), Codex and [Ahrefs](https://ahrefs.com/) datasets to create practical, reusable tools.
 
 ## Limitations & acknowledgements
 
