@@ -19,6 +19,7 @@ import { getSearchQuestions } from '../../lib/search-questions';
 import { getSearchVolumeDataset } from '../../lib/search-volume';
 import { getOriginAbbreviation, getOriginIcon } from '../../lib/origin-icons';
 import { getOriginDescriptionBySlug, getOriginDescriptionByValue } from '../../lib/origins';
+import { AhrefsAttributionTooltip } from '../../components/AhrefsAttributionTooltip';
 import { SearchHistoryChart } from '../../components/SearchHistoryChart';
 import { SearchKeywordShare } from '../../components/SearchKeywordShare';
 import { MarkdownArticle } from '../../components/MarkdownArticle';
@@ -199,7 +200,8 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
           in {searchCountryText}
         </>
       )}
-      {' for the last 10 years'}
+      {' for the last 10 years from '}
+      <AhrefsAttributionTooltip />
     </>
   );
 
@@ -504,9 +506,11 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
         >
           <SearchHistoryChart metrics={searchHistory.metrics} />
 
-          <Typography variant="body2" color="text.secondary" textAlign="center">
-            {searchInterestCaption}
-          </Typography>
+          <Box sx={{ display: 'flex', justifyContent: 'center' }}>
+            <Typography variant="body2" color="text.secondary" textAlign="center">
+              {searchInterestCaption}
+            </Typography>
+          </Box>
         </Box>
       )}
 
