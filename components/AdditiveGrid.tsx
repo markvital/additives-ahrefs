@@ -111,6 +111,9 @@ export function AdditiveGrid({
           titleFontScale === 1 ? undefined : `calc(${baseTitleFontSize} * ${titleFontScale})`;
         const showSoftHyphenation = longestWordLength > 18;
         const displayTitle = showSoftHyphenation ? hyphenateLongWords(normalizedTitle) : normalizedTitle;
+        const childCount = additive.childSlugs.length;
+        const isFamily = childCount > 0;
+        const familyTooltip = `additive family has ${childCount} additive${childCount === 1 ? '' : 's'}`;
 
         return (
           <Card
@@ -138,9 +141,26 @@ export function AdditiveGrid({
               >
                 <Stack spacing={1.5} sx={{ flexGrow: 1 }}>
                   <Box display="flex" justifyContent="space-between" alignItems="flex-start">
-                    <Typography variant="overline" color="text.secondary" letterSpacing={1.2}>
-                      {additive.eNumber}
-                    </Typography>
+                    <Stack direction="row" spacing={1} alignItems="center">
+                      <Typography variant="overline" color="text.secondary" letterSpacing={1.2}>
+                        {additive.eNumber}
+                      </Typography>
+                      {isFamily ? (
+                        <Tooltip title={familyTooltip} arrow>
+                          <Typography
+                            component="span"
+                            variant="overline"
+                            sx={{
+                              color: '#AAAAAA',
+                              letterSpacing: 1.2,
+                              textTransform: 'uppercase',
+                            }}
+                          >
+                            family
+                          </Typography>
+                        </Tooltip>
+                      ) : null}
+                    </Stack>
                     {origins.length > 0 ? (
                       <Stack direction="row" spacing={0.5}>
                         {origins.map((origin) => {
