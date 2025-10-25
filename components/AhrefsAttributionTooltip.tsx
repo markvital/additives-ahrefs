@@ -8,7 +8,6 @@ import ahrefsLogo from '../img/branded/ahrefs-logo.svg';
 export function AhrefsAttributionTooltip() {
   const theme = useTheme();
   const backgroundColor = '#e5e5e5';
-  const borderColor = '#999999';
   const textColor = '#666666';
 
   return (
@@ -52,9 +51,10 @@ export function AhrefsAttributionTooltip() {
           arrow: {
             sx: {
               color: backgroundColor,
+              fontSize: 20,
               '&::before': {
                 backgroundColor,
-                border: `1px solid ${borderColor}`,
+                border: 'none',
                 boxSizing: 'border-box',
               },
             },
@@ -74,8 +74,7 @@ export function AhrefsAttributionTooltip() {
               padding: `${theme.spacing(0.75)} ${theme.spacing(1.5)}`,
               borderRadius: theme.shape.borderRadius,
               backgroundColor,
-              border: `1px solid ${borderColor}`,
-              boxShadow: theme.shadows[2],
+              boxShadow: 'none',
               fontSize: theme.typography.pxToRem(13),
               fontWeight: 400,
               lineHeight: 1.2,
