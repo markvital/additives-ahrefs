@@ -68,9 +68,6 @@ const functions: FunctionSummary[] = functionFilters
     return a.title.localeCompare(b.title);
   });
 
-const formatCountLabel = (count: number): string =>
-  count === 1 ? '1 additive uses this function.' : `${count} additives use this function.`;
-
 export const metadata: Metadata = {
   title: 'Food additive functions',
   description: 'Browse every function used to classify food additives, including descriptions and usage counts.',
@@ -82,7 +79,7 @@ export const metadata: Metadata = {
 export default function FunctionIndexPage() {
   return (
     <Box component="section" display="flex" flexDirection="column" gap={4}>
-      <Box display="flex" flexDirection="column" gap={1.5} maxWidth={720}>
+      <Box display="flex" flexDirection="column" gap={1.5} maxWidth={660}>
         <Typography component="h1" variant="h1">
           Food additive functions
         </Typography>
@@ -117,12 +114,15 @@ export default function FunctionIndexPage() {
                 {title}
               </Typography>
               {description ? (
-                <Typography variant="body1" color="text.secondary">
+                <Typography variant="body1" color="text.secondary" sx={{ maxWidth: 660 }}>
                   {description}
                 </Typography>
               ) : null}
               <Typography variant="body2" color="text.secondary">
-                {formatCountLabel(count)}
+                <Box component="span" fontWeight={600}>
+                  {count}
+                </Box>{' '}
+                {count === 1 ? 'additive uses this function.' : 'additives use this function.'}
               </Typography>
             </Box>
           </Box>
