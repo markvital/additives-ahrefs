@@ -97,8 +97,27 @@ export default async function FunctionPage({ params, searchParams }: FunctionPag
   return (
     <Box component="section" display="flex" flexDirection="column" gap={4}>
       <Box display="flex" flexDirection="column" gap={1.5} maxWidth={720}>
-        <Typography component="h1" variant="h1">
-          Function: {functionHeading}
+        <Typography
+          component="h1"
+          variant="h1"
+          sx={{ display: 'flex', alignItems: 'center', gap: 1 }}
+        >
+          <Box
+            component={NextLink}
+            href="/function"
+            sx={{
+              color: 'inherit',
+              textDecoration: 'none',
+              '&:hover': { textDecoration: 'underline' },
+              '&:focus-visible': { textDecoration: 'underline' },
+            }}
+          >
+            Function
+          </Box>
+          <Box component="span" aria-hidden="true">
+            &gt;
+          </Box>
+          {functionHeading}
         </Typography>
         {functionInfo?.description ? (
           <Typography variant="body1" color="text.secondary">

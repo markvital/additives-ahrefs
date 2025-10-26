@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Box } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 import path from 'path';
 import { promises as fs } from 'fs';
 
@@ -23,7 +23,11 @@ export const metadata: Metadata = {
 };
 
 export default async function AboutPage() {
-  const content = await getAboutContent();
+  const rawContent = await getAboutContent();
+  const [firstLine, ...restLines] = rawContent.split('\n');
+  const hasMarkdownTitle = firstLine.trim().startsWith('# ');
+  const title = hasMarkdownTitle ? firstLine.replace(/^#\s*/, '').trim() : undefined;
+  const content = hasMarkdownTitle ? restLines.join('\n').replace(/^\s*/, '') : rawContent;
 
   return (
     <Box
@@ -37,6 +41,13 @@ export default async function AboutPage() {
         py: { xs: 2, md: 4 },
       }}
     >
+      {title ? (
+        <Box sx={{ width: '100%', maxWidth: 1200, textAlign: 'center' }}>
+          <Typography component="h1" variant="h3" fontWeight={600}>
+            {title}
+          </Typography>
+        </Box>
+      ) : null}
       <Box sx={{ width: '100%', maxWidth: 760, display: 'flex', flexDirection: 'column', gap: 3 }}>
         <MarkdownArticle content={content} />
       </Box>

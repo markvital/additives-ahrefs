@@ -1,4 +1,6 @@
-[
+{
+  "overview": "Discover the roles food additives play across the industry. Each function below includes a short definition and the number of additives that use it.",
+  "functions": [
   {
     "name": "Acidity regulator",
     "description": "Acidity regulators are substances which alter or control the acidity or alkalinity of a foodstuff.",
@@ -251,4 +253,5 @@
       "thickener synergist"
     ]
   }
-]
+  ]
+}

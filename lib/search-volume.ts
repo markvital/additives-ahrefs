@@ -21,7 +21,7 @@ export interface SearchVolumeDataset {
 const cache = new Map<string, SearchVolumeDataset | null>();
 
 const getVolumePath = (slug: string): string =>
-  path.join(process.cwd(), 'data', slug, 'searchVolume.json');
+  path.join(process.cwd(), 'data', 'additive', slug, 'searchVolume.json');
 
 const normaliseKeyword = (entry: unknown): SearchVolumeKeyword | null => {
   if (!entry || typeof entry !== 'object') {

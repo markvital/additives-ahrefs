@@ -48,7 +48,7 @@ interface AdditiveIndexEntry {
   eNumber?: string;
 }
 
-const dataDir = path.join(process.cwd(), 'data');
+const dataDir = path.join(process.cwd(), 'data', 'additive');
 
 const readAdditiveArticle = (slug: string): string => {
   const filePath = path.join(dataDir, slug, 'article.md');
@@ -331,21 +331,55 @@ const collectUniqueValues = (selector: (additive: Additive) => string[]): string
   return Array.from(unique.values()).sort((a, b) => a.localeCompare(b));
 };
 
-const functionFilters = collectUniqueValues((item) => item.functions).map((value) => ({
-  value,
-  slug: createFilterSlug(value),
-}));
+type FilterEntry = {
+  value: string;
+  slug: string;
+};
 
-const originFilters = collectUniqueValues((item) => item.origin).map((value) => ({
-  value,
-  slug: createFilterSlug(value),
-}));
+const buildFilterData = (
+  values: string[],
+): {
+  filters: FilterEntry[];
+  slugToValue: Map<string, string>;
+  valueToSlug: Map<string, string>;
+} => {
+  const filters: FilterEntry[] = [];
+  const slugToValue = new Map<string, string>();
+  const valueToSlug = new Map<string, string>();
 
-const functionSlugToValue = new Map(functionFilters.map(({ slug, value }) => [slug, value]));
-const functionValueToSlug = new Map(functionFilters.map(({ slug, value }) => [value, slug]));
+  values.forEach((value) => {
+    const slug = createFilterSlug(value);
 
-const originSlugToValue = new Map(originFilters.map(({ slug, value }) => [slug, value]));
-const originValueToSlug = new Map(originFilters.map(({ slug, value }) => [value, slug]));
+    if (!slug) {
+      return;
+    }
+
+    valueToSlug.set(value, slug);
+
+    if (slugToValue.has(slug)) {
+      return;
+    }
+
+    slugToValue.set(slug, value);
+    filters.push({ value, slug });
+  });
+
+  return { filters, slugToValue, valueToSlug };
+};
+
+const functionValues = collectUniqueValues((item) => item.functions);
+const {
+  filters: functionFilters,
+  slugToValue: functionSlugToValue,
+  valueToSlug: functionValueToSlug,
+} = buildFilterData(functionValues);
+
+const originValues = collectUniqueValues((item) => item.origin);
+const {
+  filters: originFilters,
+  slugToValue: originSlugToValue,
+  valueToSlug: originValueToSlug,
+} = buildFilterData(originValues);
 
 export const getAdditives = (): Additive[] => additiveCache;
 

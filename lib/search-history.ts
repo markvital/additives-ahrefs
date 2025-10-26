@@ -22,10 +22,10 @@ export interface SearchHistoryDataset {
 const historyCache = new Map<string, SearchHistoryDataset | null>();
 
 const getHistoryPath = (slug: string): string =>
-  path.join(process.cwd(), 'data', slug, 'searchHistory.json');
+  path.join(process.cwd(), 'data', 'additive', slug, 'searchHistory.json');
 
 const getFullHistoryPath = (slug: string): string =>
-  path.join(process.cwd(), 'data', slug, 'searchHistoryFull.json');
+  path.join(process.cwd(), 'data', 'additive', slug, 'searchHistoryFull.json');
 
 const normaliseMetric = (entry: unknown): SearchHistoryMetric | null => {
   if (!entry || typeof entry !== 'object') {

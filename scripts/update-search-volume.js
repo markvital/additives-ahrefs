@@ -18,6 +18,7 @@ const { loadEnvConfig, resolveAhrefsApiKey } = require('./utils/env');
 const execFileAsync = promisify(execFile);
 
 const DATA_DIR = path.join(__dirname, '..', 'data');
+const ADDITIVE_DIR = path.join(DATA_DIR, 'additive');
 const ADDITIVES_INDEX_PATH = path.join(DATA_DIR, 'additives.json');
 const API_URL = 'https://api.ahrefs.com/v3/keywords-explorer/overview';
 const COUNTRY = 'us';
@@ -220,7 +221,7 @@ const readAdditivesIndex = async () => {
   return parsed.additives;
 };
 
-const propsPathForSlug = (slug) => path.join(DATA_DIR, slug, 'props.json');
+const propsPathForSlug = (slug) => path.join(ADDITIVE_DIR, slug, 'props.json');
 
 const readProps = async (slug, fallback) => {
   try {
@@ -356,10 +357,10 @@ const fetchVolumesForKeywordsWithRetry = async (apiKey, keywords, attempt = 1) =
   }
 };
 
-const searchVolumePathForSlug = (slug) => path.join(DATA_DIR, slug, SEARCH_VOLUME_FILENAME);
+const searchVolumePathForSlug = (slug) => path.join(ADDITIVE_DIR, slug, SEARCH_VOLUME_FILENAME);
 
 const writeSearchVolumeDataset = async (slug, dataset) => {
-  await fs.mkdir(path.join(DATA_DIR, slug), { recursive: true });
+  await fs.mkdir(path.join(ADDITIVE_DIR, slug), { recursive: true });
   await fs.writeFile(searchVolumePathForSlug(slug), `${JSON.stringify(dataset, null, 2)}\n`);
 };
 

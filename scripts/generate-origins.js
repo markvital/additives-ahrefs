@@ -4,7 +4,7 @@
  * Additive origin generator script
  *
  * Behaviour
- * - Loads additives missing origin metadata (no `origin` array in `data/<slug>/props.json`) and
+ * - Loads additives missing origin metadata (no `origin` array in `data/additive/<slug>/props.json`) and
  *   fetches their origin classification via the OpenAI Responses API (model `gpt-5`).
  * - Existing origin arrays are skipped by default. Use --override to refresh them.
  * - Targeted mode (--additive) processes only the requested slugs.
@@ -39,6 +39,7 @@ const OPENAI_MODEL = 'gpt-5';
 const OPENAI_MAX_OUTPUT_TOKENS = 2500;
 const PROMPT_PATH = path.join(__dirname, 'prompts', 'additive-origin.txt');
 const DATA_DIR = path.join(__dirname, '..', 'data');
+const ADDITIVE_DIR = path.join(DATA_DIR, 'additive');
 const ADDITIVES_INDEX_PATH = path.join(DATA_DIR, 'additives.json');
 const ENV_LOCAL_PATH = path.join(__dirname, '..', 'env.local');
 const ALLOWED_ORIGINS = ['plant', 'animal', 'microbiological', 'synthetic', 'artificial', 'mineral'];
@@ -282,7 +283,7 @@ function normaliseOriginValues(input) {
 }
 
 async function readAdditiveProps(slug) {
-  const filePath = path.join(DATA_DIR, slug, 'props.json');
+  const filePath = path.join(ADDITIVE_DIR, slug, 'props.json');
   const directoryPath = path.dirname(filePath);
 
   await fs.mkdir(directoryPath, { recursive: true });
@@ -529,7 +530,7 @@ async function processAdditive({
   total,
   debug = false,
 }) {
-  const relativePropsPath = path.join('data', additive.slug, 'props.json');
+  const relativePropsPath = path.join('data', 'additive', additive.slug, 'props.json');
   const additiveLabel = [additive.eNumber, additive.title].filter(Boolean).join(' - ') || additive.slug;
 
   console.log(`[${index + 1}/${total}] Fetching origin for ${additiveLabel}...`);

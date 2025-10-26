@@ -23,10 +23,10 @@ const questionsCache = new Map<string, SearchQuestionsDataset | null>();
 const answersCache = new Map<string, Map<string, { answer: string; answeredAt?: string }>>();
 
 const getQuestionsPath = (slug: string): string =>
-  path.join(process.cwd(), 'data', slug, 'search-questions.json');
+  path.join(process.cwd(), 'data', 'additive', slug, 'search-questions.json');
 
 const getAnswersPath = (slug: string): string =>
-  path.join(process.cwd(), 'data', slug, 'questions-and-answers.json');
+  path.join(process.cwd(), 'data', 'additive', slug, 'questions-and-answers.json');
 
 const normaliseQuestionKey = (value: string): string => value.trim().toLowerCase();
 
