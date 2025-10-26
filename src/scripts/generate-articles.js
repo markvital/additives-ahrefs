@@ -22,9 +22,9 @@
  *   Positional arguments without flags are treated as additive slugs as well.
  *
  * Examples
- *   node scripts/generate-articles.js                 # default behaviour, skip existing
- *   node scripts/generate-articles.js --limit 5 -p 2  # headless batch with overrides
- *   node scripts/generate-articles.js -additive e1503-castor-oil e1510-ethanol
+ *   node src/scripts/generate-articles.js                 # default behaviour, skip existing
+ *   node src/scripts/generate-articles.js --limit 5 -p 2  # headless batch with overrides
+ *   node src/scripts/generate-articles.js -additive e1503-castor-oil e1510-ethanol
  *                                                   # targeted regeneration for listed slugs
  */
 
@@ -43,10 +43,10 @@ const DEFAULT_BATCH_SIZE = 10;
 const OPENAI_MODEL = 'gpt-5';
 const OPENAI_MAX_OUTPUT_TOKENS = 15000;
 const PROMPT_PATH = path.join(__dirname, 'prompts', 'additive-article.txt');
-const DATA_DIR = path.join(__dirname, '..', 'data');
+const DATA_DIR = path.join(__dirname, '..', '..', 'data');
 const ADDITIVE_DIR = path.join(DATA_DIR, 'additive');
 const ADDITIVES_INDEX_PATH = path.join(DATA_DIR, 'additives.json');
-const ENV_LOCAL_PATH = path.join(__dirname, '..', 'env.local');
+const ENV_LOCAL_PATH = path.join(__dirname, '..', '..', 'env.local');
 
 
 async function fileExists(filePath) {

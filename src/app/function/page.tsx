@@ -3,7 +3,7 @@ import { Box, Typography } from '@mui/material';
 
 import { getAdditives, getFunctionFilters, getFunctionSlug } from '../../lib/additives';
 import { formatFilterLabel, normalizeFilterValue } from '../../lib/text';
-import functionsData from '../../data/functions.json';
+import functionsData from '../../../data/functions.json';
 import InfoList from '../../components/InfoList';
 
 type FunctionDataEntry = {

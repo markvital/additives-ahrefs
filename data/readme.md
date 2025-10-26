@@ -31,10 +31,10 @@ This folder stores the static dataset that powers the catalogue. All files are c
 
 ## Data pipeline
 
-1. **Open Food Facts** — `scripts/fetch-additives.js` queries the Open Food Facts taxonomy to build the additive list. It normalises metadata and writes the per-additive `props.json` files into `data/additive/<slug>` alongside the updated `additives.json` index.
-2. **Ahrefs keyword metrics** — `scripts/update-search-volume.js` reads the index, retrieves the latest U.S. search volume, and writes `additive/<slug>/searchVolume.json` with the aggregated total and keyword breakdown.
-3. **Ahrefs volume history** — `scripts/fetch-search-history.js` collects the ten-year volume trend for each additive, writes the aggregated data to `additive/<slug>/searchHistory.json`, and stores the raw keyword-level series in `additive/<slug>/searchHistoryFull.json`.
-4. **Ahrefs question ideas** — `scripts/fetch-search-questions.js` requests matching-question keywords for each additive and stores the top ten results (including an `original_keyword` field that records which query produced the question) inside `additive/<slug>/search-questions.json`.
+1. **Open Food Facts** — `src/scripts/fetch-additives.js` queries the Open Food Facts taxonomy to build the additive list. It normalises metadata and writes the per-additive `props.json` files into `data/additive/<slug>` alongside the updated `additives.json` index.
+2. **Ahrefs keyword metrics** — `src/scripts/update-search-volume.js` reads the index, retrieves the latest U.S. search volume, and writes `additive/<slug>/searchVolume.json` with the aggregated total and keyword breakdown.
+3. **Ahrefs volume history** — `src/scripts/fetch-search-history.js` collects the ten-year volume trend for each additive, writes the aggregated data to `additive/<slug>/searchHistory.json`, and stores the raw keyword-level series in `additive/<slug>/searchHistoryFull.json`.
+4. **Ahrefs question ideas** — `src/scripts/fetch-search-questions.js` requests matching-question keywords for each additive and stores the top ten results (including an `original_keyword` field that records which query produced the question) inside `additive/<slug>/search-questions.json`.
 
 The scripts are idempotent and can be re-run to refresh the dataset. Each script expects the `data/` directory to exist and will create per-additive folders under `data/additive` as needed.
 

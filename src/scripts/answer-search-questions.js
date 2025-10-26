@@ -22,7 +22,7 @@ if (proxyUrl) {
   }
 }
 
-const DATA_DIR = path.join(__dirname, '..', 'data');
+const DATA_DIR = path.join(__dirname, '..', '..', 'data');
 const ADDITIVE_DIR = path.join(DATA_DIR, 'additive');
 const ADDITIVES_INDEX_PATH = path.join(DATA_DIR, 'additives.json');
 const PROMPT_PATH = path.join(__dirname, 'prompts', 'search-question-answer.txt');
@@ -670,7 +670,7 @@ const run = async () => {
   try {
     const args = parseArgs(process.argv);
     if (args.help) {
-      console.log('Usage: node scripts/answer-search-questions.js [options]');
+      console.log('Usage: node src/scripts/answer-search-questions.js [options]');
       console.log('Options:');
       console.log('  --additive <slug...>      Limit processing to specific additive slugs.');
       console.log('  --limit <number>          Limit the number of additives processed.');

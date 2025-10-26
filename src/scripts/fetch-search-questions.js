@@ -12,7 +12,7 @@ const { loadEnvConfig, resolveAhrefsApiKey } = require('./utils/env');
 const execFileAsync = promisify(execFile);
 
 const API_BASE_URL = 'https://api.ahrefs.com/v3/keywords-explorer/matching-terms';
-const DATA_DIR = path.join(__dirname, '..', 'data');
+const DATA_DIR = path.join(__dirname, '..', '..', 'data');
 const ADDITIVE_DIR = path.join(DATA_DIR, 'additive');
 const ADDITIVES_INDEX_PATH = path.join(DATA_DIR, 'additives.json');
 const QUESTIONS_FILENAME = 'search-questions.json';
@@ -181,12 +181,12 @@ const printUsage = () => {
       `  --help                        Show this message.\n` +
       `\n` +
       `Examples:\n` +
-      `  node scripts/fetch-search-questions.js\n` +
-      `  node scripts/fetch-search-questions.js --limit 5\n` +
-      `  node scripts/fetch-search-questions.js --parallel 3\n` +
-      `  node scripts/fetch-search-questions.js --additive e345-magnesium-citrate\n` +
-      `  node scripts/fetch-search-questions.js --additive=e345-magnesium-citrate,e1503-castor-oil\n` +
-      `  node scripts/fetch-search-questions.js --override\n`,
+      `  node src/scripts/fetch-search-questions.js\n` +
+      `  node src/scripts/fetch-search-questions.js --limit 5\n` +
+      `  node src/scripts/fetch-search-questions.js --parallel 3\n` +
+      `  node src/scripts/fetch-search-questions.js --additive e345-magnesium-citrate\n` +
+      `  node src/scripts/fetch-search-questions.js --additive=e345-magnesium-citrate,e1503-castor-oil\n` +
+      `  node src/scripts/fetch-search-questions.js --override\n`,
   );
 };
 

@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 
-import additivesIndex from '../data/additives.json';
+import additivesIndex from '../../data/additives.json';
 import { createAdditiveSlug } from './additive-slug';
 import { getSearchVolumeDataset } from './search-volume';
 import { getSearchHistory } from './search-history';

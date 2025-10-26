@@ -17,7 +17,7 @@ const { loadEnvConfig, resolveAhrefsApiKey } = require('./utils/env');
 
 const execFileAsync = promisify(execFile);
 
-const DATA_DIR = path.join(__dirname, '..', 'data');
+const DATA_DIR = path.join(__dirname, '..', '..', 'data');
 const ADDITIVE_DIR = path.join(DATA_DIR, 'additive');
 const ADDITIVES_INDEX_PATH = path.join(DATA_DIR, 'additives.json');
 const API_URL = 'https://api.ahrefs.com/v3/keywords-explorer/overview';
@@ -199,7 +199,7 @@ const parseArgs = (argv) => {
 
 const printUsage = () => {
   console.log(
-    `Usage: node scripts/update-search-volume.js [options]\n` +
+    `Usage: node src/scripts/update-search-volume.js [options]\n` +
       `\n` +
       `Options:\n` +
       `  --additive <slug...>     Only update the specified additive slugs.\n` +

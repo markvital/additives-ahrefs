@@ -16,7 +16,7 @@ const { createAdditiveSlug, normaliseENumber } = require('./utils/slug');
 
 const execFileAsync = promisify(execFile);
 
-const DATA_DIR = path.join(__dirname, '..', 'data');
+const DATA_DIR = path.join(__dirname, '..', '..', 'data');
 const ADDITIVE_DIR = path.join(DATA_DIR, 'additive');
 const ADDITIVES_INDEX_PATH = path.join(DATA_DIR, 'additives.json');
 const TAXONOMY_BASE_URL =
@@ -163,7 +163,7 @@ const parseArgs = (argv) => {
 };
 
 const printUsage = () => {
-  console.log(`Usage: node scripts/update-additives-from-OFF.js [options]\n\n`);
+  console.log(`Usage: node src/scripts/update-additives-from-OFF.js [options]\n\n`);
   console.log('Options:');
   console.log('  --help, -h            Show this help message.');
   console.log('  --debug, -d           Enable verbose logging.');

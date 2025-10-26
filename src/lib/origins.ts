@@ -1,4 +1,4 @@
-import originsDataset from '../data/origins.json';
+import originsDataset from '../../data/origins.json';
 
 interface OriginDatasetEntry {
   name?: unknown;

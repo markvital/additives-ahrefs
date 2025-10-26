@@ -23,7 +23,7 @@ const execFileAsync = promisify(execFile);
 
 const FACETS_BASE_URL = 'https://us.openfoodfacts.org/facets/additives.json';
 const TAXONOMY_BASE_URL = 'https://us.openfoodfacts.org/api/v2/taxonomy?tagtype=additives&tags=';
-const DATA_DIR = path.join(__dirname, '..', 'data');
+const DATA_DIR = path.join(__dirname, '..', '..', 'data');
 const ADDITIVE_DIR = path.join(DATA_DIR, 'additive');
 const ADDITIVES_INDEX_PATH = path.join(DATA_DIR, 'additives.json');
 const MAX_PAGE_CHECK = 10; // Guard to avoid infinite loops if the API changes.

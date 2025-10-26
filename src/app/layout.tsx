@@ -8,7 +8,7 @@ import { Roboto } from 'next/font/google';
 import { Providers } from '../components/Providers';
 import { HeaderSearch } from '../components/HeaderSearch';
 import { getAdditives } from '../lib/additives';
-import logo2x from '../img/logo/logo_2x.png';
+import logo2x from '../../img/logo/logo_2x.png';
 import './globals.css';
 
 const roboto = Roboto({

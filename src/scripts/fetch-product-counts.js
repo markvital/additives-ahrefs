@@ -4,9 +4,9 @@
  * Fetches product counts for food additives from the Open Food Facts search API.
  *
  * Usage examples:
- *   node scripts/fetch-product-counts.js --additive e345-magnesium-citrate
- *   node scripts/fetch-product-counts.js --additive=e345-magnesium-citrate,e1503-castor-oil --debug
- *   node scripts/fetch-product-counts.js --force
+ *   node src/scripts/fetch-product-counts.js --additive e345-magnesium-citrate
+ *   node src/scripts/fetch-product-counts.js --additive=e345-magnesium-citrate,e1503-castor-oil --debug
+ *   node src/scripts/fetch-product-counts.js --force
  */
 
 const fs = require('fs/promises');
@@ -18,7 +18,7 @@ const { createAdditiveSlug } = require('./utils/slug');
 
 const execFileAsync = promisify(execFile);
 
-const DATA_DIR = path.join(__dirname, '..', 'data');
+const DATA_DIR = path.join(__dirname, '..', '..', 'data');
 const ADDITIVE_DIR = path.join(DATA_DIR, 'additive');
 const ADDITIVES_INDEX_PATH = path.join(DATA_DIR, 'additives.json');
 const API_BASE_URL = 'https://us.openfoodfacts.org/api/v2/search';
@@ -130,7 +130,7 @@ const parseArgs = (argv) => {
 
 const printUsage = () => {
   console.log(
-    'Usage: node scripts/fetch-product-counts.js [options]\n' +
+    'Usage: node src/scripts/fetch-product-counts.js [options]\n' +
       '\n' +
       'Options:\n' +
       '  --additive <slug...>          Fetch product counts for the specified additive slugs.\n' +

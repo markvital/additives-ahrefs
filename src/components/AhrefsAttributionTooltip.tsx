@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import { Box, Link as MuiLink, Tooltip, Typography, useTheme } from '@mui/material';
 
-import ahrefsLogo from '../img/branded/ahrefs-logo.svg';
+import ahrefsLogo from '../../img/branded/ahrefs-logo.svg';
 
 export function AhrefsAttributionTooltip() {
   const theme = useTheme();

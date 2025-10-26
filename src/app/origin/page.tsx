@@ -4,7 +4,7 @@ import { Box, Typography } from '@mui/material';
 
 import { getAdditives, getOriginFilters, getOriginSlug } from '../../lib/additives';
 import { formatFilterLabel, normalizeFilterValue } from '../../lib/text';
-import originsData from '../../data/origins.json';
+import originsData from '../../../data/origins.json';
 import { getOriginIcon } from '../../lib/origin-icons';
 import InfoList from '../../components/InfoList';
 

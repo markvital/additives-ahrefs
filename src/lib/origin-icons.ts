@@ -1,17 +1,17 @@
 import type { StaticImageData } from 'next/image';
 
-import animalIcon from '../img/origins/animal-icon.png';
-import artificialIcon from '../img/origins/artificial-icon.png';
-import microbiologicalIcon from '../img/origins/microbiological-icon.png';
-import mineralIcon from '../img/origins/mineral-icon.png';
-import plantIcon from '../img/origins/plant-icon.png';
-import syntheticIcon from '../img/origins/synthetic-icon.png';
-import animalPrev2xIcon from '../img/origins/prev2x/animal.png';
-import artificialPrev2xIcon from '../img/origins/prev2x/artificial.png';
-import microbiologicalPrev2xIcon from '../img/origins/prev2x/microbiological.png';
-import mineralPrev2xIcon from '../img/origins/prev2x/mineral.png';
-import plantPrev2xIcon from '../img/origins/prev2x/plant.png';
-import syntheticPrev2xIcon from '../img/origins/prev2x/synthetic.png';
+import animalIcon from '../../img/origins/animal-icon.png';
+import artificialIcon from '../../img/origins/artificial-icon.png';
+import microbiologicalIcon from '../../img/origins/microbiological-icon.png';
+import mineralIcon from '../../img/origins/mineral-icon.png';
+import plantIcon from '../../img/origins/plant-icon.png';
+import syntheticIcon from '../../img/origins/synthetic-icon.png';
+import animalPrev2xIcon from '../../img/origins/prev2x/animal.png';
+import artificialPrev2xIcon from '../../img/origins/prev2x/artificial.png';
+import microbiologicalPrev2xIcon from '../../img/origins/prev2x/microbiological.png';
+import mineralPrev2xIcon from '../../img/origins/prev2x/mineral.png';
+import plantPrev2xIcon from '../../img/origins/prev2x/plant.png';
+import syntheticPrev2xIcon from '../../img/origins/prev2x/synthetic.png';
 
 const ORIGIN_ICON_MAP: Record<string, StaticImageData> = {
   animal: animalIcon,

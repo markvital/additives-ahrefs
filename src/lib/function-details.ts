@@ -1,4 +1,4 @@
-import functionsData from '../data/functions.json';
+import functionsData from '../../data/functions.json';
 import { normalizeFilterValue } from './text';
 
 interface FunctionDataEntry {

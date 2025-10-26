@@ -12,7 +12,7 @@ const { loadEnvConfig, resolveAhrefsApiKey } = require('./utils/env');
 const execFileAsync = promisify(execFile);
 
 const API_BASE_URL = 'https://api.ahrefs.com/v3/keywords-explorer/volume-history';
-const DATA_DIR = path.join(__dirname, '..', 'data');
+const DATA_DIR = path.join(__dirname, '..', '..', 'data');
 const ADDITIVE_DIR = path.join(DATA_DIR, 'additive');
 const ADDITIVES_PATH = path.join(DATA_DIR, 'additives.json');
 
@@ -168,7 +168,7 @@ const parseArgs = (argv) => {
 
 const printUsage = () => {
   console.log(
-    `Usage: node scripts/fetch-search-history.js [options]\n` +
+    `Usage: node src/scripts/fetch-search-history.js [options]\n` +
       `\n` +
       `Options:\n` +
       `  --additive <slug...>     Only fetch history for the specified additive slugs.\n` +

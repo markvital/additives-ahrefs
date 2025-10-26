@@ -1,7 +1,7 @@
 const fs = require('fs/promises');
 const path = require('path');
 
-const ROOT_DIR = path.join(__dirname, '..', '..');
+const ROOT_DIR = path.join(__dirname, '..', '..', '..');
 const ENV_FILENAMES = ['.env.local', 'env.local'];
 const AHREFS_KEYS = ['AHREFS_API_KEY', 'AHREFS_API_TOKEN', 'AHREFS_TOKEN'];
 const OPENAI_KEYS = ['OPENAI_API_KEY'];

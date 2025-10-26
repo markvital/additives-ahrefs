@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 
 /**
- * Additive functions enrichment script
+ * Additive origin generator script
  *
  * Behaviour
- * - Loads additives missing function metadata (empty `functions` array in `data/additive/<slug>/props.json`) and
- *   enriches them via the OpenAI Responses API (model `gpt-5`).
- * - Existing function arrays are skipped by default. Use --override to refresh them.
+ * - Loads additives missing origin metadata (no `origin` array in `data/additive/<slug>/props.json`) and
+ *   fetches their origin classification via the OpenAI Responses API (model `gpt-5`).
+ * - Existing origin arrays are skipped by default. Use --override to refresh them.
  * - Targeted mode (--additive) processes only the requested slugs.
  *
  * Defaults & overrides
@@ -19,8 +19,8 @@
  *                                          → set parallel worker count.
  *     --additive/-additive/-a <slug...> or --additive=<slug[,slug...]>
  *                                          → process specific additive slugs.
- *     --override, --mode=override          → regenerate functions even if already present.
- *     --skip, --mode=skip                  → skip additives with existing functions (default).
+ *     --override, --mode=override          → regenerate origin even if already present.
+ *     --skip, --mode=skip                  → skip additives with existing origin (default).
  *     --debug                              → print OpenAI request/response payloads.
  */
 
@@ -30,20 +30,27 @@ const dns = require('dns');
 const { execFile } = require('child_process');
 
 const { createAdditiveSlug } = require('./utils/slug');
-const { loadEnvConfig, resolveOpenAiApiKey } = require('./utils/env');
 
 dns.setDefaultResultOrder('ipv4first');
 
-const DEFAULT_LIMIT = Number.POSITIVE_INFINITY;
+const DEFAULT_LIMIT = 10;
 const DEFAULT_BATCH_SIZE = 10;
 const OPENAI_MODEL = 'gpt-5';
-const OPENAI_MAX_OUTPUT_TOKENS = 5000;
-const PROMPT_PATH = path.join(__dirname, 'prompts', 'additive-functions.txt');
-const DATA_DIR = path.join(__dirname, '..', 'data');
+const OPENAI_MAX_OUTPUT_TOKENS = 2500;
+const PROMPT_PATH = path.join(__dirname, 'prompts', 'additive-origin.txt');
+const DATA_DIR = path.join(__dirname, '..', '..', 'data');
 const ADDITIVE_DIR = path.join(DATA_DIR, 'additive');
 const ADDITIVES_INDEX_PATH = path.join(DATA_DIR, 'additives.json');
-const FUNCTIONS_REFERENCE_PATH = path.join(DATA_DIR, 'functions.json');
-
+const ENV_LOCAL_PATH = path.join(__dirname, '..', '..', 'env.local');
+const ALLOWED_ORIGINS = ['plant', 'animal', 'microbiological', 'synthetic', 'artificial', 'mineral'];
+const ORIGIN_ALIASES = {
+  plant: ['plant', 'botanical', 'vegetable', 'botanic'],
+  animal: ['animal', 'animalsourced', 'animalbased', 'animalderived'],
+  microbiological: ['microbiological', 'microbial', 'fermentation', 'microbe', 'bacterial'],
+  synthetic: ['synthetic', 'syntheticallyproduced', 'syntheticonly', 'labmade'],
+  artificial: ['artificial', 'artificiallyproduced'],
+  mineral: ['mineral', 'geological', 'inorganic', 'mineralbased'],
+};
 
 async function fileExists(filePath) {
   try {
@@ -57,6 +64,33 @@ async function fileExists(filePath) {
 async function readJson(filePath) {
   const raw = await fs.readFile(filePath, 'utf8');
   return JSON.parse(raw);
+}
+
+async function loadApiKey() {
+  const fromEnv = process.env.OPENAI_API_KEY;
+  if (fromEnv && fromEnv.trim()) {
+    return fromEnv.trim();
+  }
+
+  if (await fileExists(ENV_LOCAL_PATH)) {
+    const raw = await fs.readFile(ENV_LOCAL_PATH, 'utf8');
+    const lines = raw.split(/\r?\n/);
+    for (const line of lines) {
+      const match = line.match(/^\s*OPENAI_API_KEY\s*=\s*(.+)\s*$/);
+      if (match) {
+        const value = match[1].trim().replace(/^['"]|['"]$/g, '');
+        if (value) {
+          return value;
+        }
+      }
+    }
+  }
+
+  throw new Error('OPENAI_API_KEY not found in environment or env.local.');
+}
+
+async function readPromptTemplate() {
+  return fs.readFile(PROMPT_PATH, 'utf8');
 }
 
 async function readAdditivesIndex() {
@@ -94,8 +128,6 @@ function parseCommandLineArgs(argv) {
     additives: [],
     mode: 'skip',
     debug: false,
-    modeExplicit: false,
-    helpRequested: false,
   };
 
   const args = Array.isArray(argv) ? argv.slice(2) : [];
@@ -103,12 +135,6 @@ function parseCommandLineArgs(argv) {
 
   while (index < args.length) {
     const arg = args[index];
-
-    if (arg === '--help' || arg === '-h') {
-      result.helpRequested = true;
-      index += 1;
-      continue;
-    }
 
     if (arg === '--limit' || arg === '-n' || arg === '-limit') {
       if (index + 1 >= args.length) {
@@ -164,14 +190,12 @@ function parseCommandLineArgs(argv) {
 
     if (arg === '--override' || arg === '--mode=override') {
       result.mode = 'override';
-      result.modeExplicit = true;
       index += 1;
       continue;
     }
 
     if (arg === '--skip' || arg === '--mode=skip') {
       result.mode = 'skip';
-      result.modeExplicit = true;
       index += 1;
       continue;
     }
@@ -180,7 +204,6 @@ function parseCommandLineArgs(argv) {
       const value = arg.substring('--mode='.length).trim().toLowerCase();
       if (value === 'override' || value === 'skip') {
         result.mode = value;
-        result.modeExplicit = true;
       } else {
         throw new Error(`Unsupported mode: ${value}`);
       }
@@ -200,90 +223,63 @@ function parseCommandLineArgs(argv) {
 
     result.additives.push(normaliseAdditiveSlug(arg));
     index += 1;
-    }
+  }
 
   result.additives = result.additives.filter(Boolean);
 
   return result;
 }
 
-function normaliseFunctionIdentifier(value) {
-  return value
-    .trim()
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '');
-}
-
-function addLookupEntry(map, key, value) {
-  if (!key || map.has(key)) {
-    return;
-  }
-  map.set(key, value);
-}
-
-async function loadFunctionReference() {
-  const data = await readJson(FUNCTIONS_REFERENCE_PATH);
-  if (!Array.isArray(data)) {
-    throw new Error('Unexpected functions reference format.');
+function matchOriginToken(token) {
+  if (!token) {
+    return null;
   }
 
-  const entries = [];
-  const lookup = new Map();
+  const compact = token.toLowerCase().replace(/[^a-z]/g, '');
+  if (!compact) {
+    return null;
+  }
 
-  for (const item of data) {
-    const label = typeof item?.name === 'string' ? item.name.trim() : '';
-    if (!label) {
+  for (const [canonical, aliases] of Object.entries(ORIGIN_ALIASES)) {
+    if (aliases.includes(compact)) {
+      return canonical;
+    }
+  }
+
+  if (ALLOWED_ORIGINS.includes(compact)) {
+    return compact;
+  }
+
+  return null;
+}
+
+function normaliseOriginValues(input) {
+  if (!Array.isArray(input)) {
+    return [];
+  }
+
+  const result = [];
+  const seen = new Set();
+
+  for (const value of input) {
+    if (typeof value !== 'string') {
       continue;
     }
+    const pieces = value
+      .split(/(?:,|\/|;|\band\b)/i)
+      .map((part) => part.trim())
+      .filter(Boolean);
 
-    const description = typeof item?.description === 'string' ? item.description.trim() : '';
-    const identifier = normaliseFunctionIdentifier(label);
-    if (!identifier) {
-      continue;
-    }
-
-    const usedAs = Array.isArray(item?.usedAs)
-      ? item.usedAs
-          .map((entry) => (typeof entry === 'string' ? entry.trim() : ''))
-          .filter((entry) => entry.length > 0)
-      : [];
-
-    const reference = {
-      value: identifier,
-      label,
-      description,
-      usedAs,
-    };
-
-    entries.push(reference);
-
-    const aliasValues = [label, identifier.replace(/-/g, ' '), ...usedAs];
-
-    for (const alias of aliasValues) {
-      if (!alias) {
-        continue;
-      }
-
-      const lowerAlias = alias.toLowerCase();
-      addLookupEntry(lookup, lowerAlias, reference);
-      addLookupEntry(lookup, lowerAlias.replace(/-/g, ' '), reference);
-
-      const aliasIdentifier = normaliseFunctionIdentifier(alias);
-      if (aliasIdentifier) {
-        addLookupEntry(lookup, aliasIdentifier, reference);
-        addLookupEntry(lookup, aliasIdentifier.replace(/-/g, ' '), reference);
+    for (const piece of pieces) {
+      const matched = matchOriginToken(piece);
+      if (matched && !seen.has(matched)) {
+        seen.add(matched);
+        result.push(matched);
       }
     }
   }
 
-  const names = entries.map((entry) => entry.label);
-
-  return { entries, lookup, names };
-}
-
-async function readPromptTemplate() {
-  return fs.readFile(PROMPT_PATH, 'utf8');
+  return result;
 }
 
 async function readAdditiveProps(slug) {
@@ -296,23 +292,18 @@ async function readAdditiveProps(slug) {
     return {
       filePath,
       data: {},
-      functions: [],
+      origin: [],
     };
   }
 
   try {
     const raw = await fs.readFile(filePath, 'utf8');
     const parsed = JSON.parse(raw);
-    const functions = Array.isArray(parsed.functions)
-      ? parsed.functions
-          .map((item) => (typeof item === 'string' ? item.trim() : ''))
-          .filter((item, index, list) => item.length > 0 && list.indexOf(item) === index)
-      : [];
-
+    const origin = normaliseOriginValues(parsed.origin);
     return {
       filePath,
       data: parsed,
-      functions,
+      origin,
     };
   } catch (error) {
     throw new Error(`Failed to read props for ${slug}: ${error.message}`);
@@ -413,92 +404,15 @@ function extractJsonPayload(rawText) {
     try {
       return JSON.parse(sanitised);
     } catch (error) {
-      // try next candidate
+      // continue searching
     }
   }
 
   return null;
 }
 
-function normaliseFunctionValues(input, lookup) {
-  if (!Array.isArray(input)) {
-    return [];
-  }
-
-  const result = [];
-  const seen = new Set();
-
-  for (const item of input) {
-    if (typeof item !== 'string') {
-      continue;
-    }
-
-    const trimmed = item.trim();
-    if (!trimmed) {
-      continue;
-    }
-
-    const normalized = trimmed.toLowerCase();
-    const slugValue = normaliseFunctionIdentifier(trimmed);
-
-    const candidates = [normalized, normalized.replace(/-/g, ' '), slugValue, slugValue.replace(/-/g, ' ')];
-
-    let matched = null;
-    for (const candidate of candidates) {
-      if (lookup.has(candidate)) {
-        matched = lookup.get(candidate);
-        break;
-      }
-    }
-
-    if (!matched) {
-      throw new Error(`Unrecognised function value: ${trimmed}`);
-    }
-
-    if (!seen.has(matched.value)) {
-      seen.add(matched.value);
-      result.push(matched.value);
-    }
-  }
-
-  return result;
-}
-
-function sortFunctionValues(values) {
-  return values.slice().sort((a, b) => a.localeCompare(b));
-}
-
-function createAdditivePrompt(additive, props) {
-  const eNumber = typeof additive.eNumber === 'string' ? additive.eNumber.trim() : '';
-  const title = typeof additive.title === 'string' ? additive.title.trim() : '';
-
-  const parts = [];
-  if (eNumber) {
-    parts.push(eNumber);
-  }
-  if (title && title.toLowerCase() !== eNumber.toLowerCase()) {
-    parts.push(title);
-  }
-
-  const label = parts.length > 0 ? parts.join(' – ') : additive.slug;
-  const lines = [`Additive: ${label}`];
-
-  if (Array.isArray(props.functions) && props.functions.length > 0) {
-    const existingFunctions = props.functions.filter((fn) => typeof fn === 'string' && fn.trim().length > 0);
-    if (existingFunctions.length > 0) {
-      lines.push(`Existing functions: ${existingFunctions.join(', ')}`);
-    }
-  }
-
-  return lines.join('\n');
-}
-
-function callOpenAi({ apiKey, systemPrompt, functionListInput, additiveInput, debug = false }) {
-  const trimmedList = typeof functionListInput === 'string' ? functionListInput.trim() : '';
-  if (!trimmedList) {
-    throw new Error('Function list input must be a non-empty string.');
-  }
-
+function callOpenAi({ apiKey, systemPrompt, additive, debug = false }) {
+  const additiveLabel = [additive.eNumber, additive.title].filter(Boolean).join(' – ') || additive.slug;
   const requestPayload = {
     model: OPENAI_MODEL,
     max_output_tokens: OPENAI_MAX_OUTPUT_TOKENS,
@@ -512,16 +426,7 @@ function callOpenAi({ apiKey, systemPrompt, functionListInput, additiveInput, de
         content: [
           {
             type: 'input_text',
-            text: trimmedList,
-          },
-        ],
-      },
-      {
-        role: 'user',
-        content: [
-          {
-            type: 'input_text',
-            text: additiveInput,
+            text: `Input: ${additiveLabel}`,
           },
         ],
       },
@@ -582,45 +487,44 @@ function callOpenAi({ apiKey, systemPrompt, functionListInput, additiveInput, de
         return;
       }
 
-      const responseStatus = typeof parsedResponse?.status === 'string' ? parsedResponse.status : null;
-      if (responseStatus && responseStatus !== 'completed') {
-        const incompleteReason = parsedResponse?.incomplete_details?.reason;
-        const errorMessage = parsedResponse?.error?.message;
-        const detailFragments = [];
-        if (incompleteReason) {
-          detailFragments.push(`reason=${incompleteReason}`);
-        }
-        if (errorMessage) {
-          detailFragments.push(`error=${errorMessage}`);
-        }
-        const detailMessage = detailFragments.length > 0 ? detailFragments.join(', ') : 'no additional details';
-        console.error(`[error] OpenAI response not completed (status=${responseStatus}): ${detailMessage}`);
-        reject(new Error(`OpenAI API response status was ${responseStatus}.`));
-        return;
-      }
-
       const outputText = extractTextOutput(parsedResponse);
       if (!outputText) {
-        console.error('[error] OpenAI response did not include output_text field.', {
-          hasOutputArray: Array.isArray(parsedResponse?.output),
-        });
         reject(new Error('OpenAI API returned an empty response.'));
         return;
       }
 
-      resolve(outputText);
+      const parsedPayload = extractJsonPayload(outputText);
+      if (!parsedPayload || !Array.isArray(parsedPayload.origin)) {
+        reject(new Error('OpenAI API response did not contain a valid origin array.'));
+        return;
+      }
+
+      const originValues = normaliseOriginValues(parsedPayload.origin);
+      if (originValues.length === 0) {
+        reject(new Error('OpenAI API response did not contain recognised origin values.'));
+        return;
+      }
+
+      resolve(originValues);
     });
 
     child.stdin?.end();
   });
 }
 
+function sortOriginValues(values) {
+  const order = new Map(ALLOWED_ORIGINS.map((origin, index) => [origin, index]));
+  return values.slice().sort((a, b) => {
+    const indexA = order.has(a) ? order.get(a) : Number.MAX_SAFE_INTEGER;
+    const indexB = order.has(b) ? order.get(b) : Number.MAX_SAFE_INTEGER;
+    return indexA - indexB;
+  });
+}
+
 async function processAdditive({
   additive,
   props,
-  systemPrompt,
-  functionListInput,
-  lookup,
+  promptTemplate,
   apiKey,
   index,
   total,
@@ -629,86 +533,27 @@ async function processAdditive({
   const relativePropsPath = path.join('data', 'additive', additive.slug, 'props.json');
   const additiveLabel = [additive.eNumber, additive.title].filter(Boolean).join(' - ') || additive.slug;
 
-  console.log(`[${index + 1}/${total}] Fetching functions for ${additiveLabel}...`);
+  console.log(`[${index + 1}/${total}] Fetching origin for ${additiveLabel}...`);
 
-  const additiveInput = createAdditivePrompt(additive, props);
-  const outputText = await callOpenAi({
-    apiKey,
-    systemPrompt,
-    functionListInput,
-    additiveInput,
-    debug,
-  });
-  const parsedPayload = extractJsonPayload(outputText);
-
-  if (!parsedPayload || !Array.isArray(parsedPayload.functions)) {
-    throw new Error('OpenAI API response did not contain a valid functions array.');
-  }
-
-  const normalizedFunctions = sortFunctionValues(normaliseFunctionValues(parsedPayload.functions, lookup));
-
-  if (normalizedFunctions.length === 0) {
-    throw new Error('OpenAI API response resulted in an empty function list.');
-  }
+  const originValues = await callOpenAi({ apiKey, systemPrompt: promptTemplate, additive, debug });
+  const sortedOrigin = sortOriginValues(originValues);
 
   const updated = {
     ...props.data,
-    functions: normalizedFunctions,
+    origin: sortedOrigin,
   };
 
   await fs.writeFile(props.filePath, `${JSON.stringify(updated, null, 2)}\n`, 'utf8');
 
-  console.log(
-    `[${index + 1}/${total}] Saved functions (${normalizedFunctions.join(', ')}) to ${relativePropsPath}.`,
-  );
+  console.log(`[${index + 1}/${total}] Saved origin (${sortedOrigin.join(', ')}) to ${relativePropsPath}.`);
 }
 
 async function run() {
   try {
-    await loadEnvConfig();
-    const apiKey = resolveOpenAiApiKey();
-    if (!apiKey) {
-      throw new Error('OPENAI_API_KEY not found in environment or env.local.');
-    }
-
-    const functionReference = await loadFunctionReference();
+    const apiKey = await loadApiKey();
     const promptTemplate = await readPromptTemplate();
-    const systemPrompt = typeof promptTemplate === 'string' ? promptTemplate.trim() : '';
-    if (!systemPrompt) {
-      throw new Error('Prompt template is empty.');
-    }
-
-    if (functionReference.names.length === 0) {
-      throw new Error('No function names loaded from reference.');
-    }
-
-    const functionListInput = ['Allowed function names:', ...functionReference.names].join('\n');
     const additives = await readAdditivesIndex();
     const cliArgs = parseCommandLineArgs(process.argv);
-
-    if (cliArgs.helpRequested) {
-      console.log(`Usage: node scripts/generate-functions.js [options]
-
-Options:
-  --help, -h                 Show this help message and exit.
-  --limit <number>, -n       Limit the number of additives to process (default: no limit).
-  --parallel <number>, -p    Number of concurrent requests (default 10).
-  --additive <slug[,slug]>   Process specific additive slug(s).
-  --mode=<skip|override>     Skip existing functions (default) or override them.
-  --override                 Alias for --mode=override.
-  --skip                     Alias for --mode=skip.
-  --debug                    Print OpenAI request/response payloads.
-
-Environment variables:
-  GENERATOR_LIMIT            Default limit override (positive integer).
-  GENERATOR_BATCH            Default parallel/concurrency override (positive integer).
-`);
-      return;
-    }
-
-    if (cliArgs.additives.length > 0 && !cliArgs.modeExplicit) {
-      cliArgs.mode = 'override';
-    }
 
     const envLimitRaw = process.env.GENERATOR_LIMIT;
     const envBatchRaw = process.env.GENERATOR_BATCH;
@@ -725,9 +570,6 @@ Environment variables:
       } else {
         console.warn(`Ignoring invalid GENERATOR_LIMIT value: ${envLimitRaw}`);
       }
-    } else if (cliArgs.mode === 'override') {
-      limit = DEFAULT_LIMIT;
-      console.log('Using override mode default limit=Infinity (process all additives).');
     }
 
     let batchSize = DEFAULT_BATCH_SIZE;
@@ -746,7 +588,6 @@ Environment variables:
 
     const additiveMap = new Map(additives.map((entry) => [entry.slug, entry]));
     const candidates = [];
-    let skippedCount = 0;
 
     if (cliArgs.additives.length > 0) {
       if (cliArgs.limit !== null) {
@@ -770,21 +611,17 @@ Environment variables:
           continue;
         }
 
-        if (cliArgs.mode === 'skip' && props.functions.length > 0) {
-          const additiveLabel = [additive.eNumber, additive.title].filter(Boolean).join(' - ') || additive.slug;
-          if (cliArgs.debug) {
-            console.log(
-              `Skipping ${slug} because functions already exist (${props.functions.join(', ')}). Use --override to regenerate.`,
-            );
-          }
-          skippedCount += 1;
+        if (cliArgs.mode === 'skip' && props.origin.length > 0) {
+          console.log(
+            `Skipping ${slug} because origin already exists (${props.origin.join(', ')}). Use --override to regenerate.`,
+          );
           continue;
         }
 
-        if (props.functions.length > 0) {
-          console.log(`Will regenerate existing functions for ${slug}.`);
+        if (props.origin.length > 0) {
+          console.log(`Will regenerate existing origin for ${slug}.`);
         } else {
-          console.log(`Will create new functions for ${slug}.`);
+          console.log(`Will create new origin for ${slug}.`);
         }
 
         candidates.push({ additive, props });
@@ -797,11 +634,6 @@ Environment variables:
       }
 
       if (candidates.length === 0) {
-        if (skippedCount > 0) {
-          console.log(
-            `Skipped ${skippedCount} additive(s) with existing functions. Use --override to regenerate if needed.`,
-          );
-        }
         console.log('No additives matched the provided slugs. Exiting.');
         return;
       }
@@ -815,42 +647,27 @@ Environment variables:
           continue;
         }
 
-        if (cliArgs.mode === 'skip' && props.functions.length > 0) {
-          if (cliArgs.debug) {
-            const additiveLabel = [additive.eNumber, additive.title].filter(Boolean).join(' - ') || additive.slug;
-            console.log(`Skipping existing functions: ${additiveLabel}`);
-          }
-          skippedCount += 1;
-          continue;
-        }
-
-        if (candidates.length >= limit) {
+        if (cliArgs.mode === 'skip' && props.origin.length > 0) {
+          const additiveLabel = [additive.eNumber, additive.title].filter(Boolean).join(' - ') || additive.slug;
+          console.log(`Skipping existing origin: ${additiveLabel}`);
           continue;
         }
 
         candidates.push({ additive, props });
 
+        if (candidates.length >= limit) {
+          break;
+        }
       }
 
       if (candidates.length === 0) {
-        if (skippedCount > 0) {
-          console.log(
-            `Skipped ${skippedCount} additive(s) with existing functions. Use --override to regenerate if needed.`,
-          );
-        }
-        console.log('No additives require new functions. Exiting.');
+        console.log('No additives require new origins. Exiting.');
         return;
       }
     }
 
-    if (skippedCount > 0) {
-      console.log(
-        `Skipped ${skippedCount} additive(s) with existing functions. Use --override to regenerate if needed.`,
-      );
-    }
-
     console.log(
-      `Preparing to update functions for ${candidates.length} additive(s) with batch size ${Math.min(
+      `Preparing to update origins for ${candidates.length} additive(s) with batch size ${Math.min(
         batchSize,
         candidates.length,
       )}...`,
@@ -862,21 +679,22 @@ Environment variables:
 
     const workers = Array.from({ length: Math.min(batchSize, candidates.length) }, async () => {
       while (true) {
+        let localIndex;
+        let entry;
+
         if (currentIndex >= candidates.length) {
           return;
         }
 
-        const localIndex = currentIndex;
+        localIndex = currentIndex;
         currentIndex += 1;
-        const entry = candidates[localIndex];
+        entry = candidates[localIndex];
 
         try {
           await processAdditive({
             additive: entry.additive,
             props: entry.props,
-            systemPrompt,
-            functionListInput,
-            lookup: functionReference.lookup,
+            promptTemplate,
             apiKey,
             index: localIndex,
             total,
@@ -884,7 +702,7 @@ Environment variables:
           });
         } catch (error) {
           console.error(
-            `[${localIndex + 1}/${total}] Failed to update functions for ${entry.additive.slug}: ${error.message}`,
+            `[${localIndex + 1}/${total}] Failed to update origin for ${entry.additive.slug}: ${error.message}`,
           );
           errors.push({ slug: entry.additive.slug, error });
         }
@@ -897,7 +715,7 @@ Environment variables:
       console.error(`Completed with ${errors.length} error(s).`);
       process.exitCode = 1;
     } else {
-      console.log('Completed updating functions for all additives.');
+      console.log('Completed updating origins for all additives.');
     }
   } catch (error) {
     console.error('Fatal error:', error.message);
