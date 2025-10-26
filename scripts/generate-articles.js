@@ -4,10 +4,10 @@
  * Article generator script
  *
  * Behaviour
- * - Loads unpublished additives (no `data/<slug>/article.md`) and creates Markdown articles in batches
+ * - Loads unpublished additives (no `data/additive/<slug>/article.md`) and creates Markdown articles in batches
  *   using the OpenAI Responses API (model `gpt-5`, 6000 max output tokens).
  * - Already generated articles are skipped automatically in default mode.
- * - The generated markdown is written to `data/<slug>/article.md`; `props.json` remains untouched.
+ * - The generated markdown is written to `data/additive/<slug>/article.md`; `props.json` remains untouched.
  *
  * Defaults & overrides
  * - Default limit: 10 new articles per run.
@@ -44,6 +44,7 @@ const OPENAI_MODEL = 'gpt-5';
 const OPENAI_MAX_OUTPUT_TOKENS = 15000;
 const PROMPT_PATH = path.join(__dirname, 'prompts', 'additive-article.txt');
 const DATA_DIR = path.join(__dirname, '..', 'data');
+const ADDITIVE_DIR = path.join(DATA_DIR, 'additive');
 const ADDITIVES_INDEX_PATH = path.join(DATA_DIR, 'additives.json');
 const ENV_LOCAL_PATH = path.join(__dirname, '..', 'env.local');
 
@@ -230,7 +231,7 @@ function parseCommandLineArgs(argv) {
 }
 
 async function readAdditiveProps(slug) {
-  const propsPath = path.join(DATA_DIR, slug, 'props.json');
+  const propsPath = path.join(ADDITIVE_DIR, slug, 'props.json');
   if (!(await fileExists(propsPath))) {
     return {};
   }
@@ -364,8 +365,8 @@ async function processAdditive({
   slugListText,
   debug = false,
 }) {
-  const relativeSlugDir = path.join('data', additive.slug);
-  const articlePath = path.join(DATA_DIR, additive.slug, 'article.md');
+  const relativeSlugDir = path.join('data', 'additive', additive.slug);
+  const articlePath = path.join(ADDITIVE_DIR, additive.slug, 'article.md');
   const additiveLabel = [additive.eNumber, additive.title].filter(Boolean).join(' - ') || additive.slug;
   console.log(`[${index + 1}/${total}] Generating article for ${additiveLabel}...`);
 
@@ -381,7 +382,7 @@ async function processAdditive({
 
   const articleMarkdown = await callOpenAi(apiClient, promptTemplate, metadataPayload, slugListText, { debug });
 
-  await fs.mkdir(path.join(DATA_DIR, additive.slug), { recursive: true });
+  await fs.mkdir(path.join(ADDITIVE_DIR, additive.slug), { recursive: true });
   await fs.writeFile(articlePath, `${articleMarkdown.trim()}\n`, 'utf8');
 
   console.log(`[${index + 1}/${total}] Saved article to ${path.join(relativeSlugDir, 'article.md')}.`);
@@ -450,7 +451,7 @@ async function run() {
           continue;
         }
 
-        const articlePath = path.join(DATA_DIR, additive.slug, 'article.md');
+        const articlePath = path.join(ADDITIVE_DIR, additive.slug, 'article.md');
         const additiveLabel = [additive.eNumber, additive.title].filter(Boolean).join(' - ') || additive.slug;
         if (await fileExists(articlePath)) {
           console.log(`Will regenerate existing article: ${additiveLabel}`);
@@ -473,7 +474,7 @@ async function run() {
       }
     } else {
       for (const additive of additives) {
-        const articlePath = path.join(DATA_DIR, additive.slug, 'article.md');
+        const articlePath = path.join(ADDITIVE_DIR, additive.slug, 'article.md');
         if (await fileExists(articlePath)) {
           const additiveLabel = [additive.eNumber, additive.title].filter(Boolean).join(' - ') || additive.slug;
           console.log(`Skipping existing article: ${additiveLabel}`);

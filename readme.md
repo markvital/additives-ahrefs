@@ -36,9 +36,9 @@ The development server is available at [http://localhost:3000](http://localhost:
 │   └── page.tsx                # Grid of additives with function pills
 ├── components/                 # Client-side providers and shared helpers
 ├── data/
-│   ├── additives.json          # Index of additives with title and E-number
-│   ├── <slug>/props.json       # Complete additive metadata and metrics
-│   └── <slug>/searchHistory.json # Ahrefs keyword volume history
+│   ├── additive/<slug>/props.json   # Complete additive metadata and metrics
+│   ├── additive/<slug>/searchHistory.json # Ahrefs keyword volume history
+│   └── additives.json          # Index of additives with title and E-number
 ├── lib/                        # Utility helpers (theme, data loading, slugs)
 ├── public/                     # Public assets (placeholder)
 ├── vercel.json                 # Vercel static export configuration

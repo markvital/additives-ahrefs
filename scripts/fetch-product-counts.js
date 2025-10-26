@@ -19,6 +19,7 @@ const { createAdditiveSlug } = require('./utils/slug');
 const execFileAsync = promisify(execFile);
 
 const DATA_DIR = path.join(__dirname, '..', 'data');
+const ADDITIVE_DIR = path.join(DATA_DIR, 'additive');
 const ADDITIVES_INDEX_PATH = path.join(DATA_DIR, 'additives.json');
 const API_BASE_URL = 'https://us.openfoodfacts.org/api/v2/search';
 const FACET_INDEX_URL = 'https://us.openfoodfacts.org/facets/additives.json';
@@ -154,7 +155,7 @@ const readAdditivesIndex = async () => {
   }));
 };
 
-const propsPathForSlug = (slug) => path.join(DATA_DIR, slug, 'props.json');
+const propsPathForSlug = (slug) => path.join(ADDITIVE_DIR, slug, 'props.json');
 
 const toOptionalNumber = (value) => {
   if (typeof value === 'number' && Number.isFinite(value)) {
@@ -225,7 +226,7 @@ const readProps = async (slug, fallback) => {
 };
 
 const writeProps = async (slug, props) => {
-  await fs.mkdir(path.join(DATA_DIR, slug), { recursive: true });
+  await fs.mkdir(path.join(ADDITIVE_DIR, slug), { recursive: true });
   await fs.writeFile(propsPathForSlug(slug), `${JSON.stringify(props, null, 2)}\n`);
 };
 

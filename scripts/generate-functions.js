@@ -4,7 +4,7 @@
  * Additive functions enrichment script
  *
  * Behaviour
- * - Loads additives missing function metadata (empty `functions` array in `data/<slug>/props.json`) and
+ * - Loads additives missing function metadata (empty `functions` array in `data/additive/<slug>/props.json`) and
  *   enriches them via the OpenAI Responses API (model `gpt-5`).
  * - Existing function arrays are skipped by default. Use --override to refresh them.
  * - Targeted mode (--additive) processes only the requested slugs.
@@ -40,6 +40,7 @@ const OPENAI_MODEL = 'gpt-5';
 const OPENAI_MAX_OUTPUT_TOKENS = 5000;
 const PROMPT_PATH = path.join(__dirname, 'prompts', 'additive-functions.txt');
 const DATA_DIR = path.join(__dirname, '..', 'data');
+const ADDITIVE_DIR = path.join(DATA_DIR, 'additive');
 const ADDITIVES_INDEX_PATH = path.join(DATA_DIR, 'additives.json');
 const FUNCTIONS_REFERENCE_PATH = path.join(DATA_DIR, 'functions.json');
 
@@ -286,7 +287,7 @@ async function readPromptTemplate() {
 }
 
 async function readAdditiveProps(slug) {
-  const filePath = path.join(DATA_DIR, slug, 'props.json');
+  const filePath = path.join(ADDITIVE_DIR, slug, 'props.json');
   const directoryPath = path.dirname(filePath);
 
   await fs.mkdir(directoryPath, { recursive: true });
@@ -625,7 +626,7 @@ async function processAdditive({
   total,
   debug = false,
 }) {
-  const relativePropsPath = path.join('data', additive.slug, 'props.json');
+  const relativePropsPath = path.join('data', 'additive', additive.slug, 'props.json');
   const additiveLabel = [additive.eNumber, additive.title].filter(Boolean).join(' - ') || additive.slug;
 
   console.log(`[${index + 1}/${total}] Fetching functions for ${additiveLabel}...`);

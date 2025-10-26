@@ -9,7 +9,7 @@
  * 2. Fetch taxonomy details for each additive to collect metadata.
  * 3. Normalize the data structure (names, synonyms, functions, links).
  * 4. Persist the consolidated dataset across `data/additives.json` and
- *    per-additive `props.json` files.
+ *    per-additive `props.json` files in `data/additive/<slug>`.
  */
 
 const fs = require('fs/promises');
@@ -24,6 +24,7 @@ const execFileAsync = promisify(execFile);
 const FACETS_BASE_URL = 'https://us.openfoodfacts.org/facets/additives.json';
 const TAXONOMY_BASE_URL = 'https://us.openfoodfacts.org/api/v2/taxonomy?tagtype=additives&tags=';
 const DATA_DIR = path.join(__dirname, '..', 'data');
+const ADDITIVE_DIR = path.join(DATA_DIR, 'additive');
 const ADDITIVES_INDEX_PATH = path.join(DATA_DIR, 'additives.json');
 const MAX_PAGE_CHECK = 10; // Guard to avoid infinite loops if the API changes.
 const REQUEST_DELAY_MS = 50; // Gentle delay between batch requests.
@@ -262,7 +263,7 @@ async function fetchAdditiveDetails(id, index, total) {
 }
 
 async function readExistingProps(slug) {
-  const propsPath = path.join(DATA_DIR, slug, 'props.json');
+  const propsPath = path.join(ADDITIVE_DIR, slug, 'props.json');
   try {
     const raw = await fs.readFile(propsPath, 'utf8');
     return JSON.parse(raw);
@@ -281,7 +282,7 @@ async function writeAdditiveDataset(additives) {
       eNumber: additive.eNumber,
       title: additive.title,
     });
-    const dirPath = path.join(DATA_DIR, slug);
+    const dirPath = path.join(ADDITIVE_DIR, slug);
     await fs.mkdir(dirPath, { recursive: true });
 
     const existingProps = await readExistingProps(slug);

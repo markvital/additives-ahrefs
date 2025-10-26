@@ -13,6 +13,7 @@ const execFileAsync = promisify(execFile);
 
 const API_BASE_URL = 'https://api.ahrefs.com/v3/keywords-explorer/volume-history';
 const DATA_DIR = path.join(__dirname, '..', 'data');
+const ADDITIVE_DIR = path.join(DATA_DIR, 'additive');
 const ADDITIVES_PATH = path.join(DATA_DIR, 'additives.json');
 
 const REQUEST_DELAY_MS = 200;
@@ -189,12 +190,12 @@ async function readAdditivesIndex() {
   return data.additives;
 }
 
-const propsPathForSlug = (slug) => path.join(DATA_DIR, slug, 'props.json');
+const propsPathForSlug = (slug) => path.join(ADDITIVE_DIR, slug, 'props.json');
 const HISTORY_FILENAME = 'searchHistory.json';
 const FULL_HISTORY_FILENAME = 'searchHistoryFull.json';
 
-const historyPathForSlug = (slug) => path.join(DATA_DIR, slug, HISTORY_FILENAME);
-const fullHistoryPathForSlug = (slug) => path.join(DATA_DIR, slug, FULL_HISTORY_FILENAME);
+const historyPathForSlug = (slug) => path.join(ADDITIVE_DIR, slug, HISTORY_FILENAME);
+const fullHistoryPathForSlug = (slug) => path.join(ADDITIVE_DIR, slug, FULL_HISTORY_FILENAME);
 
 async function readProps(slug, fallback) {
   try {
@@ -244,7 +245,7 @@ const ensureProps = (props, additive) => {
 };
 
 async function writeProps(slug, props) {
-  await fs.mkdir(path.join(DATA_DIR, slug), { recursive: true });
+  await fs.mkdir(path.join(ADDITIVE_DIR, slug), { recursive: true });
   await fs.writeFile(propsPathForSlug(slug), `${JSON.stringify(props, null, 2)}\n`);
 }
 
@@ -553,7 +554,7 @@ async function main() {
         }: ${keywordSummary}${suffix}`,
       );
 
-      const dirPath = path.join(DATA_DIR, slug);
+      const dirPath = path.join(ADDITIVE_DIR, slug);
       await fs.mkdir(dirPath, { recursive: true });
       const historyPath = historyPathForSlug(slug);
 

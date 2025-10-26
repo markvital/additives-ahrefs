@@ -48,7 +48,7 @@ interface AdditiveIndexEntry {
   eNumber?: string;
 }
 
-const dataDir = path.join(process.cwd(), 'data');
+const dataDir = path.join(process.cwd(), 'data', 'additive');
 
 const readAdditiveArticle = (slug: string): string => {
   const filePath = path.join(dataDir, slug, 'article.md');

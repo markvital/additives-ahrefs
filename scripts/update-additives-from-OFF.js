@@ -17,6 +17,7 @@ const { createAdditiveSlug, normaliseENumber } = require('./utils/slug');
 const execFileAsync = promisify(execFile);
 
 const DATA_DIR = path.join(__dirname, '..', 'data');
+const ADDITIVE_DIR = path.join(DATA_DIR, 'additive');
 const ADDITIVES_INDEX_PATH = path.join(DATA_DIR, 'additives.json');
 const TAXONOMY_BASE_URL =
   'https://us.openfoodfacts.org/api/v2/taxonomy?tagtype=additives&tags=';
@@ -267,7 +268,7 @@ const loadAdditivesIndex = async () => {
       title: typeof entry.title === 'string' ? entry.title : '',
       eNumber: typeof entry.eNumber === 'string' ? entry.eNumber : '',
       normalizedENumber,
-      propsPath: path.join(DATA_DIR, slug, 'props.json'),
+      propsPath: path.join(ADDITIVE_DIR, slug, 'props.json'),
     };
   });
 

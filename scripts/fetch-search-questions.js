@@ -13,6 +13,7 @@ const execFileAsync = promisify(execFile);
 
 const API_BASE_URL = 'https://api.ahrefs.com/v3/keywords-explorer/matching-terms';
 const DATA_DIR = path.join(__dirname, '..', 'data');
+const ADDITIVE_DIR = path.join(DATA_DIR, 'additive');
 const ADDITIVES_INDEX_PATH = path.join(DATA_DIR, 'additives.json');
 const QUESTIONS_FILENAME = 'search-questions.json';
 const DEFAULT_COUNTRY = 'us';
@@ -203,7 +204,7 @@ const readAdditivesIndex = async () => {
 };
 
 const readProps = async (slug) => {
-  const filePath = path.join(DATA_DIR, slug, 'props.json');
+  const filePath = path.join(ADDITIVE_DIR, slug, 'props.json');
   if (!(await fileExists(filePath))) {
     return null;
   }
@@ -368,7 +369,7 @@ const fetchQuestions = async (keyword, apiToken) => {
 };
 
 const writeQuestions = async (slug, dataset) => {
-  const dirPath = path.join(DATA_DIR, slug);
+  const dirPath = path.join(ADDITIVE_DIR, slug);
   await fs.mkdir(dirPath, { recursive: true });
   const filePath = path.join(dirPath, QUESTIONS_FILENAME);
   const json = `${JSON.stringify(dataset, null, 2)}\n`;
@@ -416,7 +417,7 @@ const ensureDataset = (keywords, questions) => {
   };
 };
 
-const questionsPathForSlug = (slug) => path.join(DATA_DIR, slug, QUESTIONS_FILENAME);
+const questionsPathForSlug = (slug) => path.join(ADDITIVE_DIR, slug, QUESTIONS_FILENAME);
 
 const hasExistingQuestions = (slug) => fileExists(questionsPathForSlug(slug));
 

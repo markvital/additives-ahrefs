@@ -23,6 +23,7 @@ if (proxyUrl) {
 }
 
 const DATA_DIR = path.join(__dirname, '..', 'data');
+const ADDITIVE_DIR = path.join(DATA_DIR, 'additive');
 const ADDITIVES_INDEX_PATH = path.join(DATA_DIR, 'additives.json');
 const PROMPT_PATH = path.join(__dirname, 'prompts', 'search-question-answer.txt');
 const ANSWERS_FILENAME = 'questions-and-answers.json';
@@ -237,7 +238,7 @@ const normaliseText = (value) => {
 const createQuestionKey = (value) => normaliseText(value).toLowerCase();
 
 const loadAnswersDataset = async (slug) => {
-  const answersPath = path.join(DATA_DIR, slug, ANSWERS_FILENAME);
+  const answersPath = path.join(ADDITIVE_DIR, slug, ANSWERS_FILENAME);
   const dataset = {
     updatedAt: '',
     answers: [],
@@ -302,8 +303,8 @@ const serialiseAnswers = (answers) =>
   });
 
 const loadAdditiveMetadata = async (slug) => {
-  const propsPath = path.join(DATA_DIR, slug, 'props.json');
-  const articlePath = path.join(DATA_DIR, slug, 'article.md');
+  const propsPath = path.join(ADDITIVE_DIR, slug, 'props.json');
+  const articlePath = path.join(ADDITIVE_DIR, slug, 'article.md');
 
   let props = {};
   if (await fileExists(propsPath)) {
@@ -503,7 +504,7 @@ const processAdditive = async ({
   delay = 0,
   debug = false,
 }) => {
-  const questionPath = path.join(DATA_DIR, additive.slug, 'search-questions.json');
+  const questionPath = path.join(ADDITIVE_DIR, additive.slug, 'search-questions.json');
 
   if (!(await fileExists(questionPath))) {
     console.warn(`Skipping ${additive.slug}: no search-questions.json found.`);
@@ -542,7 +543,7 @@ const processAdditive = async ({
 
   const metadata = await loadAdditiveMetadata(additive.slug);
   const { map: existingAnswers, answersPath } = await loadAnswersDataset(additive.slug);
-  const answersRelativePath = path.join('data', additive.slug, ANSWERS_FILENAME);
+  const answersRelativePath = path.join('data', 'additive', additive.slug, ANSWERS_FILENAME);
 
   const pending = [];
   for (const { question } of candidates) {
