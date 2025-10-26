@@ -8,7 +8,6 @@ yarn-error.log*
 .pnpm-debug.log*
 .env*
 env.local
-_tmp
 
 # Vercel
 .vercel
