@@ -19,6 +19,7 @@ import { getFunctionInfo, formatUsedAsList } from '../../../lib/function-details
 import { AdditiveGrid } from '../../../components/AdditiveGrid';
 import { FilterPanel } from '../../../components/FilterPanel';
 import { buildShowClassesHref } from '../../../lib/url';
+import { ReportMistakeName } from '../../../components/ReportMistakeContext';
 
 interface FunctionPageProps {
   params: Promise<{ functionSlug: string }>;
@@ -89,18 +90,21 @@ export default async function FunctionPage({ params, searchParams }: FunctionPag
     ? functionLabelRaw.charAt(0).toUpperCase() + functionLabelRaw.slice(1)
     : formatFilterLabel(functionValue);
   const functionInfo = getFunctionInfo(functionValue);
+  const reportMistakeName = functionHeading ? `Function - ${functionHeading}` : null;
   const usedAsLine =
     functionInfo && functionInfo.usedAs.length > 0
       ? `In the food industry, such additives serve roles as ${formatUsedAsList(functionInfo.usedAs)}.`
       : null;
 
   return (
-    <Box component="section" display="flex" flexDirection="column" gap={4}>
-      <Box display="flex" flexDirection="column" gap={1.5} maxWidth={720}>
-        <Typography
-          component="h1"
-          variant="h1"
-          sx={{ display: 'flex', alignItems: 'center', gap: 1 }}
+    <>
+      <ReportMistakeName value={reportMistakeName} />
+      <Box component="section" display="flex" flexDirection="column" gap={4}>
+        <Box display="flex" flexDirection="column" gap={1.5} maxWidth={720}>
+          <Typography
+            component="h1"
+            variant="h1"
+            sx={{ display: 'flex', alignItems: 'center', gap: 1 }}
         >
           <Box
             component={NextLink}
@@ -164,5 +168,6 @@ export default async function FunctionPage({ params, searchParams }: FunctionPag
         emptyMessage="No additives found for this function."
       />
     </Box>
+    </>
   );
 }

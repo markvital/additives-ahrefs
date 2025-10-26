@@ -21,6 +21,7 @@ import { getOriginDescriptionBySlug, getOriginDescriptionByValue } from '../../.
 import { AdditiveGrid } from '../../../components/AdditiveGrid';
 import { FilterPanel } from '../../../components/FilterPanel';
 import { buildShowClassesHref } from '../../../lib/url';
+import { ReportMistakeName } from '../../../components/ReportMistakeContext';
 
 interface OriginPageProps {
   params: Promise<{ originSlug: string }>;
@@ -87,18 +88,21 @@ export default async function OriginPage({ params, searchParams }: OriginPagePro
     ? buildShowClassesHref(`/origin/${originSlug}`, resolvedSearchParams)
     : null;
   const label = formatFilterLabel(originValue);
+  const reportMistakeName = label ? `Origin - ${label}` : null;
   const originDescription =
     getOriginDescriptionBySlug(originSlug) ?? getOriginDescriptionByValue(originValue);
   const originHeroIcon =
     getOriginHeroIcon(originValue) ?? getOriginHeroIcon(originSlug) ?? null;
 
   return (
-    <Box component="section" display="flex" flexDirection="column" gap={4}>
-      <Box display="flex" flexDirection="column" gap={1.5} maxWidth={720}>
-        <Box display="flex" alignItems="center" gap={2}>
-          {originHeroIcon && (
-            <Image
-              src={originHeroIcon}
+    <>
+      <ReportMistakeName value={reportMistakeName} />
+      <Box component="section" display="flex" flexDirection="column" gap={4}>
+        <Box display="flex" flexDirection="column" gap={1.5} maxWidth={720}>
+          <Box display="flex" alignItems="center" gap={2}>
+            {originHeroIcon && (
+              <Image
+                src={originHeroIcon}
               alt={`${label} origin icon`}
               width={128}
               height={128}
@@ -169,5 +173,6 @@ export default async function OriginPage({ params, searchParams }: OriginPagePro
         emptyMessage="No additives found for this origin."
       />
     </Box>
+    </>
   );
 }

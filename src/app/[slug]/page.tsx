@@ -24,6 +24,7 @@ import { SearchHistoryChart } from '../../components/SearchHistoryChart';
 import { SearchKeywordShare } from '../../components/SearchKeywordShare';
 import { MarkdownArticle } from '../../components/MarkdownArticle';
 import { SearchQuestions } from '../../components/SearchQuestions';
+import { ReportMistakeName } from '../../components/ReportMistakeContext';
 
 interface AdditivePageProps {
   params: Promise<{ slug: string }>;
@@ -206,8 +207,10 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
   );
 
   return (
-    <Box component="article" display="flex" flexDirection="column" gap={4} alignItems="center" width="100%">
-      <Box sx={{ width: '100%', maxWidth: 760, display: 'flex', flexDirection: 'column', gap: 3 }}>
+    <>
+      <ReportMistakeName value={displayName} />
+      <Box component="article" display="flex" flexDirection="column" gap={4} alignItems="center" width="100%">
+        <Box sx={{ width: '100%', maxWidth: 760, display: 'flex', flexDirection: 'column', gap: 3 }}>
         <Box display="flex" flexDirection="column" gap={1.5}>
           <Typography component="h1" variant="h1">
             {displayName}
@@ -532,7 +535,8 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
             </MuiLink>
           </Typography>
         )}
+        </Box>
       </Box>
-    </Box>
+    </>
   );
 }
