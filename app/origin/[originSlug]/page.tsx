@@ -2,7 +2,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { Box, Typography } from '@mui/material';
+import NextLink from 'next/link';
+import { Box, Link as MuiLink, Typography } from '@mui/material';
 
 import {
   getAdditivesByOriginSlug,
@@ -19,6 +20,7 @@ import { getOriginHeroIcon } from '../../../lib/origin-icons';
 import { getOriginDescriptionBySlug, getOriginDescriptionByValue } from '../../../lib/origins';
 import { AdditiveGrid } from '../../../components/AdditiveGrid';
 import { FilterPanel } from '../../../components/FilterPanel';
+import { buildShowClassesHref } from '../../../lib/url';
 
 interface OriginPageProps {
   params: Promise<{ originSlug: string }>;
@@ -79,6 +81,11 @@ export default async function OriginPage({ params, searchParams }: OriginPagePro
   const showClasses = parseShowClassesParam(resolvedSearchParams?.classes ?? null);
   const filteredAdditives = filterAdditivesByClassVisibility(additives, showClasses);
   const sortedAdditives = sortAdditivesByMode(filteredAdditives, sortMode);
+  const hiddenAdditivesCount = showClasses ? 0 : additives.length - filteredAdditives.length;
+  const showHiddenCountLink = hiddenAdditivesCount > 0 && !showClasses;
+  const hiddenAdditivesHref = showHiddenCountLink
+    ? buildShowClassesHref(`/origin/${originSlug}`, resolvedSearchParams)
+    : null;
   const label = formatFilterLabel(originValue);
   const originDescription =
     getOriginDescriptionBySlug(originSlug) ?? getOriginDescriptionByValue(originValue);
@@ -128,7 +135,24 @@ export default async function OriginPage({ params, searchParams }: OriginPagePro
           </Typography>
         )}
         <Typography variant="body1" color="text.secondary">
-          {formatCountLabel(filteredAdditives.length)}
+          {showHiddenCountLink && hiddenAdditivesHref ? (
+            <>
+              {formatCountLabel(filteredAdditives.length).replace(/\.$/, '')}
+              {' ('}
+              <MuiLink
+                component={NextLink}
+                href={hiddenAdditivesHref}
+                color="text.secondary"
+                underline="hover"
+                sx={{ fontWeight: 500 }}
+              >
+                +{hiddenAdditivesCount} hidden
+              </MuiLink>
+              {')'}
+            </>
+          ) : (
+            formatCountLabel(filteredAdditives.length)
+          )}
         </Typography>
       </Box>
 

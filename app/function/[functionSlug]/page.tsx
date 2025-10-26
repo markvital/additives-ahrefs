@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import Link from 'next/link';
-import { Box, Typography } from '@mui/material';
+import NextLink from 'next/link';
+import { Box, Link as MuiLink, Typography } from '@mui/material';
 
 import {
   getAdditivesByFunctionSlug,
@@ -18,6 +18,7 @@ import { formatFunctionLabel } from '../../../lib/additive-format';
 import { getFunctionInfo, formatUsedAsList } from '../../../lib/function-details';
 import { AdditiveGrid } from '../../../components/AdditiveGrid';
 import { FilterPanel } from '../../../components/FilterPanel';
+import { buildShowClassesHref } from '../../../lib/url';
 
 interface FunctionPageProps {
   params: Promise<{ functionSlug: string }>;
@@ -78,6 +79,11 @@ export default async function FunctionPage({ params, searchParams }: FunctionPag
   const showClasses = parseShowClassesParam(resolvedSearchParams?.classes ?? null);
   const filteredAdditives = filterAdditivesByClassVisibility(additives, showClasses);
   const sortedAdditives = sortAdditivesByMode(filteredAdditives, sortMode);
+  const hiddenAdditivesCount = showClasses ? 0 : additives.length - filteredAdditives.length;
+  const showHiddenCountLink = hiddenAdditivesCount > 0 && !showClasses;
+  const hiddenAdditivesHref = showHiddenCountLink
+    ? buildShowClassesHref(`/function/${functionSlug}`, resolvedSearchParams)
+    : null;
   const functionLabelRaw = formatFunctionLabel(functionValue);
   const functionHeading = functionLabelRaw
     ? functionLabelRaw.charAt(0).toUpperCase() + functionLabelRaw.slice(1)
@@ -97,7 +103,7 @@ export default async function FunctionPage({ params, searchParams }: FunctionPag
           sx={{ display: 'flex', alignItems: 'center', gap: 1 }}
         >
           <Box
-            component={Link}
+            component={NextLink}
             href="/function"
             sx={{
               color: 'inherit',
@@ -124,7 +130,24 @@ export default async function FunctionPage({ params, searchParams }: FunctionPag
           </Typography>
         ) : null}
         <Typography variant="body1" color="text.secondary">
-          {formatCountLabel(filteredAdditives.length)}
+          {showHiddenCountLink && hiddenAdditivesHref ? (
+            <>
+              {formatCountLabel(filteredAdditives.length).replace(/\.$/, '')}
+              {' ('}
+              <MuiLink
+                component={NextLink}
+                href={hiddenAdditivesHref}
+                color="text.secondary"
+                underline="hover"
+                sx={{ fontWeight: 500 }}
+              >
+                +{hiddenAdditivesCount} hidden
+              </MuiLink>
+              {')'}
+            </>
+          ) : (
+            formatCountLabel(filteredAdditives.length)
+          )}
         </Typography>
       </Box>
 
