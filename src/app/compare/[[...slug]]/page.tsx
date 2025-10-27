@@ -2,12 +2,14 @@ import type { Metadata } from 'next';
 
 import { AdditiveComparison } from '../../../components/AdditiveComparison';
 import type { Additive } from '../../../lib/additives';
-import { getAdditives, getAdditiveBySlug } from '../../../lib/additives';
+import { getAdditives, getAdditiveBySlug, getAwarenessScores } from '../../../lib/additives';
 import { formatAdditiveDisplayName } from '../../../lib/additive-format';
 import { getSearchHistory } from '../../../lib/search-history';
+import { resolveAwarenessOptionsFromSearchParams } from '../../../lib/awareness';
 
 interface ComparePageProps {
   params: Promise<{ slug?: string[] }>;
+  searchParams?: Promise<{ awAlpha?: string | string[]; awLog?: string | string[] }>;
 }
 
 interface ComparisonAdditive extends Additive {
@@ -72,10 +74,15 @@ export async function generateMetadata({ params }: ComparePageProps): Promise<Me
   };
 }
 
-export default async function ComparePage({ params }: ComparePageProps) {
+export default async function ComparePage({ params, searchParams }: ComparePageProps) {
   const { slug } = await params;
   const pairSegment = Array.isArray(slug) ? slug[0] : undefined;
   const [requestedLeft, requestedRight] = parseComparisonParam(pairSegment);
+
+  const resolvedSearchParams = searchParams ? await searchParams : undefined;
+  const awarenessOptions = resolveAwarenessOptionsFromSearchParams(resolvedSearchParams ?? null);
+  const awarenessResult = getAwarenessScores(awarenessOptions);
+  const awarenessScores = Object.fromEntries(awarenessResult.scores.entries());
 
   const additives = getAdditives().map<ComparisonAdditive>((additive) => ({
     ...additive,
@@ -89,5 +96,13 @@ export default async function ComparePage({ params }: ComparePageProps) {
     requestedRight && additiveMap.has(requestedRight) ? requestedRight : null,
   ];
 
-  return <AdditiveComparison additives={additives} initialSelection={initialSelection} />;
+  return (
+    <AdditiveComparison
+      additives={additives}
+      initialSelection={initialSelection}
+      awarenessScores={awarenessScores}
+      awarenessAlpha={awarenessResult.alpha}
+      awarenessUseLog={awarenessResult.useLog}
+    />
+  );
 }

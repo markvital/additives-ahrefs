@@ -10,6 +10,34 @@ We started by extracting all additives from [Open Food Facts](https://world.open
 
 To reflect public curiosity, we draw on [Ahrefs](https://ahrefs.com/)’ Keywords Explorer. Ahrefs defines **search volume** as the average number of times people search for a query in a target country each month and bases its estimates on Google Keyword Planner data. After compiling keywords for each additive, we aggregate their U.S. search volumes to report a single monthly volume and ranking. Small spark‑line charts on additive cards show how interest has changed over time.
 
+### Awareness Score
+
+Awareness Score compares how often people search for an additive to how often it appears in products, normalising the ratio by the dataset’s overall expected searches per product. We apply additive (Laplace) smoothing to avoid extreme values for very rare additives and offer an optional log view for clearer comparisons and colour scaling.
+
+**Baseline**
+
+\[
+r_{\text{base}}=\frac{\sum_i S_i}{\sum_i P_i}
+\]
+
+**Smoothed ratio**
+
+\[
+S'_i=S_i+\alpha\cdot r_{\text{base}},\quad P'_i=P_i+\alpha,\quad r_i=\frac{S'_i}{P'_i}
+\]
+
+**Awareness Index**
+
+\[
+R_i=\frac{r_i}{r_{\text{base}}}
+\]
+
+(Optional) **Log view for colour/sorting**
+
+\[
+L_i=\log_{10}(R_i)
+\]
+
 ### Open Food Facts (OFF)
 
 [Open Food Facts](https://world.openfoodfacts.org/) is a non‑profit project that runs the world’s largest open database of food products. It contains **over three million products** and more than **seven million images** and is released under an **Open Database Licence**. We used OFF to identify the list of additives used in U.S. products and to count how many products contain each additive. Because the OFF database is constantly evolving, these counts should be viewed as approximations rather than exact figures.

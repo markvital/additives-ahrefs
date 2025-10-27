@@ -11,6 +11,7 @@ import {
   getAdditiveSlugs,
   getFunctionSlug,
   getOriginSlug,
+  getAwarenessScores,
 } from '../../lib/additives';
 
 import { formatMonthlyVolume, formatProductCount, getCountryFlagEmoji, getCountryLabel } from '../../lib/format';
@@ -25,9 +26,12 @@ import { SearchKeywordShare } from '../../components/SearchKeywordShare';
 import { MarkdownArticle } from '../../components/MarkdownArticle';
 import { SearchQuestions } from '../../components/SearchQuestions';
 import { ReportMistakeName } from '../../components/ReportMistakeContext';
+import { AwarenessScoreChip } from '../../components/AwarenessScoreChip';
+import { resolveAwarenessOptionsFromSearchParams } from '../../lib/awareness';
 
 interface AdditivePageProps {
   params: Promise<{ slug: string }>;
+  searchParams?: Promise<{ awAlpha?: string | string[]; awLog?: string | string[] }>;
 }
 
 export async function generateStaticParams() {
@@ -57,13 +61,18 @@ export async function generateMetadata({ params }: AdditivePageProps): Promise<M
   };
 }
 
-export default async function AdditivePage({ params }: AdditivePageProps) {
+export default async function AdditivePage({ params, searchParams }: AdditivePageProps) {
   const { slug } = await params;
   const additive = getAdditiveBySlug(slug);
 
   if (!additive) {
     notFound();
   }
+
+  const resolvedSearchParams = searchParams ? await searchParams : undefined;
+  const awarenessOptions = resolveAwarenessOptionsFromSearchParams(resolvedSearchParams ?? null);
+  const awarenessResult = getAwarenessScores(awarenessOptions);
+  const awarenessScore = awarenessResult.scores.get(additive.slug) ?? additive.awarenessScore ?? null;
 
   const synonymList = additive.synonyms.filter((value, index, list) => list.indexOf(value) === index);
   const searchHistory = getSearchHistory(additive.slug);
@@ -469,24 +478,27 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
           </Stack>
         )}
 
-        <Typography variant="body1" color="text.secondary">
-          <Box component="span" sx={{ fontWeight: 600 }}>
-            Products:
-          </Box>{' '}
-          {productCount !== null ? (
-            <MuiLink
-              href={productSearchUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              underline="hover"
-              sx={{ fontWeight: 500 }}
-            >
-              Found in {formatProductCount(productCount)} products
-            </MuiLink>
-          ) : (
-            'Data not available.'
-          )}
-        </Typography>
+        <Box sx={{ display: 'flex', flexDirection: 'column', gap: 0.75 }}>
+          <Typography variant="body1" color="text.secondary">
+            <Box component="span" sx={{ fontWeight: 600 }}>
+              Products:
+            </Box>{' '}
+            {productCount !== null ? (
+              <MuiLink
+                href={productSearchUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                underline="hover"
+                sx={{ fontWeight: 500 }}
+              >
+                Found in {formatProductCount(productCount)} products
+              </MuiLink>
+            ) : (
+              'Data not available.'
+            )}
+          </Typography>
+          <AwarenessScoreChip score={awarenessScore} sx={{ alignSelf: 'flex-start' }} />
+        </Box>
 
         {articleSummary && (
           <Typography variant="body1" color="text.primary" whiteSpace="pre-line">

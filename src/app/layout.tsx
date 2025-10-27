@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -78,7 +79,9 @@ export default function RootLayout({
                     <Link href="/origin" className="header-link">
                       Origins
                     </Link>
-                    <ReportMistakeLink className="header-link" />
+                    <Suspense fallback={null}>
+                      <ReportMistakeLink className="header-link" />
+                    </Suspense>
                   </nav>
                   <Typography component="p" variant="body2">
                     Food Additives © {currentYear}. All rights reserved.{' '}
