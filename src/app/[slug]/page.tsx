@@ -27,11 +27,9 @@ import { MarkdownArticle } from '../../components/MarkdownArticle';
 import { SearchQuestions } from '../../components/SearchQuestions';
 import { ReportMistakeName } from '../../components/ReportMistakeContext';
 import { AwarenessScoreChip } from '../../components/AwarenessScoreChip';
-import { resolveAwarenessOptionsFromSearchParams } from '../../lib/awareness';
 
 interface AdditivePageProps {
   params: Promise<{ slug: string }>;
-  searchParams?: Promise<{ awAlpha?: string | string[]; awLog?: string | string[] }>;
 }
 
 export async function generateStaticParams() {
@@ -61,7 +59,7 @@ export async function generateMetadata({ params }: AdditivePageProps): Promise<M
   };
 }
 
-export default async function AdditivePage({ params, searchParams }: AdditivePageProps) {
+export default async function AdditivePage({ params }: AdditivePageProps) {
   const { slug } = await params;
   const additive = getAdditiveBySlug(slug);
 
@@ -69,9 +67,7 @@ export default async function AdditivePage({ params, searchParams }: AdditivePag
     notFound();
   }
 
-  const resolvedSearchParams = searchParams ? await searchParams : undefined;
-  const awarenessOptions = resolveAwarenessOptionsFromSearchParams(resolvedSearchParams ?? null);
-  const awarenessResult = getAwarenessScores(awarenessOptions);
+  const awarenessResult = getAwarenessScores();
   const awarenessScore = awarenessResult.scores.get(additive.slug) ?? additive.awarenessScore ?? null;
 
   const synonymList = additive.synonyms.filter((value, index, list) => list.indexOf(value) === index);
@@ -497,7 +493,18 @@ export default async function AdditivePage({ params, searchParams }: AdditivePag
               'Data not available.'
             )}
           </Typography>
-          <AwarenessScoreChip score={awarenessScore} sx={{ alignSelf: 'flex-start' }} />
+          {awarenessScore ? (
+            <Typography
+              variant="body1"
+              color="text.secondary"
+              sx={{ display: 'flex', alignItems: 'center', gap: 1 }}
+            >
+              <Box component="span" sx={{ fontWeight: 600 }}>
+                Awareness:
+              </Box>
+              <AwarenessScoreChip score={awarenessScore} />
+            </Typography>
+          ) : null}
         </Box>
 
         {articleSummary && (

@@ -1,7 +1,7 @@
 'use client';
 
 import { useCallback, useEffect, useState, useTransition } from 'react';
-import type { ChangeEvent, KeyboardEvent } from 'react';
+import type { ChangeEvent } from 'react';
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 import {
   Box,
@@ -15,8 +15,6 @@ import {
   MenuItem,
   Select,
   Stack,
-  Switch,
-  TextField,
   Typography,
 } from '@mui/material';
 import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
@@ -24,7 +22,6 @@ import CloseIcon from '@mui/icons-material/Close';
 import type { SelectChangeEvent } from '@mui/material/Select';
 
 import type { AdditiveSortMode } from '../lib/additives';
-import { DEFAULT_AWARENESS_ALPHA, DEFAULT_AWARENESS_USE_LOG } from '../lib/awareness';
 
 export interface FilterOption {
   slug: string;
@@ -44,8 +41,6 @@ interface FilterPanelProps {
   currentFilter?: CurrentFilterSelection | null;
   currentSortMode?: AdditiveSortMode;
   currentShowClasses?: boolean;
-  currentAwarenessAlpha?: number;
-  currentAwarenessUseLog?: boolean;
 }
 
 const HOME_ROUTE = '/';
@@ -57,8 +52,6 @@ export function FilterPanel({
   currentFilter = null,
   currentSortMode = DEFAULT_SORT_MODE,
   currentShowClasses = false,
-  currentAwarenessAlpha,
-  currentAwarenessUseLog,
 }: FilterPanelProps) {
   const router = useRouter();
   const pathname = usePathname();
@@ -68,19 +61,13 @@ export function FilterPanel({
   const [legendPosition, setLegendPosition] = useState<
     { top: number; left: number; width: number; scaledWidth: number } | null
   >(null);
-  type SortSelectValue = 'search-rank' | 'products';
-  const currentSortValue: SortSelectValue = currentSortMode === 'product-count' ? 'products' : 'search-rank';
-  const resolvedAwarenessAlpha =
-    typeof currentAwarenessAlpha === 'number' && Number.isFinite(currentAwarenessAlpha) && currentAwarenessAlpha >= 0
-      ? currentAwarenessAlpha
-      : DEFAULT_AWARENESS_ALPHA;
-  const resolvedAwarenessUseLog =
-    typeof currentAwarenessUseLog === 'boolean' ? currentAwarenessUseLog : DEFAULT_AWARENESS_USE_LOG;
-  const [awarenessAlphaInput, setAwarenessAlphaInput] = useState<string>(resolvedAwarenessAlpha.toString());
-
-  useEffect(() => {
-    setAwarenessAlphaInput(resolvedAwarenessAlpha.toString());
-  }, [resolvedAwarenessAlpha]);
+  type SortSelectValue = 'search-rank' | 'products' | 'awareness';
+  const currentSortValue: SortSelectValue =
+    currentSortMode === 'product-count'
+      ? 'products'
+      : currentSortMode === 'awareness'
+        ? 'awareness'
+        : 'search-rank';
 
   const closeLegend = useCallback(() => {
     setLegendOpen(false);
@@ -136,13 +123,13 @@ export function FilterPanel({
     path: string,
     sort: SortSelectValue = currentSortValue,
     showClasses: boolean = currentShowClasses,
-    awarenessAlpha: number | null = resolvedAwarenessAlpha,
-    awarenessUseLog: boolean = resolvedAwarenessUseLog,
   ) => {
     const params = new URLSearchParams(searchParams?.toString() ?? '');
 
     if (sort === 'search-rank') {
       params.set('sort', 'search-rank');
+    } else if (sort === 'awareness') {
+      params.set('sort', 'awareness');
     } else {
       params.delete('sort');
     }
@@ -151,23 +138,6 @@ export function FilterPanel({
       params.set('classes', '1');
     } else {
       params.delete('classes');
-    }
-
-    const hasValidAlpha =
-      typeof awarenessAlpha === 'number' && Number.isFinite(awarenessAlpha) && awarenessAlpha >= 0;
-
-    if (hasValidAlpha && awarenessAlpha !== DEFAULT_AWARENESS_ALPHA) {
-      params.set('awAlpha', String(awarenessAlpha));
-    } else {
-      params.delete('awAlpha');
-    }
-
-    const useLogValue = typeof awarenessUseLog === 'boolean' ? awarenessUseLog : DEFAULT_AWARENESS_USE_LOG;
-
-    if (useLogValue !== DEFAULT_AWARENESS_USE_LOG) {
-      params.set('awLog', useLogValue ? '1' : '0');
-    } else {
-      params.delete('awLog');
     }
 
     const queryString = params.toString();
@@ -213,66 +183,6 @@ export function FilterPanel({
 
     startTransition(() => {
       router.push(buildUrlWithState(pathname, currentSortValue, showClasses));
-    });
-  };
-
-  const applyAwarenessAlpha = (value: string) => {
-    const trimmed = value.trim();
-
-    if (!trimmed) {
-      setAwarenessAlphaInput(DEFAULT_AWARENESS_ALPHA.toString());
-      startTransition(() => {
-        router.push(
-          buildUrlWithState(
-            pathname,
-            currentSortValue,
-            currentShowClasses,
-            DEFAULT_AWARENESS_ALPHA,
-            resolvedAwarenessUseLog,
-          ),
-        );
-      });
-      return;
-    }
-
-    const parsed = Number.parseFloat(trimmed);
-
-    if (!Number.isFinite(parsed) || parsed < 0) {
-      setAwarenessAlphaInput(resolvedAwarenessAlpha.toString());
-      return;
-    }
-
-    setAwarenessAlphaInput(parsed.toString());
-
-    startTransition(() => {
-      router.push(
-        buildUrlWithState(pathname, currentSortValue, currentShowClasses, parsed, resolvedAwarenessUseLog),
-      );
-    });
-  };
-
-  const handleAwarenessAlphaChange = (event: ChangeEvent<HTMLInputElement>) => {
-    setAwarenessAlphaInput(event.target.value);
-  };
-
-  const handleAwarenessAlphaBlur = () => {
-    applyAwarenessAlpha(awarenessAlphaInput);
-  };
-
-  const handleAwarenessAlphaKeyDown = (event: KeyboardEvent<HTMLInputElement>) => {
-    if (event.key === 'Enter') {
-      event.preventDefault();
-      applyAwarenessAlpha(awarenessAlphaInput);
-    }
-  };
-
-  const handleAwarenessUseLogChange = (event: ChangeEvent<HTMLInputElement>) => {
-    const nextUseLog = event.target.checked;
-
-    startTransition(() => {
-      router.push(
-        buildUrlWithState(pathname, currentSortValue, currentShowClasses, resolvedAwarenessAlpha, nextUseLog),
-      );
     });
   };
 
@@ -351,37 +261,6 @@ export function FilterPanel({
             />
           </Box>
 
-          <TextField
-            label="Awareness α"
-            type="number"
-            size="small"
-            value={awarenessAlphaInput}
-            onChange={handleAwarenessAlphaChange}
-            onBlur={handleAwarenessAlphaBlur}
-            onKeyDown={handleAwarenessAlphaKeyDown}
-            disabled={isPending}
-            sx={{ width: { xs: '100%', sm: 130 } }}
-            inputProps={{ min: 0, step: 0.5, inputMode: 'decimal' }}
-          />
-
-          <FormControlLabel
-            control={
-              <Switch
-                size="small"
-                checked={resolvedAwarenessUseLog}
-                onChange={handleAwarenessUseLogChange}
-                disabled={isPending}
-              />
-            }
-            label="Log scale"
-            sx={{
-              color: 'text.secondary',
-              '& .MuiFormControlLabel-label': {
-                fontSize: 14,
-              },
-            }}
-          />
-
           <FormControl
             size="small"
             sx={{ minWidth: { xs: '100%', sm: 180 } }}
@@ -396,6 +275,7 @@ export function FilterPanel({
               onChange={handleSortChange}
             >
               <MenuItem value="search-rank">Search rank</MenuItem>
+              <MenuItem value="awareness">Awareness score</MenuItem>
               <MenuItem value="products">Products</MenuItem>
             </Select>
           </FormControl>

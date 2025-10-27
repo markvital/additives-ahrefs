@@ -1,10 +1,9 @@
 'use client';
 
 import { useCallback, useEffect, useMemo, useState } from 'react';
-import type { ChangeEvent, KeyboardEvent } from 'react';
 import Link from 'next/link';
-import { usePathname, useRouter, useSearchParams } from 'next/navigation';
-import { Box, Button, Chip, FormControlLabel, Stack, Switch, TextField, Typography } from '@mui/material';
+import { usePathname, useRouter } from 'next/navigation';
+import { Box, Button, Chip, Stack, Typography } from '@mui/material';
 import type { Additive } from '../lib/additives';
 import { formatAdditiveDisplayName, formatFunctionLabel, formatOriginLabel } from '../lib/additive-format';
 import { extractArticleSummary, splitArticlePreview } from '../lib/article';
@@ -14,7 +13,6 @@ import { MarkdownArticle } from './MarkdownArticle';
 import { AdditiveLookup } from './AdditiveLookup';
 import { SearchHistoryChart } from './SearchHistoryChart';
 import type { AwarenessScoreResult } from '../lib/awareness';
-import { DEFAULT_AWARENESS_ALPHA, DEFAULT_AWARENESS_USE_LOG } from '../lib/awareness';
 import { AwarenessScoreChip } from './AwarenessScoreChip';
 
 interface ComparisonAdditive extends Additive {
@@ -25,8 +23,6 @@ interface AdditiveComparisonProps {
   additives: ComparisonAdditive[];
   initialSelection: [string | null, string | null];
   awarenessScores: Record<string, AwarenessScoreResult>;
-  awarenessAlpha: number;
-  awarenessUseLog: boolean;
 }
 
 interface SelectionState {
@@ -309,16 +305,9 @@ const renderArticlePreview = (additive: ComparisonAdditive | null) => {
   );
 };
 
-export function AdditiveComparison({
-  additives,
-  initialSelection,
-  awarenessScores,
-  awarenessAlpha,
-  awarenessUseLog,
-}: AdditiveComparisonProps) {
+export function AdditiveComparison({ additives, initialSelection, awarenessScores }: AdditiveComparisonProps) {
   const router = useRouter();
   const pathname = usePathname();
-  const searchParams = useSearchParams();
 
   const additiveMap = useMemo(() => new Map(additives.map((additive) => [additive.slug, additive])), [additives]);
 
@@ -328,12 +317,6 @@ export function AdditiveComparison({
     left: initialLeft ? additiveMap.get(initialLeft) ?? null : null,
     right: initialRight ? additiveMap.get(initialRight) ?? null : null,
   }));
-
-  const [awarenessAlphaInput, setAwarenessAlphaInput] = useState<string>(awarenessAlpha.toString());
-
-  useEffect(() => {
-    setAwarenessAlphaInput(awarenessAlpha.toString());
-  }, [awarenessAlpha]);
 
   useEffect(() => {
     setSelection((prev) => {
@@ -361,79 +344,6 @@ export function AdditiveComparison({
       router.replace(nextPath);
     }
   }, [pathname, router, selection.left?.slug, selection.right?.slug]);
-
-  const buildUrlWithAwareness = useCallback(
-    (alpha: number, useLog: boolean) => {
-      const params = new URLSearchParams(searchParams?.toString() ?? '');
-
-      if (Number.isFinite(alpha) && alpha >= 0 && alpha !== DEFAULT_AWARENESS_ALPHA) {
-        params.set('awAlpha', String(alpha));
-      } else {
-        params.delete('awAlpha');
-      }
-
-      if (useLog !== DEFAULT_AWARENESS_USE_LOG) {
-        params.set('awLog', useLog ? '1' : '0');
-      } else {
-        params.delete('awLog');
-      }
-
-      const queryString = params.toString();
-      return queryString ? `${pathname}?${queryString}` : pathname;
-    },
-    [pathname, searchParams],
-  );
-
-  const normaliseAlphaInput = useCallback(
-    (value: string): number => {
-      const trimmed = value.trim();
-
-      if (!trimmed) {
-        return DEFAULT_AWARENESS_ALPHA;
-      }
-
-      const parsed = Number.parseFloat(trimmed);
-
-      if (!Number.isFinite(parsed) || parsed < 0) {
-        return awarenessAlpha;
-      }
-
-      return parsed;
-    },
-    [awarenessAlpha],
-  );
-
-  const applyAwarenessAlpha = useCallback(
-    (value: string) => {
-      const parsed = normaliseAlphaInput(value);
-
-      setAwarenessAlphaInput(parsed.toString());
-      router.replace(buildUrlWithAwareness(parsed, awarenessUseLog));
-    },
-    [awarenessUseLog, buildUrlWithAwareness, normaliseAlphaInput, router],
-  );
-
-  const handleAwarenessAlphaChange = (event: ChangeEvent<HTMLInputElement>) => {
-    setAwarenessAlphaInput(event.target.value);
-  };
-
-  const handleAwarenessAlphaBlur = () => {
-    applyAwarenessAlpha(awarenessAlphaInput);
-  };
-
-  const handleAwarenessAlphaKeyDown = (event: KeyboardEvent<HTMLInputElement>) => {
-    if (event.key === 'Enter') {
-      event.preventDefault();
-      applyAwarenessAlpha(awarenessAlphaInput);
-    }
-  };
-
-  const handleAwarenessUseLogChange = (event: ChangeEvent<HTMLInputElement>) => {
-    const nextUseLog = event.target.checked;
-    const parsed = normaliseAlphaInput(awarenessAlphaInput);
-    setAwarenessAlphaInput(parsed.toString());
-    router.replace(buildUrlWithAwareness(parsed, nextUseLog));
-  };
 
   const leftDisplayName = selection.left
     ? formatAdditiveDisplayName(selection.left.eNumber, selection.left.title)
@@ -487,7 +397,18 @@ export function AdditiveComparison({
             <Typography variant="body2" color="text.secondary">
               Product data is not available.
             </Typography>
-            <AwarenessScoreChip score={awarenessScore ?? null} sx={{ alignSelf: 'flex-start' }} />
+            {awarenessScore ? (
+              <Typography
+                variant="body2"
+                color="text.secondary"
+                sx={{ display: 'flex', alignItems: 'center', gap: 1 }}
+              >
+                <Box component="span" sx={{ fontWeight: 600 }}>
+                  Awareness:
+                </Box>
+                <AwarenessScoreChip score={awarenessScore} />
+              </Typography>
+            ) : null}
           </Stack>
         );
       }
@@ -501,7 +422,18 @@ export function AdditiveComparison({
               {productLabel} products
             </Box>
           </Typography>
-          <AwarenessScoreChip score={awarenessScore ?? null} sx={{ alignSelf: 'flex-start' }} />
+          {awarenessScore ? (
+            <Typography
+              variant="body1"
+              color="text.secondary"
+              sx={{ display: 'flex', alignItems: 'center', gap: 1 }}
+            >
+              <Box component="span" sx={{ fontWeight: 600 }}>
+                Awareness:
+              </Box>
+              <AwarenessScoreChip score={awarenessScore} />
+            </Typography>
+          ) : null}
         </Stack>
       );
     },
@@ -593,42 +525,6 @@ export function AdditiveComparison({
           ? `Comparing ${leftDisplayName} vs ${rightDisplayName}`
           : 'Compare additives'}
       </Typography>
-
-      <Stack
-        direction={{ xs: 'column', sm: 'row' }}
-        spacing={1.5}
-        alignItems={{ xs: 'stretch', sm: 'center' }}
-        sx={{ width: '100%' }}
-      >
-        <TextField
-          label="Awareness α"
-          type="number"
-          size="small"
-          value={awarenessAlphaInput}
-          onChange={handleAwarenessAlphaChange}
-          onBlur={handleAwarenessAlphaBlur}
-          onKeyDown={handleAwarenessAlphaKeyDown}
-          sx={{ width: { xs: '100%', sm: 140 } }}
-          inputProps={{ min: 0, step: 0.5, inputMode: 'decimal' }}
-        />
-        <FormControlLabel
-          control={
-            <Switch
-              size="small"
-              checked={awarenessUseLog}
-              onChange={handleAwarenessUseLogChange}
-            />
-          }
-          label="Log scale"
-          sx={{
-            color: 'text.secondary',
-            '& .MuiFormControlLabel-label': {
-              fontSize: 14,
-            },
-            m: 0,
-          }}
-        />
-      </Stack>
 
       <Box
         sx={{

@@ -10,9 +10,12 @@ We started by extracting all additives from [Open Food Facts](https://world.open
 
 To reflect public curiosity, we draw on [Ahrefs](https://ahrefs.com/)’ Keywords Explorer. Ahrefs defines **search volume** as the average number of times people search for a query in a target country each month and bases its estimates on Google Keyword Planner data. After compiling keywords for each additive, we aggregate their U.S. search volumes to report a single monthly volume and ranking. Small spark‑line charts on additive cards show how interest has changed over time.
 
+<a id="awareness_score"></a>
 ### Awareness Score
 
-Awareness Score compares how often people search for an additive to how often it appears in products, normalising the ratio by the dataset’s overall expected searches per product. We apply additive (Laplace) smoothing to avoid extreme values for very rare additives and offer an optional log view for clearer comparisons and colour scaling.
+Awareness Score compares how often people search for an additive to how often it appears in products, normalising the ratio by the dataset’s overall expected searches per product. We apply additive (Laplace) smoothing with α = 5 to avoid extreme values for very rare additives and offer an optional log view for clearer comparisons and colour scaling.
+
+Scores hover around ×1.00 when searches align with usage. Anything above roughly ×1.25 signals that an additive is searched far more often than expected (likely “over-aware” or buzzy), whereas scores below ×0.80 indicate it is under-searched relative to how frequently it appears in products.
 
 **Baseline**
 

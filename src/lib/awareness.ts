@@ -4,11 +4,6 @@ export interface AwarenessSourceEntry {
   productCount: number | null;
 }
 
-export interface AwarenessComputationOptions {
-  alpha?: number;
-  useLog?: boolean;
-}
-
 export interface AwarenessScoreResult {
   slug: string;
   baseline: number;
@@ -22,15 +17,27 @@ export interface AwarenessScoreResult {
 }
 
 export interface AwarenessComputationResult {
+  /** Laplace smoothing weight applied to both search volume and product count. */
   alpha: number;
+  /** Indicates whether the normalisation uses the log-scaled Awareness Index. */
   useLog: boolean;
   baseline: number;
   percentileRange: { p5: number; p95: number } | null;
   scores: Map<string, AwarenessScoreResult>;
 }
 
-export const DEFAULT_AWARENESS_ALPHA = 5;
-export const DEFAULT_AWARENESS_USE_LOG = true;
+/**
+ * Laplace smoothing factor applied to every additive.
+ * A higher value makes rare additives look more average by adding pseudo-observations.
+ */
+const LAPLACE_SMOOTHING_ALPHA = 5;
+
+/**
+ * Awareness chips use the log-scaled index to spread values visually while keeping the label linear.
+ */
+const USE_LOG_SCALE_FOR_NORMALISATION = true;
+
+const NORMALISATION_PERCENTILES = { low: 5, high: 95 } as const;
 
 const clamp = (value: number, min: number, max: number): number => {
   if (value < min) {
@@ -39,14 +46,6 @@ const clamp = (value: number, min: number, max: number): number => {
 
   if (value > max) {
     return max;
-  }
-
-  return value;
-};
-
-const toFiniteNumber = (value: unknown): number | null => {
-  if (typeof value !== 'number' || !Number.isFinite(value)) {
-    return null;
   }
 
   return value;
@@ -79,11 +78,9 @@ const resolvePercentile = (values: number[], percentile: number): number | null 
 
 export const calculateAwarenessScores = (
   entries: AwarenessSourceEntry[],
-  options: AwarenessComputationOptions = {},
 ): AwarenessComputationResult => {
-  const alphaRaw = toFiniteNumber(options.alpha);
-  const alpha = typeof alphaRaw === 'number' && alphaRaw >= 0 ? alphaRaw : DEFAULT_AWARENESS_ALPHA;
-  const useLog = options.useLog ?? DEFAULT_AWARENESS_USE_LOG;
+  const alpha = LAPLACE_SMOOTHING_ALPHA;
+  const useLog = USE_LOG_SCALE_FOR_NORMALISATION;
 
   const validEntries = entries.filter((entry) => {
     const hasSearchVolume = typeof entry.searchVolume === 'number' && entry.searchVolume > 0;
@@ -137,8 +134,8 @@ export const calculateAwarenessScores = (
     });
   });
 
-  const p5 = resolvePercentile(scaleValues, 5);
-  const p95 = resolvePercentile(scaleValues, 95);
+  const p5 = resolvePercentile(scaleValues, NORMALISATION_PERCENTILES.low);
+  const p95 = resolvePercentile(scaleValues, NORMALISATION_PERCENTILES.high);
   const percentileRange = p5 !== null && p95 !== null ? { p5, p95 } : null;
 
   scores.forEach((score, slug) => {
@@ -169,66 +166,3 @@ export const calculateAwarenessScores = (
   };
 };
 
-const parseFirstValue = (value: string | string[] | null | undefined): string | null => {
-  if (Array.isArray(value)) {
-    return typeof value[0] === 'string' ? value[0] : null;
-  }
-
-  return typeof value === 'string' ? value : null;
-};
-
-export const parseAwarenessAlphaParam = (value: string | string[] | null | undefined): number | null => {
-  const raw = parseFirstValue(value);
-
-  if (!raw) {
-    return null;
-  }
-
-  const parsed = Number.parseFloat(raw);
-
-  if (!Number.isFinite(parsed) || parsed < 0) {
-    return null;
-  }
-
-  return parsed;
-};
-
-export const parseAwarenessUseLogParam = (value: string | string[] | null | undefined): boolean | null => {
-  const raw = parseFirstValue(value);
-
-  if (!raw) {
-    return null;
-  }
-
-  const normalized = raw.trim().toLowerCase();
-
-  if (!normalized) {
-    return null;
-  }
-
-  if (normalized === '1' || normalized === 'true' || normalized === 'yes' || normalized === 'log' || normalized === 'on') {
-    return true;
-  }
-
-  if (normalized === '0' || normalized === 'false' || normalized === 'no' || normalized === 'linear' || normalized === 'off') {
-    return false;
-  }
-
-  return null;
-};
-
-export const resolveAwarenessOptionsFromSearchParams = (
-  searchParams?: { [key: string]: string | string[] | undefined } | null,
-): AwarenessComputationOptions => {
-  if (!searchParams) {
-    return {};
-  }
-
-  const alphaParam = parseAwarenessAlphaParam(searchParams.awAlpha ?? null);
-  const useLogParam = parseAwarenessUseLogParam(searchParams.awLog ?? null);
-
-  return {
-    alpha: alphaParam ?? undefined,
-    useLog: useLogParam ?? undefined,
-  };
-};

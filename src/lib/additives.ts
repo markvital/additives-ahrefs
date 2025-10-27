@@ -6,13 +6,10 @@ import { createAdditiveSlug } from './additive-slug';
 import { getSearchVolumeDataset } from './search-volume';
 import { getSearchHistory } from './search-history';
 import {
-  AwarenessComputationOptions,
   AwarenessComputationResult,
   AwarenessScoreResult,
   AwarenessSourceEntry,
   calculateAwarenessScores,
-  DEFAULT_AWARENESS_ALPHA,
-  DEFAULT_AWARENESS_USE_LOG,
 } from './awareness';
 
 const isDevelopment = process.env.NODE_ENV === 'development';
@@ -51,7 +48,7 @@ export interface Additive {
   childSlugs: string[];
 }
 
-export type AdditiveSortMode = 'search-rank' | 'product-count';
+export type AdditiveSortMode = 'search-rank' | 'product-count' | 'awareness';
 
 export const DEFAULT_ADDITIVE_SORT_MODE: AdditiveSortMode = 'product-count';
 
@@ -248,6 +245,17 @@ const compareByProductCount = (a: Additive, b: Additive): number => {
   return bCount - aCount;
 };
 
+const compareByAwarenessScore = (a: Additive, b: Additive): number => {
+  const aIndex = typeof a.awarenessScore?.index === 'number' ? a.awarenessScore.index : Number.NEGATIVE_INFINITY;
+  const bIndex = typeof b.awarenessScore?.index === 'number' ? b.awarenessScore.index : Number.NEGATIVE_INFINITY;
+
+  if (aIndex === bIndex) {
+    return compareByProductCount(a, b);
+  }
+
+  return bIndex - aIndex;
+};
+
 export const parseAdditiveSortMode = (
   value: string | string[] | null | undefined,
 ): AdditiveSortMode => {
@@ -262,6 +270,10 @@ export const parseAdditiveSortMode = (
 
     if (normalised === 'search-rank' || normalised === 'rank') {
       return 'search-rank';
+    }
+
+    if (normalised === 'awareness' || normalised === 'awareness-score') {
+      return 'awareness';
     }
   }
 
@@ -291,6 +303,11 @@ export const sortAdditivesByMode = (items: Additive[], mode: AdditiveSortMode): 
 
   if (mode === 'product-count') {
     copy.sort(compareByProductCount);
+    return copy;
+  }
+
+  if (mode === 'awareness') {
+    copy.sort(compareByAwarenessScore);
     return copy;
   }
 
@@ -329,12 +346,8 @@ const mapAdditives = (): Additive[] => {
     productCount: typeof item.productCount === 'number' ? item.productCount : null,
   }));
 
-  awarenessResultCache.clear();
-  const defaultAwareness = calculateAwarenessScores(awarenessEntries, {
-    alpha: DEFAULT_AWARENESS_ALPHA,
-    useLog: DEFAULT_AWARENESS_USE_LOG,
-  });
-  awarenessResultCache.set(getAwarenessCacheKey(defaultAwareness.alpha, defaultAwareness.useLog), defaultAwareness);
+  const defaultAwareness = calculateAwarenessScores(awarenessEntries);
+  awarenessResult = defaultAwareness;
 
   const withAwareness = withMetrics.map<Additive>((item) => ({
     ...item,
@@ -363,9 +376,7 @@ const collectUniqueValues = (items: Additive[], selector: (additive: Additive) =
 };
 
 let awarenessEntries: AwarenessSourceEntry[] = [];
-const awarenessResultCache = new Map<string, AwarenessComputationResult>();
-
-const getAwarenessCacheKey = (alpha: number, useLog: boolean): string => `${alpha}|${useLog ? '1' : '0'}`;
+let awarenessResult: AwarenessComputationResult | null = null;
 
 type FilterEntry = {
   value: string;
@@ -455,7 +466,7 @@ const getCacheBundle = (): AdditiveCacheBundle => {
 };
 
 const ensureAwarenessInitialised = () => {
-  if (awarenessEntries.length === 0) {
+  if (awarenessEntries.length === 0 || !awarenessResult) {
     getCacheBundle();
   }
 };
@@ -503,36 +514,17 @@ export const getOriginSlug = (value: string): string | null => {
   return getCacheBundle().originValueToSlug.get(normalized) ?? null;
 };
 
-export const getAwarenessScores = (
-  options: AwarenessComputationOptions = {},
-): AwarenessComputationResult => {
+export const getAwarenessScores = (): AwarenessComputationResult => {
   ensureAwarenessInitialised();
-
-  const alphaOption =
-    typeof options.alpha === 'number' && Number.isFinite(options.alpha) && options.alpha >= 0
-      ? options.alpha
-      : DEFAULT_AWARENESS_ALPHA;
-  const useLogOption = options.useLog ?? DEFAULT_AWARENESS_USE_LOG;
-  const cacheKey = getAwarenessCacheKey(alphaOption, useLogOption);
-
-  if (awarenessResultCache.has(cacheKey)) {
-    return awarenessResultCache.get(cacheKey)!;
+  if (!awarenessResult) {
+    awarenessResult = calculateAwarenessScores(awarenessEntries);
   }
 
-  const result = calculateAwarenessScores(awarenessEntries, {
-    alpha: alphaOption,
-    useLog: useLogOption,
-  });
-  awarenessResultCache.set(cacheKey, result);
-
-  return result;
+  return awarenessResult;
 };
 
-export const getAwarenessScoreBySlug = (
-  slug: string,
-  options: AwarenessComputationOptions = {},
-): AwarenessScoreResult | null => {
-  const result = getAwarenessScores(options);
+export const getAwarenessScoreBySlug = (slug: string): AwarenessScoreResult | null => {
+  const result = getAwarenessScores();
   return result.scores.get(slug) ?? null;
 };
 

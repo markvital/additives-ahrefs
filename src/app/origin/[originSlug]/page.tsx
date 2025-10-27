@@ -23,15 +23,12 @@ import { AdditiveGrid } from '../../../components/AdditiveGrid';
 import { FilterPanel } from '../../../components/FilterPanel';
 import { buildShowClassesHref } from '../../../lib/url';
 import { ReportMistakeName } from '../../../components/ReportMistakeContext';
-import { resolveAwarenessOptionsFromSearchParams } from '../../../lib/awareness';
 
 interface OriginPageProps {
   params: Promise<{ originSlug: string }>;
   searchParams?: Promise<{
     sort?: string | string[];
     classes?: string | string[];
-    awAlpha?: string | string[];
-    awLog?: string | string[];
   }>;
 }
 
@@ -89,8 +86,7 @@ export default async function OriginPage({ params, searchParams }: OriginPagePro
   const showClasses = parseShowClassesParam(resolvedSearchParams?.classes ?? null);
   const filteredAdditives = filterAdditivesByClassVisibility(additives, showClasses);
   const sortedAdditives = sortAdditivesByMode(filteredAdditives, sortMode);
-  const awarenessOptions = resolveAwarenessOptionsFromSearchParams(resolvedSearchParams ?? null);
-  const awarenessResult = getAwarenessScores(awarenessOptions);
+  const awarenessResult = getAwarenessScores();
   const hiddenAdditivesCount = showClasses ? 0 : additives.length - filteredAdditives.length;
   const showHiddenCountLink = hiddenAdditivesCount > 0 && !showClasses;
   const hiddenAdditivesHref = showHiddenCountLink
@@ -175,8 +171,6 @@ export default async function OriginPage({ params, searchParams }: OriginPagePro
         currentFilter={{ type: 'origin', slug: originSlug }}
         currentSortMode={sortMode}
         currentShowClasses={showClasses}
-        currentAwarenessAlpha={awarenessResult.alpha}
-        currentAwarenessUseLog={awarenessResult.useLog}
       />
       <AdditiveGrid
         items={sortedAdditives}
