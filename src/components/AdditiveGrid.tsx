@@ -10,6 +10,7 @@ import { getOriginAbbreviation, getOriginIcon } from '../lib/origin-icons';
 import { SearchSparkline } from './SearchSparkline';
 import { theme } from '../lib/theme';
 import { FunctionChipList } from './FunctionChipList';
+import { CompareDraggableCard } from './compare-widget/CompareDraggableCard';
 
 const resolveTypographySize = (value: string | number | undefined, fallback = '1.5rem') => {
   if (typeof value === 'number') {
@@ -116,16 +117,13 @@ export function AdditiveGrid({
         const familyTooltip = `additive family has ${childCount} additive${childCount === 1 ? '' : 's'}`;
 
         return (
-          <Card
-            key={additive.slug}
-            data-additive-card-index={index}
-            sx={{ display: 'flex', flexDirection: 'column' }}
-          >
-            <CardActionArea
-              component={Link}
-              href={`/${additive.slug}`}
-              sx={{ flexGrow: 1, display: 'flex', flexDirection: 'column', alignItems: 'stretch', height: '100%' }}
-            >
+          <CompareDraggableCard key={additive.slug} additive={additive}>
+            <Card data-additive-card-index={index} sx={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
+              <CardActionArea
+                component={Link}
+                href={`/${additive.slug}`}
+                sx={{ flexGrow: 1, display: 'flex', flexDirection: 'column', alignItems: 'stretch', height: '100%' }}
+              >
               <CardContent
                 sx={{
                   display: 'flex',
@@ -287,8 +285,9 @@ export function AdditiveGrid({
                   </Typography>
                 ) : null}
               </CardContent>
-            </CardActionArea>
-          </Card>
+              </CardActionArea>
+            </Card>
+          </CompareDraggableCard>
         );
       })}
     </Box>

@@ -25,6 +25,7 @@ import { SearchKeywordShare } from '../../components/SearchKeywordShare';
 import { MarkdownArticle } from '../../components/MarkdownArticle';
 import { SearchQuestions } from '../../components/SearchQuestions';
 import { ReportMistakeName } from '../../components/ReportMistakeContext';
+import { CompareWidgetInitializer } from '../../components/compare-widget/CompareWidgetInitializer';
 
 interface AdditivePageProps {
   params: Promise<{ slug: string }>;
@@ -209,6 +210,7 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
   return (
     <>
       <ReportMistakeName value={displayName} />
+      <CompareWidgetInitializer additiveSlug={additive.slug} />
       <Box component="article" display="flex" flexDirection="column" gap={4} alignItems="center" width="100%">
         <Box sx={{ width: '100%', maxWidth: 760, display: 'flex', flexDirection: 'column', gap: 3 }}>
         <Box display="flex" flexDirection="column" gap={1.5}>

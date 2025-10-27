@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -9,6 +10,7 @@ import { Providers } from '../components/Providers';
 import { HeaderSearch } from '../components/HeaderSearch';
 import { ReportMistakeProvider } from '../components/ReportMistakeContext';
 import { ReportMistakeLink } from '../components/ReportMistakeLink';
+import { CompareWidgetProvider } from '../components/compare-widget/CompareWidgetProvider';
 import { getAdditives } from '../lib/additives';
 import logo2x from '../../img/logo/logo_2x.png';
 import './globals.css';
@@ -38,8 +40,9 @@ export default function RootLayout({
       <body className={roboto.className}>
         <ReportMistakeProvider>
           <Providers>
-            <div className="layout">
-              <header className="site-header">
+            <CompareWidgetProvider additives={additives}>
+              <div className="layout">
+                <header className="site-header">
                 <div className="content-shell header-shell">
                   <div className="header-content">
                     <Link href="/" aria-label="Food Additives home" className="header-logo">
@@ -69,26 +72,29 @@ export default function RootLayout({
               <main className="main-content">
                 <div className="content-shell">{children}</div>
               </main>
-              <footer className="site-footer">
-                <div className="content-shell footer-shell">
-                  <nav className="footer-nav" aria-label="Footer">
-                    <Link href="/function" className="header-link">
-                      Functions
-                    </Link>
-                    <Link href="/origin" className="header-link">
-                      Origins
-                    </Link>
-                    <ReportMistakeLink className="header-link" />
-                  </nav>
-                  <Typography component="p" variant="body2">
-                    Food Additives © {currentYear}. All rights reserved.{' '}
-                    <Link href="/about" className="footer-link">
-                      About
-                    </Link>
-                  </Typography>
-                </div>
-              </footer>
-            </div>
+                <footer className="site-footer">
+                  <div className="content-shell footer-shell">
+                    <nav className="footer-nav" aria-label="Footer">
+                      <Link href="/function" className="header-link">
+                        Functions
+                      </Link>
+                      <Link href="/origin" className="header-link">
+                        Origins
+                      </Link>
+                    <Suspense fallback={null}>
+                      <ReportMistakeLink className="header-link" />
+                    </Suspense>
+                    </nav>
+                    <Typography component="p" variant="body2">
+                      Food Additives © {currentYear}. All rights reserved.{' '}
+                      <Link href="/about" className="footer-link">
+                        About
+                      </Link>
+                    </Typography>
+                  </div>
+                </footer>
+              </div>
+            </CompareWidgetProvider>
           </Providers>
         </ReportMistakeProvider>
       </body>
