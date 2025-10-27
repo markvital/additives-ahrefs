@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import type { Metadata } from 'next';
@@ -160,13 +161,15 @@ export default async function OriginPage({ params, searchParams }: OriginPagePro
         </Typography>
       </Box>
 
-      <FilterPanel
-        functionOptions={functionOptions}
-        originOptions={originOptions}
-        currentFilter={{ type: 'origin', slug: originSlug }}
-        currentSortMode={sortMode}
-        currentShowClasses={showClasses}
-      />
+      <Suspense fallback={null}>
+        <FilterPanel
+          functionOptions={functionOptions}
+          originOptions={originOptions}
+          currentFilter={{ type: 'origin', slug: originSlug }}
+          currentSortMode={sortMode}
+          currentShowClasses={showClasses}
+        />
+      </Suspense>
       <AdditiveGrid
         items={sortedAdditives}
         sortMode={sortMode}
