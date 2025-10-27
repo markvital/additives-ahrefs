@@ -39,15 +39,20 @@ export default function RootLayout({
             <header className="site-header">
               <div className="content-shell header-shell">
                 <div className="header-content">
-                  <Link href="/" aria-label="Food Additives home" className="header-logo">
-                    <Image
-                      src={logo2x}
-                      alt="Food Additives logo"
-                      width={41}
-                      height={50}
-                      priority
-                    />
-                  </Link>
+                  <div className="header-brand">
+                    <Link href="/" aria-label="Food Additives home" className="header-logo">
+                      <Image
+                        src={logo2x}
+                        alt="Food Additives logo"
+                        width={41}
+                        height={50}
+                        priority
+                      />
+                    </Link>
+                    <Link href="/" className="header-title-link">
+                      Food additives
+                    </Link>
+                  </div>
                   <nav className="header-nav">
                     <HeaderSearch additives={additives} />
                     <Link href="/compare" className="header-link">
