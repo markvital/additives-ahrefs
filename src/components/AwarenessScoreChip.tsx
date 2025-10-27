@@ -48,13 +48,25 @@ const getTooltipExplanation = (index: number): string => {
   return 'Searched proportional to its use. Typical awareness.';
 };
 
-const buildTooltipContent = (index: number) => {
+const formatGridLabel = (index: number): string => {
+  if (index >= 100) {
+    return `×${Math.round(index)}`;
+  }
+
+  if (index >= 10) {
+    return `×${index.toFixed(1)}`;
+  }
+
+  return `×${index.toFixed(2)}`;
+};
+
+const buildTooltipContent = (index: number, formattedIndex: string) => {
   const explanation = getTooltipExplanation(index);
 
   return (
     <Stack spacing={0.5}>
       <Typography component="span" variant="body2" fontWeight={700}>
-        Awareness Score
+        Awareness Score - {formattedIndex.replace(/^×/, '')}
       </Typography>
       <Typography component="span" variant="body2" sx={{ fontStyle: 'italic' }}>
         {explanation}
@@ -62,7 +74,7 @@ const buildTooltipContent = (index: number) => {
       <Typography component="span" variant="body2">
         Compares searches to usage. ×1.0 = normal; above 1 = over-aware; below 1 = under-aware.{' '}
         <MuiLink href="/about#awareness_score" underline="always" color="inherit" sx={{ fontWeight: 600 }}>
-          Read more
+          read more
         </MuiLink>
       </Typography>
     </Stack>
@@ -73,22 +85,29 @@ interface AwarenessScoreChipProps {
   score: AwarenessScoreResult | null | undefined;
   size?: 'small' | 'medium';
   sx?: SxProps<Theme>;
+  /**
+   * Adjusts how the chip label is formatted.
+   * - `default`: always show two decimal places.
+   * - `grid`: compact formatting (2 decimals under 10, 1 decimal for 10–99.9, whole numbers at 100+).
+   */
+  labelStyle?: 'default' | 'grid';
 }
 
-export function AwarenessScoreChip({ score, size = 'small', sx }: AwarenessScoreChipProps) {
+export function AwarenessScoreChip({
+  score,
+  size = 'small',
+  sx,
+  labelStyle = 'default',
+}: AwarenessScoreChipProps) {
   if (!score || !Number.isFinite(score.index) || score.index <= 0) {
     return null;
   }
 
   const colorRatio = clamp((score.colorScore ?? 50) / 100, 0, 1);
   const backgroundColor = interpolateColor(colorRatio);
-  const tooltipContent = buildTooltipContent(score.index);
-  const label = `×${score.index.toFixed(2)}`;
-
-  const stopPropagation = (event: SyntheticEvent) => {
-    event.preventDefault();
-    event.stopPropagation();
-  };
+  const formattedIndexForTooltip = `×${score.index.toFixed(2)}`;
+  const label = labelStyle === 'grid' ? formatGridLabel(score.index) : formattedIndexForTooltip;
+  const tooltipContent = buildTooltipContent(score.index, formattedIndexForTooltip);
 
   const wrapperSx: SxProps<Theme> = Array.isArray(sx)
     ? [{ display: 'inline-flex', alignItems: 'center' }, ...sx]
@@ -97,17 +116,23 @@ export function AwarenessScoreChip({ score, size = 'small', sx }: AwarenessScore
       : { display: 'inline-flex', alignItems: 'center', ...(sx ?? {}) };
 
   return (
-    <Box
-      sx={wrapperSx}
-      onClick={stopPropagation}
-      onPointerDown={stopPropagation}
-      onPointerUp={stopPropagation}
-      onTouchStart={stopPropagation}
-    >
+    <Box sx={wrapperSx}>
       <Tooltip title={tooltipContent} arrow enterTouchDelay={0} leaveTouchDelay={1500}>
         <Chip
           size={size}
           label={label}
+          onClick={(event: SyntheticEvent) => {
+            event.stopPropagation();
+          }}
+          onPointerDown={(event: SyntheticEvent) => {
+            event.stopPropagation();
+          }}
+          onPointerUp={(event: SyntheticEvent) => {
+            event.stopPropagation();
+          }}
+          onTouchStart={(event: SyntheticEvent) => {
+            event.stopPropagation();
+          }}
           sx={{
             bgcolor: backgroundColor,
             color: '#ffffff',

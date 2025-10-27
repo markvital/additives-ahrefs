@@ -5,32 +5,80 @@ import remarkGfm from 'remark-gfm';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 import 'katex/dist/katex.min.css';
+import { isValidElement, type ReactNode } from 'react';
+
+const collectText = (children: ReactNode): string => {
+  if (typeof children === 'string') {
+    return children;
+  }
+
+  if (typeof children === 'number') {
+    return children.toString();
+  }
+
+  if (Array.isArray(children)) {
+    return children.map((child) => collectText(child)).join('');
+  }
+
+  if (isValidElement(children)) {
+    const elementProps = children.props as { children?: ReactNode };
+
+    return collectText(elementProps.children);
+  }
+
+  return '';
+};
+
+const resolveHeadingId = (children: ReactNode, explicitId?: string): string | undefined => {
+  if (explicitId && explicitId.trim().length > 0) {
+    return explicitId;
+  }
+
+  const text = collectText(children).trim().toLowerCase();
+
+  if (!text) {
+    return undefined;
+  }
+
+  return text.replace(/[^a-z0-9]+/g, '_').replace(/^_+|_+$/g, '');
+};
+
+const createHeadingComponent = (
+  component: 'h2' | 'h3' | 'h4' | 'h5',
+  variant: 'h3' | 'h4' | 'h5' | 'h6',
+) => {
+  const HeadingComponent = ({ children, node, ...props }: any) => {
+    const explicitId = node?.properties?.id as string | undefined;
+    const headingId = resolveHeadingId(children, explicitId ?? props?.id);
+
+    return (
+      <Typography
+        component={component}
+        variant={variant}
+        fontWeight={600}
+        gutterBottom
+        id={headingId}
+        {...props}
+      >
+        {children}
+      </Typography>
+    );
+  };
+
+  HeadingComponent.displayName = `MarkdownHeading${variant.toUpperCase()}`;
+
+  return HeadingComponent;
+};
 
 interface MarkdownArticleProps {
   content: string;
 }
 
 const markdownComponents: Components = {
-  h1: ({ children, ...props }) => (
-    <Typography component="h2" variant="h3" fontWeight={600} gutterBottom {...props}>
-      {children}
-    </Typography>
-  ),
-  h2: ({ children, ...props }) => (
-    <Typography component="h3" variant="h4" fontWeight={600} gutterBottom {...props}>
-      {children}
-    </Typography>
-  ),
-  h3: ({ children, ...props }) => (
-    <Typography component="h4" variant="h5" fontWeight={600} gutterBottom {...props}>
-      {children}
-    </Typography>
-  ),
-  h4: ({ children, ...props }) => (
-    <Typography component="h5" variant="h6" fontWeight={600} gutterBottom {...props}>
-      {children}
-    </Typography>
-  ),
+  h1: createHeadingComponent('h2', 'h3'),
+  h2: createHeadingComponent('h3', 'h4'),
+  h3: createHeadingComponent('h4', 'h5'),
+  h4: createHeadingComponent('h5', 'h6'),
   p: ({ children, ...props }) => (
     <Typography component="p" variant="body1" color="text.primary" paragraph {...props}>
       {children}

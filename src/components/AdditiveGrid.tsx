@@ -298,7 +298,11 @@ export function AdditiveGrid({
                       </Box>{' '}
                       products
                     </Typography>
-                    <AwarenessScoreChip score={awarenessScore} sx={{ ml: 'auto', flexShrink: 0 }} />
+                    <AwarenessScoreChip
+                      score={awarenessScore}
+                      labelStyle="grid"
+                      sx={{ ml: 'auto', flexShrink: 0 }}
+                    />
                   </Box>
                 ) : null}
               </CardContent>
