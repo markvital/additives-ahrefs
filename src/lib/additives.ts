@@ -6,6 +6,8 @@ import { createAdditiveSlug } from './additive-slug';
 import { getSearchVolumeDataset } from './search-volume';
 import { getSearchHistory } from './search-history';
 
+const isDevelopment = process.env.NODE_ENV === 'development';
+
 export interface AdditivePropsFile {
   title?: string;
   eNumber?: string;
@@ -313,12 +315,10 @@ const mapAdditives = (): Additive[] => {
   return withMetrics;
 };
 
-const additiveCache = mapAdditives();
-
-const collectUniqueValues = (selector: (additive: Additive) => string[]): string[] => {
+const collectUniqueValues = (items: Additive[], selector: (additive: Additive) => string[]): string[] => {
   const unique = new Set<string>();
 
-  additiveCache.forEach((additive) => {
+  items.forEach((additive) => {
     selector(additive).forEach((value) => {
       const normalized = value.trim();
 
@@ -367,24 +367,61 @@ const buildFilterData = (
   return { filters, slugToValue, valueToSlug };
 };
 
-const functionValues = collectUniqueValues((item) => item.functions);
-const {
-  filters: functionFilters,
-  slugToValue: functionSlugToValue,
-  valueToSlug: functionValueToSlug,
-} = buildFilterData(functionValues);
+type AdditiveCacheBundle = {
+  additives: Additive[];
+  functionFilters: FilterEntry[];
+  functionSlugToValue: Map<string, string>;
+  functionValueToSlug: Map<string, string>;
+  originFilters: FilterEntry[];
+  originSlugToValue: Map<string, string>;
+  originValueToSlug: Map<string, string>;
+};
 
-const originValues = collectUniqueValues((item) => item.origin);
-const {
-  filters: originFilters,
-  slugToValue: originSlugToValue,
-  valueToSlug: originValueToSlug,
-} = buildFilterData(originValues);
+const buildCacheBundle = (): AdditiveCacheBundle => {
+  const additives = mapAdditives();
+  const functionValues = collectUniqueValues(additives, (item) => item.functions);
+  const {
+    filters: functionFilters,
+    slugToValue: functionSlugToValue,
+    valueToSlug: functionValueToSlug,
+  } = buildFilterData(functionValues);
 
-export const getAdditives = (): Additive[] => additiveCache;
+  const originValues = collectUniqueValues(additives, (item) => item.origin);
+  const {
+    filters: originFilters,
+    slugToValue: originSlugToValue,
+    valueToSlug: originValueToSlug,
+  } = buildFilterData(originValues);
+
+  return {
+    additives,
+    functionFilters,
+    functionSlugToValue,
+    functionValueToSlug,
+    originFilters,
+    originSlugToValue,
+    originValueToSlug,
+  };
+};
+
+let cacheBundle: AdditiveCacheBundle | null = null;
+
+const getCacheBundle = (): AdditiveCacheBundle => {
+  if (isDevelopment) {
+    return buildCacheBundle();
+  }
+
+  if (!cacheBundle) {
+    cacheBundle = buildCacheBundle();
+  }
+
+  return cacheBundle;
+};
+
+export const getAdditives = (): Additive[] => getCacheBundle().additives;
 
 export const getAdditiveBySlug = (slug: string): Additive | undefined =>
-  additiveCache.find((item) => item.slug === slug);
+  getCacheBundle().additives.find((item) => item.slug === slug);
 
 export const getAdditiveSlugs = (): string[] =>
   Array.isArray(additivesIndex.additives)
@@ -394,13 +431,15 @@ export const getAdditiveSlugs = (): string[] =>
       }))
     : [];
 
-export const getFunctionFilters = () => functionFilters;
+export const getFunctionFilters = () => getCacheBundle().functionFilters;
 
-export const getOriginFilters = () => originFilters;
+export const getOriginFilters = () => getCacheBundle().originFilters;
 
-export const getFunctionValueBySlug = (slug: string): string | null => functionSlugToValue.get(slug) ?? null;
+export const getFunctionValueBySlug = (slug: string): string | null =>
+  getCacheBundle().functionSlugToValue.get(slug) ?? null;
 
-export const getOriginValueBySlug = (slug: string): string | null => originSlugToValue.get(slug) ?? null;
+export const getOriginValueBySlug = (slug: string): string | null =>
+  getCacheBundle().originSlugToValue.get(slug) ?? null;
 
 export const getFunctionSlug = (value: string): string | null => {
   const normalized = value.trim();
@@ -409,7 +448,7 @@ export const getFunctionSlug = (value: string): string | null => {
     return null;
   }
 
-  return functionValueToSlug.get(normalized) ?? null;
+  return getCacheBundle().functionValueToSlug.get(normalized) ?? null;
 };
 
 export const getOriginSlug = (value: string): string | null => {
@@ -419,25 +458,27 @@ export const getOriginSlug = (value: string): string | null => {
     return null;
   }
 
-  return originValueToSlug.get(normalized) ?? null;
+  return getCacheBundle().originValueToSlug.get(normalized) ?? null;
 };
 
 export const getAdditivesByFunctionSlug = (slug: string): Additive[] => {
-  const value = getFunctionValueBySlug(slug);
+  const cache = getCacheBundle();
+  const value = cache.functionSlugToValue.get(slug);
 
   if (!value) {
     return [];
   }
 
-  return additiveCache.filter((item) => item.functions.includes(value));
+  return cache.additives.filter((item) => item.functions.includes(value));
 };
 
 export const getAdditivesByOriginSlug = (slug: string): Additive[] => {
-  const value = getOriginValueBySlug(slug);
+  const cache = getCacheBundle();
+  const value = cache.originSlugToValue.get(slug);
 
   if (!value) {
     return [];
   }
 
-  return additiveCache.filter((item) => item.origin.includes(value));
+  return cache.additives.filter((item) => item.origin.includes(value));
 };
