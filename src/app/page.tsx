@@ -106,7 +106,13 @@ export default async function HomePage({ searchParams }: HomePageProps) {
         gap={{ xs: 3, md: 6 }}
         alignItems={{ xs: 'flex-start', md: 'stretch' }}
       >
-        <Box flex={{ md: '0 0 75%' }} maxWidth={{ md: '75%' }} display="flex" flexDirection="column" gap={2}>
+        <Box
+          flex={{ md: '0 0 66.6667%' }}
+          maxWidth={{ md: '66.6667%' }}
+          display="flex"
+          flexDirection="column"
+          gap={2}
+        >
           <Typography component="h1" variant="h1" sx={{ display: { xs: 'block', md: 'none' } }}>
             Food additives
           </Typography>
@@ -129,12 +135,14 @@ export default async function HomePage({ searchParams }: HomePageProps) {
             .
           </Typography>
         </Box>
-        <Box flex={{ md: '0 0 25%' }} maxWidth={{ md: '25%' }} width="100%">
+        <Box flex={{ md: '0 0 33.3333%' }} maxWidth={{ md: '33.3333%' }} width="100%">
           <Box
             display="flex"
-            flexDirection={{ xs: 'column', md: 'row' }}
+            flexDirection={{ xs: 'column', md: 'row-reverse' }}
             alignItems={{ xs: 'flex-start', md: 'stretch' }}
+            justifyContent={{ md: 'space-between' }}
             gap={{ xs: 1.5, md: 2.5 }}
+            width="100%"
           >
             <MuiLink
               component={NextLink}
@@ -152,7 +160,7 @@ export default async function HomePage({ searchParams }: HomePageProps) {
             >
               Explore
             </MuiLink>
-            <Box display="flex" flexDirection="column" gap={1} flex={1}>
+            <Box display="flex" flexDirection="column" gap={0.5} flex={1} minWidth={0}>
               {topFunctions.map(({ slug, label, count }) => (
                 <MuiLink
                   key={slug}
@@ -168,10 +176,10 @@ export default async function HomePage({ searchParams }: HomePageProps) {
                     '&:hover': { color: 'primary.main' },
                   }}
                 >
-                  <Typography component="span" variant="h6" sx={{ fontWeight: 700 }}>
+                  <Typography component="span" variant="h6" sx={{ fontWeight: 700, lineHeight: 1.1 }}>
                     {numberFormatter.format(count)}
                   </Typography>
-                  <Typography component="span" variant="body1" sx={{ fontWeight: 500 }}>
+                  <Typography component="span" variant="body1" sx={{ fontWeight: 500, lineHeight: 1.1 }}>
                     {label.toLowerCase()}
                   </Typography>
                 </MuiLink>
