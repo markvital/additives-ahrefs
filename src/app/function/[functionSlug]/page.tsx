@@ -13,11 +13,13 @@ import {
   parseAdditiveSortMode,
   parseShowClassesParam,
   sortAdditivesByMode,
+  mapAdditivesToGridItems,
 } from '../../../lib/additives';
 import { formatFilterLabel } from '../../../lib/text';
 import { formatFunctionLabel } from '../../../lib/additive-format';
 import { getFunctionInfo, formatUsedAsList } from '../../../lib/function-details';
 import { AdditiveGrid } from '../../../components/AdditiveGrid';
+import { AdditiveGridInfinite } from '../../../components/AdditiveGridInfinite';
 import { FilterPanel } from '../../../components/FilterPanel';
 import { buildShowClassesHref } from '../../../lib/url';
 import { ReportMistakeName } from '../../../components/ReportMistakeContext';
@@ -96,6 +98,12 @@ export default async function FunctionPage({ params, searchParams }: FunctionPag
     functionInfo && functionInfo.usedAs.length > 0
       ? `In the food industry, such additives serve roles as ${formatUsedAsList(functionInfo.usedAs)}.`
       : null;
+  const chunkSize = 50;
+  const totalCount = sortedAdditives.length;
+  const useInfiniteScroll = totalCount > chunkSize;
+  const initialItems = mapAdditivesToGridItems(
+    sortedAdditives.slice(0, useInfiniteScroll ? chunkSize : totalCount),
+  );
 
   return (
     <>
@@ -165,11 +173,22 @@ export default async function FunctionPage({ params, searchParams }: FunctionPag
           currentShowClasses={showClasses}
         />
       </Suspense>
-      <AdditiveGrid
-        items={sortedAdditives}
-        sortMode={sortMode}
-        emptyMessage="No additives found for this function."
-      />
+      {useInfiniteScroll ? (
+        <AdditiveGridInfinite
+          initialItems={initialItems}
+          totalCount={totalCount}
+          sortMode={sortMode}
+          showClasses={showClasses}
+          chunkSize={chunkSize}
+          filter={{ type: 'function', slug: functionSlug }}
+        />
+      ) : (
+        <AdditiveGrid
+          items={initialItems}
+          sortMode={sortMode}
+          emptyMessage="No additives found for this function."
+        />
+      )}
     </Box>
     </>
   );

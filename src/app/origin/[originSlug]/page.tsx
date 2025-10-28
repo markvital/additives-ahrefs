@@ -15,11 +15,13 @@ import {
   parseAdditiveSortMode,
   parseShowClassesParam,
   sortAdditivesByMode,
+  mapAdditivesToGridItems,
 } from '../../../lib/additives';
 import { formatFilterLabel } from '../../../lib/text';
 import { getOriginHeroIcon } from '../../../lib/origin-icons';
 import { getOriginDescriptionBySlug, getOriginDescriptionByValue } from '../../../lib/origins';
 import { AdditiveGrid } from '../../../components/AdditiveGrid';
+import { AdditiveGridInfinite } from '../../../components/AdditiveGridInfinite';
 import { FilterPanel } from '../../../components/FilterPanel';
 import { buildShowClassesHref } from '../../../lib/url';
 import { ReportMistakeName } from '../../../components/ReportMistakeContext';
@@ -94,6 +96,12 @@ export default async function OriginPage({ params, searchParams }: OriginPagePro
     getOriginDescriptionBySlug(originSlug) ?? getOriginDescriptionByValue(originValue);
   const originHeroIcon =
     getOriginHeroIcon(originValue) ?? getOriginHeroIcon(originSlug) ?? null;
+  const chunkSize = 50;
+  const totalCount = sortedAdditives.length;
+  const useInfiniteScroll = totalCount > chunkSize;
+  const initialItems = mapAdditivesToGridItems(
+    sortedAdditives.slice(0, useInfiniteScroll ? chunkSize : totalCount),
+  );
 
   return (
     <>
@@ -170,11 +178,22 @@ export default async function OriginPage({ params, searchParams }: OriginPagePro
           currentShowClasses={showClasses}
         />
       </Suspense>
-      <AdditiveGrid
-        items={sortedAdditives}
-        sortMode={sortMode}
-        emptyMessage="No additives found for this origin."
-      />
+      {useInfiniteScroll ? (
+        <AdditiveGridInfinite
+          initialItems={initialItems}
+          totalCount={totalCount}
+          sortMode={sortMode}
+          showClasses={showClasses}
+          chunkSize={chunkSize}
+          filter={{ type: 'origin', slug: originSlug }}
+        />
+      ) : (
+        <AdditiveGrid
+          items={initialItems}
+          sortMode={sortMode}
+          emptyMessage="No additives found for this origin."
+        />
+      )}
     </Box>
     </>
   );

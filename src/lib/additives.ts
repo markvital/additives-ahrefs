@@ -405,10 +405,21 @@ const buildCacheBundle = (): AdditiveCacheBundle => {
 };
 
 let cacheBundle: AdditiveCacheBundle | null = null;
+let devCacheBundle: { bundle: AdditiveCacheBundle; createdAt: number } | null = null;
+const DEV_CACHE_TTL_MS = 5_000;
 
 const getCacheBundle = (): AdditiveCacheBundle => {
   if (isDevelopment) {
-    return buildCacheBundle();
+    const now = Date.now();
+
+    if (!devCacheBundle || now - devCacheBundle.createdAt > DEV_CACHE_TTL_MS) {
+      devCacheBundle = {
+        bundle: buildCacheBundle(),
+        createdAt: now,
+      };
+    }
+
+    return devCacheBundle.bundle;
   }
 
   if (!cacheBundle) {
@@ -482,3 +493,33 @@ export const getAdditivesByOriginSlug = (slug: string): Additive[] => {
 
   return cache.additives.filter((item) => item.origin.includes(value));
 };
+
+export type AdditiveGridItem = Pick<
+  Additive,
+  | 'slug'
+  | 'title'
+  | 'eNumber'
+  | 'functions'
+  | 'origin'
+  | 'searchSparkline'
+  | 'searchVolume'
+  | 'searchRank'
+  | 'productCount'
+  | 'childSlugs'
+>;
+
+export const toAdditiveGridItem = (additive: Additive): AdditiveGridItem => ({
+  slug: additive.slug,
+  title: additive.title,
+  eNumber: additive.eNumber,
+  functions: [...additive.functions],
+  origin: [...additive.origin],
+  searchSparkline: [...additive.searchSparkline],
+  searchVolume: additive.searchVolume,
+  searchRank: additive.searchRank,
+  productCount: additive.productCount,
+  childSlugs: [...additive.childSlugs],
+});
+
+export const mapAdditivesToGridItems = (items: Additive[]): AdditiveGridItem[] =>
+  items.map((item) => toAdditiveGridItem(item));

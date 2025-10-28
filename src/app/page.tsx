@@ -1,7 +1,7 @@
 import { Suspense } from 'react';
 import { Box, Typography } from '@mui/material';
 
-import { AdditiveGrid } from '../components/AdditiveGrid';
+import { AdditiveGridInfinite } from '../components/AdditiveGridInfinite';
 import { FilterPanel } from '../components/FilterPanel';
 import {
   getAdditives,
@@ -11,6 +11,7 @@ import {
   parseAdditiveSortMode,
   parseShowClassesParam,
   sortAdditivesByMode,
+  mapAdditivesToGridItems,
 } from '../lib/additives';
 import { formatFilterLabel } from '../lib/text';
 import { formatFunctionLabel } from '../lib/additive-format';
@@ -35,6 +36,9 @@ export default async function HomePage({ searchParams }: HomePageProps) {
   const showClasses = parseShowClassesParam(resolvedSearchParams?.classes ?? null);
   const filteredAdditives = filterAdditivesByClassVisibility(additives, showClasses);
   const sortedAdditives = sortAdditivesByMode(filteredAdditives, sortMode);
+  const chunkSize = 50;
+  const totalCount = sortedAdditives.length;
+  const initialItems = mapAdditivesToGridItems(sortedAdditives.slice(0, chunkSize));
 
   return (
     <Box component="section" display="flex" flexDirection="column" gap={4}>
@@ -56,7 +60,13 @@ export default async function HomePage({ searchParams }: HomePageProps) {
           currentShowClasses={showClasses}
         />
       </Suspense>
-      <AdditiveGrid items={sortedAdditives} sortMode={sortMode} />
+      <AdditiveGridInfinite
+        initialItems={initialItems}
+        totalCount={totalCount}
+        sortMode={sortMode}
+        showClasses={showClasses}
+        chunkSize={chunkSize}
+      />
     </Box>
   );
 }
