@@ -11,7 +11,7 @@ import {
   type ReactNode,
 } from 'react';
 import { usePathname, useRouter } from 'next/navigation';
-import { Box, Dialog, DialogContent, DialogTitle, Divider, IconButton, Stack, Typography, useMediaQuery } from '@mui/material';
+import { Box, Dialog, DialogContent, DialogTitle, Divider, IconButton, Stack, Tooltip, Typography, useMediaQuery } from '@mui/material';
 import AddIcon from '@mui/icons-material/Add';
 import CloseIcon from '@mui/icons-material/Close';
 import { DndContext, PointerSensor, useDroppable, useSensor, useSensors, type DragEndEvent } from '@dnd-kit/core';
@@ -60,11 +60,13 @@ export function CompareFlapProvider({ additives, children }: CompareFlapProvider
   const [isOpen, setIsOpen] = useState(false);
   const [activeDropIndex, setActiveDropIndex] = useState<number | null>(null);
   const lastNavigatedPairRef = useRef<string | null>(null);
+  const lastPrefilledSlugRef = useRef<string | null>(null);
 
   const selectSlot = useCallback(
     (index: number, slug: string | null) => {
       setSlots((prev) => {
         const next: SlotState = [...prev];
+        let changed = false;
 
         if (slug) {
           if (!additiveMap.has(slug)) {
@@ -75,11 +77,26 @@ export function CompareFlapProvider({ additives, children }: CompareFlapProvider
 
           if (next[otherIndex] === slug) {
             next[otherIndex] = null;
+            changed = true;
           }
 
-          next[index] = slug;
+          if (next[index] !== slug) {
+            next[index] = slug;
+            changed = true;
+          }
         } else {
-          next[index] = null;
+          if (next[index] !== null) {
+            next[index] = null;
+            changed = true;
+          }
+        }
+
+        if (!changed) {
+          return prev;
+        }
+
+        if (index === 0) {
+          lastPrefilledSlugRef.current = next[0];
         }
 
         return next;
@@ -90,12 +107,24 @@ export function CompareFlapProvider({ additives, children }: CompareFlapProvider
 
   const prefillSlot = useCallback(
     (slug: string) => {
+      if (!additiveMap.has(slug)) {
+        return;
+      }
+
       setSlots((prev) => {
-        if (prev[0] || prev[1] || !additiveMap.has(slug)) {
+        const next: SlotState = [...prev];
+
+        if (next[0] === slug && lastPrefilledSlugRef.current === slug) {
           return prev;
         }
 
-        const next: SlotState = [slug, prev[1]];
+        next[0] = slug;
+
+        if (next[1] === slug) {
+          next[1] = null;
+        }
+
+        lastPrefilledSlugRef.current = slug;
 
         return next;
       });
@@ -241,8 +270,9 @@ function CompareFlapUI() {
   const rightAdditive = slots[1] ? getAdditiveBySlug(slots[1]) : null;
 
   const isComparePage = pathname?.startsWith('/compare');
+  const isAboutPage = pathname === '/about';
 
-  if (isComparePage) {
+  if (isComparePage || isAboutPage) {
     return null;
   }
 
@@ -264,28 +294,31 @@ function CompareFlapUI() {
         left: 0,
         right: 0,
         bottom: 0,
-        zIndex: 1200,
         pointerEvents: 'none',
+        zIndex: (muiTheme) => muiTheme.zIndex.drawer + 1,
       }}
     >
       <Box
         sx={{
-          maxWidth: 1280,
-          mx: 'auto',
-          px: { xs: 1.5, sm: 2.5 },
-          pb: { xs: 1.5, sm: 2 },
+          display: 'flex',
+          justifyContent: 'center',
           pointerEvents: 'none',
         }}
       >
         <Box
           sx={{
+            pointerEvents: 'auto',
+            width: 'calc(100% - 24px)',
+            maxWidth: 320,
+            minWidth: 240,
             borderRadius: '16px 16px 0 0',
-            boxShadow: '0px -8px 24px rgba(0, 0, 0, 0.1)',
-            backgroundColor: 'background.paper',
             border: '1px solid',
             borderColor: 'divider',
+            borderBottomWidth: 0,
+            backgroundColor: 'background.paper',
+            boxShadow: '0px -10px 28px rgba(0, 0, 0, 0.18)',
             overflow: 'hidden',
-            pointerEvents: 'auto',
+            transform: 'translateZ(0)',
           }}
         >
           <Box
@@ -303,7 +336,7 @@ function CompareFlapUI() {
               alignItems: 'center',
               justifyContent: 'center',
               position: 'relative',
-              minHeight: 56,
+              minHeight: 48,
               cursor: 'pointer',
               px: 3,
             }}
@@ -311,9 +344,9 @@ function CompareFlapUI() {
             <Typography
               variant="subtitle1"
               sx={{
-                textTransform: 'uppercase',
-                letterSpacing: 2,
                 fontWeight: 600,
+                letterSpacing: 1.5,
+                textTransform: 'lowercase',
               }}
             >
               compare
@@ -327,7 +360,7 @@ function CompareFlapUI() {
               size="small"
               sx={{
                 position: 'absolute',
-                right: 8,
+                right: 6,
                 top: '50%',
                 transform: 'translateY(-50%)',
               }}
@@ -339,59 +372,73 @@ function CompareFlapUI() {
             sx={{
               maxHeight: isOpen ? 320 : 0,
               opacity: isOpen ? 1 : 0,
-              transition: 'max-height 240ms ease, opacity 200ms ease',
+              transition: 'max-height 260ms ease, opacity 200ms ease',
               overflow: 'hidden',
             }}
           >
-            <Stack spacing={2} sx={{ px: { xs: 2, sm: 3 }, pb: { xs: 2.5, sm: 3 } }}>
-              {showHint ? (
-                <Box
-                  sx={{
-                    alignSelf: 'center',
-                    bgcolor: 'grey.900',
-                    color: 'common.white',
-                    px: 2,
-                    py: 1,
-                    borderRadius: 2,
-                    fontSize: 14,
-                    textAlign: 'center',
-                    boxShadow: '0 6px 12px rgba(0, 0, 0, 0.2)',
-                  }}
-                >
-                  drag & drop cards here or click on slots to select additive
-                </Box>
-              ) : null}
-              <Stack
-                direction={isMobile ? 'column' : 'row'}
-                spacing={isMobile ? 1.5 : 2}
-                alignItems="stretch"
-                divider={
-                  <Divider
-                    orientation={isMobile ? 'horizontal' : 'vertical'}
-                    flexItem
-                    sx={{ borderColor: 'grey.300' }}
-                  />
-                }
+            <Stack spacing={2.5} sx={{ px: { xs: 2.5, sm: 3 }, pb: { xs: 2.5, sm: 3 }, pt: 2 }}>
+              <Tooltip
+                arrow
+                open={showHint}
+                placement="top"
+                disableFocusListener
+                disableHoverListener
+                disableTouchListener
+                title="drag & drop cards here or click on slots to select additive"
+                slotProps={{
+                  tooltip: {
+                    sx: {
+                      bgcolor: 'grey.900',
+                      color: 'common.white',
+                      fontSize: 13,
+                      px: 2,
+                      py: 1,
+                      textAlign: 'center',
+                      boxShadow: '0 6px 12px rgba(0, 0, 0, 0.28)',
+                      borderRadius: 1.5,
+                      maxWidth: 220,
+                    },
+                  },
+                  arrow: {
+                    sx: {
+                      color: 'grey.900',
+                    },
+                  },
+                }}
               >
-                <Slot
-                  index={0}
-                  additive={leftAdditive}
-                  isHighlighted={activeDropIndex === 0}
-                  onClick={() => {
-                    open();
-                    handleOpenSlot(0);
-                  }}
-                />
-                <Slot
-                  index={1}
-                  additive={rightAdditive}
-                  isHighlighted={activeDropIndex === 1}
-                  onClick={() => {
-                    open();
-                    handleOpenSlot(1);
-                  }}
-                />
-              </Stack>
+                <Stack
+                  direction={isMobile ? 'column' : 'row'}
+                  spacing={isMobile ? 1.5 : 2}
+                  alignItems="stretch"
+                  sx={{ width: '100%' }}
+                  divider={
+                    <Divider
+                      orientation={isMobile ? 'horizontal' : 'vertical'}
+                      flexItem
+                      sx={{ borderColor: 'grey.300' }}
+                    />
+                  }
+                >
+                  <Slot
+                    index={0}
+                    additive={leftAdditive}
+                    isHighlighted={activeDropIndex === 0}
+                    onClick={() => {
+                      open();
+                      handleOpenSlot(0);
+                    }}
+                  />
+                  <Slot
+                    index={1}
+                    additive={rightAdditive}
+                    isHighlighted={activeDropIndex === 1}
+                    onClick={() => {
+                      open();
+                      handleOpenSlot(1);
+                    }}
+                  />
+                </Stack>
+              </Tooltip>
             </Stack>
           </Box>
         </Box>
@@ -473,20 +520,26 @@ function Slot({ index, additive, isHighlighted, onClick }: SlotProps) {
       }}
       sx={{
         flex: 1,
-        minHeight: 108,
-        borderRadius: 3,
-        border: '2px dashed',
-        borderColor: showHighlight ? 'primary.main' : additive ? 'divider' : 'grey.400',
-        bgcolor: additive ? 'grey.100' : 'transparent',
+        minHeight: 96,
+        borderRadius: '14px',
+        border: '1.5px dashed',
+        borderColor: showHighlight ? 'primary.main' : additive ? 'grey.400' : 'grey.500',
+        bgcolor: additive ? 'grey.100' : 'rgba(255, 255, 255, 0.8)',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
         position: 'relative',
-        transition: 'border-color 160ms ease, background-color 160ms ease, box-shadow 160ms ease',
+        transition: 'border-color 180ms ease, background-color 180ms ease, box-shadow 180ms ease',
         cursor: 'pointer',
-        boxShadow: showHighlight ? '0 0 0 3px rgba(25, 118, 210, 0.25)' : undefined,
+        boxShadow: showHighlight
+          ? '0 0 0 3px rgba(25, 118, 210, 0.25)'
+          : 'inset 0 0 0 1px rgba(0, 0, 0, 0.04)',
         textAlign: 'center',
         px: { xs: 2, sm: 3 },
+        outline: 'none',
+        '&:focus-visible': {
+          boxShadow: '0 0 0 3px rgba(25, 118, 210, 0.3)',
+        },
       }}
     >
       {additive ? (
@@ -495,7 +548,7 @@ function Slot({ index, additive, isHighlighted, onClick }: SlotProps) {
           component="span"
           sx={{
             fontWeight: 700,
-            letterSpacing: 1,
+            letterSpacing: 0.5,
           }}
         >
           {additive.eNumber || additive.title}
@@ -504,19 +557,21 @@ function Slot({ index, additive, isHighlighted, onClick }: SlotProps) {
         <Stack spacing={1} alignItems="center" justifyContent="center">
           <Box
             sx={{
-              width: 40,
-              height: 40,
+              width: 36,
+              height: 36,
               borderRadius: '50%',
-              bgcolor: 'grey.200',
+              bgcolor: 'grey.100',
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
               color: 'grey.600',
+              border: '1px solid',
+              borderColor: 'grey.400',
             }}
           >
             <AddIcon />
           </Box>
-          <Typography variant="body2" color="text.secondary">
+          <Typography variant="caption" color="text.secondary" sx={{ fontWeight: 500 }}>
             Add additive
           </Typography>
         </Stack>

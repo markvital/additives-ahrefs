@@ -149,13 +149,25 @@ function AdditiveGridItem({ additive, index, sortMode, dragEnabled }: AdditiveGr
     disabled: !dragEnabled,
   });
 
-  const dragStyles = transform
+  const transformStyles = transform
     ? {
         transform: CSS.Translate.toString(transform),
         transition: isDragging ? 'none' : undefined,
-        boxShadow: isDragging ? theme.shadows[6] : undefined,
+        willChange: 'transform',
       }
-    : undefined;
+    : {};
+
+  const draggingStyles = isDragging
+    ? {
+        boxShadow: theme.shadows[8],
+        cursor: 'grabbing',
+        zIndex: theme.zIndex.tooltip + 1,
+        position: 'relative' as const,
+        pointerEvents: 'none' as const,
+      }
+    : {};
+
+  const dragStyles = { ...transformStyles, ...draggingStyles };
 
   return (
     <Card
