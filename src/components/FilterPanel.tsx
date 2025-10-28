@@ -274,9 +274,9 @@ export function FilterPanel({
               value={currentSortValue}
               onChange={handleSortChange}
             >
-              <MenuItem value="search-rank">Search rank</MenuItem>
-              <MenuItem value="awareness">Awareness score</MenuItem>
               <MenuItem value="products">Products</MenuItem>
+              <MenuItem value="awareness">Awareness score</MenuItem>
+              <MenuItem value="search-rank">Search rank</MenuItem>
             </Select>
           </FormControl>
 

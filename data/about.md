@@ -36,23 +36,38 @@ To keep rare additives from producing extreme values we apply Laplace smoothing 
 
 **Calculation**
 
-First we compute the baseline searches per product across all additives:
+Overall Awareness Score formula:
 
 $$
-r_{\text{base}} = \frac{\sum_i S_i}{\sum_i P_i}
+R_i = \frac{S_i + \alpha \cdot r_{\text{base}}}{(P_i + \alpha) \cdot r_{\text{base}}}
 $$
 
-Each additive receives smoothed counts that blend the observed data with the baseline expectation:
+Where:
 
-$$
-S'_i = S_i + \alpha \cdot r_{\text{base}}, \quad P'_i = P_i + \alpha, \quad r_i = \frac{S'_i}{P'_i}
-$$
+- $S_i$ — monthly search volume for additive *i*.
+- $P_i$ — product count for additive *i*.
+- $\alpha$ — the Laplace smoothing constant (set to 5).
+- $r_{\text{base}}$ — the baseline searches-per-product rate for the full dataset.
 
-Finally, the Awareness Score is the ratio of the smoothed searches-per-product against the baseline:
+Step-by-step:
 
-$$
-R_i = \frac{r_i}{r_{\text{base}}}
-$$
+1. Compute the baseline searches per product across all qualifying additives:
+
+   $$
+   r_{\text{base}} = \frac{\sum_i S_i}{\sum_i P_i}
+   $$
+
+2. Smooth each additive’s observed counts with the baseline expectation:
+
+   $$
+   S'_i = S_i + \alpha \cdot r_{\text{base}}, \quad P'_i = P_i + \alpha, \quad r_i = \frac{S'_i}{P'_i}
+   $$
+
+3. Divide the smoothed searches-per-product ratio by the baseline to obtain the Awareness Score:
+
+   $$
+   R_i = \frac{r_i}{r_{\text{base}}}
+   $$
 
 When we need a log-scaled view for colour or sorting we take the base-10 logarithm of the index:
 

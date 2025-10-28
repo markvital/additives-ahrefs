@@ -73,7 +73,15 @@ const buildTooltipContent = (index: number, formattedIndex: string) => {
       </Typography>
       <Typography component="span" variant="body2">
         Compares searches to usage. ×1.0 = normal; above 1 = over-aware; below 1 = under-aware.{' '}
-        <MuiLink href="/about#awareness_score" underline="always" color="inherit" sx={{ fontWeight: 600 }}>
+        <MuiLink
+          href="/about#awareness_score"
+          underline="always"
+          color="inherit"
+          sx={{ fontWeight: 600 }}
+          onClick={(event) => {
+            event.stopPropagation();
+          }}
+        >
           read more
         </MuiLink>
       </Typography>
@@ -117,11 +125,19 @@ export function AwarenessScoreChip({
 
   return (
     <Box sx={wrapperSx}>
-      <Tooltip title={tooltipContent} arrow enterTouchDelay={0} leaveTouchDelay={1500}>
+      <Tooltip
+        title={tooltipContent}
+        arrow
+        enterTouchDelay={0}
+        leaveTouchDelay={1500}
+        disableInteractive={false}
+        slotProps={{ tooltip: { sx: { pointerEvents: 'auto' } } }}
+      >
         <Chip
           size={size}
           label={label}
           onClick={(event: SyntheticEvent) => {
+            event.preventDefault();
             event.stopPropagation();
           }}
           onPointerDown={(event: SyntheticEvent) => {
@@ -131,6 +147,10 @@ export function AwarenessScoreChip({
             event.stopPropagation();
           }}
           onTouchStart={(event: SyntheticEvent) => {
+            event.stopPropagation();
+          }}
+          onTouchEnd={(event: SyntheticEvent) => {
+            event.preventDefault();
             event.stopPropagation();
           }}
           sx={{

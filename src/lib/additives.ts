@@ -245,15 +245,43 @@ const compareByProductCount = (a: Additive, b: Additive): number => {
   return bCount - aCount;
 };
 
+const normaliseAwarenessIndex = (value: number | null | undefined): number | null => {
+  if (typeof value !== 'number' || !Number.isFinite(value)) {
+    return null;
+  }
+
+  if (value <= 0) {
+    return 0;
+  }
+
+  return value;
+};
+
 const compareByAwarenessScore = (a: Additive, b: Additive): number => {
-  const aIndex = typeof a.awarenessScore?.index === 'number' ? a.awarenessScore.index : Number.NEGATIVE_INFINITY;
-  const bIndex = typeof b.awarenessScore?.index === 'number' ? b.awarenessScore.index : Number.NEGATIVE_INFINITY;
+  const aIndex = normaliseAwarenessIndex(a.awarenessScore?.index ?? null);
+  const bIndex = normaliseAwarenessIndex(b.awarenessScore?.index ?? null);
+
+  const aHasScore = aIndex !== null;
+  const bHasScore = bIndex !== null;
+
+  if (!aHasScore && !bHasScore) {
+    return compareByProductCount(a, b);
+  }
+
+  if (aHasScore && !bHasScore) {
+    return -1;
+  }
+
+  if (!aHasScore && bHasScore) {
+    return 1;
+  }
 
   if (aIndex === bIndex) {
     return compareByProductCount(a, b);
   }
 
-  return bIndex - aIndex;
+  // At this point both indices are non-null numbers. Sort ascending so lower awareness surfaces first.
+  return (aIndex as number) - (bIndex as number);
 };
 
 export const parseAdditiveSortMode = (
