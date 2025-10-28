@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 import { Box, Typography } from '@mui/material';
 
 import { AdditiveGrid } from '../components/AdditiveGrid';
@@ -52,12 +53,14 @@ export default async function HomePage({ searchParams }: HomePageProps) {
         </Typography>
       </Box>
 
-      <FilterPanel
-        functionOptions={functionOptions}
-        originOptions={originOptions}
-        currentSortMode={sortMode}
-        currentShowClasses={showClasses}
-      />
+      <Suspense fallback={null}>
+        <FilterPanel
+          functionOptions={functionOptions}
+          originOptions={originOptions}
+          currentSortMode={sortMode}
+          currentShowClasses={showClasses}
+        />
+      </Suspense>
       <AdditiveGrid items={sortedAdditives} sortMode={sortMode} awarenessScores={awarenessResult.scores} />
     </Box>
   );

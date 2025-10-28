@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import NextLink from 'next/link';
@@ -160,13 +161,15 @@ export default async function FunctionPage({ params, searchParams }: FunctionPag
         </Typography>
       </Box>
 
-      <FilterPanel
-        functionOptions={functionOptions}
-        originOptions={originOptions}
-        currentFilter={{ type: 'function', slug: functionSlug }}
-        currentSortMode={sortMode}
-        currentShowClasses={showClasses}
-      />
+      <Suspense fallback={null}>
+        <FilterPanel
+          functionOptions={functionOptions}
+          originOptions={originOptions}
+          currentFilter={{ type: 'function', slug: functionSlug }}
+          currentSortMode={sortMode}
+          currentShowClasses={showClasses}
+        />
+      </Suspense>
       <AdditiveGrid
         items={sortedAdditives}
         sortMode={sortMode}
