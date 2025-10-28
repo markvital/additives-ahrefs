@@ -164,7 +164,21 @@ export function AdditiveLookup<TAdditive extends Additive>({
       filterOptions={(options) => options}
       slotProps={{
         popper: {
-          modifiers: [sameWidthModifier],
+          modifiers: [sameWidthModifier, { name: 'flip', enabled: false }],
+          placement: 'bottom-start',
+          disablePortal: true,
+        },
+        paper: {
+          sx: {
+            mt: 1,
+            borderRadius: 3,
+            boxShadow: '0px 16px 32px rgba(0, 0, 0, 0.14)',
+          },
+        },
+        listbox: {
+          sx: {
+            maxHeight: '288px',
+          },
         },
       }}
       onOpen={() => {
