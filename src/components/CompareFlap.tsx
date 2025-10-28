@@ -345,6 +345,7 @@ function CompareFlapUI() {
   const pathname = usePathname();
   const [activeSlotIndex, setActiveSlotIndex] = useState<number | null>(null);
   const [slotAnchorEl, setSlotAnchorEl] = useState<HTMLElement | null>(null);
+  const [slotReferenceEl, setSlotReferenceEl] = useState<HTMLElement | null>(null);
   const [hintAnchorEl, setHintAnchorEl] = useState<HTMLDivElement | null>(null);
   const [hintArrowEl, setHintArrowEl] = useState<HTMLDivElement | null>(null);
   const [selectorArrowEl, setSelectorArrowEl] = useState<HTMLDivElement | null>(null);
@@ -365,32 +366,28 @@ function CompareFlapUI() {
   useEffect(() => {
     if (activeSlotIndex === null) {
       setSlotAnchorEl(null);
+      setSlotReferenceEl(null);
     }
   }, [activeSlotIndex]);
 
+  const showHint =
+    isOpen &&
+    !leftAdditive &&
+    !rightAdditive &&
+    activeSlotIndex === null &&
+    !hasDismissedHint &&
+    !shouldHide;
+
   useEffect(() => {
-    if (hasDismissedHint || shouldHide) {
+    if (!showHint) {
       return;
     }
 
-    let ignoreNextPointer = true;
-    let ignoreNextKey = true;
-
     const handlePointerDown = () => {
-      if (ignoreNextPointer) {
-        ignoreNextPointer = false;
-        return;
-      }
-
       dismissHint();
     };
 
     const handleKeyDown = () => {
-      if (ignoreNextKey) {
-        ignoreNextKey = false;
-        return;
-      }
-
       dismissHint();
     };
 
@@ -401,9 +398,7 @@ function CompareFlapUI() {
       window.removeEventListener('pointerdown', handlePointerDown);
       window.removeEventListener('keydown', handleKeyDown);
     };
-  }, [dismissHint, hasDismissedHint, shouldHide]);
-
-  const showHint = isOpen && !leftAdditive && !rightAdditive && activeSlotIndex === null && !hasDismissedHint;
+  }, [dismissHint, showHint]);
 
   const handleToggle = () => {
     toggle();
@@ -413,17 +408,25 @@ function CompareFlapUI() {
     dismissHint();
     close();
     setActiveSlotIndex(null);
+    setSlotAnchorEl(null);
+    setSlotReferenceEl(null);
   };
 
-  const handleOpenSlot = (index: number, element: HTMLElement) => {
+  const handleOpenSlot = (
+    index: number,
+    elements: { anchorEl: HTMLElement | null; slotEl: HTMLElement },
+  ) => {
     dismissHint();
     openFlap();
     setActiveSlotIndex(index);
-    setSlotAnchorEl(element);
+    setSlotAnchorEl(elements.anchorEl ?? elements.slotEl);
+    setSlotReferenceEl(elements.slotEl);
   };
 
   const handleCloseSelector = useCallback(() => {
     setActiveSlotIndex(null);
+    setSlotAnchorEl(null);
+    setSlotReferenceEl(null);
   }, []);
 
   useEffect(() => {
@@ -460,7 +463,7 @@ function CompareFlapUI() {
 
   const hintModifiers = useMemo(() => {
     const modifiers: any[] = [
-      { name: 'offset', options: { offset: [0, 14] } },
+      { name: 'offset', options: { offset: [0, 12] } },
       { name: 'flip', enabled: false },
     ];
 
@@ -495,7 +498,6 @@ function CompareFlapUI() {
         }}
       >
         <Box
-          ref={setHintAnchorEl}
           sx={{
             pointerEvents: 'auto',
             width: isOpen ? 'min(250px, calc(100vw - 24px))' : '100px',
@@ -509,8 +511,21 @@ function CompareFlapUI() {
             overflow: 'hidden',
             transform: 'translateZ(0)',
             maxWidth: 'min(250px, calc(100vw - 24px))',
+            position: 'relative',
           }}
         >
+          <Box
+            ref={setHintAnchorEl}
+            sx={{
+              position: 'absolute',
+              top: 0,
+              left: '50%',
+              width: 0,
+              height: 0,
+              transform: 'translateX(-50%)',
+              pointerEvents: 'none',
+            }}
+          />
           <Box
             role="button"
             tabIndex={0}
@@ -590,16 +605,16 @@ function CompareFlapUI() {
                   index={0}
                   additive={leftAdditive}
                   isHighlighted={activeDropIndex === 0}
-                  onSelect={(element) => {
-                    handleOpenSlot(0, element);
+                  onSelect={(payload) => {
+                    handleOpenSlot(0, payload);
                   }}
                 />
                 <Slot
                   index={1}
                   additive={rightAdditive}
                   isHighlighted={activeDropIndex === 1}
-                  onSelect={(element) => {
-                    handleOpenSlot(1, element);
+                  onSelect={(payload) => {
+                    handleOpenSlot(1, payload);
                   }}
                 />
               </Stack>
@@ -658,7 +673,7 @@ function CompareFlapUI() {
       >
         <ClickAwayListener
           onClickAway={(event) => {
-            if (slotAnchorEl && slotAnchorEl.contains(event.target as Node)) {
+            if (slotReferenceEl && slotReferenceEl.contains(event.target as Node)) {
               return;
             }
             handleCloseSelector();
@@ -671,7 +686,6 @@ function CompareFlapUI() {
                 width: 360,
                 maxWidth: 'calc(100vw - 32px)',
                 minWidth: 280,
-                borderRadius: '35px',
                 px: { xs: 2.5, sm: 3 },
                 pt: { xs: 3, sm: 3.5 },
                 pb: { xs: 3, sm: 3.5 },
@@ -680,13 +694,10 @@ function CompareFlapUI() {
                 display: 'flex',
                 flexDirection: 'column',
                 boxShadow: '0px 12px 32px rgba(0, 0, 0, 0.28)',
-                overflow: 'hidden',
+                overflow: 'visible',
               }}
             >
-              <Typography variant="subtitle1" sx={{ fontWeight: 600, mb: 1.5 }}>
-                Select additive
-              </Typography>
-              <Box sx={{ flexGrow: 1, display: 'flex', flexDirection: 'column' }}>
+              <Box sx={{ flexGrow: 1, display: 'flex', flexDirection: 'column', gap: 2 }}>
                 <AdditiveLookup
                   additives={additives}
                   value={
@@ -718,9 +729,12 @@ function CompareFlapUI() {
                   clearOnSelect
                   showPopupIcon={false}
                   textFieldProps={{
-                    label: 'Select additive',
-                    placeholder: 'Start typing to search',
+                    label: undefined,
+                    placeholder: 'Search additives',
                     fullWidth: true,
+                    inputProps: {
+                      'aria-label': 'Search additives',
+                    },
                   }}
                 />
               </Box>
@@ -729,14 +743,14 @@ function CompareFlapUI() {
               ref={setSelectorArrowEl}
               sx={{
                 position: 'absolute',
-                bottom: -14,
+                bottom: -18,
                 left: '50%',
                 width: 0,
                 height: 0,
                 transform: 'translateX(-50%)',
-                borderLeft: '14px solid transparent',
-                borderRight: '14px solid transparent',
-                borderTop: '14px solid',
+                borderLeft: '16px solid transparent',
+                borderRight: '16px solid transparent',
+                borderTop: '18px solid',
                 borderTopColor: 'background.paper',
                 filter: 'drop-shadow(0px 12px 32px rgba(0, 0, 0, 0.18))',
               }}
@@ -763,17 +777,23 @@ function ScreenMatte() {
   );
 }
 
+interface SlotSelectPayload {
+  anchorEl: HTMLElement | null;
+  slotEl: HTMLElement;
+}
+
 interface SlotProps {
   index: number;
   additive: Additive | null;
   isHighlighted: boolean;
-  onSelect: (element: HTMLElement) => void;
+  onSelect: (payload: SlotSelectPayload) => void;
 }
 
 function Slot({ index, additive, isHighlighted, onSelect }: SlotProps) {
   const droppable = useDroppable({ id: `compare-slot-${index}` });
   const isOver = droppable.isOver;
   const showHighlight = isOver || isHighlighted;
+  const anchorRef = useRef<HTMLDivElement | null>(null);
 
   return (
     <Box
@@ -782,12 +802,18 @@ function Slot({ index, additive, isHighlighted, onSelect }: SlotProps) {
       tabIndex={0}
       data-compare-slot={index}
       onClick={(event) => {
-        onSelect(event.currentTarget as HTMLElement);
+        onSelect({
+          anchorEl: anchorRef.current,
+          slotEl: event.currentTarget as HTMLElement,
+        });
       }}
       onKeyDown={(event) => {
         if (event.key === 'Enter' || event.key === ' ') {
           event.preventDefault();
-          onSelect(event.currentTarget as HTMLElement);
+          onSelect({
+            anchorEl: anchorRef.current,
+            slotEl: event.currentTarget as HTMLElement,
+          });
         }
       }}
       sx={{
@@ -814,6 +840,18 @@ function Slot({ index, additive, isHighlighted, onSelect }: SlotProps) {
         },
       }}
     >
+      <Box
+        ref={anchorRef}
+        sx={{
+          position: 'absolute',
+          top: 0,
+          left: '50%',
+          width: 0,
+          height: 0,
+          transform: 'translateX(-50%)',
+          pointerEvents: 'none',
+        }}
+      />
       {additive ? (
         <Typography
           variant="h5"

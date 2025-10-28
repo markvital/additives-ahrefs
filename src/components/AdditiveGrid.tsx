@@ -181,7 +181,7 @@ function AdditiveGridItem({ additive, index, sortMode, dragEnabled, compareDragg
         display: 'flex',
         flexDirection: 'column',
         cursor: dragEnabled ? 'grab' : 'pointer',
-        touchAction: dragEnabled ? 'none' : undefined,
+        touchAction: isDragging ? 'none' : undefined,
         pointerEvents: compareDragging && !isDragging ? 'none' : 'auto',
         ...dragStyles,
       }}
