@@ -11,6 +11,7 @@ import {
   parseAdditiveSortMode,
   parseShowClassesParam,
   sortAdditivesByMode,
+  getAwarenessScores,
 } from '../lib/additives';
 import { formatFilterLabel } from '../lib/text';
 import { formatFunctionLabel } from '../lib/additive-format';
@@ -26,7 +27,10 @@ const originOptions = getOriginFilters().map(({ slug, value }) => ({
 }));
 
 interface HomePageProps {
-  searchParams?: Promise<{ sort?: string | string[]; classes?: string | string[] }>;
+  searchParams?: Promise<{
+    sort?: string | string[];
+    classes?: string | string[];
+  }>;
 }
 
 export default async function HomePage({ searchParams }: HomePageProps) {
@@ -35,6 +39,7 @@ export default async function HomePage({ searchParams }: HomePageProps) {
   const showClasses = parseShowClassesParam(resolvedSearchParams?.classes ?? null);
   const filteredAdditives = filterAdditivesByClassVisibility(additives, showClasses);
   const sortedAdditives = sortAdditivesByMode(filteredAdditives, sortMode);
+  const awarenessResult = getAwarenessScores();
 
   return (
     <Box component="section" display="flex" flexDirection="column" gap={4}>
@@ -56,7 +61,7 @@ export default async function HomePage({ searchParams }: HomePageProps) {
           currentShowClasses={showClasses}
         />
       </Suspense>
-      <AdditiveGrid items={sortedAdditives} sortMode={sortMode} />
+      <AdditiveGrid items={sortedAdditives} sortMode={sortMode} awarenessScores={awarenessResult.scores} />
     </Box>
   );
 }

@@ -22,6 +22,59 @@ The **Codex Alimentarius Commission** maintains the *International Numbering Sy
 
 Individual additive pages link to authoritative documents—such as U.S. **CFR** entries, the **USDA** list of safe ingredients, **EU** regulations and **EFSA** safety evaluations—to support statements about manufacturing, permitted uses and safety. The catalogue is informational and not a substitute for professional advice.
 
+### Awareness Score
+
+Awareness Score compares how often people search for an additive with how frequently it appears in products. Scores near ×1.00 mean search interest and product usage are aligned. When the index rises above roughly ×1.25 the additive is searched far more often than expected (an “over-aware” signal), while values below ×0.80 reveal additives that are widely used but under‑searched.
+
+To keep rare additives from producing extreme values we apply Laplace smoothing with a weight of α = 5 before computing the search-per-product ratio, and we map the logarithm of the score to colour intensity so the chip stays readable across large ranges. The optional log scaling only affects visual sorting and colour, not the numeric label.
+
+**How to read it**
+
+- ×1.00 ≈ typical awareness (searches track usage).
+- ×1.25 and above → searched much more than it appears (over-aware or buzzy).
+- ×0.80 and below → used widely but searched less than expected (under-aware).
+
+**Calculation**
+
+Overall Awareness Score formula:
+
+$$
+R_i = \frac{S_i + \alpha \cdot r_{\text{base}}}{(P_i + \alpha) \cdot r_{\text{base}}}
+$$
+
+Where:
+
+- $S_i$ — monthly search volume for additive *i*.
+- $P_i$ — product count for additive *i*.
+- $\alpha$ — the Laplace smoothing constant (set to 5).
+- $r_{\text{base}}$ — the baseline searches-per-product rate for the full dataset.
+
+Step-by-step:
+
+1. Compute the baseline searches per product across all qualifying additives:
+
+   $$
+   r_{\text{base}} = \frac{\sum_i S_i}{\sum_i P_i}
+   $$
+
+2. Smooth each additive’s observed counts with the baseline expectation:
+
+   $$
+   S'_i = S_i + \alpha \cdot r_{\text{base}}, \quad P'_i = P_i + \alpha, \quad r_i = \frac{S'_i}{P'_i}
+   $$
+
+3. Divide the smoothed searches-per-product ratio by the baseline to obtain the Awareness Score:
+
+   $$
+   R_i = \frac{r_i}{r_{\text{base}}}
+   $$
+
+When we need a log-scaled view for colour or sorting we take the base-10 logarithm of the index:
+
+$$
+L_i = \log_{10}(R_i)
+$$
+
 ## Navigating the interface
 
 - **Browse & filter:** Use the search bar to look up an additive by name or **E‑number**. Filters allow you to narrow results by [origin](/origin) or [function](/function), and a sort option lets you order cards by product count or search interest. A *“parent E”* toggle groups sub‑classes under their parent E‑number.

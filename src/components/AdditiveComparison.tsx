@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
 import { Box, Button, Chip, Stack, Typography } from '@mui/material';
@@ -12,6 +12,8 @@ import type { SearchHistoryDataset } from '../lib/search-history';
 import { MarkdownArticle } from './MarkdownArticle';
 import { AdditiveLookup } from './AdditiveLookup';
 import { SearchHistoryChart } from './SearchHistoryChart';
+import type { AwarenessScoreResult } from '../lib/awareness';
+import { AwarenessScoreChip } from './AwarenessScoreChip';
 
 interface ComparisonAdditive extends Additive {
   searchHistory: SearchHistoryDataset | null;
@@ -20,6 +22,7 @@ interface ComparisonAdditive extends Additive {
 interface AdditiveComparisonProps {
   additives: ComparisonAdditive[];
   initialSelection: [string | null, string | null];
+  awarenessScores: Record<string, AwarenessScoreResult>;
 }
 
 interface SelectionState {
@@ -121,32 +124,6 @@ const renderOriginContent = (additive: ComparisonAdditive | null) => {
         <Chip key={origin} label={formatOriginLabel(origin)} variant="outlined" size="small" />
       ))}
     </Stack>
-  );
-};
-
-const renderProductMetrics = (additive: ComparisonAdditive | null) => {
-  if (!additive) {
-    return null;
-  }
-
-  const productCount = typeof additive.productCount === 'number' ? additive.productCount : null;
-
-  if (productCount === null) {
-    return (
-      <Typography variant="body2" color="text.secondary">
-        Product data is not available.
-      </Typography>
-    );
-  }
-
-  const productLabel = formatProductCount(productCount);
-
-  return (
-    <Typography variant="body1" color="text.secondary" sx={{ fontVariantNumeric: 'tabular-nums' }}>
-      Found in <Box component="span" sx={{ fontWeight: 600 }}>
-        {productLabel} products
-      </Box>
-    </Typography>
   );
 };
 
@@ -328,7 +305,7 @@ const renderArticlePreview = (additive: ComparisonAdditive | null) => {
   );
 };
 
-export function AdditiveComparison({ additives, initialSelection }: AdditiveComparisonProps) {
+export function AdditiveComparison({ additives, initialSelection, awarenessScores }: AdditiveComparisonProps) {
   const router = useRouter();
   const pathname = usePathname();
 
@@ -404,6 +381,64 @@ export function AdditiveComparison({ additives, initialSelection }: AdditiveComp
       max: paddedMax,
     };
   }, [leftMetrics, rightMetrics]);
+
+  const renderProductMetrics = useCallback(
+    (additive: ComparisonAdditive | null) => {
+      if (!additive) {
+        return null;
+      }
+
+      const productCount = typeof additive.productCount === 'number' ? additive.productCount : null;
+      const awarenessScore = awarenessScores[additive.slug] ?? null;
+
+      if (productCount === null) {
+        return (
+          <Stack spacing={1}>
+            <Typography variant="body2" color="text.secondary">
+              Product data is not available.
+            </Typography>
+            {awarenessScore ? (
+              <Typography
+                variant="body2"
+                color="text.secondary"
+                sx={{ display: 'flex', alignItems: 'center', gap: 1 }}
+              >
+                <Box component="span" sx={{ fontWeight: 600 }}>
+                  Awareness:
+                </Box>
+                <AwarenessScoreChip score={awarenessScore} />
+              </Typography>
+            ) : null}
+          </Stack>
+        );
+      }
+
+      const productLabel = formatProductCount(productCount);
+
+      return (
+        <Stack spacing={1}>
+          <Typography variant="body1" color="text.secondary" sx={{ fontVariantNumeric: 'tabular-nums' }}>
+            Found in <Box component="span" sx={{ fontWeight: 600 }}>
+              {productLabel} products
+            </Box>
+          </Typography>
+          {awarenessScore ? (
+            <Typography
+              variant="body1"
+              color="text.secondary"
+              sx={{ display: 'flex', alignItems: 'center', gap: 1 }}
+            >
+              <Box component="span" sx={{ fontWeight: 600 }}>
+                Awareness:
+              </Box>
+              <AwarenessScoreChip score={awarenessScore} />
+            </Typography>
+          ) : null}
+        </Stack>
+      );
+    },
+    [awarenessScores],
+  );
 
   const overviewSummary = (additive: ComparisonAdditive | null) => {
     if (!additive) {
