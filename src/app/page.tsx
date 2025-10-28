@@ -87,6 +87,8 @@ const topFunctions = Array.from(functionCountMap.entries())
 
 const functionsHref = '/function';
 
+const highlightNumberSx = { fontWeight: 700, color: 'text.primary' } as const;
+
 interface HomePageProps {
   searchParams?: Promise<{ sort?: string | string[]; classes?: string | string[] }>;
 }
@@ -117,11 +119,23 @@ export default async function HomePage({ searchParams }: HomePageProps) {
             Food additives
           </Typography>
           <Typography variant="body1" color="text.secondary" sx={{ fontSize: { xs: '1.05rem', md: '1.15rem' } }}>
-            Compare data on {numberFormatter.format(additiveCount)} common food additives we found after analyzing
-            {' '}
-            {numberFormatter.format(817_713)} products from OFF and {numberFormatter.format(keywordCount)} keywords in
-            {' '}
-            the U.S. from 28+ billion keywords via{' '}
+            Compare data on{' '}
+            <Box component="span" sx={highlightNumberSx}>
+              {numberFormatter.format(additiveCount)}
+            </Box>{' '}
+            common food additives we found after analyzing{' '}
+            <Box component="span" sx={highlightNumberSx}>
+              {numberFormatter.format(817_713)}
+            </Box>{' '}
+            products from OFF and{' '}
+            <Box component="span" sx={highlightNumberSx}>
+              {numberFormatter.format(keywordCount)}
+            </Box>{' '}
+            keywords in the U.S. from{' '}
+            <Box component="span" sx={highlightNumberSx}>
+              28+ billion
+            </Box>{' '}
+            keywords via{' '}
             <MuiLink
               component={NextLink}
               href="https://ahrefs.com"
@@ -138,7 +152,7 @@ export default async function HomePage({ searchParams }: HomePageProps) {
         <Box flex={{ md: '0 0 33.3333%' }} maxWidth={{ md: '33.3333%' }} width="100%">
           <Box
             display="flex"
-            flexDirection={{ xs: 'column', md: 'row-reverse' }}
+            flexDirection={{ xs: 'column', md: 'row' }}
             alignItems={{ xs: 'flex-start', md: 'stretch' }}
             justifyContent={{ md: 'space-between' }}
             gap={{ xs: 1.5, md: 2.5 }}
@@ -161,29 +175,34 @@ export default async function HomePage({ searchParams }: HomePageProps) {
               Explore
             </MuiLink>
             <Box display="flex" flexDirection="column" gap={0.5} flex={1} minWidth={0}>
-              {topFunctions.map(({ slug, label, count }) => (
-                <MuiLink
-                  key={slug}
-                  component={NextLink}
-                  href={functionsHref}
-                  underline="none"
-                  sx={{
-                    display: 'inline-flex',
-                    alignItems: 'baseline',
-                    gap: 1,
-                    color: 'text.primary',
-                    fontWeight: 600,
-                    '&:hover': { color: 'primary.main' },
-                  }}
-                >
-                  <Typography component="span" variant="h6" sx={{ fontWeight: 700, lineHeight: 1.1 }}>
-                    {numberFormatter.format(count)}
-                  </Typography>
-                  <Typography component="span" variant="body1" sx={{ fontWeight: 500, lineHeight: 1.1 }}>
-                    {label.toLowerCase()}
-                  </Typography>
-                </MuiLink>
-              ))}
+              {topFunctions.map(({ slug, label, count }) => {
+                const lowerLabel = label.toLowerCase();
+                const pluralLabel = lowerLabel.endsWith('s') ? lowerLabel : `${lowerLabel}s`;
+
+                return (
+                  <MuiLink
+                    key={slug}
+                    component={NextLink}
+                    href={functionsHref}
+                    underline="none"
+                    sx={{
+                      display: 'inline-flex',
+                      alignItems: 'baseline',
+                      gap: 1,
+                      color: 'text.primary',
+                      fontWeight: 600,
+                      '&:hover': { color: 'primary.main' },
+                    }}
+                  >
+                    <Typography component="span" variant="h6" sx={{ fontWeight: 700, lineHeight: 1.1 }}>
+                      {numberFormatter.format(count)}
+                    </Typography>
+                    <Typography component="span" variant="body1" sx={{ fontWeight: 500, lineHeight: 1.1 }}>
+                      {pluralLabel}
+                    </Typography>
+                  </MuiLink>
+                );
+              })}
               <MuiLink
                 component={NextLink}
                 href={functionsHref}
