@@ -5,6 +5,14 @@ import additivesIndex from '../../data/additives.json';
 import { createAdditiveSlug } from './additive-slug';
 import { getSearchVolumeDataset } from './search-volume';
 import { getSearchHistory } from './search-history';
+import {
+  AwarenessComputationResult,
+  AwarenessScoreResult,
+  AwarenessSourceEntry,
+  calculateAwarenessScores,
+} from './awareness';
+
+const isDevelopment = process.env.NODE_ENV === 'development';
 
 export interface AdditivePropsFile {
   title?: string;
@@ -35,11 +43,12 @@ export interface Additive {
   searchVolume: number | null;
   searchRank: number | null;
   productCount: number | null;
+  awarenessScore: AwarenessScoreResult | null;
   parentSlugs: string[];
   childSlugs: string[];
 }
 
-export type AdditiveSortMode = 'search-rank' | 'product-count';
+export type AdditiveSortMode = 'search-rank' | 'product-count' | 'awareness';
 
 export const DEFAULT_ADDITIVE_SORT_MODE: AdditiveSortMode = 'product-count';
 
@@ -120,6 +129,7 @@ const readAdditiveProps = (
       searchVolume: null,
       searchRank: null,
       productCount: null,
+      awarenessScore: null,
       parentSlugs: [],
       childSlugs: [],
     };
@@ -146,6 +156,7 @@ const readAdditiveProps = (
       searchVolume: null,
       searchRank: null,
       productCount: toOptionalNumber(parsed.productCount),
+      awarenessScore: null,
       parentSlugs: toStringArray(parsed.parents),
       childSlugs: toStringArray(parsed.children),
     };
@@ -168,6 +179,7 @@ const readAdditiveProps = (
       searchVolume: null,
       searchRank: null,
       productCount: null,
+      awarenessScore: null,
       parentSlugs: [],
       childSlugs: [],
     };
@@ -233,6 +245,45 @@ const compareByProductCount = (a: Additive, b: Additive): number => {
   return bCount - aCount;
 };
 
+const normaliseAwarenessIndex = (value: number | null | undefined): number | null => {
+  if (typeof value !== 'number' || !Number.isFinite(value)) {
+    return null;
+  }
+
+  if (value <= 0) {
+    return 0;
+  }
+
+  return value;
+};
+
+const compareByAwarenessScore = (a: Additive, b: Additive): number => {
+  const aIndex = normaliseAwarenessIndex(a.awarenessScore?.index ?? null);
+  const bIndex = normaliseAwarenessIndex(b.awarenessScore?.index ?? null);
+
+  const aHasScore = aIndex !== null;
+  const bHasScore = bIndex !== null;
+
+  if (!aHasScore && !bHasScore) {
+    return compareByProductCount(a, b);
+  }
+
+  if (aHasScore && !bHasScore) {
+    return -1;
+  }
+
+  if (!aHasScore && bHasScore) {
+    return 1;
+  }
+
+  if (aIndex === bIndex) {
+    return compareByProductCount(a, b);
+  }
+
+  // At this point both indices are non-null numbers. Sort ascending so lower awareness surfaces first.
+  return (aIndex as number) - (bIndex as number);
+};
+
 export const parseAdditiveSortMode = (
   value: string | string[] | null | undefined,
 ): AdditiveSortMode => {
@@ -247,6 +298,10 @@ export const parseAdditiveSortMode = (
 
     if (normalised === 'search-rank' || normalised === 'rank') {
       return 'search-rank';
+    }
+
+    if (normalised === 'awareness' || normalised === 'awareness-score') {
+      return 'awareness';
     }
   }
 
@@ -279,6 +334,11 @@ export const sortAdditivesByMode = (items: Additive[], mode: AdditiveSortMode): 
     return copy;
   }
 
+  if (mode === 'awareness') {
+    copy.sort(compareByAwarenessScore);
+    return copy;
+  }
+
   copy.sort(compareBySearchRank);
   return copy;
 };
@@ -308,17 +368,29 @@ const mapAdditives = (): Additive[] => {
 
   const withMetrics = attachSearchMetrics(enriched);
 
-  withMetrics.sort(compareBySearchRank);
+  awarenessEntries = withMetrics.map<AwarenessSourceEntry>((item) => ({
+    slug: item.slug,
+    searchVolume: typeof item.searchVolume === 'number' ? item.searchVolume : null,
+    productCount: typeof item.productCount === 'number' ? item.productCount : null,
+  }));
 
-  return withMetrics;
+  const defaultAwareness = calculateAwarenessScores(awarenessEntries);
+  awarenessResult = defaultAwareness;
+
+  const withAwareness = withMetrics.map<Additive>((item) => ({
+    ...item,
+    awarenessScore: defaultAwareness.scores.get(item.slug) ?? null,
+  }));
+
+  withAwareness.sort(compareBySearchRank);
+
+  return withAwareness;
 };
 
-const additiveCache = mapAdditives();
-
-const collectUniqueValues = (selector: (additive: Additive) => string[]): string[] => {
+const collectUniqueValues = (items: Additive[], selector: (additive: Additive) => string[]): string[] => {
   const unique = new Set<string>();
 
-  additiveCache.forEach((additive) => {
+  items.forEach((additive) => {
     selector(additive).forEach((value) => {
       const normalized = value.trim();
 
@@ -330,6 +402,9 @@ const collectUniqueValues = (selector: (additive: Additive) => string[]): string
 
   return Array.from(unique.values()).sort((a, b) => a.localeCompare(b));
 };
+
+let awarenessEntries: AwarenessSourceEntry[] = [];
+let awarenessResult: AwarenessComputationResult | null = null;
 
 type FilterEntry = {
   value: string;
@@ -367,24 +442,78 @@ const buildFilterData = (
   return { filters, slugToValue, valueToSlug };
 };
 
-const functionValues = collectUniqueValues((item) => item.functions);
-const {
-  filters: functionFilters,
-  slugToValue: functionSlugToValue,
-  valueToSlug: functionValueToSlug,
-} = buildFilterData(functionValues);
+type AdditiveCacheBundle = {
+  additives: Additive[];
+  functionFilters: FilterEntry[];
+  functionSlugToValue: Map<string, string>;
+  functionValueToSlug: Map<string, string>;
+  originFilters: FilterEntry[];
+  originSlugToValue: Map<string, string>;
+  originValueToSlug: Map<string, string>;
+};
 
-const originValues = collectUniqueValues((item) => item.origin);
-const {
-  filters: originFilters,
-  slugToValue: originSlugToValue,
-  valueToSlug: originValueToSlug,
-} = buildFilterData(originValues);
+const buildCacheBundle = (): AdditiveCacheBundle => {
+  const additives = mapAdditives();
+  const functionValues = collectUniqueValues(additives, (item) => item.functions);
+  const {
+    filters: functionFilters,
+    slugToValue: functionSlugToValue,
+    valueToSlug: functionValueToSlug,
+  } = buildFilterData(functionValues);
 
-export const getAdditives = (): Additive[] => additiveCache;
+  const originValues = collectUniqueValues(additives, (item) => item.origin);
+  const {
+    filters: originFilters,
+    slugToValue: originSlugToValue,
+    valueToSlug: originValueToSlug,
+  } = buildFilterData(originValues);
+
+  return {
+    additives,
+    functionFilters,
+    functionSlugToValue,
+    functionValueToSlug,
+    originFilters,
+    originSlugToValue,
+    originValueToSlug,
+  };
+};
+
+let cacheBundle: AdditiveCacheBundle | null = null;
+let devCacheBundle: { bundle: AdditiveCacheBundle; createdAt: number } | null = null;
+const DEV_CACHE_TTL_MS = 5_000;
+
+const getCacheBundle = (): AdditiveCacheBundle => {
+  if (isDevelopment) {
+    const now = Date.now();
+
+    if (!devCacheBundle || now - devCacheBundle.createdAt > DEV_CACHE_TTL_MS) {
+      devCacheBundle = {
+        bundle: buildCacheBundle(),
+        createdAt: now,
+      };
+    }
+
+    return devCacheBundle.bundle;
+  }
+
+  if (!cacheBundle) {
+    cacheBundle = buildCacheBundle();
+  }
+
+  return cacheBundle;
+};
+
+const ensureAwarenessInitialised = () => {
+  if (awarenessEntries.length === 0 || !awarenessResult) {
+    getCacheBundle();
+  }
+};
+
+export const getAdditives = (): Additive[] => getCacheBundle().additives;
 
 export const getAdditiveBySlug = (slug: string): Additive | undefined =>
-  additiveCache.find((item) => item.slug === slug);
+  getCacheBundle().additives.find((item) => item.slug === slug);
 
 export const getAdditiveSlugs = (): string[] =>
   Array.isArray(additivesIndex.additives)
@@ -394,13 +523,15 @@ export const getAdditiveSlugs = (): string[] =>
       }))
     : [];
 
-export const getFunctionFilters = () => functionFilters;
+export const getFunctionFilters = () => getCacheBundle().functionFilters;
 
-export const getOriginFilters = () => originFilters;
+export const getOriginFilters = () => getCacheBundle().originFilters;
 
-export const getFunctionValueBySlug = (slug: string): string | null => functionSlugToValue.get(slug) ?? null;
+export const getFunctionValueBySlug = (slug: string): string | null =>
+  getCacheBundle().functionSlugToValue.get(slug) ?? null;
 
-export const getOriginValueBySlug = (slug: string): string | null => originSlugToValue.get(slug) ?? null;
+export const getOriginValueBySlug = (slug: string): string | null =>
+  getCacheBundle().originSlugToValue.get(slug) ?? null;
 
 export const getFunctionSlug = (value: string): string | null => {
   const normalized = value.trim();
@@ -409,7 +540,7 @@ export const getFunctionSlug = (value: string): string | null => {
     return null;
   }
 
-  return functionValueToSlug.get(normalized) ?? null;
+  return getCacheBundle().functionValueToSlug.get(normalized) ?? null;
 };
 
 export const getOriginSlug = (value: string): string | null => {
@@ -419,25 +550,75 @@ export const getOriginSlug = (value: string): string | null => {
     return null;
   }
 
-  return originValueToSlug.get(normalized) ?? null;
+  return getCacheBundle().originValueToSlug.get(normalized) ?? null;
 };
 
+export const getAwarenessScores = (): AwarenessComputationResult => {
+  ensureAwarenessInitialised();
+  if (!awarenessResult) {
+    awarenessResult = calculateAwarenessScores(awarenessEntries);
+  }
+
+  return awarenessResult;
+};
+
+export const getAwarenessScoreBySlug = (slug: string): AwarenessScoreResult | null => {
+  const result = getAwarenessScores();
+  return result.scores.get(slug) ?? null;
+};
+
+export const getAwarenessSourceEntries = (): AwarenessSourceEntry[] => [...awarenessEntries];
+
 export const getAdditivesByFunctionSlug = (slug: string): Additive[] => {
-  const value = getFunctionValueBySlug(slug);
+  const cache = getCacheBundle();
+  const value = cache.functionSlugToValue.get(slug);
 
   if (!value) {
     return [];
   }
 
-  return additiveCache.filter((item) => item.functions.includes(value));
+  return cache.additives.filter((item) => item.functions.includes(value));
 };
 
 export const getAdditivesByOriginSlug = (slug: string): Additive[] => {
-  const value = getOriginValueBySlug(slug);
+  const cache = getCacheBundle();
+  const value = cache.originSlugToValue.get(slug);
 
   if (!value) {
     return [];
   }
 
-  return additiveCache.filter((item) => item.origin.includes(value));
+  return cache.additives.filter((item) => item.origin.includes(value));
 };
+
+export type AdditiveGridItem = Pick<
+  Additive,
+  | 'slug'
+  | 'title'
+  | 'eNumber'
+  | 'functions'
+  | 'origin'
+  | 'searchSparkline'
+  | 'searchVolume'
+  | 'searchRank'
+  | 'productCount'
+  | 'childSlugs'
+  | 'awarenessScore'
+>;
+
+export const toAdditiveGridItem = (additive: Additive): AdditiveGridItem => ({
+  slug: additive.slug,
+  title: additive.title,
+  eNumber: additive.eNumber,
+  functions: [...additive.functions],
+  origin: [...additive.origin],
+  searchSparkline: [...additive.searchSparkline],
+  searchVolume: additive.searchVolume,
+  searchRank: additive.searchRank,
+  productCount: additive.productCount,
+  childSlugs: [...additive.childSlugs],
+  awarenessScore: additive.awarenessScore,
+});
+
+export const mapAdditivesToGridItems = (items: Additive[]): AdditiveGridItem[] =>
+  items.map((item) => toAdditiveGridItem(item));

@@ -3,10 +3,12 @@
 import { useCallback, useEffect, useState, useTransition } from 'react';
 import type { ChangeEvent } from 'react';
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
+import Image from 'next/image';
 import {
   Box,
   Button,
   Checkbox,
+  Divider,
   FormControl,
   FormControlLabel,
   IconButton,
@@ -22,6 +24,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import type { SelectChangeEvent } from '@mui/material/Select';
 
 import type { AdditiveSortMode } from '../lib/additives';
+import { getOriginAbbreviation, getOriginIcon } from '../lib/origin-icons';
 
 export interface FilterOption {
   slug: string;
@@ -61,8 +64,13 @@ export function FilterPanel({
   const [legendPosition, setLegendPosition] = useState<
     { top: number; left: number; width: number; scaledWidth: number } | null
   >(null);
-  type SortSelectValue = 'search-rank' | 'products';
-  const currentSortValue: SortSelectValue = currentSortMode === 'product-count' ? 'products' : 'search-rank';
+  type SortSelectValue = 'search-rank' | 'products' | 'awareness';
+  const currentSortValue: SortSelectValue =
+    currentSortMode === 'product-count'
+      ? 'products'
+      : currentSortMode === 'awareness'
+        ? 'awareness'
+        : 'search-rank';
 
   const closeLegend = useCallback(() => {
     setLegendOpen(false);
@@ -96,7 +104,7 @@ export function FilterPanel({
 
     updateLegendPosition();
 
-    const handleKeyDown = (event: KeyboardEvent) => {
+    const handleKeyDown = (event: globalThis.KeyboardEvent) => {
       if (event.key === 'Escape') {
         closeLegend();
       }
@@ -123,6 +131,8 @@ export function FilterPanel({
 
     if (sort === 'search-rank') {
       params.set('sort', 'search-rank');
+    } else if (sort === 'awareness') {
+      params.set('sort', 'awareness');
     } else {
       params.delete('sort');
     }
@@ -267,8 +277,9 @@ export function FilterPanel({
               value={currentSortValue}
               onChange={handleSortChange}
             >
-              <MenuItem value="search-rank">Search rank</MenuItem>
               <MenuItem value="products">Products</MenuItem>
+              <MenuItem value="awareness">Awareness score</MenuItem>
+              <MenuItem value="search-rank">Search rank</MenuItem>
             </Select>
           </FormControl>
 
@@ -285,13 +296,70 @@ export function FilterPanel({
               value={buildFilterValue(currentFilter)}
               onChange={handleFilterChange}
             >
-              <MenuItem value="">All filters</MenuItem>
+              <MenuItem
+                value=""
+                sx={{
+                  '&.Mui-selected': { backgroundColor: 'transparent' },
+                  '&.Mui-selected:hover': { backgroundColor: 'action.hover' },
+                }}
+              >
+                All filters
+              </MenuItem>
+              <Divider component="li" sx={{ borderColor: 'grey.200', mx: 1 }} />
               <ListSubheader disableSticky>Origins</ListSubheader>
-              {originOptions.map((option) => (
-                <MenuItem key={`origin:${option.slug}`} value={`origin:${option.slug}`}>
-                  {option.label}
-                </MenuItem>
-              ))}
+              {originOptions.map((option) => {
+                const icon = getOriginIcon(option.slug);
+                const abbreviation = getOriginAbbreviation(option.label);
+
+                return (
+                  <MenuItem key={`origin:${option.slug}`} value={`origin:${option.slug}`}>
+                    <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+                      {icon ? (
+                        <Box
+                          sx={{
+                            width: 18,
+                            height: 18,
+                            display: 'inline-flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                            flexShrink: 0,
+                          }}
+                        >
+                          <Image
+                            src={icon}
+                            alt={`${option.label} origin icon`}
+                            width={18}
+                            height={18}
+                            style={{ width: '100%', height: '100%', objectFit: 'contain' }}
+                          />
+                        </Box>
+                      ) : (
+                        <Box
+                          sx={{
+                            width: 18,
+                            height: 18,
+                            borderRadius: '50%',
+                            bgcolor: 'grey.100',
+                            color: 'text.secondary',
+                            fontSize: 10,
+                            fontWeight: 600,
+                            display: 'inline-flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                            flexShrink: 0,
+                          }}
+                        >
+                          {abbreviation}
+                        </Box>
+                      )}
+                      <Typography component="span" variant="body1" sx={{ lineHeight: 1 }}>
+                        {option.label}
+                      </Typography>
+                    </Box>
+                  </MenuItem>
+                );
+              })}
+              <Divider component="li" sx={{ borderColor: 'grey.200', mx: 1, my: 0.5 }} />
               <ListSubheader disableSticky>Functions</ListSubheader>
               {functionOptions.map((option) => (
                 <MenuItem key={`function:${option.slug}`} value={`function:${option.slug}`}>

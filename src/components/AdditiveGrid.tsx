@@ -1,15 +1,20 @@
+'use client';
+
 import Image from 'next/image';
 import Link from 'next/link';
 import { Avatar, Box, Card, CardActionArea, CardContent, Stack, Tooltip, Typography } from '@mui/material';
 
-import type { Additive, AdditiveSortMode } from '../lib/additives';
-import { DEFAULT_ADDITIVE_SORT_MODE } from '../lib/additives';
+import type { AdditiveGridItem, AdditiveSortMode } from '../lib/additives';
 import { formatOriginLabel } from '../lib/additive-format';
 import { formatMonthlyVolume, formatProductCount } from '../lib/format';
 import { getOriginAbbreviation, getOriginIcon } from '../lib/origin-icons';
 import { SearchSparkline } from './SearchSparkline';
 import { theme } from '../lib/theme';
 import { FunctionChipList } from './FunctionChipList';
+import type { AwarenessScoreResult } from '../lib/awareness';
+import { AwarenessScoreChip } from './AwarenessScoreChip';
+
+const GRID_DEFAULT_SORT_MODE: AdditiveSortMode = 'product-count';
 
 const resolveTypographySize = (value: string | number | undefined, fallback = '1.5rem') => {
   if (typeof value === 'number') {
@@ -43,15 +48,17 @@ const hyphenateLongWords = (text: string) =>
   });
 
 interface AdditiveGridProps {
-  items: Additive[];
+  items: AdditiveGridItem[];
   emptyMessage?: string;
   sortMode?: AdditiveSortMode;
+  awarenessScores?: Map<string, AwarenessScoreResult>;
 }
 
 export function AdditiveGrid({
   items,
   emptyMessage = 'No additives found.',
-  sortMode = DEFAULT_ADDITIVE_SORT_MODE,
+  sortMode = GRID_DEFAULT_SORT_MODE,
+  awarenessScores,
 }: AdditiveGridProps) {
   if (items.length === 0) {
     return (
@@ -91,6 +98,7 @@ export function AdditiveGrid({
           typeof additive.productCount === 'number' ? Math.max(0, additive.productCount) : null;
         const showProductCount = typeof productCountValue === 'number' && productCountValue > 0;
         const productCountLabel = showProductCount ? formatProductCount(productCountValue) : null;
+        const awarenessScore = awarenessScores?.get(additive.slug) ?? additive.awarenessScore ?? null;
         const normalizedTitle = additive.title.replace(/\s+/g, ' ').trim();
         const words = normalizedTitle.split(/\s+/);
         const longestWordLength = words.reduce((max, word) => Math.max(max, word.replace(/[^A-Za-z]/g, '').length), 0);
@@ -272,19 +280,33 @@ export function AdditiveGrid({
                 )}
 
                 {showProductCount && productCountLabel ? (
-                  <Typography
-                    variant="body2"
+                  <Box
                     sx={{
                       mt: 2,
-                      color: '#5c5c5c',
-                      fontWeight: 400,
+                      display: 'flex',
+                      alignItems: 'center',
+                      gap: 1,
                     }}
                   >
-                    Found in <Box component="span" sx={{ fontWeight: 600, color: '#5c5c5c' }}>
-                      {productCountLabel}
-                    </Box>{' '}
-                    products
-                  </Typography>
+                    <Typography
+                      variant="body2"
+                      sx={{
+                        color: '#5c5c5c',
+                        fontWeight: 400,
+                        flexGrow: 1,
+                      }}
+                    >
+                      Found in <Box component="span" sx={{ fontWeight: 600, color: '#5c5c5c' }}>
+                        {productCountLabel}
+                      </Box>{' '}
+                      products
+                    </Typography>
+                    <AwarenessScoreChip
+                      score={awarenessScore}
+                      labelStyle="grid"
+                      sx={{ ml: 'auto', flexShrink: 0 }}
+                    />
+                  </Box>
                 ) : null}
               </CardContent>
             </CardActionArea>

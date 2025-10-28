@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -7,6 +8,8 @@ import { Roboto } from 'next/font/google';
 
 import { Providers } from '../components/Providers';
 import { HeaderSearch } from '../components/HeaderSearch';
+import { ReportMistakeProvider } from '../components/ReportMistakeContext';
+import { ReportMistakeLink } from '../components/ReportMistakeLink';
 import { getAdditives } from '../lib/additives';
 import logo2x from '../../img/logo/logo_2x.png';
 import './globals.css';
@@ -34,63 +37,68 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={roboto.className}>
-        <Providers>
-          <div className="layout">
-            <header className="site-header">
-              <div className="content-shell header-shell">
-                <div className="header-content">
-                  <div className="header-brand">
-                    <Link href="/" aria-label="Food Additives home" className="header-logo">
-                      <Image
-                        src={logo2x}
-                        alt="Food Additives logo"
-                        width={41}
-                        height={50}
-                        priority
-                      />
-                    </Link>
-                    <Link href="/" className="header-title-link">
-                      Food additives
-                    </Link>
+        <ReportMistakeProvider>
+          <Providers>
+            <div className="layout">
+              <header className="site-header">
+                <div className="content-shell header-shell">
+                  <div className="header-content">
+                    <div className="header-brand">
+                      <Link href="/" aria-label="Food Additives home" className="header-logo">
+                        <Image
+                          src={logo2x}
+                          alt="Food Additives logo"
+                          width={41}
+                          height={50}
+                          priority
+                        />
+                      </Link>
+                      <Link href="/" className="header-title-link">
+                        Food additives
+                      </Link>
+                    </div>
+                    <nav className="header-nav">
+                      <HeaderSearch additives={additives} />
+                      <Link href="/compare" className="header-link">
+                        Compare
+                      </Link>
+                      <Link href="/about" className="header-link header-about-link">
+                        <span className="header-about-icon" aria-hidden="true">
+                          <InfoOutlinedIcon fontSize="small" />
+                        </span>
+                        <span className="header-about-text">About</span>
+                      </Link>
+                    </nav>
                   </div>
-                  <nav className="header-nav">
-                    <HeaderSearch additives={additives} />
-                    <Link href="/compare" className="header-link">
-                      Compare
-                    </Link>
-                    <Link href="/about" className="header-link header-about-link">
-                      <span className="header-about-icon" aria-hidden="true">
-                        <InfoOutlinedIcon fontSize="small" />
-                      </span>
-                      <span className="header-about-text">About</span>
-                    </Link>
-                  </nav>
                 </div>
-              </div>
-            </header>
-            <main className="main-content">
-              <div className="content-shell">{children}</div>
-            </main>
-            <footer className="site-footer">
-              <div className="content-shell footer-shell">
-                <nav className="footer-nav" aria-label="Footer">
-                  <Link href="/function" className="header-link">
-                    Functions
-                  </Link>
-                  <Link href="/origin" className="header-link">
-                    Origins
-                  </Link>
-                </nav>
-                <Typography component="p" variant="body2">
-                  Food Additives © {currentYear}. All rights reserved.{' '}
-                  <Link href="/about" className="footer-link">
-                    About
-                  </Link>
-                </Typography>
-              </div>
-            </footer>
-          </div>
-        </Providers>
+              </header>
+              <main className="main-content">
+                <div className="content-shell">{children}</div>
+              </main>
+              <footer className="site-footer">
+                <div className="content-shell footer-shell">
+                  <nav className="footer-nav" aria-label="Footer">
+                    <Link href="/function" className="header-link">
+                      Functions
+                    </Link>
+                    <Link href="/origin" className="header-link">
+                      Origins
+                    </Link>
+                    <Suspense fallback={null}>
+                      <ReportMistakeLink className="header-link" />
+                    </Suspense>
+                  </nav>
+                  <Typography component="p" variant="body2">
+                    Food Additives © {currentYear}. All rights reserved.{' '}
+                    <Link href="/about" className="footer-link">
+                      About
+                    </Link>
+                  </Typography>
+                </div>
+              </footer>
+            </div>
+          </Providers>
+        </ReportMistakeProvider>
       </body>
     </html>
   );

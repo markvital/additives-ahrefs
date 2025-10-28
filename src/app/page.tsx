@@ -1,7 +1,8 @@
+import { Suspense } from 'react';
 import NextLink from 'next/link';
 import { Box, Link as MuiLink, Typography } from '@mui/material';
 
-import { AdditiveGrid } from '../components/AdditiveGrid';
+import { AdditiveGridInfinite } from '../components/AdditiveGridInfinite';
 import { FilterPanel } from '../components/FilterPanel';
 import {
   getAdditives,
@@ -12,6 +13,8 @@ import {
   parseAdditiveSortMode,
   parseShowClassesParam,
   sortAdditivesByMode,
+  mapAdditivesToGridItems,
+  getAwarenessScores,
 } from '../lib/additives';
 import { formatFilterLabel } from '../lib/text';
 import { formatFunctionLabel } from '../lib/additive-format';
@@ -90,7 +93,10 @@ const functionsHref = '/function';
 const highlightNumberSx = { fontWeight: 700, color: 'text.primary' } as const;
 
 interface HomePageProps {
-  searchParams?: Promise<{ sort?: string | string[]; classes?: string | string[] }>;
+  searchParams?: Promise<{
+    sort?: string | string[];
+    classes?: string | string[];
+  }>;
 }
 
 export default async function HomePage({ searchParams }: HomePageProps) {
@@ -99,6 +105,10 @@ export default async function HomePage({ searchParams }: HomePageProps) {
   const showClasses = parseShowClassesParam(resolvedSearchParams?.classes ?? null);
   const filteredAdditives = filterAdditivesByClassVisibility(additives, showClasses);
   const sortedAdditives = sortAdditivesByMode(filteredAdditives, sortMode);
+  const chunkSize = 50;
+  const totalCount = sortedAdditives.length;
+  const awarenessResult = getAwarenessScores();
+  const initialItems = mapAdditivesToGridItems(sortedAdditives.slice(0, chunkSize));
 
   return (
     <Box component="section" display="flex" flexDirection="column" gap={4}>
@@ -217,13 +227,22 @@ export default async function HomePage({ searchParams }: HomePageProps) {
         </Box>
       </Box>
 
-      <FilterPanel
-        functionOptions={functionOptions}
-        originOptions={originOptions}
-        currentSortMode={sortMode}
-        currentShowClasses={showClasses}
+      <Suspense fallback={null}>
+        <FilterPanel
+          functionOptions={functionOptions}
+          originOptions={originOptions}
+          currentSortMode={sortMode}
+          currentShowClasses={showClasses}
+        />
+      </Suspense>
+      <AdditiveGridInfinite
+        initialItems={initialItems}
+        totalCount={totalCount}
+        sortMode={sortMode}
+        showClasses={showClasses}
+        chunkSize={chunkSize}
+        awarenessScores={awarenessResult.scores}
       />
-      <AdditiveGrid items={sortedAdditives} sortMode={sortMode} />
     </Box>
   );
 }

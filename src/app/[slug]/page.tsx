@@ -11,6 +11,7 @@ import {
   getAdditiveSlugs,
   getFunctionSlug,
   getOriginSlug,
+  getAwarenessScores,
 } from '../../lib/additives';
 
 import { formatMonthlyVolume, formatProductCount, getCountryFlagEmoji, getCountryLabel } from '../../lib/format';
@@ -24,6 +25,8 @@ import { SearchHistoryChart } from '../../components/SearchHistoryChart';
 import { SearchKeywordShare } from '../../components/SearchKeywordShare';
 import { MarkdownArticle } from '../../components/MarkdownArticle';
 import { SearchQuestions } from '../../components/SearchQuestions';
+import { ReportMistakeName } from '../../components/ReportMistakeContext';
+import { AwarenessScoreChip } from '../../components/AwarenessScoreChip';
 
 interface AdditivePageProps {
   params: Promise<{ slug: string }>;
@@ -63,6 +66,9 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
   if (!additive) {
     notFound();
   }
+
+  const awarenessResult = getAwarenessScores();
+  const awarenessScore = awarenessResult.scores.get(additive.slug) ?? additive.awarenessScore ?? null;
 
   const synonymList = additive.synonyms.filter((value, index, list) => list.indexOf(value) === index);
   const searchHistory = getSearchHistory(additive.slug);
@@ -206,8 +212,10 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
   );
 
   return (
-    <Box component="article" display="flex" flexDirection="column" gap={4} alignItems="center" width="100%">
-      <Box sx={{ width: '100%', maxWidth: 760, display: 'flex', flexDirection: 'column', gap: 3 }}>
+    <>
+      <ReportMistakeName value={displayName} />
+      <Box component="article" display="flex" flexDirection="column" gap={4} alignItems="center" width="100%">
+        <Box sx={{ width: '100%', maxWidth: 760, display: 'flex', flexDirection: 'column', gap: 3 }}>
         <Box display="flex" flexDirection="column" gap={1.5}>
           <Typography component="h1" variant="h1">
             {displayName}
@@ -466,24 +474,38 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
           </Stack>
         )}
 
-        <Typography variant="body1" color="text.secondary">
-          <Box component="span" sx={{ fontWeight: 600 }}>
-            Products:
-          </Box>{' '}
-          {productCount !== null ? (
-            <MuiLink
-              href={productSearchUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              underline="hover"
-              sx={{ fontWeight: 500 }}
+        <Box sx={{ display: 'flex', flexDirection: 'column', gap: 0.75 }}>
+          <Typography variant="body1" color="text.secondary">
+            <Box component="span" sx={{ fontWeight: 600 }}>
+              Products:
+            </Box>{' '}
+            {productCount !== null ? (
+              <MuiLink
+                href={productSearchUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                underline="hover"
+                sx={{ fontWeight: 500 }}
+              >
+                Found in {formatProductCount(productCount)} products
+              </MuiLink>
+            ) : (
+              'Data not available.'
+            )}
+          </Typography>
+          {awarenessScore ? (
+            <Typography
+              variant="body1"
+              color="text.secondary"
+              sx={{ display: 'flex', alignItems: 'center', gap: 1 }}
             >
-              Found in {formatProductCount(productCount)} products
-            </MuiLink>
-          ) : (
-            'Data not available.'
-          )}
-        </Typography>
+              <Box component="span" sx={{ fontWeight: 600 }}>
+                Awareness:
+              </Box>
+              <AwarenessScoreChip score={awarenessScore} />
+            </Typography>
+          ) : null}
+        </Box>
 
         {articleSummary && (
           <Typography variant="body1" color="text.primary" whiteSpace="pre-line">
@@ -532,7 +554,8 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
             </MuiLink>
           </Typography>
         )}
+        </Box>
       </Box>
-    </Box>
+    </>
   );
 }

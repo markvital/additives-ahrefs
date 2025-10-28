@@ -4,7 +4,7 @@ A static catalogue that showcases a curated list of food additives. The site is 
 
 ## Tech stack
 
-- [Next.js 14](https://nextjs.org/) with the App Router and static export (`output: export`)
+- [Next.js 15](https://nextjs.org/) with the App Router and server actions for incremental data loading
 - [TypeScript](https://www.typescriptlang.org/)
 - [MUI](https://mui.com/material-ui/) with Roboto typography and custom grayscale theme
 - Static data files in `data/` (`additives.json` index plus per-additive folders)
@@ -24,7 +24,7 @@ The development server is available at [http://localhost:3000](http://localhost:
 | -------------- | ------------------------------------------------ |
 | `npm run dev`  | Starts the local development server              |
 | `npm run lint` | Runs the Next.js lint rules (ESLint)             |
-| `npm run build`| Produces a static export in the `out` directory  |
+| `npm run build`| Builds the production bundle (server actions enabled) |
 
 ## Project structure
 
@@ -45,6 +45,17 @@ The development server is available at [http://localhost:3000](http://localhost:
 └── readme.md                   # Project documentation (this file)
 ```
 
+## Infinite scroll and payload size
+
+The additive grids now use an infinite-scroll experience powered by server actions. Only the first 50 card summaries are rendered during SSR; subsequent batches are streamed in 50-item chunks as the user scrolls.
+
+| Payload | Size (JSON) | Notes |
+| ------- | ----------- | ----- |
+| First 50 additives | ~15 KB | Sent with the initial response |
+| Full catalogue (566 additives) | ~159 KB | Previously shipped on first load |
+
+This trims the initial data payload by roughly **90%** while keeping the UI responsive as more additives load. In development there is a lightweight cache with a short TTL to avoid repeatedly rebuilding the dataset on every scroll.
+
 ## Deployment
 
-The project is configured for Vercel. Running `npm run build` outputs the fully static site to the `out` directory, which Vercel can host without additional configuration. To preview the production build locally, use a static server such as `npx serve out`.
+The project is configured for Vercel. Use `npm run build` followed by `npm run start` to preview the production build locally; server actions require a Node runtime rather than a static export.
