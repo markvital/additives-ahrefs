@@ -90,7 +90,7 @@ const topFunctions = Array.from(functionCountMap.entries())
 
 const functionsHref = '/function';
 
-const highlightNumberSx = { fontWeight: 700, color: 'text.primary' } as const;
+const highlightNumberSx = { fontWeight: 600, color: 'text.primary' } as const;
 
 interface HomePageProps {
   searchParams?: Promise<{
@@ -137,7 +137,7 @@ export default async function HomePage({ searchParams }: HomePageProps) {
             <Box component="span" sx={highlightNumberSx}>
               {numberFormatter.format(817_713)}
             </Box>{' '}
-            products from OFF and{' '}
+            products from <Box component="span" sx={{ whiteSpace: 'nowrap' }}>Open Food Facts</Box> and{' '}
             <Box component="span" sx={highlightNumberSx}>
               {numberFormatter.format(keywordCount)}
             </Box>{' '}
@@ -152,7 +152,7 @@ export default async function HomePage({ searchParams }: HomePageProps) {
               target="_blank"
               rel="noopener noreferrer"
               underline="hover"
-              sx={{ fontWeight: 600 }}
+              sx={{ fontWeight: 550 }}
             >
               Ahrefs
             </MuiLink>
