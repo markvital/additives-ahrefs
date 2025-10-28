@@ -6,6 +6,7 @@ import { Box, Button, CircularProgress, Typography } from '@mui/material';
 import type { AdditiveGridItem, AdditiveSortMode } from '../lib/additives';
 import { AdditiveGrid } from './AdditiveGrid';
 import { loadAdditivesBatch } from '../app/actions/additives';
+import type { AwarenessScoreResult } from '../lib/awareness';
 
 type AdditiveGridFilter =
   | {
@@ -24,6 +25,7 @@ interface AdditiveGridInfiniteProps {
   showClasses: boolean;
   chunkSize?: number;
   filter?: AdditiveGridFilter | null;
+  awarenessScores?: Map<string, AwarenessScoreResult>;
 }
 
 const DEFAULT_CHUNK_SIZE = 50;
@@ -35,6 +37,7 @@ export function AdditiveGridInfinite({
   showClasses,
   chunkSize = DEFAULT_CHUNK_SIZE,
   filter = null,
+  awarenessScores,
 }: AdditiveGridInfiniteProps) {
   const [items, setItems] = useState<AdditiveGridItem[]>(initialItems);
   const [count, setCount] = useState(totalCount);
@@ -140,7 +143,7 @@ export function AdditiveGridInfinite({
 
   return (
     <Box display="flex" flexDirection="column" gap={3}>
-      <AdditiveGrid items={items} sortMode={sortMode} />
+      <AdditiveGrid items={items} sortMode={sortMode} awarenessScores={awarenessScores} />
 
       <Box
         ref={sentinelRef}

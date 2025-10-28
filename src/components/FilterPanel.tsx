@@ -64,8 +64,13 @@ export function FilterPanel({
   const [legendPosition, setLegendPosition] = useState<
     { top: number; left: number; width: number; scaledWidth: number } | null
   >(null);
-  type SortSelectValue = 'search-rank' | 'products';
-  const currentSortValue: SortSelectValue = currentSortMode === 'product-count' ? 'products' : 'search-rank';
+  type SortSelectValue = 'search-rank' | 'products' | 'awareness';
+  const currentSortValue: SortSelectValue =
+    currentSortMode === 'product-count'
+      ? 'products'
+      : currentSortMode === 'awareness'
+        ? 'awareness'
+        : 'search-rank';
 
   const closeLegend = useCallback(() => {
     setLegendOpen(false);
@@ -99,7 +104,7 @@ export function FilterPanel({
 
     updateLegendPosition();
 
-    const handleKeyDown = (event: KeyboardEvent) => {
+    const handleKeyDown = (event: globalThis.KeyboardEvent) => {
       if (event.key === 'Escape') {
         closeLegend();
       }
@@ -126,6 +131,8 @@ export function FilterPanel({
 
     if (sort === 'search-rank') {
       params.set('sort', 'search-rank');
+    } else if (sort === 'awareness') {
+      params.set('sort', 'awareness');
     } else {
       params.delete('sort');
     }
@@ -270,8 +277,9 @@ export function FilterPanel({
               value={currentSortValue}
               onChange={handleSortChange}
             >
-              <MenuItem value="search-rank">Search rank</MenuItem>
               <MenuItem value="products">Products</MenuItem>
+              <MenuItem value="awareness">Awareness score</MenuItem>
+              <MenuItem value="search-rank">Search rank</MenuItem>
             </Select>
           </FormControl>
 

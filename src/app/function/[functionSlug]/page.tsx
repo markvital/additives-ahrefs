@@ -14,6 +14,7 @@ import {
   parseShowClassesParam,
   sortAdditivesByMode,
   mapAdditivesToGridItems,
+  getAwarenessScores,
 } from '../../../lib/additives';
 import { formatFilterLabel } from '../../../lib/text';
 import { formatFunctionLabel } from '../../../lib/additive-format';
@@ -26,7 +27,10 @@ import { ReportMistakeName } from '../../../components/ReportMistakeContext';
 
 interface FunctionPageProps {
   params: Promise<{ functionSlug: string }>;
-  searchParams?: Promise<{ sort?: string | string[]; classes?: string | string[] }>;
+  searchParams?: Promise<{
+    sort?: string | string[];
+    classes?: string | string[];
+  }>;
 }
 
 const formatCountLabel = (count: number): string =>
@@ -83,6 +87,7 @@ export default async function FunctionPage({ params, searchParams }: FunctionPag
   const showClasses = parseShowClassesParam(resolvedSearchParams?.classes ?? null);
   const filteredAdditives = filterAdditivesByClassVisibility(additives, showClasses);
   const sortedAdditives = sortAdditivesByMode(filteredAdditives, sortMode);
+  const awarenessResult = getAwarenessScores();
   const hiddenAdditivesCount = showClasses ? 0 : additives.length - filteredAdditives.length;
   const showHiddenCountLink = hiddenAdditivesCount > 0 && !showClasses;
   const hiddenAdditivesHref = showHiddenCountLink
@@ -181,12 +186,14 @@ export default async function FunctionPage({ params, searchParams }: FunctionPag
           showClasses={showClasses}
           chunkSize={chunkSize}
           filter={{ type: 'function', slug: functionSlug }}
+          awarenessScores={awarenessResult.scores}
         />
       ) : (
         <AdditiveGrid
           items={initialItems}
           sortMode={sortMode}
           emptyMessage="No additives found for this function."
+          awarenessScores={awarenessResult.scores}
         />
       )}
     </Box>

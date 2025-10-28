@@ -12,6 +12,7 @@ import {
   parseShowClassesParam,
   sortAdditivesByMode,
   mapAdditivesToGridItems,
+  getAwarenessScores,
 } from '../lib/additives';
 import { formatFilterLabel } from '../lib/text';
 import { formatFunctionLabel } from '../lib/additive-format';
@@ -27,7 +28,10 @@ const originOptions = getOriginFilters().map(({ slug, value }) => ({
 }));
 
 interface HomePageProps {
-  searchParams?: Promise<{ sort?: string | string[]; classes?: string | string[] }>;
+  searchParams?: Promise<{
+    sort?: string | string[];
+    classes?: string | string[];
+  }>;
 }
 
 export default async function HomePage({ searchParams }: HomePageProps) {
@@ -38,6 +42,7 @@ export default async function HomePage({ searchParams }: HomePageProps) {
   const sortedAdditives = sortAdditivesByMode(filteredAdditives, sortMode);
   const chunkSize = 50;
   const totalCount = sortedAdditives.length;
+  const awarenessResult = getAwarenessScores();
   const initialItems = mapAdditivesToGridItems(sortedAdditives.slice(0, chunkSize));
 
   return (
@@ -66,6 +71,7 @@ export default async function HomePage({ searchParams }: HomePageProps) {
         sortMode={sortMode}
         showClasses={showClasses}
         chunkSize={chunkSize}
+        awarenessScores={awarenessResult.scores}
       />
     </Box>
   );

@@ -16,6 +16,7 @@ import {
   parseShowClassesParam,
   sortAdditivesByMode,
   mapAdditivesToGridItems,
+  getAwarenessScores,
 } from '../../../lib/additives';
 import { formatFilterLabel } from '../../../lib/text';
 import { getOriginHeroIcon } from '../../../lib/origin-icons';
@@ -28,7 +29,10 @@ import { ReportMistakeName } from '../../../components/ReportMistakeContext';
 
 interface OriginPageProps {
   params: Promise<{ originSlug: string }>;
-  searchParams?: Promise<{ sort?: string | string[]; classes?: string | string[] }>;
+  searchParams?: Promise<{
+    sort?: string | string[];
+    classes?: string | string[];
+  }>;
 }
 
 const formatCountLabel = (count: number): string =>
@@ -85,6 +89,7 @@ export default async function OriginPage({ params, searchParams }: OriginPagePro
   const showClasses = parseShowClassesParam(resolvedSearchParams?.classes ?? null);
   const filteredAdditives = filterAdditivesByClassVisibility(additives, showClasses);
   const sortedAdditives = sortAdditivesByMode(filteredAdditives, sortMode);
+  const awarenessResult = getAwarenessScores();
   const hiddenAdditivesCount = showClasses ? 0 : additives.length - filteredAdditives.length;
   const showHiddenCountLink = hiddenAdditivesCount > 0 && !showClasses;
   const hiddenAdditivesHref = showHiddenCountLink
@@ -186,12 +191,14 @@ export default async function OriginPage({ params, searchParams }: OriginPagePro
           showClasses={showClasses}
           chunkSize={chunkSize}
           filter={{ type: 'origin', slug: originSlug }}
+          awarenessScores={awarenessResult.scores}
         />
       ) : (
         <AdditiveGrid
           items={initialItems}
           sortMode={sortMode}
           emptyMessage="No additives found for this origin."
+          awarenessScores={awarenessResult.scores}
         />
       )}
     </Box>

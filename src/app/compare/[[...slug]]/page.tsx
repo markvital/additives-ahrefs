@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 import { AdditiveComparison } from '../../../components/AdditiveComparison';
 import type { Additive } from '../../../lib/additives';
-import { getAdditives, getAdditiveBySlug } from '../../../lib/additives';
+import { getAdditives, getAdditiveBySlug, getAwarenessScores } from '../../../lib/additives';
 import { formatAdditiveDisplayName } from '../../../lib/additive-format';
 import { getSearchHistory } from '../../../lib/search-history';
 
@@ -77,6 +77,9 @@ export default async function ComparePage({ params }: ComparePageProps) {
   const pairSegment = Array.isArray(slug) ? slug[0] : undefined;
   const [requestedLeft, requestedRight] = parseComparisonParam(pairSegment);
 
+  const awarenessResult = getAwarenessScores();
+  const awarenessScores = Object.fromEntries(awarenessResult.scores.entries());
+
   const additives = getAdditives().map<ComparisonAdditive>((additive) => ({
     ...additive,
     searchHistory: getSearchHistory(additive.slug),
@@ -89,5 +92,11 @@ export default async function ComparePage({ params }: ComparePageProps) {
     requestedRight && additiveMap.has(requestedRight) ? requestedRight : null,
   ];
 
-  return <AdditiveComparison additives={additives} initialSelection={initialSelection} />;
+  return (
+    <AdditiveComparison
+      additives={additives}
+      initialSelection={initialSelection}
+      awarenessScores={awarenessScores}
+    />
+  );
 }
