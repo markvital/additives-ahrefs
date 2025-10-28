@@ -11,11 +11,12 @@ import {
   type ReactNode,
 } from 'react';
 import { usePathname, useRouter } from 'next/navigation';
-import { Box, Dialog, DialogContent, DialogTitle, Divider, IconButton, Stack, Tooltip, Typography, useMediaQuery } from '@mui/material';
+import { Box, ClickAwayListener, Divider, IconButton, Paper, Popper, Stack, Typography, useMediaQuery } from '@mui/material';
 import AddIcon from '@mui/icons-material/Add';
 import CloseIcon from '@mui/icons-material/Close';
 import { DndContext, PointerSensor, useDroppable, useSensor, useSensors, type DragEndEvent } from '@dnd-kit/core';
 import type { DragStartEvent, DragOverEvent } from '@dnd-kit/core';
+import type { Modifier } from '@popperjs/core';
 
 import type { Additive } from '../lib/additives';
 import { AdditiveLookup } from './AdditiveLookup';
@@ -32,6 +33,9 @@ interface CompareFlapContextValue {
   slots: [string | null, string | null];
   additives: Additive[];
   activeDropIndex: number | null;
+  dismissHint: () => void;
+  hasDismissedHint: boolean;
+  isDragging: boolean;
 }
 
 const CompareFlapContext = createContext<CompareFlapContextValue | null>(null);
@@ -53,14 +57,24 @@ interface CompareFlapProviderProps {
 
 type SlotState = [string | null, string | null];
 
+const SELECTOR_POPPER_HEIGHT = 56 + 6 * 48 + 32;
+
 export function CompareFlapProvider({ additives, children }: CompareFlapProviderProps) {
   const router = useRouter();
+  const pathname = usePathname();
   const additiveMap = useMemo(() => new Map(additives.map((item) => [item.slug, item])), [additives]);
   const [slots, setSlots] = useState<SlotState>([null, null]);
   const [isOpen, setIsOpen] = useState(false);
   const [activeDropIndex, setActiveDropIndex] = useState<number | null>(null);
+  const [hasDismissedHint, setHasDismissedHint] = useState(false);
+  const [isDragging, setIsDragging] = useState(false);
   const lastNavigatedPairRef = useRef<string | null>(null);
   const lastPrefilledSlugRef = useRef<string | null>(null);
+  const previousPathRef = useRef<string | null>(null);
+
+  const dismissHint = useCallback(() => {
+    setHasDismissedHint(true);
+  }, []);
 
   const selectSlot = useCallback(
     (index: number, slug: string | null) => {
@@ -133,6 +147,26 @@ export function CompareFlapProvider({ additives, children }: CompareFlapProvider
   );
 
   useEffect(() => {
+    if (!pathname) {
+      return;
+    }
+
+    if (previousPathRef.current === pathname) {
+      return;
+    }
+
+    if (previousPathRef.current !== null && previousPathRef.current !== pathname) {
+      setSlots([null, null]);
+      setIsOpen(false);
+      setActiveDropIndex(null);
+      lastNavigatedPairRef.current = null;
+      lastPrefilledSlugRef.current = null;
+    }
+
+    previousPathRef.current = pathname;
+  }, [pathname]);
+
+  useEffect(() => {
     if (!slots[0] || !slots[1]) {
       lastNavigatedPairRef.current = null;
       return;
@@ -172,9 +206,11 @@ export function CompareFlapProvider({ additives, children }: CompareFlapProvider
     const slug = event.active?.data?.current?.slug;
 
     if (typeof slug === 'string') {
+      dismissHint();
+      setIsDragging(true);
       setIsOpen(true);
     }
-  }, []);
+  }, [dismissHint]);
 
   const handleDragOver = useCallback((event: DragOverEvent) => {
     const overId = event.over?.id;
@@ -197,6 +233,8 @@ export function CompareFlapProvider({ additives, children }: CompareFlapProvider
       const overId = event.over?.id;
 
       setActiveDropIndex(null);
+      setIsDragging(false);
+      dismissHint();
 
       if (typeof slug !== 'string') {
         return;
@@ -211,11 +249,12 @@ export function CompareFlapProvider({ additives, children }: CompareFlapProvider
         }
       }
     },
-    [selectSlot],
+    [dismissHint, selectSlot],
   );
 
   const handleDragCancel = useCallback(() => {
     setActiveDropIndex(null);
+    setIsDragging(false);
   }, []);
 
   const contextValue = useMemo<CompareFlapContextValue>(
@@ -230,8 +269,25 @@ export function CompareFlapProvider({ additives, children }: CompareFlapProvider
       slots,
       additives,
       activeDropIndex,
+      dismissHint,
+      hasDismissedHint,
+      isDragging,
     }),
-    [activeDropIndex, additives, close, getAdditiveBySlug, isOpen, open, prefillSlot, selectSlot, slots, toggle],
+    [
+      activeDropIndex,
+      additives,
+      close,
+      dismissHint,
+      getAdditiveBySlug,
+      hasDismissedHint,
+      isDragging,
+      isOpen,
+      open,
+      prefillSlot,
+      selectSlot,
+      slots,
+      toggle,
+    ],
   );
 
   return (
@@ -244,26 +300,34 @@ export function CompareFlapProvider({ additives, children }: CompareFlapProvider
         onDragCancel={handleDragCancel}
       >
         {children}
+        {isDragging ? <ScreenMatte /> : null}
         <CompareFlapUI />
       </DndContext>
     </CompareFlapContext.Provider>
   );
 }
 
+
 function CompareFlapUI() {
   const {
     isOpen,
     toggle,
     close,
-    open,
+    open: openFlap,
     slots,
     getAdditiveBySlug,
     additives,
     selectSlot,
     activeDropIndex,
+    dismissHint,
+    hasDismissedHint,
   } = useCompareFlap();
   const pathname = usePathname();
   const [activeSlotIndex, setActiveSlotIndex] = useState<number | null>(null);
+  const [slotAnchorEl, setSlotAnchorEl] = useState<HTMLElement | null>(null);
+  const [hintAnchorEl, setHintAnchorEl] = useState<HTMLDivElement | null>(null);
+  const [hintArrowEl, setHintArrowEl] = useState<HTMLDivElement | null>(null);
+  const [selectorArrowEl, setSelectorArrowEl] = useState<HTMLDivElement | null>(null);
   const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
 
   const leftAdditive = slots[0] ? getAdditiveBySlug(slots[0]) : null;
@@ -271,20 +335,112 @@ function CompareFlapUI() {
 
   const isComparePage = pathname?.startsWith('/compare');
   const isAboutPage = pathname === '/about';
+  const shouldHide = isComparePage || isAboutPage;
 
-  if (isComparePage || isAboutPage) {
-    return null;
-  }
+  useEffect(() => {
+    setActiveSlotIndex(null);
+  }, [pathname]);
 
-  const handleOpenSlot = (index: number) => {
-    setActiveSlotIndex(index);
+  useEffect(() => {
+    if (activeSlotIndex === null) {
+      setSlotAnchorEl(null);
+    }
+  }, [activeSlotIndex]);
+
+  useEffect(() => {
+    if (hasDismissedHint || shouldHide) {
+      return;
+    }
+
+    const handleFirstInteraction = () => {
+      dismissHint();
+    };
+
+    const handleFirstKey = () => {
+      dismissHint();
+    };
+
+    window.addEventListener('pointerdown', handleFirstInteraction, { once: true });
+    window.addEventListener('keydown', handleFirstKey, { once: true });
+
+    return () => {
+      window.removeEventListener('pointerdown', handleFirstInteraction);
+      window.removeEventListener('keydown', handleFirstKey);
+    };
+  }, [dismissHint, hasDismissedHint, shouldHide]);
+
+  const showHint = isOpen && !leftAdditive && !rightAdditive && activeSlotIndex === null && !hasDismissedHint;
+
+  const handleToggle = () => {
+    dismissHint();
+    toggle();
   };
 
-  const handleCloseDialog = () => {
+  const handleClose = () => {
+    dismissHint();
+    close();
     setActiveSlotIndex(null);
   };
 
-  const showHint = isOpen && !leftAdditive && !rightAdditive && activeSlotIndex === null;
+  const handleOpenSlot = (index: number, element: HTMLElement) => {
+    dismissHint();
+    openFlap();
+    setActiveSlotIndex(index);
+    setSlotAnchorEl(element);
+  };
+
+  const handleCloseSelector = useCallback(() => {
+    setActiveSlotIndex(null);
+  }, []);
+
+  useEffect(() => {
+    if (activeSlotIndex === null || shouldHide) {
+      return;
+    }
+
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') {
+        event.preventDefault();
+        handleCloseSelector();
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [activeSlotIndex, handleCloseSelector, shouldHide]);
+
+  const selectorModifiers = useMemo(() => {
+    const modifiers: any[] = [
+      { name: 'offset', options: { offset: [0, 16] } },
+      { name: 'flip', enabled: false },
+    ];
+
+    if (selectorArrowEl) {
+      modifiers.push({ name: 'arrow', enabled: true, options: { element: selectorArrowEl } });
+    }
+
+    return modifiers;
+  }, [selectorArrowEl]);
+
+  const hintModifiers = useMemo(() => {
+    const modifiers: any[] = [
+      { name: 'offset', options: { offset: [0, 12] } },
+      { name: 'flip', enabled: false },
+    ];
+
+    if (hintArrowEl) {
+      modifiers.push({ name: 'arrow', enabled: true, options: { element: hintArrowEl } });
+    }
+
+    return modifiers;
+  }, [hintArrowEl]);
+
+  if (shouldHide) {
+    return null;
+  }
 
   return (
     <Box
@@ -295,7 +451,7 @@ function CompareFlapUI() {
         right: 0,
         bottom: 0,
         pointerEvents: 'none',
-        zIndex: (muiTheme) => muiTheme.zIndex.drawer + 1,
+        zIndex: (muiTheme) => muiTheme.zIndex.tooltip + 2,
       }}
     >
       <Box
@@ -306,17 +462,18 @@ function CompareFlapUI() {
         }}
       >
         <Box
+          ref={setHintAnchorEl}
           sx={{
             pointerEvents: 'auto',
-            width: 'calc(100% - 24px)',
-            maxWidth: 320,
-            minWidth: 240,
+            width: 'calc(100% - 20px)',
+            maxWidth: 264,
+            minWidth: 210,
             borderRadius: '16px 16px 0 0',
             border: '1px solid',
             borderColor: 'divider',
             borderBottomWidth: 0,
             backgroundColor: 'background.paper',
-            boxShadow: '0px -10px 28px rgba(0, 0, 0, 0.18)',
+            boxShadow: '0px -12px 28px rgba(0, 0, 0, 0.18)',
             overflow: 'hidden',
             transform: 'translateZ(0)',
           }}
@@ -324,11 +481,11 @@ function CompareFlapUI() {
           <Box
             role="button"
             tabIndex={0}
-            onClick={toggle}
+            onClick={handleToggle}
             onKeyDown={(event) => {
               if (event.key === 'Enter' || event.key === ' ') {
                 event.preventDefault();
-                toggle();
+                handleToggle();
               }
             }}
             sx={{
@@ -336,37 +493,41 @@ function CompareFlapUI() {
               alignItems: 'center',
               justifyContent: 'center',
               position: 'relative',
-              minHeight: 48,
+              minHeight: isOpen ? 38 : 28,
               cursor: 'pointer',
-              px: 3,
+              px: 2,
+              py: 0.75,
+              textTransform: 'lowercase',
             }}
           >
             <Typography
-              variant="subtitle1"
+              variant="subtitle2"
               sx={{
                 fontWeight: 600,
-                letterSpacing: 1.5,
+                letterSpacing: 1.6,
                 textTransform: 'lowercase',
               }}
             >
               compare
             </Typography>
-            <IconButton
-              aria-label="Close compare flap"
-              onClick={(event) => {
-                event.stopPropagation();
-                close();
-              }}
-              size="small"
-              sx={{
-                position: 'absolute',
-                right: 6,
-                top: '50%',
-                transform: 'translateY(-50%)',
-              }}
-            >
-              <CloseIcon fontSize="small" />
-            </IconButton>
+            {isOpen ? (
+              <IconButton
+                aria-label="Close compare flap"
+                onClick={(event) => {
+                  event.stopPropagation();
+                  handleClose();
+                }}
+                size="small"
+                sx={{
+                  position: 'absolute',
+                  right: 6,
+                  top: '50%',
+                  transform: 'translateY(-50%)',
+                }}
+              >
+                <CloseIcon fontSize="small" />
+              </IconButton>
+            ) : null}
           </Box>
           <Box
             sx={{
@@ -374,122 +535,206 @@ function CompareFlapUI() {
               opacity: isOpen ? 1 : 0,
               transition: 'max-height 260ms ease, opacity 200ms ease',
               overflow: 'hidden',
+              borderTop: '1px solid',
+              borderColor: 'divider',
             }}
           >
-            <Stack spacing={2.5} sx={{ px: { xs: 2.5, sm: 3 }, pb: { xs: 2.5, sm: 3 }, pt: 2 }}>
-              <Tooltip
-                arrow
-                open={showHint}
-                placement="top"
-                disableFocusListener
-                disableHoverListener
-                disableTouchListener
-                title="drag & drop cards here or click on slots to select additive"
-                slotProps={{
-                  tooltip: {
-                    sx: {
-                      bgcolor: 'grey.900',
-                      color: 'common.white',
-                      fontSize: 13,
-                      px: 2,
-                      py: 1,
-                      textAlign: 'center',
-                      boxShadow: '0 6px 12px rgba(0, 0, 0, 0.28)',
-                      borderRadius: 1.5,
-                      maxWidth: 220,
-                    },
-                  },
-                  arrow: {
-                    sx: {
-                      color: 'grey.900',
-                    },
-                  },
-                }}
+            <Stack spacing={2} sx={{ px: { xs: 2.25, sm: 2.75 }, pb: { xs: 2.25, sm: 2.75 }, pt: 2 }}>
+              <Stack
+                direction={isMobile ? 'column' : 'row'}
+                spacing={isMobile ? 1.25 : 1.75}
+                alignItems="stretch"
+                sx={{ width: '100%' }}
+                divider={
+                  <Divider
+                    orientation={isMobile ? 'horizontal' : 'vertical'}
+                    flexItem
+                    sx={{ borderColor: 'grey.300' }}
+                  />
+                }
               >
-                <Stack
-                  direction={isMobile ? 'column' : 'row'}
-                  spacing={isMobile ? 1.5 : 2}
-                  alignItems="stretch"
-                  sx={{ width: '100%' }}
-                  divider={
-                    <Divider
-                      orientation={isMobile ? 'horizontal' : 'vertical'}
-                      flexItem
-                      sx={{ borderColor: 'grey.300' }}
-                    />
-                  }
-                >
-                  <Slot
-                    index={0}
-                    additive={leftAdditive}
-                    isHighlighted={activeDropIndex === 0}
-                    onClick={() => {
-                      open();
-                      handleOpenSlot(0);
-                    }}
-                  />
-                  <Slot
-                    index={1}
-                    additive={rightAdditive}
-                    isHighlighted={activeDropIndex === 1}
-                    onClick={() => {
-                      open();
-                      handleOpenSlot(1);
-                    }}
-                  />
-                </Stack>
-              </Tooltip>
+                <Slot
+                  index={0}
+                  additive={leftAdditive}
+                  isHighlighted={activeDropIndex === 0}
+                  onSelect={(element) => {
+                    handleOpenSlot(0, element);
+                  }}
+                />
+                <Slot
+                  index={1}
+                  additive={rightAdditive}
+                  isHighlighted={activeDropIndex === 1}
+                  onSelect={(element) => {
+                    handleOpenSlot(1, element);
+                  }}
+                />
+              </Stack>
             </Stack>
           </Box>
         </Box>
       </Box>
-      <Dialog
-        open={activeSlotIndex !== null}
-        onClose={handleCloseDialog}
-        fullWidth
-        maxWidth="sm"
+
+      <Popper
+        open={showHint}
+        placement="top"
+        anchorEl={hintAnchorEl}
+        modifiers={hintModifiers as unknown as Modifier<any, any>[]}
+        disablePortal
       >
-        <DialogTitle>Select additive</DialogTitle>
-        <DialogContent>
-          <AdditiveLookup
-            additives={additives}
-            value={
-              activeSlotIndex === 0
-                ? leftAdditive
-                : activeSlotIndex === 1
-                  ? rightAdditive
-                  : null
-            }
-            onChange={(value) => {
-              if (activeSlotIndex === null) {
-                return;
-              }
-
-              selectSlot(activeSlotIndex, value ? value.slug : null);
-              handleCloseDialog();
+        <Box sx={{ position: 'relative' }}>
+          <Paper
+            elevation={6}
+            sx={{
+              px: 2,
+              py: 1,
+              bgcolor: 'grey.900',
+              color: 'common.white',
+              fontSize: 13,
+              textAlign: 'center',
+              borderRadius: 2,
+              maxWidth: 260,
             }}
-            placeholder="Search additives"
-            disabledSlugs={(() => {
-              if (activeSlotIndex === null) {
-                return undefined;
-              }
-
-              const otherIndex = activeSlotIndex === 0 ? 1 : 0;
-              const otherSlug = slots[otherIndex];
-
-              return otherSlug ? [otherSlug] : undefined;
-            })()}
-            autoFocus
-            clearOnSelect
-            showPopupIcon={false}
-            textFieldProps={{
-              label: 'Additive name or E-number',
-              placeholder: 'Start typing to search',
+          >
+            drag & drop cards here or click on slots to select additive
+          </Paper>
+          <Box
+            ref={setHintArrowEl}
+            sx={{
+              position: 'absolute',
+              bottom: -6,
+              left: '50%',
+              width: 12,
+              height: 6,
+              transform: 'translateX(-50%)',
+              '&::before': {
+                content: "''",
+                position: 'absolute',
+                width: 12,
+                height: 12,
+                bgcolor: 'grey.900',
+                transform: 'translateY(-50%) rotate(45deg)',
+                left: 0,
+                top: '50%',
+              },
             }}
           />
-        </DialogContent>
-      </Dialog>
+        </Box>
+      </Popper>
+
+      <Popper
+        open={activeSlotIndex !== null}
+        placement="top"
+        anchorEl={slotAnchorEl}
+        modifiers={selectorModifiers as unknown as Modifier<any, any>[]}
+      >
+        <ClickAwayListener
+          onClickAway={(event) => {
+            if (slotAnchorEl && slotAnchorEl.contains(event.target as Node)) {
+              return;
+            }
+            handleCloseSelector();
+          }}
+        >
+          <Box sx={{ position: 'relative' }}>
+            <Paper
+              elevation={8}
+              sx={{
+                width: 360,
+                maxWidth: 'calc(100vw - 32px)',
+                minWidth: 280,
+                borderRadius: 3,
+                p: 2,
+                pt: 2.5,
+                height: SELECTOR_POPPER_HEIGHT,
+                maxHeight: 'calc(100vh - 96px)',
+                display: 'flex',
+                flexDirection: 'column',
+                boxShadow: '0px 12px 32px rgba(0, 0, 0, 0.28)',
+              }}
+            >
+              <Typography variant="subtitle1" sx={{ fontWeight: 600, mb: 1.5 }}>
+                Select additive
+              </Typography>
+              <Box sx={{ flexGrow: 1, display: 'flex', flexDirection: 'column' }}>
+                <AdditiveLookup
+                  additives={additives}
+                  value={
+                    activeSlotIndex === 0
+                      ? leftAdditive
+                      : activeSlotIndex === 1
+                        ? rightAdditive
+                        : null
+                  }
+                  onChange={(value) => {
+                    if (activeSlotIndex === null) {
+                      return;
+                    }
+
+                    selectSlot(activeSlotIndex, value?.slug ?? null);
+                    handleCloseSelector();
+                  }}
+                  disabledSlugs={(() => {
+                    if (activeSlotIndex === null) {
+                      return undefined;
+                    }
+
+                    const otherIndex = activeSlotIndex === 0 ? 1 : 0;
+                    const otherSlug = slots[otherIndex];
+
+                    return otherSlug ? [otherSlug] : undefined;
+                  })()}
+                  autoFocus
+                  clearOnSelect
+                  showPopupIcon={false}
+                  textFieldProps={{
+                    label: 'Select additive',
+                    placeholder: 'Start typing to search',
+                    fullWidth: true,
+                  }}
+                />
+              </Box>
+            </Paper>
+            <Box
+              ref={setSelectorArrowEl}
+              sx={{
+                position: 'absolute',
+                bottom: -8,
+                left: '50%',
+                width: 16,
+                height: 8,
+                transform: 'translateX(-50%)',
+                '&::before': {
+                  content: "''",
+                  position: 'absolute',
+                  width: 16,
+                  height: 16,
+                  bgcolor: 'background.paper',
+                  transform: 'translateY(-50%) rotate(45deg)',
+                  left: 0,
+                  top: '50%',
+                  boxShadow: '0px 12px 32px rgba(0, 0, 0, 0.12)',
+                },
+              }}
+            />
+          </Box>
+        </ClickAwayListener>
+      </Popper>
     </Box>
+  );
+}
+
+function ScreenMatte() {
+  return (
+    <Box
+      sx={{
+        position: 'fixed',
+        inset: 0,
+        pointerEvents: 'none',
+        touchAction: 'none',
+        zIndex: (muiTheme) => muiTheme.zIndex.modal,
+      }}
+    />
   );
 }
 
@@ -497,10 +742,10 @@ interface SlotProps {
   index: number;
   additive: Additive | null;
   isHighlighted: boolean;
-  onClick: () => void;
+  onSelect: (element: HTMLElement) => void;
 }
 
-function Slot({ index, additive, isHighlighted, onClick }: SlotProps) {
+function Slot({ index, additive, isHighlighted, onSelect }: SlotProps) {
   const droppable = useDroppable({ id: `compare-slot-${index}` });
   const isOver = droppable.isOver;
   const showHighlight = isOver || isHighlighted;
@@ -511,20 +756,22 @@ function Slot({ index, additive, isHighlighted, onClick }: SlotProps) {
       role="button"
       tabIndex={0}
       data-compare-slot={index}
-      onClick={onClick}
+      onClick={(event) => {
+        onSelect(event.currentTarget as HTMLElement);
+      }}
       onKeyDown={(event) => {
         if (event.key === 'Enter' || event.key === ' ') {
           event.preventDefault();
-          onClick();
+          onSelect(event.currentTarget as HTMLElement);
         }
       }}
       sx={{
         flex: 1,
-        minHeight: 96,
-        borderRadius: '14px',
+        minHeight: 72,
+        borderRadius: '12px',
         border: '1.5px dashed',
         borderColor: showHighlight ? 'primary.main' : additive ? 'grey.400' : 'grey.500',
-        bgcolor: additive ? 'grey.100' : 'rgba(255, 255, 255, 0.8)',
+        bgcolor: additive ? 'grey.100' : 'rgba(255, 255, 255, 0.86)',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
@@ -535,7 +782,7 @@ function Slot({ index, additive, isHighlighted, onClick }: SlotProps) {
           ? '0 0 0 3px rgba(25, 118, 210, 0.25)'
           : 'inset 0 0 0 1px rgba(0, 0, 0, 0.04)',
         textAlign: 'center',
-        px: { xs: 2, sm: 3 },
+        px: { xs: 1.75, sm: 2.5 },
         outline: 'none',
         '&:focus-visible': {
           boxShadow: '0 0 0 3px rgba(25, 118, 210, 0.3)',
@@ -544,37 +791,32 @@ function Slot({ index, additive, isHighlighted, onClick }: SlotProps) {
     >
       {additive ? (
         <Typography
-          variant="h4"
+          variant="h5"
           component="span"
           sx={{
             fontWeight: 700,
-            letterSpacing: 0.5,
+            letterSpacing: 0.4,
           }}
         >
           {additive.eNumber || additive.title}
         </Typography>
       ) : (
-        <Stack spacing={1} alignItems="center" justifyContent="center">
-          <Box
-            sx={{
-              width: 36,
-              height: 36,
-              borderRadius: '50%',
-              bgcolor: 'grey.100',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              color: 'grey.600',
-              border: '1px solid',
-              borderColor: 'grey.400',
-            }}
-          >
-            <AddIcon />
-          </Box>
-          <Typography variant="caption" color="text.secondary" sx={{ fontWeight: 500 }}>
-            Add additive
-          </Typography>
-        </Stack>
+        <Box
+          sx={{
+            width: 32,
+            height: 32,
+            borderRadius: '50%',
+            bgcolor: 'grey.100',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            color: 'grey.600',
+            border: '1px solid',
+            borderColor: 'grey.400',
+          }}
+        >
+          <AddIcon fontSize="small" />
+        </Box>
       )}
     </Box>
   );

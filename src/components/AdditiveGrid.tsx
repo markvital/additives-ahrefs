@@ -61,7 +61,7 @@ export function AdditiveGrid({
   emptyMessage = 'No additives found.',
   sortMode = DEFAULT_SORT_MODE,
 }: AdditiveGridProps) {
-  const { isOpen: isCompareOpen } = useCompareFlap();
+  const { isOpen: isCompareOpen, isDragging: compareDragging } = useCompareFlap();
 
   const dragEnabled = isCompareOpen;
 
@@ -96,6 +96,7 @@ export function AdditiveGrid({
           index={index}
           sortMode={sortMode}
           dragEnabled={dragEnabled}
+          compareDragging={compareDragging}
         />
       ))}
     </Box>
@@ -107,9 +108,10 @@ interface AdditiveGridItemProps {
   index: number;
   sortMode: AdditiveSortMode;
   dragEnabled: boolean;
+  compareDragging: boolean;
 }
 
-function AdditiveGridItem({ additive, index, sortMode, dragEnabled }: AdditiveGridItemProps) {
+function AdditiveGridItem({ additive, index, sortMode, dragEnabled, compareDragging }: AdditiveGridItemProps) {
   const hasSparkline =
     Array.isArray(additive.searchSparkline) && additive.searchSparkline.some((value) => value !== null);
   const hasSearchMetrics = typeof additive.searchRank === 'number' && typeof additive.searchVolume === 'number';
@@ -161,7 +163,7 @@ function AdditiveGridItem({ additive, index, sortMode, dragEnabled }: AdditiveGr
     ? {
         boxShadow: theme.shadows[8],
         cursor: 'grabbing',
-        zIndex: theme.zIndex.tooltip + 1,
+        zIndex: theme.zIndex.modal + 2,
         position: 'relative' as const,
         pointerEvents: 'none' as const,
       }
@@ -180,6 +182,7 @@ function AdditiveGridItem({ additive, index, sortMode, dragEnabled }: AdditiveGr
         flexDirection: 'column',
         cursor: dragEnabled ? 'grab' : 'pointer',
         touchAction: dragEnabled ? 'none' : undefined,
+        pointerEvents: compareDragging && !isDragging ? 'none' : 'auto',
         ...dragStyles,
       }}
     >
