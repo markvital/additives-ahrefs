@@ -20,11 +20,29 @@ The development server is available at [http://localhost:3000](http://localhost:
 
 ### Core scripts
 
-| Command        | Description                                      |
-| -------------- | ------------------------------------------------ |
-| `npm run dev`  | Starts the local development server              |
-| `npm run lint` | Runs the Next.js lint rules (ESLint)             |
-| `npm run build`| Builds the production bundle (server actions enabled) |
+| Command                  | Description                                                             |
+| ------------------------ | ----------------------------------------------------------------------- |
+| `npm run dev`            | Starts the local development server                                     |
+| `npm run lint`           | Runs the Next.js lint rules (ESLint)                                    |
+| `npm run build`          | Builds the production bundle (server actions enabled)                   |
+| `npm run generate-card-preview` | Renders additive cards in a headless browser and saves 512×512 previews |
+
+### Card preview generation
+
+Social sharing previews can be created with `npm run generate-card-preview`. The command launches a headless Chromium instance
+via Playwright, renders the additive grid using the production Next.js build, and stores circular 512×512 PNG files under
+`public/card-previews/<slug>.png`.
+
+- **Bulk mode** — running the command without arguments walks the entire catalogue, skipping existing previews unless
+  `--override` is supplied.
+- **Targeted mode** — pass `--additive <slug>` (or a comma-separated list) to regenerate specific cards. Targeted runs always
+  refresh the requested files.
+- **Existing server** — supply `--base-url=https://example.com` to reuse a running deployment instead of starting a local
+  `next start` instance. This is helpful when the build output already exists elsewhere.
+
+All options mirror the other scripts in `src/scripts`, so `--limit`, `--parallel`, and `--debug` behave as expected. Facebook
+accepts 1:1 square previews when they are at least 600 pixels wide, while Twitter’s Summary Card with Large Image supports
+2:1 art but also allows up to 4096×4096 images, so a 512×512 asset is valid for both platforms.【6e0385†L18-L33】【ef5c5e†L8-L13】
 
 ## Project structure
 

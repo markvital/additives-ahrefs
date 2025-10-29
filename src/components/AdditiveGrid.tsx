@@ -127,6 +127,7 @@ export function AdditiveGrid({
           <Card
             key={additive.slug}
             data-additive-card-index={index}
+            data-additive-card-slug={additive.slug}
             sx={{ display: 'flex', flexDirection: 'column' }}
           >
             <CardActionArea
