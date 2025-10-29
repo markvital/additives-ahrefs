@@ -14,6 +14,10 @@ const path = require('path');
 const { spawn } = require('child_process');
 const net = require('net');
 
+if (!process.env.PLAYWRIGHT_BROWSERS_PATH || process.env.PLAYWRIGHT_BROWSERS_PATH.trim() === '') {
+  process.env.PLAYWRIGHT_BROWSERS_PATH = '0';
+}
+
 const { chromium } = require('playwright');
 const sharp = require('sharp');
 const { createAdditiveSlug } = require('./utils/slug');

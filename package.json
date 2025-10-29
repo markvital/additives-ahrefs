@@ -7,6 +7,7 @@
     "dev": "next dev",
     "build": "next build",
     "postbuild": "node src/scripts/generate-card-preview.js",
+    "postinstall": "node src/scripts/install-playwright-browsers.js",
     "start": "next start",
     "lint": "next lint",
     "test": "vitest run",
