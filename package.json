@@ -8,7 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "vitest run"
+    "test": "vitest run",
+    "generate-card-preview": "node src/scripts/generate-card-preview.js"
   },
   "keywords": [
     "nextjs",
@@ -35,6 +36,7 @@
     "rehype-katex": "^7.0.1",
     "remark-gfm": "^4.0.1",
     "remark-math": "^6.0.0",
+    "sharp": "^0.33.5",
     "undici": "^6.22.0"
   },
   "devDependencies": {

@@ -25,6 +25,7 @@ The development server is available at [http://localhost:3000](http://localhost:
 | `npm run dev`  | Starts the local development server              |
 | `npm run lint` | Runs the Next.js lint rules (ESLint)             |
 | `npm run build`| Builds the production bundle (server actions enabled) |
+| `npm run generate-card-preview` | Generates circular 512×512 social preview images for additive cards |
 
 ## Project structure
 
@@ -59,3 +60,14 @@ This trims the initial data payload by roughly **90%** while keeping the UI resp
 ## Deployment
 
 The project is configured for Vercel. Use `npm run build` followed by `npm run start` to preview the production build locally; server actions require a Node runtime rather than a static export.
+
+## Card preview generator
+
+Use `npm run generate-card-preview` to render 512×512 card thumbnails that can be reused in meta tags.
+
+- **Rendering** — The script starts a temporary Next.js server, loads the `/preview/card/[slug]` route in a headless Chromium session, and masks each capture to a circular PNG. Images are written to `public/card-previews/<slug>.png`.
+- **Modes** — Bulk runs skip existing files unless `--override` is provided. Targeted runs via `--additive` always refresh the requested slugs (e.g. `npm run generate-card-preview -- --additive e414-acacia-gum`).
+- **Performance** — The CLI mirrors the data pipeline flags (`--additive`, `--override`, `--debug`) and exits with a non-zero code if any capture fails.
+- **Social requirements** — Twitter/X supports 2:1 images from 300×157 up to 4096×4096, and Facebook recommends at least 1200×630 pixels while accepting 600×315 and square crops. The 512×512 output stays within both guidelines and keeps consistent branding across platforms.【4e17d1†L1-L5】【0a70dd†L1-L2】
+
+When testing locally, generate a small sample (two or three cards), review the PNGs, and delete them before committing.
