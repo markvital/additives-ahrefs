@@ -15,6 +15,7 @@ const { spawn } = require('child_process');
 const net = require('net');
 
 const { chromium } = require('playwright');
+const sharp = require('sharp');
 const { createAdditiveSlug } = require('./utils/slug');
 
 const ROOT_DIR = path.join(__dirname, '..', '..');
@@ -24,9 +25,9 @@ const OUTPUT_DIR = path.join(PUBLIC_DIR, 'card-previews');
 const ADDITIVES_INDEX_PATH = path.join(DATA_DIR, 'additives.json');
 
 const DEFAULT_PORT = 4050;
-const DEFAULT_PARALLEL = 4;
+const DEFAULT_PARALLEL = 2;
 const PREVIEW_SIZE = 512;
-const CARD_SELECTOR = '[data-additive-card-slug]';
+const CARD_LOCATOR = '[data-additive-card-index]';
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
@@ -209,6 +210,36 @@ const ensureOutputDir = async () => {
   await fs.mkdir(OUTPUT_DIR, { recursive: true });
 };
 
+const SERVER_START_TIMEOUT_MS = 60000;
+
+const waitForServerReady = async ({ url, serverProcess, debug }) => {
+  const start = Date.now();
+  let lastError = null;
+
+  while (Date.now() - start < SERVER_START_TIMEOUT_MS) {
+    if (serverProcess.exitCode !== null || serverProcess.signalCode !== null) {
+      throw new Error(`Next.js server exited early with code ${serverProcess.exitCode ?? serverProcess.signalCode}`);
+    }
+
+    try {
+      const response = await fetch(url, { method: 'HEAD', cache: 'no-store' });
+      if (response.ok || (response.status >= 200 && response.status < 500)) {
+        if (debug) {
+          console.log(`Next.js server responded with status ${response.status}.`);
+        }
+        return;
+      }
+    } catch (error) {
+      lastError = error instanceof Error ? error : new Error(String(error));
+    }
+
+    await sleep(500);
+  }
+
+  const reason = lastError ? ` Last error: ${lastError.message}` : '';
+  throw new Error(`Timed out waiting for Next.js server to start.${reason}`);
+};
+
 const startNextServer = async ({ port, debug }) => {
   const portAvailable = await new Promise((resolve) => {
     const tester = net
@@ -226,61 +257,17 @@ const startNextServer = async ({ port, debug }) => {
 
   const serverProcess = spawn(
     process.platform === 'win32' ? 'npx.cmd' : 'npx',
-    ['next', 'start', '-p', String(port)],
+    ['next', 'start', '-p', String(port), '--hostname', '127.0.0.1'],
     {
       cwd: ROOT_DIR,
       env: { ...process.env, PORT: String(port) },
-      stdio: ['ignore', 'pipe', 'pipe'],
+      stdio: 'ignore',
+      detached: false,
     },
   );
 
-  const serverReady = new Promise((resolve, reject) => {
-    let resolved = false;
-    const timeout = setTimeout(() => {
-      if (!resolved) {
-        reject(new Error('Timed out waiting for Next.js server to start.'));
-      }
-    }, 60000);
-
-    const handleLine = (line) => {
-      if (debug) {
-        process.stdout.write(`[next] ${line}`);
-      }
-      if (!resolved && /(started server|ready\s)/i.test(line)) {
-        resolved = true;
-        clearTimeout(timeout);
-        resolve();
-      }
-    };
-
-    serverProcess.stdout.on('data', (chunk) => {
-      const text = chunk.toString();
-      text.split(/(?<=\n)/).forEach(handleLine);
-    });
-
-    serverProcess.stderr.on('data', (chunk) => {
-      const text = chunk.toString();
-      text.split(/(?<=\n)/).forEach((line) => {
-        if (debug) {
-          process.stderr.write(`[next] ${line}`);
-        }
-        if (!resolved && /(started server|ready\s)/i.test(line)) {
-          resolved = true;
-          clearTimeout(timeout);
-          resolve();
-        }
-      });
-    });
-
-    serverProcess.on('exit', (code) => {
-      if (!resolved) {
-        clearTimeout(timeout);
-        reject(new Error(`Next.js server exited early with code ${code}.`));
-      }
-    });
-  });
-
-  await serverReady;
+  const serverUrl = `http://127.0.0.1:${port}`;
+  await waitForServerReady({ url: serverUrl, serverProcess, debug });
   return serverProcess;
 };
 
@@ -288,160 +275,113 @@ const stopServer = async (serverProcess) => {
   if (!serverProcess) {
     return;
   }
+
+  if (serverProcess.exitCode !== null || serverProcess.signalCode !== null) {
+    return;
+  }
+
   await new Promise((resolve) => {
-    serverProcess.once('exit', () => resolve());
-    serverProcess.kill('SIGTERM');
-    setTimeout(() => serverProcess.kill('SIGKILL'), 2000);
+    let settled = false;
+    const finish = () => {
+      if (!settled) {
+        settled = true;
+        resolve();
+      }
+    };
+
+    serverProcess.once('exit', finish);
+    serverProcess.once('close', finish);
+
+    try {
+      serverProcess.kill('SIGTERM');
+    } catch (error) {
+      finish();
+      return;
+    }
+
+    setTimeout(() => {
+      try {
+        serverProcess.kill('SIGKILL');
+      } catch (error) {
+        // ignore
+      }
+      finish();
+    }, 2000);
   });
 };
 
 const ensureCardVisible = async (page, slug, debug) => {
-  const selector = `[data-additive-card-slug="${slug}"]`;
-  for (let attempt = 0; attempt < 50; attempt += 1) {
-    const count = await page.locator(selector).count();
-    if (count > 0) {
-      if (debug) {
-        console.log(`Located card for ${slug} after ${attempt + 1} attempts.`);
-      }
-      return true;
-    }
+  const linkSelector = `a[href="/${slug}"]`;
 
-    await page.evaluate(() => window.scrollBy(0, window.innerHeight * 0.8));
-    await page.waitForTimeout(750);
-  }
+  await page.evaluate(() => window.scrollTo(0, 0));
 
-  return false;
-};
-
-const loadAllCards = async (page, expectedCount, debug) => {
-  let lastCount = 0;
-  let stagnantRounds = 0;
-
-  for (let attempt = 0; attempt < expectedCount * 4; attempt += 1) {
-    const count = await page.locator(CARD_SELECTOR).count();
-    if (count >= expectedCount) {
-      if (debug) {
-        console.log(`Loaded ${count} cards (expected ${expectedCount}).`);
-      }
-      return;
-    }
-
-    if (count === lastCount) {
-      stagnantRounds += 1;
-    } else {
-      stagnantRounds = 0;
-    }
-
-    if (stagnantRounds > 6) {
-      if (debug) {
-        console.warn('Reached stagnation while loading cards; continuing anyway.');
-      }
-      return;
-    }
-
-    lastCount = count;
-    await page.evaluate(() => window.scrollBy(0, window.innerHeight * 0.9));
-    await page.waitForTimeout(750);
-  }
-};
-
-const createPreviewClone = async (page, slug) => {
-  const selector = `[data-additive-card-slug="${slug}"]`;
-  const cloneId = `card-preview-${slug}`;
-
-  const created = await page.evaluate(
-    ({ cardSelector, previewId, size }) => {
-      const existing = document.querySelector(`[data-card-preview-wrapper="${previewId}"]`);
-      if (existing) {
-        existing.remove();
+  for (let attempt = 0; attempt < 200; attempt += 1) {
+    const found = await page.evaluate(({ selector }) => {
+      const link = document.querySelector(selector);
+      if (!link) {
+        return false;
       }
 
-      const card = document.querySelector(cardSelector);
+      const card = link.closest('[data-additive-card-index]');
       if (!card) {
         return false;
       }
 
-      const wrapper = document.createElement('div');
-      wrapper.setAttribute('data-card-preview-wrapper', previewId);
-      wrapper.style.position = 'fixed';
-      wrapper.style.top = '0';
-      wrapper.style.left = '0';
-      wrapper.style.width = `${size}px`;
-      wrapper.style.height = `${size}px`;
-      wrapper.style.zIndex = '99999';
-      wrapper.style.borderRadius = '50%';
-      wrapper.style.overflow = 'hidden';
-      wrapper.style.background = '#ffffff';
-      wrapper.style.padding = '0';
-      wrapper.style.boxShadow = 'none';
-      wrapper.style.display = 'flex';
-      wrapper.style.flexDirection = 'column';
-      wrapper.style.alignItems = 'stretch';
-      wrapper.style.justifyContent = 'stretch';
-      wrapper.style.boxSizing = 'border-box';
-      wrapper.style.transform = 'translateZ(0)';
-
-      const clone = card.cloneNode(true);
-      clone.style.width = '100%';
-      clone.style.height = '100%';
-      clone.style.borderRadius = '50%';
-      clone.style.overflow = 'hidden';
-      clone.style.display = 'flex';
-      clone.style.flexDirection = 'column';
-      clone.style.alignItems = 'stretch';
-      clone.style.justifyContent = 'stretch';
-
-      const actionArea = clone.querySelector('[class*="MuiCardActionArea-root"]');
-      if (actionArea) {
-        actionArea.removeAttribute('href');
-        actionArea.style.display = 'flex';
-        actionArea.style.flexDirection = 'column';
-        actionArea.style.alignItems = 'stretch';
-        actionArea.style.justifyContent = 'stretch';
-        actionArea.style.height = '100%';
-      }
-
-      const content = clone.querySelector('[class*="MuiCardContent-root"]');
-      if (content) {
-        content.style.height = '100%';
-        content.style.boxSizing = 'border-box';
-        content.style.padding = '32px';
-        content.style.display = 'flex';
-        content.style.flexDirection = 'column';
-        content.style.justifyContent = 'space-between';
-        content.style.gap = '24px';
-      }
-
-      wrapper.appendChild(clone);
-      document.body.appendChild(wrapper);
+      card.scrollIntoView({ block: 'center', inline: 'center', behavior: 'auto' });
       return true;
-    },
-    { cardSelector: selector, previewId: cloneId, size: PREVIEW_SIZE },
-  );
+    }, { selector: linkSelector });
 
-  return created ? `[data-card-preview-wrapper="${cloneId}"]` : null;
+    if (found) {
+      const locator = page
+        .locator(CARD_LOCATOR)
+        .filter({ has: page.locator(linkSelector) })
+        .first();
+
+      await locator.waitFor({ state: 'visible', timeout: 5000 });
+      await locator.scrollIntoViewIfNeeded();
+      await page.waitForTimeout(250);
+
+      if (debug) {
+        console.log(`Located card for ${slug} after ${attempt + 1} attempt${attempt === 0 ? '' : 's'}.`);
+      }
+
+      return locator;
+    }
+
+    await page.evaluate(() => window.scrollBy(0, window.innerHeight * 0.9));
+    await page.waitForTimeout(350);
+  }
+
+  return null;
 };
 
-const removePreviewClone = async (page, slug) => {
-  const cloneId = `card-preview-${slug}`;
-  await page.evaluate((previewId) => {
-    const wrapper = document.querySelector(`[data-card-preview-wrapper="${previewId}"]`);
-    if (wrapper) {
-      wrapper.remove();
-    }
-  }, cloneId);
+const createPreviewBuffer = async (buffer) => {
+  const circleMask = Buffer.from(
+    `<svg width="${PREVIEW_SIZE}" height="${PREVIEW_SIZE}"><circle cx="${PREVIEW_SIZE / 2}" cy="${PREVIEW_SIZE / 2}" r="${
+      PREVIEW_SIZE / 2
+    }" fill="white" /></svg>`,
+  );
+
+  return sharp(buffer)
+    .resize(PREVIEW_SIZE, PREVIEW_SIZE, {
+      fit: 'contain',
+      background: { r: 0, g: 0, b: 0, alpha: 0 },
+    })
+    .composite([{ input: circleMask, blend: 'dest-in' }])
+    .png({ compressionLevel: 9 })
+    .toBuffer();
 };
 
 const captureCardPreview = async ({ page, slug, outputPath, debug }) => {
-  const selector = await createPreviewClone(page, slug);
-  if (!selector) {
+  const locator = await ensureCardVisible(page, slug, debug);
+
+  if (!locator) {
     throw new Error(`Unable to locate card for slug ${slug}.`);
   }
 
-  const locator = page.locator(selector);
-  await locator.waitFor({ state: 'visible', timeout: 5000 });
-  await locator.screenshot({ path: outputPath, type: 'png' });
-  await removePreviewClone(page, slug);
+  const screenshot = await locator.screenshot({ type: 'png', animations: 'disabled', omitBackground: true });
+  const previewBuffer = await createPreviewBuffer(screenshot);
+  await fs.writeFile(outputPath, previewBuffer);
 
   if (debug) {
     console.log(`Captured preview for ${slug} -> ${outputPath}`);
@@ -456,7 +396,22 @@ async function main() {
     return;
   }
 
+  if (process.env.CARD_PREVIEW_SKIP === '1') {
+    if (debug) {
+      console.log('CARD_PREVIEW_SKIP=1 — skipping preview generation.');
+    } else {
+      console.log('Skipping card preview generation (CARD_PREVIEW_SKIP=1).');
+    }
+    return;
+  }
+
   await ensureOutputDir();
+  const existingFiles = await fs.readdir(OUTPUT_DIR, { withFileTypes: true });
+  const existingPreviews = new Set(
+    existingFiles
+      .filter((entry) => entry.isFile() && entry.name.toLowerCase().endsWith('.png'))
+      .map((entry) => entry.name.replace(/\.png$/i, '')),
+  );
   const additives = await readAdditivesIndex();
 
   const additiveMap = new Map(additives.map((item) => [item.slug, item]));
@@ -491,7 +446,7 @@ async function main() {
 
   for (const slug of candidates) {
     const outputPath = path.join(OUTPUT_DIR, `${slug}.png`);
-    const exists = await fileExists(outputPath);
+    const exists = existingPreviews.has(slug) ? true : await fileExists(outputPath);
     if (exists && !effectiveOverride) {
       if (debug) {
         console.log(`Skipping existing preview for ${slug}.`);
@@ -525,59 +480,45 @@ async function main() {
     }
 
     const browser = await chromium.launch({ headless: true });
-    const page = await browser.newPage({
-      viewport: { width: 1440, height: 900 },
-      deviceScaleFactor: 2,
-    });
+    const context = await browser.newContext({ viewport: { width: 1440, height: 900 }, deviceScaleFactor: 2 });
 
-    await page.goto(`${serverUrl}/`, { waitUntil: 'networkidle' });
-    await page.waitForTimeout(1500);
-
-    if (!targeted) {
-      await loadAllCards(page, allSlugs.length, debug);
-    }
-
-    const activeTasks = [...tasks];
-    const inFlight = new Set();
-
-    const launchNext = async () => {
-      if (activeTasks.length === 0) {
-        return null;
-      }
-      const next = activeTasks.shift();
-      const promise = (async () => {
-        try {
-          const available = await ensureCardVisible(page, next.slug, debug);
-          if (!available) {
-            throw new Error(`Card for ${next.slug} did not render on the page.`);
-          }
-          await captureCardPreview({ page, slug: next.slug, outputPath: next.outputPath, debug });
-        } catch (error) {
-          throw new Error(`Failed to capture preview for ${next.slug}: ${error.message}`);
-        }
-      })();
-      inFlight.add(promise);
-      promise.finally(() => inFlight.delete(promise));
-      return promise;
-    };
-
-    const workers = [];
     const workerCount = Math.max(1, parallel || 1);
-    for (let index = 0; index < workerCount; index += 1) {
-      const worker = (async () => {
+    const activeTasks = [...tasks];
+
+    const spawnWorker = async () => {
+      const page = await context.newPage();
+
+      try {
+        await page.goto(`${serverUrl}/`, { waitUntil: 'networkidle' });
+        await page.waitForTimeout(1000);
+
         while (activeTasks.length > 0) {
-          const job = await launchNext();
-          if (!job) {
+          const task = activeTasks.shift();
+          if (!task) {
             break;
           }
-          await job;
+
+          try {
+            await captureCardPreview({ page, slug: task.slug, outputPath: task.outputPath, debug });
+          } catch (error) {
+            throw new Error(`Failed to capture preview for ${task.slug}: ${error.message}`);
+          }
         }
-      })();
-      workers.push(worker);
+      } finally {
+        await page.close();
+      }
+    };
+
+    const workerPromises = [];
+    for (let index = 0; index < workerCount; index += 1) {
+      workerPromises.push(spawnWorker());
     }
 
-    await Promise.all(workers);
-    await browser.close();
+    try {
+      await Promise.all(workerPromises);
+    } finally {
+      await browser.close();
+    }
 
     if (missing.length > 0) {
       console.warn(`Missing additives: ${missing.join(', ')}`);

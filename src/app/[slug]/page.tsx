@@ -27,6 +27,7 @@ import { MarkdownArticle } from '../../components/MarkdownArticle';
 import { SearchQuestions } from '../../components/SearchQuestions';
 import { ReportMistakeName } from '../../components/ReportMistakeContext';
 import { AwarenessScoreChip } from '../../components/AwarenessScoreChip';
+import { absoluteUrl } from '../../lib/site';
 
 interface AdditivePageProps {
   params: Promise<{ slug: string }>;
@@ -49,12 +50,35 @@ export async function generateMetadata({ params }: AdditivePageProps): Promise<M
   const displayName = formatAdditiveDisplayName(additive.eNumber, additive.title);
   const articleSummary = extractArticleSummary(additive.article);
   const metaDescription = articleSummary?.replace(/\s+/g, ' ').trim() || additive.description;
+  const previewImage = absoluteUrl(`/card-previews/${additive.slug}.png`);
+  const canonical = absoluteUrl(`/${additive.slug}`);
 
   return {
     title: displayName,
     description: metaDescription,
     alternates: {
-      canonical: `/${additive.slug}`,
+      canonical,
+    },
+    openGraph: {
+      title: displayName,
+      description: metaDescription,
+      url: canonical,
+      type: 'article',
+      images: [
+        {
+          url: previewImage,
+          width: 512,
+          height: 512,
+          type: 'image/png',
+          alt: displayName,
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: displayName,
+      description: metaDescription,
+      images: [previewImage],
     },
   };
 }

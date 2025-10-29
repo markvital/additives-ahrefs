@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "node src/scripts/generate-card-preview.js",
     "start": "next start",
     "lint": "next lint",
     "test": "vitest run",
@@ -36,6 +37,7 @@
     "rehype-katex": "^7.0.1",
     "remark-gfm": "^4.0.1",
     "remark-math": "^6.0.0",
+    "sharp": "^0.33.5",
     "undici": "^6.22.0"
   },
   "devDependencies": {
