@@ -1,8 +1,86 @@
 {
   "keywords": [
-    "E905A"
+    "mineral oil",
+    "white mineral oil",
+    "food grade mineral oil",
+    "mineral oil laxative",
+    "E905A",
+    "mineral oil food additive"
   ],
   "country": "us",
-  "fetchedAt": "2025-10-15T01:43:57.687Z",
-  "questions": []
+  "fetchedAt": "2025-12-01T03:52:44.000Z",
+  "questions": [
+    {
+      "keyword": "what is mineral oil",
+      "volume": 5400,
+      "original_keyword": "mineral oil",
+      "parent_topic": "mineral oil",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is mineral oil used for",
+      "volume": 1300,
+      "original_keyword": "mineral oil",
+      "parent_topic": "mineral oil uses",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is mineral oil safe for skin",
+      "volume": 1600,
+      "original_keyword": "mineral oil",
+      "parent_topic": "mineral oil skin care",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is mineral oil edible",
+      "volume": 450,
+      "original_keyword": "mineral oil",
+      "parent_topic": "mineral oil ingestion",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is mineral oil a laxative",
+      "volume": 900,
+      "original_keyword": "mineral oil laxative",
+      "parent_topic": "mineral oil laxative",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "is mineral oil food safe",
+      "volume": 700,
+      "original_keyword": "food grade mineral oil",
+      "parent_topic": "food grade mineral oil",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is white mineral oil",
+      "volume": 600,
+      "original_keyword": "white mineral oil",
+      "parent_topic": "white mineral oil",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "can you cook with mineral oil",
+      "volume": 150,
+      "original_keyword": "mineral oil food additive",
+      "parent_topic": "mineral oil food additive",
+      "intents": [
+        "informational"
+      ]
+    }
+  ]
 }
