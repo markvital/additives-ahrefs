@@ -14,11 +14,13 @@ function main() {
     env.PLAYWRIGHT_BROWSERS_PATH = '0';
   }
 
-  const args = ['playwright', 'install'];
-  if (process.platform === 'linux') {
-    args.push('--with-deps');
+  const args = ['playwright', 'install', 'chromium'];
+
+  if (process.platform === 'linux' && !process.env.VERCEL) {
+    console.log(
+      'Linux detected. If browser installation fails due to missing system dependencies, run `npx playwright install-deps` manually.'
+    );
   }
-  args.push('chromium');
 
   console.log('Ensuring Playwright Chromium browser is installed...');
 
