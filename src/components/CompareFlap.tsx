@@ -670,7 +670,7 @@ function CompareFlapUI() {
           </Box>
           <Box
             sx={{
-              maxHeight: isOpen ? 320 : 0,
+              maxHeight: isOpen ? 260 : 0,
               opacity: isOpen ? 1 : 0,
               transition: 'max-height 260ms ease, opacity 200ms ease',
               overflow: 'hidden',
@@ -678,18 +678,15 @@ function CompareFlapUI() {
               borderColor: 'divider',
             }}
           >
-            <Stack spacing={1.75} sx={{ px: { xs: 2.25, sm: 2.5 }, pb: { xs: 2.25, sm: 2.5 }, pt: 1.75 }}>
+            <Stack spacing={1.25} sx={{ px: 0, pb: 0, pt: 0 }}>
               <Stack
                 direction="row"
-                spacing={1.5}
+                spacing={1}
                 alignItems="stretch"
                 sx={{
                   width: '100%',
                   flexWrap: 'nowrap',
                   minWidth: 0,
-                  px: 1,
-                  py: 1,
-                  borderRadius: 3,
                   transition: 'background-color 160ms ease',
                   backgroundColor: isWidgetOver ? 'rgba(25, 118, 210, 0.08)' : 'transparent',
                 }}
@@ -920,20 +917,19 @@ function Slot({ index, additive, isHighlighted, onSelect }: SlotProps) {
       sx={{
         flex: 1,
         minWidth: 0,
-        borderRadius: '14px',
-        border: '1.5px solid',
-        borderColor: showHighlight ? 'primary.main' : 'grey.400',
-        backgroundColor: additive ? '#f5f5f5' : 'transparent',
+        borderRadius: 0,
+        border: 'none',
+        backgroundColor: additive ? '#f7f7f7' : 'transparent',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        transition: 'border-color 160ms ease, background-color 160ms ease, box-shadow 160ms ease',
+        transition: 'background-color 160ms ease, box-shadow 160ms ease',
         cursor: 'pointer',
-        padding: { xs: '6px 10px', sm: '7px 14px' },
-        height: { xs: 28, sm: 30 },
-        boxShadow: showHighlight ? '0 0 0 3px rgba(25, 118, 210, 0.22)' : 'inset 0 0 0 1px rgba(0,0,0,0.04)',
+        padding: 0,
+        height: 44,
+        boxShadow: showHighlight ? 'inset 0 0 0 2px rgba(25, 118, 210, 0.4)' : 'none',
         '&:focus-visible': {
-          boxShadow: '0 0 0 3px rgba(25, 118, 210, 0.28)',
+          boxShadow: 'inset 0 0 0 2px rgba(25, 118, 210, 0.5)',
         },
       }}
       ref={(node) => {
