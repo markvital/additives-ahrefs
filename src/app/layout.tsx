@@ -10,7 +10,6 @@ import { Providers } from '../components/Providers';
 import { HeaderSearch } from '../components/HeaderSearch';
 import { ReportMistakeProvider } from '../components/ReportMistakeContext';
 import { ReportMistakeLink } from '../components/ReportMistakeLink';
-import { getAdditives } from '../lib/additives';
 import logo2x from '../../img/logo/logo_2x.png';
 import './globals.css';
 
@@ -32,8 +31,6 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const additives = getAdditives();
-
   return (
     <html lang="en">
       <body className={roboto.className}>
@@ -58,7 +55,7 @@ export default function RootLayout({
                       </Link>
                     </div>
                     <nav className="header-nav">
-                      <HeaderSearch additives={additives} />
+                      <HeaderSearch />
                       <Link href="/compare" className="header-link">
                         Compare
                       </Link>

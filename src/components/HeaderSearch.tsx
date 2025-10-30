@@ -1,24 +1,95 @@
 'use client';
 
-import { useCallback, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { Box, InputAdornment } from '@mui/material';
 import SearchIcon from '@mui/icons-material/Search';
 
-import type { Additive } from '../lib/additives';
+import type { AdditiveSearchItem } from '../lib/additives';
 import type { AdditiveSearchMatch } from '../lib/additive-search';
+import {
+  getCachedAdditiveSearchItems,
+  hasAdditiveSearchDataLoaded,
+  isAdditiveSearchDataLoading,
+  loadAdditiveSearchItems,
+} from '../lib/client/additive-search-data';
 import { AdditiveLookup } from './AdditiveLookup';
 
-interface HeaderSearchProps {
-  additives: Additive[];
-}
-
-export function HeaderSearch({ additives }: HeaderSearchProps) {
+export function HeaderSearch() {
   const router = useRouter();
-  const [value, setValue] = useState<Additive | null>(null);
-  const [results, setResults] = useState<AdditiveSearchMatch<Additive>[]>([]);
+  const [value, setValue] = useState<AdditiveSearchItem | null>(null);
+  const [results, setResults] = useState<AdditiveSearchMatch<AdditiveSearchItem>[]>([]);
   const [query, setQuery] = useState('');
   const [isFocused, setIsFocused] = useState(false);
+  const [additives, setAdditives] = useState<AdditiveSearchItem[]>(() => getCachedAdditiveSearchItems() ?? []);
+  const [hasLoaded, setHasLoaded] = useState(() => hasAdditiveSearchDataLoaded());
+  const [isLoading, setIsLoading] = useState(() => isAdditiveSearchDataLoading());
+
+  const ensureSearchData = useCallback(() => {
+    if (hasAdditiveSearchDataLoaded()) {
+      const cached = getCachedAdditiveSearchItems();
+      if (cached) {
+        setAdditives(cached);
+      }
+      setHasLoaded(true);
+      setIsLoading(false);
+      return;
+    }
+
+    setIsLoading(true);
+    loadAdditiveSearchItems()
+      .then((items) => {
+        setAdditives(items);
+        setHasLoaded(true);
+      })
+      .catch((error) => {
+        console.error('Unable to load additives for search', error);
+        setHasLoaded(false);
+      })
+      .finally(() => {
+        setIsLoading(false);
+      });
+  }, []);
+
+  const handleQueryChange = useCallback(
+    (nextQuery: string) => {
+      setQuery(nextQuery);
+
+      if (!hasLoaded) {
+        ensureSearchData();
+      }
+    },
+    [ensureSearchData, hasLoaded],
+  );
+
+  useEffect(() => {
+    if (!hasLoaded) {
+      if (hasAdditiveSearchDataLoaded()) {
+        const cached = getCachedAdditiveSearchItems();
+        if (cached) {
+          setAdditives(cached);
+        }
+        setHasLoaded(true);
+        setIsLoading(false);
+      } else if (isAdditiveSearchDataLoading()) {
+        setIsLoading(true);
+        loadAdditiveSearchItems()
+          .then((items) => {
+            setAdditives(items);
+            setHasLoaded(true);
+          })
+          .catch((error) => {
+            console.error('Unable to load additives for search', error);
+            setHasLoaded(false);
+          })
+          .finally(() => {
+            setIsLoading(false);
+          });
+      }
+    }
+  }, [hasLoaded]);
+
+  const loadingState = useMemo(() => !hasLoaded && isLoading, [hasLoaded, isLoading]);
 
   const navigateToAdditive = useCallback(
     (slug: string | null | undefined) => {
@@ -59,7 +130,11 @@ export function HeaderSearch({ additives }: HeaderSearchProps) {
   );
 
   return (
-    <Box className="header-search" data-active={isFocused ? 'true' : undefined}>
+    <Box
+      className="header-search"
+      data-active={isFocused ? 'true' : undefined}
+      onPointerEnter={ensureSearchData}
+    >
       <AdditiveLookup
         additives={additives}
         value={value}
@@ -71,7 +146,7 @@ export function HeaderSearch({ additives }: HeaderSearchProps) {
         }}
         placeholder={placeholder}
         clearOnSelect
-        onInputValueChange={setQuery}
+        onInputValueChange={handleQueryChange}
         onResultsChange={(nextResults, searchQuery) => {
           setResults(nextResults);
           if (searchQuery.length === 0) {
@@ -79,6 +154,7 @@ export function HeaderSearch({ additives }: HeaderSearchProps) {
           }
         }}
         showPopupIcon={false}
+        loading={loadingState}
         textFieldProps={{
           size: 'small',
           onKeyDown: (event) => {
@@ -90,7 +166,13 @@ export function HeaderSearch({ additives }: HeaderSearchProps) {
             }
           },
           autoComplete: 'off',
-          onFocus: () => setIsFocused(true),
+          onFocus: () => {
+            setIsFocused(true);
+            ensureSearchData();
+          },
+          onPointerEnter: () => {
+            ensureSearchData();
+          },
           onBlur: () => setIsFocused(false),
           sx: {
             '& .MuiOutlinedInput-root': {
