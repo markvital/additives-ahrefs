@@ -36,6 +36,7 @@ interface CompareFlapContextValue {
   dismissHint: () => void;
   hasDismissedHint: boolean;
   isDragging: boolean;
+  isWidgetDroppableActive: boolean;
 }
 
 const CompareFlapContext = createContext<CompareFlapContextValue | null>(null);
@@ -59,6 +60,7 @@ type SlotState = [string | null, string | null];
 
 const SELECTOR_POPPER_HEIGHT_DESKTOP = 475;
 const SELECTOR_POPPER_HEIGHT_MOBILE = 420;
+const HINT_APPEAR_DELAY_MS = 280;
 
 function extractAdditiveSlug(pathname: string | null): string | null {
   if (!pathname || pathname === '/' || pathname === '/about') {
@@ -87,6 +89,7 @@ export function CompareFlapProvider({ additives, children }: CompareFlapProvider
   const [activeDropIndex, setActiveDropIndex] = useState<number | null>(null);
   const [hasDismissedHint, setHasDismissedHint] = useState(false);
   const [isDragging, setIsDragging] = useState(false);
+  const [isWidgetDroppableActive, setIsWidgetDroppableActive] = useState(false);
   const lastNavigatedPairRef = useRef<string | null>(null);
   const lastPrefilledSlugRef = useRef<string | null>(null);
   const previousPathRef = useRef<string | null>(null);
@@ -232,20 +235,49 @@ export function CompareFlapProvider({ additives, children }: CompareFlapProvider
     }
   }, [dismissHint]);
 
-  const handleDragOver = useCallback((event: DragOverEvent) => {
-    const overId = event.over?.id;
+  useEffect(() => {
+    const previousCursor = document.body.style.cursor;
 
-    if (typeof overId === 'string' && overId.startsWith('compare-slot-')) {
-      const index = Number.parseInt(overId.replace('compare-slot-', ''), 10);
-
-      if (!Number.isNaN(index)) {
-        setActiveDropIndex(index);
-        return;
-      }
+    if (isDragging) {
+      document.body.style.cursor = 'grabbing';
+    } else {
+      document.body.style.cursor = previousCursor || '';
     }
 
-    setActiveDropIndex(null);
-  }, []);
+    return () => {
+      document.body.style.cursor = previousCursor;
+    };
+  }, [isDragging]);
+
+  const handleDragOver = useCallback(
+    (event: DragOverEvent) => {
+      const overId = event.over?.id;
+
+      if (typeof overId === 'string') {
+        if (overId.startsWith('compare-slot-')) {
+          const index = Number.parseInt(overId.replace('compare-slot-', ''), 10);
+
+          if (!Number.isNaN(index)) {
+            setActiveDropIndex(index);
+            setIsWidgetDroppableActive(false);
+            return;
+          }
+        }
+
+        if (overId === 'compare-widget') {
+          const firstAvailableIndex = slots.findIndex((slot) => slot === null);
+
+          setActiveDropIndex(firstAvailableIndex >= 0 ? firstAvailableIndex : null);
+          setIsWidgetDroppableActive(firstAvailableIndex >= 0);
+          return;
+        }
+      }
+
+      setActiveDropIndex(null);
+      setIsWidgetDroppableActive(false);
+    },
+    [slots],
+  );
 
   const handleDragEnd = useCallback(
     (event: DragEndEvent) => {
@@ -255,26 +287,43 @@ export function CompareFlapProvider({ additives, children }: CompareFlapProvider
       setActiveDropIndex(null);
       setIsDragging(false);
       dismissHint();
+      setIsWidgetDroppableActive(false);
 
       if (typeof slug !== 'string') {
         return;
       }
 
-      if (typeof overId === 'string' && overId.startsWith('compare-slot-')) {
-        const index = Number.parseInt(overId.replace('compare-slot-', ''), 10);
+      if (typeof overId === 'string') {
+        if (overId.startsWith('compare-slot-')) {
+          const index = Number.parseInt(overId.replace('compare-slot-', ''), 10);
 
-        if (!Number.isNaN(index)) {
-          selectSlot(index, slug);
-          setIsOpen(true);
+          if (!Number.isNaN(index)) {
+            selectSlot(index, slug);
+            setIsOpen(true);
+          }
+
+          return;
+        }
+
+        if (overId === 'compare-widget') {
+          const firstAvailableIndex = slots.findIndex((slot) => slot === null);
+
+          if (firstAvailableIndex >= 0) {
+            selectSlot(firstAvailableIndex, slug);
+            setIsOpen(true);
+          }
+
+          return;
         }
       }
     },
-    [dismissHint, selectSlot],
+    [dismissHint, selectSlot, slots],
   );
 
   const handleDragCancel = useCallback(() => {
     setActiveDropIndex(null);
     setIsDragging(false);
+    setIsWidgetDroppableActive(false);
   }, []);
 
   const contextValue = useMemo<CompareFlapContextValue>(
@@ -292,6 +341,7 @@ export function CompareFlapProvider({ additives, children }: CompareFlapProvider
       dismissHint,
       hasDismissedHint,
       isDragging,
+      isWidgetDroppableActive,
     }),
     [
       activeDropIndex,
@@ -300,6 +350,7 @@ export function CompareFlapProvider({ additives, children }: CompareFlapProvider
       dismissHint,
       getAdditiveBySlug,
       hasDismissedHint,
+      isWidgetDroppableActive,
       isDragging,
       isOpen,
       open,
@@ -339,18 +390,28 @@ function CompareFlapUI() {
     additives,
     selectSlot,
     activeDropIndex,
-    dismissHint,
-    hasDismissedHint,
+      dismissHint,
+      hasDismissedHint,
+      isWidgetDroppableActive,
   } = useCompareFlap();
   const pathname = usePathname();
   const [activeSlotIndex, setActiveSlotIndex] = useState<number | null>(null);
   const [slotAnchorEl, setSlotAnchorEl] = useState<HTMLElement | null>(null);
   const [slotReferenceEl, setSlotReferenceEl] = useState<HTMLElement | null>(null);
-  const [hintAnchorEl, setHintAnchorEl] = useState<HTMLDivElement | null>(null);
+  const [hintAnchorEl, setHintAnchorEl] = useState<HTMLElement | null>(null);
   const [hintArrowEl, setHintArrowEl] = useState<HTMLDivElement | null>(null);
   const [selectorArrowEl, setSelectorArrowEl] = useState<HTMLDivElement | null>(null);
+  const [showHint, setShowHint] = useState(false);
   const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
   const selectorHeight = isMobile ? SELECTOR_POPPER_HEIGHT_MOBILE : SELECTOR_POPPER_HEIGHT_DESKTOP;
+  const headerRef = useRef<HTMLDivElement | null>(null);
+  const widgetDropTarget = useDroppable({ id: 'compare-widget' });
+  const isWidgetOver = widgetDropTarget.isOver || isWidgetDroppableActive;
+
+  const handleHeaderRef = useCallback((element: HTMLDivElement | null) => {
+    headerRef.current = element;
+    setHintAnchorEl(element);
+  }, []);
 
   const leftAdditive = slots[0] ? getAdditiveBySlug(slots[0]) : null;
   const rightAdditive = slots[1] ? getAdditiveBySlug(slots[1]) : null;
@@ -360,8 +421,24 @@ function CompareFlapUI() {
   const shouldHide = isComparePage || isAboutPage;
 
   useEffect(() => {
+    if (shouldHide) {
+      setHintAnchorEl(null);
+      return;
+    }
+
+    setHintAnchorEl(headerRef.current);
+  }, [shouldHide]);
+
+  useEffect(() => {
     setActiveSlotIndex(null);
   }, [pathname]);
+
+  useEffect(() => {
+    console.log('[CompareFlap] visibility change', {
+      timestamp: performance.now(),
+      isOpen,
+    });
+  }, [isOpen]);
 
   useEffect(() => {
     if (activeSlotIndex === null) {
@@ -370,13 +447,28 @@ function CompareFlapUI() {
     }
   }, [activeSlotIndex]);
 
-  const showHint =
+  const shouldDisplayHint =
     isOpen &&
     !leftAdditive &&
     !rightAdditive &&
     activeSlotIndex === null &&
     !hasDismissedHint &&
     !shouldHide;
+
+  useEffect(() => {
+    if (!shouldDisplayHint) {
+      setShowHint(false);
+      return;
+    }
+
+    const timeoutId = window.setTimeout(() => {
+      setShowHint(true);
+    }, HINT_APPEAR_DELAY_MS);
+
+    return () => {
+      window.clearTimeout(timeoutId);
+    };
+  }, [shouldDisplayHint]);
 
   useEffect(() => {
     if (!showHint) {
@@ -401,10 +493,17 @@ function CompareFlapUI() {
   }, [dismissHint, showHint]);
 
   const handleToggle = () => {
+    console.log('[CompareFlap] toggle requested', {
+      timestamp: performance.now(),
+      currentState: isOpen,
+    });
     toggle();
   };
 
   const handleClose = () => {
+    console.log('[CompareFlap] close requested', {
+      timestamp: performance.now(),
+    });
     dismissHint();
     close();
     setActiveSlotIndex(null);
@@ -498,16 +597,19 @@ function CompareFlapUI() {
         }}
       >
         <Box
+          ref={widgetDropTarget.setNodeRef}
           sx={{
             pointerEvents: 'auto',
             width: isOpen ? 'min(250px, calc(100vw - 24px))' : '100px',
             transition: 'width 220ms ease, border-radius 220ms ease, box-shadow 220ms ease',
             borderRadius: isOpen ? '26px 26px 0 0' : '22px 22px 0 0',
             border: '1px solid',
-            borderColor: 'divider',
+            borderColor: isWidgetOver ? 'primary.main' : 'divider',
             borderBottomWidth: 0,
             backgroundColor: 'background.paper',
-            boxShadow: '0px -12px 28px rgba(0, 0, 0, 0.18)',
+            boxShadow: isWidgetOver
+              ? '0px -12px 28px rgba(0, 0, 0, 0.18), 0 0 0 3px rgba(25, 118, 210, 0.16)'
+              : '0px -12px 28px rgba(0, 0, 0, 0.18)',
             overflow: 'hidden',
             transform: 'translateZ(0)',
             maxWidth: 'min(250px, calc(100vw - 24px))',
@@ -515,18 +617,7 @@ function CompareFlapUI() {
           }}
         >
           <Box
-            ref={setHintAnchorEl}
-            sx={{
-              position: 'absolute',
-              top: 0,
-              left: '50%',
-              width: 0,
-              height: 0,
-              transform: 'translateX(-50%)',
-              pointerEvents: 'none',
-            }}
-          />
-          <Box
+            ref={handleHeaderRef}
             role="button"
             tabIndex={0}
             onClick={handleToggle}
@@ -589,17 +680,20 @@ function CompareFlapUI() {
           >
             <Stack spacing={1.75} sx={{ px: { xs: 2.25, sm: 2.5 }, pb: { xs: 2.25, sm: 2.5 }, pt: 1.75 }}>
               <Stack
-                direction={isMobile ? 'column' : 'row'}
-                spacing={isMobile ? 1 : 1.5}
+                direction="row"
+                spacing={1.5}
                 alignItems="stretch"
-                sx={{ width: '100%' }}
-                divider={
-                  <Divider
-                    orientation={isMobile ? 'horizontal' : 'vertical'}
-                    flexItem
-                    sx={{ borderColor: 'grey.300' }}
-                  />
-                }
+                sx={{
+                  width: '100%',
+                  flexWrap: 'nowrap',
+                  minWidth: 0,
+                  px: 1,
+                  py: 1,
+                  borderRadius: 3,
+                  transition: 'background-color 160ms ease',
+                  backgroundColor: isWidgetOver ? 'rgba(25, 118, 210, 0.08)' : 'transparent',
+                }}
+                divider={<Divider orientation="vertical" flexItem sx={{ borderColor: 'grey.300' }} />}
               >
                 <Slot
                   index={0}
@@ -629,6 +723,7 @@ function CompareFlapUI() {
         anchorEl={hintAnchorEl}
         modifiers={hintModifiers as unknown as Modifier<any, any>[]}
         disablePortal
+        sx={{ zIndex: (muiTheme) => muiTheme.zIndex.modal + 5 }}
       >
         <Box sx={{ position: 'relative' }}>
           <Paper
@@ -670,6 +765,7 @@ function CompareFlapUI() {
         placement="top"
         anchorEl={slotAnchorEl}
         modifiers={selectorModifiers as unknown as Modifier<any, any>[]}
+        sx={{ zIndex: (muiTheme) => muiTheme.zIndex.modal + 6 }}
       >
         <ClickAwayListener
           onClickAway={(event) => {
@@ -693,8 +789,12 @@ function CompareFlapUI() {
                 maxHeight: `min(${selectorHeight}px, calc(100vh - 64px))`,
                 display: 'flex',
                 flexDirection: 'column',
-                boxShadow: '0px 12px 32px rgba(0, 0, 0, 0.28)',
+                boxShadow: '0px 18px 36px rgba(0, 0, 0, 0.24)',
                 overflow: 'visible',
+                zIndex: (muiTheme) => muiTheme.zIndex.modal + 4,
+                backgroundColor: '#f3f3f3',
+                border: '1px solid',
+                borderColor: 'grey.200',
               }}
             >
               <Box sx={{ flexGrow: 1, display: 'flex', flexDirection: 'column', gap: 2 }}>
@@ -736,6 +836,7 @@ function CompareFlapUI() {
                       'aria-label': 'Search additives',
                     },
                   }}
+                  disablePortal={false}
                 />
               </Box>
             </Paper>
@@ -751,7 +852,7 @@ function CompareFlapUI() {
                 borderLeft: '16px solid transparent',
                 borderRight: '16px solid transparent',
                 borderTop: '18px solid',
-                borderTopColor: 'background.paper',
+                borderTopColor: '#f3f3f3',
                 filter: 'drop-shadow(0px 12px 32px rgba(0, 0, 0, 0.18))',
               }}
             />
@@ -771,7 +872,7 @@ function ScreenMatte() {
         pointerEvents: 'auto',
         touchAction: 'none',
         backgroundColor: 'transparent',
-        zIndex: (muiTheme) => muiTheme.zIndex.modal,
+        zIndex: (muiTheme) => muiTheme.zIndex.modal + 1,
       }}
     />
   );
@@ -818,11 +919,12 @@ function Slot({ index, additive, isHighlighted, onSelect }: SlotProps) {
       }}
       sx={{
         flex: 1,
-        minHeight: 60,
-        borderRadius: '18px',
-        border: '1.5px dashed',
-        borderColor: showHighlight ? 'primary.main' : additive ? 'grey.400' : 'grey.500',
-        bgcolor: additive ? 'grey.100' : 'rgba(255, 255, 255, 0.9)',
+        minWidth: 0,
+        minHeight: 34,
+        borderRadius: '16px',
+        border: '1px solid',
+        borderColor: showHighlight ? 'primary.main' : additive ? 'grey.400' : 'grey.300',
+        bgcolor: additive ? 'grey.100' : 'transparent',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
@@ -830,13 +932,13 @@ function Slot({ index, additive, isHighlighted, onSelect }: SlotProps) {
         transition: 'border-color 180ms ease, background-color 180ms ease, box-shadow 180ms ease',
         cursor: 'pointer',
         boxShadow: showHighlight
-          ? '0 0 0 3px rgba(25, 118, 210, 0.28)'
-          : 'inset 0 0 0 1px rgba(0, 0, 0, 0.06)',
+          ? '0 0 0 2px rgba(25, 118, 210, 0.28)'
+          : 'none',
         textAlign: 'center',
-        px: { xs: 1.5, sm: 2.25 },
+        px: { xs: 1, sm: 1.5 },
         outline: 'none',
         '&:focus-visible': {
-          boxShadow: '0 0 0 3px rgba(25, 118, 210, 0.3)',
+          boxShadow: '0 0 0 2px rgba(25, 118, 210, 0.3)',
         },
       }}
     >
@@ -859,27 +961,13 @@ function Slot({ index, additive, isHighlighted, onSelect }: SlotProps) {
           sx={{
             fontWeight: 700,
             letterSpacing: 0.4,
+            fontSize: { xs: '1.125rem', sm: '1.25rem' },
           }}
         >
           {additive.eNumber || additive.title}
         </Typography>
       ) : (
-        <Box
-          sx={{
-            width: 30,
-            height: 30,
-            borderRadius: '50%',
-            bgcolor: 'grey.100',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            color: 'grey.600',
-            border: '1px solid',
-            borderColor: 'grey.400',
-          }}
-        >
-          <AddIcon fontSize="small" />
-        </Box>
+        <AddIcon sx={{ fontSize: 26, color: 'grey.500' }} />
       )}
     </Box>
   );

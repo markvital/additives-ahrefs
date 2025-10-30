@@ -1,5 +1,6 @@
 'use client';
 
+import { useMemo } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Avatar, Box, Card, CardActionArea, CardContent, Stack, Tooltip, Typography } from '@mui/material';
@@ -151,6 +152,17 @@ function AdditiveGridItem({ additive, index, sortMode, dragEnabled, compareDragg
     disabled: !dragEnabled,
   });
 
+  const draggableAttributes = useMemo(() => {
+    if (!attributes) {
+      return undefined;
+    }
+
+    const cleaned = { ...attributes } as typeof attributes & Record<string, unknown>;
+    delete (cleaned as Record<string, unknown>)['aria-describedby'];
+
+    return cleaned;
+  }, [attributes]);
+
   const transformStyles = transform
     ? {
         transform: CSS.Translate.toString(transform),
@@ -162,7 +174,6 @@ function AdditiveGridItem({ additive, index, sortMode, dragEnabled, compareDragg
   const draggingStyles = isDragging
     ? {
         boxShadow: theme.shadows[8],
-        cursor: 'grabbing',
         zIndex: theme.zIndex.modal + 2,
         position: 'relative' as const,
         pointerEvents: 'none' as const,
@@ -175,21 +186,31 @@ function AdditiveGridItem({ additive, index, sortMode, dragEnabled, compareDragg
     <Card
       data-additive-card-index={index}
       ref={setNodeRef}
-      {...attributes}
+      {...draggableAttributes}
       {...listeners}
       sx={{
         display: 'flex',
         flexDirection: 'column',
-        cursor: dragEnabled ? 'grab' : 'pointer',
+        cursor: dragEnabled ? (isDragging ? 'grabbing' : 'grab') : 'pointer',
         touchAction: isDragging ? 'none' : undefined,
         pointerEvents: compareDragging && !isDragging ? 'none' : 'auto',
+        '&:active': dragEnabled ? { cursor: 'grabbing' } : undefined,
         ...dragStyles,
       }}
     >
       <CardActionArea
         component={Link}
         href={`/${additive.slug}`}
-        sx={{ flexGrow: 1, display: 'flex', flexDirection: 'column', alignItems: 'stretch', height: '100%' }}
+        disableRipple={dragEnabled}
+        disableTouchRipple={dragEnabled}
+        sx={{
+          flexGrow: 1,
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'stretch',
+          height: '100%',
+          cursor: 'inherit',
+        }}
       >
         <CardContent
           sx={{
@@ -295,21 +316,6 @@ function AdditiveGridItem({ additive, index, sortMode, dragEnabled, compareDragg
               ) : (
                 <Box sx={{ minHeight: 28 }} />
               )}
-              {showProductCount && productCountLabel ? (
-                <Typography
-                  variant="caption"
-                  sx={{
-                    bgcolor: highlightProducts ? 'primary.main' : 'grey.100',
-                    color: highlightProducts ? 'primary.contrastText' : 'text.secondary',
-                    borderRadius: 999,
-                    px: 1,
-                    py: 0.5,
-                    fontWeight: 600,
-                  }}
-                >
-                  {productCountLabel}
-                </Typography>
-              ) : null}
             </Box>
 
             {showSearchSection ? (
@@ -352,21 +358,23 @@ function AdditiveGridItem({ additive, index, sortMode, dragEnabled, compareDragg
               <Box sx={{ height: 40, mt: 1.5 }} />
             )}
 
-            {showProductCount && productCountLabel ? (
-              <Typography
-                variant="body2"
-                sx={{
-                  mt: 2,
-                  color: '#5c5c5c',
-                  fontWeight: 400,
-                }}
-              >
-                Found in <Box component="span" sx={{ fontWeight: 600, color: '#5c5c5c' }}>
-                  {productCountLabel}
-                </Box>{' '}
-                products
-              </Typography>
-            ) : null}
+            <Box sx={{ mt: 'auto !important', pt: 2, width: '100%' }}>
+              {showProductCount && productCountLabel ? (
+                <Typography
+                  variant="body2"
+                  sx={{
+                    color: '#5c5c5c',
+                    fontWeight: 400,
+                    m: 0,
+                  }}
+                >
+                  Found in <Box component="span" sx={{ fontWeight: 600, color: '#5c5c5c' }}>
+                    {productCountLabel}
+                  </Box>{' '}
+                  products
+                </Typography>
+              ) : null}
+            </Box>
           </Stack>
         </CardContent>
       </CardActionArea>

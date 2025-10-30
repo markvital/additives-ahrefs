@@ -26,6 +26,7 @@ interface AdditiveLookupProps<TAdditive extends Additive> {
   clearOnSelect?: boolean;
   showPopupIcon?: boolean;
   transformInputDisplayValue?: (value: string) => string;
+  disablePortal?: boolean;
 }
 
 type MatchesMap<TAdditive extends Additive> = Map<string, AdditiveSearchMatch<TAdditive>['matches']>;
@@ -96,6 +97,7 @@ export function AdditiveLookup<TAdditive extends Additive>({
   clearOnSelect = false,
   showPopupIcon = true,
   transformInputDisplayValue,
+  disablePortal = true,
 }: AdditiveLookupProps<TAdditive>) {
   const [inputValue, setInputValue] = useState('');
   const [isOpen, setIsOpen] = useState(false);
@@ -166,11 +168,14 @@ export function AdditiveLookup<TAdditive extends Additive>({
         popper: {
           modifiers: [sameWidthModifier, { name: 'flip', enabled: false }],
           placement: 'bottom-start',
-          disablePortal: true,
+          disablePortal,
+          sx: {
+            zIndex: (theme) => theme.zIndex.modal + 7,
+          },
         },
         listbox: {
           sx: {
-            maxHeight: '288px',
+            maxHeight: '380px',
           },
         },
       }}
