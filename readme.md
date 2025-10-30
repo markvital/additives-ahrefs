@@ -25,7 +25,7 @@ The development server is available at [http://localhost:3000](http://localhost:
 | `npm run dev`            | Starts the local development server                                     |
 | `npm run lint`           | Runs the Next.js lint rules (ESLint)                                    |
 | `npm run build`          | Builds the production bundle (server actions enabled)                   |
-| `npm run generate-card-preview` | Captures circular 512×512 previews for additives (see `--help`) |
+| `npm run generate-card-preview` | Captures transparent 512×512 previews for additives (see `--help`) |
 
 ### Card preview generation
 

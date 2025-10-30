@@ -7,7 +7,6 @@
     "dev": "next dev",
     "build": "next build",
     "postbuild": "node src/scripts/generate-card-preview.js",
-    "postinstall": "node src/scripts/install-playwright-browsers.js",
     "start": "next start",
     "lint": "next lint",
     "test": "vitest run",
@@ -29,6 +28,7 @@
     "@mui/material-nextjs": "^7.3.2",
     "@nivo/core": "^0.99.0",
     "@nivo/line": "^0.99.0",
+    "@sparticuz/chromium": "^141.0.0",
     "katex": "^0.16.25",
     "next": "^15.5.4",
     "openai": "^6.1.0",
@@ -39,7 +39,8 @@
     "remark-gfm": "^4.0.1",
     "remark-math": "^6.0.0",
     "sharp": "^0.33.5",
-    "undici": "^6.22.0"
+    "undici": "^6.22.0",
+    "puppeteer-core": "^24.27.0"
   },
   "devDependencies": {
     "@types/node": "^22.10.1",
@@ -47,7 +48,6 @@
     "@types/react-dom": "^19.1.9",
     "eslint": "^8.57.0",
     "eslint-config-next": "^15.5.4",
-    "playwright": "^1.55.1",
     "typescript": "^5.9.2",
     "vitest": "^4.0.4"
   },

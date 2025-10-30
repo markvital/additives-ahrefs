@@ -3,10 +3,11 @@
 /**
  * generate-card-preview.js
  *
- * Uses Playwright to render the additive catalogue grid in a headless browser
- * and captures a circular 512×512 image for each card. The resulting PNG files
- * are stored under `public/card-previews/<slug>.png` so they can be referenced
- * from Open Graph and Twitter meta tags.
+ * Uses Puppeteer with the @sparticuz/chromium build to render the additive
+ * catalogue grid in a headless browser and captures a transparent 512×512
+ * image for each card. The resulting PNG files are stored under
+ * `public/card-previews/<slug>.png` so they can be referenced from Open Graph
+ * and Twitter meta tags.
  */
 
 const fs = require('fs/promises');
@@ -14,11 +15,8 @@ const path = require('path');
 const { spawn } = require('child_process');
 const net = require('net');
 
-if (!process.env.PLAYWRIGHT_BROWSERS_PATH || process.env.PLAYWRIGHT_BROWSERS_PATH.trim() === '') {
-  process.env.PLAYWRIGHT_BROWSERS_PATH = '0';
-}
-
-const { chromium } = require('playwright');
+const chromium = require('@sparticuz/chromium');
+const puppeteer = require('puppeteer-core');
 const sharp = require('sharp');
 const { createAdditiveSlug } = require('./utils/slug');
 
@@ -31,7 +29,117 @@ const ADDITIVES_INDEX_PATH = path.join(DATA_DIR, 'additives.json');
 const DEFAULT_PORT = 4050;
 const DEFAULT_PARALLEL = 2;
 const PREVIEW_SIZE = 512;
-const CARD_LOCATOR = '[data-additive-card-index]';
+const DEFAULT_VIEWPORT = { width: 1440, height: 900, deviceScaleFactor: 2 };
+
+chromium.setGraphicsMode = false;
+
+const normalizePath = (candidate) => {
+  if (!candidate) {
+    return null;
+  }
+
+  const trimmed = candidate.trim();
+  if (!trimmed) {
+    return null;
+  }
+
+  return path.isAbsolute(trimmed) ? trimmed : path.resolve(trimmed);
+};
+
+const findFirstExistingPath = async (candidates) => {
+  for (const candidate of candidates) {
+    const normalized = normalizePath(candidate);
+    if (!normalized) {
+      continue;
+    }
+
+    if (await fileExists(normalized)) {
+      return normalized;
+    }
+  }
+
+  return null;
+};
+
+let cachedExecutablePath = null;
+
+const resolveChromiumExecutablePath = async (debug) => {
+  if (cachedExecutablePath) {
+    return cachedExecutablePath;
+  }
+
+  const envExecutable = await findFirstExistingPath([
+    process.env.CHROMIUM_EXECUTABLE_PATH,
+    process.env.PUPPETEER_EXECUTABLE_PATH,
+    process.env.BROWSER_EXECUTABLE_PATH,
+  ]);
+
+  if (envExecutable) {
+    cachedExecutablePath = envExecutable;
+    return cachedExecutablePath;
+  }
+
+  try {
+    const bundled = await chromium.executablePath();
+    if (bundled && (await fileExists(bundled))) {
+      cachedExecutablePath = bundled;
+      return cachedExecutablePath;
+    }
+  } catch (error) {
+    if (debug) {
+      console.warn(`Falling back from bundled Chromium: ${error instanceof Error ? error.message : String(error)}`);
+    }
+  }
+
+  const platformCandidates = process.platform === 'darwin'
+    ? [
+        '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
+        '/Applications/Chromium.app/Contents/MacOS/Chromium',
+        '/Applications/Microsoft Edge.app/Contents/MacOS/Microsoft Edge',
+      ]
+    : process.platform === 'win32'
+      ? [
+          path.join(process.env.LOCALAPPDATA || '', 'Google/Chrome/Application/chrome.exe'),
+          path.join(process.env.PROGRAMFILES || '', 'Google/Chrome/Application/chrome.exe'),
+          path.join(process.env['PROGRAMFILES(X86)'] || '', 'Google/Chrome/Application/chrome.exe'),
+          path.join(process.env.LOCALAPPDATA || '', 'Microsoft/Edge/Application/msedge.exe'),
+        ]
+      : [
+          '/usr/bin/chromium-browser',
+          '/usr/bin/chromium',
+          '/usr/bin/google-chrome-stable',
+          '/usr/bin/google-chrome',
+          '/usr/bin/microsoft-edge',
+        ];
+
+  const platformExecutable = await findFirstExistingPath(platformCandidates);
+  if (platformExecutable) {
+    cachedExecutablePath = platformExecutable;
+    return cachedExecutablePath;
+  }
+
+  throw new Error(
+    'Unable to locate a Chromium executable. Set CHROMIUM_EXECUTABLE_PATH to point to a compatible browser binary.',
+  );
+};
+
+const launchBrowser = async (debug) => {
+  const executablePath = await resolveChromiumExecutablePath(debug);
+  const args = [...chromium.args, '--hide-scrollbars'];
+  const headless = chromium.headless ?? 'shell';
+
+  if (debug) {
+    console.log(`Launching Chromium from ${executablePath}`);
+  }
+
+  return puppeteer.launch({
+    args,
+    defaultViewport: DEFAULT_VIEWPORT,
+    executablePath,
+    headless,
+    ignoreHTTPSErrors: true,
+  });
+};
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
@@ -318,9 +426,14 @@ const ensureCardVisible = async (page, slug, debug) => {
   const linkSelector = `a[href="/${slug}"]`;
 
   await page.evaluate(() => window.scrollTo(0, 0));
+  let lastCardCount = await page.evaluate(() => document.querySelectorAll('[data-additive-card-index]').length);
+
+  if (debug) {
+    console.log(`Initial card count: ${lastCardCount}`);
+  }
 
   for (let attempt = 0; attempt < 200; attempt += 1) {
-    const found = await page.evaluate(({ selector }) => {
+    const found = await page.evaluate((selector) => {
       const link = document.querySelector(selector);
       if (!link) {
         return false;
@@ -333,62 +446,105 @@ const ensureCardVisible = async (page, slug, debug) => {
 
       card.scrollIntoView({ block: 'center', inline: 'center', behavior: 'auto' });
       return true;
-    }, { selector: linkSelector });
+    }, linkSelector);
 
     if (found) {
-      const locator = page
-        .locator(CARD_LOCATOR)
-        .filter({ has: page.locator(linkSelector) })
-        .first();
+      await page.waitForFunction(
+        (selector) => {
+          const link = document.querySelector(selector);
+          if (!link) {
+            return false;
+          }
 
-      await locator.waitFor({ state: 'visible', timeout: 5000 });
-      await locator.scrollIntoViewIfNeeded();
-      await page.waitForTimeout(250);
+          const card = link.closest('[data-additive-card-index]');
+          if (!card) {
+            return false;
+          }
 
-      if (debug) {
-        console.log(`Located card for ${slug} after ${attempt + 1} attempt${attempt === 0 ? '' : 's'}.`);
+          const rect = card.getBoundingClientRect();
+          return rect.width > 0 && rect.height > 0;
+        },
+        { timeout: 5000 },
+        linkSelector,
+      );
+
+      await sleep(250);
+
+      const handle = await page.evaluateHandle((selector) => {
+        const link = document.querySelector(selector);
+        return link ? link.closest('[data-additive-card-index]') : null;
+      }, linkSelector);
+
+      const element = handle.asElement();
+      if (element) {
+        if (debug) {
+          console.log(`Located card for ${slug} after ${attempt + 1} attempt${attempt === 0 ? '' : 's'}.`);
+        }
+        return element;
       }
 
-      return locator;
+      await handle.dispose();
+      throw new Error(`Unable to resolve additive card element for ${slug}.`);
+    }
+
+    if (debug && (attempt + 1) % 10 === 0) {
+      console.log(`Still searching for ${slug} after ${attempt + 1} attempts...`);
     }
 
     await page.evaluate(() => window.scrollBy(0, window.innerHeight * 0.9));
-    await page.waitForTimeout(350);
+
+    const newCountHandle = await page
+      .waitForFunction(
+        (selector, previous) => {
+          const elements = document.querySelectorAll(selector);
+          return elements.length > previous ? elements.length : null;
+        },
+        { timeout: 2000 },
+        '[data-additive-card-index]',
+        lastCardCount,
+      )
+      .catch(() => null);
+
+    if (newCountHandle) {
+      const newCount = await newCountHandle.jsonValue();
+      if (debug) {
+        console.log(`Loaded ${newCount - lastCardCount} additional card(s); total ${newCount}.`);
+      }
+      lastCardCount = newCount;
+    }
+
+    await sleep(350);
   }
 
   return null;
 };
 
-const createPreviewBuffer = async (buffer) => {
-  const circleMask = Buffer.from(
-    `<svg width="${PREVIEW_SIZE}" height="${PREVIEW_SIZE}"><circle cx="${PREVIEW_SIZE / 2}" cy="${PREVIEW_SIZE / 2}" r="${
-      PREVIEW_SIZE / 2
-    }" fill="white" /></svg>`,
-  );
-
-  return sharp(buffer)
+const createPreviewBuffer = async (buffer) =>
+  sharp(buffer)
     .resize(PREVIEW_SIZE, PREVIEW_SIZE, {
       fit: 'contain',
       background: { r: 0, g: 0, b: 0, alpha: 0 },
     })
-    .composite([{ input: circleMask, blend: 'dest-in' }])
-    .png({ compressionLevel: 9 })
+    .png({ compressionLevel: 9, adaptiveFiltering: true })
     .toBuffer();
-};
 
 const captureCardPreview = async ({ page, slug, outputPath, debug }) => {
-  const locator = await ensureCardVisible(page, slug, debug);
+  const element = await ensureCardVisible(page, slug, debug);
 
-  if (!locator) {
+  if (!element) {
     throw new Error(`Unable to locate card for slug ${slug}.`);
   }
 
-  const screenshot = await locator.screenshot({ type: 'png', animations: 'disabled', omitBackground: true });
-  const previewBuffer = await createPreviewBuffer(screenshot);
-  await fs.writeFile(outputPath, previewBuffer);
+  try {
+    const screenshot = await element.screenshot({ type: 'png', omitBackground: true });
+    const previewBuffer = await createPreviewBuffer(screenshot);
+    await fs.writeFile(outputPath, previewBuffer);
 
-  if (debug) {
-    console.log(`Captured preview for ${slug} -> ${outputPath}`);
+    if (debug) {
+      console.log(`Captured preview for ${slug} -> ${outputPath}`);
+    }
+  } finally {
+    await element.dispose();
   }
 };
 
@@ -469,6 +625,12 @@ async function main() {
     return;
   }
 
+  if (debug) {
+    console.log(`Preparing to capture ${tasks.length} preview${tasks.length === 1 ? '' : 's'}: ${tasks
+      .map((task) => task.slug)
+      .join(', ')}`);
+  }
+
   const port = DEFAULT_PORT;
   let serverProcess = null;
   let serverUrl = baseUrl ? baseUrl.replace(/\/$/, '') : null;
@@ -483,18 +645,18 @@ async function main() {
       await sleep(1500);
     }
 
-    const browser = await chromium.launch({ headless: true });
-    const context = await browser.newContext({ viewport: { width: 1440, height: 900 }, deviceScaleFactor: 2 });
+    const browser = await launchBrowser(debug);
 
     const workerCount = Math.max(1, parallel || 1);
     const activeTasks = [...tasks];
 
     const spawnWorker = async () => {
-      const page = await context.newPage();
+      const page = await browser.newPage();
 
       try {
-        await page.goto(`${serverUrl}/`, { waitUntil: 'networkidle' });
-        await page.waitForTimeout(1000);
+        await page.goto(`${serverUrl}/`, { waitUntil: 'domcontentloaded', timeout: 60000 });
+        await page.waitForSelector('[data-additive-card-index]', { timeout: 60000 });
+        await sleep(300);
 
         while (activeTasks.length > 0) {
           const task = activeTasks.shift();
@@ -505,7 +667,8 @@ async function main() {
           try {
             await captureCardPreview({ page, slug: task.slug, outputPath: task.outputPath, debug });
           } catch (error) {
-            throw new Error(`Failed to capture preview for ${task.slug}: ${error.message}`);
+            const message = error instanceof Error ? error.message : String(error);
+            throw new Error(`Failed to capture preview for ${task.slug}: ${message}`);
           }
         }
       } finally {
