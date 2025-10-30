@@ -170,7 +170,7 @@ export function AdditiveLookup<TAdditive extends Additive>({
           placement: 'bottom-start',
           disablePortal,
           sx: {
-            zIndex: (theme) => theme.zIndex.modal + 7,
+            zIndex: (theme) => theme.zIndex.tooltip + 15,
           },
         },
         listbox: {

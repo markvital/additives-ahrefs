@@ -11,7 +11,7 @@ import {
   type ReactNode,
 } from 'react';
 import { usePathname, useRouter } from 'next/navigation';
-import { Box, ClickAwayListener, Divider, IconButton, Paper, Popper, Stack, Typography, useMediaQuery } from '@mui/material';
+import { Box, ButtonBase, ClickAwayListener, Divider, IconButton, Paper, Popper, Stack, Typography, useMediaQuery } from '@mui/material';
 import AddIcon from '@mui/icons-material/Add';
 import CloseIcon from '@mui/icons-material/Close';
 import { DndContext, PointerSensor, useDroppable, useSensor, useSensors, type DragEndEvent } from '@dnd-kit/core';
@@ -586,7 +586,7 @@ function CompareFlapUI() {
         right: 0,
         bottom: 0,
         pointerEvents: 'none',
-        zIndex: (muiTheme) => muiTheme.zIndex.modal + 2,
+        zIndex: (muiTheme) => muiTheme.zIndex.tooltip + 10,
       }}
     >
       <Box
@@ -723,7 +723,7 @@ function CompareFlapUI() {
         anchorEl={hintAnchorEl}
         modifiers={hintModifiers as unknown as Modifier<any, any>[]}
         disablePortal
-        sx={{ zIndex: (muiTheme) => muiTheme.zIndex.modal + 5 }}
+        sx={{ zIndex: (muiTheme) => muiTheme.zIndex.tooltip + 12 }}
       >
         <Box sx={{ position: 'relative' }}>
           <Paper
@@ -765,7 +765,7 @@ function CompareFlapUI() {
         placement="top"
         anchorEl={slotAnchorEl}
         modifiers={selectorModifiers as unknown as Modifier<any, any>[]}
-        sx={{ zIndex: (muiTheme) => muiTheme.zIndex.modal + 6 }}
+        sx={{ zIndex: (muiTheme) => muiTheme.zIndex.tooltip + 14 }}
       >
         <ClickAwayListener
           onClickAway={(event) => {
@@ -791,7 +791,7 @@ function CompareFlapUI() {
                 flexDirection: 'column',
                 boxShadow: '0px 18px 36px rgba(0, 0, 0, 0.24)',
                 overflow: 'visible',
-                zIndex: (muiTheme) => muiTheme.zIndex.modal + 4,
+                zIndex: (muiTheme) => muiTheme.zIndex.tooltip + 16,
                 backgroundColor: '#f3f3f3',
                 border: '1px solid',
                 borderColor: 'grey.200',
@@ -872,7 +872,7 @@ function ScreenMatte() {
         pointerEvents: 'auto',
         touchAction: 'none',
         backgroundColor: 'transparent',
-        zIndex: (muiTheme) => muiTheme.zIndex.modal + 1,
+        zIndex: (muiTheme) => muiTheme.zIndex.tooltip + 8,
       }}
     />
   );
@@ -892,15 +892,15 @@ interface SlotProps {
 
 function Slot({ index, additive, isHighlighted, onSelect }: SlotProps) {
   const droppable = useDroppable({ id: `compare-slot-${index}` });
-  const isOver = droppable.isOver;
-  const showHighlight = isOver || isHighlighted;
   const anchorRef = useRef<HTMLDivElement | null>(null);
 
+  const { isOver, setNodeRef } = droppable;
+  const showHighlight = isOver || isHighlighted;
+
   return (
-    <Box
-      ref={droppable.setNodeRef}
-      role="button"
-      tabIndex={0}
+    <ButtonBase
+      focusRipple={false}
+      disableRipple
       data-compare-slot={index}
       onClick={(event) => {
         onSelect({
@@ -920,26 +920,24 @@ function Slot({ index, additive, isHighlighted, onSelect }: SlotProps) {
       sx={{
         flex: 1,
         minWidth: 0,
-        minHeight: 34,
-        borderRadius: '16px',
-        border: '1px solid',
-        borderColor: showHighlight ? 'primary.main' : additive ? 'grey.400' : 'grey.300',
-        bgcolor: additive ? 'grey.100' : 'transparent',
+        borderRadius: '14px',
+        border: '1.5px solid',
+        borderColor: showHighlight ? 'primary.main' : 'grey.400',
+        backgroundColor: additive ? '#f5f5f5' : 'transparent',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        position: 'relative',
-        transition: 'border-color 180ms ease, background-color 180ms ease, box-shadow 180ms ease',
+        transition: 'border-color 160ms ease, background-color 160ms ease, box-shadow 160ms ease',
         cursor: 'pointer',
-        boxShadow: showHighlight
-          ? '0 0 0 2px rgba(25, 118, 210, 0.28)'
-          : 'none',
-        textAlign: 'center',
-        px: { xs: 1, sm: 1.5 },
-        outline: 'none',
+        padding: { xs: '6px 10px', sm: '7px 14px' },
+        height: { xs: 28, sm: 30 },
+        boxShadow: showHighlight ? '0 0 0 3px rgba(25, 118, 210, 0.22)' : 'inset 0 0 0 1px rgba(0,0,0,0.04)',
         '&:focus-visible': {
-          boxShadow: '0 0 0 2px rgba(25, 118, 210, 0.3)',
+          boxShadow: '0 0 0 3px rgba(25, 118, 210, 0.28)',
         },
+      }}
+      ref={(node) => {
+        setNodeRef(node);
       }}
     >
       <Box
@@ -956,20 +954,21 @@ function Slot({ index, additive, isHighlighted, onSelect }: SlotProps) {
       />
       {additive ? (
         <Typography
-          variant="h5"
+          variant="subtitle1"
           component="span"
           sx={{
-            fontWeight: 700,
+            fontWeight: 600,
+            fontSize: { xs: '0.95rem', sm: '1.05rem' },
+            color: 'text.primary',
             letterSpacing: 0.4,
-            fontSize: { xs: '1.125rem', sm: '1.25rem' },
           }}
         >
           {additive.eNumber || additive.title}
         </Typography>
       ) : (
-        <AddIcon sx={{ fontSize: 26, color: 'grey.500' }} />
+        <AddIcon sx={{ fontSize: 20, color: 'grey.600' }} />
       )}
-    </Box>
+    </ButtonBase>
   );
 }
 
