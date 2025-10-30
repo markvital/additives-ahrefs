@@ -1,10 +1,10 @@
 'use client';
 
-import { useCallback, useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
 import { Box, Button, Chip, Stack, Typography } from '@mui/material';
-import type { Additive } from '../lib/additives';
+import type { Additive, AdditiveSearchItem } from '../lib/additives';
 import { formatAdditiveDisplayName, formatFunctionLabel, formatOriginLabel } from '../lib/additive-format';
 import { extractArticleSummary, splitArticlePreview } from '../lib/article';
 import { formatMonthlyVolume, formatProductCount, getCountryFlagEmoji, getCountryLabel } from '../lib/format';
@@ -14,21 +14,75 @@ import { AdditiveLookup } from './AdditiveLookup';
 import { SearchHistoryChart } from './SearchHistoryChart';
 import type { AwarenessScoreResult } from '../lib/awareness';
 import { AwarenessScoreChip } from './AwarenessScoreChip';
+import {
+  getCachedAdditiveSearchItems,
+  hasAdditiveSearchDataLoaded,
+  isAdditiveSearchDataLoading,
+  loadAdditiveSearchItems,
+} from '../lib/client/additive-search-data';
 
-interface ComparisonAdditive extends Additive {
+export interface ComparisonAdditive extends Additive {
   searchHistory: SearchHistoryDataset | null;
 }
 
 interface AdditiveComparisonProps {
-  additives: ComparisonAdditive[];
   initialSelection: [string | null, string | null];
+  initialAdditives: Record<string, ComparisonAdditive>;
   awarenessScores: Record<string, AwarenessScoreResult>;
 }
 
 interface SelectionState {
-  left: ComparisonAdditive | null;
-  right: ComparisonAdditive | null;
+  left: string | null;
+  right: string | null;
 }
+
+const toSearchItem = (additive: ComparisonAdditive): AdditiveSearchItem => ({
+  slug: additive.slug,
+  title: additive.title,
+  eNumber: additive.eNumber,
+  synonyms: additive.synonyms,
+  searchRank: typeof additive.searchRank === 'number' ? additive.searchRank : null,
+});
+
+const getInitialSearchItems = (initialAdditives: Record<string, ComparisonAdditive>): AdditiveSearchItem[] => {
+  const unique = new Map<string, AdditiveSearchItem>();
+
+  Object.values(initialAdditives).forEach((additive) => {
+    unique.set(additive.slug, toSearchItem(additive));
+  });
+
+  return Array.from(unique.values());
+};
+
+interface AdditiveDetailResponse {
+  additive?: ComparisonAdditive | null;
+}
+
+const fetchComparisonAdditive = async (slug: string): Promise<ComparisonAdditive | null> => {
+  const response = await fetch(`/api/additives/${encodeURIComponent(slug)}`, {
+    cache: 'force-cache',
+    credentials: 'same-origin',
+  });
+
+  if (response.status === 404) {
+    return null;
+  }
+
+  if (!response.ok) {
+    throw new Error(`Failed to load additive details for ${slug}: ${response.status}`);
+  }
+
+  const payload = (await response.json()) as AdditiveDetailResponse;
+
+  if (!payload.additive) {
+    return null;
+  }
+
+  return {
+    ...payload.additive,
+    searchHistory: payload.additive.searchHistory ?? null,
+  };
+};
 
 const functionChipSx = {
   borderRadius: '7.5px',
@@ -305,55 +359,255 @@ const renderArticlePreview = (additive: ComparisonAdditive | null) => {
   );
 };
 
-export function AdditiveComparison({ additives, initialSelection, awarenessScores }: AdditiveComparisonProps) {
+export function AdditiveComparison({ initialSelection, initialAdditives, awarenessScores }: AdditiveComparisonProps) {
   const router = useRouter();
   const pathname = usePathname();
-
-  const additiveMap = useMemo(() => new Map(additives.map((additive) => [additive.slug, additive])), [additives]);
 
   const [initialLeft, initialRight] = initialSelection;
 
   const [selection, setSelection] = useState<SelectionState>(() => ({
-    left: initialLeft ? additiveMap.get(initialLeft) ?? null : null,
-    right: initialRight ? additiveMap.get(initialRight) ?? null : null,
+    left: initialLeft,
+    right: initialRight,
   }));
+
+  const [additiveMap, setAdditiveMap] = useState<Map<string, ComparisonAdditive>>(
+    () => new Map(Object.entries(initialAdditives)),
+  );
+  const additiveMapRef = useRef(additiveMap);
+
+  useEffect(() => {
+    additiveMapRef.current = additiveMap;
+  }, [additiveMap]);
+
+  useEffect(() => {
+    setAdditiveMap((prev) => {
+      const next = new Map(prev);
+      Object.entries(initialAdditives).forEach(([slug, additive]) => {
+        next.set(slug, additive);
+      });
+      return next;
+    });
+  }, [initialAdditives]);
 
   useEffect(() => {
     setSelection((prev) => {
-      const nextLeft = initialLeft ? additiveMap.get(initialLeft) ?? null : null;
-      const nextRight = initialRight ? additiveMap.get(initialRight) ?? null : null;
-
-      if (prev.left?.slug === nextLeft?.slug && prev.right?.slug === nextRight?.slug) {
+      if (prev.left === initialLeft && prev.right === initialRight) {
         return prev;
       }
 
       return {
-        left: nextLeft,
-        right: nextRight,
+        left: initialLeft,
+        right: initialRight,
       };
     });
-  }, [additiveMap, initialLeft, initialRight]);
+  }, [initialLeft, initialRight]);
+
+  const [hasLoadedSearchData, setHasLoadedSearchData] = useState(() => hasAdditiveSearchDataLoaded());
+  const [isSearchLoading, setIsSearchLoading] = useState(() => isAdditiveSearchDataLoading());
+  const [searchItems, setSearchItems] = useState<AdditiveSearchItem[]>(() => {
+    const cached = getCachedAdditiveSearchItems();
+    if (cached && cached.length > 0) {
+      return cached;
+    }
+
+    return getInitialSearchItems(initialAdditives);
+  });
 
   useEffect(() => {
-    const leftSlug = selection.left?.slug;
-    const rightSlug = selection.right?.slug;
+    if (!hasAdditiveSearchDataLoaded()) {
+      setSearchItems(getInitialSearchItems(initialAdditives));
+    }
+  }, [initialAdditives]);
 
+  useEffect(() => {
+    if (!hasLoadedSearchData) {
+      if (hasAdditiveSearchDataLoaded()) {
+        const cached = getCachedAdditiveSearchItems();
+        if (cached) {
+          setSearchItems(cached);
+        }
+        setHasLoadedSearchData(true);
+        setIsSearchLoading(false);
+      } else if (isAdditiveSearchDataLoading()) {
+        setIsSearchLoading(true);
+        loadAdditiveSearchItems()
+          .then((items) => {
+            setSearchItems(items);
+            setHasLoadedSearchData(true);
+          })
+          .catch((error) => {
+            console.error('Unable to load additives for comparison search', error);
+            setHasLoadedSearchData(false);
+          })
+          .finally(() => {
+            setIsSearchLoading(false);
+          });
+      }
+    }
+  }, [hasLoadedSearchData]);
+
+  const ensureSearchData = useCallback(() => {
+    if (hasAdditiveSearchDataLoaded()) {
+      const cached = getCachedAdditiveSearchItems();
+      if (cached) {
+        setSearchItems(cached);
+      }
+      setHasLoadedSearchData(true);
+      setIsSearchLoading(false);
+      return;
+    }
+
+    if (isSearchLoading) {
+      return;
+    }
+
+    setIsSearchLoading(true);
+    loadAdditiveSearchItems()
+      .then((items) => {
+        setSearchItems(items);
+        setHasLoadedSearchData(true);
+      })
+      .catch((error) => {
+        console.error('Unable to load additives for comparison search', error);
+        setHasLoadedSearchData(false);
+      })
+      .finally(() => {
+        setIsSearchLoading(false);
+      });
+  }, [isSearchLoading]);
+
+  const [loadingSlots, setLoadingSlots] = useState<{ left: boolean; right: boolean }>({ left: false, right: false });
+  const [slotErrors, setSlotErrors] = useState<{ left: string | null; right: string | null }>({ left: null, right: null });
+  const detailPromisesRef = useRef(new Map<string, Promise<ComparisonAdditive | null>>());
+
+  const updateSlotLoading = useCallback((slot: 'left' | 'right', value: boolean) => {
+    setLoadingSlots((prev) => (prev[slot] === value ? prev : { ...prev, [slot]: value }));
+  }, []);
+
+  const updateSlotError = useCallback((slot: 'left' | 'right', value: string | null) => {
+    setSlotErrors((prev) => (prev[slot] === value ? prev : { ...prev, [slot]: value }));
+  }, []);
+
+  const loadAdditiveDetail = useCallback(
+    async (slot: 'left' | 'right', slug: string) => {
+      if (!slug) {
+        return;
+      }
+
+      if (additiveMapRef.current.has(slug)) {
+        updateSlotError(slot, null);
+        return;
+      }
+
+      const existingPromise = detailPromisesRef.current.get(slug);
+      if (existingPromise) {
+        updateSlotLoading(slot, true);
+        try {
+          const additive = await existingPromise;
+          if (additive) {
+            setAdditiveMap((prev) => {
+              if (prev.get(slug) === additive) {
+                return prev;
+              }
+              const next = new Map(prev);
+              next.set(slug, additive);
+              return next;
+            });
+            updateSlotError(slot, null);
+          } else {
+            updateSlotError(slot, 'Additive not found.');
+          }
+        } catch (error) {
+          console.error('Unable to load additive details', error);
+          updateSlotError(slot, 'Unable to load additive details.');
+        } finally {
+          updateSlotLoading(slot, false);
+        }
+        return;
+      }
+
+      const promise = fetchComparisonAdditive(slug);
+      detailPromisesRef.current.set(slug, promise);
+      updateSlotLoading(slot, true);
+      updateSlotError(slot, null);
+
+      try {
+        const additive = await promise;
+        if (additive) {
+          setAdditiveMap((prev) => {
+            const existing = prev.get(slug);
+            if (existing === additive) {
+              return prev;
+            }
+            const next = new Map(prev);
+            next.set(slug, additive);
+            return next;
+          });
+          updateSlotError(slot, null);
+        } else {
+          updateSlotError(slot, 'Additive not found.');
+        }
+      } catch (error) {
+        console.error('Unable to load additive details', error);
+        updateSlotError(slot, 'Unable to load additive details.');
+      } finally {
+        detailPromisesRef.current.delete(slug);
+        updateSlotLoading(slot, false);
+      }
+    },
+    [updateSlotError, updateSlotLoading],
+  );
+
+  useEffect(() => {
+    if (selection.left) {
+      void loadAdditiveDetail('left', selection.left);
+    } else {
+      updateSlotError('left', null);
+      updateSlotLoading('left', false);
+    }
+  }, [loadAdditiveDetail, selection.left, updateSlotError, updateSlotLoading]);
+
+  useEffect(() => {
+    if (selection.right) {
+      void loadAdditiveDetail('right', selection.right);
+    } else {
+      updateSlotError('right', null);
+      updateSlotLoading('right', false);
+    }
+  }, [loadAdditiveDetail, selection.right, updateSlotError, updateSlotLoading]);
+
+  useEffect(() => {
+    const leftSlug = selection.left;
+    const rightSlug = selection.right;
     const nextPath = leftSlug && rightSlug ? `/compare/${leftSlug}-vs-${rightSlug}` : '/compare';
 
     if (pathname !== nextPath) {
       router.replace(nextPath);
     }
-  }, [pathname, router, selection.left?.slug, selection.right?.slug]);
+  }, [pathname, router, selection.left, selection.right]);
 
-  const leftDisplayName = selection.left
-    ? formatAdditiveDisplayName(selection.left.eNumber, selection.left.title)
-    : null;
-  const rightDisplayName = selection.right
-    ? formatAdditiveDisplayName(selection.right.eNumber, selection.right.title)
+  const searchItemMap = useMemo(() => new Map(searchItems.map((item) => [item.slug, item])), [searchItems]);
+
+  const leftAdditive = selection.left ? additiveMap.get(selection.left) ?? null : null;
+  const rightAdditive = selection.right ? additiveMap.get(selection.right) ?? null : null;
+
+  const leftSearchItem = selection.left ? searchItemMap.get(selection.left) ?? null : null;
+  const rightSearchItem = selection.right ? searchItemMap.get(selection.right) ?? null : null;
+
+  const leftDisplayName = leftAdditive
+    ? formatAdditiveDisplayName(leftAdditive.eNumber, leftAdditive.title)
+    : leftSearchItem
+    ? formatAdditiveDisplayName(leftSearchItem.eNumber, leftSearchItem.title)
     : null;
 
-  const leftMetrics = selection.left?.searchHistory?.metrics ?? null;
-  const rightMetrics = selection.right?.searchHistory?.metrics ?? null;
+  const rightDisplayName = rightAdditive
+    ? formatAdditiveDisplayName(rightAdditive.eNumber, rightAdditive.title)
+    : rightSearchItem
+    ? formatAdditiveDisplayName(rightSearchItem.eNumber, rightSearchItem.title)
+    : null;
+
+  const leftMetrics = leftAdditive?.searchHistory?.metrics ?? null;
+  const rightMetrics = rightAdditive?.searchHistory?.metrics ?? null;
 
   const searchHistoryDomain = useMemo<SearchHistoryDomain | null>(() => {
     const metricsSets = [leftMetrics, rightMetrics].filter(
@@ -418,9 +672,7 @@ export function AdditiveComparison({ additives, initialSelection, awarenessScore
       return (
         <Stack spacing={1}>
           <Typography variant="body1" color="text.secondary" sx={{ fontVariantNumeric: 'tabular-nums' }}>
-            Found in <Box component="span" sx={{ fontWeight: 600 }}>
-              {productLabel} products
-            </Box>
+            Found in <Box component="span" sx={{ fontWeight: 600 }}>{productLabel} products</Box>
           </Typography>
           {awarenessScore ? (
             <Typography
@@ -469,6 +721,52 @@ export function AdditiveComparison({ additives, initialSelection, awarenessScore
       </Stack>
     );
   };
+
+  const searchLoading = !hasLoadedSearchData && isSearchLoading;
+
+  const leftValue = leftSearchItem ?? null;
+  const rightValue = rightSearchItem ?? null;
+
+  const handleLookupInputChange = useCallback(
+    (value: string) => {
+      if (!hasLoadedSearchData && value.trim().length > 0) {
+        ensureSearchData();
+      }
+    },
+    [ensureSearchData, hasLoadedSearchData],
+  );
+
+  const renderSectionForSlot = useCallback(
+    (slot: 'left' | 'right', render: (additive: ComparisonAdditive | null) => ReactNode) => {
+      const slug = slot === 'left' ? selection.left : selection.right;
+      const additive = slot === 'left' ? leftAdditive : rightAdditive;
+      const isLoading = slot === 'left' ? loadingSlots.left : loadingSlots.right;
+      const error = slot === 'left' ? slotErrors.left : slotErrors.right;
+
+      if (!slug) {
+        return render(null);
+      }
+
+      if (isLoading && !additive) {
+        return (
+          <Typography variant="body2" color="text.secondary">
+            Loading additive…
+          </Typography>
+        );
+      }
+
+      if (!additive) {
+        return (
+          <Typography variant="body2" color={error ? 'error' : 'text.secondary'}>
+            {error ?? 'Additive details are unavailable.'}
+          </Typography>
+        );
+      }
+
+      return render(additive);
+    },
+    [leftAdditive, loadingSlots.left, rightAdditive, loadingSlots.right, selection.left, selection.right, slotErrors.left, slotErrors.right],
+  );
 
   const sectionItems = [
     {
@@ -532,22 +830,35 @@ export function AdditiveComparison({ additives, initialSelection, awarenessScore
           gap: { xs: 2, md: 3 },
           gridTemplateColumns: { xs: '1fr', md: 'repeat(2, minmax(0, 1fr))' },
         }}
+        onPointerEnter={ensureSearchData}
       >
         <AdditiveLookup
-          additives={additives}
-          value={selection.left}
-          onChange={(value) => setSelection((prev) => ({ ...prev, left: value }))}
+          additives={searchItems}
+          value={leftValue}
+          onChange={(value) => setSelection((prev) => ({ ...prev, left: value?.slug ?? null }))}
           label="Select first additive"
           placeholder="Type additive to compare"
-          disabledSlugs={selection.right ? [selection.right.slug] : undefined}
+          disabledSlugs={selection.right ? [selection.right] : undefined}
+          loading={searchLoading}
+          onInputValueChange={handleLookupInputChange}
+          textFieldProps={{
+            onFocus: ensureSearchData,
+            onPointerEnter: ensureSearchData,
+          }}
         />
         <AdditiveLookup
-          additives={additives}
-          value={selection.right}
-          onChange={(value) => setSelection((prev) => ({ ...prev, right: value }))}
+          additives={searchItems}
+          value={rightValue}
+          onChange={(value) => setSelection((prev) => ({ ...prev, right: value?.slug ?? null }))}
           label="Select second additive"
           placeholder="Type additive to compare"
-          disabledSlugs={selection.left ? [selection.left.slug] : undefined}
+          disabledSlugs={selection.left ? [selection.left] : undefined}
+          loading={searchLoading}
+          onInputValueChange={handleLookupInputChange}
+          textFieldProps={{
+            onFocus: ensureSearchData,
+            onPointerEnter: ensureSearchData,
+          }}
         />
       </Box>
 
@@ -598,7 +909,7 @@ export function AdditiveComparison({ additives, initialSelection, awarenessScore
                   pr: { md: 4 },
                 }}
               >
-                {section.render(selection.left)}
+                {renderSectionForSlot('left', section.render)}
               </Box>
               <Box
                 sx={{
@@ -610,7 +921,7 @@ export function AdditiveComparison({ additives, initialSelection, awarenessScore
                   pl: { md: 4 },
                 }}
               >
-                {section.render(selection.right)}
+                {renderSectionForSlot('right', section.render)}
               </Box>
             </Box>
           ))}

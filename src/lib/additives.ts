@@ -48,6 +48,14 @@ export interface Additive {
   childSlugs: string[];
 }
 
+export interface AdditiveSearchItem {
+  slug: string;
+  title: string;
+  eNumber: string;
+  synonyms: string[];
+  searchRank: number | null;
+}
+
 export type AdditiveSortMode = 'search-rank' | 'product-count' | 'awareness';
 
 export const DEFAULT_ADDITIVE_SORT_MODE: AdditiveSortMode = 'product-count';
@@ -511,6 +519,15 @@ const ensureAwarenessInitialised = () => {
 };
 
 export const getAdditives = (): Additive[] => getCacheBundle().additives;
+
+export const getAdditivesForSearch = (): AdditiveSearchItem[] =>
+  getCacheBundle().additives.map((item) => ({
+    slug: item.slug,
+    title: item.title,
+    eNumber: item.eNumber,
+    synonyms: [...item.synonyms],
+    searchRank: typeof item.searchRank === 'number' ? item.searchRank : null,
+  }));
 
 export const getAdditiveBySlug = (slug: string): Additive | undefined =>
   getCacheBundle().additives.find((item) => item.slug === slug);

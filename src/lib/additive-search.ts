@@ -1,11 +1,13 @@
-import type { Additive } from './additives';
+import type { AdditiveSearchItem } from './additives';
 
 export interface HighlightRange {
   start: number;
   end: number;
 }
 
-export interface AdditiveSearchMatch<TAdditive extends Additive = Additive> {
+export interface AdditiveSearchMatch<
+  TAdditive extends AdditiveSearchItem = AdditiveSearchItem,
+> {
   additive: TAdditive;
   matches: {
     eNumber: HighlightRange[];
@@ -57,7 +59,7 @@ export interface SearchAdditivesOptions {
   maxResults?: number;
 }
 
-export const searchAdditives = <TAdditive extends Additive>(
+export const searchAdditives = <TAdditive extends AdditiveSearchItem>(
   additives: TAdditive[],
   rawQuery: string,
   { maxResults }: SearchAdditivesOptions = {},
