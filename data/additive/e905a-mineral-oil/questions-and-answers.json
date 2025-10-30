@@ -1,30 +1,30 @@
 {
-  "updatedAt": "2025-10-12T02:50:46.092Z",
+  "updatedAt": "2025-12-01T04:20:12.000Z",
   "answers": [
     {
-      "q": "is mineral oil good for your skin",
-      "a": "Yes—highly refined (cosmetic/USP) mineral oil is an effective occlusive that helps prevent water loss and soothe dry, irritated skin; it’s widely used and generally well tolerated.",
-      "answeredAt": "2025-10-12T02:50:46.092Z"
-    },
-    {
-      "q": "is mineral oil bad for your skin",
-      "a": "For most people it’s non‑irritating and non‑comedogenic, but heavy or frequent use can feel greasy and may trigger breakouts or folliculitis in some.",
-      "answeredAt": "2025-10-12T02:50:46.092Z"
+      "q": "what is mineral oil",
+      "a": "Mineral oil is a highly refined, colorless, odorless mixture of saturated hydrocarbons derived from petroleum; grades such as white mineral oil meet purity standards that make them suitable for cosmetic, pharmaceutical, or food-contact use.",
+      "answeredAt": "2025-12-01T04:20:12.000Z"
     },
     {
       "q": "what is mineral oil used for",
-      "a": "As E905a in foods, it’s used as a glazing/release agent and defoamer, and to coat items like confectionery or dried fruits and lubricate equipment.",
-      "answeredAt": "2025-10-12T02:50:46.092Z"
+      "a": "E905a mineral oil serves as a glazing and release agent in foods, keeps processing equipment lubricated, and appears in personal-care, pharmaceutical, and industrial products as a moisture-sealing or friction-reducing ingredient.",
+      "answeredAt": "2025-12-01T04:20:12.000Z"
     },
     {
-      "q": "what is food grade mineral oil",
-      "a": "A highly refined, colorless, odorless “white” mineral oil that meets food-contact purity standards (e.g., USP/FCC with low PAHs) for use on or around foods; it’s used as E905a and to condition cutting boards and utensils.",
-      "answeredAt": "2025-10-12T02:50:46.092Z"
+      "q": "is mineral oil safe for skin",
+      "a": "Refined cosmetic- or pharmaceutical-grade mineral oil is considered non-comedogenic and generally safe for most skin types, acting as an occlusive to reduce transepidermal water loss, though sensitive users can experience clogged pores or folliculitis.",
+      "answeredAt": "2025-12-01T04:20:12.000Z"
     },
     {
-      "q": "which is better saline or mineral oil enema",
-      "a": "Saline enemas are commonly first‑line for occasional constipation, while mineral oil enemas lubricate and are often used for hard or impacted stool.",
-      "answeredAt": "2025-10-12T02:50:46.092Z"
+      "q": "is mineral oil edible",
+      "a": "Food-grade mineral oil is approved for limited ingestion—such as functioning as a laxative or as the glazing agent E905a—provided intake stays within regulatory limits; industrial grades without purification are not safe to consume.",
+      "answeredAt": "2025-12-01T04:20:12.000Z"
+    },
+    {
+      "q": "is mineral oil a laxative",
+      "a": "Yes—oral and enema forms of mineral oil act as lubricant laxatives that soften stool and ease passage, though they are typically recommended only for short-term relief because long-term use can interfere with nutrient absorption and bowel function.",
+      "answeredAt": "2025-12-01T04:20:12.000Z"
     }
   ]
 }
