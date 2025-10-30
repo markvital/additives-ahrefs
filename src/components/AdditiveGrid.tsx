@@ -192,9 +192,13 @@ function AdditiveGridItem({ additive, index, sortMode, dragEnabled, compareDragg
         display: 'flex',
         flexDirection: 'column',
         cursor: dragEnabled ? (isDragging ? 'grabbing' : 'grab') : 'pointer',
-        touchAction: isDragging ? 'none' : undefined,
+        touchAction: dragEnabled ? 'pan-y' : undefined,
         pointerEvents: compareDragging && !isDragging ? 'none' : 'auto',
         '&:active': dragEnabled ? { cursor: 'grabbing' } : undefined,
+        userSelect: dragEnabled ? 'none' : 'auto',
+        WebkitUserSelect: dragEnabled ? 'none' : 'auto',
+        MsUserSelect: dragEnabled ? 'none' : 'auto',
+        WebkitTouchCallout: dragEnabled ? 'none' : 'default',
         ...dragStyles,
       }}
     >

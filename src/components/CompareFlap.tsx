@@ -14,7 +14,7 @@ import { usePathname, useRouter } from 'next/navigation';
 import { Box, ButtonBase, ClickAwayListener, Divider, IconButton, Paper, Popper, Stack, Typography, useMediaQuery } from '@mui/material';
 import AddIcon from '@mui/icons-material/Add';
 import CloseIcon from '@mui/icons-material/Close';
-import { DndContext, PointerSensor, useDroppable, useSensor, useSensors, type DragEndEvent } from '@dnd-kit/core';
+import { DndContext, PointerSensor, TouchSensor, useDroppable, useSensor, useSensors, type DragEndEvent } from '@dnd-kit/core';
 import type { DragStartEvent, DragOverEvent } from '@dnd-kit/core';
 import type { Modifier } from '@popperjs/core';
 
@@ -222,6 +222,12 @@ export function CompareFlapProvider({ additives, children }: CompareFlapProvider
   const sensors = useSensors(
     useSensor(PointerSensor, {
       activationConstraint: { distance: 8 },
+    }),
+    useSensor(TouchSensor, {
+      activationConstraint: {
+        delay: 150,
+        tolerance: 8,
+      },
     }),
   );
 
@@ -678,10 +684,10 @@ function CompareFlapUI() {
               borderColor: 'divider',
             }}
           >
-            <Stack spacing={1.25} sx={{ px: 0, pb: 0, pt: 0 }}>
+            <Stack spacing={0} sx={{ px: 0, pb: 0, pt: 0 }}>
               <Stack
                 direction="row"
-                spacing={1}
+                spacing={0}
                 alignItems="stretch"
                 sx={{
                   width: '100%',
@@ -690,7 +696,7 @@ function CompareFlapUI() {
                   transition: 'background-color 160ms ease',
                   backgroundColor: isWidgetOver ? 'rgba(25, 118, 210, 0.08)' : 'transparent',
                 }}
-                divider={<Divider orientation="vertical" flexItem sx={{ borderColor: 'grey.300' }} />}
+                divider={<Divider orientation="vertical" flexItem sx={{ borderColor: 'grey.300', my: 0 }} />}
               >
                 <Slot
                   index={0}
@@ -826,7 +832,12 @@ function CompareFlapUI() {
                   clearOnSelect
                   showPopupIcon={false}
                   textFieldProps={{
-                    label: undefined,
+                    label:
+                      activeSlotIndex === 0
+                        ? 'Select first additive'
+                        : activeSlotIndex === 1
+                          ? 'Select second additive'
+                          : 'Choose additive',
                     placeholder: 'Search additives',
                     fullWidth: true,
                     inputProps: {
@@ -927,9 +938,13 @@ function Slot({ index, additive, isHighlighted, onSelect }: SlotProps) {
         cursor: 'pointer',
         padding: 0,
         height: 44,
-        boxShadow: showHighlight ? 'inset 0 0 0 2px rgba(25, 118, 210, 0.4)' : 'none',
+        boxShadow: 'none',
+        backgroundImage: showHighlight
+          ? 'linear-gradient(0deg, rgba(25,118,210,0.18), rgba(25,118,210,0.18))'
+          : undefined,
         '&:focus-visible': {
-          boxShadow: 'inset 0 0 0 2px rgba(25, 118, 210, 0.5)',
+          outline: 'none',
+          backgroundImage: 'linear-gradient(0deg, rgba(25,118,210,0.24), rgba(25,118,210,0.24))',
         },
       }}
       ref={(node) => {
