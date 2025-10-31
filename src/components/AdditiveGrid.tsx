@@ -235,7 +235,7 @@ function AdditiveGridCard({
             '&:last-child': { pb: 1.875 },
           }}
         >
-          <Stack spacing={1.5} sx={{ flexGrow: 1 }}>
+          <Stack spacing={1.5} sx={{ flexGrow: 1, minHeight: 0 }}>
             <Box display="flex" justifyContent="space-between" alignItems="flex-start">
               <Stack direction="row" spacing={1} alignItems="center">
                 <Typography variant="overline" color="text.secondary" letterSpacing={1.2}>
@@ -327,74 +327,81 @@ function AdditiveGridCard({
                 <Box sx={{ minHeight: 28 }} />
               )}
             </Box>
+          </Stack>
 
-            {showSearchSection ? (
-              <Stack
-                direction="row"
-                alignItems="center"
-                spacing={1.5}
-                sx={{ mt: 1.5, opacity: searchSectionOpacity }}
+          {showSearchSection ? (
+            <Stack
+              direction="row"
+              alignItems="center"
+              spacing={1.5}
+              sx={{ mt: 1.25, opacity: searchSectionOpacity }}
+            >
+              {hasSearchMetrics ? (
+                <Stack direction="row" alignItems="baseline" spacing={1} flexShrink={0}>
+                  <Typography component="span" variant="subtitle1" fontWeight={600}>
+                    #{additive.searchRank}
+                  </Typography>
+                  <Typography component="span" variant="body2" color="text.secondary">
+                    {formatMonthlyVolume(additive.searchVolume!)} / mo
+                  </Typography>
+                </Stack>
+              ) : (
+                <Box sx={{ minWidth: 0 }} />
+              )}
+              {hasSparkline ? (
+                <Box
+                  sx={{
+                    flexGrow: 1,
+                    minWidth: 96,
+                    width: '100%',
+                    maxWidth: { xs: '100%', sm: 'min(100%, 320px)', lg: 'min(100%, 360px)' },
+                    pr: { xs: 0, sm: 0.5, lg: 0 },
+                    ml: { xs: 0, sm: 'auto' },
+                  }}
+                >
+                  <SearchSparkline values={additive.searchSparkline ?? []} />
+                </Box>
+              ) : (
+                <Box sx={{ flexGrow: 1, height: 40 }} />
+              )}
+            </Stack>
+          ) : (
+            <Box sx={{ height: 40, mt: 1.25 }} />
+          )}
+
+          <Box
+            sx={{
+              display: 'flex',
+              alignItems: 'center',
+              gap: 1,
+              minHeight: 24,
+              mt: 1,
+            }}
+          >
+            {showProductCount && productCountLabel ? (
+              <Typography
+                variant="body2"
+                sx={{
+                  color: '#5c5c5c',
+                  fontWeight: 400,
+                  flexGrow: 1,
+                }}
               >
-                {hasSearchMetrics ? (
-                  <Stack direction="row" alignItems="baseline" spacing={1} flexShrink={0}>
-                    <Typography component="span" variant="subtitle1" fontWeight={600}>
-                      #{additive.searchRank}
-                    </Typography>
-                    <Typography component="span" variant="body2" color="text.secondary">
-                      {formatMonthlyVolume(additive.searchVolume!)} / mo
-                    </Typography>
-                  </Stack>
-                ) : (
-                  <Box sx={{ minWidth: 0 }} />
-                )}
-                {hasSparkline ? (
-                  <Box
-                    sx={{
-                      flexGrow: 1,
-                      minWidth: 96,
-                      width: '100%',
-                      maxWidth: { xs: '100%', sm: 'min(100%, 320px)', lg: 'min(100%, 360px)' },
-                      pr: { xs: 0, sm: 0.5, lg: 0 },
-                      ml: { xs: 0, sm: 'auto' },
-                    }}
-                  >
-                    <SearchSparkline values={additive.searchSparkline ?? []} />
-                  </Box>
-                ) : (
-                  <Box sx={{ flexGrow: 1, height: 40 }} />
-                )}
-              </Stack>
+                <Box component="span" sx={{ fontWeight: 600, color: '#5c5c5c' }}>
+                  {productCountLabel}
+                </Box>{' '}
+                products
+              </Typography>
             ) : (
-              <Box sx={{ height: 40, mt: 1.5 }} />
+              <Box sx={{ flexGrow: 1, minHeight: 20 }} />
             )}
 
-            <Box
-              sx={{
-                mt: 'auto',
-                pt: 2,
-                display: 'flex',
-                alignItems: 'flex-end',
-                justifyContent: 'space-between',
-                gap: 1,
-              }}
-            >
-              {showProductCount && productCountLabel ? (
-                <Typography
-                  variant="body2"
-                  sx={{ color: '#5c5c5c', fontWeight: 400 }}
-                >
-                  Found in <Box component="span" sx={{ fontWeight: 600, color: '#5c5c5c' }}>
-                    {productCountLabel}
-                  </Box>{' '}
-                  products
-                </Typography>
-              ) : (
-                <Box sx={{ minHeight: 20 }} />
-              )}
-
-              {awarenessScore ? <AwarenessScoreChip score={awarenessScore} /> : null}
-            </Box>
-          </Stack>
+            {awarenessScore ? (
+              <AwarenessScoreChip score={awarenessScore} sx={{ ml: 'auto', flexShrink: 0 }} labelStyle="grid" />
+            ) : (
+              <Box sx={{ width: 24, height: 24 }} />
+            )}
+          </Box>
         </CardContent>
       </CardActionArea>
     </Card>
