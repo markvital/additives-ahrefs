@@ -91,6 +91,20 @@ const sameWidthModifier: Modifier<'sameWidth', Record<string, never>> = {
     state.styles.popper.width = width;
     state.styles.popper.minWidth = width;
   },
+  effect: ({ state }) => {
+    const reference = state.elements.reference as HTMLElement | undefined;
+    const popper = state.elements.popper as HTMLElement | undefined;
+
+    if (!reference || !popper) {
+      return undefined;
+    }
+
+    const width = `${reference.getBoundingClientRect().width}px`;
+    popper.style.width = width;
+    popper.style.minWidth = width;
+
+    return undefined;
+  },
 };
 
 export function AdditiveLookup<TAdditive extends AdditiveSearchItem>({
