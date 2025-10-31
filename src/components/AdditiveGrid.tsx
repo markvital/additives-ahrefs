@@ -259,7 +259,6 @@ function AdditiveGridCard({
               </Stack>
               {origins.length > 0 ? (
                 <Stack direction="row" spacing={0.5} alignItems="center">
-                  {awarenessScore ? <AwarenessScoreChip score={awarenessScore} /> : null}
                   {origins.map((origin) => {
                     const icon = getOriginIcon(origin);
                     const abbreviation = getOriginAbbreviation(origin);
@@ -327,21 +326,6 @@ function AdditiveGridCard({
               ) : (
                 <Box sx={{ minHeight: 28 }} />
               )}
-              {showProductCount && productCountLabel ? (
-                <Typography
-                  variant="caption"
-                  sx={{
-                    bgcolor: highlightProducts ? 'primary.main' : 'grey.100',
-                    color: highlightProducts ? 'primary.contrastText' : 'text.secondary',
-                    borderRadius: 999,
-                    px: 1,
-                    py: 0.5,
-                    fontWeight: 600,
-                  }}
-                >
-                  {productCountLabel}
-                </Typography>
-              ) : null}
             </Box>
 
             {showSearchSection ? (
@@ -384,24 +368,32 @@ function AdditiveGridCard({
               <Box sx={{ height: 40, mt: 1.5 }} />
             )}
 
-            {showProductCount && productCountLabel ? (
-              <Typography
-                variant="body2"
-                sx={{
-                  mt: 'auto',
-                  pt: 2,
-                  color: '#5c5c5c',
-                  fontWeight: 400,
-                }}
-              >
-                Found in <Box component="span" sx={{ fontWeight: 600, color: '#5c5c5c' }}>
-                  {productCountLabel}
-                </Box>{' '}
-                products
-              </Typography>
-            ) : (
-              <Box sx={{ mt: 'auto', pt: 2 }} />
-            )}
+            <Box
+              sx={{
+                mt: 'auto',
+                pt: 2,
+                display: 'flex',
+                alignItems: 'flex-end',
+                justifyContent: 'space-between',
+                gap: 1,
+              }}
+            >
+              {showProductCount && productCountLabel ? (
+                <Typography
+                  variant="body2"
+                  sx={{ color: '#5c5c5c', fontWeight: 400 }}
+                >
+                  Found in <Box component="span" sx={{ fontWeight: 600, color: '#5c5c5c' }}>
+                    {productCountLabel}
+                  </Box>{' '}
+                  products
+                </Typography>
+              ) : (
+                <Box sx={{ minHeight: 20 }} />
+              )}
+
+              {awarenessScore ? <AwarenessScoreChip score={awarenessScore} /> : null}
+            </Box>
           </Stack>
         </CardContent>
       </CardActionArea>
