@@ -7,7 +7,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "vitest run"
   },
   "keywords": [
     "nextjs",
@@ -27,12 +28,15 @@
     "@mui/material-nextjs": "^7.3.2",
     "@nivo/core": "^0.99.0",
     "@nivo/line": "^0.99.0",
+    "katex": "^0.16.25",
     "next": "^15.5.4",
     "openai": "^6.1.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-markdown": "^10.1.0",
+    "rehype-katex": "^7.0.1",
     "remark-gfm": "^4.0.1",
+    "remark-math": "^6.0.0",
     "undici": "^6.22.0"
   },
   "devDependencies": {
@@ -42,7 +46,8 @@
     "eslint": "^8.57.0",
     "eslint-config-next": "^15.5.4",
     "playwright": "^1.55.1",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.2",
+    "vitest": "^4.0.4"
   },
   "overrides": {
     "@react-spring/animated": "^10.0.3",

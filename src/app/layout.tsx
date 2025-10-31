@@ -1,10 +1,10 @@
+import { Suspense } from 'react';
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 import { Typography } from '@mui/material';
 import { Roboto } from 'next/font/google';
-import { Suspense } from 'react';
 
 import { Providers } from '../components/Providers';
 import { HeaderSearch } from '../components/HeaderSearch';
@@ -43,32 +43,39 @@ export default function RootLayout({
             <CompareFlapProvider additives={additives}>
               <div className="layout">
                 <header className="site-header">
-                <div className="content-shell header-shell">
-                  <div className="header-content">
-                    <Link href="/" aria-label="Food Additives home" className="header-logo">
-                      <Image
-                        src={logo2x}
-                        alt="Food Additives logo"
-                        width={41}
-                        height={50}
-                        priority
-                      />
-                    </Link>
-                    <nav className="header-nav">
-                      <HeaderSearch additives={additives} />
-                      <Link href="/about" className="header-link header-about-link">
-                        <span className="header-about-icon" aria-hidden="true">
-                          <InfoOutlinedIcon fontSize="small" />
-                        </span>
-                        <span className="header-about-text">About</span>
-                      </Link>
-                    </nav>
+                  <div className="content-shell header-shell">
+                    <div className="header-content">
+                      <div className="header-brand">
+                        <Link href="/" aria-label="Food Additives home" className="header-logo">
+                          <Image
+                            src={logo2x}
+                            alt="Food Additives logo"
+                            width={41}
+                            height={50}
+                            priority
+                          />
+                        </Link>
+                        <Link href="/" className="header-title-link">
+                          Food additives
+                        </Link>
+                      </div>
+                      <nav className="header-nav">
+                        <HeaderSearch additives={additives} />
+                        <Link href="/about" className="header-link header-about-link">
+                          <span className="header-about-icon" aria-hidden="true">
+                            <InfoOutlinedIcon fontSize="small" />
+                          </span>
+                          <span className="header-about-text">About</span>
+                        </Link>
+                      </nav>
+                    </div>
                   </div>
-                </div>
-              </header>
+                </header>
+
                 <main className="main-content">
                   <div className="content-shell">{children}</div>
                 </main>
+
                 <footer className="site-footer">
                   <div className="content-shell footer-shell">
                     <nav className="footer-nav" aria-label="Footer">

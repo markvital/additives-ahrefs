@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import NextLink from 'next/link';
@@ -12,18 +13,24 @@ import {
   parseAdditiveSortMode,
   parseShowClassesParam,
   sortAdditivesByMode,
+  mapAdditivesToGridItems,
+  getAwarenessScores,
 } from '../../../lib/additives';
 import { formatFilterLabel } from '../../../lib/text';
 import { formatFunctionLabel } from '../../../lib/additive-format';
 import { getFunctionInfo, formatUsedAsList } from '../../../lib/function-details';
 import { AdditiveGrid } from '../../../components/AdditiveGrid';
+import { AdditiveGridInfinite } from '../../../components/AdditiveGridInfinite';
 import { FilterPanel } from '../../../components/FilterPanel';
 import { buildShowClassesHref } from '../../../lib/url';
 import { ReportMistakeName } from '../../../components/ReportMistakeContext';
 
 interface FunctionPageProps {
   params: Promise<{ functionSlug: string }>;
-  searchParams?: Promise<{ sort?: string | string[]; classes?: string | string[] }>;
+  searchParams?: Promise<{
+    sort?: string | string[];
+    classes?: string | string[];
+  }>;
 }
 
 const formatCountLabel = (count: number): string =>
@@ -80,6 +87,7 @@ export default async function FunctionPage({ params, searchParams }: FunctionPag
   const showClasses = parseShowClassesParam(resolvedSearchParams?.classes ?? null);
   const filteredAdditives = filterAdditivesByClassVisibility(additives, showClasses);
   const sortedAdditives = sortAdditivesByMode(filteredAdditives, sortMode);
+  const awarenessResult = getAwarenessScores();
   const hiddenAdditivesCount = showClasses ? 0 : additives.length - filteredAdditives.length;
   const showHiddenCountLink = hiddenAdditivesCount > 0 && !showClasses;
   const hiddenAdditivesHref = showHiddenCountLink
@@ -95,6 +103,12 @@ export default async function FunctionPage({ params, searchParams }: FunctionPag
     functionInfo && functionInfo.usedAs.length > 0
       ? `In the food industry, such additives serve roles as ${formatUsedAsList(functionInfo.usedAs)}.`
       : null;
+  const chunkSize = 50;
+  const totalCount = sortedAdditives.length;
+  const useInfiniteScroll = totalCount > chunkSize;
+  const initialItems = mapAdditivesToGridItems(
+    sortedAdditives.slice(0, useInfiniteScroll ? chunkSize : totalCount),
+  );
 
   return (
     <>
@@ -155,18 +169,33 @@ export default async function FunctionPage({ params, searchParams }: FunctionPag
         </Typography>
       </Box>
 
-      <FilterPanel
-        functionOptions={functionOptions}
-        originOptions={originOptions}
-        currentFilter={{ type: 'function', slug: functionSlug }}
-        currentSortMode={sortMode}
-        currentShowClasses={showClasses}
-      />
-      <AdditiveGrid
-        items={sortedAdditives}
-        sortMode={sortMode}
-        emptyMessage="No additives found for this function."
-      />
+      <Suspense fallback={null}>
+        <FilterPanel
+          functionOptions={functionOptions}
+          originOptions={originOptions}
+          currentFilter={{ type: 'function', slug: functionSlug }}
+          currentSortMode={sortMode}
+          currentShowClasses={showClasses}
+        />
+      </Suspense>
+      {useInfiniteScroll ? (
+        <AdditiveGridInfinite
+          initialItems={initialItems}
+          totalCount={totalCount}
+          sortMode={sortMode}
+          showClasses={showClasses}
+          chunkSize={chunkSize}
+          filter={{ type: 'function', slug: functionSlug }}
+          awarenessScores={awarenessResult.scores}
+        />
+      ) : (
+        <AdditiveGrid
+          items={initialItems}
+          sortMode={sortMode}
+          emptyMessage="No additives found for this function."
+          awarenessScores={awarenessResult.scores}
+        />
+      )}
     </Box>
     </>
   );

@@ -7,7 +7,7 @@ import { Avatar, Box, Card, CardActionArea, CardContent, Stack, Tooltip, Typogra
 import { useDraggable } from '@dnd-kit/core';
 import { CSS } from '@dnd-kit/utilities';
 
-import type { Additive } from '../lib/additives';
+import type { AdditiveGridItem as AdditiveGridItemType, AdditiveSortMode } from '../lib/additives';
 import { formatOriginLabel } from '../lib/additive-format';
 import { formatMonthlyVolume, formatProductCount } from '../lib/format';
 import { getOriginAbbreviation, getOriginIcon } from '../lib/origin-icons';
@@ -15,6 +15,10 @@ import { SearchSparkline } from './SearchSparkline';
 import { theme } from '../lib/theme';
 import { FunctionChipList } from './FunctionChipList';
 import { useCompareFlap } from './CompareFlap';
+import type { AwarenessScoreResult } from '../lib/awareness';
+import { AwarenessScoreChip } from './AwarenessScoreChip';
+
+const GRID_DEFAULT_SORT_MODE: AdditiveSortMode = 'product-count';
 
 const resolveTypographySize = (value: string | number | undefined, fallback = '1.5rem') => {
   if (typeof value === 'number') {
@@ -29,7 +33,7 @@ const resolveTypographySize = (value: string | number | undefined, fallback = '1
 };
 
 const baseTitleFontSize = resolveTypographySize(theme.typography.h2?.fontSize);
-const SOFT_HYPHEN = '\u00ad';
+const SOFT_HYPHEN = '\\u00ad';
 
 const hyphenateLongWords = (text: string) =>
   text.replace(/[A-Za-z]{12,}/g, (word) => {
@@ -47,20 +51,18 @@ const hyphenateLongWords = (text: string) =>
     return result;
   });
 
-type AdditiveSortMode = 'search-rank' | 'product-count';
-
-const DEFAULT_SORT_MODE: AdditiveSortMode = 'product-count';
-
 interface AdditiveGridProps {
-  items: Additive[];
+  items: AdditiveGridItemType[];
   emptyMessage?: string;
   sortMode?: AdditiveSortMode;
+  awarenessScores?: Map<string, AwarenessScoreResult>;
 }
 
 export function AdditiveGrid({
   items,
   emptyMessage = 'No additives found.',
-  sortMode = DEFAULT_SORT_MODE,
+  sortMode = GRID_DEFAULT_SORT_MODE,
+  awarenessScores,
 }: AdditiveGridProps) {
   const { isOpen: isCompareOpen, isDragging: compareDragging } = useCompareFlap();
 
@@ -91,11 +93,12 @@ export function AdditiveGrid({
       }}
     >
       {items.map((additive, index) => (
-        <AdditiveGridItem
+        <AdditiveGridCard
           key={additive.slug}
           additive={additive}
           index={index}
           sortMode={sortMode}
+          awarenessScore={awarenessScores?.get(additive.slug) ?? additive.awarenessScore ?? null}
           dragEnabled={dragEnabled}
           compareDragging={compareDragging}
         />
@@ -104,23 +107,33 @@ export function AdditiveGrid({
   );
 }
 
-interface AdditiveGridItemProps {
-  additive: Additive;
+interface AdditiveGridCardProps {
+  additive: AdditiveGridItemType;
   index: number;
   sortMode: AdditiveSortMode;
+  awarenessScore: AwarenessScoreResult | null | undefined;
   dragEnabled: boolean;
   compareDragging: boolean;
 }
 
-function AdditiveGridItem({ additive, index, sortMode, dragEnabled, compareDragging }: AdditiveGridItemProps) {
+function AdditiveGridCard({
+  additive,
+  index,
+  sortMode,
+  awarenessScore,
+  dragEnabled,
+  compareDragging,
+}: AdditiveGridCardProps) {
   const hasSparkline =
     Array.isArray(additive.searchSparkline) && additive.searchSparkline.some((value) => value !== null);
-  const hasSearchMetrics = typeof additive.searchRank === 'number' && typeof additive.searchVolume === 'number';
+  const hasSearchMetrics =
+    typeof additive.searchRank === 'number' && typeof additive.searchVolume === 'number';
   const showSearchSection = hasSparkline || hasSearchMetrics;
   const origins = additive.origin.filter((origin) => origin.trim().length > 0);
   const highlightProducts = sortMode === 'product-count';
   const searchSectionOpacity = highlightProducts ? 0.6 : 1;
-  const productCountValue = typeof additive.productCount === 'number' ? Math.max(0, additive.productCount) : null;
+  const productCountValue =
+    typeof additive.productCount === 'number' ? Math.max(0, additive.productCount) : null;
   const showProductCount = typeof productCountValue === 'number' && productCountValue > 0;
   const productCountLabel = showProductCount ? formatProductCount(productCountValue) : null;
   const normalizedTitle = additive.title.replace(/\s+/g, ' ').trim();
@@ -207,14 +220,7 @@ function AdditiveGridItem({ additive, index, sortMode, dragEnabled, compareDragg
         href={`/${additive.slug}`}
         disableRipple={dragEnabled}
         disableTouchRipple={dragEnabled}
-        sx={{
-          flexGrow: 1,
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'stretch',
-          height: '100%',
-          cursor: 'inherit',
-        }}
+        sx={{ flexGrow: 1, display: 'flex', flexDirection: 'column', alignItems: 'stretch', height: '100%', cursor: 'inherit' }}
       >
         <CardContent
           sx={{
@@ -252,7 +258,8 @@ function AdditiveGridItem({ additive, index, sortMode, dragEnabled, compareDragg
                 ) : null}
               </Stack>
               {origins.length > 0 ? (
-                <Stack direction="row" spacing={0.5}>
+                <Stack direction="row" spacing={0.5} alignItems="center">
+                  {awarenessScore ? <AwarenessScoreChip score={awarenessScore} /> : null}
                   {origins.map((origin) => {
                     const icon = getOriginIcon(origin);
                     const abbreviation = getOriginAbbreviation(origin);
@@ -320,6 +327,21 @@ function AdditiveGridItem({ additive, index, sortMode, dragEnabled, compareDragg
               ) : (
                 <Box sx={{ minHeight: 28 }} />
               )}
+              {showProductCount && productCountLabel ? (
+                <Typography
+                  variant="caption"
+                  sx={{
+                    bgcolor: highlightProducts ? 'primary.main' : 'grey.100',
+                    color: highlightProducts ? 'primary.contrastText' : 'text.secondary',
+                    borderRadius: 999,
+                    px: 1,
+                    py: 0.5,
+                    fontWeight: 600,
+                  }}
+                >
+                  {productCountLabel}
+                </Typography>
+              ) : null}
             </Box>
 
             {showSearchSection ? (
@@ -362,23 +384,24 @@ function AdditiveGridItem({ additive, index, sortMode, dragEnabled, compareDragg
               <Box sx={{ height: 40, mt: 1.5 }} />
             )}
 
-            <Box sx={{ mt: 'auto !important', pt: 2, width: '100%' }}>
-              {showProductCount && productCountLabel ? (
-                <Typography
-                  variant="body2"
-                  sx={{
-                    color: '#5c5c5c',
-                    fontWeight: 400,
-                    m: 0,
-                  }}
-                >
-                  Found in <Box component="span" sx={{ fontWeight: 600, color: '#5c5c5c' }}>
-                    {productCountLabel}
-                  </Box>{' '}
-                  products
-                </Typography>
-              ) : null}
-            </Box>
+            {showProductCount && productCountLabel ? (
+              <Typography
+                variant="body2"
+                sx={{
+                  mt: 'auto',
+                  pt: 2,
+                  color: '#5c5c5c',
+                  fontWeight: 400,
+                }}
+              >
+                Found in <Box component="span" sx={{ fontWeight: 600, color: '#5c5c5c' }}>
+                  {productCountLabel}
+                </Box>{' '}
+                products
+              </Typography>
+            ) : (
+              <Box sx={{ mt: 'auto', pt: 2 }} />
+            )}
           </Stack>
         </CardContent>
       </CardActionArea>
