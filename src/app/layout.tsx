@@ -56,9 +56,6 @@ export default function RootLayout({
                     </Link>
                     <nav className="header-nav">
                       <HeaderSearch additives={additives} />
-                      <Link href="/compare" className="header-link">
-                        Compare
-                      </Link>
                       <Link href="/about" className="header-link header-about-link">
                         <span className="header-about-icon" aria-hidden="true">
                           <InfoOutlinedIcon fontSize="small" />
@@ -75,6 +72,9 @@ export default function RootLayout({
                 <footer className="site-footer">
                   <div className="content-shell footer-shell">
                     <nav className="footer-nav" aria-label="Footer">
+                      <Link href="/compare" className="header-link">
+                        Compare
+                      </Link>
                       <Link href="/function" className="header-link">
                         Functions
                       </Link>

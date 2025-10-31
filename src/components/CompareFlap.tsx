@@ -58,8 +58,8 @@ interface CompareFlapProviderProps {
 
 type SlotState = [string | null, string | null];
 
-const SELECTOR_POPPER_HEIGHT_DESKTOP = 475;
-const SELECTOR_POPPER_HEIGHT_MOBILE = 420;
+const SELECTOR_POPPER_HEIGHT_DESKTOP = 495;
+const SELECTOR_POPPER_HEIGHT_MOBILE = 440;
 const HINT_APPEAR_DELAY_MS = 280;
 
 function extractAdditiveSlug(pathname: string | null): string | null {
@@ -945,6 +945,9 @@ function Slot({ index, additive, isHighlighted, onSelect }: SlotProps) {
         '&:focus-visible': {
           outline: 'none',
           backgroundImage: 'linear-gradient(0deg, rgba(25,118,210,0.24), rgba(25,118,210,0.24))',
+        },
+        '&:hover': {
+          backgroundColor: additive ? '#ededed' : 'rgba(0,0,0,0.05)',
         },
       }}
       ref={(node) => {
