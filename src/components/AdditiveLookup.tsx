@@ -7,7 +7,6 @@ import {
   useMemo,
   useRef,
   useState,
-  useTransition,
   type ReactNode,
 } from 'react';
 import { Autocomplete, Box, CircularProgress, Stack, TextField, Typography } from '@mui/material';
@@ -127,14 +126,13 @@ export function AdditiveLookup<TAdditive extends AdditiveSearchItem>({
 }: AdditiveLookupProps<TAdditive>) {
   const [inputValue, setInputValue] = useState('');
   const [isOpen, setIsOpen] = useState(false);
-  const [isSearching, startTransition] = useTransition();
   const [results, setResults] = useState<AdditiveSearchMatch<TAdditive>[]>([]);
   const matchesRef = useRef<MatchesMap<TAdditive>>(new Map());
 
   const disabledSet = useMemo(() => new Set(disabledSlugs ?? []), [disabledSlugs]);
 
   const normalizedQuery = inputValue.trim();
-  const isLoading = loading || isSearching;
+  const isLoading = loading;
 
   const displayOptions = useMemo(() => {
     if (normalizedQuery.length < MIN_QUERY_LENGTH) {
@@ -173,14 +171,12 @@ export function AdditiveLookup<TAdditive extends AdditiveSearchItem>({
         return;
       }
 
-      startTransition(() => {
-        const computed = searchAdditives(additives, trimmed, { maxResults });
-        matchesRef.current = new Map(computed.map((item) => [item.additive.slug, item.matches]));
-        setResults(computed);
-        if (onResultsChange) {
-          onResultsChange(computed, trimmed);
-        }
-      });
+      const computed = searchAdditives(additives, trimmed, { maxResults });
+      matchesRef.current = new Map(computed.map((item) => [item.additive.slug, item.matches]));
+      setResults(computed);
+      if (onResultsChange) {
+        onResultsChange(computed, trimmed);
+      }
     },
     [additives, maxResults, onResultsChange],
   );
