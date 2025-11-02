@@ -137,7 +137,7 @@ a {
   color: rgba(255, 255, 255, 0.9);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .header-logo img {
     height: 42px;
   }
@@ -151,7 +151,7 @@ a {
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 901px) {
   .header-logo-mobile {
     display: none;
   }
