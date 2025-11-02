@@ -217,11 +217,24 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
       <CompareFlapPrefill slug={additive.slug} />
       <ReportMistakeName value={displayName} />
       <Box component="article" display="flex" flexDirection="column" gap={4} alignItems="center" width="100%">
+        <Box className="page-hero" width="100%">
+          <Box
+            className="page-hero-content"
+            display="flex"
+            flexDirection="column"
+            alignItems="center"
+            textAlign="center"
+            gap={1}
+            sx={{ width: '100%', maxWidth: 760, margin: '0 auto' }}
+          >
+            <Typography component="h1" variant="h1" sx={{ color: 'inherit' }}>
+              {displayName}
+            </Typography>
+          </Box>
+        </Box>
+
         <Box sx={{ width: '100%', maxWidth: 760, display: 'flex', flexDirection: 'column', gap: 3 }}>
         <Box display="flex" flexDirection="column" gap={1.5}>
-          <Typography component="h1" variant="h1">
-            {displayName}
-          </Typography>
           {synonymList.length > 0 && (
             <Typography variant="body1" color="text.secondary">
               <Box component="span" sx={{ fontWeight: 600 }}>
@@ -347,7 +360,6 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
             </Box>
           )}
         </Box>
-
         {additive.functions.length > 0 && (
           <Stack direction="row" flexWrap="wrap" gap={1} alignItems="center">
             <Typography

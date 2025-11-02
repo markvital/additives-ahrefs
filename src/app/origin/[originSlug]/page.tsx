@@ -112,96 +112,97 @@ export default async function OriginPage({ params, searchParams }: OriginPagePro
     <>
       <ReportMistakeName value={reportMistakeName} />
       <Box component="section" display="flex" flexDirection="column" gap={4}>
-        <Box display="flex" flexDirection="column" gap={1.5} maxWidth={720}>
-          <Box display="flex" alignItems="center" gap={2}>
-            {originHeroIcon && (
-              <Image
-                src={originHeroIcon}
-              alt={`${label} origin icon`}
-              width={128}
-              height={128}
-              style={{ height: 40, width: 'auto' }}
-              priority
-            />
-          )}
-          <Typography
-            component="h1"
-            variant="h1"
-            sx={{ display: 'flex', alignItems: 'center', gap: 1 }}
-          >
-            <Box
-              component={Link}
-              href="/origin"
-              sx={{
-                color: 'inherit',
-                textDecoration: 'none',
-                '&:hover': { textDecoration: 'underline' },
-                '&:focus-visible': { textDecoration: 'underline' },
-              }}
-            >
-              Origin
-            </Box>
-            <Box component="span" aria-hidden="true">
-              &gt;
-            </Box>
-            {label}
-          </Typography>
-        </Box>
-        {originDescription && (
-          <Typography variant="body1" color="text.secondary">
-            {originDescription}
-          </Typography>
-        )}
-        <Typography variant="body1" color="text.secondary">
-          {showHiddenCountLink && hiddenAdditivesHref ? (
-            <>
-              {formatCountLabel(filteredAdditives.length).replace(/\.$/, '')}
-              {' ('}
-              <MuiLink
-                component={NextLink}
-                href={hiddenAdditivesHref}
-                color="text.secondary"
-                underline="hover"
-                sx={{ fontWeight: 500 }}
+        <Box className="page-hero">
+          <Box className="page-hero-content" display="flex" flexDirection="column" gap={1.5} maxWidth={720}>
+            <Box display="flex" alignItems="center" gap={2}>
+              {originHeroIcon && (
+                <Image
+                  src={originHeroIcon}
+                  alt={`${label} origin icon`}
+                  width={128}
+                  height={128}
+                  style={{ height: 40, width: 'auto' }}
+                  priority
+                />
+              )}
+              <Typography
+                component="h1"
+                variant="h1"
+                sx={{ display: 'flex', alignItems: 'center', gap: 1 }}
               >
-                +{hiddenAdditivesCount} hidden
-              </MuiLink>
-              {')'}
-            </>
-          ) : (
-            formatCountLabel(filteredAdditives.length)
-          )}
-        </Typography>
-      </Box>
+                <Box
+                  component={Link}
+                  href="/origin"
+                  sx={{
+                    color: 'inherit',
+                    textDecoration: 'none',
+                    '&:hover': { textDecoration: 'underline' },
+                    '&:focus-visible': { textDecoration: 'underline' },
+                  }}
+                >
+                  Origin
+                </Box>
+                <Box component="span" aria-hidden="true">
+                  &gt;
+                </Box>
+                {label}
+              </Typography>
+            </Box>
+            {originDescription && (
+              <Typography variant="body1" className="page-hero-subtitle">
+                {originDescription}
+              </Typography>
+            )}
+            <Typography variant="body1" className="page-hero-subtitle">
+              {showHiddenCountLink && hiddenAdditivesHref ? (
+                <>
+                  {formatCountLabel(filteredAdditives.length).replace(/\.$/, '')}
+                  {' ('}
+                  <MuiLink
+                    component={NextLink}
+                    href={hiddenAdditivesHref}
+                    underline="hover"
+                    sx={{ fontWeight: 500, color: 'inherit' }}
+                  >
+                    +{hiddenAdditivesCount} hidden
+                  </MuiLink>
+                  {')'}
+                </>
+              ) : (
+                formatCountLabel(filteredAdditives.length)
+              )}
+            </Typography>
+          </Box>
+        </Box>
 
-      <Suspense fallback={null}>
-        <FilterPanel
-          functionOptions={functionOptions}
-          originOptions={originOptions}
-          currentFilter={{ type: 'origin', slug: originSlug }}
-          currentSortMode={sortMode}
-          currentShowClasses={showClasses}
-        />
-      </Suspense>
-      {useInfiniteScroll ? (
-        <AdditiveGridInfinite
-          initialItems={initialItems}
-          totalCount={totalCount}
-          sortMode={sortMode}
-          showClasses={showClasses}
-          chunkSize={chunkSize}
-          filter={{ type: 'origin', slug: originSlug }}
-          awarenessScores={awarenessResult.scores}
-        />
-      ) : (
-        <AdditiveGrid
-          items={initialItems}
-          sortMode={sortMode}
-          emptyMessage="No additives found for this origin."
-          awarenessScores={awarenessResult.scores}
-        />
-      )}
-    </Box>
+        <Suspense fallback={null}>
+          <FilterPanel
+            functionOptions={functionOptions}
+            originOptions={originOptions}
+            currentFilter={{ type: 'origin', slug: originSlug }}
+            currentSortMode={sortMode}
+            currentShowClasses={showClasses}
+          />
+        </Suspense>
+        {useInfiniteScroll ? (
+          <AdditiveGridInfinite
+            initialItems={initialItems}
+            totalCount={totalCount}
+            sortMode={sortMode}
+            showClasses={showClasses}
+            chunkSize={chunkSize}
+            filter={{ type: 'origin', slug: originSlug }}
+            awarenessScores={awarenessResult.scores}
+          />
+        ) : (
+          <AdditiveGrid
+            items={initialItems}
+            sortMode={sortMode}
+            emptyMessage="No additives found for this origin."
+            awarenessScores={awarenessResult.scores}
+          />
+        )}
+      </Box>
     </>
   );
 }

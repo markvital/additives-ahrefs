@@ -12,7 +12,6 @@ import { ReportMistakeProvider } from '../components/ReportMistakeContext';
 import { ReportMistakeLink } from '../components/ReportMistakeLink';
 import { CompareFlapProvider } from '../components/CompareFlap';
 import { getAdditives } from '../lib/additives';
-import logo2x from '../../img/logo/logo_2x.png';
 import './globals.css';
 
 const roboto = Roboto({
@@ -41,22 +40,32 @@ export default function RootLayout({
         <ReportMistakeProvider>
           <Providers>
             <CompareFlapProvider additives={additives}>
-              <div className="layout">
+              <div className="layout" id="top">
                 <header className="site-header">
                   <div className="content-shell header-shell">
                     <div className="header-content">
                       <div className="header-brand">
                         <Link href="/" aria-label="Food Additives home" className="header-logo">
-                          <Image
-                            src={logo2x}
-                            alt="Food Additives logo"
-                            width={41}
-                            height={50}
-                            priority
-                          />
-                        </Link>
-                        <Link href="/" className="header-title-link">
-                          Food additives
+                          <span className="header-logo-mobile">
+                            <Image
+                              src="/img/logo_square.svg"
+                              alt=""
+                              width={82}
+                              height={99}
+                              priority
+                              sizes="(max-width: 900px) 48px, 0px"
+                            />
+                          </span>
+                          <span className="header-logo-desktop">
+                            <Image
+                              src="/img/logo_wide.svg"
+                              alt=""
+                              width={647}
+                              height={99}
+                              priority
+                              sizes="(max-width: 900px) 0px, 340px"
+                            />
+                          </span>
                         </Link>
                       </div>
                       <nav className="header-nav">
@@ -79,6 +88,15 @@ export default function RootLayout({
                 <footer className="site-footer">
                   <div className="content-shell footer-shell">
                     <nav className="footer-nav" aria-label="Footer">
+                      <Typography component="span" variant="body2" className="footer-brand">
+                        <Link href="#top" className="footer-brand-link">
+                          Food additives
+                        </Link>
+                        <span aria-hidden="true">© {currentYear}</span>
+                      </Typography>
+                      <Link href="/about" className="header-link">
+                        About
+                      </Link>
                       <Link href="/compare" className="header-link">
                         Compare
                       </Link>
@@ -92,12 +110,6 @@ export default function RootLayout({
                         <ReportMistakeLink className="header-link" />
                       </Suspense>
                     </nav>
-                    <Typography component="p" variant="body2">
-                      Food Additives © {currentYear}. All rights reserved.{' '}
-                      <Link href="/about" className="footer-link">
-                        About
-                      </Link>
-                    </Typography>
                   </div>
                 </footer>
               </div>
