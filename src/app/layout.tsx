@@ -58,10 +58,10 @@ export default function RootLayout({
                           <Image
                             src="/img/logo_wide.svg"
                             alt=""
-                            width={623}
+                            width={647}
                             height={99}
                             priority
-                            sizes="(max-width: 768px) 0px, 320px"
+                            sizes="(max-width: 768px) 0px, 340px"
                           />
                         </span>
                       </Link>
