@@ -1,10 +1,10 @@
 import type { Metadata } from 'next';
 
-import { AdditiveComparison } from '../../../components/AdditiveComparison';
 import type { Additive } from '../../../lib/additives';
 import { getAdditives, getAdditiveBySlug, getAwarenessScores } from '../../../lib/additives';
 import { formatAdditiveDisplayName } from '../../../lib/additive-format';
 import { getSearchHistory } from '../../../lib/search-history';
+import { AdditiveComparison } from '../../../components/AdditiveComparison';
 
 interface ComparePageProps {
   params: Promise<{ slug?: string[] }>;

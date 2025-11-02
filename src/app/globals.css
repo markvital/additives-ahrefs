@@ -44,26 +44,7 @@ a {
   position: relative;
   padding: 0.46875rem 0;
   color: #ffffff;
-  --header-gradient-extension: 50px;
-}
-
-.site-header::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: #c19fff;
-  z-index: -2;
-}
-
-.site-header::after {
-  content: '';
-  position: absolute;
-  left: calc(50% - 50vw);
-  right: calc(50% - 50vw);
-  top: 100%;
-  height: var(--header-gradient-extension);
-  background: linear-gradient(180deg, #c19fff 0%, #f5f5f5 100%);
-  z-index: -3;
+  background-color: #c19fff;
 }
 
 .header-shell {
@@ -153,10 +134,12 @@ a {
 
 .header-search .MuiOutlinedInput-input {
   color: #ffffff;
+  font-weight: 500;
 }
 
 .header-search .MuiOutlinedInput-input::placeholder {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 500;
 }
 
 .header-search .MuiOutlinedInput-notchedOutline {
@@ -231,7 +214,10 @@ a {
 .page-hero {
   position: relative;
   margin: 0;
-  padding: 0;
+  --page-hero-gradient-extension: 50px;
+  --page-hero-padding-top: 2rem;
+  --page-hero-padding-bottom: 0;
+  padding: var(--page-hero-padding-top) 0 var(--page-hero-padding-bottom);
   color: #ffffff;
 }
 
@@ -240,8 +226,8 @@ a {
   position: absolute;
   left: calc(50% - 50vw);
   right: calc(50% - 50vw);
-  top: calc(-1 * var(--header-gradient-extension, 50px));
-  bottom: 0;
+  top: 0;
+  bottom: calc(-1 * var(--page-hero-gradient-extension, 50px));
   background: linear-gradient(180deg, #c19fff 0%, #f5f5f5 100%);
   z-index: -1;
 }
@@ -270,24 +256,46 @@ a {
 
 .footer-nav {
   display: flex;
+  align-items: center;
   gap: 1.5rem;
   flex-wrap: wrap;
 }
 
-.footer-link {
+.footer-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
   font-weight: 600;
-  color: inherit;
+  color: #6b6b6b;
 }
 
-.footer-link:hover,
-.footer-link:focus-visible {
-  color: #0d47a1;
+.footer-brand-link {
+  color: inherit;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.footer-brand-link:hover,
+.footer-brand-link:focus-visible {
+  color: #424242;
+  text-decoration: underline;
+}
+
+.footer-nav .header-link {
+  color: inherit;
+  font-weight: 600;
+}
+
+.footer-nav .header-link:hover,
+.footer-nav .header-link:focus-visible {
+  color: #424242;
   text-decoration: underline;
 }
 
 .main-content {
   flex: 1;
-  padding: 2rem 0 3rem;
+  padding: 0 0 3rem;
 }
 
 @media (max-width: 600px) {
@@ -326,7 +334,11 @@ a {
   }
 
   .main-content {
-    padding: 1.5rem 0 2rem;
+    padding: 0 0 2rem;
+  }
+
+  .page-hero {
+    --page-hero-padding-top: 1.5rem;
   }
 }
 
