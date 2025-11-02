@@ -536,6 +536,24 @@ const captureCardPreview = async ({ page, slug, outputPath, debug }) => {
   }
 
   try {
+    await element.evaluate((node) => {
+      if (!(node instanceof HTMLElement)) {
+        return;
+      }
+
+      node.style.boxShadow = 'none';
+      node.style.outline = 'none';
+      node.style.backgroundColor = '#ffffff';
+      node.style.filter = 'none';
+      node.style.transform = 'none';
+
+      node.querySelectorAll('*').forEach((child) => {
+        if (child instanceof HTMLElement) {
+          child.style.filter = 'none';
+        }
+      });
+    });
+
     const screenshot = await element.screenshot({ type: 'png', omitBackground: true });
     const previewBuffer = await createPreviewBuffer(screenshot);
     await fs.writeFile(outputPath, previewBuffer);
@@ -656,6 +674,25 @@ async function main() {
       try {
         await page.goto(`${serverUrl}/`, { waitUntil: 'domcontentloaded', timeout: 60000 });
         await page.waitForSelector('[data-additive-card-index]', { timeout: 60000 });
+
+        await page.addStyleTag({
+          content: `
+            html, body {
+              background: transparent !important;
+            }
+
+            [data-additive-card-index] {
+              box-shadow: none !important;
+              outline: none !important;
+            }
+
+            [data-additive-card-index]::before,
+            [data-additive-card-index]::after {
+              display: none !important;
+            }
+          `,
+        });
+
         await sleep(300);
 
         while (activeTasks.length > 0) {
