@@ -70,9 +70,6 @@ export default function RootLayout({
                       </div>
                       <nav className="header-nav">
                         <HeaderSearch additives={additives} />
-                        <Link href="/compare" className="header-link">
-                          Compare
-                        </Link>
                         <Link href="/about" className="header-link header-about-link">
                           <span className="header-about-icon" aria-hidden="true">
                             <InfoOutlinedIcon fontSize="small" />
@@ -91,6 +88,15 @@ export default function RootLayout({
                 <footer className="site-footer">
                   <div className="content-shell footer-shell">
                     <nav className="footer-nav" aria-label="Footer">
+                      <Typography component="span" variant="body2" className="footer-brand">
+                        <Link href="#top" className="footer-brand-link">
+                          Food additives
+                        </Link>
+                        <span aria-hidden="true">© {currentYear}</span>
+                      </Typography>
+                      <Link href="/about" className="header-link">
+                        About
+                      </Link>
                       <Link href="/compare" className="header-link">
                         Compare
                       </Link>
@@ -104,12 +110,6 @@ export default function RootLayout({
                         <ReportMistakeLink className="header-link" />
                       </Suspense>
                     </nav>
-                    <Typography component="p" variant="body2">
-                      Food Additives © {currentYear}. All rights reserved.{' '}
-                      <Link href="/about" className="footer-link">
-                        About
-                      </Link>
-                    </Typography>
                   </div>
                 </footer>
               </div>
