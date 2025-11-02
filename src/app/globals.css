@@ -70,7 +70,7 @@ a {
 
 .header-logo img {
   display: block;
-  height: 56px;
+  height: 50px;
   width: auto;
 }
 
@@ -139,7 +139,7 @@ a {
 
 @media (max-width: 900px) {
   .header-logo img {
-    height: 42px;
+    height: 40px;
   }
 
   .header-logo-mobile {
