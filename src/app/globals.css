@@ -74,11 +74,11 @@ a {
   width: auto;
 }
 
-.header-logo-square {
+.header-logo-mobile {
   display: none;
 }
 
-.header-logo-wide {
+.header-logo-desktop {
   display: block;
 }
 
@@ -142,12 +142,22 @@ a {
     height: 42px;
   }
 
-  .header-logo-square {
+  .header-logo-mobile {
     display: block;
   }
 
-  .header-logo-wide {
+  .header-logo-desktop {
     display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .header-logo-mobile {
+    display: none;
+  }
+
+  .header-logo-desktop {
+    display: block;
   }
 }
 

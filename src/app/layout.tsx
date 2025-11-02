@@ -44,24 +44,26 @@ export default function RootLayout({
                   <div className="header-content">
                     <div className="header-brand">
                       <Link href="/" aria-label="Food Additives home" className="header-logo">
-                        <Image
-                          src="/img/logo_square.svg"
-                          alt=""
-                          width={82}
-                          height={99}
-                          priority
-                          className="header-logo-square"
-                          sizes="(max-width: 768px) 48px, 0px"
-                        />
-                        <Image
-                          src="/img/logo_wide.svg"
-                          alt=""
-                          width={623}
-                          height={99}
-                          priority
-                          className="header-logo-wide"
-                          sizes="(max-width: 768px) 0px, 320px"
-                        />
+                        <span className="header-logo-mobile">
+                          <Image
+                            src="/img/logo_square.svg"
+                            alt=""
+                            width={82}
+                            height={99}
+                            priority
+                            sizes="(max-width: 768px) 48px, 0px"
+                          />
+                        </span>
+                        <span className="header-logo-desktop">
+                          <Image
+                            src="/img/logo_wide.svg"
+                            alt=""
+                            width={623}
+                            height={99}
+                            priority
+                            sizes="(max-width: 768px) 0px, 320px"
+                          />
+                        </span>
                       </Link>
                     </div>
                     <nav className="header-nav">
