@@ -1,6 +1,6 @@
 'use client';
 
-import { useCallback, useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
+import { useCallback, useEffect, useMemo, useState, type ReactNode } from 'react';
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
 import { Box, Button, Chip, Stack, Typography } from '@mui/material';
@@ -52,36 +52,6 @@ const getInitialSearchItems = (initialAdditives: Record<string, ComparisonAdditi
   });
 
   return Array.from(unique.values());
-};
-
-interface AdditiveDetailResponse {
-  additive?: ComparisonAdditive | null;
-}
-
-const fetchComparisonAdditive = async (slug: string): Promise<ComparisonAdditive | null> => {
-  const response = await fetch(`/api/additives/${encodeURIComponent(slug)}`, {
-    cache: 'force-cache',
-    credentials: 'same-origin',
-  });
-
-  if (response.status === 404) {
-    return null;
-  }
-
-  if (!response.ok) {
-    throw new Error(`Failed to load additive details for ${slug}: ${response.status}`);
-  }
-
-  const payload = (await response.json()) as AdditiveDetailResponse;
-
-  if (!payload.additive) {
-    return null;
-  }
-
-  return {
-    ...payload.additive,
-    searchHistory: payload.additive.searchHistory ?? null,
-  };
 };
 
 const functionChipSx = {
@@ -373,11 +343,6 @@ export function AdditiveComparison({ initialSelection, initialAdditives, awarene
   const [additiveMap, setAdditiveMap] = useState<Map<string, ComparisonAdditive>>(
     () => new Map(Object.entries(initialAdditives)),
   );
-  const additiveMapRef = useRef(additiveMap);
-
-  useEffect(() => {
-    additiveMapRef.current = additiveMap;
-  }, [additiveMap]);
 
   useEffect(() => {
     setAdditiveMap((prev) => {
@@ -476,106 +441,6 @@ export function AdditiveComparison({ initialSelection, initialAdditives, awarene
       });
   }, [isSearchLoading]);
 
-  const [loadingSlots, setLoadingSlots] = useState<{ left: boolean; right: boolean }>({ left: false, right: false });
-  const [slotErrors, setSlotErrors] = useState<{ left: string | null; right: string | null }>({ left: null, right: null });
-  const detailPromisesRef = useRef(new Map<string, Promise<ComparisonAdditive | null>>());
-
-  const updateSlotLoading = useCallback((slot: 'left' | 'right', value: boolean) => {
-    setLoadingSlots((prev) => (prev[slot] === value ? prev : { ...prev, [slot]: value }));
-  }, []);
-
-  const updateSlotError = useCallback((slot: 'left' | 'right', value: string | null) => {
-    setSlotErrors((prev) => (prev[slot] === value ? prev : { ...prev, [slot]: value }));
-  }, []);
-
-  const loadAdditiveDetail = useCallback(
-    async (slot: 'left' | 'right', slug: string) => {
-      if (!slug) {
-        return;
-      }
-
-      if (additiveMapRef.current.has(slug)) {
-        updateSlotError(slot, null);
-        return;
-      }
-
-      const existingPromise = detailPromisesRef.current.get(slug);
-      if (existingPromise) {
-        updateSlotLoading(slot, true);
-        try {
-          const additive = await existingPromise;
-          if (additive) {
-            setAdditiveMap((prev) => {
-              if (prev.get(slug) === additive) {
-                return prev;
-              }
-              const next = new Map(prev);
-              next.set(slug, additive);
-              return next;
-            });
-            updateSlotError(slot, null);
-          } else {
-            updateSlotError(slot, 'Additive not found.');
-          }
-        } catch (error) {
-          console.error('Unable to load additive details', error);
-          updateSlotError(slot, 'Unable to load additive details.');
-        } finally {
-          updateSlotLoading(slot, false);
-        }
-        return;
-      }
-
-      const promise = fetchComparisonAdditive(slug);
-      detailPromisesRef.current.set(slug, promise);
-      updateSlotLoading(slot, true);
-      updateSlotError(slot, null);
-
-      try {
-        const additive = await promise;
-        if (additive) {
-          setAdditiveMap((prev) => {
-            const existing = prev.get(slug);
-            if (existing === additive) {
-              return prev;
-            }
-            const next = new Map(prev);
-            next.set(slug, additive);
-            return next;
-          });
-          updateSlotError(slot, null);
-        } else {
-          updateSlotError(slot, 'Additive not found.');
-        }
-      } catch (error) {
-        console.error('Unable to load additive details', error);
-        updateSlotError(slot, 'Unable to load additive details.');
-      } finally {
-        detailPromisesRef.current.delete(slug);
-        updateSlotLoading(slot, false);
-      }
-    },
-    [updateSlotError, updateSlotLoading],
-  );
-
-  useEffect(() => {
-    if (selection.left) {
-      void loadAdditiveDetail('left', selection.left);
-    } else {
-      updateSlotError('left', null);
-      updateSlotLoading('left', false);
-    }
-  }, [loadAdditiveDetail, selection.left, updateSlotError, updateSlotLoading]);
-
-  useEffect(() => {
-    if (selection.right) {
-      void loadAdditiveDetail('right', selection.right);
-    } else {
-      updateSlotError('right', null);
-      updateSlotLoading('right', false);
-    }
-  }, [loadAdditiveDetail, selection.right, updateSlotError, updateSlotLoading]);
-
   useEffect(() => {
     const leftSlug = selection.left;
     const rightSlug = selection.right;
@@ -590,6 +455,9 @@ export function AdditiveComparison({ initialSelection, initialAdditives, awarene
 
   const leftAdditive = selection.left ? additiveMap.get(selection.left) ?? null : null;
   const rightAdditive = selection.right ? additiveMap.get(selection.right) ?? null : null;
+
+  const leftLoading = Boolean(selection.left && !leftAdditive);
+  const rightLoading = Boolean(selection.right && !rightAdditive);
 
   const leftSearchItem = selection.left ? searchItemMap.get(selection.left) ?? null : null;
   const rightSearchItem = selection.right ? searchItemMap.get(selection.right) ?? null : null;
@@ -740,8 +608,7 @@ export function AdditiveComparison({ initialSelection, initialAdditives, awarene
     (slot: 'left' | 'right', render: (additive: ComparisonAdditive | null) => ReactNode) => {
       const slug = slot === 'left' ? selection.left : selection.right;
       const additive = slot === 'left' ? leftAdditive : rightAdditive;
-      const isLoading = slot === 'left' ? loadingSlots.left : loadingSlots.right;
-      const error = slot === 'left' ? slotErrors.left : slotErrors.right;
+      const isLoading = slot === 'left' ? leftLoading : rightLoading;
 
       if (!slug) {
         return render(null);
@@ -757,15 +624,15 @@ export function AdditiveComparison({ initialSelection, initialAdditives, awarene
 
       if (!additive) {
         return (
-          <Typography variant="body2" color={error ? 'error' : 'text.secondary'}>
-            {error ?? 'Additive details are unavailable.'}
+          <Typography variant="body2" color="text.secondary">
+            Additive details are unavailable.
           </Typography>
         );
       }
 
       return render(additive);
     },
-    [leftAdditive, loadingSlots.left, rightAdditive, loadingSlots.right, selection.left, selection.right, slotErrors.left, slotErrors.right],
+    [leftAdditive, leftLoading, rightAdditive, rightLoading, selection.left, selection.right],
   );
 
   const sectionItems = [
