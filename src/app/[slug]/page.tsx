@@ -26,6 +26,7 @@ import { SearchKeywordShare } from '../../components/SearchKeywordShare';
 import { MarkdownArticle } from '../../components/MarkdownArticle';
 import { SearchQuestions } from '../../components/SearchQuestions';
 import { ReportMistakeName } from '../../components/ReportMistakeContext';
+import { CompareFlapPrefill } from '../../components/CompareFlap';
 import { AwarenessScoreChip } from '../../components/AwarenessScoreChip';
 
 interface AdditivePageProps {
@@ -213,6 +214,7 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
 
   return (
     <>
+      <CompareFlapPrefill slug={additive.slug} />
       <ReportMistakeName value={displayName} />
       <Box component="article" display="flex" flexDirection="column" gap={4} alignItems="center" width="100%">
         <Box className="page-hero" width="100%">

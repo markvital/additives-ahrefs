@@ -10,6 +10,7 @@ import { Providers } from '../components/Providers';
 import { HeaderSearch } from '../components/HeaderSearch';
 import { ReportMistakeProvider } from '../components/ReportMistakeContext';
 import { ReportMistakeLink } from '../components/ReportMistakeLink';
+import { CompareFlapProvider } from '../components/CompareFlap';
 import { getAdditives } from '../lib/additives';
 import './globals.css';
 
@@ -38,80 +39,81 @@ export default function RootLayout({
       <body className={roboto.className}>
         <ReportMistakeProvider>
           <Providers>
-            <div className="layout" id="top">
-              <header className="site-header">
-                <div className="content-shell header-shell">
-                  <div className="header-content">
-                    <div className="header-brand">
-                      <Link href="/" aria-label="Food Additives home" className="header-logo">
-                        <span className="header-logo-mobile">
-                          <Image
-                            src="/img/logo_square.svg"
-                            alt=""
-                            width={82}
-                            height={99}
-                            priority
-                            sizes="(max-width: 768px) 48px, 0px"
-                          />
-                        </span>
-                        <span className="header-logo-desktop">
-                          <Image
-                            src="/img/logo_wide.svg"
-                            alt=""
-                            width={647}
-                            height={99}
-                            priority
-                            sizes="(max-width: 768px) 0px, 340px"
-                          />
-                        </span>
-                      </Link>
+            <CompareFlapProvider additives={additives}>
+              <div className="layout" id="top">
+                <header className="site-header">
+                  <div className="content-shell header-shell">
+                    <div className="header-content">
+                      <div className="header-brand">
+                        <Link href="/" aria-label="Food Additives home" className="header-logo">
+                          <span className="header-logo-mobile">
+                            <Image
+                              src="/img/logo_square.svg"
+                              alt=""
+                              width={82}
+                              height={99}
+                              priority
+                              sizes="(max-width: 900px) 48px, 0px"
+                            />
+                          </span>
+                          <span className="header-logo-desktop">
+                            <Image
+                              src="/img/logo_wide.svg"
+                              alt=""
+                              width={647}
+                              height={99}
+                              priority
+                              sizes="(max-width: 900px) 0px, 340px"
+                            />
+                          </span>
+                        </Link>
+                      </div>
+                      <nav className="header-nav">
+                        <HeaderSearch additives={additives} />
+                        <Link href="/compare" className="header-link">
+                          Compare
+                        </Link>
+                        <Link href="/about" className="header-link header-about-link">
+                          <span className="header-about-icon" aria-hidden="true">
+                            <InfoOutlinedIcon fontSize="small" />
+                          </span>
+                          <span className="header-about-text">About</span>
+                        </Link>
+                      </nav>
                     </div>
-                    <nav className="header-nav">
-                      <HeaderSearch additives={additives} />
+                  </div>
+                </header>
+
+                <main className="main-content">
+                  <div className="content-shell">{children}</div>
+                </main>
+
+                <footer className="site-footer">
+                  <div className="content-shell footer-shell">
+                    <nav className="footer-nav" aria-label="Footer">
                       <Link href="/compare" className="header-link">
                         Compare
                       </Link>
-                      <Link href="/about" className="header-link header-about-link">
-                        <span className="header-about-icon" aria-hidden="true">
-                          <InfoOutlinedIcon fontSize="small" />
-                        </span>
-                        <span className="header-about-text">About</span>
+                      <Link href="/function" className="header-link">
+                        Functions
                       </Link>
+                      <Link href="/origin" className="header-link">
+                        Origins
+                      </Link>
+                      <Suspense fallback={null}>
+                        <ReportMistakeLink className="header-link" />
+                      </Suspense>
                     </nav>
-                  </div>
-                </div>
-              </header>
-              <main className="main-content">
-                <div className="content-shell">{children}</div>
-              </main>
-              <footer className="site-footer">
-                <div className="content-shell footer-shell">
-                  <nav className="footer-nav" aria-label="Footer">
-                    <Typography component="span" variant="body2" className="footer-brand">
-                      <Link href="#top" className="footer-brand-link">
-                        Food additives
+                    <Typography component="p" variant="body2">
+                      Food Additives © {currentYear}. All rights reserved.{' '}
+                      <Link href="/about" className="footer-link">
+                        About
                       </Link>
-                      <span aria-hidden="true">© {currentYear}</span>
                     </Typography>
-                    <Link href="/about" className="header-link">
-                      About
-                    </Link>
-                    <Link href="/compare" className="header-link">
-                      Compare
-                    </Link>
-                    <Link href="/function" className="header-link">
-                      Functions
-                    </Link>
-                    <Link href="/origin" className="header-link">
-                      Origins
-                    </Link>
-                    <Suspense fallback={null}>
-                      <ReportMistakeLink className="header-link" />
-                    </Suspense>
-                  </nav>
-                </div>
-              </footer>
-            </div>
+                  </div>
+                </footer>
+              </div>
+            </CompareFlapProvider>
           </Providers>
         </ReportMistakeProvider>
       </body>
