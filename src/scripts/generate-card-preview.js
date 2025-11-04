@@ -79,16 +79,20 @@ const resolveChromiumExecutablePath = async (debug) => {
     return cachedExecutablePath;
   }
 
-  try {
-    const bundled = await chromium.executablePath();
-    if (bundled && (await fileExists(bundled))) {
-      cachedExecutablePath = bundled;
-      return cachedExecutablePath;
+  if (process.platform === 'linux') {
+    try {
+      const bundled = await chromium.executablePath();
+      if (bundled && (await fileExists(bundled))) {
+        cachedExecutablePath = bundled;
+        return cachedExecutablePath;
+      }
+    } catch (error) {
+      if (debug) {
+        console.warn(`Falling back from bundled Chromium: ${error instanceof Error ? error.message : String(error)}`);
+      }
     }
-  } catch (error) {
-    if (debug) {
-      console.warn(`Falling back from bundled Chromium: ${error instanceof Error ? error.message : String(error)}`);
-    }
+  } else if (debug) {
+    console.log('Skipping bundled Chromium lookup because @sparticuz/chromium only supports Linux environments.');
   }
 
   const platformCandidates = process.platform === 'darwin'
