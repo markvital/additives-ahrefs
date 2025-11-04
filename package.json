@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "postbuild": "node src/scripts/generate-card-preview.js",
+    "postbuild": "npm run generate-card-preview",
     "start": "next start",
     "lint": "next lint",
     "test": "vitest run",
