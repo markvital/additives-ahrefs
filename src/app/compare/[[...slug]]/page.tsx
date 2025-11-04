@@ -1,17 +1,11 @@
 import type { Metadata } from 'next';
 
-import type { Additive } from '../../../lib/additives';
-import { getAdditives, getAdditiveBySlug, getAwarenessScores } from '../../../lib/additives';
+import { AdditiveComparison, type ComparisonAdditive } from '../../../components/AdditiveComparison';
+import { getAdditiveBySlug, getAwarenessScores } from '../../../lib/additives';
 import { formatAdditiveDisplayName } from '../../../lib/additive-format';
 import { getSearchHistory } from '../../../lib/search-history';
-import { AdditiveComparison } from '../../../components/AdditiveComparison';
-
 interface ComparePageProps {
   params: Promise<{ slug?: string[] }>;
-}
-
-interface ComparisonAdditive extends Additive {
-  searchHistory: ReturnType<typeof getSearchHistory>;
 }
 
 const DEFAULT_DESCRIPTION =
@@ -80,22 +74,41 @@ export default async function ComparePage({ params }: ComparePageProps) {
   const awarenessResult = getAwarenessScores();
   const awarenessScores = Object.fromEntries(awarenessResult.scores.entries());
 
-  const additives = getAdditives().map<ComparisonAdditive>((additive) => ({
-    ...additive,
-    searchHistory: getSearchHistory(additive.slug),
-  }));
+  const requestedSlugs = [requestedLeft, requestedRight].filter(
+    (value): value is string => typeof value === 'string' && value.length > 0,
+  );
 
-  const additiveMap = new Map(additives.map((item) => [item.slug, item]));
+  const uniqueRequestedSlugs = Array.from(new Set(requestedSlugs));
+
+  const initialAdditivesEntries = uniqueRequestedSlugs
+    .map<[string, ComparisonAdditive] | null>((slugValue) => {
+      const additive = getAdditiveBySlug(slugValue);
+
+      if (!additive) {
+        return null;
+      }
+
+      return [
+        slugValue,
+        {
+          ...additive,
+          searchHistory: getSearchHistory(slugValue),
+        },
+      ];
+    })
+    .filter((entry): entry is [string, ComparisonAdditive] => Array.isArray(entry));
+
+  const initialAdditives: Record<string, ComparisonAdditive> = Object.fromEntries(initialAdditivesEntries);
 
   const initialSelection: [string | null, string | null] = [
-    requestedLeft && additiveMap.has(requestedLeft) ? requestedLeft : null,
-    requestedRight && additiveMap.has(requestedRight) ? requestedRight : null,
+    requestedLeft && initialAdditives[requestedLeft] ? requestedLeft : null,
+    requestedRight && initialAdditives[requestedRight] ? requestedRight : null,
   ];
 
   return (
     <AdditiveComparison
-      additives={additives}
       initialSelection={initialSelection}
+      initialAdditives={initialAdditives}
       awarenessScores={awarenessScores}
     />
   );

@@ -6,14 +6,9 @@ import Link from 'next/link';
 import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 import MenuIcon from '@mui/icons-material/Menu';
 
-import type { Additive } from '../lib/additives';
 import { HeaderSearch } from './HeaderSearch';
 
-interface SiteHeaderProps {
-  additives: Additive[];
-}
-
-export function SiteHeader({ additives }: SiteHeaderProps) {
+export function SiteHeader() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
@@ -103,7 +98,7 @@ export function SiteHeader({ additives }: SiteHeaderProps) {
             data-open={menuOpen}
             aria-label="Main"
           >
-            <HeaderSearch additives={additives} />
+            <HeaderSearch />
             <Link
               href="/about"
               className="header-link header-about-link"

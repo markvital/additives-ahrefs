@@ -39,7 +39,7 @@ export default function RootLayout({
           <Providers>
             <CompareFlapProvider additives={additives}>
               <div className="layout" id="top">
-                <SiteHeader additives={additives} />
+                <SiteHeader />
                 <main className="main-content">
                   <div className="content-shell">{children}</div>
                 </main>

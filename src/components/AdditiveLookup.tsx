@@ -1,16 +1,25 @@
 'use client';
 
-import { Fragment, useMemo, useRef, useState, useTransition, type ReactNode } from 'react';
+import {
+  Fragment,
+  useCallback,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+  useTransition,
+  type ReactNode,
+} from 'react';
 import { Autocomplete, Box, CircularProgress, Stack, TextField, Typography } from '@mui/material';
 import type { TextFieldProps } from '@mui/material/TextField';
 import type { Modifier } from '@popperjs/core';
 
-import type { Additive } from '../lib/additives';
+import type { AdditiveSearchItem } from '../lib/additives';
 import { formatAdditiveDisplayName } from '../lib/additive-format';
 import type { AdditiveSearchMatch, HighlightRange } from '../lib/additive-search';
 import { searchAdditives } from '../lib/additive-search';
 
-interface AdditiveLookupProps<TAdditive extends Additive> {
+interface AdditiveLookupProps<TAdditive extends AdditiveSearchItem> {
   additives: TAdditive[];
   value: TAdditive | null;
   onChange: (value: TAdditive | null) => void;
@@ -26,10 +35,14 @@ interface AdditiveLookupProps<TAdditive extends Additive> {
   clearOnSelect?: boolean;
   showPopupIcon?: boolean;
   transformInputDisplayValue?: (value: string) => string;
+  loading?: boolean;
   disablePortal?: boolean;
 }
 
-type MatchesMap<TAdditive extends Additive> = Map<string, AdditiveSearchMatch<TAdditive>['matches']>;
+type MatchesMap<TAdditive extends AdditiveSearchItem> = Map<
+  string,
+  AdditiveSearchMatch<TAdditive>['matches']
+>;
 
 const renderHighlightedText = (text: string, ranges: HighlightRange[]): ReactNode => {
   if (!text) {
@@ -79,9 +92,23 @@ const sameWidthModifier: Modifier<'sameWidth', Record<string, never>> = {
     state.styles.popper.width = width;
     state.styles.popper.minWidth = width;
   },
+  effect: ({ state }) => {
+    const reference = state.elements.reference as HTMLElement | undefined;
+    const popper = state.elements.popper as HTMLElement | undefined;
+
+    if (!reference || !popper) {
+      return undefined;
+    }
+
+    const width = `${reference.getBoundingClientRect().width}px`;
+    popper.style.width = width;
+    popper.style.minWidth = width;
+
+    return undefined;
+  },
 };
 
-export function AdditiveLookup<TAdditive extends Additive>({
+export function AdditiveLookup<TAdditive extends AdditiveSearchItem>({
   additives,
   value,
   onChange,
@@ -97,17 +124,22 @@ export function AdditiveLookup<TAdditive extends Additive>({
   clearOnSelect = false,
   showPopupIcon = true,
   transformInputDisplayValue,
+  loading = false,
   disablePortal = true,
 }: AdditiveLookupProps<TAdditive>) {
   const [inputValue, setInputValue] = useState('');
   const [isOpen, setIsOpen] = useState(false);
-  const [isSearching, startTransition] = useTransition();
+  const [, startTransition] = useTransition();
   const [results, setResults] = useState<AdditiveSearchMatch<TAdditive>[]>([]);
   const matchesRef = useRef<MatchesMap<TAdditive>>(new Map());
+  const pendingQueryRef = useRef<string | null>(null);
+  const completedQueryRef = useRef<string | null>(null);
 
   const disabledSet = useMemo(() => new Set(disabledSlugs ?? []), [disabledSlugs]);
 
   const normalizedQuery = inputValue.trim();
+  const hasPendingQuery = pendingQueryRef.current !== completedQueryRef.current;
+  const isLoading = loading || hasPendingQuery;
 
   const displayOptions = useMemo(() => {
     if (normalizedQuery.length < MIN_QUERY_LENGTH) {
@@ -118,6 +150,14 @@ export function AdditiveLookup<TAdditive extends Additive>({
   }, [normalizedQuery.length, results]);
 
   const noOptionsText = (() => {
+    if (loading) {
+      return 'Loading additives…';
+    }
+
+    if (hasPendingQuery) {
+      return 'Searching…';
+    }
+
     if (normalizedQuery.length === 0) {
       return 'Start typing to search';
     }
@@ -129,27 +169,43 @@ export function AdditiveLookup<TAdditive extends Additive>({
     return 'No additives found';
   })();
 
-  const handleSearch = (query: string) => {
-    const trimmed = query.trim();
+  const handleSearch = useCallback(
+    (query: string) => {
+      const trimmed = query.trim();
 
-    if (trimmed.length < MIN_QUERY_LENGTH) {
-      matchesRef.current = new Map();
-      setResults([]);
-      if (onResultsChange) {
-        onResultsChange([], trimmed);
+      if (trimmed.length < MIN_QUERY_LENGTH) {
+        pendingQueryRef.current = trimmed;
+        completedQueryRef.current = trimmed;
+        matchesRef.current = new Map();
+        setResults([]);
+        if (onResultsChange) {
+          onResultsChange([], trimmed);
+        }
+        return;
       }
+
+      pendingQueryRef.current = trimmed;
+
+      startTransition(() => {
+        const computed = searchAdditives(additives, trimmed, { maxResults });
+        matchesRef.current = new Map(computed.map((item) => [item.additive.slug, item.matches]));
+        completedQueryRef.current = trimmed;
+        setResults(computed);
+        if (onResultsChange) {
+          onResultsChange(computed, trimmed);
+        }
+      });
+    },
+    [additives, maxResults, onResultsChange],
+  );
+
+  useEffect(() => {
+    if (normalizedQuery.length < MIN_QUERY_LENGTH) {
       return;
     }
 
-    startTransition(() => {
-      const computed = searchAdditives(additives, trimmed, { maxResults });
-      matchesRef.current = new Map(computed.map((item) => [item.additive.slug, item.matches]));
-      setResults(computed);
-      if (onResultsChange) {
-        onResultsChange(computed, trimmed);
-      }
-    });
-  };
+    handleSearch(inputValue);
+  }, [additives, handleSearch, inputValue, normalizedQuery.length]);
 
   return (
     <Autocomplete
@@ -160,7 +216,7 @@ export function AdditiveLookup<TAdditive extends Additive>({
       autoHighlight
       clearOnBlur={false}
       includeInputInList
-      loading={isSearching}
+      loading={isLoading}
       forcePopupIcon={showPopupIcon}
       popupIcon={showPopupIcon ? undefined : null}
       filterOptions={(options) => options}
@@ -236,7 +292,7 @@ export function AdditiveLookup<TAdditive extends Additive>({
             ),
             endAdornment: (
               <Fragment>
-                {isSearching ? <CircularProgress color="inherit" size={18} /> : null}
+                {isLoading ? <CircularProgress color="inherit" size={18} /> : null}
                 {textFieldInputProps?.endAdornment}
                 {params.InputProps.endAdornment}
               </Fragment>
