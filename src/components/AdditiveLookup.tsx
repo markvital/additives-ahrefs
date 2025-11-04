@@ -129,15 +129,17 @@ export function AdditiveLookup<TAdditive extends AdditiveSearchItem>({
 }: AdditiveLookupProps<TAdditive>) {
   const [inputValue, setInputValue] = useState('');
   const [isOpen, setIsOpen] = useState(false);
-  const [isSearching, startTransition] = useTransition();
+  const [, startTransition] = useTransition();
   const [results, setResults] = useState<AdditiveSearchMatch<TAdditive>[]>([]);
   const matchesRef = useRef<MatchesMap<TAdditive>>(new Map());
+  const pendingQueryRef = useRef<string | null>(null);
+  const completedQueryRef = useRef<string | null>(null);
 
   const disabledSet = useMemo(() => new Set(disabledSlugs ?? []), [disabledSlugs]);
 
   const normalizedQuery = inputValue.trim();
-  const isSearchingActive = isSearching;
-  const isLoading = loading || isSearchingActive;
+  const hasPendingQuery = pendingQueryRef.current !== completedQueryRef.current;
+  const isLoading = loading || hasPendingQuery;
 
   const displayOptions = useMemo(() => {
     if (normalizedQuery.length < MIN_QUERY_LENGTH) {
@@ -152,7 +154,7 @@ export function AdditiveLookup<TAdditive extends AdditiveSearchItem>({
       return 'Loading additives…';
     }
 
-    if (isSearchingActive) {
+    if (hasPendingQuery) {
       return 'Searching…';
     }
 
@@ -172,6 +174,8 @@ export function AdditiveLookup<TAdditive extends AdditiveSearchItem>({
       const trimmed = query.trim();
 
       if (trimmed.length < MIN_QUERY_LENGTH) {
+        pendingQueryRef.current = trimmed;
+        completedQueryRef.current = trimmed;
         matchesRef.current = new Map();
         setResults([]);
         if (onResultsChange) {
@@ -180,9 +184,12 @@ export function AdditiveLookup<TAdditive extends AdditiveSearchItem>({
         return;
       }
 
+      pendingQueryRef.current = trimmed;
+
       startTransition(() => {
         const computed = searchAdditives(additives, trimmed, { maxResults });
         matchesRef.current = new Map(computed.map((item) => [item.additive.slug, item.matches]));
+        completedQueryRef.current = trimmed;
         setResults(computed);
         if (onResultsChange) {
           onResultsChange(computed, trimmed);

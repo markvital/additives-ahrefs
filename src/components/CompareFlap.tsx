@@ -802,6 +802,7 @@ function CompareFlapUI() {
             >
               <Box sx={{ flexGrow: 1, display: 'flex', flexDirection: 'column', gap: 2 }}>
                 <AdditiveLookup
+                  key={activeSlotIndex ?? 'selector'}
                   additives={additives}
                   value={
                     activeSlotIndex === 0
