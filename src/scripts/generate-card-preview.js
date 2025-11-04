@@ -16,6 +16,7 @@ const DATA_DIR = path.join(ROOT_DIR, 'data');
 const PUBLIC_DIR = path.join(ROOT_DIR, 'public');
 const OUTPUT_DIR = path.join(PUBLIC_DIR, 'card-previews');
 const ADDITIVES_INDEX_PATH = path.join(DATA_DIR, 'additives.json');
+const BUILD_ID_PATH = path.join(ROOT_DIR, '.next', 'BUILD_ID');
 
 const DEFAULT_PORT = 4050;
 const DEFAULT_PARALLEL = 2;
@@ -202,6 +203,15 @@ const readAdditivesIndex = async () => {
 
 const ensureOutputDir = async () => {
   await fs.mkdir(OUTPUT_DIR, { recursive: true });
+};
+
+const ensureProductionBuildExists = async () => {
+  const hasBuild = await fileExists(BUILD_ID_PATH);
+  if (!hasBuild) {
+    throw new Error(
+      'No production build found. Run "npm run build" before generating previews or pass --base-url to reuse an existing server.',
+    );
+  }
 };
 
 const waitForServerReady = async ({ url, serverProcess, debug }) => {
@@ -551,6 +561,7 @@ async function main() {
 
   try {
     if (!serverUrl) {
+      await ensureProductionBuildExists();
       serverUrl = `http://127.0.0.1:${port}`;
       serverProcess = await startNextServer({ port, debug });
       if (debug) {
