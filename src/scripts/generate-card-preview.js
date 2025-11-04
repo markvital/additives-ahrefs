@@ -26,6 +26,64 @@ const SERVER_START_TIMEOUT_MS = 60_000;
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
+const pluralize = (count, singular, plural) => (count === 1 ? singular : plural);
+
+const createProgressReporter = ({ total, debug }) => {
+  const enabled = Boolean(!debug && total > 0 && process.stdout.isTTY);
+  if (!enabled) {
+    return {
+      start() {},
+      increment() {},
+      finish() {},
+      fail() {},
+    };
+  }
+
+  const barWidth = 40;
+  let completed = 0;
+  let lastRenderLength = 0;
+
+  const render = () => {
+    const ratio = total === 0 ? 1 : Math.min(completed / total, 1);
+    const filled = Math.round(ratio * barWidth);
+    const bar = `${'#'.repeat(filled)}${' '.repeat(Math.max(barWidth - filled, 0))}`;
+    const percentage = Math.floor(ratio * 100)
+      .toString()
+      .padStart(3, ' ');
+    const line = `|${bar}|  ${percentage}% of ${total} ${pluralize(total, 'image', 'images')}`;
+    const extraSpaces = Math.max(lastRenderLength - line.length, 0);
+    process.stdout.write(`\r${line}${extraSpaces ? ' '.repeat(extraSpaces) : ''}`);
+    lastRenderLength = line.length;
+  };
+
+  const clearLine = () => {
+    if (lastRenderLength > 0) {
+      process.stdout.write(`\r${' '.repeat(lastRenderLength)}\r`);
+      lastRenderLength = 0;
+    }
+  };
+
+  return {
+    start() {
+      completed = 0;
+      render();
+    },
+    increment() {
+      completed += 1;
+      render();
+    },
+    finish() {
+      completed = total;
+      render();
+      process.stdout.write('\n');
+      lastRenderLength = 0;
+    },
+    fail() {
+      clearLine();
+    },
+  };
+};
+
 const fileExists = async (filePath) => {
   try {
     await fs.access(filePath);
@@ -551,6 +609,12 @@ async function main() {
     return;
   }
 
+  console.log(
+    `Processing ${tasks.length} ${pluralize(tasks.length, 'additive', 'additives')}.${
+      skipped > 0 ? ` Skipping ${skipped} existing ${pluralize(skipped, 'preview', 'previews')}.` : ''
+    }`,
+  );
+
   if (debug) {
     console.log(`Preparing to capture ${tasks.length} preview${tasks.length === 1 ? '' : 's'}: ${tasks
       .map((task) => task.slug)
@@ -576,6 +640,8 @@ async function main() {
 
     const workerCount = Math.max(1, parallel || 1);
     const activeTasks = [...tasks];
+    const progress = createProgressReporter({ total: tasks.length, debug });
+    progress.start();
 
     const spawnWorker = async () => {
       const page = await browser.newPage({ viewport: DEFAULT_VIEWPORT, deviceScaleFactor: 2 });
@@ -612,6 +678,7 @@ async function main() {
 
           try {
             await captureCardPreview({ page, slug: task.slug, outputPath: task.outputPath, debug });
+            progress.increment();
           } catch (error) {
             const message = error instanceof Error ? error.message : String(error);
             throw new Error(`Failed to capture preview for ${task.slug}: ${message}`);
@@ -627,9 +694,15 @@ async function main() {
       workerPromises.push(spawnWorker());
     }
 
+    let progressSettled = false;
     try {
       await Promise.all(workerPromises);
+      progress.finish();
+      progressSettled = true;
     } finally {
+      if (!progressSettled) {
+        progress.fail();
+      }
       await browser.close();
     }
 
