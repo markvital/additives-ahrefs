@@ -21,6 +21,7 @@ import {
 } from '@mui/material';
 import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 import CloseIcon from '@mui/icons-material/Close';
+import MoreVertIcon from '@mui/icons-material/MoreVert';
 import type { SelectChangeEvent } from '@mui/material/Select';
 
 import type { AdditiveSortMode } from '../lib/additives';
@@ -64,6 +65,13 @@ export function FilterPanel({
   const [legendPosition, setLegendPosition] = useState<
     { top: number; left: number; width: number; scaledWidth: number } | null
   >(null);
+  const [showClassesControlVisible, setShowClassesControlVisible] = useState(currentShowClasses);
+
+  useEffect(() => {
+    if (currentShowClasses) {
+      setShowClassesControlVisible(true);
+    }
+  }, [currentShowClasses]);
   type SortSelectValue = 'search-rank' | 'products' | 'awareness';
   const currentSortValue: SortSelectValue =
     currentSortMode === 'product-count'
@@ -238,30 +246,44 @@ export function FilterPanel({
         >
           <Box
             component="span"
-            title="Show generic parent additives"
+            title="Show additive families"
             sx={{
               alignSelf: 'center',
               display: 'flex',
               order: { xs: -1, sm: 0 },
             }}
           >
-            <FormControlLabel
-              control={
-                <Checkbox
-                  size="small"
-                  checked={currentShowClasses}
-                  onChange={handleShowClassesChange}
-                  disabled={isPending}
-                />
-              }
-              label="parent E"
-              sx={{
-                color: 'text.secondary',
-                '& .MuiFormControlLabel-label': {
-                  fontSize: 14,
-                },
-              }}
-            />
+            {showClassesControlVisible ? (
+              <FormControlLabel
+                control={
+                  <Checkbox
+                    size="small"
+                    checked={currentShowClasses}
+                    onChange={handleShowClassesChange}
+                    disabled={isPending}
+                  />
+                }
+                label="Show families"
+                sx={{
+                  color: 'text.secondary',
+                  '& .MuiFormControlLabel-label': {
+                    fontSize: 14,
+                  },
+                }}
+              />
+            ) : (
+              <IconButton
+                aria-label="Show family filter"
+                onClick={() => setShowClassesControlVisible(true)}
+                size="small"
+                sx={{
+                  color: 'text.secondary',
+                  '&:hover': { color: 'text.primary' },
+                }}
+              >
+                <MoreVertIcon fontSize="small" />
+              </IconButton>
+            )}
           </Box>
 
           <FormControl
