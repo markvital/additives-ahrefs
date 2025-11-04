@@ -114,89 +114,90 @@ export default async function FunctionPage({ params, searchParams }: FunctionPag
     <>
       <ReportMistakeName value={reportMistakeName} />
       <Box component="section" display="flex" flexDirection="column" gap={4}>
-        <Box display="flex" flexDirection="column" gap={1.5} maxWidth={720}>
-          <Typography
-            component="h1"
-            variant="h1"
-            sx={{ display: 'flex', alignItems: 'center', gap: 1 }}
-        >
-          <Box
-            component={NextLink}
-            href="/function"
-            sx={{
-              color: 'inherit',
-              textDecoration: 'none',
-              '&:hover': { textDecoration: 'underline' },
-              '&:focus-visible': { textDecoration: 'underline' },
-            }}
-          >
-            Function
-          </Box>
-          <Box component="span" aria-hidden="true">
-            &gt;
-          </Box>
-          {functionHeading}
-        </Typography>
-        {functionInfo?.description ? (
-          <Typography variant="body1" color="text.secondary">
-            {functionInfo.description}
-          </Typography>
-        ) : null}
-        {usedAsLine ? (
-          <Typography variant="body1" color="text.secondary">
-            {usedAsLine}
-          </Typography>
-        ) : null}
-        <Typography variant="body1" color="text.secondary">
-          {showHiddenCountLink && hiddenAdditivesHref ? (
-            <>
-              {formatCountLabel(filteredAdditives.length).replace(/\.$/, '')}
-              {' ('}
-              <MuiLink
+        <Box className="page-hero">
+          <Box className="page-hero-content" display="flex" flexDirection="column" gap={1.5} maxWidth={720}>
+            <Typography
+              component="h1"
+              variant="h1"
+              sx={{ display: 'flex', alignItems: 'center', gap: 1 }}
+            >
+              <Box
                 component={NextLink}
-                href={hiddenAdditivesHref}
-                color="text.secondary"
-                underline="hover"
-                sx={{ fontWeight: 500 }}
+                href="/function"
+                sx={{
+                  color: 'inherit',
+                  textDecoration: 'none',
+                  '&:hover': { textDecoration: 'underline' },
+                  '&:focus-visible': { textDecoration: 'underline' },
+                }}
               >
-                +{hiddenAdditivesCount} hidden
-              </MuiLink>
-              {')'}
-            </>
-          ) : (
-            formatCountLabel(filteredAdditives.length)
-          )}
-        </Typography>
-      </Box>
+                Function
+              </Box>
+              <Box component="span" aria-hidden="true">
+                &gt;
+              </Box>
+              {functionHeading}
+            </Typography>
+            {functionInfo?.description ? (
+              <Typography variant="body1" className="page-hero-subtitle">
+                {functionInfo.description}
+              </Typography>
+            ) : null}
+            {usedAsLine ? (
+              <Typography variant="body1" className="page-hero-subtitle">
+                {usedAsLine}
+              </Typography>
+            ) : null}
+            <Typography variant="body1" className="page-hero-subtitle">
+              {showHiddenCountLink && hiddenAdditivesHref ? (
+                <>
+                  {formatCountLabel(filteredAdditives.length).replace(/\.$/, '')}
+                  {' ('}
+                  <MuiLink
+                    component={NextLink}
+                    href={hiddenAdditivesHref}
+                    underline="hover"
+                    sx={{ fontWeight: 500, color: 'inherit' }}
+                  >
+                    +{hiddenAdditivesCount} hidden
+                  </MuiLink>
+                  {')'}
+                </>
+              ) : (
+                formatCountLabel(filteredAdditives.length)
+              )}
+            </Typography>
+          </Box>
+        </Box>
 
-      <Suspense fallback={null}>
-        <FilterPanel
-          functionOptions={functionOptions}
-          originOptions={originOptions}
-          currentFilter={{ type: 'function', slug: functionSlug }}
-          currentSortMode={sortMode}
-          currentShowClasses={showClasses}
-        />
-      </Suspense>
-      {useInfiniteScroll ? (
-        <AdditiveGridInfinite
-          initialItems={initialItems}
-          totalCount={totalCount}
-          sortMode={sortMode}
-          showClasses={showClasses}
-          chunkSize={chunkSize}
-          filter={{ type: 'function', slug: functionSlug }}
-          awarenessScores={awarenessResult.scores}
-        />
-      ) : (
-        <AdditiveGrid
-          items={initialItems}
-          sortMode={sortMode}
-          emptyMessage="No additives found for this function."
-          awarenessScores={awarenessResult.scores}
-        />
-      )}
-    </Box>
+        <Suspense fallback={null}>
+          <FilterPanel
+            functionOptions={functionOptions}
+            originOptions={originOptions}
+            currentFilter={{ type: 'function', slug: functionSlug }}
+            currentSortMode={sortMode}
+            currentShowClasses={showClasses}
+          />
+        </Suspense>
+        {useInfiniteScroll ? (
+          <AdditiveGridInfinite
+            initialItems={initialItems}
+            totalCount={totalCount}
+            sortMode={sortMode}
+            showClasses={showClasses}
+            chunkSize={chunkSize}
+            filter={{ type: 'function', slug: functionSlug }}
+            awarenessScores={awarenessResult.scores}
+          />
+        ) : (
+          <AdditiveGrid
+            items={initialItems}
+            sortMode={sortMode}
+            emptyMessage="No additives found for this function."
+            awarenessScores={awarenessResult.scores}
+          />
+        )}
+      </Box>
     </>
   );
 }

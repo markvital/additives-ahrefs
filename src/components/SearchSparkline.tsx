@@ -1,6 +1,6 @@
 'use client';
 
-import { useMemo } from 'react';
+import { memo, useMemo } from 'react';
 import { ResponsiveLine } from '@nivo/line';
 import type { LineCustomSvgLayer } from '@nivo/line';
 import { Box, useTheme } from '@mui/material';
@@ -48,7 +48,7 @@ const firstPointLayer: LineCustomSvgLayer<SparklineSeries> = ({ series, xScale, 
   return <circle cx={cx} cy={cy} r={4} fill={primarySeries.color} />;
 };
 
-export function SearchSparkline({ values }: SearchSparklineProps) {
+function SearchSparklineComponent({ values }: SearchSparklineProps) {
   const theme = useTheme();
   const series = useMemo(() => buildSparklineData(values), [values]);
   const color = theme.palette.grey[700] ?? theme.palette.text.secondary;
@@ -90,3 +90,5 @@ export function SearchSparkline({ values }: SearchSparklineProps) {
     </Box>
   );
 }
+
+export const SearchSparkline = memo(SearchSparklineComponent);

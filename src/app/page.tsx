@@ -90,7 +90,7 @@ const topFunctions = Array.from(functionCountMap.entries())
 
 const functionsHref = '/function';
 
-const highlightNumberSx = { fontWeight: 600, color: 'text.primary' } as const;
+const highlightNumberSx = { fontWeight: 600, color: '#ffffff' } as const;
 
 interface HomePageProps {
   searchParams?: Promise<{
@@ -112,12 +112,14 @@ export default async function HomePage({ searchParams }: HomePageProps) {
 
   return (
     <Box component="section" display="flex" flexDirection="column" gap={4}>
-      <Box
-        display="flex"
-        flexDirection={{ xs: 'column', md: 'row' }}
-        gap={{ xs: 3, md: 6 }}
-        alignItems={{ xs: 'flex-start', md: 'stretch' }}
-      >
+      <Box className="page-hero">
+        <Box
+          className="page-hero-content"
+          display="flex"
+          flexDirection={{ xs: 'column', md: 'row' }}
+          gap={{ xs: 3, md: 6 }}
+          alignItems={{ xs: 'flex-start', md: 'stretch' }}
+        >
         <Box
           flex={{ md: '0 0 66.6667%' }}
           maxWidth={{ md: '66.6667%' }}
@@ -128,7 +130,11 @@ export default async function HomePage({ searchParams }: HomePageProps) {
           <Typography component="h1" variant="h1" sx={{ display: { xs: 'block', md: 'none' } }}>
             Food additives
           </Typography>
-          <Typography variant="body1" color="text.secondary" sx={{ fontSize: { xs: '1.05rem', md: '1.15rem' } }}>
+          <Typography
+            variant="body1"
+            className="page-hero-subtitle"
+            sx={{ fontSize: { xs: '1.05rem', md: '1.15rem' } }}
+          >
             Compare data on{' '}
             <Box component="span" sx={highlightNumberSx}>
               {numberFormatter.format(additiveCount)}
@@ -152,7 +158,15 @@ export default async function HomePage({ searchParams }: HomePageProps) {
               target="_blank"
               rel="noopener noreferrer"
               underline="hover"
-              sx={{ fontWeight: 550 }}
+              sx={{
+                fontWeight: 550,
+                color: '#ffffff',
+                textDecorationColor: 'rgba(255, 255, 255, 0.7)',
+                '&:hover': {
+                  color: '#ffffff',
+                  textDecorationColor: '#ffffff',
+                },
+              }}
             >
               Ahrefs
             </MuiLink>
@@ -178,8 +192,8 @@ export default async function HomePage({ searchParams }: HomePageProps) {
                 fontWeight: 700,
                 fontSize: { xs: '1rem', md: '1.05rem' },
                 textAlign: { xs: 'left', md: 'right' },
-                color: 'text.primary',
-                '&:hover': { color: 'primary.main' },
+                color: '#ffffff',
+                '&:hover': { color: 'rgba(255, 255, 255, 0.85)' },
               }}
             >
               Explore
@@ -199,15 +213,23 @@ export default async function HomePage({ searchParams }: HomePageProps) {
                       display: 'inline-flex',
                       alignItems: 'baseline',
                       gap: 1,
-                      color: 'text.primary',
+                      color: '#ffffff',
                       fontWeight: 600,
-                      '&:hover': { color: 'primary.main' },
+                      '&:hover': { color: 'rgba(255, 255, 255, 0.85)' },
                     }}
                   >
-                    <Typography component="span" variant="h6" sx={{ fontWeight: 700, lineHeight: 1.1 }}>
+                    <Typography
+                      component="span"
+                      variant="h6"
+                      sx={{ fontWeight: 700, lineHeight: 1.1, color: 'inherit' }}
+                    >
                       {numberFormatter.format(count)}
                     </Typography>
-                    <Typography component="span" variant="body1" sx={{ fontWeight: 500, lineHeight: 1.1 }}>
+                    <Typography
+                      component="span"
+                      variant="body1"
+                      sx={{ fontWeight: 500, lineHeight: 1.1, color: 'inherit' }}
+                    >
                       {pluralLabel}
                     </Typography>
                   </MuiLink>
@@ -218,12 +240,13 @@ export default async function HomePage({ searchParams }: HomePageProps) {
                 href={functionsHref}
                 underline="none"
                 className="explore-more-text"
-                sx={{ fontWeight: 600, '&:hover': { color: 'primary.main' } }}
+                sx={{ fontWeight: 600, color: '#ffffff', '&:hover': { color: 'rgba(255, 255, 255, 0.85)' } }}
               >
                 and more
               </MuiLink>
             </Box>
           </Box>
+        </Box>
         </Box>
       </Box>
 

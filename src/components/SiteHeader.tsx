@@ -8,7 +8,6 @@ import MenuIcon from '@mui/icons-material/Menu';
 
 import type { Additive } from '../lib/additives';
 import { HeaderSearch } from './HeaderSearch';
-import logo2x from '../../img/logo/logo_2x.png';
 
 interface SiteHeaderProps {
   additives: Additive[];
@@ -49,23 +48,42 @@ export function SiteHeader({ additives }: SiteHeaderProps) {
     setMenuOpen((previous) => !previous);
   };
 
+  const closeMenu = () => {
+    setMenuOpen(false);
+  };
+
   return (
     <header className="site-header">
       <div className="content-shell header-shell">
         <div className="header-content">
           <div className="header-bar">
             <div className="header-brand">
-              <Link href="/" aria-label="Food Additives home" className="header-logo">
-                <Image
-                  src={logo2x}
-                  alt="Food Additives logo"
-                  width={41}
-                  height={50}
-                  priority
-                />
-              </Link>
-              <Link href="/" className="header-title-link">
-                Food additives
+              <Link
+                href="/"
+                aria-label="Food Additives home"
+                className="header-logo"
+                onClick={closeMenu}
+              >
+                <span className="header-logo-mobile">
+                  <Image
+                    src="/img/logo_square.svg"
+                    alt=""
+                    width={82}
+                    height={99}
+                    priority
+                    sizes="(max-width: 900px) 48px, 0px"
+                  />
+                </span>
+                <span className="header-logo-desktop">
+                  <Image
+                    src="/img/logo_wide.svg"
+                    alt=""
+                    width={647}
+                    height={99}
+                    priority
+                    sizes="(max-width: 900px) 0px, 340px"
+                  />
+                </span>
               </Link>
             </div>
             <button
@@ -86,10 +104,14 @@ export function SiteHeader({ additives }: SiteHeaderProps) {
             aria-label="Main"
           >
             <HeaderSearch additives={additives} />
-            <Link href="/compare" className="header-link">
+            <Link href="/compare" className="header-link" onClick={closeMenu}>
               Compare
             </Link>
-            <Link href="/about" className="header-link header-about-link">
+            <Link
+              href="/about"
+              className="header-link header-about-link"
+              onClick={closeMenu}
+            >
               <span className="header-about-icon" aria-hidden="true">
                 <InfoOutlinedIcon fontSize="small" />
               </span>
