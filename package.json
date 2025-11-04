@@ -10,6 +10,7 @@
     "start": "next start",
     "lint": "next lint",
     "test": "vitest run",
+    "postinstall": "npx playwright install chromium",
     "generate-card-preview": "node src/scripts/generate-card-preview.js"
   },
   "keywords": [
