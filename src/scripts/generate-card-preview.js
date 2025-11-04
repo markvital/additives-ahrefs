@@ -1,23 +1,14 @@
 #!/usr/bin/env node
 
-/**
- * generate-card-preview.js
- *
- * Uses Puppeteer with the @sparticuz/chromium build to render the additive
- * catalogue grid in a headless browser and captures a transparent 512×512
- * image for each card. The resulting PNG files are stored under
- * `public/card-previews/<slug>.png` so they can be referenced from Open Graph
- * and Twitter meta tags.
- */
-
 const fs = require('fs/promises');
 const path = require('path');
 const { spawn } = require('child_process');
 const net = require('net');
 
-const chromium = require('@sparticuz/chromium');
-const puppeteer = require('puppeteer-core');
 const sharp = require('sharp');
+const { chromium } = require('playwright');
+const lambdaChromium = require('@sparticuz/chromium');
+
 const { createAdditiveSlug } = require('./utils/slug');
 
 const ROOT_DIR = path.join(__dirname, '..', '..');
@@ -29,121 +20,8 @@ const ADDITIVES_INDEX_PATH = path.join(DATA_DIR, 'additives.json');
 const DEFAULT_PORT = 4050;
 const DEFAULT_PARALLEL = 2;
 const PREVIEW_SIZE = 512;
-const DEFAULT_VIEWPORT = { width: 1440, height: 900, deviceScaleFactor: 2 };
-
-chromium.setGraphicsMode = false;
-
-const normalizePath = (candidate) => {
-  if (!candidate) {
-    return null;
-  }
-
-  const trimmed = candidate.trim();
-  if (!trimmed) {
-    return null;
-  }
-
-  return path.isAbsolute(trimmed) ? trimmed : path.resolve(trimmed);
-};
-
-const findFirstExistingPath = async (candidates) => {
-  for (const candidate of candidates) {
-    const normalized = normalizePath(candidate);
-    if (!normalized) {
-      continue;
-    }
-
-    if (await fileExists(normalized)) {
-      return normalized;
-    }
-  }
-
-  return null;
-};
-
-let cachedExecutablePath = null;
-
-const resolveChromiumExecutablePath = async (debug) => {
-  if (cachedExecutablePath) {
-    return cachedExecutablePath;
-  }
-
-  const envExecutable = await findFirstExistingPath([
-    process.env.CHROMIUM_EXECUTABLE_PATH,
-    process.env.PUPPETEER_EXECUTABLE_PATH,
-    process.env.BROWSER_EXECUTABLE_PATH,
-  ]);
-
-  if (envExecutable) {
-    cachedExecutablePath = envExecutable;
-    return cachedExecutablePath;
-  }
-
-  if (process.platform === 'linux') {
-    try {
-      const bundled = await chromium.executablePath();
-      if (bundled && (await fileExists(bundled))) {
-        cachedExecutablePath = bundled;
-        return cachedExecutablePath;
-      }
-    } catch (error) {
-      if (debug) {
-        console.warn(`Falling back from bundled Chromium: ${error instanceof Error ? error.message : String(error)}`);
-      }
-    }
-  } else if (debug) {
-    console.log('Skipping bundled Chromium lookup because @sparticuz/chromium only supports Linux environments.');
-  }
-
-  const platformCandidates = process.platform === 'darwin'
-    ? [
-        '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
-        '/Applications/Chromium.app/Contents/MacOS/Chromium',
-        '/Applications/Microsoft Edge.app/Contents/MacOS/Microsoft Edge',
-      ]
-    : process.platform === 'win32'
-      ? [
-          path.join(process.env.LOCALAPPDATA || '', 'Google/Chrome/Application/chrome.exe'),
-          path.join(process.env.PROGRAMFILES || '', 'Google/Chrome/Application/chrome.exe'),
-          path.join(process.env['PROGRAMFILES(X86)'] || '', 'Google/Chrome/Application/chrome.exe'),
-          path.join(process.env.LOCALAPPDATA || '', 'Microsoft/Edge/Application/msedge.exe'),
-        ]
-      : [
-          '/usr/bin/chromium-browser',
-          '/usr/bin/chromium',
-          '/usr/bin/google-chrome-stable',
-          '/usr/bin/google-chrome',
-          '/usr/bin/microsoft-edge',
-        ];
-
-  const platformExecutable = await findFirstExistingPath(platformCandidates);
-  if (platformExecutable) {
-    cachedExecutablePath = platformExecutable;
-    return cachedExecutablePath;
-  }
-
-  throw new Error(
-    'Unable to locate a Chromium executable. Set CHROMIUM_EXECUTABLE_PATH to point to a compatible browser binary.',
-  );
-};
-
-const launchBrowser = async (debug) => {
-  const executablePath = await resolveChromiumExecutablePath(debug);
-  const args = [...chromium.args, '--hide-scrollbars'];
-  const headless = chromium.headless ?? 'shell';
-
-  if (debug) {
-    console.log(`Launching Chromium from ${executablePath}`);
-  }
-
-  return puppeteer.launch({
-    args,
-    defaultViewport: DEFAULT_VIEWPORT,
-    executablePath,
-    headless,
-    ignoreHTTPSErrors: true,
-  });
-};
+const DEFAULT_VIEWPORT = { width: 1440, height: 900 };
+const SERVER_START_TIMEOUT_MS = 60_000;
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
@@ -225,7 +103,7 @@ const parseArgs = (argv) => {
       continue;
     }
 
-    if (arg === '--override' || arg === '--overide' || arg === '--force') {
+    if (arg === '--override' || arg === '--force' || arg === '--overide') {
       result.override = true;
       index += 1;
       continue;
@@ -326,8 +204,6 @@ const ensureOutputDir = async () => {
   await fs.mkdir(OUTPUT_DIR, { recursive: true });
 };
 
-const SERVER_START_TIMEOUT_MS = 60000;
-
 const waitForServerReady = async ({ url, serverProcess, debug }) => {
   const start = Date.now();
   let lastError = null;
@@ -356,8 +232,8 @@ const waitForServerReady = async ({ url, serverProcess, debug }) => {
   throw new Error(`Timed out waiting for Next.js server to start.${reason}`);
 };
 
-const startNextServer = async ({ port, debug }) => {
-  const portAvailable = await new Promise((resolve) => {
+const portIsAvailable = (port) =>
+  new Promise((resolve) => {
     const tester = net
       .createServer()
       .once('error', () => resolve(false))
@@ -367,7 +243,9 @@ const startNextServer = async ({ port, debug }) => {
       .listen(port, '127.0.0.1');
   });
 
-  if (!portAvailable) {
+const startNextServer = async ({ port, debug }) => {
+  const available = await portIsAvailable(port);
+  if (!available) {
     throw new Error(`Port ${port} is already in use. Pass --base-url to reuse an existing server.`);
   }
 
@@ -426,69 +304,79 @@ const stopServer = async (serverProcess) => {
   });
 };
 
+const launchBrowser = async ({ debug }) => {
+  const baseOptions = {
+    headless: true,
+    args: ['--hide-scrollbars'],
+  };
+
+  if (process.env.CARD_PREVIEW_BROWSER_EXECUTABLE) {
+    baseOptions.executablePath = process.env.CARD_PREVIEW_BROWSER_EXECUTABLE;
+  }
+
+  try {
+    const browser = await chromium.launch(baseOptions);
+    if (debug) {
+      console.log('Launched Playwright Chromium.');
+    }
+    return browser;
+  } catch (originalError) {
+    const message = originalError instanceof Error ? originalError.message : String(originalError);
+
+    if (/executable doesn't exist/i.test(message)) {
+      throw new Error(
+        'Playwright could not find a Chromium executable. Run "npx playwright install chromium" and try again.',
+      );
+    }
+
+    if (!/missing dependencies/i.test(message)) {
+      throw originalError;
+    }
+
+    if (debug) {
+      console.warn('Playwright Chromium is missing system dependencies; falling back to @sparticuz/chromium.');
+    }
+
+    try {
+      const executablePath = await lambdaChromium.executablePath();
+      const lambdaArgs = Array.from(new Set([...lambdaChromium.args, ...baseOptions.args]));
+
+      return await chromium.launch({
+        ...baseOptions,
+        executablePath,
+        args: lambdaArgs,
+      });
+    } catch (fallbackError) {
+      if (debug) {
+        console.error('Failed to launch @sparticuz/chromium fallback.');
+      }
+      throw fallbackError;
+    }
+  }
+};
+
 const ensureCardVisible = async (page, slug, debug) => {
-  const linkSelector = `a[href="/${slug}"]`;
+  const cardLocator = page.locator(`[data-additive-card-index]:has(a[href="/${slug}"])`).first();
+  const gridLocator = page.locator('[data-additive-card-index]');
 
-  await page.evaluate(() => window.scrollTo(0, 0));
-  let lastCardCount = await page.evaluate(() => document.querySelectorAll('[data-additive-card-index]').length);
-
+  let lastCount = await gridLocator.count();
   if (debug) {
-    console.log(`Initial card count: ${lastCardCount}`);
+    console.log(`Initial card count: ${lastCount}`);
   }
 
   for (let attempt = 0; attempt < 200; attempt += 1) {
-    const found = await page.evaluate((selector) => {
-      const link = document.querySelector(selector);
-      if (!link) {
-        return false;
+    if ((await cardLocator.count()) > 0) {
+      await cardLocator.scrollIntoViewIfNeeded();
+      await cardLocator.waitFor({ state: 'visible', timeout: 5000 });
+      await sleep(150);
+      const handle = await cardLocator.elementHandle();
+      if (!handle) {
+        throw new Error(`Unable to resolve additive card element for ${slug}.`);
       }
-
-      const card = link.closest('[data-additive-card-index]');
-      if (!card) {
-        return false;
+      if (debug) {
+        console.log(`Located card for ${slug} after ${attempt + 1} attempt${attempt === 0 ? '' : 's'}.`);
       }
-
-      card.scrollIntoView({ block: 'center', inline: 'center', behavior: 'auto' });
-      return true;
-    }, linkSelector);
-
-    if (found) {
-      await page.waitForFunction(
-        (selector) => {
-          const link = document.querySelector(selector);
-          if (!link) {
-            return false;
-          }
-
-          const card = link.closest('[data-additive-card-index]');
-          if (!card) {
-            return false;
-          }
-
-          const rect = card.getBoundingClientRect();
-          return rect.width > 0 && rect.height > 0;
-        },
-        { timeout: 5000 },
-        linkSelector,
-      );
-
-      await sleep(250);
-
-      const handle = await page.evaluateHandle((selector) => {
-        const link = document.querySelector(selector);
-        return link ? link.closest('[data-additive-card-index]') : null;
-      }, linkSelector);
-
-      const element = handle.asElement();
-      if (element) {
-        if (debug) {
-          console.log(`Located card for ${slug} after ${attempt + 1} attempt${attempt === 0 ? '' : 's'}.`);
-        }
-        return element;
-      }
-
-      await handle.dispose();
-      throw new Error(`Unable to resolve additive card element for ${slug}.`);
+      return handle;
     }
 
     if (debug && (attempt + 1) % 10 === 0) {
@@ -497,33 +385,39 @@ const ensureCardVisible = async (page, slug, debug) => {
 
     await page.evaluate(() => window.scrollBy(0, window.innerHeight * 0.9));
 
-    const newCountHandle = await page
-      .waitForFunction(
-        (selector, previous) => {
-          const elements = document.querySelectorAll(selector);
-          return elements.length > previous ? elements.length : null;
-        },
-        { timeout: 2000 },
-        '[data-additive-card-index]',
-        lastCardCount,
-      )
-      .catch(() => null);
+    const previousCount = lastCount;
 
-    if (newCountHandle) {
-      const newCount = await newCountHandle.jsonValue();
-      if (debug) {
-        console.log(`Loaded ${newCount - lastCardCount} additional card(s); total ${newCount}.`);
+    try {
+      const handle = await page.waitForFunction(
+        (selector, previous) => {
+          const nodes = document.querySelectorAll(selector);
+          return nodes.length > previous ? nodes.length : null;
+        },
+        '[data-additive-card-index]',
+        lastCount,
+      );
+
+      if (handle) {
+        const updated = await handle.jsonValue();
+        await handle.dispose();
+        if (typeof updated === 'number' && Number.isFinite(updated) && updated > previousCount) {
+          lastCount = updated;
+          if (debug) {
+            console.log(`Loaded ${updated - previousCount} additional card(s); total ${updated}.`);
+          }
+        }
       }
-      lastCardCount = newCount;
+    } catch (error) {
+      // ignore timeouts, the loop will retry
     }
 
-    await sleep(350);
+    await sleep(200);
   }
 
   return null;
 };
 
-const createPreviewBuffer = async (buffer) =>
+const createPreviewBuffer = (buffer) =>
   sharp(buffer)
     .resize(PREVIEW_SIZE, PREVIEW_SIZE, {
       fit: 'contain',
@@ -600,9 +494,7 @@ async function main() {
   const allSlugs = additives.map((item) => item.slug);
 
   const targeted = additiveSlugs.length > 0;
-  const effectiveSlugs = targeted
-    ? additiveSlugs
-    : allSlugs;
+  const effectiveSlugs = targeted ? additiveSlugs : allSlugs;
 
   const missing = [];
   const queue = [];
@@ -664,20 +556,20 @@ async function main() {
       if (debug) {
         console.log(`Started Next.js server on ${serverUrl}`);
       }
-      await sleep(1500);
+      await sleep(1200);
     }
 
-    const browser = await launchBrowser(debug);
+    const browser = await launchBrowser({ debug });
 
     const workerCount = Math.max(1, parallel || 1);
     const activeTasks = [...tasks];
 
     const spawnWorker = async () => {
-      const page = await browser.newPage();
+      const page = await browser.newPage({ viewport: DEFAULT_VIEWPORT, deviceScaleFactor: 2 });
 
       try {
-        await page.goto(`${serverUrl}/`, { waitUntil: 'domcontentloaded', timeout: 60000 });
-        await page.waitForSelector('[data-additive-card-index]', { timeout: 60000 });
+        await page.goto(`${serverUrl}/`, { waitUntil: 'domcontentloaded', timeout: 60_000 });
+        await page.waitForSelector('[data-additive-card-index]', { timeout: 60_000 });
 
         await page.addStyleTag({
           content: `
@@ -697,7 +589,7 @@ async function main() {
           `,
         });
 
-        await sleep(300);
+        await sleep(250);
 
         while (activeTasks.length > 0) {
           const task = activeTasks.shift();
@@ -744,4 +636,3 @@ main().catch((error) => {
   console.error(error instanceof Error ? error.message : error);
   process.exitCode = 1;
 });
-

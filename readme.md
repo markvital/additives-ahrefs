@@ -31,8 +31,9 @@ The development server is available at [http://localhost:3000](http://localhost:
 
 `npm run build` runs the preview capture step automatically and stores the output in `public/card-previews/`. Use
 `npm run generate-card-preview` to run it manually; by default it only fills in missing 512×512 PNGs and accepts the standard
-CLI flags (`--additive`, `--override`, `--debug`, etc.). Set `CARD_PREVIEW_SKIP=1` to bypass the automated step when iterating
-locally.
+CLI flags (`--additive`, `--override`, `--debug`, etc.). Playwright downloads its Chromium binary during `npm install`, but if
+the generator reports that no executable is available run `npx playwright install chromium` once. Set `CARD_PREVIEW_SKIP=1`
+to bypass the automated step when iterating locally.
 
 ## Project structure
 
