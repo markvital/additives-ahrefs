@@ -107,13 +107,15 @@ export const metadata: Metadata = {
 export default function OriginIndexPage() {
   return (
     <Box component="section" display="flex" flexDirection="column" gap={4}>
-      <Box display="flex" flexDirection="column" gap={1.5} maxWidth={660}>
-        <Typography component="h1" variant="h1">
-          Food additive origins
-        </Typography>
-        <Typography variant="body1" color="text.secondary">
-          {overview}
-        </Typography>
+      <Box className="page-hero">
+        <Box className="page-hero-content" display="flex" flexDirection="column" gap={1.5} maxWidth={660}>
+          <Typography component="h1" variant="h1">
+            Food additive origins
+          </Typography>
+          <Typography variant="body1" className="page-hero-subtitle">
+            {overview}
+          </Typography>
+        </Box>
       </Box>
 
       <InfoList items={originItems} />

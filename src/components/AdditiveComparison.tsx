@@ -683,14 +683,34 @@ export function AdditiveComparison({ initialSelection, initialAdditives, awarene
     },
   ];
 
-  return (
-    <Stack spacing={4}>
-      <Typography component="h1" variant="h1">
-        {leftDisplayName && rightDisplayName
-          ? `Comparing ${leftDisplayName} vs ${rightDisplayName}`
-          : 'Compare additives'}
-      </Typography>
+  const comparisonHeading =
+    leftDisplayName && rightDisplayName
+      ? `Comparing ${leftDisplayName} vs ${rightDisplayName}`
+      : 'Compare additives';
 
+  return (
+    <Box component="section" display="flex" flexDirection="column" gap={4}>
+      <Box className="page-hero">
+        <Box
+          className="page-hero-content"
+          display="flex"
+          flexDirection="column"
+          alignItems="center"
+          textAlign="center"
+          gap={1}
+          sx={{ width: '100%', maxWidth: 760, margin: '0 auto' }}
+        >
+          <Typography
+            component="h1"
+            variant="h1"
+            sx={{ color: 'inherit', whiteSpace: { xs: 'normal', md: 'nowrap' } }}
+          >
+            {comparisonHeading}
+          </Typography>
+        </Box>
+      </Box>
+
+      <Stack spacing={4}>
       <Box
         sx={{
           display: 'grid',
@@ -794,6 +814,7 @@ export function AdditiveComparison({ initialSelection, initialAdditives, awarene
           ))}
         </Stack>
       </Box>
-    </Stack>
+      </Stack>
+    </Box>
   );
 }

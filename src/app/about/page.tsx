@@ -30,25 +30,25 @@ export default async function AboutPage() {
   const content = hasMarkdownTitle ? restLines.join('\n').replace(/^\s*/, '') : rawContent;
 
   return (
-    <Box
-      component="section"
-      sx={{
-        width: '100%',
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
-        gap: 3,
-        py: { xs: 2, md: 4 },
-      }}
-    >
+    <Box component="section" sx={{ width: '100%', display: 'flex', flexDirection: 'column', gap: 4 }}>
       {title ? (
-        <Box sx={{ width: '100%', maxWidth: 1200, textAlign: 'center' }}>
-          <Typography component="h1" variant="h3" fontWeight={600}>
-            {title}
-          </Typography>
+        <Box className="page-hero">
+          <Box
+            className="page-hero-content"
+            display="flex"
+            flexDirection="column"
+            alignItems="center"
+            gap={1.5}
+            textAlign="center"
+            sx={{ width: '100%', maxWidth: 760, margin: '0 auto' }}
+          >
+            <Typography component="h1" variant="h1" sx={{ color: 'inherit' }}>
+              {title}
+            </Typography>
+          </Box>
         </Box>
       ) : null}
-      <Box sx={{ width: '100%', maxWidth: 760, display: 'flex', flexDirection: 'column', gap: 3 }}>
+      <Box sx={{ width: '100%', maxWidth: 760, margin: '0 auto', display: 'flex', flexDirection: 'column', gap: 3 }}>
         <MarkdownArticle content={content} />
       </Box>
     </Box>

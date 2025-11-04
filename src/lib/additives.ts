@@ -424,10 +424,12 @@ const buildFilterData = (
 ): {
   filters: FilterEntry[];
   slugToValue: Map<string, string>;
+  slugToValues: Map<string, string[]>;
   valueToSlug: Map<string, string>;
 } => {
   const filters: FilterEntry[] = [];
   const slugToValue = new Map<string, string>();
+  const slugToValues = new Map<string, string[]>();
   const valueToSlug = new Map<string, string>();
 
   values.forEach((value) => {
@@ -439,6 +441,14 @@ const buildFilterData = (
 
     valueToSlug.set(value, slug);
 
+    const variants = slugToValues.get(slug);
+
+    if (variants) {
+      variants.push(value);
+    } else {
+      slugToValues.set(slug, [value]);
+    }
+
     if (slugToValue.has(slug)) {
       return;
     }
@@ -447,16 +457,18 @@ const buildFilterData = (
     filters.push({ value, slug });
   });
 
-  return { filters, slugToValue, valueToSlug };
+  return { filters, slugToValue, slugToValues, valueToSlug };
 };
 
 type AdditiveCacheBundle = {
   additives: Additive[];
   functionFilters: FilterEntry[];
   functionSlugToValue: Map<string, string>;
+  functionSlugToValues: Map<string, string[]>;
   functionValueToSlug: Map<string, string>;
   originFilters: FilterEntry[];
   originSlugToValue: Map<string, string>;
+  originSlugToValues: Map<string, string[]>;
   originValueToSlug: Map<string, string>;
 };
 
@@ -466,6 +478,7 @@ const buildCacheBundle = (): AdditiveCacheBundle => {
   const {
     filters: functionFilters,
     slugToValue: functionSlugToValue,
+    slugToValues: functionSlugToValues,
     valueToSlug: functionValueToSlug,
   } = buildFilterData(functionValues);
 
@@ -473,6 +486,7 @@ const buildCacheBundle = (): AdditiveCacheBundle => {
   const {
     filters: originFilters,
     slugToValue: originSlugToValue,
+    slugToValues: originSlugToValues,
     valueToSlug: originValueToSlug,
   } = buildFilterData(originValues);
 
@@ -480,9 +494,11 @@ const buildCacheBundle = (): AdditiveCacheBundle => {
     additives,
     functionFilters,
     functionSlugToValue,
+    functionSlugToValues,
     functionValueToSlug,
     originFilters,
     originSlugToValue,
+    originSlugToValues,
     originValueToSlug,
   };
 };
@@ -588,24 +604,32 @@ export const getAwarenessSourceEntries = (): AwarenessSourceEntry[] => [...aware
 
 export const getAdditivesByFunctionSlug = (slug: string): Additive[] => {
   const cache = getCacheBundle();
-  const value = cache.functionSlugToValue.get(slug);
+  const values = cache.functionSlugToValues.get(slug);
 
-  if (!value) {
+  if (!values || values.length === 0) {
     return [];
   }
 
-  return cache.additives.filter((item) => item.functions.includes(value));
+  const valueSet = new Set<string>(values);
+
+  return cache.additives.filter((item) =>
+    item.functions.some((value) => valueSet.has(value)),
+  );
 };
 
 export const getAdditivesByOriginSlug = (slug: string): Additive[] => {
   const cache = getCacheBundle();
-  const value = cache.originSlugToValue.get(slug);
+  const values = cache.originSlugToValues.get(slug);
 
-  if (!value) {
+  if (!values || values.length === 0) {
     return [];
   }
 
-  return cache.additives.filter((item) => item.origin.includes(value));
+  const valueSet = new Set<string>(values);
+
+  return cache.additives.filter((item) =>
+    item.origin.some((value) => valueSet.has(value)),
+  );
 };
 
 export type AdditiveGridItem = Pick<

@@ -4,7 +4,6 @@ import { AdditiveComparison, type ComparisonAdditive } from '../../../components
 import { getAdditiveBySlug, getAwarenessScores } from '../../../lib/additives';
 import { formatAdditiveDisplayName } from '../../../lib/additive-format';
 import { getSearchHistory } from '../../../lib/search-history';
-
 interface ComparePageProps {
   params: Promise<{ slug?: string[] }>;
 }
