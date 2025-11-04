@@ -1,5 +1,6 @@
 import { Suspense } from 'react';
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import Link from 'next/link';
 import { Typography } from '@mui/material';
 import { Roboto } from 'next/font/google';
@@ -11,6 +12,7 @@ import { ReportMistakeLink } from '../components/ReportMistakeLink';
 import { CompareFlapProvider } from '../components/CompareFlap';
 import { getAdditives } from '../lib/additives';
 import './globals.css';
+import ahrefsLogo from '../../img/branded/ahrefs-logo.svg';
 
 const roboto = Roboto({
   subsets: ['latin'],
@@ -68,6 +70,20 @@ export default function RootLayout({
                       <Suspense fallback={null}>
                         <ReportMistakeLink className="header-link" />
                       </Suspense>
+                      <Link
+                        href="https://ahrefs.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="footer-data-link"
+                      >
+                        <span>data by</span>
+                        <Image
+                          src={ahrefsLogo}
+                          alt="Ahrefs"
+                          height={16}
+                          style={{ width: 'auto', height: '16px' }}
+                        />
+                      </Link>
                     </nav>
                   </div>
                 </footer>
