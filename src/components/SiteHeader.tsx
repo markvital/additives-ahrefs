@@ -104,9 +104,6 @@ export function SiteHeader({ additives }: SiteHeaderProps) {
             aria-label="Main"
           >
             <HeaderSearch additives={additives} />
-            <Link href="/compare" className="header-link" onClick={closeMenu}>
-              Compare
-            </Link>
             <Link
               href="/about"
               className="header-link header-about-link"
