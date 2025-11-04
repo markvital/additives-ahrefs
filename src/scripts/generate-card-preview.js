@@ -220,7 +220,9 @@ const waitForServerReady = async ({ url, serverProcess, debug }) => {
 
   while (Date.now() - start < SERVER_START_TIMEOUT_MS) {
     if (serverProcess.exitCode !== null || serverProcess.signalCode !== null) {
-      throw new Error(`Next.js server exited early with code ${serverProcess.exitCode ?? serverProcess.signalCode}`);
+      throw new Error(
+        `Next.js server exited early with code ${serverProcess.exitCode ?? serverProcess.signalCode}. Run with --debug to inspect the server output.`,
+      );
     }
 
     try {
@@ -265,7 +267,7 @@ const startNextServer = async ({ port, debug }) => {
     {
       cwd: ROOT_DIR,
       env: { ...process.env, PORT: String(port) },
-      stdio: 'ignore',
+      stdio: debug ? 'inherit' : 'ignore',
       detached: false,
     },
   );
