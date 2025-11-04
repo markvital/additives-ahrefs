@@ -1,13 +1,11 @@
 import { Suspense } from 'react';
 import type { Metadata } from 'next';
-import Image from 'next/image';
 import Link from 'next/link';
-import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 import { Typography } from '@mui/material';
 import { Roboto } from 'next/font/google';
 
 import { Providers } from '../components/Providers';
-import { HeaderSearch } from '../components/HeaderSearch';
+import { SiteHeader } from '../components/SiteHeader';
 import { ReportMistakeProvider } from '../components/ReportMistakeContext';
 import { ReportMistakeLink } from '../components/ReportMistakeLink';
 import { CompareFlapProvider } from '../components/CompareFlap';
@@ -41,46 +39,7 @@ export default function RootLayout({
           <Providers>
             <CompareFlapProvider additives={additives}>
               <div className="layout" id="top">
-                <header className="site-header">
-                  <div className="content-shell header-shell">
-                    <div className="header-content">
-                      <div className="header-brand">
-                        <Link href="/" aria-label="Food Additives home" className="header-logo">
-                          <span className="header-logo-mobile">
-                            <Image
-                              src="/img/logo_square.svg"
-                              alt=""
-                              width={82}
-                              height={99}
-                              priority
-                              sizes="(max-width: 900px) 48px, 0px"
-                            />
-                          </span>
-                          <span className="header-logo-desktop">
-                            <Image
-                              src="/img/logo_wide.svg"
-                              alt=""
-                              width={647}
-                              height={99}
-                              priority
-                              sizes="(max-width: 900px) 0px, 340px"
-                            />
-                          </span>
-                        </Link>
-                      </div>
-                      <nav className="header-nav">
-                        <HeaderSearch additives={additives} />
-                        <Link href="/about" className="header-link header-about-link">
-                          <span className="header-about-icon" aria-hidden="true">
-                            <InfoOutlinedIcon fontSize="small" />
-                          </span>
-                          <span className="header-about-text">About</span>
-                        </Link>
-                      </nav>
-                    </div>
-                  </div>
-                </header>
-
+                <SiteHeader additives={additives} />
                 <main className="main-content">
                   <div className="content-shell">{children}</div>
                 </main>
