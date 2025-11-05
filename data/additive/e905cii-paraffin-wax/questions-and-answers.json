@@ -1,30 +1,55 @@
 {
-  "updatedAt": "2025-10-12T02:43:18.494Z",
+  "updatedAt": "2025-10-15T02:15:00.000Z",
   "answers": [
     {
       "q": "is paraffin wax toxic",
-      "a": "Food-grade paraffin wax (E905CII) is not considered toxic at permitted food-use levels; it’s poorly absorbed and largely inert, though large amounts may cause laxative effects or discomfort. Food standards require it to meet purity specs that limit contaminants like PAHs.",
-      "answeredAt": "2025-10-12T02:43:18.494Z"
+      "a": "Food-grade paraffin wax (E905CII) is considered non-toxic at permitted levels; it is largely inert and poorly absorbed. Regulatory specs limit impurities such as polycyclic aromatic hydrocarbons, and excessive ingestion may act as a laxative but is not expected to be poisonous.",
+      "answeredAt": "2025-10-15T02:15:00.000Z"
+    },
+    {
+      "q": "what is paraffin wax",
+      "a": "Paraffin wax is a refined mixture of long-chain saturated hydrocarbons derived from petroleum. In foods, E905CII is used as a glazing or coating agent to provide shine and moisture protection.",
+      "answeredAt": "2025-10-15T02:15:00.000Z"
     },
     {
       "q": "what is paraffin wax made of",
-      "a": "A refined mixture of long-chain saturated hydrocarbons (mostly straight-chain alkanes, roughly C20–C35) derived from petroleum.",
-      "answeredAt": "2025-10-12T02:43:18.494Z"
+      "a": "It consists mainly of straight-chain alkanes roughly 20–35 carbons long that are crystallized and purified from petroleum distillates, then further refined (e.g., deoiled, filtered) to meet food-grade specifications.",
+      "answeredAt": "2025-10-15T02:15:00.000Z"
     },
     {
       "q": "is paraffin wax edible",
-      "a": "Yes—when food-grade, it’s permitted as a surface coating/glazing agent and in chewing gum, but it isn’t digestible or nutritious, so only small incidental amounts should be consumed.",
-      "answeredAt": "2025-10-12T02:43:18.494Z"
+      "a": "Yes—food-grade paraffin wax is allowed as a surface treatment on fruits, confectionery, and cheese, and in chewing gum bases. It passes through the digestive tract undigested, so only small incidental amounts should be consumed.",
+      "answeredAt": "2025-10-15T02:15:00.000Z"
     },
     {
       "q": "what does paraffin wax do",
-      "a": "In foods it serves as a glazing and moisture barrier, giving shine, reducing stickiness, and protecting surfaces on items like confectionery, fruits, and cheese; it’s also used as a release agent and in gum base.",
-      "answeredAt": "2025-10-12T02:43:18.494Z"
+      "a": "In foods it provides gloss, reduces stickiness, and slows moisture loss on products like candy, fruit, and cheese; it can also function as a release agent and component of chewing gum bases.",
+      "answeredAt": "2025-10-15T02:15:00.000Z"
     },
     {
       "q": "what does paraffin wax do for feet",
-      "a": "Warm paraffin baths soften and moisturize the skin and the heat can provide temporary relief of stiffness in joints. Use appropriate-grade wax at safe temperatures to avoid burns, especially if you have circulation or sensation issues.",
-      "answeredAt": "2025-10-12T02:43:18.494Z"
+      "a": "In spa treatments melted paraffin wax traps heat and moisture, softening skin and offering temporary relief for stiff joints. Use cosmetic- or medical-grade wax at safe temperatures to avoid burns.",
+      "answeredAt": "2025-10-15T02:15:00.000Z"
+    },
+    {
+      "q": "where does paraffin wax come from",
+      "a": "It is produced from petroleum: heavy distillate fractions are de-waxed, then the crystalline wax is deoiled, filtered, and sometimes hydrogenated to yield purified food-grade material.",
+      "answeredAt": "2025-10-15T02:15:00.000Z"
+    },
+    {
+      "q": "where to buy paraffin wax",
+      "a": "Look for food- or cosmetic-grade paraffin at bakery and confectionery suppliers, candle-making retailers, craft stores, or specialty ingredient distributors. For industrial quantities, contact wax processors or chemical suppliers that certify food-grade compliance.",
+      "answeredAt": "2025-10-15T02:15:00.000Z"
+    },
+    {
+      "q": "can you eat paraffin wax",
+      "a": "Small amounts of food-grade paraffin wax are acceptable when present as a coating or in chewing gum, but it has no nutritional value and large quantities could cause digestive discomfort. Ensure the product is explicitly food-grade before ingesting incidental amounts.",
+      "answeredAt": "2025-10-15T02:15:00.000Z"
+    },
+    {
+      "q": "how is paraffin wax made",
+      "a": "Refiners chill petroleum distillates to crystallize waxes, filter and press out the crystals, remove residual oil, and further purify (e.g., clay treating, hydrogenation, filtration) to meet food-grade specifications for E905CII.",
+      "answeredAt": "2025-10-15T02:15:00.000Z"
     }
   ]
 }

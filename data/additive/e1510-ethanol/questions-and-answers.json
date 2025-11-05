@@ -1,55 +1,55 @@
 {
-  "updatedAt": "2025-10-15T01:45:33.268Z",
+  "updatedAt": "2025-10-15T02:05:00.000Z",
   "answers": [
     {
-      "q": "is ethyl alcohol the same as ethanol",
-      "a": "Yes—ethyl alcohol is another name for ethanol (E1510), the same chemical (C2H5OH).",
-      "answeredAt": "2025-10-15T01:45:33.268Z"
-    },
-    {
-      "q": "can you drink ethyl alcohol",
-      "a": "Yes, but only beverage‑grade ethanol as found in alcoholic drinks; never consume denatured or industrial ethanol, and excessive intake is toxic.",
-      "answeredAt": "2025-10-15T01:45:33.268Z"
-    },
-    {
-      "q": "is ethyl alcohol halal",
-      "a": "Alcoholic beverages (intoxicating ethanol) are haram, but small residual amounts used as a processing solvent in foods may be deemed permissible by some halal certifiers—guidance varies, so check certification.",
-      "answeredAt": "2025-10-15T01:45:33.268Z"
-    },
-    {
-      "q": "is ethyl alcohol the same as isopropyl alcohol",
-      "a": "No—ethanol (ethyl alcohol) and isopropyl alcohol (isopropanol, 2‑propanol) are different chemicals; isopropyl alcohol is not for drinking or food use.",
-      "answeredAt": "2025-10-15T01:45:33.268Z"
-    },
-    {
-      "q": "is ethanol ethyl alcohol",
-      "a": "Yes—ethanol and ethyl alcohol are the same substance.",
-      "answeredAt": "2025-10-15T01:45:33.268Z"
+      "q": "what is ethanol",
+      "a": "Ethanol (E1510) is a simple alcohol (C2H5OH) that appears as a clear, volatile liquid with a mild odor. In foods it is used mainly as a solvent or carrier for flavors and extracts, and it is also the consumable alcohol found in beverages.",
+      "answeredAt": "2025-10-15T02:05:00.000Z"
     },
     {
       "q": "is ethanol polar",
-      "a": "Yes—ethanol is a polar molecule due to its hydroxyl (-OH) group, which enables hydrogen bonding and makes it miscible with water, though its ethyl tail is nonpolar.",
-      "answeredAt": "2025-10-12T02:40:06.698Z"
+      "a": "Yes—its hydroxyl (-OH) group makes ethanol a polar molecule capable of hydrogen bonding, so it mixes readily with water even though its ethyl tail is nonpolar.",
+      "answeredAt": "2025-10-15T02:05:00.000Z"
     },
     {
       "q": "what is ethanol free gas",
-      "a": "Gasoline with no ethanol blended in (often labeled E0), as opposed to common blends like E10.",
-      "answeredAt": "2025-10-12T02:40:06.698Z"
+      "a": "Fuel labeled “ethanol free” or E0 contains no blended ethanol, unlike common E10 gasoline. Some drivers choose it for small engines, boats, or long-term storage to avoid moisture and corrosion issues.",
+      "answeredAt": "2025-10-15T02:05:00.000Z"
     },
     {
       "q": "what is ethanol used for",
-      "a": "As a food additive (E1510), it’s used as a solvent and carrier for flavors, extracts, and colors, and as a processing aid in beverages and tinctures; outside foods it’s also a disinfectant, industrial solvent, and fuel-blend component.",
-      "answeredAt": "2025-10-12T02:40:06.698Z"
+      "a": "Food makers use E1510 as a carrier for flavors, colors, and botanical extracts, and as a processing aid in beverages and tinctures. Beyond foods it serves as a disinfectant, industrial solvent, chemical feedstock, and renewable fuel component.",
+      "answeredAt": "2025-10-15T02:05:00.000Z"
     },
     {
       "q": "what is non ethanol gas",
-      "a": "Non-ethanol gas is E0 gasoline—fuel containing no ethanol—often chosen for small engines, marine use, and long-term storage.",
-      "answeredAt": "2025-10-12T02:40:06.698Z"
+      "a": "Non-ethanol gas is another way to describe E0 gasoline—petrol that has not been blended with ethanol. It is favored for equipment sensitive to alcohol fuels.",
+      "answeredAt": "2025-10-15T02:05:00.000Z"
     },
     {
       "q": "who sells ethanol free gas near me",
-      "a": "Availability varies by region; look for pumps labeled E0 at some marinas and independent stations, or premium grades that explicitly state “no ethanol.” Use station locators (e.g., state petroleum websites or apps/sites like pure-gas.org) to find current listings near you.",
-      "answeredAt": "2025-10-12T02:40:06.698Z"
+      "a": "Availability depends on location; check for stations or marinas advertising E0 or “ethanol free” pumps, and consult tools such as state fuel registries or community-maintained maps (e.g., pure-gas.org) to find current suppliers nearby.",
+      "answeredAt": "2025-10-15T02:05:00.000Z"
+    },
+    {
+      "q": "how is ethanol made",
+      "a": "Commercially it is produced either by fermenting sugars or starches with yeast and distilling the alcohol, or by hydrating petrochemical ethylene and then purifying the product to food or fuel grade.",
+      "answeredAt": "2025-10-15T02:05:00.000Z"
+    },
+    {
+      "q": "what is ethyl alcohol",
+      "a": "Ethyl alcohol is simply another name for ethanol—the same molecule used in alcoholic drinks and labeled as additive E1510 when employed as a solvent or carrier in foods.",
+      "answeredAt": "2025-10-15T02:05:00.000Z"
+    },
+    {
+      "q": "how much ethanol is in 87 octane gas",
+      "a": "In the U.S. most regular 87 octane fuel is E10, meaning up to 10% ethanol by volume, though the exact percentage can vary slightly by supplier and season.",
+      "answeredAt": "2025-10-15T02:05:00.000Z"
+    },
+    {
+      "q": "is ethanol alcohol",
+      "a": "Yes—ethanol is the primary type of alcohol found in beverages and is the same substance referred to as ethyl alcohol on ingredient labels.",
+      "answeredAt": "2025-10-15T02:05:00.000Z"
     }
   ]
 }
