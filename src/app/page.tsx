@@ -1,4 +1,5 @@
 import { Suspense } from 'react';
+import type { Metadata } from 'next';
 import NextLink from 'next/link';
 import { Box, Link as MuiLink, Typography } from '@mui/material';
 
@@ -19,6 +20,33 @@ import {
 import { formatFilterLabel } from '../lib/text';
 import { formatFunctionLabel } from '../lib/additive-format';
 import { getSearchVolumeDataset } from '../lib/search-volume';
+import { absoluteUrl } from '../lib/site';
+
+const gridSocialImage = absoluteUrl('/img/grid-screenshot.png');
+const homePageTitle = 'Food Additives Catalogue';
+const homePageDescription =
+  'Browse essential information about food additives, including synonyms, functions, and links to additional resources.';
+
+export const metadata: Metadata = {
+  title: homePageTitle,
+  description: homePageDescription,
+  openGraph: {
+    title: homePageTitle,
+    description: homePageDescription,
+    images: [
+      {
+        url: gridSocialImage,
+        alt: 'Screenshot of the food additives grid.',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: homePageTitle,
+    description: homePageDescription,
+    images: [gridSocialImage],
+  },
+};
 
 const additives = getAdditives();
 const functionFilters = getFunctionFilters();

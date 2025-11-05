@@ -24,6 +24,9 @@ import { AdditiveGridInfinite } from '../../../components/AdditiveGridInfinite';
 import { FilterPanel } from '../../../components/FilterPanel';
 import { buildShowClassesHref } from '../../../lib/url';
 import { ReportMistakeName } from '../../../components/ReportMistakeContext';
+import { absoluteUrl } from '../../../lib/site';
+
+const gridSocialImage = absoluteUrl('/img/grid-screenshot.png');
 
 interface FunctionPageProps {
   params: Promise<{ functionSlug: string }>;
@@ -63,12 +66,32 @@ export async function generateMetadata({ params }: FunctionPageProps): Promise<M
   }
 
   const label = formatFilterLabel(functionValue);
+  const title = `${label} food additives`;
+  const description = `Browse food additives that function as ${functionValue}.`;
+  const canonical = `/function/${functionSlug}`;
 
   return {
-    title: `${label} food additives`,
-    description: `Browse food additives that function as ${functionValue}.`,
+    title,
+    description,
     alternates: {
-      canonical: `/function/${functionSlug}`,
+      canonical,
+    },
+    openGraph: {
+      title,
+      description,
+      url: absoluteUrl(canonical),
+      images: [
+        {
+          url: gridSocialImage,
+          alt: 'Screenshot of the food additives grid.',
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: [gridSocialImage],
     },
   };
 }

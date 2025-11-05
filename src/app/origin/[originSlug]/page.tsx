@@ -26,6 +26,9 @@ import { AdditiveGridInfinite } from '../../../components/AdditiveGridInfinite';
 import { FilterPanel } from '../../../components/FilterPanel';
 import { buildShowClassesHref } from '../../../lib/url';
 import { ReportMistakeName } from '../../../components/ReportMistakeContext';
+import { absoluteUrl } from '../../../lib/site';
+
+const gridSocialImage = absoluteUrl('/img/grid-screenshot.png');
 
 interface OriginPageProps {
   params: Promise<{ originSlug: string }>;
@@ -65,12 +68,32 @@ export async function generateMetadata({ params }: OriginPageProps): Promise<Met
   }
 
   const label = formatFilterLabel(originValue);
+  const title = `${label} origin additives`;
+  const description = `Explore food additives that originate from ${originValue}.`;
+  const canonical = `/origin/${originSlug}`;
 
   return {
-    title: `${label} origin additives`,
-    description: `Explore food additives that originate from ${originValue}.`,
+    title,
+    description,
     alternates: {
-      canonical: `/origin/${originSlug}`,
+      canonical,
+    },
+    openGraph: {
+      title,
+      description,
+      url: absoluteUrl(canonical),
+      images: [
+        {
+          url: gridSocialImage,
+          alt: 'Screenshot of the food additives grid.',
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: [gridSocialImage],
     },
   };
 }
