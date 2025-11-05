@@ -259,6 +259,12 @@ a {
   color: #ffffff;
 }
 
+@media (max-width: 900px) {
+  .page-hero {
+    --page-hero-padding-top: 0.5rem;
+  }
+}
+
 .page-hero::before {
   content: '';
   position: absolute;
@@ -432,7 +438,7 @@ a {
   }
 
   .page-hero {
-    --page-hero-padding-top: 1.5rem;
+    --page-hero-padding-top: 0.5rem;
   }
 }
 

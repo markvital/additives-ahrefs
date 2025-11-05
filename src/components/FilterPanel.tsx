@@ -197,6 +197,25 @@ export function FilterPanel({
     });
   };
 
+  const showMoreButtonSx = {
+    color: 'text.secondary',
+    backgroundColor: '#ffffff',
+    borderRadius: '999px',
+    boxShadow: '0 6px 18px rgba(17, 17, 17, 0.08)',
+    '&:hover': {
+      color: 'text.primary',
+      backgroundColor: 'grey.100',
+    },
+    '&:focus-visible': {
+      backgroundColor: 'grey.100',
+      color: 'text.primary',
+    },
+  } as const;
+
+  const handleShowMoreClick = () => {
+    setShowClassesControlVisible(true);
+  };
+
   return (
     <>
       <Stack
@@ -208,12 +227,14 @@ export function FilterPanel({
         flexWrap="wrap"
       >
         <Stack
-          direction={{ xs: 'column', sm: 'row' }}
+          direction={{ xs: 'row', sm: 'row' }}
           spacing={{ xs: 1, sm: 1.5 }}
-          alignItems={{ xs: 'flex-start', sm: 'center' }}
+          alignItems={{ xs: 'center', sm: 'center' }}
+          justifyContent={{ xs: 'space-between', md: 'flex-start' }}
           flexWrap="wrap"
           sx={{
-            minWidth: { xs: '100%', sm: 'auto' },
+            minWidth: { xs: '100%', md: 'auto' },
+            width: { xs: '100%', md: 'auto' },
           }}
         >
           <Button
@@ -234,6 +255,20 @@ export function FilterPanel({
           >
             show legend
           </Button>
+          {!showClassesControlVisible && (
+            <IconButton
+              aria-label="Show family filter"
+              onClick={handleShowMoreClick}
+              size="small"
+              sx={{
+                ...showMoreButtonSx,
+                display: { xs: 'inline-flex', md: 'none' },
+                ml: 'auto',
+              }}
+            >
+              <MoreVertIcon fontSize="small" />
+            </IconButton>
+          )}
         </Stack>
 
         <Stack
@@ -249,7 +284,7 @@ export function FilterPanel({
             title="Show additive families"
             sx={{
               alignSelf: 'center',
-              display: 'flex',
+              display: showClassesControlVisible ? 'flex' : { xs: 'none', md: 'flex' },
               order: { xs: -1, sm: 0 },
             }}
           >
@@ -274,11 +309,11 @@ export function FilterPanel({
             ) : (
               <IconButton
                 aria-label="Show family filter"
-                onClick={() => setShowClassesControlVisible(true)}
+                onClick={handleShowMoreClick}
                 size="small"
                 sx={{
-                  color: 'text.secondary',
-                  '&:hover': { color: 'text.primary' },
+                  ...showMoreButtonSx,
+                  display: { xs: 'none', md: 'inline-flex' },
                 }}
               >
                 <MoreVertIcon fontSize="small" />
