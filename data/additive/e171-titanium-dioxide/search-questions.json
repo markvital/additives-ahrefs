@@ -1,79 +1,100 @@
 {
   "keywords": [
+    "Titanium dioxide",
     "E171"
   ],
   "country": "us",
-  "fetchedAt": "2025-10-15T01:43:58.187Z",
+  "fetchedAt": "2025-10-09T03:30:03.940Z",
   "questions": [
     {
-      "keyword": "e171 food additive in what foods",
-      "volume": 0,
-      "original_keyword": "E171",
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is titanium dioxide",
+      "volume": 3800,
+      "original_keyword": "Titanium dioxide",
+      "parent_topic": "titanium dioxide",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "what are the consequences of e171",
-      "volume": 0,
-      "original_keyword": "E171",
-      "parent_topic": "",
-      "intents": []
+      "keyword": "is titanium dioxide safe",
+      "volume": 2400,
+      "original_keyword": "Titanium dioxide",
+      "parent_topic": "is titanium dioxide safe",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "what colour is e171",
-      "volume": 0,
-      "original_keyword": "E171",
-      "parent_topic": "",
-      "intents": []
+      "keyword": "is titanium dioxide bad for you",
+      "volume": 400,
+      "original_keyword": "Titanium dioxide",
+      "parent_topic": "is titanium dioxide safe",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "what foods contain e171",
-      "volume": 0,
-      "original_keyword": "E171",
-      "parent_topic": "",
-      "intents": []
+      "keyword": "is titanium dioxide safe in sunscreen",
+      "volume": 400,
+      "original_keyword": "Titanium dioxide",
+      "parent_topic": "sunscreen ingredients to avoid",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "what foods have e171",
-      "volume": 0,
-      "original_keyword": "E171",
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what is titanium dioxide used for",
+      "volume": 400,
+      "original_keyword": "Titanium dioxide",
+      "parent_topic": "titanium dioxide",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "what foods have e171 food additive",
-      "volume": 0,
-      "original_keyword": "E171",
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what does titanium dioxide do",
+      "volume": 300,
+      "original_keyword": "Titanium dioxide",
+      "parent_topic": "what does titanium dioxide do",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "what is colorant (e171)",
-      "volume": 0,
-      "original_keyword": "E171",
-      "parent_topic": "",
-      "intents": []
+      "keyword": "is titanium dioxide safe for skin",
+      "volume": 250,
+      "original_keyword": "Titanium dioxide",
+      "parent_topic": "titanium dioxide",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "what is colourant e171",
-      "volume": 0,
-      "original_keyword": "E171",
-      "parent_topic": "",
-      "intents": []
+      "keyword": "does titanium dioxide cause cancer",
+      "volume": 150,
+      "original_keyword": "Titanium dioxide",
+      "parent_topic": "titanium dioxide",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "what is dye e171",
-      "volume": 0,
-      "original_keyword": "E171",
-      "parent_topic": "",
-      "intents": []
+      "keyword": "is titanium dioxide safe in makeup",
+      "volume": 150,
+      "original_keyword": "Titanium dioxide",
+      "parent_topic": "is titanium dioxide safe in makeup",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "what is e171",
-      "volume": 0,
-      "original_keyword": "E171",
-      "parent_topic": "",
-      "intents": []
+      "keyword": "is titanium dioxide safe to eat",
+      "volume": 150,
+      "original_keyword": "Titanium dioxide",
+      "parent_topic": "e171",
+      "intents": [
+        "informational"
+      ]
     }
   ]
 }

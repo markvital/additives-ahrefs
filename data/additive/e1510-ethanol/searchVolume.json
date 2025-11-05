@@ -1,6 +1,10 @@
 {
-  "totalSearchVolume": 11090,
+  "totalSearchVolume": 101090,
   "keywords": [
+    {
+      "keyword": "Ethanol",
+      "volume": 90000
+    },
     {
       "keyword": "ethyl alcohol",
       "volume": 11000
@@ -24,6 +28,7 @@
   ],
   "keywordConfig": {
     "included": [
+      "Ethanol",
       "E1510",
       "ethyl alcohol",
       "Methylcarbinol",
@@ -31,8 +36,6 @@
       "Ethyl hydrate"
     ],
     "supplementary": [],
-    "excluded": [
-      "ethanol"
-    ]
+    "excluded": []
   }
 }

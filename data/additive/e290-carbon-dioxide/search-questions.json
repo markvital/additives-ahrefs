@@ -1,98 +1,106 @@
 {
   "keywords": [
+    "Carbon dioxide",
     "E290",
     "Carbonic acid gas",
     "Fermentation carbon dioxide",
     "Spring carbon dioxide",
-    "food grade co2"
+    "Gärungskohlensäure",
+    "Natürliche Quellkohlensäure",
+    "Quellkohlensäure"
   ],
   "country": "us",
-  "fetchedAt": "2025-10-15T01:43:57.410Z",
+  "fetchedAt": "2025-10-09T03:20:52.659Z",
   "questions": [
     {
-      "keyword": "does fermentation produce carbon dioxide",
-      "volume": 50,
-      "original_keyword": "Fermentation carbon dioxide",
-      "parent_topic": "lactic acid fermentation vs alcoholic fermentation",
+      "keyword": "what is carbon dioxide",
+      "volume": 12000,
+      "original_keyword": "Carbon dioxide",
+      "parent_topic": "carbon dioxide",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "where to buy food grade co2 near me",
-      "volume": 40,
-      "original_keyword": "food grade co2",
-      "parent_topic": "",
-      "intents": []
-    },
-    {
-      "keyword": "where to get food grade co2",
-      "volume": 30,
-      "original_keyword": "food grade co2",
-      "parent_topic": "",
-      "intents": [
-        "informational",
-        "commercial",
-        "transactional"
-      ]
-    },
-    {
-      "keyword": "what is food grade co2",
-      "volume": 20,
-      "original_keyword": "food grade co2",
-      "parent_topic": "",
+      "keyword": "how to treat low carbon dioxide in blood",
+      "volume": 5400,
+      "original_keyword": "Carbon dioxide",
+      "parent_topic": "how to treat low carbon dioxide in blood",
       "intents": [
         "informational"
       ]
     },
     {
-      "keyword": "where to buy food grade co2",
-      "volume": 20,
-      "original_keyword": "food grade co2",
-      "parent_topic": "",
+      "keyword": "is carbon dioxide a compound",
+      "volume": 2900,
+      "original_keyword": "Carbon dioxide",
+      "parent_topic": "carbon dioxide",
       "intents": [
-        "informational",
-        "commercial",
-        "transactional"
+        "informational"
       ]
     },
     {
-      "keyword": "where to get food grade co2 refill near me",
-      "volume": 20,
-      "original_keyword": "food grade co2",
-      "parent_topic": "",
+      "keyword": "is carbon dioxide a pure substance",
+      "volume": 1800,
+      "original_keyword": "Carbon dioxide",
+      "parent_topic": "is carbon dioxide a pure substance",
       "intents": [
-        "informational",
-        "local"
+        "informational"
       ]
     },
     {
-      "keyword": "where to refill food grade co2",
-      "volume": 20,
-      "original_keyword": "food grade co2",
-      "parent_topic": "",
-      "intents": []
+      "keyword": "is carbon dioxide bad for you",
+      "volume": 1600,
+      "original_keyword": "Carbon dioxide",
+      "parent_topic": "is carbon dioxide bad",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": ". during sugar fermentation, how much carbon dioxide (g) was produced? (5 points)",
-      "volume": 0,
-      "original_keyword": "Fermentation carbon dioxide",
-      "parent_topic": "",
-      "intents": []
+      "keyword": "where does carbon dioxide come from",
+      "volume": 1500,
+      "original_keyword": "Carbon dioxide",
+      "parent_topic": "where does carbon dioxide come from",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": ". rainwater will combine with which atmospheric gas in order to create carbonic acid?",
-      "volume": 0,
-      "original_keyword": "Carbonic acid gas",
-      "parent_topic": "",
-      "intents": []
+      "keyword": "what does low carbon dioxide mean",
+      "volume": 1400,
+      "original_keyword": "Carbon dioxide",
+      "parent_topic": "co2 blood test",
+      "intents": [
+        "informational"
+      ]
     },
     {
-      "keyword": "\"rainwater will combine with which atmospheric gas in order to create carbonic acid?\"",
-      "volume": 0,
-      "original_keyword": "Carbonic acid gas",
-      "parent_topic": "",
-      "intents": []
+      "keyword": "is carbon dioxide a greenhouse gas",
+      "volume": 1100,
+      "original_keyword": "Carbon dioxide",
+      "parent_topic": "greenhouse gases",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "do we breathe out carbon dioxide",
+      "volume": 1000,
+      "original_keyword": "Carbon dioxide",
+      "parent_topic": "do humans breathe out carbon dioxide",
+      "intents": [
+        "informational"
+      ]
+    },
+    {
+      "keyword": "what is carbon dioxide in blood test",
+      "volume": 1000,
+      "original_keyword": "Carbon dioxide",
+      "parent_topic": "co2 blood test",
+      "intents": [
+        "informational"
+      ]
     }
   ]
 }
