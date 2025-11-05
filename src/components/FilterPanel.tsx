@@ -19,6 +19,7 @@ import {
   Stack,
   Typography,
 } from '@mui/material';
+import type { Theme } from '@mui/material/styles';
 import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 import CloseIcon from '@mui/icons-material/Close';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
@@ -199,16 +200,20 @@ export function FilterPanel({
 
   const showMoreButtonSx = {
     color: 'text.secondary',
-    backgroundColor: '#ffffff',
     borderRadius: '999px',
-    boxShadow: '0 6px 18px rgba(17, 17, 17, 0.08)',
+    border: '1px solid',
+    borderColor: 'grey.300',
+    backgroundColor: 'background.paper',
+    transition: (theme: Theme) => theme.transitions.create(['border-color', 'background-color', 'color']),
     '&:hover': {
       color: 'text.primary',
-      backgroundColor: 'grey.100',
+      borderColor: 'grey.400',
+      backgroundColor: 'background.paper',
     },
     '&:focus-visible': {
-      backgroundColor: 'grey.100',
+      borderColor: 'primary.main',
       color: 'text.primary',
+      backgroundColor: 'background.paper',
     },
   } as const;
 
@@ -264,7 +269,7 @@ export function FilterPanel({
               size="small"
               sx={{
                 ...showMoreButtonSx,
-                display: { xs: 'inline-flex', md: 'none' },
+                display: { xs: 'inline-flex', sm: 'none' },
                 ml: 'auto',
               }}
             >
@@ -286,7 +291,7 @@ export function FilterPanel({
             title="Show additive families"
             sx={{
               alignSelf: 'center',
-              display: showClassesControlVisible ? 'flex' : { xs: 'none', md: 'flex' },
+              display: showClassesControlVisible ? 'flex' : { xs: 'none', sm: 'inline-flex' },
               order: { xs: -1, sm: 0 },
             }}
           >
@@ -315,7 +320,7 @@ export function FilterPanel({
                 size="small"
                 sx={{
                   ...showMoreButtonSx,
-                  display: { xs: 'none', md: 'inline-flex' },
+                  display: { xs: 'none', sm: 'inline-flex' },
                 }}
               >
                 <MoreVertIcon fontSize="small" />
