@@ -7,6 +7,7 @@ import { formatFilterLabel, normalizeFilterValue } from '../../lib/text';
 import originsData from '../../../data/origins.json';
 import { getOriginIcon } from '../../lib/origin-icons';
 import InfoList from '../../components/InfoList';
+import { absoluteUrl } from '../../lib/site';
 
 type OriginDataEntry = {
   name?: string;
@@ -96,11 +97,35 @@ const originItems = origins.map(({ slug, title, description, count }) => {
   };
 });
 
+const originPageTitle = 'Food additive origins';
+const originPageDescription =
+  'Review every origin category for food additives, complete with descriptions and additive counts.';
+const originCanonicalPath = '/origin';
+const gridSocialImage = absoluteUrl('/img/grid-screenshot.png');
+const originCanonicalUrl = absoluteUrl(originCanonicalPath);
+
 export const metadata: Metadata = {
-  title: 'Food additive origins',
-  description: 'Review every origin category for food additives, complete with descriptions and additive counts.',
+  title: originPageTitle,
+  description: originPageDescription,
   alternates: {
-    canonical: '/origin',
+    canonical: originCanonicalPath,
+  },
+  openGraph: {
+    title: originPageTitle,
+    description: originPageDescription,
+    url: originCanonicalUrl,
+    images: [
+      {
+        url: gridSocialImage,
+        alt: 'Screenshot of the food additives grid.',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: originPageTitle,
+    description: originPageDescription,
+    images: [gridSocialImage],
   },
 };
 

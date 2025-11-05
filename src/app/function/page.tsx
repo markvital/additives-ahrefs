@@ -5,6 +5,7 @@ import { getAdditives, getFunctionFilters, getFunctionSlug } from '../../lib/add
 import { formatFilterLabel, normalizeFilterValue } from '../../lib/text';
 import functionsData from '../../../data/functions.json';
 import InfoList from '../../components/InfoList';
+import { absoluteUrl } from '../../lib/site';
 
 type FunctionDataEntry = {
   name?: string;
@@ -82,11 +83,35 @@ const functionItems = functions.map(({ slug, title, description, count }) => ({
   countSuffix: count === 1 ? 'additive uses this function.' : 'additives use this function.',
 }));
 
+const functionPageTitle = 'Food additive functions';
+const functionPageDescription =
+  'Browse every function used to classify food additives, including descriptions and usage counts.';
+const functionCanonicalPath = '/function';
+const gridSocialImage = absoluteUrl('/img/grid-screenshot.png');
+const functionCanonicalUrl = absoluteUrl(functionCanonicalPath);
+
 export const metadata: Metadata = {
-  title: 'Food additive functions',
-  description: 'Browse every function used to classify food additives, including descriptions and usage counts.',
+  title: functionPageTitle,
+  description: functionPageDescription,
   alternates: {
-    canonical: '/function',
+    canonical: functionCanonicalPath,
+  },
+  openGraph: {
+    title: functionPageTitle,
+    description: functionPageDescription,
+    url: functionCanonicalUrl,
+    images: [
+      {
+        url: gridSocialImage,
+        alt: 'Screenshot of the food additives grid.',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: functionPageTitle,
+    description: functionPageDescription,
+    images: [gridSocialImage],
   },
 };
 

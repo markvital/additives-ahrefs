@@ -64,10 +64,12 @@ export async function generateMetadata({ params }: FunctionPageProps): Promise<M
       title: 'Function not found',
     };
   }
-
+  
   const label = formatFilterLabel(functionValue);
   const title = `${label} food additives`;
-  const description = `Browse food additives that function as ${functionValue}.`;
+  const functionInfo = getFunctionInfo(functionValue);
+  const description =
+    functionInfo?.description ?? `Browse food additives that function as ${functionValue}.`;
   const canonical = `/function/${functionSlug}`;
 
   return {

@@ -20,7 +20,7 @@ import {
 } from '../../../lib/additives';
 import { formatFilterLabel } from '../../../lib/text';
 import { getOriginHeroIcon } from '../../../lib/origin-icons';
-import { getOriginDescriptionBySlug, getOriginDescriptionByValue } from '../../../lib/origins';
+import { getOriginDescription } from '../../../lib/origins';
 import { AdditiveGrid } from '../../../components/AdditiveGrid';
 import { AdditiveGridInfinite } from '../../../components/AdditiveGridInfinite';
 import { FilterPanel } from '../../../components/FilterPanel';
@@ -69,7 +69,9 @@ export async function generateMetadata({ params }: OriginPageProps): Promise<Met
 
   const label = formatFilterLabel(originValue);
   const title = `${label} origin additives`;
-  const description = `Explore food additives that originate from ${originValue}.`;
+  const originDescription = getOriginDescription(originSlug);
+  const description =
+    originDescription ?? `Explore food additives that originate from ${originValue}.`;
   const canonical = `/origin/${originSlug}`;
 
   return {
@@ -121,7 +123,7 @@ export default async function OriginPage({ params, searchParams }: OriginPagePro
   const label = formatFilterLabel(originValue);
   const reportMistakeName = label ? `Origin - ${label}` : null;
   const originDescription =
-    getOriginDescriptionBySlug(originSlug) ?? getOriginDescriptionByValue(originValue);
+    getOriginDescription(originSlug) ?? getOriginDescription(originValue);
   const originHeroIcon =
     getOriginHeroIcon(originValue) ?? getOriginHeroIcon(originSlug) ?? null;
   const chunkSize = 50;
