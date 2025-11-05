@@ -1,6 +1,10 @@
 {
-  "totalSearchVolume": 530,
+  "totalSearchVolume": 109530,
   "keywords": [
+    {
+      "keyword": "Carbon dioxide",
+      "volume": 109000
+    },
     {
       "keyword": "food grade co2",
       "volume": 450
@@ -20,21 +24,35 @@
     {
       "keyword": "Spring carbon dioxide",
       "volume": 0
+    },
+    {
+      "keyword": "G\u00e4rungskohlens\u00e4ure",
+      "volume": 0
+    },
+    {
+      "keyword": "Nat\u00fcrliche Quellkohlens\u00e4ure",
+      "volume": 0
+    },
+    {
+      "keyword": "Quellkohlens\u00e4ure",
+      "volume": 0
     }
   ],
   "keywordConfig": {
     "included": [
+      "Carbon dioxide",
       "E290",
       "Carbonic acid gas",
       "Fermentation carbon dioxide",
       "Spring carbon dioxide",
+      "G\u00e4rungskohlens\u00e4ure",
+      "Nat\u00fcrliche Quellkohlens\u00e4ure",
+      "Quellkohlens\u00e4ure",
       "food grade co2"
     ],
     "supplementary": [
       "food grade co2"
     ],
-    "excluded": [
-      "carbon dioxide"
-    ]
+    "excluded": []
   }
 }

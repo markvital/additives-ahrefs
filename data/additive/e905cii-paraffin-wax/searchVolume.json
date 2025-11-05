@@ -1,6 +1,10 @@
 {
-  "totalSearchVolume": 0,
+  "totalSearchVolume": 26000,
   "keywords": [
+    {
+      "keyword": "Paraffin wax",
+      "volume": 26000
+    },
     {
       "keyword": "E905CII",
       "volume": 0
@@ -8,11 +12,10 @@
   ],
   "keywordConfig": {
     "included": [
+      "Paraffin wax",
       "E905CII"
     ],
     "supplementary": [],
-    "excluded": [
-      "paraffin wax"
-    ]
+    "excluded": []
   }
 }

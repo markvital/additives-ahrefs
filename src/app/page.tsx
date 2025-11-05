@@ -135,7 +135,19 @@ export default async function HomePage({ searchParams }: HomePageProps) {
             className="page-hero-subtitle"
             sx={{ fontSize: { xs: '1.05rem', md: '1.15rem' } }}
           >
-            Compare data on{' '}
+            <Box
+              component="span"
+              sx={{
+                display: 'inline-flex',
+                fontWeight: 700,
+                textTransform: 'uppercase',
+                letterSpacing: '0.08em',
+                mr: 0.75,
+              }}
+            >
+              COMPARE
+            </Box>{' '}
+            data on{' '}
             <Box component="span" sx={highlightNumberSx}>
               {numberFormatter.format(additiveCount)}
             </Box>{' '}

@@ -1,18 +1,21 @@
 {
-  "totalSearchVolume": 90,
+  "totalSearchVolume": 46080,
   "keywords": [
     {
+      "keyword": "Titanium dioxide",
+      "volume": 46000
+    },
+    {
       "keyword": "E171",
-      "volume": 90
+      "volume": 80
     }
   ],
   "keywordConfig": {
     "included": [
+      "Titanium dioxide",
       "E171"
     ],
     "supplementary": [],
-    "excluded": [
-      "titanium dioxide"
-    ]
+    "excluded": []
   }
 }
