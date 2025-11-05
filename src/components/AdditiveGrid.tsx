@@ -33,7 +33,7 @@ const resolveTypographySize = (value: string | number | undefined, fallback = '1
 };
 
 const baseTitleFontSize = resolveTypographySize(theme.typography.h2?.fontSize);
-const SOFT_HYPHEN = '\\u00ad';
+const SOFT_HYPHEN = '­';
 
 const hyphenateLongWords = (text: string) =>
   text.replace(/[A-Za-z]{12,}/g, (word) => {
