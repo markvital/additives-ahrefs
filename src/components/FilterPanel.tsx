@@ -233,8 +233,10 @@ export function FilterPanel({
           justifyContent={{ xs: 'space-between', md: 'flex-start' }}
           flexWrap="wrap"
           sx={{
-            minWidth: { xs: '100%', md: 'auto' },
-            width: { xs: '100%', md: 'auto' },
+            flexBasis: { xs: '100%', sm: 'auto' },
+            flexGrow: { xs: 1, sm: 0 },
+            minWidth: { xs: 0, sm: 'auto' },
+            width: { xs: '100%', sm: 'auto' },
           }}
         >
           <Button
