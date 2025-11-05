@@ -2,6 +2,20 @@
 
 The Food Additives Catalogue demystifies the long names and **E‑numbers** on food labels. It brings together open‑source data, authoritative classifications and search interest metrics in a single, easy‑to‑use interface so that consumers, researchers and food professionals can quickly see what each additive does and how widely it is used. We refresh the underlying dataset once a month to capture new [Open Food Facts](https://world.openfoodfacts.org/) entries and updated [Ahrefs](https://ahrefs.com/) search metrics.
 
+## Our Story
+### From Cupcake Sprinkles to Data-Driven Transparency
+
+<div class="our-story">
+  <figure class="our-story__image">
+    <img src="/img/bitten-cupcake.png" alt="A bitten cupcake with colourful sprinkles on top" loading="lazy" />
+  </figure>
+  <p>When our oldest child (now a kindergartener) came home raving about a birthday cupcake topped with bright sprinkles, we didn’t have a box to examine—these treats were homemade and handed out one by one. Yet the vivid colours sparked our curiosity: what exactly gives sprinkles those hues, and how often do people question them?</p>
+  <p>As two data-savvy parents, we started digging. We learned that the ingredients behind common food colours are used in thousands of products yet barely register in search queries.</p>
+  <p>With help from <strong>Ahrefs</strong>, we analysed <strong>609 food additives</strong> across <strong>817&nbsp;713 products</strong> and <strong>1&nbsp;936 U.S. keywords</strong>, tapping a database of more than 28 billion search terms. Our research showed, for example, that <strong>titanium dioxide (E171)</strong>—the white pigment in many candies and frostings—appears in thousands of foods but garners almost no search interest, while <strong>erythrosine (Red&nbsp;3)</strong> is likewise ubiquitous yet little-known.</p>
+  <p>Realizing that parents and consumers lacked an accessible reference, we built <a href="https://CompareAdditives.com"><strong>CompareAdditives.com</strong></a>—a free, interactive catalogue that pairs ingredient profiles with search-interest data.</p>
+  <p>Our project invites parents, food lovers, health enthusiasts, and journalists to explore the hidden world of food additives and make informed choices—turning a simple <em>“what’s in sprinkles?”</em> moment into a resource for everyone.</p>
+</div>
+
 ## Data sources and methodology
 
 We started by extracting all additives from [Open Food Facts](https://world.openfoodfacts.org/) (OFF) that are present in products sold in the United States. For each additive we compiled a list of relevant search keywords. Using these keywords we fetched **search volume**, **historical interest** and **popular questions** from [Ahrefs](https://ahrefs.com/)’ Keywords Explorer. We then enriched the additive records with product counts from OFF and functional class labels from the **Codex Alimentarius**. Finally, we assigned one or more origin tags (plant‑derived, animal‑derived, microbiological or synthetic) based on encyclopaedic and Codex information. This pipeline updates each month so the catalogue reflects the latest OFF submissions and Ahrefs demand trends.
@@ -103,4 +117,4 @@ Together, these elements create a concise, data‑driven resource to help you ma
 
 ## Credits
 
-Designed and developed by [Mark Vital](http://linktr.ee/markvital). Journalism and art curation by [Anna Vital](http://linktr.ee/annavitals).
+Journalism and art direction by [Anna Vital](http://linktr.ee/annavitals). Designed and developed by [Mark Vital](http://linktr.ee/markvital).

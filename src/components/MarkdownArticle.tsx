@@ -4,6 +4,7 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
+import rehypeRaw from 'rehype-raw';
 import { isValidElement, type ReactNode } from 'react';
 
 const collectText = (children: ReactNode): string => {
@@ -123,6 +124,7 @@ export function MarkdownArticle({ content }: MarkdownArticleProps) {
 
   return (
     <Box
+      className="markdown-article"
       sx={{
         display: 'flex',
         flexDirection: 'column',
@@ -134,7 +136,7 @@ export function MarkdownArticle({ content }: MarkdownArticleProps) {
     >
       <ReactMarkdown
         remarkPlugins={[remarkGfm, remarkMath]}
-        rehypePlugins={[rehypeKatex]}
+        rehypePlugins={[rehypeRaw, rehypeKatex]}
         components={markdownComponents}
       >
         {content}
