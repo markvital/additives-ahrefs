@@ -1,4 +1,4 @@
-const DEFAULT_SITE_URL = 'https://additives.ahrefs.com';
+const DEFAULT_SITE_URL = 'https://compareadditives.com';
 
 const hasProtocol = (url: string): boolean => /^[a-zA-Z][a-zA-Z0-9+.-]*:\/\//.test(url);
 
