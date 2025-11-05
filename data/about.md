@@ -63,31 +63,12 @@ Where:
 - $\alpha$ — the Laplace smoothing constant (set to 5).
 - $r_{\text{base}}$ — the baseline searches-per-product rate for the full dataset.
 
-Step-by-step:
-
-1. Compute the baseline searches per product across all qualifying additives:
-
-   $$
-   r_{\text{base}} = \frac{\sum_i S_i}{\sum_i P_i}
-   $$
-
-2. Smooth each additive’s observed counts with the baseline expectation:
-
-   $$
-   S'_i = S_i + \alpha \cdot r_{\text{base}}, \quad P'_i = P_i + \alpha, \quad r_i = \frac{S'_i}{P'_i}
-   $$
-
-3. Divide the smoothed searches-per-product ratio by the baseline to obtain the Awareness Score:
-
-   $$
-   R_i = \frac{r_i}{r_{\text{base}}}
-   $$
-
 When we need a log-scaled view for colour or sorting we take the base-10 logarithm of the index:
-
 $$
 L_i = \log_{10}(R_i)
 $$
+
+
 
 ## Navigating the interface
 

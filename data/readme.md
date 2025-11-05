@@ -62,3 +62,44 @@ All Ahrefs-driven scripts (`update-search-volume`, `fetch-search-history`, `fetc
 
 - **Targeted runs (`--additive`)** always refresh the requested additives. Existing data is overwritten and the console prints the updated file paths when `--debug` is set.
 - **Bulk runs** skip additives that already have data unless `--override` is supplied. In non-debug mode, the script prints a single `skipped: <count>` summary before processing the remaining additives.
+
+## Awareness Score calculation
+
+The Awareness Score surfaced in the UI compares search interest with product prevalence. We smooth sparse additives against the dataset baseline before mapping the index to chip colours. The smoothed ratio for additive *i* is:
+
+$$
+R_i = \frac{S_i + \alpha \cdot r_{\text{base}}}{(P_i + \alpha) \cdot r_{\text{base}}}
+$$
+
+Where:
+
+- $S_i$ — monthly search volume for additive *i*.
+- $P_i$ — product count for additive *i*.
+- $\alpha$ — Laplace smoothing constant (5).
+- $r_{\text{base}}$ — baseline searches-per-product rate across the dataset.
+
+Step-by-step:
+
+1. Compute the baseline searches per product across all qualifying additives:
+
+   $$
+   r_{\text{base}} = \frac{\sum_i S_i}{\sum_i P_i}
+   $$
+
+2. Smooth each additive’s observed counts with the baseline expectation:
+
+   $$
+   S'_i = S_i + \alpha \cdot r_{\text{base}}, \quad P'_i = P_i + \alpha, \quad r_i = \frac{S'_i}{P'_i}
+   $$
+
+3. Divide the smoothed searches-per-product ratio by the baseline to obtain the Awareness Score:
+
+   $$
+   R_i = \frac{r_i}{r_{\text{base}}}
+   $$
+
+When we need a log-scaled view for colouring or sorting we take the base-10 logarithm of the index:
+
+$$
+L_i = \log_{10}(R_i)
+$$
