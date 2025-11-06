@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
-import { Box, Chip, ClickAwayListener, Stack, Tooltip, Typography, type StackProps } from '@mui/material';
+import { Box, Chip, Stack, Tooltip, Typography, type StackProps } from '@mui/material';
 
 import { formatFunctionLabel } from '../lib/additive-format';
 
@@ -28,7 +28,6 @@ export function FunctionChipList({ functions, maxVisible, spacing = 1, sx, ...re
   const targetCount = Math.max(0, Math.min(desiredMax, normalizedLength));
   const [displayCount, setDisplayCount] = useState(targetCount);
   const [resizeDirection, setResizeDirection] = useState<'grow' | 'shrink' | null>(null);
-  const [hiddenTooltipOpen, setHiddenTooltipOpen] = useState(false);
 
   useEffect(() => {
     setDisplayCount((prev) => Math.min(prev, targetCount));
@@ -117,12 +116,6 @@ export function FunctionChipList({ functions, maxVisible, spacing = 1, sx, ...re
   const hiddenFunctions = useMemo(() => normalizedFunctions.slice(displayCount), [displayCount, normalizedFunctions]);
   const hasHiddenFunctions = hiddenFunctions.length > 0;
 
-  useEffect(() => {
-    if (hiddenCount === 0 && hiddenTooltipOpen) {
-      setHiddenTooltipOpen(false);
-    }
-  }, [hiddenCount, hiddenTooltipOpen]);
-
   if (normalizedLength === 0) {
     return null;
   }
@@ -169,73 +162,60 @@ export function FunctionChipList({ functions, maxVisible, spacing = 1, sx, ...re
         <Chip key={fn} label={formatFunctionLabel(fn)} variant="filled" size="small" sx={chipSx} />
       ))}
       {hasHiddenFunctions && (
-        <ClickAwayListener onClickAway={() => setHiddenTooltipOpen(false)}>
-          <Box component="span" sx={{ display: 'inline-flex' }}>
-            <Tooltip
-              arrow
-              open={hiddenTooltipOpen}
-              onClose={() => setHiddenTooltipOpen(false)}
-              disableFocusListener
-              disableHoverListener
-              disableTouchListener
-              enterTouchDelay={0}
-              leaveTouchDelay={1500}
-              disableInteractive={false}
-              slotProps={{ tooltip: { sx: { pointerEvents: 'auto' } } }}
-              title={
-                <Stack spacing={0.5}>
-                  {hiddenFunctions.map((fn) => (
-                    <Typography
-                      key={fn}
-                      component="span"
-                      variant="body2"
-                      sx={{ display: 'block', lineHeight: 1.4 }}
-                    >
-                      {formatFunctionLabel(fn)}
-                    </Typography>
-                  ))}
-                </Stack>
-              }
-            >
-              <Chip
-                label={`+${hiddenCount}`}
-                variant="filled"
-                size="small"
-                sx={chipSx}
-                onClick={(event) => {
+        <Box component="span" sx={{ display: 'inline-flex' }}>
+          <Tooltip
+            arrow
+            enterTouchDelay={0}
+            leaveTouchDelay={1500}
+            disableInteractive={false}
+            slotProps={{ tooltip: { sx: { pointerEvents: 'auto' } } }}
+            title={
+              <Stack spacing={0.5}>
+                {hiddenFunctions.map((fn) => (
+                  <Typography
+                    key={fn}
+                    component="span"
+                    variant="body2"
+                    sx={{ display: 'block', lineHeight: 1.4 }}
+                  >
+                    {formatFunctionLabel(fn)}
+                  </Typography>
+                ))}
+              </Stack>
+            }
+          >
+            <Chip
+              label={`+${hiddenCount}`}
+              variant="filled"
+              size="small"
+              sx={{ ...chipSx, cursor: 'default' as const }}
+              clickable={false}
+              onClick={(event) => {
+                event.preventDefault();
+                event.stopPropagation();
+              }}
+              onPointerDown={(event) => {
+                event.stopPropagation();
+              }}
+              onPointerUp={(event) => {
+                event.stopPropagation();
+              }}
+              onTouchStart={(event) => {
+                event.stopPropagation();
+              }}
+              onTouchEnd={(event) => {
+                event.preventDefault();
+                event.stopPropagation();
+              }}
+              onKeyDown={(event) => {
+                if (event.key === 'Escape' || event.key === 'Esc') {
                   event.preventDefault();
                   event.stopPropagation();
-                  setHiddenTooltipOpen((prev) => !prev);
-                }}
-                onPointerDown={(event) => {
-                  event.stopPropagation();
-                }}
-                onPointerUp={(event) => {
-                  event.stopPropagation();
-                }}
-                onTouchStart={(event) => {
-                  event.stopPropagation();
-                }}
-                onTouchEnd={(event) => {
-                  event.stopPropagation();
-                }}
-                onKeyDown={(event) => {
-                  if (event.key === 'Escape' || event.key === 'Esc') {
-                    event.preventDefault();
-                    event.stopPropagation();
-                    setHiddenTooltipOpen(false);
-                  }
-
-                  if (event.key === 'Enter' || event.key === ' ') {
-                    event.preventDefault();
-                    event.stopPropagation();
-                    setHiddenTooltipOpen((prev) => !prev);
-                  }
-                }}
-              />
-            </Tooltip>
-          </Box>
-        </ClickAwayListener>
+                }
+              }}
+            />
+          </Tooltip>
+        </Box>
       )}
     </Stack>
   );
