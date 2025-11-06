@@ -22,6 +22,7 @@ import {
 import type { Theme } from '@mui/material/styles';
 import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 import CloseIcon from '@mui/icons-material/Close';
+import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import type { SelectChangeEvent } from '@mui/material/Select';
 
@@ -217,9 +218,17 @@ export function FilterPanel({
     },
   } as const;
 
-  const handleShowMoreClick = () => {
-    setShowClassesControlVisible(true);
+  const handleShowMoreToggle = () => {
+    setShowClassesControlVisible((previous) => !previous);
   };
+
+  const showMoreTooltip = showClassesControlVisible ? 'Show less options' : 'Show more options';
+  const renderShowMoreIcon = () =>
+    showClassesControlVisible ? (
+      <MoreHorizIcon fontSize="small" />
+    ) : (
+      <MoreVertIcon fontSize="small" />
+    );
 
   return (
     <>
@@ -262,20 +271,19 @@ export function FilterPanel({
           >
             show legend
           </Button>
-          {!showClassesControlVisible && (
-            <IconButton
-              aria-label="Show family filter"
-              onClick={handleShowMoreClick}
-              size="small"
-              sx={{
-                ...showMoreButtonSx,
-                display: { xs: 'inline-flex', sm: 'none' },
-                ml: 'auto',
-              }}
-            >
-              <MoreVertIcon fontSize="small" />
-            </IconButton>
-          )}
+          <IconButton
+            aria-label={showMoreTooltip}
+            title={showMoreTooltip}
+            onClick={handleShowMoreToggle}
+            size="small"
+            sx={{
+              ...showMoreButtonSx,
+              display: { xs: 'inline-flex', sm: 'none' },
+              ml: 'auto',
+            }}
+          >
+            {renderShowMoreIcon()}
+          </IconButton>
         </Stack>
 
         <Stack
@@ -286,6 +294,50 @@ export function FilterPanel({
           justifyContent="flex-end"
           sx={{ flexGrow: 1 }}
         >
+          <Box
+            component="span"
+            title={showMoreTooltip}
+            sx={{
+              alignSelf: 'center',
+              display: showClassesControlVisible ? 'flex' : { xs: 'none', sm: 'inline-flex' },
+              order: { xs: -1, sm: -1 },
+              alignItems: 'center',
+              gap: 1,
+            }}
+          >
+            {showClassesControlVisible && (
+              <FormControlLabel
+                control={
+                  <Checkbox
+                    size="small"
+                    checked={currentShowClasses}
+                    onChange={handleShowClassesChange}
+                    disabled={isPending}
+                  />
+                }
+                label="Show families"
+                sx={{
+                  color: 'text.secondary',
+                  '& .MuiFormControlLabel-label': {
+                    fontSize: 14,
+                  },
+                }}
+              />
+            )}
+            <IconButton
+              aria-label={showMoreTooltip}
+              title={showMoreTooltip}
+              onClick={handleShowMoreToggle}
+              size="small"
+              sx={{
+                ...showMoreButtonSx,
+                display: { xs: 'none', sm: 'inline-flex' },
+              }}
+            >
+              {renderShowMoreIcon()}
+            </IconButton>
+          </Box>
+
           <FormControl
             size="small"
             sx={{ minWidth: { xs: '100%', sm: 180 }, order: { xs: 0, sm: 0 } }}
@@ -304,48 +356,6 @@ export function FilterPanel({
               <MenuItem value="search-rank">Search rank</MenuItem>
             </Select>
           </FormControl>
-
-          <Box
-            component="span"
-            title="Show additive families"
-            sx={{
-              alignSelf: 'center',
-              display: showClassesControlVisible ? 'flex' : { xs: 'none', sm: 'inline-flex' },
-              order: { xs: -1, sm: 1 },
-            }}
-          >
-            {showClassesControlVisible ? (
-              <FormControlLabel
-                control={
-                  <Checkbox
-                    size="small"
-                    checked={currentShowClasses}
-                    onChange={handleShowClassesChange}
-                    disabled={isPending}
-                  />
-                }
-                label="Show families"
-                sx={{
-                  color: 'text.secondary',
-                  '& .MuiFormControlLabel-label': {
-                    fontSize: 14,
-                  },
-                }}
-              />
-            ) : (
-              <IconButton
-                aria-label="Show family filter"
-                onClick={handleShowMoreClick}
-                size="small"
-                sx={{
-                  ...showMoreButtonSx,
-                  display: { xs: 'none', sm: 'inline-flex' },
-                }}
-              >
-                <MoreVertIcon fontSize="small" />
-              </IconButton>
-            )}
-          </Box>
 
           <FormControl
             size="small"
