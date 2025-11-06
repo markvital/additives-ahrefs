@@ -203,17 +203,17 @@ export function FilterPanel({
     borderRadius: '999px',
     border: '1px solid',
     borderColor: 'grey.300',
-    backgroundColor: 'background.paper',
-    transition: (theme: Theme) => theme.transitions.create(['border-color', 'background-color', 'color']),
+    backgroundColor: 'transparent',
+    transition: (theme: Theme) => theme.transitions.create(['border-color', 'color']),
     '&:hover': {
       color: 'text.primary',
       borderColor: 'grey.400',
-      backgroundColor: 'background.paper',
+      backgroundColor: 'transparent',
     },
     '&:focus-visible': {
       borderColor: 'primary.main',
       color: 'text.primary',
-      backgroundColor: 'background.paper',
+      backgroundColor: 'transparent',
     },
   } as const;
 
@@ -286,13 +286,32 @@ export function FilterPanel({
           justifyContent="flex-end"
           sx={{ flexGrow: 1 }}
         >
+          <FormControl
+            size="small"
+            sx={{ minWidth: { xs: '100%', sm: 180 }, order: { xs: 0, sm: 0 } }}
+            disabled={isPending}
+          >
+            <InputLabel id="sort-filter-label">Sort by</InputLabel>
+            <Select
+              labelId="sort-filter-label"
+              id="sort-filter"
+              label="Sort by"
+              value={currentSortValue}
+              onChange={handleSortChange}
+            >
+              <MenuItem value="products">Products</MenuItem>
+              <MenuItem value="awareness">Awareness score</MenuItem>
+              <MenuItem value="search-rank">Search rank</MenuItem>
+            </Select>
+          </FormControl>
+
           <Box
             component="span"
             title="Show additive families"
             sx={{
               alignSelf: 'center',
               display: showClassesControlVisible ? 'flex' : { xs: 'none', sm: 'inline-flex' },
-              order: { xs: -1, sm: 0 },
+              order: { xs: -1, sm: 1 },
             }}
           >
             {showClassesControlVisible ? (
@@ -330,26 +349,7 @@ export function FilterPanel({
 
           <FormControl
             size="small"
-            sx={{ minWidth: { xs: '100%', sm: 180 } }}
-            disabled={isPending}
-          >
-            <InputLabel id="sort-filter-label">Sort by</InputLabel>
-            <Select
-              labelId="sort-filter-label"
-              id="sort-filter"
-              label="Sort by"
-              value={currentSortValue}
-              onChange={handleSortChange}
-            >
-              <MenuItem value="products">Products</MenuItem>
-              <MenuItem value="awareness">Awareness score</MenuItem>
-              <MenuItem value="search-rank">Search rank</MenuItem>
-            </Select>
-          </FormControl>
-
-          <FormControl
-            size="small"
-            sx={{ minWidth: { xs: '100%', sm: 180 } }}
+            sx={{ minWidth: { xs: '100%', sm: 180 }, order: { xs: 1, sm: 2 } }}
             disabled={isPending}
           >
             <InputLabel id="filter-select-label">Filter</InputLabel>
