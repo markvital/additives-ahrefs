@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
-import { Chip, Stack, type StackProps } from '@mui/material';
+import { Box, Chip, Stack, Tooltip, Typography, type StackProps } from '@mui/material';
 
 import { formatFunctionLabel } from '../lib/additive-format';
 
@@ -111,12 +111,14 @@ export function FunctionChipList({ functions, maxVisible, spacing = 1, sx, ...re
     };
   }, [maxVisible, normalizedLength]);
 
+  const hiddenCount = Math.max(normalizedLength - displayCount, 0);
+  const displayedFunctions = normalizedFunctions.slice(0, displayCount);
+  const hiddenFunctions = useMemo(() => normalizedFunctions.slice(displayCount), [displayCount, normalizedFunctions]);
+  const hasHiddenFunctions = hiddenFunctions.length > 0;
+
   if (normalizedLength === 0) {
     return null;
   }
-
-  const hiddenCount = Math.max(normalizedLength - displayCount, 0);
-  const displayedFunctions = normalizedFunctions.slice(0, displayCount);
   const chipSx = {
     textTransform: 'none',
     whiteSpace: 'nowrap',
@@ -159,7 +161,62 @@ export function FunctionChipList({ functions, maxVisible, spacing = 1, sx, ...re
       {displayedFunctions.map((fn) => (
         <Chip key={fn} label={formatFunctionLabel(fn)} variant="filled" size="small" sx={chipSx} />
       ))}
-      {hiddenCount > 0 && <Chip label={`+${hiddenCount}`} variant="filled" size="small" sx={chipSx} />}
+      {hasHiddenFunctions && (
+        <Box component="span" sx={{ display: 'inline-flex' }}>
+          <Tooltip
+            arrow
+            enterTouchDelay={0}
+            leaveTouchDelay={1500}
+            disableInteractive={false}
+            slotProps={{ tooltip: { sx: { pointerEvents: 'auto' } } }}
+            title={
+              <Stack spacing={0.5}>
+                {hiddenFunctions.map((fn) => (
+                  <Typography
+                    key={fn}
+                    component="span"
+                    variant="body2"
+                    sx={{ display: 'block', lineHeight: 1.4 }}
+                  >
+                    {formatFunctionLabel(fn)}
+                  </Typography>
+                ))}
+              </Stack>
+            }
+          >
+            <Chip
+              label={`+${hiddenCount}`}
+              variant="filled"
+              size="small"
+              sx={{ ...chipSx, cursor: 'default' as const }}
+              clickable={false}
+              onClick={(event) => {
+                event.preventDefault();
+                event.stopPropagation();
+              }}
+              onPointerDown={(event) => {
+                event.stopPropagation();
+              }}
+              onPointerUp={(event) => {
+                event.stopPropagation();
+              }}
+              onTouchStart={(event) => {
+                event.stopPropagation();
+              }}
+              onTouchEnd={(event) => {
+                event.preventDefault();
+                event.stopPropagation();
+              }}
+              onKeyDown={(event) => {
+                if (event.key === 'Escape' || event.key === 'Esc') {
+                  event.preventDefault();
+                  event.stopPropagation();
+                }
+              }}
+            />
+          </Tooltip>
+        </Box>
+      )}
     </Stack>
   );
 }
