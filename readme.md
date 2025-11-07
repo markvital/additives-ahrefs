@@ -59,3 +59,17 @@ This trims the initial data payload by roughly **90%** while keeping the UI resp
 ## Deployment
 
 The project is configured for Vercel. Use `npm run build` followed by `npm run start` to preview the production build locally; server actions require a Node runtime rather than a static export.
+
+## Web Analytics
+
+Ahrefs Web Analytics is installed globally via the App Router layout. The snippet below is embedded in `src/app/layout.tsx` so it loads on every page:
+
+```html
+<script
+  src="https://analytics.ahrefs.com/analytics.js"
+  data-key="Fj7+bX0Bk8e745CrMY+rpQ"
+  async
+></script>
+```
+
+If the data key changes, update the `data-key` attribute in the layout script tag and redeploy the site to apply the new configuration.
