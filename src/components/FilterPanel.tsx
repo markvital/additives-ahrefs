@@ -19,8 +19,10 @@ import {
   Stack,
   Typography,
 } from '@mui/material';
+import type { Theme } from '@mui/material/styles';
 import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 import CloseIcon from '@mui/icons-material/Close';
+import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import type { SelectChangeEvent } from '@mui/material/Select';
 
@@ -197,6 +199,37 @@ export function FilterPanel({
     });
   };
 
+  const showMoreButtonSx = {
+    color: 'text.secondary',
+    borderRadius: '999px',
+    border: '1px solid',
+    borderColor: 'grey.300',
+    backgroundColor: 'transparent',
+    transition: (theme: Theme) => theme.transitions.create(['border-color', 'color']),
+    '&:hover': {
+      color: 'text.primary',
+      borderColor: 'grey.400',
+      backgroundColor: 'transparent',
+    },
+    '&:focus-visible': {
+      borderColor: 'primary.main',
+      color: 'text.primary',
+      backgroundColor: 'transparent',
+    },
+  } as const;
+
+  const handleShowMoreToggle = () => {
+    setShowClassesControlVisible((previous) => !previous);
+  };
+
+  const showMoreTooltip = showClassesControlVisible ? 'Show less options' : 'Show more options';
+  const renderShowMoreIcon = () =>
+    showClassesControlVisible ? (
+      <MoreHorizIcon fontSize="small" />
+    ) : (
+      <MoreVertIcon fontSize="small" />
+    );
+
   return (
     <>
       <Stack
@@ -208,12 +241,16 @@ export function FilterPanel({
         flexWrap="wrap"
       >
         <Stack
-          direction={{ xs: 'column', sm: 'row' }}
+          direction={{ xs: 'row', sm: 'row' }}
           spacing={{ xs: 1, sm: 1.5 }}
-          alignItems={{ xs: 'flex-start', sm: 'center' }}
+          alignItems={{ xs: 'center', sm: 'center' }}
+          justifyContent={{ xs: 'space-between', md: 'flex-start' }}
           flexWrap="wrap"
           sx={{
-            minWidth: { xs: '100%', sm: 'auto' },
+            flexBasis: { xs: '100%', sm: 'auto' },
+            flexGrow: { xs: 1, sm: 0 },
+            minWidth: { xs: 0, sm: 'auto' },
+            width: { xs: '100%', sm: 'auto' },
           }}
         >
           <Button
@@ -234,6 +271,19 @@ export function FilterPanel({
           >
             show legend
           </Button>
+          <IconButton
+            aria-label={showMoreTooltip}
+            title={showMoreTooltip}
+            onClick={handleShowMoreToggle}
+            size="small"
+            sx={{
+              ...showMoreButtonSx,
+              display: { xs: 'inline-flex', sm: 'none' },
+              ml: 'auto',
+            }}
+          >
+            {renderShowMoreIcon()}
+          </IconButton>
         </Stack>
 
         <Stack
@@ -246,14 +296,16 @@ export function FilterPanel({
         >
           <Box
             component="span"
-            title="Show additive families"
+            title={showMoreTooltip}
             sx={{
               alignSelf: 'center',
-              display: 'flex',
-              order: { xs: -1, sm: 0 },
+              display: showClassesControlVisible ? 'flex' : { xs: 'none', sm: 'inline-flex' },
+              order: { xs: -1, sm: -1 },
+              alignItems: 'center',
+              gap: 1,
             }}
           >
-            {showClassesControlVisible ? (
+            {showClassesControlVisible && (
               <FormControlLabel
                 control={
                   <Checkbox
@@ -271,24 +323,24 @@ export function FilterPanel({
                   },
                 }}
               />
-            ) : (
-              <IconButton
-                aria-label="Show family filter"
-                onClick={() => setShowClassesControlVisible(true)}
-                size="small"
-                sx={{
-                  color: 'text.secondary',
-                  '&:hover': { color: 'text.primary' },
-                }}
-              >
-                <MoreVertIcon fontSize="small" />
-              </IconButton>
             )}
+            <IconButton
+              aria-label={showMoreTooltip}
+              title={showMoreTooltip}
+              onClick={handleShowMoreToggle}
+              size="small"
+              sx={{
+                ...showMoreButtonSx,
+                display: { xs: 'none', sm: 'inline-flex' },
+              }}
+            >
+              {renderShowMoreIcon()}
+            </IconButton>
           </Box>
 
           <FormControl
             size="small"
-            sx={{ minWidth: { xs: '100%', sm: 180 } }}
+            sx={{ minWidth: { xs: '100%', sm: 180 }, order: { xs: 0, sm: 0 } }}
             disabled={isPending}
           >
             <InputLabel id="sort-filter-label">Sort by</InputLabel>
@@ -307,7 +359,7 @@ export function FilterPanel({
 
           <FormControl
             size="small"
-            sx={{ minWidth: { xs: '100%', sm: 180 } }}
+            sx={{ minWidth: { xs: '100%', sm: 180 }, order: { xs: 1, sm: 2 } }}
             disabled={isPending}
           >
             <InputLabel id="filter-select-label">Filter</InputLabel>
