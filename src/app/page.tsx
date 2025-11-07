@@ -138,6 +138,20 @@ export default async function HomePage({ searchParams }: HomePageProps) {
   const awarenessResult = getAwarenessScores();
   const initialItems = mapAdditivesToGridItems(sortedAdditives.slice(0, chunkSize));
 
+  const formattedTopFunctions = topFunctions.map(({ slug, label, count }) => {
+    const lowerLabel = label.toLowerCase();
+    const pluralLabel = lowerLabel.endsWith('s') ? lowerLabel : `${lowerLabel}s`;
+
+    return {
+      slug,
+      count,
+      pluralLabel,
+      summary: `${numberFormatter.format(count)} ${pluralLabel}`,
+    };
+  });
+
+  const exploreSummary = formattedTopFunctions.map(({ summary }) => summary).join(', ');
+
   return (
     <Box component="section" display="flex" flexDirection="column" gap={4}>
       <Box className="page-hero">
@@ -148,102 +162,101 @@ export default async function HomePage({ searchParams }: HomePageProps) {
           gap={{ xs: 3, md: 6 }}
           alignItems={{ xs: 'flex-start', md: 'stretch' }}
         >
-        <Box
-          flex={{ md: '0 0 66.6667%' }}
-          maxWidth={{ md: '66.6667%' }}
-          display="flex"
-          flexDirection="column"
-          gap={2}
-        >
-          <Typography component="h1" variant="h1" sx={{ display: { xs: 'block', md: 'none' } }}>
-            Food additives
-          </Typography>
-          <Typography
-            variant="body1"
-            className="page-hero-subtitle"
-            sx={{ fontSize: { xs: '1.05rem', md: '1.15rem' } }}
-          >
-            <Box
-              component="span"
-              sx={{
-                display: 'inline-flex',
-                fontWeight: 700,
-                textTransform: 'uppercase',
-                letterSpacing: '0.08em',
-                mr: 0.75,
-              }}
-            >
-              COMPARE
-            </Box>{' '}
-            data on{' '}
-            <Box component="span" sx={highlightNumberSx}>
-              {numberFormatter.format(additiveCount)}
-            </Box>{' '}
-            common food additives we found after analyzing{' '}
-            <Box component="span" sx={highlightNumberSx}>
-              {numberFormatter.format(817_713)}
-            </Box>{' '}
-            products from <Box component="span" sx={{ whiteSpace: 'nowrap' }}>Open Food Facts</Box> and{' '}
-            <Box component="span" sx={highlightNumberSx}>
-              {numberFormatter.format(keywordCount)}
-            </Box>{' '}
-            keywords in the U.S. from{' '}
-            <Box component="span" sx={highlightNumberSx}>
-              28+ billion
-            </Box>{' '}
-            keywords via{' '}
-            <MuiLink
-              component={NextLink}
-              href="https://ahrefs.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              underline="hover"
-              sx={{
-                fontWeight: 550,
-                color: '#ffffff',
-                textDecorationColor: 'rgba(255, 255, 255, 0.7)',
-                '&:hover': {
-                  color: '#ffffff',
-                  textDecorationColor: '#ffffff',
-                },
-              }}
-            >
-              Ahrefs
-            </MuiLink>
-            .
-          </Typography>
-        </Box>
-        <Box flex={{ md: '0 0 33.3333%' }} maxWidth={{ md: '33.3333%' }} width="100%">
           <Box
+            flex={{ md: '0 0 66.6667%' }}
+            maxWidth={{ md: '66.6667%' }}
             display="flex"
-            flexDirection={{ xs: 'column', md: 'row' }}
-            alignItems={{ xs: 'flex-start', md: 'stretch' }}
-            justifyContent={{ md: 'space-between' }}
-            gap={{ xs: 1.5, md: 2.5 }}
-            width="100%"
+            flexDirection="column"
+            gap={2}
           >
-            <MuiLink
-              component={NextLink}
-              href={functionsHref}
-              underline="none"
-              sx={{
-                textTransform: 'uppercase',
-                letterSpacing: '0.08em',
-                fontWeight: 700,
-                fontSize: { xs: '1rem', md: '1.05rem' },
-                textAlign: { xs: 'left', md: 'right' },
-                color: '#ffffff',
-                '&:hover': { color: 'rgba(255, 255, 255, 0.85)' },
-              }}
+            <Typography
+              component="h1"
+              variant="h1"
+              sx={{ display: { xs: 'block', md: 'none' }, textAlign: { xs: 'center', md: 'left' } }}
             >
-              Explore
-            </MuiLink>
-            <Box display="flex" flexDirection="column" gap={0.5} flex={1} minWidth={0}>
-              {topFunctions.map(({ slug, label, count }) => {
-                const lowerLabel = label.toLowerCase();
-                const pluralLabel = lowerLabel.endsWith('s') ? lowerLabel : `${lowerLabel}s`;
-
-                return (
+              Food additives
+            </Typography>
+            <Typography
+              variant="body1"
+              className="page-hero-subtitle"
+              sx={{ fontSize: { xs: '1.05rem', md: '1.15rem' } }}
+            >
+              <Box
+                component="span"
+                sx={{
+                  display: 'inline-flex',
+                  fontWeight: 700,
+                  textTransform: 'uppercase',
+                  letterSpacing: '0.08em',
+                  mr: 0.75,
+                }}
+              >
+                COMPARE
+              </Box>{' '}
+              data on{' '}
+              <Box component="span" sx={highlightNumberSx}>
+                {numberFormatter.format(additiveCount)}
+              </Box>{' '}
+              common food additives we found after analyzing{' '}
+              <Box component="span" sx={highlightNumberSx}>
+                {numberFormatter.format(817_713)}
+              </Box>{' '}
+              products from <Box component="span" sx={{ whiteSpace: 'nowrap' }}>Open Food Facts</Box> and{' '}
+              <Box component="span" sx={highlightNumberSx}>
+                {numberFormatter.format(keywordCount)}
+              </Box>{' '}
+              keywords in the U.S. from{' '}
+              <Box component="span" sx={highlightNumberSx}>
+                28+ billion
+              </Box>{' '}
+              keywords via{' '}
+              <MuiLink
+                component={NextLink}
+                href="https://ahrefs.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                underline="hover"
+                sx={{
+                  fontWeight: 550,
+                  color: '#ffffff',
+                  textDecorationColor: 'rgba(255, 255, 255, 0.7)',
+                  '&:hover': {
+                    color: '#ffffff',
+                    textDecorationColor: '#ffffff',
+                  },
+                }}
+              >
+                Ahrefs
+              </MuiLink>
+              .
+            </Typography>
+          </Box>
+          <Box flex={{ md: '0 0 33.3333%' }} maxWidth={{ md: '33.3333%' }} width="100%">
+            <Box
+              display={{ xs: 'none', md: 'flex' }}
+              flexDirection="row"
+              alignItems="stretch"
+              justifyContent="space-between"
+              gap={2.5}
+              width="100%"
+            >
+              <MuiLink
+                component={NextLink}
+                href={functionsHref}
+                underline="none"
+                sx={{
+                  textTransform: 'uppercase',
+                  letterSpacing: '0.08em',
+                  fontWeight: 700,
+                  fontSize: { md: '1.05rem' },
+                  color: '#ffffff',
+                  '&:hover': { color: 'rgba(255, 255, 255, 0.85)' },
+                }}
+              >
+                Explore
+              </MuiLink>
+              <Box display="flex" flexDirection="column" gap={0.5} flex={1} minWidth={0}>
+                {formattedTopFunctions.map(({ slug, count, pluralLabel }) => (
                   <MuiLink
                     key={slug}
                     component={NextLink}
@@ -273,20 +286,61 @@ export default async function HomePage({ searchParams }: HomePageProps) {
                       {pluralLabel}
                     </Typography>
                   </MuiLink>
-                );
-              })}
-              <MuiLink
-                component={NextLink}
-                href={functionsHref}
-                underline="none"
-                className="explore-more-text"
-                sx={{ fontWeight: 600, color: '#ffffff', '&:hover': { color: 'rgba(255, 255, 255, 0.85)' } }}
-              >
-                and more
-              </MuiLink>
+                ))}
+                <MuiLink
+                  component={NextLink}
+                  href={functionsHref}
+                  underline="none"
+                  className="explore-more-text"
+                  sx={{ fontWeight: 600, color: '#ffffff', '&:hover': { color: 'rgba(255, 255, 255, 0.85)' } }}
+                >
+                  and more
+                </MuiLink>
+              </Box>
             </Box>
+
+            <MuiLink
+              component={NextLink}
+              href={functionsHref}
+              underline="none"
+              sx={{
+                display: { xs: 'flex', md: 'none' },
+                alignItems: 'center',
+                gap: 1,
+                width: '100%',
+                color: '#ffffff',
+                textTransform: 'none',
+                '&:hover': { color: 'rgba(255, 255, 255, 0.85)' },
+              }}
+            >
+              <Typography
+                component="span"
+                sx={{
+                  fontWeight: 700,
+                  letterSpacing: '0.08em',
+                  textTransform: 'uppercase',
+                  flexShrink: 0,
+                }}
+              >
+                Explore
+              </Typography>
+              <Typography
+                component="span"
+                sx={{
+                  fontWeight: 600,
+                  letterSpacing: 'normal',
+                  textTransform: 'none',
+                  whiteSpace: 'nowrap',
+                  overflow: 'hidden',
+                  textOverflow: 'ellipsis',
+                  color: 'inherit',
+                  flex: 1,
+                }}
+              >
+                {exploreSummary ? `${exploreSummary} and more` : 'Discover more'}
+              </Typography>
+            </MuiLink>
           </Box>
-        </Box>
         </Box>
       </Box>
 
