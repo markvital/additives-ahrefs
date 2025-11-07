@@ -5,25 +5,25 @@ import { promises as fs } from 'fs';
 
 import { MarkdownArticle } from '../../components/MarkdownArticle';
 
-const aboutFilePath = path.join(process.cwd(), 'data', 'pages', 'about.md');
+const privacyFilePath = path.join(process.cwd(), 'data', 'pages', 'privacy.md');
 
-async function getAboutContent(): Promise<string> {
-  const file = await fs.readFile(aboutFilePath, 'utf8');
+async function getPrivacyContent(): Promise<string> {
+  const file = await fs.readFile(privacyFilePath, 'utf8');
 
   return file;
 }
 
 export const metadata: Metadata = {
-  title: 'About the Food Additives Catalogue',
+  title: 'Privacy Policy',
   description:
-    'Learn how the Food Additives Catalogue combines open data sources, Codex functional classes, and Ahrefs search metrics to explain E-numbers.',
+    'Learn how the Food Additives Catalogue collects and uses information, including analytics practices and data rights.',
   alternates: {
-    canonical: '/about',
+    canonical: '/privacy',
   },
 };
 
-export default async function AboutPage() {
-  const rawContent = await getAboutContent();
+export default async function PrivacyPage() {
+  const rawContent = await getPrivacyContent();
   const [firstLine, ...restLines] = rawContent.split('\n');
   const hasMarkdownTitle = firstLine.trim().startsWith('# ');
   const title = hasMarkdownTitle ? firstLine.replace(/^#\s*/, '').trim() : undefined;

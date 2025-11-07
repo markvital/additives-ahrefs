@@ -5,25 +5,25 @@ import { promises as fs } from 'fs';
 
 import { MarkdownArticle } from '../../components/MarkdownArticle';
 
-const aboutFilePath = path.join(process.cwd(), 'data', 'pages', 'about.md');
+const termsFilePath = path.join(process.cwd(), 'data', 'pages', 'terms.md');
 
-async function getAboutContent(): Promise<string> {
-  const file = await fs.readFile(aboutFilePath, 'utf8');
+async function getTermsContent(): Promise<string> {
+  const file = await fs.readFile(termsFilePath, 'utf8');
 
   return file;
 }
 
 export const metadata: Metadata = {
-  title: 'About the Food Additives Catalogue',
+  title: 'Terms of Use',
   description:
-    'Learn how the Food Additives Catalogue combines open data sources, Codex functional classes, and Ahrefs search metrics to explain E-numbers.',
+    'Understand the conditions and limitations for using the Food Additives Catalogue, including liability and acceptable use.',
   alternates: {
-    canonical: '/about',
+    canonical: '/terms',
   },
 };
 
-export default async function AboutPage() {
-  const rawContent = await getAboutContent();
+export default async function TermsPage() {
+  const rawContent = await getTermsContent();
   const [firstLine, ...restLines] = rawContent.split('\n');
   const hasMarkdownTitle = firstLine.trim().startsWith('# ');
   const title = hasMarkdownTitle ? firstLine.replace(/^#\s*/, '').trim() : undefined;
