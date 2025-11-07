@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Typography } from '@mui/material';
 import { Roboto } from 'next/font/google';
+import Script from 'next/script';
 
 import { Providers } from '../components/Providers';
 import { SiteHeader } from '../components/SiteHeader';
@@ -36,6 +37,13 @@ export default function RootLayout({
 
   return (
     <html lang="en">
+      <head>
+        <Script
+          src="https://analytics.ahrefs.com/analytics.js"
+          data-key="Fj7+bX0Bk8e745CrMY+rpQ"
+          strategy="afterInteractive"
+        />
+      </head>
       <body className={roboto.className}>
         <ReportMistakeProvider>
           <Providers>
