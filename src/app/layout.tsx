@@ -67,6 +67,12 @@ export default function RootLayout({
                       <Link href="/origin" className="header-link">
                         Origins
                       </Link>
+                      <Link href="/privacy" className="header-link">
+                        Privacy
+                      </Link>
+                      <Link href="/term" className="header-link">
+                        Terms
+                      </Link>
                       <Suspense fallback={null}>
                         <ReportMistakeLink className="header-link" />
                       </Suspense>
