@@ -1,7 +1,7 @@
 import { getAdditives, getFunctionFilters, getOriginFilters } from './additives';
 import { absoluteUrl } from './site';
 
-const SITEMAP_BASE_PATHS = ['/', '/function', '/origin', '/compare', '/about', '/privacy', '/term'] as const;
+const SITEMAP_BASE_PATHS = ['/', '/function', '/origin', '/compare', '/about', '/privacy', '/terms'] as const;
 const SITEMAP_PAGE_SIZE = 5000;
 
 type SitemapSegment = {

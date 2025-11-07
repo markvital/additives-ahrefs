@@ -63,7 +63,7 @@ const SELECTOR_POPPER_HEIGHT_MOBILE = 440;
 const HINT_APPEAR_DELAY_MS = 280;
 
 function extractAdditiveSlug(pathname: string | null): string | null {
-  if (!pathname || pathname === '/' || pathname === '/about') {
+  if (!pathname || pathname === '/' || pathname === '/about' || pathname === '/privacy' || pathname === '/terms') {
     return null;
   }
 
@@ -424,7 +424,9 @@ function CompareFlapUI() {
 
   const isComparePage = pathname?.startsWith('/compare');
   const isAboutPage = pathname === '/about';
-  const shouldHide = isComparePage || isAboutPage;
+  const isPrivacyPage = pathname === '/privacy';
+  const isTermsPage = pathname === '/terms';
+  const shouldHide = isComparePage || isAboutPage || isPrivacyPage || isTermsPage;
 
   useEffect(() => {
     if (shouldHide) {

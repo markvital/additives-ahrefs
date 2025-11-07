@@ -5,7 +5,7 @@ import { promises as fs } from 'fs';
 
 import { MarkdownArticle } from '../../components/MarkdownArticle';
 
-const privacyFilePath = path.join(process.cwd(), 'data', 'privacy.md');
+const privacyFilePath = path.join(process.cwd(), 'data', 'pages', 'privacy.md');
 
 async function getPrivacyContent(): Promise<string> {
   const file = await fs.readFile(privacyFilePath, 'utf8');

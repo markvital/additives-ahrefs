@@ -70,7 +70,7 @@ export default function RootLayout({
                       <Link href="/privacy" className="header-link">
                         Privacy
                       </Link>
-                      <Link href="/term" className="header-link">
+                      <Link href="/terms" className="header-link">
                         Terms
                       </Link>
                       <Suspense fallback={null}>

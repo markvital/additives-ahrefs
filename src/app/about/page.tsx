@@ -5,7 +5,7 @@ import { promises as fs } from 'fs';
 
 import { MarkdownArticle } from '../../components/MarkdownArticle';
 
-const aboutFilePath = path.join(process.cwd(), 'data', 'about.md');
+const aboutFilePath = path.join(process.cwd(), 'data', 'pages', 'about.md');
 
 async function getAboutContent(): Promise<string> {
   const file = await fs.readFile(aboutFilePath, 'utf8');

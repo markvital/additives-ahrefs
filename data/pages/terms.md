@@ -1,6 +1,6 @@
 # Terms of Use
 
-_Last updated: May 10, 2024_
+_Last updated: November 6, 2025_
 
 Please read these Terms of Use (the "Terms") carefully before using the Food Additives Catalogue (the "Service"). By accessing or using the Service, you agree to be bound by these Terms. If you do not agree, do not access or use the Service.
 
@@ -11,6 +11,8 @@ You must be at least 13 years old to use the Service. By using the Service, you 
 ## 2. Informational Purpose Only
 
 The Service provides general information about food additives. It does not constitute legal, medical, nutritional, or safety advice. Regulatory requirements may vary between jurisdictions and may change over time. You are responsible for verifying information with appropriate authorities before relying on it.
+
+• Informational use only. The catalogue is a reference tool; it does not provide legal or medical advice. Regulatory rules vary between jurisdictions and may change.
 
 ## 3. Accuracy of Information
 
@@ -59,4 +61,4 @@ These Terms are governed by the laws of the jurisdiction in which Ahrefs is inco
 
 ## 13. Contact Us
 
-If you have questions about these Terms or the Service, please contact us at legal@ahrefs.com.
+If you have questions about these Terms or the Service, please contact us at feedback@acme.com.

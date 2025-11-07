@@ -1,6 +1,6 @@
 # Privacy Policy
 
-_Last updated: May 10, 2024_
+_Last updated: November 6, 2025_
 
 Thank you for visiting the Food Additives Catalogue (the "Service"). This Privacy Policy explains how we collect, use, and safeguard information when you use the Service. By accessing or using the Service, you agree to the practices described below.
 
@@ -59,4 +59,4 @@ We may update this Privacy Policy from time to time. Changes will be posted on t
 
 ## Contact Us
 
-If you have questions or concerns about this Privacy Policy or our data practices, please email us at privacy@ahrefs.com.
+If you have questions or concerns about this Privacy Policy or our data practices, please email us at feedback@acme.com.

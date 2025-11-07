@@ -5,7 +5,7 @@ import { promises as fs } from 'fs';
 
 import { MarkdownArticle } from '../../components/MarkdownArticle';
 
-const termsFilePath = path.join(process.cwd(), 'data', 'term.md');
+const termsFilePath = path.join(process.cwd(), 'data', 'pages', 'terms.md');
 
 async function getTermsContent(): Promise<string> {
   const file = await fs.readFile(termsFilePath, 'utf8');
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   description:
     'Understand the conditions and limitations for using the Food Additives Catalogue, including liability and acceptable use.',
   alternates: {
-    canonical: '/term',
+    canonical: '/terms',
   },
 };
 
