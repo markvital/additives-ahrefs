@@ -1,6 +1,7 @@
 import { Box, Typography } from '@mui/material';
 
 import type { SearchQuestionItem } from '../lib/search-questions';
+import { AhrefsAttributionTooltip } from './AhrefsAttributionTooltip';
 
 interface SearchQuestionsProps {
   questions: SearchQuestionItem[];
@@ -49,37 +50,44 @@ export function SearchQuestions({ questions }: SearchQuestionsProps) {
 
   return (
     <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1.5 }}>
-      <Typography component="h2" variant="h4" sx={{ fontWeight: 600 }}>
-        Popular Questions
-      </Typography>
+      <Box sx={{ backgroundColor: '#ebebeb', p: 2, borderRadius: 1 }}>
+        <Typography component="h2" variant="h4" sx={{ fontWeight: 600, mb: 1.5 }}>
+          Popular Questions
+        </Typography>
 
-      <Box
-        component="ol"
-        sx={{
-          listStyleType: 'decimal',
-          listStylePosition: 'outside',
-          pl: 3,
-          m: 0,
-          '& > li:not(:last-of-type)': {
-            mb: 1.5,
-          },
-        }}
-      >
-        {items.map((item) => (
-          <Box key={item.keyword} component="li">
-            <Box sx={{ display: 'flex', flexDirection: 'column', gap: 0.75 }}>
-              <Typography variant="body1" color="text.primary" sx={{ fontWeight: 600 }}>
-                {item.keyword}
-              </Typography>
-              {item.hasAnswer && (
-                <Typography variant="body1" color="text.secondary" component="p">
-                  {item.answer}
+        <Box
+          component="ol"
+          sx={{
+            listStyleType: 'decimal',
+            listStylePosition: 'outside',
+            pl: 3,
+            m: 0,
+            '& > li:not(:last-of-type)': {
+              mb: 1.5,
+            },
+          }}
+        >
+          {items.map((item) => (
+            <Box key={item.keyword} component="li">
+              <Box sx={{ display: 'flex', flexDirection: 'column', gap: 0.75 }}>
+                <Typography variant="body1" color="text.primary" sx={{ fontWeight: 600 }}>
+                  {item.keyword}
                 </Typography>
-              )}
+                {item.hasAnswer && (
+                  <Typography variant="body1" color="text.secondary" component="p">
+                    {item.answer}
+                  </Typography>
+                )}
+              </Box>
             </Box>
-          </Box>
-        ))}
+          ))}
+        </Box>
       </Box>
+
+      <Typography variant="body2" color="text.secondary" sx={{ fontSize: '0.875rem' }}>
+        Top questions that users ask about this topic based on{' '}
+        <AhrefsAttributionTooltip /> data
+      </Typography>
     </Box>
   );
 }
