@@ -38,14 +38,14 @@ const getTooltipExplanation = (index: number): string => {
   }
 
   if (index > 1.25) {
-    return "Searched much more than it's used in products. Likely over-aware / buzzy.";
+    return "Searched much more than it's used in products. Likely used outside food or over-hyped.";
   }
 
   if (index < 0.8) {
-    return 'Used widely but searched less than expected. Likely under-aware.';
+    return 'Used widely but searched less than expected. Consumers likely under-aware.';
   }
 
-  return 'Searched proportional to its use. Typical awareness.';
+  return 'Search proportional to its use. Typical awareness.';
 };
 
 const formatGridLabel = (index: number): string => {
@@ -65,13 +65,13 @@ const buildTooltipContent = (index: number, formattedIndex: string) => {
 
   return (
     <Stack spacing={0.5}>
-      <Typography component="span" variant="body2" fontWeight={700}>
+      <Typography component="span" variant="body2" fontWeight={700} textAlign="center">
         Awareness Score - {formattedIndex.replace(/^×/, '')}
       </Typography>
       <Typography component="span" variant="body2" sx={{ fontStyle: 'italic' }}>
         {explanation}
       </Typography>
-      <Typography component="span" variant="body2">
+      <Typography component="span" variant="body2" textAlign="center">
         Compares searches to usage. ×1.0 = normal; above 1 = over-aware; below 1 = under-aware.{' '}
         <MuiLink
           href="/about#awareness_score"
