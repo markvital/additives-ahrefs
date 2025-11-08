@@ -62,7 +62,7 @@ export function SiteHeader() {
                 <span className="header-logo-mobile">
                   <Image
                     src="/img/logo_square.svg"
-                    alt=""
+                    alt="Logo"
                     width={82}
                     height={99}
                     priority
@@ -72,7 +72,7 @@ export function SiteHeader() {
                 <span className="header-logo-desktop">
                   <Image
                     src="/img/logo_wide.svg"
-                    alt=""
+                    alt="Logo"
                     width={647}
                     height={99}
                     priority
