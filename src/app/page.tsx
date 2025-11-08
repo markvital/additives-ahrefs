@@ -5,6 +5,7 @@ import { Box, Link as MuiLink, Typography } from '@mui/material';
 
 import { AdditiveGridInfinite } from '../components/AdditiveGridInfinite';
 import { FilterPanel } from '../components/FilterPanel';
+import { FeaturedWidget } from '../components/FeaturedWidget';
 import {
   getAdditives,
   getFunctionFilters,
@@ -231,6 +232,23 @@ export default async function HomePage({ searchParams }: HomePageProps) {
               .
             </Typography>
           </Box>
+          <Box
+            flex={{ md: '0 0 33.3333%' }}
+            maxWidth={{ md: '33.3333%' }}
+            width="100%"
+            display={{ xs: 'none', md: 'flex' }}
+          >
+            <FeaturedWidget />
+          </Box>
+        </Box>
+
+        <Box display={{ xs: 'block', md: 'none' }} sx={{ mt: 2 }}>
+          <FeaturedWidget />
+        </Box>
+      </Box>
+
+      <Box className="page-hero" sx={{ display: { xs: 'none', md: 'none' } }}>
+        <Box className="page-hero-content">
           <Box flex={{ md: '0 0 33.3333%' }} maxWidth={{ md: '33.3333%' }} width="100%">
             <Box
               display={{ xs: 'none', md: 'flex' }}
