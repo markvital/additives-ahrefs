@@ -209,6 +209,7 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
       )}
       {' for the last 10 years from '}
       <AhrefsAttributionTooltip />
+      {' search data'}
     </>
   );
 
@@ -433,7 +434,7 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
                     {icon ? (
                       <Image
                         src={icon}
-                        alt=""
+                        alt={`${label} flag`}
                         width={16}
                         height={16}
                         style={{ width: '100%', height: '100%', objectFit: 'contain' }}
