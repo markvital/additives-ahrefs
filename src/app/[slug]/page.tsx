@@ -28,6 +28,7 @@ import { SearchQuestions } from '../../components/SearchQuestions';
 import { ReportMistakeName } from '../../components/ReportMistakeContext';
 import { CompareFlapPrefill } from '../../components/CompareFlap';
 import { AwarenessScoreChip } from '../../components/AwarenessScoreChip';
+import { CopyLinkButton } from '../../components/CopyLinkButton';
 
 interface AdditivePageProps {
   params: Promise<{ slug: string }>;
@@ -231,6 +232,9 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
             <Typography component="h1" variant="h1" sx={{ color: 'inherit' }}>
               {displayName}
             </Typography>
+            <Box sx={{ mt: 2 }}>
+              <CopyLinkButton variant="outlined" size="medium" />
+            </Box>
           </Box>
         </Box>
 
@@ -569,6 +573,10 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
             </MuiLink>
           </Typography>
         )}
+
+        <Box sx={{ display: 'flex', justifyContent: 'center', mt: 3 }}>
+          <CopyLinkButton variant="outlined" size="medium" />
+        </Box>
         </Box>
       </Box>
     </>
