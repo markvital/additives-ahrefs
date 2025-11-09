@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { Box, Link as MuiLink, Snackbar, Tooltip } from '@mui/material';
+import { Link as MuiLink, Snackbar } from '@mui/material';
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 import CheckIcon from '@mui/icons-material/Check';
 
@@ -36,32 +36,30 @@ export function CopyLinkButton({ url }: CopyLinkButtonProps) {
 
   return (
     <>
-      <Tooltip title={copied ? 'Additive link copied' : 'Copy link'} arrow>
-        <MuiLink
-          component="button"
-          onClick={handleCopy}
-          underline="hover"
-          sx={{
-            display: 'inline-flex',
-            alignItems: 'center',
-            gap: 0.75,
-            textTransform: 'none',
-            fontWeight: 600,
-            fontSize: '0.95rem',
-            color: copied ? 'success.main' : 'primary.main',
-            cursor: 'pointer',
-            border: 'none',
-            background: 'none',
-            padding: 0,
-            '&:hover': {
-              color: copied ? 'success.dark' : 'primary.dark',
-            },
-          }}
-        >
-          {copied ? <CheckIcon fontSize="small" /> : <ContentCopyIcon fontSize="small" />}
-          {copied ? 'Link copied' : 'Copy link'}
-        </MuiLink>
-      </Tooltip>
+      <MuiLink
+        component="button"
+        onClick={handleCopy}
+        underline="hover"
+        sx={{
+          display: 'inline-flex',
+          alignItems: 'center',
+          gap: 0.75,
+          textTransform: 'none',
+          fontWeight: 600,
+          fontSize: '0.95rem',
+          color: '#717171',
+          cursor: 'pointer',
+          border: 'none',
+          background: 'none',
+          padding: 0,
+          '&:hover': {
+            color: '#5a5a5a',
+          },
+        }}
+      >
+        {copied ? <CheckIcon fontSize="small" /> : <ContentCopyIcon fontSize="small" />}
+        {copied ? 'Link copied' : 'Copy link'}
+      </MuiLink>
 
       <Snackbar
         open={showSnackbar}
