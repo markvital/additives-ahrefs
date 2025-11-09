@@ -560,21 +560,31 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
 
         {questionItems.length > 0 && <SearchQuestions questions={questionItems} />}
 
-        {additive.wikipedia && (
-          <Typography variant="body1">
-            <MuiLink
-              href={additive.wikipedia}
-              target="_blank"
-              rel="noopener noreferrer"
-              underline="hover"
-              sx={{ fontWeight: 500 }}
-            >
-              Read more on Wikipedia
-            </MuiLink>
-          </Typography>
-        )}
-
-        <Box sx={{ display: 'flex', justifyContent: 'flex-end', m: 0 }}>
+        <Box
+          sx={{
+            display: 'flex',
+            flexDirection: { xs: 'column', sm: 'row' },
+            justifyContent: { xs: 'flex-start', sm: 'space-between' },
+            alignItems: { xs: 'flex-start', sm: 'center' },
+            gap: { xs: 2, sm: 0 },
+            m: 0,
+          }}
+        >
+          {additive.wikipedia ? (
+            <Typography variant="body1">
+              <MuiLink
+                href={additive.wikipedia}
+                target="_blank"
+                rel="noopener noreferrer"
+                underline="hover"
+                sx={{ fontWeight: 500 }}
+              >
+                Read more on Wikipedia
+              </MuiLink>
+            </Typography>
+          ) : (
+            <Box />
+          )}
           <CopyLinkButton />
         </Box>
         </Box>
