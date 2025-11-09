@@ -64,7 +64,6 @@ export function FeaturedCard({ additive, awarenessScore }: FeaturedCardProps) {
                 variant="overline"
                 color="text.secondary"
                 letterSpacing={1.2}
-                sx={{ fontSize: '0.875rem', fontWeight: 600 }}
               >
                 {additive.eNumber}
               </Typography>

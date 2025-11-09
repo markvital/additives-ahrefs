@@ -28,6 +28,7 @@ export function FeaturedWidget() {
       gap={2}
       sx={{
         width: '100%',
+        maxWidth: { sm: '460px' },
       }}
     >
       <Typography
@@ -47,26 +48,27 @@ export function FeaturedWidget() {
 
       <Box
         display="flex"
-        flexDirection={{ xs: 'column', md: 'row' }}
-        gap={2}
-        alignItems={{ xs: 'center', md: 'flex-start' }}
+        flexDirection={{ xs: 'column', sm: 'row' }}
+        gap="10px"
+        alignItems={{ xs: 'center', sm: 'flex-start' }}
+        justifyContent="space-between"
       >
         <Typography
           variant="body1"
           sx={{
-            textAlign: { xs: 'center', md: 'left' },
-            fontSize: { xs: '1rem', md: '1.1rem' },
-            fontWeight: 500,
+            textAlign: { xs: 'center', sm: 'left' },
+            fontSize: '1rem',
+            fontWeight: 400,
             lineHeight: 1.4,
             color: '#ffffff',
-            flex: { xs: 'none', md: '0 0 33.3%' },
-            maxWidth: { xs: '100%', md: '33.3%' },
+            flex: { xs: 'none', sm: '1' },
+            maxWidth: { xs: '100%', sm: '240px' },
           }}
         >
           {config.description}
         </Typography>
 
-        <Box sx={{ flex: { xs: 'none', md: '0 0 66.6%' }, display: 'flex', justifyContent: { xs: 'center', md: 'flex-start' } }}>
+        <Box sx={{ flex: 'none' }}>
           <FeaturedCard additive={gridItem} awarenessScore={awarenessScore} />
         </Box>
       </Box>

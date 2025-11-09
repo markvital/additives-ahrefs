@@ -160,12 +160,12 @@ export default async function HomePage({ searchParams }: HomePageProps) {
           className="page-hero-content"
           display="flex"
           flexDirection={{ xs: 'column', md: 'row' }}
-          gap={{ xs: 3, md: 6 }}
+          gap={{ xs: 3, md: '20px' }}
           alignItems={{ xs: 'flex-start', md: 'stretch' }}
         >
           <Box
-            flex={{ md: '0 0 50%', lg: '0 0 66.6667%' }}
-            maxWidth={{ md: '50%', lg: '66.6667%' }}
+            flex={{ md: '0 0 50%' }}
+            maxWidth={{ md: '50%' }}
             display="flex"
             flexDirection="column"
             gap={2}
@@ -233,10 +233,11 @@ export default async function HomePage({ searchParams }: HomePageProps) {
             </Typography>
           </Box>
           <Box
-            flex={{ md: '0 0 50%', lg: '0 0 33.3333%' }}
-            maxWidth={{ md: '50%', lg: '33.3333%' }}
+            flex={{ md: '0 0 50%' }}
+            maxWidth={{ md: '50%' }}
             width="100%"
             display={{ xs: 'none', md: 'flex' }}
+            justifyContent="flex-end"
           >
             <FeaturedWidget />
           </Box>
