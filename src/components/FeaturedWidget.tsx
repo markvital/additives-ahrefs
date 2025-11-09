@@ -45,20 +45,29 @@ export function FeaturedWidget() {
         Featured Additive
       </Typography>
 
-      <Typography
-        variant="body1"
-        sx={{
-          textAlign: { xs: 'center', md: 'left' },
-          fontSize: { xs: '1rem', md: '1.1rem' },
-          fontWeight: 500,
-          lineHeight: 1.4,
-          color: '#ffffff',
-        }}
+      <Box
+        display="flex"
+        flexDirection={{ xs: 'column', md: 'row' }}
+        gap={2}
+        alignItems="center"
       >
-        {config.description}
-      </Typography>
+        <Typography
+          variant="body1"
+          sx={{
+            textAlign: { xs: 'center', md: 'left' },
+            fontSize: { xs: '1rem', md: '1.1rem' },
+            fontWeight: 500,
+            lineHeight: 1.4,
+            color: '#ffffff',
+            flex: { xs: 'none', md: '0 0 auto' },
+            maxWidth: { xs: '100%', md: '45%' },
+          }}
+        >
+          {config.description}
+        </Typography>
 
-      <FeaturedCard additive={gridItem} awarenessScore={awarenessScore} />
+        <FeaturedCard additive={gridItem} awarenessScore={awarenessScore} />
+      </Box>
     </Box>
   );
 }

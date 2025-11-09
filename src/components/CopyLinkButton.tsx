@@ -1,21 +1,20 @@
 'use client';
 
 import { useState } from 'react';
-import { Button, Snackbar, Tooltip } from '@mui/material';
+import { Box, Link as MuiLink, Snackbar, Tooltip } from '@mui/material';
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 import CheckIcon from '@mui/icons-material/Check';
 
 interface CopyLinkButtonProps {
   url?: string;
-  variant?: 'text' | 'outlined' | 'contained';
-  size?: 'small' | 'medium' | 'large';
 }
 
-export function CopyLinkButton({ url, variant = 'outlined', size = 'small' }: CopyLinkButtonProps) {
+export function CopyLinkButton({ url }: CopyLinkButtonProps) {
   const [copied, setCopied] = useState(false);
   const [showSnackbar, setShowSnackbar] = useState(false);
 
-  const handleCopy = async () => {
+  const handleCopy = async (e: React.MouseEvent) => {
+    e.preventDefault();
     const linkToCopy = url ?? (typeof window !== 'undefined' ? window.location.href : '');
 
     try {
@@ -37,31 +36,38 @@ export function CopyLinkButton({ url, variant = 'outlined', size = 'small' }: Co
 
   return (
     <>
-      <Tooltip title={copied ? 'Copied!' : 'Copy link'} arrow>
-        <Button
-          variant={variant}
-          size={size}
+      <Tooltip title={copied ? 'Additive link copied' : 'Copy link'} arrow>
+        <MuiLink
+          component="button"
           onClick={handleCopy}
-          startIcon={copied ? <CheckIcon /> : <ContentCopyIcon />}
+          underline="hover"
           sx={{
+            display: 'inline-flex',
+            alignItems: 'center',
+            gap: 0.75,
             textTransform: 'none',
             fontWeight: 600,
-            borderColor: copied ? 'success.main' : undefined,
-            color: copied ? 'success.main' : undefined,
+            fontSize: '0.95rem',
+            color: copied ? 'success.main' : 'primary.main',
+            cursor: 'pointer',
+            border: 'none',
+            background: 'none',
+            padding: 0,
             '&:hover': {
-              borderColor: copied ? 'success.dark' : undefined,
+              color: copied ? 'success.dark' : 'primary.dark',
             },
           }}
         >
+          {copied ? <CheckIcon fontSize="small" /> : <ContentCopyIcon fontSize="small" />}
           {copied ? 'Link copied' : 'Copy link'}
-        </Button>
+        </MuiLink>
       </Tooltip>
 
       <Snackbar
         open={showSnackbar}
         autoHideDuration={2000}
         onClose={handleCloseSnackbar}
-        message="Link copied to clipboard"
+        message="Additive link copied to clipboard"
         anchorOrigin={{ vertical: 'bottom', horizontal: 'center' }}
       />
     </>

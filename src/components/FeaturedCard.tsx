@@ -26,7 +26,8 @@ export function FeaturedCard({ additive, awarenessScore }: FeaturedCardProps) {
         display: 'flex',
         flexDirection: 'column',
         backgroundColor: '#ffffff',
-        borderRadius: 3,
+        borderRadius: '24px',
+        width: '70%',
       }}
     >
       <CardActionArea
@@ -48,11 +49,12 @@ export function FeaturedCard({ additive, awarenessScore }: FeaturedCardProps) {
             width: '100%',
             boxSizing: 'border-box',
             px: 2,
-            py: 2,
+            pt: 1.4,
+            pb: 2,
             '&:last-child': { pb: 2 },
           }}
         >
-          <Stack spacing={1.5}>
+          <Stack spacing={0.5}>
             {/* Row 1: E-number, origins, awareness score */}
             <Box display="flex" justifyContent="space-between" alignItems="center">
               <Typography
