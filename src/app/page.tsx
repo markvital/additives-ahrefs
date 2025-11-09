@@ -178,39 +178,36 @@ export default async function HomePage({ searchParams }: HomePageProps) {
               Food additives
             </Typography>
             <Typography
+              component="h2"
+              variant="h3"
+              sx={{
+                fontWeight: 700,
+                fontSize: { xs: '1.5rem', md: '1.75rem' },
+                lineHeight: 1.3,
+                color: '#ffffff',
+                mb: 1,
+              }}
+            >
+              Compare additives. Raise awareness.
+            </Typography>
+            <Typography
               variant="body1"
               className="page-hero-subtitle"
               sx={{ fontSize: { xs: '1.05rem', md: '1.15rem' } }}
             >
-              <Box
-                component="span"
-                sx={{
-                  display: 'inline-flex',
-                  fontWeight: 700,
-                  textTransform: 'uppercase',
-                  letterSpacing: '0.08em',
-                  mr: 0.75,
-                }}
-              >
-                COMPARE
-              </Box>{' '}
-              data on{' '}
+              Discover data on{' '}
               <Box component="span" sx={highlightNumberSx}>
                 {numberFormatter.format(additiveCount)}
               </Box>{' '}
-              common food additives we found after analyzing{' '}
+              additives—built from{' '}
               <Box component="span" sx={highlightNumberSx}>
                 {numberFormatter.format(817_713)}
               </Box>{' '}
-              products from <Box component="span" sx={{ whiteSpace: 'nowrap' }}>Open Food Facts</Box> and{' '}
+              products and{' '}
               <Box component="span" sx={highlightNumberSx}>
                 {numberFormatter.format(keywordCount)}
               </Box>{' '}
-              keywords in the U.S. from{' '}
-              <Box component="span" sx={highlightNumberSx}>
-                28+ billion
-              </Box>{' '}
-              keywords via{' '}
+              U.S. keywords (
               <MuiLink
                 component={NextLink}
                 href="https://ahrefs.com"
@@ -229,7 +226,10 @@ export default async function HomePage({ searchParams }: HomePageProps) {
               >
                 Ahrefs
               </MuiLink>
-              .
+              ' <Box component="span" sx={highlightNumberSx}>
+                28B+
+              </Box>{' '}
+              database).
             </Typography>
           </Box>
           <Box
