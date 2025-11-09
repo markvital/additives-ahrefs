@@ -164,8 +164,8 @@ export default async function HomePage({ searchParams }: HomePageProps) {
           alignItems={{ xs: 'flex-start', md: 'stretch' }}
         >
           <Box
-            flex={{ md: '0 0 66.6667%' }}
-            maxWidth={{ md: '66.6667%' }}
+            flex={{ md: '0 0 50%', lg: '0 0 66.6667%' }}
+            maxWidth={{ md: '50%', lg: '66.6667%' }}
             display="flex"
             flexDirection="column"
             gap={2}
@@ -233,8 +233,8 @@ export default async function HomePage({ searchParams }: HomePageProps) {
             </Typography>
           </Box>
           <Box
-            flex={{ md: '0 0 33.3333%' }}
-            maxWidth={{ md: '33.3333%' }}
+            flex={{ md: '0 0 50%', lg: '0 0 33.3333%' }}
+            maxWidth={{ md: '50%', lg: '33.3333%' }}
             width="100%"
             display={{ xs: 'none', md: 'flex' }}
           >

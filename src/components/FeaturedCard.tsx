@@ -27,7 +27,9 @@ export function FeaturedCard({ additive, awarenessScore }: FeaturedCardProps) {
         flexDirection: 'column',
         backgroundColor: '#ffffff',
         borderRadius: '24px',
-        width: '70%',
+        width: '210px',
+        minWidth: '210px',
+        maxWidth: '210px',
       }}
     >
       <CardActionArea
@@ -51,11 +53,12 @@ export function FeaturedCard({ additive, awarenessScore }: FeaturedCardProps) {
             px: 2,
             pt: 1.4,
             pb: 2,
+            position: 'relative',
             '&:last-child': { pb: 2 },
           }}
         >
           <Stack spacing={0.5}>
-            {/* Row 1: E-number, origins, awareness score */}
+            {/* Row 1: E-number and awareness score */}
             <Box display="flex" justifyContent="space-between" alignItems="center">
               <Typography
                 variant="overline"
@@ -65,43 +68,6 @@ export function FeaturedCard({ additive, awarenessScore }: FeaturedCardProps) {
               >
                 {additive.eNumber}
               </Typography>
-
-              <Stack direction="row" spacing={0.75} alignItems="center" sx={{ flex: 1, justifyContent: 'center' }}>
-                {origins.map((origin) => {
-                  const icon = getOriginIcon(origin);
-                  const abbreviation = getOriginAbbreviation(origin);
-                  const label = formatOriginLabel(origin);
-
-                  return (
-                    <Tooltip key={origin} title={label} arrow>
-                      <Avatar
-                        variant="circular"
-                        sx={{
-                          width: 28,
-                          height: 28,
-                          bgcolor: 'grey.100',
-                          color: 'text.primary',
-                          fontSize: 12,
-                          fontWeight: 600,
-                          p: 0.5,
-                        }}
-                      >
-                        {icon ? (
-                          <Image
-                            src={icon}
-                            alt={`${label} origin icon`}
-                            width={20}
-                            height={20}
-                            style={{ width: '100%', height: '100%', objectFit: 'contain' }}
-                          />
-                        ) : (
-                          abbreviation
-                        )}
-                      </Avatar>
-                    </Tooltip>
-                  );
-                })}
-              </Stack>
 
               <Box sx={{ display: 'flex', justifyContent: 'flex-end' }}>
                 {awarenessScore ? (
@@ -135,6 +101,55 @@ export function FeaturedCard({ additive, awarenessScore }: FeaturedCardProps) {
               )}
             </Box>
           </Stack>
+
+          {/* Origin icons - positioned in bottom right corner */}
+          {origins.length > 0 && (
+            <Stack
+              direction="row"
+              spacing={0.5}
+              alignItems="center"
+              sx={{
+                position: 'absolute',
+                bottom: 16,
+                right: 16,
+              }}
+            >
+              {origins.map((origin) => {
+                const icon = getOriginIcon(origin);
+                const abbreviation = getOriginAbbreviation(origin);
+                const label = formatOriginLabel(origin);
+
+                return (
+                  <Tooltip key={origin} title={label} arrow>
+                    <Avatar
+                      variant="circular"
+                      sx={{
+                        width: 24,
+                        height: 24,
+                        bgcolor: 'grey.100',
+                        color: 'text.primary',
+                        fontSize: 11,
+                        fontWeight: 600,
+                        p: 0.375,
+                      }}
+                    >
+                      {icon ? (
+                        <Image
+                          src={icon}
+                          alt={`${label} origin icon`}
+                          width={16}
+                          height={16}
+                          style={{ width: '100%', height: '100%', objectFit: 'contain' }}
+                        />
+                      ) : (
+                        abbreviation
+                      )}
+                    </Avatar>
+                  </Tooltip>
+                );
+              })}
+            </Stack>
+          )}
         </CardContent>
       </CardActionArea>
     </Card>

@@ -49,7 +49,7 @@ export function FeaturedWidget() {
         display="flex"
         flexDirection={{ xs: 'column', md: 'row' }}
         gap={2}
-        alignItems="center"
+        alignItems={{ xs: 'center', md: 'flex-start' }}
       >
         <Typography
           variant="body1"
@@ -59,14 +59,16 @@ export function FeaturedWidget() {
             fontWeight: 500,
             lineHeight: 1.4,
             color: '#ffffff',
-            flex: { xs: 'none', md: '0 0 auto' },
-            maxWidth: { xs: '100%', md: '45%' },
+            flex: { xs: 'none', md: '0 0 33.3%' },
+            maxWidth: { xs: '100%', md: '33.3%' },
           }}
         >
           {config.description}
         </Typography>
 
-        <FeaturedCard additive={gridItem} awarenessScore={awarenessScore} />
+        <Box sx={{ flex: { xs: 'none', md: '0 0 66.6%' }, display: 'flex', justifyContent: { xs: 'center', md: 'flex-start' } }}>
+          <FeaturedCard additive={gridItem} awarenessScore={awarenessScore} />
+        </Box>
       </Box>
     </Box>
   );
