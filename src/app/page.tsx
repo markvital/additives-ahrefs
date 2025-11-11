@@ -225,7 +225,7 @@ export default async function HomePage({ searchParams }: HomePageProps) {
               >
                 Ahrefs
               </MuiLink>
-              ' <Box component="span" sx={highlightNumberSx}>
+              &apos; <Box component="span" sx={highlightNumberSx}>
                 28B+
               </Box>{' '}
               database).
