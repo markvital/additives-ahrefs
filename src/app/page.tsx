@@ -157,7 +157,7 @@ export default async function HomePage({ searchParams }: HomePageProps) {
     <Box component="section" display="flex" flexDirection="column" gap={4}>
       <Box className="page-hero">
         <Box
-          className="page-hero-content"
+          className="page-hero-content homepage-hero-content"
           display="flex"
           flexDirection={{ xs: 'column', md: 'row' }}
           gap={{ xs: 3, md: '30px', lg: '30px' }}

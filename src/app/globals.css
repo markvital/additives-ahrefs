@@ -549,20 +549,20 @@ a {
 }
 
 @media (min-width: 901px) and (max-width: 1200px) {
-  .page-hero-content > *:first-child {
+  .homepage-hero-content > *:first-child {
     flex: 0 0 50% !important;
     max-width: 50% !important;
     padding-right: 15px !important;
   }
 
-  .page-hero-content > *:last-child {
+  .homepage-hero-content > *:last-child {
     flex: 0 0 50% !important;
     max-width: 50% !important;
     padding-left: 15px !important;
     overflow: visible !important;
   }
 
-  .page-hero-content {
+  .homepage-hero-content {
     gap: 0px !important;
   }
 }

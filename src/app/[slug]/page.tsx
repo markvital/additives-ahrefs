@@ -232,7 +232,16 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
             <Typography component="h1" variant="h1" sx={{ color: 'inherit' }}>
               {displayName}
             </Typography>
-            <Box sx={{ display: 'flex', justifyContent: 'flex-end', width: '100%', maxWidth: 760, m: 0 }}>
+            <Box
+              sx={{
+                display: 'flex',
+                justifyContent: 'flex-end',
+                width: '100%',
+                maxWidth: { xs: 760, md: '50%', lg: 760 },
+                m: 0,
+                alignSelf: { md: 'flex-end' },
+              }}
+            >
               <CopyLinkButton />
             </Box>
           </Box>
