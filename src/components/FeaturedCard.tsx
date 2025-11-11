@@ -83,7 +83,7 @@ export function FeaturedCard({ additive, awarenessScore }: FeaturedCardProps) {
               variant="h2"
               sx={{
                 fontSize: '1.5rem',
-                fontWeight: 700,
+                fontWeight: 500,
                 lineHeight: 1.2,
                 textAlign: 'left',
               }}

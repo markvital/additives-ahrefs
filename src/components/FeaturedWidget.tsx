@@ -28,19 +28,18 @@ export function FeaturedWidget() {
       gap={2}
       sx={{
         width: '100%',
-        maxWidth: { sm: '460px' },
+        maxWidth: { xs: '460px', lg: '460px' },
       }}
     >
       <Typography
         component="h2"
-        variant="h6"
         sx={{
-          textAlign: 'center',
-          textTransform: 'uppercase',
-          letterSpacing: '0.08em',
+          textAlign: { xs: 'left', md: 'center' },
           fontWeight: 700,
-          fontSize: { xs: '0.95rem', md: '1.05rem' },
+          fontSize: { xs: '1.5rem', md: '1.75rem' },
+          lineHeight: 1.3,
           color: '#ffffff',
+          mb: 1,
         }}
       >
         Featured Additive
@@ -48,21 +47,21 @@ export function FeaturedWidget() {
 
       <Box
         display="flex"
-        flexDirection={{ xs: 'column', sm: 'row' }}
+        flexDirection={{ xs: 'column', sm: 'column', md: 'column', lg: 'row' }}
         gap="10px"
-        alignItems={{ xs: 'center', sm: 'flex-start' }}
+        alignItems={{ xs: 'flex-start', sm: 'flex-start', md: 'flex-end', lg: 'flex-start' }}
         justifyContent="space-between"
       >
         <Typography
           variant="body1"
           sx={{
-            textAlign: { xs: 'center', sm: 'left' },
+            textAlign: 'left',
             fontSize: '1rem',
             fontWeight: 400,
             lineHeight: 1.4,
             color: '#ffffff',
-            flex: { xs: 'none', sm: '1' },
-            maxWidth: { xs: '100%', sm: '240px' },
+            flex: { xs: 'none', sm: 'none', md: 'none', lg: '1' },
+            maxWidth: { xs: '100%', sm: '100%', md: '100%', lg: '240px' },
           }}
         >
           {config.description}
