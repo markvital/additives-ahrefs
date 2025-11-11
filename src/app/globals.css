@@ -548,19 +548,22 @@ a {
   text-decoration-color: #000000;
 }
 
-@media (min-width: 901px) and (max-width: 1150px) {
-  .page-hero-content > *:first-child {
-    flex: 0 0 56.6667% !important;
-    max-width: 56.6667% !important;
+@media (min-width: 901px) and (max-width: 1200px) {
+  .homepage-hero-content > *:first-child {
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+    padding-right: 15px !important;
   }
 
-  .page-hero-content > *:last-child {
-    flex: 0 0 43.3333% !important;
-    max-width: 43.3333% !important;
+  .homepage-hero-content > *:last-child {
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+    padding-left: 15px !important;
+    overflow: visible !important;
   }
 
-  .page-hero-content {
-    gap: 4.2rem !important;
+  .homepage-hero-content {
+    gap: 0px !important;
   }
 }
 

@@ -28,6 +28,7 @@ import { SearchQuestions } from '../../components/SearchQuestions';
 import { ReportMistakeName } from '../../components/ReportMistakeContext';
 import { CompareFlapPrefill } from '../../components/CompareFlap';
 import { AwarenessScoreChip } from '../../components/AwarenessScoreChip';
+import { CopyLinkButton } from '../../components/CopyLinkButton';
 
 interface AdditivePageProps {
   params: Promise<{ slug: string }>;
@@ -231,6 +232,18 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
             <Typography component="h1" variant="h1" sx={{ color: 'inherit' }}>
               {displayName}
             </Typography>
+            <Box
+              sx={{
+                display: 'flex',
+                justifyContent: 'flex-end',
+                width: '100%',
+                maxWidth: { xs: 760, md: '50%', lg: 760 },
+                m: 0,
+                alignSelf: { md: 'flex-end' },
+              }}
+            >
+              <CopyLinkButton />
+            </Box>
           </Box>
         </Box>
 
@@ -556,19 +569,33 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
 
         {questionItems.length > 0 && <SearchQuestions questions={questionItems} />}
 
-        {additive.wikipedia && (
-          <Typography variant="body1">
-            <MuiLink
-              href={additive.wikipedia}
-              target="_blank"
-              rel="noopener noreferrer"
-              underline="hover"
-              sx={{ fontWeight: 500 }}
-            >
-              Read more on Wikipedia
-            </MuiLink>
-          </Typography>
-        )}
+        <Box
+          sx={{
+            display: 'flex',
+            flexDirection: { xs: 'column', sm: 'row' },
+            justifyContent: { xs: 'flex-start', sm: 'space-between' },
+            alignItems: { xs: 'flex-start', sm: 'center' },
+            gap: { xs: 2, sm: 0 },
+            m: 0,
+          }}
+        >
+          {additive.wikipedia ? (
+            <Typography variant="body1">
+              <MuiLink
+                href={additive.wikipedia}
+                target="_blank"
+                rel="noopener noreferrer"
+                underline="hover"
+                sx={{ fontWeight: 500 }}
+              >
+                Read more on Wikipedia
+              </MuiLink>
+            </Typography>
+          ) : (
+            <Box />
+          )}
+          <CopyLinkButton />
+        </Box>
         </Box>
       </Box>
     </>
