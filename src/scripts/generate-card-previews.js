@@ -182,7 +182,16 @@ const captureCardPreview = async (page, slug, options = {}) => {
 
   try {
     // Navigate to preview page
-    await page.goto(url, { waitUntil: 'networkidle', timeout: 30000 });
+    const response = await page.goto(url, { waitUntil: 'networkidle', timeout: 30000 });
+
+    // Check for 404 or other HTTP errors
+    if (response && response.status() === 404) {
+      throw new Error(`Page not found (404). The /preview route may not be available. Make sure the dev/production server is running with the latest code.`);
+    }
+
+    if (response && response.status() >= 400) {
+      throw new Error(`HTTP ${response.status()} error. Server returned: ${response.statusText()}`);
+    }
 
     // Wait for the card wrapper to be scaled
     await page.waitForSelector('#card-wrapper[data-scaled="true"]', { timeout: 10000 });
