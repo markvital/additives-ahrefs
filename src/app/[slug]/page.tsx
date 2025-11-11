@@ -51,12 +51,33 @@ export async function generateMetadata({ params }: AdditivePageProps): Promise<M
   const displayName = formatAdditiveDisplayName(additive.eNumber, additive.title);
   const articleSummary = extractArticleSummary(additive.article);
   const metaDescription = articleSummary?.replace(/\s+/g, ' ').trim() || additive.description;
+  const cardImageUrl = `/card-previews/${additive.slug}.jpg`;
 
   return {
     title: displayName,
     description: metaDescription,
     alternates: {
       canonical: `/${additive.slug}`,
+    },
+    openGraph: {
+      title: displayName,
+      description: metaDescription,
+      url: `/${additive.slug}`,
+      type: 'article',
+      images: [
+        {
+          url: cardImageUrl,
+          width: 1200,
+          height: 630,
+          alt: displayName,
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: displayName,
+      description: metaDescription,
+      images: [cardImageUrl],
     },
   };
 }

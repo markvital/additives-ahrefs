@@ -44,6 +44,35 @@ The scripts are idempotent and can be re-run to refresh the dataset. Each script
 - **`searchKeywords`** appends extra keywords to the Ahrefs requests. These supplementary keywords also appear in `keywordConfig.supplementary` so the UI can flag them as manual additions.
 - `keywordConfig.included` mirrors the final keyword list sent to Ahrefs for a given additive. The search volume tooltip surfaces this alongside the excluded keywords to keep the dataset auditable.
 
+## Card preview generation
+
+Card preview images are used for social media meta tags (OpenGraph and Twitter cards). Preview images are generated using Playwright to capture screenshots of individual additive cards at 1200×630px (Meta's recommended dimensions).
+
+### Usage
+
+```bash
+# Generate previews for specific additives
+node src/scripts/generate-card-previews.js --additive e330-citric-acid
+
+# Generate previews for multiple additives
+node src/scripts/generate-card-previews.js --additive=e330-citric-acid,e422-glycerol --debug
+
+# Generate previews for first 10 additives
+node src/scripts/generate-card-previews.js --limit 10
+
+# Regenerate all existing previews
+node src/scripts/generate-card-previews.js --override
+```
+
+**Requirements:**
+- Dev server must be running (`npm run dev`)
+- Playwright browser (Chromium) installed via `npm install`
+- Set `BASE_URL` environment variable if dev server is not on default port 3000
+
+**Output:** JPEG images saved to `public/card-previews/{slug}.jpg`
+
+The script follows the same behavior as other data scripts: targeted runs (`--additive`) always regenerate, bulk runs skip existing files unless `--override` is specified.
+
 ## Ahrefs data scripts quick reference
 
 All Ahrefs-driven scripts (`update-search-volume`, `fetch-search-history`, `fetch-search-questions`, `generate-articles` and others) share the same CLI surface and behaviour. They require API key to be available in the environment or `env.local`.
