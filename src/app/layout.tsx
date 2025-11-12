@@ -1,19 +1,13 @@
-import { Suspense } from 'react';
 import type { Metadata } from 'next';
-import Image from 'next/image';
-import Link from 'next/link';
-import { Typography } from '@mui/material';
 import { Roboto } from 'next/font/google';
 import Script from 'next/script';
 
 import { Providers } from '../components/Providers';
-import { SiteHeader } from '../components/SiteHeader';
 import { ReportMistakeProvider } from '../components/ReportMistakeContext';
-import { ReportMistakeLink } from '../components/ReportMistakeLink';
 import { CompareFlapProvider } from '../components/CompareFlap';
+import { ConditionalLayout } from '../components/ConditionalLayout';
 import { getAdditives } from '../lib/additives';
 import './globals.css';
-import ahrefsLogo from '../../img/branded/ahrefs-logo.svg';
 
 const roboto = Roboto({
   subsets: ['latin'],
@@ -48,62 +42,7 @@ export default function RootLayout({
         <ReportMistakeProvider>
           <Providers>
             <CompareFlapProvider additives={additives}>
-              <div className="layout" id="top">
-                <SiteHeader />
-                <main className="main-content">
-                  <div className="content-shell">{children}</div>
-                </main>
-
-                <footer className="site-footer">
-                  <div className="content-shell footer-shell">
-                    <nav className="footer-nav" aria-label="Footer">
-                      <Typography component="span" variant="body2" className="footer-brand">
-                        <Link href="#top" className="footer-brand-link">
-                          Food Additives
-                        </Link>
-                        <span aria-hidden="true">© {currentYear}</span>
-                      </Typography>
-                      <div className="footer-links">
-                        <Link href="/about" className="header-link">
-                          About
-                        </Link>
-                        <Link href="/compare" className="header-link">
-                          Compare
-                        </Link>
-                        <Link href="/function" className="header-link">
-                          Functions
-                        </Link>
-                        <Link href="/origin" className="header-link">
-                          Origins
-                        </Link>
-                        <Link href="/privacy" className="header-link">
-                          Privacy
-                        </Link>
-                        <Link href="/terms" className="header-link">
-                          Terms
-                        </Link>
-                        <Suspense fallback={null}>
-                          <ReportMistakeLink className="header-link" />
-                        </Suspense>
-                      </div>
-                      <Link
-                        href="https://ahrefs.com"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="footer-data-link"
-                      >
-                        <span>data by</span>
-                        <Image
-                          src={ahrefsLogo}
-                          alt="Ahrefs"
-                          height={16}
-                          style={{ width: 'auto', height: '16px' }}
-                        />
-                      </Link>
-                    </nav>
-                  </div>
-                </footer>
-              </div>
+              <ConditionalLayout>{children}</ConditionalLayout>
             </CompareFlapProvider>
           </Providers>
         </ReportMistakeProvider>
