@@ -39,8 +39,8 @@ export default async function PreviewPage({ params }: PreviewPageProps) {
     <Box
       id="preview-container"
       sx={{
-        width: '1200px',
-        height: '630px',
+        width: '100vw',
+        height: '100vh',
         background: 'linear-gradient(180deg, #c19fff 0%, #f5f5f5 100%)',
         display: 'flex',
         alignItems: 'center',
@@ -48,7 +48,7 @@ export default async function PreviewPage({ params }: PreviewPageProps) {
         overflow: 'hidden',
       }}
     >
-      <Box sx={{ width: '500px' }}>
+      <Box sx={{ width: '100%', maxWidth: '500px', padding: '0 16px' }}>
         <AdditiveGrid
           items={gridItems}
           sortMode="product-count"

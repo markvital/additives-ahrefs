@@ -20,8 +20,9 @@ const DATA_DIR = path.join(__dirname, '..', '..', 'data');
 const ADDITIVES_INDEX_PATH = path.join(DATA_DIR, 'additives.json');
 const OUTPUT_DIR = path.join(__dirname, '..', '..', 'public', 'img', 'card-preview');
 const BASE_URL = process.env.BASE_URL || 'http://localhost:3000';
-const VIEWPORT_WIDTH = 1200;
-const VIEWPORT_HEIGHT = 630;
+const VIEWPORT_WIDTH = 500;   // Mobile width to trigger card's mobile layout
+const VIEWPORT_HEIGHT = 262;  // Height that maintains 1200:630 aspect ratio when scaled
+const DEVICE_SCALE_FACTOR = 2.4; // Scale factor: 500 * 2.4 = 1200px final width
 const JPEG_QUALITY = 90;
 
 const normaliseAdditiveSlug = (value) => (typeof value === 'string' ? value.trim().toLowerCase() : '');
@@ -203,7 +204,7 @@ const captureCardPreview = async (page, slug, options = {}) => {
       console.log(`[debug] Capturing screenshot to ${outputPath}`);
     }
 
-    // Capture screenshot
+    // Capture screenshot (deviceScaleFactor automatically scales to 1200×630)
     await page.screenshot({
       path: outputPath,
       type: 'jpeg',
@@ -292,6 +293,7 @@ async function main() {
   const browser = await chromium.launch({ headless: true });
   const page = await browser.newPage({
     viewport: { width: VIEWPORT_WIDTH, height: VIEWPORT_HEIGHT },
+    deviceScaleFactor: DEVICE_SCALE_FACTOR, // Scale up to 1200×630 from 500×262
   });
 
   let processedCount = 0;
