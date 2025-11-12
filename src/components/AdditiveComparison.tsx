@@ -521,6 +521,7 @@ export function AdditiveComparison({ initialSelection, initialAdditives, awarene
             </Typography>
             {awarenessScore ? (
               <Typography
+                component="div"
                 variant="body2"
                 color="text.secondary"
                 sx={{ display: 'flex', alignItems: 'center', gap: 1 }}
@@ -544,6 +545,7 @@ export function AdditiveComparison({ initialSelection, initialAdditives, awarene
           </Typography>
           {awarenessScore ? (
             <Typography
+              component="div"
               variant="body1"
               color="text.secondary"
               sx={{ display: 'flex', alignItems: 'center', gap: 1 }}

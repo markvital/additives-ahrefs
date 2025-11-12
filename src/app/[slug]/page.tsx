@@ -544,6 +544,7 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
           </Typography>
           {awarenessScore ? (
             <Typography
+              component="div"
               variant="body1"
               color="text.secondary"
               sx={{ display: 'flex', alignItems: 'center', gap: 1 }}
