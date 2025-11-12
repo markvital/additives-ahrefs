@@ -368,7 +368,7 @@ export function CompareFlapProvider({ additives, children }: CompareFlapProvider
   );
 
   // Don't render CompareFlap UI on preview pages
-  const isPreview = pathname?.startsWith('/preview');
+  const isPreview = pathname?.startsWith('/_preview');
 
   return (
     <CompareFlapContext.Provider value={contextValue}>

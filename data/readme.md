@@ -53,9 +53,6 @@ The preview system reuses the existing `AdditiveGrid` component to ensure visual
 ### Usage
 
 ```bash
-# Generate previews for specific additives
-node src/scripts/generate-card-previews.js --additive e330-citric-acid
-# Regenerate all existing previews
 node src/scripts/generate-card-previews.js
 ```
 
@@ -66,7 +63,7 @@ node src/scripts/generate-card-previews.js
 
 **Output:** JPEG images saved to `public/img/card-preview/{slug}.jpg`
 
-The script follows the same behavior as other data scripts: targeted runs (`--additive`) always regenerate, bulk runs skip existing files unless `--override` is specified.
+The script supports all common flags documented above (`--additive`, `--limit`, `--parallel`, `--override`, `--debug`).
 
 ## Ahrefs data scripts quick reference
 

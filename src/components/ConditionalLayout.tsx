@@ -18,11 +18,11 @@ interface ConditionalLayoutProps {
 
 /**
  * Conditionally renders header/footer based on the current route.
- * Preview routes (/preview/*) are rendered without any layout chrome.
+ * Preview routes (/_preview/*) are rendered without any layout chrome.
  */
 export function ConditionalLayout({ children }: ConditionalLayoutProps) {
   const pathname = usePathname();
-  const isPreview = pathname?.startsWith('/preview');
+  const isPreview = pathname?.startsWith('/_preview');
 
   if (isPreview) {
     // Preview pages: render only children without header/footer

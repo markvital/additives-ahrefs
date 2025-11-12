@@ -43,6 +43,7 @@ const parseArgs = (argv) => {
     override: false,
     help: false,
     limit: null,
+    parallel: 5,
   };
 
   let index = 0;
@@ -80,6 +81,22 @@ const parseArgs = (argv) => {
     if (arg.startsWith('--limit=')) {
       const value = arg.substring(arg.indexOf('=') + 1);
       result.limit = parsePositiveInteger(value, '--limit');
+      index += 1;
+      continue;
+    }
+
+    if (arg === '--parallel' || arg === '-parallel') {
+      if (index + 1 >= args.length) {
+        throw new Error('Missing value for --parallel.');
+      }
+      result.parallel = parsePositiveInteger(args[index + 1], '--parallel');
+      index += 2;
+      continue;
+    }
+
+    if (arg.startsWith('--parallel=')) {
+      const value = arg.substring(arg.indexOf('=') + 1);
+      result.parallel = parsePositiveInteger(value, '--parallel');
       index += 1;
       continue;
     }
@@ -137,6 +154,7 @@ const printUsage = () => {
       '  --additive <slug...>          Generate previews for the specified additive slugs.\n' +
       '  --additive=<slug,slug>        Same as above using a comma separated list.\n' +
       '  --limit, -n <value>           Process at most <value> additives.\n' +
+      '  --parallel <value>            Number of parallel browser instances (default: 5).\n' +
       '  --override                    Regenerate existing preview images.\n' +
       '  --debug                       Print verbose logging.\n' +
       '  --help                        Show this message.\n' +
@@ -144,7 +162,7 @@ const printUsage = () => {
       'Examples:\n' +
       '  node src/scripts/generate-card-previews.js --additive e330-citric-acid\n' +
       '  node src/scripts/generate-card-previews.js --limit 10 --debug\n' +
-      '  node src/scripts/generate-card-previews.js --override\n',
+      '  node src/scripts/generate-card-previews.js --override --parallel 10\n',
   );
 };
 
@@ -174,7 +192,7 @@ const fileExists = async (filePath) => {
 
 const captureCardPreview = async (page, slug, options = {}) => {
   const { debug = false } = options;
-  const url = `${BASE_URL}/preview/${slug}`;
+  const url = `${BASE_URL}/_preview/${slug}`;
   const outputPath = outputPathForSlug(slug);
 
   if (debug) {
@@ -187,7 +205,7 @@ const captureCardPreview = async (page, slug, options = {}) => {
 
     // Check for 404 or other HTTP errors
     if (response && response.status() === 404) {
-      throw new Error(`Page not found (404). The /preview route may not be available. Make sure the dev/production server is running with the latest code.`);
+      throw new Error(`Page not found (404). The /_preview route may not be available. Make sure the dev/production server is running with the latest code.`);
     }
 
     if (response && response.status() >= 400) {
@@ -287,25 +305,31 @@ async function main() {
     return;
   }
 
-  console.log(`Processing ${toProcess.length} additive${toProcess.length === 1 ? '' : 's'}...`);
+  console.log(`Processing ${toProcess.length} additive${toProcess.length === 1 ? '' : 's'} with ${cliArgs.parallel} parallel workers...`);
 
-  // Launch browser
-  const browser = await chromium.launch({ headless: true });
-  const page = await browser.newPage({
-    viewport: { width: VIEWPORT_WIDTH, height: VIEWPORT_HEIGHT },
-    deviceScaleFactor: DEVICE_SCALE_FACTOR, // Scale up to 1200×630 from 500×262
-  });
-
+  const total = toProcess.length;
   let processedCount = 0;
   let errorCount = 0;
-  const total = toProcess.length;
   let lastPercentage = 0;
 
-  for (let index = 0; index < toProcess.length; index += 1) {
-    const additive = toProcess[index];
+  // Create a pool of browser workers
+  const workers = [];
+  const parallelCount = Math.min(cliArgs.parallel, toProcess.length);
 
+  for (let i = 0; i < parallelCount; i += 1) {
+    const browser = await chromium.launch({ headless: true });
+    const page = await browser.newPage({
+      viewport: { width: VIEWPORT_WIDTH, height: VIEWPORT_HEIGHT },
+      deviceScaleFactor: DEVICE_SCALE_FACTOR,
+    });
+    workers.push({ browser, page });
+  }
+
+  // Process additives in parallel using the worker pool
+  const processAdditive = async (additive, workerIndex) => {
+    const worker = workers[workerIndex];
     try {
-      await captureCardPreview(page, additive.slug, { debug: cliArgs.debug });
+      await captureCardPreview(worker.page, additive.slug, { debug: cliArgs.debug });
       processedCount += 1;
 
       // Progress reporting (every 10%)
@@ -316,15 +340,35 @@ async function main() {
       }
 
       if (cliArgs.debug) {
-        console.log(`[${index + 1}/${total}] ${additive.slug} ✓`);
+        console.log(`[${processedCount}/${total}] ${additive.slug} ✓ (worker ${workerIndex + 1})`);
       }
     } catch (error) {
       errorCount += 1;
-      console.error(`[${index + 1}/${total}] ${additive.slug} ✗ ${error.message}`);
+      console.error(`[worker ${workerIndex + 1}] ${additive.slug} ✗ ${error.message}`);
     }
+  };
+
+  // Distribute work across workers
+  const chunks = [];
+  for (let i = 0; i < parallelCount; i += 1) {
+    chunks[i] = [];
   }
 
-  await browser.close();
+  toProcess.forEach((additive, index) => {
+    chunks[index % parallelCount].push(additive);
+  });
+
+  // Run all workers in parallel
+  await Promise.all(
+    chunks.map(async (chunk, workerIndex) => {
+      for (const additive of chunk) {
+        await processAdditive(additive, workerIndex);
+      }
+    })
+  );
+
+  // Close all browsers
+  await Promise.all(workers.map(({ browser }) => browser.close()));
 
   // Final summary
   console.log('\nDone.');
