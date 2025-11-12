@@ -367,6 +367,9 @@ export function CompareFlapProvider({ additives, children }: CompareFlapProvider
     ],
   );
 
+  // Don't render CompareFlap UI on preview pages
+  const isPreview = pathname?.startsWith('/_preview');
+
   return (
     <CompareFlapContext.Provider value={contextValue}>
       <DndContext
@@ -377,8 +380,8 @@ export function CompareFlapProvider({ additives, children }: CompareFlapProvider
         onDragCancel={handleDragCancel}
       >
         {children}
-        {isDragging ? <ScreenMatte /> : null}
-        <CompareFlapUI />
+        {!isPreview && isDragging ? <ScreenMatte /> : null}
+        {!isPreview && <CompareFlapUI />}
       </DndContext>
     </CompareFlapContext.Provider>
   );

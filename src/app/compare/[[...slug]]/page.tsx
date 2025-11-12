@@ -46,12 +46,40 @@ export async function generateMetadata({ params }: ComparePageProps): Promise<Me
       const firstName = formatAdditiveDisplayName(firstAdditive.eNumber, firstAdditive.title);
       const secondName = formatAdditiveDisplayName(secondAdditive.eNumber, secondAdditive.title);
       const canonical = `/compare/${firstAdditive.slug}-vs-${secondAdditive.slug}`;
+      const firstImageUrl = `/img/card-preview/${firstAdditive.slug}.jpg`;
+      const secondImageUrl = `/img/card-preview/${secondAdditive.slug}.jpg`;
 
       return {
         title: `Compare ${firstName} vs ${secondName}`,
         description: `Side-by-side comparison of ${firstName} and ${secondName}, including synonyms, origin, search interest, and article highlights.`,
         alternates: {
           canonical,
+        },
+        openGraph: {
+          title: `Compare ${firstName} vs ${secondName}`,
+          description: `Side-by-side comparison of ${firstName} and ${secondName}, including synonyms, origin, search interest, and article highlights.`,
+          url: canonical,
+          type: 'article',
+          images: [
+            {
+              url: firstImageUrl,
+              width: 1200,
+              height: 630,
+              alt: firstName,
+            },
+            {
+              url: secondImageUrl,
+              width: 1200,
+              height: 630,
+              alt: secondName,
+            },
+          ],
+        },
+        twitter: {
+          card: 'summary_large_image',
+          title: `Compare ${firstName} vs ${secondName}`,
+          description: `Side-by-side comparison of ${firstName} and ${secondName}, including synonyms, origin, search interest, and article highlights.`,
+          images: [firstImageUrl, secondImageUrl],
         },
       };
     }
