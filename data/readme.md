@@ -48,6 +48,8 @@ The scripts are idempotent and can be re-run to refresh the dataset. Each script
 
 Card preview images are used for social media meta tags (OpenGraph and Twitter cards). Preview images are generated using Playwright to capture screenshots of individual additive cards at 1200×630px (Meta's recommended dimensions).
 
+The preview system reuses the existing `AdditiveGrid` component to ensure visual consistency between the live site and social media previews. Cards are rendered at 500px width (mobile layout) centered on a gradient background matching the hero section, then captured at 1200×630px resolution.
+
 ### Usage
 
 ```bash
@@ -65,11 +67,11 @@ node src/scripts/generate-card-previews.js --override
 ```
 
 **Requirements:**
-- Dev server must be running (`npm run dev`)
+- Dev server must be running (`npm run dev`) or production build (`npm run build && npm run start`)
 - Playwright browser (Chromium) installed via `npm install`
-- Set `BASE_URL` environment variable if dev server is not on default port 3000
+- Set `BASE_URL` environment variable if server is not on default port 3000
 
-**Output:** JPEG images saved to `public/card-previews/{slug}.jpg`
+**Output:** JPEG images saved to `public/img/card-preview/{slug}.jpg`
 
 The script follows the same behavior as other data scripts: targeted runs (`--additive`) always regenerate, bulk runs skip existing files unless `--override` is specified.
 

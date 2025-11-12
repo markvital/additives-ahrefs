@@ -51,7 +51,7 @@ export async function generateMetadata({ params }: AdditivePageProps): Promise<M
   const displayName = formatAdditiveDisplayName(additive.eNumber, additive.title);
   const articleSummary = extractArticleSummary(additive.article);
   const metaDescription = articleSummary?.replace(/\s+/g, ' ').trim() || additive.description;
-  const cardImageUrl = `/card-previews/${additive.slug}.jpg`;
+  const cardImageUrl = `/img/card-preview/${additive.slug}.jpg`;
 
   return {
     title: displayName,

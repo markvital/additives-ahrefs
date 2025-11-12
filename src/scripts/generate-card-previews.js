@@ -18,7 +18,7 @@ const { createAdditiveSlug } = require('./utils/slug');
 
 const DATA_DIR = path.join(__dirname, '..', '..', 'data');
 const ADDITIVES_INDEX_PATH = path.join(DATA_DIR, 'additives.json');
-const OUTPUT_DIR = path.join(__dirname, '..', '..', 'public', 'card-previews');
+const OUTPUT_DIR = path.join(__dirname, '..', '..', 'public', 'img', 'card-preview');
 const BASE_URL = process.env.BASE_URL || 'http://localhost:3000';
 const VIEWPORT_WIDTH = 1200;
 const VIEWPORT_HEIGHT = 630;
@@ -193,11 +193,11 @@ const captureCardPreview = async (page, slug, options = {}) => {
       throw new Error(`HTTP ${response.status()} error. Server returned: ${response.statusText()}`);
     }
 
-    // Wait for the card wrapper to be scaled
-    await page.waitForSelector('#card-wrapper[data-scaled="true"]', { timeout: 10000 });
+    // Wait for the preview container to be ready
+    await page.waitForSelector('#preview-container', { timeout: 10000 });
 
-    // Additional small delay to ensure rendering is complete
-    await page.waitForTimeout(500);
+    // Additional delay to ensure rendering is complete (fonts, images, etc.)
+    await page.waitForTimeout(1000);
 
     if (debug) {
       console.log(`[debug] Capturing screenshot to ${outputPath}`);

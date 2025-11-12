@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation';
-import { getAdditiveBySlug, getAwarenessScores } from '../../../lib/additives';
-import { CardPreviewClient } from '../../../components/CardPreviewClient';
+import { Box } from '@mui/material';
+import { getAdditiveBySlug, getAwarenessScores, mapAdditivesToGridItems } from '../../../lib/additives';
+import { AdditiveGrid } from '../../../components/AdditiveGrid';
 
 interface PreviewPageProps {
   params: Promise<{
@@ -11,11 +12,14 @@ interface PreviewPageProps {
 /**
  * Preview page for generating card images for social media.
  *
- * This page renders a single additive card at 1200×630px (Meta's recommended dimensions)
- * with a white background. The card is rendered at 500px CSS width (mobile layout) and
- * scaled to fit within a safe area to maintain proper aspect ratio.
+ * This page renders a single additive card at 500px width with gradient background.
+ * The Playwright script captures this at 1200×630px resolution.
  *
- * This route is accessed by the Playwright script to generate JPEG screenshots.
+ * Key design decisions:
+ * - Uses the existing AdditiveGrid component to ensure consistency
+ * - Renders at 500px width (mobile layout)
+ * - Gradient background matches hero section (#c19fff to #f5f5f5)
+ * - No layout/header/footer (isolated via layout.tsx)
  */
 export default async function PreviewPage({ params }: PreviewPageProps) {
   const { slug } = await params;
@@ -26,9 +30,33 @@ export default async function PreviewPage({ params }: PreviewPageProps) {
   }
 
   const awarenessResult = getAwarenessScores();
-  const awarenessScore = awarenessResult.scores.get(additive.slug) ?? additive.awarenessScore ?? null;
+  const awarenessScores = awarenessResult.scores;
 
-  return <CardPreviewClient additive={additive} awarenessScore={awarenessScore} />;
+  // Convert to grid item format
+  const gridItems = mapAdditivesToGridItems([additive]);
+
+  return (
+    <Box
+      id="preview-container"
+      sx={{
+        width: '1200px',
+        height: '630px',
+        background: 'linear-gradient(180deg, #c19fff 0%, #f5f5f5 100%)',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        overflow: 'hidden',
+      }}
+    >
+      <Box sx={{ width: '500px' }}>
+        <AdditiveGrid
+          items={gridItems}
+          sortMode="product-count"
+          awarenessScores={awarenessScores}
+        />
+      </Box>
+    </Box>
+  );
 }
 
 // Disable static generation for this route

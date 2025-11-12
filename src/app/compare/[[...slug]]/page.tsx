@@ -46,8 +46,8 @@ export async function generateMetadata({ params }: ComparePageProps): Promise<Me
       const firstName = formatAdditiveDisplayName(firstAdditive.eNumber, firstAdditive.title);
       const secondName = formatAdditiveDisplayName(secondAdditive.eNumber, secondAdditive.title);
       const canonical = `/compare/${firstAdditive.slug}-vs-${secondAdditive.slug}`;
-      const firstImageUrl = `/card-previews/${firstAdditive.slug}.jpg`;
-      const secondImageUrl = `/card-previews/${secondAdditive.slug}.jpg`;
+      const firstImageUrl = `/img/card-preview/${firstAdditive.slug}.jpg`;
+      const secondImageUrl = `/img/card-preview/${secondAdditive.slug}.jpg`;
 
       return {
         title: `Compare ${firstName} vs ${secondName}`,
