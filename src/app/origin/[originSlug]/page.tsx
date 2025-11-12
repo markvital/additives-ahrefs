@@ -126,7 +126,7 @@ export default async function OriginPage({ params, searchParams }: OriginPagePro
     getOriginDescription(originSlug) ?? getOriginDescription(originValue);
   const originHeroIcon =
     getOriginHeroIcon(originValue) ?? getOriginHeroIcon(originSlug) ?? null;
-  const chunkSize = 50;
+  const chunkSize = 100;
   const totalCount = sortedAdditives.length;
   const useInfiniteScroll = totalCount > chunkSize;
   const initialItems = mapAdditivesToGridItems(

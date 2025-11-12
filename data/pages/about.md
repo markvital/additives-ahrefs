@@ -72,7 +72,7 @@ $$
 
 ## Navigating the interface
 
-- **Browse & filter:** Use the search bar to look up an additive by name or **E‑number**. Filters allow you to narrow results by [origin](/origin) or [function](/function), and a sort option lets you order cards by product count or search interest. A *“parent E”* toggle groups sub‑classes under their parent E‑number.
+- **Browse & filter:** Use the search bar to look up an additive by name or **E‑number**. Filters allow you to narrow results by [origin](/origin) or [function](/function), and sort controls let you order cards by product count, **Awareness Score**, search rank or E-number. A *“parent E”* toggle groups sub‑classes under their parent E‑number.
 
 - **Additive cards:** Every card shows the additive’s E‑number, name, functional tags, origin icons, search‑interest trend and monthly volume. It also reports how many OFF products contain the additive. Clicking a card opens its detail page.
 
