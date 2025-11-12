@@ -1,4 +1,4 @@
-# Food Additives Catalogue
+# Food Additive Catalogue
 
 A static catalogue that showcases a curated list of food additives. The site is built with Next.js, TypeScript, and MUI and presents each additive as a card in a clean, monochrome grid. Selecting a card reveals a detail page with synonyms, functions, descriptions, and links to further reading.
 

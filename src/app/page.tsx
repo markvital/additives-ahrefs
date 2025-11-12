@@ -24,7 +24,7 @@ import { getSearchVolumeDataset } from '../lib/search-volume';
 import { absoluteUrl } from '../lib/site';
 
 const gridSocialImage = absoluteUrl('/img/grid-screenshot.png');
-const homePageTitle = 'Food Additives Catalogue';
+const homePageTitle = 'Food Additive Catalogue';
 const homePageDescription =
   'Browse essential information about food additives, including synonyms, functions, and links to additional resources.';
 

@@ -2,7 +2,7 @@
 
 _Last updated: November 6, 2025_
 
-Please read these Terms of Use (the "Terms") carefully before using the Food Additives Catalogue (the "Service"). By accessing or using the Service, you agree to be bound by these Terms. If you do not agree, do not access or use the Service.
+Please read these Terms of Use (the "Terms") carefully before using the Food Additive Catalogue (the "Service"). By accessing or using the Service, you agree to be bound by these Terms. If you do not agree, do not access or use the Service.
 
 ## 1. Eligibility
 
