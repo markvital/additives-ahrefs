@@ -55,15 +55,8 @@ The preview system reuses the existing `AdditiveGrid` component to ensure visual
 ```bash
 # Generate previews for specific additives
 node src/scripts/generate-card-previews.js --additive e330-citric-acid
-
-# Generate previews for multiple additives
-node src/scripts/generate-card-previews.js --additive=e330-citric-acid,e422-glycerol --debug
-
-# Generate previews for first 10 additives
-node src/scripts/generate-card-previews.js --limit 10
-
 # Regenerate all existing previews
-node src/scripts/generate-card-previews.js --override
+node src/scripts/generate-card-previews.js
 ```
 
 **Requirements:**
