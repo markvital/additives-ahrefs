@@ -10,6 +10,10 @@ yarn-error.log*
 env.local
 _tmp
 
+# Generated card preview images
+public/img/card-preview/
+public/card-previews/
+public/card-previews_old/
 
 # Vercel
 .vercel
