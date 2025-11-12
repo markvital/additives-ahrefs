@@ -1,9 +1,10 @@
 'use client';
 
 import { useCallback, useEffect, useMemo, useState, type ReactNode } from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
-import { Box, Button, Chip, Stack, Typography } from '@mui/material';
+import { Box, Button, Chip, Stack, Tooltip, Typography } from '@mui/material';
 import type { Additive, AdditiveSearchItem } from '../lib/additives';
 import { formatAdditiveDisplayName, formatFunctionLabel, formatOriginLabel } from '../lib/additive-format';
 import { extractArticleSummary, splitArticlePreview } from '../lib/article';
@@ -14,6 +15,8 @@ import { AdditiveLookup } from './AdditiveLookup';
 import { SearchHistoryChart } from './SearchHistoryChart';
 import type { AwarenessScoreResult } from '../lib/awareness';
 import { AwarenessScoreChip } from './AwarenessScoreChip';
+import { getOriginIcon, getOriginAbbreviation } from '../lib/origin-icons';
+import { getOriginDescriptionBySlug, getOriginDescriptionByValue } from '../lib/origins';
 import {
   getCachedAdditiveSearchItems,
   hasAdditiveSearchDataLoaded,
@@ -66,7 +69,16 @@ const functionChipSx = {
     py: '3px',
     color: '#787878',
   },
+  '&.MuiChip-clickable': {
+    cursor: 'pointer',
+  },
 } as const;
+
+const toFilterSlug = (value: string): string | null => {
+  const slug = value.trim().toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+
+  return slug.length > 0 ? slug : null;
+};
 
 const renderSynonymContent = (additive: ComparisonAdditive | null) => {
   if (!additive) {
@@ -114,15 +126,27 @@ const renderFunctionContent = (additive: ComparisonAdditive | null) => {
 
   return (
     <Stack direction="row" spacing={1} flexWrap="wrap">
-      {functions.map((fn) => (
-        <Chip
-          key={fn}
-          label={formatFunctionLabel(fn)}
-          variant="filled"
-          size="small"
-          sx={functionChipSx}
-        />
-      ))}
+      {functions.map((fn) => {
+        const slug = toFilterSlug(fn);
+        const label = formatFunctionLabel(fn);
+
+        if (!slug) {
+          return <Chip key={fn} label={label} variant="filled" size="small" sx={functionChipSx} />;
+        }
+
+        return (
+          <Chip
+            key={fn}
+            label={label}
+            variant="filled"
+            size="small"
+            component={Link}
+            href={`/function/${slug}`}
+            clickable
+            sx={functionChipSx}
+          />
+        );
+      })}
     </Stack>
   );
 };
@@ -143,10 +167,92 @@ const renderOriginContent = (additive: ComparisonAdditive | null) => {
   const origins = additive.origin.filter((value, index, list) => list.indexOf(value) === index);
 
   return (
-    <Stack direction="row" spacing={1} flexWrap="wrap">
-      {origins.map((origin) => (
-        <Chip key={origin} label={formatOriginLabel(origin)} variant="outlined" size="small" />
-      ))}
+    <Stack direction="row" spacing={1} flexWrap="wrap" alignItems="center">
+      {origins.map((origin) => {
+        const originSlug = toFilterSlug(origin);
+        const label = formatOriginLabel(origin);
+        const icon = getOriginIcon(origin);
+        const abbreviation = getOriginAbbreviation(origin);
+        const originDescription =
+          (originSlug ? getOriginDescriptionBySlug(originSlug) : null) ??
+          getOriginDescriptionByValue(origin);
+        const tooltipTitle = originDescription ?? '';
+        const tooltipProps = originDescription
+          ? {}
+          : {
+              disableFocusListener: true,
+              disableHoverListener: true,
+              disableTouchListener: true,
+            };
+        const chipLabel = (
+          <Stack direction="row" spacing={0.75} alignItems="center">
+            <Box
+              component="span"
+              aria-hidden="true"
+              sx={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                width: 18,
+                height: 18,
+              }}
+            >
+              {icon ? (
+                <Image
+                  src={icon}
+                  alt={`${label} icon`}
+                  width={16}
+                  height={16}
+                  style={{ width: '100%', height: '100%', objectFit: 'contain' }}
+                />
+              ) : (
+                <Box component="span" sx={{ fontSize: 12, fontWeight: 600, lineHeight: 1 }}>
+                  {abbreviation}
+                </Box>
+              )}
+            </Box>
+            <Box component="span" sx={{ lineHeight: 1 }}>
+              {label}
+            </Box>
+          </Stack>
+        );
+
+        if (!originSlug) {
+          return (
+            <Tooltip
+              key={origin}
+              title={tooltipTitle}
+              arrow
+              enterTouchDelay={0}
+              leaveTouchDelay={1500}
+              {...tooltipProps}
+            >
+              <Chip label={chipLabel} variant="outlined" size="small" sx={{ px: 1 }} />
+            </Tooltip>
+          );
+        }
+
+        return (
+          <Tooltip
+            key={origin}
+            title={tooltipTitle}
+            arrow
+            enterTouchDelay={0}
+            leaveTouchDelay={1500}
+            {...tooltipProps}
+          >
+            <Chip
+              label={chipLabel}
+              variant="outlined"
+              size="small"
+              component={Link}
+              href={`/origin/${originSlug}`}
+              clickable
+              sx={{ px: 1 }}
+            />
+          </Tooltip>
+        );
+      })}
     </Stack>
   );
 };
@@ -504,57 +610,57 @@ export function AdditiveComparison({ initialSelection, initialAdditives, awarene
     };
   }, [leftMetrics, rightMetrics]);
 
-  const renderProductMetrics = useCallback(
+  const renderProductMetrics = useCallback((additive: ComparisonAdditive | null) => {
+    if (!additive) {
+      return null;
+    }
+
+    const productCount = typeof additive.productCount === 'number' ? additive.productCount : null;
+
+    if (productCount === null) {
+      return (
+        <Typography variant="body2" color="text.secondary">
+          Product data is not available.
+        </Typography>
+      );
+    }
+
+    const productLabel = formatProductCount(productCount);
+
+    return (
+      <Typography variant="body1" color="text.secondary" sx={{ fontVariantNumeric: 'tabular-nums' }}>
+        Found in <Box component="span" sx={{ fontWeight: 600 }}>{productLabel} products</Box>
+      </Typography>
+    );
+  }, []);
+
+  const renderAwarenessSection = useCallback(
     (additive: ComparisonAdditive | null) => {
       if (!additive) {
         return null;
       }
 
-      const productCount = typeof additive.productCount === 'number' ? additive.productCount : null;
       const awarenessScore = awarenessScores[additive.slug] ?? null;
 
-      if (productCount === null) {
+      if (!awarenessScore) {
         return (
-          <Stack spacing={1}>
-            <Typography variant="body2" color="text.secondary">
-              Product data is not available.
-            </Typography>
-            {awarenessScore ? (
-              <Typography
-                variant="body2"
-                color="text.secondary"
-                sx={{ display: 'flex', alignItems: 'center', gap: 1 }}
-              >
-                <Box component="span" sx={{ fontWeight: 600 }}>
-                  Awareness:
-                </Box>
-                <AwarenessScoreChip score={awarenessScore} />
-              </Typography>
-            ) : null}
-          </Stack>
+          <Typography variant="body2" color="text.secondary">
+            Awareness data is not available.
+          </Typography>
         );
       }
 
-      const productLabel = formatProductCount(productCount);
-
       return (
-        <Stack spacing={1}>
-          <Typography variant="body1" color="text.secondary" sx={{ fontVariantNumeric: 'tabular-nums' }}>
-            Found in <Box component="span" sx={{ fontWeight: 600 }}>{productLabel} products</Box>
-          </Typography>
-          {awarenessScore ? (
-            <Typography
-              variant="body1"
-              color="text.secondary"
-              sx={{ display: 'flex', alignItems: 'center', gap: 1 }}
-            >
-              <Box component="span" sx={{ fontWeight: 600 }}>
-                Awareness:
-              </Box>
-              <AwarenessScoreChip score={awarenessScore} />
-            </Typography>
-          ) : null}
-        </Stack>
+        <Typography
+          variant="body1"
+          color="text.secondary"
+          sx={{ display: 'flex', alignItems: 'center', gap: 1 }}
+        >
+          <Box component="span" sx={{ fontWeight: 600 }}>
+            Awareness:
+          </Box>
+          <AwarenessScoreChip score={awarenessScore} />
+        </Typography>
       );
     },
     [awarenessScores],
@@ -665,6 +771,11 @@ export function AdditiveComparison({ initialSelection, initialAdditives, awarene
       key: 'search-metrics',
       label: 'Search rank & volume',
       render: renderSearchMetrics,
+    },
+    {
+      key: 'awareness',
+      label: 'Awareness',
+      render: renderAwarenessSection,
     },
     {
       key: 'search-history',

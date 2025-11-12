@@ -342,58 +342,6 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
               </Box>
             </Typography>
           )}
-          {(searchRank !== null || searchVolume !== null || searchCountryText || hasKeywordShare) && (
-            <Box
-              sx={{
-                display: 'flex',
-                alignItems: 'center',
-                flexWrap: 'wrap',
-                gap: 1,
-                color: 'text.secondary',
-                typography: 'body1',
-              }}
-            >
-              <Box component="span" sx={{ fontWeight: 600 }}>
-                Search interest:
-              </Box>
-              {searchRank !== null && (
-                <Box component="span" sx={{ fontVariantNumeric: 'tabular-nums', color: 'text.primary' }}>
-                  #{searchRank}
-                </Box>
-              )}
-              {searchVolume !== null && (
-                <Box component="span" sx={{ fontVariantNumeric: 'tabular-nums', color: 'text.primary' }}>
-                  {formatMonthlyVolume(searchVolume)} / mo
-                </Box>
-              )}
-              {(searchCountryText || searchFlagEmoji) && (
-                <Box component="span" sx={{ display: 'inline-flex', alignItems: 'center', gap: 0.5 }}>
-                  {searchCountryText ? `in ${searchCountryText}` : null}
-                  {searchFlagEmoji && (
-                    <Box
-                      component="span"
-                      role="img"
-                      aria-label={searchCountryLabel ?? undefined}
-                      sx={{ fontSize: '1rem', lineHeight: 1 }}
-                    >
-                      {searchFlagEmoji}
-                    </Box>
-                  )}
-                </Box>
-              )}
-              {hasKeywordShare && (
-                <Box component="span" sx={{ display: 'inline-flex', alignItems: 'center', gap: 0.5 }}>
-                  <Box component="span">data from</Box>
-                  <SearchKeywordShare
-                    keywords={normalizedKeywordShareSegments}
-                    total={keywordShareTotal}
-                    label={`${uniqueKeywordCount} ${uniqueKeywordCount === 1 ? 'keyword' : 'keywords'}`}
-                    keywordConfig={searchVolumeDataset?.keywordConfig ?? null}
-                  />
-                </Box>
-              )}
-            </Box>
-          )}
         </Box>
         {additive.functions.length > 0 && (
           <Stack direction="row" flexWrap="wrap" gap={1} alignItems="center">
@@ -529,19 +477,76 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
               Products:
             </Box>{' '}
             {productCount !== null ? (
-              <MuiLink
-                href={productSearchUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                underline="hover"
-                sx={{ fontWeight: 500 }}
-              >
-                Found in {formatProductCount(productCount)} products
-              </MuiLink>
+              <>
+                Found in{' '}
+                <MuiLink
+                  href={productSearchUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  underline="always"
+                  sx={{ fontWeight: 500, textDecorationThickness: '2px' }}
+                >
+                  {formatProductCount(productCount)} products
+                </MuiLink>{' '}
+                from the Open Food Facts database
+              </>
             ) : (
               'Data not available.'
             )}
           </Typography>
+          {(searchRank !== null || searchVolume !== null || searchCountryText || hasKeywordShare) && (
+            <Box
+              sx={{
+                display: 'flex',
+                alignItems: 'center',
+                flexWrap: 'wrap',
+                gap: 1,
+                color: 'text.secondary',
+                typography: 'body1',
+              }}
+            >
+              <Box component="span" sx={{ fontWeight: 600 }}>
+                Search interest:
+              </Box>
+              {searchRank !== null && (
+                <Box component="span" sx={{ fontVariantNumeric: 'tabular-nums', color: 'text.primary' }}>
+                  #{searchRank}
+                </Box>
+              )}
+              {searchVolume !== null && (
+                <Box component="span" sx={{ fontVariantNumeric: 'tabular-nums', color: 'text.primary' }}>
+                  {formatMonthlyVolume(searchVolume)} / mo
+                </Box>
+              )}
+              {(searchCountryText || searchFlagEmoji) && (
+                <Box component="span" sx={{ display: 'inline-flex', alignItems: 'center', gap: 0.5 }}>
+                  {searchCountryText ? `in ${searchCountryText}` : null}
+                  {searchFlagEmoji && (
+                    <Box
+                      component="span"
+                      role="img"
+                      aria-label={searchCountryLabel ?? undefined}
+                      sx={{ fontSize: '1rem', lineHeight: 1 }}
+                    >
+                      {searchFlagEmoji}
+                    </Box>
+                  )}
+                </Box>
+              )}
+              {hasKeywordShare && (
+                <Box component="span" sx={{ display: 'inline-flex', alignItems: 'center', gap: 0.5 }}>
+                  <Box component="span">data from</Box>
+                  <SearchKeywordShare
+                    keywords={normalizedKeywordShareSegments}
+                    total={keywordShareTotal}
+                    label={`${uniqueKeywordCount} ${uniqueKeywordCount === 1 ? 'keyword' : 'keywords'}`}
+                    keywordConfig={searchVolumeDataset?.keywordConfig ?? null}
+                  />
+                </Box>
+              )}
+              <Box component="span">from Ahrefs</Box>
+            </Box>
+          )}
           {awarenessScore ? (
             <Typography
               variant="body1"
