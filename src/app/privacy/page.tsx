@@ -16,7 +16,7 @@ async function getPrivacyContent(): Promise<string> {
 export const metadata: Metadata = {
   title: 'Privacy Policy',
   description:
-    'Learn how the Food Additives Catalogue collects and uses information, including analytics practices and data rights.',
+    'Learn how the Food Additive Catalogue collects and uses information, including analytics practices and data rights.',
   alternates: {
     canonical: '/privacy',
   },

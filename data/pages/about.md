@@ -1,6 +1,6 @@
-# About the Food Additives Catalogue
+# About the Food Additive Catalogue
 
-The Food Additives Catalogue demystifies the long names and **E‑numbers** on food labels. It brings together open‑source data, authoritative classifications and search interest metrics in a single, easy‑to‑use interface so that consumers, researchers and food professionals can quickly see what each additive does and how widely it is used. We refresh the underlying dataset once a month to capture new [Open Food Facts](https://world.openfoodfacts.org/) entries and updated [Ahrefs](https://ahrefs.com/) search metrics.
+The Food Additive Catalogue demystifies the long names and **E‑numbers** on food labels. It brings together open‑source data, authoritative classifications and search interest metrics in a single, easy‑to‑use interface so that consumers, researchers and food professionals can quickly see what each additive does and how widely it is used. We refresh the underlying dataset once a month to capture new [Open Food Facts](https://world.openfoodfacts.org/) entries and updated [Ahrefs](https://ahrefs.com/) search metrics.
 
 ## Our Story
 ### From Cupcake Sprinkles to Data-Driven Transparency

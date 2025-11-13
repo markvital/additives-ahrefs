@@ -49,18 +49,19 @@ export async function generateMetadata({ params }: AdditivePageProps): Promise<M
   }
 
   const displayName = formatAdditiveDisplayName(additive.eNumber, additive.title);
+  const metaTitle = `${displayName} | food additive`;
   const articleSummary = extractArticleSummary(additive.article);
   const metaDescription = articleSummary?.replace(/\s+/g, ' ').trim() || additive.description;
   const cardImageUrl = `/img/card-preview/${additive.slug}.jpg`;
 
   return {
-    title: displayName,
+    title: metaTitle,
     description: metaDescription,
     alternates: {
       canonical: `/${additive.slug}`,
     },
     openGraph: {
-      title: displayName,
+      title: metaTitle,
       description: metaDescription,
       url: `/${additive.slug}`,
       type: 'article',
@@ -75,7 +76,7 @@ export async function generateMetadata({ params }: AdditivePageProps): Promise<M
     },
     twitter: {
       card: 'summary_large_image',
-      title: displayName,
+      title: metaTitle,
       description: metaDescription,
       images: [cardImageUrl],
     },
