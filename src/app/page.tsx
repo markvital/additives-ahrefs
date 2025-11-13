@@ -134,7 +134,7 @@ export default async function HomePage({ searchParams }: HomePageProps) {
   const showClasses = parseShowClassesParam(resolvedSearchParams?.classes ?? null);
   const filteredAdditives = filterAdditivesByClassVisibility(additives, showClasses);
   const sortedAdditives = sortAdditivesByMode(filteredAdditives, sortMode);
-  const chunkSize = 50;
+  const chunkSize = 100;
   const totalCount = sortedAdditives.length;
   const awarenessResult = getAwarenessScores();
   const initialItems = mapAdditivesToGridItems(sortedAdditives.slice(0, chunkSize));

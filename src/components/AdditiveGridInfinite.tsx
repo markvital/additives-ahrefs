@@ -28,7 +28,7 @@ interface AdditiveGridInfiniteProps {
   awarenessScores?: Map<string, AwarenessScoreResult>;
 }
 
-const DEFAULT_CHUNK_SIZE = 50;
+const DEFAULT_CHUNK_SIZE = 100;
 
 export function AdditiveGridInfinite({
   initialItems,

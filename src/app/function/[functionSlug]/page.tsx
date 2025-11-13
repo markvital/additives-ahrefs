@@ -128,7 +128,7 @@ export default async function FunctionPage({ params, searchParams }: FunctionPag
     functionInfo && functionInfo.usedAs.length > 0
       ? `In the food industry, such additives serve roles as ${formatUsedAsList(functionInfo.usedAs)}.`
       : null;
-  const chunkSize = 50;
+  const chunkSize = 100;
   const totalCount = sortedAdditives.length;
   const useInfiniteScroll = totalCount > chunkSize;
   const initialItems = mapAdditivesToGridItems(
