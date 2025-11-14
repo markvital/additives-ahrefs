@@ -1,22 +1,21 @@
 'use client';
 
 import { useCallback, useEffect, useMemo, useState, type ReactNode } from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
-import { Box, Button, Chip, Stack, Tooltip, Typography } from '@mui/material';
+import { Box, Button, Chip, Stack, Typography } from '@mui/material';
 import type { Additive, AdditiveSearchItem } from '../lib/additives';
-import { formatAdditiveDisplayName, formatFunctionLabel, formatOriginLabel } from '../lib/additive-format';
+import { formatAdditiveDisplayName } from '../lib/additive-format';
 import { extractArticleSummary, splitArticlePreview } from '../lib/article';
 import { formatMonthlyVolume, formatProductCount, getCountryFlagEmoji, getCountryLabel } from '../lib/format';
 import type { SearchHistoryDataset } from '../lib/search-history';
 import { MarkdownArticle } from './MarkdownArticle';
 import { AdditiveLookup } from './AdditiveLookup';
 import { SearchHistoryChart } from './SearchHistoryChart';
-import type { AwarenessScoreResult } from '../lib/awareness';
+import { getAwarenessLevel, type AwarenessScoreResult } from '../lib/awareness';
 import { AwarenessScoreChip } from './AwarenessScoreChip';
-import { getOriginIcon, getOriginAbbreviation } from '../lib/origin-icons';
-import { getOriginDescriptionBySlug, getOriginDescriptionByValue } from '../lib/origins';
+import { FunctionChipList } from './FunctionChipList';
+import { OriginChipList } from './OriginChipList';
 import {
   getCachedAdditiveSearchItems,
   hasAdditiveSearchDataLoaded,
@@ -57,29 +56,6 @@ const getInitialSearchItems = (initialAdditives: Record<string, ComparisonAdditi
   return Array.from(unique.values());
 };
 
-const functionChipSx = {
-  borderRadius: '7.5px',
-  bgcolor: '#f4f4f4',
-  color: '#787878',
-  border: 'none',
-  textTransform: 'none',
-  whiteSpace: 'nowrap',
-  '& .MuiChip-label': {
-    px: '5px',
-    py: '3px',
-    color: '#787878',
-  },
-  '&.MuiChip-clickable': {
-    cursor: 'pointer',
-  },
-} as const;
-
-const toFilterSlug = (value: string): string | null => {
-  const slug = value.trim().toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
-
-  return slug.length > 0 ? slug : null;
-};
-
 const renderSynonymContent = (additive: ComparisonAdditive | null) => {
   if (!additive) {
     return null;
@@ -114,7 +90,9 @@ const renderFunctionContent = (additive: ComparisonAdditive | null) => {
     return null;
   }
 
-  if (additive.functions.length === 0) {
+  const functions = additive.functions.filter((value, index, list) => list.indexOf(value) === index);
+
+  if (functions.length === 0) {
     return (
       <Typography variant="body2" color="text.secondary">
         Not specified.
@@ -122,33 +100,7 @@ const renderFunctionContent = (additive: ComparisonAdditive | null) => {
     );
   }
 
-  const functions = additive.functions.filter((value, index, list) => list.indexOf(value) === index);
-
-  return (
-    <Stack direction="row" spacing={1} flexWrap="wrap">
-      {functions.map((fn) => {
-        const slug = toFilterSlug(fn);
-        const label = formatFunctionLabel(fn);
-
-        if (!slug) {
-          return <Chip key={fn} label={label} variant="filled" size="small" sx={functionChipSx} />;
-        }
-
-        return (
-          <Chip
-            key={fn}
-            label={label}
-            variant="filled"
-            size="small"
-            component={Link}
-            href={`/function/${slug}`}
-            clickable
-            sx={functionChipSx}
-          />
-        );
-      })}
-    </Stack>
-  );
+  return <FunctionChipList functions={functions} chipSize="small" />;
 };
 
 const renderOriginContent = (additive: ComparisonAdditive | null) => {
@@ -156,7 +108,9 @@ const renderOriginContent = (additive: ComparisonAdditive | null) => {
     return null;
   }
 
-  if (additive.origin.length === 0) {
+  const origins = additive.origin.filter((value, index, list) => list.indexOf(value) === index);
+
+  if (origins.length === 0) {
     return (
       <Typography variant="body2" color="text.secondary">
         Not specified.
@@ -164,97 +118,7 @@ const renderOriginContent = (additive: ComparisonAdditive | null) => {
     );
   }
 
-  const origins = additive.origin.filter((value, index, list) => list.indexOf(value) === index);
-
-  return (
-    <Stack direction="row" spacing={1} flexWrap="wrap" alignItems="center">
-      {origins.map((origin) => {
-        const originSlug = toFilterSlug(origin);
-        const label = formatOriginLabel(origin);
-        const icon = getOriginIcon(origin);
-        const abbreviation = getOriginAbbreviation(origin);
-        const originDescription =
-          (originSlug ? getOriginDescriptionBySlug(originSlug) : null) ??
-          getOriginDescriptionByValue(origin);
-        const tooltipTitle = originDescription ?? '';
-        const tooltipProps = originDescription
-          ? {}
-          : {
-              disableFocusListener: true,
-              disableHoverListener: true,
-              disableTouchListener: true,
-            };
-        const chipLabel = (
-          <Stack direction="row" spacing={0.75} alignItems="center">
-            <Box
-              component="span"
-              aria-hidden="true"
-              sx={{
-                display: 'inline-flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                width: 18,
-                height: 18,
-              }}
-            >
-              {icon ? (
-                <Image
-                  src={icon}
-                  alt={`${label} icon`}
-                  width={16}
-                  height={16}
-                  style={{ width: '100%', height: '100%', objectFit: 'contain' }}
-                />
-              ) : (
-                <Box component="span" sx={{ fontSize: 12, fontWeight: 600, lineHeight: 1 }}>
-                  {abbreviation}
-                </Box>
-              )}
-            </Box>
-            <Box component="span" sx={{ lineHeight: 1 }}>
-              {label}
-            </Box>
-          </Stack>
-        );
-
-        if (!originSlug) {
-          return (
-            <Tooltip
-              key={origin}
-              title={tooltipTitle}
-              arrow
-              enterTouchDelay={0}
-              leaveTouchDelay={1500}
-              {...tooltipProps}
-            >
-              <Chip label={chipLabel} variant="outlined" size="small" sx={{ px: 1 }} />
-            </Tooltip>
-          );
-        }
-
-        return (
-          <Tooltip
-            key={origin}
-            title={tooltipTitle}
-            arrow
-            enterTouchDelay={0}
-            leaveTouchDelay={1500}
-            {...tooltipProps}
-          >
-            <Chip
-              label={chipLabel}
-              variant="outlined"
-              size="small"
-              component={Link}
-              href={`/origin/${originSlug}`}
-              clickable
-              sx={{ px: 1 }}
-            />
-          </Tooltip>
-        );
-      })}
-    </Stack>
-  );
+  return <OriginChipList origins={origins} chipSize="small" />;
 };
 
 const getSearchInterestLabel = (dataset: SearchHistoryDataset | null) => {
@@ -650,16 +514,16 @@ export function AdditiveComparison({ initialSelection, initialAdditives, awarene
         );
       }
 
+      const awarenessLevel = getAwarenessLevel(awarenessScore.index);
+
       return (
         <Typography
           variant="body1"
           color="text.secondary"
-          sx={{ display: 'flex', alignItems: 'center', gap: 1 }}
+          sx={{ display: 'flex', alignItems: 'center', gap: 1, lineHeight: 1.6 }}
         >
-          <Box component="span" sx={{ fontWeight: 600 }}>
-            Awareness:
-          </Box>
           <AwarenessScoreChip score={awarenessScore} />
+          {awarenessLevel ? <Box component="span">{awarenessLevel}</Box> : null}
         </Typography>
       );
     },
@@ -759,7 +623,7 @@ export function AdditiveComparison({ initialSelection, initialAdditives, awarene
     },
     {
       key: 'origin',
-      label: 'Origin',
+      label: 'Origins',
       render: renderOriginContent,
     },
     {
@@ -774,7 +638,7 @@ export function AdditiveComparison({ initialSelection, initialAdditives, awarene
     },
     {
       key: 'awareness',
-      label: 'Awareness',
+      label: 'Awareness score',
       render: renderAwarenessSection,
     },
     {

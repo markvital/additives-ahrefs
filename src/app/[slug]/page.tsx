@@ -2,15 +2,13 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 import NextLink from 'next/link';
 import { notFound } from 'next/navigation';
-import { Box, Chip, Link as MuiLink, Stack, Tooltip, Typography } from '@mui/material';
+import { Box, Link as MuiLink, Stack, Typography } from '@mui/material';
 
-import { formatAdditiveDisplayName, formatFunctionLabel, formatOriginLabel } from '../../lib/additive-format';
+import { formatAdditiveDisplayName } from '../../lib/additive-format';
 import { extractArticleBody, extractArticleSummary } from '../../lib/article';
 import {
   getAdditiveBySlug,
   getAdditiveSlugs,
-  getFunctionSlug,
-  getOriginSlug,
   getAwarenessScores,
 } from '../../lib/additives';
 
@@ -18,8 +16,6 @@ import { formatMonthlyVolume, formatProductCount, getCountryFlagEmoji, getCountr
 import { getSearchHistory } from '../../lib/search-history';
 import { getSearchQuestions } from '../../lib/search-questions';
 import { getSearchVolumeDataset } from '../../lib/search-volume';
-import { getOriginAbbreviation, getOriginIcon } from '../../lib/origin-icons';
-import { getOriginDescriptionBySlug, getOriginDescriptionByValue } from '../../lib/origins';
 import { AhrefsAttributionTooltip } from '../../components/AhrefsAttributionTooltip';
 import { SearchHistoryChart } from '../../components/SearchHistoryChart';
 import { SearchKeywordShare } from '../../components/SearchKeywordShare';
@@ -29,6 +25,8 @@ import { ReportMistakeName } from '../../components/ReportMistakeContext';
 import { CompareFlapPrefill } from '../../components/CompareFlap';
 import { AwarenessScoreChip } from '../../components/AwarenessScoreChip';
 import { CopyLinkButton } from '../../components/CopyLinkButton';
+import { FunctionChipList } from '../../components/FunctionChipList';
+import { OriginChipList } from '../../components/OriginChipList';
 
 interface AdditivePageProps {
   params: Promise<{ slug: string }>;
@@ -344,135 +342,33 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
           )}
         </Box>
         {additive.functions.length > 0 && (
-          <Stack direction="row" flexWrap="wrap" gap={1} alignItems="center">
+          <Box sx={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 1 }}>
             <Typography
               variant="body1"
               color="text.secondary"
-              sx={{ fontWeight: 600, whiteSpace: 'nowrap', marginRight: 1.5 }}
+              sx={{ fontWeight: 600, whiteSpace: 'nowrap' }}
             >
               Function:
             </Typography>
-            {additive.functions.map((fn) => {
-              const functionSlug = getFunctionSlug(fn);
-              const label = formatFunctionLabel(fn);
-
-              if (!functionSlug) {
-                return <Chip key={fn} label={label} variant="outlined" sx={{ textTransform: 'none' }} />;
-              }
-
-              return (
-                <Chip
-                  key={fn}
-                  label={label}
-                  variant="outlined"
-                  component={NextLink}
-                  href={`/function/${functionSlug}`}
-                  clickable
-                  sx={{ textTransform: 'none' }}
-                />
-              );
-            })}
-          </Stack>
+            <FunctionChipList functions={additive.functions} />
+          </Box>
         )}
 
         {originList.length > 0 && (
-          <Stack direction="row" flexWrap="wrap" gap={1} alignItems="center">
+          <Box sx={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 1 }}>
             <Typography
               variant="body1"
               color="text.secondary"
-              sx={{ fontWeight: 600, whiteSpace: 'nowrap', marginRight: 1.5 }}
+              sx={{ fontWeight: 600, whiteSpace: 'nowrap' }}
             >
               Origin:
             </Typography>
-            {originList.map((origin) => {
-              const originSlug = getOriginSlug(origin);
-              const label = formatOriginLabel(origin);
-              const icon = getOriginIcon(origin);
-              const abbreviation = getOriginAbbreviation(origin);
-              const originDescription =
-                (originSlug ? getOriginDescriptionBySlug(originSlug) : null) ??
-                getOriginDescriptionByValue(origin);
-              const tooltipTitle = originDescription ?? '';
-              const tooltipProps = originDescription
-                ? {}
-                : {
-                    disableFocusListener: true,
-                    disableHoverListener: true,
-                    disableTouchListener: true,
-                  };
-              const chipLabel = (
-                <Stack direction="row" spacing={0.75} alignItems="center">
-                  <Box
-                    component="span"
-                    aria-hidden="true"
-                    sx={{
-                      display: 'inline-flex',
-                      alignItems: 'center',
-                      justifyContent: 'center',
-                      width: 18,
-                      height: 18,
-                    }}
-                  >
-                    {icon ? (
-                      <Image
-                        src={icon}
-                        alt={`${label} flag`}
-                        width={16}
-                        height={16}
-                        style={{ width: '100%', height: '100%', objectFit: 'contain' }}
-                      />
-                    ) : (
-                      <Box component="span" sx={{ fontSize: 12, fontWeight: 600, lineHeight: 1 }}>
-                        {abbreviation}
-                      </Box>
-                    )}
-                  </Box>
-                  <Box component="span" sx={{ lineHeight: 1 }}>
-                    {label}
-                  </Box>
-                </Stack>
-              );
-
-              if (!originSlug) {
-                return (
-                  <Tooltip
-                    key={origin}
-                    title={tooltipTitle}
-                    arrow
-                    enterTouchDelay={0}
-                    leaveTouchDelay={1500}
-                    {...tooltipProps}
-                  >
-                    <Chip label={chipLabel} variant="outlined" sx={{ px: 1 }} />
-                  </Tooltip>
-                );
-              }
-
-              return (
-                <Tooltip
-                  key={origin}
-                  title={tooltipTitle}
-                  arrow
-                  enterTouchDelay={0}
-                  leaveTouchDelay={1500}
-                  {...tooltipProps}
-                >
-                  <Chip
-                    label={chipLabel}
-                    variant="outlined"
-                    component={NextLink}
-                    href={`/origin/${originSlug}`}
-                    clickable
-                    sx={{ px: 1 }}
-                  />
-                </Tooltip>
-              );
-            })}
-          </Stack>
+            <OriginChipList origins={originList} />
+          </Box>
         )}
 
-        <Box sx={{ display: 'flex', flexDirection: 'column', gap: 0.75 }}>
-          <Typography variant="body1" color="text.secondary">
+        <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1.5 }}>
+          <Typography variant="body1" color="text.secondary" sx={{ lineHeight: 1.6 }}>
             <Box component="span" sx={{ fontWeight: 600 }}>
               Products:
             </Box>{' '}
@@ -495,15 +391,10 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
             )}
           </Typography>
           {(searchRank !== null || searchVolume !== null || searchCountryText || hasKeywordShare) && (
-            <Box
-              sx={{
-                display: 'flex',
-                alignItems: 'center',
-                flexWrap: 'wrap',
-                gap: 1,
-                color: 'text.secondary',
-                typography: 'body1',
-              }}
+            <Typography
+              variant="body1"
+              color="text.secondary"
+              sx={{ display: 'flex', alignItems: 'center', flexWrap: 'wrap', gap: 1, lineHeight: 1.6 }}
             >
               <Box component="span" sx={{ fontWeight: 600 }}>
                 Search interest:
@@ -545,16 +436,16 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
                 </Box>
               )}
               <Box component="span">from Ahrefs</Box>
-            </Box>
+            </Typography>
           )}
           {awarenessScore ? (
             <Typography
               variant="body1"
               color="text.secondary"
-              sx={{ display: 'flex', alignItems: 'center', gap: 1 }}
+              sx={{ display: 'flex', alignItems: 'center', gap: 1, lineHeight: 1.6 }}
             >
               <Box component="span" sx={{ fontWeight: 600 }}>
-                Awareness:
+                Awareness score:
               </Box>
               <AwarenessScoreChip score={awarenessScore} />
             </Typography>
