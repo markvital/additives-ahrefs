@@ -14,7 +14,7 @@ import { AdditiveLookup } from './AdditiveLookup';
 import { SearchHistoryChart } from './SearchHistoryChart';
 import { getAwarenessLevel, type AwarenessScoreResult } from '../lib/awareness';
 import { AwarenessScoreChip } from './AwarenessScoreChip';
-import { FunctionChipList } from './FunctionChipList';
+import { FunctionFilterChipList } from './FunctionFilterChipList';
 import { OriginChipList } from './OriginChipList';
 import {
   getCachedAdditiveSearchItems,
@@ -77,8 +77,21 @@ const renderSynonymContent = (additive: ComparisonAdditive | null) => {
         <Chip
           key={synonym}
           label={synonym}
-          variant="outlined"
+          variant="filled"
           size="small"
+          sx={{
+            textTransform: 'none',
+            bgcolor: '#f4f4f4',
+            color: '#787878',
+            border: 'none',
+            cursor: 'default',
+            '& .MuiChip-label': {
+              px: '5px',
+              py: '3px',
+              color: '#787878',
+            },
+          }}
+          clickable={false}
         />
       ))}
     </Stack>
@@ -100,7 +113,7 @@ const renderFunctionContent = (additive: ComparisonAdditive | null) => {
     );
   }
 
-  return <FunctionChipList functions={functions} chipSize="small" />;
+  return <FunctionFilterChipList functions={functions} />;
 };
 
 const renderOriginContent = (additive: ComparisonAdditive | null) => {
@@ -118,7 +131,7 @@ const renderOriginContent = (additive: ComparisonAdditive | null) => {
     );
   }
 
-  return <OriginChipList origins={origins} chipSize="small" />;
+  return <OriginChipList origins={origins} />;
 };
 
 const getSearchInterestLabel = (dataset: SearchHistoryDataset | null) => {

@@ -37,8 +37,6 @@ interface CompareFlapContextValue {
   hasDismissedHint: boolean;
   isDragging: boolean;
   isWidgetDroppableActive: boolean;
-  setWidgetHidden: (hidden: boolean) => void;
-  isWidgetHidden: boolean;
 }
 
 const CompareFlapContext = createContext<CompareFlapContextValue | null>(null);
@@ -92,7 +90,6 @@ export function CompareFlapProvider({ additives, children }: CompareFlapProvider
   const [hasDismissedHint, setHasDismissedHint] = useState(false);
   const [isDragging, setIsDragging] = useState(false);
   const [isWidgetDroppableActive, setIsWidgetDroppableActive] = useState(false);
-  const [isWidgetHidden, setIsWidgetHidden] = useState(false);
   const lastNavigatedPairRef = useRef<string | null>(null);
   const lastPrefilledSlugRef = useRef<string | null>(null);
   const previousPathRef = useRef<string | null>(null);
@@ -351,8 +348,6 @@ export function CompareFlapProvider({ additives, children }: CompareFlapProvider
       hasDismissedHint,
       isDragging,
       isWidgetDroppableActive,
-      setWidgetHidden: setIsWidgetHidden,
-      isWidgetHidden,
     }),
     [
       activeDropIndex,
@@ -369,7 +364,6 @@ export function CompareFlapProvider({ additives, children }: CompareFlapProvider
       selectSlot,
       slots,
       toggle,
-      isWidgetHidden,
     ],
   );
 
@@ -405,10 +399,9 @@ function CompareFlapUI() {
     additives,
     selectSlot,
     activeDropIndex,
-      dismissHint,
-      hasDismissedHint,
-      isWidgetDroppableActive,
-      isWidgetHidden,
+    dismissHint,
+    hasDismissedHint,
+    isWidgetDroppableActive,
   } = useCompareFlap();
   const pathname = usePathname();
   const [activeSlotIndex, setActiveSlotIndex] = useState<number | null>(null);
@@ -436,7 +429,10 @@ function CompareFlapUI() {
   const isAboutPage = pathname === '/about';
   const isPrivacyPage = pathname === '/privacy';
   const isTermsPage = pathname === '/terms';
-  const shouldHide = isComparePage || isAboutPage || isPrivacyPage || isTermsPage || isWidgetHidden;
+  const potentialSlug = extractAdditiveSlug(pathname ?? null);
+  const isUnknownAdditivePath = potentialSlug ? !getAdditiveBySlug(potentialSlug) : false;
+  const shouldHide =
+    isComparePage || isAboutPage || isPrivacyPage || isTermsPage || isUnknownAdditivePath;
 
   useEffect(() => {
     if (shouldHide) {

@@ -25,7 +25,7 @@ import { ReportMistakeName } from '../../components/ReportMistakeContext';
 import { CompareFlapPrefill } from '../../components/CompareFlap';
 import { AwarenessScoreChip } from '../../components/AwarenessScoreChip';
 import { CopyLinkButton } from '../../components/CopyLinkButton';
-import { FunctionChipList } from '../../components/FunctionChipList';
+import { FunctionFilterChipList } from '../../components/FunctionFilterChipList';
 import { OriginChipList } from '../../components/OriginChipList';
 
 interface AdditivePageProps {
@@ -350,7 +350,7 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
             >
               Function:
             </Typography>
-            <FunctionChipList functions={additive.functions} />
+            <FunctionFilterChipList functions={additive.functions} />
           </Box>
         )}
 
