@@ -1,7 +1,8 @@
 import { getAdditives, getFunctionFilters, getOriginFilters } from './additives';
 import { absoluteUrl } from './site';
 
-const SITEMAP_BASE_PATHS = ['/', '/function', '/origin', '/compare', '/about', '/privacy', '/terms'] as const;
+const MAIN_SITEMAP_BASE_PATHS = ['/', '/function', '/origin', '/about', '/privacy', '/terms'] as const;
+const COMPARE_BASE_PATH = '/compare';
 const COMPARISON_CHUNK_SIZE = 30000;
 const MAIN_CHUNK_ID = '1-main';
 
@@ -51,12 +52,10 @@ const chunkArray = <T>(items: T[], size: number): T[][] => {
 };
 
 const buildMainUrls = (): string[] => {
-  const baseUrls = SITEMAP_BASE_PATHS.map((path) => absoluteUrl(path));
+  const baseUrls = MAIN_SITEMAP_BASE_PATHS.map((path) => absoluteUrl(path));
 
   const additives = getAdditives();
   const additiveSlugs = additives.map((additive) => additive.slug);
-
-  const additiveUrls = additiveSlugs.map((slug) => absoluteUrl(`/${slug}`));
 
   const functionFilters = getFunctionFilters();
   const originFilters = getOriginFilters();
@@ -64,14 +63,16 @@ const buildMainUrls = (): string[] => {
   const functionUrls = functionFilters.map(({ slug }) => absoluteUrl(`/function/${slug}`));
   const originUrls = originFilters.map(({ slug }) => absoluteUrl(`/origin/${slug}`));
 
-  return [...baseUrls, ...additiveUrls, ...functionUrls, ...originUrls];
+  const additiveUrls = additiveSlugs.map((slug) => absoluteUrl(`/${slug}`));
+
+  return [...baseUrls, ...functionUrls, ...originUrls, ...additiveUrls];
 };
 
 const buildComparisonUrls = (): string[] => {
   const additives = getAdditives();
   const additiveSlugs = additives.map((additive) => additive.slug);
   const totalComparisons = getComparisonCount(additiveSlugs.length);
-  const urls: string[] = [];
+  const urls: string[] = [absoluteUrl(COMPARE_BASE_PATH)];
 
   for (let index = 0; index < totalComparisons; index += 1) {
     const [first, second] = getComparisonPair(additiveSlugs, index);
