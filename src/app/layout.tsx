@@ -17,7 +17,7 @@ const roboto = Roboto({
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: 'Food Additives Catalogue',
+  title: 'Food Additive Catalogue',
   description:
     'Browse essential information about food additives, including synonyms, functions, and links to additional resources.',
 };

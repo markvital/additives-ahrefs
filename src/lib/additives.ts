@@ -56,7 +56,7 @@ export interface AdditiveSearchItem {
   searchRank: number | null;
 }
 
-export type AdditiveSortMode = 'search-rank' | 'product-count' | 'awareness';
+export type AdditiveSortMode = 'search-rank' | 'product-count' | 'awareness' | 'e-number';
 
 export const DEFAULT_ADDITIVE_SORT_MODE: AdditiveSortMode = 'product-count';
 
@@ -292,6 +292,84 @@ const compareByAwarenessScore = (a: Additive, b: Additive): number => {
   return (aIndex as number) - (bIndex as number);
 };
 
+interface ENumberSortKey {
+  prefix: string;
+  numeric: number;
+  suffix: string;
+  raw: string;
+}
+
+const EMPTY_ENUMBER_PREFIX = '\uFFFF';
+const EMPTY_ENUMBER_SUFFIX = '\uFFFF';
+
+const createENumberSortKey = (value: string): ENumberSortKey => {
+  const raw = typeof value === 'string' ? value.trim().toUpperCase() : '';
+
+  if (!raw) {
+    return {
+      prefix: EMPTY_ENUMBER_PREFIX,
+      numeric: Number.POSITIVE_INFINITY,
+      suffix: EMPTY_ENUMBER_SUFFIX,
+      raw: '',
+    };
+  }
+
+  const match = raw.match(/^([A-Z]*?)(\d+)(.*)$/);
+
+  if (!match) {
+    const prefix = raw.replace(/[^A-Z]/g, '') || EMPTY_ENUMBER_PREFIX;
+
+    return {
+      prefix,
+      numeric: Number.POSITIVE_INFINITY,
+      suffix: raw.replace(/^[A-Z]*/, '') || EMPTY_ENUMBER_SUFFIX,
+      raw,
+    };
+  }
+
+  const [, prefix = '', digits = '', suffixRaw = ''] = match;
+  const numeric = digits ? Number.parseInt(digits, 10) : Number.POSITIVE_INFINITY;
+  const suffix = suffixRaw.replace(/[^A-Z0-9]/g, '');
+
+  return {
+    prefix: prefix || 'E',
+    numeric,
+    suffix: suffix || '',
+    raw,
+  };
+};
+
+const compareByENumber = (a: Additive, b: Additive): number => {
+  const aKey = createENumberSortKey(a.eNumber);
+  const bKey = createENumberSortKey(b.eNumber);
+
+  if (aKey.prefix !== bKey.prefix) {
+    return aKey.prefix.localeCompare(bKey.prefix);
+  }
+
+  if (aKey.numeric !== bKey.numeric) {
+    return aKey.numeric - bKey.numeric;
+  }
+
+  if (aKey.suffix !== bKey.suffix) {
+    if (!aKey.suffix) {
+      return bKey.suffix ? -1 : 0;
+    }
+
+    if (!bKey.suffix) {
+      return 1;
+    }
+
+    return aKey.suffix.localeCompare(bKey.suffix);
+  }
+
+  if (aKey.raw !== bKey.raw) {
+    return aKey.raw.localeCompare(bKey.raw);
+  }
+
+  return compareByProductCount(a, b);
+};
+
 export const parseAdditiveSortMode = (
   value: string | string[] | null | undefined,
 ): AdditiveSortMode => {
@@ -310,6 +388,10 @@ export const parseAdditiveSortMode = (
 
     if (normalised === 'awareness' || normalised === 'awareness-score') {
       return 'awareness';
+    }
+
+    if (normalised === 'e-number' || normalised === 'enumber' || normalised === 'e') {
+      return 'e-number';
     }
   }
 
@@ -337,17 +419,28 @@ export const parseShowClassesParam = (
 export const sortAdditivesByMode = (items: Additive[], mode: AdditiveSortMode): Additive[] => {
   const copy = [...items];
 
-  if (mode === 'product-count') {
-    copy.sort(compareByProductCount);
-    return copy;
+  switch (mode) {
+    case 'product-count': {
+      copy.sort(compareByProductCount);
+      break;
+    }
+
+    case 'awareness': {
+      copy.sort(compareByAwarenessScore);
+      break;
+    }
+
+    case 'e-number': {
+      copy.sort(compareByENumber);
+      break;
+    }
+
+    default: {
+      copy.sort(compareBySearchRank);
+      break;
+    }
   }
 
-  if (mode === 'awareness') {
-    copy.sort(compareByAwarenessScore);
-    return copy;
-  }
-
-  copy.sort(compareBySearchRank);
   return copy;
 };
 

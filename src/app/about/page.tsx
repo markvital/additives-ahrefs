@@ -14,9 +14,9 @@ async function getAboutContent(): Promise<string> {
 }
 
 export const metadata: Metadata = {
-  title: 'About the Food Additives Catalogue',
+  title: 'About the Food Additive Catalogue',
   description:
-    'Learn how the Food Additives Catalogue combines open data sources, Codex functional classes, and Ahrefs search metrics to explain E-numbers.',
+    'Learn how the Food Additive Catalogue combines open data sources, Codex functional classes, and Ahrefs search metrics to explain E-numbers.',
   alternates: {
     canonical: '/about',
   },

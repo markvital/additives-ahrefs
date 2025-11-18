@@ -16,7 +16,7 @@ async function getTermsContent(): Promise<string> {
 export const metadata: Metadata = {
   title: 'Terms of Use',
   description:
-    'Understand the conditions and limitations for using the Food Additives Catalogue, including liability and acceptable use.',
+    'Understand the conditions and limitations for using the Food Additive Catalogue, including liability and acceptable use.',
   alternates: {
     canonical: '/terms',
   },

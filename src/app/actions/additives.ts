@@ -11,7 +11,7 @@ import {
   sortAdditivesByMode,
 } from '../../lib/additives';
 
-const DEFAULT_LIMIT = 50;
+const DEFAULT_LIMIT = 100;
 const MAX_LIMIT = 200;
 
 interface LoadAdditivesBatchInput {

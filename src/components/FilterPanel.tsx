@@ -74,13 +74,21 @@ export function FilterPanel({
       setShowClassesControlVisible(true);
     }
   }, [currentShowClasses]);
-  type SortSelectValue = 'search-rank' | 'products' | 'awareness';
-  const currentSortValue: SortSelectValue =
-    currentSortMode === 'product-count'
-      ? 'products'
-      : currentSortMode === 'awareness'
-        ? 'awareness'
-        : 'search-rank';
+  type SortSelectValue = 'search-rank' | 'products' | 'awareness' | 'e-number';
+  const mapSortModeToSelectValue = (mode: AdditiveSortMode): SortSelectValue => {
+    switch (mode) {
+      case 'product-count':
+        return 'products';
+      case 'awareness':
+        return 'awareness';
+      case 'e-number':
+        return 'e-number';
+      default:
+        return 'search-rank';
+    }
+  };
+
+  const currentSortValue = mapSortModeToSelectValue(currentSortMode);
 
   const closeLegend = useCallback(() => {
     setLegendOpen(false);
@@ -143,6 +151,8 @@ export function FilterPanel({
       params.set('sort', 'search-rank');
     } else if (sort === 'awareness') {
       params.set('sort', 'awareness');
+    } else if (sort === 'e-number') {
+      params.set('sort', 'e-number');
     } else {
       params.delete('sort');
     }
@@ -354,6 +364,7 @@ export function FilterPanel({
               <MenuItem value="products">Products</MenuItem>
               <MenuItem value="awareness">Awareness score</MenuItem>
               <MenuItem value="search-rank">Search rank</MenuItem>
+              <MenuItem value="e-number">E-number</MenuItem>
             </Select>
           </FormControl>
 

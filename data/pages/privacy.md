@@ -2,7 +2,7 @@
 
 _Last updated: November 6, 2025_
 
-Thank you for visiting the Food Additives Catalogue (the "Service"). This Privacy Policy explains how we collect, use, and safeguard information when you use the Service. By accessing or using the Service, you agree to the practices described below.
+Thank you for visiting the Food Additive Catalogue (the "Service"). This Privacy Policy explains how we collect, use, and safeguard information when you use the Service. By accessing or using the Service, you agree to the practices described below.
 
 ## Information We Collect
 

@@ -1,6 +1,6 @@
-# About the Food Additives Catalogue
+# About the Food Additive Catalogue
 
-The Food Additives Catalogue demystifies the long names and **E‑numbers** on food labels. It brings together open‑source data, authoritative classifications and search interest metrics in a single, easy‑to‑use interface so that consumers, researchers and food professionals can quickly see what each additive does and how widely it is used. We refresh the underlying dataset once a month to capture new [Open Food Facts](https://world.openfoodfacts.org/) entries and updated [Ahrefs](https://ahrefs.com/) search metrics.
+The Food Additive Catalogue demystifies the long names and **E‑numbers** on food labels. It brings together open‑source data, authoritative classifications and search interest metrics in a single, easy‑to‑use interface so that consumers, researchers and food professionals can quickly see what each additive does and how widely it is used. We refresh the underlying dataset once a month to capture new [Open Food Facts](https://world.openfoodfacts.org/) entries and updated [Ahrefs](https://ahrefs.com/) search metrics.
 
 ## Our Story
 ### From Cupcake Sprinkles to Data-Driven Transparency
@@ -72,7 +72,7 @@ $$
 
 ## Navigating the interface
 
-- **Browse & filter:** Use the search bar to look up an additive by name or **E‑number**. Filters allow you to narrow results by [origin](/origin) or [function](/function), and a sort option lets you order cards by product count or search interest. A *“parent E”* toggle groups sub‑classes under their parent E‑number.
+- **Browse & filter:** Use the search bar to look up an additive by name or **E‑number**. Filters allow you to narrow results by [origin](/origin) or [function](/function), and sort controls let you order cards by product count, **Awareness Score**, search rank or E-number. A *“parent E”* toggle groups sub‑classes under their parent E‑number.
 
 - **Additive cards:** Every card shows the additive’s E‑number, name, functional tags, origin icons, search‑interest trend and monthly volume. It also reports how many OFF products contain the additive. Clicking a card opens its detail page.
 
