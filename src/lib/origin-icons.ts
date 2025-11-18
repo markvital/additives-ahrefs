@@ -1,6 +1,5 @@
 const ORIGIN_ICON_MAP: Record<string, string> = {
   animal: '/img/origin/animal-icon.png',
-  artificial: '/img/origin/artificial-icon.png',
   microbiological: '/img/origin/microbiological-icon.png',
   mineral: '/img/origin/mineral-icon.png',
   plant: '/img/origin/plant-icon.png',
@@ -9,7 +8,6 @@ const ORIGIN_ICON_MAP: Record<string, string> = {
 
 const ORIGIN_PREV2X_ICON_MAP: Record<string, string> = {
   animal: '/img/origin/prev2x/animal.png',
-  artificial: '/img/origin/prev2x/artificial.png',
   microbiological: '/img/origin/prev2x/microbiological.png',
   mineral: '/img/origin/prev2x/mineral.png',
   plant: '/img/origin/prev2x/plant.png',

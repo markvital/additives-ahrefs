@@ -42,13 +42,12 @@ const DATA_DIR = path.join(__dirname, '..', '..', 'data');
 const ADDITIVE_DIR = path.join(DATA_DIR, 'additive');
 const ADDITIVES_INDEX_PATH = path.join(DATA_DIR, 'additives.json');
 const ENV_LOCAL_PATH = path.join(__dirname, '..', '..', 'env.local');
-const ALLOWED_ORIGINS = ['plant', 'animal', 'microbiological', 'synthetic', 'artificial', 'mineral'];
+const ALLOWED_ORIGINS = ['plant', 'animal', 'microbiological', 'synthetic', 'mineral'];
 const ORIGIN_ALIASES = {
   plant: ['plant', 'botanical', 'vegetable', 'botanic'],
   animal: ['animal', 'animalsourced', 'animalbased', 'animalderived'],
   microbiological: ['microbiological', 'microbial', 'fermentation', 'microbe', 'bacterial'],
-  synthetic: ['synthetic', 'syntheticallyproduced', 'syntheticonly', 'labmade'],
-  artificial: ['artificial', 'artificiallyproduced'],
+  synthetic: ['synthetic', 'syntheticallyproduced', 'syntheticonly', 'labmade', 'artificial', 'artificiallyproduced'],
   mineral: ['mineral', 'geological', 'inorganic', 'mineralbased'],
 };
 
