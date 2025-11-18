@@ -1,18 +1,22 @@
-import { getSitemapPageCount } from '../../lib/sitemap';
+import { getSitemapSlugs } from '../../lib/sitemap';
 import { absoluteUrl } from '../../lib/site';
 
 const XML_HEADER = '<?xml version="1.0" encoding="UTF-8"?>';
 const NAMESPACE = 'http://www.sitemaps.org/schemas/sitemap/0.9';
 
-const createIndex = (pageCount: number): string => {
+const escapeXml = (value: string): string =>
+  value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;');
+
+const createIndex = (slugs: string[]): string => {
   const now = new Date().toISOString();
 
-  const sitemaps = Array.from({ length: pageCount }, (_, index) => {
-    const page = index + 1;
-    const loc = absoluteUrl(`/sitemaps/${page}.xml`);
+  const sitemaps = slugs
+    .map((slug) => {
+      const loc = absoluteUrl(`/sitemaps/${slug}.xml`);
 
-    return `<sitemap><loc>${loc}</loc><lastmod>${now}</lastmod></sitemap>`;
-  }).join('');
+      return `<sitemap><loc>${escapeXml(loc)}</loc><lastmod>${now}</lastmod></sitemap>`;
+    })
+    .join('');
 
   return `${XML_HEADER}<sitemapindex xmlns="${NAMESPACE}">${sitemaps}</sitemapindex>`;
 };
@@ -20,8 +24,8 @@ const createIndex = (pageCount: number): string => {
 export const revalidate = 86400;
 
 export async function GET(): Promise<Response> {
-  const pageCount = getSitemapPageCount();
-  const body = createIndex(pageCount);
+  const slugs = getSitemapSlugs();
+  const body = createIndex(slugs);
 
   return new Response(body, {
     headers: {
