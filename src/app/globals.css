@@ -60,7 +60,7 @@ a {
   position: relative;
   padding: 0.46875rem 0;
   color: #ffffff;
-  background-color: #c19fff;
+  background-color: #9060e8;
 }
 
 .header-shell {
@@ -276,7 +276,7 @@ a {
   right: calc(50% - 50vw);
   top: 0;
   bottom: calc(-1 * var(--page-hero-gradient-extension, 50px));
-  background: linear-gradient(180deg, #c19fff 0%, #f5f5f5 100%);
+  background: linear-gradient(180deg,#9060e8 0%, #f5f5f5 100%);
   z-index: -1;
 }
 
@@ -340,6 +340,20 @@ a {
   display: inline-flex;
   align-items: flex-end;
   line-height: 1;
+}
+
+@media (min-width: 1200px) {
+.site-footer .content-shell {
+    max-width: none;
+    width: 100%;
+    margin: 0;
+    padding: 0 20px;
+  }
+
+  .site-footer .footer-shell {
+    width: 100%;
+    padding: 0 20px;
+  }
 }
 
 .footer-brand {
