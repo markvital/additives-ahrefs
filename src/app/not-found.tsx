@@ -9,7 +9,6 @@ export const metadata: Metadata = {
 export default function NotFoundPage() {
   return (
     <Box
-      className="page-hero"
       sx={{
         flex: 1,
         display: 'flex',
@@ -22,7 +21,6 @@ export default function NotFoundPage() {
       }}
     >
       <Box
-        className="page-hero"
         sx={{
           display: 'flex',
           flexDirection: 'column',
@@ -52,4 +50,3 @@ export default function NotFoundPage() {
     </Box>
   );
 }
-
