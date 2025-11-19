@@ -794,7 +794,7 @@ export function AdditiveComparison({ initialSelection, initialAdditives, awarene
                   flexDirection: 'column',
                   gap: 1.5,
                   borderLeft: { sm: '1px solid', md: '1px solid' },
-                  borderColor: 'rgba(0, 0, 0, 0.08)',
+                  borderColor: '#a7a7a7',
                   pl: { sm: 2, md: 4 },
                 }}
               >
