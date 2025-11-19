@@ -51,7 +51,7 @@ export function SearchHistoryChart({ metrics, domain }: SearchHistoryChartProps)
   const margin = useMemo(
     () =>
       isCompact
-        ? { top: 20, right: 12, bottom: 40, left: 32 }
+        ? { top: 20, right: 12, bottom: 40, left: 48 }
         : { top: 20, right: 24, bottom: 40, left: 56 },
     [isCompact],
   );

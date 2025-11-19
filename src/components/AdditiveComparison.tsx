@@ -687,7 +687,7 @@ export function AdditiveComparison({ initialSelection, initialAdditives, awarene
             alignItems="center"
             textAlign="center"
             gap={1}
-            sx={{ width: '100%', maxWidth: 760, margin: '0 auto' }}
+            sx={{ width: '100%', maxWidth: { xs: 760, sm: '100%' }, margin: '0 auto' }}
           >
             <Typography
               component="h1"
@@ -794,7 +794,7 @@ export function AdditiveComparison({ initialSelection, initialAdditives, awarene
                   flexDirection: 'column',
                   gap: 1.5,
                   borderLeft: { sm: '1px solid', md: '1px solid' },
-                  borderColor: 'divider',
+                  borderColor: 'rgba(0, 0, 0, 0.08)',
                   pl: { sm: 2, md: 4 },
                 }}
               >
