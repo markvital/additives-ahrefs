@@ -6,10 +6,6 @@
       "description": "Made from animal tissues or secretions (e.g., gelatin, rennet, carmine, shellac) and prized for textures, colors, and functional properties that are hard to mimic. They can conflict with vegetarian/vegan or religious diets, driving interest in plant-based or synthetic substitutes."
     },
     {
-      "name": "artificial",
-      "description": "Fully human-made chemicals not found in nature (e.g., FD&C Red No. 40, MSG, aspartame) that boost flavor, appearance, shelf life, and texture at low cost and with high consistency. Despite strict safety limits, they face ongoing regulatory review and mixed consumer perception."
-    },
-    {
       "name": "microbiological",
       "description": "Produced by microbes via fermentation or biotechnology (e.g., citric acid, xanthan gum, enzymes like amylases and proteases) to deliver reliable, large-scale outputs. Often viewed as closer to natural and widely accepted in clean-label formulations."
     },
