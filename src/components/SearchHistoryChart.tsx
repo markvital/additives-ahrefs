@@ -29,13 +29,38 @@ export function SearchHistoryChart({ metrics, domain }: SearchHistoryChartProps)
     [metrics],
   );
 
+  const years = useMemo(() => {
+    const uniqueYears = Array.from(
+      new Set(metrics.map((point) => new Date(point.date).getFullYear())),
+    );
+
+    uniqueYears.sort((a, b) => a - b);
+
+    return uniqueYears;
+  }, [metrics]);
+
   const isCompact = useMediaQuery(theme.breakpoints.down('md'));
+
+  const tickValues = useMemo(() => {
+    const step = isCompact ? 2 : 1;
+    return years
+      .filter((_, index) => index % step === 0)
+      .map((year) => new Date(year, 0, 1));
+  }, [years, isCompact]);
+
+  const margin = useMemo(
+    () =>
+      isCompact
+        ? { top: 20, right: 12, bottom: 40, left: 32 }
+        : { top: 20, right: 24, bottom: 40, left: 56 },
+    [isCompact],
+  );
 
   return (
     <Box sx={{ width: '100%', height: { xs: 260, sm: 300, md: 340 } }}>
       <ResponsiveLine
         data={data}
-        margin={{ top: 20, right: 24, bottom: 40, left: 56 }}
+        margin={margin}
         xScale={{ type: 'time', format: 'native', precision: 'month' }}
         xFormat="time:%b %Y"
         yScale={{

@@ -783,7 +783,7 @@ export function AdditiveComparison({ initialSelection, initialAdditives, awarene
                   display: 'flex',
                   flexDirection: 'column',
                   gap: 1.5,
-                  pr: { md: 4 },
+                  pr: { sm: 0, md: 4 },
                 }}
               >
                 {renderSectionForSlot('left', section.render)}
@@ -793,9 +793,9 @@ export function AdditiveComparison({ initialSelection, initialAdditives, awarene
                   display: 'flex',
                   flexDirection: 'column',
                   gap: 1.5,
-                  borderLeft: { md: '1px solid' },
-                  borderColor: { md: 'divider' },
-                  pl: { md: 4 },
+                  borderLeft: { sm: '1px solid', md: '1px solid' },
+                  borderColor: 'divider',
+                  pl: { sm: 2, md: 4 },
                 }}
               >
                 {renderSectionForSlot('right', section.render)}
