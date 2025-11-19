@@ -2,7 +2,7 @@
 
 import { useMemo } from 'react';
 import { ResponsiveLine } from '@nivo/line';
-import { Box, useTheme } from '@mui/material';
+import { Box, useTheme, useMediaQuery } from '@mui/material';
 
 import { formatMonthlyVolume } from '../lib/format';
 
@@ -29,6 +29,24 @@ export function SearchHistoryChart({ metrics, domain }: SearchHistoryChartProps)
     [metrics],
   );
 
+  const years = useMemo(() => {
+    const uniqueYears = Array.from(
+      new Set(metrics.map((point) => new Date(point.date).getFullYear())),
+    );
+
+    uniqueYears.sort((a, b) => a - b);
+
+    return uniqueYears;
+  }, [metrics]);
+
+  const isCompact = useMediaQuery(theme.breakpoints.down('sm'));
+  const tickValues = useMemo(() => {
+    const step = isCompact ? 2 : 1;
+    return years
+      .filter((_, index) => index % step === 0)
+      .map((year) => new Date(year, 0, 1));
+  }, [years, isCompact]);
+
   return (
     <Box sx={{ width: '100%', height: { xs: 260, sm: 300, md: 340 } }}>
       <ResponsiveLine
@@ -46,7 +64,7 @@ export function SearchHistoryChart({ metrics, domain }: SearchHistoryChartProps)
         colors={[theme.palette.primary.main]}
         axisBottom={{
           format: '%Y',
-          tickValues: 'every year',
+          tickValues,
           tickSize: 6,
           tickPadding: 8,
           legendOffset: 32,

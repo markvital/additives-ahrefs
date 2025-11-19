@@ -704,6 +704,7 @@ export function AdditiveComparison({ initialSelection, initialAdditives, awarene
           sx={{
             display: 'grid',
             gap: { xs: 2, sm: 3 },
+            columnGap: { sm: 2 },
             gridTemplateColumns: { xs: '1fr', sm: 'repeat(2, minmax(0, 1fr))' },
           }}
           onPointerEnter={ensureSearchData}
@@ -754,7 +755,7 @@ export function AdditiveComparison({ initialSelection, initialAdditives, awarene
             sx={{
               display: 'grid',
               gap: { xs: 2, sm: 3 },
-              columnGap: { sm: 0 },
+              columnGap: { sm: 2 },
               gridTemplateColumns: { xs: '1fr', sm: 'repeat(2, minmax(0, 1fr))' },
                 alignItems: 'flex-start',
                 px: { xs: 2, sm: 3, md: 4 },
