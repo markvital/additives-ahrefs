@@ -560,6 +560,7 @@ export function AdditiveComparison({ initialSelection, initialAdditives, awarene
             color: 'text.primary',
             textDecoration: 'none',
             '&:hover': { textDecoration: 'underline' },
+            display: { xs: 'block', sm: 'none' },
           }}
         >
           {formatAdditiveDisplayName(additive.eNumber, additive.title)}
@@ -679,34 +680,34 @@ export function AdditiveComparison({ initialSelection, initialAdditives, awarene
   return (
     <Box component="section" display="flex" flexDirection="column" gap={4}>
       <Box className="page-hero">
-        <Box
-          className="page-hero-content"
-          display="flex"
-          flexDirection="column"
-          alignItems="center"
-          textAlign="center"
-          gap={1}
-          sx={{ width: '100%', maxWidth: 760, margin: '0 auto' }}
-        >
-          <Typography
-            component="h1"
-            variant="h1"
-            sx={{ color: 'inherit', whiteSpace: { xs: 'normal', md: 'nowrap' } }}
+          <Box
+            className="page-hero-content"
+            display="flex"
+            flexDirection="column"
+            alignItems="center"
+            textAlign="center"
+            gap={1}
+            sx={{ width: '100%', maxWidth: 760, margin: '0 auto' }}
           >
-            {comparisonHeading}
-          </Typography>
+            <Typography
+              component="h1"
+              variant="h1"
+              sx={{ color: 'inherit', whiteSpace: { xs: 'normal', md: 'nowrap' } }}
+            >
+              {comparisonHeading}
+            </Typography>
+          </Box>
         </Box>
-      </Box>
 
-      <Stack spacing={4}>
-      <Box
-        sx={{
-          display: 'grid',
-          gap: { xs: 2, md: 3 },
-          gridTemplateColumns: { xs: '1fr', md: 'repeat(2, minmax(0, 1fr))' },
-        }}
-        onPointerEnter={ensureSearchData}
-      >
+        <Stack spacing={4}>
+        <Box
+          sx={{
+            display: 'grid',
+            gap: { xs: 2, sm: 3 },
+            gridTemplateColumns: { xs: '1fr', sm: 'repeat(2, minmax(0, 1fr))' },
+          }}
+          onPointerEnter={ensureSearchData}
+        >
         <AdditiveLookup
           additives={searchItems}
           value={leftValue}
@@ -750,11 +751,11 @@ export function AdditiveComparison({ initialSelection, initialAdditives, awarene
           {sectionItems.map((section, index) => (
             <Box
               key={section.key}
-              sx={{
-                display: 'grid',
-                gap: { xs: 2, sm: 3 },
-                columnGap: { md: 0 },
-                gridTemplateColumns: { xs: '1fr', md: 'repeat(2, minmax(0, 1fr))' },
+            sx={{
+              display: 'grid',
+              gap: { xs: 2, sm: 3 },
+              columnGap: { sm: 0 },
+              gridTemplateColumns: { xs: '1fr', sm: 'repeat(2, minmax(0, 1fr))' },
                 alignItems: 'flex-start',
                 px: { xs: 2, sm: 3, md: 4 },
                 py: { xs: 2.5, sm: 3 },
