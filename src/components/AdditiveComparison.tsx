@@ -692,7 +692,7 @@ export function AdditiveComparison({ initialSelection, initialAdditives, awarene
             <Typography
               component="h1"
               variant="h1"
-              sx={{ color: 'inherit', whiteSpace: { xs: 'normal', md: 'nowrap' } }}
+              sx={{ color: 'inherit', whiteSpace: 'normal' }}
             >
               {comparisonHeading}
             </Typography>
