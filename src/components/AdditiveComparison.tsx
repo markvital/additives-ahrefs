@@ -663,14 +663,14 @@ export function AdditiveComparison({ initialSelection, initialAdditives, awarene
       render: (additive: ComparisonAdditive | null) => renderSearchHistory(additive, searchHistoryDomain),
     },
     {
-      key: 'detail-link',
-      label: null,
-      render: renderDetailLink,
-    },
-    {
       key: 'article',
       label: 'Popular questions',
       render: renderPopularQuestions,
+    },
+    {
+      key: 'detail-link',
+      label: null,
+      render: renderDetailLink,
     },
   ];
 
