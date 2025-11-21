@@ -6,16 +6,18 @@ import { usePathname, useRouter } from 'next/navigation';
 import { Box, Button, Chip, Stack, Typography } from '@mui/material';
 import type { Additive, AdditiveSearchItem } from '../lib/additives';
 import { formatAdditiveDisplayName } from '../lib/additive-format';
-import { extractArticleSummary, splitArticlePreview } from '../lib/article';
+import { extractArticleSummary } from '../lib/article';
 import { formatMonthlyVolume, formatProductCount, getCountryFlagEmoji, getCountryLabel } from '../lib/format';
 import type { SearchHistoryDataset } from '../lib/search-history';
-import { MarkdownArticle } from './MarkdownArticle';
 import { AdditiveLookup } from './AdditiveLookup';
 import { SearchHistoryChart } from './SearchHistoryChart';
 import { getAwarenessLevel, type AwarenessScoreResult } from '../lib/awareness';
 import { AwarenessScoreChip } from './AwarenessScoreChip';
 import { FunctionFilterChipList } from './FunctionFilterChipList';
 import { OriginChipList } from './OriginChipList';
+import { SearchQuestions } from './SearchQuestions';
+import type { SearchQuestionItem } from '../lib/search-questions';
+import { getSearchQuestions } from '../lib/search-questions';
 import {
   getCachedAdditiveSearchItems,
   hasAdditiveSearchDataLoaded,
@@ -25,6 +27,7 @@ import {
 
 export interface ComparisonAdditive extends Additive {
   searchHistory: SearchHistoryDataset | null;
+  searchQuestions: SearchQuestionItem[] | null;
 }
 
 interface AdditiveComparisonProps {
@@ -264,52 +267,33 @@ const renderDetailLink = (additive: ComparisonAdditive | null) => {
         color="primary"
         sx={LARGE_BUTTON_STYLES}
       >
-        Read more
+        <Box component="span" sx={{ display: { xs: 'inline', sm: 'none' }, textTransform: 'none' }}>
+          Read more about {formatAdditiveDisplayName(additive.eNumber, additive.title)}
+        </Box>
+        <Box component="span" sx={{ display: { xs: 'none', sm: 'inline' }, textTransform: 'none' }}>
+          Read more
+        </Box>
       </Button>
     </Box>
   );
 };
 
-const renderArticlePreview = (additive: ComparisonAdditive | null) => {
+const renderPopularQuestions = (additive: ComparisonAdditive | null) => {
   if (!additive) {
     return null;
   }
 
-  const { preview, hasMore } = splitArticlePreview(additive.article, 20);
+  const questions = additive.searchQuestions ?? [];
 
-  if (!preview) {
+  if (questions.length === 0) {
     return (
       <Typography variant="body2" color="text.secondary">
-        Article content is not available for this additive.
+        Popular questions data is not available.
       </Typography>
     );
   }
 
-  return (
-    <Stack spacing={2} sx={{ width: '100%' }}>
-      <MarkdownArticle content={preview} />
-      {hasMore ? (
-        <Typography variant="body2" color="text.secondary">
-          Preview truncated. Visit the additive page to read the full article.
-        </Typography>
-      ) : null}
-      <Box sx={{ display: 'flex', justifyContent: 'center' }}>
-        <Typography
-          component={Link}
-          href={`/${additive.slug}`}
-          variant="h5"
-          sx={{
-            color: 'primary.main',
-            fontWeight: 600,
-            textDecoration: 'none',
-            '&:hover': { textDecoration: 'underline' },
-          }}
-        >
-          Read more
-        </Typography>
-      </Box>
-    </Stack>
-  );
+  return <SearchQuestions questions={questions} />;
 };
 
 export function AdditiveComparison({ initialSelection, initialAdditives, awarenessScores }: AdditiveComparisonProps) {
@@ -574,6 +558,7 @@ export function AdditiveComparison({ initialSelection, initialAdditives, awarene
             color: 'text.primary',
             textDecoration: 'none',
             width: '100%',
+            display: { xs: 'block', sm: 'none' },
           }}
         >
           {formatAdditiveDisplayName(additive.eNumber, additive.title)}
@@ -680,8 +665,8 @@ export function AdditiveComparison({ initialSelection, initialAdditives, awarene
     },
     {
       key: 'article',
-      label: 'Article preview',
-      render: renderArticlePreview,
+      label: 'Popular questions',
+      render: renderPopularQuestions,
     },
   ];
 
@@ -756,7 +741,7 @@ export function AdditiveComparison({ initialSelection, initialAdditives, awarene
         sx={{
           border: '1px solid',
           borderColor: 'divider',
-          borderRadius: 3,
+          borderRadius: '10px',
           backgroundColor: 'background.paper',
           overflow: 'hidden',
         }}
