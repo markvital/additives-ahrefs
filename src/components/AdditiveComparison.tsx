@@ -17,7 +17,6 @@ import { FunctionFilterChipList } from './FunctionFilterChipList';
 import { OriginChipList } from './OriginChipList';
 import { SearchQuestions } from './SearchQuestions';
 import type { SearchQuestionItem } from '../lib/search-questions';
-import { getSearchQuestions } from '../lib/search-questions';
 import {
   getCachedAdditiveSearchItems,
   hasAdditiveSearchDataLoaded,
@@ -258,6 +257,11 @@ const renderDetailLink = (additive: ComparisonAdditive | null) => {
     return null;
   }
 
+  const eNumberLabel =
+    typeof additive.eNumber === 'string' && additive.eNumber.trim().length > 0
+      ? additive.eNumber.trim()
+      : additive.slug.toUpperCase();
+
   return (
     <Box sx={{ display: 'flex', justifyContent: 'center' }}>
       <Button
@@ -268,7 +272,7 @@ const renderDetailLink = (additive: ComparisonAdditive | null) => {
         sx={LARGE_BUTTON_STYLES}
       >
         <Box component="span" sx={{ display: { xs: 'inline', sm: 'none' }, textTransform: 'none' }}>
-          Read more about {formatAdditiveDisplayName(additive.eNumber, additive.title)}
+          Read more about {eNumberLabel}
         </Box>
         <Box component="span" sx={{ display: { xs: 'none', sm: 'inline' }, textTransform: 'none' }}>
           Read more
@@ -293,7 +297,7 @@ const renderPopularQuestions = (additive: ComparisonAdditive | null) => {
     );
   }
 
-  return <SearchQuestions questions={questions} />;
+  return <SearchQuestions questions={questions} variant="plain" />;
 };
 
 export function AdditiveComparison({ initialSelection, initialAdditives, awarenessScores }: AdditiveComparisonProps) {
@@ -544,7 +548,7 @@ export function AdditiveComparison({ initialSelection, initialAdditives, awarene
           gap: 1.5,
           textDecoration: 'none',
           color: 'inherit',
-          borderRadius: 2,
+          borderRadius: '10px',
           px: { xs: 0, sm: 0.5 },
           py: { xs: 0, sm: 0.25 },
           '&:hover': {
