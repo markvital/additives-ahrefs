@@ -551,16 +551,29 @@ export function AdditiveComparison({ initialSelection, initialAdditives, awarene
     const summary = extractArticleSummary(additive.article) ?? additive.description;
 
     return (
-      <Stack spacing={1.5}>
+      <Box
+        component={Link}
+        href={`/${additive.slug}`}
+        sx={{
+          display: 'flex',
+          flexDirection: 'column',
+          gap: 1.5,
+          textDecoration: 'none',
+          color: 'inherit',
+          borderRadius: 2,
+          px: { xs: 0, sm: 0.5 },
+          py: { xs: 0, sm: 0.25 },
+          '&:hover': {
+            backgroundColor: 'action.hover',
+          },
+        }}
+      >
         <Typography
-          component={Link}
-          href={`/${additive.slug}`}
           variant="h4"
           sx={{
             color: 'text.primary',
             textDecoration: 'none',
-            '&:hover': { textDecoration: 'underline' },
-            display: { xs: 'block', sm: 'none' },
+            width: '100%',
           }}
         >
           {formatAdditiveDisplayName(additive.eNumber, additive.title)}
@@ -570,7 +583,7 @@ export function AdditiveComparison({ initialSelection, initialAdditives, awarene
             {summary}
           </Typography>
         ) : null}
-      </Stack>
+      </Box>
     );
   };
 
