@@ -6,6 +6,7 @@ import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 import rehypeRaw from 'rehype-raw';
 import { isValidElement, type ReactNode } from 'react';
+import { AdditiveLink } from './AdditiveLink';
 
 const collectText = (children: ReactNode): string => {
   if (typeof children === 'string') {
@@ -70,57 +71,118 @@ const createHeadingComponent = (
   return HeadingComponent;
 };
 
-interface MarkdownArticleProps {
-  content: string;
-}
+const additiveAttributePattern = /\[([^\]]+)\]\(([^)]+)\)\{([^}]*)\}/g;
 
-const markdownComponents: Components = {
-  h1: createHeadingComponent('h2', 'h3'),
-  h2: createHeadingComponent('h3', 'h4'),
-  h3: createHeadingComponent('h4', 'h5'),
-  h4: createHeadingComponent('h5', 'h6'),
-  p: ({ children, ...props }) => (
-    <Typography component="p" variant="body1" color="text.primary" paragraph {...props}>
-      {children}
-    </Typography>
-  ),
-  a: ({ children, href, ...props }) => (
-    <MuiLink href={href} underline="hover" {...props}>
-      {children}
-    </MuiLink>
-  ),
-  ul: ({ children, ...props }) => (
-    <Box component="ul" sx={{ paddingLeft: 3, display: 'grid', gap: 1 }} {...props}>
-      {children}
-    </Box>
-  ),
-  ol: ({ children, ...props }) => (
-    <Box component="ol" sx={{ paddingLeft: 3, display: 'grid', gap: 1 }} {...props}>
-      {children}
-    </Box>
-  ),
-  li: ({ children, ...props }) => (
-    <Typography component="li" variant="body1" color="text.primary" {...props}>
-      {children}
-    </Typography>
-  ),
-  strong: ({ children, ...props }) => (
-    <Box component="span" fontWeight={600} {...props}>
-      {children}
-    </Box>
-  ),
-  em: ({ children, ...props }) => (
-    <Box component="span" fontStyle="italic" {...props}>
-      {children}
-    </Box>
-  ),
-  hr: (props) => <Box component="hr" sx={{ border: 0, borderTop: '1px solid', borderColor: 'divider', my: 3 }} {...props} />,
+const sanitizeHref = (href: string) => href.replace(/"/g, '&quot;');
+
+const sanitizeText = (text: string) => text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+const convertAdditiveAttributes = (content: string): string => {
+  return content.replace(additiveAttributePattern, (match: string, text: string, href: string, attributeText: string) => {
+    const tokens: string[] = attributeText
+      .split(/\s+/)
+      .map((token: string) => token.trim())
+      .filter(Boolean);
+
+    const classNames = tokens
+      .filter((token) => token.startsWith('.'))
+      .map((token) => token.slice(1))
+      .filter((token) => token.length > 0);
+
+    if (!classNames.includes('additive')) {
+      return match;
+    }
+
+    const uniqueClassList = Array.from(new Set(classNames));
+    const safeHref = sanitizeHref(href);
+    const safeText = sanitizeText(text);
+
+    return `<a href="${safeHref}" class="${uniqueClassList.join(' ')}">${safeText}</a>`;
+  });
 };
 
-export function MarkdownArticle({ content }: MarkdownArticleProps) {
+interface MarkdownArticleProps {
+  content: string;
+  currentAdditive?: {
+    slug: string;
+    eNumber?: string | null;
+    title?: string | null;
+  };
+}
+
+export function MarkdownArticle({ content, currentAdditive }: MarkdownArticleProps) {
   if (!content.trim()) {
     return null;
   }
+
+  const normalizedContent = convertAdditiveAttributes(content);
+
+  const markdownComponents: Components = {
+    h1: createHeadingComponent('h2', 'h3'),
+    h2: createHeadingComponent('h3', 'h4'),
+    h3: createHeadingComponent('h4', 'h5'),
+    h4: createHeadingComponent('h5', 'h6'),
+    p: ({ children, ...props }) => (
+      <Typography component="p" variant="body1" color="text.primary" paragraph {...props}>
+        {children}
+      </Typography>
+    ),
+    a: ({ children, href, node, ...props }) => {
+      const nodeClassName = node?.properties?.className;
+      const normalizedNodeClasses = Array.isArray(nodeClassName)
+        ? (nodeClassName as string[])
+        : typeof nodeClassName === 'string'
+          ? nodeClassName.split(/\s+/)
+          : [];
+
+      const classNames = ((props.className as string | undefined)?.split(/\s+/) ?? [])
+        .concat(normalizedNodeClasses)
+        .map((value) => value?.trim())
+        .filter((value): value is string => typeof value === 'string' && value.length > 0);
+
+      const isAdditiveLink = classNames.includes('additive');
+
+      if (isAdditiveLink) {
+        return (
+          <AdditiveLink href={href} currentAdditive={currentAdditive} className={props.className}>
+            {children}
+          </AdditiveLink>
+        );
+      }
+
+      return (
+        <MuiLink href={href} underline="hover" {...props}>
+          {children}
+        </MuiLink>
+      );
+    },
+    ul: ({ children, ...props }) => (
+      <Box component="ul" sx={{ paddingLeft: 3, display: 'grid', gap: 1 }} {...props}>
+        {children}
+      </Box>
+    ),
+    ol: ({ children, ...props }) => (
+      <Box component="ol" sx={{ paddingLeft: 3, display: 'grid', gap: 1 }} {...props}>
+        {children}
+      </Box>
+    ),
+    li: ({ children, ...props }) => (
+      <Typography component="li" variant="body1" color="text.primary" {...props}>
+        {children}
+      </Typography>
+    ),
+    strong: ({ children, ...props }) => (
+      <Box component="span" fontWeight={600} {...props}>
+        {children}
+      </Box>
+    ),
+    em: ({ children, ...props }) => (
+      <Box component="span" fontStyle="italic" {...props}>
+        {children}
+      </Box>
+    ),
+    hr: (props) => <Box component="hr" sx={{ border: 0, borderTop: '1px solid', borderColor: 'divider', my: 3 }} {...props} />,
+  };
 
   return (
     <Box
@@ -139,7 +201,7 @@ export function MarkdownArticle({ content }: MarkdownArticleProps) {
         rehypePlugins={[rehypeRaw, rehypeKatex]}
         components={markdownComponents}
       >
-        {content}
+        {normalizedContent}
       </ReactMarkdown>
     </Box>
   );

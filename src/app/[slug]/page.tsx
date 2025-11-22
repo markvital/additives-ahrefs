@@ -588,7 +588,12 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
       )}
 
       <Box sx={{ width: '100%', maxWidth: 760, display: 'flex', flexDirection: 'column', gap: 3 }}>
-        {articleBody && <MarkdownArticle content={articleBody} />}
+        {articleBody && (
+          <MarkdownArticle
+            content={articleBody}
+            currentAdditive={{ slug: additive.slug, eNumber: additive.eNumber, title: additive.title }}
+          />
+        )}
 
         {questionItems.length > 0 && <SearchQuestions questions={questionItems} />}
 

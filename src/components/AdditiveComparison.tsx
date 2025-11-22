@@ -304,7 +304,10 @@ const renderArticlePreview = (additive: ComparisonAdditive | null) => {
 
   return (
     <Stack spacing={2} sx={{ width: '100%' }}>
-      <MarkdownArticle content={preview} />
+      <MarkdownArticle
+        content={preview}
+        currentAdditive={{ slug: additive.slug, eNumber: additive.eNumber, title: additive.title }}
+      />
       {hasMore ? (
         <Typography variant="body2" color="text.secondary">
           Preview truncated. Visit the additive page to read the full article.
