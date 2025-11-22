@@ -7,6 +7,7 @@ import rehypeKatex from 'rehype-katex';
 import rehypeRaw from 'rehype-raw';
 import { isValidElement, type ReactNode } from 'react';
 import { AdditiveLink } from './AdditiveLink';
+import { remarkAdditiveAttributes } from '../lib/remarkAdditiveAttributes';
 
 const collectText = (children: ReactNode): string => {
   if (typeof children === 'string') {
@@ -71,36 +72,6 @@ const createHeadingComponent = (
   return HeadingComponent;
 };
 
-const additiveAttributePattern = /\[([^\]]+)\]\(([^)]+)\)\{([^}]*)\}/g;
-
-const sanitizeHref = (href: string) => href.replace(/"/g, '&quot;');
-
-const sanitizeText = (text: string) => text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-
-const convertAdditiveAttributes = (content: string): string => {
-  return content.replace(additiveAttributePattern, (match: string, text: string, href: string, attributeText: string) => {
-    const tokens: string[] = attributeText
-      .split(/\s+/)
-      .map((token: string) => token.trim())
-      .filter(Boolean);
-
-    const classNames = tokens
-      .filter((token) => token.startsWith('.'))
-      .map((token) => token.slice(1))
-      .filter((token) => token.length > 0);
-
-    if (!classNames.includes('additive')) {
-      return match;
-    }
-
-    const uniqueClassList = Array.from(new Set(classNames));
-    const safeHref = sanitizeHref(href);
-    const safeText = sanitizeText(text);
-
-    return `<a href="${safeHref}" class="${uniqueClassList.join(' ')}">${safeText}</a>`;
-  });
-};
-
 interface MarkdownArticleProps {
   content: string;
   currentAdditive?: {
@@ -114,8 +85,6 @@ export function MarkdownArticle({ content, currentAdditive }: MarkdownArticlePro
   if (!content.trim()) {
     return null;
   }
-
-  const normalizedContent = convertAdditiveAttributes(content);
 
   const markdownComponents: Components = {
     h1: createHeadingComponent('h2', 'h3'),
@@ -197,11 +166,11 @@ export function MarkdownArticle({ content, currentAdditive }: MarkdownArticlePro
       }}
     >
       <ReactMarkdown
-        remarkPlugins={[remarkGfm, remarkMath]}
+        remarkPlugins={[remarkGfm, remarkMath, remarkAdditiveAttributes]}
         rehypePlugins={[rehypeRaw, rehypeKatex]}
         components={markdownComponents}
       >
-        {normalizedContent}
+        {content}
       </ReactMarkdown>
     </Box>
   );
