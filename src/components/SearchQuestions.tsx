@@ -6,9 +6,14 @@ import { AhrefsAttributionTooltip } from './AhrefsAttributionTooltip';
 interface SearchQuestionsProps {
   questions: SearchQuestionItem[];
   variant?: 'default' | 'plain';
+  spacing?: { mobile?: number; desktop?: number };
 }
 
-export function SearchQuestions({ questions, variant = 'default' }: SearchQuestionsProps) {
+export function SearchQuestions({
+  questions,
+  variant = 'default',
+  spacing,
+}: SearchQuestionsProps) {
   const formatQuestion = (raw: string) => {
     const trimmed = raw.trim();
 
@@ -54,7 +59,16 @@ export function SearchQuestions({ questions, variant = 'default' }: SearchQuesti
   const containerSpacing = showAttribution ? 1.5 : 1;
 
   return (
-    <Box sx={{ display: 'flex', flexDirection: 'column', gap: containerSpacing }}>
+    <Box
+      sx={{
+        display: 'flex',
+        flexDirection: 'column',
+        gap: containerSpacing,
+        '& > *:last-child': {
+          mb: 0,
+        },
+      }}
+    >
       <Box
         sx={{
           backgroundColor: showHeading ? '#ebebeb' : 'transparent',
@@ -76,7 +90,10 @@ export function SearchQuestions({ questions, variant = 'default' }: SearchQuesti
             pl: showHeading ? 3 : 2,
             m: 0,
             '& > li:not(:last-of-type)': {
-              mb: 1.5,
+              mb: {
+                xs: spacing?.mobile ?? 2,
+                sm: spacing?.desktop ?? 1.5,
+              },
             },
           }}
         >

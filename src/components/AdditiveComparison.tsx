@@ -48,6 +48,14 @@ const toSearchItem = (additive: ComparisonAdditive): AdditiveSearchItem => ({
   searchRank: typeof additive.searchRank === 'number' ? additive.searchRank : null,
 });
 
+const READ_MORE_TEXT_STYLES = {
+  fontWeight: 600,
+  textTransform: 'uppercase',
+  color: '#5f5f5f',
+  fontSize: '0.9rem',
+  letterSpacing: '0.05em',
+} as const;
+
 const getInitialSearchItems = (initialAdditives: Record<string, ComparisonAdditive>): AdditiveSearchItem[] => {
   const unique = new Map<string, AdditiveSearchItem>();
 
@@ -252,15 +260,17 @@ const LARGE_BUTTON_STYLES = {
   py: 1.75,
 } as const;
 
+const getENumberLabel = (additive: { eNumber: string | null; slug: string }) =>
+  typeof additive.eNumber === 'string' && additive.eNumber.trim().length > 0
+    ? additive.eNumber.trim()
+    : additive.slug.toUpperCase();
+
 const renderDetailLink = (additive: ComparisonAdditive | null) => {
   if (!additive) {
     return null;
   }
 
-  const eNumberLabel =
-    typeof additive.eNumber === 'string' && additive.eNumber.trim().length > 0
-      ? additive.eNumber.trim()
-      : additive.slug.toUpperCase();
+  const eNumberLabel = getENumberLabel(additive);
 
   return (
     <Box sx={{ display: 'flex', justifyContent: 'center' }}>
@@ -271,10 +281,10 @@ const renderDetailLink = (additive: ComparisonAdditive | null) => {
         color="primary"
         sx={LARGE_BUTTON_STYLES}
       >
-        <Box component="span" sx={{ display: { xs: 'inline', sm: 'none' }, textTransform: 'none' }}>
+        <Box component="span" sx={{ display: { xs: 'inline', sm: 'none' } }}>
           Read more about {eNumberLabel}
         </Box>
-        <Box component="span" sx={{ display: { xs: 'none', sm: 'inline' }, textTransform: 'none' }}>
+        <Box component="span" sx={{ display: { xs: 'none', sm: 'inline' } }}>
           Read more
         </Box>
       </Button>
@@ -297,7 +307,35 @@ const renderPopularQuestions = (additive: ComparisonAdditive | null) => {
     );
   }
 
-  return <SearchQuestions questions={questions} variant="plain" />;
+  const eNumberLabel = getENumberLabel(additive);
+
+  return (
+    <Box sx={{ mb: { xs: 6, sm: 0 } }}>
+      <Stack spacing={{ xs: 6, sm: 2.5 }}>
+        <SearchQuestions questions={questions} variant="plain" spacing={{ mobile: 4, desktop: 2 }} />
+        <Box sx={{ display: 'flex', justifyContent: 'center' }}>
+          <Typography
+            component={Link}
+            href={`/${additive.slug}`}
+            variant="body1"
+            sx={{
+              ...READ_MORE_TEXT_STYLES,
+              display: 'inline-flex',
+              textDecoration: 'none',
+              '&:hover': { textDecoration: 'underline', color: READ_MORE_TEXT_STYLES.color },
+            }}
+          >
+            <Box component="span" sx={{ display: { xs: 'inline', sm: 'none' } }}>
+              {'READ MORE ABOUT ' + eNumberLabel}
+            </Box>
+            <Box component="span" sx={{ display: { xs: 'none', sm: 'inline' } }}>
+              {'READ MORE >>'}
+            </Box>
+          </Typography>
+        </Box>
+      </Stack>
+    </Box>
+  );
 };
 
 export function AdditiveComparison({ initialSelection, initialAdditives, awarenessScores }: AdditiveComparisonProps) {
@@ -572,6 +610,9 @@ export function AdditiveComparison({ initialSelection, initialAdditives, awarene
             {summary}
           </Typography>
         ) : null}
+        <Box component="span" sx={READ_MORE_TEXT_STYLES}>
+          {'READ MORE >>'}
+        </Box>
       </Box>
     );
   };
@@ -663,14 +704,14 @@ export function AdditiveComparison({ initialSelection, initialAdditives, awarene
       render: (additive: ComparisonAdditive | null) => renderSearchHistory(additive, searchHistoryDomain),
     },
     {
-      key: 'article',
-      label: 'Popular questions',
-      render: renderPopularQuestions,
-    },
-    {
       key: 'detail-link',
       label: null,
       render: renderDetailLink,
+    },
+    {
+      key: 'article',
+      label: 'Popular questions',
+      render: renderPopularQuestions,
     },
   ];
 
