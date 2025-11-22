@@ -26,6 +26,8 @@ export interface AwarenessComputationResult {
   scores: Map<string, AwarenessScoreResult>;
 }
 
+export type AwarenessLevel = 'under-aware' | 'normal' | 'over-aware';
+
 /**
  * Laplace smoothing factor applied to every additive.
  * A higher value makes rare additives look more average by adding pseudo-observations.
@@ -164,5 +166,21 @@ export const calculateAwarenessScores = (
     percentileRange,
     scores,
   };
+};
+
+export const getAwarenessLevel = (index: number | null | undefined): AwarenessLevel | null => {
+  if (typeof index !== 'number' || !Number.isFinite(index) || index <= 0) {
+    return null;
+  }
+
+  if (index > 1.25) {
+    return 'over-aware';
+  }
+
+  if (index < 0.8) {
+    return 'under-aware';
+  }
+
+  return 'normal';
 };
 

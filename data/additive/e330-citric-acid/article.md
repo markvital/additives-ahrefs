@@ -19,7 +19,7 @@ Citric acid shows up across many categories: soft drinks and flavored waters, ca
 
 ## What can replace citric acid?
 Depending on the job, manufacturers may choose:
-- For sourness or pH control: [malic acid](/e296-malic-acid), [lactic acid](/e270-lactic-acid), [fumaric acid](/e297-fumaric-acid), or [phosphoric acid](/e338-phosphoric-acid) in some beverages
+- For sourness or pH control: [malic acid](/e296-malic-acid){.additive}, [lactic acid](/e270-lactic-acid){.additive}, [fumaric acid](/e297-fumaric-acid){.additive}, or [phosphoric acid](/e338-phosphoric-acid){.additive} in some beverages
 - For buffering and mild tartness: [sodium citrate](/e331-sodium-citrates), [potassium citrate](/e332-potassium-citrates), or [calcium citrate](/e333-calcium-citrates)
 - For preservation systems: pair acids with preservatives such as [sorbic acid](/e200-sorbic-acid) or [sodium benzoate](/e211-sodium-benzoate)
 - For metal control (sequestration): [calcium disodium EDTA](/e385-calcium-disodium-ethylenediaminetetraacetate) in applications where permitted

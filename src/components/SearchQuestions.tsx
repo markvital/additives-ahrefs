@@ -5,9 +5,15 @@ import { AhrefsAttributionTooltip } from './AhrefsAttributionTooltip';
 
 interface SearchQuestionsProps {
   questions: SearchQuestionItem[];
+  variant?: 'default' | 'plain';
+  spacing?: { mobile?: number; desktop?: number };
 }
 
-export function SearchQuestions({ questions }: SearchQuestionsProps) {
+export function SearchQuestions({
+  questions,
+  variant = 'default',
+  spacing,
+}: SearchQuestionsProps) {
   const formatQuestion = (raw: string) => {
     const trimmed = raw.trim();
 
@@ -48,22 +54,46 @@ export function SearchQuestions({ questions }: SearchQuestionsProps) {
     return null;
   }
 
+  const showHeading = variant === 'default';
+  const showAttribution = variant === 'default';
+  const containerSpacing = showAttribution ? 1.5 : 1;
+
   return (
-    <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1.5 }}>
-      <Box sx={{ backgroundColor: '#ebebeb', p: 2, borderRadius: 1 }}>
-        <Typography component="h2" variant="h4" sx={{ fontWeight: 600, mb: 1.5 }}>
-          Popular Questions
-        </Typography>
+    <Box
+      sx={{
+        display: 'flex',
+        flexDirection: 'column',
+        gap: containerSpacing,
+        '& > *:last-child': {
+          mb: 0,
+        },
+      }}
+    >
+      <Box
+        sx={{
+          backgroundColor: showHeading ? '#ebebeb' : 'transparent',
+          p: showHeading ? 2 : 0,
+          borderRadius: showHeading ? 1 : 0,
+        }}
+      >
+        {showHeading ? (
+          <Typography component="h2" variant="h4" sx={{ fontWeight: 600, mb: 1.5 }}>
+            Popular Questions
+          </Typography>
+        ) : null}
 
         <Box
           component="ol"
           sx={{
             listStyleType: 'decimal',
             listStylePosition: 'outside',
-            pl: 3,
+            pl: showHeading ? 3 : 2,
             m: 0,
             '& > li:not(:last-of-type)': {
-              mb: 1.5,
+              mb: {
+                xs: spacing?.mobile ?? 2,
+                sm: spacing?.desktop ?? 1.5,
+              },
             },
           }}
         >
@@ -84,10 +114,11 @@ export function SearchQuestions({ questions }: SearchQuestionsProps) {
         </Box>
       </Box>
 
-      <Typography variant="body2" color="text.secondary" sx={{ fontSize: '0.875rem' }}>
-        Top questions that users ask about this topic based on{' '}
-        <AhrefsAttributionTooltip /> data
-      </Typography>
+      {showAttribution ? (
+        <Typography variant="body2" color="text.secondary" sx={{ fontSize: '0.875rem' }}>
+          Top questions that users ask about this topic based on <AhrefsAttributionTooltip /> data
+        </Typography>
+      ) : null}
     </Box>
   );
 }

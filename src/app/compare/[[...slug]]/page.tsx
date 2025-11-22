@@ -4,6 +4,7 @@ import { AdditiveComparison, type ComparisonAdditive } from '../../../components
 import { getAdditiveBySlug, getAwarenessScores } from '../../../lib/additives';
 import { formatAdditiveDisplayName } from '../../../lib/additive-format';
 import { getSearchHistory } from '../../../lib/search-history';
+import { getSearchQuestions } from '../../../lib/search-questions';
 interface ComparePageProps {
   params: Promise<{ slug?: string[] }>;
 }
@@ -116,11 +117,14 @@ export default async function ComparePage({ params }: ComparePageProps) {
         return null;
       }
 
+      const searchQuestionsDataset = getSearchQuestions(slugValue);
+
       return [
         slugValue,
         {
           ...additive,
           searchHistory: getSearchHistory(slugValue),
+          searchQuestions: searchQuestionsDataset?.questions ?? null,
         },
       ];
     })
