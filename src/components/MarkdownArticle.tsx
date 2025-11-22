@@ -3,11 +3,11 @@ import type { Components } from 'react-markdown';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import remarkMath from 'remark-math';
+import remarkAttr from 'remark-attributes';
 import rehypeKatex from 'rehype-katex';
 import rehypeRaw from 'rehype-raw';
 import { isValidElement, type ReactNode } from 'react';
 import { AdditiveLink } from './AdditiveLink';
-import { remarkAdditiveAttributes } from '../lib/remarkAdditiveAttributes';
 
 const collectText = (children: ReactNode): string => {
   if (typeof children === 'string') {
@@ -166,7 +166,7 @@ export function MarkdownArticle({ content, currentAdditive }: MarkdownArticlePro
       }}
     >
       <ReactMarkdown
-        remarkPlugins={[remarkGfm, remarkMath, remarkAdditiveAttributes]}
+        remarkPlugins={[remarkGfm, remarkMath, [remarkAttr as any, { mdx: false }]]}
         rehypePlugins={[rehypeRaw, rehypeKatex]}
         components={markdownComponents}
       >

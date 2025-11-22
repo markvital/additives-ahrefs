@@ -19,10 +19,10 @@ You will most often see E472e in yeast‑leavened baked goods and baking mixes (
 
 ## What can replace Mono- and diacetyltartaric acid esters of mono- and diglycerides of fatty acids?
 It depends on the job it performs in your recipe:
-- For emulsifying and dough strengthening: [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids), [sodium stearoyl-2-lactylate](/e481-sodium-stearoyl-2-lactylate), or [calcium stearoyl-2-lactylate](/e482-calcium-stearoyl-2-lactylate).
-- For similar tartaric/acetic ester systems: [tartaric acid esters of mono- and diglycerides of fatty acids](/e472d-tartaric-acid-esters-of-mono-and-diglycerides-of-fatty-acids) or [mixed acetic and tartaric acid esters of mono- and diglycerides of fatty acids](/e472f-mixed-acetic-and-tartaric-acid-esters-of-mono-and-diglycerides-of-fatty-acids).
-- For general emulsifying: [lecithins](/e322-lecithins).
-- For dough handling and softness: enzymes like [alpha-amylase](/e1100-alpha-amylase) or hydrocolloids such as [xanthan gum](/e415-xanthan-gum) and [guar gum](/e412-guar-gum). Bakers also often pair emulsifiers with [ascorbic acid](/e300-ascorbic-acid) as a dough improver.
+- For emulsifying and dough strengthening: [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive}, [sodium stearoyl-2-lactylate](/e481-sodium-stearoyl-2-lactylate){.additive}, or [calcium stearoyl-2-lactylate](/e482-calcium-stearoyl-2-lactylate){.additive}.
+- For similar tartaric/acetic ester systems: [tartaric acid esters of mono- and diglycerides of fatty acids](/e472d-tartaric-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive} or [mixed acetic and tartaric acid esters of mono- and diglycerides of fatty acids](/e472f-mixed-acetic-and-tartaric-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive}.
+- For general emulsifying: [lecithins](/e322-lecithins){.additive}.
+- For dough handling and softness: enzymes like [alpha-amylase](/e1100-alpha-amylase){.additive} or hydrocolloids such as [xanthan gum](/e415-xanthan-gum){.additive} and [guar gum](/e412-guar-gum){.additive}. Bakers also often pair emulsifiers with [ascorbic acid](/e300-ascorbic-acid){.additive} as a dough improver.
 
 ## How is Mono- and diacetyltartaric acid esters of mono- and diglycerides of fatty acids made?
 Manufacturers start with mono- and diglycerides produced from food‑grade fats and oils. These are reacted with tartaric acid (or its derivatives) and acetic acid (or acetic anhydride) to form the diacetyltartaric acid esters that make up DATEM.[^3] U.S. and EU rules also set identity and purity specifications for this additive to ensure it meets food‑grade standards.[^1][^3]
