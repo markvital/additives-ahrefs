@@ -31,17 +31,35 @@ export function AhrefsAttributionTooltip() {
         placement="bottom"
         componentsProps={{
           popper: {
-            modifiers: [
-              { name: 'flip', enabled: false },
-              { name: 'preventOverflow', options: { altAxis: false, tether: false } },
-            ],
             sx: {
               zIndex: theme.zIndex.tooltip - 2,
             },
+            modifiers: [
+              {
+                name: 'preventOverflow',
+                options: {
+                  boundary: 'viewport',
+                  altBoundary: true,
+                  tether: true,
+                  padding: 8,
+                },
+              },
+              {
+                name: 'flip',
+                enabled: true,
+                options: {
+                  fallbackPlacements: ['top'],
+                },
+              },
+              {
+                name: 'eventListeners',
+                options: { resize: true },
+              },
+            ],
           },
           tooltip: {
             sx: {
-              maxWidth: 'none',
+              maxWidth: 'min(360px, calc(100vw - 32px))',
               backgroundColor: 'transparent',
               boxShadow: 'none',
               padding: 0,
