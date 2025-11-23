@@ -756,3 +756,67 @@ export const toAdditiveGridItem = (additive: Additive): AdditiveGridItem => ({
 
 export const mapAdditivesToGridItems = (items: Additive[]): AdditiveGridItem[] =>
   items.map((item) => toAdditiveGridItem(item));
+
+/**
+ * Determines the canonical order for two additives in a comparison.
+ * Returns a tuple [primary, secondary] where primary should come first in the URL.
+ *
+ * Rules:
+ * 1. If both have e-numbers, sort by e-number (lower e-number first)
+ * 2. If only one has an e-number, it becomes primary
+ * 3. If neither has an e-number, sort alphabetically by slug
+ */
+export const getCanonicalComparisonOrder = (
+  first: Pick<Additive, 'eNumber' | 'slug'>,
+  second: Pick<Additive, 'eNumber' | 'slug'>,
+): [string, string] => {
+  const firstHasENumber = first.eNumber && first.eNumber.trim().length > 0;
+  const secondHasENumber = second.eNumber && second.eNumber.trim().length > 0;
+
+  // Both have e-numbers: compare using e-number logic
+  if (firstHasENumber && secondHasENumber) {
+    const firstKey = createENumberSortKey(first.eNumber);
+    const secondKey = createENumberSortKey(second.eNumber);
+
+    // Compare prefix
+    if (firstKey.prefix !== secondKey.prefix) {
+      const comparison = firstKey.prefix.localeCompare(secondKey.prefix);
+      return comparison <= 0 ? [first.slug, second.slug] : [second.slug, first.slug];
+    }
+
+    // Compare numeric part
+    if (firstKey.numeric !== secondKey.numeric) {
+      return firstKey.numeric < secondKey.numeric ? [first.slug, second.slug] : [second.slug, first.slug];
+    }
+
+    // Compare suffix
+    if (firstKey.suffix !== secondKey.suffix) {
+      if (!firstKey.suffix) {
+        return [first.slug, second.slug];
+      }
+      if (!secondKey.suffix) {
+        return [second.slug, first.slug];
+      }
+      const comparison = firstKey.suffix.localeCompare(secondKey.suffix);
+      return comparison <= 0 ? [first.slug, second.slug] : [second.slug, first.slug];
+    }
+
+    // E-numbers are identical, fall back to slug comparison
+    const slugComparison = first.slug.localeCompare(second.slug);
+    return slugComparison <= 0 ? [first.slug, second.slug] : [second.slug, first.slug];
+  }
+
+  // Only first has e-number: first is primary
+  if (firstHasENumber && !secondHasENumber) {
+    return [first.slug, second.slug];
+  }
+
+  // Only second has e-number: second is primary
+  if (!firstHasENumber && secondHasENumber) {
+    return [second.slug, first.slug];
+  }
+
+  // Neither has e-number: sort alphabetically by slug
+  const slugComparison = first.slug.localeCompare(second.slug);
+  return slugComparison <= 0 ? [first.slug, second.slug] : [second.slug, first.slug];
+};

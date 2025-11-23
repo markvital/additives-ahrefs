@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
 import { AdditiveComparison, type ComparisonAdditive } from '../../../components/AdditiveComparison';
-import { getAdditiveBySlug, getAwarenessScores } from '../../../lib/additives';
+import { getAdditiveBySlug, getAwarenessScores, getCanonicalComparisonOrder } from '../../../lib/additives';
 import { formatAdditiveDisplayName } from '../../../lib/additive-format';
 import { getSearchHistory } from '../../../lib/search-history';
 import { getSearchQuestions } from '../../../lib/search-questions';
@@ -46,7 +46,11 @@ export async function generateMetadata({ params }: ComparePageProps): Promise<Me
     if (firstAdditive && secondAdditive) {
       const firstName = formatAdditiveDisplayName(firstAdditive.eNumber, firstAdditive.title);
       const secondName = formatAdditiveDisplayName(secondAdditive.eNumber, secondAdditive.title);
-      const canonical = `/compare/${firstAdditive.slug}-vs-${secondAdditive.slug}`;
+
+      // Determine canonical order based on e-number comparison
+      const [primarySlug, secondarySlug] = getCanonicalComparisonOrder(firstAdditive, secondAdditive);
+      const canonical = `/compare/${primarySlug}-vs-${secondarySlug}`;
+
       const firstImageUrl = `/img/card-preview/${firstAdditive.slug}.jpg`;
       const secondImageUrl = `/img/card-preview/${secondAdditive.slug}.jpg`;
 
