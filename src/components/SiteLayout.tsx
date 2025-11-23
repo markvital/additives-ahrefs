@@ -1,6 +1,7 @@
 import { ReactNode } from 'react';
 import { SiteHeader } from './SiteHeader';
 import { SiteFooter } from './SiteFooter';
+import { LastUpdated } from './LastUpdated';
 
 interface SiteLayoutProps {
   children: ReactNode;
@@ -17,6 +18,7 @@ export function SiteLayout({ children }: SiteLayoutProps) {
       <main className="main-content">
         <div className="content-shell">{children}</div>
       </main>
+      <LastUpdated />
       <SiteFooter />
     </div>
   );

@@ -18,6 +18,7 @@ const { execFile } = require('child_process');
 const { promisify } = require('util');
 
 const { createAdditiveSlug } = require('./utils/slug');
+const { updateLastUpdatedTimestamp } = require('./utils/last-updated');
 
 const execFileAsync = promisify(execFile);
 
@@ -29,6 +30,8 @@ const ADDITIVES_INDEX_PATH = path.join(DATA_DIR, 'additives.json');
 const MAX_PAGE_CHECK = 10; // Guard to avoid infinite loops if the API changes.
 const REQUEST_DELAY_MS = 50; // Gentle delay between batch requests.
 const BATCH_SIZE = 10;
+
+let hasChanges = false;
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
@@ -327,6 +330,7 @@ async function writeAdditiveDataset(additives) {
   };
 
   await fs.writeFile(ADDITIVES_INDEX_PATH, `${JSON.stringify(indexPayload, null, 2)}\n`);
+  hasChanges = true;
   console.log(`Saved ${additives.length} additives to ${DATA_DIR}`);
 }
 
@@ -349,6 +353,10 @@ async function main() {
   additives.sort((a, b) => a.title.localeCompare(b.title, 'en'));
 
   await writeAdditiveDataset(additives);
+
+  if (hasChanges) {
+    await updateLastUpdatedTimestamp();
+  }
 }
 
 main().catch((error) => {

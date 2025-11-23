@@ -296,6 +296,23 @@ a {
   font-size: 0.9rem;
 }
 
+.last-updated {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  padding: 0 0 1rem;
+  text-align: center;
+  color: #6b6b6b;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.last-updated strong {
+  font-weight: 700;
+}
+
 .footer-shell {
   display: flex;
   flex-direction: column;
