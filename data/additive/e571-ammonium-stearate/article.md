@@ -7,7 +7,7 @@ Ammonium stearate (E571) is the ammonium salt of stearic acid, a long‑chain fa
 - What it does: works as an emulsifier, anti‑caking agent, and release agent
 - Where you might see it: select powdered mixes, coatings, or processing aids
 - Also known as: E571, ammonium stearate
-- Related additives: [fatty acids](/e570-fatty-acids), [magnesium stearate](/e572-magnesium-stearate), [mono- and diglycerides](/e471-mono-and-diglycerides-of-fatty-acids)
+- Related additives: [fatty acids](/e570-fatty-acids){.additive}, [magnesium stearate](/e572-magnesium-stearate){.additive}, [mono- and diglycerides](/e471-mono-and-diglycerides-of-fatty-acids){.additive}
 
 ## Why is ammonium stearate added to food?
 Manufacturers use ammonium stearate to help water and fat blend evenly (emulsifying), to keep dry mixes from clumping (anti‑caking), and to help foods release cleanly from molds or equipment (release agent). These functions are common to salts of fatty acids and depend on the product and process.
@@ -22,9 +22,9 @@ Label it may appear as “ammonium stearate” or “E571.” If it is used at a
 
 ## What can replace ammonium stearate?
 Depending on the job it performs, common substitutes include:
-- Emulsifiers: [lecithins](/e322-lecithins), [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids)
-- Anti‑caking agents: [silicon dioxide](/e551-silicon-dioxide)
-- Release/processing aids: [magnesium stearate](/e572-magnesium-stearate) or other [salts of fatty acids](/e470a-sodium-potassium-and-calcium-salts-of-fatty-acids)
+- Emulsifiers: [lecithins](/e322-lecithins){.additive}, [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive}
+- Anti‑caking agents: [silicon dioxide](/e551-silicon-dioxide){.additive}
+- Release/processing aids: [magnesium stearate](/e572-magnesium-stearate){.additive} or other [salts of fatty acids](/e470a-sodium-potassium-and-calcium-salts-of-fatty-acids){.additive}
 
 The best replacement depends on the food, processing conditions, and labeling goals.
 

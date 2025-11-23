@@ -21,9 +21,9 @@ It may show up on ingredient lists simply as “lysozyme,” sometimes followed 
 
 ## What can replace Lysozyme?
 Alternatives depend on the food and the target microbes:
-- Cheeses: Consider [nisin](/e234-nisin) or [natamycin](/e235-natamycin) for surface or starter culture control.
-- General preservation: [potassium sorbate](/e202-potassium-sorbate) or [sorbic acid](/e200-sorbic-acid) can suppress yeasts and molds in certain foods.
-- Wine: Sulfites such as [sulphur dioxide](/e220-sulphur-dioxide) or [potassium metabisulphite](/e224-potassium-metabisulphite) are common, though they play a broader antioxidant and antimicrobial role.
+- Cheeses: Consider [nisin](/e234-nisin){.additive} or [natamycin](/e235-natamycin){.additive} for surface or starter culture control.
+- General preservation: [potassium sorbate](/e202-potassium-sorbate){.additive} or [sorbic acid](/e200-sorbic-acid){.additive} can suppress yeasts and molds in certain foods.
+- Wine: Sulfites such as [sulphur dioxide](/e220-sulphur-dioxide){.additive} or [potassium metabisulphite](/e224-potassium-metabisulphite){.additive} are common, though they play a broader antioxidant and antimicrobial role.
 
 ## How is Lysozyme made?
 Commercial food-grade lysozyme is typically produced by:

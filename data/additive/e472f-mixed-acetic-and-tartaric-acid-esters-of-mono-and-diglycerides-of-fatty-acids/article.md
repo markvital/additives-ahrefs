@@ -3,7 +3,7 @@ E472F is a group of emulsifiers made by attaching small amounts of acetic acid a
 <!--more-->
 
 ## At a glance
-- What it is: an emulsifier made from [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids) reacted with small amounts of [acetic acid](/e260-acetic-acid) and [L‑tartaric acid](/e334-l-tartaric-acid).
+- What it is: an emulsifier made from [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive} reacted with small amounts of [acetic acid](/e260-acetic-acid){.additive} and [L‑tartaric acid](/e334-l-tartaric-acid){.additive}.
 - What it does: helps water and oil mix, stabilizes foams, and supports soft, even textures in doughs, creams, and sauces.
 - Where you’ll find it: breads and rolls, fine bakery wares, dessert toppings and fillings, non‑dairy creamers, and emulsified sauces.
 - Label names: “E472f,” “emulsifier,” or “mixed acetic and tartaric acid esters of mono‑ and diglycerides of fatty acids.”
@@ -23,14 +23,14 @@ Look for “E472f” or “emulsifier” in the ingredient list.[^1]
 
 ## What can replace E472F — Mixed acetic and tartaric acid esters of mono- and diglycerides of fatty acids?
 Possible alternatives depend on the recipe and process:
-- Other E472 emulsifiers, such as [acetic acid esters](/e472a-acetic-acid-esters-of-mono-and-diglycerides-of-fatty-acids), [tartaric acid esters](/e472d-tartaric-acid-esters-of-mono-and-diglycerides-of-fatty-acids), or [mono‑ and diacetyl tartaric acid esters (DATEM)](/e472e-mono-and-diacetyltartaric-acid-esters-of-mono-and-diglycerides-of-fatty-acids)
-- [Lecithins](/e322-lecithins) from soy or sunflower
-- Lactylates such as [sodium stearoyl‑2‑lactylate](/e481-sodium-stearoyl-2-lactylate) or [calcium stearoyl‑2‑lactylate](/e482-calcium-stearoyl-2-lactylate)
-- Hydrocolloids that aid stability, like [xanthan gum](/e415-xanthan-gum) or [pectins](/e440-pectins)
-- In some systems, [citric acid esters of mono‑ and diglycerides](/e472c-citric-acid-esters-of-mono-and-diglycerides-of-fatty-acids)
+- Other E472 emulsifiers, such as [acetic acid esters](/e472a-acetic-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive}, [tartaric acid esters](/e472d-tartaric-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive}, or [mono‑ and diacetyl tartaric acid esters (DATEM)](/e472e-mono-and-diacetyltartaric-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive}
+- [Lecithins](/e322-lecithins){.additive} from soy or sunflower
+- Lactylates such as [sodium stearoyl‑2‑lactylate](/e481-sodium-stearoyl-2-lactylate){.additive} or [calcium stearoyl‑2‑lactylate](/e482-calcium-stearoyl-2-lactylate){.additive}
+- Hydrocolloids that aid stability, like [xanthan gum](/e415-xanthan-gum){.additive} or [pectins](/e440-pectins){.additive}
+- In some systems, [citric acid esters of mono‑ and diglycerides](/e472c-citric-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive}
 
 ## How is E472F — Mixed acetic and tartaric acid esters of mono- and diglycerides of fatty acids made?
-Producers start with mono‑ and diglycerides of edible fatty acids, typically derived from vegetable or animal fats and oils. They then react them with [acetic acid](/e260-acetic-acid) and food‑grade [L‑tartaric acid](/e334-l-tartaric-acid) (or their anhydrides) so that some of the free hydroxyl groups on the glyceride backbone become “esterified” with acetic and tartaric acid groups. The EU specification defines the identity and purity of the resulting mixture of partial esters.[^2]
+Producers start with mono‑ and diglycerides of edible fatty acids, typically derived from vegetable or animal fats and oils. They then react them with [acetic acid](/e260-acetic-acid){.additive} and food‑grade [L‑tartaric acid](/e334-l-tartaric-acid){.additive} (or their anhydrides) so that some of the free hydroxyl groups on the glyceride backbone become “esterified” with acetic and tartaric acid groups. The EU specification defines the identity and purity of the resulting mixture of partial esters.[^2]
 
 ## Is E472F — Mixed acetic and tartaric acid esters of mono- and diglycerides of fatty acids safe to eat?
 In the European Union, E472F is authorized as a food additive and must meet detailed purity criteria. Its authorization reflects a safety assessment and continued regulatory oversight. When used within the legal limits and good manufacturing practice, it is considered acceptable for consumption.[^1][^2]
@@ -61,7 +61,7 @@ On European labels, you may see “E472f” or “emulsifier (E472f)” in:
 - Non‑dairy creamers and beverage whiteners
 - Emulsified sauces and dressings
 
-Ingredient lists sometimes group emulsifiers together, so E472F may appear alongside [E471](/e471-mono-and-diglycerides-of-fatty-acids), [E472a](/e472a-acetic-acid-esters-of-mono-and-diglycerides-of-fatty-acids), or [E472e](/e472e-mono-and-diacetyltartaric-acid-esters-of-mono-and-diglycerides-of-fatty-acids).
+Ingredient lists sometimes group emulsifiers together, so E472F may appear alongside [E471](/e471-mono-and-diglycerides-of-fatty-acids){.additive}, [E472a](/e472a-acetic-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive}, or [E472e](/e472e-mono-and-diacetyltartaric-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive}.
 
 ## References
 [^1]: Regulation (EC) No 1333/2008 on food additives — EUR‑Lex. https://eur-lex.europa.eu/eli/reg/2008/1333/oj

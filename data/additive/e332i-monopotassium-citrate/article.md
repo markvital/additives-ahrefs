@@ -24,10 +24,10 @@ It can appear anywhere a mild acid taste and stable pH are needed, sometimes rep
 
 ## What can replace Monopotassium citrate?
 Depending on the recipe, common substitutes include:
-- [Citric acid](/e330-citric-acid) for stronger tartness without buffering
-- [Sodium citrates](/e331-sodium-citrates) when sodium is acceptable and strong buffering is needed
-- [Calcium citrates](/e333-calcium-citrates) in systems where added calcium is desired
-- Other [potassium citrates](/e332-potassium-citrates) such as dipotassium or tripotassium citrate for different buffering strength
+- [Citric acid](/e330-citric-acid){.additive} for stronger tartness without buffering
+- [Sodium citrates](/e331-sodium-citrates){.additive} when sodium is acceptable and strong buffering is needed
+- [Calcium citrates](/e333-calcium-citrates){.additive} in systems where added calcium is desired
+- Other [potassium citrates](/e332-potassium-citrates){.additive} such as dipotassium or tripotassium citrate for different buffering strength
 
 ## How is Monopotassium citrate made?
 Industry produces citrates by neutralizing food-grade citric acid with a potassium base (such as potassium carbonate or potassium hydroxide). Controlling the neutralization step yields the mono‑salt, which is then purified and crystallized to meet food additive specifications set in the European Union (EU).[^2] The underlying citric acid is typically made by fermenting sugars with the microorganism Aspergillus niger, a process described in U.S. regulations.[^4]

@@ -4,7 +4,7 @@ Annatto norbixin (E160b(ii)) is a yellow–orange food color made from the seeds
 
 ## At a glance
 - What it is: A plant-derived color from annatto seeds, in the water-dispersible “norbixin” form.
-- E-number: E160b(ii); related to the oil‑soluble annatto form called [annatto bixin](/e160bi-annatto-bixin).
+- E-number: E160b(ii); related to the oil‑soluble annatto form called [annatto bixin](/e160bi-annatto-bixin){.additive}.
 - What it does: Colors foods from yellow to orange; useful where water-based colors are needed.
 - Seen on labels as: Annatto, annatto extract, norbixin, color: E160b.
 - Typical foods: Cheeses (like cheddar-style), dairy spreads, sauces, snacks, and baked goods.
@@ -18,11 +18,11 @@ You’ll most often see it in dairy and cheese products, processed cheeses, flav
 
 ## What can replace Annatto norbixin?
 Depending on the shade and recipe, common swaps include:
-- [Beta-carotene](/e160a-carotene) for yellow–orange tones
-- [Paprika extract](/e160c-paprika-extract) for orange–red notes
-- [Curcumin](/e100-curcumin) for bright yellow
-- [Riboflavin](/e101-riboflavin) for yellow in some applications
-- [Caramel](/e150-caramel) for brown to amber shades
+- [Beta-carotene](/e160a-carotene){.additive} for yellow–orange tones
+- [Paprika extract](/e160c-paprika-extract){.additive} for orange–red notes
+- [Curcumin](/e100-curcumin){.additive} for bright yellow
+- [Riboflavin](/e101-riboflavin){.additive} for yellow in some applications
+- [Caramel](/e150-caramel){.additive} for brown to amber shades
 
 Color choice depends on solubility (water vs. oil), pH stability, light stability, and flavor impact.
 

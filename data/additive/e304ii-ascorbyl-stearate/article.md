@@ -19,10 +19,10 @@ You’ll most often find it in foods that are rich in fat or oil, where it helps
 
 ## What can replace Ascorbyl stearate?
 Depending on the recipe and regulations, formulators may choose other antioxidants or synergists:
-- Other ascorbates: [ascorbic acid](/e300-ascorbic-acid) or [ascorbyl palmitate](/e304i-ascorbyl-palmitate)
-- Tocopherols: [tocopherol-rich extract](/e306-tocopherol-rich-extract) or [alpha-tocopherol](/e307-alpha-tocopherol)
-- Phenolic antioxidants: [butylated hydroxyanisole (BHA)](/e320-butylated-hydroxyanisole-bha), [butylated hydroxytoluene (BHT)](/e321-butylated-hydroxytoluene), or [extracts of rosemary](/e392-extracts-of-rosemary)
-- Synergists and acidulants that help antioxidant systems: [citric acid](/e330-citric-acid)
+- Other ascorbates: [ascorbic acid](/e300-ascorbic-acid){.additive} or [ascorbyl palmitate](/e304i-ascorbyl-palmitate){.additive}
+- Tocopherols: [tocopherol-rich extract](/e306-tocopherol-rich-extract){.additive} or [alpha-tocopherol](/e307-alpha-tocopherol){.additive}
+- Phenolic antioxidants: [butylated hydroxyanisole (BHA)](/e320-butylated-hydroxyanisole-bha){.additive}, [butylated hydroxytoluene (BHT)](/e321-butylated-hydroxytoluene){.additive}, or [extracts of rosemary](/e392-extracts-of-rosemary){.additive}
+- Synergists and acidulants that help antioxidant systems: [citric acid](/e330-citric-acid){.additive}
 
 ## How is Ascorbyl stearate made?
 Ascorbyl stearate is produced by esterifying L‑ascorbic acid (vitamin C) with stearic acid, yielding primarily the monoester. Food law in the EU sets identity and purity specifications for E304, including stearate and palmitate forms.[^1]

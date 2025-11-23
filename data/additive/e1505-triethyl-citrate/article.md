@@ -22,14 +22,14 @@ On labels, it may appear as “triethyl citrate” or “E1505.”
 
 ## What can replace Triethyl citrate?
 Possible substitutes depend on the job it’s doing:
-- As a carrier/solvent: [glycerol](/e422-glycerol), [propylene glycol](/e1520-propylene-glycol), or [polyethylene glycol](/e1521-polyethylene-glycol)
-- As a plasticizer for coatings: [glyceryl triacetate](/e1518-glyceryl-triacetate) and, in some systems, [shellac](/e904-shellac) with a suitable plasticizer
-- As an emulsifier/stabiliser in foods: [lecithins](/e322-lecithins), [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids), [citric acid esters of mono- and diglycerides](/e472c-citric-acid-esters-of-mono-and-diglycerides-of-fatty-acids), [sucrose acetate isobutyrate](/e444-sucrose-acetate-isobutyrate), or polysorbates such as [polyoxyethylene sorbitan monolaurate](/e432-polyoxyethylene-sorbitan-monolaurate)
+- As a carrier/solvent: [glycerol](/e422-glycerol){.additive}, [propylene glycol](/e1520-propylene-glycol){.additive}, or [polyethylene glycol](/e1521-polyethylene-glycol){.additive}
+- As a plasticizer for coatings: [glyceryl triacetate](/e1518-glyceryl-triacetate){.additive} and, in some systems, [shellac](/e904-shellac){.additive} with a suitable plasticizer
+- As an emulsifier/stabiliser in foods: [lecithins](/e322-lecithins){.additive}, [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive}, [citric acid esters of mono- and diglycerides](/e472c-citric-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive}, [sucrose acetate isobutyrate](/e444-sucrose-acetate-isobutyrate){.additive}, or polysorbates such as [polyoxyethylene sorbitan monolaurate](/e432-polyoxyethylene-sorbitan-monolaurate){.additive}
 
 Formulators choose alternatives based on taste impact, solubility, label needs, and local rules.
 
 ## How is Triethyl citrate made?
-Triethyl citrate is produced by esterifying [citric acid](/e330-citric-acid) with [ethanol](/e1510-ethanol), followed by purification to meet food-grade specifications. In the European Union, its identity and purity (including limits for contaminants) are set out in Commission Regulation (EU) No 231/2012.[^1]
+Triethyl citrate is produced by esterifying [citric acid](/e330-citric-acid){.additive} with [ethanol](/e1510-ethanol){.additive}, followed by purification to meet food-grade specifications. In the European Union, its identity and purity (including limits for contaminants) are set out in Commission Regulation (EU) No 231/2012.[^1]
 
 ## Is Triethyl citrate safe to eat?
 Triethyl citrate is authorized for use as a food additive in the EU, with official specifications that control its purity and how it is identified.[^1] In the United States, it is listed among synthetic flavoring substances and adjuvants permitted for direct addition to food in line with good manufacturing practice, which means only the amount needed to do its job may be used.[^2] The U.S. Food and Drug Administration’s Food Additive Status List also includes triethyl citrate with the relevant regulatory citation.[^3]

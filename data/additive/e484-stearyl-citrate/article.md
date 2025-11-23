@@ -22,9 +22,9 @@ Exact permissions and maximum levels depend on the product category and national
 
 ## What can replace Stearyl citrate?
 Depending on the recipe and regulatory setting, formulators may use:
-- Other antioxidants: mixed tocopherols ([tocopherol-rich extract](/e306-tocopherol-rich-extract)), [BHA](/e320-butylated-hydroxyanisole-bha), [BHT](/e321-butylated-hydroxytoluene), or [TBHQ](/e319-tertiary-butylhydroquinone-tbhq)
-- Oil-compatible chelators and synergists: [ascorbyl palmitate](/e304i-ascorbyl-palmitate)
-- Emulsifiers that also aid stability: [lecithins](/e322-lecithins), [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids), or [citric acid esters of mono- and diglycerides](/e472c-citric-acid-esters-of-mono-and-diglycerides-of-fatty-acids)
+- Other antioxidants: mixed tocopherols ([tocopherol-rich extract](/e306-tocopherol-rich-extract){.additive}), [BHA](/e320-butylated-hydroxyanisole-bha){.additive}, [BHT](/e321-butylated-hydroxytoluene){.additive}, or [TBHQ](/e319-tertiary-butylhydroquinone-tbhq){.additive}
+- Oil-compatible chelators and synergists: [ascorbyl palmitate](/e304i-ascorbyl-palmitate){.additive}
+- Emulsifiers that also aid stability: [lecithins](/e322-lecithins){.additive}, [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive}, or [citric acid esters of mono- and diglycerides](/e472c-citric-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive}
 
 The best substitute depends on the food, desired shelf life, and labeling goals.
 

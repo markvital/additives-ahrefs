@@ -2,7 +2,7 @@ Glyceryl triacetate (E1518), also called triacetin, is a clear, nearly odorless 
 <!--more-->
 
 ## At a glance
-- What it is: an ester made from [glycerol](/e422-glycerol) and [acetic acid](/e260-acetic-acid), also known as triacetin or glycerin triacetate.
+- What it is: an ester made from [glycerol](/e422-glycerol){.additive} and [acetic acid](/e260-acetic-acid){.additive}, also known as triacetin or glycerin triacetate.
 - What it does: works as a carrier/solvent for flavors, a humectant to hold moisture, and a texture helper; also used as a plasticizer in chewing gum base.
 - Where it’s found: flavor preparations for beverages, candies, icings, baked goods, and chewing gum.
 - Appearance and taste: colorless liquid with little to no taste or smell.
@@ -19,13 +19,13 @@ Because it is often part of a flavor preparation, it may appear on labels near f
 
 ## What can replace Glyceryl triacetate?
 Depending on the job it does in the recipe, formulators may use:
-- Other carriers/solvents for flavors: [ethanol](/e1510-ethanol), [propylene glycol](/e1520-propylene-glycol)
-- Plasticizers/humectants or emulsifiers: [triethyl citrate](/e1505-triethyl-citrate), [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids), [lecithins](/e322-lecithins)
+- Other carriers/solvents for flavors: [ethanol](/e1510-ethanol){.additive}, [propylene glycol](/e1520-propylene-glycol){.additive}
+- Plasticizers/humectants or emulsifiers: [triethyl citrate](/e1505-triethyl-citrate){.additive}, [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive}, [lecithins](/e322-lecithins){.additive}
 
 The best substitute depends on the flavor system, labeling goals, and the texture or moisture target.
 
 ## How is Glyceryl triacetate made?
-Glyceryl triacetate is produced by reacting [glycerol](/e422-glycerol) with [acetic acid](/e260-acetic-acid) or acetic anhydride to form the triester, followed by purification to meet food-grade specifications.^[^2]
+Glyceryl triacetate is produced by reacting [glycerol](/e422-glycerol){.additive} with [acetic acid](/e260-acetic-acid){.additive} or acetic anhydride to form the triester, followed by purification to meet food-grade specifications.^[^2]
 
 ## Is Glyceryl triacetate safe to eat?
 In the United States, the Food and Drug Administration (FDA) affirms triacetin (glyceryl triacetate) as Generally Recognized as Safe (GRAS) for direct addition to food at levels consistent with good manufacturing practice.^[^1] It is also specifically allowed as a component of chewing gum base.^[^3] In the body, triacetin is quickly broken down (hydrolyzed) to glycerol and acetate—substances that are normal parts of human metabolism.^[^4]

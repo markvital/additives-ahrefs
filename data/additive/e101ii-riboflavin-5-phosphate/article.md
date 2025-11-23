@@ -24,10 +24,10 @@ On labels, look for “Riboflavin-5′-phosphate,” “riboflavin phosphate sod
 
 ## What can replace Riboflavin-5′-phosphate?
 If a different yellow/orange color is needed, common alternatives include:
-- [curcumin](/e100-curcumin) from turmeric
-- [carotene](/e160a-carotene) (beta‑carotene)
-- [annatto](/e160b-annatto)
-- Synthetic lemon yellow such as [tartrazine](/e102-tartrazine)
+- [curcumin](/e100-curcumin){.additive} from turmeric
+- [carotene](/e160a-carotene){.additive} (beta‑carotene)
+- [annatto](/e160b-annatto){.additive}
+- Synthetic lemon yellow such as [tartrazine](/e102-tartrazine){.additive}
 
 The best choice depends on desired shade, clarity, solubility, flavor impact, and label goals.
 
@@ -54,7 +54,7 @@ Note: Bright yellow urine after consuming riboflavin is common and harmless.[^3]
 How to spot it on labels:
 - Names: “Riboflavin-5′-phosphate,” “riboflavin phosphate (sodium),” “vitamin B2,” or “E101(ii)”
 - Common places: multivitamin beverages, energy and sports drinks, flavored dairy, puddings, cereals, and bakery mixes
-Related entries you might see nearby on an ingredient list include [riboflavin](/e101-riboflavin) (E101) and other yellow colors like [curcumin](/e100-curcumin) and [carotene](/e160a-carotene).
+Related entries you might see nearby on an ingredient list include [riboflavin](/e101-riboflavin){.additive} (E101) and other yellow colors like [curcumin](/e100-curcumin){.additive} and [carotene](/e160a-carotene){.additive}.
 
 ## References
 [^1]: Commission Regulation (EU) No 231/2012 — Specifications for food additives listed in Annexes II and III to Regulation (EC) No 1333/2008. https://eur-lex.europa.eu/eli/reg/2012/231/oj

@@ -7,7 +7,7 @@ Potassium iodate (E917) is a food-grade source of iodine and a strong oxidizing 
 - Main roles: helps prevent iodine deficiency; can strengthen dough in bread-making.
 - Where you’ll find it: iodized table salt; occasionally in bread flours or mixes (depends on local rules).
 - Taste/texture: used at tiny levels that don’t change flavor; as a dough improver it can make dough stronger and bread volume more consistent.
-- Common alternatives: [ascorbic acid](/e300-ascorbic-acid), [alpha-amylase](/e1100-alpha-amylase), [L-cysteine](/e920-l-cysteine), [DATEM](/e472e-mono-and-diacetyltartaric-acid-esters-of-mono-and-diglycerides-of-fatty-acids), [lecithins](/e322-lecithins).
+- Common alternatives: [ascorbic acid](/e300-ascorbic-acid){.additive}, [alpha-amylase](/e1100-alpha-amylase){.additive}, [L-cysteine](/e920-l-cysteine){.additive}, [DATEM](/e472e-mono-and-diacetyltartaric-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive}, [lecithins](/e322-lecithins){.additive}.
 - Safety: appropriate for iodized salt when used at regulated levels; very high iodine intakes can affect the thyroid.
 - Regulations vary by country; always check local labeling.
 
@@ -20,14 +20,14 @@ Two reasons drive its use. First, it supplies iodine to prevent deficiency when 
 
 ## What can replace potassium iodate?
 Bakers often choose other dough improvers:
-- Antioxidant/oxidizing systems like [ascorbic acid](/e300-ascorbic-acid)
-- Enzymes such as [alpha-amylase](/e1100-alpha-amylase)
-- Amino acids like [L-cysteine](/e920-l-cysteine)
-- Emulsifiers including [DATEM](/e472e-mono-and-diacetyltartaric-acid-esters-of-mono-and-diglycerides-of-fatty-acids) and [lecithins](/e322-lecithins)
-- Mineral conditioners such as [calcium sulphate](/e516-calcium-sulphate)
-Historically, oxidizers like [potassium bromate](/e924a-potassium-bromate) and [azodicarbonamide](/e927a-azodicarbonamide) were also used in some regions, but many bakers have moved away from them.
+- Antioxidant/oxidizing systems like [ascorbic acid](/e300-ascorbic-acid){.additive}
+- Enzymes such as [alpha-amylase](/e1100-alpha-amylase){.additive}
+- Amino acids like [L-cysteine](/e920-l-cysteine){.additive}
+- Emulsifiers including [DATEM](/e472e-mono-and-diacetyltartaric-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive} and [lecithins](/e322-lecithins){.additive}
+- Mineral conditioners such as [calcium sulphate](/e516-calcium-sulphate){.additive}
+Historically, oxidizers like [potassium bromate](/e924a-potassium-bromate){.additive} and [azodicarbonamide](/e927a-azodicarbonamide){.additive} were also used in some regions, but many bakers have moved away from them.
 
-For salt fortification, some programs use [calcium iodate](/e916-calcium-iodate) or potassium iodide depending on stability needs and local regulations.
+For salt fortification, some programs use [calcium iodate](/e916-calcium-iodate){.additive} or potassium iodide depending on stability needs and local regulations.
 
 ## How is potassium iodate made?
 Industrial production typically oxidizes iodine or iodide to form iodate, followed by purification to food grade. It is a white, odorless, crystalline solid and a strong oxidizing agent.[^4] When used in foods under U.S. regulation, it must meet purity specifications such as those in the Food Chemicals Codex (FCC).[^2]

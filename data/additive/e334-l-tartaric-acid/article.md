@@ -19,13 +19,13 @@ You’re most likely to see it in:
 - Baking mixes and dessert powders: for tartness and acid balance
 - Wine production: winemakers may add L‑tartaric acid to adjust acidity in grape wines under U.S. rules[^3]
 
-Related salts such as [sodium tartrates](/e335-sodium-tartrates) and [potassium tartrates](/e336-potassium-tartrates) are also used in foods, sometimes alongside E334.
+Related salts such as [sodium tartrates](/e335-sodium-tartrates){.additive} and [potassium tartrates](/e336-potassium-tartrates){.additive} are also used in foods, sometimes alongside E334.
 
 ## What can replace L(+)-tartaric acid?
 Depending on the job, common stand‑ins include:
-- For sourness and pH control: [citric acid](/e330-citric-acid), [malic acid](/e296-malic-acid), or [fumaric acid](/e297-fumaric-acid) for very strong acidity
-- For a “cola‑style” acid profile: [phosphoric acid](/e338-phosphoric-acid)
-- For antioxidant or sequestrant roles: [ascorbic acid](/e300-ascorbic-acid) or [sodium citrates](/e331-sodium-citrates), depending on the recipe
+- For sourness and pH control: [citric acid](/e330-citric-acid){.additive}, [malic acid](/e296-malic-acid){.additive}, or [fumaric acid](/e297-fumaric-acid){.additive} for very strong acidity
+- For a “cola‑style” acid profile: [phosphoric acid](/e338-phosphoric-acid){.additive}
+- For antioxidant or sequestrant roles: [ascorbic acid](/e300-ascorbic-acid){.additive} or [sodium citrates](/e331-sodium-citrates){.additive}, depending on the recipe
 
 The best substitute depends on taste, solubility, pH range, and label goals.
 

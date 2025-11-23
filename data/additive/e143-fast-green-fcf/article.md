@@ -26,9 +26,9 @@ Always check the ingredient list for “Fast Green FCF,” “FD&C Green No. 3,�
 
 ## What can replace Fast Green FCF?
 Depending on the shade, processing needs, and local rules, manufacturers may use:
-- Natural greens such as [chlorophylls and chlorophyllins](/e140-chlorophylls-and-chlorophyllins) or their [copper complexes](/e141-copper-complexes-of-chlorophylls-and-chlorophyllins)
-- Another green colorant such as [Green S](/e142-green-s) where permitted
-- Blends of other colors to make green, for example [curcumin](/e100-curcumin) plus [brilliant blue FCF](/e133-brilliant-blue-fcf), or [tartrazine](/e102-tartrazine) plus [brilliant blue FCF](/e133-brilliant-blue-fcf)
+- Natural greens such as [chlorophylls and chlorophyllins](/e140-chlorophylls-and-chlorophyllins){.additive} or their [copper complexes](/e141-copper-complexes-of-chlorophylls-and-chlorophyllins){.additive}
+- Another green colorant such as [Green S](/e142-green-s){.additive} where permitted
+- Blends of other colors to make green, for example [curcumin](/e100-curcumin){.additive} plus [brilliant blue FCF](/e133-brilliant-blue-fcf){.additive}, or [tartrazine](/e102-tartrazine){.additive} plus [brilliant blue FCF](/e133-brilliant-blue-fcf){.additive}
 
 Choice of alternative depends on desired hue, stability, labeling goals (natural vs synthetic), and regional regulations.[^3]
 
@@ -43,7 +43,7 @@ Its benefit is cosmetic: it makes foods look green and consistent from batch to 
 
 ## Who should avoid Fast Green FCF?
 - People advised by a healthcare professional to avoid artificial colors should skip products listing Fast Green FCF (FD&C Green No. 3, E143).[^1]
-- Anyone who notices sensitivity to brightly colored processed foods may choose products colored with permitted “natural” alternatives such as [chlorophylls](/e140-chlorophylls-and-chlorophyllins), where available.[^3]
+- Anyone who notices sensitivity to brightly colored processed foods may choose products colored with permitted “natural” alternatives such as [chlorophylls](/e140-chlorophylls-and-chlorophyllins){.additive}, where available.[^3]
 
 If you have specific medical or dietary concerns, consult your clinician.
 

@@ -21,14 +21,14 @@ You may find E404 in:
 - Reformed or shaped products (for example, olive “pearls” made by spherification)
 - Plant-based products and meat or fish analogs
 
-On labels, look for “calcium alginate” or “E404.” Related seaweed gums sometimes appear alongside it, such as [sodium alginate](/e401-sodium-alginate), [alginic acid](/e400-alginic-acid), or [potassium alginate](/e402-potassium-alginate).
+On labels, look for “calcium alginate” or “E404.” Related seaweed gums sometimes appear alongside it, such as [sodium alginate](/e401-sodium-alginate){.additive}, [alginic acid](/e400-alginic-acid){.additive}, or [potassium alginate](/e402-potassium-alginate){.additive}.
 
 ## What can replace Calcium alginate?
 Alternatives depend on the job:
-- For thickening and suspension: [xanthan gum](/e415-xanthan-gum) or [guar gum](/e412-guar-gum)
-- For firm gels: [gellan gum](/e418-gellan-gum), [agar](/e406-agar), or [carrageenan](/e407-carrageenan)
-- For jam-like set with fruit acid/sugar: [pectins](/e440-pectins)
-- For alginate-like systems that gel with calcium: [sodium alginate](/e401-sodium-alginate) combined with a calcium source such as [calcium chloride](/e509-calcium-chloride)
+- For thickening and suspension: [xanthan gum](/e415-xanthan-gum){.additive} or [guar gum](/e412-guar-gum){.additive}
+- For firm gels: [gellan gum](/e418-gellan-gum){.additive}, [agar](/e406-agar){.additive}, or [carrageenan](/e407-carrageenan){.additive}
+- For jam-like set with fruit acid/sugar: [pectins](/e440-pectins){.additive}
+- For alginate-like systems that gel with calcium: [sodium alginate](/e401-sodium-alginate){.additive} combined with a calcium source such as [calcium chloride](/e509-calcium-chloride){.additive}
 
 ## How is Calcium alginate made?
 Manufacturers extract alginic acid from brown seaweeds, purify it, and then neutralize it with a calcium source to form calcium alginate. After washing and drying, the product meets purity and composition limits set in EU additive specifications.[^1] Calcium ions link blocks within the alginate chains, creating strong gels that are central to its food uses.[^3]
@@ -49,11 +49,11 @@ The European Food Safety Authority (EFSA) re‑evaluated alginic acid and its sa
 ## Myths & facts
 - Myth: “Calcium alginate is synthetic.” Fact: It is derived from brown seaweed and then converted to a calcium salt.
 - Myth: “It adds lots of calcium to your diet.” Fact: It is used in tiny amounts for texture, not as a mineral supplement.
-- Myth: “All seaweed gums work the same.” Fact: Alginates gel with calcium; others like [agar](/e406-agar) or [carrageenan](/e407-carrageenan) set in different ways and at different conditions.
-- Myth: “It’s the same as konjac.” Fact: [Konjac](/e425-konjac) is a different fiber (glucomannan) with different gel behavior.
+- Myth: “All seaweed gums work the same.” Fact: Alginates gel with calcium; others like [agar](/e406-agar){.additive} or [carrageenan](/e407-carrageenan){.additive} set in different ways and at different conditions.
+- Myth: “It’s the same as konjac.” Fact: [Konjac](/e425-konjac){.additive} is a different fiber (glucomannan) with different gel behavior.
 
 ## Calcium alginate in branded foods
-You’ll most often see E404 in ingredient lists for fruit fillings, spoonable desserts, sauces, and some plant-based or restructured products. If you are checking a product, look for “Calcium alginate” or “E404” on the label, sometimes alongside related alginates like [sodium alginate](/e401-sodium-alginate).
+You’ll most often see E404 in ingredient lists for fruit fillings, spoonable desserts, sauces, and some plant-based or restructured products. If you are checking a product, look for “Calcium alginate” or “E404” on the label, sometimes alongside related alginates like [sodium alginate](/e401-sodium-alginate){.additive}.
 
 ## References
 [^1]: Commission Regulation (EU) No 231/2012 — Specifications for calcium alginate (E 404). https://eur-lex.europa.eu/eli/reg/2012/231/oj

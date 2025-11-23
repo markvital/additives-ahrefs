@@ -15,8 +15,8 @@ You’ll most often see choline salts in fortified foods and beverages, nutritio
 
 ## What can replace Choline salt?
 - Food-first alternatives: Many people can meet their needs by eating choline-rich foods such as eggs, meat, poultry, fish, beans, and cruciferous vegetables. Diet changes can be used instead of fortification when appropriate.[^5]
-- Different choline sources: Some products use lipid-based sources such as [lecithins](/e322-lecithins) (rich in phosphatidylcholine) rather than a crystalline choline salt.
-- Formulation swaps: If a particular salt does not fit the taste or solubility needs of a product, formulators may choose a different choline salt (for example, bitartrate made from L-tartaric acid or citrate from [citric acid](/e330-citric-acid)) to deliver the same nutrient.
+- Different choline sources: Some products use lipid-based sources such as [lecithins](/e322-lecithins){.additive} (rich in phosphatidylcholine) rather than a crystalline choline salt.
+- Formulation swaps: If a particular salt does not fit the taste or solubility needs of a product, formulators may choose a different choline salt (for example, bitartrate made from L-tartaric acid or citrate from [citric acid](/e330-citric-acid){.additive}) to deliver the same nutrient.
 
 ## How is Choline salt made?
 Choline salts are produced by combining choline with an acid to form a stable ionic compound (a “salt”), then drying and milling to the desired particle size. Only forms that meet the EU’s composition and purity specifications for E1001 may be sold as the food additive “Choline salts.”[^1] Common examples seen on labels include choline bitartrate (from L-tartaric acid) and choline chloride.

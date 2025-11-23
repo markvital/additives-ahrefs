@@ -14,7 +14,7 @@ Sodium erythorbate (E316) is an antioxidant used to keep foods tasting and looki
 
 Sodium erythorbate protects food from oxidation. Oxidation can dull color, create rancid or “stale” notes, and destroy sensitive nutrients. By donating electrons, this additive slows those reactions and helps foods keep their fresh taste and color. The European Food Safety Authority (EFSA) lists E316 as an antioxidant authorized for use in many foods for these purposes.[^1]
 
-In cured meats, sodium erythorbate works with [sodium nitrite](/e250-sodium-nitrite) to speed curing and stabilize the rosy cured color. In the United States, the Department of Agriculture’s Food Safety and Inspection Service (USDA‑FSIS) requires sodium erythorbate or [sodium ascorbate](/e301-sodium-ascorbate) in pumped bacon to help inhibit the formation of nitrosamines—unwanted compounds that can form when bacon is fried at high heat.[^2]
+In cured meats, sodium erythorbate works with [sodium nitrite](/e250-sodium-nitrite){.additive} to speed curing and stabilize the rosy cured color. In the United States, the Department of Agriculture’s Food Safety and Inspection Service (USDA‑FSIS) requires sodium erythorbate or [sodium ascorbate](/e301-sodium-ascorbate){.additive} in pumped bacon to help inhibit the formation of nitrosamines—unwanted compounds that can form when bacon is fried at high heat.[^2]
 
 ## What foods contain sodium erythorbate?
 
@@ -28,10 +28,10 @@ In the U.S., pumped bacon specifically must include either sodium ascorbate or s
 ## What can replace sodium erythorbate?
 
 Depending on the recipe and rules for the product, common stand‑ins include:
-- [Sodium ascorbate (E301)](/e301-sodium-ascorbate) or [ascorbic acid (E300)](/e300-ascorbic-acid) for similar antioxidant and curing effects
-- [Extracts of rosemary (E392)](/e392-extracts-of-rosemary) as a natural antioxidant in fats and oils
-- [Citric acid (E330)](/e330-citric-acid) to help control browning and stabilize flavor in some foods
-- [Sorbic acid (E200)](/e200-sorbic-acid) for antimicrobial action when spoilage by molds or yeasts is the main concern
+- [Sodium ascorbate (E301)](/e301-sodium-ascorbate){.additive} or [ascorbic acid (E300)](/e300-ascorbic-acid){.additive} for similar antioxidant and curing effects
+- [Extracts of rosemary (E392)](/e392-extracts-of-rosemary){.additive} as a natural antioxidant in fats and oils
+- [Citric acid (E330)](/e330-citric-acid){.additive} to help control browning and stabilize flavor in some foods
+- [Sorbic acid (E200)](/e200-sorbic-acid){.additive} for antimicrobial action when spoilage by molds or yeasts is the main concern
 
 No single substitute fits every product; food makers often test blends to match both performance and labeling goals.
 
@@ -59,7 +59,7 @@ These benefits are technological—you won’t get vitamin C from E316, even tho
 
 ## Myths & facts
 
-- Myth: “It’s just another name for MSG.” Fact: Sodium erythorbate is an antioxidant; [monosodium glutamate](/e621-monosodium-glutamate) is a flavor enhancer. They are different ingredients.
+- Myth: “It’s just another name for MSG.” Fact: Sodium erythorbate is an antioxidant; [monosodium glutamate](/e621-monosodium-glutamate){.additive} is a flavor enhancer. They are different ingredients.
 - Myth: “It’s a red dye.” Fact: E316 does not add color; it helps protect existing color by reducing oxidation in foods like cured meats.
 - Myth: “It’s a source of vitamin C.” Fact: Although it is a close chemical cousin of vitamin C, your body does not use sodium erythorbate as vitamin C.
 

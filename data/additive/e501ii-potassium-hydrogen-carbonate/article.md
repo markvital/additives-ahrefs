@@ -25,9 +25,9 @@ On EU labels it appears as “E501ii” or “potassium hydrogen carbonate;” o
 
 ## What can replace Potassium hydrogen carbonate?
 Swap choices depend on why you’re using it:
-- For leavening with standard sodium levels: use [sodium bicarbonate](/e500ii-sodium-bicarbonate) (baking soda).
-- For sodium‑free or low‑sodium lift: pair potassium bicarbonate substitutes with an acid such as [citric acid](/e330-citric-acid) or [glucono‑delta‑lactone](/e575-glucono-delta-lactone); or use a balanced baking powder that relies on acid salts like [monocalcium phosphate](/e341i-monocalcium-phosphate).
-- For certain crisp cookies or crackers: [ammonium hydrogen carbonate](/e503ii-ammonium-hydrogen-carbonate) can give strong lift without leaving sodium, but it’s best in thin, dry bakes.
+- For leavening with standard sodium levels: use [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive} (baking soda).
+- For sodium‑free or low‑sodium lift: pair potassium bicarbonate substitutes with an acid such as [citric acid](/e330-citric-acid){.additive} or [glucono‑delta‑lactone](/e575-glucono-delta-lactone){.additive}; or use a balanced baking powder that relies on acid salts like [monocalcium phosphate](/e341i-monocalcium-phosphate){.additive}.
+- For certain crisp cookies or crackers: [ammonium hydrogen carbonate](/e503ii-ammonium-hydrogen-carbonate){.additive} can give strong lift without leaving sodium, but it’s best in thin, dry bakes.
 
 Note: If you change leavening systems, you may need to adjust acid levels and liquid to keep the recipe balanced.
 

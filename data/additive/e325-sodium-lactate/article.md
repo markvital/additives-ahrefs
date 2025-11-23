@@ -5,7 +5,7 @@ Sodium lactate (E325) is the sodium salt of lactic acid. It helps foods stay moi
 ## At a glance
 - What it does: humectant (keeps moisture), pH control agent, flavor enhancer, and sometimes used for shelf‑life in meats.
 - Where it’s used: cured and cooked meats, seafood brines, sauces and dressings, tortillas, baked goods, and some beverages.
-- What it’s made from: neutralizing [lactic acid](/e270-lactic-acid) with a sodium base such as [sodium hydroxide](/e524-sodium-hydroxide) or [sodium carbonate](/e500i-sodium-carbonate).
+- What it’s made from: neutralizing [lactic acid](/e270-lactic-acid){.additive} with a sodium base such as [sodium hydroxide](/e524-sodium-hydroxide){.additive} or [sodium carbonate](/e500i-sodium-carbonate){.additive}.
 - Safety: Affirmed “GRAS” (Generally Recognized as Safe) by the U.S. FDA and re‑evaluated as safe by EFSA for the general population at reported uses.[^1][^3]
 
 ## Why is sodium lactate added to food?
@@ -24,13 +24,13 @@ On labels, it may appear as “sodium lactate” or “E325” (in the EU).
 
 ## What can replace sodium lactate?
 Alternatives depend on the job it’s doing:
-- Moisture retention and texture: [potassium lactate](/e326-potassium-lactate) (lower sodium), [xanthan gum](/e415-xanthan-gum), or pectin (when gelling is needed).
-- pH control and tartness: [citric acid](/e330-citric-acid) or [lactic acid](/e270-lactic-acid).
-- Shelf‑life support in sauces or drinks: [sorbic acid](/e200-sorbic-acid), [potassium sorbate](/e202-potassium-sorbate), or [sodium benzoate](/e211-sodium-benzoate), depending on the food and regulations.
-- Flavor enhancement: [sodium diacetate](/e262ii-sodium-diacetate) in some savory items.
+- Moisture retention and texture: [potassium lactate](/e326-potassium-lactate){.additive} (lower sodium), [xanthan gum](/e415-xanthan-gum){.additive}, or pectin (when gelling is needed).
+- pH control and tartness: [citric acid](/e330-citric-acid){.additive} or [lactic acid](/e270-lactic-acid){.additive}.
+- Shelf‑life support in sauces or drinks: [sorbic acid](/e200-sorbic-acid){.additive}, [potassium sorbate](/e202-potassium-sorbate){.additive}, or [sodium benzoate](/e211-sodium-benzoate){.additive}, depending on the food and regulations.
+- Flavor enhancement: [sodium diacetate](/e262ii-sodium-diacetate){.additive} in some savory items.
 
 ## How is sodium lactate made?
-Sodium lactate is produced by neutralizing lactic acid with a permitted sodium base such as [sodium hydroxide](/e524-sodium-hydroxide) or [sodium carbonate](/e500i-sodium-carbonate).[^1] In practice, the lactic acid itself is typically made by fermenting sugars with lactic acid bacteria, and the finished E325 must meet purity specifications set in the EU’s additives regulation.[^4]
+Sodium lactate is produced by neutralizing lactic acid with a permitted sodium base such as [sodium hydroxide](/e524-sodium-hydroxide){.additive} or [sodium carbonate](/e500i-sodium-carbonate){.additive}.[^1] In practice, the lactic acid itself is typically made by fermenting sugars with lactic acid bacteria, and the finished E325 must meet purity specifications set in the EU’s additives regulation.[^4]
 
 ## Is sodium lactate safe to eat?
 Yes. In the United States, sodium lactate is affirmed as GRAS (Generally Recognized as Safe) when used in line with current good manufacturing practice.[^1] In the European Union, the European Food Safety Authority (EFSA) re‑evaluated lactic acid and lactates and found no safety concern for their reported uses in the general population.[^3]

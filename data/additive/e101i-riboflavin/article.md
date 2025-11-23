@@ -27,10 +27,10 @@ On labels, look for “riboflavin,” “vitamin B2,” “E101,” or “E101i.
 
 ## What can replace Riboflavin?
 Depending on the shade, formulators might use:
-- Plant colors: [curcumin](/e100-curcumin) (golden yellow), [annatto](/e160b-annatto) (yellow to orange), [lutein](/e161b-lutein) (yellow), [paprika extract](/e160c-paprika-extract) (orange‑red)
-- Carotenoids: [beta‑carotene](/e160ai-beta-carotene), [carotenoids](/e160-carotenoids)
-- Caramels: [caramel](/e150-caramel) for brownish yellow
-- Synthetic dyes: [tartrazine](/e102-tartrazine) or [sunset yellow FCF](/e110-sunset-yellow-fcf) where allowed
+- Plant colors: [curcumin](/e100-curcumin){.additive} (golden yellow), [annatto](/e160b-annatto){.additive} (yellow to orange), [lutein](/e161b-lutein){.additive} (yellow), [paprika extract](/e160c-paprika-extract){.additive} (orange‑red)
+- Carotenoids: [beta‑carotene](/e160ai-beta-carotene){.additive}, [carotenoids](/e160-carotenoids){.additive}
+- Caramels: [caramel](/e150-caramel){.additive} for brownish yellow
+- Synthetic dyes: [tartrazine](/e102-tartrazine){.additive} or [sunset yellow FCF](/e110-sunset-yellow-fcf){.additive} where allowed
 
 The best substitute depends on pH, light exposure, desired shade, and labeling goals (for example, “from natural sources”).
 

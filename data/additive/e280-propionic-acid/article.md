@@ -8,7 +8,7 @@ Propionic acid (E280) is a preservative that helps stop mold growth, especially 
 - Label names: “Propionic acid,” “propanoic acid,” or “E280.”
 - Taste/texture: Minimal impact at typical levels; slightly tangy if used alone.
 - Dietary notes: Suitable for vegetarian and vegan diets; usually made by synthesis or fermentation.
-- Related additives: [sodium propionate](/e281-sodium-propionate), [calcium propionate](/e282-calcium-propionate), [potassium propionate](/e283-potassium-propionate).
+- Related additives: [sodium propionate](/e281-sodium-propionate){.additive}, [calcium propionate](/e282-calcium-propionate){.additive}, [potassium propionate](/e283-potassium-propionate){.additive}.
 
 ## Why is Propionic acid added to food?
 Propionic acid is added to keep foods from spoiling by inhibiting molds and some bacteria. In regulations it is classed as an antimicrobial (preservative), and it may also be used as a flavoring agent at good manufacturing practice levels.[^1] In the EU, propionic acid and its salts are authorized preservatives in several bakery categories to help maintain freshness and safety.[^2]
@@ -20,14 +20,14 @@ You’re most likely to see E280 in:
 - Sweet baked goods (cakes, pastries), and some bakery fillings
 - Occasionally in other low-moisture foods where mold control is needed
 
-Food labels may instead list a propionate salt such as [calcium propionate](/e282-calcium-propionate), which works similarly in bread systems.
+Food labels may instead list a propionate salt such as [calcium propionate](/e282-calcium-propionate){.additive}, which works similarly in bread systems.
 
 ## What can replace Propionic acid?
 Depending on the product and shelf-life target, manufacturers may use:
-- Other propionates: [sodium propionate](/e281-sodium-propionate), [calcium propionate](/e282-calcium-propionate), [potassium propionate](/e283-potassium-propionate)
-- Sorbates and benzoates: [sorbic acid](/e200-sorbic-acid), [potassium sorbate](/e202-potassium-sorbate), [benzoic acid](/e210-benzoic-acid), [sodium benzoate](/e211-sodium-benzoate)
-- Acidulants and vinegar systems: [acetic acid](/e260-acetic-acid), [buffered vinegar](/e267-buffered-vinegar), [lactic acid](/e270-lactic-acid)
-- Surface treatments for cheese and specialty foods: [natamycin](/e235-natamycin)
+- Other propionates: [sodium propionate](/e281-sodium-propionate){.additive}, [calcium propionate](/e282-calcium-propionate){.additive}, [potassium propionate](/e283-potassium-propionate){.additive}
+- Sorbates and benzoates: [sorbic acid](/e200-sorbic-acid){.additive}, [potassium sorbate](/e202-potassium-sorbate){.additive}, [benzoic acid](/e210-benzoic-acid){.additive}, [sodium benzoate](/e211-sodium-benzoate){.additive}
+- Acidulants and vinegar systems: [acetic acid](/e260-acetic-acid){.additive}, [buffered vinegar](/e267-buffered-vinegar){.additive}, [lactic acid](/e270-lactic-acid){.additive}
+- Surface treatments for cheese and specialty foods: [natamycin](/e235-natamycin){.additive}
 - Non-additive approaches: lower water activity, tighter packaging, sourdough fermentation, cleaner process controls
 
 ## How is Propionic acid made?
@@ -42,15 +42,15 @@ Yes, when used as intended. In the U.S., propionic acid is “generally recogniz
 
 ## Who should avoid Propionic acid?
 - Anyone advised by a healthcare professional to limit propionates (for example, as part of a medically supervised diet) should check ingredient lists and follow that guidance.
-- People who notice sensitivity to propionate-containing breads or bakery items can choose alternatives that use other systems, such as [potassium sorbate](/e202-potassium-sorbate) or sourdough processes.
+- People who notice sensitivity to propionate-containing breads or bakery items can choose alternatives that use other systems, such as [potassium sorbate](/e202-potassium-sorbate){.additive} or sourdough processes.
 
 ## Myths & facts
-- Myth: “Propionic acid is antifreeze.” Fact: Antifreeze formulations typically involve glycols like [propylene glycol](/e1520-propylene-glycol), not propionic acid.
+- Myth: “Propionic acid is antifreeze.” Fact: Antifreeze formulations typically involve glycols like [propylene glycol](/e1520-propylene-glycol){.additive}, not propionic acid.
 - Myth: “All preservatives are unsafe.” Fact: Regulators review toxicology and exposure; E280 is GRAS in the U.S.[^1] and EFSA found no safety concern at approved uses in the EU.[^2]
 - Myth: “Sourdough bread never needs preservatives.” Fact: Natural acidity helps, but whether a product needs a preservative depends on recipe, moisture, packaging, and shelf-life goals.
 
 ## Propionic acid in branded foods
-On ingredient lists, look for “propionic acid,” “propanoic acid,” or “E280.” Many packaged breads and tortillas instead list a propionate salt such as [calcium propionate](/e282-calcium-propionate). Products marketed as “no artificial preservatives” may use alternative methods (recipe tweaks, packaging, or different additives) to achieve the same shelf life—always check the label.
+On ingredient lists, look for “propionic acid,” “propanoic acid,” or “E280.” Many packaged breads and tortillas instead list a propionate salt such as [calcium propionate](/e282-calcium-propionate){.additive}. Products marketed as “no artificial preservatives” may use alternative methods (recipe tweaks, packaging, or different additives) to achieve the same shelf life—always check the label.
 
 ## References
 [^1]: 21 CFR 184.1081 — Propionic acid. U.S. Food and Drug Administration (eCFR). https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-184/section-184.1081

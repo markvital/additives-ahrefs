@@ -25,13 +25,13 @@ On labels, it may appear as “soybean hemicellulose,” “soybean polysacchari
 
 ## What can replace Soybean hemicellulose?
 Other hydrocolloids (water-binding gums and fibers) can often do a similar job, depending on the recipe:
-- [xanthan gum](/e415-xanthan-gum)
-- [gellan gum](/e418-gellan-gum)
-- [carrageenan](/e407-carrageenan)
-- [pectins](/e440-pectins)
-- [guar gum](/e412-guar-gum)
-- [locust bean gum](/e410-locust-bean-gum)
-- [acacia gum](/e414-acacia-gum)
+- [xanthan gum](/e415-xanthan-gum){.additive}
+- [gellan gum](/e418-gellan-gum){.additive}
+- [carrageenan](/e407-carrageenan){.additive}
+- [pectins](/e440-pectins){.additive}
+- [guar gum](/e412-guar-gum){.additive}
+- [locust bean gum](/e410-locust-bean-gum){.additive}
+- [acacia gum](/e414-acacia-gum){.additive}
 
 Choice depends on the food’s pH (acidity), desired thickness, and whether freezing or heating is involved.
 

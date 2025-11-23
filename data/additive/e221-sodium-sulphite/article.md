@@ -24,10 +24,10 @@ Food laws in the EU and many other regions set maximum permitted levels by food 
 
 ## What can replace Sodium sulphite?
 Alternatives depend on the job you need done:
-- For preserving and mold control: [sorbic acid](/e200-sorbic-acid) or [potassium sorbate](/e202-potassium-sorbate)
-- For general preservation: [sodium benzoate](/e211-sodium-benzoate) in suitable products
-- For antioxidant action and color protection: [ascorbic acid](/e300-ascorbic-acid) or blends with [citric acid](/e330-citric-acid)
-- For similar sulphite‑type functions: [sulphur dioxide](/e220-sulphur-dioxide), [sodium metabisulphite](/e223-sodium-metabisulphite), or [potassium metabisulphite](/e224-potassium-metabisulphite)
+- For preserving and mold control: [sorbic acid](/e200-sorbic-acid){.additive} or [potassium sorbate](/e202-potassium-sorbate){.additive}
+- For general preservation: [sodium benzoate](/e211-sodium-benzoate){.additive} in suitable products
+- For antioxidant action and color protection: [ascorbic acid](/e300-ascorbic-acid){.additive} or blends with [citric acid](/e330-citric-acid){.additive}
+- For similar sulphite‑type functions: [sulphur dioxide](/e220-sulphur-dioxide){.additive}, [sodium metabisulphite](/e223-sodium-metabisulphite){.additive}, or [potassium metabisulphite](/e224-potassium-metabisulphite){.additive}
 
 Every substitute has its own flavor, pH, and regulatory limits, so formulators choose case by case.
 

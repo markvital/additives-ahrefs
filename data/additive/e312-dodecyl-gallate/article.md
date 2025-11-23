@@ -7,7 +7,7 @@ Dodecyl gallate slows oxidation, which helps keep fatty foods fresh longer.
 You’ll mainly find it in fat-rich products like oils, shortenings, and spreads.  
 It is made by joining gallic acid with a 12‑carbon fatty alcohol (dodecanol), and is typically produced synthetically.  
 Ingredient lists may show it as “dodecyl gallate” or “E312.”  
-It’s one of three related gallate antioxidants along with [propyl gallate](/e310-propyl-gallate) and [octyl gallate](/e311-octyl-gallate).
+It’s one of three related gallate antioxidants along with [propyl gallate](/e310-propyl-gallate){.additive} and [octyl gallate](/e311-octyl-gallate){.additive}.
 
 ## Why is Dodecyl gallate added to food?
 Food fats and oils react with oxygen over time, forming off-flavors and odors known as rancidity. Dodecyl gallate acts as an antioxidant, interrupting these reactions and helping foods keep their taste, aroma, and color during storage.[^1]
@@ -22,10 +22,10 @@ In the European Union, its use is authorized only in defined food categories and
 
 ## What can replace Dodecyl gallate?
 Depending on the recipe and regulations, common substitutes include:
-- Other gallates: [propyl gallate](/e310-propyl-gallate), [octyl gallate](/e311-octyl-gallate)
-- Phenolic antioxidants: [TBHQ](/e319-tertiary-butylhydroquinone-tbhq), [BHA](/e320-butylated-hydroxyanisole-bha), [BHT](/e321-butylated-hydroxytoluene)
-- Natural-source options: [tocopherol-rich extract](/e306-tocopherol-rich-extract), [alpha-tocopherol](/e307-alpha-tocopherol), [extracts of rosemary](/e392-extracts-of-rosemary)
-- Process helpers: [ascorbic acid](/e300-ascorbic-acid) or [citric acid](/e330-citric-acid) to help control oxidation in some systems
+- Other gallates: [propyl gallate](/e310-propyl-gallate){.additive}, [octyl gallate](/e311-octyl-gallate){.additive}
+- Phenolic antioxidants: [TBHQ](/e319-tertiary-butylhydroquinone-tbhq){.additive}, [BHA](/e320-butylated-hydroxyanisole-bha){.additive}, [BHT](/e321-butylated-hydroxytoluene){.additive}
+- Natural-source options: [tocopherol-rich extract](/e306-tocopherol-rich-extract){.additive}, [alpha-tocopherol](/e307-alpha-tocopherol){.additive}, [extracts of rosemary](/e392-extracts-of-rosemary){.additive}
+- Process helpers: [ascorbic acid](/e300-ascorbic-acid){.additive} or [citric acid](/e330-citric-acid){.additive} to help control oxidation in some systems
 
 ## How is Dodecyl gallate made?
 Manufacturers typically produce dodecyl gallate by esterifying gallic acid (a naturally occurring phenolic acid) with dodecanol (a 12‑carbon fatty alcohol), then purifying the product. Chemically, it is the dodecyl ester of gallic acid.[^2] In the EU, official specifications define its identity and purity requirements for food use.[^1]

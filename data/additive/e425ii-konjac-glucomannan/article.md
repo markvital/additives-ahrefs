@@ -5,7 +5,7 @@ Konjac glucomannan (E425ii) is a natural, soluble fiber taken from the root of t
 ## At a glance
 - What it is: A high‑molecular‑weight soluble fiber from the konjac root (Amorphophallus konjac).
 - What it does: Works as a thickener, stabiliser, emulsifier, humectant, and carrier.
-- E-number: E425ii. It is different from [konjac gum](/e425i-konjac-gum) (E425i), although both come from the same plant.
+- E-number: E425ii. It is different from [konjac gum](/e425i-konjac-gum){.additive} (E425i), although both come from the same plant.
 - Texture notes: Forms firm, springy gels when set with alkali or calcium; excellent at holding water.
 - Typical uses: Konjac noodles (shirataki/konnyaku), jelly-type desserts, sauces, meat and plant-based products, and dietary-fiber supplements.
 - Label names: “Konjac,” “konjac glucomannan,” “konjac flour,” or “E425ii.”
@@ -23,18 +23,18 @@ You’ll most often find it in:
 - Bakery and gluten‑free items to improve structure
 - Fiber supplements, drink mixes, and capsules
 
-Related texturizers that may appear alongside it include [xanthan gum](/e415-xanthan-gum), [guar gum](/e412-guar-gum), [gellan gum](/e418-gellan-gum), [carrageenan](/e407-carrageenan), [locust bean gum](/e410-locust-bean-gum), [pectins](/e440-pectins), and [sodium alginate](/e401-sodium-alginate).
+Related texturizers that may appear alongside it include [xanthan gum](/e415-xanthan-gum){.additive}, [guar gum](/e412-guar-gum){.additive}, [gellan gum](/e418-gellan-gum){.additive}, [carrageenan](/e407-carrageenan){.additive}, [locust bean gum](/e410-locust-bean-gum){.additive}, [pectins](/e440-pectins){.additive}, and [sodium alginate](/e401-sodium-alginate){.additive}.
 
 ## What can replace Konjac glucomannan?
 No single additive matches konjac in every recipe, but these are common swaps:
-- For thickening sauces: [xanthan gum](/e415-xanthan-gum) or [guar gum](/e412-guar-gum)
-- For firm, bouncy gels: [gellan gum](/e418-gellan-gum) or [carrageenan](/e407-carrageenan)
-- For fruit systems: [pectins](/e440-pectins)
-- For cold-set, sliceable gels: [sodium alginate](/e401-sodium-alginate) with calcium
+- For thickening sauces: [xanthan gum](/e415-xanthan-gum){.additive} or [guar gum](/e412-guar-gum){.additive}
+- For firm, bouncy gels: [gellan gum](/e418-gellan-gum){.additive} or [carrageenan](/e407-carrageenan){.additive}
+- For fruit systems: [pectins](/e440-pectins){.additive}
+- For cold-set, sliceable gels: [sodium alginate](/e401-sodium-alginate){.additive} with calcium
 Expect to adjust levels, pH, and processing, since each hydrocolloid behaves differently.
 
 ## How is Konjac glucomannan made?
-Konjac glucomannan is obtained from dried, milled konjac tubers. The soluble polysaccharide is extracted with water, purified (often by alcohol precipitation), dried, and milled into a fine powder. Its gel strength and behavior depend on molecular weight and acetyl groups present in the polymer. When mixed with alkali or calcium, such as a small amount of [calcium hydroxide](/e526-calcium-hydroxide), it forms elastic, heat‑stable gels typical of konnyaku products.[^1]
+Konjac glucomannan is obtained from dried, milled konjac tubers. The soluble polysaccharide is extracted with water, purified (often by alcohol precipitation), dried, and milled into a fine powder. Its gel strength and behavior depend on molecular weight and acetyl groups present in the polymer. When mixed with alkali or calcium, such as a small amount of [calcium hydroxide](/e526-calcium-hydroxide){.additive}, it forms elastic, heat‑stable gels typical of konnyaku products.[^1]
 
 ## Is Konjac glucomannan safe to eat?
 Regulators in the EU have re‑evaluated konjac glucomannan (E425ii) and found no safety concern at reported uses and use levels as a food additive.[^1] However, jelly “mini‑cup” candies containing konjac have been restricted in the EU due to choking incidents, because the gels can be swallowed whole and do not readily dissolve.[^2] In the United States, the FDA flags mini‑cup gel candies that contain konjac as a choking hazard and subjects them to import detention.[^3]

@@ -17,9 +17,9 @@ In the U.S., SDS may be used only in certain foods and only for the purposes and
 
 ## What can replace sodium dodecyl sulfate?
 Depending on the job, formulators often choose:
-- Emulsifiers: [lecithins](/e322-lecithins), [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids), [sodium stearoyl-2-lactylate](/e481-sodium-stearoyl-2-lactylate), or sucrose esters ([sucrose esters of fatty acids](/e473-sucrose-esters-of-fatty-acids)).
-- Polysorbates: For oil-in-water emulsions, polyoxyethylene sorbitan esters like [polysorbate 80](/e433-polyoxyethylene-sorbitan-monooleate) are common.
-- Hydrocolloids for foam/texture: [xanthan gum](/e415-xanthan-gum) or [carrageenan](/e407-carrageenan) can stabilize foams and improve body.
+- Emulsifiers: [lecithins](/e322-lecithins){.additive}, [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive}, [sodium stearoyl-2-lactylate](/e481-sodium-stearoyl-2-lactylate){.additive}, or sucrose esters ([sucrose esters of fatty acids](/e473-sucrose-esters-of-fatty-acids){.additive}).
+- Polysorbates: For oil-in-water emulsions, polyoxyethylene sorbitan esters like [polysorbate 80](/e433-polyoxyethylene-sorbitan-monooleate){.additive} are common.
+- Hydrocolloids for foam/texture: [xanthan gum](/e415-xanthan-gum){.additive} or [carrageenan](/e407-carrageenan){.additive} can stabilize foams and improve body.
 
 The right substitute depends on whether the goal is foaming, emulsifying, or stabilizing.
 

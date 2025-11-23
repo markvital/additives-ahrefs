@@ -24,10 +24,10 @@ In the EU, its permitted uses focus on surface decoration of specific confection
 
 ## What can replace silver?
 Depending on the look you want:
-- For another metallic look: [gold](/e175-gold)
-- For muted grays and browns: [iron oxides and iron hydroxides](/e172-iron-oxides-and-iron-hydroxides)
-- For white or opacity (where allowed): [titanium dioxide](/e171-titanium-dioxide)
-- For shine without a metallic color: edible glazes like [shellac](/e904-shellac) or [carnauba wax](/e903-carnauba-wax)
+- For another metallic look: [gold](/e175-gold){.additive}
+- For muted grays and browns: [iron oxides and iron hydroxides](/e172-iron-oxides-and-iron-hydroxides){.additive}
+- For white or opacity (where allowed): [titanium dioxide](/e171-titanium-dioxide){.additive}
+- For shine without a metallic color: edible glazes like [shellac](/e904-shellac){.additive} or [carnauba wax](/e903-carnauba-wax){.additive}
 
 ## How is silver made?
 Food-grade E174 is high‑purity elemental silver that is processed into leaf, flakes, or fine powder for decorative use. EU specifications set requirements for purity and control impurities for silver used as a food additive.[^3]

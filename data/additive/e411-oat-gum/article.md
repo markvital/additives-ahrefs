@@ -20,13 +20,13 @@ You may find oat gum in flavored drinks, oat- or dairy‑style beverages, soups,
 
 ## What can replace Oat gum?
 If a recipe or product cannot use oat gum, makers often turn to other hydrocolloids (thickening and gelling agents):
-- [xanthan gum](/e415-xanthan-gum) for strong thickening at low levels and good suspension
-- [guar gum](/e412-guar-gum) for cold‑process thickening and cost‑effectiveness
-- [locust bean gum](/e410-locust-bean-gum) to build body and improve creaminess, often in blends
-- [acacia gum](/e414-acacia-gum) for stabilizing flavors and emulsions with low viscosity
-- [gellan gum](/e418-gellan-gum) when a soft gel or fluid gel is desired
-- [pectins](/e440-pectins) in fruit systems and some dairy
-- [sodium carboxymethylcellulose](/e466-sodium-carboxy-methyl-cellulose) for stable viscosity and freeze‑thaw resilience
+- [xanthan gum](/e415-xanthan-gum){.additive} for strong thickening at low levels and good suspension
+- [guar gum](/e412-guar-gum){.additive} for cold‑process thickening and cost‑effectiveness
+- [locust bean gum](/e410-locust-bean-gum){.additive} to build body and improve creaminess, often in blends
+- [acacia gum](/e414-acacia-gum){.additive} for stabilizing flavors and emulsions with low viscosity
+- [gellan gum](/e418-gellan-gum){.additive} when a soft gel or fluid gel is desired
+- [pectins](/e440-pectins){.additive} in fruit systems and some dairy
+- [sodium carboxymethylcellulose](/e466-sodium-carboxy-methyl-cellulose){.additive} for stable viscosity and freeze‑thaw resilience
 
 Each option has its own texture profile, process needs, and flavor release, so formulators choose based on the specific product.
 

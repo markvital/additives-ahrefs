@@ -18,14 +18,14 @@ If used, wax ester would most likely appear on the surface of fresh produce, con
 
 ## What can replace Wax ester?
 Food makers usually choose well‑defined, approved waxes instead of a generic “wax ester,” including:
-- [beeswax](/e901-white-and-yellow-beeswax) (E901)
-- [candelilla wax](/e902-candelilla-wax) (E902)
-- [carnauba wax](/e903-carnauba-wax) (E903)
-- [shellac](/e904-shellac) (E904)
-- [microcrystalline wax](/e905ci-microcrystalline-wax) (E905)
-- [rice bran wax](/e908-rice-bran-wax) (E908)
-- [montanic acid esters](/e912-montanic-acid-esters) (E912)
-- [lanolin](/e913-lanolin) (E913)
+- [beeswax](/e901-white-and-yellow-beeswax){.additive} (E901)
+- [candelilla wax](/e902-candelilla-wax){.additive} (E902)
+- [carnauba wax](/e903-carnauba-wax){.additive} (E903)
+- [shellac](/e904-shellac){.additive} (E904)
+- [microcrystalline wax](/e905ci-microcrystalline-wax){.additive} (E905)
+- [rice bran wax](/e908-rice-bran-wax){.additive} (E908)
+- [montanic acid esters](/e912-montanic-acid-esters){.additive} (E912)
+- [lanolin](/e913-lanolin){.additive} (E913)
 
 These choices are common because they have clear purity criteria and established safety evaluations.
 
@@ -44,8 +44,8 @@ Yes. A thin wax film can:
 These benefits are why producers typically use well‑characterized waxes with clear specifications.
 
 ## Who should avoid Wax ester?
-- Strict vegetarians, vegans, or those avoiding insect‑ or animal‑derived ingredients should check the source. Some waxes are plant‑based (like carnauba or candelilla), while others can be animal‑derived (such as [beeswax](/e901-white-and-yellow-beeswax) or [shellac](/e904-shellac)).  
-- People sensitive to wool wax (lanolin) may wish to avoid coatings derived from [lanolin](/e913-lanolin).  
+- Strict vegetarians, vegans, or those avoiding insect‑ or animal‑derived ingredients should check the source. Some waxes are plant‑based (like carnauba or candelilla), while others can be animal‑derived (such as [beeswax](/e901-white-and-yellow-beeswax){.additive} or [shellac](/e904-shellac){.additive}).  
+- People sensitive to wool wax (lanolin) may wish to avoid coatings derived from [lanolin](/e913-lanolin){.additive}.  
 - If you have dietary restrictions or a medical condition, ask a healthcare professional for personal advice.
 
 ## Myths & facts
@@ -56,10 +56,10 @@ These benefits are why producers typically use well‑characterized waxes with c
   Fact: Waxes reduce moisture loss and add shine; they are not intended to “trap” residues. Washing and peeling practices still matter.
 
 - Myth: E910 is common on labels.  
-  Fact: You are more likely to see specific wax names such as [carnauba wax](/e903-carnauba-wax), [beeswax](/e901-white-and-yellow-beeswax), or [shellac](/e904-shellac).
+  Fact: You are more likely to see specific wax names such as [carnauba wax](/e903-carnauba-wax){.additive}, [beeswax](/e901-white-and-yellow-beeswax){.additive}, or [shellac](/e904-shellac){.additive}.
 
 ## Wax ester in branded foods
-E910 is uncommon on ingredient lists today. If present, it would typically appear as “E910” or “wax ester,” usually in the context of a surface coating. Most brands list specific waxes instead, such as [carnauba wax](/e903-carnauba-wax) or [beeswax](/e901-white-and-yellow-beeswax).
+E910 is uncommon on ingredient lists today. If present, it would typically appear as “E910” or “wax ester,” usually in the context of a surface coating. Most brands list specific waxes instead, such as [carnauba wax](/e903-carnauba-wax){.additive} or [beeswax](/e901-white-and-yellow-beeswax){.additive}.
 
 ## References
 [^1]: Commission Regulation (EU) No 231/2012 — Laying down specifications for food additives listed in Annexes II and III to Regulation (EC) No 1333/2008. EUR-Lex. https://eur-lex.europa.eu/eli/reg/2012/231/oj

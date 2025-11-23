@@ -3,11 +3,11 @@ Potassium propionate (E283) is a food preservative that helps keep baked goods f
 <!--more-->
 
 ## At a glance
-- What it is: The potassium salt of [propionic acid](/e280-propionic-acid); a mold-inhibiting preservative.
+- What it is: The potassium salt of [propionic acid](/e280-propionic-acid){.additive}; a mold-inhibiting preservative.
 - What it does: Slows the growth of mold and some spoilage microbes in foods with a bread-like pH.
 - Common in: Packaged breads, rolls, tortillas, and other baked goods.
 - Label reading: May appear as “potassium propionate,” “potassium propanoate,” or “E283.”
-- Swaps: Often interchangeable with [calcium propionate](/e282-calcium-propionate) or [sodium propionate](/e281-sodium-propionate).
+- Swaps: Often interchangeable with [calcium propionate](/e282-calcium-propionate){.additive} or [sodium propionate](/e281-sodium-propionate){.additive}.
 
 ## Why is Potassium propionate added to food?
 Manufacturers add potassium propionate to stop mold from growing, which helps keep products like bread fresher for longer between baking and eating. It works well in the slightly acidic to neutral pH of many baked goods and does not affect flavor much.
@@ -22,10 +22,10 @@ These uses reflect how regulators and industry report the propionates (E280–E2
 
 ## What can replace Potassium propionate?
 Depending on the recipe and label goals, common alternatives include:
-- Other propionates: [calcium propionate](/e282-calcium-propionate) or [sodium propionate](/e281-sodium-propionate)
-- Sorbates: [sorbic acid](/e200-sorbic-acid) or [potassium sorbate](/e202-potassium-sorbate)
-- Benzoates for some acidic foods: [sodium benzoate](/e211-sodium-benzoate)
-- Process changes: lower pH with [acetic acid](/e260-acetic-acid) or [citric acid](/e330-citric-acid), tighter packaging, lower moisture, or refrigeration
+- Other propionates: [calcium propionate](/e282-calcium-propionate){.additive} or [sodium propionate](/e281-sodium-propionate){.additive}
+- Sorbates: [sorbic acid](/e200-sorbic-acid){.additive} or [potassium sorbate](/e202-potassium-sorbate){.additive}
+- Benzoates for some acidic foods: [sodium benzoate](/e211-sodium-benzoate){.additive}
+- Process changes: lower pH with [acetic acid](/e260-acetic-acid){.additive} or [citric acid](/e330-citric-acid){.additive}, tighter packaging, lower moisture, or refrigeration
 
 ## How is Potassium propionate made?
 Food-grade potassium propionate is produced by neutralizing propionic acid with potassium hydroxide, then purifying and drying the resulting salt to meet purity specifications.[^2] The EU sets identity and purity criteria (such as assay and limits on impurities) for E283 to ensure consistent quality.[^2]
@@ -35,7 +35,7 @@ In the European Union, the European Food Safety Authority (EFSA) re-evaluated pr
 
 ## Does Potassium propionate have any benefits?
 - Helps keep bread and similar foods mold-free, reducing spoilage and extending shelf life.[^1]
-- Offers a sodium-free option compared with [sodium propionate](/e281-sodium-propionate), which can help formulators when aiming to limit sodium.
+- Offers a sodium-free option compared with [sodium propionate](/e281-sodium-propionate){.additive}, which can help formulators when aiming to limit sodium.
 
 ## Who should avoid Potassium propionate?
 - People on potassium-restricted diets (for example, some individuals with chronic kidney disease) should consider the total amount of potassium from all sources, including potassium-based additives, and follow their healthcare provider’s advice.[^4]

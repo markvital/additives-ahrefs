@@ -26,10 +26,10 @@ It can also appear on labels as “mixed tocopherols,” which often contain gam
 
 ## What can replace Gamme-tocopherol?
 Depending on the food and process, formulators might choose:
-- Other tocopherols: [alpha-tocopherol](/e307-alpha-tocopherol), [delta-tocopherol](/e309-delta-tocopherol), or [tocopherol-rich extract](/e306-tocopherol-rich-extract)
-- Oil-soluble synthetic antioxidants: [BHA](/e320-butylated-hydroxyanisole-bha), [BHT](/e321-butylated-hydroxytoluene), or [TBHQ](/e319-tertiary-butylhydroquinone-tbhq)
-- Natural options: [extracts of rosemary](/e392-extracts-of-rosemary)
-- Synergists that help antioxidants work better in some foods: [ascorbic acid](/e300-ascorbic-acid) and [citric acid](/e330-citric-acid)
+- Other tocopherols: [alpha-tocopherol](/e307-alpha-tocopherol){.additive}, [delta-tocopherol](/e309-delta-tocopherol){.additive}, or [tocopherol-rich extract](/e306-tocopherol-rich-extract){.additive}
+- Oil-soluble synthetic antioxidants: [BHA](/e320-butylated-hydroxyanisole-bha){.additive}, [BHT](/e321-butylated-hydroxytoluene){.additive}, or [TBHQ](/e319-tertiary-butylhydroquinone-tbhq){.additive}
+- Natural options: [extracts of rosemary](/e392-extracts-of-rosemary){.additive}
+- Synergists that help antioxidants work better in some foods: [ascorbic acid](/e300-ascorbic-acid){.additive} and [citric acid](/e330-citric-acid){.additive}
 
 ## How is Gamme-tocopherol made?
 Food-grade gamma-tocopherol is typically obtained from vegetable oil by-products (such as deodorizer distillates) using distillation and purification to isolate specific tocopherols. European Union specifications describe gamma-tocopherol as derived from vegetable oils and set identity and purity criteria for its use as E308.[^3]

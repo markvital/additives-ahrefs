@@ -26,19 +26,19 @@ On labels, look for “beta-carotene,” “mixed carotenes,” or “E160a.”
 
 ## What can replace carotene?
 Formulators may choose other colorants to reach similar shades:
-- Yellow to orange: [curcumin](/e100-curcumin) from turmeric, [paprika extract](/e160c-paprika-extract), or [annatto](/e160b-annatto)
-- Red to pink: [beetroot red](/e162-beetroot-red)
-- Yellow: [lutein](/e161b-lutein)
-- Red-orange: [lycopene](/e160d-lycopene)
+- Yellow to orange: [curcumin](/e100-curcumin){.additive} from turmeric, [paprika extract](/e160c-paprika-extract){.additive}, or [annatto](/e160b-annatto){.additive}
+- Red to pink: [beetroot red](/e162-beetroot-red){.additive}
+- Yellow: [lutein](/e161b-lutein){.additive}
+- Red-orange: [lycopene](/e160d-lycopene){.additive}
 
 The best substitute depends on the exact shade, solubility, and how the color holds up to heat, light, and acidity.
 
 ## How is carotene made?
 In the EU, E160a covers several sources and production methods:
-- [beta-carotene](/e160ai-beta-carotene) made by chemical synthesis
-- [beta-carotene from Blakeslea trispora](/e160aiii-beta-carotene-from-blakeslea-trispora), a fermentation process using a fungus
-- [mixed carotenes from plants](/e160aii-plant-carotenes), extracted from vegetable oils and plant materials
-- [algal carotenes](/e160aiv-algal-carotenes), typically from the microalga Dunaliella salina[^1]
+- [beta-carotene](/e160ai-beta-carotene){.additive} made by chemical synthesis
+- [beta-carotene from Blakeslea trispora](/e160aiii-beta-carotene-from-blakeslea-trispora){.additive}, a fermentation process using a fungus
+- [mixed carotenes from plants](/e160aii-plant-carotenes){.additive}, extracted from vegetable oils and plant materials
+- [algal carotenes](/e160aiv-algal-carotenes){.additive}, typically from the microalga Dunaliella salina[^1]
 
 EU specifications list purity criteria and permitted carriers for these forms.[^1]
 

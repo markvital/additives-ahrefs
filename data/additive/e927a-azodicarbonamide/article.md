@@ -23,12 +23,12 @@ Not every baker uses it. If present, it will be listed in the ingredient stateme
 
 ## What can replace Azodicarbonamide?
 Bakers who avoid azodicarbonamide often combine other dough improvers to get similar results, for example:
-- Oxidizing agents such as [ascorbic acid](/e300-ascorbic-acid)
-- Enzymes like [alpha-amylase](/e1100-alpha-amylase) or [lipase](/e1104-lipase)
-- Amino acids such as [L-cysteine](/e920-l-cysteine)
-- Oxidants such as [calcium peroxide](/e930-calcium-peroxide)
-- Emulsifiers including [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids)
-- Texture aids like [xanthan gum](/e415-xanthan-gum)
+- Oxidizing agents such as [ascorbic acid](/e300-ascorbic-acid){.additive}
+- Enzymes like [alpha-amylase](/e1100-alpha-amylase){.additive} or [lipase](/e1104-lipase){.additive}
+- Amino acids such as [L-cysteine](/e920-l-cysteine){.additive}
+- Oxidants such as [calcium peroxide](/e930-calcium-peroxide){.additive}
+- Emulsifiers including [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive}
+- Texture aids like [xanthan gum](/e415-xanthan-gum){.additive}
 
 Each option behaves a bit differently, so the right blend depends on the flour and the bread style.
 
@@ -60,7 +60,7 @@ If you want to avoid it, scan the ingredient list for “azodicarbonamide” or 
 
 ## Azodicarbonamide in branded foods
 - How to spot it: Look for “azodicarbonamide” or “E927a” in the ingredient list on breads, buns, rolls, and similar items.
-- What if you want to avoid it: Choose products that highlight “no dough conditioners,” “no added bleaching agents,” or that use alternatives such as [ascorbic acid](/e300-ascorbic-acid) or enzymes like [alpha-amylase](/e1100-alpha-amylase).
+- What if you want to avoid it: Choose products that highlight “no dough conditioners,” “no added bleaching agents,” or that use alternatives such as [ascorbic acid](/e300-ascorbic-acid){.additive} or enzymes like [alpha-amylase](/e1100-alpha-amylase){.additive}.
 - Ask the maker: If the label isn’t clear, most brands will confirm the presence or absence of azodicarbonamide through customer service.
 
 ## References

@@ -21,9 +21,9 @@ On ingredient lists it may appear as “sodium citrate,” “trisodium citrate,
 
 ## What can replace Trisodium citrate?
 Alternatives depend on the job you need done:
-- To adjust tartness or pH: [citric acid](/e330-citric-acid), [lactic acid](/e270-lactic-acid), or [acetic acid](/e260-acetic-acid).
-- To buffer acidity with a similar taste profile: [monosodium citrate](/e331i-monosodium-citrate) or [disodium citrate](/e331ii-disodium-citrate); for low‑sodium formulations, consider [potassium citrates](/e332-potassium-citrates).
-- To improve melt or emulsification in processed cheese: [sodium phosphates](/e339-sodium-phosphates) are common alternatives in that specific use.
+- To adjust tartness or pH: [citric acid](/e330-citric-acid){.additive}, [lactic acid](/e270-lactic-acid){.additive}, or [acetic acid](/e260-acetic-acid){.additive}.
+- To buffer acidity with a similar taste profile: [monosodium citrate](/e331i-monosodium-citrate){.additive} or [disodium citrate](/e331ii-disodium-citrate){.additive}; for low‑sodium formulations, consider [potassium citrates](/e332-potassium-citrates){.additive}.
+- To improve melt or emulsification in processed cheese: [sodium phosphates](/e339-sodium-phosphates){.additive} are common alternatives in that specific use.
 
 ## How is Trisodium citrate made?
 Food‑grade trisodium citrate is produced by neutralizing citric acid with a sodium base (typically sodium hydroxide or sodium carbonate), followed by crystallization and drying to achieve the required purity and particle size.[^3] These identity and purity criteria are set in European Union specifications for food additives.

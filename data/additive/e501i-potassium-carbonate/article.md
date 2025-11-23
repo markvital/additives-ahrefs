@@ -21,9 +21,9 @@ Because it functions in pH control, you’ll see it most in foods where acidity 
 
 ## What can replace Potassium carbonate?
 Choosing a substitute depends on the job you need done:
-- For alkalinity/pH control: consider [sodium carbonate](/e500i-sodium-carbonate) or, for stronger alkalinity, [potassium hydroxide](/e525-potassium-hydroxide) or [sodium hydroxide](/e524-sodium-hydroxide) in carefully controlled amounts.
-- For leavening with an acid: [potassium hydrogen carbonate](/e501ii-potassium-hydrogen-carbonate), [sodium bicarbonate](/e500ii-sodium-bicarbonate), or [ammonium hydrogen carbonate](/e503ii-ammonium-hydrogen-carbonate) are common options.
-- For acid-base balancing from the other side: acids such as [citric acid](/e330-citric-acid) or [phosphoric acid](/e338-phosphoric-acid) can fine-tune pH in tandem with a carbonate or bicarbonate.
+- For alkalinity/pH control: consider [sodium carbonate](/e500i-sodium-carbonate){.additive} or, for stronger alkalinity, [potassium hydroxide](/e525-potassium-hydroxide){.additive} or [sodium hydroxide](/e524-sodium-hydroxide){.additive} in carefully controlled amounts.
+- For leavening with an acid: [potassium hydrogen carbonate](/e501ii-potassium-hydrogen-carbonate){.additive}, [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive}, or [ammonium hydrogen carbonate](/e503ii-ammonium-hydrogen-carbonate){.additive} are common options.
+- For acid-base balancing from the other side: acids such as [citric acid](/e330-citric-acid){.additive} or [phosphoric acid](/e338-phosphoric-acid){.additive} can fine-tune pH in tandem with a carbonate or bicarbonate.
 
 Note that switching from potassium to sodium salts changes both taste and the mineral (potassium vs sodium) profile of the food.
 
@@ -36,7 +36,7 @@ Yes, when used as intended in food. In the United States, the Food and Drug Admi
 ## Does Potassium carbonate have any benefits?
 - Flavor and color control: In cocoa, alkalizing with potassium carbonate reduces sharp acidity and can create a darker, smoother-tasting cocoa powder.[^3]
 - Texture and processing: In noodle and pasta systems, permitted alkaline salts can help set protein structure and adjust dough handling, contributing to a springier bite.[^4]
-- Leavening support: In recipes that include an acid, carbonate/bicarbonate systems can release [carbon dioxide](/e290-carbon-dioxide) to aerate doughs and batters.
+- Leavening support: In recipes that include an acid, carbonate/bicarbonate systems can release [carbon dioxide](/e290-carbon-dioxide){.additive} to aerate doughs and batters.
 
 ## Who should avoid Potassium carbonate?
 - People on potassium-restricted diets, such as many with chronic kidney disease (CKD), may need to limit added sources of potassium, including potassium salts used in foods.[^6]

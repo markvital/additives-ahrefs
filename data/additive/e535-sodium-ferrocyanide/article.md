@@ -23,9 +23,9 @@ Manufacturers usually list it on the ingredient line as “E535,” “sodium fe
 
 ## What can replace Sodium ferrocyanide?
 Other anti-caking agents used for salt and dry seasonings include:
-- Ferrocyanide salts: [potassium ferrocyanide](/e536-potassium-ferrocyanide), [calcium ferrocyanide](/e538-calcium-ferrocyanide)
-- Silicates and silica: [silicon dioxide](/e551-silicon-dioxide), [calcium silicate](/e552-calcium-silicate), [sodium aluminium silicate](/e554-sodium-aluminium-silicate)
-- Carbonates: [magnesium carbonates](/e504-magnesium-carbonates)
+- Ferrocyanide salts: [potassium ferrocyanide](/e536-potassium-ferrocyanide){.additive}, [calcium ferrocyanide](/e538-calcium-ferrocyanide){.additive}
+- Silicates and silica: [silicon dioxide](/e551-silicon-dioxide){.additive}, [calcium silicate](/e552-calcium-silicate){.additive}, [sodium aluminium silicate](/e554-sodium-aluminium-silicate){.additive}
+- Carbonates: [magnesium carbonates](/e504-magnesium-carbonates){.additive}
 
 At home, a simple non-additive workaround is to keep salt in a sealed container or add a few grains of rice to the shaker.
 

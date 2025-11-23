@@ -23,14 +23,14 @@ You’ll most often find it in:
 - Breakfast cereals and cereal bars
 - Certain canned or jarred foods where pH control and texture stability are needed
 
-On labels, it may appear on its own or as part of “sodium phosphates,” alongside related salts like [disodium phosphate](/e339ii-disodium-phosphate) and [trisodium phosphate](/e339iii-trisodium-phosphate).
+On labels, it may appear on its own or as part of “sodium phosphates,” alongside related salts like [disodium phosphate](/e339ii-disodium-phosphate){.additive} and [trisodium phosphate](/e339iii-trisodium-phosphate){.additive}.
 
 ## What can replace Monosodium phosphate?
 Alternatives depend on the job it’s doing:
-- For buffering and acidity control: [citric acid](/e330-citric-acid) or [sodium citrates](/e331-sodium-citrates)
-- For emulsifying cheese: [sodium citrates](/e331-sodium-citrates) or other food-grade phosphates used as emulsifying salts
-- To reduce sodium: [potassium phosphates](/e340-potassium-phosphates) can serve similar functions with less sodium
-- For leavening or pH in baking: [sodium bicarbonate](/e500ii-sodium-bicarbonate), [sodium carbonate](/e500i-sodium-carbonate), or calcium/phosphate systems such as [calcium phosphates](/e341-calcium-phosphates)
+- For buffering and acidity control: [citric acid](/e330-citric-acid){.additive} or [sodium citrates](/e331-sodium-citrates){.additive}
+- For emulsifying cheese: [sodium citrates](/e331-sodium-citrates){.additive} or other food-grade phosphates used as emulsifying salts
+- To reduce sodium: [potassium phosphates](/e340-potassium-phosphates){.additive} can serve similar functions with less sodium
+- For leavening or pH in baking: [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive}, [sodium carbonate](/e500i-sodium-carbonate){.additive}, or calcium/phosphate systems such as [calcium phosphates](/e341-calcium-phosphates){.additive}
 
 Keep in mind that performance differs; not every substitute will give the same taste, texture, or stability.
 
@@ -59,7 +59,7 @@ If you have CKD or a prescribed diet, follow your clinician’s advice and check
 ## Myths & facts
 - “It’s the same as harsh cleaning phosphates.” Fact: Monosodium phosphate is a specific food-grade salt used in tiny amounts for pH control and emulsifying; safety depends on the compound, its purity, and how it’s used in food.
 - “It’s just a preservative.” Fact: It can help preserve quality by managing pH and binding metals, but it’s mainly a buffer and emulsifying salt, not a primary antimicrobial.
-- “All phosphates are interchangeable.” Fact: Different phosphate salts (mono-, di-, tri-, and polyphosphates) have different pH effects and functions; formulators choose among [monosodium](/e339i-monosodium-phosphate), [disodium](/e339ii-disodium-phosphate), [trisodium](/e339iii-trisodium-phosphate), and [polyphosphates](/e451-triphosphates) for specific results.
+- “All phosphates are interchangeable.” Fact: Different phosphate salts (mono-, di-, tri-, and polyphosphates) have different pH effects and functions; formulators choose among [monosodium](/e339i-monosodium-phosphate){.additive}, [disodium](/e339ii-disodium-phosphate){.additive}, [trisodium](/e339iii-trisodium-phosphate){.additive}, and [polyphosphates](/e451-triphosphates){.additive} for specific results.
 
 ## Monosodium phosphate in branded foods
 You can spot it on ingredient lists as “monosodium phosphate,” “sodium dihydrogen phosphate,” “E339i,” or grouped under “sodium phosphates.” It’s common in big-brand processed cheese slices and spreads, flavored dairy drinks, instant drink and dessert mixes, meat and seafood products that are brined or marinated, and some breakfast cereals. Check the ingredient panel rather than the front of pack—phosphate salts are usually listed near other acidity regulators, stabilizers, or emulsifiers.

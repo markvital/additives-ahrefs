@@ -18,8 +18,8 @@ You’ll most often find it in low‑ and no‑sugar products. In the U.S., it i
 
 ## What can replace Acesulfame k?
 Depending on the recipe and label goals, food makers may switch to or blend other sweeteners:
-- High‑intensity options: [aspartame](/e951-aspartame), [sucralose](/e955-sucralose), [saccharin](/e954-saccharin-and-its-salts), [steviol glycosides](/e960-steviol-glycosides), [neotame](/e961-neotame), [advantame](/e969-advantame), [thaumatin](/e957-thaumatin), [neohesperidine dihydrochalcone](/e959-neohesperidine-dihydrochalcone).
-- Bulk sweeteners (polyols): [erythritol](/e968-erythritol), [xylitol](/e967-xylitol), [sorbitol](/e420-sorbitol), [maltitol](/e965-maltitol), [isomalt](/e953-isomalt).
+- High‑intensity options: [aspartame](/e951-aspartame){.additive}, [sucralose](/e955-sucralose){.additive}, [saccharin](/e954-saccharin-and-its-salts){.additive}, [steviol glycosides](/e960-steviol-glycosides){.additive}, [neotame](/e961-neotame){.additive}, [advantame](/e969-advantame){.additive}, [thaumatin](/e957-thaumatin){.additive}, [neohesperidine dihydrochalcone](/e959-neohesperidine-dihydrochalcone){.additive}.
+- Bulk sweeteners (polyols): [erythritol](/e968-erythritol){.additive}, [xylitol](/e967-xylitol){.additive}, [sorbitol](/e420-sorbitol){.additive}, [maltitol](/e965-maltitol){.additive}, [isomalt](/e953-isomalt){.additive}.
 Formulators choose based on taste, cost, stability, and whether bulk or browning is needed.
 
 ## How is Acesulfame k made?

@@ -13,7 +13,7 @@ Sodium sesquicarbonate is part of the “sodium carbonates” family (E500), alo
 ## Why is Sodium sesquicarbonate added to food?
 Food makers use sodium sesquicarbonate to regulate acidity (keep pH steady) and to release carbon dioxide when combined with an acid, which helps batters and doughs rise. Within the EU, it is listed under the sodium carbonates group (E500) for use as an acidity regulator and raising agent.[^1][^2]
 
-Compared with its sister salts, [sodium carbonate](/e500i-sodium-carbonate) is strongly alkaline, while [sodium bicarbonate](/e500ii-sodium-bicarbonate) is milder but less buffering on its own. Sodium sesquicarbonate sits in between, providing a gentle, sustained alkalinity that can fine‑tune browning, tenderness, and flavor in baked goods.[^2]
+Compared with its sister salts, [sodium carbonate](/e500i-sodium-carbonate){.additive} is strongly alkaline, while [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive} is milder but less buffering on its own. Sodium sesquicarbonate sits in between, providing a gentle, sustained alkalinity that can fine‑tune browning, tenderness, and flavor in baked goods.[^2]
 
 ## What foods contain Sodium sesquicarbonate?
 You may find E500iii in bakery mixes, crackers, cookies, and other processed cereal products where controlled alkalinity or a mild leavening effect is needed. In the European Union, sodium carbonates (including E500iii) are authorized in a wide range of foods according to Annex II of the food‑additives regulation and must meet purity specifications.[^1][^3]
@@ -23,10 +23,10 @@ On labels in the EU, it may appear as “E500iii,” “E500(iii),” or “sodi
 ## What can replace Sodium sesquicarbonate?
 Alternatives depend on the job you need done:
 
-- For similar leavening with a bit less alkalinity: [sodium bicarbonate](/e500ii-sodium-bicarbonate) used with a suitable acid (for example, [citric acid](/e330-citric-acid), [monocalcium phosphate](/e341i-monocalcium-phosphate), or [disodium diphosphate](/e450i-disodium-diphosphate)).
-- For stronger alkalinity or “alkaline treatment” effects (more browning, distinctive flavor): [sodium carbonate](/e500i-sodium-carbonate).
-- For reduced sodium formulas: [potassium carbonates](/e501-potassium-carbonates) may play a similar pH‑control role.
-- For buffering without leavening gas: [sodium citrates](/e331-sodium-citrates) or [sodium phosphates](/e339-sodium-phosphates) can act as acidity regulators.
+- For similar leavening with a bit less alkalinity: [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive} used with a suitable acid (for example, [citric acid](/e330-citric-acid){.additive}, [monocalcium phosphate](/e341i-monocalcium-phosphate){.additive}, or [disodium diphosphate](/e450i-disodium-diphosphate){.additive}).
+- For stronger alkalinity or “alkaline treatment” effects (more browning, distinctive flavor): [sodium carbonate](/e500i-sodium-carbonate){.additive}.
+- For reduced sodium formulas: [potassium carbonates](/e501-potassium-carbonates){.additive} may play a similar pH‑control role.
+- For buffering without leavening gas: [sodium citrates](/e331-sodium-citrates){.additive} or [sodium phosphates](/e339-sodium-phosphates){.additive} can act as acidity regulators.
 
 ## How is Sodium sesquicarbonate made?
 Sodium sesquicarbonate is the double salt formed from sodium carbonate and sodium hydrogen carbonate (sodium bicarbonate). Food‑grade material is typically produced by crystallizing it from solutions containing the two salts under controlled conditions, or via processing routes used for the sodium carbonates family.[^1][^2]
@@ -36,7 +36,7 @@ It is specified in EU law as part of E500, with detailed purity and identity cri
 ## Is Sodium sesquicarbonate safe to eat?
 The European Food Safety Authority (EFSA) re‑evaluated the sodium carbonates group (E500) and concluded there was no safety concern for their use at reported levels in foods; a numerical Acceptable Daily Intake (ADI) was not deemed necessary.[^2] In the EU, only material meeting the official purity specifications may be placed on the market for use in food.[^1]
 
-In the United States, closely related ingredients [sodium carbonate](/e500i-sodium-carbonate) and [sodium bicarbonate](/e500ii-sodium-bicarbonate) are affirmed as Generally Recognized as Safe (GRAS) when used in line with good manufacturing practice.[^4][^5]
+In the United States, closely related ingredients [sodium carbonate](/e500i-sodium-carbonate){.additive} and [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive} are affirmed as Generally Recognized as Safe (GRAS) when used in line with good manufacturing practice.[^4][^5]
 
 ## Does Sodium sesquicarbonate have any benefits?
 For food processing, its benefits are mainly technological. It buffers acidity to help stabilize flavor and color, and it acts as a gentle leavening base when paired with suitable acids. This can support even browning and tender textures in baked goods while avoiding the harsh alkalinity of washing soda.[^2]

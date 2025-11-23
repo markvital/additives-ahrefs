@@ -1,4 +1,4 @@
-Lactylated fatty acid esters of glycerol and propane-1 (E478) are emulsifiers that help fat and water mix and stay mixed. They are used in bakery, creams, and other foods to improve texture, volume, and stability during storage and heating. They are a group of related compounds made from edible fats, [glycerol](/e422-glycerol), [lactic acid](/e270-lactic-acid), and small amounts of [propylene glycol](/e1520-propylene-glycol).
+Lactylated fatty acid esters of glycerol and propane-1 (E478) are emulsifiers that help fat and water mix and stay mixed. They are used in bakery, creams, and other foods to improve texture, volume, and stability during storage and heating. They are a group of related compounds made from edible fats, [glycerol](/e422-glycerol){.additive}, [lactic acid](/e270-lactic-acid){.additive}, and small amounts of [propylene glycol](/e1520-propylene-glycol){.additive}.
 
 <!--more-->
 
@@ -22,15 +22,15 @@ Exact permissions and limits are listed in the EU food additives regulation for 
 
 ## What can replace E478?
 Depending on the recipe and processing, formulators may switch to:
-- [Mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids)
-- [Lactic acid esters of mono- and diglycerides](/e472b-lactic-acid-esters-of-mono-and-diglycerides-of-fatty-acids)
-- [Sodium stearoyl-2-lactylate](/e481-sodium-stearoyl-2-lactylate) or [calcium stearoyl-2-lactylate](/e482-calcium-stearoyl-2-lactylate)
-- [Lecithins](/e322-lecithins) or [polyglycerol polyricinoleate](/e476-polyglycerol-polyricinoleate)
+- [Mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive}
+- [Lactic acid esters of mono- and diglycerides](/e472b-lactic-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive}
+- [Sodium stearoyl-2-lactylate](/e481-sodium-stearoyl-2-lactylate){.additive} or [calcium stearoyl-2-lactylate](/e482-calcium-stearoyl-2-lactylate){.additive}
+- [Lecithins](/e322-lecithins){.additive} or [polyglycerol polyricinoleate](/e476-polyglycerol-polyricinoleate){.additive}
 
 Each alternative behaves a bit differently, so choices depend on the food, processing steps, and label goals.
 
 ## How is E478 made?
-E478 is produced from edible fats and oils by forming esters with [glycerol](/e422-glycerol) and small amounts of [propylene glycol](/e1520-propylene-glycol). These esters are then “lactylated” by reacting them with [lactic acid](/e270-lactic-acid) or its small polymers. The result is a defined mixture of lactylated esters that meet identity and purity specifications set in EU law.[^1]
+E478 is produced from edible fats and oils by forming esters with [glycerol](/e422-glycerol){.additive} and small amounts of [propylene glycol](/e1520-propylene-glycol){.additive}. These esters are then “lactylated” by reacting them with [lactic acid](/e270-lactic-acid){.additive} or its small polymers. The result is a defined mixture of lactylated esters that meet identity and purity specifications set in EU law.[^1]
 
 ## Is E478 safe to eat?
 Within the European Union, E478 is authorized for use in specific foods and must meet detailed composition and purity specifications. Authorization means risk assessors and regulators found it acceptable at the permitted levels when used as intended.[^2] Manufacturers must also ensure the additive meets the official specification for identity and contaminants before it goes into food.[^1]

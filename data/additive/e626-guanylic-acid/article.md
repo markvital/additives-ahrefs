@@ -9,7 +9,7 @@ Guanylic acid (E626) is a flavor enhancer that boosts the savory, “umami” ta
 - Related additives: Its salts include E627, E628, and E629; it is often blended with E631 or E635.
 
 ## Why is Guanylic acid added to food?
-Food makers add E626 to lift umami, the savory taste that makes broths, meats, mushrooms, and aged cheeses so satisfying. Guanylic acid is very potent, so only small amounts are needed. It is often combined with glutamate (for example, [monosodium glutamate](/e621-monosodium-glutamate)) because the two work together to create a stronger, fuller savory flavor than either alone.
+Food makers add E626 to lift umami, the savory taste that makes broths, meats, mushrooms, and aged cheeses so satisfying. Guanylic acid is very potent, so only small amounts are needed. It is often combined with glutamate (for example, [monosodium glutamate](/e621-monosodium-glutamate){.additive}) because the two work together to create a stronger, fuller savory flavor than either alone.
 
 ## What foods contain Guanylic acid?
 You’ll most often find E626 in:
@@ -22,10 +22,10 @@ You’ll most often find E626 in:
 In the European Union, guanylic acid (and its related salts) is authorized as a food additive in various food categories under the Union list of permitted additives.[^2]
 
 ## What can replace Guanylic acid?
-- [Monosodium glutamate](/e621-monosodium-glutamate) (MSG) can deliver umami on its own in many recipes.
-- Inosinates such as [disodium inosinate](/e631-disodium-inosinate) or [inosinic acid](/e630-inosinic-acid) provide a similar savory lift.
-- Blends of 5'-ribonucleotides like [disodium 5'-ribonucleotide](/e635-disodium-5-ribonucleotide) are designed to mimic the synergy of guanylates and inosinates.
-- The salts of guanylic acid—[disodium guanylate](/e627-disodium-guanylate), [dipotassium guanylate](/e628-dipotassium-guanylate), and [calcium guanylate](/e629-calcium-guanylate)—are functionally similar and are used when a salt form fits the product better.
+- [Monosodium glutamate](/e621-monosodium-glutamate){.additive} (MSG) can deliver umami on its own in many recipes.
+- Inosinates such as [disodium inosinate](/e631-disodium-inosinate){.additive} or [inosinic acid](/e630-inosinic-acid){.additive} provide a similar savory lift.
+- Blends of 5'-ribonucleotides like [disodium 5'-ribonucleotide](/e635-disodium-5-ribonucleotide){.additive} are designed to mimic the synergy of guanylates and inosinates.
+- The salts of guanylic acid—[disodium guanylate](/e627-disodium-guanylate){.additive}, [dipotassium guanylate](/e628-dipotassium-guanylate){.additive}, and [calcium guanylate](/e629-calcium-guanylate){.additive}—are functionally similar and are used when a salt form fits the product better.
 
 ## How is Guanylic acid made?
 Commercially, E626 is typically produced by fermenting a food-grade microorganism, generating RNA (ribonucleic acid) that is then enzymatically processed to yield guanosine 5'-monophosphate (GMP). The product is purified, dried, and standardized to meet identity and purity specifications for food use.[^1] Chemically, guanylic acid is the free-acid form of GMP, the guanine nucleotide found naturally in living cells.[^3]
@@ -45,7 +45,7 @@ If your healthcare provider has advised you to limit dietary purines (for exampl
 - Myth: “It always raises sodium.” Fact: Guanylic acid is the acid form; some salt forms (like disodium guanylate) add sodium, but E626 itself does not add much sodium.
 
 ## Guanylic acid in branded foods
-On ingredient lists, look for “E626,” “guanylic acid,” or “guanosine monophosphate.” It often appears alongside [monosodium glutamate](/e621-monosodium-glutamate) or other nucleotides such as [disodium inosinate](/e631-disodium-inosinate) or [disodium 5'-ribonucleotide](/e635-disodium-5-ribonucleotide). Common places to see it include stock cubes, instant noodle seasonings, savory snack coatings, and jarred or canned sauces.
+On ingredient lists, look for “E626,” “guanylic acid,” or “guanosine monophosphate.” It often appears alongside [monosodium glutamate](/e621-monosodium-glutamate){.additive} or other nucleotides such as [disodium inosinate](/e631-disodium-inosinate){.additive} or [disodium 5'-ribonucleotide](/e635-disodium-5-ribonucleotide){.additive}. Common places to see it include stock cubes, instant noodle seasonings, savory snack coatings, and jarred or canned sauces.
 
 ## References
 [^1]: Commission Regulation (EU) No 231/2012 — Specifications for food additives listed in Annexes II and III to Regulation (EC) No 1333/2008. https://eur-lex.europa.eu/eli/reg/2012/231/oj

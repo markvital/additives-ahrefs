@@ -18,15 +18,15 @@ Biphenyl is used as a fungistat—a substance that slows mold growth—on the su
 
 You would most likely encounter biphenyl on whole citrus fruits such as oranges, lemons, limes, and grapefruits treated after harvest to prevent mold. Residues, when present, are largely confined to the peel; the edible pulp contains much lower levels.[^2] It is not typically used in beverages, bakery goods, or other processed foods.[^2]
 
-Related citrus preservatives include [orthophenyl phenol](/e231-orthophenyl-phenol) (E231) and [sodium orthophenyl phenol](/e232-sodium-orthophenyl-phenol), which have served similar roles as surface treatments for fruit.[^2]
+Related citrus preservatives include [orthophenyl phenol](/e231-orthophenyl-phenol){.additive} (E231) and [sodium orthophenyl phenol](/e232-sodium-orthophenyl-phenol){.additive}, which have served similar roles as surface treatments for fruit.[^2]
 
 ## What can replace Biphenyl?
 
 Several approaches can substitute for biphenyl, depending on the product and logistics:
 
-- Other preservatives: [sorbic acid](/e200-sorbic-acid), [potassium sorbate](/e202-potassium-sorbate), and [sodium benzoate](/e211-sodium-benzoate) are widely used preservatives in many foods (though not always for citrus surface treatment).
+- Other preservatives: [sorbic acid](/e200-sorbic-acid){.additive}, [potassium sorbate](/e202-potassium-sorbate){.additive}, and [sodium benzoate](/e211-sodium-benzoate){.additive} are widely used preservatives in many foods (though not always for citrus surface treatment).
 - Physical methods: good temperature control, lower humidity, and improved airflow limit mold growth during storage.
-- Coatings: fruit waxes such as [carnauba wax](/e903-carnauba-wax) or [shellac](/e904-shellac) can help reduce moisture loss and spoilage; these are not fungistats on their own but may be part of a broader post-harvest program.
+- Coatings: fruit waxes such as [carnauba wax](/e903-carnauba-wax){.additive} or [shellac](/e904-shellac){.additive} can help reduce moisture loss and spoilage; these are not fungistats on their own but may be part of a broader post-harvest program.
 
 ## How is Biphenyl made?
 

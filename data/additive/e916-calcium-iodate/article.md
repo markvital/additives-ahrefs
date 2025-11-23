@@ -17,7 +17,7 @@ Where permitted, calcium iodate may appear in some flours and baked goods as a f
 
 ## What can replace Calcium iodate?
 Alternatives depend on the goal:
-- For dough strengthening: bakers often use [ascorbic acid](/e300-ascorbic-acid), enzymes such as [alpha-amylase](/e1100-alpha-amylase), or emulsifiers like [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids).
+- For dough strengthening: bakers often use [ascorbic acid](/e300-ascorbic-acid){.additive}, enzymes such as [alpha-amylase](/e1100-alpha-amylase){.additive}, or emulsifiers like [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive}.
 - For iodine fortification: manufacturers may use other iodine salts (for example, iodide or iodate salts), subject to local regulations.
 
 ## How is Calcium iodate made?

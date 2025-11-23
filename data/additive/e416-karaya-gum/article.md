@@ -8,7 +8,7 @@ Karaya-gum (E416) is a plant gum taken from Sterculia trees. It is used in foods
 - Common in: Sauces and dressings, confectionery, desserts, and some bakery fillings
 - Dietary notes: Plant-based, gluten-free, low in calories
 - Safety: Authorised for use in the EU; like other gums, large amounts may cause gas or bloating in sensitive people
-- Alternatives: [xanthan gum](/e415-xanthan-gum), [guar gum](/e412-guar-gum), [locust bean gum](/e410-locust-bean-gum), [gellan gum](/e418-gellan-gum), [agar](/e406-agar), [carrageenan](/e407-carrageenan), [pectins](/e440-pectins)
+- Alternatives: [xanthan gum](/e415-xanthan-gum){.additive}, [guar gum](/e412-guar-gum){.additive}, [locust bean gum](/e410-locust-bean-gum){.additive}, [gellan gum](/e418-gellan-gum){.additive}, [agar](/e406-agar){.additive}, [carrageenan](/e407-carrageenan){.additive}, [pectins](/e440-pectins){.additive}
 
 ## Why is Karaya-gum added to food?
 Food makers use karaya for its strong water-binding and thickening power. It builds body in liquids, helps suspended pieces stay evenly mixed, reduces syneresis (weeping) in gels and fillings, and can stabilise emulsions like oil-and-water dressings.[^3] In the EU it is authorised as a thickener, stabiliser, and emulsifier under the additive code E416.[^2]
@@ -25,9 +25,9 @@ Its permitted uses in Europe are set out in the EU’s food additives regulation
 
 ## What can replace Karaya-gum?
 Depending on the recipe and desired texture, common swaps include:
-- Other plant gums: [guar gum](/e412-guar-gum), [locust bean gum](/e410-locust-bean-gum), [tragacanth](/e413-tragacanth), [acacia gum](/e414-acacia-gum)
-- Microbial or seaweed gums: [xanthan gum](/e415-xanthan-gum), [gellan gum](/e418-gellan-gum), [carrageenan](/e407-carrageenan), [agar](/e406-agar)
-- Fruit pectin systems: [pectins](/e440-pectins)
+- Other plant gums: [guar gum](/e412-guar-gum){.additive}, [locust bean gum](/e410-locust-bean-gum){.additive}, [tragacanth](/e413-tragacanth){.additive}, [acacia gum](/e414-acacia-gum){.additive}
+- Microbial or seaweed gums: [xanthan gum](/e415-xanthan-gum){.additive}, [gellan gum](/e418-gellan-gum){.additive}, [carrageenan](/e407-carrageenan){.additive}, [agar](/e406-agar){.additive}
+- Fruit pectin systems: [pectins](/e440-pectins){.additive}
 
 Each thickener behaves a bit differently. For example, xanthan builds viscosity in cold liquids, locust bean works best with heat and often in blends, and pectin gels in the presence of acid and sugar.
 

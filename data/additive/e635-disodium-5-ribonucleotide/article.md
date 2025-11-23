@@ -6,11 +6,11 @@ Disodium 5'-ribonucleotide (E635) is a flavor enhancer used to boost savory, uma
 - What it is: A flavor enhancer made from ribonucleotides (building blocks of RNA) in their disodium salt form.
 - What it does: Lifts savory/umami taste and rounds out flavors, often used alongside glutamates.
 - Where it’s found: Savory snacks, instant noodles, soups, sauces, bouillons, and some processed meats.
-- Composition: Usually a blend of [disodium inosinate](/e631-disodium-inosinate) and [disodium guanylate](/e627-disodium-guanylate).
+- Composition: Usually a blend of [disodium inosinate](/e631-disodium-inosinate){.additive} and [disodium guanylate](/e627-disodium-guanylate){.additive}.
 - Regulatory status: Authorized in the EU with defined purity specifications; use levels are set by category-specific rules. [^2]
 
 ## Why is Disodium 5'-ribonucleotide added to food?
-Manufacturers add E635 to make foods taste more savory and “full.” It enhances umami—the taste found naturally in foods like tomatoes, mushrooms, aged cheese, and meats. E635 is commonly paired with [monosodium glutamate (MSG)](/e621-monosodium-glutamate) or naturally occurring glutamates to create a richer flavor profile.
+Manufacturers add E635 to make foods taste more savory and “full.” It enhances umami—the taste found naturally in foods like tomatoes, mushrooms, aged cheese, and meats. E635 is commonly paired with [monosodium glutamate (MSG)](/e621-monosodium-glutamate){.additive} or naturally occurring glutamates to create a richer flavor profile.
 
 Chemically, E635 is a mixture of the disodium salts of 5'-inosinic acid (IMP) and 5'-guanylic acid (GMP), both of which are nucleotides found in living cells and associated with savory taste. [^1]
 
@@ -26,8 +26,8 @@ You’re most likely to find E635 in:
 International food standards list E635 as a flavor enhancer that may be used, where permitted, across many savory food categories. [^4]
 
 ## What can replace Disodium 5'-ribonucleotide?
-- Glutamate-based options: [monosodium glutamate](/e621-monosodium-glutamate) or [glutamic acid](/e620-glutamic-acid)
-- Single nucleotides: [disodium inosinate](/e631-disodium-inosinate) or [disodium guanylate](/e627-disodium-guanylate)
+- Glutamate-based options: [monosodium glutamate](/e621-monosodium-glutamate){.additive} or [glutamic acid](/e620-glutamic-acid){.additive}
+- Single nucleotides: [disodium inosinate](/e631-disodium-inosinate){.additive} or [disodium guanylate](/e627-disodium-guanylate){.additive}
 - Ingredient-based umami: yeast extract, tomato paste, mushroom powder, seaweed, long-simmered stocks
 
 The best substitute depends on the recipe, flavor target, and labeling goals.

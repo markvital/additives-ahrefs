@@ -12,7 +12,7 @@ Dicalcium diphosphate (E540) is a calcium salt of diphosphoric acid, also called
 Dicalcium diphosphate fits into the phosphate family of additives. As a pyrophosphate, it can:
 - Regulate acidity (pH) in foods and beverages so flavor and texture stay consistent[^1]
 - Act as a sequestrant, tying up metal ions that could cause off-flavors or discoloration[^1]
-- Work as a slow-acting leavening acid in dry baking mixes, pairing with bases like [sodium bicarbonate](/e500ii-sodium-bicarbonate)
+- Work as a slow-acting leavening acid in dry baking mixes, pairing with bases like [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive}
 - Help stabilize dry blends by being relatively insoluble, which supports even distribution
 
 EFSA (the European Food Safety Authority) lists these roles broadly for phosphate additives (phosphoric acid, phosphates, and diphosphates), which include acidity regulation, sequestration, stabilization, and raising effects.[^1]
@@ -27,9 +27,9 @@ On labels, it might appear as “dicalcium diphosphate,” “calcium pyrophosph
 
 ## What can replace Dicalcium diphosphate?
 Depending on the job you need it to do, these are common substitutes:
-- Leavening acids: [monocalcium phosphate](/e341i-monocalcium-phosphate), [diphosphates](/e450-diphosphates) (various), or [glucono delta-lactone](/e575-glucono-delta-lactone)
-- pH control: [phosphoric acid](/e338-phosphoric-acid), [citric acid](/e330-citric-acid)
-- Sequestration/buffering: [sodium citrates](/e331-sodium-citrates)
+- Leavening acids: [monocalcium phosphate](/e341i-monocalcium-phosphate){.additive}, [diphosphates](/e450-diphosphates){.additive} (various), or [glucono delta-lactone](/e575-glucono-delta-lactone){.additive}
+- pH control: [phosphoric acid](/e338-phosphoric-acid){.additive}, [citric acid](/e330-citric-acid){.additive}
+- Sequestration/buffering: [sodium citrates](/e331-sodium-citrates){.additive}
 
 The “best” replacement depends on solubility, flavor impact, and when you want the reaction to occur (immediate vs. during baking).
 
@@ -49,7 +49,7 @@ Safety for this ingredient is tied to overall phosphate intake from all sources.
 - Caregivers managing specialized diets (e.g., renal diets) should review ingredient lists and choose lower-phosphate options when needed
 
 ## Myths & facts
-- Myth: It’s the same as [dicalcium phosphate](/e341ii-dicalcium-phosphate).  
+- Myth: It’s the same as [dicalcium phosphate](/e341ii-dicalcium-phosphate){.additive}.  
   Fact: Both contain calcium and phosphorus, but they differ chemically. Dicalcium phosphate is a phosphate (orthophosphate), while dicalcium diphosphate is a pyrophosphate with different properties in food.
 - Myth: All phosphates are fast leavening agents.  
   Fact: Reaction speed varies. Some are quick; others, like dicalcium diphosphate, can react more slowly, which is useful in dry mixes.
@@ -58,8 +58,8 @@ Safety for this ingredient is tied to overall phosphate intake from all sources.
 
 ## Dicalcium diphosphate in branded foods
 - Where to look on labels: ingredients lists on baking powders, cake mixes, and other dry blends. It may be listed as “dicalcium diphosphate,” “calcium pyrophosphate,” or “E540.”
-- Related names you might also see on similar products: other phosphate leavening acids such as [diphosphates](/e450-diphosphates) or [monocalcium phosphate](/e341i-monocalcium-phosphate), and bases like [sodium bicarbonate](/e500ii-sodium-bicarbonate).
-- Tip: If you’re minimizing phosphate additives, compare brands and choose options using acids like [citric acid](/e330-citric-acid) or [glucono delta-lactone](/e575-glucono-delta-lactone) where suitable for the recipe.
+- Related names you might also see on similar products: other phosphate leavening acids such as [diphosphates](/e450-diphosphates){.additive} or [monocalcium phosphate](/e341i-monocalcium-phosphate){.additive}, and bases like [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive}.
+- Tip: If you’re minimizing phosphate additives, compare brands and choose options using acids like [citric acid](/e330-citric-acid){.additive} or [glucono delta-lactone](/e575-glucono-delta-lactone){.additive} where suitable for the recipe.
 
 ## References
 [^1]: Re-evaluation of phosphoric acid–phosphates–di-, tri- and polyphosphates (E 338–341, 343, 450–452) as food additives — EFSA Journal. https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2019.5674

@@ -3,7 +3,7 @@ Partially hydrolyzed lecithin (E322II) is a form of lecithin that has been gentl
 <!--more-->
 
 ## At a glance
-- What it is: A modified form of [lecithins](/e322-lecithins) made by breaking some fatty acid groups, creating more water‑friendly phospholipids (often called lysolecithins).
+- What it is: A modified form of [lecithins](/e322-lecithins){.additive} made by breaking some fatty acid groups, creating more water‑friendly phospholipids (often called lysolecithins).
 - What it does: Emulsifies oil and water, improves wetting and dispersion, stabilizes foam, and can help protect flavors and fats from oxidation.
 - Common sources: Usually from soy, sunflower, or rapeseed (can also be made from egg yolk). Check the label if you avoid certain sources.
 - How it’s labeled: “E322,” “E322(ii),” “partially hydrolyzed lecithin,” or “hydrolysed lecithin.”
@@ -25,11 +25,11 @@ Ingredient lists may show “lecithin,” “hydrolyzed lecithin,” or “E322/
 
 ## What can replace Partially hydrolyzed lecithin?
 Depending on the job, similar emulsifiers or stabilizers can be used:
-- For general emulsifying: [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids), [sodium stearoyl‑2‑lactylate](/e481-sodium-stearoyl-2-lactylate)
-- For chocolate flow/viscosity: [polyglycerol polyricinoleate](/e476-polyglycerol-polyricinoleate)
-- For added emulsifying power: [citric acid esters of mono‑ and diglycerides](/e472c-citric-acid-esters-of-mono-and-diglycerides-of-fatty-acids), [mono‑ and diacetyl tartaric acid esters](/e472e-mono-and-diacetyltartaric-acid-esters-of-mono-and-diglycerides-of-fatty-acids)
-- For thickening or suspension: [xanthan gum](/e415-xanthan-gum), [guar gum](/e412-guar-gum)
-- For antioxidant support: [ascorbic acid](/e300-ascorbic-acid) in suitable applications
+- For general emulsifying: [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive}, [sodium stearoyl‑2‑lactylate](/e481-sodium-stearoyl-2-lactylate){.additive}
+- For chocolate flow/viscosity: [polyglycerol polyricinoleate](/e476-polyglycerol-polyricinoleate){.additive}
+- For added emulsifying power: [citric acid esters of mono‑ and diglycerides](/e472c-citric-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive}, [mono‑ and diacetyl tartaric acid esters](/e472e-mono-and-diacetyltartaric-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive}
+- For thickening or suspension: [xanthan gum](/e415-xanthan-gum){.additive}, [guar gum](/e412-guar-gum){.additive}
+- For antioxidant support: [ascorbic acid](/e300-ascorbic-acid){.additive} in suitable applications
 
 The best substitute depends on the food, processing method, and desired label.
 

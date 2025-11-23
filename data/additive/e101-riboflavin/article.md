@@ -17,11 +17,11 @@ You can find riboflavin used as a color in soft drinks, sports drinks, flavored 
 
 ## What can replace Riboflavin?
 If a similar yellow tone is needed, formulators often consider:
-- [Curcumin](/e100-curcumin) (E100) for a bright yellow with a spice-derived origin.
-- [Carotene](/e160a-carotene) (E160a) for yellow to orange shades.
-- [Annatto](/e160b-annatto) (E160b) for yellow to orange in dairy and baked goods.
-- [Tartrazine](/e102-tartrazine) (E102) for a vivid lemon-yellow synthetic option.
-- The more water-soluble form [riboflavin-5-phosphate](/e101ii-riboflavin-5-phosphate) (E101(ii)) when better dispersion in drinks is needed.
+- [Curcumin](/e100-curcumin){.additive} (E100) for a bright yellow with a spice-derived origin.
+- [Carotene](/e160a-carotene){.additive} (E160a) for yellow to orange shades.
+- [Annatto](/e160b-annatto){.additive} (E160b) for yellow to orange in dairy and baked goods.
+- [Tartrazine](/e102-tartrazine){.additive} (E102) for a vivid lemon-yellow synthetic option.
+- The more water-soluble form [riboflavin-5-phosphate](/e101ii-riboflavin-5-phosphate){.additive} (E101(ii)) when better dispersion in drinks is needed.
 
 ## How is Riboflavin made?
 Most food-grade riboflavin today is produced by fermentation. Manufacturers cultivate specific microorganisms—such as selected strains of Bacillus or fungi—in controlled conditions, then extract and purify the vitamin from the broth.[^2] Older chemical synthesis routes exist but are now less common because fermentation is efficient and uses renewable feedstocks.[^4]

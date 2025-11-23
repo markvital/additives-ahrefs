@@ -6,12 +6,12 @@ This preservative is widely used to keep acidic foods and beverages safe and fre
 - E-number: E212; function: preservative
 - Where it works best: acidic foods and drinks (low pH)
 - Common uses: sodas, flavored waters, fruit drinks, syrups, pickles, sauces, jams, and reduced-sugar products
-- Related additives: [benzoic acid](/e210-benzoic-acid), [sodium benzoate](/e211-sodium-benzoate)
+- Related additives: [benzoic acid](/e210-benzoic-acid){.additive}, [sodium benzoate](/e211-sodium-benzoate){.additive}
 - Safety: evaluated by regulators; an Acceptable Daily Intake (ADI) applies
 - Notable caution: under certain conditions with vitamin C (ascorbic acid), trace benzene can form in beverages, so manufacturers manage recipes and storage to prevent it
 
 ## Why is potassium benzoate added to food?
-Food makers use potassium benzoate to slow spoilage and keep flavors stable. It is particularly effective against yeasts and molds in acidic recipes. In many drinks, it can replace or complement [sodium benzoate](/e211-sodium-benzoate) while adding potassium instead of sodium. It helps manufacturers extend shelf life without changing taste or color much.
+Food makers use potassium benzoate to slow spoilage and keep flavors stable. It is particularly effective against yeasts and molds in acidic recipes. In many drinks, it can replace or complement [sodium benzoate](/e211-sodium-benzoate){.additive} while adding potassium instead of sodium. It helps manufacturers extend shelf life without changing taste or color much.
 
 ## What foods contain potassium benzoate?
 You will most often find E212 in acidic products. Examples include:
@@ -24,10 +24,10 @@ International food standards (Codex) list potassium benzoate as a preservative i
 
 ## What can replace potassium benzoate?
 Several options can stand in for E212, depending on the food:
-- Other preservatives for acidic foods: [sorbic acid](/e200-sorbic-acid) and [potassium sorbate](/e202-potassium-sorbate)
-- For baked goods: [calcium propionate](/e282-calcium-propionate)
-- Non-additive approaches: lowering pH with [citric acid](/e330-citric-acid), heat treatment (pasteurization), refrigeration, hygienic processing, and oxygen-limiting packaging
-- Antioxidants such as [ascorbic acid](/e300-ascorbic-acid) can help protect flavor but are not direct replacements for preservatives
+- Other preservatives for acidic foods: [sorbic acid](/e200-sorbic-acid){.additive} and [potassium sorbate](/e202-potassium-sorbate){.additive}
+- For baked goods: [calcium propionate](/e282-calcium-propionate){.additive}
+- Non-additive approaches: lowering pH with [citric acid](/e330-citric-acid){.additive}, heat treatment (pasteurization), refrigeration, hygienic processing, and oxygen-limiting packaging
+- Antioxidants such as [ascorbic acid](/e300-ascorbic-acid){.additive} can help protect flavor but are not direct replacements for preservatives
 
 ## How is potassium benzoate made?
 Potassium benzoate is usually produced by neutralizing benzoic acid with potassium hydroxide or potassium bicarbonate, forming the potassium salt that dissolves well in water.[^2] This simple reaction yields a preservative that is easy to use in liquid products.
@@ -35,7 +35,7 @@ Potassium benzoate is usually produced by neutralizing benzoic acid with potassi
 ## Is potassium benzoate safe to eat?
 Regulators have evaluated potassium benzoate together with other benzoates. The European Food Safety Authority (EFSA) set a group Acceptable Daily Intake (ADI) of 0–5 mg per kilogram of body weight per day, expressed as benzoic acid equivalents.[^3] Benzoates are quickly metabolized and excreted mainly as hippuric acid in urine.[^3]
 
-A well-known issue is benzene formation in certain beverages. When a benzoate salt is present with vitamin C ([ascorbic acid](/e300-ascorbic-acid)), heat/light, and trace metals, small amounts of benzene can form. The U.S. Food and Drug Administration (FDA) has worked with industry to reformulate at-risk drinks, adjust storage, and use chelating agents (such as [calcium disodium EDTA](/e385-calcium-disodium-ethylenediaminetetraacetate)) to control metal catalysts and minimize benzene formation.[^4] These controls keep levels low and within safety expectations.[^4]
+A well-known issue is benzene formation in certain beverages. When a benzoate salt is present with vitamin C ([ascorbic acid](/e300-ascorbic-acid){.additive}), heat/light, and trace metals, small amounts of benzene can form. The U.S. Food and Drug Administration (FDA) has worked with industry to reformulate at-risk drinks, adjust storage, and use chelating agents (such as [calcium disodium EDTA](/e385-calcium-disodium-ethylenediaminetetraacetate){.additive}) to control metal catalysts and minimize benzene formation.[^4] These controls keep levels low and within safety expectations.[^4]
 
 ## Does potassium benzoate have any benefits?
 Using E212 helps:
@@ -52,11 +52,11 @@ Most people can consume potassium benzoate within regulated limits. However:
 
 ## Myths & facts
 - Myth: “Potassium benzoate always makes benzene in drinks.” Fact: Benzene can form only under specific conditions (with ascorbic acid, heat/light, and certain metals), and manufacturers use recipe and storage controls to prevent it.[^4]
-- Myth: “Switching to sodium benzoate eliminates safety concerns.” Fact: [Sodium benzoate](/e211-sodium-benzoate) and potassium benzoate provide the same benzoate preservative; safety depends on recipe, pH, and good manufacturing, not just the counter‑ion.
+- Myth: “Switching to sodium benzoate eliminates safety concerns.” Fact: [Sodium benzoate](/e211-sodium-benzoate){.additive} and potassium benzoate provide the same benzoate preservative; safety depends on recipe, pH, and good manufacturing, not just the counter‑ion.
 - Myth: “Benzoates aren’t regulated.” Fact: Food-safety authorities review benzoates, set an ADI, and limit where and how much can be used.[^3]
 
 ## Potassium benzoate in branded foods
-On labels, look for “potassium benzoate,” “E212,” or “preservative: potassium benzoate.” You’ll often see it alongside acidity regulators like [citric acid](/e330-citric-acid) or antioxidants like [ascorbic acid](/e300-ascorbic-acid) in flavored drinks and sauces. If you’re comparing similar products, check the ingredient list and the order of ingredients to get a sense of how much is used relative to others.
+On labels, look for “potassium benzoate,” “E212,” or “preservative: potassium benzoate.” You’ll often see it alongside acidity regulators like [citric acid](/e330-citric-acid){.additive} or antioxidants like [ascorbic acid](/e300-ascorbic-acid){.additive} in flavored drinks and sauces. If you’re comparing similar products, check the ingredient list and the order of ingredients to get a sense of how much is used relative to others.
 
 ## References
 [^1]: Codex GSFA Online: Potassium benzoate (INS 212) — FAO/WHO Codex Alimentarius. https://www.fao.org/gsfaonline/food-additives/details.html

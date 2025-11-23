@@ -21,8 +21,8 @@ Exact categories and permitted uses are set in the EU “Union list” of food a
 
 ## What can replace Glycolipids?
 Possible alternatives depend on why E246 is being used:
-- If the goal is to slow spoilage by yeasts and moulds in drinks, producers may consider approved preservatives such as [sorbic acid](/e200-sorbic-acid), [potassium sorbate](/e202-potassium-sorbate), [sodium benzoate](/e211-sodium-benzoate), [nisin](/e234-nisin), [natamycin](/e235-natamycin), or [dimethyl dicarbonate](/e242-dimethyl-dicarbonate), where allowed.
-- If the goal is to stabilise mixtures or improve texture, emulsifiers and gums such as [xanthan gum](/e415-xanthan-gum) or certain lecithins may be options, depending on the recipe and local rules.
+- If the goal is to slow spoilage by yeasts and moulds in drinks, producers may consider approved preservatives such as [sorbic acid](/e200-sorbic-acid){.additive}, [potassium sorbate](/e202-potassium-sorbate){.additive}, [sodium benzoate](/e211-sodium-benzoate){.additive}, [nisin](/e234-nisin){.additive}, [natamycin](/e235-natamycin){.additive}, or [dimethyl dicarbonate](/e242-dimethyl-dicarbonate){.additive}, where allowed.
+- If the goal is to stabilise mixtures or improve texture, emulsifiers and gums such as [xanthan gum](/e415-xanthan-gum){.additive} or certain lecithins may be options, depending on the recipe and local rules.
 
 Choice of replacement must follow the same legal limits and be suitable for the specific food.
 

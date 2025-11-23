@@ -4,7 +4,7 @@ Konjac gum (E425i) is a plant-based thickener and gelling agent made from the ro
 
 ## At a glance
 - What it is: A natural, glucomannan‑rich gum from the konjac plant, used as a thickener, stabiliser, gelling agent, humectant, and carrier.
-- E‑number: E425i (Konjac gum). A related additive is E425ii, [konjac glucomannan](/e425ii-konjac-glucomannan).
+- E‑number: E425i (Konjac gum). A related additive is E425ii, [konjac glucomannan](/e425ii-konjac-glucomannan){.additive}.
 - Typical foods: Shirataki/konjac noodles, jelly desserts, sauces, plant‑based meats, bakery fillings, and beverages.
 - Diets: Vegan and gluten‑free friendly. Not known as a common allergen.
 - Label names: Konjac gum, konjak gum, konjac flour, glucomannan.
@@ -26,13 +26,13 @@ In the European Union, small jelly mini‑cups containing konjac are not allowed
 
 ## What can replace Konjac gum?
 Depending on the recipe and texture you want, cooks and manufacturers may swap in:
-- [Xanthan gum](/e415-xanthan-gum) for general thickening and pourable textures
-- [Guar gum](/e412-guar-gum) for cold‑process thickening
-- [Locust bean gum](/e410-locust-bean-gum) for creamy, elastic gels (often with other gums)
-- [Gellan gum](/e418-gellan-gum) for clear, brittle or soft gels
-- [Sodium alginate](/e401-sodium-alginate) for spherification and heat‑stable gels with calcium
-- [Agar](/e406-agar) for firm, sliceable gels
-- [Pectin](/e440a-pectin) or [carrageenan](/e407-carrageenan) for fruit or dairy‑style gels
+- [Xanthan gum](/e415-xanthan-gum){.additive} for general thickening and pourable textures
+- [Guar gum](/e412-guar-gum){.additive} for cold‑process thickening
+- [Locust bean gum](/e410-locust-bean-gum){.additive} for creamy, elastic gels (often with other gums)
+- [Gellan gum](/e418-gellan-gum){.additive} for clear, brittle or soft gels
+- [Sodium alginate](/e401-sodium-alginate){.additive} for spherification and heat‑stable gels with calcium
+- [Agar](/e406-agar){.additive} for firm, sliceable gels
+- [Pectin](/e440a-pectin){.additive} or [carrageenan](/e407-carrageenan){.additive} for fruit or dairy‑style gels
 
 ## How is Konjac gum made?
 Konjac gum is obtained from the corms of Amorphophallus konjac. The corms are cleaned, dried, and milled to make konjac flour. The glucomannan is then purified (for example, by washing and selective extraction to remove starches and proteins), dried, and ground into a fine powder that meets identity and purity specifications set in EU law for E425i.[^3]

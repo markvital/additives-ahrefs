@@ -6,7 +6,7 @@ Sodium orthophenyl phenol (E232) is a preservative most often used as a post‑h
 - E232 is the sodium salt of 2‑phenylphenol, used to stop mold growth on fruit rinds.
 - It is mainly applied to the surface of citrus fruits after harvest.
 - Regulators evaluate its use and set rules for residues on food.
-- Common alternatives include [sorbic acid](/e200-sorbic-acid), [potassium sorbate](/e202-potassium-sorbate), and [sodium benzoate](/e211-sodium-benzoate).
+- Common alternatives include [sorbic acid](/e200-sorbic-acid){.additive}, [potassium sorbate](/e202-potassium-sorbate){.additive}, and [sodium benzoate](/e211-sodium-benzoate){.additive}.
 
 ## Why is Sodium orthophenyl phenol added to food?
 This preservative is used to prevent spoilage by molds during the long journey from orchard to store. It is effective against common citrus molds and helps maintain quality and shelf life when fruits are stored and transported in warm, humid conditions.[^1]
@@ -18,15 +18,15 @@ If you prefer to minimize residues on the surface, rinse whole citrus under runn
 
 ## What can replace Sodium orthophenyl phenol?
 Depending on the food and process, producers may choose other preservatives or approaches:
-- Benzoates, such as [sodium benzoate](/e211-sodium-benzoate)
-- Sorbates, such as [sorbic acid](/e200-sorbic-acid) or [potassium sorbate](/e202-potassium-sorbate)
-- Other post‑harvest options historically used on citrus, like [biphenyl](/e230-biphenyl)
-- Protective wax coatings such as [carnauba wax](/e903-carnauba-wax) or [shellac](/e904-shellac), sometimes used alongside preservatives
+- Benzoates, such as [sodium benzoate](/e211-sodium-benzoate){.additive}
+- Sorbates, such as [sorbic acid](/e200-sorbic-acid){.additive} or [potassium sorbate](/e202-potassium-sorbate){.additive}
+- Other post‑harvest options historically used on citrus, like [biphenyl](/e230-biphenyl){.additive}
+- Protective wax coatings such as [carnauba wax](/e903-carnauba-wax){.additive} or [shellac](/e904-shellac){.additive}, sometimes used alongside preservatives
 
 The best substitute depends on the target microbes, flavor needs, and local regulations.
 
 ## How is Sodium orthophenyl phenol made?
-E232 is the sodium salt of [orthophenyl phenol](/e231-orthophenyl-phenol). In practice, manufacturers convert 2‑phenylphenol into its sodium salt form, which dissolves well in water and can be applied as a wash or dip to fruit surfaces.[^1]
+E232 is the sodium salt of [orthophenyl phenol](/e231-orthophenyl-phenol){.additive}. In practice, manufacturers convert 2‑phenylphenol into its sodium salt form, which dissolves well in water and can be applied as a wash or dip to fruit surfaces.[^1]
 
 ## Is Sodium orthophenyl phenol safe to eat?
 Food safety agencies have evaluated this preservative for its intended use. In the U.S., the EPA has assessed sodium o‑phenylphenate (the same substance as sodium orthophenyl phenol) and determined it can be used post‑harvest with risk‑management measures.[^2] The EPA also sets legal residue limits (tolerances) for citrus and some related commodities, which packinghouses must meet.[^3]

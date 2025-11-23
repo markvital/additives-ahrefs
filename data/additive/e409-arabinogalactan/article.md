@@ -22,9 +22,9 @@ Authorised uses and typical food categories are described in international stand
 
 ## What can replace arabinogalactan?
 Depending on the recipe and the role it plays, common stand-ins include:
-- Other plant gums and hydrocolloids: [acacia gum](/e414-acacia-gum), [guar gum](/e412-guar-gum), [xanthan gum](/e415-xanthan-gum), [carrageenan](/e407-carrageenan)
-- Soluble fibers and texturizers: [pectins](/e440-pectins), [polydextrose](/e1200-polydextrose)
-- For beverage cloud/emulsion stability: [glycerol esters of wood rosin](/e445-glycerol-esters-of-wood-rosin)
+- Other plant gums and hydrocolloids: [acacia gum](/e414-acacia-gum){.additive}, [guar gum](/e412-guar-gum){.additive}, [xanthan gum](/e415-xanthan-gum){.additive}, [carrageenan](/e407-carrageenan){.additive}
+- Soluble fibers and texturizers: [pectins](/e440-pectins){.additive}, [polydextrose](/e1200-polydextrose){.additive}
+- For beverage cloud/emulsion stability: [glycerol esters of wood rosin](/e445-glycerol-esters-of-wood-rosin){.additive}
 
 Each alternative behaves differently, so formulas often need small adjustments.
 
@@ -47,7 +47,7 @@ It is a soluble, non‑digestible polysaccharide, which means it behaves like di
 - Those with specific allergies or sensitivities should consult their clinician; although arabinogalactan itself is not a common allergen, finished products may contain other allergens.
 
 ## Myths & facts
-- Myth: Arabinogalactan is the same as gum arabic. Fact: They are different additives; gum arabic is [acacia gum](/e414-acacia-gum) (E414), while arabinogalactan is E409.[^2]
+- Myth: Arabinogalactan is the same as gum arabic. Fact: They are different additives; gum arabic is [acacia gum](/e414-acacia-gum){.additive} (E414), while arabinogalactan is E409.[^2]
 - Myth: It’s a synthetic chemical. Fact: Food‑grade arabinogalactan is typically extracted from larch wood and purified for use in foods.[^2][^3]
 - Myth: It’s unsafe in drinks. Fact: EFSA reviewed E409 and found no safety concern at reported uses and levels in food.[^1]
 

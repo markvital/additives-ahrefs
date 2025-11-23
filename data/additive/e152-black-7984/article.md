@@ -7,7 +7,7 @@ This section highlights the essentials in simple terms.
 - What it is: a petroleum-derived black pigment designed to color foods.
 - What it does: gives a strong, stable black shade that resists heat and light.
 - Where it’s allowed: it is not authorized as a food color in the European Union or the United States.
-- What replaces it: products usually use [vegetable carbon](/e153-vegetable-carbon), [caramel](/e150-caramel), [Brilliant Black BN](/e151-brilliant-black-bn), or blends of permitted colors.
+- What replaces it: products usually use [vegetable carbon](/e153-vegetable-carbon){.additive}, [caramel](/e150-caramel){.additive}, [Brilliant Black BN](/e151-brilliant-black-bn){.additive}, or blends of permitted colors.
 
 ## Why is Black 7984 added to food?
 Manufacturers have used Black 7984 to create a deep black appearance in items like icings, confectionery, and decorative coatings. The pigment is very effective at masking other colors and holds up well during cooking and storage.
@@ -17,11 +17,11 @@ In the European Union and the United States, you generally will not find Black 7
 
 ## What can replace Black 7984?
 Food makers usually turn to these options:
-- [Vegetable carbon (E153)](/e153-vegetable-carbon) for a plant-based black.
-- [Caramel (E150)](/e150-caramel) classes for brown-to-black tones.
-- [Brilliant Black BN (E151)](/e151-brilliant-black-bn) for regulated black shades where allowed.
-- Blends of permitted colors such as [brilliant blue FCF](/e133-brilliant-blue-fcf), [Allura Red](/e129-allura-red), and [tartrazine](/e102-tartrazine) to achieve dark gray or near-black.
-- For surface coloring in specific applications, some markets allow [iron oxides and hydroxides](/e172-iron-oxides-and-iron-hydroxides), including [black iron oxide](/e172i-black-iron-oxide), subject to local rules.
+- [Vegetable carbon (E153)](/e153-vegetable-carbon){.additive} for a plant-based black.
+- [Caramel (E150)](/e150-caramel){.additive} classes for brown-to-black tones.
+- [Brilliant Black BN (E151)](/e151-brilliant-black-bn){.additive} for regulated black shades where allowed.
+- Blends of permitted colors such as [brilliant blue FCF](/e133-brilliant-blue-fcf){.additive}, [Allura Red](/e129-allura-red){.additive}, and [tartrazine](/e102-tartrazine){.additive} to achieve dark gray or near-black.
+- For surface coloring in specific applications, some markets allow [iron oxides and hydroxides](/e172-iron-oxides-and-iron-hydroxides){.additive}, including [black iron oxide](/e172i-black-iron-oxide){.additive}, subject to local rules.
 
 ## How is Black 7984 made?
 “Carbon black” grades used for coloration are typically produced by the furnace black process, which involves the incomplete combustion or thermal decomposition of heavy petroleum products or natural gas. This yields very fine elemental carbon particles that are collected, pelletized, and standardized for use as pigments.[^3]
@@ -36,11 +36,11 @@ Aside from providing strong color, Black 7984 does not add taste, aroma, or nutr
 
 ## Who should avoid Black 7984?
 - Shoppers in the EU and U.S. will rarely need to avoid it, because it is not approved as a food color and is unlikely to appear on labels in these markets.[^1][^2]
-- If you prefer plant-derived colors, choose products colored with [vegetable carbon](/e153-vegetable-carbon) or caramel instead of petroleum‑derived pigments.
+- If you prefer plant-derived colors, choose products colored with [vegetable carbon](/e153-vegetable-carbon){.additive} or caramel instead of petroleum‑derived pigments.
 - If you are cautious about potential impurities in petroleum‑based colors, know that food‑contact uses of carbon black are tightly controlled for purity in both the EU and U.S., but that does not translate to approval for eating it as a colorant.[^4][^5]
 
 ## Myths & facts
-- Myth: Black 7984 is the same as [vegetable carbon](/e153-vegetable-carbon). Fact: They are different. E153 comes from plant materials; E152 refers to a petroleum‑derived carbon pigment.
+- Myth: Black 7984 is the same as [vegetable carbon](/e153-vegetable-carbon){.additive}. Fact: They are different. E153 comes from plant materials; E152 refers to a petroleum‑derived carbon pigment.
 - Myth: Black 7984 is allowed everywhere. Fact: It is not permitted as a food color in the EU or U.S.; always check local regulations.
 - Myth: “Activated charcoal” and Black 7984 are interchangeable. Fact: Activated charcoal relates to E153 uses; Black 7984 is a different material with a different regulatory status.
 

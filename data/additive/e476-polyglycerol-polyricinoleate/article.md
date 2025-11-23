@@ -14,7 +14,7 @@ Here are the quick facts before we dive deeper.
 - Typical use level: Very small amounts relative to the food; used to fine-tune texture
 
 ## Why is Polyglycerol polyricinoleate added to food?
-Chocolate can be thick and hard to handle during making and coating. PGPR helps by reducing viscosity (thickness), which allows chocolate and similar coatings to flow, spread, and release from molds more easily.[^1] It is often used alongside [lecithins](/e322-lecithins) to fine-tune texture and processing.
+Chocolate can be thick and hard to handle during making and coating. PGPR helps by reducing viscosity (thickness), which allows chocolate and similar coatings to flow, spread, and release from molds more easily.[^1] It is often used alongside [lecithins](/e322-lecithins){.additive} to fine-tune texture and processing.
 
 ## What foods contain Polyglycerol polyricinoleate?
 You’ll most often find PGPR in:
@@ -26,12 +26,12 @@ On labels, look for “PGPR,” “polyglycerol polyricinoleate,” or “E476.�
 
 ## What can replace Polyglycerol polyricinoleate?
 Food makers may choose other emulsifiers, depending on the product:
-- [Lecithins](/e322-lecithins) (often from soy or sunflower)
-- [Ammonium phosphatides](/e442-ammonium-phosphatides) (another common chocolate emulsifier)
-- [Mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids)
-- [Sorbitan monostearate](/e491-sorbitan-monostearate)
-- [Sucrose esters of fatty acids](/e473-sucrose-esters-of-fatty-acids)
-- [Polyglycerol esters of fatty acids](/e475-polyglycerol-esters-of-fatty-acids)
+- [Lecithins](/e322-lecithins){.additive} (often from soy or sunflower)
+- [Ammonium phosphatides](/e442-ammonium-phosphatides){.additive} (another common chocolate emulsifier)
+- [Mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive}
+- [Sorbitan monostearate](/e491-sorbitan-monostearate){.additive}
+- [Sucrose esters of fatty acids](/e473-sucrose-esters-of-fatty-acids){.additive}
+- [Polyglycerol esters of fatty acids](/e475-polyglycerol-esters-of-fatty-acids){.additive}
 
 Each behaves a bit differently, so the choice depends on the desired flow, gloss, melt, and flavor release.
 

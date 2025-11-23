@@ -20,11 +20,11 @@ On ingredient lists, look for “E219,” “sodium methyl p-hydroxybenzoate,”
 
 ## What can replace Sodium methyl p-hydroxybenzoate?
 Food makers often choose other preservatives with similar jobs, including:
-- [sorbic acid](/e200-sorbic-acid) or [potassium sorbate](/e202-potassium-sorbate) for mold and yeast control in many foods
-- [benzoic acid](/e210-benzoic-acid) or [sodium benzoate](/e211-sodium-benzoate) for acidic foods and drinks
-- Calcium propionate (for breads and baked goods) [calcium propionate](/e282-calcium-propionate)
+- [sorbic acid](/e200-sorbic-acid){.additive} or [potassium sorbate](/e202-potassium-sorbate){.additive} for mold and yeast control in many foods
+- [benzoic acid](/e210-benzoic-acid){.additive} or [sodium benzoate](/e211-sodium-benzoate){.additive} for acidic foods and drinks
+- Calcium propionate (for breads and baked goods) [calcium propionate](/e282-calcium-propionate){.additive}
 
-If a paraben is still permitted locally, related options include [methyl p-hydroxybenzoate](/e218-methyl-p-hydroxybenzoate), [ethyl p-hydroxybenzoate](/e214-ethyl-p-hydroxybenzoate), and their sodium salts ([E215](/e215-sodium-ethyl-p-hydroxybenzoate)), subject to local laws.
+If a paraben is still permitted locally, related options include [methyl p-hydroxybenzoate](/e218-methyl-p-hydroxybenzoate){.additive}, [ethyl p-hydroxybenzoate](/e214-ethyl-p-hydroxybenzoate){.additive}, and their sodium salts ([E215](/e215-sodium-ethyl-p-hydroxybenzoate){.additive}), subject to local laws.
 
 ## How is Sodium methyl p-hydroxybenzoate made?
 Sodium methyl p-hydroxybenzoate is the sodium salt of methyl p-hydroxybenzoate (methylparaben). Manufacturers first make methylparaben by reacting p-hydroxybenzoic acid with methanol. The methylparaben is then neutralized with sodium hydroxide to form the water‑soluble sodium salt (E219). This identity and salt relationship are described in international additive specifications.[^3]
@@ -45,7 +45,7 @@ When allowed, this preservative helps keep foods safe from spoilage by molds and
 ## Who should avoid Sodium methyl p-hydroxybenzoate?
 - People with a diagnosed paraben sensitivity or allergy should avoid products listing E219 or related parabens on the label.
 - If you live in the EU, you generally won’t encounter E219 in foods because it is not authorised as a food additive.[^1]
-- Parents and caregivers who prefer paraben‑free products can choose foods preserved with alternatives such as [potassium sorbate](/e202-potassium-sorbate) or [sodium benzoate](/e211-sodium-benzoate), where suitable.
+- Parents and caregivers who prefer paraben‑free products can choose foods preserved with alternatives such as [potassium sorbate](/e202-potassium-sorbate){.additive} or [sodium benzoate](/e211-sodium-benzoate){.additive}, where suitable.
 
 ## Myths & facts
 - “All parabens are banned everywhere.” False. Rules vary by region. The EU no longer authorises E219 in food, while other jurisdictions may still allow certain parabens under specific conditions.[^1][^4]
@@ -55,7 +55,7 @@ When allowed, this preservative helps keep foods safe from spoilage by molds and
 ## Sodium methyl p-hydroxybenzoate in branded foods
 - In the EU, you should not find E219 listed on new food labels due to its non‑authorised status.[^1]
 - In other markets, check ingredient lists for “E219,” “sodium methylparaben,” or related names.
-- If you prefer to avoid parabens, look for products using alternatives like [sorbic acid](/e200-sorbic-acid)/[potassium sorbate](/e202-potassium-sorbate) or [benzoic acid](/e210-benzoic-acid)/[sodium benzoate](/e211-sodium-benzoate).
+- If you prefer to avoid parabens, look for products using alternatives like [sorbic acid](/e200-sorbic-acid){.additive}/[potassium sorbate](/e202-potassium-sorbate){.additive} or [benzoic acid](/e210-benzoic-acid){.additive}/[sodium benzoate](/e211-sodium-benzoate){.additive}.
 
 ## References
 [^1]: Commission Regulation (EU) No 358/2014 amending Annex II to Regulation (EC) No 1333/2008 as regards the use of parabens (E 214–219). EUR-Lex. https://eur-lex.europa.eu/eli/reg/2014/358/oj

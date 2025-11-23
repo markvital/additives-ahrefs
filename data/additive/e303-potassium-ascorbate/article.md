@@ -22,9 +22,9 @@ If you’re in the European Union, you are unlikely to see E303 on labels becaus
 
 ## What can replace Potassium ascorbate?
 Depending on the recipe and local laws, formulators may choose:
-- Other vitamin C forms: [ascorbic acid](/e300-ascorbic-acid), [sodium ascorbate](/e301-sodium-ascorbate), or [calcium ascorbate](/e302-calcium-ascorbate).
-- Related antioxidants: [erythorbic acid](/e315-erythorbic-acid) or [sodium erythorbate](/e316-sodium-erythorbate).
-- Plant extracts and acidulants (to support color/oxidation control): [extracts of rosemary](/e392-extracts-of-rosemary) or [citric acid](/e330-citric-acid).
+- Other vitamin C forms: [ascorbic acid](/e300-ascorbic-acid){.additive}, [sodium ascorbate](/e301-sodium-ascorbate){.additive}, or [calcium ascorbate](/e302-calcium-ascorbate){.additive}.
+- Related antioxidants: [erythorbic acid](/e315-erythorbic-acid){.additive} or [sodium erythorbate](/e316-sodium-erythorbate){.additive}.
+- Plant extracts and acidulants (to support color/oxidation control): [extracts of rosemary](/e392-extracts-of-rosemary){.additive} or [citric acid](/e330-citric-acid){.additive}.
 
 The best substitute depends on taste, pH, processing conditions, labeling needs, and local regulations.
 

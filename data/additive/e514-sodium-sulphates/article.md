@@ -19,11 +19,11 @@ Use depends on the product type and the rules of the country where it is sold. I
 
 ## What can replace Sodium sulphates?
 If an acidity regulator is needed, manufacturers may choose other acids or their salts depending on flavor and processing goals. Common alternatives include:
-- [citric acid](/e330-citric-acid)
-- [lactic acid](/e270-lactic-acid)
-- [phosphoric acid](/e338-phosphoric-acid)
-- [sodium citrates](/e331-sodium-citrates) or [potassium citrates](/e332-potassium-citrates)
-- [sodium phosphates](/e339-sodium-phosphates)
+- [citric acid](/e330-citric-acid){.additive}
+- [lactic acid](/e270-lactic-acid){.additive}
+- [phosphoric acid](/e338-phosphoric-acid){.additive}
+- [sodium citrates](/e331-sodium-citrates){.additive} or [potassium citrates](/e332-potassium-citrates){.additive}
+- [sodium phosphates](/e339-sodium-phosphates){.additive}
 
 The right choice depends on pH target, taste impact, interaction with minerals, and labeling preferences.
 

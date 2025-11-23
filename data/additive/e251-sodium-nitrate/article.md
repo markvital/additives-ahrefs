@@ -6,7 +6,7 @@ Sodium nitrate (E251) is a preservative used mainly in long-cured meats and a fe
 - Role: Preservative for long cures; slowly turns into nitrite during ripening
 - Typical foods: Dry-cured meats (like salami and country ham) and some Swiss-style cheeses
 - Why it’s used: Helps prevent dangerous bacteria and supports cured color and flavor
-- Usual substitutes: Faster-acting [sodium nitrite](/e250-sodium-nitrite) or other preservatives where allowed
+- Usual substitutes: Faster-acting [sodium nitrite](/e250-sodium-nitrite){.additive} or other preservatives where allowed
 - Safety: Strict legal limits and processing rules apply; most people’s nitrate intake actually comes from vegetables, not cured meats
 - Label clue: Look for “sodium nitrate,” “E251,” or related curing agents on the ingredient list
 
@@ -18,13 +18,13 @@ You’ll most often find sodium nitrate in:
 - Long-cured meats that age for weeks or months, such as dry salami, country ham, and similar specialty products
 - Some traditional, Swiss-style cheeses made with specific methods
 
-On labels, it may appear as “sodium nitrate,” “E251,” or together with other curing agents such as [sodium nitrite](/e250-sodium-nitrite) or [potassium nitrate](/e252-potassium-nitrate). In many quicker cures, makers use nitrite directly rather than nitrate.
+On labels, it may appear as “sodium nitrate,” “E251,” or together with other curing agents such as [sodium nitrite](/e250-sodium-nitrite){.additive} or [potassium nitrate](/e252-potassium-nitrate){.additive}. In many quicker cures, makers use nitrite directly rather than nitrate.
 
 ## What can replace Sodium nitrate?
 Possible options depend on the food and local rules:
-- Faster-acting curing agents: [sodium nitrite](/e250-sodium-nitrite) or [potassium nitrate](/e252-potassium-nitrate) in traditional recipes that allow them
-- Other preservatives for non-cured foods: [sorbic acid](/e200-sorbic-acid), [potassium sorbate](/e202-potassium-sorbate), [sodium lactate](/e325-sodium-lactate), or [potassium lactate](/e326-potassium-lactate) where permitted
-- Cure accelerators/antioxidants used with nitrite: [sodium ascorbate](/e301-sodium-ascorbate) or [sodium erythorbate](/e316-sodium-erythorbate) to help control nitrosamine formation and support color
+- Faster-acting curing agents: [sodium nitrite](/e250-sodium-nitrite){.additive} or [potassium nitrate](/e252-potassium-nitrate){.additive} in traditional recipes that allow them
+- Other preservatives for non-cured foods: [sorbic acid](/e200-sorbic-acid){.additive}, [potassium sorbate](/e202-potassium-sorbate){.additive}, [sodium lactate](/e325-sodium-lactate){.additive}, or [potassium lactate](/e326-potassium-lactate){.additive} where permitted
+- Cure accelerators/antioxidants used with nitrite: [sodium ascorbate](/e301-sodium-ascorbate){.additive} or [sodium erythorbate](/e316-sodium-erythorbate){.additive} to help control nitrosamine formation and support color
 
 The best substitute depends on the product’s safety needs, texture, and taste goals, as well as legal limits in the country of sale.
 

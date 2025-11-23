@@ -17,7 +17,7 @@ Chlorophylls and chlorophyllins (E140) are green color additives made from the p
 
 Food makers add E140 to give a clean, leafy green color. This can signal flavors like mint, lime, basil, or spinach, or simply make a product look fresh and plant‑based. In EU law, E140 covers two groups: chlorophylls (E140(i)) and chlorophyllins (E140(ii)).[^1] Chlorophylls are magnesium‑containing plant pigments responsible for the green color of leaves.[^3] Chlorophyllins are related salts that are more water‑dispersible and can be easier to use in drinks and gels.[^1]
 
-If a stable green is needed in acidic foods (like some soft drinks or pickled items), manufacturers may instead choose the copper complexes of these pigments listed as [copper complexes of chlorophylls and chlorophyllins](/e141-copper-complexes-of-chlorophylls-and-chlorophyllins) (E141).
+If a stable green is needed in acidic foods (like some soft drinks or pickled items), manufacturers may instead choose the copper complexes of these pigments listed as [copper complexes of chlorophylls and chlorophyllins](/e141-copper-complexes-of-chlorophylls-and-chlorophyllins){.additive} (E141).
 
 ## What foods contain Chlorophylls and Chlorophyllins?
 
@@ -34,8 +34,8 @@ On labels it can appear as “Chlorophyll,” “Chlorophyllins,” or “E140.�
 ## What can replace Chlorophylls and Chlorophyllins?
 
 Color choices depend on the food and its acidity.
-- For a very stable green in acidic foods, many producers use [copper complexes of chlorophylls and chlorophyllins](/e141-copper-complexes-of-chlorophylls-and-chlorophyllins) (E141).
-- Custom greens can be made by blending other colors, for example yellow tones such as [curcumin](/e100-curcumin) or [beta‑carotene](/e160a-carotene) with a blue like [brilliant blue FCF](/e133-brilliant-blue-fcf). In more “natural color” lines, a blue such as [gardenia blue](/e165-gardenia-blue) can be paired with a yellow to reach green.
+- For a very stable green in acidic foods, many producers use [copper complexes of chlorophylls and chlorophyllins](/e141-copper-complexes-of-chlorophylls-and-chlorophyllins){.additive} (E141).
+- Custom greens can be made by blending other colors, for example yellow tones such as [curcumin](/e100-curcumin){.additive} or [beta‑carotene](/e160a-carotene){.additive} with a blue like [brilliant blue FCF](/e133-brilliant-blue-fcf){.additive}. In more “natural color” lines, a blue such as [gardenia blue](/e165-gardenia-blue){.additive} can be paired with a yellow to reach green.
 - Some products use vegetable or herb powders when a processed additive is not desired, though shades and stability vary.
 
 ## How is Chlorophylls and Chlorophyllins made?

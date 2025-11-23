@@ -6,7 +6,7 @@ Monocalcium citrate (E333i) is the calcium salt of citric acid used to control a
 - Also called: E333i; a member of the calcium citrates group
 - What it does: helps regulate acidity, binds metals (sequestrant), and stabilizes products
 - Typical uses: drinks, fruit preparations, desserts, sauces, and some dairy-style foods
-- How it’s made: neutralizing [citric acid](/e330-citric-acid) with a calcium source, then purifying
+- How it’s made: neutralizing [citric acid](/e330-citric-acid){.additive} with a calcium source, then purifying
 - Dietary notes: calcium salt; suitable for vegetarians and vegans
 - Label check: look for “monocalcium citrate,” “E333i,” or “calcium citrates (E333)”
 
@@ -18,11 +18,11 @@ You’re most likely to find E333i in products where pH control or metal binding
 
 ## What can replace Monocalcium citrate?
 Possible alternatives depend on why it’s used:
-- For acidity regulation or buffering: [citric acid](/e330-citric-acid), [sodium citrates](/e331-sodium-citrates), or [potassium citrates](/e332-potassium-citrates)
-- For sequestration or stabilization: [sodium phosphates](/e339-sodium-phosphates), [calcium phosphates](/e341-calcium-phosphates), or [diphosphates](/e450-diphosphates)
+- For acidity regulation or buffering: [citric acid](/e330-citric-acid){.additive}, [sodium citrates](/e331-sodium-citrates){.additive}, or [potassium citrates](/e332-potassium-citrates){.additive}
+- For sequestration or stabilization: [sodium phosphates](/e339-sodium-phosphates){.additive}, [calcium phosphates](/e341-calcium-phosphates){.additive}, or [diphosphates](/e450-diphosphates){.additive}
 
 ## How is Monocalcium citrate made?
-Manufacturers typically produce calcium citrates by neutralizing purified [citric acid](/e330-citric-acid) with a calcium base such as [calcium hydroxide](/e526-calcium-hydroxide) or [calcium carbonates](/e170-calcium-carbonates). The mixture is filtered, crystallized, and dried to obtain the desired calcium citrate salt (monocalcium, dicalcium, or tricalcium), meeting purity and identity specifications set in EU law.[^1]
+Manufacturers typically produce calcium citrates by neutralizing purified [citric acid](/e330-citric-acid){.additive} with a calcium base such as [calcium hydroxide](/e526-calcium-hydroxide){.additive} or [calcium carbonates](/e170-calcium-carbonates){.additive}. The mixture is filtered, crystallized, and dried to obtain the desired calcium citrate salt (monocalcium, dicalcium, or tricalcium), meeting purity and identity specifications set in EU law.[^1]
 
 ## Is Monocalcium citrate safe to eat?
 Calcium citrates (E330–E333) have been re-evaluated by the European Food Safety Authority (EFSA), which concluded they do not raise a safety concern at reported uses and exposures; the group acceptable daily intake (ADI) was “not specified,” a category reserved for additives of very low toxicity at typical use levels.[^3] In the United States, calcium citrate appears on the FDA’s Food Additive Status List as Generally Recognized as Safe (GRAS) when used in accordance with good manufacturing practice.[^4]

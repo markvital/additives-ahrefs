@@ -11,7 +11,7 @@ Sodium bicarbonate (E500ii), better known as baking soda, is a white, crystallin
 
 ## Why is Sodium bicarbonate added to food?
 Food makers use sodium bicarbonate to do two main jobs:
-- Leavening: In batters and doughs, it produces carbon dioxide gas, which expands during baking and creates lift. It works especially well when paired with an acid ingredient such as [citric acid](/e330-citric-acid) or [L-tartaric acid](/e334-l-tartaric-acid), or with leavening acids found in baking powder like [monocalcium phosphate](/e341i-monocalcium-phosphate), [disodium diphosphate](/e450i-disodium-diphosphate), or [sodium aluminium phosphate](/e541-sodium-aluminium-phosphate).[^1]
+- Leavening: In batters and doughs, it produces carbon dioxide gas, which expands during baking and creates lift. It works especially well when paired with an acid ingredient such as [citric acid](/e330-citric-acid){.additive} or [L-tartaric acid](/e334-l-tartaric-acid){.additive}, or with leavening acids found in baking powder like [monocalcium phosphate](/e341i-monocalcium-phosphate){.additive}, [disodium diphosphate](/e450i-disodium-diphosphate){.additive}, or [sodium aluminium phosphate](/e541-sodium-aluminium-phosphate){.additive}.[^1]
 - pH control: It gently neutralizes excess acidity and buffers pH, which can influence flavor and browning during cooking and baking.[^1]
 
 In regulations, sodium bicarbonate is listed for use as a leavening agent and pH control agent under good manufacturing practice (GMP).[^1]
@@ -22,14 +22,14 @@ You’ll most often see it in:
 - Mixes: baking mixes, batter mixes, and “self-rising” flour blends.
 - Confectionery and drink mixes: some sherbet-style candies and powdered or tablet mixes that fizz when dissolved.
 
-In ingredient lists, it usually appears as “sodium bicarbonate” or “baking soda.” In the EU, it belongs to the [sodium carbonates](/e500-sodium-carbonates) group (E500), specifically E500ii.[^3]
+In ingredient lists, it usually appears as “sodium bicarbonate” or “baking soda.” In the EU, it belongs to the [sodium carbonates](/e500-sodium-carbonates){.additive} group (E500), specifically E500ii.[^3]
 
 ## What can replace Sodium bicarbonate?
 Depending on the recipe and dietary needs, common stand-ins include:
-- [Potassium hydrogen carbonate](/e501ii-potassium-hydrogen-carbonate) (potassium bicarbonate): a near 1:1 substitute that adds potassium instead of sodium.
-- Baking powder: a ready-to-use blend of sodium bicarbonate plus acid salts (often [monocalcium phosphate](/e341i-monocalcium-phosphate), [disodium diphosphate](/e450i-disodium-diphosphate), or [sodium aluminium phosphate](/e541-sodium-aluminium-phosphate)) and starch.
+- [Potassium hydrogen carbonate](/e501ii-potassium-hydrogen-carbonate){.additive} (potassium bicarbonate): a near 1:1 substitute that adds potassium instead of sodium.
+- Baking powder: a ready-to-use blend of sodium bicarbonate plus acid salts (often [monocalcium phosphate](/e341i-monocalcium-phosphate){.additive}, [disodium diphosphate](/e450i-disodium-diphosphate){.additive}, or [sodium aluminium phosphate](/e541-sodium-aluminium-phosphate){.additive}) and starch.
 - Fermentation leavening: yeast or sourdough for breads that rise biologically rather than chemically.
-- For certain crisp cookies and crackers: [ammonium carbonates](/e503-ammonium-carbonates) can provide strong leavening with a distinct, dry texture.
+- For certain crisp cookies and crackers: [ammonium carbonates](/e503-ammonium-carbonates){.additive} can provide strong leavening with a distinct, dry texture.
 
 ## How is Sodium bicarbonate made?
 Food‑grade sodium bicarbonate is produced by well‑established industrial processes. One common route bubbles carbon dioxide into appropriate sodium solutions so that sodium bicarbonate crystallizes, which is then filtered, washed, and dried. It is regulated in the EU as part of E 500 (sodium carbonates) with specifications that define E500ii as sodium hydrogen carbonate.[^2][^3]
@@ -57,9 +57,9 @@ Sodium bicarbonate adds sodium. People advised to limit sodium intake—such as 
 - Myth: “Baking soda and baking powder are the same.”  
   Fact: Baking soda is just sodium bicarbonate. Baking powder contains sodium bicarbonate plus one or more acid salts and a filler, so it activates on its own when moistened and heated.
 - Myth: “Baking soda contains aluminum.”  
-  Fact: Pure sodium bicarbonate (NaHCO3) contains no aluminum; some baking powders use aluminum‑containing acid salts such as [sodium aluminium phosphate](/e541-sodium-aluminium-phosphate), which is where the confusion comes from.[^1]
+  Fact: Pure sodium bicarbonate (NaHCO3) contains no aluminum; some baking powders use aluminum‑containing acid salts such as [sodium aluminium phosphate](/e541-sodium-aluminium-phosphate){.additive}, which is where the confusion comes from.[^1]
 - Myth: “Sodium bicarbonate is the same as washing soda.”  
-  Fact: Washing soda is [sodium carbonate](/e500i-sodium-carbonate) (E500i), a different compound in the same [sodium carbonates](/e500-sodium-carbonates) family.
+  Fact: Washing soda is [sodium carbonate](/e500i-sodium-carbonate){.additive} (E500i), a different compound in the same [sodium carbonates](/e500-sodium-carbonates){.additive} family.
 
 ## Sodium bicarbonate in branded foods
 You’ll find “sodium bicarbonate” or “baking soda” on ingredient lists of many:

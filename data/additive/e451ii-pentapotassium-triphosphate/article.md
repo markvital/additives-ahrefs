@@ -25,10 +25,10 @@ Authorisation frameworks in the EU list triphosphates among permitted additives 
 
 ## What can replace Pentapotassium triphosphate?
 The best substitute depends on the job it’s doing:
-- For sequestration and buffering: [sodium phosphates](/e339-sodium-phosphates), [potassium phosphates](/e340-potassium-phosphates), or [polyphosphates](/e452-polyphosphates)
-- For moisture retention and binding: [polyphosphates](/e452-polyphosphates), [carrageenan](/e407-carrageenan), or [xanthan gum](/e415-xanthan-gum)
-- For chelation and pH control in beverages and dairy: [citric acid](/e330-citric-acid), [sodium citrates](/e331-sodium-citrates), or [calcium citrates](/e333-calcium-citrates)
-- For similar functionality with sodium instead of potassium: [pentasodium triphosphate](/e451i-pentasodium-triphosphate)
+- For sequestration and buffering: [sodium phosphates](/e339-sodium-phosphates){.additive}, [potassium phosphates](/e340-potassium-phosphates){.additive}, or [polyphosphates](/e452-polyphosphates){.additive}
+- For moisture retention and binding: [polyphosphates](/e452-polyphosphates){.additive}, [carrageenan](/e407-carrageenan){.additive}, or [xanthan gum](/e415-xanthan-gum){.additive}
+- For chelation and pH control in beverages and dairy: [citric acid](/e330-citric-acid){.additive}, [sodium citrates](/e331-sodium-citrates){.additive}, or [calcium citrates](/e333-calcium-citrates){.additive}
+- For similar functionality with sodium instead of potassium: [pentasodium triphosphate](/e451i-pentasodium-triphosphate){.additive}
 
 ## How is Pentapotassium triphosphate made?
 Industrial production starts with food‑grade phosphoric acid that is neutralised with potassium hydroxide to form potassium phosphate salts. Controlled heating (thermal condensation) then links phosphate units together to form triphosphate. The result is purified to meet identity and purity specifications set in EU law for E‑numbered additives.[^1]

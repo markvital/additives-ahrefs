@@ -24,8 +24,8 @@ Because approval varies by region, the actual presence of E489 depends on local 
 
 ## What can replace E489?
 Several other emulsifiers and stabilizers can do similar jobs, depending on the recipe:
-- Emulsifiers: [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids), [sucrose esters of fatty acids](/e473-sucrose-esters-of-fatty-acids), [polyglycerol polyricinoleate](/e476-polyglycerol-polyricinoleate), [lecithins](/e322-lecithins), [propane-1,2-diol esters of fatty acids](/e477-propane-1-2-diol-esters-of-fatty-acids), [citric acid esters of mono- and diglycerides](/e472c-citric-acid-esters-of-mono-and-diglycerides-of-fatty-acids)
-- Stabilizers/thickeners: [xanthan gum](/e415-xanthan-gum), [guar gum](/e412-guar-gum)
+- Emulsifiers: [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive}, [sucrose esters of fatty acids](/e473-sucrose-esters-of-fatty-acids){.additive}, [polyglycerol polyricinoleate](/e476-polyglycerol-polyricinoleate){.additive}, [lecithins](/e322-lecithins){.additive}, [propane-1,2-diol esters of fatty acids](/e477-propane-1-2-diol-esters-of-fatty-acids){.additive}, [citric acid esters of mono- and diglycerides](/e472c-citric-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive}
+- Stabilizers/thickeners: [xanthan gum](/e415-xanthan-gum){.additive}, [guar gum](/e412-guar-gum){.additive}
 
 The best substitute depends on the desired texture (creamy, airy, pourable) and the food’s fat and water content.
 

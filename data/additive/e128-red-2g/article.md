@@ -15,9 +15,9 @@ Manufacturers used Red 2G to make certain meat products look fresh and evenly re
 Before its suspension in the EU, Red 2G was authorized mainly for certain sausages and burger meat mixtures.[^1] Because authorization was withdrawn, products on the EU market should no longer contain it.[^1] In the U.S., it has never been an approved food color, so you should not find it in American foods.[^3]
 
 ## What can replace Red 2G?
-- Plant-based reds such as [beetroot red](/e162-beetroot-red)
-- Animal-derived reds such as [cochineal](/e120-cochineal)
-- Synthetic reds like [Ponceau 4R](/e124-ponceau-4r) or [Allura Red](/e129-allura-red)
+- Plant-based reds such as [beetroot red](/e162-beetroot-red){.additive}
+- Animal-derived reds such as [cochineal](/e120-cochineal){.additive}
+- Synthetic reds like [Ponceau 4R](/e124-ponceau-4r){.additive} or [Allura Red](/e129-allura-red){.additive}
 
 The best substitute depends on the food, the desired shade, heat stability, and labeling needs (for example, whether a vegan or “no artificial colors” claim is required).
 
@@ -32,7 +32,7 @@ Benefits are cosmetic only: it adds or restores a red color and helps keep that 
 
 ## Who should avoid Red 2G?
 - Consumers in regions where it is not permitted (EU, U.S.) generally will not encounter it in legal food products.
-- If you avoid synthetic azo dyes for personal or medical reasons, choosing products colored with natural alternatives like [beetroot red](/e162-beetroot-red) may better fit your needs.
+- If you avoid synthetic azo dyes for personal or medical reasons, choosing products colored with natural alternatives like [beetroot red](/e162-beetroot-red){.additive} may better fit your needs.
 
 ## Myths & facts
 - Myth: An E‑number means a food is unsafe. Fact: An E‑number is just an EU identifier; some additives keep approval, others lose it if new evidence emerges, as happened with Red 2G in 2007.[^1]

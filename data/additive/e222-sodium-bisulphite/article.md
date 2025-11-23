@@ -8,7 +8,7 @@ Sodium bisulphite (E222) is a sulfiting agent used as a preservative and antioxi
 - Where you’ll see it: Common in wine, dried fruits, bottled lemon/lime juice, pickled foods, some shrimp and potato products.
 - Regulations: In the U.S., sulfites must be declared on labels when present at 10 ppm or more. “ppm” means parts per million.
 - Sensitivities: A subset of people, particularly some with asthma, can be sensitive to sulfites.
-- Related additives: Other approved sulfiting agents include [sulphur dioxide](/e220-sulphur-dioxide), [sodium sulphite](/e221-sodium-sulphite), [sodium metabisulphite](/e223-sodium-metabisulphite), and [potassium metabisulphite](/e224-potassium-metabisulphite).
+- Related additives: Other approved sulfiting agents include [sulphur dioxide](/e220-sulphur-dioxide){.additive}, [sodium sulphite](/e221-sodium-sulphite){.additive}, [sodium metabisulphite](/e223-sodium-metabisulphite){.additive}, and [potassium metabisulphite](/e224-potassium-metabisulphite){.additive}.
 
 ## Why is Sodium bisulphite added to food?
 Manufacturers add E222 because it protects color and flavor. As an antioxidant, it reacts with oxygen and certain browning intermediates, slowing enzymatic browning in cut fruit and potatoes and protecting aroma compounds in wine. It also has preservative action that helps control unwanted microbes in some foods and drinks.[^2]
@@ -23,10 +23,10 @@ These are common examples of where sulfites are used or may be present.[^5]
 
 ## What can replace Sodium bisulphite?
 Alternatives depend on the food and the goal:
-- To limit browning: [ascorbic acid](/e300-ascorbic-acid), [citric acid](/e330-citric-acid), good packaging, or lowering pH.
-- To provide antioxidant protection: [sodium ascorbate](/e301-sodium-ascorbate), [extracts of rosemary](/e392-extracts-of-rosemary), or [tertiary butylhydroquinone (TBHQ)](/e319-tertiary-butylhydroquinone-tbhq) where allowed.
-- To preserve: [sorbic acid](/e200-sorbic-acid), [potassium sorbate](/e202-potassium-sorbate), or [sodium benzoate](/e211-sodium-benzoate) in suitable products.
-- To limit oxygen: Packaging with [nitrogen](/e941-nitrogen) or [carbon dioxide](/e290-carbon-dioxide).
+- To limit browning: [ascorbic acid](/e300-ascorbic-acid){.additive}, [citric acid](/e330-citric-acid){.additive}, good packaging, or lowering pH.
+- To provide antioxidant protection: [sodium ascorbate](/e301-sodium-ascorbate){.additive}, [extracts of rosemary](/e392-extracts-of-rosemary){.additive}, or [tertiary butylhydroquinone (TBHQ)](/e319-tertiary-butylhydroquinone-tbhq){.additive} where allowed.
+- To preserve: [sorbic acid](/e200-sorbic-acid){.additive}, [potassium sorbate](/e202-potassium-sorbate){.additive}, or [sodium benzoate](/e211-sodium-benzoate){.additive} in suitable products.
+- To limit oxygen: Packaging with [nitrogen](/e941-nitrogen){.additive} or [carbon dioxide](/e290-carbon-dioxide){.additive}.
 
 ## How is Sodium bisulphite made?
 Commercially, sodium bisulphite is typically produced by absorbing sulfur dioxide gas (SO2) into an aqueous solution of sodium hydroxide or sodium carbonate, forming NaHSO3 in solution.[^1] Concentration and handling conditions are controlled to keep it in the bisulphite form rather than converting to metabisulphite.

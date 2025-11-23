@@ -5,22 +5,22 @@ Sodium fumarate (E365) is the sodium salt of fumaric acid. It is used in foods t
 - E-number: E365 (sodium fumarate)
 - What it does: Helps control acidity (acts as an acidity regulator) and adds a tart note
 - Where it appears: Used internationally in a range of processed foods
-- What it is: The sodium salt of [fumaric acid](/e297-fumaric-acid)
+- What it is: The sodium salt of [fumaric acid](/e297-fumaric-acid){.additive}
 
 ## Why is Sodium fumarate added to food?
-Food makers use sodium fumarate mainly as an acidity regulator. That means it helps set and hold a target pH so flavor, color, and texture stay consistent over time.[^1] In international standards, sodium fumarate is listed as an acidity regulator (sometimes called an acidulant or buffer), a role shared with acids like [citric acid](/e330-citric-acid) and [malic acid](/e296-malic-acid).[^1]
+Food makers use sodium fumarate mainly as an acidity regulator. That means it helps set and hold a target pH so flavor, color, and texture stay consistent over time.[^1] In international standards, sodium fumarate is listed as an acidity regulator (sometimes called an acidulant or buffer), a role shared with acids like [citric acid](/e330-citric-acid){.additive} and [malic acid](/e296-malic-acid){.additive}.[^1]
 
 ## What foods contain Sodium fumarate?
 You may find sodium fumarate in categories such as beverages, flavored waters, confectionery, bakery items, and sauces, depending on local rules and the recipe needs.[^1] Codex (the joint Food and Agriculture Organization and World Health Organization system for global food standards) lists sodium fumarate in the General Standard for Food Additives (GSFA) across multiple food categories as an acidity regulator.[^1]
 
 ## What can replace Sodium fumarate?
 Depending on the product and target taste, formulators might use:
-- [Fumaric acid](/e297-fumaric-acid) for a stronger, more persistent tartness
-- [Citric acid](/e330-citric-acid) for a bright, citrus-like acidity
-- [Malic acid](/e296-malic-acid) for a smoother, lingering sourness
-- Buffering salts such as [sodium citrates](/e331-sodium-citrates) or [sodium malates](/e350-sodium-malates) to stabilize pH
-- [Potassium fumarate](/e366-potassium-fumarate) when reducing sodium content is important
-- Other acids common in specific foods, such as [phosphoric acid](/e338-phosphoric-acid) in some soft drinks
+- [Fumaric acid](/e297-fumaric-acid){.additive} for a stronger, more persistent tartness
+- [Citric acid](/e330-citric-acid){.additive} for a bright, citrus-like acidity
+- [Malic acid](/e296-malic-acid){.additive} for a smoother, lingering sourness
+- Buffering salts such as [sodium citrates](/e331-sodium-citrates){.additive} or [sodium malates](/e350-sodium-malates){.additive} to stabilize pH
+- [Potassium fumarate](/e366-potassium-fumarate){.additive} when reducing sodium content is important
+- Other acids common in specific foods, such as [phosphoric acid](/e338-phosphoric-acid){.additive} in some soft drinks
 
 ## How is Sodium fumarate made?
 Sodium fumarate is the simple sodium salt of fumaric acid. In practice, manufacturers neutralize food-grade fumaric acid with a sodium base (for example, sodium carbonate or sodium hydroxide), then filter, crystallize, and dry the product for food use. Its identity as the sodium salt of fumaric acid is documented by U.S. National Institutes of Health chemical records.[^4]
@@ -43,7 +43,7 @@ In the European Union (EU), sodium fumarate is an authorized food additive with 
 - Myth: “It always makes foods taste very sour.” Fact: It provides tartness but is often used in blends to fine-tune flavor balance.
 
 ## Sodium fumarate in branded foods
-On ingredient lists, look for “sodium fumarate” or “E365.” It may appear alongside other acids or buffers, such as [citric acid](/e330-citric-acid) or [sodium citrates](/e331-sodium-citrates), used to target a specific pH or taste. Availability and allowed uses can vary by country, so the same product sold in different markets may use different acidulants.
+On ingredient lists, look for “sodium fumarate” or “E365.” It may appear alongside other acids or buffers, such as [citric acid](/e330-citric-acid){.additive} or [sodium citrates](/e331-sodium-citrates){.additive}, used to target a specific pH or taste. Availability and allowed uses can vary by country, so the same product sold in different markets may use different acidulants.
 
 ## References
 [^1]: Sodium fumarate (INS 365) — Codex General Standard for Food Additives (GSFA). https://www.fao.org/gsfaonline/additives/details.html?id=365

@@ -16,13 +16,13 @@ You are most likely to encounter hydrochloric acid during processing steps, not 
 
 ## What can replace Hydrochloric acid?
 Several other acids can adjust pH or provide tartness, depending on the recipe:
-- [Citric acid](/e330-citric-acid) for fruit-forward tartness
-- [Acetic acid](/e260-acetic-acid) (vinegar) for sharper sour notes
-- [Lactic acid](/e270-lactic-acid) for mild, dairy-like acidity
-- [Phosphoric acid](/e338-phosphoric-acid) for a clean “cola-style” bite
-- [Glucono delta-lactone](/e575-glucono-delta-lactone) for slow, gentle acidification
+- [Citric acid](/e330-citric-acid){.additive} for fruit-forward tartness
+- [Acetic acid](/e260-acetic-acid){.additive} (vinegar) for sharper sour notes
+- [Lactic acid](/e270-lactic-acid){.additive} for mild, dairy-like acidity
+- [Phosphoric acid](/e338-phosphoric-acid){.additive} for a clean “cola-style” bite
+- [Glucono delta-lactone](/e575-glucono-delta-lactone){.additive} for slow, gentle acidification
 
-When raising pH instead of lowering it, manufacturers might use alkalis such as [sodium hydroxide](/e524-sodium-hydroxide), [potassium hydroxide](/e525-potassium-hydroxide), [ammonium hydroxide](/e527-ammonium-hydroxide), [calcium hydroxide](/e526-calcium-hydroxide), or buffering agents like [sodium bicarbonate](/e500ii-sodium-bicarbonate).
+When raising pH instead of lowering it, manufacturers might use alkalis such as [sodium hydroxide](/e524-sodium-hydroxide){.additive}, [potassium hydroxide](/e525-potassium-hydroxide){.additive}, [ammonium hydroxide](/e527-ammonium-hydroxide){.additive}, [calcium hydroxide](/e526-calcium-hydroxide){.additive}, or buffering agents like [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive}.
 
 ## How is Hydrochloric acid made?
 Hydrochloric acid is simply hydrogen chloride gas dissolved in water. Commercially, it is produced and sold as aqueous solutions at various strengths for industrial and food uses.[^5] Food-grade hydrochloric acid must meet purity and identity specifications defined by EU law when used as E507.[^1]
@@ -45,7 +45,7 @@ For consumers, the “benefit” is indirect: consistent taste, texture, and qua
 If you have a medical condition that requires a low-acid diet, follow your clinician’s advice and review products’ overall acidity.
 
 ## Myths & facts
-- Myth: “Hydrochloric acid is the same as bleach.” Fact: It is a different chemical from chlorine bleach; do not confuse hydrochloric acid with [chlorine](/e925-chlorine) or hypochlorite solutions.
+- Myth: “Hydrochloric acid is the same as bleach.” Fact: It is a different chemical from chlorine bleach; do not confuse hydrochloric acid with [chlorine](/e925-chlorine){.additive} or hypochlorite solutions.
 - Myth: “If it’s used, it must be in my food.” Fact: When used only as a processing aid and not functioning in the final food, it may be neutralized or removed and does not have to appear on the label in the U.S.[^4]
 - Myth: “It always makes foods taste very sour.” Fact: Food technologists dose acids precisely; many uses are for pH control during production, not to make foods taste sour.
 

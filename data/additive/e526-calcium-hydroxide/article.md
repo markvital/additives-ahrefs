@@ -21,9 +21,9 @@ On ingredient labels it may appear as “calcium hydroxide,” “slaked lime,�
 
 ## What can replace calcium hydroxide?
 Substitutes depend on the job you need done:
-- For pH control (to reduce acidity): other approved bases like [sodium hydroxide](/e524-sodium-hydroxide) or [potassium hydroxide](/e525-potassium-hydroxide) can sometimes be used. For milder pH changes, carbonate salts like [sodium carbonates](/e500-sodium-carbonates) may be chosen.
-- For firming produce: calcium salts such as [calcium chloride](/e509-calcium-chloride) or [calcium sulphate](/e516-calcium-sulphate) are common options.
-- For balancing tartness: acids like [citric acid](/e330-citric-acid) may be paired with or swapped in, depending on the recipe.
+- For pH control (to reduce acidity): other approved bases like [sodium hydroxide](/e524-sodium-hydroxide){.additive} or [potassium hydroxide](/e525-potassium-hydroxide){.additive} can sometimes be used. For milder pH changes, carbonate salts like [sodium carbonates](/e500-sodium-carbonates){.additive} may be chosen.
+- For firming produce: calcium salts such as [calcium chloride](/e509-calcium-chloride){.additive} or [calcium sulphate](/e516-calcium-sulphate){.additive} are common options.
+- For balancing tartness: acids like [citric acid](/e330-citric-acid){.additive} may be paired with or swapped in, depending on the recipe.
 
 Always note that each additive behaves differently, so direct one-to-one swaps may change taste or texture.
 

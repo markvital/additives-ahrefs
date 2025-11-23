@@ -26,9 +26,9 @@ Regulators list potassium phosphates among permitted additives, so you’ll enco
 
 ## What can replace Dipotassium phosphate?
 Alternatives depend on the job it’s doing:
-- Buffering and acidity control: [sodium citrates](/e331-sodium-citrates), [citric acid](/e330-citric-acid), [sodium phosphates](/e339-sodium-phosphates), or [monopotassium phosphate](/e340i-monopotassium-phosphate)
-- Emulsifying salts in cheese: [sodium phosphates](/e339-sodium-phosphates) or [trisodium phosphate](/e339iii-trisodium-phosphate) (note sodium content)
-- Leavening/alkalinity tweaks: [sodium bicarbonate](/e500ii-sodium-bicarbonate) or [potassium hydrogen carbonate](/e501ii-potassium-hydrogen-carbonate)
+- Buffering and acidity control: [sodium citrates](/e331-sodium-citrates){.additive}, [citric acid](/e330-citric-acid){.additive}, [sodium phosphates](/e339-sodium-phosphates){.additive}, or [monopotassium phosphate](/e340i-monopotassium-phosphate){.additive}
+- Emulsifying salts in cheese: [sodium phosphates](/e339-sodium-phosphates){.additive} or [trisodium phosphate](/e339iii-trisodium-phosphate){.additive} (note sodium content)
+- Leavening/alkalinity tweaks: [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive} or [potassium hydrogen carbonate](/e501ii-potassium-hydrogen-carbonate){.additive}
 
 Formulations are sensitive, so swaps are not one-for-one; the right choice depends on pH target, flavor, sodium/potassium goals, and texture.
 

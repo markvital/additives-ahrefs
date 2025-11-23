@@ -21,10 +21,10 @@ In the U.S., anthocyanin colors appear on labels through specific approved sourc
 
 ## What can replace Anthocyanins?
 Depending on the target shade and pH, formulators may switch to other approved colors:
-- For bright yellow to orange: [curcumin](/e100-curcumin) or [paprika extract](/e160c-paprika-extract)
-- For red: [beetroot red](/e162-beetroot-red)
-- For brown tones or cola shades: [caramel](/e150-caramel)
-- For green: [copper complexes of chlorophylls and chlorophyllins](/e141-copper-complexes-of-chlorophylls-and-chlorophyllins)
+- For bright yellow to orange: [curcumin](/e100-curcumin){.additive} or [paprika extract](/e160c-paprika-extract){.additive}
+- For red: [beetroot red](/e162-beetroot-red){.additive}
+- For brown tones or cola shades: [caramel](/e150-caramel){.additive}
+- For green: [copper complexes of chlorophylls and chlorophyllins](/e141-copper-complexes-of-chlorophylls-and-chlorophyllins){.additive}
 
 Choice depends on flavor impact, stability, label goals, and cost.
 

@@ -16,9 +16,9 @@ You are unlikely to find orcein in everyday groceries. Where allowed, it has nic
 
 ## What can replace Orcein?
 Depending on the shade and use, makers may choose other approved colors:
-- For brown tones: [caramel](/e150-caramel)
-- For orange-red: [annatto](/e160b-annatto) or [paprika extract](/e160c-paprika-extract)
-- For red: [cochineal](/e120-cochineal) or [beetroot red](/e162-beetroot-red)
+- For brown tones: [caramel](/e150-caramel){.additive}
+- For orange-red: [annatto](/e160b-annatto){.additive} or [paprika extract](/e160c-paprika-extract){.additive}
+- For red: [cochineal](/e120-cochineal){.additive} or [beetroot red](/e162-beetroot-red){.additive}
 
 ## How is Orcein made?
 In the EU specification, orcein is described as a mixture of related dye molecules produced from certain lichens. Manufacturers extract lichen material with ammonia, then allow air (oxygen) to react with the extract to form the characteristic orcein colors. The specification also sets identity and purity rules, including limits for contaminants and permitted processing aids.[^1]

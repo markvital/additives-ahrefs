@@ -23,12 +23,12 @@ Check the ingredient list for “agar,” “agar-agar,” or “E406.”
 
 ## What can replace Agar?
 Depending on the texture you need, these common substitutes may work:
-- For firm, sliceable gels: [gellan gum](/e418-gellan-gum) or [carrageenan](/e407-carrageenan)
-- For soft gels and fruit spreads: [pectins](/e440-pectins)
-- For thickening without a firm gel: [xanthan gum](/e415-xanthan-gum) or [guar gum](/e412-guar-gum)
-- For elastic, animal-derived gels: [gelatine](/e428-gelatine)
-- For seaweed-derived thickening: [alginic acid](/e400-alginic-acid) or [sodium alginate](/e401-sodium-alginate)
-- For creamy, scoopable textures: [locust bean gum](/e410-locust-bean-gum), often blended with other gums
+- For firm, sliceable gels: [gellan gum](/e418-gellan-gum){.additive} or [carrageenan](/e407-carrageenan){.additive}
+- For soft gels and fruit spreads: [pectins](/e440-pectins){.additive}
+- For thickening without a firm gel: [xanthan gum](/e415-xanthan-gum){.additive} or [guar gum](/e412-guar-gum){.additive}
+- For elastic, animal-derived gels: [gelatine](/e428-gelatine){.additive}
+- For seaweed-derived thickening: [alginic acid](/e400-alginic-acid){.additive} or [sodium alginate](/e401-sodium-alginate){.additive}
+- For creamy, scoopable textures: [locust bean gum](/e410-locust-bean-gum){.additive}, often blended with other gums
 
 ## How is Agar made?
 Agar is produced by extracting natural polysaccharides from certain red seaweeds with hot water, clarifying the extract, and letting it gel. The gel is then pressed and dried (often through a freeze–thaw or drum-drying process) and milled into flakes or powder for use as a food ingredient.[^4] These steps concentrate the gelling components while removing salts, pigments, and other seaweed solids.[^4]
@@ -45,8 +45,8 @@ Yes. In the United States, agar is affirmed as GRAS when used in accordance with
 Most people do not need to avoid agar in normal food amounts. If you are on a medically prescribed low-fiber diet, have known gastrointestinal narrowing, or have been told to limit bulking agents, ask your healthcare provider before using high-gelling products made with agar.
 
 ## Myths & facts
-- Myth: “Agar is the same as gelatin.” Fact: Agar comes from seaweed and makes firmer, heat-stable gels; [gelatine](/e428-gelatine) is animal-derived and gives elastic, melt-in-the-mouth gels.
-- Myth: “Agar and carrageenan are identical.” Fact: Both are seaweed-derived, but they are different additives with different properties and E-numbers (E406 vs. [E407](/e407-carrageenan)).
+- Myth: “Agar is the same as gelatin.” Fact: Agar comes from seaweed and makes firmer, heat-stable gels; [gelatine](/e428-gelatine){.additive} is animal-derived and gives elastic, melt-in-the-mouth gels.
+- Myth: “Agar and carrageenan are identical.” Fact: Both are seaweed-derived, but they are different additives with different properties and E-numbers (E406 vs. [E407](/e407-carrageenan){.additive}).
 - Myth: “Agar is unsafe because of heavy metals from the ocean.” Fact: EU specifications set strict purity limits for contaminants in E 406, including heavy metals, to ensure safety and quality.[^2]
 
 ## Agar in branded foods

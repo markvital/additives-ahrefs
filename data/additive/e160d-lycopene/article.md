@@ -10,7 +10,7 @@ Lycopene (E160d) is a red pigment found naturally in tomatoes and other red frui
 - Safety: Authorized as a food colour with purity specifications in the EU and U.S. when used as intended.
 
 ## Why is Lycopene added to food?
-Food makers use lycopene to give or restore red tones that look appealing and signal flavor cues, such as “strawberry,” “grapefruit,” or “tomato.” As a fat‑soluble colour, it disperses well in oily or emulsified foods and can offer a more “natural” label when sourced from tomatoes. In regulations, lycopene belongs to the carotenoid group of colours, alongside [carotenoids](/e160-carotenoids).[^1]
+Food makers use lycopene to give or restore red tones that look appealing and signal flavor cues, such as “strawberry,” “grapefruit,” or “tomato.” As a fat‑soluble colour, it disperses well in oily or emulsified foods and can offer a more “natural” label when sourced from tomatoes. In regulations, lycopene belongs to the carotenoid group of colours, alongside [carotenoids](/e160-carotenoids){.additive}.[^1]
 
 ## What foods contain Lycopene?
 You may find lycopene in:
@@ -24,9 +24,9 @@ In the European Union, lycopene is an authorized colour with specific conditions
 
 ## What can replace Lycopene?
 Depending on the target shade and label goals, manufacturers might use:
-- Plant-based reds and oranges: [paprika extract](/e160c-paprika-extract), [annatto](/e160b-annatto), [beetroot red](/e162-beetroot-red), or [anthocyanins](/e163-anthocyanins).
-- Other carotenoids: [beta-carotene](/e160ai-beta-carotene) for orange to yellow tones.
-- Synthetic reds where allowed: [Allura Red](/e129-allura-red) or [Ponceau 4R](/e124-ponceau-4r).
+- Plant-based reds and oranges: [paprika extract](/e160c-paprika-extract){.additive}, [annatto](/e160b-annatto){.additive}, [beetroot red](/e162-beetroot-red){.additive}, or [anthocyanins](/e163-anthocyanins){.additive}.
+- Other carotenoids: [beta-carotene](/e160ai-beta-carotene){.additive} for orange to yellow tones.
+- Synthetic reds where allowed: [Allura Red](/e129-allura-red){.additive} or [Ponceau 4R](/e124-ponceau-4r){.additive}.
 
 Each option differs in shade, solubility, stability to heat and light, and regional approval.
 

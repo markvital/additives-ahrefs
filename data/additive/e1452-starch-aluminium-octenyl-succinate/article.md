@@ -20,10 +20,10 @@ You’re most likely to find E1452 in products that need long‑lasting, stable 
 
 ## What can replace starch aluminium octenyl succinate?
 Other approved emulsifiers and stabilisers can serve similar roles, depending on the recipe:
-- [starch sodium octenyl succinate](/e1450-starch-sodium-octenyl-succinate) for flavor emulsions
-- [acacia gum](/e414-acacia-gum) (gum arabic) for beverage flavor emulsions
-- [glycerol esters of wood rosin](/e445-glycerol-esters-of-wood-rosin) or [sucrose acetate isobutyrate](/e444-sucrose-acetate-isobutyrate) as beverage weighting agents
-- [xanthan gum](/e415-xanthan-gum), [oxidised starch](/e1404-oxidised-starch), or [hydroxypropyl distarch phosphate](/e1442-hydroxypropyl-distarch-phosphate) for added stability and viscosity
+- [starch sodium octenyl succinate](/e1450-starch-sodium-octenyl-succinate){.additive} for flavor emulsions
+- [acacia gum](/e414-acacia-gum){.additive} (gum arabic) for beverage flavor emulsions
+- [glycerol esters of wood rosin](/e445-glycerol-esters-of-wood-rosin){.additive} or [sucrose acetate isobutyrate](/e444-sucrose-acetate-isobutyrate){.additive} as beverage weighting agents
+- [xanthan gum](/e415-xanthan-gum){.additive}, [oxidised starch](/e1404-oxidised-starch){.additive}, or [hydroxypropyl distarch phosphate](/e1442-hydroxypropyl-distarch-phosphate){.additive} for added stability and viscosity
 
 ## How is starch aluminium octenyl succinate made?
 E1452 is produced by first reacting edible starch with octenyl succinic anhydride to form octenyl succinate groups on the starch. The material is then converted to its aluminium form, creating a starch that can bind and stabilise oil droplets in water. Its identity, production method, and purity criteria are laid out in EU specifications.[^1]
@@ -39,7 +39,7 @@ Most people do not need to avoid this additive. If you have been advised to limi
 
 ## Myths & facts
 - “Aluminium additives are always unsafe.” Fact: E1452 has been assessed by EFSA, which found no safety concern at reported uses and levels in food.[^2]
-- “It’s the same thing as E1450.” Fact: E1452 is the aluminium form, while [starch sodium octenyl succinate](/e1450-starch-sodium-octenyl-succinate) is the sodium form; both are modified starch emulsifiers but are not identical.
+- “It’s the same thing as E1450.” Fact: E1452 is the aluminium form, while [starch sodium octenyl succinate](/e1450-starch-sodium-octenyl-succinate){.additive} is the sodium form; both are modified starch emulsifiers but are not identical.
 - “There are no standards for it.” Fact: In the EU, E1452 must meet detailed identity and purity specifications before it can be used in foods.[^1]
 
 ## Starch aluminium octenyl succinate in branded foods

@@ -3,11 +3,11 @@ Potassium fumarate (E366) is the potassium salt of fumaric acid, a naturally occ
 <!--more-->
 
 ## At a glance
-- What it is: The potassium salt of [fumaric acid](/e297-fumaric-acid), used to control acidity and add a clean, tart taste.
+- What it is: The potassium salt of [fumaric acid](/e297-fumaric-acid){.additive}, used to control acidity and add a clean, tart taste.
 - What it does: Stabilizes pH, supports flavor, and can replace sodium-based acidulants when a low-sodium recipe is needed.
 - Where it’s used: Drinks, flavored waters, confectionery, bakery fillings, sauces, and similar foods where gentle tartness and buffering are useful.
 - Regulatory status: Listed in the European Union’s Union list of food additives as E366 and subject to purity specifications. [^1] [^2]
-- Typical alternatives: [Fumaric acid](/e297-fumaric-acid), [citric acid](/e330-citric-acid), [malic acid](/e296-malic-acid), and other fumarate salts.
+- Typical alternatives: [Fumaric acid](/e297-fumaric-acid){.additive}, [citric acid](/e330-citric-acid){.additive}, [malic acid](/e296-malic-acid){.additive}, and other fumarate salts.
 
 ## Why is Potassium fumarate added to food?
 Food makers add potassium fumarate to fine-tune acidity and to give a clean, slightly tart note without the sharper sourness of some other acids. As a buffering agent, it helps keep pH steady so flavor and texture remain consistent over shelf life. In recipes that aim to reduce sodium, the potassium salt can stand in for sodium-based options while providing similar functionality. [^1]
@@ -24,11 +24,11 @@ Authorized uses and levels are set out in the European Union’s Union list of f
 
 ## What can replace Potassium fumarate?
 Depending on the recipe and target taste:
-- For stronger sourness: [citric acid](/e330-citric-acid) or [malic acid](/e296-malic-acid)
-- For similar function with different cations: [sodium fumarate](/e365-sodium-fumarate) or [calcium fumarate](/e367-calcium-fumarate)
-- For direct acid form: [fumaric acid](/e297-fumaric-acid) itself
-- For pH control in low-sodium formulas: [potassium citrates](/e332-potassium-citrates)
-When leavening is needed in baked goods, fumarates can be paired with baking soda like [sodium bicarbonate](/e500ii-sodium-bicarbonate) to release carbon dioxide.
+- For stronger sourness: [citric acid](/e330-citric-acid){.additive} or [malic acid](/e296-malic-acid){.additive}
+- For similar function with different cations: [sodium fumarate](/e365-sodium-fumarate){.additive} or [calcium fumarate](/e367-calcium-fumarate){.additive}
+- For direct acid form: [fumaric acid](/e297-fumaric-acid){.additive} itself
+- For pH control in low-sodium formulas: [potassium citrates](/e332-potassium-citrates){.additive}
+When leavening is needed in baked goods, fumarates can be paired with baking soda like [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive} to release carbon dioxide.
 
 ## How is Potassium fumarate made?
 Commercially, potassium fumarate is produced by neutralizing food-grade fumaric acid (E297) with a potassium base, such as potassium hydroxide or potassium carbonate, followed by drying and milling to the required particle size. Its composition and purity (including limits for impurities) must meet the European Union specifications for E366. [^2]

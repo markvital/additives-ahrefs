@@ -14,7 +14,7 @@ Here is the quick profile of pectin amide.
 - On labels you might see: “pectin amide,” “amidated pectin,” “E440b,” or “E440ii”
 
 ## Why is pectin amide added to food?
-Food makers use pectin amide to build body, create gels, and prevent separation. Compared with regular [pectin](/e440-pectins), it can gel at lower sugar levels and is especially good at forming calcium-set, heat-reversible gels—useful for low-sugar jams, fruit preparations, and creamy desserts.[^2]
+Food makers use pectin amide to build body, create gels, and prevent separation. Compared with regular [pectin](/e440-pectins){.additive}, it can gel at lower sugar levels and is especially good at forming calcium-set, heat-reversible gels—useful for low-sugar jams, fruit preparations, and creamy desserts.[^2]
 
 ## What foods contain pectin amide?
 You’ll most often find it in:
@@ -25,12 +25,12 @@ You’ll most often find it in:
 
 ## What can replace pectin amide?
 Alternatives depend on the texture and processing you need:
-- For smooth thickening: [xanthan gum](/e415-xanthan-gum) or [guar gum](/e412-guar-gum)
-- For firm gels: [gellan gum](/e418-gellan-gum), [agar](/e406-agar), or [carrageenan](/e407-carrageenan)
-- For fruit systems and dairy synergy: [locust bean gum](/e410-locust-bean-gum)
-- For acidic gels and beverages: [processed eucheuma seaweed](/e407a-processed-eucheuma-seaweed)
-- For body and viscosity: [modified starches](/e14xx-modified-starch)
-- For a direct counterpart: non‑amidated [pectin](/e440a-pectin) or [non‑amidated pectines](/e440i-non-amidated-pectines)
+- For smooth thickening: [xanthan gum](/e415-xanthan-gum){.additive} or [guar gum](/e412-guar-gum){.additive}
+- For firm gels: [gellan gum](/e418-gellan-gum){.additive}, [agar](/e406-agar){.additive}, or [carrageenan](/e407-carrageenan){.additive}
+- For fruit systems and dairy synergy: [locust bean gum](/e410-locust-bean-gum){.additive}
+- For acidic gels and beverages: [processed eucheuma seaweed](/e407a-processed-eucheuma-seaweed){.additive}
+- For body and viscosity: [modified starches](/e14xx-modified-starch){.additive}
+- For a direct counterpart: non‑amidated [pectin](/e440a-pectin){.additive} or [non‑amidated pectines](/e440i-non-amidated-pectines){.additive}
 
 ## How is pectin amide made?
 Manufacturers first extract pectin from citrus peels or apple pomace. They then partially convert (amidate) some of the pectin’s carboxyl groups by treating it with ammonia, producing “amidated pectin.” The degree of amidation is controlled and, by specification, does not exceed about one-quarter of the available carboxyl groups, which helps fine‑tune gel behavior.[^4] Ethanol or isopropanol may be used during processing and purification, and specifications limit residuals and set quality criteria such as galacturonic acid content, ash, and loss on drying.[^2]

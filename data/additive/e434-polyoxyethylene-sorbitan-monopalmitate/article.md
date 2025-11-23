@@ -24,9 +24,9 @@ Because it works well with both fats and water, it appears across many shelf-sta
 
 ## What can replace Polyoxyethylene sorbitan monopalmitate?
 Suitable alternatives depend on the recipe and processing method. Common stand-ins include:
-- Other emulsifiers: [lecithins](/e322-lecithins), [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids), [sorbitan monostearate](/e491-sorbitan-monostearate), and [sucrose esters of fatty acids](/e473-sucrose-esters-of-fatty-acids)
-- Texture agents that help stabilize water–oil systems: [xanthan gum](/e415-xanthan-gum), [sodium alginate](/e401-sodium-alginate)
-- Specialized emulsifiers for chocolate and fillings: [polyglycerol polyricinoleate](/e476-polyglycerol-polyricinoleate)
+- Other emulsifiers: [lecithins](/e322-lecithins){.additive}, [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive}, [sorbitan monostearate](/e491-sorbitan-monostearate){.additive}, and [sucrose esters of fatty acids](/e473-sucrose-esters-of-fatty-acids){.additive}
+- Texture agents that help stabilize water–oil systems: [xanthan gum](/e415-xanthan-gum){.additive}, [sodium alginate](/e401-sodium-alginate){.additive}
+- Specialized emulsifiers for chocolate and fillings: [polyglycerol polyricinoleate](/e476-polyglycerol-polyricinoleate){.additive}
 
 Formulators usually test a few options to match the original mouthfeel and stability.
 
@@ -59,10 +59,10 @@ If you have questions about your personal tolerance, speak with a healthcare pro
 - Myth: Polysorbate 40 and polysorbate 80 are identical. Fact: Both are polysorbates but have different fatty acid parts (palmitate vs. oleate), which can change how they behave in recipes.
 - Myth: E-numbers mean “unsafe chemicals.” Fact: E-numbers are EU codes for approved additives; they pass safety evaluations and have purity standards.
 - Myth: Polysorbates are antifreeze. Fact: They are food emulsifiers. “Antifreeze” products use different chemicals for entirely different purposes.
-- Myth: You can’t avoid it. Fact: Many products don’t use polysorbates; look for alternatives that use [lecithins](/e322-lecithins) or gums.
+- Myth: You can’t avoid it. Fact: Many products don’t use polysorbates; look for alternatives that use [lecithins](/e322-lecithins){.additive} or gums.
 
 ## Polyoxyethylene sorbitan monopalmitate in branded foods
-On labels, look for “polysorbate 40,” “polyoxyethylene sorbitan monopalmitate,” or “E434.” Ingredient lists often group it with other emulsifiers and stabilizers. You’re most likely to see it in frozen desserts, whipped toppings, creamers, sauces, and some baked goods. If you prefer to avoid it, choose products that rely on alternatives like [lecithins](/e322-lecithins), [xanthan gum](/e415-xanthan-gum), or [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids).
+On labels, look for “polysorbate 40,” “polyoxyethylene sorbitan monopalmitate,” or “E434.” Ingredient lists often group it with other emulsifiers and stabilizers. You’re most likely to see it in frozen desserts, whipped toppings, creamers, sauces, and some baked goods. If you prefer to avoid it, choose products that rely on alternatives like [lecithins](/e322-lecithins){.additive}, [xanthan gum](/e415-xanthan-gum){.additive}, or [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive}.
 
 ## References
 [^1]: Polysorbate 40 — PubChem (NIH). https://pubchem.ncbi.nlm.nih.gov/compound/Polysorbate-40

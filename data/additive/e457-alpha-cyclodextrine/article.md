@@ -22,9 +22,9 @@ You might find E457 in:
 
 ## What can replace Alpha-Cyclodextrine?
 Alternatives depend on the job it’s doing:
-- For stabilising emulsions or flavors: [beta-cyclodextrine](/e459-beta-cyclodextrine) or [gamma-cyclodextrine](/e458-gamma-cyclodextrine)
-- For thickening or mouthfeel: [xanthan gum](/e415-xanthan-gum), [guar gum](/e412-guar-gum), [locust bean gum](/e410-locust-bean-gum), [carrageenan](/e407-carrageenan), [cellulose](/e460-cellulose), [pectins](/e440-pectins), or [acacia gum](/e414-acacia-gum)
-- For encapsulating flavors in powders: [starch sodium octenyl succinate](/e1450-starch-sodium-octenyl-succinate) or [polydextrose](/e1200-polydextrose)
+- For stabilising emulsions or flavors: [beta-cyclodextrine](/e459-beta-cyclodextrine){.additive} or [gamma-cyclodextrine](/e458-gamma-cyclodextrine){.additive}
+- For thickening or mouthfeel: [xanthan gum](/e415-xanthan-gum){.additive}, [guar gum](/e412-guar-gum){.additive}, [locust bean gum](/e410-locust-bean-gum){.additive}, [carrageenan](/e407-carrageenan){.additive}, [cellulose](/e460-cellulose){.additive}, [pectins](/e440-pectins){.additive}, or [acacia gum](/e414-acacia-gum){.additive}
+- For encapsulating flavors in powders: [starch sodium octenyl succinate](/e1450-starch-sodium-octenyl-succinate){.additive} or [polydextrose](/e1200-polydextrose){.additive}
 
 ## How is Alpha-Cyclodextrine made?
 Alpha-cyclodextrin is produced from starch using a specific enzyme, cyclodextrin glucanotransferase (CGTase). After conversion, the product is purified so it meets the official specification for E457 in the European Union.[^1] Chemically, it is a six-glucose ring (a cyclic oligosaccharide) linked by α-1,4 bonds.[^2]
@@ -42,7 +42,7 @@ Most people can consume foods containing E457 without issue. If you have been ad
 
 ## Myths & facts
 - Myth: “Alpha-cyclodextrin is an artificial sweetener.” Fact: It is not a sweetener; it is a stabiliser/thickener used for texture and flavor protection.
-- Myth: “E457 and E459 are the same.” Fact: E457 is alpha-cyclodextrin; [E459 is beta-cyclodextrine](/e459-beta-cyclodextrine). They are related but not identical and can behave differently in foods.
+- Myth: “E457 and E459 are the same.” Fact: E457 is alpha-cyclodextrin; [E459 is beta-cyclodextrine](/e459-beta-cyclodextrine){.additive}. They are related but not identical and can behave differently in foods.
 - Myth: “It’s a preservative.” Fact: E457 does not directly preserve food; it helps stabilise ingredients so flavors and textures last as intended.
 
 ## Alpha-Cyclodextrine in branded foods

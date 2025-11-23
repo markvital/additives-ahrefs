@@ -24,9 +24,9 @@ In the European Union, E340 is permitted in many food categories with specific m
 
 ## What can replace Potassium phosphates?
 Alternatives depend on the job you need done:
-- For acidity control and buffering: [sodium phosphates](/e339-sodium-phosphates), [calcium phosphates](/e341-calcium-phosphates), [sodium citrates](/e331-sodium-citrates), or [citric acid](/e330-citric-acid)
-- For emulsifying and stabilizing proteins: [polyphosphates](/e452-polyphosphates), [diphosphates](/e450-diphosphates), or [phosphoric acid](/e338-phosphoric-acid) in combination with other salts
-- For leavening systems or pH adjustments in baking: [potassium carbonates](/e501-potassium-carbonates)
+- For acidity control and buffering: [sodium phosphates](/e339-sodium-phosphates){.additive}, [calcium phosphates](/e341-calcium-phosphates){.additive}, [sodium citrates](/e331-sodium-citrates){.additive}, or [citric acid](/e330-citric-acid){.additive}
+- For emulsifying and stabilizing proteins: [polyphosphates](/e452-polyphosphates){.additive}, [diphosphates](/e450-diphosphates){.additive}, or [phosphoric acid](/e338-phosphoric-acid){.additive} in combination with other salts
+- For leavening systems or pH adjustments in baking: [potassium carbonates](/e501-potassium-carbonates){.additive}
 
 ## How is Potassium phosphates made?
 Food-grade potassium phosphates are produced by neutralizing purified phosphoric acid with potassium bases such as potassium hydroxide or potassium carbonate. Adjusting the ratio during neutralization yields the three common salts: monopotassium phosphate (KH2PO4), dipotassium phosphate (K2HPO4), or tripotassium phosphate (K3PO4). After reaction, the product is filtered and crystallized to meet food specifications.[^2]

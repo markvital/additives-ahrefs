@@ -24,10 +24,10 @@ On ingredient lists, it may appear as “disodium phosphate,” “disodium hydr
 
 ## What can replace Disodium phosphate?
 Possible substitutes depend on the job it performs:
-- For cheese emulsification: [sodium citrate](/e331-sodium-citrates) or [trisodium phosphate](/e339iii-trisodium-phosphate) can play similar roles in some recipes.[^1]
-- For acidity and buffering: [citric acid](/e330-citric-acid), [phosphoric acid](/e338-phosphoric-acid), or [monosodium phosphate](/e339i-monosodium-phosphate) may be used.
-- For mineral binding or stabilising: other phosphate salts such as [diphosphates](/e450-diphosphates), [triphosphates](/e451-triphosphates), or [polyphosphates](/e452-polyphosphates); or non‑phosphate options like [sodium bicarbonate](/e500ii-sodium-bicarbonate) with [citric acid](/e330-citric-acid) in leavening systems.
-- For sodium reduction: potassium alternatives such as [potassium phosphates](/e340-potassium-phosphates) are sometimes chosen.
+- For cheese emulsification: [sodium citrate](/e331-sodium-citrates){.additive} or [trisodium phosphate](/e339iii-trisodium-phosphate){.additive} can play similar roles in some recipes.[^1]
+- For acidity and buffering: [citric acid](/e330-citric-acid){.additive}, [phosphoric acid](/e338-phosphoric-acid){.additive}, or [monosodium phosphate](/e339i-monosodium-phosphate){.additive} may be used.
+- For mineral binding or stabilising: other phosphate salts such as [diphosphates](/e450-diphosphates){.additive}, [triphosphates](/e451-triphosphates){.additive}, or [polyphosphates](/e452-polyphosphates){.additive}; or non‑phosphate options like [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive} with [citric acid](/e330-citric-acid){.additive} in leavening systems.
+- For sodium reduction: potassium alternatives such as [potassium phosphates](/e340-potassium-phosphates){.additive} are sometimes chosen.
 
 ## How is Disodium phosphate made?
 Food‑grade disodium phosphate is typically produced by neutralising food‑grade phosphoric acid with sodium hydroxide or sodium carbonate, followed by crystallisation and drying to meet purity specifications.[^3] It is sold as anhydrous or hydrated crystals; all forms dissolve readily in water and have a mildly alkaline reaction.[^4]

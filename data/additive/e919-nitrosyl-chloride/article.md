@@ -7,7 +7,7 @@ Nitrosyl chloride (E919) is a reactive, yellow gas made of nitrogen, oxygen, and
 - Food role: Intended as a flour treatment/bleaching agent to modify flour and dough properties.
 - Where it’s found: Not authorized as a food additive in the European Union; unlikely to appear on modern retail labels.
 - Safety: Corrosive, toxic by inhalation, and irritating to eyes and lungs; handled only with industrial safeguards.
-- Common substitutes: Other flour improvers such as [ascorbic acid](/e300-ascorbic-acid), [L-cysteine](/e920-l-cysteine), enzymes like [alpha-amylase](/e1100-alpha-amylase), and, in some jurisdictions, agents like [chlorine dioxide](/e926-chlorine-dioxide) or [benzoyl peroxide](/e928-benzole-peroxide).
+- Common substitutes: Other flour improvers such as [ascorbic acid](/e300-ascorbic-acid){.additive}, [L-cysteine](/e920-l-cysteine){.additive}, enzymes like [alpha-amylase](/e1100-alpha-amylase){.additive}, and, in some jurisdictions, agents like [chlorine dioxide](/e926-chlorine-dioxide){.additive} or [benzoyl peroxide](/e928-benzole-peroxide){.additive}.
 
 ## Why is Nitrosyl chloride added to food?
 When it has been considered for food use, nitrosyl chloride’s role is as a flour treatment and bleaching agent. Flour treatment agents are added to improve dough handling and baking performance, while bleaching agents are used to whiten or decolorize foods through chemical reactions.[^3] In principle, such agents can speed up flour maturation and influence dough strength and loaf volume, which is why millers and bakers rely on this functional class (using permitted substances) rather than extended flour aging.[^3]
@@ -17,11 +17,11 @@ Under the European Union’s “Union list” of permitted food additives, E-num
 
 ## What can replace Nitrosyl chloride?
 Bakers and millers have many established alternatives, chosen according to local regulations and desired effects:
-- Oxidizing and dough-strengthening agents: [ascorbic acid](/e300-ascorbic-acid)[^4]
-- Reducing agents for dough extensibility: [L-cysteine](/e920-l-cysteine)
-- Enzyme systems for dough performance: [alpha-amylase](/e1100-alpha-amylase)
-- Bleaching/oxidizing agents where allowed: [chlorine dioxide](/e926-chlorine-dioxide), [chlorine](/e925-chlorine), [benzoyl peroxide](/e928-benzole-peroxide), or [ammonium persulfate](/e923-ammonium-persulfate)
-- Legacy or jurisdiction-specific improvers: [azodicarbonamide](/e927a-azodicarbonamide), [potassium bromate](/e924a-potassium-bromate)
+- Oxidizing and dough-strengthening agents: [ascorbic acid](/e300-ascorbic-acid){.additive}[^4]
+- Reducing agents for dough extensibility: [L-cysteine](/e920-l-cysteine){.additive}
+- Enzyme systems for dough performance: [alpha-amylase](/e1100-alpha-amylase){.additive}
+- Bleaching/oxidizing agents where allowed: [chlorine dioxide](/e926-chlorine-dioxide){.additive}, [chlorine](/e925-chlorine){.additive}, [benzoyl peroxide](/e928-benzole-peroxide){.additive}, or [ammonium persulfate](/e923-ammonium-persulfate){.additive}
+- Legacy or jurisdiction-specific improvers: [azodicarbonamide](/e927a-azodicarbonamide){.additive}, [potassium bromate](/e924a-potassium-bromate){.additive}
 
 Always check your market’s rules, as permissions differ widely.
 
@@ -32,7 +32,7 @@ Industrially, nitrosyl chloride is commonly produced by reacting nitric oxide (N
 Nitrosyl chloride is not intended for direct consumer exposure. It is a corrosive, toxic gas that can severely irritate or damage the respiratory tract and eyes on inhalation or contact, requiring strict industrial controls.[^1] As a food additive, it is not on the European Union’s list of authorized substances, so it cannot be used in EU foods.[^2] Other jurisdictions set their own rules, but given the material’s hazards, food-grade use—if permitted at all—is tightly restricted to controlled processes.
 
 ## Does Nitrosyl chloride have any benefits?
-In theory, its benefits are the general benefits of flour treatment and bleaching agents: faster flour “maturation,” whiter flour color, and adjustments to dough handling and loaf volume.[^3] In practice, modern flour technology achieves these effects with other authorized agents, notably [ascorbic acid](/e300-ascorbic-acid), which EFSA, the European Food Safety Authority, recognizes as a dough improver in the EU.[^4]
+In theory, its benefits are the general benefits of flour treatment and bleaching agents: faster flour “maturation,” whiter flour color, and adjustments to dough handling and loaf volume.[^3] In practice, modern flour technology achieves these effects with other authorized agents, notably [ascorbic acid](/e300-ascorbic-acid){.additive}, which EFSA, the European Food Safety Authority, recognizes as a dough improver in the EU.[^4]
 
 ## Who should avoid Nitrosyl chloride?
 - Consumers are not expected to encounter nitrosyl chloride directly in foods in the EU, where it is not authorized.[^2]

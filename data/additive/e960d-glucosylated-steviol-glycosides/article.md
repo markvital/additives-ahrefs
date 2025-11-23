@@ -7,7 +7,7 @@ Glucosylated steviol glycosides (E960D) are high‑intensity sweeteners made by 
 - What it does: Sweetens with a cleaner taste and better solubility than standard stevia
 - Where it’s used: Soft drinks, flavored waters, yogurts, desserts, tabletop blends
 - Dietary notes: No animal ingredients; used at tiny amounts; suitable for sugar reduction
-- Also known as: E960D, glucosylated stevia; related to [steviol glycosides](/e960-steviol-glycosides)
+- Also known as: E960D, glucosylated stevia; related to [steviol glycosides](/e960-steviol-glycosides){.additive}
 
 ## Why is Glucosylated steviol glycosides added to food?
 Food makers use E960D to get a rounder, less bitter stevia taste, especially in acidic or high‑water foods like soft drinks. The added glucose units make the molecules easier to dissolve and help mask lingering aftertaste, so less flavor juggling is needed to cut sugar while keeping a clean, sweet profile.[^1]
@@ -18,15 +18,15 @@ You’ll most often find E960D in:
 - Light yogurts, dairy desserts, and puddings
 - Sugar‑reduced jams, sauces, and syrups
 - Confectionery, chewing gum, and mints
-- Tabletop sweeteners, often blended with bulkers like [erythritol](/e968-erythritol)
+- Tabletop sweeteners, often blended with bulkers like [erythritol](/e968-erythritol){.additive}
 
 On labels, look for “glucosylated steviol glycosides,” “glucosylated stevia,” “enzyme‑modified stevia,” or “E 960d.”[^1]
 
 ## What can replace Glucosylated steviol glycosides?
 Depending on the recipe, formulators might swap in:
-- Other stevia types: [steviol glycosides](/e960-steviol-glycosides) or [enzymatically produced steviol glycosides](/e960c-enzymatically-produced-steviol-glycosides)
-- High‑intensity sweeteners: [sucralose](/e955-sucralose), [acesulfame K](/e950-acesulfame-k), [aspartame](/e951-aspartame), [neotame](/e961-neotame), [advantame](/e969-advantame)
-- Polyol bulk sweeteners: [erythritol](/e968-erythritol)
+- Other stevia types: [steviol glycosides](/e960-steviol-glycosides){.additive} or [enzymatically produced steviol glycosides](/e960c-enzymatically-produced-steviol-glycosides){.additive}
+- High‑intensity sweeteners: [sucralose](/e955-sucralose){.additive}, [acesulfame K](/e950-acesulfame-k){.additive}, [aspartame](/e951-aspartame){.additive}, [neotame](/e961-neotame){.additive}, [advantame](/e969-advantame){.additive}
+- Polyol bulk sweeteners: [erythritol](/e968-erythritol){.additive}
 
 Choice depends on desired taste, heat/pH stability, label goals, and regional rules.
 
@@ -45,7 +45,7 @@ In the European Union, glucosylated steviol glycosides are authorized as E 960d 
 
 ## Who should avoid Glucosylated steviol glycosides?
 - Anyone with a known sensitivity to stevia‑based sweeteners should avoid it.
-- If you are tracking carbs from blends, check labels: some tabletop products combine stevia sweeteners with polyols like [erythritol](/e968-erythritol) or other carriers.
+- If you are tracking carbs from blends, check labels: some tabletop products combine stevia sweeteners with polyols like [erythritol](/e968-erythritol){.additive} or other carriers.
 - For specific medical diets, follow your healthcare provider’s advice on sweeteners.
 
 ## Myths & facts
@@ -55,7 +55,7 @@ In the European Union, glucosylated steviol glycosides are authorized as E 960d 
 - Myth: It can’t handle acidic drinks. Fact: It’s commonly used in soft drinks and flavored waters.[^1]
 
 ## Glucosylated steviol glycosides in branded foods
-You may see E960D in sugar‑reduced sodas, no‑sugar iced teas, light yogurts, dairy desserts, chewing gum, and tabletop sweeteners. Labels might read “glucosylated steviol glycosides,” “glucosylated stevia,” “enzyme‑modified stevia,” or “E 960d.” Pairings with acids like [citric acid](/e330-citric-acid) and other sweeteners (for example, [erythritol](/e968-erythritol) or [sucralose](/e955-sucralose)) are common to fine‑tune taste and mouthfeel.
+You may see E960D in sugar‑reduced sodas, no‑sugar iced teas, light yogurts, dairy desserts, chewing gum, and tabletop sweeteners. Labels might read “glucosylated steviol glycosides,” “glucosylated stevia,” “enzyme‑modified stevia,” or “E 960d.” Pairings with acids like [citric acid](/e330-citric-acid){.additive} and other sweeteners (for example, [erythritol](/e968-erythritol){.additive} or [sucralose](/e955-sucralose){.additive}) are common to fine‑tune taste and mouthfeel.
 
 ## References
 [^1]: Commission Regulation (EU) 2021/1156 — amending the Union list as regards steviol glycosides (E 960). https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32021R1156

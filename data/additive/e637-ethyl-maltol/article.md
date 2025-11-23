@@ -24,10 +24,10 @@ Not every brand uses it, but when it is added, it is listed in the ingredient st
 
 ## What can replace Ethyl maltol?
 Alternatives depend on the goal:
-- Similar flavor note: [maltol](/e636-maltol) provides a related, toasty-caramel character.
-- More sweetness (without calories): high-intensity sweeteners such as [sucralose](/e955-sucralose) or [steviol glycosides](/e960-steviol-glycosides) can lift sweetness, though they do not copy ethyl maltol’s aroma.
-- More caramel color and some flavor depth: [caramel](/e150-caramel) can deepen color and add mild burnt-sugar notes.
-- For tart balance alongside sweetness: [citric acid](/e330-citric-acid) can sharpen fruit flavors while ethyl maltol-like notes provide roundness.
+- Similar flavor note: [maltol](/e636-maltol){.additive} provides a related, toasty-caramel character.
+- More sweetness (without calories): high-intensity sweeteners such as [sucralose](/e955-sucralose){.additive} or [steviol glycosides](/e960-steviol-glycosides){.additive} can lift sweetness, though they do not copy ethyl maltol’s aroma.
+- More caramel color and some flavor depth: [caramel](/e150-caramel){.additive} can deepen color and add mild burnt-sugar notes.
+- For tart balance alongside sweetness: [citric acid](/e330-citric-acid){.additive} can sharpen fruit flavors while ethyl maltol-like notes provide roundness.
 
 ## How is Ethyl maltol made?
 Food-grade ethyl maltol is produced by chemical synthesis and supplied as a pure ingredient for use in very small amounts. Manufacturers follow food-quality specifications and good manufacturing practice so the material meets purity, identity, and safety expectations for flavorings.

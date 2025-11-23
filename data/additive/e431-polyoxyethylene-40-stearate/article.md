@@ -29,9 +29,9 @@ Its use varies by country and by product style. Always check ingredient lists fo
 ## What can replace Polyoxyethylene (40) stearate?
 
 Depending on the recipe, formulators may switch to:
-- Other emulsifiers: [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids), [sucrose esters of fatty acids](/e473-sucrose-esters-of-fatty-acids), [polyglycerol polyricinoleate](/e476-polyglycerol-polyricinoleate), or [sorbitan monostearate](/e491-sorbitan-monostearate)
-- Polysorbates: for example, [polysorbate 20](/e432-polyoxyethylene-sorbitan-monolaurate), [polysorbate 60](/e435-polyoxyethylene-sorbitan-monostearate), or [polysorbate 80](/e433-polyoxyethylene-sorbitan-monooleate)
-- Stabilizers and thickeners to support texture: [lecithins](/e322-lecithins), [xanthan gum](/e415-xanthan-gum), or [gum arabic](/e414-acacia-gum)
+- Other emulsifiers: [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive}, [sucrose esters of fatty acids](/e473-sucrose-esters-of-fatty-acids){.additive}, [polyglycerol polyricinoleate](/e476-polyglycerol-polyricinoleate){.additive}, or [sorbitan monostearate](/e491-sorbitan-monostearate){.additive}
+- Polysorbates: for example, [polysorbate 20](/e432-polyoxyethylene-sorbitan-monolaurate){.additive}, [polysorbate 60](/e435-polyoxyethylene-sorbitan-monostearate){.additive}, or [polysorbate 80](/e433-polyoxyethylene-sorbitan-monooleate){.additive}
+- Stabilizers and thickeners to support texture: [lecithins](/e322-lecithins){.additive}, [xanthan gum](/e415-xanthan-gum){.additive}, or [gum arabic](/e414-acacia-gum){.additive}
 
 The best choice depends on taste, mouthfeel, processing conditions, and labeling goals.
 

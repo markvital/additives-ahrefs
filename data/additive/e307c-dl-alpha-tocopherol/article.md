@@ -6,7 +6,7 @@ DL-Alpha-tocopherol (E307c) is a synthetic form of vitamin E used mainly as an a
 - What it is: The synthetic, racemic form of alpha‑tocopherol (vitamin E), often labeled “dl‑alpha‑tocopherol” or “all‑rac‑alpha‑tocopherol.”
 - What it does: Antioxidant that slows oxidation in fatty foods and oils.
 - Common in: Vegetable oils, snack foods, spreads, dressings, and fortified products.
-- E‑number family: Related to [alpha‑tocopherol](/e307-alpha-tocopherol) (E307), [d‑alpha‑tocopherol](/e307a-d-alpha-tocopherol) (E307a), and [tocopherol‑rich extract](/e306-tocopherol-rich-extract) (E306).
+- E‑number family: Related to [alpha‑tocopherol](/e307-alpha-tocopherol){.additive} (E307), [d‑alpha‑tocopherol](/e307a-d-alpha-tocopherol){.additive} (E307a), and [tocopherol‑rich extract](/e306-tocopherol-rich-extract){.additive} (E306).
 - Origin: Produced by chemical synthesis; not derived from animals.
 
 ## Why is DL-Alpha-tocopherol added to food?
@@ -17,11 +17,11 @@ You are most likely to see dl‑alpha‑tocopherol in foods that contain signifi
 
 ## What can replace DL-Alpha-tocopherol?
 Depending on the food and the goal, common alternatives include:
-- Other antioxidants like [butylated hydroxyanisole (BHA)](/e320-butylated-hydroxyanisole-bha) and [butylated hydroxytoluene (BHT)](/e321-butylated-hydroxytoluene).
-- Fat‑soluble options such as [ascorbyl palmitate](/e304i-ascorbyl-palmitate).
-- Natural extracts like [extracts of rosemary](/e392-extracts-of-rosemary).
-- Helper acids that improve antioxidant performance, such as [citric acid](/e330-citric-acid).
-- Other tocopherol forms, including [alpha‑tocopherol](/e307-alpha-tocopherol), [d‑alpha‑tocopherol](/e307a-d-alpha-tocopherol), or [tocopherol‑rich extract](/e306-tocopherol-rich-extract).
+- Other antioxidants like [butylated hydroxyanisole (BHA)](/e320-butylated-hydroxyanisole-bha){.additive} and [butylated hydroxytoluene (BHT)](/e321-butylated-hydroxytoluene){.additive}.
+- Fat‑soluble options such as [ascorbyl palmitate](/e304i-ascorbyl-palmitate){.additive}.
+- Natural extracts like [extracts of rosemary](/e392-extracts-of-rosemary){.additive}.
+- Helper acids that improve antioxidant performance, such as [citric acid](/e330-citric-acid){.additive}.
+- Other tocopherol forms, including [alpha‑tocopherol](/e307-alpha-tocopherol){.additive}, [d‑alpha‑tocopherol](/e307a-d-alpha-tocopherol){.additive}, or [tocopherol‑rich extract](/e306-tocopherol-rich-extract){.additive}.
 
 ## How is DL-Alpha-tocopherol made?
 DL‑alpha‑tocopherol (also called all‑rac‑alpha‑tocopherol) is produced by chemical synthesis. A common route couples trimethylhydroquinone with isophytol, followed by finishing steps to yield the antioxidant vitamin E compound. This synthetic process makes a mixture of stereoisomers, hence the “dl” designation.[^2]

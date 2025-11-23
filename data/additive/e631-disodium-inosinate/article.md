@@ -6,12 +6,12 @@ Disodium inosinate (E631) is a flavor enhancer that brings out a deep, savory �
 - What it is: the disodium salt of 5′-inosinic acid, used as a flavor enhancer that boosts umami.
 - E-number: E631; may appear on labels as “disodium inosinate” or “E631.”
 - Where it’s used: savory snacks, instant noodles, soups, sauces, spice mixes, and cured meats.
-- Common partners: often used with [monosodium glutamate](/e621-monosodium-glutamate) (MSG) and sometimes with [disodium guanylate](/e627-disodium-guanylate) or blends like [disodium 5-ribonucleotide](/e635-disodium-5-ribonucleotide).
+- Common partners: often used with [monosodium glutamate](/e621-monosodium-glutamate){.additive} (MSG) and sometimes with [disodium guanylate](/e627-disodium-guanylate){.additive} or blends like [disodium 5-ribonucleotide](/e635-disodium-5-ribonucleotide){.additive}.
 - Typical source: frequently made by microbial fermentation of plant sugars; sourcing can vary by manufacturer.
 - Regulation: permitted for use under U.S. and EU food additive rules and subject to purity specifications.
 
 ## Why is Disodium inosinate added to food?
-Disodium inosinate is added to lift savory, meaty notes—the umami taste. It is especially effective when combined with glutamates such as [monosodium glutamate](/e621-monosodium-glutamate), and may also be paired with [disodium guanylate](/e627-disodium-guanylate); together they create a stronger flavor impact than any one alone, so only tiny amounts are needed.[^1]
+Disodium inosinate is added to lift savory, meaty notes—the umami taste. It is especially effective when combined with glutamates such as [monosodium glutamate](/e621-monosodium-glutamate){.additive}, and may also be paired with [disodium guanylate](/e627-disodium-guanylate){.additive}; together they create a stronger flavor impact than any one alone, so only tiny amounts are needed.[^1]
 
 ## What foods contain Disodium inosinate?
 You’ll most often see E631 in:
@@ -24,7 +24,7 @@ You’ll most often see E631 in:
 It’s used where a pronounced savory profile is desired, sometimes alongside salt, spices, and other enhancers.
 
 ## What can replace Disodium inosinate?
-- Other flavor enhancers: [monosodium glutamate](/e621-monosodium-glutamate), [disodium guanylate](/e627-disodium-guanylate), or blends like [disodium 5-ribonucleotide](/e635-disodium-5-ribonucleotide).
+- Other flavor enhancers: [monosodium glutamate](/e621-monosodium-glutamate){.additive}, [disodium guanylate](/e627-disodium-guanylate){.additive}, or blends like [disodium 5-ribonucleotide](/e635-disodium-5-ribonucleotide){.additive}.
 - Ingredient-based options: yeast extract, tomato paste, mushroom powder, seaweed, aged cheese, or slow-cooked stocks—all naturally rich in umami.
 - Product reformulation: adjusting salt, acids, and spices to rebalance overall flavor.
 
@@ -45,7 +45,7 @@ In the United States, the Food and Drug Administration (FDA) lists disodium inos
 
 ## Myths & facts
 - Myth: “E631 is just another name for MSG.”  
-  Fact: It is a different compound. It’s often used with [monosodium glutamate](/e621-monosodium-glutamate) because they amplify each other’s umami effect.
+  Fact: It is a different compound. It’s often used with [monosodium glutamate](/e621-monosodium-glutamate){.additive} because they amplify each other’s umami effect.
 
 - Myth: “E631 is always from pork or fish.”  
   Fact: Many manufacturers produce E631 by microbial fermentation of plant sugars today. Sourcing can vary—ask the brand if you need to know.
@@ -57,7 +57,7 @@ In the United States, the Food and Drug Administration (FDA) lists disodium inos
   Fact: On its own it’s mild. Its main job is to boost other savory flavors at tiny amounts.
 
 ## Disodium inosinate in branded foods
-On ingredient lists, look for “disodium inosinate” or “E631.” You’ll often see it listed next to [monosodium glutamate](/e621-monosodium-glutamate) or [disodium guanylate](/e627-disodium-guanylate) in snack chips, instant noodle seasonings, canned soups, bouillon cubes, gravies, and some processed meats. The exact formulation differs by brand and product style.
+On ingredient lists, look for “disodium inosinate” or “E631.” You’ll often see it listed next to [monosodium glutamate](/e621-monosodium-glutamate){.additive} or [disodium guanylate](/e627-disodium-guanylate){.additive} in snack chips, instant noodle seasonings, canned soups, bouillon cubes, gravies, and some processed meats. The exact formulation differs by brand and product style.
 
 ## References
 [^1]: Re-evaluation of nucleotide salts (E 627, E 631, E 635) as food additives — European Food Safety Authority (EFSA). https://www.efsa.europa.eu/en/efsajournal/pub/4720

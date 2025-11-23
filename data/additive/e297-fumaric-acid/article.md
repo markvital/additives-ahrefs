@@ -20,18 +20,18 @@ You’ll most often see E297 in:
 - Gelatin desserts and gummy candies
 - Fruit fillings, jams, and pie fillings
 - Dry seasoning blends and coated snacks
-- Some baked goods as part of a leavening system with bases like [sodium bicarbonate](/e500ii-sodium-bicarbonate)
+- Some baked goods as part of a leavening system with bases like [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive}
 
 On ingredient lists, it will appear as “fumaric acid” or “E297.”
 
 ## What can replace Fumaric acid?
 If a recipe or product needs a different acid profile, makers may swap in:
-- [Citric acid](/e330-citric-acid) for a quick, citrus-like sour
-- [Malic acid](/e296-malic-acid) for a smooth, lingering tartness
-- [Lactic acid](/e270-lactic-acid) for gentle acidity in dairy-style foods
-- [Tartaric acid](/e334-l-tartaric-acid) for grape-like tartness, common in wine and baking
-- [Adipic acid](/e355-adipic-acid) for certain gels and confections
-- [Succinic acid](/e363-succinic-acid) for savory notes and buffering
+- [Citric acid](/e330-citric-acid){.additive} for a quick, citrus-like sour
+- [Malic acid](/e296-malic-acid){.additive} for a smooth, lingering tartness
+- [Lactic acid](/e270-lactic-acid){.additive} for gentle acidity in dairy-style foods
+- [Tartaric acid](/e334-l-tartaric-acid){.additive} for grape-like tartness, common in wine and baking
+- [Adipic acid](/e355-adipic-acid){.additive} for certain gels and confections
+- [Succinic acid](/e363-succinic-acid){.additive} for savory notes and buffering
 
 The best substitute depends on taste, pH target, and how quickly the acid should react in the formula.
 
@@ -51,7 +51,7 @@ GRAS means “Generally Recognized as Safe” based on scientific evidence and e
 For food makers, fumaric acid offers practical benefits:
 - Strong, clean sourness, so only small amounts are needed.
 - Good performance in dry mixes and seasonings because it is not very hygroscopic (doesn’t pull in water).
-- Useful in baking as a slow‑reacting acid that can pair with bases like [sodium bicarbonate](/e500ii-sodium-bicarbonate) for controlled leavening.
+- Useful in baking as a slow‑reacting acid that can pair with bases like [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive} for controlled leavening.
 
 These are technical benefits to product quality rather than health benefits.
 

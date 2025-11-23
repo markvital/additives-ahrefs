@@ -22,9 +22,9 @@ Label it may appear as “ammonium sulfate,” “ammonium sulphate,” or “E5
 
 ## What can replace Ammonium sulphate?
 Depending on the job it’s doing, bakers might use:
-- Yeast nutrients and dough conditioners such as [ammonium phosphate](/e342-ammonium-phosphate) or [monocalcium phosphate](/e341i-monocalcium-phosphate)
-- Acidity regulators like [citric acid](/e330-citric-acid) or [ascorbic acid](/e300-ascorbic-acid) to fine‑tune dough behavior
-- Leavening system components such as [calcium sulphate](/e516-calcium-sulphate) or [sodium bicarbonate](/e500ii-sodium-bicarbonate), depending on the formula
+- Yeast nutrients and dough conditioners such as [ammonium phosphate](/e342-ammonium-phosphate){.additive} or [monocalcium phosphate](/e341i-monocalcium-phosphate){.additive}
+- Acidity regulators like [citric acid](/e330-citric-acid){.additive} or [ascorbic acid](/e300-ascorbic-acid){.additive} to fine‑tune dough behavior
+- Leavening system components such as [calcium sulphate](/e516-calcium-sulphate){.additive} or [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive}, depending on the formula
 
 ## How is Ammonium sulphate made?
 Food‑grade ammonium sulphate is typically produced by reacting ammonia with sulfuric acid to form crystals, followed by purification and drying.[^3] In the EU, E517 must meet identity and purity specifications set in Commission Regulation (EU) No 231/2012, which describes the required characteristics for food use.[^2]
@@ -45,7 +45,7 @@ There is no general requirement for healthy consumers to avoid E517. If you have
 
 ## Myths & facts
 - “It’s a fertilizer, so it can’t be food.” Fertilizer-grade and food‑grade are not the same. Food‑grade ammonium sulphate must meet strict identity and purity specifications when used as E517.[^2]
-- “It’s the same as baking ammonia.” Not quite. “Baking ammonia” is typically [ammonium carbonates](/e503-ammonium-carbonates), a different leavening ingredient with different properties.
+- “It’s the same as baking ammonia.” Not quite. “Baking ammonia” is typically [ammonium carbonates](/e503-ammonium-carbonates){.additive}, a different leavening ingredient with different properties.
 
 ## Ammonium sulphate in branded foods
 You may find E517 on the ingredient lists of sliced breads, rolls, and baking mixes from major supermarket brands. It tends to appear in small amounts alongside yeast, flour treatments, and other dough conditioners. To check, read the ingredient list for “ammonium sulfate,” “ammonium sulphate,” or “E517.”

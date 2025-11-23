@@ -24,9 +24,9 @@ On ingredient lists it can appear as “acetylated distarch phosphate,” “E14
 
 ## What can replace acetylated distarch phosphate?
 Alternatives depend on the recipe and process:
-- Other modified starches: [distarch phosphate](/e1412-distarch-phosphate), [acetylated starch](/e1420-acetylated-starch), or [hydroxypropyl distarch phosphate](/e1442-hydroxypropyl-distarch-phosphate) for heat/acid or freeze–thaw stability
-- Gums and hydrocolloids: [xanthan gum](/e415-xanthan-gum), [guar gum](/e412-guar-gum), or [carrageenan](/e407-carrageenan) to build viscosity or gel structure
-- Other modified starch types: [oxidised starch](/e1404-oxidised-starch) or [phosphated distarch phosphate](/e1413-phosphated-distarch-phosphate) for specific textures
+- Other modified starches: [distarch phosphate](/e1412-distarch-phosphate){.additive}, [acetylated starch](/e1420-acetylated-starch){.additive}, or [hydroxypropyl distarch phosphate](/e1442-hydroxypropyl-distarch-phosphate){.additive} for heat/acid or freeze–thaw stability
+- Gums and hydrocolloids: [xanthan gum](/e415-xanthan-gum){.additive}, [guar gum](/e412-guar-gum){.additive}, or [carrageenan](/e407-carrageenan){.additive} to build viscosity or gel structure
+- Other modified starch types: [oxidised starch](/e1404-oxidised-starch){.additive} or [phosphated distarch phosphate](/e1413-phosphated-distarch-phosphate){.additive} for specific textures
 
 ## How is acetylated distarch phosphate made?
 E1414 starts with edible starch (often corn, potato, wheat, or tapioca). The starch is treated with permitted reagents to add:

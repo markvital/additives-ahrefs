@@ -5,7 +5,7 @@ Magnesium lactate (E329) is the magnesium salt of lactic acid. It helps keep foo
 ## At a glance
 Here are the essentials.
 
-- What it is: The magnesium salt of [lactic acid](/e270-lactic-acid)
+- What it is: The magnesium salt of [lactic acid](/e270-lactic-acid){.additive}
 - What it does: Acidity regulator (buffer) and source of magnesium
 - Where it’s found: Fortified drinks and foods, powders or tablets, some baked goods and confections
 - Dietary notes: Typically vegan-friendly; commercial lactic acid is usually made by fermenting sugars, not from milk
@@ -13,7 +13,7 @@ Here are the essentials.
 - Status: Authorized in the EU with specifications; used in line with national regulations elsewhere
 
 ## Why is Magnesium lactate added to food?
-Food makers use magnesium lactate to control acidity, which helps keep flavor and texture consistent over shelf life. As a magnesium source, it can also be added to fortify foods or beverages and to make chewable or swallowable tablets that deliver magnesium. When used as a buffer, it pairs well with other acids and salts such as [citric acid](/e330-citric-acid) and its salts to steady pH in recipes.
+Food makers use magnesium lactate to control acidity, which helps keep flavor and texture consistent over shelf life. As a magnesium source, it can also be added to fortify foods or beverages and to make chewable or swallowable tablets that deliver magnesium. When used as a buffer, it pairs well with other acids and salts such as [citric acid](/e330-citric-acid){.additive} and its salts to steady pH in recipes.
 
 ## What foods contain Magnesium lactate?
 You might see E329 on labels of:
@@ -26,9 +26,9 @@ In the European Union, authorized food categories and maximum levels for E329 ca
 
 ## What can replace Magnesium lactate?
 Alternatives depend on the job you need done:
-- For acidity regulation or buffering: [citric acid](/e330-citric-acid) or its salts such as [sodium citrates](/e331-sodium-citrates)
-- For magnesium fortification: [magnesium chloride](/e511-magnesium-chloride), [magnesium sulfate](/e518-magnesium-sulphate), or [magnesium oxide](/e530-magnesium-oxide)
-- For lactate-based functionality without magnesium: [sodium lactate](/e325-sodium-lactate), [potassium lactate](/e326-potassium-lactate), or [calcium lactate](/e327-calcium-lactate)
+- For acidity regulation or buffering: [citric acid](/e330-citric-acid){.additive} or its salts such as [sodium citrates](/e331-sodium-citrates){.additive}
+- For magnesium fortification: [magnesium chloride](/e511-magnesium-chloride){.additive}, [magnesium sulfate](/e518-magnesium-sulphate){.additive}, or [magnesium oxide](/e530-magnesium-oxide){.additive}
+- For lactate-based functionality without magnesium: [sodium lactate](/e325-sodium-lactate){.additive}, [potassium lactate](/e326-potassium-lactate){.additive}, or [calcium lactate](/e327-calcium-lactate){.additive}
 
 Each substitute changes taste, solubility, and pH behavior, so formulators often test small batches first.
 

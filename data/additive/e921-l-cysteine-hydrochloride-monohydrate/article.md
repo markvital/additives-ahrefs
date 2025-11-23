@@ -25,12 +25,12 @@ Not every bakery uses it. Many artisan or “clean label” products avoid dough
 ## What can replace L-cysteine hydrochloride monohydrate?
 Depending on the goal, bakers may use:
 - L-cysteine (E920) itself as a similar reducing dough conditioner
-- [Sodium metabisulphite](/e223-sodium-metabisulphite) (a strong reducing agent, more common in crackers/biscuits)
-- [Ascorbic acid](/e300-ascorbic-acid) (strengthens dough rather than softening it, but often used to improve volume and crumb)
-- Bakery enzymes such as [alpha-amylase](/e1100-alpha-amylase) or [protease](/e1101-protease)
-- Emulsifiers like [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids) for softness
+- [Sodium metabisulphite](/e223-sodium-metabisulphite){.additive} (a strong reducing agent, more common in crackers/biscuits)
+- [Ascorbic acid](/e300-ascorbic-acid){.additive} (strengthens dough rather than softening it, but often used to improve volume and crumb)
+- Bakery enzymes such as [alpha-amylase](/e1100-alpha-amylase){.additive} or [protease](/e1101-protease){.additive}
+- Emulsifiers like [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive} for softness
 - Process changes (longer hydration, autolyse, mixing profiles) instead of an additive
-- In some markets and applications, [azodicarbonamide](/e927a-azodicarbonamide) has been used as a dough conditioner
+- In some markets and applications, [azodicarbonamide](/e927a-azodicarbonamide){.additive} has been used as a dough conditioner
 
 Each alternative behaves differently, so results vary.
 

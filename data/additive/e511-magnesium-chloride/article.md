@@ -24,10 +24,10 @@ Its use and maximum levels depend on the food category and local rules.[^1][^5]
 
 ## What can replace magnesium chloride?
 It depends on the job you want done:
-- Tofu coagulant: [calcium sulfate](/e516-calcium-sulphate) (traditional “gypsum” tofu), [calcium chloride](/e509-calcium-chloride), or acid-set styles using [glucono delta-lactone](/e575-glucono-delta-lactone).
-- Firming agent for fruits/vegetables: [calcium chloride](/e509-calcium-chloride) is the most common stand-in; mild acidification with [citric acid](/e330-citric-acid) can also help.
-- Texture building or gel formation in other foods: hydrocolloids such as [sodium alginate](/e401-sodium-alginate) may be used, often with calcium salts, though the texture will differ.
-- Electrolyte/mineral replacement: potassium salts such as [potassium chloride](/e508-potassium-chloride) are typical in salt-reduced foods and drinks.
+- Tofu coagulant: [calcium sulfate](/e516-calcium-sulphate){.additive} (traditional “gypsum” tofu), [calcium chloride](/e509-calcium-chloride){.additive}, or acid-set styles using [glucono delta-lactone](/e575-glucono-delta-lactone){.additive}.
+- Firming agent for fruits/vegetables: [calcium chloride](/e509-calcium-chloride){.additive} is the most common stand-in; mild acidification with [citric acid](/e330-citric-acid){.additive} can also help.
+- Texture building or gel formation in other foods: hydrocolloids such as [sodium alginate](/e401-sodium-alginate){.additive} may be used, often with calcium salts, though the texture will differ.
+- Electrolyte/mineral replacement: potassium salts such as [potassium chloride](/e508-potassium-chloride){.additive} are typical in salt-reduced foods and drinks.
 
 ## How is magnesium chloride made?
 Food-grade magnesium chloride is produced from natural brines. Manufacturers commonly obtain it by concentrating seawater or salt-lake brines and recovering the magnesium-rich fraction (often called “bittern”). It can also be made from mined minerals that contain magnesium salts. These routes yield either the hexahydrate crystals (MgCl2·6H2O) or an anhydrous form, which are then purified to food specifications.[^3][^1]

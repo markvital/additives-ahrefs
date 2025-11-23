@@ -17,11 +17,11 @@ You are most likely to encounter chlorine dioxide in the processing of fresh pro
 
 ## What can replace Chlorine dioxide?
 Alternatives depend on the food, equipment, and local rules. Common options include:
-- [Chlorine](/e925-chlorine) solutions
+- [Chlorine](/e925-chlorine){.additive} solutions
 - Peracetic acid systems
 - Ozone-based treatments
 - Organic acid rinses
-- Modified-atmosphere packaging using gases such as [carbon dioxide](/e290-carbon-dioxide) and [nitrogen](/e941-nitrogen) to slow spoilage
+- Modified-atmosphere packaging using gases such as [carbon dioxide](/e290-carbon-dioxide){.additive} and [nitrogen](/e941-nitrogen){.additive} to slow spoilage
 
 Approval and effective use levels differ by application and country.
 

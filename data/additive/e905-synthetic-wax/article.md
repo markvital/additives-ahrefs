@@ -20,14 +20,14 @@ You’re most likely to see it in:
 - Panned or polished confectionery (e.g., candy shells, coated nuts)
 - Specialty glazes and release coatings for sweets
 
-On European labels it may appear as “E905” or alongside related entries for the broader wax group, such as [mineral oil](/e905a-mineral-oil), [petroleum jelly](/e905b-petroleum-jelly), or [petroleum wax](/e905c-petroleum-wax). In the U.S., “synthetic petroleum wax” is named in FDA regulations for permitted uses, especially in chewing gum base and protective coatings that meet identity and purity criteria.[^1][^2]
+On European labels it may appear as “E905” or alongside related entries for the broader wax group, such as [mineral oil](/e905a-mineral-oil){.additive}, [petroleum jelly](/e905b-petroleum-jelly){.additive}, or [petroleum wax](/e905c-petroleum-wax){.additive}. In the U.S., “synthetic petroleum wax” is named in FDA regulations for permitted uses, especially in chewing gum base and protective coatings that meet identity and purity criteria.[^1][^2]
 
 ## What can replace Synthetic wax?
 Depending on the product and desired finish, common alternatives include:
-- Plant waxes: [carnauba wax](/e903-carnauba-wax), [candelilla wax](/e902-candelilla-wax)
-- Resin coatings: [shellac](/e904-shellac)
-- Other glazing agents and processing aids: [hydrogenated poly-1-decene](/e907-hydrogenated-poly-1-decene), [oxidised polyethylene wax](/e914-oxidised-polyethylene-wax)
-- For non-vegan options: [white and yellow beeswax](/e901-white-and-yellow-beeswax)
+- Plant waxes: [carnauba wax](/e903-carnauba-wax){.additive}, [candelilla wax](/e902-candelilla-wax){.additive}
+- Resin coatings: [shellac](/e904-shellac){.additive}
+- Other glazing agents and processing aids: [hydrogenated poly-1-decene](/e907-hydrogenated-poly-1-decene){.additive}, [oxidised polyethylene wax](/e914-oxidised-polyethylene-wax){.additive}
+- For non-vegan options: [white and yellow beeswax](/e901-white-and-yellow-beeswax){.additive}
 
 Choice depends on cost, gloss level, melt point, processing temperature, and dietary preferences.
 
@@ -45,7 +45,7 @@ Regulators judge safety based on the substance’s composition, its intended use
 These are functional and cosmetic benefits; synthetic wax does not contribute nutrients.
 
 ## Who should avoid Synthetic wax?
-- People who prefer to avoid petroleum‑derived ingredients may choose plant‑based alternatives like [carnauba wax](/e903-carnauba-wax) or [candelilla wax](/e902-candelilla-wax).
+- People who prefer to avoid petroleum‑derived ingredients may choose plant‑based alternatives like [carnauba wax](/e903-carnauba-wax){.additive} or [candelilla wax](/e902-candelilla-wax){.additive}.
 - If you follow specific certification schemes (for example, some organic standards), check the rules and the product label to confirm permitted glazing agents.
 
 Allergies to synthetic wax are uncommon because it is a highly refined, inert hydrocarbon used in very small amounts. If you have questions about a specific product, contact the manufacturer.
@@ -61,7 +61,7 @@ You’ll most often spot E905 or “synthetic wax” on labels of:
 - Chewing gum dragees and polished pieces
 - Specialty confectionery glazes
 
-If you’re checking labels, also look for related entries like E905a, E905b, or E905c on EU products, or for plant‑based glazers like [carnauba wax](/e903-carnauba-wax).
+If you’re checking labels, also look for related entries like E905a, E905b, or E905c on EU products, or for plant‑based glazers like [carnauba wax](/e903-carnauba-wax){.additive}.
 
 ## References
 [^1]: 21 CFR 172.888 Synthetic petroleum wax — U.S. FDA. https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-172/subpart-I/section-172.888

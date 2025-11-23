@@ -2,7 +2,7 @@ Triammonium citrate (E380) is the ammonium salt of citric acid used to control a
 <!--more-->
 
 ## At a glance
-- What it is: The ammonium salt of [citric acid](/e330-citric-acid) used as an acidity regulator and sequestrant.
+- What it is: The ammonium salt of [citric acid](/e330-citric-acid){.additive} used as an acidity regulator and sequestrant.
 - What it does: Buffers pH and helps protect taste and color stability in foods and drinks.
 - Where it’s found: A variety of processed foods and beverages in small amounts.
 - Label names: “Triammonium citrate,” “E380.”
@@ -15,17 +15,17 @@ You may find E380 in some beverages, desserts, confectionery, and other processe
 
 ## What can replace Triammonium citrate?
 Depending on the recipe, manufacturers might use other acidity regulators or buffers instead:
-- [Citric acid](/e330-citric-acid)
-- [Sodium citrates](/e331-sodium-citrates)
-- [Potassium citrates](/e332-potassium-citrates)
-- [Calcium citrates](/e333-calcium-citrates)
-- [Phosphoric acid](/e338-phosphoric-acid)
-- [Sodium carbonates](/e500-sodium-carbonates) or [potassium carbonates](/e501-potassium-carbonates)
+- [Citric acid](/e330-citric-acid){.additive}
+- [Sodium citrates](/e331-sodium-citrates){.additive}
+- [Potassium citrates](/e332-potassium-citrates){.additive}
+- [Calcium citrates](/e333-calcium-citrates){.additive}
+- [Phosphoric acid](/e338-phosphoric-acid){.additive}
+- [Sodium carbonates](/e500-sodium-carbonates){.additive} or [potassium carbonates](/e501-potassium-carbonates){.additive}
 
 The best substitute depends on taste, sodium or potassium limits, and how strongly the product needs to resist pH changes.
 
 ## How is Triammonium citrate made?
-Triammonium citrate is produced by neutralising [citric acid](/e330-citric-acid) with a source of ammonia, such as food‑grade [ammonium hydroxide](/e527-ammonium-hydroxide), and then isolating and drying the salt. This straightforward neutralisation route is the basis of the EU purity specification for E380.[^1]
+Triammonium citrate is produced by neutralising [citric acid](/e330-citric-acid){.additive} with a source of ammonia, such as food‑grade [ammonium hydroxide](/e527-ammonium-hydroxide){.additive}, and then isolating and drying the salt. This straightforward neutralisation route is the basis of the EU purity specification for E380.[^1]
 
 ## Is Triammonium citrate safe to eat?
 Within the European Union, E380 is authorised for use and must meet detailed purity criteria before it can be sold. These specifications help ensure identity and quality.[^1] Its use is also limited to the food categories and conditions set out in the Union list; when used under these rules, it is considered acceptable for its intended technological function.[^2]

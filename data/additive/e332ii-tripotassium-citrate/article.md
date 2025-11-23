@@ -3,7 +3,7 @@ Tripotassium citrate (E332ii) is the tripotassium salt of citric acid. Food make
 <!--more-->
 
 ## At a glance
-- What it is: The tripotassium salt of [citric acid](/e330-citric-acid), often written as “potassium citrate” on labels
+- What it is: The tripotassium salt of [citric acid](/e330-citric-acid){.additive}, often written as “potassium citrate” on labels
 - E-number: E332ii (part of the “potassium citrates” group E332)
 - Main roles: Acidity regulator and buffer (keeps pH steady), sequestrant (binds metal ions), stabiliser
 - Typical foods: Soft drinks, juices, sports drinks, jams and jellies, dairy drinks, processed cheeses, and candies
@@ -18,14 +18,14 @@ You’ll most often see it in water‑based drinks (soft drinks, flavored waters
 
 ## What can replace Tripotassium citrate?
 Alternatives depend on the job you need done:
-- For acidity control and buffering: [citric acid](/e330-citric-acid), [sodium citrates](/e331-sodium-citrates), or [calcium citrates](/e333-calcium-citrates)
-- For buffering with less sodium: potassium-based buffers such as [monopotassium phosphate](/e340i-monopotassium-phosphate) or [tripotassium phosphate](/e340iii-tripotassium-phosphate)
-- For metal binding and stabilization: citrates as above, or phosphates such as [phosphoric acid](/e338-phosphoric-acid)
-- For pH adjustment in baking: [sodium bicarbonate](/e500ii-sodium-bicarbonate) or [sodium carbonates](/e500-sodium-carbonates), paired with an acid
-- For slow acid release in certain foods: [glucono‑delta‑lactone](/e575-glucono-delta-lactone)
+- For acidity control and buffering: [citric acid](/e330-citric-acid){.additive}, [sodium citrates](/e331-sodium-citrates){.additive}, or [calcium citrates](/e333-calcium-citrates){.additive}
+- For buffering with less sodium: potassium-based buffers such as [monopotassium phosphate](/e340i-monopotassium-phosphate){.additive} or [tripotassium phosphate](/e340iii-tripotassium-phosphate){.additive}
+- For metal binding and stabilization: citrates as above, or phosphates such as [phosphoric acid](/e338-phosphoric-acid){.additive}
+- For pH adjustment in baking: [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive} or [sodium carbonates](/e500-sodium-carbonates){.additive}, paired with an acid
+- For slow acid release in certain foods: [glucono‑delta‑lactone](/e575-glucono-delta-lactone){.additive}
 
 ## How is Tripotassium citrate made?
-Tripotassium citrate is typically produced by neutralizing food‑grade [citric acid](/e330-citric-acid) with a potassium base, such as potassium hydroxide or potassium carbonate. The solution is filtered, concentrated, and crystallized, then dried to yield the final food‑grade crystals or granules.[^3] This process is designed to meet international purity specifications for food additives.[^3]
+Tripotassium citrate is typically produced by neutralizing food‑grade [citric acid](/e330-citric-acid){.additive} with a potassium base, such as potassium hydroxide or potassium carbonate. The solution is filtered, concentrated, and crystallized, then dried to yield the final food‑grade crystals or granules.[^3] This process is designed to meet international purity specifications for food additives.[^3]
 
 ## Is Tripotassium citrate safe to eat?
 The European Food Safety Authority (EFSA) re‑evaluated citric acid and its salts, including potassium citrates (E332), and concluded there is no safety concern at reported use levels in foods. EFSA found that a numerical Acceptable Daily Intake (ADI) was not necessary for this group, based on available data and typical exposures.[^1]

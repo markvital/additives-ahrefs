@@ -16,14 +16,14 @@ Food makers use sorbitol syrup to add gentle sweetness while also improving text
 ## What foods contain Sorbitol syrup?
 You’ll often see sorbitol syrup in sugar-free or reduced-sugar products such as candies, chewing gum, cookies, cakes, frostings, jams, and sauces. Some diet or “no added sugar” foods use it to help with texture and moisture. Sorbitol also occurs naturally in fruits like apples and pears, but the additive “sorbitol syrup” is a refined ingredient made for food processing.[^2]
 
-On labels it may appear as “sorbitol syrup,” “sorbitol solution,” “E420(ii)” or “E420II.” In ingredient lists, you may also see plain [sorbitol](/e420-sorbitol) (E420(i)), which is the crystalline form.
+On labels it may appear as “sorbitol syrup,” “sorbitol solution,” “E420(ii)” or “E420II.” In ingredient lists, you may also see plain [sorbitol](/e420-sorbitol){.additive} (E420(i)), which is the crystalline form.
 
 ## What can replace Sorbitol syrup?
 Different swaps work depending on the job you need done:
-- For sweetness with fewer calories: [erythritol](/e968-erythritol), [xylitol](/e967-xylitol), or [maltitol](/e965-maltitol)
-- For moisture (humectant): [glycerol](/e422-glycerol) or [propylene glycol](/e1520-propylene-glycol)
-- For thickness/texture: [xanthan gum](/e415-xanthan-gum)
-- For high-intensity sweetness only (no bulk): [sucralose](/e955-sucralose)
+- For sweetness with fewer calories: [erythritol](/e968-erythritol){.additive}, [xylitol](/e967-xylitol){.additive}, or [maltitol](/e965-maltitol){.additive}
+- For moisture (humectant): [glycerol](/e422-glycerol){.additive} or [propylene glycol](/e1520-propylene-glycol){.additive}
+- For thickness/texture: [xanthan gum](/e415-xanthan-gum){.additive}
+- For high-intensity sweetness only (no bulk): [sucralose](/e955-sucralose){.additive}
 
 ## How is Sorbitol syrup made?
 Sorbitol syrup is produced by hydrogenating glucose (also called dextrose), which is usually obtained by breaking down starch from corn, wheat, or potatoes. The hydrogenation step converts glucose into sorbitol and other hydrogenated saccharides, and the result is concentrated into a syrup.[^1] In the EU, specifications define sorbitol syrup (E 420(ii)) as a mixture where sorbitol is the main component, with set purity and composition limits.[^3]

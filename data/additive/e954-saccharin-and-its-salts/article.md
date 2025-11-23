@@ -25,8 +25,8 @@ In the United States, the FDA permits saccharin and its salts for use as sweeten
 
 ## What can replace saccharin and its salts?
 Depending on taste, heat stability, cost, and local rules, manufacturers may choose other sweeteners, alone or in blends:
-- Other high-intensity sweeteners: [acesulfame K](/e950-acesulfame-k), [aspartame](/e951-aspartame), [sucralose](/e955-sucralose), [steviol glycosides](/e960-steviol-glycosides), [neotame](/e961-neotame), [advantame](/e969-advantame), or [cyclamic acid and its Na and Ca salts](/e952-cyclamic-acid-and-its-na-and-ca-salts)
-- Polyol (sugar alcohol) sweeteners for bulk and texture: [erythritol](/e968-erythritol), [xylitol](/e967-xylitol), or [sorbitol](/e420-sorbitol)
+- Other high-intensity sweeteners: [acesulfame K](/e950-acesulfame-k){.additive}, [aspartame](/e951-aspartame){.additive}, [sucralose](/e955-sucralose){.additive}, [steviol glycosides](/e960-steviol-glycosides){.additive}, [neotame](/e961-neotame){.additive}, [advantame](/e969-advantame){.additive}, or [cyclamic acid and its Na and Ca salts](/e952-cyclamic-acid-and-its-na-and-ca-salts){.additive}
+- Polyol (sugar alcohol) sweeteners for bulk and texture: [erythritol](/e968-erythritol){.additive}, [xylitol](/e967-xylitol){.additive}, or [sorbitol](/e420-sorbitol){.additive}
 
 ## How is saccharin and its salts made?
 Saccharin is the cyclic imide of o‑sulfobenzoic acid. Industry makes it via multi-step chemical routes that convert aromatic starting materials through sulfonation, oxidation, and ring-closure. The commonly used salts (sodium, calcium, and potassium saccharin) are produced by neutralizing saccharin with the corresponding food-grade bases.[^2][^5]

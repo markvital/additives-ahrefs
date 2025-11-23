@@ -25,10 +25,10 @@ It may appear on labels as “alpha-tocopherol,” “tocopherols,” or “vita
 
 ## What can replace Alpha-tocopherol?
 Other antioxidants or freshness protectors can fill a similar role, depending on the food:
-- Natural options: [extracts of rosemary](/e392-extracts-of-rosemary), [ascorbic acid](/e300-ascorbic-acid), and [ascorbyl palmitate](/e304i-ascorbyl-palmitate)
-- Synthetic antioxidants: [BHA](/e320-butylated-hydroxyanisole-bha), [BHT](/e321-butylated-hydroxytoluene), and [TBHQ](/e319-tertiary-butylhydroquinone-tbhq)
-- Helper ingredients that slow oxidation by binding metals: [citric acid](/e330-citric-acid)
-- Related vitamin E sources: [tocopherol-rich extract](/e306-tocopherol-rich-extract)
+- Natural options: [extracts of rosemary](/e392-extracts-of-rosemary){.additive}, [ascorbic acid](/e300-ascorbic-acid){.additive}, and [ascorbyl palmitate](/e304i-ascorbyl-palmitate){.additive}
+- Synthetic antioxidants: [BHA](/e320-butylated-hydroxyanisole-bha){.additive}, [BHT](/e321-butylated-hydroxytoluene){.additive}, and [TBHQ](/e319-tertiary-butylhydroquinone-tbhq){.additive}
+- Helper ingredients that slow oxidation by binding metals: [citric acid](/e330-citric-acid){.additive}
+- Related vitamin E sources: [tocopherol-rich extract](/e306-tocopherol-rich-extract){.additive}
 
 The right substitute depends on the product’s fat type, flavor profile, and shelf-life goals.
 

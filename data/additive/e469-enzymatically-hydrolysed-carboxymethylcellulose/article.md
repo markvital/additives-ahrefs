@@ -1,4 +1,4 @@
-Enzymatically hydrolysed carboxymethylcellulose (E469) is a modified plant fiber used to steady texture and keep mixtures from separating. It is a lower‑viscosity form of [sodium carboxymethylcellulose](/e466-sodium-carboxy-methyl-cellulose) (cellulose gum) made by trimming the long cellulose chains with food-grade enzymes.
+Enzymatically hydrolysed carboxymethylcellulose (E469) is a modified plant fiber used to steady texture and keep mixtures from separating. It is a lower‑viscosity form of [sodium carboxymethylcellulose](/e466-sodium-carboxy-methyl-cellulose){.additive} (cellulose gum) made by trimming the long cellulose chains with food-grade enzymes.
 <!--more-->
 
 ## At a glance
@@ -6,7 +6,7 @@ Enzymatically hydrolysed carboxymethylcellulose (E469) is a modified plant fiber
 - What it does: Acts as a stabiliser and thickener; helps prevent separation and gives a smooth, consistent mouthfeel.
 - Where it shows up: Drinks and drinkable dairy, sauces and dressings, fruit preparations, desserts, and other foods that need stable texture.
 - Label names you might see: “E469,” “enzymatically hydrolysed carboxymethylcellulose,” or “enzymatically hydrolysed cellulose gum.”
-- Related additive: [Sodium carboxymethylcellulose](/e466-sodium-carboxy-methyl-cellulose) (E466) is the parent material with higher viscosity.
+- Related additive: [Sodium carboxymethylcellulose](/e466-sodium-carboxy-methyl-cellulose){.additive} (E466) is the parent material with higher viscosity.
 
 ## Why is E469 added to food?
 Manufacturers use E469 to control thickness and keep ingredients evenly mixed. Because its chains are shorter than regular cellulose gum, it disperses quickly, gives fine control of viscosity, and remains stable across a range of temperatures and acidity. This makes it useful in liquids and pourable foods where a heavy, gummy texture is not desired.
@@ -23,17 +23,17 @@ On ingredient lists it may appear as E469 or by its full name.
 
 ## What can replace E469?
 Alternatives depend on the recipe and processing conditions:
-- [Xanthan gum](/e415-xanthan-gum) for strong suspension and pourable textures
-- [Guar gum](/e412-guar-gum) or [locust bean gum](/e410-locust-bean-gum) for body in cold systems
-- [Pectins](/e440-pectins) for fruit systems and jams
-- [Carrageenan](/e407-carrageenan) for some dairy textures
-- [Sodium alginate](/e401-sodium-alginate) for heat‑stable thickening and gel‑like textures
-- [Cellulose](/e460-cellulose) when insoluble fiber or anti‑caking is needed
+- [Xanthan gum](/e415-xanthan-gum){.additive} for strong suspension and pourable textures
+- [Guar gum](/e412-guar-gum){.additive} or [locust bean gum](/e410-locust-bean-gum){.additive} for body in cold systems
+- [Pectins](/e440-pectins){.additive} for fruit systems and jams
+- [Carrageenan](/e407-carrageenan){.additive} for some dairy textures
+- [Sodium alginate](/e401-sodium-alginate){.additive} for heat‑stable thickening and gel‑like textures
+- [Cellulose](/e460-cellulose){.additive} when insoluble fiber or anti‑caking is needed
 
 Each behaves differently, so swaps are rarely 1‑to‑1.
 
 ## How is E469 made?
-E469 starts with purified cellulose from plant material. The cellulose is first turned into [sodium carboxymethylcellulose](/e466-sodium-carboxy-methyl-cellulose) (CMC). Then, food‑grade enzymes (such as cellulases) partially hydrolyse the CMC, shortening its chains to reduce viscosity while keeping the same chemical groups. This “enzymatic hydrolysis” step is defined in the EU additive specifications.[^1]
+E469 starts with purified cellulose from plant material. The cellulose is first turned into [sodium carboxymethylcellulose](/e466-sodium-carboxy-methyl-cellulose){.additive} (CMC). Then, food‑grade enzymes (such as cellulases) partially hydrolyse the CMC, shortening its chains to reduce viscosity while keeping the same chemical groups. This “enzymatic hydrolysis” step is defined in the EU additive specifications.[^1]
 
 ## Is E469 safe to eat?
 EU scientists have reviewed the safety of celluloses, including E469, and found no safety concern at reported uses and levels in food. They did not consider it necessary to set a numerical ADI (acceptable daily intake).[^2] International experts from WHO/FAO (JECFA) have also assigned modified celluloses an ADI “not specified,” reflecting low toxicity at typical use levels.[^3]
@@ -60,7 +60,7 @@ If you follow a healthcare‑directed elimination diet, have a diagnosed intoler
 - “It contains gluten.” No. Cellulose gums are gluten‑free; they do not come from wheat proteins.
 
 ## E469 in branded foods
-On EU labels, look for “E469.” Elsewhere you may see “enzymatically hydrolysed carboxymethylcellulose” or “enzymatically hydrolysed cellulose gum.” It often appears alongside other texture agents such as [xanthan gum](/e415-xanthan-gum), [pectins](/e440-pectins), or [carrageenan](/e407-carrageenan). If you prefer to avoid it, scan the ingredients list or choose products marketed as “gum‑free.”
+On EU labels, look for “E469.” Elsewhere you may see “enzymatically hydrolysed carboxymethylcellulose” or “enzymatically hydrolysed cellulose gum.” It often appears alongside other texture agents such as [xanthan gum](/e415-xanthan-gum){.additive}, [pectins](/e440-pectins){.additive}, or [carrageenan](/e407-carrageenan){.additive}. If you prefer to avoid it, scan the ingredients list or choose products marketed as “gum‑free.”
 
 ## References
 [^1]: Commission Regulation (EU) No 231/2012 laying down specifications for food additives listed in Annexes II and III to Regulation (EC) No 1333/2008 — EUR-Lex. https://eur-lex.europa.eu/eli/reg/2012/231/oj

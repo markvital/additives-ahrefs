@@ -2,7 +2,7 @@ Carotenoids (E160) are a family of yellow, orange, and red color additives used 
 <!--more-->
 
 ## At a glance
-- Carotenoids are fat‑soluble pigments used mainly as colorants. The E160 group includes members such as [carotene](/e160a-carotene), [beta‑carotene](/e160ai-beta-carotene), [plant carotenes](/e160aii-plant-carotenes), [algal carotenes](/e160aiv-algal-carotenes), [annatto](/e160b-annatto), [paprika extract](/e160c-paprika-extract), [lycopene](/e160d-lycopene), [beta‑apo‑8′‑carotenal (C30)](/e160e-beta-apo-8-carotenal-c30), and [ethyl ester of beta‑apo‑8′‑carotenic acid (C30)](/e160f-ethyl-ester-of-beta-apo-8-carotenic-acid-c-30).
+- Carotenoids are fat‑soluble pigments used mainly as colorants. The E160 group includes members such as [carotene](/e160a-carotene){.additive}, [beta‑carotene](/e160ai-beta-carotene){.additive}, [plant carotenes](/e160aii-plant-carotenes){.additive}, [algal carotenes](/e160aiv-algal-carotenes){.additive}, [annatto](/e160b-annatto){.additive}, [paprika extract](/e160c-paprika-extract){.additive}, [lycopene](/e160d-lycopene){.additive}, [beta‑apo‑8′‑carotenal (C30)](/e160e-beta-apo-8-carotenal-c30){.additive}, and [ethyl ester of beta‑apo‑8′‑carotenic acid (C30)](/e160f-ethyl-ester-of-beta-apo-8-carotenic-acid-c-30){.additive}.
 - They help standardize color in foods and drinks, especially when natural ingredients vary by season.
 - Typical uses include beverages, dairy, desserts, snacks, sauces, and bakery items.
 - Heat, light, and oxygen can fade carotenoid color, so products often protect them with emulsions or packaging.
@@ -23,11 +23,11 @@ On labels, look for “E160,” the specific name (for example, “beta‑carote
 
 ## What can replace Carotenoids?
 If a product cannot use E160 colors, other permitted colorants may be chosen based on the shade and processing needs:
-- Yellow to orange: [curcumin](/e100-curcumin), [riboflavin](/e101-riboflavin), [caramel colors](/e150-caramel)
-- Red: [beetroot red](/e162-beetroot-red)
-- Green: [chlorophylls and chlorophyllins](/e140-chlorophylls-and-chlorophyllins)
-- Whitening/opacity: [titanium dioxide](/e171-titanium-dioxide)
-Sometimes manufacturers also switch within the E160 family, such as between [annatto](/e160b-annatto) and [paprika extract](/e160c-paprika-extract), to match a target hue.
+- Yellow to orange: [curcumin](/e100-curcumin){.additive}, [riboflavin](/e101-riboflavin){.additive}, [caramel colors](/e150-caramel){.additive}
+- Red: [beetroot red](/e162-beetroot-red){.additive}
+- Green: [chlorophylls and chlorophyllins](/e140-chlorophylls-and-chlorophyllins){.additive}
+- Whitening/opacity: [titanium dioxide](/e171-titanium-dioxide){.additive}
+Sometimes manufacturers also switch within the E160 family, such as between [annatto](/e160b-annatto){.additive} and [paprika extract](/e160c-paprika-extract){.additive}, to match a target hue.
 
 ## How is Carotenoids made?
 Commercial carotenoids reach food in several ways:

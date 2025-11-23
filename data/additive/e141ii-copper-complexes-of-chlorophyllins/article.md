@@ -16,8 +16,8 @@ In the European Union, E141 (which includes E141(i) and E141(ii)) is authorized 
 
 ## What can replace Copper complexes of chlorophyllins?
 - Plant‑based greens like spinach or parsley juice/powder (less stable, more flavor impact)
-- [Chlorophylls and chlorophyllins (E140)](/e140-chlorophylls-and-chlorophyllins) for oil‑soluble or less processed options
-- [Copper complexes of chlorophylls (E141I)](/e141i-copper-complexes-of-chlorophylls) when an oil‑soluble, lipophilic form is preferred
+- [Chlorophylls and chlorophyllins (E140)](/e140-chlorophylls-and-chlorophyllins){.additive} for oil‑soluble or less processed options
+- [Copper complexes of chlorophylls (E141I)](/e141i-copper-complexes-of-chlorophylls){.additive} when an oil‑soluble, lipophilic form is preferred
 - Microalgae extracts (for example, spirulina extract) where allowed by local rules
 
 Each option differs in shade, stability, flavor, and whether it is water‑ or oil‑soluble.

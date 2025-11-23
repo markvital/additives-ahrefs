@@ -25,9 +25,9 @@ Look for “ammonium alginate” or “E403” on the ingredient list.
 
 ## What can replace Ammonium alginate?
 Depending on the recipe and processing needs, common substitutes include:
-- Other alginates: [sodium alginate](/e401-sodium-alginate), [potassium alginate](/e402-potassium-alginate), [calcium alginate](/e404-calcium-alginate), or [alginic acid](/e400-alginic-acid)
-- Other gums and hydrocolloids: [xanthan gum](/e415-xanthan-gum), [guar gum](/e412-guar-gum), [locust bean gum](/e410-locust-bean-gum), [carrageenan](/e407-carrageenan), [agar](/e406-agar), [gellan gum](/e418-gellan-gum)
-- Pectin systems: [pectins](/e440-pectins)
+- Other alginates: [sodium alginate](/e401-sodium-alginate){.additive}, [potassium alginate](/e402-potassium-alginate){.additive}, [calcium alginate](/e404-calcium-alginate){.additive}, or [alginic acid](/e400-alginic-acid){.additive}
+- Other gums and hydrocolloids: [xanthan gum](/e415-xanthan-gum){.additive}, [guar gum](/e412-guar-gum){.additive}, [locust bean gum](/e410-locust-bean-gum){.additive}, [carrageenan](/e407-carrageenan){.additive}, [agar](/e406-agar){.additive}, [gellan gum](/e418-gellan-gum){.additive}
+- Pectin systems: [pectins](/e440-pectins){.additive}
 
 Each option behaves a bit differently, so swaps usually need small adjustments.
 

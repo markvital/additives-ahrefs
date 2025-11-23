@@ -18,12 +18,12 @@ You can often spot “xanthan gum” or “E415” on ingredient lists for salad
 
 ## What can replace Xanthan gum?
 Depending on the recipe and the texture you want, cooks and manufacturers may swap in:
-- [guar gum](/e412-guar-gum) for cold-thickened sauces and beverages
-- [locust bean gum](/e410-locust-bean-gum) for creamy, elastic textures
-- [gellan gum](/e418-gellan-gum) for gels and fluid gels that hold particles in suspension
-- [agar](/e406-agar) or [carrageenan](/e407-carrageenan) for gels and dairy-like textures
-- [pectins](/e440-pectins) for fruit fillings and jams
-- [sodium carboxy methyl cellulose](/e466-sodium-carboxy-methyl-cellulose) for stable, smooth viscosity
+- [guar gum](/e412-guar-gum){.additive} for cold-thickened sauces and beverages
+- [locust bean gum](/e410-locust-bean-gum){.additive} for creamy, elastic textures
+- [gellan gum](/e418-gellan-gum){.additive} for gels and fluid gels that hold particles in suspension
+- [agar](/e406-agar){.additive} or [carrageenan](/e407-carrageenan){.additive} for gels and dairy-like textures
+- [pectins](/e440-pectins){.additive} for fruit fillings and jams
+- [sodium carboxy methyl cellulose](/e466-sodium-carboxy-methyl-cellulose){.additive} for stable, smooth viscosity
 
 ## How is Xanthan gum made?
 Xanthan gum is produced by fermenting a carbohydrate (such as glucose, sucrose, or lactose) with a pure culture of the bacterium Xanthomonas campestris. After fermentation, the gum is recovered from the broth—commonly by precipitating it with isopropyl alcohol—then it is washed, dried, and milled into a fine powder for use in foods.[^1]

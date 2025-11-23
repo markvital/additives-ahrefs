@@ -18,10 +18,10 @@ You’ll most often see gellan gum in flavored drinks, shelf-stable chocolate mi
 
 ## What can replace Gellan gum?
 There isn’t a one-size-fits-all swap, but common stand-ins include:
-- For firm gels: [agar](/e406-agar) or [carrageenan](/e407-carrageenan)
-- For creamy thickness and stability: [xanthan gum](/e415-xanthan-gum) or [guar gum](/e412-guar-gum)
-- For fruity gels and jams: [pectins](/e440-pectins)
-- For gel synergy in dairy-style textures: [locust bean gum](/e410-locust-bean-gum) with carrageenan or gellan
+- For firm gels: [agar](/e406-agar){.additive} or [carrageenan](/e407-carrageenan){.additive}
+- For creamy thickness and stability: [xanthan gum](/e415-xanthan-gum){.additive} or [guar gum](/e412-guar-gum){.additive}
+- For fruity gels and jams: [pectins](/e440-pectins){.additive}
+- For gel synergy in dairy-style textures: [locust bean gum](/e410-locust-bean-gum){.additive} with carrageenan or gellan
 
 Each alternative has its own setting conditions and mouthfeel. Recipes may need adjustment to match gellan’s clarity, snap, or suspension ability.
 

@@ -16,13 +16,13 @@ You may find algal carotenes in products like soft drinks, juices, dairy and pla
 
 ## What can replace Algal carotenes?
 For a similar yellow to orange hue, common alternatives include:
-- [curcumin](/e100-curcumin) for bright yellow
-- [annatto](/e160b-annatto) for yellow‑orange
-- [paprika extract](/e160c-paprika-extract) for orange‑red
-- [beta‑carotene](/e160ai-beta-carotene), [plant carotenes](/e160aii-plant-carotenes), or beta‑carotene from Blakeslea trispora [E160a(iii)](/e160aiii-beta-carotene-from-blakeslea-trispora)
-- [lutein](/e161b-lutein) or [zeaxanthin](/e161h-zeaxanthin) for yellow tones
-- [caramel](/e150-caramel) for brown to amber
-- Synthetic options like [tartrazine](/e102-tartrazine) for bright lemon yellow
+- [curcumin](/e100-curcumin){.additive} for bright yellow
+- [annatto](/e160b-annatto){.additive} for yellow‑orange
+- [paprika extract](/e160c-paprika-extract){.additive} for orange‑red
+- [beta‑carotene](/e160ai-beta-carotene){.additive}, [plant carotenes](/e160aii-plant-carotenes){.additive}, or beta‑carotene from Blakeslea trispora [E160a(iii)](/e160aiii-beta-carotene-from-blakeslea-trispora){.additive}
+- [lutein](/e161b-lutein){.additive} or [zeaxanthin](/e161h-zeaxanthin){.additive} for yellow tones
+- [caramel](/e150-caramel){.additive} for brown to amber
+- Synthetic options like [tartrazine](/e102-tartrazine){.additive} for bright lemon yellow
 
 ## How is Algal carotenes made?
 - Cultivation: The microalga Dunaliella salina is grown, often in high‑salinity conditions that favor carotenoid production.
@@ -48,7 +48,7 @@ Beta‑carotene is a provitamin A carotenoid, meaning the body can convert some 
 - Myth: “It always changes taste.” Fact: At the low levels used for coloring, algal carotenes are generally not noticeable in flavor.
 
 ## Algal carotenes in branded foods
-On ingredient lists, look for “E160a(iv),” “algal carotenes,” “beta‑carotene (from algae),” or simply “color (beta‑carotene).” Many brands use carotene colors to keep products looking the same year‑round, especially in drinks, spreads, dairy and plant‑based items, and sweets. If you prefer alternatives, choose products colored with options like [curcumin](/e100-curcumin), [annatto](/e160b-annatto), or [paprika extract](/e160c-paprika-extract).
+On ingredient lists, look for “E160a(iv),” “algal carotenes,” “beta‑carotene (from algae),” or simply “color (beta‑carotene).” Many brands use carotene colors to keep products looking the same year‑round, especially in drinks, spreads, dairy and plant‑based items, and sweets. If you prefer alternatives, choose products colored with options like [curcumin](/e100-curcumin){.additive}, [annatto](/e160b-annatto){.additive}, or [paprika extract](/e160c-paprika-extract){.additive}.
 
 ## References
 [^1]: Commission Regulation (EU) No 231/2012 laying down specifications for food additives listed in Annexes II and III to Regulation (EC) No 1333/2008 — EU. https://eur-lex.europa.eu/eli/reg/2012/231/oj

@@ -25,9 +25,9 @@ Look for it in the ingredient list as “polyglycitol syrup” or by its number 
 
 ## What can replace Polyglycitol syrup?
 Possible alternatives depend on the job it does in the recipe:
-- For bulk sweetness: [maltitol](/e965-maltitol), [isomalt](/e953-isomalt), [lactitol](/e966-lactitol), [erythritol](/e968-erythritol), [xylitol](/e967-xylitol), [sorbitol](/e420-sorbitol)
-- For moisture and softness: [glycerol](/e422-glycerol), [sorbitol](/e420-sorbitol), [polydextrose](/e1200-polydextrose)
-- For extra sweetness (used with a bulking agent): [sucralose](/e955-sucralose), [steviol glycosides](/e960-steviol-glycosides)
+- For bulk sweetness: [maltitol](/e965-maltitol){.additive}, [isomalt](/e953-isomalt){.additive}, [lactitol](/e966-lactitol){.additive}, [erythritol](/e968-erythritol){.additive}, [xylitol](/e967-xylitol){.additive}, [sorbitol](/e420-sorbitol){.additive}
+- For moisture and softness: [glycerol](/e422-glycerol){.additive}, [sorbitol](/e420-sorbitol){.additive}, [polydextrose](/e1200-polydextrose){.additive}
+- For extra sweetness (used with a bulking agent): [sucralose](/e955-sucralose){.additive}, [steviol glycosides](/e960-steviol-glycosides){.additive}
 
 ## How is Polyglycitol syrup made?
 Manufacturers start with food‑grade starch (often from corn or wheat) and break it down into smaller sugars. They then hydrogenate these sugars—adding hydrogen with a catalyst—to convert them into sugar alcohols. The result is a syrup that contains a mixture of hydrogenated mono‑, di‑ and polysaccharides, with major components such as maltitol and sorbitol.[^1]

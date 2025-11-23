@@ -20,13 +20,13 @@ You are most likely to see it in processed cheese and cheese spreads, where phos
 
 ## What can replace Trisodium phosphate?
 Substitutes depend on the job it performs:
-- For emulsifying in processed cheese: other phosphates such as [sodium phosphates](/e339-sodium-phosphates), [diphosphates](/e450-diphosphates), or [polyphosphates](/e452-polyphosphates) are commonly used.
-- For buffering and tartness: [citric acid](/e330-citric-acid) or [sodium citrates](/e331-sodium-citrates) are typical alternatives.
-- For general pH adjustment: [sodium carbonates](/e500-sodium-carbonates) can help, depending on the recipe.
-- For stabilizing texture: hydrocolloids such as [carrageenan](/e407-carrageenan) or [lecithins](/e322-lecithins) may be options.
+- For emulsifying in processed cheese: other phosphates such as [sodium phosphates](/e339-sodium-phosphates){.additive}, [diphosphates](/e450-diphosphates){.additive}, or [polyphosphates](/e452-polyphosphates){.additive} are commonly used.
+- For buffering and tartness: [citric acid](/e330-citric-acid){.additive} or [sodium citrates](/e331-sodium-citrates){.additive} are typical alternatives.
+- For general pH adjustment: [sodium carbonates](/e500-sodium-carbonates){.additive} can help, depending on the recipe.
+- For stabilizing texture: hydrocolloids such as [carrageenan](/e407-carrageenan){.additive} or [lecithins](/e322-lecithins){.additive} may be options.
 
 ## How is Trisodium phosphate made?
-Food-grade trisodium phosphate is produced by neutralizing food-grade [phosphoric acid](/e338-phosphoric-acid) with sodium hydroxide or sodium carbonate, then crystallizing and drying to achieve the anhydrous or hydrated forms that meet identity and purity specifications in the EU.[^4]
+Food-grade trisodium phosphate is produced by neutralizing food-grade [phosphoric acid](/e338-phosphoric-acid){.additive} with sodium hydroxide or sodium carbonate, then crystallizing and drying to achieve the anhydrous or hydrated forms that meet identity and purity specifications in the EU.[^4]
 
 ## Is Trisodium phosphate safe to eat?
 In the United States, sodium phosphate, tribasic is affirmed by the Food and Drug Administration (FDA) as Generally Recognized As Safe (GRAS) when used in accordance with good manufacturing practice.[^5] In Europe, the European Food Safety Authority (EFSA) evaluated phosphates as a group and set an acceptable daily intake (ADI) of 40 mg phosphorus per kg body weight per day from all phosphate additives; typical use of trisodium phosphate in foods contributes only a portion of this total.[^1]

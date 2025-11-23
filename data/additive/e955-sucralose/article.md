@@ -20,12 +20,12 @@ Sucralose shows up in many “no sugar” or “reduced sugar” products:
 - Baked goods and baking mixes marketed as sugar‑free
 - Tabletop sweeteners (packets, spoonable blends)
 
-On labels, look for “sucralose,” “E955,” or a combination product (for example, sucralose used together with [acesulfame K](/e950-acesulfame-k)).
+On labels, look for “sucralose,” “E955,” or a combination product (for example, sucralose used together with [acesulfame K](/e950-acesulfame-k){.additive}).
 
 ## What can replace Sucralose?
 Depending on taste, cost, and recipe needs, common substitutes include:
-- Other high‑intensity sweeteners: [aspartame](/e951-aspartame), [acesulfame K](/e950-acesulfame-k), [saccharin](/e954-saccharin-and-its-salts), [steviol glycosides](/e960-steviol-glycosides), [neotame](/e961-neotame), [advantame](/e969-advantame)
-- Sugar alcohols (polyols) that add some bulk: [sorbitol](/e420-sorbitol), [erythritol](/e968-erythritol), [xylitol](/e967-xylitol)
+- Other high‑intensity sweeteners: [aspartame](/e951-aspartame){.additive}, [acesulfame K](/e950-acesulfame-k){.additive}, [saccharin](/e954-saccharin-and-its-salts){.additive}, [steviol glycosides](/e960-steviol-glycosides){.additive}, [neotame](/e961-neotame){.additive}, [advantame](/e969-advantame){.additive}
+- Sugar alcohols (polyols) that add some bulk: [sorbitol](/e420-sorbitol){.additive}, [erythritol](/e968-erythritol){.additive}, [xylitol](/e967-xylitol){.additive}
 
 Note: These options differ in taste, aftertaste, heat stability, and how they work in recipes.
 
@@ -46,7 +46,7 @@ Most people can use sucralose within the ADI. If you prefer to avoid high‑inte
 ## Myths & facts
 - Myth: “Sucralose is just sugar.” Fact: It’s a different molecule derived from sugar; three hydroxyl groups are replaced by chlorine atoms, which changes how the body handles it.[^4]
 - Myth: “It isn’t approved by major regulators.” Fact: It is allowed in the U.S. under 21 CFR 172.831 and authorized in the EU as E955.[^3][^5]
-- Myth: “It always appears alone.” Fact: Many products blend sucralose with other sweeteners, such as [acesulfame K](/e950-acesulfame-k) or [aspartame](/e951-aspartame), to fine‑tune taste.
+- Myth: “It always appears alone.” Fact: Many products blend sucralose with other sweeteners, such as [acesulfame K](/e950-acesulfame-k){.additive} or [aspartame](/e951-aspartame){.additive}, to fine‑tune taste.
 
 ## Sucralose in branded foods
 You’ll commonly see sucralose in:

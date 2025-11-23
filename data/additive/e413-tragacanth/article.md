@@ -20,13 +20,13 @@ On ingredient lists it can appear as “tragacanth,” “tragacanth gum,” or 
 
 ## What can replace Tragacanth?
 Other hydrocolloids can play similar roles, depending on the recipe:
-- [xanthan gum](/e415-xanthan-gum) for strong thickening and suspension
-- [guar gum](/e412-guar-gum) for cold viscosity in beverages and dairy
-- [locust bean gum](/e410-locust-bean-gum) for creamy, elastic textures (often paired with other gums)
-- [carrageenan](/e407-carrageenan) for gel-strength and stabilization in dairy
-- [pectins](/e440-pectins) for fruit-based gels and glazes
-- [acacia gum](/e414-acacia-gum) for emulsification in beverages
-- [sodium alginate](/e401-sodium-alginate) for heat-stable thickening and gelation with calcium
+- [xanthan gum](/e415-xanthan-gum){.additive} for strong thickening and suspension
+- [guar gum](/e412-guar-gum){.additive} for cold viscosity in beverages and dairy
+- [locust bean gum](/e410-locust-bean-gum){.additive} for creamy, elastic textures (often paired with other gums)
+- [carrageenan](/e407-carrageenan){.additive} for gel-strength and stabilization in dairy
+- [pectins](/e440-pectins){.additive} for fruit-based gels and glazes
+- [acacia gum](/e414-acacia-gum){.additive} for emulsification in beverages
+- [sodium alginate](/e401-sodium-alginate){.additive} for heat-stable thickening and gelation with calcium
 
 The best substitute depends on pH, temperature, salt, sugar, and the desired mouthfeel.
 

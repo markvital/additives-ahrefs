@@ -24,11 +24,11 @@ In the European Union, E468 is an authorised additive and is reported across a b
 
 ## What can replace Cross-linked sodium carboxymethylcellulose?
 The best substitute depends on the recipe and label goals:
-- Fermented gums such as [xanthan gum](/e415-xanthan-gum)
-- Seed gums like [guar gum](/e412-guar-gum) or [locust bean gum](/e410-locust-bean-gum)
-- Seaweed extracts such as [carrageenan](/e407-carrageenan) or [processed eucheuma seaweed](/e407a-processed-eucheuma-seaweed)
-- Fruit pectins like [pectins](/e440-pectins)
-- Other cellulose derivatives, for example [sodium carboxy methyl cellulose](/e466-sodium-carboxy-methyl-cellulose) (non‑cross‑linked), [hydroxypropyl methyl cellulose](/e464-hydroxypropyl-methyl-cellulose), or [gellan gum](/e418-gellan-gum)
+- Fermented gums such as [xanthan gum](/e415-xanthan-gum){.additive}
+- Seed gums like [guar gum](/e412-guar-gum){.additive} or [locust bean gum](/e410-locust-bean-gum){.additive}
+- Seaweed extracts such as [carrageenan](/e407-carrageenan){.additive} or [processed eucheuma seaweed](/e407a-processed-eucheuma-seaweed){.additive}
+- Fruit pectins like [pectins](/e440-pectins){.additive}
+- Other cellulose derivatives, for example [sodium carboxy methyl cellulose](/e466-sodium-carboxy-methyl-cellulose){.additive} (non‑cross‑linked), [hydroxypropyl methyl cellulose](/e464-hydroxypropyl-methyl-cellulose){.additive}, or [gellan gum](/e418-gellan-gum){.additive}
 
 ## How is Cross-linked sodium carboxymethylcellulose made?
 E468 starts with plant cellulose from wood pulp or cotton. The cellulose is first turned into sodium carboxymethylcellulose (CMC) by adding carboxymethyl groups. Then the CMC chains are lightly cross‑linked—often using agents such as epichlorohydrin—so the final material swells in water but does not fully dissolve. Official EU specifications set identity tests and impurity limits for this additive.[^2]
@@ -48,7 +48,7 @@ Most people do not need to avoid E468. Anyone who notices digestive discomfort f
 - Myth: “It’s the same as E466.” Fact: E466 and E468 are closely related; E466 dissolves, while E468 is cross‑linked so it mainly swells. That difference changes texture and stability.
 
 ## Cross-linked sodium carboxymethylcellulose in branded foods
-On labels, look for “E468,” “cross‑linked cellulose gum,” “crosslinked sodium carboxymethyl cellulose,” or “croscarmellose sodium.” It often appears alongside other stabilisers, such as [xanthan gum](/e415-xanthan-gum), [pectins](/e440-pectins), or [carrageenan](/e407-carrageenan), especially in sauces, desserts, fillings, and gluten‑free bakery items.
+On labels, look for “E468,” “cross‑linked cellulose gum,” “crosslinked sodium carboxymethyl cellulose,” or “croscarmellose sodium.” It often appears alongside other stabilisers, such as [xanthan gum](/e415-xanthan-gum){.additive}, [pectins](/e440-pectins){.additive}, or [carrageenan](/e407-carrageenan){.additive}, especially in sauces, desserts, fillings, and gluten‑free bakery items.
 
 ## References
 [^1]: Re‑evaluation of celluloses (E 460(i), E 460(ii), E 461, E 462, E 463, E 464, E 465, E 466, E 468 and E 469) as food additives — EFSA Journal. https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2018.5047

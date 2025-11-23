@@ -24,11 +24,11 @@ Regulators group this kind of ingredient with mono‑ and diglyceride emulsifier
 
 ## What can replace Superglycerinated hydrogenated rapeseed oil?
 Possible stand‑ins depend on the recipe:
-- Other mono‑ and diglyceride emulsifiers, such as [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids) or “distilled monoglycerides”
-- Lecithins like [lecithins](/e322-lecithins) (from soy or sunflower)
-- Lactylates such as [sodium stearoyl‑2‑lactylate](/e481-sodium-stearoyl-2-lactylate) or [calcium stearoyl‑2‑lactylate](/e482-calcium-stearoyl-2-lactylate) for bread
-- Sugar‑based emulsifiers like [sucrose esters of fatty acids](/e473-sucrose-esters-of-fatty-acids) or [polyglycerol polyricinoleate](/e476-polyglycerol-polyricinoleate) in confectionery
-- Modified versions of monoglycerides such as [citric acid esters of mono‑ and diglycerides](/e472c-citric-acid-esters-of-mono-and-diglycerides-of-fatty-acids)
+- Other mono‑ and diglyceride emulsifiers, such as [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive} or “distilled monoglycerides”
+- Lecithins like [lecithins](/e322-lecithins){.additive} (from soy or sunflower)
+- Lactylates such as [sodium stearoyl‑2‑lactylate](/e481-sodium-stearoyl-2-lactylate){.additive} or [calcium stearoyl‑2‑lactylate](/e482-calcium-stearoyl-2-lactylate){.additive} for bread
+- Sugar‑based emulsifiers like [sucrose esters of fatty acids](/e473-sucrose-esters-of-fatty-acids){.additive} or [polyglycerol polyricinoleate](/e476-polyglycerol-polyricinoleate){.additive} in confectionery
+- Modified versions of monoglycerides such as [citric acid esters of mono‑ and diglycerides](/e472c-citric-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive}
 
 Each choice has its own strengths, so formulators match the emulsifier to the food and process.
 

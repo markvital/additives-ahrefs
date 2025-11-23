@@ -7,7 +7,7 @@ Maltitol syrup (E965II) is a sugar alcohol used to sweeten foods with fewer calo
 - What it does: Sweetener, humectant (keeps moisture), stabiliser, and thickener
 - Where you’ll see it: “Sugar-free” or “no added sugar” chocolates, biscuits, bars, ice creams, and chewing gum
 - Calories: 2.4 kcal per gram in U.S. labeling, lower than table sugar
-- E-number: E965II (the solid form is [maltitol](/e965-maltitol))
+- E-number: E965II (the solid form is [maltitol](/e965-maltitol){.additive})
 
 ## Why is Maltitol syrup added to food?
 Maltitol syrup sweetens like sugar but with fewer calories. It also provides bulk, body, and shine, which high-intensity sweeteners alone cannot do. As a humectant, it helps products stay soft and prevents them from drying out. In fillings and glazes, it adds a smooth texture and helps resist crystallisation.
@@ -24,11 +24,11 @@ On labels, it may appear as “maltitol syrup” or “E965ii” (in the EU).
 
 ## What can replace Maltitol syrup?
 It depends on what you need:
-- For similar bulk and mild sweetness: [maltitol](/e965-maltitol) (crystalline), [isomalt](/e953-isomalt), [xylitol](/e967-xylitol), or [erythritol](/e968-erythritol)
-- For moisture control: [sorbitol](/e420-sorbitol) or [glycerol](/e422-glycerol)
-- For more sweetness without bulk: [sucralose](/e955-sucralose), [aspartame](/e951-aspartame), [acesulfame K](/e950-acesulfame-k), [steviol glycosides](/e960-steviol-glycosides)
-- For syrups with similar functionality: [polyglycitol syrup](/e964-polyglycitol-syrup)
-Sometimes a blend works best—for example, maltitol syrup for bulk plus a high‑intensity sweetener for sweetness, and a stabiliser like [xanthan gum](/e415-xanthan-gum) for texture.
+- For similar bulk and mild sweetness: [maltitol](/e965-maltitol){.additive} (crystalline), [isomalt](/e953-isomalt){.additive}, [xylitol](/e967-xylitol){.additive}, or [erythritol](/e968-erythritol){.additive}
+- For moisture control: [sorbitol](/e420-sorbitol){.additive} or [glycerol](/e422-glycerol){.additive}
+- For more sweetness without bulk: [sucralose](/e955-sucralose){.additive}, [aspartame](/e951-aspartame){.additive}, [acesulfame K](/e950-acesulfame-k){.additive}, [steviol glycosides](/e960-steviol-glycosides){.additive}
+- For syrups with similar functionality: [polyglycitol syrup](/e964-polyglycitol-syrup){.additive}
+Sometimes a blend works best—for example, maltitol syrup for bulk plus a high‑intensity sweetener for sweetness, and a stabiliser like [xanthan gum](/e415-xanthan-gum){.additive} for texture.
 
 ## How is Maltitol syrup made?
 Maltitol syrup is produced by hydrogenating starch hydrolysates (starch broken down into smaller sugars, especially maltose). The result is a mixture mainly containing maltitol, along with small amounts of sorbitol and higher hydrogenated saccharides. In the EU, detailed identity and purity specifications for E965ii are set by Commission Regulation (EU) No 231/2012.[^1]

@@ -26,10 +26,10 @@ In the EU, glycerol (E422) is authorized across many food categories, reflecting
 
 ## What can replace Glycerol?
 Several additives can fill similar roles, depending on the goal:
-- To keep moisture and softness: polyols such as [sorbitol](/e420-sorbitol), [xylitol](/e967-xylitol), or [maltitol](/e965-maltitol)
-- As a solvent for flavors and colors: [propylene glycol](/e1520-propylene-glycol)
-- To build body or improve texture: hydrocolloids like [xanthan gum](/e415-xanthan-gum), [carrageenan](/e407-carrageenan), or [agar](/e406-agar)
-- For bulk with fewer sugars: [polydextrose](/e1200-polydextrose)
+- To keep moisture and softness: polyols such as [sorbitol](/e420-sorbitol){.additive}, [xylitol](/e967-xylitol){.additive}, or [maltitol](/e965-maltitol){.additive}
+- As a solvent for flavors and colors: [propylene glycol](/e1520-propylene-glycol){.additive}
+- To build body or improve texture: hydrocolloids like [xanthan gum](/e415-xanthan-gum){.additive}, [carrageenan](/e407-carrageenan){.additive}, or [agar](/e406-agar){.additive}
+- For bulk with fewer sugars: [polydextrose](/e1200-polydextrose){.additive}
 
 Each option has its own taste, texture, and labeling differences, so formulators choose based on the product and dietary goals.
 
@@ -49,7 +49,7 @@ For consumers, glycerol helps foods stay moist and palatable, keeps icings smoot
 
 ## Myths & facts
 - Myth: “Glycerol is always vegan.” Fact: It can be made from vegetable oils or animal fats; many brands use plant sources, but the source can vary.[^3]
-- Myth: “Glycerol and propylene glycol are the same.” Fact: They are different additives with different E‑numbers (E422 vs. [E1520](/e1520-propylene-glycol)) and properties.
+- Myth: “Glycerol and propylene glycol are the same.” Fact: They are different additives with different E‑numbers (E422 vs. [E1520](/e1520-propylene-glycol){.additive}) and properties.
 - Myth: “Glycerol is a preservative.” Fact: Its primary roles are humectant, solvent, and texture modifier; it’s not an antimicrobial preservative by itself.[^1]
 - Myth: “Glycerol is sugar-free so it’s calorie-free.” Fact: It contributes calories even though it is less sweet than table sugar.
 

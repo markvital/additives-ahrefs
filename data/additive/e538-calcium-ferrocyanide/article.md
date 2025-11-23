@@ -19,11 +19,11 @@ Labels may list it as “calcium ferrocyanide,” “E538,” or “anti-caking 
 
 ## What can replace Calcium ferrocyanide?
 Other anti-caking agents often used in salt include:
-- [Potassium ferrocyanide](/e536-potassium-ferrocyanide)
-- [Silicon dioxide](/e551-silicon-dioxide)
-- [Calcium silicate](/e552-calcium-silicate)
-- [Sodium aluminosilicate](/e554-sodium-aluminium-silicate)
-- [Calcium carbonate](/e170i-calcium-carbonate)
+- [Potassium ferrocyanide](/e536-potassium-ferrocyanide){.additive}
+- [Silicon dioxide](/e551-silicon-dioxide){.additive}
+- [Calcium silicate](/e552-calcium-silicate){.additive}
+- [Sodium aluminosilicate](/e554-sodium-aluminium-silicate){.additive}
+- [Calcium carbonate](/e170i-calcium-carbonate){.additive}
 
 The best choice depends on the product, local rules, and desired label wording.
 
@@ -48,7 +48,7 @@ Most people do not need to avoid it when used as allowed in foods. People who ar
   - Fact: In the EU it is mainly authorized for use in salt and salt substitutes, and at very low levels.[^1]
 
 ## Calcium ferrocyanide in branded foods
-You will most often see it in the ingredient list of table salt or seasoned salts. Look near the end of the list for “anti-caking agent (E538)” or “calcium ferrocyanide.” Rules may differ by country, so some salts may use alternatives like [silicon dioxide](/e551-silicon-dioxide) or [calcium silicate](/e552-calcium-silicate) instead.
+You will most often see it in the ingredient list of table salt or seasoned salts. Look near the end of the list for “anti-caking agent (E538)” or “calcium ferrocyanide.” Rules may differ by country, so some salts may use alternatives like [silicon dioxide](/e551-silicon-dioxide){.additive} or [calcium silicate](/e552-calcium-silicate){.additive} instead.
 
 ## References
 [^1]: Re-evaluation of ferrocyanides (E 535–538) as food additives — European Food Safety Authority (EFSA). https://doi.org/10.2903/j.efsa.2018.5374

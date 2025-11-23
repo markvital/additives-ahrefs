@@ -6,7 +6,7 @@ Aluminium sodium sulphate (E521), also known as sodium aluminium sulfate or “s
 - E-number: E521; also labeled as sodium aluminium sulfate or soda alum
 - Role: Acid in baking powders; helps baked goods rise
 - Typical foods: Baking powder, self-rising flour, some dry mixes
-- Related additives: other “alums” like E520, E522, E523; sometimes paired with [sodium bicarbonate](/e500ii-sodium-bicarbonate)
+- Related additives: other “alums” like E520, E522, E523; sometimes paired with [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive}
 - Diet notes: Mineral salt, vegan and gluten-free by nature
 - Safety: Regulated; total aluminium intake has recommended limits in the EU
 
@@ -25,10 +25,10 @@ In the United States, the federal standard of identity for self-rising flour lis
 
 ## What can replace aluminium sodium sulphate?
 Alternatives depend on the recipe and desired rise:
-- Non-aluminium leavening acids such as [monocalcium phosphate](/e341i-monocalcium-phosphate) or [disodium diphosphate](/e450i-disodium-diphosphate) (also called SAPP)
-- Organic acids in home baking, like [citric acid](/e330-citric-acid)
-- Slow-acting options such as [glucono delta-lactone](/e575-glucono-delta-lactone)
-- If aluminium is acceptable but a different profile is needed, some blends use [sodium aluminium phosphate](/e541-sodium-aluminium-phosphate)
+- Non-aluminium leavening acids such as [monocalcium phosphate](/e341i-monocalcium-phosphate){.additive} or [disodium diphosphate](/e450i-disodium-diphosphate){.additive} (also called SAPP)
+- Organic acids in home baking, like [citric acid](/e330-citric-acid){.additive}
+- Slow-acting options such as [glucono delta-lactone](/e575-glucono-delta-lactone){.additive}
+- If aluminium is acceptable but a different profile is needed, some blends use [sodium aluminium phosphate](/e541-sodium-aluminium-phosphate){.additive}
 
 Swapping one acid for another can change flavor and timing, so formulas often need adjustment.
 
@@ -56,7 +56,7 @@ These features make it useful in shelf-stable mixes that must perform consistent
 - Myth: Any aluminium-based leavening makes baked goods taste metallic. Fact: In properly formulated recipes, off-flavors are not expected; problems usually come from imbalanced leavening or too much acid.
 
 ## Aluminium sodium sulphate in branded foods
-Ingredient lists are the best guide. Look for “sodium aluminium sulfate,” “aluminium sodium sulphate,” or “E521” on baking powder, self-rising flour, and dry baking mixes. Similar names you might see on labels include other “alums,” such as [aluminium sulphate](/e520-aluminium-sulphate), [aluminium potassium sulphate](/e522-aluminium-potassium-sulphate), and [aluminium ammonium sulphate](/e523-aluminium-ammonium-sulphate); these are related but not identical.
+Ingredient lists are the best guide. Look for “sodium aluminium sulfate,” “aluminium sodium sulphate,” or “E521” on baking powder, self-rising flour, and dry baking mixes. Similar names you might see on labels include other “alums,” such as [aluminium sulphate](/e520-aluminium-sulphate){.additive}, [aluminium potassium sulphate](/e522-aluminium-potassium-sulphate){.additive}, and [aluminium ammonium sulphate](/e523-aluminium-ammonium-sulphate){.additive}; these are related but not identical.
 
 ## References
 [^1]: Food Additive Status List — U.S. FDA. https://www.fda.gov/food/food-additives-petitions/food-additive-status-list

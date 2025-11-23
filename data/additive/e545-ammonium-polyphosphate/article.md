@@ -6,7 +6,7 @@ Ammonium polyphosphate (E545) is a phosphate-based food additive used for techni
 - Main roles: Acidity regulator, stabilizer, and sequestrant (binds metal ions that can cause haze or off-flavors).
 - Where it’s allowed: Authorized in the European Union with detailed conditions of use.
 - How it appears on labels: “Ammonium polyphosphate” or “E545”.
-- Related additives: Other phosphates like [phosphoric acid](/e338-phosphoric-acid), [sodium polyphosphate](/e452i-sodium-polyphosphate), and [calcium polyphosphate](/e544-calcium-polyphosphate).
+- Related additives: Other phosphates like [phosphoric acid](/e338-phosphoric-acid){.additive}, [sodium polyphosphate](/e452i-sodium-polyphosphate){.additive}, and [calcium polyphosphate](/e544-calcium-polyphosphate){.additive}.
 
 ## Why is Ammonium polyphosphate added to food?
 Food makers use ammonium polyphosphate for its phosphate functions. These include regulating acidity, stabilizing proteins and emulsions, and acting as a sequestrant that binds trace metals to prevent haze, discoloration, or off-flavors in foods and drinks.[^1]
@@ -16,8 +16,8 @@ In the European Union, which foods may contain E545 is set out in Annex II of th
 
 ## What can replace Ammonium polyphosphate?
 Possible alternatives depend on the job it is doing in the recipe:
-- For acidity control: [phosphoric acid](/e338-phosphoric-acid) or [citric acid](/e330-citric-acid)
-- For sequestration or stabilization: [sodium polyphosphate](/e452i-sodium-polyphosphate), [potassium phosphates](/e340-potassium-phosphates), [calcium phosphates](/e341-calcium-phosphates), or the group [polyphosphates](/e452-polyphosphates)
+- For acidity control: [phosphoric acid](/e338-phosphoric-acid){.additive} or [citric acid](/e330-citric-acid){.additive}
+- For sequestration or stabilization: [sodium polyphosphate](/e452i-sodium-polyphosphate){.additive}, [potassium phosphates](/e340-potassium-phosphates){.additive}, [calcium phosphates](/e341-calcium-phosphates){.additive}, or the group [polyphosphates](/e452-polyphosphates){.additive}
 - For texture/emulsion support in some systems: other permitted phosphates chosen to match the process and pH
 
 Formulators select a replacement based on pH, mineral content, and the food matrix, and must follow the permitted uses set in law.[^3]

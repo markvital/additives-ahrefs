@@ -24,11 +24,11 @@ It may be used directly in the food or in the added flavor or color system, at l
 
 ## What can replace Propylene Glycol?
 Alternatives depend on why it’s used:
-- For moisture retention: [glycerol](/e422-glycerol), [sorbitol](/e420-sorbitol)
-- For dissolving flavors or extracts: [ethanol](/e1510-ethanol), [glyceryl triacetate](/e1518-glyceryl-triacetate)
-- For stabilizing emulsions or texture (when PG is acting as a co-solvent in an emulsion): [lecithins](/e322-lecithins), [xanthan gum](/e415-xanthan-gum)
-- For specific applications in sauces and dressings: [polyoxyethylene sorbitan monooleate](/e433-polyoxyethylene-sorbitan-monooleate) (a polysorbate emulsifier)
-- Note: “Propylene glycol alginate” is a different additive used mainly as a thickener and stabilizer; see [propane-1,2-diol alginate](/e405-propane-1-2-diol-alginate)
+- For moisture retention: [glycerol](/e422-glycerol){.additive}, [sorbitol](/e420-sorbitol){.additive}
+- For dissolving flavors or extracts: [ethanol](/e1510-ethanol){.additive}, [glyceryl triacetate](/e1518-glyceryl-triacetate){.additive}
+- For stabilizing emulsions or texture (when PG is acting as a co-solvent in an emulsion): [lecithins](/e322-lecithins){.additive}, [xanthan gum](/e415-xanthan-gum){.additive}
+- For specific applications in sauces and dressings: [polyoxyethylene sorbitan monooleate](/e433-polyoxyethylene-sorbitan-monooleate){.additive} (a polysorbate emulsifier)
+- Note: “Propylene glycol alginate” is a different additive used mainly as a thickener and stabilizer; see [propane-1,2-diol alginate](/e405-propane-1-2-diol-alginate){.additive}
 
 ## How is Propylene Glycol made?
 Most commercial propylene glycol is produced by reacting propylene oxide with water (hydration), followed by purification. This yields a high-purity, food-grade product that is colorless, nearly odorless, and slightly sweet.[^3] In the EU, purity criteria (such as limits for impurities and identification tests) are laid out in the additive specifications.[^4]
@@ -55,7 +55,7 @@ If you have concerns, check labels for “propylene glycol,” “E1520,” “p
 
 ## Myths & facts
 - “Propylene glycol is the same as antifreeze.” False. The toxic antifreeze people worry about is ethylene glycol. Propylene glycol is a different, much less toxic chemical; in fact, it is used in some “low-toxicity” antifreeze blends.[^5]
-- “Propylene glycol is always an emulsifier.” Not exactly. It mainly acts as a humectant and solvent. It can help emulsions indirectly as a co-solvent, but it is not a classic emulsifier like [lecithins](/e322-lecithins) or polysorbates.
+- “Propylene glycol is always an emulsifier.” Not exactly. It mainly acts as a humectant and solvent. It can help emulsions indirectly as a co-solvent, but it is not a classic emulsifier like [lecithins](/e322-lecithins){.additive} or polysorbates.
 - “It’s unsafe in all amounts.” No. Safety reviews set limits and conditions. The EU set an ADI, and the U.S. allows it under good manufacturing practice.[^1]
 
 ## Propylene Glycol in branded foods

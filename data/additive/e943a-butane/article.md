@@ -22,7 +22,7 @@ You are most likely to find butane listed as “propellant: butane” on:
 In the European Union, butane (E943a) is authorised as a food additive for use as a propellant in specific food categories under the food additives regulation.[^3] It is also permitted in the EU as an extraction solvent (for example, in making some flavourings), with conditions and residue limits set by law.[^6]
 
 ## What can replace Butane?
-- Other food-grade propellants: [propane](/e944-propane), [isobutane](/e943b-isobutane), [nitrous oxide](/e942-nitrous-oxide), [carbon dioxide](/e290-carbon-dioxide), and [nitrogen](/e941-nitrogen)
+- Other food-grade propellants: [propane](/e944-propane){.additive}, [isobutane](/e943b-isobutane){.additive}, [nitrous oxide](/e942-nitrous-oxide){.additive}, [carbon dioxide](/e290-carbon-dioxide){.additive}, and [nitrogen](/e941-nitrogen){.additive}
 - Non-aerosol options: pump sprays, squeeze bottles, brush-on oils, or wipe-on release agents
 
 ## How is Butane made?
@@ -50,7 +50,7 @@ Note: Butane is extremely flammable; the safety issue for consumers is fire risk
 - Myth: “Butane adds flavor.” Fact: It is inert in this context and used only to propel or extract; it does not contribute taste.
 
 ## Butane in branded foods
-On ingredient lists, look for wording like “propellant (butane)” or “propellant: butane, propane.” Many aerosol whipped creams and cooking sprays use butane alone or in blends with [propane](/e944-propane) or [isobutane](/e943b-isobutane). If you prefer to avoid propellants entirely, choose pump sprays or pourable products instead.
+On ingredient lists, look for wording like “propellant (butane)” or “propellant: butane, propane.” Many aerosol whipped creams and cooking sprays use butane alone or in blends with [propane](/e944-propane){.additive} or [isobutane](/e943b-isobutane){.additive}. If you prefer to avoid propellants entirely, choose pump sprays or pourable products instead.
 
 ## References
 [^1]: Re-evaluation of butane (E 943a), isobutane (E 943b) and propane (E 944) as food additives — EFSA Journal (2009). https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2009.1331

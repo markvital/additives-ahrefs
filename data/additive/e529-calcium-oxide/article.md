@@ -12,12 +12,12 @@ Calcium oxide (E529) is a highly alkaline compound also known as quicklime. In f
 Food makers use calcium oxide to adjust acidity. It is a strong base that reacts with water to form calcium hydroxide, which raises pH and can help set the right conditions for texture, color, and flavor during processing.[^2] In the European Union (EU), it is listed as an approved food additive (E529), so it may be used where specifically authorized and in line with general use rules for additives.[^1]
 
 ## What foods contain Calcium oxide?
-You are most likely to find E529 listed on labels of specialty or highly processed items where pH control is needed. It is not as common as closely related bases like [calcium hydroxide](/e526-calcium-hydroxide) or [calcium carbonates](/e170-calcium-carbonates). Look for “calcium oxide” or “E529” in the ingredient list.
+You are most likely to find E529 listed on labels of specialty or highly processed items where pH control is needed. It is not as common as closely related bases like [calcium hydroxide](/e526-calcium-hydroxide){.additive} or [calcium carbonates](/e170-calcium-carbonates){.additive}. Look for “calcium oxide” or “E529” in the ingredient list.
 
 ## What can replace Calcium oxide?
-- [Calcium hydroxide](/e526-calcium-hydroxide) (a milder base that is formed when calcium oxide contacts water)
-- [Calcium carbonates](/e170-calcium-carbonates) (gentle pH adjusters and calcium sources)
-- [Sodium carbonates](/e500-sodium-carbonates) or [potassium carbonates](/e501-potassium-carbonates) (common alkaline acidity regulators)
+- [Calcium hydroxide](/e526-calcium-hydroxide){.additive} (a milder base that is formed when calcium oxide contacts water)
+- [Calcium carbonates](/e170-calcium-carbonates){.additive} (gentle pH adjusters and calcium sources)
+- [Sodium carbonates](/e500-sodium-carbonates){.additive} or [potassium carbonates](/e501-potassium-carbonates){.additive} (common alkaline acidity regulators)
 
 The best substitute depends on the recipe, target pH, taste impact, and labeling needs.
 
@@ -40,7 +40,7 @@ Calcium oxide is used in tiny, controlled amounts in foods. Still, people who mu
 - “It adds a lot of calcium to the diet.” Any calcium contribution from E529 at typical use levels is small compared with everyday calcium‑rich foods.
 
 ## Calcium oxide in branded foods
-On ingredient lists, look for “calcium oxide” or “E529.” It appears mainly in products where the maker needs a strong alkalizing agent during processing. Similar products from different brands may use other regulators instead, such as [calcium hydroxide](/e526-calcium-hydroxide) or [sodium carbonates](/e500-sodium-carbonates), so labels can differ.
+On ingredient lists, look for “calcium oxide” or “E529.” It appears mainly in products where the maker needs a strong alkalizing agent during processing. Similar products from different brands may use other regulators instead, such as [calcium hydroxide](/e526-calcium-hydroxide){.additive} or [sodium carbonates](/e500-sodium-carbonates){.additive}, so labels can differ.
 
 ## References
 [^1]: Regulation (EC) No 1333/2008 on food additives — EUR-Lex. https://eur-lex.europa.eu/eli/reg/2008/1333/oj

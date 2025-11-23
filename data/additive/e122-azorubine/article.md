@@ -26,8 +26,8 @@ In the EU, you’ll find it on labels as “E122” or “carmoisine.” Outside
 
 ## What can replace Azorubine?
 Depending on the product and desired shade:
-- Synthetic alternatives: [Allura Red](/e129-allura-red) (E129)
-- Natural reds: [beetroot red](/e162-beetroot-red) (E162), [anthocyanins](/e163-anthocyanins) (E163), [paprika extract](/e160c-paprika-extract) (E160c), or [cochineal](/e120-cochineal) (E120)
+- Synthetic alternatives: [Allura Red](/e129-allura-red){.additive} (E129)
+- Natural reds: [beetroot red](/e162-beetroot-red){.additive} (E162), [anthocyanins](/e163-anthocyanins){.additive} (E163), [paprika extract](/e160c-paprika-extract){.additive} (E160c), or [cochineal](/e120-cochineal){.additive} (E120)
 
 Trade‑offs include differences in shade, stability to heat/light, and how color looks in acidic or dairy foods.
 
@@ -57,7 +57,7 @@ This additive does not provide nutrition. Its benefit is practical: it gives foo
 Brand recipes change often. The best way to check is to:
 - Look for “E122” or “carmoisine” on the ingredient list.
 - In the EU, also look for the statement “may have an adverse effect on activity and attention in children.”
-- Scan similar products that use alternatives like [beetroot red](/e162-beetroot-red) or [anthocyanins](/e163-anthocyanins) if you want to avoid synthetic reds.
+- Scan similar products that use alternatives like [beetroot red](/e162-beetroot-red){.additive} or [anthocyanins](/e163-anthocyanins){.additive} if you want to avoid synthetic reds.
 
 ## References
 [^1]: Commission Regulation (EU) No 231/2012 — Specifications for food additives listed in Annexes II and III to Regulation (EC) No 1333/2008. https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32012R0231

@@ -23,9 +23,9 @@ Labeling may show “ferrous lactate,” “iron(II) lactate,” or “E585.”[
 
 ## What can replace Ferrous lactate?
 Manufacturers sometimes choose other options depending on the product and local rules:
-- [Ferrous gluconate](/e579-iron-gluconate), another iron salt widely used for stabilizing the color of ripe olives
+- [Ferrous gluconate](/e579-iron-gluconate){.additive}, another iron salt widely used for stabilizing the color of ripe olives
 - Process adjustments (e.g., time and oxygen exposure) to control olive darkening during curing
-- Antioxidants such as [ascorbic acid](/e300-ascorbic-acid) used for general color and flavor protection in foods (not a direct substitute in every olive process)
+- Antioxidants such as [ascorbic acid](/e300-ascorbic-acid){.additive} used for general color and flavor protection in foods (not a direct substitute in every olive process)
 
 ## How is Ferrous lactate made?
 Ferrous lactate is the iron(II) salt of lactic acid. It is produced by reacting lactic acid with a suitable iron source to form a stable salt that meets purity and identity specifications set in EU law.[^3] Lactic acid itself is commonly made by fermenting sugars with safe food-grade microbes.

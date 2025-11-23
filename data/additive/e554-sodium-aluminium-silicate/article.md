@@ -25,11 +25,11 @@ Label wording may say “sodium aluminosilicate,” “sodium aluminium silicate
 
 ## What can replace Sodium aluminium silicate?
 Other anti-caking agents that are often used instead include:
-- [Silicon dioxide](/e551-silicon-dioxide)
-- [Calcium silicate](/e552-calcium-silicate)
-- [Talc (magnesium silicate)](/e553b-talc)
-- [Tricalcium phosphate](/e341iii-tricalcium-phosphate) or other [calcium phosphates](/e341-calcium-phosphates)
-- In salt products, agents like [sodium ferrocyanide](/e535-sodium-ferrocyanide) are sometimes used
+- [Silicon dioxide](/e551-silicon-dioxide){.additive}
+- [Calcium silicate](/e552-calcium-silicate){.additive}
+- [Talc (magnesium silicate)](/e553b-talc){.additive}
+- [Tricalcium phosphate](/e341iii-tricalcium-phosphate){.additive} or other [calcium phosphates](/e341-calcium-phosphates){.additive}
+- In salt products, agents like [sodium ferrocyanide](/e535-sodium-ferrocyanide){.additive} are sometimes used
 - For grated cheeses and sugars, non-additive options like starches are also common
 
 The best substitute depends on the food, processing needs, and local rules.
@@ -65,7 +65,7 @@ Most people do not need to avoid E554. However:
   Fact: E554 is used in very small amounts to manage moisture and flow; it is not added for bulk or calories.
 
 ## Sodium aluminium silicate in branded foods
-You can spot E554 on ingredient lists of many dry, free‑flowing foods. Look for “sodium aluminosilicate,” “sodium aluminium silicate,” or “E554.” Product types that commonly use it include spice blends, powdered drink mixes, instant soups and sauces, grated hard cheeses, and baking or dessert mixes. If you prefer to avoid it, choose products labeled without anti‑caking agents or those that use alternatives like [silicon dioxide](/e551-silicon-dioxide) or [calcium silicate](/e552-calcium-silicate).
+You can spot E554 on ingredient lists of many dry, free‑flowing foods. Look for “sodium aluminosilicate,” “sodium aluminium silicate,” or “E554.” Product types that commonly use it include spice blends, powdered drink mixes, instant soups and sauces, grated hard cheeses, and baking or dessert mixes. If you prefer to avoid it, choose products labeled without anti‑caking agents or those that use alternatives like [silicon dioxide](/e551-silicon-dioxide){.additive} or [calcium silicate](/e552-calcium-silicate){.additive}.
 
 ## References
 [^1]: Re-evaluation of aluminium-containing silicates (E 554–559) as food additives — EFSA Journal. https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2018.5483

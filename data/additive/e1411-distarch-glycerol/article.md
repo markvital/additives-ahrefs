@@ -25,13 +25,13 @@ In the United States, it falls under the general category “food starch‑modif
 ## What can replace Distarch glycerol?
 The best substitute depends on the recipe and process:
 - Other modified starches for heat and processing tolerance:
-  - [distarch phosphate](/e1412-distarch-phosphate)
-  - [phosphated distarch phosphate](/e1413-phosphated-distarch-phosphate)
-  - [hydroxypropyl distarch phosphate](/e1442-hydroxypropyl-distarch-phosphate)
-  - [acetylated distarch adipate](/e1422-acetylated-distarch-adipate)
-  - [hydroxypropyl starch](/e1440-hydroxypropyl-starch) or [acetylated starch](/e1420-acetylated-starch)
+  - [distarch phosphate](/e1412-distarch-phosphate){.additive}
+  - [phosphated distarch phosphate](/e1413-phosphated-distarch-phosphate){.additive}
+  - [hydroxypropyl distarch phosphate](/e1442-hydroxypropyl-distarch-phosphate){.additive}
+  - [acetylated distarch adipate](/e1422-acetylated-distarch-adipate){.additive}
+  - [hydroxypropyl starch](/e1440-hydroxypropyl-starch){.additive} or [acetylated starch](/e1420-acetylated-starch){.additive}
 - Hydrocolloids (gums) for strong thickening or gel support:
-  - [xanthan gum](/e415-xanthan-gum), [guar gum](/e412-guar-gum), [carrageenan](/e407-carrageenan), [agar](/e406-agar), [pectin](/e440a-pectin)
+  - [xanthan gum](/e415-xanthan-gum){.additive}, [guar gum](/e412-guar-gum){.additive}, [carrageenan](/e407-carrageenan){.additive}, [agar](/e406-agar){.additive}, [pectin](/e440a-pectin){.additive}
 - Native starches (corn, potato, tapioca) where processing is gentle and freeze–thaw stability is not critical
 
 ## How is Distarch glycerol made?

@@ -28,10 +28,10 @@ On labels, look for “glycine,” “E640,” or “E640i.”
 
 ## What can replace Glycine?
 Other flavor enhancers can play a similar role, depending on the recipe:
-- [Monosodium glutamate](/e621-monosodium-glutamate) (MSG) for strong umami lift
-- [Disodium inosinate](/e631-disodium-inosinate) or [disodium guanylate](/e627-disodium-guanylate), or blends like [disodium 5'-ribonucleotide](/e635-disodium-5-ribonucleotide) for synergistic savory notes
+- [Monosodium glutamate](/e621-monosodium-glutamate){.additive} (MSG) for strong umami lift
+- [Disodium inosinate](/e631-disodium-inosinate){.additive} or [disodium guanylate](/e627-disodium-guanylate){.additive}, or blends like [disodium 5'-ribonucleotide](/e635-disodium-5-ribonucleotide){.additive} for synergistic savory notes
 - Yeast extracts or hydrolyzed vegetable proteins for broader savory impact
-- If sodium is a concern, some products use [glycine and its sodium salt](/e640ii-sodiumglycinate) carefully, or avoid the sodium salt entirely
+- If sodium is a concern, some products use [glycine and its sodium salt](/e640ii-sodiumglycinate){.additive} carefully, or avoid the sodium salt entirely
 
 Choice depends on flavor target, cost, labeling, and dietary limits.
 
@@ -48,12 +48,12 @@ Glycine (E 640 i) and its sodium salt are on the EU Union list of permitted food
 
 ## Who should avoid Glycine?
 - People advised by a clinician to limit specific amino acids (for example, due to rare metabolic disorders) should review labels and consult their care team.
-- Those on strict low-sodium diets might prefer products that use glycine (E640i) rather than the sodium salt variant [sodium glycinate](/e640ii-sodiumglycinate), depending on the overall recipe.
+- Those on strict low-sodium diets might prefer products that use glycine (E640i) rather than the sodium salt variant [sodium glycinate](/e640ii-sodiumglycinate){.additive}, depending on the overall recipe.
 - If you have any sensitivity you suspect is linked to a particular product, discuss it with a healthcare professional.
 
 ## Myths & facts
 - Myth: Glycine is the same as MSG.
-  Fact: Glycine is a different amino acid and works more gently; MSG is [monosodium glutamate](/e621-monosodium-glutamate), which gives a strong umami boost.
+  Fact: Glycine is a different amino acid and works more gently; MSG is [monosodium glutamate](/e621-monosodium-glutamate){.additive}, which gives a strong umami boost.
 - Myth: Glycine is just an artificial chemical.
   Fact: Glycine occurs naturally in foods and the human body; the food-additive form is purified to consistent food-grade standards.
 - Myth: Glycine is a sweetener.
@@ -62,7 +62,7 @@ Glycine (E 640 i) and its sodium salt are on the EU Union list of permitted food
 ## Glycine in branded foods
 On ingredient lists, look for:
 - “Glycine,” “E640,” or “E640i”
-- Sometimes paired with other flavor enhancers such as [monosodium glutamate](/e621-monosodium-glutamate) or [disodium 5'-ribonucleotide](/e635-disodium-5-ribonucleotide)
+- Sometimes paired with other flavor enhancers such as [monosodium glutamate](/e621-monosodium-glutamate){.additive} or [disodium 5'-ribonucleotide](/e635-disodium-5-ribonucleotide){.additive}
 You’ll most often see it in savory seasonings, instant soups, sauces, meat products, and some nutrition beverages.
 
 ## References

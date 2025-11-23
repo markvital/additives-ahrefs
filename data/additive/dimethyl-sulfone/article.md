@@ -16,7 +16,7 @@ Most manufacturers do not add dimethyl sulfone to ordinary foods. In the U.S., i
 Dimethyl sulfone occurs naturally in very small amounts in a variety of foods, including cow’s milk, coffee, tea, tomatoes, corn, alfalfa sprouts, and beer.[^1] In practice, most consumer exposure comes from MSM-containing supplements rather than from typical foods.[^2]
 
 ## What can replace dimethyl sulfone?
-Because dimethyl sulfone is rarely used as a functional food additive, there is usually nothing specific to replace in recipes. If a product uses MSM for a “joint” or “recovery” positioning, companies may instead adjust flavor, texture, or stability using established additives (for example, [citric acid](/e330-citric-acid) for tartness or [ascorbic acid](/e300-ascorbic-acid) for antioxidant protection), but these do not replicate MSM’s proposed nutritional role. Always choose alternatives based on the intended function (taste, texture, shelf-life) rather than expecting another additive to provide the same health claim.
+Because dimethyl sulfone is rarely used as a functional food additive, there is usually nothing specific to replace in recipes. If a product uses MSM for a “joint” or “recovery” positioning, companies may instead adjust flavor, texture, or stability using established additives (for example, [citric acid](/e330-citric-acid){.additive} for tartness or [ascorbic acid](/e300-ascorbic-acid){.additive} for antioxidant protection), but these do not replicate MSM’s proposed nutritional role. Always choose alternatives based on the intended function (taste, texture, shelf-life) rather than expecting another additive to provide the same health claim.
 
 ## How is dimethyl sulfone made?
 Commercial MSM is typically produced by oxidizing dimethyl sulfoxide (often abbreviated DMSO) to form dimethyl sulfone (sometimes written as DMSO2), followed by purification steps such as crystallization and distillation to achieve high purity.[^1]
@@ -33,7 +33,7 @@ Research on MSM for joint pain and function shows mixed results. Some small stud
 - Anyone considering MSM alongside prescription medicines should consult a healthcare professional, as dietary supplements can interact with treatments even when specific interaction data are limited.[^3]
 
 ## Myths & facts
-- Myth: MSM is the same as sulfur dioxide preservative. Fact: MSM is a stable organic sulfur compound; it is not the same substance as [sulphur dioxide](/e220-sulphur-dioxide) used to preserve some foods.[^1]
+- Myth: MSM is the same as sulfur dioxide preservative. Fact: MSM is a stable organic sulfur compound; it is not the same substance as [sulphur dioxide](/e220-sulphur-dioxide){.additive} used to preserve some foods.[^1]
 - Myth: MSM is a proven cure for arthritis. Fact: Evidence is mixed and generally shows, at best, modest benefits for symptoms in some people; it is not a cure.[^2]
 - Myth: “Natural” means risk-free. Fact: Even naturally occurring compounds can cause side effects or interact with medications; supplement products are not reviewed by FDA before marketing.[^3]
 

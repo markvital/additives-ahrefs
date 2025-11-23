@@ -18,10 +18,10 @@ Within the EU, E180 is allowed for use on the rind of certain ripened cheeses an
 
 ## What can replace Litholrubine bk?
 When a similar red or orange hue is needed, manufacturers may choose other permitted colorants depending on the food and local rules, such as:
-- [annatto](/e160b-annatto)
-- [paprika extract](/e160c-paprika-extract)
-- [beetroot red](/e162-beetroot-red)
-- [cochineal](/e120-cochineal)
+- [annatto](/e160b-annatto){.additive}
+- [paprika extract](/e160c-paprika-extract){.additive}
+- [beetroot red](/e162-beetroot-red){.additive}
+- [cochineal](/e120-cochineal){.additive}
 
 The right alternative depends on the desired shade, labeling preferences (for example, animal vs. plant derived), and where the product will be sold.
 
@@ -41,7 +41,7 @@ For cheese makers, E180 provides a vivid, stable red color that stays on the rin
 
 ## Myths & facts
 - Myth: “This dye colors the whole cheese.” Fact: In the EU, E180 is authorised mainly for the rind (surface) of ripened cheeses, not the interior.[^1][^3]
-- Myth: “Litholrubine bk is the same as carmine.” Fact: No—carmine is [cochineal](/e120-cochineal), an insect-derived color, whereas E180 is a synthetic azo pigment.
+- Myth: “Litholrubine bk is the same as carmine.” Fact: No—carmine is [cochineal](/e120-cochineal){.additive}, an insect-derived color, whereas E180 is a synthetic azo pigment.
 - Myth: “It’s just a wax.” Fact: E180 is a regulated color additive with EU specifications for identity and purity; it is not a wax coating.[^2]
 
 ## Litholrubine bk in branded foods

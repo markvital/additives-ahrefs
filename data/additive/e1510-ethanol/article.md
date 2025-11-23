@@ -23,9 +23,9 @@ When used in baked goods, much of the ethanol from extracts evaporates during he
 
 ## What can replace Ethanol?
 Alternatives depend on the job ethanol is doing:
-- As a flavor solvent or carrier: [glycerol](/e422-glycerol) or [propylene glycol](/e1520-propylene-glycol) are common stand-ins, though they dissolve a different range of compounds and have a thicker mouthfeel.
-- For extraction: [ethyl acetate](/e1504-ethyl-acetate) or supercritical [carbon dioxide](/e290-carbon-dioxide) may be used for specific flavors or botanicals.
-- For shelf life when ethanol’s mild antimicrobial effect is desired: preservatives such as [potassium sorbate](/e202-potassium-sorbate) or [sodium benzoate](/e211-sodium-benzoate) can be options, depending on pH and product style.
+- As a flavor solvent or carrier: [glycerol](/e422-glycerol){.additive} or [propylene glycol](/e1520-propylene-glycol){.additive} are common stand-ins, though they dissolve a different range of compounds and have a thicker mouthfeel.
+- For extraction: [ethyl acetate](/e1504-ethyl-acetate){.additive} or supercritical [carbon dioxide](/e290-carbon-dioxide){.additive} may be used for specific flavors or botanicals.
+- For shelf life when ethanol’s mild antimicrobial effect is desired: preservatives such as [potassium sorbate](/e202-potassium-sorbate){.additive} or [sodium benzoate](/e211-sodium-benzoate){.additive} can be options, depending on pH and product style.
 
 Each substitute has trade-offs in taste, solubility, labeling, and regulations.
 

@@ -3,7 +3,7 @@ Dicalcium citrate (E333ii) is a calcium salt of citric acid used to control acid
 <!--more-->
 
 ## At a glance
-- What it is: The dicalcium salt of [citric acid](/e330-citric-acid); one of the three “calcium citrates” grouped under E333 (i = monocalcium, ii = dicalcium, iii = tricalcium).
+- What it is: The dicalcium salt of [citric acid](/e330-citric-acid){.additive}; one of the three “calcium citrates” grouped under E333 (i = monocalcium, ii = dicalcium, iii = tricalcium).
 - What it does: Works mainly as a sequestrant (binds metal ions that could cause haze or off-flavors) and stabiliser; also helps regulate acidity.
 - Where it’s used: Common in beverages, jams and jellies, dairy and plant-based drinks, and some baked goods.
 - Taste and solubility: Nearly neutral in flavor; moderate solubility that helps in clear beverages and dairy-style products.
@@ -18,13 +18,13 @@ You’ll most often find it in nonalcoholic beverages, fruit preparations (like 
 
 ## What can replace Dicalcium citrate?
 Depending on the job it’s doing, common stand‑ins include:
-- For tartness or pH control: [citric acid](/e330-citric-acid), [sodium citrates](/e331-sodium-citrates), or [potassium citrates](/e332-potassium-citrates).
-- For binding metals (sequestration): [sodium citrates](/e331-sodium-citrates) or other approved chelators (choices depend on the recipe).
-- For calcium fortification: [calcium lactate](/e327-calcium-lactate) or [calcium phosphates](/e341-calcium-phosphates), chosen per taste and solubility needs.
-- For buffering in baked goods: [sodium bicarbonate](/e500ii-sodium-bicarbonate) alongside suitable acid sources.
+- For tartness or pH control: [citric acid](/e330-citric-acid){.additive}, [sodium citrates](/e331-sodium-citrates){.additive}, or [potassium citrates](/e332-potassium-citrates){.additive}.
+- For binding metals (sequestration): [sodium citrates](/e331-sodium-citrates){.additive} or other approved chelators (choices depend on the recipe).
+- For calcium fortification: [calcium lactate](/e327-calcium-lactate){.additive} or [calcium phosphates](/e341-calcium-phosphates){.additive}, chosen per taste and solubility needs.
+- For buffering in baked goods: [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive} alongside suitable acid sources.
 
 ## How is Dicalcium citrate made?
-Food‑grade dicalcium citrate is typically produced by neutralising purified [citric acid](/e330-citric-acid) with a calcium source (such as calcium hydroxide or calcium carbonate), then filtering, washing, and drying the resulting crystals to meet purity specifications for E333(ii).[^3]
+Food‑grade dicalcium citrate is typically produced by neutralising purified [citric acid](/e330-citric-acid){.additive} with a calcium source (such as calcium hydroxide or calcium carbonate), then filtering, washing, and drying the resulting crystals to meet purity specifications for E333(ii).[^3]
 
 ## Is Dicalcium citrate safe to eat?
 In the European Union, the European Food Safety Authority (EFSA) re‑evaluated citric acid (E330) and its citrate salts (including E333) and found no safety concern at reported uses and use levels in foods.[^1] In the United States, calcium citrate is Generally Recognized as Safe (GRAS) when used in line with good manufacturing practice, according to the U.S. Food and Drug Administration (FDA).[^4]

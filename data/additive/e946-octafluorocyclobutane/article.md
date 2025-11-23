@@ -17,11 +17,11 @@ You may find E946 in some aerosol foods, such as whipped toppings, cooking oil s
 
 ## What can replace octafluorocyclobutane?
 Manufacturers often choose other approved propellant gases instead, including:
-- [nitrous oxide](/e942-nitrous-oxide)
-- [propane](/e944-propane)
-- [isobutane](/e943b-isobutane) or [butane](/e943a-butane)
-- [carbon dioxide](/e290-carbon-dioxide) or [nitrogen](/e941-nitrogen)
-- Inert gases such as [argon](/e938-argon), [helium](/e939-helium), or [oxygen](/e948-oxygen) when technically suitable
+- [nitrous oxide](/e942-nitrous-oxide){.additive}
+- [propane](/e944-propane){.additive}
+- [isobutane](/e943b-isobutane){.additive} or [butane](/e943a-butane){.additive}
+- [carbon dioxide](/e290-carbon-dioxide){.additive} or [nitrogen](/e941-nitrogen){.additive}
+- Inert gases such as [argon](/e938-argon){.additive}, [helium](/e939-helium){.additive}, or [oxygen](/e948-oxygen){.additive} when technically suitable
 
 Non-aerosol formats (pump sprays, squeeze bottles, or pourable products) can also remove the need for a propellant gas.
 
@@ -43,7 +43,7 @@ There is no specific consumer group singled out by law for avoiding E946. People
 - Myth: “Octafluorocyclobutane changes the taste of foods.” Fact: It is an odorless, inert gas used for dispensing, not for flavor.[^2]
 
 ## octafluorocyclobutane in branded foods
-Use of E946 is uncommon. Where allowed, it may appear on the ingredient list of certain aerosol whipped toppings or specialty cooking sprays. Many brands instead use more common gases like [nitrous oxide](/e942-nitrous-oxide), [propane](/e944-propane), or [isobutane](/e943b-isobutane). Check the label for “E946” or “octafluorocyclobutane.”
+Use of E946 is uncommon. Where allowed, it may appear on the ingredient list of certain aerosol whipped toppings or specialty cooking sprays. Many brands instead use more common gases like [nitrous oxide](/e942-nitrous-oxide){.additive}, [propane](/e944-propane){.additive}, or [isobutane](/e943b-isobutane){.additive}. Check the label for “E946” or “octafluorocyclobutane.”
 
 ## References
 [^1]: Commission Regulation (EU) No 231/2012 — Specifications for food additives listed in Annexes II and III to Regulation (EC) No 1333/2008. https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231

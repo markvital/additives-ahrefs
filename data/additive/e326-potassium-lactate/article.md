@@ -3,7 +3,7 @@ Potassium lactate (E326) is the potassium salt of lactic acid. Food makers use i
 <!--more-->
 
 ## At a glance
-- What it is: the potassium salt of [lactic acid](/e270-lactic-acid), a common food acid.
+- What it is: the potassium salt of [lactic acid](/e270-lactic-acid){.additive}, a common food acid.
 - What it does: helps regulate pH (acidity), retain moisture, and support food safety by inhibiting microbes in some foods.
 - Where you’ll see it: especially in ready-to-eat meats and poultry, plus other processed foods.
 - Label names: “potassium lactate” or “E326.”
@@ -12,7 +12,7 @@ Potassium lactate (E326) is the potassium salt of lactic acid. Food makers use i
 ## Why is potassium lactate added to food?
 Potassium lactate helps keep foods safe and stable. It regulates acidity (pH), holds moisture so products stay juicy, and supports control of bacteria that cause spoilage or illness, especially in cooked and ready-to-eat meats. In the European Union (EU), E326 is authorized as a food additive across many categories under general rules for safe use.[^1] In the United States, the Food Safety and Inspection Service (FSIS) of the U.S. Department of Agriculture (USDA) lists potassium lactate as a safe and suitable antimicrobial ingredient in meat and poultry processing when used as specified.[^2]
 
-Manufacturers may also choose potassium lactate instead of [sodium lactate](/e325-sodium-lactate) to formulate with potassium rather than sodium.
+Manufacturers may also choose potassium lactate instead of [sodium lactate](/e325-sodium-lactate){.additive} to formulate with potassium rather than sodium.
 
 ## What foods contain potassium lactate?
 You’ll most often find potassium lactate in:
@@ -24,13 +24,13 @@ Labeling may show “potassium lactate” or “E326,” depending on the market
 
 ## What can replace potassium lactate?
 Alternatives depend on the job it’s doing:
-- For pH control: [lactic acid](/e270-lactic-acid), [citric acid](/e330-citric-acid), or [potassium acetate](/e261-potassium-acetate)
-- For antimicrobial effect in meats: [sodium lactate](/e325-sodium-lactate), [sodium diacetate](/e262ii-sodium-diacetate), [potassium sorbate](/e202-potassium-sorbate), or [sodium benzoate](/e211-sodium-benzoate) where allowed
-- For moisture retention: [glycerol](/e422-glycerol)
-- For formulation with calcium or sodium instead of potassium: [calcium lactate](/e327-calcium-lactate) or [sodium lactate](/e325-sodium-lactate)
+- For pH control: [lactic acid](/e270-lactic-acid){.additive}, [citric acid](/e330-citric-acid){.additive}, or [potassium acetate](/e261-potassium-acetate){.additive}
+- For antimicrobial effect in meats: [sodium lactate](/e325-sodium-lactate){.additive}, [sodium diacetate](/e262ii-sodium-diacetate){.additive}, [potassium sorbate](/e202-potassium-sorbate){.additive}, or [sodium benzoate](/e211-sodium-benzoate){.additive} where allowed
+- For moisture retention: [glycerol](/e422-glycerol){.additive}
+- For formulation with calcium or sodium instead of potassium: [calcium lactate](/e327-calcium-lactate){.additive} or [sodium lactate](/e325-sodium-lactate){.additive}
 
 ## How is potassium lactate made?
-Food-grade potassium lactate is produced by neutralizing [lactic acid](/e270-lactic-acid) with [potassium hydroxide](/e525-potassium-hydroxide), then refining the solution to meet purity specifications.[^3] Its chemical formula is C3H5O3K (the potassium salt of lactate).[^5]
+Food-grade potassium lactate is produced by neutralizing [lactic acid](/e270-lactic-acid){.additive} with [potassium hydroxide](/e525-potassium-hydroxide){.additive}, then refining the solution to meet purity specifications.[^3] Its chemical formula is C3H5O3K (the potassium salt of lactate).[^5]
 
 ## Is potassium lactate safe to eat?
 The European Food Safety Authority (EFSA) re-evaluated sodium, potassium, and calcium lactates (E325–E327) and found no safety concern for the general population at reported use levels; an acceptable daily intake (ADI) was not considered necessary under current conditions of use.[^4] E326 is authorized in the EU as a food additive under Regulation (EC) No 1333/2008.[^1] In the U.S., FSIS permits potassium lactate as a safe and suitable ingredient in meat and poultry when used as specified.[^2]

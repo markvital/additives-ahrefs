@@ -16,9 +16,9 @@ E914 is used on the surface of some fresh fruits, such as citrus fruit and other
 
 ## What can replace Oxidised polyethylene wax?
 Food makers may choose other glazing agents, depending on the fruit, the desired shine, and dietary needs:
-- Plant waxes such as [carnauba wax](/e903-carnauba-wax) or [rice bran wax](/e908-rice-bran-wax)
-- Animal-derived options like [shellac](/e904-shellac) or [white and yellow beeswax](/e901-white-and-yellow-beeswax)
-- Mineral/petroleum waxes such as [microcrystalline wax](/e905ci-microcrystalline-wax) or [montanic acid esters](/e912-montanic-acid-esters)
+- Plant waxes such as [carnauba wax](/e903-carnauba-wax){.additive} or [rice bran wax](/e908-rice-bran-wax){.additive}
+- Animal-derived options like [shellac](/e904-shellac){.additive} or [white and yellow beeswax](/e901-white-and-yellow-beeswax){.additive}
+- Mineral/petroleum waxes such as [microcrystalline wax](/e905ci-microcrystalline-wax){.additive} or [montanic acid esters](/e912-montanic-acid-esters){.additive}
 
 ## How is Oxidised polyethylene wax made?
 E914 is produced by oxidising polyethylene wax with air or oxygen. This process adds oxygen-containing groups to the polymer, turning it into a harder, more polar wax that can form a stable, thin film on fruit surfaces.[^1]
@@ -32,7 +32,7 @@ Yes. A wax coating helps fruit lose water more slowly, reduces scuffing during h
 ## Who should avoid Oxidised polyethylene wax?
 - If you prefer to avoid petroleum-derived waxes, choose “unwaxed” fruit where available or peel before eating.
 - For infants and toddlers, many caregivers peel fruit as a general practice to reduce choking risk and remove surface coatings.
-- People with strict dietary rules (for example, avoiding animal-derived additives) may prefer E914 over shellac or beeswax, or choose plant-based alternatives like [carnauba wax](/e903-carnauba-wax).
+- People with strict dietary rules (for example, avoiding animal-derived additives) may prefer E914 over shellac or beeswax, or choose plant-based alternatives like [carnauba wax](/e903-carnauba-wax){.additive}.
 
 ## Myths & facts
 - Myth: “It puts plastic on my fruit.” Fact: The coating is a food-grade wax made to strict specifications and used in very small amounts on the surface.

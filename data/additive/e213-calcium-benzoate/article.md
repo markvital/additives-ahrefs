@@ -4,7 +4,7 @@ Calcium benzoate (E213) is a preservative used to keep foods and drinks from spo
 
 ## At a glance
 - Role: preservative for acidic foods and beverages
-- Chemistry: the calcium salt of [benzoic acid](/e210-benzoic-acid)
+- Chemistry: the calcium salt of [benzoic acid](/e210-benzoic-acid){.additive}
 - Works best at low pH (more acidic foods)
 - Common in fruit drinks, pickles, sauces, and dressings
 - EU re-evaluation keeps a group ADI (acceptable daily intake) for benzoates of 5 mg/kg body weight per day, expressed as benzoic acid[^1]
@@ -24,19 +24,19 @@ In the EU, benzoates (the group that includes E210–E213) are authorized in sel
 
 ## What can replace calcium benzoate?
 Depending on the recipe and pH, food makers may use:
-- Other benzoates: [sodium benzoate](/e211-sodium-benzoate) or [potassium benzoate](/e212-potassium-benzoate)
-- Sorbates: [sorbic acid](/e200-sorbic-acid) or [potassium sorbate](/e202-potassium-sorbate)
-- Acidification to improve preservative action: [citric acid](/e330-citric-acid), [acetic acid](/e260-acetic-acid), [malic acid](/e296-malic-acid), or [phosphoric acid](/e338-phosphoric-acid)
+- Other benzoates: [sodium benzoate](/e211-sodium-benzoate){.additive} or [potassium benzoate](/e212-potassium-benzoate){.additive}
+- Sorbates: [sorbic acid](/e200-sorbic-acid){.additive} or [potassium sorbate](/e202-potassium-sorbate){.additive}
+- Acidification to improve preservative action: [citric acid](/e330-citric-acid){.additive}, [acetic acid](/e260-acetic-acid){.additive}, [malic acid](/e296-malic-acid){.additive}, or [phosphoric acid](/e338-phosphoric-acid){.additive}
 
 The best substitute depends on taste, pH, and the microbes of concern.
 
 ## How is calcium benzoate made?
-Manufacturers typically neutralize purified [benzoic acid](/e210-benzoic-acid) with a calcium base (such as calcium hydroxide or calcium carbonate) to form the calcium salt, then filter and dry it. The final product must meet additive purity criteria set in EU specifications for food additives.[^1][^2]
+Manufacturers typically neutralize purified [benzoic acid](/e210-benzoic-acid){.additive} with a calcium base (such as calcium hydroxide or calcium carbonate) to form the calcium salt, then filter and dry it. The final product must meet additive purity criteria set in EU specifications for food additives.[^1][^2]
 
 ## Is calcium benzoate safe to eat?
 Regulators have reviewed benzoates extensively. The European Food Safety Authority (EFSA) set a group acceptable daily intake (ADI) for benzoates of 5 mg/kg body weight per day, expressed as benzoic acid, and concluded current uses do not raise safety concerns when used within authorized levels.[^1] In the United States, calcium benzoate appears on FDA’s Food Additive Status List as permitted when used in accordance with good manufacturing practice.[^3]
 
-One known issue is benzene formation: in beverages that contain both benzoate and [ascorbic acid](/e300-ascorbic-acid) (vitamin C), small amounts of benzene can form over time, especially with heat and light. FDA has investigated this and works with manufacturers to control it; most tested beverages have levels well below drinking water standards.[^4]
+One known issue is benzene formation: in beverages that contain both benzoate and [ascorbic acid](/e300-ascorbic-acid){.additive} (vitamin C), small amounts of benzene can form over time, especially with heat and light. FDA has investigated this and works with manufacturers to control it; most tested beverages have levels well below drinking water standards.[^4]
 
 ## Does calcium benzoate have any benefits?
 - Extends shelf life by slowing spoilage from yeasts and molds[^1]

@@ -19,10 +19,10 @@ Helium is used to push out air (especially oxygen) from packages or to act as th
 Most shoppers won’t see “helium” on labels. In the EU, foods packed with gases typically carry the statement “packaged in a protective atmosphere” rather than listing the specific gas by name, so it’s common not to know whether helium, nitrogen, or another gas was used.[^5] Helium is technically suitable for snack packs, coffee, nuts, or aerosol foods, but in practice other gases are more common.
 
 ## What can replace Helium?
-- [Nitrogen](/e941-nitrogen): The most common inert packaging gas for snacks, coffee, and many other foods
-- [Argon](/e938-argon): Inert and heavier than air; sometimes used for wine and sensitive foods
-- [Carbon dioxide](/e290-carbon-dioxide): Adds antimicrobial pressure in some foods but can affect taste if too high
-- [Nitrous oxide](/e942-nitrous-oxide): A standard propellant for aerosol whipped cream
+- [Nitrogen](/e941-nitrogen){.additive}: The most common inert packaging gas for snacks, coffee, and many other foods
+- [Argon](/e938-argon){.additive}: Inert and heavier than air; sometimes used for wine and sensitive foods
+- [Carbon dioxide](/e290-carbon-dioxide){.additive}: Adds antimicrobial pressure in some foods but can affect taste if too high
+- [Nitrous oxide](/e942-nitrous-oxide){.additive}: A standard propellant for aerosol whipped cream
 
 ## How is Helium made?
 Commercial helium is recovered mainly from certain natural gas fields that contain small amounts of the gas. Producers separate and concentrate helium by cryogenic cooling and distillation, then purify and compress it for industrial uses, including food applications.[^6]
@@ -39,10 +39,10 @@ There is no dietary need to avoid foods packaged with helium. However, people wi
 ## Myths & facts
 - Myth: “Helium beer will make your voice squeaky.” Fact: Drinking helium doesn’t change your voice; the pitch effect happens only when breathing a helium‑rich gas, not from beverages. Helium is extremely insoluble in liquids and won’t stay in a drink.[^3]
 - Myth: “Helium is a preservative.” Fact: In the EU it’s regulated as a packaging gas or propellant, not as a preservative; it mainly displaces air and doesn’t kill microbes.[^1]
-- Myth: “Helium is the same as nitrogen or argon.” Fact: All are inert gases, but they differ in cost, availability, and physical behavior. Many food packs use [nitrogen](/e941-nitrogen) or [argon](/e938-argon) instead.
+- Myth: “Helium is the same as nitrogen or argon.” Fact: All are inert gases, but they differ in cost, availability, and physical behavior. Many food packs use [nitrogen](/e941-nitrogen){.additive} or [argon](/e938-argon){.additive} instead.
 
 ## Helium in branded foods
-You’ll rarely see “helium” or “E939” on a product label. In the EU, many products simply say “packaged in a protective atmosphere,” and the gas may be helium, [nitrogen](/e941-nitrogen), [argon](/e938-argon), or [carbon dioxide](/e290-carbon-dioxide). Aerosol foods typically rely on [nitrous oxide](/e942-nitrous-oxide) rather than helium, so mentions of E939 on branded goods are uncommon.
+You’ll rarely see “helium” or “E939” on a product label. In the EU, many products simply say “packaged in a protective atmosphere,” and the gas may be helium, [nitrogen](/e941-nitrogen){.additive}, [argon](/e938-argon){.additive}, or [carbon dioxide](/e290-carbon-dioxide){.additive}. Aerosol foods typically rely on [nitrous oxide](/e942-nitrous-oxide){.additive} rather than helium, so mentions of E939 on branded goods are uncommon.
 
 ## References
 [^1]: Regulation (EC) No 1333/2008 on food additives — EUR-Lex. https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32008R1333

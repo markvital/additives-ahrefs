@@ -26,9 +26,9 @@ On ingredient lists in the EU, it may appear as “Lactitol” or “E 966.” I
 
 ## What can replace Lactitol?
 Depending on the recipe, food makers may swap Lactitol for other polyols (sugar alcohols) or pair it with high‑intensity sweeteners.
-- Other polyols for bulk and mild sweetness: [erythritol](/e968-erythritol), [xylitol](/e967-xylitol), [sorbitol](/e420-sorbitol), [maltitol](/e965-maltitol), [isomalt](/e953-isomalt)
-- Bulking fibers: [polydextrose](/e1200-polydextrose)
-- High‑intensity sweeteners for extra sweetness: [sucralose](/e955-sucralose), [acesulfame K](/e950-acesulfame-k), [steviol glycosides](/e960-steviol-glycosides), [aspartame](/e951-aspartame)
+- Other polyols for bulk and mild sweetness: [erythritol](/e968-erythritol){.additive}, [xylitol](/e967-xylitol){.additive}, [sorbitol](/e420-sorbitol){.additive}, [maltitol](/e965-maltitol){.additive}, [isomalt](/e953-isomalt){.additive}
+- Bulking fibers: [polydextrose](/e1200-polydextrose){.additive}
+- High‑intensity sweeteners for extra sweetness: [sucralose](/e955-sucralose){.additive}, [acesulfame K](/e950-acesulfame-k){.additive}, [steviol glycosides](/e960-steviol-glycosides){.additive}, [aspartame](/e951-aspartame){.additive}
 
 ## How is Lactitol made?
 Lactitol is produced by hydrogenating lactose (the natural milk sugar). In this process, hydrogen is added to lactose in the presence of a catalyst, converting it into the sugar alcohol lactitol, which is then purified and crystallized for food use.[^1][^2]

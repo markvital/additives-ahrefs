@@ -9,7 +9,7 @@ Here are the quick facts to help you recognize what sorbitol does in foods.
 - What it does: sweetener, humectant (holds moisture), thickener, stabiliser, and sequestrant.
 - Taste: less sweet than table sugar, with a mild cooling effect.
 - Calories: fewer calories per gram than sugar.
-- Common forms: crystalline sorbitol and [sorbitol syrup](/e420ii-sorbitol-syrup).
+- Common forms: crystalline sorbitol and [sorbitol syrup](/e420ii-sorbitol-syrup){.additive}.
 - Where it shows up: sugar‑free gum and mints, candies, baked goods, desserts, jams, and some beverages.
 - Watch‑outs: large amounts may cause stomach upset or diarrhea; EU labels must warn about this on products high in polyols.
 - Dietary notes: typically vegan and gluten‑free unless other ingredients add animal products or gluten.
@@ -20,7 +20,7 @@ Sorbitol helps foods taste sweet, stay soft, and keep their shape over time.
 - As a humectant, it binds water so cakes, cookies, and fillings stay moist longer.
 - As a sweetener and bulking agent, it replaces some sugar while adding body and texture.
 - It helps prevent sugar crystallization in confections and improves freeze–thaw stability in frozen desserts.
-- Because it is less sweet than sugar, it is often blended with high‑intensity sweeteners such as [sucralose](/e955-sucralose), [acesulfame K](/e950-acesulfame-k), or [aspartame](/e951-aspartame) to match the expected taste.
+- Because it is less sweet than sugar, it is often blended with high‑intensity sweeteners such as [sucralose](/e955-sucralose){.additive}, [acesulfame K](/e950-acesulfame-k){.additive}, or [aspartame](/e951-aspartame){.additive} to match the expected taste.
 
 ## What foods contain Sorbitol?
 You’ll mostly find sorbitol in products marketed as sugar‑free or reduced‑sugar.
@@ -29,16 +29,16 @@ You’ll mostly find sorbitol in products marketed as sugar‑free or reduced‑
 - Soft candies, fillings, frostings, and coated snacks
 - Baked goods and dessert mixes where moisture retention matters
 - “No added sugar” jams and fruit spreads
-- Some beverages and flavored syrups that use [sorbitol syrup](/e420ii-sorbitol-syrup)
+- Some beverages and flavored syrups that use [sorbitol syrup](/e420ii-sorbitol-syrup){.additive}
 - It also occurs naturally in some fresh fruits, especially apples, pears, peaches, and plums
 
 ## What can replace Sorbitol?
 Alternatives depend on whether you need sweetness, moisture, or both.
 
-- Other polyol sweeteners: [xylitol](/e967-xylitol), [maltitol](/e965-maltitol), [erythritol](/e968-erythritol), [mannitol](/e421-mannitol)
-- Humectants: [glycerol](/e422-glycerol)
-- High‑intensity sweeteners for sweetness only: [sucralose](/e955-sucralose), [acesulfame K](/e950-acesulfame-k), [aspartame](/e951-aspartame), [steviol glycosides](/e960-steviol-glycosides)
-- Texture agents: [xanthan gum](/e415-xanthan-gum), [pectins](/e440-pectins)
+- Other polyol sweeteners: [xylitol](/e967-xylitol){.additive}, [maltitol](/e965-maltitol){.additive}, [erythritol](/e968-erythritol){.additive}, [mannitol](/e421-mannitol){.additive}
+- Humectants: [glycerol](/e422-glycerol){.additive}
+- High‑intensity sweeteners for sweetness only: [sucralose](/e955-sucralose){.additive}, [acesulfame K](/e950-acesulfame-k){.additive}, [aspartame](/e951-aspartame){.additive}, [steviol glycosides](/e960-steviol-glycosides){.additive}
+- Texture agents: [xanthan gum](/e415-xanthan-gum){.additive}, [pectins](/e440-pectins){.additive}
 
 ## How is Sorbitol made?
 Food‑grade sorbitol is usually produced by hydrogenating D‑glucose (from starch sources like corn, wheat, or potatoes) to convert the aldehyde group into an alcohol, followed by purification to a crystalline powder or concentrated syrup.[^4] This process yields the same sorbitol molecule found naturally in some fruits.

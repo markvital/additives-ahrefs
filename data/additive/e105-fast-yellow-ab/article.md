@@ -5,7 +5,7 @@ Fast Yellow AB (E105) is a synthetic yellow colorant that was once used to tint 
 ## At a glance
 - What it is: a synthetic yellow dye used only for coloring
 - Regulatory status: not authorized for use in food in the EU or the U.S.
-- What you might see instead: permitted yellows such as [tartrazine](/e102-tartrazine), [quinoline yellow](/e104-quinoline-yellow), or [sunset yellow FCF](/e110-sunset-yellow-fcf)
+- What you might see instead: permitted yellows such as [tartrazine](/e102-tartrazine){.additive}, [quinoline yellow](/e104-quinoline-yellow){.additive}, or [sunset yellow FCF](/e110-sunset-yellow-fcf){.additive}
 - Nutrition: provides color only; no calories or nutrients
 - Labeling: may appear as “Fast Yellow AB” or “E105” where it is allowed
 
@@ -17,8 +17,8 @@ In regions where it is not authorized—such as the European Union (EU) and the 
 
 ## What can replace Fast Yellow AB?
 When a yellow shade is needed, makers typically choose authorized alternatives, depending on the shade and product:
-- Synthetic options: [tartrazine](/e102-tartrazine) (bright lemon-yellow), [quinoline yellow](/e104-quinoline-yellow) (greenish-yellow), or [sunset yellow FCF](/e110-sunset-yellow-fcf) (orange‑yellow)
-- Natural options: [saffron](/e164-saffron), [carotene](/e160a-carotene) or [beta-carotene](/e160ai-beta-carotene)
+- Synthetic options: [tartrazine](/e102-tartrazine){.additive} (bright lemon-yellow), [quinoline yellow](/e104-quinoline-yellow){.additive} (greenish-yellow), or [sunset yellow FCF](/e110-sunset-yellow-fcf){.additive} (orange‑yellow)
+- Natural options: [saffron](/e164-saffron){.additive}, [carotene](/e160a-carotene){.additive} or [beta-carotene](/e160ai-beta-carotene){.additive}
 
 Each has its own coloring strength, stability, and allowed uses set by local regulations.
 
@@ -37,7 +37,7 @@ Its only role is visual. It does not add flavor, aroma, or nutrition. Any “ben
 
 ## Myths & facts
 - Myth: “All E‑numbers are approved in the EU.” Fact: some E‑numbers refer to substances that are no longer authorized; E105 is not authorized as a food color in the EU.[^2]
-- Myth: “Fast Yellow AB is the same as [tartrazine](/e102-tartrazine).” Fact: they are different substances with different regulatory statuses.
+- Myth: “Fast Yellow AB is the same as [tartrazine](/e102-tartrazine){.additive}.” Fact: they are different substances with different regulatory statuses.
 - Myth: “If a dye has been used somewhere before, it’s automatically allowed.” Fact: each color must be specifically authorized; unapproved colors may be refused at the border in the U.S.[^3]
 
 ## Fast Yellow AB in branded foods

@@ -20,15 +20,15 @@ You’re most likely to find it in:
 - Table-top products like powdered sweeteners or creamers
 - Other dry goods where clump-free flow is important
 
-On ingredient lists it may appear as “magnesium hydroxide carbonate,” “basic magnesium carbonate,” “E504,” or “E504ii.” It may also be grouped with other magnesium carbonates such as [magnesium carbonate](/e504i-magnesium-carbonate) and the broader class [magnesium carbonates](/e504-magnesium-carbonates).
+On ingredient lists it may appear as “magnesium hydroxide carbonate,” “basic magnesium carbonate,” “E504,” or “E504ii.” It may also be grouped with other magnesium carbonates such as [magnesium carbonate](/e504i-magnesium-carbonate){.additive} and the broader class [magnesium carbonates](/e504-magnesium-carbonates){.additive}.
 
 ## What can replace Magnesium hydroxide carbonate?
 Depending on the recipe and local rules, common swaps include:
-- [Silicon dioxide (E551)](/e551-silicon-dioxide) for anti-caking in spices and powders
-- [Tricalcium phosphate (E341iii)](/e341iii-tricalcium-phosphate) as an anti-caking agent in dry mixes
-- [Calcium silicate (E552)](/e552-calcium-silicate) for moisture control and flow
-- [Calcium carbonate (E170i)](/e170i-calcium-carbonate) in some dry blends
-- [Magnesium stearate (E572)](/e572-magnesium-stearate) for flow in tablets and certain foods
+- [Silicon dioxide (E551)](/e551-silicon-dioxide){.additive} for anti-caking in spices and powders
+- [Tricalcium phosphate (E341iii)](/e341iii-tricalcium-phosphate){.additive} as an anti-caking agent in dry mixes
+- [Calcium silicate (E552)](/e552-calcium-silicate){.additive} for moisture control and flow
+- [Calcium carbonate (E170i)](/e170i-calcium-carbonate){.additive} in some dry blends
+- [Magnesium stearate (E572)](/e572-magnesium-stearate){.additive} for flow in tablets and certain foods
 
 The best substitute depends on moisture level, pH, and the desired mouthfeel of the final product.
 

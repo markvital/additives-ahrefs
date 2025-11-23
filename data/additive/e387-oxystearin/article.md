@@ -21,10 +21,10 @@ In the European Union (EU), only additives on the Union list in Regulation (EC) 
 
 ## What can replace Oxystearin?
 Several permitted antioxidants and synergists can serve similar roles in fats and oils:
-- Natural-source antioxidants such as [tocopherol-rich extract](/e306-tocopherol-rich-extract)
-- Synthetic antioxidants like [BHA](/e320-butylated-hydroxyanisole-bha), [BHT](/e321-butylated-hydroxytoluene), or [TBHQ](/e319-tertiary-butylhydroquinone-tbhq)
-- Fat-soluble vitamin C derivatives such as [ascorbyl palmitate](/e304i-ascorbyl-palmitate)
-- Chelators and acidulants that slow oxidation, for example [citric acid](/e330-citric-acid) or [ascorbic acid](/e300-ascorbic-acid) in appropriate applications
+- Natural-source antioxidants such as [tocopherol-rich extract](/e306-tocopherol-rich-extract){.additive}
+- Synthetic antioxidants like [BHA](/e320-butylated-hydroxyanisole-bha){.additive}, [BHT](/e321-butylated-hydroxytoluene){.additive}, or [TBHQ](/e319-tertiary-butylhydroquinone-tbhq){.additive}
+- Fat-soluble vitamin C derivatives such as [ascorbyl palmitate](/e304i-ascorbyl-palmitate){.additive}
+- Chelators and acidulants that slow oxidation, for example [citric acid](/e330-citric-acid){.additive} or [ascorbic acid](/e300-ascorbic-acid){.additive} in appropriate applications
 
 The best choice depends on the food, process, and local regulations.
 

@@ -28,14 +28,14 @@ On labels, look for “sodium polyphosphate,” “sodium hexametaphosphate,” 
 
 ## What can replace sodium polyphosphate?
 Alternatives depend on the job you need done:
-- For chelation/mineral control: [citric acid](/e330-citric-acid) or [sodium citrates](/e331-sodium-citrates)
-- For moisture and texture in meats: other phosphates such as [pentasodium triphosphate](/e451i-pentasodium-triphosphate) or [diphosphates](/e450-diphosphates), or non-phosphate binders like [carrageenan](/e407-carrageenan)
-- For thickening/stabilizing: [xanthan gum](/e415-xanthan-gum), [sodium alginate](/e401-sodium-alginate), or [pectins](/e440-pectins)
+- For chelation/mineral control: [citric acid](/e330-citric-acid){.additive} or [sodium citrates](/e331-sodium-citrates){.additive}
+- For moisture and texture in meats: other phosphates such as [pentasodium triphosphate](/e451i-pentasodium-triphosphate){.additive} or [diphosphates](/e450-diphosphates){.additive}, or non-phosphate binders like [carrageenan](/e407-carrageenan){.additive}
+- For thickening/stabilizing: [xanthan gum](/e415-xanthan-gum){.additive}, [sodium alginate](/e401-sodium-alginate){.additive}, or [pectins](/e440-pectins){.additive}
 
 Each substitute behaves differently, so recipes often adjust pH and salt to match performance.
 
 ## How is sodium polyphosphate made?
-E452i is produced by heating and condensing sodium phosphate salts (made from neutralizing [phosphoric acid](/e338-phosphoric-acid)) to drive off water and form long-chain “metaphosphate” structures. The result is a glassy, granular material with a range of chain lengths that dissolves in water and acts as a sequestrant and stabiliser. These manufacturing steps and specifications are detailed in EU additive standards. [^4]
+E452i is produced by heating and condensing sodium phosphate salts (made from neutralizing [phosphoric acid](/e338-phosphoric-acid){.additive}) to drive off water and form long-chain “metaphosphate” structures. The result is a glassy, granular material with a range of chain lengths that dissolves in water and acts as a sequestrant and stabiliser. These manufacturing steps and specifications are detailed in EU additive standards. [^4]
 
 ## Is sodium polyphosphate safe to eat?
 Regulators allow sodium polyphosphate when used as intended. In the EU, EFSA set a group ADI for phosphates (expressed as phosphorus) of 40 mg/kg body weight per day and concluded that overall exposure is generally below this level for adults but can exceed it for some children with high intake of phosphate additives. [^1] In the U.S., FDA lists sodium hexametaphosphate on its Food Additive Status List, indicating permitted uses subject to good manufacturing practice and relevant regulations. [^3] For meat and poultry, USDA’s Food Safety and Inspection Service (FSIS) allows phosphates within defined limits in the finished product. [^2]
@@ -55,13 +55,13 @@ These are technology benefits to the product’s quality, not health benefits to
 - If you are on a low-sodium diet, remember E452i adds some sodium; consider overall sodium from all ingredients.
 
 ## Myths & facts
-- Myth: “Sodium polyphosphate is the same as all phosphates.” Fact: It’s one member of the phosphate family (E452i). Others include [diphosphates](/e450-diphosphates) and [triphosphates](/e451-triphosphates), which behave differently.
+- Myth: “Sodium polyphosphate is the same as all phosphates.” Fact: It’s one member of the phosphate family (E452i). Others include [diphosphates](/e450-diphosphates){.additive} and [triphosphates](/e451-triphosphates){.additive}, which behave differently.
 - Myth: “It’s a bleach.” Fact: E452i is a sequestrant and stabiliser; it does not bleach foods.
 - Myth: “It hides added water.” Fact: It helps proteins hold water for better texture, but added water and phosphates must be declared on the label, and use is limited by regulations. [^2]
 - Myth: “It’s a nutrient supplement.” Fact: It contributes phosphate, but it is added for technology, not as a dietary supplement. [^1]
 
 ## Sodium polyphosphate in branded foods
-You might spot it in ingredient lists for deli meats, marinated poultry, frozen seafood, processed cheese slices and spreads, flavored milk drinks, or powdered beverages. Look for “sodium polyphosphate,” “sodium hexametaphosphate,” or “E452i.” If you prefer fewer phosphate additives, compare similar products—some use alternatives like [citric acid](/e330-citric-acid), [sodium citrates](/e331-sodium-citrates), or gums such as [xanthan gum](/e415-xanthan-gum).
+You might spot it in ingredient lists for deli meats, marinated poultry, frozen seafood, processed cheese slices and spreads, flavored milk drinks, or powdered beverages. Look for “sodium polyphosphate,” “sodium hexametaphosphate,” or “E452i.” If you prefer fewer phosphate additives, compare similar products—some use alternatives like [citric acid](/e330-citric-acid){.additive}, [sodium citrates](/e331-sodium-citrates){.additive}, or gums such as [xanthan gum](/e415-xanthan-gum){.additive}.
 
 ## References
 [^1]: Re-evaluation of phosphoric acid and phosphates (E 338–341, E 343, E 450–452) as food additives — European Food Safety Authority (EFSA). https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2019.5674

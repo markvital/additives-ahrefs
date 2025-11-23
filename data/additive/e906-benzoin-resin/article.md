@@ -17,8 +17,8 @@ In the United States, gum benzoin is allowed as a natural flavoring substance, s
 You are most likely to find E906 on surface-treated confectionery, such as polished sugar candies and chewing gum, where a thin glaze improves shine and handling.[^4] In the U.S., when present, it would appear in the flavor system rather than as a glazing agent, because benzoin resin is permitted there as a natural flavoring substance.[^3]
 
 ## What can replace Benzoin resin?
-- Other glazes and polishes used on sweets include [shellac](/e904-shellac), [carnauba wax](/e903-carnauba-wax), [candelilla wax](/e902-candelilla-wax), and [white and yellow beeswax](/e901-white-and-yellow-beeswax).
-- For some applications, film-forming gums like [acacia gum](/e414-acacia-gum) can help with shine and adhesion, though they behave differently than waxy glazes.
+- Other glazes and polishes used on sweets include [shellac](/e904-shellac){.additive}, [carnauba wax](/e903-carnauba-wax){.additive}, [candelilla wax](/e902-candelilla-wax){.additive}, and [white and yellow beeswax](/e901-white-and-yellow-beeswax){.additive}.
+- For some applications, film-forming gums like [acacia gum](/e414-acacia-gum){.additive} can help with shine and adhesion, though they behave differently than waxy glazes.
 
 ## How is Benzoin resin made?
 Benzoin resin is the balsamic resin obtained from the trunk of certain Styrax trees (notably Styrax benzoin and Styrax tonkinensis). It is collected from the tree and then prepared to meet food-grade identity and purity criteria laid down in EU specifications.[^1] Those specifications define what the additive is and set limits that must be met before it can be used in food.[^1]

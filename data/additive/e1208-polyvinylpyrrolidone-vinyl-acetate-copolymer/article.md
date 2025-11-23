@@ -17,9 +17,9 @@ You will most often see E1208 in food supplements, such as coated tablets and ha
 
 ## What can replace Polyvinylpyrrolidone-vinyl acetate copolymer?
 Depending on the job in the product, common alternatives include:
-- [polyvinyl alcohol](/e1203-polyvinyl-alcohol) for water-soluble films and coatings
-- [pullulan](/e1204-pullulan) for clear, edible films and capsule shells
-- [carnauba wax](/e903-carnauba-wax) or [shellac](/e904-shellac) for glossy protective coatings
+- [polyvinyl alcohol](/e1203-polyvinyl-alcohol){.additive} for water-soluble films and coatings
+- [pullulan](/e1204-pullulan){.additive} for clear, edible films and capsule shells
+- [carnauba wax](/e903-carnauba-wax){.additive} or [shellac](/e904-shellac){.additive} for glossy protective coatings
 
 Each option has its own texture, gloss, moisture barrier, and processing needs, so the best substitute depends on the recipe.
 
@@ -36,7 +36,7 @@ In the EU, a substance can be used as a food additive only after a safety evalua
 - Can help mask taste and odor in supplement coatings
 
 ## Who should avoid Polyvinylpyrrolidone-vinyl acetate copolymer?
-There is no specific consumer group that must avoid E1208 under EU food-additive rules. If you prefer to minimize synthetic polymers in your diet, choose products that use alternatives such as [pullulan](/e1204-pullulan), [carnauba wax](/e903-carnauba-wax), or [polyvinyl alcohol](/e1203-polyvinyl-alcohol). People with known sensitivities to related polymers in medicines should consult a healthcare professional and check labels.
+There is no specific consumer group that must avoid E1208 under EU food-additive rules. If you prefer to minimize synthetic polymers in your diet, choose products that use alternatives such as [pullulan](/e1204-pullulan){.additive}, [carnauba wax](/e903-carnauba-wax){.additive}, or [polyvinyl alcohol](/e1203-polyvinyl-alcohol){.additive}. People with known sensitivities to related polymers in medicines should consult a healthcare professional and check labels.
 
 ## Myths & facts
 - Myth: “E1208 is the same as wood glue.” Fact: While it contains vinyl acetate units, E1208 is a different copolymer made to food-grade specifications with strict purity limits.[^1]

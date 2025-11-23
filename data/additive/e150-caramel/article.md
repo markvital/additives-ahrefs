@@ -28,8 +28,8 @@ Check the ingredient list for “caramel color,” “caramel,” or an E-number
 
 ## What can replace Caramel?
 Depending on the target shade and recipe, possible stand-ins include:
-- Orange-to-brown hues from [annatto](/e160b-annatto), [paprika extract](/e160c-paprika-extract), [curcumin](/e100-curcumin), or [carotene](/e160a-carotene)
-- Charcoal black to deep brown tones from [vegetable carbon](/e153-vegetable-carbon)
+- Orange-to-brown hues from [annatto](/e160b-annatto){.additive}, [paprika extract](/e160c-paprika-extract){.additive}, [curcumin](/e100-curcumin){.additive}, or [carotene](/e160a-carotene){.additive}
+- Charcoal black to deep brown tones from [vegetable carbon](/e153-vegetable-carbon){.additive}
 - Non-additive options such as cocoa powder, coffee, malt extract, molasses, or dark sugars made into syrups
 Remember that these alternatives can shift flavor, opacity, and stability compared with caramel.
 

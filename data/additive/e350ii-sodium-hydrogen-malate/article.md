@@ -2,7 +2,7 @@ Sodium hydrogen malate (E350ii) is the monosodium salt of malic acid, the tart c
 <!--more-->
 
 ## At a glance
-- What it is: the monosodium salt of [malic acid](/e296-malic-acid); part of E350 “sodium malates”
+- What it is: the monosodium salt of [malic acid](/e296-malic-acid){.additive}; part of E350 “sodium malates”
 - What it does: acidity regulator, flavor acid with a mellow sourness, and humectant (helps retain moisture)
 - Common foods: flavored drinks, candies, fruit fillings and jams, baked goods, sauces, and desserts
 - Label names: “Sodium malate,” “Sodium hydrogen malate,” or “E350ii”
@@ -23,11 +23,11 @@ In the EU, sodium malates (E350) are permitted in various food categories under 
 
 ## What can replace sodium hydrogen malate?
 Alternatives depend on the taste profile and pH you need:
-- Sharper tartness: [citric acid](/e330-citric-acid), [L‑tartaric acid](/e334-l-tartaric-acid), or [fumaric acid](/e297-fumaric-acid)
-- Similar fruity sourness: [malic acid](/e296-malic-acid) itself
-- Buffering without adding as much acidity: [sodium citrates](/e331-sodium-citrates)
-- Other organic acids: [lactic acid](/e270-lactic-acid)
-- Other malate salts: [potassium malate](/e351-potassium-malate) or [calcium malates](/e352-calcium-malates)
+- Sharper tartness: [citric acid](/e330-citric-acid){.additive}, [L‑tartaric acid](/e334-l-tartaric-acid){.additive}, or [fumaric acid](/e297-fumaric-acid){.additive}
+- Similar fruity sourness: [malic acid](/e296-malic-acid){.additive} itself
+- Buffering without adding as much acidity: [sodium citrates](/e331-sodium-citrates){.additive}
+- Other organic acids: [lactic acid](/e270-lactic-acid){.additive}
+- Other malate salts: [potassium malate](/e351-potassium-malate){.additive} or [calcium malates](/e352-calcium-malates){.additive}
 
 Food technologists choose based on flavor, solubility, sodium contribution, and how the acid behaves during processing.
 

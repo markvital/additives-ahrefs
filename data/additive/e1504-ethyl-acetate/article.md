@@ -7,7 +7,7 @@ Ethyl acetate (E1504) is a clear, fruity-smelling solvent used as a “carrier�
 - Where it’s used: Flavor concentrates, beverages, confectionery, baked goods, and sometimes in decaffeination processes.
 - What it does: Helps mix oil‑based flavor compounds evenly into water‑based foods and drinks.
 - Typical form: Colorless liquid with a light, fruity odor.
-- Made from: Usually produced by reacting [acetic acid](/e260-acetic-acid) with [ethanol](/e1510-ethanol).
+- Made from: Usually produced by reacting [acetic acid](/e260-acetic-acid){.additive} with [ethanol](/e1510-ethanol){.additive}.
 - Diets: Suitable for vegetarian and vegan diets; not a known allergen.
 - Label names: “Ethyl acetate,” “E1504,” sometimes present within a flavor where the solvent may not be listed separately.
 
@@ -25,14 +25,14 @@ In the EU, ethyl acetate is authorized as food additive E1504 with defined ident
 
 ## What can replace ethyl acetate?
 Depending on the job, common substitutes include:
-- [Ethanol](/e1510-ethanol) — a widely used food‑grade solvent and carrier
-- [Propylene glycol](/e1520-propylene-glycol) — a solvent for flavors with low volatility
-- [Triethyl citrate](/e1505-triethyl-citrate) — a less volatile carrier and plasticizer for certain applications
+- [Ethanol](/e1510-ethanol){.additive} — a widely used food‑grade solvent and carrier
+- [Propylene glycol](/e1520-propylene-glycol){.additive} — a solvent for flavors with low volatility
+- [Triethyl citrate](/e1505-triethyl-citrate){.additive} — a less volatile carrier and plasticizer for certain applications
 
 The best alternative depends on the flavor’s chemistry, evaporative behavior, and label preferences.
 
 ## How is ethyl acetate made?
-Most food‑grade ethyl acetate is made by reacting [acetic acid](/e260-acetic-acid) with [ethanol](/e1510-ethanol) in the presence of an acid catalyst (a classic “Fischer esterification”). It can also be produced from acetaldehyde via the Tishchenko reaction. These are standard industrial routes described in chemical references.[^4]
+Most food‑grade ethyl acetate is made by reacting [acetic acid](/e260-acetic-acid){.additive} with [ethanol](/e1510-ethanol){.additive} in the presence of an acid catalyst (a classic “Fischer esterification”). It can also be produced from acetaldehyde via the Tishchenko reaction. These are standard industrial routes described in chemical references.[^4]
 
 ## Is ethyl acetate safe to eat?
 - United States: The FDA permits ethyl acetate as a synthetic flavoring substance and adjuvant when used in line with good manufacturing practice, which includes use as a solvent or carrier in flavorings.[^1]
@@ -47,7 +47,7 @@ Ethyl acetate does not provide nutritional benefits. Its value is technological:
 - Aids consistent mixing and stability during manufacturing
 
 ## Who should avoid ethyl acetate?
-There are no specific population restrictions set in U.S. or EU regulations for its approved food uses.[^1][^2] People who prefer to avoid foods processed with solvents can choose minimally processed or “solvent‑free” labeled products, or products flavored with carriers like [ethanol](/e1510-ethanol) or [propylene glycol](/e1520-propylene-glycol).
+There are no specific population restrictions set in U.S. or EU regulations for its approved food uses.[^1][^2] People who prefer to avoid foods processed with solvents can choose minimally processed or “solvent‑free” labeled products, or products flavored with carriers like [ethanol](/e1510-ethanol){.additive} or [propylene glycol](/e1520-propylene-glycol){.additive}.
 
 ## Myths & facts
 - Myth: “Ethyl acetate is just nail‑polish remover, so it’s unsafe to eat.”

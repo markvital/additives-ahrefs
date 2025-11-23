@@ -25,8 +25,8 @@ You will often find D‑maltitol in:
 
 ## What can replace D-Maltitol?
 Possible substitutes depend on what the product needs (sweetness, bulk, texture, or all three):
-- Other polyols (sugar alcohols): [erythritol](/e968-erythritol), [xylitol](/e967-xylitol), [sorbitol](/e420-sorbitol), [isomalt](/e953-isomalt), or [polyglycitol syrup](/e964-polyglycitol-syrup).  
-- High‑intensity sweeteners (need a bulking agent too): [sucralose](/e955-sucralose), [acesulfame K](/e950-acesulfame-k), or [steviol glycosides](/e960-steviol-glycosides).  
+- Other polyols (sugar alcohols): [erythritol](/e968-erythritol){.additive}, [xylitol](/e967-xylitol){.additive}, [sorbitol](/e420-sorbitol){.additive}, [isomalt](/e953-isomalt){.additive}, or [polyglycitol syrup](/e964-polyglycitol-syrup){.additive}.  
+- High‑intensity sweeteners (need a bulking agent too): [sucralose](/e955-sucralose){.additive}, [acesulfame K](/e950-acesulfame-k){.additive}, or [steviol glycosides](/e960-steviol-glycosides){.additive}.  
 - Bulking agents: dietary fibers or polydextrose (for body and moisture) used together with a potent sweetener.
 
 ## How is D-Maltitol made?
@@ -55,7 +55,7 @@ Because large intakes can cause digestive upset, the EU requires foods with more
 - Myth: “Maltitol is an artificial sweetener.”  
   Fact: It is a sugar alcohol (polyol), a carbohydrate that both sweetens and adds bulk.
 - Myth: “All sugar alcohols are the same.”  
-  Fact: They differ in sweetness, cooling effect, and digestive tolerance; for example, [erythritol](/e968-erythritol) behaves differently from [xylitol](/e967-xylitol) or [sorbitol](/e420-sorbitol).
+  Fact: They differ in sweetness, cooling effect, and digestive tolerance; for example, [erythritol](/e968-erythritol){.additive} behaves differently from [xylitol](/e967-xylitol){.additive} or [sorbitol](/e420-sorbitol){.additive}.
 
 ## D-Maltitol in branded foods
 You can spot D‑maltitol in ingredient lists for sugar‑free chocolates, protein bars, cookies, ice creams, chewing gum, and throat lozenges. On U.S. packages, it may appear as “maltitol” or “E965,” and its grams count toward the “Sugar Alcohol” line in the Nutrition Facts panel.[^1] In the EU, labels may list “maltitol” or “E965”; some products also carry the laxative statement when the recipe uses a lot of polyols.[^3]

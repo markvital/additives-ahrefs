@@ -23,15 +23,15 @@ You’ll most often find E150d in:
 - Balsamic‑style vinegars and condiments
 - Baked goods, dessert toppings, and cereal coatings
 
-Because it is stable in acidic formulas, it is a common choice in beverages containing acids such as [phosphoric acid](/e338-phosphoric-acid) or citric acid.
+Because it is stable in acidic formulas, it is a common choice in beverages containing acids such as [phosphoric acid](/e338-phosphoric-acid){.additive} or citric acid.
 
 ## What can replace Sulphite ammonia caramel?
 The best substitute depends on the product and the acidity:
 - Other caramel colours:
-  - [Plain caramel (E150a)](/e150a-plain-caramel) for mild, neutral systems
-  - [Caustic sulphite caramel (E150b)](/e150b-caustic-sulphite-caramel) for certain low‑acid applications
-  - [Ammonia caramel (E150c)](/e150c-ammonia-caramel) where a different charge behavior is needed
-- Non‑caramel options for darker tones: [vegetable carbon (E153)](/e153-vegetable-carbon) for black/very dark hues
+  - [Plain caramel (E150a)](/e150a-plain-caramel){.additive} for mild, neutral systems
+  - [Caustic sulphite caramel (E150b)](/e150b-caustic-sulphite-caramel){.additive} for certain low‑acid applications
+  - [Ammonia caramel (E150c)](/e150c-ammonia-caramel){.additive} where a different charge behavior is needed
+- Non‑caramel options for darker tones: [vegetable carbon (E153)](/e153-vegetable-carbon){.additive} for black/very dark hues
 - Food ingredients (not additives): small amounts of cocoa, coffee, or malt extract can add brown tones but won’t match E150d’s stability and label simplicity
 
 ## How is Sulphite ammonia caramel made?

@@ -24,9 +24,9 @@ Approved uses and maximum levels vary by food category under EU rules.[^3]
 
 ## What can replace Dimagnesium phosphate?
 Alternatives depend on the job it does in the recipe:
-- For acidity control and buffering: [citric acid](/e330-citric-acid), [sodium citrates](/e331-sodium-citrates), or other [sodium phosphates](/e339-sodium-phosphates) and [calcium phosphates](/e341-calcium-phosphates)
-- For thickening or stabilising: [xanthan gum](/e415-xanthan-gum), [pectins](/e440-pectins), or [carrageenan](/e407-carrageenan)
-- For general phosphate functionality: [diphosphates](/e450-diphosphates) or [triphosphates](/e451-triphosphates)
+- For acidity control and buffering: [citric acid](/e330-citric-acid){.additive}, [sodium citrates](/e331-sodium-citrates){.additive}, or other [sodium phosphates](/e339-sodium-phosphates){.additive} and [calcium phosphates](/e341-calcium-phosphates){.additive}
+- For thickening or stabilising: [xanthan gum](/e415-xanthan-gum){.additive}, [pectins](/e440-pectins){.additive}, or [carrageenan](/e407-carrageenan){.additive}
+- For general phosphate functionality: [diphosphates](/e450-diphosphates){.additive} or [triphosphates](/e451-triphosphates){.additive}
 
 The best substitute depends on pH, saltiness, heat treatment, and the desired mouthfeel.
 

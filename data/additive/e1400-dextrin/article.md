@@ -25,10 +25,10 @@ On ingredient lists, it appears as “dextrin” or “E1400.” If the starch s
 
 ## What can replace Dextrin?
 Depending on the job, food makers may use:
-- Other starch-based additives, such as [modified starch](/e14xx-modified-starch), including [acid-treated modified starch](/e1401-acid-treated-modified-starch) or [oxidised starch](/e1404-oxidised-starch)
-- Gums like [xanthan gum](/e415-xanthan-gum), [guar gum](/e412-guar-gum), or [acacia gum](/e414-acacia-gum)
-- Fruit-based gelling agents like [pectins](/e440-pectins)
-- Bulking agents such as [polydextrose](/e1200-polydextrose)
+- Other starch-based additives, such as [modified starch](/e14xx-modified-starch){.additive}, including [acid-treated modified starch](/e1401-acid-treated-modified-starch){.additive} or [oxidised starch](/e1404-oxidised-starch){.additive}
+- Gums like [xanthan gum](/e415-xanthan-gum){.additive}, [guar gum](/e412-guar-gum){.additive}, or [acacia gum](/e414-acacia-gum){.additive}
+- Fruit-based gelling agents like [pectins](/e440-pectins){.additive}
+- Bulking agents such as [polydextrose](/e1200-polydextrose){.additive}
 
 The best substitute depends on the desired texture, heat stability, and whether the product is a powder or a liquid.
 

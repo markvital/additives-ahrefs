@@ -7,7 +7,7 @@ Carrageenan (E407) is a gelling and thickening ingredient made from red seaweed.
 - Where it comes from: Red seaweeds such as Chondrus crispus and Eucheuma species
 - What it does: Keeps cocoa suspended, adds body to drinks, sets gels, and stops separation
 - Common in: Chocolate milk, plant-based milks, ice cream, pudding, deli meats, sauces
-- Also known as: E407; related: [processed Eucheuma seaweed (E407a)](/e407a-processed-eucheuma-seaweed)
+- Also known as: E407; related: [processed Eucheuma seaweed (E407a)](/e407a-processed-eucheuma-seaweed){.additive}
 
 ## Why is carrageenan added to food?
 Food makers use carrageenan to control texture. It can make liquids feel fuller, prevent watery layers from forming, and form gels in desserts. Different types behave differently: kappa makes firm gels, iota makes soft elastic gels, and lambda thickens without gelling. It also works well with milk proteins, so it is often used in dairy and dairy‑free drinks to keep cocoa and flavors evenly mixed.
@@ -23,10 +23,10 @@ On ingredient lists it appears as “carrageenan” or “E407.” A related mat
 
 ## What can replace carrageenan?
 Alternatives depend on the job you need done:
-- For gels: [agar](/e406-agar), [gellan gum](/e418-gellan-gum), or [pectins](/e440-pectins) in high‑sugar or low‑pH gels
-- For creamy thickness: [xanthan gum](/e415-xanthan-gum) or [guar gum](/e412-guar-gum)
-- For dairy systems: blends with [locust bean gum](/e410-locust-bean-gum) or [gellan gum](/e418-gellan-gum)
-- For water binding and suspension: [sodium alginate](/e401-sodium-alginate) or [modified starches](/e14xx-modified-starch)
+- For gels: [agar](/e406-agar){.additive}, [gellan gum](/e418-gellan-gum){.additive}, or [pectins](/e440-pectins){.additive} in high‑sugar or low‑pH gels
+- For creamy thickness: [xanthan gum](/e415-xanthan-gum){.additive} or [guar gum](/e412-guar-gum){.additive}
+- For dairy systems: blends with [locust bean gum](/e410-locust-bean-gum){.additive} or [gellan gum](/e418-gellan-gum){.additive}
+- For water binding and suspension: [sodium alginate](/e401-sodium-alginate){.additive} or [modified starches](/e14xx-modified-starch){.additive}
 Each behaves differently, so recipes often use blends to match the exact texture.
 
 ## How is carrageenan made?

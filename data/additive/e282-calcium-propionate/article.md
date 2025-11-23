@@ -20,12 +20,12 @@ You will most often find calcium propionate in baked goods such as sliced bread,
 
 ## What can replace calcium propionate?
 There are several ways to manage mold without calcium propionate, depending on the food and shelf life needed.
-- Other preservatives: [sorbic acid](/e200-sorbic-acid) and [potassium sorbate](/e202-potassium-sorbate) are common mold inhibitors in many foods. [Benzoic acid](/e210-benzoic-acid) and [sodium benzoate](/e211-sodium-benzoate) may be options in acidic products.
-- Process changes: sourdough fermentation, lower pH (for example, using [acetic acid](/e260-acetic-acid)), tighter moisture control, improved packaging, or modified atmosphere can also slow spoilage.
+- Other preservatives: [sorbic acid](/e200-sorbic-acid){.additive} and [potassium sorbate](/e202-potassium-sorbate){.additive} are common mold inhibitors in many foods. [Benzoic acid](/e210-benzoic-acid){.additive} and [sodium benzoate](/e211-sodium-benzoate){.additive} may be options in acidic products.
+- Process changes: sourdough fermentation, lower pH (for example, using [acetic acid](/e260-acetic-acid){.additive}), tighter moisture control, improved packaging, or modified atmosphere can also slow spoilage.
 - Shorter shelf life: for fresh bakery items, faster turnover and refrigeration can help, though it may change the product’s texture.
 
 ## How is calcium propionate made?
-Food-grade calcium propionate is typically produced by neutralizing propionic acid with a calcium source such as [calcium hydroxide](/e526-calcium-hydroxide) or [calcium carbonate](/e170i-calcium-carbonate).[^5] In the European Union, it must also meet identity and purity criteria set out for food additives.[^3]
+Food-grade calcium propionate is typically produced by neutralizing propionic acid with a calcium source such as [calcium hydroxide](/e526-calcium-hydroxide){.additive} or [calcium carbonate](/e170i-calcium-carbonate){.additive}.[^5] In the European Union, it must also meet identity and purity criteria set out for food additives.[^3]
 
 ## Is calcium propionate safe to eat?
 In the United States, the Food and Drug Administration (FDA) lists calcium propionate as generally recognized as safe (GRAS) when used in accordance with good manufacturing practice.[^1] In the European Union, E282 is an authorized preservative under the food additives framework regulation, which permits its use in specified food categories and conditions.[^2]

@@ -17,9 +17,9 @@ You are most likely to find E479B in certain vegetable oils and fats formulated 
 
 ## What can replace Thermally oxidised soya bean oil interacted with mono- and diglycerides of fatty acids?
 Alternatives depend on the recipe and process:
-- Other emulsifiers for oil systems, such as [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids), [lecithins](/e322-lecithins), [polyglycerol polyricinoleate](/e476-polyglycerol-polyricinoleate), or [sucrose esters of fatty acids](/e473-sucrose-esters-of-fatty-acids).
-- Antioxidants to help protect frying oils from breakdown, such as [tertiary butylhydroquinone (TBHQ)](/e319-tertiary-butylhydroquinone-tbhq), [butylated hydroxyanisole (BHA)](/e320-butylated-hydroxyanisole-bha), or [butylated hydroxytoluene (BHT)](/e321-butylated-hydroxytoluene).
-- Anti-foam agents in fryers, like [dimethylpolysiloxane](/e900-dimethylpolysiloxane-and-methylphenylpolysiloxane), used alongside good oil management.
+- Other emulsifiers for oil systems, such as [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive}, [lecithins](/e322-lecithins){.additive}, [polyglycerol polyricinoleate](/e476-polyglycerol-polyricinoleate){.additive}, or [sucrose esters of fatty acids](/e473-sucrose-esters-of-fatty-acids){.additive}.
+- Antioxidants to help protect frying oils from breakdown, such as [tertiary butylhydroquinone (TBHQ)](/e319-tertiary-butylhydroquinone-tbhq){.additive}, [butylated hydroxyanisole (BHA)](/e320-butylated-hydroxyanisole-bha){.additive}, or [butylated hydroxytoluene (BHT)](/e321-butylated-hydroxytoluene){.additive}.
+- Anti-foam agents in fryers, like [dimethylpolysiloxane](/e900-dimethylpolysiloxane-and-methylphenylpolysiloxane){.additive}, used alongside good oil management.
 The best choice depends on the food, fryer conditions, and local rules.
 
 ## How is Thermally oxidised soya bean oil interacted with mono- and diglycerides of fatty acids made?
