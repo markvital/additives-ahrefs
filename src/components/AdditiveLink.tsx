@@ -123,11 +123,13 @@ export function AdditiveLink({ href, children, currentAdditive, className }: Add
 
   const iconBeforeStyles = {
     content: '""',
-    display: 'inline-block',
+    position: 'absolute',
+    left: 0,
+    top: '50%',
+    transform: 'translateY(-50%)',
+    display: 'block',
     width: 16,
     height: 16,
-    marginRight: '2px',
-    verticalAlign: 'text-bottom',
     maskRepeat: 'no-repeat',
     WebkitMaskRepeat: 'no-repeat',
     maskSize: 'contain',
@@ -211,7 +213,7 @@ export function AdditiveLink({ href, children, currentAdditive, className }: Add
             popper: {
               disablePortal: true,
               keepMounted: true,
-              modifiers: [{ name: 'preventOverflow', options: { boundary: 'viewport', padding: 8 } }],
+              modifiers: [{ name: 'preventOverflow', options: { padding: 8 } }],
             },
             tooltip: {
               sx: {
@@ -243,13 +245,15 @@ export function AdditiveLink({ href, children, currentAdditive, className }: Add
             underline="hover"
             className={className}
             sx={{
-              display: 'inline-block',
+              position: 'relative',
+              display: 'inline',
               color: linkColor,
               fontWeight: 400,
               textDecorationColor: linkColor,
               lineHeight: 'inherit',
               cursor: 'pointer',
               verticalAlign: 'baseline',
+              paddingLeft: '18px',
               '&::before': iconBeforeStyles,
               '&:hover': {
                 color: linkColor,
