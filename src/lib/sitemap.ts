@@ -1,9 +1,15 @@
-import { getAdditives, getFunctionFilters, getOriginFilters } from './additives';
+import {
+  getAdditives,
+  getFunctionFilters,
+  getOriginFilters,
+  getCanonicalComparisonOrder,
+  sortAdditivesByMode,
+} from './additives';
 import { absoluteUrl } from './site';
 
 const MAIN_SITEMAP_BASE_PATHS = ['/', '/function', '/origin', '/about', '/privacy', '/terms'] as const;
 const COMPARE_BASE_PATH = '/compare';
-const COMPARISON_CHUNK_SIZE = 30000;
+const COMPARISON_CHUNK_SIZE = 50000;
 const MAIN_CHUNK_ID = '1-main';
 
 type SitemapEntry = {
@@ -12,30 +18,6 @@ type SitemapEntry = {
 };
 
 let cachedEntries: SitemapEntry[] | null = null;
-
-const getComparisonCount = (length: number): number => {
-  if (length < 2) {
-    return 0;
-  }
-
-  return (length * (length - 1)) / 2;
-};
-
-const getComparisonPair = (slugs: string[], position: number): [string, string] => {
-  let offset = position;
-
-  for (let i = 0; i < slugs.length; i += 1) {
-    const blockSize = slugs.length - i - 1;
-
-    if (offset < blockSize) {
-      return [slugs[i], slugs[i + 1 + offset]];
-    }
-
-    offset -= blockSize;
-  }
-
-  throw new RangeError(`Comparison index ${position} is out of range`);
-};
 
 const chunkArray = <T>(items: T[], size: number): T[][] => {
   if (size <= 0) {
@@ -69,15 +51,18 @@ const buildMainUrls = (): string[] => {
 };
 
 const buildComparisonUrls = (): string[] => {
-  const additives = getAdditives();
-  const additiveSlugs = additives.map((additive) => additive.slug);
-  const totalComparisons = getComparisonCount(additiveSlugs.length);
+  const additives = sortAdditivesByMode(getAdditives(), 'e-number');
   const urls: string[] = [absoluteUrl(COMPARE_BASE_PATH)];
 
-  for (let index = 0; index < totalComparisons; index += 1) {
-    const [first, second] = getComparisonPair(additiveSlugs, index);
+  for (let index = 0; index < additives.length; index += 1) {
+    for (let nested = index + 1; nested < additives.length; nested += 1) {
+      const [primarySlug, secondarySlug] = getCanonicalComparisonOrder(
+        additives[index],
+        additives[nested],
+      );
 
-    urls.push(absoluteUrl(`/compare/${first}-vs-${second}`));
+      urls.push(absoluteUrl(`/compare/${primarySlug}-vs-${secondarySlug}`));
+    }
   }
 
   return urls;
