@@ -125,8 +125,7 @@ export function AdditiveLink({ href, children, currentAdditive, className }: Add
     content: '""',
     position: 'absolute',
     left: 0,
-    top: '50%',
-    transform: 'translateY(-50%)',
+    top: '0.125em',
     display: 'block',
     width: 16,
     height: 16,
@@ -163,14 +162,19 @@ export function AdditiveLink({ href, children, currentAdditive, className }: Add
           disableTouchListener
           placement="bottom"
           title={
-            <Stack sx={{ minWidth: 220, maxWidth: 320 }}>
+            <Stack sx={{ minWidth: 180, maxWidth: 320 }}>
               <MuiLink
                 component={NextLink}
                 href={href}
                 underline="none"
                 sx={actionBaseSx}
               >
-                read more
+                <Typography
+                  component="span"
+                  sx={{ fontSize: '1.15em', fontWeight: 500, lineHeight: 1.25 }}
+                >
+                  read more
+                </Typography>
               </MuiLink>
               {compareHref && compareLineTwo ? (
                 <MuiLink

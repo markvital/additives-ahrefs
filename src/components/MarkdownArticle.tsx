@@ -3,7 +3,7 @@ import type { Components } from 'react-markdown';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import remarkMath from 'remark-math';
-import remarkAttr from 'remark-attributes';
+import { remarkAdditiveAttributes } from '../lib/remarkAdditiveAttributes';
 import rehypeKatex from 'rehype-katex';
 import rehypeRaw from 'rehype-raw';
 import { isValidElement, type ReactNode } from 'react';
@@ -166,7 +166,7 @@ export function MarkdownArticle({ content, currentAdditive }: MarkdownArticlePro
       }}
     >
       <ReactMarkdown
-        remarkPlugins={[remarkGfm, remarkMath, [remarkAttr as any, { mdx: false }]]}
+        remarkPlugins={[remarkGfm, remarkMath, remarkAdditiveAttributes]}
         rehypePlugins={[rehypeRaw, rehypeKatex]}
         components={markdownComponents}
       >
