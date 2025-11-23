@@ -257,7 +257,7 @@ export function AdditiveLink({ href, children, currentAdditive, className }: Add
               lineHeight: 'inherit',
               cursor: 'pointer',
               verticalAlign: 'baseline',
-              paddingLeft: '18px',
+              paddingLeft: '16px',
               '&::before': iconBeforeStyles,
               '&:hover': {
                 color: linkColor,
