@@ -7,7 +7,7 @@ E166 (Sandalwood) is a natural red coloring historically derived from the heartw
 - Regulatory status: not authorized as a food additive in the EU or the U.S.
 - Where you might see it: uncommon in regulated packaged foods; may appear in historical recipes or in regions with different rules.
 - How it would appear on labels: “E166” or “sandalwood.”
-- Common substitutes: [beetroot red](/e162-beetroot-red), [anthocyanins](/e163-anthocyanins), [cochineal](/e120-cochineal), [paprika extract](/e160c-paprika-extract), [lycopene](/e160d-lycopene), [saffron](/e164-saffron), or [curcumin](/e100-curcumin).
+- Common substitutes: [beetroot red](/e162-beetroot-red){.additive}, [anthocyanins](/e163-anthocyanins){.additive}, [cochineal](/e120-cochineal){.additive}, [paprika extract](/e160c-paprika-extract){.additive}, [lycopene](/e160d-lycopene){.additive}, [saffron](/e164-saffron){.additive}, or [curcumin](/e100-curcumin){.additive}.
 
 ## Why is Sandalwood added to food?
 Producers used sandalwood mainly to give foods and drinks a warm red hue. Color helps signal flavor, standardize appearance from batch to batch, and make products look more appealing.
@@ -17,12 +17,12 @@ Today, products in the European Union and the United States generally do not con
 
 ## What can replace Sandalwood?
 When a natural red or orange tone is needed, food makers often choose permitted alternatives such as:
-- [Beetroot red](/e162-beetroot-red) (deep pink to red)
-- [Anthocyanins](/e163-anthocyanins) (berry reds and purples)
-- [Cochineal](/e120-cochineal) (vivid red)
-- [Paprika extract](/e160c-paprika-extract) (orange-red)
-- [Lycopene](/e160d-lycopene) (tomato red)
-- [Saffron](/e164-saffron) (golden yellow) or [curcumin](/e100-curcumin) (yellow) when a warmer shade is acceptable
+- [Beetroot red](/e162-beetroot-red){.additive} (deep pink to red)
+- [Anthocyanins](/e163-anthocyanins){.additive} (berry reds and purples)
+- [Cochineal](/e120-cochineal){.additive} (vivid red)
+- [Paprika extract](/e160c-paprika-extract){.additive} (orange-red)
+- [Lycopene](/e160d-lycopene){.additive} (tomato red)
+- [Saffron](/e164-saffron){.additive} (golden yellow) or [curcumin](/e100-curcumin){.additive} (yellow) when a warmer shade is acceptable
 
 ## How is Sandalwood made?
 Sandalwood color is traditionally prepared by extracting red pigments known as santalins from the heartwood of the tree Pterocarpus santalinus.[^3] There is no EU or FDA food-additive specification for E166 because it is not authorized as a food color in those jurisdictions.[^1][^2]

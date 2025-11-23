@@ -14,10 +14,10 @@ Manufacturers use lutein across a range of foods that benefit from yellow-to-ora
 
 ## What can replace Lutein?
 Several other approved colors can create similar shades, depending on the product:
-- Plant colors: [annatto](/e160b-annatto), [paprika extract](/e160c-paprika-extract), [curcumin](/e100-curcumin), [beta-carotene](/e160a-carotene), and [lycopene](/e160d-lycopene)
-- Vitamins/colors: [riboflavin](/e101-riboflavin)
-- Related carotenoids: [zeaxanthin](/e161h-zeaxanthin)
-- Inorganic whites for blending lighter tones: [titanium dioxide](/e171-titanium-dioxide) (use depends on local rules)
+- Plant colors: [annatto](/e160b-annatto){.additive}, [paprika extract](/e160c-paprika-extract){.additive}, [curcumin](/e100-curcumin){.additive}, [beta-carotene](/e160a-carotene){.additive}, and [lycopene](/e160d-lycopene){.additive}
+- Vitamins/colors: [riboflavin](/e101-riboflavin){.additive}
+- Related carotenoids: [zeaxanthin](/e161h-zeaxanthin){.additive}
+- Inorganic whites for blending lighter tones: [titanium dioxide](/e171-titanium-dioxide){.additive} (use depends on local rules)
 
 The best substitute depends on the target shade, stability needs (light, heat, pH), flavor neutrality, and labeling goals.
 
@@ -35,7 +35,7 @@ Regulators in the U.S. permit “lutein from Tagetes erecta” as a color additi
 As with all approved colors, safety has been reviewed by authorities. When used as intended, lutein in food is considered safe. If you have specific medical concerns or dietary restrictions, consult your healthcare professional.
 
 ## Does Lutein have any benefits?
-Lutein is a dietary carotenoid that concentrates in the macula of the eye, where—together with [zeaxanthin](/e161h-zeaxanthin)—it contributes to the macular pigment.[^4] Research on supplements has examined potential roles in eye health; the NIH-supported AREDS2 study tested lutein and zeaxanthin in an eye health formula for age-related macular degeneration (AMD).[^5] As a food additive, however, lutein is used for color—not to treat or prevent disease.
+Lutein is a dietary carotenoid that concentrates in the macula of the eye, where—together with [zeaxanthin](/e161h-zeaxanthin){.additive}—it contributes to the macular pigment.[^4] Research on supplements has examined potential roles in eye health; the NIH-supported AREDS2 study tested lutein and zeaxanthin in an eye health formula for age-related macular degeneration (AMD).[^5] As a food additive, however, lutein is used for color—not to treat or prevent disease.
 
 ## Who should avoid Lutein?
 - People who prefer to avoid added colors for personal reasons can check labels for “lutein,” “E161b,” “xanthophylls,” or “Tagetes extract.”

@@ -17,9 +17,9 @@ Guaiacum is uncommon on modern labels. Where used, it has historically appeared 
 
 ## What can replace Guaiacum?
 Food makers often choose other antioxidants that are easier to source or have clearer regulatory status. Common alternatives include:
-- Natural options: [ascorbic acid](/e300-ascorbic-acid), [tocopherol-rich extract](/e306-tocopherol-rich-extract), and [extracts of rosemary](/e392-extracts-of-rosemary).
-- Synthetic options: [butylated hydroxyanisole (BHA)](/e320-butylated-hydroxyanisole-bha), [butylated hydroxytoluene (BHT)](/e321-butylated-hydroxytoluene), and [propyl gallate](/e310-propyl-gallate).
-- Helpers: acids like [citric acid](/e330-citric-acid) can boost antioxidant performance in some formulas.
+- Natural options: [ascorbic acid](/e300-ascorbic-acid){.additive}, [tocopherol-rich extract](/e306-tocopherol-rich-extract){.additive}, and [extracts of rosemary](/e392-extracts-of-rosemary){.additive}.
+- Synthetic options: [butylated hydroxyanisole (BHA)](/e320-butylated-hydroxyanisole-bha){.additive}, [butylated hydroxytoluene (BHT)](/e321-butylated-hydroxytoluene){.additive}, and [propyl gallate](/e310-propyl-gallate){.additive}.
+- Helpers: acids like [citric acid](/e330-citric-acid){.additive} can boost antioxidant performance in some formulas.
 
 ## How is Guaiacum made?
 Guaiacum is obtained from the wood of the guaiac tree. The resin is collected and purified—often by solvent extraction and physical refining—to remove wood solids and concentrate the antioxidant components.[^2] The finished material may be supplied as a brittle solid or powder for easy blending into foods.[^2]

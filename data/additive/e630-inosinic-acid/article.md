@@ -6,17 +6,17 @@ Inosinic acid (E630) is a flavor enhancer that boosts savory, umami taste. It is
 - What it does: deepens savory flavor and can make seasonings more effective at low doses
 - Where it’s found: instant noodles, soup mixes, sauces, snacks, and savory seasonings
 - Label names: “inosinic acid,” “5'-inosinic acid,” “IMP,” or “E630”
-- Related additives: its salts such as [disodium inosinate](/e631-disodium-inosinate), [dipotassium inosinate](/e632-dipotassium-inosinate), and [calcium inosinate](/e633-calcium-inosinate)
+- Related additives: its salts such as [disodium inosinate](/e631-disodium-inosinate){.additive}, [dipotassium inosinate](/e632-dipotassium-inosinate){.additive}, and [calcium inosinate](/e633-calcium-inosinate){.additive}
 
 ## Why is Inosinic acid added to food?
-Food makers add E630 to boost umami—the mouth-filling savory taste that makes broths, meats, and many snacks seem fuller and more satisfying.[^1] It often works alongside sources of glutamate, such as [monosodium glutamate](/e621-monosodium-glutamate) or natural glutamate in ingredients like tomatoes and cheeses, to amplify flavor at low use levels.
+Food makers add E630 to boost umami—the mouth-filling savory taste that makes broths, meats, and many snacks seem fuller and more satisfying.[^1] It often works alongside sources of glutamate, such as [monosodium glutamate](/e621-monosodium-glutamate){.additive} or natural glutamate in ingredients like tomatoes and cheeses, to amplify flavor at low use levels.
 
 ## What foods contain Inosinic acid?
 E630 appears in a wide range of savory products, typically where a strong, rounded taste is desired. Common examples include instant soups and noodle seasonings, bouillon and stock cubes, snack seasonings and chips, sauces and condiments, and processed meat seasonings.[^1]
 
 ## What can replace Inosinic acid?
-- Other umami enhancers: [monosodium glutamate](/e621-monosodium-glutamate), [glutamic acid](/e620-glutamic-acid), or blended enhancers like [disodium 5'-ribonucleotide](/e635-disodium-5-ribonucleotide)
-- Closely related nucleotides: [disodium inosinate](/e631-disodium-inosinate) and guanylate salts such as [disodium guanylate](/e627-disodium-guanylate), [dipotassium guanylate](/e628-dipotassium-guanylate), and [calcium guanylate](/e629-calcium-guanylate), or the acid form [guanylic acid](/e626-guanylic-acid)
+- Other umami enhancers: [monosodium glutamate](/e621-monosodium-glutamate){.additive}, [glutamic acid](/e620-glutamic-acid){.additive}, or blended enhancers like [disodium 5'-ribonucleotide](/e635-disodium-5-ribonucleotide){.additive}
+- Closely related nucleotides: [disodium inosinate](/e631-disodium-inosinate){.additive} and guanylate salts such as [disodium guanylate](/e627-disodium-guanylate){.additive}, [dipotassium guanylate](/e628-dipotassium-guanylate){.additive}, and [calcium guanylate](/e629-calcium-guanylate){.additive}, or the acid form [guanylic acid](/e626-guanylic-acid){.additive}
 - Ingredient alternatives: yeast extract, mushroom concentrates, seaweed, tomato concentrates, and aged cheeses for “clean-label” umami
 
 ## How is Inosinic acid made?
@@ -41,7 +41,7 @@ E630 is authorized as a food additive in the European Union, with detailed speci
 - “It’s used in large amounts.” False. Effective levels are typically very small because it is a potent enhancer.[^1]
 
 ## Inosinic acid in branded foods
-You’ll most often spot E630 on labels for instant noodle packets, bouillon and stock cubes, savory snacks and chips, dry soup mixes, spice blends, and some ready meals. Look for “inosinic acid,” “5'-IMP,” or “E630” in the ingredient list, sometimes alongside [monosodium glutamate](/e621-monosodium-glutamate) or other ribonucleotides.
+You’ll most often spot E630 on labels for instant noodle packets, bouillon and stock cubes, savory snacks and chips, dry soup mixes, spice blends, and some ready meals. Look for “inosinic acid,” “5'-IMP,” or “E630” in the ingredient list, sometimes alongside [monosodium glutamate](/e621-monosodium-glutamate){.additive} or other ribonucleotides.
 
 ## References
 [^1]: GSFA Online: Inosinic acid (INS 630) — FAO/WHO Codex Alimentarius. https://www.fao.org/gsfaonline/additives/details.html?ins=630

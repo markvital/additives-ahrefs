@@ -16,16 +16,16 @@ Carbon dioxide is added to make beverages effervescent, to act as a propellant i
 ## What foods contain Carbon dioxide?
 You will most often find E290 in:
 - Carbonated drinks: sparkling water, sodas, seltzers, kombucha, beer, and some wines.
-- Aerosol foods: some spray oils and culinary foams use CO2 as the propellant; whipped cream typically uses [nitrous oxide](/e942-nitrous-oxide).
-- Modified-atmosphere packaging (MAP): some meats, cheeses, salads, and fresh pasta are packed with a protective gas mix that can include CO2 (often with [nitrogen](/e941-nitrogen) or [argon](/e938-argon)).
+- Aerosol foods: some spray oils and culinary foams use CO2 as the propellant; whipped cream typically uses [nitrous oxide](/e942-nitrous-oxide){.additive}.
+- Modified-atmosphere packaging (MAP): some meats, cheeses, salads, and fresh pasta are packed with a protective gas mix that can include CO2 (often with [nitrogen](/e941-nitrogen){.additive} or [argon](/e938-argon){.additive}).
 
 On labels, look for “carbonated,” “carbon dioxide,” “CO2,” “packaged in a protective atmosphere,” or “propellant: E290.”
 
 ## What can replace Carbon dioxide?
 Alternatives depend on the job:
-- For packaging and propellant uses: [nitrogen](/e941-nitrogen), [argon](/e938-argon), or [nitrous oxide](/e942-nitrous-oxide) are common choices.
-- For preserving freshness in some foods: other approved preservatives can be used when appropriate, such as [potassium sorbate](/e202-potassium-sorbate) or [sodium benzoate](/e211-sodium-benzoate).
-- For tartness instead of fizz: acids like [citric acid](/e330-citric-acid) add tang without carbonation.
+- For packaging and propellant uses: [nitrogen](/e941-nitrogen){.additive}, [argon](/e938-argon){.additive}, or [nitrous oxide](/e942-nitrous-oxide){.additive} are common choices.
+- For preserving freshness in some foods: other approved preservatives can be used when appropriate, such as [potassium sorbate](/e202-potassium-sorbate){.additive} or [sodium benzoate](/e211-sodium-benzoate){.additive}.
+- For tartness instead of fizz: acids like [citric acid](/e330-citric-acid){.additive} add tang without carbonation.
 
 Each substitute changes texture, taste, or shelf life differently, so formulators pick based on the product.
 
@@ -51,7 +51,7 @@ Some people find carbonation uncomfortable due to bloating or reflux. If your he
 - Myth: Carbonated water is always high in acid.  
   Fact: CO2 makes water mildly acidic, but the pH varies; added acids in soft drinks usually make them more acidic than plain sparkling water.
 - Myth: “Packaged in a protective atmosphere” means chemicals were added.  
-  Fact: It typically means inert gases like CO2 or [nitrogen](/e941-nitrogen) replaced the air in the pack.
+  Fact: It typically means inert gases like CO2 or [nitrogen](/e941-nitrogen){.additive} replaced the air in the pack.
 
 ## Carbon dioxide in branded foods
 You’ll see E290 in many well‑known products:

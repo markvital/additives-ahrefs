@@ -5,7 +5,7 @@ Calcium ascorbate (E302) is the calcium salt of vitamin C. It works as an antiox
 - E-number: E302; function: antioxidant and vitamin C source
 - Typical uses: helps slow oxidation in beverages, fruit products, and other processed foods
 - Appearance and taste: white, nearly neutral-tasting powder that dissolves in water
-- Related additives: [ascorbic acid](/e300-ascorbic-acid) (E300) and [sodium ascorbate](/e301-sodium-ascorbate) (E301)
+- Related additives: [ascorbic acid](/e300-ascorbic-acid){.additive} (E300) and [sodium ascorbate](/e301-sodium-ascorbate){.additive} (E301)
 
 ## Why is Calcium ascorbate added to food?
 Food makers use calcium ascorbate to slow oxidation, which helps prevent flavor changes and discoloration during shelf life.[^1] It is part of the “ascorbates” group (vitamin C and its salts) that act as antioxidants in many recipes.[^1]
@@ -14,8 +14,8 @@ Food makers use calcium ascorbate to slow oxidation, which helps prevent flavor 
 You may find calcium ascorbate in vitamin C–fortified drinks, canned or packaged fruit, fruit spreads, snack products, and various processed foods where color or flavor needs protection. In the European Union, it is an authorized additive in many food categories under the general food additives regulation.[^4] In the United States, it appears in FDA’s public inventory of substances added to food.[^3]
 
 ## What can replace Calcium ascorbate?
-- Other ascorbates: [ascorbic acid](/e300-ascorbic-acid) (E300) and [sodium ascorbate](/e301-sodium-ascorbate) offer similar antioxidant effects.
-- Other antioxidants for certain applications: [citric acid](/e330-citric-acid) (a helper/acidulant that can limit oxidation), [tocopherol-rich extract](/e306-tocopherol-rich-extract) or [alpha-tocopherol](/e307-alpha-tocopherol), and [extracts of rosemary](/e392-extracts-of-rosemary).  
+- Other ascorbates: [ascorbic acid](/e300-ascorbic-acid){.additive} (E300) and [sodium ascorbate](/e301-sodium-ascorbate){.additive} offer similar antioxidant effects.
+- Other antioxidants for certain applications: [citric acid](/e330-citric-acid){.additive} (a helper/acidulant that can limit oxidation), [tocopherol-rich extract](/e306-tocopherol-rich-extract){.additive} or [alpha-tocopherol](/e307-alpha-tocopherol){.additive}, and [extracts of rosemary](/e392-extracts-of-rosemary){.additive}.  
 The best substitute depends on the food, flavor, solubility, and labeling goals.
 
 ## How is Calcium ascorbate made?

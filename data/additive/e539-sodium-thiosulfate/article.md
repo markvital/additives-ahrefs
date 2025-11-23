@@ -17,11 +17,11 @@ Use depends on local rules. In the European Union, sodium thiosulfate is on the 
 
 ## What can replace sodium thiosulfate?
 Depending on the job it needs to do, formulators may choose:
-- Other antioxidants, such as [ascorbic acid](/e300-ascorbic-acid)
-- Acidulants and chelators that bind metals, such as [citric acid](/e330-citric-acid)
-- Sulfite-based antioxidants where permitted, such as [sodium metabisulphite](/e223-sodium-metabisulphite) or [sulphur dioxide](/e220-sulphur-dioxide)
-- Chelating agents like [calcium disodium EDTA](/e385-calcium-disodium-ethylenediaminetetraacetate)
-- For salt flow and stability needs, anti-caking agents such as [sodium ferrocyanide](/e535-sodium-ferrocyanide), [potassium ferrocyanide](/e536-potassium-ferrocyanide), or [calcium ferrocyanide](/e538-calcium-ferrocyanide)
+- Other antioxidants, such as [ascorbic acid](/e300-ascorbic-acid){.additive}
+- Acidulants and chelators that bind metals, such as [citric acid](/e330-citric-acid){.additive}
+- Sulfite-based antioxidants where permitted, such as [sodium metabisulphite](/e223-sodium-metabisulphite){.additive} or [sulphur dioxide](/e220-sulphur-dioxide){.additive}
+- Chelating agents like [calcium disodium EDTA](/e385-calcium-disodium-ethylenediaminetetraacetate){.additive}
+- For salt flow and stability needs, anti-caking agents such as [sodium ferrocyanide](/e535-sodium-ferrocyanide){.additive}, [potassium ferrocyanide](/e536-potassium-ferrocyanide){.additive}, or [calcium ferrocyanide](/e538-calcium-ferrocyanide){.additive}
 
 Each alternative has its own flavor impact, legal limits, and labeling rules.
 

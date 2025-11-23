@@ -24,11 +24,11 @@ It may appear on labels by its name or E-number, or it may be present within a d
 
 ## What can replace Benzyl alcohol?
 Depending on why it is used (as a solvent/carrier or for a slight flavor note), formulators might switch to:
-- [Ethanol](/e1510-ethanol) for dissolving many natural extracts
-- [Propylene glycol](/e1520-propylene-glycol) as a common flavor carrier
-- [Glycerol](/e422-glycerol) when a humectant and carrier are both desired
-- [Triethyl citrate](/e1505-triethyl-citrate) as a relatively neutral, food-grade solvent
-- [Ethyl acetate](/e1504-ethyl-acetate) for certain extract applications
+- [Ethanol](/e1510-ethanol){.additive} for dissolving many natural extracts
+- [Propylene glycol](/e1520-propylene-glycol){.additive} as a common flavor carrier
+- [Glycerol](/e422-glycerol){.additive} when a humectant and carrier are both desired
+- [Triethyl citrate](/e1505-triethyl-citrate){.additive} as a relatively neutral, food-grade solvent
+- [Ethyl acetate](/e1504-ethyl-acetate){.additive} for certain extract applications
 
 The best substitute depends on solubility needs, taste neutrality, and the regulations for the intended food.
 

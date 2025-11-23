@@ -29,9 +29,9 @@ In the European Union (EU), certain foods that contain added polyols (sugar alco
 
 ## What can replace D-sorbitol?
 Depending on why it is used (sweetness, bulk, or moisture), common swaps include:
-- Other polyol sweeteners: [xylitol](/e967-xylitol), [erythritol](/e968-erythritol), [isomalt](/e953-isomalt), [maltitol](/e965-maltitol), [lactitol](/e966-lactitol)
-- High-intensity sweeteners (for sweetness only, no bulk): [sucralose](/e955-sucralose), [aspartame](/e951-aspartame), [acesulfame K](/e950-acesulfame-k), [steviol glycosides](/e960-steviol-glycosides)
-- Humectants/bulking agents: [glycerol](/e422-glycerol), [xanthan gum](/e415-xanthan-gum) for texture support
+- Other polyol sweeteners: [xylitol](/e967-xylitol){.additive}, [erythritol](/e968-erythritol){.additive}, [isomalt](/e953-isomalt){.additive}, [maltitol](/e965-maltitol){.additive}, [lactitol](/e966-lactitol){.additive}
+- High-intensity sweeteners (for sweetness only, no bulk): [sucralose](/e955-sucralose){.additive}, [aspartame](/e951-aspartame){.additive}, [acesulfame K](/e950-acesulfame-k){.additive}, [steviol glycosides](/e960-steviol-glycosides){.additive}
+- Humectants/bulking agents: [glycerol](/e422-glycerol){.additive}, [xanthan gum](/e415-xanthan-gum){.additive} for texture support
 
 ## How is D-sorbitol made?
 Commercial D-sorbitol is made by catalytic hydrogenation of D-glucose (dextrose), usually obtained from starch hydrolysates such as corn or wheat. Sorbitol may be sold as a concentrated aqueous solution or further processed and crystallised into a solid form.[^2]

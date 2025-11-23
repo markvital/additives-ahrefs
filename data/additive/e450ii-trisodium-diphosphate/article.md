@@ -6,7 +6,7 @@ Trisodium diphosphate (E450ii) is a phosphate salt that helps foods keep moistur
 - What it is: A diphosphate (also called a pyrophosphate) salt of sodium used as a multi‑purpose food additive.
 - What it does: Acts as an emulsifier, stabiliser, thickener, humectant, pH buffer, and sequestrant (binds metals).
 - Where it’s used: Baked goods, processed meats and seafood, processed cheese, dairy desserts, and instant drink mixes.
-- Source: Made from mineral [phosphoric acid](/e338-phosphoric-acid) and sodium salts; not animal‑derived.
+- Source: Made from mineral [phosphoric acid](/e338-phosphoric-acid){.additive} and sodium salts; not animal‑derived.
 - Dietary notes: Suitable for vegetarian and vegan diets. Adds both phosphorus and sodium to the diet.
 - Regulatory snapshot: Authorized in the EU and many other regions within set limits; evaluated as part of the phosphate additive group.
 
@@ -25,13 +25,13 @@ These uses are typical for diphosphates in the Codex General Standard for Food A
 
 ## What can replace Trisodium diphosphate?
 Alternatives depend on the job it’s doing:
-- For leavening in baking: [sodium bicarbonate](/e500ii-sodium-bicarbonate) paired with an acid such as [citric acid](/e330-citric-acid) or [glucono delta-lactone](/e575-glucono-delta-lactone).
-- For emulsifying/stabilising: [sodium citrates](/e331-sodium-citrates) or gums like [xanthan gum](/e415-xanthan-gum), [carrageenan](/e407-carrageenan), or [locust bean gum](/e410-locust-bean-gum).
-- For metal chelation: [citric acid](/e330-citric-acid), [sodium citrates](/e331-sodium-citrates), or calcium disodium EDTA [EDTA stands for ethylenediaminetetraacetate] ([calcium disodium EDTA](/e385-calcium-disodium-ethylenediaminetetraacetate)) in applications where permitted.
-- For water‑binding/texture in meats and seafood: other phosphate blends like [triphosphates](/e451-triphosphates) or [polyphosphates](/e452-polyphosphates), or non‑phosphate options such as certain hydrocolloids.
+- For leavening in baking: [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive} paired with an acid such as [citric acid](/e330-citric-acid){.additive} or [glucono delta-lactone](/e575-glucono-delta-lactone){.additive}.
+- For emulsifying/stabilising: [sodium citrates](/e331-sodium-citrates){.additive} or gums like [xanthan gum](/e415-xanthan-gum){.additive}, [carrageenan](/e407-carrageenan){.additive}, or [locust bean gum](/e410-locust-bean-gum){.additive}.
+- For metal chelation: [citric acid](/e330-citric-acid){.additive}, [sodium citrates](/e331-sodium-citrates){.additive}, or calcium disodium EDTA [EDTA stands for ethylenediaminetetraacetate] ([calcium disodium EDTA](/e385-calcium-disodium-ethylenediaminetetraacetate){.additive}) in applications where permitted.
+- For water‑binding/texture in meats and seafood: other phosphate blends like [triphosphates](/e451-triphosphates){.additive} or [polyphosphates](/e452-polyphosphates){.additive}, or non‑phosphate options such as certain hydrocolloids.
 
 ## How is Trisodium diphosphate made?
-Food‑grade trisodium diphosphate is produced from purified [phosphoric acid](/e338-phosphoric-acid) neutralized with sodium salts (such as [sodium carbonates](/e500-sodium-carbonates)), followed by controlled heating (dehydration) to form the diphosphate structure. The process is adjusted to reach the trisodium form and to meet strict purity specifications set in EU law, including limits on contaminants.[^2]
+Food‑grade trisodium diphosphate is produced from purified [phosphoric acid](/e338-phosphoric-acid){.additive} neutralized with sodium salts (such as [sodium carbonates](/e500-sodium-carbonates){.additive}), followed by controlled heating (dehydration) to form the diphosphate structure. The process is adjusted to reach the trisodium form and to meet strict purity specifications set in EU law, including limits on contaminants.[^2]
 
 ## Is Trisodium diphosphate safe to eat?
 In 2019, the European Food Safety Authority (EFSA) re‑evaluated phosphates (including diphosphates E450) as a group and set a group acceptable daily intake (ADI) for total phosphate exposure from all food additive sources. EFSA also noted that some high‑consuming groups could exceed this level and advised reviewing maximum permitted levels in certain foods.[^1] Within regulatory limits, EFSA did not flag genotoxicity or carcinogenicity concerns for the phosphate group.[^1]

@@ -5,7 +5,7 @@ Beta-carotene (E160a(i)) is a bright yellow–orange color used in many foods an
 ## At a glance
 - What it is: Beta-carotene is a carotenoid pigment used as a yellow to orange food color (E-number E160a(i)).
 - What it looks like: Orange crystals or powder; typically dispersed in oil or emulsions.
-- Where it comes from: Made by chemical synthesis, extracted from plants, or produced by fermentation; see related entries like [plant carotenes](/e160aii-plant-carotenes) and [beta-carotene from Blakeslea trispora](/e160aiii-beta-carotene-from-blakeslea-trispora).
+- Where it comes from: Made by chemical synthesis, extracted from plants, or produced by fermentation; see related entries like [plant carotenes](/e160aii-plant-carotenes){.additive} and [beta-carotene from Blakeslea trispora](/e160aiii-beta-carotene-from-blakeslea-trispora){.additive}.
 - What it does in food: Colors products from pale yellow to deep orange; works well in fat-containing foods.
 - Common uses: Drinks, dairy products, bakery items, spreads, confectionery.
 - Dietary notes: Typically suitable for vegetarians and vegans; check labels for carriers in specific products.
@@ -18,14 +18,14 @@ In the United States, beta-carotene is a color additive exempt from certificatio
 
 ## What can replace Beta-carotene?
 - Other natural colors with similar shades:
-  - [Annatto](/e160b-annatto)
-  - [Paprika extract](/e160c-paprika-extract)
-  - [Curcumin (turmeric)](/e100-curcumin)
-  - [Lutein](/e161b-lutein)
+  - [Annatto](/e160b-annatto){.additive}
+  - [Paprika extract](/e160c-paprika-extract){.additive}
+  - [Curcumin (turmeric)](/e100-curcumin){.additive}
+  - [Lutein](/e161b-lutein){.additive}
 - Related carotenoids that yield orange tones:
-  - [Beta-apo-8’-carotenal (C30)](/e160e-beta-apo-8-carotenal-c30)
+  - [Beta-apo-8’-carotenal (C30)](/e160e-beta-apo-8-carotenal-c30){.additive}
 - Darker browns if desired:
-  - [Caramel color](/e150a-plain-caramel)
+  - [Caramel color](/e150a-plain-caramel){.additive}
 
 Choice depends on label goals (natural vs. synthetic), target shade, solubility, light/heat stability, and cost.
 
@@ -50,7 +50,7 @@ These concerns are about high-dose supplements, not the small amounts used to co
 - Myth: “Beta-carotene dissolves in water.” Fact: It is fat-soluble and is usually added via oils, emulsions, or beadlets for even coloring.[^3]
 
 ## Beta-carotene in branded foods
-You’ll often see beta-carotene in ingredient lists for soft drinks and juices, dairy products (like yogurts and processed cheeses), margarine and spreads, breakfast cereals, and sweets. On labels it may appear as “beta-carotene,” “carotene (color),” or “E160a” in regions that use E-numbers. Related entries you might see are [plant carotenes](/e160aii-plant-carotenes) and [beta-carotene from Blakeslea trispora](/e160aiii-beta-carotene-from-blakeslea-trispora).
+You’ll often see beta-carotene in ingredient lists for soft drinks and juices, dairy products (like yogurts and processed cheeses), margarine and spreads, breakfast cereals, and sweets. On labels it may appear as “beta-carotene,” “carotene (color),” or “E160a” in regions that use E-numbers. Related entries you might see are [plant carotenes](/e160aii-plant-carotenes){.additive} and [beta-carotene from Blakeslea trispora](/e160aiii-beta-carotene-from-blakeslea-trispora){.additive}.
 
 ## References
 [^1]: Carotene; Exempt from certification (21 CFR 73.95) — U.S. FDA/eCFR. https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-73/subpart-A/section-73.95

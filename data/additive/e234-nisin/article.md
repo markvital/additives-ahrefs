@@ -20,10 +20,10 @@ On ingredient lists, you’ll typically see “nisin” or “E234.”
 
 ## What can replace Nisin?
 Depending on the food and the microbes of concern, technologists may use:
-- [Potassium sorbate](/e202-potassium-sorbate) or [sorbic acid](/e200-sorbic-acid)
-- [Sodium benzoate](/e211-sodium-benzoate) in suitable pH ranges
-- [Natamycin](/e235-natamycin), especially on the surface of cheeses
-- [Lysozyme](/e1105-lysozyme) in certain cheese applications
+- [Potassium sorbate](/e202-potassium-sorbate){.additive} or [sorbic acid](/e200-sorbic-acid){.additive}
+- [Sodium benzoate](/e211-sodium-benzoate){.additive} in suitable pH ranges
+- [Natamycin](/e235-natamycin){.additive}, especially on the surface of cheeses
+- [Lysozyme](/e1105-lysozyme){.additive} in certain cheese applications
 
 The best alternative depends on pH, moisture, processing, and desired shelf life.
 

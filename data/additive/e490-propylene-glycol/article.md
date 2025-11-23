@@ -24,10 +24,10 @@ It may also appear as a carrier in color blends and in powdered mixes to improve
 
 ## What can replace Propylene glycol?
 Depending on the job, common alternatives include:
-- For moisture retention: [glycerol](/e422-glycerol), [sorbitol](/e420-sorbitol), or [xylitol](/e967-xylitol) in sugar‑free items
-- For dissolving flavors: [ethanol](/e1510-ethanol) or [glyceryl triacetate (triacetin)](/e1518-glyceryl-triacetate)
-- For texture/stabilizing in acidic systems: [propylene glycol alginate](/e405-propane-1-2-diol-alginate)
-- For emulsification instead of carrier use: [propane‑1,2‑diol esters of fatty acids](/e477-propane-1-2-diol-esters-of-fatty-acids)
+- For moisture retention: [glycerol](/e422-glycerol){.additive}, [sorbitol](/e420-sorbitol){.additive}, or [xylitol](/e967-xylitol){.additive} in sugar‑free items
+- For dissolving flavors: [ethanol](/e1510-ethanol){.additive} or [glyceryl triacetate (triacetin)](/e1518-glyceryl-triacetate){.additive}
+- For texture/stabilizing in acidic systems: [propylene glycol alginate](/e405-propane-1-2-diol-alginate){.additive}
+- For emulsification instead of carrier use: [propane‑1,2‑diol esters of fatty acids](/e477-propane-1-2-diol-esters-of-fatty-acids){.additive}
 
 The best substitute depends on taste, labeling needs, and whether the food is heat‑processed or acidic.
 

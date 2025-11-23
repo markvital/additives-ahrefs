@@ -21,9 +21,9 @@ You’ll most often see it in:
 
 ## What can replace dipotassium dihydrogenpyrophosphate?
 Depending on the job you need it to do, common stand-ins include:
-- Leavening acids: [monocalcium phosphate](/e341i-monocalcium-phosphate), [glucono-δ-lactone](/e575-glucono-delta-lactone), [citric acid](/e330-citric-acid), or [monopotassium tartrate](/e336i-monopotassium-tartrate)
-- Other pyrophosphates in the same family (formulation-dependent): [disodium diphosphate](/e450i-disodium-diphosphate) or [tetrasodium diphosphate](/e450iii-tetrasodium-diphosphate)
-- Sequestrants and buffers in sauces and beverages: [sodium citrates](/e331-sodium-citrates) or [calcium disodium EDTA](/e385-calcium-disodium-ethylenediaminetetraacetate)
+- Leavening acids: [monocalcium phosphate](/e341i-monocalcium-phosphate){.additive}, [glucono-δ-lactone](/e575-glucono-delta-lactone){.additive}, [citric acid](/e330-citric-acid){.additive}, or [monopotassium tartrate](/e336i-monopotassium-tartrate){.additive}
+- Other pyrophosphates in the same family (formulation-dependent): [disodium diphosphate](/e450i-disodium-diphosphate){.additive} or [tetrasodium diphosphate](/e450iii-tetrasodium-diphosphate){.additive}
+- Sequestrants and buffers in sauces and beverages: [sodium citrates](/e331-sodium-citrates){.additive} or [calcium disodium EDTA](/e385-calcium-disodium-ethylenediaminetetraacetate){.additive}
 
 ## How is dipotassium dihydrogenpyrophosphate made?
 Food-grade material is produced by neutralising food-grade phosphoric acid with potassium bases (such as potassium hydroxide or potassium carbonate) and then carefully heating to condense phosphate units into pyrophosphate. The result is the acidic potassium pyrophosphate salt specified in EU additive rules (E 450iv).[^1][^2]

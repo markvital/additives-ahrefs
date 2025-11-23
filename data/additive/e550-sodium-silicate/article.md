@@ -16,11 +16,11 @@ You’re most likely to find E550 in dry, powdered, or granulated products where
 
 ## What can replace sodium silicate?
 Depending on the recipe and legal limits, formulators might use other anti‑caking agents instead, such as:
-- [Silicon dioxide](/e551-silicon-dioxide)
-- [Calcium silicate](/e552-calcium-silicate)
-- [Sodium aluminosilicate](/e554-sodium-aluminium-silicate)
-- [Calcium carbonates](/e170-calcium-carbonates)
-- [Sodium ferrocyanide](/e535-sodium-ferrocyanide) or [potassium ferrocyanide](/e536-potassium-ferrocyanide) in some salt applications
+- [Silicon dioxide](/e551-silicon-dioxide){.additive}
+- [Calcium silicate](/e552-calcium-silicate){.additive}
+- [Sodium aluminosilicate](/e554-sodium-aluminium-silicate){.additive}
+- [Calcium carbonates](/e170-calcium-carbonates){.additive}
+- [Sodium ferrocyanide](/e535-sodium-ferrocyanide){.additive} or [potassium ferrocyanide](/e536-potassium-ferrocyanide){.additive} in some salt applications
 
 Each option has different strengths (moisture uptake, flow improvement) and permitted uses.
 

@@ -8,7 +8,7 @@ Concentrated tocopherol (E307b) is a form of vitamin E used as an antioxidant in
 - Where it comes from: Usually purified from vegetable oils like soybean, sunflower, or rapeseed.
 - How it appears on labels: “Concentrated tocopherol,” “mixed tocopherols,” “antioxidant (E307b),” or “tocopherols.”
 - Common in: Vegetable oils, margarines and spreads, roasted nuts, snacks, cereal products, and dressings.
-- Related additives: [tocopherol-rich extract](/e306-tocopherol-rich-extract), [alpha-tocopherol](/e307-alpha-tocopherol), [gamma-tocopherol](/e308-gamme-tocopherol), [delta-tocopherol](/e309-delta-tocopherol).
+- Related additives: [tocopherol-rich extract](/e306-tocopherol-rich-extract){.additive}, [alpha-tocopherol](/e307-alpha-tocopherol){.additive}, [gamma-tocopherol](/e308-gamme-tocopherol){.additive}, [delta-tocopherol](/e309-delta-tocopherol){.additive}.
 
 ## Why is concentrated tocopherol added to food?
 Food fats go stale when oxygen breaks them down. Concentrated tocopherol interrupts this process, so foods keep their flavor and do not develop off-odors as quickly.[^1]
@@ -26,9 +26,9 @@ On ingredient lists, look for “tocopherols,” “mixed tocopherols,” or “
 
 ## What can replace concentrated tocopherol?
 Manufacturers choose from different antioxidant systems depending on the food:
-- Natural antioxidants: [extracts of rosemary](/e392-extracts-of-rosemary), [ascorbic acid](/e300-ascorbic-acid), and [ascorbyl palmitate](/e304i-ascorbyl-palmitate)
-- Synthetic antioxidants: [BHA](/e320-butylated-hydroxyanisole-bha), [BHT](/e321-butylated-hydroxytoluene), and [TBHQ](/e319-tertiary-butylhydroquinone-tbhq)
-- Process helpers: Packaging that limits oxygen, or adding chelators like [citric acid](/e330-citric-acid)
+- Natural antioxidants: [extracts of rosemary](/e392-extracts-of-rosemary){.additive}, [ascorbic acid](/e300-ascorbic-acid){.additive}, and [ascorbyl palmitate](/e304i-ascorbyl-palmitate){.additive}
+- Synthetic antioxidants: [BHA](/e320-butylated-hydroxyanisole-bha){.additive}, [BHT](/e321-butylated-hydroxytoluene){.additive}, and [TBHQ](/e319-tertiary-butylhydroquinone-tbhq){.additive}
+- Process helpers: Packaging that limits oxygen, or adding chelators like [citric acid](/e330-citric-acid){.additive}
 
 ## How is concentrated tocopherol made?
 Concentrated tocopherol is typically obtained from deodorizer distillates or other fractions of edible vegetable oils. These fractions are purified and concentrated by distillation and other refining steps to yield a mixture rich in tocopherol isomers (alpha, beta, gamma, delta).[^2] In the European Union, specifications for identity and purity are set in law, including limits for contaminants and the requirement that the material is derived from vegetable oils.[^3]

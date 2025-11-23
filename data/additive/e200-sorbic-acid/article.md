@@ -5,7 +5,7 @@ Sorbic acid (E200) is a common food preservative that helps stop molds and yeast
 ## At a glance
 - Role: Preservative that slows mold and yeast growth
 - Typical foods: Cheeses, baked goods, beverages, condiments, dried fruits
-- Label names: Sorbic acid, E200; related salts include [potassium sorbate](/e202-potassium-sorbate) and [sodium sorbate](/e201-sodium-sorbate)
+- Label names: Sorbic acid, E200; related salts include [potassium sorbate](/e202-potassium-sorbate){.additive} and [sodium sorbate](/e201-sodium-sorbate){.additive}
 - Taste/appearance: White, slightly acidic solid; mild taste
 - Solubility: Slightly soluble in water; salts are more soluble
 - Works best: In acidic foods (lower pH)
@@ -25,11 +25,11 @@ In the European Union, sorbic acid (E200) is listed as a permitted food additive
 
 ## What can replace Sorbic acid?
 Alternatives depend on the recipe, pH, and moisture of the food:
-- Sorbate salts: [potassium sorbate](/e202-potassium-sorbate) and [sodium sorbate](/e201-sodium-sorbate) offer similar protection, with better water solubility
-- Benzoates: [benzoic acid](/e210-benzoic-acid) and [sodium benzoate](/e211-sodium-benzoate) for acidic foods
-- Propionates: [calcium propionate](/e282-calcium-propionate) for bakery items
-- Natural antimicrobials: [natamycin](/e235-natamycin) for cheeses; [nisin](/e234-nisin) for certain dairy and canned foods
-- Acidulants to lower pH and boost preservative action: [citric acid](/e330-citric-acid) or [propionic acid](/e280-propionic-acid)
+- Sorbate salts: [potassium sorbate](/e202-potassium-sorbate){.additive} and [sodium sorbate](/e201-sodium-sorbate){.additive} offer similar protection, with better water solubility
+- Benzoates: [benzoic acid](/e210-benzoic-acid){.additive} and [sodium benzoate](/e211-sodium-benzoate){.additive} for acidic foods
+- Propionates: [calcium propionate](/e282-calcium-propionate){.additive} for bakery items
+- Natural antimicrobials: [natamycin](/e235-natamycin){.additive} for cheeses; [nisin](/e234-nisin){.additive} for certain dairy and canned foods
+- Acidulants to lower pH and boost preservative action: [citric acid](/e330-citric-acid){.additive} or [propionic acid](/e280-propionic-acid){.additive}
 
 ## How is Sorbic acid made?
 Commercial sorbic acid is produced synthetically to tight purity specifications. In the EU, its official specification states it is made by condensing crotonaldehyde with ketene, followed by processing to yield sorbic acid of defined purity and limits for impurities.[^3] Its identity as 2,4-hexadienoic acid (trans,trans) is also documented in public chemical databases.[^4]
@@ -45,7 +45,7 @@ In the United States, sorbic acid is Generally Recognized as Safe (GRAS) for use
 These are technological benefits to the food; sorbic acid is not added for nutrition or taste.
 
 ## Who should avoid Sorbic acid?
-Most people can consume foods containing sorbic acid without issues when it’s used within legal limits. Individuals who believe they are sensitive to sorbates (for example, experiencing irritation or hives after exposure) should consult a healthcare professional and check labels for “sorbic acid,” “E200,” or related salts such as [potassium sorbate](/e202-potassium-sorbate).
+Most people can consume foods containing sorbic acid without issues when it’s used within legal limits. Individuals who believe they are sensitive to sorbates (for example, experiencing irritation or hives after exposure) should consult a healthcare professional and check labels for “sorbic acid,” “E200,” or related salts such as [potassium sorbate](/e202-potassium-sorbate){.additive}.
 
 ## Myths & facts
 - Myth: “Sorbic acid is the same as vitamin C.” Fact: Vitamin C is ascorbic acid; sorbic acid is a different compound with a preservative role.
@@ -53,7 +53,7 @@ Most people can consume foods containing sorbic acid without issues when it’s 
 - Myth: “Preservatives always make food unsafe.” Fact: Regulators review preservatives for safety and set limits; sorbic acid is GRAS in the U.S. and has an EFSA-reviewed ADI in the EU.[^1][^2]
 
 ## Sorbic acid in branded foods
-On ingredient lists, you’ll see it as “sorbic acid” or “E200.” It commonly appears in sliced bread and tortillas, shredded cheese and cheese coatings, fruit drinks, ciders, sauces, salad dressings, and certain confections. Related salts like [potassium sorbate](/e202-potassium-sorbate) are often chosen when higher water solubility is needed.
+On ingredient lists, you’ll see it as “sorbic acid” or “E200.” It commonly appears in sliced bread and tortillas, shredded cheese and cheese coatings, fruit drinks, ciders, sauces, salad dressings, and certain confections. Related salts like [potassium sorbate](/e202-potassium-sorbate){.additive} are often chosen when higher water solubility is needed.
 
 ## References
 [^1]: 21 CFR 182.3089 — Sorbic acid and potassium sorbate (GRAS). https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-182/subpart-D/section-182.3089

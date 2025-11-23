@@ -11,15 +11,15 @@ Vegetable carbon (E153) is a deep black food color made by heating plant materia
 - Diet and allergens: Plant-derived; typically considered vegan and gluten-free
 
 ## Why is Vegetable carbon added to food?
-Manufacturers use vegetable carbon to create a strong, neutral black color that stays stable during baking, cooking, and storage. Unlike browns such as [caramel](/e150-caramel), E153 can deliver a true charcoal or black shade without adding flavor or sweetness.[^1]
+Manufacturers use vegetable carbon to create a strong, neutral black color that stays stable during baking, cooking, and storage. Unlike browns such as [caramel](/e150-caramel){.additive}, E153 can deliver a true charcoal or black shade without adding flavor or sweetness.[^1]
 
 ## What foods contain Vegetable carbon?
 In the EU, vegetable carbon (E153) is authorized in selected food categories such as confectionery, fine bakery wares, edible ices, decorations and coatings, and certain cheeses. Labels may list it as “E153,” “vegetable carbon,” or “activated charcoal (food grade).”[^2]
 
 ## What can replace Vegetable carbon?
-- Caramels: [plain caramel](/e150a-plain-caramel) or [sulphite ammonia caramel](/e150d-sulphite-ammonia-caramel) give brown to dark brown hues rather than true black.
-- Mineral pigments: [iron oxides and iron hydroxides](/e172-iron-oxides-and-iron-hydroxides) can provide gray to black tones in uses where they’re allowed.
-- Synthetic black: [Brilliant Black BN](/e151-brilliant-black-bn) is a coal‑tar dye that gives a deep black in regions where it’s permitted.
+- Caramels: [plain caramel](/e150a-plain-caramel){.additive} or [sulphite ammonia caramel](/e150d-sulphite-ammonia-caramel){.additive} give brown to dark brown hues rather than true black.
+- Mineral pigments: [iron oxides and iron hydroxides](/e172-iron-oxides-and-iron-hydroxides){.additive} can provide gray to black tones in uses where they’re allowed.
+- Synthetic black: [Brilliant Black BN](/e151-brilliant-black-bn){.additive} is a coal‑tar dye that gives a deep black in regions where it’s permitted.
 Choice depends on the shade needed, flavor neutrality, and local regulations.
 
 ## How is Vegetable carbon made?

@@ -27,10 +27,10 @@ On ingredient lists it may appear as Ethulose, Ethyl hydroxyethyl cellulose, or 
 
 ## What can replace Ethulose?
 Several other thickeners and stabilisers can play a similar role, depending on the recipe:
-- Gums: [xanthan gum](/e415-xanthan-gum), [guar gum](/e412-guar-gum), [locust bean gum](/e410-locust-bean-gum)
-- Pectins: [pectins](/e440-pectins) for jams, fruit fillings, and some drinks
-- Cellulose ethers: [methyl cellulose](/e461-methyl-cellulose), [hydroxypropyl cellulose](/e463-hydroxypropyl-cellulose), [sodium carboxy‑methyl cellulose](/e466-sodium-carboxy-methyl-cellulose)
-- Plain [cellulose](/e460-cellulose) for bulking with less thickening
+- Gums: [xanthan gum](/e415-xanthan-gum){.additive}, [guar gum](/e412-guar-gum){.additive}, [locust bean gum](/e410-locust-bean-gum){.additive}
+- Pectins: [pectins](/e440-pectins){.additive} for jams, fruit fillings, and some drinks
+- Cellulose ethers: [methyl cellulose](/e461-methyl-cellulose){.additive}, [hydroxypropyl cellulose](/e463-hydroxypropyl-cellulose){.additive}, [sodium carboxy‑methyl cellulose](/e466-sodium-carboxy-methyl-cellulose){.additive}
+- Plain [cellulose](/e460-cellulose){.additive} for bulking with less thickening
 
 Choice depends on desired texture, clarity, temperature tolerance, and labeling needs.
 

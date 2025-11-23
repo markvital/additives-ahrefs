@@ -20,11 +20,11 @@ Many everyday foods naturally contain small amounts of formaldehyde, including f
 
 ## What can replace Formaldehyde?
 Modern food makers rely on safer, approved preservatives and non-chemical controls. Common choices include:
-- Organic acids and salts such as [sorbic acid](/e200-sorbic-acid), [potassium sorbate](/e202-potassium-sorbate), [benzoic acid](/e210-benzoic-acid), and [sodium benzoate](/e211-sodium-benzoate).
-- Acidification with [citric acid](/e330-citric-acid), often combined with heat treatment.
-- Natural antimicrobials like [nisin](/e234-nisin) in specific foods.
+- Organic acids and salts such as [sorbic acid](/e200-sorbic-acid){.additive}, [potassium sorbate](/e202-potassium-sorbate){.additive}, [benzoic acid](/e210-benzoic-acid){.additive}, and [sodium benzoate](/e211-sodium-benzoate){.additive}.
+- Acidification with [citric acid](/e330-citric-acid){.additive}, often combined with heat treatment.
+- Natural antimicrobials like [nisin](/e234-nisin){.additive} in specific foods.
 - Product- and process-based controls such as refrigeration, hygienic handling, and packaging.
-- For cured meats, approved nitrite systems like [sodium nitrite](/e250-sodium-nitrite) under strict limits.
+- For cured meats, approved nitrite systems like [sodium nitrite](/e250-sodium-nitrite){.additive} under strict limits.
 
 ## How is Formaldehyde made?
 Most industrial formaldehyde is produced by catalytic oxidation or dehydrogenation of methanol. It is then used to make resins and plastics (such as urea-formaldehyde, melamine-formaldehyde, and phenol-formaldehyde), disinfectants, and many industrial products.[^1]

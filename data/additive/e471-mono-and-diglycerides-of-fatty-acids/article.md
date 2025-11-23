@@ -18,16 +18,16 @@ You’ll often see E471 in packaged breads and rolls, cakes, margarines and spre
 
 ## What can replace E471?
 Depending on the recipe, formulators may switch to:
-- [lecithins](/e322-lecithins) from egg or soy
-- [sucrose esters of fatty acids](/e473-sucrose-esters-of-fatty-acids)
-- [polyglycerol polyricinoleate](/e476-polyglycerol-polyricinoleate) for chocolate and spreads
-- [sodium stearoyl-2-lactylate](/e481-sodium-stearoyl-2-lactylate) or [calcium stearoyl-2-lactylate](/e482-calcium-stearoyl-2-lactylate) in bakery
-- Acid esters of mono- and diglycerides such as [acetic](/e472a-acetic-acid-esters-of-mono-and-diglycerides-of-fatty-acids), [lactic](/e472b-lactic-acid-esters-of-mono-and-diglycerides-of-fatty-acids), [tartaric](/e472d-tartaric-acid-esters-of-mono-and-diglycerides-of-fatty-acids), [diacetyl tartaric](/e472e-mono-and-diacetyltartaric-acid-esters-of-mono-and-diglycerides-of-fatty-acids), [citric](/e472c-citric-acid-esters-of-mono-and-diglycerides-of-fatty-acids), or [succinylated monoglycerides](/e472g-succinylated-monoglycerides)
-- [polyglycerol esters of fatty acids](/e475-polyglycerol-esters-of-fatty-acids) or [propylene glycol esters of fatty acids](/e477-propane-1-2-diol-esters-of-fatty-acids)
-- Hydrocolloids for thickening/stabilising, like [xanthan gum](/e415-xanthan-gum)
+- [lecithins](/e322-lecithins){.additive} from egg or soy
+- [sucrose esters of fatty acids](/e473-sucrose-esters-of-fatty-acids){.additive}
+- [polyglycerol polyricinoleate](/e476-polyglycerol-polyricinoleate){.additive} for chocolate and spreads
+- [sodium stearoyl-2-lactylate](/e481-sodium-stearoyl-2-lactylate){.additive} or [calcium stearoyl-2-lactylate](/e482-calcium-stearoyl-2-lactylate){.additive} in bakery
+- Acid esters of mono- and diglycerides such as [acetic](/e472a-acetic-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive}, [lactic](/e472b-lactic-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive}, [tartaric](/e472d-tartaric-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive}, [diacetyl tartaric](/e472e-mono-and-diacetyltartaric-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive}, [citric](/e472c-citric-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive}, or [succinylated monoglycerides](/e472g-succinylated-monoglycerides){.additive}
+- [polyglycerol esters of fatty acids](/e475-polyglycerol-esters-of-fatty-acids){.additive} or [propylene glycol esters of fatty acids](/e477-propane-1-2-diol-esters-of-fatty-acids){.additive}
+- Hydrocolloids for thickening/stabilising, like [xanthan gum](/e415-xanthan-gum){.additive}
 
 ## How is E471 made?
-E471 is produced by reacting [glycerol](/e422-glycerol) with edible fats and oils (glycerolysis) and/or by esterifying glycerol with food‑grade fatty acids. The source fats may be of plant or animal origin, and the EU specification describes these manufacturing routes and sources.[^2]
+E471 is produced by reacting [glycerol](/e422-glycerol){.additive} with edible fats and oils (glycerolysis) and/or by esterifying glycerol with food‑grade fatty acids. The source fats may be of plant or animal origin, and the EU specification describes these manufacturing routes and sources.[^2]
 
 ## Is E471 safe to eat?
 - United States: The FDA lists mono- and diglycerides as “generally recognized as safe” (GRAS) when used in line with GMP, and notes their roles as emulsifiers, stabilizers, thickeners, and texturizers.[^1]

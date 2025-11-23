@@ -17,9 +17,9 @@ You may find E172i in black-coated candies, chocolate decorations, cake toppings
 
 ## What can replace Black iron oxide?
 - Vegetable carbon [E153] can achieve a deep black and is common in “charcoal” colored products.[^1]  
-  See: [vegetable carbon](/e153-vegetable-carbon)
-- For brown-to-black shades, some formulators use [caramel](/e150-caramel) colors.
-- White-to-gray effects have sometimes been made by blending black with white pigments such as [titanium dioxide](/e171-titanium-dioxide), though titanium dioxide is no longer permitted as a food additive in the European Union.[^3]
+  See: [vegetable carbon](/e153-vegetable-carbon){.additive}
+- For brown-to-black shades, some formulators use [caramel](/e150-caramel){.additive} colors.
+- White-to-gray effects have sometimes been made by blending black with white pigments such as [titanium dioxide](/e171-titanium-dioxide){.additive}, though titanium dioxide is no longer permitted as a food additive in the European Union.[^3]
 
 ## How is Black iron oxide made?
 Food-grade iron oxides and hydroxides, including the black form, are produced synthetically by controlled chemical processes that convert iron salts into the final oxide pigment.[^2] Manufacturing aims for consistent particle size, purity, and color tone suited to food use.[^1]

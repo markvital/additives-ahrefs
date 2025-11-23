@@ -9,7 +9,7 @@ Potassium malate (E351) is the potassium salt of malic acid, the same sour-tasti
 - Label names: “potassium malate,” “E351,” or “acidity regulator.”
 
 ## Why is Potassium malate added to food?
-Manufacturers add potassium malate to adjust and control acidity (pH), which helps shape taste, texture, and shelf life. As an acidity regulator, it can make foods pleasantly tart while keeping the pH steady so flavors don’t drift as the product ages.[^3] It is closely related to [malic acid](/e296-malic-acid) but is less sharp and can provide a smoother, longer-lasting sourness in some recipes.[^1]
+Manufacturers add potassium malate to adjust and control acidity (pH), which helps shape taste, texture, and shelf life. As an acidity regulator, it can make foods pleasantly tart while keeping the pH steady so flavors don’t drift as the product ages.[^3] It is closely related to [malic acid](/e296-malic-acid){.additive} but is less sharp and can provide a smoother, longer-lasting sourness in some recipes.[^1]
 
 ## What foods contain Potassium malate?
 You’ll mostly see potassium malate in:
@@ -18,13 +18,13 @@ You’ll mostly see potassium malate in:
 - Fruit fillings, jams, and dessert sauces
 - Some bakery items and dairy-style desserts
 
-On ingredient lists, it often appears as “potassium malate” or “E351,” sometimes grouped with other acidity regulators such as [citric acid](/e330-citric-acid) or [sodium citrates](/e331-sodium-citrates).
+On ingredient lists, it often appears as “potassium malate” or “E351,” sometimes grouped with other acidity regulators such as [citric acid](/e330-citric-acid){.additive} or [sodium citrates](/e331-sodium-citrates){.additive}.
 
 ## What can replace Potassium malate?
 Depending on the recipe and flavor target, formulators might use:
-- [Malic acid](/e296-malic-acid) for a sharper sour profile
-- [Sodium malates](/e350-sodium-malates) or [calcium malates](/e352-calcium-malates) when a different mineral salt is preferred
-- [Citric acid](/e330-citric-acid), [potassium citrates](/e332-potassium-citrates), or [phosphoric acid](/e338-phosphoric-acid) for alternative acidity regulation and buffering
+- [Malic acid](/e296-malic-acid){.additive} for a sharper sour profile
+- [Sodium malates](/e350-sodium-malates){.additive} or [calcium malates](/e352-calcium-malates){.additive} when a different mineral salt is preferred
+- [Citric acid](/e330-citric-acid){.additive}, [potassium citrates](/e332-potassium-citrates){.additive}, or [phosphoric acid](/e338-phosphoric-acid){.additive} for alternative acidity regulation and buffering
 
 Each option changes flavor, pH control, mineral content, and solubility, so swaps are recipe-specific.
 
@@ -50,7 +50,7 @@ Most people don’t need to avoid E351. However:
 - “If a product has E351, it’s unsafe.” False. EFSA has re‑evaluated malic acid and its malate salts and found no safety concern at reported uses and levels.[^1]
 
 ## Potassium malate in branded foods
-On labels, look for “potassium malate,” “E351,” or “acidity regulator.” You’re most likely to find it in flavored beverages, sour candies, fruit spreads and fillings, and some shelf‑stable desserts. It often appears alongside other acidulants like [citric acid](/e330-citric-acid) or buffers such as [sodium citrates](/e331-sodium-citrates).
+On labels, look for “potassium malate,” “E351,” or “acidity regulator.” You’re most likely to find it in flavored beverages, sour candies, fruit spreads and fillings, and some shelf‑stable desserts. It often appears alongside other acidulants like [citric acid](/e330-citric-acid){.additive} or buffers such as [sodium citrates](/e331-sodium-citrates){.additive}.
 
 ## References
 [^1]: Re-evaluation of malic acid (E 296), sodium malate (E 350), potassium malate (E 351) and calcium malate (E 352) as food additives — European Food Safety Authority (EFSA). https://www.efsa.europa.eu/en/efsajournal/pub/5142

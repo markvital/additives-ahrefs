@@ -23,17 +23,17 @@ You’ll most often see E133 in:
 - Cereals and snack coatings: especially “blue raspberry” or “berry” themes
 
 It is also blended with other colors to make secondary shades, for example:
-- Green by combining with [tartrazine](/e102-tartrazine)
-- Teal/aqua with [sunset yellow FCF](/e110-sunset-yellow-fcf)
-- Purple with [allura red](/e129-allura-red)
+- Green by combining with [tartrazine](/e102-tartrazine){.additive}
+- Teal/aqua with [sunset yellow FCF](/e110-sunset-yellow-fcf){.additive}
+- Purple with [allura red](/e129-allura-red){.additive}
 
 On labels, look for “E133,” “FD&C Blue No. 1,” or “Blue 1.”
 
 ## What can replace Brilliant blue FCF?
 Suitable alternatives depend on the shade, recipe, and label goals:
-- Another synthetic blue: [indigotine (E132)](/e132-indigotine)
-- Natural options (often less vivid or more pH‑sensitive): [anthocyanins (E163)](/e163-anthocyanins), [gardenia blue (E165)](/e165-gardenia-blue), or spirulina extract (where permitted)
-- Mixes to reach a target hue: blue plus [tartrazine](/e102-tartrazine) for green, or blue plus red for purple
+- Another synthetic blue: [indigotine (E132)](/e132-indigotine){.additive}
+- Natural options (often less vivid or more pH‑sensitive): [anthocyanins (E163)](/e163-anthocyanins){.additive}, [gardenia blue (E165)](/e165-gardenia-blue){.additive}, or spirulina extract (where permitted)
+- Mixes to reach a target hue: blue plus [tartrazine](/e102-tartrazine){.additive} for green, or blue plus red for purple
 
 Note that natural colors may shift with acidity, light, or heat and can change flavor; trials are usually needed.
 

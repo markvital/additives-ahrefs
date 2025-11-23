@@ -5,17 +5,17 @@ Ferrous carbonate (E505) is an iron salt used in small amounts as a food additiv
 ## At a glance
 - What it is: An iron(II) salt of carbonic acid; chemical formula FeCO3.
 - What it does: A less common additive used where an iron source or iron-based processing function is desired.
-- Where you’ll see it: Ingredient lists may show “ferrous carbonate” or “E505”; many makers instead use related iron salts such as [iron gluconate](/e579-iron-gluconate) or [ferrous lactate](/e585-ferrous-lactate).
+- Where you’ll see it: Ingredient lists may show “ferrous carbonate” or “E505”; many makers instead use related iron salts such as [iron gluconate](/e579-iron-gluconate){.additive} or [ferrous lactate](/e585-ferrous-lactate){.additive}.
 - Safety: Authorized in the EU with strict purity criteria; as a source of iron, too much overall iron from diet and supplements can be harmful for some people.
 
 ## Why is ferrous carbonate added to food?
 Producers may use ferrous carbonate when they need an iron-based additive, for example to support processing aims or to contribute iron. In the European Union, ferrous carbonate is an authorized food additive with identity and purity criteria set in law.[^1] In practice, many foods that need an iron salt for color stabilization use other forms such as ferrous gluconate or ferrous lactate instead.[^4]
 
 ## What foods contain ferrous carbonate?
-You are most likely to encounter ferrous carbonate in niche or regional products rather than in everyday staples. If it is used, it will appear in the ingredients as “ferrous carbonate” or “E505.” Related iron salts are more commonly found on labels, particularly in canned ripe olives, which typically use [iron gluconate](/e579-iron-gluconate) or [ferrous lactate](/e585-ferrous-lactate).[^4]
+You are most likely to encounter ferrous carbonate in niche or regional products rather than in everyday staples. If it is used, it will appear in the ingredients as “ferrous carbonate” or “E505.” Related iron salts are more commonly found on labels, particularly in canned ripe olives, which typically use [iron gluconate](/e579-iron-gluconate){.additive} or [ferrous lactate](/e585-ferrous-lactate){.additive}.[^4]
 
 ## What can replace ferrous carbonate?
-- Other iron salts: Food makers often choose [iron gluconate](/e579-iron-gluconate) or [ferrous lactate](/e585-ferrous-lactate) when an iron-based additive is needed, especially for stabilizing the black color of ripe olives.[^4]
+- Other iron salts: Food makers often choose [iron gluconate](/e579-iron-gluconate){.additive} or [ferrous lactate](/e585-ferrous-lactate){.additive} when an iron-based additive is needed, especially for stabilizing the black color of ripe olives.[^4]
 - Non-iron options: Depending on the job (for example, texture or color stability), different additives or process changes may be used instead. The best substitute depends on the food and the desired effect.
 
 ## How is ferrous carbonate made?

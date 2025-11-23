@@ -23,9 +23,9 @@ Usage levels are low and depend on the recipe and processing conditions. Manufac
 
 ## What can replace Glucose oxidase?
 What you choose depends on the job you need done:
-- For dough strengthening and conditioning: [ascorbic acid](/e300-ascorbic-acid) is a common oxidizing flour treatment agent used in breadmaking.
-- For similar oxidative dough effects: [calcium peroxide](/e930-calcium-peroxide) is used in some baking applications.
-- For general dough performance (not an oxidant): [alpha-amylase](/e1100-alpha-amylase) improves fermentation and crumb texture by acting on starch, but it does not remove oxygen like glucose oxidase.
+- For dough strengthening and conditioning: [ascorbic acid](/e300-ascorbic-acid){.additive} is a common oxidizing flour treatment agent used in breadmaking.
+- For similar oxidative dough effects: [calcium peroxide](/e930-calcium-peroxide){.additive} is used in some baking applications.
+- For general dough performance (not an oxidant): [alpha-amylase](/e1100-alpha-amylase){.additive} improves fermentation and crumb texture by acting on starch, but it does not remove oxygen like glucose oxidase.
 
 ## How is Glucose oxidase made?
 Commercial glucose oxidase is produced by controlled fermentation, typically using the filamentous fungus Aspergillus niger. After fermentation, the enzyme is separated from the culture, purified, and standardized to a defined activity and purity that meet EU specifications for E1102.[^1] The final preparation is designed for food use and compliance with good manufacturing practice (GMP).

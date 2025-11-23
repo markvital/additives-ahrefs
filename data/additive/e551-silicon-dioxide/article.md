@@ -17,9 +17,9 @@ You are most likely to find E551 in dry, powdery foods. Examples include table s
 
 ## What can replace Silicon dioxide?
 Several additives can do a similar job, depending on the recipe:
-- Mineral anti‑caking agents such as [calcium silicate](/e552-calcium-silicate), [tricalcium phosphate](/e341iii-tricalcium-phosphate), and [talc](/e553b-talc)
-- Fibers and starches like [cellulose](/e460-cellulose)
-- In supplements and tablets, flow agents such as [magnesium stearate](/e572-magnesium-stearate)
+- Mineral anti‑caking agents such as [calcium silicate](/e552-calcium-silicate){.additive}, [tricalcium phosphate](/e341iii-tricalcium-phosphate){.additive}, and [talc](/e553b-talc){.additive}
+- Fibers and starches like [cellulose](/e460-cellulose){.additive}
+- In supplements and tablets, flow agents such as [magnesium stearate](/e572-magnesium-stearate){.additive}
 
 ## How is Silicon dioxide made?
 Food‑grade silicon dioxide is a synthetic, amorphous material. It is made by:

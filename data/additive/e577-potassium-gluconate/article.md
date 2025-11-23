@@ -19,9 +19,9 @@ Potassium gluconate is an approved additive in the European Union, with uses set
 
 ## What can replace potassium gluconate?
 Depending on the recipe goal, several additives can do a similar job.
-- To regulate acidity or provide buffering: [citric acid](/e330-citric-acid), [sodium citrates](/e331-sodium-citrates), or [potassium citrates](/e332-potassium-citrates)
-- To bind metal ions and protect flavor/color: [sodium phosphates](/e339-sodium-phosphates) or [polyphosphates](/e452-polyphosphates)
-- Within the same gluconate family (formulators may switch within limits): [glucono-delta-lactone](/e575-glucono-delta-lactone), [calcium gluconate](/e578-calcium-gluconate), or [iron gluconate](/e579-iron-gluconate)
+- To regulate acidity or provide buffering: [citric acid](/e330-citric-acid){.additive}, [sodium citrates](/e331-sodium-citrates){.additive}, or [potassium citrates](/e332-potassium-citrates){.additive}
+- To bind metal ions and protect flavor/color: [sodium phosphates](/e339-sodium-phosphates){.additive} or [polyphosphates](/e452-polyphosphates){.additive}
+- Within the same gluconate family (formulators may switch within limits): [glucono-delta-lactone](/e575-glucono-delta-lactone){.additive}, [calcium gluconate](/e578-calcium-gluconate){.additive}, or [iron gluconate](/e579-iron-gluconate){.additive}
 
 ## How is potassium gluconate made?
 Manufacturers typically produce gluconic acid by fermenting glucose with safe, food-grade microorganisms or by enzyme-catalyzed oxidation. Potassium gluconate is then obtained by neutralizing gluconic acid with a potassium base (such as potassium hydroxide), followed by purification and drying.[^1] Its identity and purity are described in EU specifications for E-numbered additives.[^4]

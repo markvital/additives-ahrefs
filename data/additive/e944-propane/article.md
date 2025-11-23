@@ -24,10 +24,10 @@ In these products, propane functions only as a propellant, not as a flavor or pr
 
 ## What can replace propane?
 Several other propellants and gases can serve similar roles, depending on the product:
-- [Carbon dioxide](/e290-carbon-dioxide) (E290) for some beverages and foams
-- [Nitrogen](/e941-nitrogen) (E941) for inert headspace and dispensing
-- [Nitrous oxide](/e942-nitrous-oxide) (E942) commonly used to whip cream
-- Hydrocarbon propellants such as [butane](/e943a-butane) (E943a) and [isobutane](/e943b-isobutane) (E943b) for certain aerosols
+- [Carbon dioxide](/e290-carbon-dioxide){.additive} (E290) for some beverages and foams
+- [Nitrogen](/e941-nitrogen){.additive} (E941) for inert headspace and dispensing
+- [Nitrous oxide](/e942-nitrous-oxide){.additive} (E942) commonly used to whip cream
+- Hydrocarbon propellants such as [butane](/e943a-butane){.additive} (E943a) and [isobutane](/e943b-isobutane){.additive} (E943b) for certain aerosols
 
 Choice depends on the desired spray pattern, foam stability, solubility, and taste neutrality.
 

@@ -20,9 +20,9 @@ Regulators in different regions also manage possible residues from antimicrobial
 
 ## What can replace Orthophenyl phenol?
 Depending on the food and purpose, manufacturers may choose other, widely used preservatives and antioxidants, such as:
-- [sorbic acid](/e200-sorbic-acid) or [potassium sorbate](/e202-potassium-sorbate) for yeast and mold control in many foods
-- [sodium benzoate](/e211-sodium-benzoate) for acidic drinks and condiments
-- [extracts of rosemary](/e392-extracts-of-rosemary) as an antioxidant to slow rancidity
+- [sorbic acid](/e200-sorbic-acid){.additive} or [potassium sorbate](/e202-potassium-sorbate){.additive} for yeast and mold control in many foods
+- [sodium benzoate](/e211-sodium-benzoate){.additive} for acidic drinks and condiments
+- [extracts of rosemary](/e392-extracts-of-rosemary){.additive} as an antioxidant to slow rancidity
 
 The best alternative depends on the food’s pH, moisture, packaging, and desired shelf life.
 

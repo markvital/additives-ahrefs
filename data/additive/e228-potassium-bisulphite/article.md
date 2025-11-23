@@ -12,7 +12,7 @@ Potassium bisulphite (E228) is a sulphite preservative and antioxidant used most
 ## Why is Potassium bisulphite added to food?
 Food makers use potassium bisulphite to keep foods and drinks fresh for longer. As a preservative and antioxidant, it slows the growth of unwanted microbes and prevents oxidation that can lead to browning and off-flavours, especially in grape products and cut or processed fruits.[^1]
 
-It belongs to the wider sulphite family alongside additives like [sulphur dioxide](/e220-sulphur-dioxide), [sodium bisulphite](/e222-sodium-bisulphite), [sodium metabisulphite](/e223-sodium-metabisulphite), and [potassium metabisulphite](/e224-potassium-metabisulphite). In the European Union (EU), E228 has a defined identity and purity specification as a food additive.[^2]
+It belongs to the wider sulphite family alongside additives like [sulphur dioxide](/e220-sulphur-dioxide){.additive}, [sodium bisulphite](/e222-sodium-bisulphite){.additive}, [sodium metabisulphite](/e223-sodium-metabisulphite){.additive}, and [potassium metabisulphite](/e224-potassium-metabisulphite){.additive}. In the European Union (EU), E228 has a defined identity and purity specification as a food additive.[^2]
 
 ## What foods contain Potassium bisulphite?
 You are most likely to see potassium bisulphite in:
@@ -26,9 +26,9 @@ These uses reflect the need to prevent browning, keep colour, and reduce spoilag
 
 ## What can replace Potassium bisulphite?
 Possible alternatives depend on the food and the problem you are trying to solve:
-- For preservation: [potassium sorbate](/e202-potassium-sorbate), [sorbic acid](/e200-sorbic-acid), [sodium benzoate](/e211-sodium-benzoate), or [benzoic acid](/e210-benzoic-acid).
-- For antioxidant effect and colour control: [ascorbic acid](/e300-ascorbic-acid), [citric acid](/e330-citric-acid), or [extracts of rosemary](/e392-extracts-of-rosemary).
-- For certain microbial targets in specific foods: [nisin](/e234-nisin).
+- For preservation: [potassium sorbate](/e202-potassium-sorbate){.additive}, [sorbic acid](/e200-sorbic-acid){.additive}, [sodium benzoate](/e211-sodium-benzoate){.additive}, or [benzoic acid](/e210-benzoic-acid){.additive}.
+- For antioxidant effect and colour control: [ascorbic acid](/e300-ascorbic-acid){.additive}, [citric acid](/e330-citric-acid){.additive}, or [extracts of rosemary](/e392-extracts-of-rosemary){.additive}.
+- For certain microbial targets in specific foods: [nisin](/e234-nisin){.additive}.
 - Non-additive steps (good hygiene, oxygen control, heat treatment) can also help.
 
 No single swap fits all foods, so formulators often test a combination.
@@ -62,7 +62,7 @@ Most people can consume foods with permitted levels of sulphites without issues.
 ## Potassium bisulphite in branded foods
 On ingredient lists, it may appear as “potassium bisulphite,” “potassium bisulfite,” “potassium hydrogen sulfite,” or “E228.” In the U.S., products with 10 ppm or more total sulphites must list them on the label, and wines at or above this level must state “Contains sulfites.”[^3][^4]
 
-You may also see related sulphites such as [sulphur dioxide](/e220-sulphur-dioxide), [sodium bisulphite](/e222-sodium-bisulphite), [sodium metabisulphite](/e223-sodium-metabisulphite), or [potassium metabisulphite](/e224-potassium-metabisulphite) on labels for similar purposes.
+You may also see related sulphites such as [sulphur dioxide](/e220-sulphur-dioxide){.additive}, [sodium bisulphite](/e222-sodium-bisulphite){.additive}, [sodium metabisulphite](/e223-sodium-metabisulphite){.additive}, or [potassium metabisulphite](/e224-potassium-metabisulphite){.additive} on labels for similar purposes.
 
 ## References
 [^1]: Re-evaluation of sulphur dioxide (E 220) and sulphites (E 221–E 228) as food additives — European Food Safety Authority (EFSA). https://www.efsa.europa.eu/en/efsajournal/pub/4438

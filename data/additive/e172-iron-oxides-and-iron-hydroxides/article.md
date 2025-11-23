@@ -20,10 +20,10 @@ On labels, look for “E172,” “iron oxides,” or “iron hydroxides.” You
 
 ## What can replace Iron oxides and iron hydroxides?
 Alternatives depend on the shade and the product:
-- Browns and blacks: [vegetable carbon](/e153-vegetable-carbon), dark [caramel](/e150-caramel)
-- Yellows to oranges: [curcumin](/e100-curcumin), [annatto](/e160b-annatto), [paprika extract](/e160c-paprika-extract), [beta-carotene](/e160a-carotene), [saffron](/e164-saffron)
-- Reds: [beetroot red](/e162-beetroot-red), [cochineal](/e120-cochineal)
-- White/opacity: [calcium carbonates](/e170-calcium-carbonates), or formerly [titanium dioxide](/e171-titanium-dioxide) where permitted
+- Browns and blacks: [vegetable carbon](/e153-vegetable-carbon){.additive}, dark [caramel](/e150-caramel){.additive}
+- Yellows to oranges: [curcumin](/e100-curcumin){.additive}, [annatto](/e160b-annatto){.additive}, [paprika extract](/e160c-paprika-extract){.additive}, [beta-carotene](/e160a-carotene){.additive}, [saffron](/e164-saffron){.additive}
+- Reds: [beetroot red](/e162-beetroot-red){.additive}, [cochineal](/e120-cochineal){.additive}
+- White/opacity: [calcium carbonates](/e170-calcium-carbonates){.additive}, or formerly [titanium dioxide](/e171-titanium-dioxide){.additive} where permitted
 
 Note that natural colors can be less light- and heat-stable than E172, and the final look may vary.
 

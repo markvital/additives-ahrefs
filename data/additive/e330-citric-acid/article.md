@@ -6,7 +6,7 @@ Citric acid (E330) is a tart, sour-tasting acid found naturally in citrus fruits
 - E-number: E330; common name: citric acid
 - Main roles: acidity regulator, flavoring acid, and metal-binding “sequestrant”
 - Common in soft drinks, candies, jams, canned tomatoes, and many shelf-stable foods
-- Often paired with antioxidants like [ascorbic acid](/e300-ascorbic-acid)
+- Often paired with antioxidants like [ascorbic acid](/e300-ascorbic-acid){.additive}
 - Available as anhydrous or monohydrate crystals; dissolves easily in water
 - Approved for use in the U.S. and EU within good manufacturing practice
 - Generally recognized as safe when used as intended
@@ -20,9 +20,9 @@ Citric acid shows up across many categories: soft drinks and flavored waters, ca
 ## What can replace citric acid?
 Depending on the job, manufacturers may choose:
 - For sourness or pH control: [malic acid](/e296-malic-acid){.additive}, [lactic acid](/e270-lactic-acid){.additive}, [fumaric acid](/e297-fumaric-acid){.additive}, or [phosphoric acid](/e338-phosphoric-acid){.additive} in some beverages
-- For buffering and mild tartness: [sodium citrate](/e331-sodium-citrates), [potassium citrate](/e332-potassium-citrates), or [calcium citrate](/e333-calcium-citrates)
-- For preservation systems: pair acids with preservatives such as [sorbic acid](/e200-sorbic-acid) or [sodium benzoate](/e211-sodium-benzoate)
-- For metal control (sequestration): [calcium disodium EDTA](/e385-calcium-disodium-ethylenediaminetetraacetate) in applications where permitted
+- For buffering and mild tartness: [sodium citrate](/e331-sodium-citrates){.additive}, [potassium citrate](/e332-potassium-citrates){.additive}, or [calcium citrate](/e333-calcium-citrates){.additive}
+- For preservation systems: pair acids with preservatives such as [sorbic acid](/e200-sorbic-acid){.additive} or [sodium benzoate](/e211-sodium-benzoate){.additive}
+- For metal control (sequestration): [calcium disodium EDTA](/e385-calcium-disodium-ethylenediaminetetraacetate){.additive} in applications where permitted
 
 ## How is citric acid made?
 Today, most food-grade citric acid is produced by fermenting sugar solutions with the microorganism Aspergillus niger, then purifying the product. Recovery typically involves forming insoluble calcium citrate and converting it back to citric acid, yielding either anhydrous or monohydrate crystals that meet purity standards.[^3]
@@ -31,14 +31,14 @@ Today, most food-grade citric acid is produced by fermenting sugar solutions wit
 In the United States, citric acid is affirmed as Generally Recognized as Safe (GRAS) when used in line with good manufacturing practice.[^3] In the European Union, it is an authorized additive (E330) with established specifications and permitted uses under the food additive regulation.[^1]
 
 ## Does citric acid have any benefits?
-Lowering and controlling pH helps limit microbial growth and enzyme activity, which can support quality and shelf life. As a sequestrant, citric acid ties up trace metals that can trigger oxidation, helping protect flavor, color, and nutrients such as delicate oils or fruit pigments.[^4] It also complements antioxidants like [ascorbic acid](/e300-ascorbic-acid) or [sodium ascorbate](/e301-sodium-ascorbate) in many formulas.
+Lowering and controlling pH helps limit microbial growth and enzyme activity, which can support quality and shelf life. As a sequestrant, citric acid ties up trace metals that can trigger oxidation, helping protect flavor, color, and nutrients such as delicate oils or fruit pigments.[^4] It also complements antioxidants like [ascorbic acid](/e300-ascorbic-acid){.additive} or [sodium ascorbate](/e301-sodium-ascorbate){.additive} in many formulas.
 
 ## Who should avoid citric acid?
 Most people tolerate citric acid well when it is used as intended in foods. Those with very sensitive mouths, reflux that is worsened by acidic foods, or advice from a healthcare professional to limit dietary acids may choose to reduce intake of highly acidic products. If you react to a product containing citric acid, consult a healthcare professional.
 
 ## Myths & facts
 - Myth: “Citric acid is just Vitamin C.”  
-  Fact: Vitamin C is [ascorbic acid](/e300-ascorbic-acid); citric acid is a different compound with different roles.
+  Fact: Vitamin C is [ascorbic acid](/e300-ascorbic-acid){.additive}; citric acid is a different compound with different roles.
 - Myth: “Food citric acid is squeezed from lemons.”  
   Fact: Most food-grade citric acid is made by fermentation of sugars, then purified to high standards.
 - Myth: “Citric acid is unsafe because it comes from ‘black mold.’”  

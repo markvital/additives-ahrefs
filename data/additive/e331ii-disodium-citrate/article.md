@@ -14,17 +14,17 @@ Disodium citrate (E331ii) is a sodium salt of citric acid used to control acidit
 Food makers use disodium citrate to keep pH (acidity level) steady, which protects flavor, color, and texture. It also binds trace metals such as iron and copper; this slows down off-flavors and browning in foods and drinks.[^2] In processed cheese, it helps proteins and fat stay mixed so the cheese melts evenly without oiling off.[^2]
 
 ## What foods contain Disodium citrate?
-Disodium citrate appears in many categories: flavored drinks and drink mixes, dairy analogues and processed cheeses, jams and jellies, canned fruits, confectionery, and some cured or brined meats.[^2] In the European Union (EU), the additive number E 331 covers a family of sodium citrates—mono-, di-, and tri-sodium salts—which may be listed as E331(i–iii) on labels.[^4] You may also see the broader term “[sodium citrates](/e331-sodium-citrates)” on ingredient lists.
+Disodium citrate appears in many categories: flavored drinks and drink mixes, dairy analogues and processed cheeses, jams and jellies, canned fruits, confectionery, and some cured or brined meats.[^2] In the European Union (EU), the additive number E 331 covers a family of sodium citrates—mono-, di-, and tri-sodium salts—which may be listed as E331(i–iii) on labels.[^4] You may also see the broader term “[sodium citrates](/e331-sodium-citrates){.additive}” on ingredient lists.
 
 ## What can replace Disodium citrate?
-- To sharpen or buffer acidity: [citric acid](/e330-citric-acid) (more sour), [monosodium citrate](/e331i-monosodium-citrate) or [trisodium citrate](/e331iii-trisodium-citrate) (different buffering ranges), or [potassium citrates](/e332-potassium-citrates) when reducing sodium is a goal.
-- For melt/texture in processed cheese: citrates often swap with certain [sodium phosphates](/e339-sodium-phosphates), depending on the recipe.
-- For acidity control in sodas: [phosphoric acid](/e338-phosphoric-acid) is another common acidulant; buffering can be adjusted with alkaline salts such as [sodium bicarbonate](/e500ii-sodium-bicarbonate) in specific formulations.
+- To sharpen or buffer acidity: [citric acid](/e330-citric-acid){.additive} (more sour), [monosodium citrate](/e331i-monosodium-citrate){.additive} or [trisodium citrate](/e331iii-trisodium-citrate){.additive} (different buffering ranges), or [potassium citrates](/e332-potassium-citrates){.additive} when reducing sodium is a goal.
+- For melt/texture in processed cheese: citrates often swap with certain [sodium phosphates](/e339-sodium-phosphates){.additive}, depending on the recipe.
+- For acidity control in sodas: [phosphoric acid](/e338-phosphoric-acid){.additive} is another common acidulant; buffering can be adjusted with alkaline salts such as [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive} in specific formulations.
 
 The best substitute depends on the target pH, flavor, sodium limits, and the product’s texture needs.
 
 ## How is Disodium citrate made?
-Disodium citrate is produced by partially neutralizing [citric acid](/e330-citric-acid) with a sodium base (commonly sodium hydroxide or sodium carbonate), followed by crystallization and drying to obtain the di-sodium salt.[^1] In the EU, quality and purity must meet the official additive specifications for sodium citrates (E 331).[^4]
+Disodium citrate is produced by partially neutralizing [citric acid](/e330-citric-acid){.additive} with a sodium base (commonly sodium hydroxide or sodium carbonate), followed by crystallization and drying to obtain the di-sodium salt.[^1] In the EU, quality and purity must meet the official additive specifications for sodium citrates (E 331).[^4]
 
 ## Is Disodium citrate safe to eat?
 Yes. The European Food Safety Authority (EFSA) re‑evaluated citric acid and its sodium salts (E 330–E 331) and found no safety concern at reported uses and levels; an Acceptable Daily Intake (ADI) was not considered necessary.[^1] In the United States, the Food and Drug Administration (FDA) lists sodium citrate as Generally Recognized as Safe (GRAS) for use in food under good manufacturing practice.[^3]

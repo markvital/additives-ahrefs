@@ -17,8 +17,8 @@ E528 appears in niche applications where a mild base is needed, such as adjustin
 
 ## What can replace Magnesium hydroxide?
 Substitutes depend on the goal (raising or lowering pH, processing needs, taste):
-- To raise pH (make less acidic): [calcium hydroxide](/e526-calcium-hydroxide), [sodium hydroxide](/e524-sodium-hydroxide), [potassium hydroxide](/e525-potassium-hydroxide), [magnesium oxide](/e530-magnesium-oxide), [sodium carbonates](/e500-sodium-carbonates), [potassium carbonates](/e501-potassium-carbonates), or [calcium carbonates](/e170-calcium-carbonates).
-- To lower pH (make more acidic): acids such as [citric acid](/e330-citric-acid) are often used instead.
+- To raise pH (make less acidic): [calcium hydroxide](/e526-calcium-hydroxide){.additive}, [sodium hydroxide](/e524-sodium-hydroxide){.additive}, [potassium hydroxide](/e525-potassium-hydroxide){.additive}, [magnesium oxide](/e530-magnesium-oxide){.additive}, [sodium carbonates](/e500-sodium-carbonates){.additive}, [potassium carbonates](/e501-potassium-carbonates){.additive}, or [calcium carbonates](/e170-calcium-carbonates){.additive}.
+- To lower pH (make more acidic): acids such as [citric acid](/e330-citric-acid){.additive} are often used instead.
 
 Choice hinges on taste impact, solubility, labeling preferences, and the product’s recipe.
 

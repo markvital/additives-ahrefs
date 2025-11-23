@@ -6,7 +6,7 @@ Patent Blue V (E131) is a bright, water‑soluble synthetic blue dye used to col
 - Synthetic blue food color (triphenylmethane family), also known as Food Blue 5, Acid Blue 3, and C.I. 42051.
 - Approved for certain uses in the European Union (EU), with identity and purity specifications set in EU law; not approved for food use in the United States.
 - Used mainly in beverages, sweets, and decorations to give a strong blue hue; blends well to make secondary colors.
-- Alternatives include other blues like [brilliant blue FCF](/e133-brilliant-blue-fcf) and [indigotine](/e132-indigotine), or natural options such as [anthocyanins](/e163-anthocyanins).
+- Alternatives include other blues like [brilliant blue FCF](/e133-brilliant-blue-fcf){.additive} and [indigotine](/e132-indigotine){.additive}, or natural options such as [anthocyanins](/e163-anthocyanins){.additive}.
 
 ## Why is Patent blue v added to food?
 Color shapes how we expect food to taste. Patent Blue V adds a clean, intense blue that signals flavors like “blue raspberry” or mint. It is water‑soluble and reasonably stable in acidic drinks, so manufacturers use it to make appealing, consistent colors in beverages, candies, and desserts.
@@ -15,9 +15,9 @@ Color shapes how we expect food to taste. Patent Blue V adds a clean, intense bl
 In the EU, Patent Blue V may be used in specific food categories and within set limits defined by EU law. You may find it in soft drinks, syrups, confectionery, dessert toppings, cake decorations, and similar items where a bright blue tone is desired.[^3] Outside the EU, rules differ. For example, it is not permitted in U.S. foods.[^4]
 
 ## What can replace Patent blue v?
-- Other artificial blues: [brilliant blue FCF](/e133-brilliant-blue-fcf) gives a similar shade and is widely used; [indigotine](/e132-indigotine) offers a darker, more indigo tone.
-- Natural colors: [anthocyanins](/e163-anthocyanins) from fruits give blue‑violet hues in certain pH ranges; [chlorophylls and chlorophyllins](/e140-chlorophylls-and-chlorophyllins) can contribute to green when blended.
-- Blends: Combining a blue dye with a yellow such as [tartrazine](/e102-tartrazine) or [sunset yellow FCF](/e110-sunset-yellow-fcf) can produce custom greens and teals.
+- Other artificial blues: [brilliant blue FCF](/e133-brilliant-blue-fcf){.additive} gives a similar shade and is widely used; [indigotine](/e132-indigotine){.additive} offers a darker, more indigo tone.
+- Natural colors: [anthocyanins](/e163-anthocyanins){.additive} from fruits give blue‑violet hues in certain pH ranges; [chlorophylls and chlorophyllins](/e140-chlorophylls-and-chlorophyllins){.additive} can contribute to green when blended.
+- Blends: Combining a blue dye with a yellow such as [tartrazine](/e102-tartrazine){.additive} or [sunset yellow FCF](/e110-sunset-yellow-fcf){.additive} can produce custom greens and teals.
 
 ## How is Patent blue v made?
 Patent Blue V is produced by chemical synthesis. EU specifications describe it as the sodium or calcium salts of sulfonated triphenylmethane dyes, and set requirements for purity, subsidiary coloring matters, and contaminants.[^2] These legally defined specifications help ensure batches are consistent for food use.
@@ -39,7 +39,7 @@ Regulatory decisions are not the same worldwide. The U.S. Food and Drug Administ
 Tip: On labels, look for “E131” or names such as “Patent Blue V,” “Acid Blue 3,” or “C.I. 42051.”
 
 ## Myths & facts
-- Myth: “Patent Blue V is the same as FD&C Blue No. 1.” Fact: They are different dyes; FD&C Blue No. 1 is [brilliant blue FCF](/e133-brilliant-blue-fcf), while Patent Blue V is E131.
+- Myth: “Patent Blue V is the same as FD&C Blue No. 1.” Fact: They are different dyes; FD&C Blue No. 1 is [brilliant blue FCF](/e133-brilliant-blue-fcf){.additive}, while Patent Blue V is E131.
 - Myth: “It’s banned in Europe.” Fact: It is authorized for specific foods and within set limits in the EU.[^3]
 - Myth: “All artificial colors are unregulated.” Fact: In the EU, identity and purity are defined in law, and safety is assessed by EFSA.[^2][^1]
 

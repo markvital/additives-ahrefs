@@ -16,10 +16,10 @@ You are unlikely to find E241 on labels in the European Union because Gum Guaicu
 
 ## What can replace Gum Guaicum?
 Food makers typically use other antioxidants that are widely accepted and available, such as:
-- [tocopherol-rich extract](/e306-tocopherol-rich-extract) (vitamin E)
-- [ascorbic acid](/e300-ascorbic-acid) and [citric acid](/e330-citric-acid)
-- [extracts of rosemary](/e392-extracts-of-rosemary)
-- Synthetic antioxidants like [butylated hydroxyanisole (BHA)](/e320-butylated-hydroxyanisole-bha) and [butylated hydroxytoluene (BHT)](/e321-butylated-hydroxytoluene)
+- [tocopherol-rich extract](/e306-tocopherol-rich-extract){.additive} (vitamin E)
+- [ascorbic acid](/e300-ascorbic-acid){.additive} and [citric acid](/e330-citric-acid){.additive}
+- [extracts of rosemary](/e392-extracts-of-rosemary){.additive}
+- Synthetic antioxidants like [butylated hydroxyanisole (BHA)](/e320-butylated-hydroxyanisole-bha){.additive} and [butylated hydroxytoluene (BHT)](/e321-butylated-hydroxytoluene){.additive}
 
 The “best” substitute depends on the food’s fat content, flavor profile, and the rules in the country where it’s sold.
 

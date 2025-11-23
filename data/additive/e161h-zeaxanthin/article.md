@@ -14,14 +14,14 @@ Food makers use zeaxanthin to give or boost warm yellow‑orange colour in produ
 ## What foods contain Zeaxanthin?
 Zeaxanthin occurs naturally in many foods. Good sources include corn (maize), orange bell peppers, egg yolks, kiwi, grapes, and leafy greens like kale and spinach. Typical diets provide small amounts daily, often together with lutein.[^1]
 
-As an ingredient, zeaxanthin shows up most often in eye‑health dietary supplements, sometimes paired with [lutein](/e161b-lutein). In markets where permitted as a colour, it may appear in select beverages, desserts, or sauces.
+As an ingredient, zeaxanthin shows up most often in eye‑health dietary supplements, sometimes paired with [lutein](/e161b-lutein){.additive}. In markets where permitted as a colour, it may appear in select beverages, desserts, or sauces.
 
 ## What can replace Zeaxanthin?
 Depending on the shade and label goals:
-- For similar warm yellow‑orange: [lutein](/e161b-lutein) or [beta‑carotene](/e160ai-beta-carotene).
-- For bright orange‑red: [paprika extract](/e160c-paprika-extract) or [annatto](/e160b-annatto).
-- For golden yellow with a spicier note: [curcumin](/e100-curcumin).
-- For tomato‑red hues: [lycopene](/e160d-lycopene).
+- For similar warm yellow‑orange: [lutein](/e161b-lutein){.additive} or [beta‑carotene](/e160ai-beta-carotene){.additive}.
+- For bright orange‑red: [paprika extract](/e160c-paprika-extract){.additive} or [annatto](/e160b-annatto){.additive}.
+- For golden yellow with a spicier note: [curcumin](/e100-curcumin){.additive}.
+- For tomato‑red hues: [lycopene](/e160d-lycopene){.additive}.
 Each option differs in stability, flavour impact, and regulatory status, so formulators choose based on the product and market.
 
 ## How is Zeaxanthin made?
@@ -40,12 +40,12 @@ In the body, zeaxanthin and lutein accumulate in the macula of the eye, where th
 - If you smoke, choose eye‑health supplements that do not contain beta‑carotene; AREDS2 replaced beta‑carotene with lutein and zeaxanthin due to increased lung cancer risk with beta‑carotene in smokers.[^2]
 
 ## Myths & facts
-- Myth: Zeaxanthin and [lutein](/e161b-lutein) are the same. Fact: They’re closely related carotenoids but distinct molecules; both concentrate in the eye and work together.[^1]
+- Myth: Zeaxanthin and [lutein](/e161b-lutein){.additive} are the same. Fact: They’re closely related carotenoids but distinct molecules; both concentrate in the eye and work together.[^1]
 - Myth: Zeaxanthin is “artificial.” Fact: It occurs naturally in common foods like corn and egg yolks; commercial ingredients may be natural‑source or synthetic but meet food‑grade specs.[^1][^3]
 - Myth: Eye supplements always contain beta‑carotene. Fact: The AREDS2 formula removed beta‑carotene and used lutein plus zeaxanthin instead.[^2]
 
 ## Zeaxanthin in branded foods
-You’re most likely to see zeaxanthin on the labels of eye‑health dietary supplements, often combined with [lutein](/e161b-lutein). In some markets it may also appear in fortified beverages, nutrition bars, or dairy‑style drinks to support a warm yellow colour. On ingredient lists, look for “zeaxanthin,” “E161h,” or “lutein and zeaxanthin.”
+You’re most likely to see zeaxanthin on the labels of eye‑health dietary supplements, often combined with [lutein](/e161b-lutein){.additive}. In some markets it may also appear in fortified beverages, nutrition bars, or dairy‑style drinks to support a warm yellow colour. On ingredient lists, look for “zeaxanthin,” “E161h,” or “lutein and zeaxanthin.”
 
 ## References
 [^1]: Lutein and Zeaxanthin — NIH Office of Dietary Supplements (ODS). https://ods.od.nih.gov/factsheets/LuteinandZeaxanthin-HealthProfessional/

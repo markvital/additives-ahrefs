@@ -22,11 +22,11 @@ It is used in very small amounts and usually appears on labels as “microcrysta
 
 ## What can replace microcrystalline wax?
 Depending on the food and the desired finish, common substitutes include:
-- [Carnauba wax](/e903-carnauba-wax) (plant-derived; very hard, high-gloss)
-- [Candelilla wax](/e902-candelilla-wax) (plant-derived; firm, good gloss)
-- [White and yellow beeswax](/e901-white-and-yellow-beeswax) (animal-derived; softer film)
-- [Shellac](/e904-shellac) (resin; strong, glossy coating)
-- [Paraffin wax](/e905cii-paraffin-wax) or [synthetic wax](/e905-synthetic-wax) in certain technical applications
+- [Carnauba wax](/e903-carnauba-wax){.additive} (plant-derived; very hard, high-gloss)
+- [Candelilla wax](/e902-candelilla-wax){.additive} (plant-derived; firm, good gloss)
+- [White and yellow beeswax](/e901-white-and-yellow-beeswax){.additive} (animal-derived; softer film)
+- [Shellac](/e904-shellac){.additive} (resin; strong, glossy coating)
+- [Paraffin wax](/e905cii-paraffin-wax){.additive} or [synthetic wax](/e905-synthetic-wax){.additive} in certain technical applications
 
 Choice depends on gloss, hardness, melting point, and whether plant-based or animal-derived ingredients are preferred.
 
@@ -44,7 +44,7 @@ Yes—mainly technological benefits:
 - Can aid handling on manufacturing lines and during packaging
 
 ## Who should avoid microcrystalline wax?
-Most people do not need to avoid it. Those who prefer to limit petroleum-derived additives, or who follow certain product standards for personal reasons, can choose foods coated with plant-based waxes like [carnauba wax](/e903-carnauba-wax) or [candelilla wax](/e902-candelilla-wax) instead. When in doubt, check the ingredient list for “E905ci,” “microcrystalline wax,” or a listed alternative.
+Most people do not need to avoid it. Those who prefer to limit petroleum-derived additives, or who follow certain product standards for personal reasons, can choose foods coated with plant-based waxes like [carnauba wax](/e903-carnauba-wax){.additive} or [candelilla wax](/e902-candelilla-wax){.additive} instead. When in doubt, check the ingredient list for “E905ci,” “microcrystalline wax,” or a listed alternative.
 
 ## Myths & facts
 - Myth: “It’s just candle wax.” Fact: Food-grade microcrystalline wax is a different petroleum fraction from common candle paraffin and must meet strict identity and purity specifications before use in food.[^4]
@@ -57,7 +57,7 @@ On labels, look for “microcrystalline wax,” “E905c,” or “E905ci.” It
 - Near the end of ingredient lists for glossy, sugar-coated candies and similar products
 - In glaze or polishing component lists for confectionery
 
-If you prefer to avoid it, look for products that specify coatings like [carnauba wax](/e903-carnauba-wax), [candelilla wax](/e902-candelilla-wax), or [beeswax](/e901-white-and-yellow-beeswax) instead.
+If you prefer to avoid it, look for products that specify coatings like [carnauba wax](/e903-carnauba-wax){.additive}, [candelilla wax](/e902-candelilla-wax){.additive}, or [beeswax](/e901-white-and-yellow-beeswax){.additive} instead.
 
 ## References
 [^1]: Chewing gum base — 21 CFR 172.615. U.S. Food and Drug Administration. https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-172/section-172.615

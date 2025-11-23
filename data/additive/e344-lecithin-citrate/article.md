@@ -24,14 +24,14 @@ On EU ingredient lists, it may appear as “lecithin citrate” or “E344,” b
 
 ## What can replace Lecithin citrate?
 Depending on the product and process, formulators might use:
-- [Lecithins](/e322-lecithins) (E322), such as soy or sunflower lecithin
-- [Mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids) (E471)
-- [Citric acid esters of mono- and diglycerides of fatty acids](/e472c-citric-acid-esters-of-mono-and-diglycerides-of-fatty-acids) (E472c)
-- Gums and stabilizers (for example, [acacia gum](/e414-acacia-gum) or [xanthan gum](/e415-xanthan-gum)) alongside an emulsifier
+- [Lecithins](/e322-lecithins){.additive} (E322), such as soy or sunflower lecithin
+- [Mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive} (E471)
+- [Citric acid esters of mono- and diglycerides of fatty acids](/e472c-citric-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive} (E472c)
+- Gums and stabilizers (for example, [acacia gum](/e414-acacia-gum){.additive} or [xanthan gum](/e415-xanthan-gum){.additive}) alongside an emulsifier
 Choice depends on taste, label goals, processing, and cost.
 
 ## How is Lecithin citrate made?
-Lecithin citrate is produced by treating food‑grade lecithin with citric acid. The EU specification describes the additive’s identity and purity, including how it is obtained from lecithin and the allowable levels of contaminants.[^2] Lecithin itself is typically sourced from soybeans, sunflower seed, or egg yolk, then processed and reacted with citric acid ([citric acid](/e330-citric-acid)) to create the citrate form.
+Lecithin citrate is produced by treating food‑grade lecithin with citric acid. The EU specification describes the additive’s identity and purity, including how it is obtained from lecithin and the allowable levels of contaminants.[^2] Lecithin itself is typically sourced from soybeans, sunflower seed, or egg yolk, then processed and reacted with citric acid ([citric acid](/e330-citric-acid){.additive}) to create the citrate form.
 
 ## Is Lecithin citrate safe to eat?
 In the European Union, food additives must be authorized by law and meet detailed purity specifications before use. Manufacturers are required to use only the amount needed to achieve the intended effect (a principle often called “quantum satis”).[^3] Lecithin citrate also has an official EU specification that sets identity and purity criteria, which producers must meet.[^2]

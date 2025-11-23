@@ -25,9 +25,9 @@ In the EU, E999 is authorized mainly as a foaming agent for certain flavored dri
 
 ## What can replace Quillaia extract?
 Depending on the job to be done:
-- For emulsifying flavor oils in soft drinks: [acacia gum](/e414-acacia-gum), [glycerol esters of wood rosin](/e445-glycerol-esters-of-wood-rosin), [sucrose acetate isobutyrate](/e444-sucrose-acetate-isobutyrate), or [propylene glycol alginate](/e405-propane-1-2-diol-alginate).
-- For foam building or stabilizing: [sodium alginate](/e401-sodium-alginate), [gellan gum](/e418-gellan-gum), [xanthan gum](/e415-xanthan-gum), [carrageenan](/e407-carrageenan), or [guar gum](/e412-guar-gum).
-- For visual “lift” without surfactants: more carbonation using [carbon dioxide](/e290-carbon-dioxide) can increase head but does not emulsify oils.
+- For emulsifying flavor oils in soft drinks: [acacia gum](/e414-acacia-gum){.additive}, [glycerol esters of wood rosin](/e445-glycerol-esters-of-wood-rosin){.additive}, [sucrose acetate isobutyrate](/e444-sucrose-acetate-isobutyrate){.additive}, or [propylene glycol alginate](/e405-propane-1-2-diol-alginate){.additive}.
+- For foam building or stabilizing: [sodium alginate](/e401-sodium-alginate){.additive}, [gellan gum](/e418-gellan-gum){.additive}, [xanthan gum](/e415-xanthan-gum){.additive}, [carrageenan](/e407-carrageenan){.additive}, or [guar gum](/e412-guar-gum){.additive}.
+- For visual “lift” without surfactants: more carbonation using [carbon dioxide](/e290-carbon-dioxide){.additive} can increase head but does not emulsify oils.
 
 Each option has its own taste impact, labeling profile, and cost, so formulators often blend several stabilizers.
 

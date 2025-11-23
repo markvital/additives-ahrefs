@@ -10,11 +10,11 @@ This additive is mainly used to protect fats and oils from going stale.
 - Common in: Edible oils, shortenings, margarine/spreads, baked snacks, and other fat-containing foods
 - Also called: E310, propyl ester of gallic acid
 - Typical level: Very small amounts, often up to 0.02% of the fat or oil part of a food
-- Often paired with: Other antioxidants like [BHA](/e320-butylated-hydroxyanisole-bha), [BHT](/e321-butylated-hydroxytoluene), [TBHQ](/e319-tertiary-butylhydroquinone-tbhq), [ascorbyl palmitate](/e304i-ascorbyl-palmitate), [tocopherols](/e306-tocopherol-rich-extract), or [citric acid](/e330-citric-acid)
+- Often paired with: Other antioxidants like [BHA](/e320-butylated-hydroxyanisole-bha){.additive}, [BHT](/e321-butylated-hydroxytoluene){.additive}, [TBHQ](/e319-tertiary-butylhydroquinone-tbhq){.additive}, [ascorbyl palmitate](/e304i-ascorbyl-palmitate){.additive}, [tocopherols](/e306-tocopherol-rich-extract){.additive}, or [citric acid](/e330-citric-acid){.additive}
 - Dietary notes: Typically made synthetically; suitable for vegetarian and vegan diets
 
 ## Why is propyl gallate added to food?
-Fats and oils react with oxygen over time, creating rancid tastes and odors. Propyl gallate donates electrons to stop these chain reactions, so foods keep their intended flavor longer. In the United States, it may be used as an antioxidant in fats and oils and in foods that contain fats or oils, typically at levels not above 0.02% of the fat or oil portion of the food.[^1] It can be used alone or together with other antioxidants such as [BHA](/e320-butylated-hydroxyanisole-bha) or [BHT](/e321-butylated-hydroxytoluene) when following the same overall limit.[^1]
+Fats and oils react with oxygen over time, creating rancid tastes and odors. Propyl gallate donates electrons to stop these chain reactions, so foods keep their intended flavor longer. In the United States, it may be used as an antioxidant in fats and oils and in foods that contain fats or oils, typically at levels not above 0.02% of the fat or oil portion of the food.[^1] It can be used alone or together with other antioxidants such as [BHA](/e320-butylated-hydroxyanisole-bha){.additive} or [BHT](/e321-butylated-hydroxytoluene){.additive} when following the same overall limit.[^1]
 
 ## What foods contain propyl gallate?
 You are most likely to see it in products where protecting fats really matters. Examples include:
@@ -28,11 +28,11 @@ In the U.S., its use is limited to small amounts in fats/oils and foods that con
 ## What can replace propyl gallate?
 Food makers often pick from several antioxidants, depending on the recipe and desired label:
 
-- Synthetic options: [BHA](/e320-butylated-hydroxyanisole-bha), [BHT](/e321-butylated-hydroxytoluene), [TBHQ](/e319-tertiary-butylhydroquinone-tbhq)
-- “Vitamin” and enzyme-derived options: [tocopherols (vitamin E)](/e306-tocopherol-rich-extract), [ascorbyl palmitate](/e304i-ascorbyl-palmitate), [ascorbic acid (vitamin C)](/e300-ascorbic-acid)
-- Helpers that boost antioxidant performance: [citric acid](/e330-citric-acid)
+- Synthetic options: [BHA](/e320-butylated-hydroxyanisole-bha){.additive}, [BHT](/e321-butylated-hydroxytoluene){.additive}, [TBHQ](/e319-tertiary-butylhydroquinone-tbhq){.additive}
+- “Vitamin” and enzyme-derived options: [tocopherols (vitamin E)](/e306-tocopherol-rich-extract){.additive}, [ascorbyl palmitate](/e304i-ascorbyl-palmitate){.additive}, [ascorbic acid (vitamin C)](/e300-ascorbic-acid){.additive}
+- Helpers that boost antioxidant performance: [citric acid](/e330-citric-acid){.additive}
 
-Some antimicrobial preservatives like [sorbic acid](/e200-sorbic-acid) or [sodium benzoate](/e211-sodium-benzoate) are not true replacements because they target microbes, not fat oxidation.
+Some antimicrobial preservatives like [sorbic acid](/e200-sorbic-acid){.additive} or [sodium benzoate](/e211-sodium-benzoate){.additive} are not true replacements because they target microbes, not fat oxidation.
 
 ## How is propyl gallate made?
 It is the propyl ester of gallic acid. Industrially, manufacturers typically make it by reacting gallic acid with n-propanol (an alcohol) under acid-catalyzed conditions, then purifying the product. The result is usually a white, crystalline powder that is only slightly soluble in water but dissolves well in oils and alcohols.[^3]
@@ -49,15 +49,15 @@ For consumers, the practical benefits are about food quality:
 This is a technological benefit to the food; it is not added for nutritional or medical effects.
 
 ## Who should avoid propyl gallate?
-Most people do not need to avoid this additive when it is used as allowed. If you prefer to avoid synthetic preservatives, look for products that use alternatives like [tocopherols](/e306-tocopherol-rich-extract) or are labeled “no artificial preservatives.” People with specific dietary restrictions or medical advice should follow their healthcare provider’s guidance. Regulations may set stricter rules for particular foods (such as foods for infants) in some regions.[^4]
+Most people do not need to avoid this additive when it is used as allowed. If you prefer to avoid synthetic preservatives, look for products that use alternatives like [tocopherols](/e306-tocopherol-rich-extract){.additive} or are labeled “no artificial preservatives.” People with specific dietary restrictions or medical advice should follow their healthcare provider’s guidance. Regulations may set stricter rules for particular foods (such as foods for infants) in some regions.[^4]
 
 ## Myths & facts
 - Myth: “Propyl gallate is the same as propylene glycol.” Fact: They are different substances; propyl gallate is an antioxidant, while propylene glycol is a solvent and humectant.
-- Myth: “It’s a preservative for germs.” Fact: Propyl gallate fights oxidation, not bacteria or mold. Antimicrobials like [sorbic acid](/e200-sorbic-acid) serve that role.
+- Myth: “It’s a preservative for germs.” Fact: Propyl gallate fights oxidation, not bacteria or mold. Antimicrobials like [sorbic acid](/e200-sorbic-acid){.additive} serve that role.
 - Myth: “If a food has propyl gallate, it must be unsafe.” Fact: Its use is regulated with strict limits and purity standards set by authorities in the U.S. and EU.[^1][^4]
 
 ## propyl gallate in branded foods
-On labels, look for “propyl gallate,” “E310,” or “antioxidant (propyl gallate).” You’ll most often find it in shelf-stable, fat-rich items like cooking oils, shortenings, margarine/spreads, and certain baked snacks. Many brands instead use mixed [tocopherols](/e306-tocopherol-rich-extract) or other antioxidants, so you may also see those listed.
+On labels, look for “propyl gallate,” “E310,” or “antioxidant (propyl gallate).” You’ll most often find it in shelf-stable, fat-rich items like cooking oils, shortenings, margarine/spreads, and certain baked snacks. Many brands instead use mixed [tocopherols](/e306-tocopherol-rich-extract){.additive} or other antioxidants, so you may also see those listed.
 
 ## References
 [^1]: Propyl gallate — 21 CFR 172.190. https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-172/subpart-F/section-172.190

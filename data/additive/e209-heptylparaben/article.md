@@ -16,11 +16,11 @@ You will rarely see E209 on ingredient lists today. Whether it appears at all de
 
 ## What can replace Heptylparaben?
 Food makers have many alternatives, often chosen based on pH, flavor impact, and the type of microbes to control:
-- Sorbates: [sorbic acid](/e200-sorbic-acid), [potassium sorbate](/e202-potassium-sorbate)
-- Benzoates: [benzoic acid](/e210-benzoic-acid), [sodium benzoate](/e211-sodium-benzoate)
-- Propionates: [calcium propionate](/e282-calcium-propionate)
-- Sulfites for specific uses: [sulphur dioxide](/e220-sulphur-dioxide)
-- pH control to boost preservative action: [citric acid](/e330-citric-acid), [acetic acid](/e260-acetic-acid), [lactic acid](/e270-lactic-acid), [malic acid](/e296-malic-acid)
+- Sorbates: [sorbic acid](/e200-sorbic-acid){.additive}, [potassium sorbate](/e202-potassium-sorbate){.additive}
+- Benzoates: [benzoic acid](/e210-benzoic-acid){.additive}, [sodium benzoate](/e211-sodium-benzoate){.additive}
+- Propionates: [calcium propionate](/e282-calcium-propionate){.additive}
+- Sulfites for specific uses: [sulphur dioxide](/e220-sulphur-dioxide){.additive}
+- pH control to boost preservative action: [citric acid](/e330-citric-acid){.additive}, [acetic acid](/e260-acetic-acid){.additive}, [lactic acid](/e270-lactic-acid){.additive}, [malic acid](/e296-malic-acid){.additive}
 
 ## How is Heptylparaben made?
 Chemically, heptylparaben is the heptyl ester of p‑hydroxybenzoic acid, a classic “paraben” structure.[^4] In industry, parabens are typically produced by reacting p‑hydroxybenzoic acid with the matching alcohol (here, heptanol), followed by purification—an approach common to the whole paraben group.[^1]

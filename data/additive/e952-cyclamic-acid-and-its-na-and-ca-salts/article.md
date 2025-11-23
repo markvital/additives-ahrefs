@@ -16,13 +16,13 @@ In the European Union, E952 is authorized in a range of categories set by law. T
 
 ## What can replace Cyclamic acid and its Na and Ca salts?
 Depending on the recipe and local rules, food makers may use:
-- [acesulfame K](/e950-acesulfame-k)
-- [aspartame](/e951-aspartame)
-- [sucralose](/e955-sucralose)
-- [saccharin](/e954-saccharin-and-its-salts)
-- [steviol glycosides](/e960-steviol-glycosides)
-- [neotame](/e961-neotame) or [advantame](/e969-advantame)
-- Sugar alcohols like [xylitol](/e967-xylitol) or [erythritol](/e968-erythritol)
+- [acesulfame K](/e950-acesulfame-k){.additive}
+- [aspartame](/e951-aspartame){.additive}
+- [sucralose](/e955-sucralose){.additive}
+- [saccharin](/e954-saccharin-and-its-salts){.additive}
+- [steviol glycosides](/e960-steviol-glycosides){.additive}
+- [neotame](/e961-neotame){.additive} or [advantame](/e969-advantame){.additive}
+- Sugar alcohols like [xylitol](/e967-xylitol){.additive} or [erythritol](/e968-erythritol){.additive}
 
 Each sweetener has its own taste, stability, and labeling rules, so blends are common.
 

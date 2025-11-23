@@ -7,7 +7,7 @@ Basic methacrylate copolymer (E1205) is a food-grade plastic film-former used ma
 - What it does: masks taste and odor, improves swallowability, reduces dusting, and helps keep moisture away.
 - Where you’ll see it: the labels of some coated vitamin and mineral tablets, caplets, and similar solid supplements.
 - Label names: “E1205” or “Basic methacrylate copolymer.”
-- Related additives: [neutral methacrylate copolymer](/e1206-neutral-methacrylate-copolymer) and [anionic methacrylate copolymer](/e1207-anionic-methacrylate-copolymer).
+- Related additives: [neutral methacrylate copolymer](/e1206-neutral-methacrylate-copolymer){.additive} and [anionic methacrylate copolymer](/e1207-anionic-methacrylate-copolymer){.additive}.
 
 ## Why is Basic methacrylate copolymer added to food?
 Manufacturers use E1205 to form a smooth, protective film on tablets and other solid pieces. This thin coating can:
@@ -21,12 +21,12 @@ You’ll most often find E1205 in coated food supplements sold as tablets, caple
 
 ## What can replace Basic methacrylate copolymer?
 Depending on the job (shine, protection, taste masking), formulators may choose:
-- [shellac](/e904-shellac)
-- [carnauba wax](/e903-carnauba-wax)
-- [pullulan](/e1204-pullulan)
-- [polyvinyl alcohol](/e1203-polyvinyl-alcohol)
-- [cellulose](/e460-cellulose)
-- Other methacrylate types, such as [neutral methacrylate copolymer](/e1206-neutral-methacrylate-copolymer) or [anionic methacrylate copolymer](/e1207-anionic-methacrylate-copolymer)
+- [shellac](/e904-shellac){.additive}
+- [carnauba wax](/e903-carnauba-wax){.additive}
+- [pullulan](/e1204-pullulan){.additive}
+- [polyvinyl alcohol](/e1203-polyvinyl-alcohol){.additive}
+- [cellulose](/e460-cellulose){.additive}
+- Other methacrylate types, such as [neutral methacrylate copolymer](/e1206-neutral-methacrylate-copolymer){.additive} or [anionic methacrylate copolymer](/e1207-anionic-methacrylate-copolymer){.additive}
 
 The best substitute depends on whether the goal is gloss, moisture protection, faster or slower dissolving, or stronger taste masking.
 

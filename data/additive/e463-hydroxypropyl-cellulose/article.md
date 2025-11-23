@@ -24,9 +24,9 @@ Authorised uses and typical categories are listed in EU evaluations of cellulose
 
 ## What can replace Hydroxypropyl cellulose?
 Depending on the recipe, formulators may swap HPC for:
-- Other cellulose ethers: [methyl cellulose](/e461-methyl-cellulose), [hydroxypropyl methylcellulose](/e464-hydroxypropyl-methyl-cellulose), or [sodium carboxymethylcellulose](/e466-sodium-carboxy-methyl-cellulose)
-- Gums: [xanthan gum](/e415-xanthan-gum), [guar gum](/e412-guar-gum), [carrageenan](/e407-carrageenan), or [pectins](/e440-pectins)
-- Base cellulose: [cellulose](/e460-cellulose)
+- Other cellulose ethers: [methyl cellulose](/e461-methyl-cellulose){.additive}, [hydroxypropyl methylcellulose](/e464-hydroxypropyl-methyl-cellulose){.additive}, or [sodium carboxymethylcellulose](/e466-sodium-carboxy-methyl-cellulose){.additive}
+- Gums: [xanthan gum](/e415-xanthan-gum){.additive}, [guar gum](/e412-guar-gum){.additive}, [carrageenan](/e407-carrageenan){.additive}, or [pectins](/e440-pectins){.additive}
+- Base cellulose: [cellulose](/e460-cellulose){.additive}
 
 Each alternative behaves a bit differently. For example, xanthan builds viscosity at low levels and is very shear-stable; methyl cellulose gels when heated; carrageenan works well with proteins; and pectin sets in high-sugar, acidic systems.
 
@@ -52,7 +52,7 @@ Some people may notice mild gastrointestinal effects (such as gas or softer stoo
 - Myth: “E463 is plastic.”  
   Fact: It is a modified plant fiber (cellulose ether), not a plastic polymer used for packaging.[^2]
 - Myth: “It’s the same as MSG.”  
-  Fact: Hydroxypropyl cellulose is unrelated to glutamates like [monosodium glutamate](/e621-monosodium-glutamate); it is a cellulose derivative used mainly for texture.
+  Fact: Hydroxypropyl cellulose is unrelated to glutamates like [monosodium glutamate](/e621-monosodium-glutamate){.additive}; it is a cellulose derivative used mainly for texture.
 - Myth: “It isn’t allowed in the U.S.”  
   Fact: FDA lists hydroxypropyl cellulose on its Food Additive Status List; it may be used under applicable regulations and good manufacturing practice.[^3]
 - Myth: “It’s unsafe long-term.”  

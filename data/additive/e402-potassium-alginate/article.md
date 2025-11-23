@@ -21,14 +21,14 @@ You’ll most often find E402 in:
 - Spoonable and drinkable yogurts and fermented dairy alternatives
 - Salad dressings, sauces, and condiments
 - Reformed or restructured foods (for example, shaped seafood or meat analogues)
-- Confectionery gels and modernist “spherification” recipes (often with a calcium salt like [calcium chloride](/e509-calcium-chloride))
+- Confectionery gels and modernist “spherification” recipes (often with a calcium salt like [calcium chloride](/e509-calcium-chloride){.additive})
 
-Potassium alginate is part of the alginate family alongside [alginic acid](/e400-alginic-acid), [calcium alginate](/e404-calcium-alginate), and [propylene glycol alginate](/e405-propane-1-2-diol-alginate).
+Potassium alginate is part of the alginate family alongside [alginic acid](/e400-alginic-acid){.additive}, [calcium alginate](/e404-calcium-alginate){.additive}, and [propylene glycol alginate](/e405-propane-1-2-diol-alginate){.additive}.
 
 ## What can replace Potassium alginate?
 Alternatives depend on the job you need done:
-- Thickening and stabilising: [xanthan gum](/e415-xanthan-gum), [guar gum](/e412-guar-gum), [locust bean gum](/e410-locust-bean-gum), [carrageenan](/e407-carrageenan), or [pectins](/e440-pectins)
-- Gelling: [agar](/e406-agar) or [carrageenan](/e407-carrageenan); note each gel behaves differently
+- Thickening and stabilising: [xanthan gum](/e415-xanthan-gum){.additive}, [guar gum](/e412-guar-gum){.additive}, [locust bean gum](/e410-locust-bean-gum){.additive}, [carrageenan](/e407-carrageenan){.additive}, or [pectins](/e440-pectins){.additive}
+- Gelling: [agar](/e406-agar){.additive} or [carrageenan](/e407-carrageenan){.additive}; note each gel behaves differently
 - For spherification‑style gels, alginates are unique; you typically need an alginate plus a calcium source. If potassium alginate isn’t available, another alginate grade may be used with recipe adjustments.
 
 ## How is Potassium alginate made?

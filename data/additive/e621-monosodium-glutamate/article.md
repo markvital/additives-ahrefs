@@ -10,7 +10,7 @@ Monosodium glutamate (MSG), also known as E621, is a flavor enhancer that adds a
 - Safety: Evaluated by the U.S. Food and Drug Administration (FDA) and the European Food Safety Authority (EFSA)[^1][^2]
 
 ## Why is Monosodium glutamate added to food?
-MSG is added to amplify umami—the savory taste found in foods like broths, meats, mushrooms, and aged cheeses. It makes flavors feel fuller and rounder without adding its own strong taste. You’ll often see it used alongside other umami-boosters such as [disodium guanylate](/e627-disodium-guanylate), [disodium inosinate](/e631-disodium-inosinate), or the blend [disodium 5'-ribonucleotides](/e635-disodium-5-ribonucleotide).
+MSG is added to amplify umami—the savory taste found in foods like broths, meats, mushrooms, and aged cheeses. It makes flavors feel fuller and rounder without adding its own strong taste. You’ll often see it used alongside other umami-boosters such as [disodium guanylate](/e627-disodium-guanylate){.additive}, [disodium inosinate](/e631-disodium-inosinate){.additive}, or the blend [disodium 5'-ribonucleotides](/e635-disodium-5-ribonucleotide){.additive}.
 
 ## What foods contain Monosodium glutamate?
 MSG is common in:
@@ -23,9 +23,9 @@ Restaurants may also use MSG in broths, sauces, and marinades. On packaged foods
 
 ## What can replace Monosodium glutamate?
 Depending on the recipe and dietary goals, cooks and manufacturers may use:
-- Other glutamates: [glutamic acid](/e620-glutamic-acid), [monopotassium glutamate](/e622-monopotassium-glutamate), [calcium diglutamate](/e623-calcium-diglutamate)
-- Nucleotide umami enhancers: [disodium inosinate](/e631-disodium-inosinate), [disodium guanylate](/e627-disodium-guanylate), or [disodium 5'-ribonucleotides](/e635-disodium-5-ribonucleotide)
-- Salt alternatives and flavor tools: [potassium chloride](/e508-potassium-chloride), slow-roasted vegetables, mushrooms, tomato paste, seaweed, soy sauce, miso, and long-simmered stocks
+- Other glutamates: [glutamic acid](/e620-glutamic-acid){.additive}, [monopotassium glutamate](/e622-monopotassium-glutamate){.additive}, [calcium diglutamate](/e623-calcium-diglutamate){.additive}
+- Nucleotide umami enhancers: [disodium inosinate](/e631-disodium-inosinate){.additive}, [disodium guanylate](/e627-disodium-guanylate){.additive}, or [disodium 5'-ribonucleotides](/e635-disodium-5-ribonucleotide){.additive}
+- Salt alternatives and flavor tools: [potassium chloride](/e508-potassium-chloride){.additive}, slow-roasted vegetables, mushrooms, tomato paste, seaweed, soy sauce, miso, and long-simmered stocks
 
 ## How is Monosodium glutamate made?
 Modern MSG is typically produced by fermentation. Food-grade microbes convert sugars or starches (for example, from sugar cane, sugar beets, or molasses) into glutamic acid, which is then neutralized and crystallized with sodium to form MSG.[^1] The process is similar to making other fermented ingredients and is controlled to meet food-grade purity specifications.[^1]
@@ -57,7 +57,7 @@ Note: GRAS means “Generally Recognized As Safe,” a U.S. regulatory category 
   Fact: In the U.S., “monosodium glutamate” must be named explicitly in the ingredient list; it cannot be grouped under “spices” or “flavorings.”[^3]
 
 ## Monosodium glutamate in branded foods
-MSG shows up across many grocery categories: snack chips and seasonings, dry soup mixes, instant noodles, frozen dinners, sauces, and some processed meats. To find it, scan the ingredient list for “monosodium glutamate” or “MSG.” You may also see related flavor enhancers such as [disodium inosinate](/e631-disodium-inosinate), [disodium guanylate](/e627-disodium-guanylate), or [disodium 5'-ribonucleotides](/e635-disodium-5-ribonucleotide).
+MSG shows up across many grocery categories: snack chips and seasonings, dry soup mixes, instant noodles, frozen dinners, sauces, and some processed meats. To find it, scan the ingredient list for “monosodium glutamate” or “MSG.” You may also see related flavor enhancers such as [disodium inosinate](/e631-disodium-inosinate){.additive}, [disodium guanylate](/e627-disodium-guanylate){.additive}, or [disodium 5'-ribonucleotides](/e635-disodium-5-ribonucleotide){.additive}.
 
 ## References
 [^1]: Questions and Answers on Monosodium Glutamate (MSG) — U.S. Food and Drug Administration. https://www.fda.gov/food/food-additives-petitions/questions-and-answers-monosodium-glutamate-msg

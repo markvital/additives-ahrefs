@@ -14,6 +14,7 @@ const { promisify } = require('util');
 const { createAdditiveSlug } = require('./utils/slug');
 const { resolveKeywordConfig } = require('./utils/keywords');
 const { loadEnvConfig, resolveAhrefsApiKey } = require('./utils/env');
+const { updateLastUpdatedTimestamp } = require('./utils/last-updated');
 
 const execFileAsync = promisify(execFile);
 
@@ -30,6 +31,8 @@ const REQUEST_SPACING_MS = 500;
 const SEARCH_VOLUME_FILENAME = 'searchVolume.json';
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+let hasChanges = false;
 
 let DEBUG = false;
 const debugLog = (...args) => {
@@ -362,6 +365,7 @@ const searchVolumePathForSlug = (slug) => path.join(ADDITIVE_DIR, slug, SEARCH_V
 const writeSearchVolumeDataset = async (slug, dataset) => {
   await fs.mkdir(path.join(ADDITIVE_DIR, slug), { recursive: true });
   await fs.writeFile(searchVolumePathForSlug(slug), `${JSON.stringify(dataset, null, 2)}\n`);
+  hasChanges = true;
 };
 
 async function main() {
@@ -575,6 +579,10 @@ async function main() {
       }
     }),
   );
+
+  if (hasChanges) {
+    await updateLastUpdatedTimestamp();
+  }
 
   const failures = results.filter((entry) => entry.error);
 

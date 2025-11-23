@@ -25,11 +25,11 @@ On ingredient lists, it may appear as “sorbitan monostearate,” “E491,” o
 
 ## What can replace Sorbitan monostearate?
 Possible alternatives (chosen case by case) include:
-- Other sorbitan esters: [sorbitan monolaurate](/e493-sorbitan-monolaurate) (E493), [sorbitan monooleate](/e494-sorbitan-monooleate) (E494), [sorbitan monopalmitate](/e495-sorbitan-monopalmitate) (E495), or [sorbitan tristearate](/e492-sorbitan-tristearate) (E492)
-- [Mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids) (E471)
-- [Propane-1,2-diol esters of fatty acids](/e477-propane-1-2-diol-esters-of-fatty-acids) (E477)
-- [Lecithins](/e322-lecithins) (E322)
-- Hydrocolloids for texture in water-based systems, such as [xanthan gum](/e415-xanthan-gum) (E415) or [carrageenan](/e407-carrageenan), when an emulsifier is not essential
+- Other sorbitan esters: [sorbitan monolaurate](/e493-sorbitan-monolaurate){.additive} (E493), [sorbitan monooleate](/e494-sorbitan-monooleate){.additive} (E494), [sorbitan monopalmitate](/e495-sorbitan-monopalmitate){.additive} (E495), or [sorbitan tristearate](/e492-sorbitan-tristearate){.additive} (E492)
+- [Mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive} (E471)
+- [Propane-1,2-diol esters of fatty acids](/e477-propane-1-2-diol-esters-of-fatty-acids){.additive} (E477)
+- [Lecithins](/e322-lecithins){.additive} (E322)
+- Hydrocolloids for texture in water-based systems, such as [xanthan gum](/e415-xanthan-gum){.additive} (E415) or [carrageenan](/e407-carrageenan){.additive}, when an emulsifier is not essential
 
 The best substitute depends on the recipe, fat content, and whether the emulsion is water-in-oil or oil-in-water.
 
@@ -52,7 +52,7 @@ These are technological benefits to the food; E491 is not added for nutritional 
 - Strict vegans or certain religious diets: Stearic acid can be sourced from either vegetable oils or animal fat. When this matters, look for products labeled accordingly or ask the manufacturer about the source.[^1]
 - People following medical advice to limit emulsifiers should consult their healthcare provider. For the general population, regulatory reviews have not identified safety concerns at approved use levels.[^2]
 
-Note: Sorbitan monostearate is not the same as [sorbitol](/e420-sorbitol) (E420), a sugar alcohol; it is an ester and is used in much smaller amounts.
+Note: Sorbitan monostearate is not the same as [sorbitol](/e420-sorbitol){.additive} (E420), a sugar alcohol; it is an ester and is used in much smaller amounts.
 
 ## Myths & facts
 - Myth: “E491 is just sugar alcohol.”  
@@ -61,11 +61,11 @@ Note: Sorbitan monostearate is not the same as [sorbitol](/e420-sorbitol) (E420)
   Fact: Emulsifiers vary widely. E491 has been reviewed by EU authorities and is authorised with purity criteria and use limits.
 - Myth: “If a product has E491, it must contain animal fat.”  
   Fact: The stearic acid can come from vegetable or animal sources; many suppliers use vegetable oils, but source can vary.
-- Myth: “E491 and [polyglycerol polyricinoleate](/e476-polyglycerol-polyricinoleate) do the same thing.”  
+- Myth: “E491 and [polyglycerol polyricinoleate](/e476-polyglycerol-polyricinoleate){.additive} do the same thing.”  
   Fact: Both are emulsifiers, but they have different strengths and are chosen for different tasks and formulas.
 
 ## Sorbitan monostearate in branded foods
-On labels, look for “sorbitan monostearate” or “E491.” You’ll find it in a variety of everyday items such as cakes and pastries, whipped toppings, chocolate coatings, spreads, and some frozen desserts. Manufacturers often combine it with other emulsifiers like [mono- and diglycerides](/e471-mono-and-diglycerides-of-fatty-acids) or [lecithins](/e322-lecithins) to fine‑tune texture and stability.
+On labels, look for “sorbitan monostearate” or “E491.” You’ll find it in a variety of everyday items such as cakes and pastries, whipped toppings, chocolate coatings, spreads, and some frozen desserts. Manufacturers often combine it with other emulsifiers like [mono- and diglycerides](/e471-mono-and-diglycerides-of-fatty-acids){.additive} or [lecithins](/e322-lecithins){.additive} to fine‑tune texture and stability.
 
 ## References
 [^1]: Specifications for the food additive E 491 Sorbitan monostearate — Commission Regulation (EU) No 231/2012. https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32012R0231

@@ -7,7 +7,7 @@ E173 (Aluminium) is a metallic silver color used to decorate the outside of food
 - What it does: creates a bright, mirror-like silver sheen on decorations.
 - Where it’s found: sugar pearls (dragées), cake toppers, and other decorative coatings on confectionery.
 - Also known as: E173, Aluminum (US spelling), element 13.
-- Related but different: aluminium salts such as [sodium aluminium phosphate](/e541-sodium-aluminium-phosphate) or [potassium aluminium silicate](/e555-potassium-aluminium-silicate) are separate additives with other functions.
+- Related but different: aluminium salts such as [sodium aluminium phosphate](/e541-sodium-aluminium-phosphate){.additive} or [potassium aluminium silicate](/e555-potassium-aluminium-silicate){.additive} are separate additives with other functions.
 
 ## Why is Aluminium added to food?
 Aluminium is added to make decorations shine. A thin layer on the outside of a sweet or cake decoration reflects light and gives a “metallic” look that other colors cannot easily match. This use is purely visual; it does not change taste or texture. In the European Union (EU), E173 is authorised as a color for surface decoration of certain foods only, not for general coloring of entire recipes.[^1]
@@ -21,11 +21,11 @@ EU rules permit E173 for external decoration and coatings in specific categories
 
 ## What can replace Aluminium?
 If a metallic look is not required, bakers often choose:
-- White or colored coatings and glazes, sometimes with [shellac](/e904-shellac) or [carnauba wax](/e903-carnauba-wax) for shine
+- White or colored coatings and glazes, sometimes with [shellac](/e904-shellac){.additive} or [carnauba wax](/e903-carnauba-wax){.additive} for shine
 - Non-metallic pearly effects from mineral or plant-based colors
-- Other approved metallic-look decorations, such as [silver](/e174-silver) or [gold](/e175-gold), where allowed and appropriate[^2]
+- Other approved metallic-look decorations, such as [silver](/e174-silver){.additive} or [gold](/e175-gold){.additive}, where allowed and appropriate[^2]
 
-Some countries formerly used [titanium dioxide](/e171-titanium-dioxide) for bright white or pearly effects, but the EU no longer permits E171 in food.[^5]
+Some countries formerly used [titanium dioxide](/e171-titanium-dioxide){.additive} for bright white or pearly effects, but the EU no longer permits E171 in food.[^5]
 
 ## How is Aluminium made?
 Food-grade E173 consists of high-purity aluminium that has been finely divided into powder or flakes to reflect light efficiently. EU specifications require a very high aluminium content and set strict limits for impurities such as lead, arsenic, and mercury to ensure food-grade purity.[^1] In practice, manufacturers start with pure aluminium metal and mechanically mill or flake it into small particles, then clean and standardize the material to meet these specifications.[^1]
@@ -44,7 +44,7 @@ If you want to avoid it, look for “E173” or “aluminium/aluminum” on ingr
 
 ## Myths & facts
 - Myth: “E173 is the same as aluminium foil in your body.” Fact: E173 is regulated, finely divided metal used only on surfaces and at low levels; it is not the same as eating foil.
-- Myth: “All aluminium additives are identical.” Fact: Metallic E173 is different from aluminium salts like [sodium aluminium phosphate](/e541-sodium-aluminium-phosphate) or [aluminium silicate](/e559-aluminium-silicate), which have different uses and safety limits.
+- Myth: “All aluminium additives are identical.” Fact: Metallic E173 is different from aluminium salts like [sodium aluminium phosphate](/e541-sodium-aluminium-phosphate){.additive} or [aluminium silicate](/e559-aluminium-silicate){.additive}, which have different uses and safety limits.
 - Myth: “It’s hidden and impossible to spot.” Fact: In regions that allow it, E173 must appear on the label, often as “E173” or “aluminium.”
 
 ## Aluminium in branded foods

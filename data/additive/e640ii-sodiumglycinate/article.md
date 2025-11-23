@@ -30,9 +30,9 @@ Labeling can vary by region. In the EU, it may appear as “E640,” “E640ii,�
 ## What can replace Sodiumglycinate?
 
 Depending on the recipe goal, possible alternatives include:
-- [Glycine](/e640i-glycine) (E640i) for similar taste-rounding with no added sodium
-- [Monosodium glutamate](/e621-monosodium-glutamate) (MSG) for umami lift
-- [Disodium guanylate](/e627-disodium-guanylate) or [disodium inosinate](/e631-disodium-inosinate) for savory enhancement
+- [Glycine](/e640i-glycine){.additive} (E640i) for similar taste-rounding with no added sodium
+- [Monosodium glutamate](/e621-monosodium-glutamate){.additive} (MSG) for umami lift
+- [Disodium guanylate](/e627-disodium-guanylate){.additive} or [disodium inosinate](/e631-disodium-inosinate){.additive} for savory enhancement
 - Recipe tweaks such as adjusting sugar, salt, acids (like citric acid), or using yeast extract to balance flavor
 
 ## How is Sodiumglycinate made?

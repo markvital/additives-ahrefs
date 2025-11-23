@@ -23,10 +23,10 @@ In the United States, its use is permitted in specific food categories and at se
 
 ## What can replace lactic acid esters of mono- and diglycerides of fatty acids?
 Depending on the recipe, formulators may swap E472b with:
-- [Mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids)
-- [Acetic acid esters of mono- and diglycerides](/e472a-acetic-acid-esters-of-mono-and-diglycerides-of-fatty-acids) or [citric acid esters of mono- and diglycerides](/e472c-citric-acid-esters-of-mono-and-diglycerides-of-fatty-acids)
-- [Lecithins](/e322-lecithins) from soy, sunflower, or rapeseed
-- Dough-strengthening lactylates such as [sodium stearoyl-2-lactylate](/e481-sodium-stearoyl-2-lactylate) or [calcium stearoyl-2-lactylate](/e482-calcium-stearoyl-2-lactylate)
+- [Mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive}
+- [Acetic acid esters of mono- and diglycerides](/e472a-acetic-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive} or [citric acid esters of mono- and diglycerides](/e472c-citric-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive}
+- [Lecithins](/e322-lecithins){.additive} from soy, sunflower, or rapeseed
+- Dough-strengthening lactylates such as [sodium stearoyl-2-lactylate](/e481-sodium-stearoyl-2-lactylate){.additive} or [calcium stearoyl-2-lactylate](/e482-calcium-stearoyl-2-lactylate){.additive}
 
 ## How is lactic acid esters of mono- and diglycerides of fatty acids made?
 E472b is produced by reacting food-grade mono- and diglycerides (from edible fats and oils) with lactic acid or with small lactic acid polymers (“lactylic” units). The result is a family of related molecules with one or more lactic acid groups attached, giving them strong emulsifying power.[^1] In the EU, detailed composition and purity specifications for E472b are set out in Commission Regulation (EU) No 231/2012.[^2]
@@ -43,7 +43,7 @@ These functions help maintain quality and consistency from factory to table.[^1]
 
 ## Who should avoid lactic acid esters of mono- and diglycerides of fatty acids?
 - People who follow vegan, vegetarian, kosher, or halal diets may wish to confirm the fat source (plant vs. animal) with the manufacturer, since the starting fatty acids come from “edible fats and oils.”[^1]
-- Those with strict clean-label preferences might choose products that use alternatives like [lecithins](/e322-lecithins).
+- Those with strict clean-label preferences might choose products that use alternatives like [lecithins](/e322-lecithins){.additive}.
 
 Note: Despite the name, the “lactic” part does not mean milk is used; lactic acid for food use is commonly made by fermenting carbohydrate sources.[^4]
 

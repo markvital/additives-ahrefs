@@ -10,7 +10,7 @@ Sodium acetate (E262i) is a salt of acetic acid. It is widely used in foods to c
 - Vegan and gluten-free: yes; it is a simple mineral salt
 - How it’s made: neutralizing acetic acid (vinegar acid) with a sodium base, then crystallizing
 - On the label: “sodium acetate,” “E262,” or “E262(i)”
-- Related additives: [acetic acid](/e260-acetic-acid), [sodium diacetate](/e262ii-sodium-diacetate), [potassium acetate](/e261-potassium-acetate)
+- Related additives: [acetic acid](/e260-acetic-acid){.additive}, [sodium diacetate](/e262ii-sodium-diacetate){.additive}, [potassium acetate](/e261-potassium-acetate){.additive}
 
 ## Why is Sodium acetate added to food?
 Food makers use sodium acetate to slow the growth of spoilage organisms, especially in acidic foods, and to keep the food’s pH (acidity) steady over shelf life.^[1] It also adds a clean, tangy note that supports “salt and vinegar” profiles in snacks and seasonings.^[1]
@@ -26,9 +26,9 @@ In the EU, E262 (sodium acetate and sodium diacetate) is an approved food additi
 
 ## What can replace Sodium acetate?
 Depending on the job it’s doing, common substitutes include:
-- For tangy flavor or acidity: [acetic acid](/e260-acetic-acid), [citric acid](/e330-citric-acid)
-- For preservation in acidic foods: [sodium diacetate](/e262ii-sodium-diacetate), [potassium sorbate](/e202-potassium-sorbate), [sodium benzoate](/e211-sodium-benzoate)
-- For buffering/acidity control: [potassium acetate](/e261-potassium-acetate), [citric acid](/e330-citric-acid)
+- For tangy flavor or acidity: [acetic acid](/e260-acetic-acid){.additive}, [citric acid](/e330-citric-acid){.additive}
+- For preservation in acidic foods: [sodium diacetate](/e262ii-sodium-diacetate){.additive}, [potassium sorbate](/e202-potassium-sorbate){.additive}, [sodium benzoate](/e211-sodium-benzoate){.additive}
+- For buffering/acidity control: [potassium acetate](/e261-potassium-acetate){.additive}, [citric acid](/e330-citric-acid){.additive}
 
 ## How is Sodium acetate made?
 Food‑grade sodium acetate is made by neutralizing acetic acid with a sodium base such as sodium hydroxide or sodium carbonate, then crystallizing and drying the product (produced as anhydrous or as a trihydrate). Specifications and purity criteria for E262(i) are set in EU regulation.^[3]

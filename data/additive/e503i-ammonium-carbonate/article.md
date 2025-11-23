@@ -27,9 +27,9 @@ You’ll most often see it in:
 It’s less common in thick or moist cakes, where ammonia can be trapped and leave an odor if the item doesn’t bake dry.
 
 ## What can replace Ammonium carbonate?
-- Baking soda: [sodium bicarbonate](/e500ii-sodium-bicarbonate) is the closest everyday swap. It often needs an acid (like [citric acid](/e330-citric-acid)) to work well.
-- Baking powder: A blend of [sodium bicarbonate](/e500ii-sodium-bicarbonate) plus acid salts (such as [disodium diphosphate](/e450i-disodium-diphosphate), [monocalcium phosphate](/e341i-monocalcium-phosphate), or [sodium aluminium phosphate](/e541-sodium-aluminium-phosphate)).
-- [Ammonium hydrogen carbonate (ammonium bicarbonate)](/e503ii-ammonium-hydrogen-carbonate): Very similar performance; often used interchangeably in dry biscuits.
+- Baking soda: [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive} is the closest everyday swap. It often needs an acid (like [citric acid](/e330-citric-acid){.additive}) to work well.
+- Baking powder: A blend of [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive} plus acid salts (such as [disodium diphosphate](/e450i-disodium-diphosphate){.additive}, [monocalcium phosphate](/e341i-monocalcium-phosphate){.additive}, or [sodium aluminium phosphate](/e541-sodium-aluminium-phosphate){.additive}).
+- [Ammonium hydrogen carbonate (ammonium bicarbonate)](/e503ii-ammonium-hydrogen-carbonate){.additive}: Very similar performance; often used interchangeably in dry biscuits.
 
 Note: These swaps can change texture or flavor. Baking soda and baking powder may leave a slight alkaline “baking soda” note and can produce a less glassy snap than ammonium carbonate in very dry bakes.
 
@@ -54,7 +54,7 @@ If you have a medical condition requiring unique dietary restrictions, follow yo
 
 ## Myths & facts
 - Myth: It leaves ammonia in the food. Fact: In properly baked thin and dry products, the gases evaporate and odor does not remain.
-- Myth: It’s the same as ammonium bicarbonate. Fact: E503 covers a family; E503i is ammonium carbonate, while [E503ii is ammonium hydrogen carbonate](/e503ii-ammonium-hydrogen-carbonate).
+- Myth: It’s the same as ammonium bicarbonate. Fact: E503 covers a family; E503i is ammonium carbonate, while [E503ii is ammonium hydrogen carbonate](/e503ii-ammonium-hydrogen-carbonate){.additive}.
 - Myth: It isn’t allowed in the U.S. Fact: The FDA lists ammonium carbonate as GRAS when used according to GMP.[^3]
 
 ## Ammonium carbonate in branded foods
@@ -63,7 +63,7 @@ On ingredient lists, look for:
 - “Baker’s ammonia”
 - E-number forms: “E503” or “E503i”
 
-You’ll typically find it in crispy biscuits, wafers, and crackers. Many classic European-style cookies use it for their signature snap. Some labels may instead list the broader category “[ammonium carbonates](/e503-ammonium-carbonates).”
+You’ll typically find it in crispy biscuits, wafers, and crackers. Many classic European-style cookies use it for their signature snap. Some labels may instead list the broader category “[ammonium carbonates](/e503-ammonium-carbonates){.additive}.”
 
 ## References
 [^1]: Ammonium carbonate — PubChem (NIH). https://pubchem.ncbi.nlm.nih.gov/compound/Ammonium-carbonate

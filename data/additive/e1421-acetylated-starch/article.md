@@ -24,10 +24,10 @@ In the United States, “food starch-modified” (which includes starch acetate)
 
 ## What can replace Acetylated starch?
 Depending on the recipe and process, similar results can come from:
-- Other modified starches such as [oxidised starch](/e1404-oxidised-starch), [distarch phosphate](/e1412-distarch-phosphate), or [acetylated distarch phosphate](/e1414-acetylated-distarch-phosphate)
-- Hydrocolloid gums like [xanthan gum](/e415-xanthan-gum), [guar gum](/e412-guar-gum), [pectins](/e440-pectins), [carrageenan](/e407-carrageenan), or [acacia gum](/e414-acacia-gum)
-- Cellulose-based thickeners such as [microcrystalline cellulose](/e460i-microcrystalline-cellulose)
-- Seaweed-derived alginates like [sodium alginate](/e401-sodium-alginate)
+- Other modified starches such as [oxidised starch](/e1404-oxidised-starch){.additive}, [distarch phosphate](/e1412-distarch-phosphate){.additive}, or [acetylated distarch phosphate](/e1414-acetylated-distarch-phosphate){.additive}
+- Hydrocolloid gums like [xanthan gum](/e415-xanthan-gum){.additive}, [guar gum](/e412-guar-gum){.additive}, [pectins](/e440-pectins){.additive}, [carrageenan](/e407-carrageenan){.additive}, or [acacia gum](/e414-acacia-gum){.additive}
+- Cellulose-based thickeners such as [microcrystalline cellulose](/e460i-microcrystalline-cellulose){.additive}
+- Seaweed-derived alginates like [sodium alginate](/e401-sodium-alginate){.additive}
 
 The best substitute depends on factors such as pH, salt, sugar, heat treatment, freeze–thaw cycles, and desired mouthfeel.
 

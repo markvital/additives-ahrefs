@@ -25,13 +25,13 @@ You’re most likely to find it in products marketed as “reduced sodium” or 
 - Cheeses and cheese brines, pickles, and olives
 - Savory snacks and seasonings
 
-In some gels and dairy desserts, it may be paired with gelling agents like [carrageenan](/e407-carrageenan) or [sodium alginate](/e401-sodium-alginate).
+In some gels and dairy desserts, it may be paired with gelling agents like [carrageenan](/e407-carrageenan){.additive} or [sodium alginate](/e401-sodium-alginate){.additive}.
 
 ## What can replace Potassium chloride?
 Swapping strategies depend on the food:
-- Flavor-first swaps: herbs, spices, garlic/onion powders, citrus zest, acids like [citric acid](/e330-citric-acid)
-- Other mineral salts: small amounts of [calcium chloride](/e509-calcium-chloride) or [magnesium chloride](/e511-magnesium-chloride) in brines
-- In meats and savory items: blends that include [potassium lactate](/e326-potassium-lactate), umami ingredients, or yeast extracts
+- Flavor-first swaps: herbs, spices, garlic/onion powders, citrus zest, acids like [citric acid](/e330-citric-acid){.additive}
+- Other mineral salts: small amounts of [calcium chloride](/e509-calcium-chloride){.additive} or [magnesium chloride](/e511-magnesium-chloride){.additive} in brines
+- In meats and savory items: blends that include [potassium lactate](/e326-potassium-lactate){.additive}, umami ingredients, or yeast extracts
 
 Most salt-reduction systems use a blend to balance taste and texture.
 
@@ -56,7 +56,7 @@ These conditions and medicines can raise blood potassium levels.[^5]
 - “It’s the same as table salt.” Fact: Table salt is sodium chloride; potassium chloride supplies potassium, not sodium.
 - “It always tastes bitter.” Fact: At high levels it can taste bitter, but blends and flavor tools can reduce that note.
 - “It’s a harsh chemical.” Fact: Potassium chloride is a naturally occurring mineral salt that is purified for food use.
-- “It preserves food like nitrite.” Fact: It doesn’t act like [sodium nitrite](/e250-sodium-nitrite); it’s used mainly for salty taste and formulation support.
+- “It preserves food like nitrite.” Fact: It doesn’t act like [sodium nitrite](/e250-sodium-nitrite){.additive}; it’s used mainly for salty taste and formulation support.
 
 ## Potassium chloride in branded foods
 You can spot it on ingredient lists of:

@@ -25,12 +25,12 @@ In the EU, E350 is an authorised food additive and may be used in a range of cat
 
 ## What can replace Sodium malates?
 Depending on the recipe, formulators may choose other acidity regulators or acidulants:
-- [citric acid](/e330-citric-acid) or [sodium citrates](/e331-sodium-citrates) for strong, bright acidity and buffering
-- [malic acid](/e296-malic-acid) for a more pronounced tart, fruity note
-- [fumaric acid](/e297-fumaric-acid) for very strong acidity with low solubility (useful in dry mixes)
-- [lactic acid](/e270-lactic-acid) for milder, dairy-like acidity
-- [L-tartaric acid](/e334-l-tartaric-acid) for some confectionery and beverage uses
-- For lower sodium, producers may switch to [calcium malates](/e352-calcium-malates) in suitable products
+- [citric acid](/e330-citric-acid){.additive} or [sodium citrates](/e331-sodium-citrates){.additive} for strong, bright acidity and buffering
+- [malic acid](/e296-malic-acid){.additive} for a more pronounced tart, fruity note
+- [fumaric acid](/e297-fumaric-acid){.additive} for very strong acidity with low solubility (useful in dry mixes)
+- [lactic acid](/e270-lactic-acid){.additive} for milder, dairy-like acidity
+- [L-tartaric acid](/e334-l-tartaric-acid){.additive} for some confectionery and beverage uses
+- For lower sodium, producers may switch to [calcium malates](/e352-calcium-malates){.additive} in suitable products
 
 ## How is Sodium malates made?
 Food-grade sodium malates are produced by neutralising food-grade malic acid with sodium hydroxide or sodium carbonate, then drying and screening the salt to specification.[^1] The EU sets identity and purity rules (including composition and contaminant limits) for E350 to ensure consistent quality.[^1]

@@ -29,9 +29,9 @@ Always check the ingredient list. In regions where it is allowed, it may appear 
 ## What can replace Brown ht?
 
 Depending on the food and the exact shade, manufacturers may use:
-- Caramel colors such as [caramel](/e150-caramel) (various E150 classes)
+- Caramel colors such as [caramel](/e150-caramel){.additive} (various E150 classes)
 - Cocoa powder (for both flavor and color)
-- Blends of permitted colors to create brown tones, for example [Allura Red](/e129-allura-red) with [Tartrazine](/e102-tartrazine) or small amounts of [Brilliant Blue FCF](/e133-brilliant-blue-fcf), adjusted to the desired shade
+- Blends of permitted colors to create brown tones, for example [Allura Red](/e129-allura-red){.additive} with [Tartrazine](/e102-tartrazine){.additive} or small amounts of [Brilliant Blue FCF](/e133-brilliant-blue-fcf){.additive}, adjusted to the desired shade
 - In some recipes, natural color sources (like roasted malt extracts) can contribute brown color
 
 ## How is Brown ht made?

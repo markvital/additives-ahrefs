@@ -10,7 +10,7 @@ Tara gum (E417) is a plant-based thickener and stabiliser made from the seeds of
 - On labels: Listed as “tara gum” or “E417.”
 
 ## Why is Tara gum added to food?
-Tara gum makes liquids thicker and creamier, so sauces cling better and desserts feel rich. It also keeps ingredients from separating and helps foods hold up to heat and freezing. It often works even better when paired with other gums like [xanthan gum](/e415-xanthan-gum) or [locust bean gum](/e410-locust-bean-gum), which can create a smoother, more stable texture.
+Tara gum makes liquids thicker and creamier, so sauces cling better and desserts feel rich. It also keeps ingredients from separating and helps foods hold up to heat and freezing. It often works even better when paired with other gums like [xanthan gum](/e415-xanthan-gum){.additive} or [locust bean gum](/e410-locust-bean-gum){.additive}, which can create a smoother, more stable texture.
 
 ## What foods contain Tara gum?
 You’ll commonly find tara gum in:
@@ -24,10 +24,10 @@ Not every product in these categories uses tara gum, but these are the places wh
 
 ## What can replace Tara gum?
 Depending on the recipe and texture you want, similar thickeners can stand in:
-- [Guar gum](/e412-guar-gum) for strong thickening in cold liquids
-- [Locust bean gum](/e410-locust-bean-gum) for creamy, gel-like textures
-- [Xanthan gum](/e415-xanthan-gum) for stable thickening across a wide pH and temperature range
-- [Carrageenan](/e407-carrageenan), [pectins](/e440-pectins), or [sodium alginate](/e401-sodium-alginate) for specific gel and stabilising needs
+- [Guar gum](/e412-guar-gum){.additive} for strong thickening in cold liquids
+- [Locust bean gum](/e410-locust-bean-gum){.additive} for creamy, gel-like textures
+- [Xanthan gum](/e415-xanthan-gum){.additive} for stable thickening across a wide pH and temperature range
+- [Carrageenan](/e407-carrageenan){.additive}, [pectins](/e440-pectins){.additive}, or [sodium alginate](/e401-sodium-alginate){.additive} for specific gel and stabilising needs
 
 Each behaves a bit differently, so small trials are often needed.
 
@@ -60,7 +60,7 @@ Most people can consume tara gum in normal food amounts. If you have been told t
   Fact: EFSA has evaluated tara gum as a food additive and found no safety concern at reported uses.[^2]
 
 ## Tara gum in branded foods
-Look for “tara gum” or “E417” in the ingredient list. It often appears alongside other texture helpers like [xanthan gum](/e415-xanthan-gum), [locust bean gum](/e410-locust-bean-gum), or [guar gum](/e412-guar-gum). If you’re comparing products, check similar items such as ice creams, sauces, or plant-based milks to see how common it is.
+Look for “tara gum” or “E417” in the ingredient list. It often appears alongside other texture helpers like [xanthan gum](/e415-xanthan-gum){.additive}, [locust bean gum](/e410-locust-bean-gum){.additive}, or [guar gum](/e412-guar-gum){.additive}. If you’re comparing products, check similar items such as ice creams, sauces, or plant-based milks to see how common it is.
 
 ## References
 [^1]: Commission Regulation (EU) No 231/2012 — Specifications for food additives. https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231

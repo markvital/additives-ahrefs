@@ -17,13 +17,13 @@ It is also allowed as a “safe and suitable” processing aid in meat and poult
 ## What foods contain Ammonium hydroxide?
 You’re most likely to encounter ammonium hydroxide indirectly:
 - Meat and poultry products that have been treated with it during processing as a pH control agent or antimicrobial processing aid (it may not appear on the label in these cases).[^2]
-- Foods and drinks colored with “ammonia process” caramel colors, such as some types of [ammonia caramel](/e150c-ammonia-caramel) or [sulphite ammonia caramel](/e150d-sulphite-ammonia-caramel).[^3]
+- Foods and drinks colored with “ammonia process” caramel colors, such as some types of [ammonia caramel](/e150c-ammonia-caramel){.additive} or [sulphite ammonia caramel](/e150d-sulphite-ammonia-caramel){.additive}.[^3]
 - Occasional use for pH adjustment in manufacturing of confections or other foods, as allowed under GMP.[^1]
 
 ## What can replace Ammonium hydroxide?
 Depending on the recipe and regulation, common alternatives for pH control include:
-- Alkaline options: [sodium carbonates](/e500-sodium-carbonates), [potassium carbonates](/e501-potassium-carbonates), [sodium bicarbonate](/e500ii-sodium-bicarbonate), [sodium hydroxide](/e524-sodium-hydroxide), or [potassium hydroxide](/e525-potassium-hydroxide).
-- Acidic options (to move pH the other direction): [citric acid](/e330-citric-acid) or [phosphoric acid](/e338-phosphoric-acid).
+- Alkaline options: [sodium carbonates](/e500-sodium-carbonates){.additive}, [potassium carbonates](/e501-potassium-carbonates){.additive}, [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive}, [sodium hydroxide](/e524-sodium-hydroxide){.additive}, or [potassium hydroxide](/e525-potassium-hydroxide){.additive}.
+- Acidic options (to move pH the other direction): [citric acid](/e330-citric-acid){.additive} or [phosphoric acid](/e338-phosphoric-acid){.additive}.
 
 The “best” swap depends on taste, texture, and labeling needs.
 
@@ -56,7 +56,7 @@ The amounts used in food are very small and are not expected to pose special ris
 ## Ammonium hydroxide in branded foods
 - How it appears: In the EU, it may be listed as “E527” or “ammonium hydroxide.” In the U.S., it may be listed by name when used as an ingredient; when used solely as a processing aid in meat and poultry, it may not appear on the label under USDA rules.[^2]
 - Where to look: Check ingredient lists on confectionery and specialty products, and be aware that some caramel-colored foods and beverages use caramel colors made with ammonium compounds.[^3]
-- Related labels: Leavening in baked goods is usually from ammonium salts like [ammonium carbonates](/e503-ammonium-carbonates), not ammonium hydroxide itself.
+- Related labels: Leavening in baked goods is usually from ammonium salts like [ammonium carbonates](/e503-ammonium-carbonates){.additive}, not ammonium hydroxide itself.
 
 ## References
 [^1]: 21 CFR 184.1139 — Ammonium hydroxide. U.S. Food and Drug Administration (eCFR). https://www.ecfr.gov/current/title-21/part-184/section-184.1139

@@ -19,12 +19,12 @@ You may find E436 in certain baked goods and mixes, dessert mixes, icings, and w
 
 ## What can replace Polyoxyethylene sorbitan tristearate?
 Depending on the recipe and label needs, common substitutes include:
-- Other polysorbates such as [polyoxyethylene sorbitan monooleate](/e433-polyoxyethylene-sorbitan-monooleate) or [polyoxyethylene sorbitan monostearate](/e435-polyoxyethylene-sorbitan-monostearate)
-- [Mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids)
-- [Lecithins](/e322-lecithins) from soy or sunflower
-- [Sucrose esters of fatty acids](/e473-sucrose-esters-of-fatty-acids)
-- [Polyglycerol polyricinoleate](/e476-polyglycerol-polyricinoleate) for some chocolate and confectionery systems
-- Hydrocolloids that help stabilize emulsions, such as [xanthan gum](/e415-xanthan-gum) or [guar gum](/e412-guar-gum)
+- Other polysorbates such as [polyoxyethylene sorbitan monooleate](/e433-polyoxyethylene-sorbitan-monooleate){.additive} or [polyoxyethylene sorbitan monostearate](/e435-polyoxyethylene-sorbitan-monostearate){.additive}
+- [Mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive}
+- [Lecithins](/e322-lecithins){.additive} from soy or sunflower
+- [Sucrose esters of fatty acids](/e473-sucrose-esters-of-fatty-acids){.additive}
+- [Polyglycerol polyricinoleate](/e476-polyglycerol-polyricinoleate){.additive} for some chocolate and confectionery systems
+- Hydrocolloids that help stabilize emulsions, such as [xanthan gum](/e415-xanthan-gum){.additive} or [guar gum](/e412-guar-gum){.additive}
 
 ## How is Polyoxyethylene sorbitan tristearate made?
 Polysorbate 65 is made in steps. First, sorbitol (a sugar alcohol) is turned into sorbitan, which is then esterified with stearic acid to form sorbitan tristearate. Next, ethylene oxide is added to give the “polyoxyethylene” chains. The result is polyoxyethylene (about 20 units) sorbitan tristearate, made to meet strict purity specifications in the EU additive rulebook.[^2]

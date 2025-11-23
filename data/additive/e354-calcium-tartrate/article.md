@@ -17,8 +17,8 @@ In the EU, its use is limited to specific food categories and levels listed in t
 
 ## What can replace calcium tartrate?
 Depending on the recipe and goal, formulators may consider:
-- Other tartrates: [L(+)-tartaric acid](/e334-l-tartaric-acid), [sodium tartrates](/e335-sodium-tartrates), or [potassium tartrates](/e336-potassium-tartrates).
-- Alternative acidity regulators: [citric acid](/e330-citric-acid), [malic acid](/e296-malic-acid), or [lactic acid](/e270-lactic-acid).
+- Other tartrates: [L(+)-tartaric acid](/e334-l-tartaric-acid){.additive}, [sodium tartrates](/e335-sodium-tartrates){.additive}, or [potassium tartrates](/e336-potassium-tartrates){.additive}.
+- Alternative acidity regulators: [citric acid](/e330-citric-acid){.additive}, [malic acid](/e296-malic-acid){.additive}, or [lactic acid](/e270-lactic-acid){.additive}.
 
 ## How is calcium tartrate made?
 Food‑grade calcium tartrate is produced from L(+)-tartaric acid and a permitted calcium source (such as calcium hydroxide or calcium carbonate), then purified to meet identity and purity criteria. EU specifications require the L(+) configuration and set limits for contaminants to ensure consistent quality.[^1]

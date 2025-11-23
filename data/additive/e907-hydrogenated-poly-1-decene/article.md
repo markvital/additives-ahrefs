@@ -16,11 +16,11 @@ You’ll most often find E907 in items that benefit from a smooth, shiny surface
 
 ## What can replace Hydrogenated poly-1-decene?
 Food makers can choose other glazing or surface treatment agents depending on the product and label goals:
-- Plant waxes such as [carnauba wax](/e903-carnauba-wax)
-- Resin-based coatings like [shellac](/e904-shellac)
-- Bee-derived waxes such as [white and yellow beeswax](/e901-white-and-yellow-beeswax)
-- Petroleum-derived waxes like [microcrystalline wax](/e905ci-microcrystalline-wax)
-- Other specialty coatings such as [montanic acid esters](/e912-montanic-acid-esters)
+- Plant waxes such as [carnauba wax](/e903-carnauba-wax){.additive}
+- Resin-based coatings like [shellac](/e904-shellac){.additive}
+- Bee-derived waxes such as [white and yellow beeswax](/e901-white-and-yellow-beeswax){.additive}
+- Petroleum-derived waxes like [microcrystalline wax](/e905ci-microcrystalline-wax){.additive}
+- Other specialty coatings such as [montanic acid esters](/e912-montanic-acid-esters){.additive}
 
 ## How is Hydrogenated poly-1-decene made?
 E907 is produced by first polymerizing 1-decene (a simple hydrocarbon) into a mixture of higher molecular weight molecules and then hydrogenating (adding hydrogen to) that mixture. Hydrogenation saturates the molecules, yielding a stable, food-grade crystalline wax with defined purity and composition criteria in EU specifications.[^1]

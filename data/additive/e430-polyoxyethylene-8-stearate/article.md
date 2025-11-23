@@ -23,12 +23,12 @@ Exact use depends on the recipe and the rules in each market. In the EU, permitt
 
 ## What can replace E430?
 Several other emulsifiers and stabilizers can serve similar roles, depending on the food:
-- Lecithins, often from soy or sunflower: [lecithins](/e322-lecithins)
-- Glycerides: [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids)
-- Polysorbates: [polysorbate 20](/e432-polyoxyethylene-sorbitan-monolaurate), [polysorbate 80](/e433-polyoxyethylene-sorbitan-monooleate), [polysorbate 40](/e434-polyoxyethylene-sorbitan-monopalmitate), [polysorbate 60](/e435-polyoxyethylene-sorbitan-monostearate), [polysorbate 65](/e436-polyoxyethylene-sorbitan-tristearate)
-- Sugar-based emulsifiers: [sucrose esters of fatty acids](/e473-sucrose-esters-of-fatty-acids)
-- Lactylates for doughs and whipped systems: [sodium stearoyl-2-lactylate](/e481-sodium-stearoyl-2-lactylate), [calcium stearoyl-2-lactylate](/e482-calcium-stearoyl-2-lactylate)
-- Hydrocolloids for thickness and stability: [xanthan gum](/e415-xanthan-gum), [carrageenan](/e407-carrageenan), or [cellulose](/e460-cellulose)
+- Lecithins, often from soy or sunflower: [lecithins](/e322-lecithins){.additive}
+- Glycerides: [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive}
+- Polysorbates: [polysorbate 20](/e432-polyoxyethylene-sorbitan-monolaurate){.additive}, [polysorbate 80](/e433-polyoxyethylene-sorbitan-monooleate){.additive}, [polysorbate 40](/e434-polyoxyethylene-sorbitan-monopalmitate){.additive}, [polysorbate 60](/e435-polyoxyethylene-sorbitan-monostearate){.additive}, [polysorbate 65](/e436-polyoxyethylene-sorbitan-tristearate){.additive}
+- Sugar-based emulsifiers: [sucrose esters of fatty acids](/e473-sucrose-esters-of-fatty-acids){.additive}
+- Lactylates for doughs and whipped systems: [sodium stearoyl-2-lactylate](/e481-sodium-stearoyl-2-lactylate){.additive}, [calcium stearoyl-2-lactylate](/e482-calcium-stearoyl-2-lactylate){.additive}
+- Hydrocolloids for thickness and stability: [xanthan gum](/e415-xanthan-gum){.additive}, [carrageenan](/e407-carrageenan){.additive}, or [cellulose](/e460-cellulose){.additive}
 
 ## How is E430 made?
 E430 is a defined mixture of mono- and di-esters formed from food-grade stearic acid and polyoxyethylene glycols (a type of polyethylene glycol), producing an average of eight oxyethylene units per molecule.[^1] Its composition and purity, including limits on by-products, are set in the EU food additive specifications.[^1]

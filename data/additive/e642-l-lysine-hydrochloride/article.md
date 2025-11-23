@@ -26,8 +26,8 @@ In the U.S., its use as a nutrient supplement is permitted across food categorie
 
 ## What can replace L-lysine hydrochloride?
 Possible substitutes depend on the goal:
-- For taste enhancement in savory foods: [monosodium glutamate](/e621-monosodium-glutamate), [disodium inosinate](/e631-disodium-inosinate), or [disodium guanylate](/e627-disodium-guanylate)
-- For smoothing or rounding flavors in some formulas: [glycine and its sodium salt](/e640-glycine-and-its-sodium-salt)
+- For taste enhancement in savory foods: [monosodium glutamate](/e621-monosodium-glutamate){.additive}, [disodium inosinate](/e631-disodium-inosinate){.additive}, or [disodium guanylate](/e627-disodium-guanylate){.additive}
+- For smoothing or rounding flavors in some formulas: [glycine and its sodium salt](/e640-glycine-and-its-sodium-salt){.additive}
 - For nutrition/fortification: other amino acids or protein ingredients (e.g., whey, soy, pea) to raise overall lysine content
 
 ## How is L-lysine hydrochloride made?

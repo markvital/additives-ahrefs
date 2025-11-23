@@ -28,10 +28,10 @@ On labels, it may appear as “sodium hydroxide,” “lye,” or “E524.”
 
 ## What can replace Sodium hydroxide?
 Depending on the job, alternatives include:
-- For alkaline doughs and browning: [sodium carbonate](/e500i-sodium-carbonate) or [sodium bicarbonate](/e500ii-sodium-bicarbonate) can mimic some effects, though they are gentler than lye.
-- For alkaline processing or nixtamalization-style treatments: [calcium hydroxide](/e526-calcium-hydroxide) (also called pickling lime) is a common substitute in traditional grain processing.
-- For pH control toward the acidic side: [citric acid](/e330-citric-acid), [lactic acid](/e270-lactic-acid), or [sodium citrates](/e331-sodium-citrates) are frequently used.
-- In some formulations, buffered systems such as [sodium phosphates](/e339-sodium-phosphates) can help manage pH and texture.
+- For alkaline doughs and browning: [sodium carbonate](/e500i-sodium-carbonate){.additive} or [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive} can mimic some effects, though they are gentler than lye.
+- For alkaline processing or nixtamalization-style treatments: [calcium hydroxide](/e526-calcium-hydroxide){.additive} (also called pickling lime) is a common substitute in traditional grain processing.
+- For pH control toward the acidic side: [citric acid](/e330-citric-acid){.additive}, [lactic acid](/e270-lactic-acid){.additive}, or [sodium citrates](/e331-sodium-citrates){.additive} are frequently used.
+- In some formulations, buffered systems such as [sodium phosphates](/e339-sodium-phosphates){.additive} can help manage pH and texture.
 
 Swapping in an alternative depends on the target pH, flavor impact, texture, and any regulatory or label needs.
 

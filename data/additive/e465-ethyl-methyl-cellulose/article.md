@@ -12,7 +12,7 @@ Ethyl methyl cellulose (E465) is a plant-based thickener and stabiliser made by 
 ## Why is Ethyl methyl cellulose added to food?
 Food makers use E465 to manage texture and stability. It thickens water-based systems, helps oil and water stay mixed, and reduces ice crystal growth in frozen products. It can also form clear, flexible films that hold glazes and coatings in place. These traits help products look and feel the same from batch to batch, even after heating, cooling, or transport.
 
-E465 works well alongside other hydrocolloids like [xanthan gum](/e415-xanthan-gum), [guar gum](/e412-guar-gum), and [pectins](/e440-pectins), allowing formulators to fine-tune thickness and mouthfeel.
+E465 works well alongside other hydrocolloids like [xanthan gum](/e415-xanthan-gum){.additive}, [guar gum](/e412-guar-gum){.additive}, and [pectins](/e440-pectins){.additive}, allowing formulators to fine-tune thickness and mouthfeel.
 
 ## What foods contain Ethyl methyl cellulose?
 You may find E465 in:
@@ -27,10 +27,10 @@ On labels it may appear as “Ethyl methyl cellulose,” “Ethylmethylcellulose
 
 ## What can replace Ethyl methyl cellulose?
 Alternatives depend on the job you need done:
-- For general thickening: [xanthan gum](/e415-xanthan-gum), [guar gum](/e412-guar-gum), [carrageenan](/e407-carrageenan), [pectins](/e440-pectins)
-- For emulsion stability: [xanthan gum](/e415-xanthan-gum) plus [lecithins](/e322-lecithins)
-- For film-forming and glaze/body: [methyl cellulose](/e461-methyl-cellulose) or [hydroxypropyl methyl cellulose](/e464-hydroxypropyl-methyl-cellulose)
-- For thickening in acidic systems: [sodium carboxy methyl cellulose](/e466-sodium-carboxy-methyl-cellulose)
+- For general thickening: [xanthan gum](/e415-xanthan-gum){.additive}, [guar gum](/e412-guar-gum){.additive}, [carrageenan](/e407-carrageenan){.additive}, [pectins](/e440-pectins){.additive}
+- For emulsion stability: [xanthan gum](/e415-xanthan-gum){.additive} plus [lecithins](/e322-lecithins){.additive}
+- For film-forming and glaze/body: [methyl cellulose](/e461-methyl-cellulose){.additive} or [hydroxypropyl methyl cellulose](/e464-hydroxypropyl-methyl-cellulose){.additive}
+- For thickening in acidic systems: [sodium carboxy methyl cellulose](/e466-sodium-carboxy-methyl-cellulose){.additive}
 
 Choosing a substitute often requires small trials to match the exact texture and processing needs.
 

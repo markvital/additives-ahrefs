@@ -26,8 +26,8 @@ It is not common in everyday grocery items, and many manufacturers choose other 
 ## What can replace ferric ammonium citrate?
 
 Depending on the job in the recipe, formulators might use:
-- Other iron sources, such as [iron gluconate](/e579-iron-gluconate) in some foods
-- For acidity adjustment or buffering, [citric acid](/e330-citric-acid) or [sodium citrates](/e331-sodium-citrates)
+- Other iron sources, such as [iron gluconate](/e579-iron-gluconate){.additive} in some foods
+- For acidity adjustment or buffering, [citric acid](/e330-citric-acid){.additive} or [sodium citrates](/e331-sodium-citrates){.additive}
 
 Choice depends on taste, solubility, color, cost, and the target amount of bioavailable iron.
 

@@ -20,8 +20,8 @@ You’re most likely to encounter peptone behind the scenes, for example in star
 ## What can replace peptone?
 When a nitrogen source is needed for fermentation or culture growth, manufacturers may use:
 - Yeast extract or autolyzed yeast
-- Amino acid sources like [glutamic acid](/e620-glutamic-acid) or [glycine](/e640i-glycine)
-- Mineral nutrients such as [ammonium phosphate](/e342-ammonium-phosphate)
+- Amino acid sources like [glutamic acid](/e620-glutamic-acid){.additive} or [glycine](/e640i-glycine){.additive}
+- Mineral nutrients such as [ammonium phosphate](/e342-ammonium-phosphate){.additive}
 - Complex protein hydrolysates from plant sources
 
 The best substitute depends on the microbe and the process target (growth rate, flavor development, or yield).

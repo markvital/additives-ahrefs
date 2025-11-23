@@ -25,11 +25,11 @@ Note: In the European Union, E425 is not permitted in jelly confectionery in min
 
 ## What can replace Konjac?
 Depending on the job, food makers may swap in:
-- [xanthan gum](/e415-xanthan-gum) for stable thickening at low levels
-- [guar gum](/e412-guar-gum) for cold‑process viscosity
-- [locust bean gum](/e410-locust-bean-gum) or [carrageenan](/e407-carrageenan) for creamy, elastic textures
-- [gellan gum](/e418-gellan-gum) or [agar](/e406-agar) for firm gels
-- [pectins](/e440-pectins) for fruit systems and jams
+- [xanthan gum](/e415-xanthan-gum){.additive} for stable thickening at low levels
+- [guar gum](/e412-guar-gum){.additive} for cold‑process viscosity
+- [locust bean gum](/e410-locust-bean-gum){.additive} or [carrageenan](/e407-carrageenan){.additive} for creamy, elastic textures
+- [gellan gum](/e418-gellan-gum){.additive} or [agar](/e406-agar){.additive} for firm gels
+- [pectins](/e440-pectins){.additive} for fruit systems and jams
 
 Blends are common: for example, konjac with xanthan or carrageenan can fine‑tune body, gel strength, and freeze‑thaw stability.
 
@@ -55,7 +55,7 @@ These opinions apply to glucomannan as a fiber ingredient, not specifically to e
 ## Myths & facts
 - Myth: “Konjac jelly mini‑cups are safe for kids because they’re plant‑based.” Fact: The plant origin doesn’t remove choking risk; these products are restricted or banned in several jurisdictions.[^2][^3]
 - Myth: “More konjac is always better.” Fact: Excess fiber can cause digestive discomfort, and certain formats (like dry tablets) can be unsafe if not taken with enough water.[^5]
-- Myth: “Konjac works the same in every recipe.” Fact: Its texture depends on pH, temperature, ions, and partners like [xanthan gum](/e415-xanthan-gum) or [carrageenan](/e407-carrageenan), so formulators adjust blends and use levels.
+- Myth: “Konjac works the same in every recipe.” Fact: Its texture depends on pH, temperature, ions, and partners like [xanthan gum](/e415-xanthan-gum){.additive} or [carrageenan](/e407-carrageenan){.additive}, so formulators adjust blends and use levels.
 
 ## Konjac in branded foods
 You’ll find konjac on labels as “konjac,” “konjac gum,” “glucomannan,” or “konjac flour.” It appears in:

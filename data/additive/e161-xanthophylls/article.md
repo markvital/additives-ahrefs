@@ -5,7 +5,7 @@ Xanthophylls (E161) are natural yellow to orange-red pigments from the carotenoi
 ## At a glance
 - What it is: A group of oxygen-containing carotenoids used as food colors
 - The look: Yellow to orange-red shades
-- Common members: [lutein](/e161b-lutein), [zeaxanthin](/e161h-zeaxanthin), [canthaxanthin](/e161g-canthaxanthin), [astaxanthin](/e161j-astaxanthin)
+- Common members: [lutein](/e161b-lutein){.additive}, [zeaxanthin](/e161h-zeaxanthin){.additive}, [canthaxanthin](/e161g-canthaxanthin){.additive}, [astaxanthin](/e161j-astaxanthin){.additive}
 - Where it comes from: Plant extracts (like marigold flowers), microalgae, or chemical synthesis
 - On the label: “Xanthophylls,” “E161,” or the specific name, such as “lutein (E161b)”
 
@@ -17,10 +17,10 @@ You will see xanthophylls used as added colors in items like beverages, desserts
 
 ## What can replace Xanthophylls?
 Depending on the shade and the recipe, possible alternatives include:
-- [beta-carotene](/e160ai-beta-carotene) or mixed [carotenoids](/e160-carotenoids) for yellow‑orange tones
-- [annatto](/e160b-annatto) or [paprika extract](/e160c-paprika-extract) for orange to red
-- [curcumin](/e100-curcumin) for bright yellow
-- [plain caramel](/e150a-plain-caramel) for brown and amber
+- [beta-carotene](/e160ai-beta-carotene){.additive} or mixed [carotenoids](/e160-carotenoids){.additive} for yellow‑orange tones
+- [annatto](/e160b-annatto){.additive} or [paprika extract](/e160c-paprika-extract){.additive} for orange to red
+- [curcumin](/e100-curcumin){.additive} for bright yellow
+- [plain caramel](/e150a-plain-caramel){.additive} for brown and amber
 
 ## How is Xanthophylls made?
 There are several routes, depending on the specific xanthophyll:
@@ -48,7 +48,7 @@ In foods, their main benefit is color. In the body, lutein and zeaxanthin are pi
 ## Xanthophylls in branded foods
 On labels you might see:
 - “Xanthophylls (E161)” as a group name in some markets
-- A specific name, such as “[lutein (E161b)](/e161b-lutein),” “[zeaxanthin (E161h)](/e161h-zeaxanthin),” “[canthaxanthin (E161g)](/e161g-canthaxanthin),” or “[astaxanthin (E161j)](/e161j-astaxanthin)”
+- A specific name, such as “[lutein (E161b)](/e161b-lutein){.additive},” “[zeaxanthin (E161h)](/e161h-zeaxanthin){.additive},” “[canthaxanthin (E161g)](/e161g-canthaxanthin){.additive},” or “[astaxanthin (E161j)](/e161j-astaxanthin){.additive}”
 - A source description like “lutein (from marigold)” or “astaxanthin (from microalgae)”
 
 ## References

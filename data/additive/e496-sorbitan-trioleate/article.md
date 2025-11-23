@@ -19,11 +19,11 @@ In the EU, sorbitan trioleate has official specifications and is authorized as a
 
 ## What can replace Sorbitan trioleate?
 The best substitute depends on the recipe, pH, and fat content. Common alternatives include:
-- Other sorbitan esters such as [sorbitan monooleate](/e494-sorbitan-monooleate) or [sorbitan tristearate](/e492-sorbitan-tristearate)
-- [Mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids)
-- [Lecithins](/e322-lecithins) (often from soy or sunflower)
-- Polysorbates such as [polyoxyethylene sorbitan monooleate](/e433-polyoxyethylene-sorbitan-monooleate)
-- Application-specific emulsifiers like [polyglycerol polyricinoleate](/e476-polyglycerol-polyricinoleate) for some oil-in-water systems
+- Other sorbitan esters such as [sorbitan monooleate](/e494-sorbitan-monooleate){.additive} or [sorbitan tristearate](/e492-sorbitan-tristearate){.additive}
+- [Mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive}
+- [Lecithins](/e322-lecithins){.additive} (often from soy or sunflower)
+- Polysorbates such as [polyoxyethylene sorbitan monooleate](/e433-polyoxyethylene-sorbitan-monooleate){.additive}
+- Application-specific emulsifiers like [polyglycerol polyricinoleate](/e476-polyglycerol-polyricinoleate){.additive} for some oil-in-water systems
 
 Formulators often test blends to match the stability and mouthfeel of the original product.
 

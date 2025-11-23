@@ -13,7 +13,7 @@ Calcium gluconate (E578) is a calcium salt of gluconic acid used in food as a st
 ## Why is calcium gluconate added to food?
 Food makers use calcium gluconate mainly as a sequestrant. A sequestrant ties up trace metals such as iron and copper that can cause off-flavors, discoloration, or oxidation. It can also act as a stabilizer and firming agent in some recipes, and as a mild calcium fortifier with little impact on taste.[^1] In the European Union (EU), it is listed as E578 with official purity specifications for its use as a food additive.[^2]
 
-Calcium gluconate belongs to the same “gluconates” family as [gluconic acid](/e574-gluconic-acid), [glucono-delta-lactone](/e575-glucono-delta-lactone), [sodium gluconate](/e576-sodium-gluconate), [potassium gluconate](/e577-potassium-gluconate), and [iron gluconate](/e579-iron-gluconate). These ingredients share similar functions, mainly stabilizing foods and controlling reactions linked to metals.[^1]
+Calcium gluconate belongs to the same “gluconates” family as [gluconic acid](/e574-gluconic-acid){.additive}, [glucono-delta-lactone](/e575-glucono-delta-lactone){.additive}, [sodium gluconate](/e576-sodium-gluconate){.additive}, [potassium gluconate](/e577-potassium-gluconate){.additive}, and [iron gluconate](/e579-iron-gluconate){.additive}. These ingredients share similar functions, mainly stabilizing foods and controlling reactions linked to metals.[^1]
 
 ## What foods contain calcium gluconate?
 You may find calcium gluconate in:
@@ -27,8 +27,8 @@ Label wording usually says “calcium gluconate” or “E578.”
 
 ## What can replace calcium gluconate?
 Possible substitutes depend on why it is used:
-- For firming/mineral addition: [calcium chloride](/e509-calcium-chloride), [calcium lactate](/e327-calcium-lactate), [calcium carbonate](/e170-calcium-carbonates), or [calcium phosphates](/e341-calcium-phosphates)
-- For sequestration or acidity control: [citric acid](/e330-citric-acid), [sodium citrates](/e331-sodium-citrates), or [calcium disodium EDTA](/e385-calcium-disodium-ethylenediaminetetraacetate) in applications where permitted
+- For firming/mineral addition: [calcium chloride](/e509-calcium-chloride){.additive}, [calcium lactate](/e327-calcium-lactate){.additive}, [calcium carbonate](/e170-calcium-carbonates){.additive}, or [calcium phosphates](/e341-calcium-phosphates){.additive}
+- For sequestration or acidity control: [citric acid](/e330-citric-acid){.additive}, [sodium citrates](/e331-sodium-citrates){.additive}, or [calcium disodium EDTA](/e385-calcium-disodium-ethylenediaminetetraacetate){.additive} in applications where permitted
 
 The best choice depends on taste, solubility, label goals, and local rules.
 

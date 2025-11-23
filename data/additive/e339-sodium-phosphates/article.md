@@ -14,14 +14,14 @@ Food makers use sodium phosphates because they solve several practical problems 
 - Emulsifying: they help fat and water stay mixed, which is vital in processed cheese and creamy sauces.
 - Water binding: they hold moisture in meats and seafood, improving juiciness and yield during cooking.
 - Sequestration: by tying up trace metals, they slow oxidation that can cause off-flavors.
-- Leavening support: they can work with alkaline leaveners like [sodium bicarbonate](/e500ii-sodium-bicarbonate) to control gas release in baked goods.
+- Leavening support: they can work with alkaline leaveners like [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive} to control gas release in baked goods.
 - Process efficiency: consistent pH and texture make manufacturing more reliable.
 
 ## What foods contain Sodium phosphates?
 You’re most likely to find E339 in:
 - Processed and spreadable cheeses, and cheese sauces (used as “emulsifying salts” to ensure smooth melt and stable texture). U.S. standards for pasteurized process cheese list sodium phosphate among permitted emulsifying salts.[^4]
 - Processed meats and poultry products, where it helps retain moisture and tenderness.
-- Baked goods and mixes, often alongside [sodium carbonates](/e500-sodium-carbonates) and related phosphate leavening acids.
+- Baked goods and mixes, often alongside [sodium carbonates](/e500-sodium-carbonates){.additive} and related phosphate leavening acids.
 - Dairy products and creamers, where it helps manage acidity and protein stability.
 - Powdered drinks, instant puddings, and other mixes for pH control and dispersion.
 
@@ -29,15 +29,15 @@ On labels, look for “monosodium phosphate,” “disodium phosphate,” or “
 
 ## What can replace Sodium phosphates?
 Depending on the job, formulators may use:
-- Other emulsifying salts and buffers: [sodium citrates](/e331-sodium-citrates).
-- Other phosphates: [diphosphates](/e450-diphosphates), [triphosphates](/e451-triphosphates), or [polyphosphates](/e452-polyphosphates).
-- Acidulants and buffers for pH: [citric acid](/e330-citric-acid).
-- Alternate leavening systems: combinations of [sodium bicarbonate](/e500ii-sodium-bicarbonate) with suitable acid salts.
+- Other emulsifying salts and buffers: [sodium citrates](/e331-sodium-citrates){.additive}.
+- Other phosphates: [diphosphates](/e450-diphosphates){.additive}, [triphosphates](/e451-triphosphates){.additive}, or [polyphosphates](/e452-polyphosphates){.additive}.
+- Acidulants and buffers for pH: [citric acid](/e330-citric-acid){.additive}.
+- Alternate leavening systems: combinations of [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive} with suitable acid salts.
 
 The best substitute depends on whether you need pH control, emulsification, moisture binding, or leavening.
 
 ## How is Sodium phosphates made?
-Commercial sodium phosphates are produced by neutralizing food-grade [phosphoric acid](/e338-phosphoric-acid) with alkaline sodium sources such as [sodium hydroxide](/e524-sodium-hydroxide), [sodium carbonates](/e500-sodium-carbonates), or sodium bicarbonate, then drying and milling to specification.[^1]
+Commercial sodium phosphates are produced by neutralizing food-grade [phosphoric acid](/e338-phosphoric-acid){.additive} with alkaline sodium sources such as [sodium hydroxide](/e524-sodium-hydroxide){.additive}, [sodium carbonates](/e500-sodium-carbonates){.additive}, or sodium bicarbonate, then drying and milling to specification.[^1]
 
 ## Is Sodium phosphates safe to eat?
 - European Union: EFSA (European Food Safety Authority) re-evaluated phosphates used as additives (E 338–341, E 343, E 450–452) and set a group Acceptable Daily Intake (ADI) of 40 mg/kg body weight per day, expressed as phosphorus, from all phosphate additives combined.[^2] This ADI is intended to cover typical uses across many foods.
@@ -64,7 +64,7 @@ As with many additives, overall exposure depends on how much processed food you 
 ## Sodium phosphates in branded foods
 - How it appears on labels: monosodium phosphate, disodium phosphate, trisodium phosphate, or E339.
 - Where to spot it: ingredient lists of processed cheeses, meat and poultry products, baking mixes, cheese sauces, creamers, and powdered beverages.
-- Shopping tip: If you’re managing phosphorus intake, compare similar products—some use [sodium citrates](/e331-sodium-citrates) or lower overall phosphate levels.
+- Shopping tip: If you’re managing phosphorus intake, compare similar products—some use [sodium citrates](/e331-sodium-citrates){.additive} or lower overall phosphate levels.
 
 ## References
 [^1]: Commission Regulation (EU) No 231/2012 — Specifications for food additives. EUR-Lex. https://eur-lex.europa.eu/eli/reg/2012/231/oj

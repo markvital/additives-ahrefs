@@ -12,7 +12,7 @@ Potassium acetate (E261) is a food additive used to control acidity and help pre
 ## Why is Potassium acetate added to food?
 Food makers use potassium acetate to adjust and stabilize a product’s acidity (pH). Stable pH helps keep flavor consistent and can slow the growth of certain spoilage microbes, especially in sour or pickled foods.[^3] It is listed in EU specifications as a permitted acidity regulator and preservative under its E-number, E261.[^1]
 
-It can also work alongside related ingredients such as [acetic acid](/e260-acetic-acid) and [sodium acetates](/e262-sodium-acetates) to “buffer” acidity so it doesn’t swing too far during storage or heating.[^3]
+It can also work alongside related ingredients such as [acetic acid](/e260-acetic-acid){.additive} and [sodium acetates](/e262-sodium-acetates){.additive} to “buffer” acidity so it doesn’t swing too far during storage or heating.[^3]
 
 ## What foods contain Potassium acetate?
 You’re most likely to find potassium acetate in:
@@ -25,10 +25,10 @@ In the EU, acetic acid and its salts (E260–E263) are authorized in many food c
 
 ## What can replace Potassium acetate?
 Possible substitutes depend on the recipe and target pH:
-- Other acetates: [acetic acid](/e260-acetic-acid) or [sodium acetates](/e262-sodium-acetates)
-- Other acidulants: [citric acid](/e330-citric-acid), [lactic acid](/e270-lactic-acid), or [malic acid](/e296-malic-acid)
-- Preservatives for similar roles: [potassium sorbate](/e202-potassium-sorbate), [sorbic acid](/e200-sorbic-acid), [sodium benzoate](/e211-sodium-benzoate), or [propionic acid](/e280-propionic-acid)
-- For sodium-reduced recipes, potassium-based alternatives like [potassium lactate](/e326-potassium-lactate) are sometimes used
+- Other acetates: [acetic acid](/e260-acetic-acid){.additive} or [sodium acetates](/e262-sodium-acetates){.additive}
+- Other acidulants: [citric acid](/e330-citric-acid){.additive}, [lactic acid](/e270-lactic-acid){.additive}, or [malic acid](/e296-malic-acid){.additive}
+- Preservatives for similar roles: [potassium sorbate](/e202-potassium-sorbate){.additive}, [sorbic acid](/e200-sorbic-acid){.additive}, [sodium benzoate](/e211-sodium-benzoate){.additive}, or [propionic acid](/e280-propionic-acid){.additive}
+- For sodium-reduced recipes, potassium-based alternatives like [potassium lactate](/e326-potassium-lactate){.additive} are sometimes used
 
 Each substitute changes flavor, salt balance, and label declarations, so formulators run trials to match taste and shelf life.
 

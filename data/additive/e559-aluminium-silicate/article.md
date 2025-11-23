@@ -16,17 +16,17 @@ Manufacturers add aluminium silicate to help powders stay dry and free-flowing. 
 ## What foods contain Aluminium silicate?
 You’re most likely to see E559 in dry, powdered products where caking is a concern, such as seasoning blends, drink mixes, or other shelf-stable powder blends. Its use is permitted in the EU under established purity specifications, and in the U.S. under GRAS conditions for suitable functions.[^2][^1]
 
-Because brands choose from several anti-caking options, E559 may be less common than alternatives like [silicon dioxide](/e551-silicon-dioxide) or [sodium aluminium silicate](/e554-sodium-aluminium-silicate) in some categories.
+Because brands choose from several anti-caking options, E559 may be less common than alternatives like [silicon dioxide](/e551-silicon-dioxide){.additive} or [sodium aluminium silicate](/e554-sodium-aluminium-silicate){.additive} in some categories.
 
 ## What can replace Aluminium silicate?
 Depending on the recipe and regulatory allowance, formulators might use:
-- [Silicon dioxide](/e551-silicon-dioxide)
-- [Calcium silicate](/e552-calcium-silicate)
-- [Magnesium silicates](/e553-magnesium-silicates) or [talc](/e553b-talc)
-- [Tricalcium phosphate](/e341iii-tricalcium-phosphate)
-- [Microcrystalline cellulose](/e460i-microcrystalline-cellulose)
-- Other aluminosilicates such as [sodium aluminium silicate](/e554-sodium-aluminium-silicate), [potassium aluminium silicate](/e555-potassium-aluminium-silicate), or [calcium aluminium silicate](/e556-calcium-aluminium-silicate)
-- Clay-based alternatives like [bentonite](/e558-bentonite) in certain applications
+- [Silicon dioxide](/e551-silicon-dioxide){.additive}
+- [Calcium silicate](/e552-calcium-silicate){.additive}
+- [Magnesium silicates](/e553-magnesium-silicates){.additive} or [talc](/e553b-talc){.additive}
+- [Tricalcium phosphate](/e341iii-tricalcium-phosphate){.additive}
+- [Microcrystalline cellulose](/e460i-microcrystalline-cellulose){.additive}
+- Other aluminosilicates such as [sodium aluminium silicate](/e554-sodium-aluminium-silicate){.additive}, [potassium aluminium silicate](/e555-potassium-aluminium-silicate){.additive}, or [calcium aluminium silicate](/e556-calcium-aluminium-silicate){.additive}
+- Clay-based alternatives like [bentonite](/e558-bentonite){.additive} in certain applications
 
 The right choice depends on taste neutrality, regulatory limits, flow performance, and labeling goals.
 

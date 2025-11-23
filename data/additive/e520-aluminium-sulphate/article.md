@@ -20,9 +20,9 @@ Chemically, aluminium sulphate is a hydrated inorganic salt with the general for
 You are most likely to see E520 on the labels of certain preserved fruit products, such as glacé or crystallised fruits and similar decorations. Its use is restricted to the food categories and maximum levels listed in Annex II of the EU food additive regulation.[^1]
 
 ## What can replace Aluminium sulphate?
-- Calcium salts as firming agents: [calcium chloride](/e509-calcium-chloride) or [calcium hydroxide](/e526-calcium-hydroxide)
-- Alginates and related hydrocolloids that help set texture: [sodium alginate](/e401-sodium-alginate) or [calcium alginate](/e404-calcium-alginate)
-- Acidulants that support pectin gel strength in fruit systems: [citric acid](/e330-citric-acid)
+- Calcium salts as firming agents: [calcium chloride](/e509-calcium-chloride){.additive} or [calcium hydroxide](/e526-calcium-hydroxide){.additive}
+- Alginates and related hydrocolloids that help set texture: [sodium alginate](/e401-sodium-alginate){.additive} or [calcium alginate](/e404-calcium-alginate){.additive}
+- Acidulants that support pectin gel strength in fruit systems: [citric acid](/e330-citric-acid){.additive}
 
 The best substitute depends on the recipe and whether you need crispness, gel strength, or pH control.
 
@@ -48,8 +48,8 @@ These are technological benefits in manufacturing; there are no nutritional adva
 If you have specific medical needs, ask a healthcare professional or dietitian for personalised advice.
 
 ## Myths & facts
-- “It’s the same as alum in baking powders.” Not quite. E520 is aluminium sulphate, while “alum” in foods often refers to [aluminium potassium sulphate](/e522-aluminium-potassium-sulphate) (E522) or [aluminium ammonium sulphate](/e523-aluminium-ammonium-sulphate), and leavening systems more commonly use other aluminium salts like sodium aluminium phosphate ([E541](/e541-sodium-aluminium-phosphate)).  
-- “Sulfates trigger sulfite allergies.” Sulfates (like E520) are chemically different from sulfites such as [sulphur dioxide](/e220-sulphur-dioxide) and its salts; sulfite sensitivity does not automatically apply to sulphates.
+- “It’s the same as alum in baking powders.” Not quite. E520 is aluminium sulphate, while “alum” in foods often refers to [aluminium potassium sulphate](/e522-aluminium-potassium-sulphate){.additive} (E522) or [aluminium ammonium sulphate](/e523-aluminium-ammonium-sulphate){.additive}, and leavening systems more commonly use other aluminium salts like sodium aluminium phosphate ([E541](/e541-sodium-aluminium-phosphate){.additive}).  
+- “Sulfates trigger sulfite allergies.” Sulfates (like E520) are chemically different from sulfites such as [sulphur dioxide](/e220-sulphur-dioxide){.additive} and its salts; sulfite sensitivity does not automatically apply to sulphates.
 - “It’s widely used in all processed foods.” No. In the EU, its use is limited to specific foods and levels set in law.[^1]
 
 ## Aluminium sulphate in branded foods

@@ -23,9 +23,9 @@ On ingredient lists, it may appear as “acacia gum,” “gum arabic,” or sim
 
 ## What can replace Acacia gum?
 There is no single one‑to‑one swap, but formulators may try:
-- Other gums that build body or stabilize, such as [xanthan gum](/e415-xanthan-gum), [guar gum](/e412-guar-gum), [gellan gum](/e418-gellan-gum), [locust bean gum](/e410-locust-bean-gum), or [carrageenan](/e407-carrageenan).
-- Beverage oil emulsifiers like [sucrose acetate isobutyrate](/e444-sucrose-acetate-isobutyrate) or [glycerol esters of wood rosin](/e445-glycerol-esters-of-wood-rosin) for flavor stabilization in drinks.
-- Pectin systems such as [pectins](/e440-pectins) or selected [modified starches](/e14xx-modified-starch) for specific textures.
+- Other gums that build body or stabilize, such as [xanthan gum](/e415-xanthan-gum){.additive}, [guar gum](/e412-guar-gum){.additive}, [gellan gum](/e418-gellan-gum){.additive}, [locust bean gum](/e410-locust-bean-gum){.additive}, or [carrageenan](/e407-carrageenan){.additive}.
+- Beverage oil emulsifiers like [sucrose acetate isobutyrate](/e444-sucrose-acetate-isobutyrate){.additive} or [glycerol esters of wood rosin](/e445-glycerol-esters-of-wood-rosin){.additive} for flavor stabilization in drinks.
+- Pectin systems such as [pectins](/e440-pectins){.additive} or selected [modified starches](/e14xx-modified-starch){.additive} for specific textures.
 
 Each option has trade‑offs in taste, clarity, viscosity, and cost, so the best choice depends on the product.
 
@@ -47,7 +47,7 @@ Acacia gum is a soluble dietary fiber. The FDA allows it to be included in “di
 
 ## Myths & facts
 - Myth: “Acacia gum is a synthetic glue.” Fact: It is a natural tree exudate that is cleaned and dried for food use. [^1]
-- Myth: “All gums are the same.” Fact: Acacia gum behaves differently from [xanthan gum](/e415-xanthan-gum), [carrageenan](/e407-carrageenan), or [pectins](/e440-pectins); formulators choose based on clarity, thickness, and stability needs. [^3]
+- Myth: “All gums are the same.” Fact: Acacia gum behaves differently from [xanthan gum](/e415-xanthan-gum){.additive}, [carrageenan](/e407-carrageenan){.additive}, or [pectins](/e440-pectins){.additive}; formulators choose based on clarity, thickness, and stability needs. [^3]
 - Myth: “It isn’t allowed in the U.S.” Fact: It is permitted under 21 CFR 172.780 and widely used in foods. [^2]
 
 ## Acacia gum in branded foods

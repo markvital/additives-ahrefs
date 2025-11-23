@@ -7,7 +7,7 @@ Gardenia Blue (E165) is a natural blue food color made from the fruit of the gar
 - Common uses: sweets, drinks, and decorative icings in markets where permitted
 - Label names: “Gardenia Blue,” “E165”
 - Regulation: rules vary by country; it is not listed among FDA-permitted food color additives in the United States
-- Alternatives: [indigotine](/e132-indigotine), [brilliant blue FCF](/e133-brilliant-blue-fcf), or blends with other natural colors
+- Alternatives: [indigotine](/e132-indigotine){.additive}, [brilliant blue FCF](/e133-brilliant-blue-fcf){.additive}, or blends with other natural colors
 
 ## Why is Gardenia Blue added to food?
 Manufacturers use Gardenia Blue to give foods an appealing natural blue shade. Blue is rare in nature, so this color helps bakers, confectioners, and beverage makers achieve a cool-toned palette without relying on certain synthetic dyes. In recipes, it can be used alone for blue or blended with yellow or red colors to create teal, purple, and other tones.
@@ -23,8 +23,8 @@ Availability depends on local rules. Some regions allow Gardenia Blue broadly, w
 
 ## What can replace Gardenia Blue?
 Depending on the color target and local regulations, common substitutes include:
-- Synthetic blues: [indigotine](/e132-indigotine) and [brilliant blue FCF](/e133-brilliant-blue-fcf)
-- Natural options and blends: violet or red colors like [cochineal](/e120-cochineal) mixed with yellows, or plant-based blue-green shades where available
+- Synthetic blues: [indigotine](/e132-indigotine){.additive} and [brilliant blue FCF](/e133-brilliant-blue-fcf){.additive}
+- Natural options and blends: violet or red colors like [cochineal](/e120-cochineal){.additive} mixed with yellows, or plant-based blue-green shades where available
 
 Each substitute has different hue, stability, and regulatory status, so formulators choose based on the product and market.
 

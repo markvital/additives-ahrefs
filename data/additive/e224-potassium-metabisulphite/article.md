@@ -24,9 +24,9 @@ In the United States, many wines must declare “Contains sulfites” when total
 
 ## What can replace Potassium metabisulphite?
 Depending on the food and the goal (antimicrobial vs antioxidant), makers may use:
-- Other sulphites: [sulphur dioxide](/e220-sulphur-dioxide), [sodium metabisulphite](/e223-sodium-metabisulphite), or [potassium bisulphite](/e228-potassium-bisulphite)
-- Non-sulphite preservatives: [potassium sorbate](/e202-potassium-sorbate), [sodium benzoate](/e211-sodium-benzoate)
-- Antioxidants/acidulants: [ascorbic acid](/e300-ascorbic-acid), [citric acid](/e330-citric-acid)
+- Other sulphites: [sulphur dioxide](/e220-sulphur-dioxide){.additive}, [sodium metabisulphite](/e223-sodium-metabisulphite){.additive}, or [potassium bisulphite](/e228-potassium-bisulphite){.additive}
+- Non-sulphite preservatives: [potassium sorbate](/e202-potassium-sorbate){.additive}, [sodium benzoate](/e211-sodium-benzoate){.additive}
+- Antioxidants/acidulants: [ascorbic acid](/e300-ascorbic-acid){.additive}, [citric acid](/e330-citric-acid){.additive}
 
 Choice depends on taste impact, pH, product type, and local rules.
 
@@ -46,7 +46,7 @@ For consumers, the benefit is fresher-tasting food and drink with better color a
 ## Myths & facts
 - Myth: “Sulfites are banned.” Fact: Sulphites are permitted in many foods and drinks, but their use is controlled and they must be declared when present at set levels.[^4][^6]
 - Myth: “Everyone reacts to sulphites.” Fact: Most people do not. Reactions occur in a small subset of people, especially some with asthma.[^5]
-- Myth: “Sulfites are just one chemical.” Fact: They’re a family, including [sulphur dioxide](/e220-sulphur-dioxide) and several sodium and potassium salts (E221–E228), such as E224.
+- Myth: “Sulfites are just one chemical.” Fact: They’re a family, including [sulphur dioxide](/e220-sulphur-dioxide){.additive} and several sodium and potassium salts (E221–E228), such as E224.
 
 ## Potassium metabisulphite in branded foods
 How to spot it:

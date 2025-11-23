@@ -28,11 +28,11 @@ It may also appear as a “carrier” that helps disperse colorings or flavoring
 
 ## What can replace Magnesium carbonate?
 If a recipe or product needs a different anti-caking agent or carrier, common alternatives include:
-- [Calcium carbonate](/e170-calcium-carbonates)
-- [Tricalcium phosphate](/e341iii-tricalcium-phosphate)
-- [Silicon dioxide](/e551-silicon-dioxide)
-- [Calcium silicate](/e552-calcium-silicate)
-- [Sodium aluminium silicate](/e554-sodium-aluminium-silicate)
+- [Calcium carbonate](/e170-calcium-carbonates){.additive}
+- [Tricalcium phosphate](/e341iii-tricalcium-phosphate){.additive}
+- [Silicon dioxide](/e551-silicon-dioxide){.additive}
+- [Calcium silicate](/e552-calcium-silicate){.additive}
+- [Sodium aluminium silicate](/e554-sodium-aluminium-silicate){.additive}
 
 The best substitute depends on the food type, moisture level, and labeling needs.
 

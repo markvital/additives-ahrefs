@@ -7,18 +7,18 @@ Thiodipropionic acid (E388) is a sulfur‑containing organic acid used as an ant
 - What it does: Antioxidant that helps keep fats from going rancid
 - Where it shows up: Rare on ingredient lists today; related esters are more typical in food packaging materials
 - Source: Made synthetically
-- Common stand‑ins: [ascorbic acid](/e300-ascorbic-acid), [tocopherols](/e306-tocopherol-rich-extract), [citric acid](/e330-citric-acid), [extracts of rosemary](/e392-extracts-of-rosemary), and synthetic antioxidants like [BHA](/e320-butylated-hydroxyanisole-bha), [BHT](/e321-butylated-hydroxytoluene), or [TBHQ](/e319-tertiary-butylhydroquinone-tbhq)
+- Common stand‑ins: [ascorbic acid](/e300-ascorbic-acid){.additive}, [tocopherols](/e306-tocopherol-rich-extract){.additive}, [citric acid](/e330-citric-acid){.additive}, [extracts of rosemary](/e392-extracts-of-rosemary){.additive}, and synthetic antioxidants like [BHA](/e320-butylated-hydroxyanisole-bha){.additive}, [BHT](/e321-butylated-hydroxytoluene){.additive}, or [TBHQ](/e319-tertiary-butylhydroquinone-tbhq){.additive}
 - Regulations: Allowed uses vary by country and by product type; always check local rules
 
 ## Why is Thiodipropionic acid added to food?
 Manufacturers use antioxidants to protect flavor, color, and texture during shelf life. When fats and oils react with oxygen, foods can develop off‑odors and taste “rancid.” Thiodipropionic acid can help slow these reactions, especially in fat‑rich products, by interfering with the chain reactions that drive oxidation.
 
 ## What foods contain Thiodipropionic acid?
-You are unlikely to see “thiodipropionic acid” on modern ingredient lists. Historically it has been discussed as an antioxidant for fat‑rich foods, but in practice other antioxidants are far more common on labels, such as [BHA](/e320-butylated-hydroxyanisole-bha), [BHT](/e321-butylated-hydroxytoluene), [TBHQ](/e319-tertiary-butylhydroquinone-tbhq), [ascorbic acid](/e300-ascorbic-acid), [tocopherols](/e306-tocopherol-rich-extract), or [extracts of rosemary](/e392-extracts-of-rosemary). Related esters of thiodipropionic acid—[dilauryl thiodipropionate](/e389-dilauryl-thiodipropionate) and [distearyl thiodipropionate](/e390-distearyl-thiodipropionate)—are more often used in food‑contact plastics than as direct food ingredients.
+You are unlikely to see “thiodipropionic acid” on modern ingredient lists. Historically it has been discussed as an antioxidant for fat‑rich foods, but in practice other antioxidants are far more common on labels, such as [BHA](/e320-butylated-hydroxyanisole-bha){.additive}, [BHT](/e321-butylated-hydroxytoluene){.additive}, [TBHQ](/e319-tertiary-butylhydroquinone-tbhq){.additive}, [ascorbic acid](/e300-ascorbic-acid){.additive}, [tocopherols](/e306-tocopherol-rich-extract){.additive}, or [extracts of rosemary](/e392-extracts-of-rosemary){.additive}. Related esters of thiodipropionic acid—[dilauryl thiodipropionate](/e389-dilauryl-thiodipropionate){.additive} and [distearyl thiodipropionate](/e390-distearyl-thiodipropionate){.additive}—are more often used in food‑contact plastics than as direct food ingredients.
 
 ## What can replace Thiodipropionic acid?
-- Natural options: [ascorbic acid](/e300-ascorbic-acid), [tocopherols](/e306-tocopherol-rich-extract), [citric acid](/e330-citric-acid), and [extracts of rosemary](/e392-extracts-of-rosemary)
-- Synthetic options: [BHA](/e320-butylated-hydroxyanisole-bha), [BHT](/e321-butylated-hydroxytoluene), [TBHQ](/e319-tertiary-butylhydroquinone-tbhq), or [propyl gallate](/e310-propyl-gallate)
+- Natural options: [ascorbic acid](/e300-ascorbic-acid){.additive}, [tocopherols](/e306-tocopherol-rich-extract){.additive}, [citric acid](/e330-citric-acid){.additive}, and [extracts of rosemary](/e392-extracts-of-rosemary){.additive}
+- Synthetic options: [BHA](/e320-butylated-hydroxyanisole-bha){.additive}, [BHT](/e321-butylated-hydroxytoluene){.additive}, [TBHQ](/e319-tertiary-butylhydroquinone-tbhq){.additive}, or [propyl gallate](/e310-propyl-gallate){.additive}
 - Process choices: Excluding oxygen, using light‑proof packaging, lowering storage temperature, and controlling metal traces also reduce oxidation
 
 ## How is Thiodipropionic acid made?
@@ -34,7 +34,7 @@ When used where allowed, thiodipropionic acid can:
 It is often paired with other antioxidants because combinations can work better than single ingredients in some foods.
 
 ## Who should avoid Thiodipropionic acid?
-- People who prefer to avoid less common additives may choose products that use alternatives such as [ascorbic acid](/e300-ascorbic-acid), [tocopherols](/e306-tocopherol-rich-extract), or [extracts of rosemary](/e392-extracts-of-rosemary).
+- People who prefer to avoid less common additives may choose products that use alternatives such as [ascorbic acid](/e300-ascorbic-acid){.additive}, [tocopherols](/e306-tocopherol-rich-extract){.additive}, or [extracts of rosemary](/e392-extracts-of-rosemary){.additive}.
 - If you must follow specific dietary or regulatory guidance (for example, during pregnancy, for infant foods, or for medical diets), check local rules and ask a healthcare professional.
 
 ## Myths & facts

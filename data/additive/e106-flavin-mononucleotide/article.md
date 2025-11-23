@@ -5,7 +5,7 @@ Flavin mononucleotide (FMN), also called riboflavin‑5′‑phosphate, is a for
 - What it is: a phosphorylated form of vitamin B2 (riboflavin) used as a food color and nutrient.
 - What it does: adds a yellow to yellow‑orange hue; more water‑soluble than plain riboflavin.
 - Typical foods: beverages, dairy desserts, baked goods, confectionery, sauces, and fortified products.
-- Common stand‑ins: [riboflavin](/e101-riboflavin), [curcumin](/e100-curcumin), [annatto](/e160b-annatto), [beta‑carotene](/e160ai-beta-carotene), and [caramel](/e150-caramel).
+- Common stand‑ins: [riboflavin](/e101-riboflavin){.additive}, [curcumin](/e100-curcumin){.additive}, [annatto](/e160b-annatto){.additive}, [beta‑carotene](/e160ai-beta-carotene){.additive}, and [caramel](/e150-caramel){.additive}.
 - Safety: permitted by major regulators and re‑evaluated with no safety concern at reported uses when used as a coloring food additive.[^1] In the U.S., riboflavins (including the phosphate form) are permitted color additives.[^2][^3]
 - Label clues: flavin mononucleotide, riboflavin‑5′‑phosphate, FMN, or vitamin B2.
 
@@ -24,9 +24,9 @@ On ingredient lists it may appear as “flavin mononucleotide,” “riboflavin�
 
 ## What can replace flavin mononucleotide?
 Alternatives depend on the product:
-- For a similar yellow tone in water‑based foods: [riboflavin](/e101-riboflavin) or [curcumin](/e100-curcumin)
-- For orange‑yellow shades: [beta‑carotene](/e160ai-beta-carotene) or [annatto](/e160b-annatto)
-- For brownish tones: [caramel](/e150-caramel)
+- For a similar yellow tone in water‑based foods: [riboflavin](/e101-riboflavin){.additive} or [curcumin](/e100-curcumin){.additive}
+- For orange‑yellow shades: [beta‑carotene](/e160ai-beta-carotene){.additive} or [annatto](/e160b-annatto){.additive}
+- For brownish tones: [caramel](/e150-caramel){.additive}
 
 Color choice also depends on solubility, light stability, pH, and label goals.
 

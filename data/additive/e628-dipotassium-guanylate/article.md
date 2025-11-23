@@ -7,7 +7,7 @@ Dipotassium guanylate (E628) is a flavor enhancer that boosts umami, the savory 
 - What it does: enhances umami, especially when paired with glutamates
 - Where it’s used: snacks, soups, seasonings, sauces, instant noodles, and similar savory foods
 - Also called: E628, potassium guanylate, dipotassium 5′-guanylate
-- Typical partners: [monosodium glutamate](/e621-monosodium-glutamate), [disodium inosinate](/e631-disodium-inosinate), or blends like [disodium 5-ribonucleotide](/e635-disodium-5-ribonucleotide)
+- Typical partners: [monosodium glutamate](/e621-monosodium-glutamate){.additive}, [disodium inosinate](/e631-disodium-inosinate){.additive}, or blends like [disodium 5-ribonucleotide](/e635-disodium-5-ribonucleotide){.additive}
 
 ## Why is Dipotassium guanylate added to food?
 Food makers add E628 to deepen savory (umami) taste, which helps soups, sauces, and snacks taste fuller and more “brothy.” It is especially effective when used together with glutamates, because the two work in synergy to boost umami perception more than either one alone.[^2]
@@ -19,11 +19,11 @@ You’ll most often find E628 in:
 - Bouillon cubes, gravies, and seasoning blends
 - Ready sauces, canned or pouch meals, and savory spreads
 
-On labels, it may appear alone or next to related enhancers such as [monosodium glutamate](/e621-monosodium-glutamate), [disodium guanylate](/e627-disodium-guanylate), [disodium inosinate](/e631-disodium-inosinate), [dipotassium inosinate](/e632-dipotassium-inosinate), or the combined blend [disodium 5-ribonucleotide](/e635-disodium-5-ribonucleotide). In the European Union, it is an authorized food additive listed as E628 for use as a flavor enhancer under the general food additives regulation.[^1]
+On labels, it may appear alone or next to related enhancers such as [monosodium glutamate](/e621-monosodium-glutamate){.additive}, [disodium guanylate](/e627-disodium-guanylate){.additive}, [disodium inosinate](/e631-disodium-inosinate){.additive}, [dipotassium inosinate](/e632-dipotassium-inosinate){.additive}, or the combined blend [disodium 5-ribonucleotide](/e635-disodium-5-ribonucleotide){.additive}. In the European Union, it is an authorized food additive listed as E628 for use as a flavor enhancer under the general food additives regulation.[^1]
 
 ## What can replace Dipotassium guanylate?
-- Other ribonucleotides: [disodium guanylate](/e627-disodium-guanylate), [disodium inosinate](/e631-disodium-inosinate), or the blend [disodium 5-ribonucleotide](/e635-disodium-5-ribonucleotide)
-- Glutamates: [monosodium glutamate](/e621-monosodium-glutamate)
+- Other ribonucleotides: [disodium guanylate](/e627-disodium-guanylate){.additive}, [disodium inosinate](/e631-disodium-inosinate){.additive}, or the blend [disodium 5-ribonucleotide](/e635-disodium-5-ribonucleotide){.additive}
+- Glutamates: [monosodium glutamate](/e621-monosodium-glutamate){.additive}
 - Umami-rich ingredients (recipe-level): yeast extract, mushroom extracts, seaweed, long-cooked stocks
 
 Which substitute works best depends on flavor target, sodium goals, and labeling preferences.
@@ -45,11 +45,11 @@ If you have a medical condition, follow your healthcare provider’s advice abou
 
 ## Myths & facts
 - Myth: “E628 is the same as MSG.” Fact: They’re different compounds. E628 is a ribonucleotide; MSG is a glutamate salt. They are often used together because they enhance umami synergistically.[^2]
-- Myth: “All E‑numbers are artificial.” Fact: An E‑number just means an additive is approved in the EU. Some are nature‑identical or made from natural sources, like [ascorbic acid](/e300-ascorbic-acid) and [citric acid](/e330-citric-acid).
+- Myth: “All E‑numbers are artificial.” Fact: An E‑number just means an additive is approved in the EU. Some are nature‑identical or made from natural sources, like [ascorbic acid](/e300-ascorbic-acid){.additive} and [citric acid](/e330-citric-acid){.additive}.
 - Myth: “E628 always causes headaches.” Fact: Regulators authorize E628 with use conditions based on safety reviews; adverse reactions are not expected for the general population when used as approved.[^1]
 
 ## Dipotassium guanylate in branded foods
-On ingredient lists, look for “dipotassium guanylate,” “E628,” or simply “guanylate.” It often appears together with [monosodium glutamate](/e621-monosodium-glutamate), [disodium inosinate](/e631-disodium-inosinate), or blends like [disodium 5-ribonucleotide](/e635-disodium-5-ribonucleotide) in savory snacks, instant soups, bouillons, and seasoning packets.
+On ingredient lists, look for “dipotassium guanylate,” “E628,” or simply “guanylate.” It often appears together with [monosodium glutamate](/e621-monosodium-glutamate){.additive}, [disodium inosinate](/e631-disodium-inosinate){.additive}, or blends like [disodium 5-ribonucleotide](/e635-disodium-5-ribonucleotide){.additive} in savory snacks, instant soups, bouillons, and seasoning packets.
 
 ## References
 [^1]: Regulation (EC) No 1333/2008 on food additives — European Union law. https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32008R1333

@@ -25,9 +25,9 @@ On labels, look for “hydroxypropyl methyl cellulose,” “hypromellose,” �
 
 ## What can replace Hydroxypropyl methyl cellulose?
 Possible alternatives depend on the job:
-- Thickening and body: [xanthan gum](/e415-xanthan-gum), [guar gum](/e412-guar-gum), [locust bean gum](/e410-locust-bean-gum), [gellan gum](/e418-gellan-gum), [agar](/e406-agar), [pectins](/e440-pectins)
-- Gelation/structure in hot processing: [methyl cellulose](/e461-methyl-cellulose)
-- Stabilizing dairy and non‑dairy systems: [carrageenan](/e407-carrageenan), [gellan gum](/e418-gellan-gum)
+- Thickening and body: [xanthan gum](/e415-xanthan-gum){.additive}, [guar gum](/e412-guar-gum){.additive}, [locust bean gum](/e410-locust-bean-gum){.additive}, [gellan gum](/e418-gellan-gum){.additive}, [agar](/e406-agar){.additive}, [pectins](/e440-pectins){.additive}
+- Gelation/structure in hot processing: [methyl cellulose](/e461-methyl-cellulose){.additive}
+- Stabilizing dairy and non‑dairy systems: [carrageenan](/e407-carrageenan){.additive}, [gellan gum](/e418-gellan-gum){.additive}
 
 No single substitute matches HPMC in every recipe, so blends are common.
 

@@ -16,8 +16,8 @@ You should not find Orange GGN in foods sold in the EU or the U.S., because only
 
 ## What can replace Orange GGN?
 If a recipe or product once used Orange GGN, common substitutes include:
-- Approved synthetic colors such as [Sunset Yellow FCF](/e110-sunset-yellow-fcf) or [Tartrazine](/e102-tartrazine), when permitted for the food type and within legal limits.[^2][^3]
-- Natural colors such as [paprika extract](/e160c-paprika-extract) or [annatto](/e160b-annatto), chosen for a similar shade and stability profile.[^3]
+- Approved synthetic colors such as [Sunset Yellow FCF](/e110-sunset-yellow-fcf){.additive} or [Tartrazine](/e102-tartrazine){.additive}, when permitted for the food type and within legal limits.[^2][^3]
+- Natural colors such as [paprika extract](/e160c-paprika-extract){.additive} or [annatto](/e160b-annatto){.additive}, chosen for a similar shade and stability profile.[^3]
 
 ## How is Orange GGN made?
 Orange GGN is a man-made dye produced by chemical synthesis. It is not extracted from plants or animals. Commercial food color manufacturing aims for consistent shade, solubility, and stability, but in this case the dye is not authorized for food use in major markets.[^1][^2]
@@ -33,12 +33,12 @@ Aside from coloring, there are no nutritional benefits. Any coloring function ca
 - If you are purchasing foods in regions with different rules, check labels. People who prefer to avoid non-approved or uncertified dyes should steer clear of products listing “E111” or “Orange GGN.”
 
 ## Myths & facts
-- Myth: “E111 is the same as [Sunset Yellow FCF](/e110-sunset-yellow-fcf).”
+- Myth: “E111 is the same as [Sunset Yellow FCF](/e110-sunset-yellow-fcf){.additive}.”
   Fact: They are different colors with different regulatory status; Sunset Yellow FCF is specifically listed where permitted, while E111 is not.[^1][^2]
 - Myth: “If a dye was used in the past, it’s still allowed.”
   Fact: Authorization can change over time as laws and safety reviews evolve. Only additives on current official lists may be used.[^1][^2]
 - Myth: “Natural colors can’t replace synthetic oranges.”
-  Fact: Natural options like [paprika extract](/e160c-paprika-extract) or [annatto](/e160b-annatto) can provide orange shades in many foods, with specifications where authorized.[^3]
+  Fact: Natural options like [paprika extract](/e160c-paprika-extract){.additive} or [annatto](/e160b-annatto){.additive} can provide orange shades in many foods, with specifications where authorized.[^3]
 
 ## Orange GGN in branded foods
 In the EU and U.S., you should not find E111 on ingredient lists of branded foods because it is not authorized for use.[^1][^2] If you see it on products from other markets, that may reflect different local rules. Always follow your region’s regulations and labeling standards.

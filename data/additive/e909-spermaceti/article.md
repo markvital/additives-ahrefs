@@ -16,13 +16,13 @@ Modern foods seldom list E909. In the European Union, spermaceti is not included
 
 ## What can replace Spermaceti?
 Several approved glazing and anti-sticking agents provide the same shine and protection:
-- [white and yellow beeswax](/e901-white-and-yellow-beeswax)
-- [candelilla wax](/e902-candelilla-wax)
-- [carnauba wax](/e903-carnauba-wax)
-- [shellac](/e904-shellac)
-- [mineral oil](/e905a-mineral-oil), [petroleum jelly](/e905b-petroleum-jelly), [petroleum wax](/e905c-petroleum-wax), [microcrystalline wax](/e905ci-microcrystalline-wax)
-- [montanic acid esters](/e912-montanic-acid-esters)
-- [oxidised polyethylene wax](/e914-oxidised-polyethylene-wax)
+- [white and yellow beeswax](/e901-white-and-yellow-beeswax){.additive}
+- [candelilla wax](/e902-candelilla-wax){.additive}
+- [carnauba wax](/e903-carnauba-wax){.additive}
+- [shellac](/e904-shellac){.additive}
+- [mineral oil](/e905a-mineral-oil){.additive}, [petroleum jelly](/e905b-petroleum-jelly){.additive}, [petroleum wax](/e905c-petroleum-wax){.additive}, [microcrystalline wax](/e905ci-microcrystalline-wax){.additive}
+- [montanic acid esters](/e912-montanic-acid-esters){.additive}
+- [oxidised polyethylene wax](/e914-oxidised-polyethylene-wax){.additive}
 
 These are widely used to polish confectionery and fruits, and to coat tablets and supplements.
 
@@ -33,7 +33,7 @@ Traditionally, spermaceti was obtained by chilling and filtering the oil from th
 There is no current EU authorization for E909 as a food additive, so there is no EU specification or permitted use levels for food.[^2] In practice, consumers are unlikely to encounter spermaceti in foods in regions where whale products are protected by law.[^3][^4] Safety discussions today focus less on toxicology and more on legal and ethical sourcing, given whale conservation rules.
 
 ## Does Spermaceti have any benefits?
-As a glazing agent, spermaceti can create a smooth, glossy surface and help slow moisture loss. These benefits are now achieved with approved alternatives such as [carnauba wax](/e903-carnauba-wax), [candelilla wax](/e902-candelilla-wax), [white and yellow beeswax](/e901-white-and-yellow-beeswax), and [shellac](/e904-shellac).
+As a glazing agent, spermaceti can create a smooth, glossy surface and help slow moisture loss. These benefits are now achieved with approved alternatives such as [carnauba wax](/e903-carnauba-wax){.additive}, [candelilla wax](/e902-candelilla-wax){.additive}, [white and yellow beeswax](/e901-white-and-yellow-beeswax){.additive}, and [shellac](/e904-shellac){.additive}.
 
 ## Who should avoid Spermaceti?
 - Vegetarians and vegans, since it is animal‑derived.
@@ -47,7 +47,7 @@ As a glazing agent, spermaceti can create a smooth, glossy surface and help slow
 - Myth: It’s legal to trade anywhere. Fact: Whale products are strictly protected in the U.S. and the EU, which limits sourcing and trade.[^3][^4]
 
 ## Spermaceti in branded foods
-If you read labels today, you’re far more likely to see approved glazing agents such as [carnauba wax](/e903-carnauba-wax), [candelilla wax](/e902-candelilla-wax), [white and yellow beeswax](/e901-white-and-yellow-beeswax), or [shellac](/e904-shellac). If a product lists spermaceti or E909, that would be highly unusual and may not comply with regulations in many regions.
+If you read labels today, you’re far more likely to see approved glazing agents such as [carnauba wax](/e903-carnauba-wax){.additive}, [candelilla wax](/e902-candelilla-wax){.additive}, [white and yellow beeswax](/e901-white-and-yellow-beeswax){.additive}, or [shellac](/e904-shellac){.additive}. If a product lists spermaceti or E909, that would be highly unusual and may not comply with regulations in many regions.
 
 ## References
 [^1]: Cetyl palmitate — NIH PubChem. https://pubchem.ncbi.nlm.nih.gov/compound/8213

@@ -3,10 +3,10 @@ Magnesium citrate (E345) is the magnesium salt of citric acid. In foods, it is u
 <!--more-->
 
 ## At a glance
-- What it is: a magnesium salt of [citric acid](/e330-citric-acid)
+- What it is: a magnesium salt of [citric acid](/e330-citric-acid){.additive}
 - What it does: acidity regulator (helps keep pH steady), sequestrant (binds metal ions), and magnesium source
 - Where it’s found: flavored drinks, sports powders, fortified foods, and supplements
-- Common stand-ins: other citrates like [sodium citrates](/e331-sodium-citrates), [potassium citrates](/e332-potassium-citrates), or [calcium citrates](/e333-calcium-citrates); other magnesium salts such as [magnesium phosphates](/e343-magnesium-phosphates)
+- Common stand-ins: other citrates like [sodium citrates](/e331-sodium-citrates){.additive}, [potassium citrates](/e332-potassium-citrates){.additive}, or [calcium citrates](/e333-calcium-citrates){.additive}; other magnesium salts such as [magnesium phosphates](/e343-magnesium-phosphates){.additive}
 - Safety: authorized as a food additive in the European Union; large supplemental doses can cause loose stools
 
 ## Why is magnesium citrate added to food?
@@ -22,9 +22,9 @@ You’re most likely to find it in:
 On labels, look for “magnesium citrate,” “E345,” or simply “magnesium” in the mineral blend.
 
 ## What can replace magnesium citrate?
-- For acidity control: other citrate buffers like [sodium citrates](/e331-sodium-citrates), [potassium citrates](/e332-potassium-citrates), or [calcium citrates](/e333-calcium-citrates); or acids like [phosphoric acid](/e338-phosphoric-acid) depending on flavor.
-- For metal binding: citrate salts as above, or phosphate-based systems such as [sodium phosphates](/e339-sodium-phosphates) in suitable foods.
-- For magnesium fortification: other magnesium salts (for example, [magnesium phosphates](/e343-magnesium-phosphates)) chosen based on taste, solubility, and label goals.
+- For acidity control: other citrate buffers like [sodium citrates](/e331-sodium-citrates){.additive}, [potassium citrates](/e332-potassium-citrates){.additive}, or [calcium citrates](/e333-calcium-citrates){.additive}; or acids like [phosphoric acid](/e338-phosphoric-acid){.additive} depending on flavor.
+- For metal binding: citrate salts as above, or phosphate-based systems such as [sodium phosphates](/e339-sodium-phosphates){.additive} in suitable foods.
+- For magnesium fortification: other magnesium salts (for example, [magnesium phosphates](/e343-magnesium-phosphates){.additive}) chosen based on taste, solubility, and label goals.
 
 ## How is magnesium citrate made?
 Manufacturers typically produce magnesium citrate by neutralizing citric acid with a magnesium base such as magnesium oxide, magnesium hydroxide, or magnesium carbonate, followed by purification and drying.[^4] This straightforward acid–base reaction yields a food-grade salt with defined composition.

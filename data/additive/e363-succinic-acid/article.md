@@ -24,11 +24,11 @@ Approved uses and levels in the EU depend on the food category and follow the fr
 
 ## What can replace Succinic acid?
 Depending on the recipe and the target taste or pH, common substitutes include:
-- [Citric acid](/e330-citric-acid) for bright, clean sourness
-- [Malic acid](/e296-malic-acid) for a smoother, lingering tartness
-- [Fumaric acid](/e297-fumaric-acid) for strong acidity in dry mixes
-- [Lactic acid](/e270-lactic-acid) for gentle acidity in dairy and fermented-style products
-- [L-tartaric acid](/e334-l-tartaric-acid) for certain confectionery and beverage applications
+- [Citric acid](/e330-citric-acid){.additive} for bright, clean sourness
+- [Malic acid](/e296-malic-acid){.additive} for a smoother, lingering tartness
+- [Fumaric acid](/e297-fumaric-acid){.additive} for strong acidity in dry mixes
+- [Lactic acid](/e270-lactic-acid){.additive} for gentle acidity in dairy and fermented-style products
+- [L-tartaric acid](/e334-l-tartaric-acid){.additive} for certain confectionery and beverage applications
 
 The best choice depends on solubility, desired sourness curve, and how the acid interacts with other ingredients.
 
@@ -63,7 +63,7 @@ Most people do not need to avoid E363. If your healthcare provider has advised y
   Fact: The molecule is the same regardless of source; specifications ensure identity and purity.[^2]
 
 ## Succinic acid in branded foods
-On labels, look for “succinic acid” or “E363.” You’re most likely to see it in flavored drinks, candies, and savory seasonings. Many brands use alternatives like [citric acid](/e330-citric-acid) or [malic acid](/e296-malic-acid), so presence varies by product style and target flavor.
+On labels, look for “succinic acid” or “E363.” You’re most likely to see it in flavored drinks, candies, and savory seasonings. Many brands use alternatives like [citric acid](/e330-citric-acid){.additive} or [malic acid](/e296-malic-acid){.additive}, so presence varies by product style and target flavor.
 
 ## References
 [^1]: Scientific Opinion on the re‑evaluation of succinic acid (E 363) as a food additive — EFSA Journal (2014). https://efsa.europa.eu/en/efsajournal/pub/3687

@@ -17,10 +17,10 @@ Use is specialised and not widespread. In the EU, aluminium stearate is an appro
 
 ## What can replace Aluminium stearate?
 The best substitute depends on the job it is doing:
-- To prevent clumping in dry mixes: [silicon dioxide](/e551-silicon-dioxide) or flow‑aiding [fatty acids](/e570-fatty-acids)
-- To stabilize fat phases or aid dispersion: [magnesium stearate](/e572-magnesium-stearate) or [sodium, potassium and calcium salts of fatty acids](/e470a-sodium-potassium-and-calcium-salts-of-fatty-acids)
-- To emulsify water and oil more strongly: [lecithins](/e322-lecithins) or [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids)
-- For viscosity/texture in water‑based systems: [xanthan gum](/e415-xanthan-gum)
+- To prevent clumping in dry mixes: [silicon dioxide](/e551-silicon-dioxide){.additive} or flow‑aiding [fatty acids](/e570-fatty-acids){.additive}
+- To stabilize fat phases or aid dispersion: [magnesium stearate](/e572-magnesium-stearate){.additive} or [sodium, potassium and calcium salts of fatty acids](/e470a-sodium-potassium-and-calcium-salts-of-fatty-acids){.additive}
+- To emulsify water and oil more strongly: [lecithins](/e322-lecithins){.additive} or [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive}
+- For viscosity/texture in water‑based systems: [xanthan gum](/e415-xanthan-gum){.additive}
 
 ## How is Aluminium stearate made?
 Aluminium stearate is produced by reacting food‑grade fatty acids (mainly stearic acid) from edible fats and oils with aluminium salts or aluminium hydroxide to form the aluminium soap. EU specifications describe the substance as consisting predominantly of aluminium salts of stearic acid (often with some palmitic acid) and set limits for purity (such as aluminium content and contaminants).[^1]

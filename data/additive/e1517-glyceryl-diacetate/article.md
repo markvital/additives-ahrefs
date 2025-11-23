@@ -14,12 +14,12 @@ Manufacturers add glyceryl diacetate because it dissolves flavor compounds and s
 ## What foods contain Glyceryl diacetate?
 You’re most likely to find glyceryl diacetate in products where a solvent or moisture keeper is useful. These include flavor preparations used in beverages and candies, soft confectionery, chewing gum base, and dessert toppings or icings. On ingredient lists in the EU, it may be declared by its class name (such as “humectant” or “solvent”) followed by “glyceryl diacetate” or “E1517.”[^5]
 
-Related ingredients that may appear alongside or instead of glyceryl diacetate include [glycerol](/e422-glycerol) (E422), [glyceryl triacetate](/e1518-glyceryl-triacetate) (triacetin, E1518), [sorbitol](/e420-sorbitol) (E420), and [propylene glycol](/e1520-propylene-glycol) (E1520).
+Related ingredients that may appear alongside or instead of glyceryl diacetate include [glycerol](/e422-glycerol){.additive} (E422), [glyceryl triacetate](/e1518-glyceryl-triacetate){.additive} (triacetin, E1518), [sorbitol](/e420-sorbitol){.additive} (E420), and [propylene glycol](/e1520-propylene-glycol){.additive} (E1520).
 
 ## What can replace Glyceryl diacetate?
-- For dissolving flavors: [glyceryl triacetate](/e1518-glyceryl-triacetate) (E1518) or [propylene glycol](/e1520-propylene-glycol) (E1520) are common alternatives.
-- For moisture retention: [glycerol](/e422-glycerol) (E422) or [sorbitol](/e420-sorbitol) (E420) can serve similar roles.
-- For emulsification plus carrying flavors: [polyglycerol esters of fatty acids](/e475-polyglycerol-esters-of-fatty-acids) (E475) may be used, depending on the application.
+- For dissolving flavors: [glyceryl triacetate](/e1518-glyceryl-triacetate){.additive} (E1518) or [propylene glycol](/e1520-propylene-glycol){.additive} (E1520) are common alternatives.
+- For moisture retention: [glycerol](/e422-glycerol){.additive} (E422) or [sorbitol](/e420-sorbitol){.additive} (E420) can serve similar roles.
+- For emulsification plus carrying flavors: [polyglycerol esters of fatty acids](/e475-polyglycerol-esters-of-fatty-acids){.additive} (E475) may be used, depending on the application.
 
 The best substitute depends on flavor solubility, sweetness, labeling goals, and local regulations.
 
@@ -40,13 +40,13 @@ These are functional benefits in processing and product quality rather than heal
 
 ## Who should avoid Glyceryl diacetate?
 - People advised by a healthcare professional to avoid specific acetates or glycerol derivatives should check labels and seek guidance.
-- Anyone with concerns about food additives in general can choose products that minimize or avoid additives; many have alternatives like [glycerol](/e422-glycerol) or [sorbitol](/e420-sorbitol).
+- Anyone with concerns about food additives in general can choose products that minimize or avoid additives; many have alternatives like [glycerol](/e422-glycerol){.additive} or [sorbitol](/e420-sorbitol){.additive}.
 
 If you have a medical condition, always follow your clinician’s advice on diet and ingredients.
 
 ## Myths & facts
 - Myth: “Glyceryl diacetate is the same as diacetyl.” Fact: They are different substances; diacetyl is a flavor compound (butanedione), while glyceryl diacetate is an ester of glycerol and acetic acid.
-- Myth: “E1517 and E1518 are interchangeable.” Fact: They are related but distinct; E1517 is the diacetate (diacetin) and [E1518](/e1518-glyceryl-triacetate) is the triacetate (triacetin), with slightly different solubility and performance.
+- Myth: “E1517 and E1518 are interchangeable.” Fact: They are related but distinct; E1517 is the diacetate (diacetin) and [E1518](/e1518-glyceryl-triacetate){.additive} is the triacetate (triacetin), with slightly different solubility and performance.
 - Fact: In the EU, additives must be listed in the ingredient list by their functional class plus name or E-number, so you may see “humectant: glyceryl diacetate” or “humectant: E1517.”[^5]
 
 ## Glyceryl diacetate in branded foods

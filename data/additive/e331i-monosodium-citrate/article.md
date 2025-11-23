@@ -24,14 +24,14 @@ In the EU, sodium citrates (E331), which include monosodium citrate (E331i), are
 
 ## What can replace Monosodium citrate?
 Depending on the job you need done:
-- To add tang or adjust pH: [citric acid](/e330-citric-acid), [lactic acid](/e270-lactic-acid), or [acetic acid](/e260-acetic-acid)
-- To maintain pH with less sodium: [potassium citrates](/e332-potassium-citrates) or [calcium citrates](/e333-calcium-citrates)
-- For buffering in cheese and meats: [sodium phosphates](/e339-sodium-phosphates) or [sodium polyphosphate](/e452i-sodium-polyphosphate)
-- For baking pH control: [sodium bicarbonate](/e500ii-sodium-bicarbonate) paired with an acid like [citric acid](/e330-citric-acid)
+- To add tang or adjust pH: [citric acid](/e330-citric-acid){.additive}, [lactic acid](/e270-lactic-acid){.additive}, or [acetic acid](/e260-acetic-acid){.additive}
+- To maintain pH with less sodium: [potassium citrates](/e332-potassium-citrates){.additive} or [calcium citrates](/e333-calcium-citrates){.additive}
+- For buffering in cheese and meats: [sodium phosphates](/e339-sodium-phosphates){.additive} or [sodium polyphosphate](/e452i-sodium-polyphosphate){.additive}
+- For baking pH control: [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive} paired with an acid like [citric acid](/e330-citric-acid){.additive}
 Choice depends on taste, sodium limits, solubility, and the food’s processing conditions.
 
 ## How is Monosodium citrate made?
-Manufacturers neutralize purified [citric acid](/e330-citric-acid) with a sodium base (often sodium hydroxide or sodium carbonate) in controlled amounts to reach the “mono” stage of neutralization. The solution is filtered, concentrated, and crystallized, then dried to meet identity and purity specifications set in the EU for E331 (sodium citrates).[^3]
+Manufacturers neutralize purified [citric acid](/e330-citric-acid){.additive} with a sodium base (often sodium hydroxide or sodium carbonate) in controlled amounts to reach the “mono” stage of neutralization. The solution is filtered, concentrated, and crystallized, then dried to meet identity and purity specifications set in the EU for E331 (sodium citrates).[^3]
 
 ## Is Monosodium citrate safe to eat?
 Yes. The European Food Safety Authority (EFSA) re-evaluated citric acid and sodium citrates (E330–E333) and found no safety concern at the reported uses and levels in food.[^1] As with any sodium-containing ingredient, it adds to total dietary sodium intake; people aiming to limit sodium should check labels and follow public health guidance.[^4]
@@ -48,7 +48,7 @@ These are technological benefits in the food, not health benefits to the body.
 - Anyone advised by a healthcare professional to limit sodium should review ingredient lists and Nutrition Facts.
 
 ## Myths & facts
-- Myth: “Monosodium citrate is the same as MSG.” Fact: It is not related to [monosodium glutamate](/e621-monosodium-glutamate); they are different compounds with different roles.
+- Myth: “Monosodium citrate is the same as MSG.” Fact: It is not related to [monosodium glutamate](/e621-monosodium-glutamate){.additive}; they are different compounds with different roles.
 - Myth: “If it has ‘sodium’ in the name, it’s just table salt.” Fact: It isn’t table salt (sodium chloride), but it does contribute some sodium to your diet.
 - Myth: “It’s synthetic, so it must be unsafe.” Fact: Its safety as a food additive has been evaluated by regulators, and when used as intended it is considered safe.[^1]
 

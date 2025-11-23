@@ -18,8 +18,8 @@ You’ll most often see E494 in products that blend fats with water: fine bakery
 
 ## What can replace Sorbitan monooleate?
 Depending on the recipe and process, formulators may use:
-- Other emulsifiers such as [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids), [lecithins](/e322-lecithins), [polysorbate 80](/e433-polyoxyethylene-sorbitan-monooleate), [sucrose esters of fatty acids](/e473-sucrose-esters-of-fatty-acids), or [sodium stearoyl-2-lactylate](/e481-sodium-stearoyl-2-lactylate).
-- Hydrocolloids to help stabilize texture, like [xanthan gum](/e415-xanthan-gum), [guar gum](/e412-guar-gum), or [locust bean gum](/e410-locust-bean-gum).
+- Other emulsifiers such as [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive}, [lecithins](/e322-lecithins){.additive}, [polysorbate 80](/e433-polyoxyethylene-sorbitan-monooleate){.additive}, [sucrose esters of fatty acids](/e473-sucrose-esters-of-fatty-acids){.additive}, or [sodium stearoyl-2-lactylate](/e481-sodium-stearoyl-2-lactylate){.additive}.
+- Hydrocolloids to help stabilize texture, like [xanthan gum](/e415-xanthan-gum){.additive}, [guar gum](/e412-guar-gum){.additive}, or [locust bean gum](/e410-locust-bean-gum){.additive}.
 
 ## How is Sorbitan monooleate made?
 Commercially, sorbitol is first dehydrated to form sorbitan (a cyclic form), which is then esterified with food‑grade oleic acid derived from edible fats and oils. The result is mainly the mono‑ester, with small amounts of related esters permitted by purity specifications.[^3]

@@ -22,10 +22,10 @@ These uses align with how the additive is listed for a wide range of food catego
 
 ## What can replace Tartaric acid esters of mono- and diglycerides of fatty acids?
 Possible alternatives depend on the recipe:
-- For general emulsifying: [lecithins](/e322-lecithins) or [mono- and diglycerides](/e471-mono-and-diglycerides-of-fatty-acids)
-- For strong dough conditioning: [DATEM](/e472e-mono-and-diacetyltartaric-acid-esters-of-mono-and-diglycerides-of-fatty-acids)
-- For similar emulsifier families: [lactic acid esters](/e472b-lactic-acid-esters-of-mono-and-diglycerides-of-fatty-acids) or [citric acid esters](/e472c-citric-acid-esters-of-mono-and-diglycerides-of-fatty-acids)
-- For thickening/stabilizing water phases: [xanthan gum](/e415-xanthan-gum), [pectins](/e440-pectins), or [sodium carboxy methyl cellulose](/e466-sodium-carboxy-methyl-cellulose)
+- For general emulsifying: [lecithins](/e322-lecithins){.additive} or [mono- and diglycerides](/e471-mono-and-diglycerides-of-fatty-acids){.additive}
+- For strong dough conditioning: [DATEM](/e472e-mono-and-diacetyltartaric-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive}
+- For similar emulsifier families: [lactic acid esters](/e472b-lactic-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive} or [citric acid esters](/e472c-citric-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive}
+- For thickening/stabilizing water phases: [xanthan gum](/e415-xanthan-gum){.additive}, [pectins](/e440-pectins){.additive}, or [sodium carboxy methyl cellulose](/e466-sodium-carboxy-methyl-cellulose){.additive}
 Each substitute behaves a bit differently, so formulators often test blends to match the exact texture and stability.
 
 ## How is Tartaric acid esters of mono- and diglycerides of fatty acids made?

@@ -25,8 +25,8 @@ On ingredient lists, it may appear as “E1441,” “hydroxy propyl distarch gl
 
 ## What can replace Hydroxy propyl distarch glycerine?
 Depending on the recipe, similar texture and stability can come from:
-- Other modified starches, such as [hydroxypropyl distarch phosphate](/e1442-hydroxypropyl-distarch-phosphate), [acetylated distarch adipate](/e1422-acetylated-distarch-adipate), or [acetylated distarch phosphate](/e1414-acetylated-distarch-phosphate)
-- Gums and hydrocolloids like [xanthan gum](/e415-xanthan-gum), [guar gum](/e412-guar-gum), [locust bean gum](/e410-locust-bean-gum), or [pectins](/e440-pectins)
+- Other modified starches, such as [hydroxypropyl distarch phosphate](/e1442-hydroxypropyl-distarch-phosphate){.additive}, [acetylated distarch adipate](/e1422-acetylated-distarch-adipate){.additive}, or [acetylated distarch phosphate](/e1414-acetylated-distarch-phosphate){.additive}
+- Gums and hydrocolloids like [xanthan gum](/e415-xanthan-gum){.additive}, [guar gum](/e412-guar-gum){.additive}, [locust bean gum](/e410-locust-bean-gum){.additive}, or [pectins](/e440-pectins){.additive}
 
 The best swap depends on processing (heat, shear), pH, and whether the product is frozen.
 

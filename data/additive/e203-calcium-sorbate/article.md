@@ -23,10 +23,10 @@ In the United States, calcium sorbate appears on the FDA’s Food Additive Statu
 
 ## What can replace calcium sorbate?
 Several additives can play a similar role, depending on the food and its pH:
-- Other sorbates: [sorbic acid](/e200-sorbic-acid), [potassium sorbate](/e202-potassium-sorbate), [sodium sorbate](/e201-sodium-sorbate)
-- Benzoates for acidic foods: [benzoic acid](/e210-benzoic-acid), [sodium benzoate](/e211-sodium-benzoate)
-- Propionates for bakery: [calcium propionate](/e282-calcium-propionate)
-- pH control to support preservatives: [citric acid](/e330-citric-acid)
+- Other sorbates: [sorbic acid](/e200-sorbic-acid){.additive}, [potassium sorbate](/e202-potassium-sorbate){.additive}, [sodium sorbate](/e201-sodium-sorbate){.additive}
+- Benzoates for acidic foods: [benzoic acid](/e210-benzoic-acid){.additive}, [sodium benzoate](/e211-sodium-benzoate){.additive}
+- Propionates for bakery: [calcium propionate](/e282-calcium-propionate){.additive}
+- pH control to support preservatives: [citric acid](/e330-citric-acid){.additive}
 
 The best substitute depends on the product’s acidity, water activity, and flavor goals.
 
@@ -53,7 +53,7 @@ Most people can consume foods containing calcium sorbate without issues. A small
 - “All sorbates taste the same.” — At normal levels, sorbates are chosen because they have little impact on flavor; however, product formulation always matters.[^2]
 
 ## Calcium sorbate in branded foods
-On ingredient lists, look for “calcium sorbate” or “E203.” It often appears alongside acidity regulators (like [citric acid](/e330-citric-acid)) because pH strongly affects how well sorbates work. Different brands choose between calcium, potassium, or sodium sorbate based on taste, solubility, and processing needs; the function is similar across the group.
+On ingredient lists, look for “calcium sorbate” or “E203.” It often appears alongside acidity regulators (like [citric acid](/e330-citric-acid){.additive}) because pH strongly affects how well sorbates work. Different brands choose between calcium, potassium, or sodium sorbate based on taste, solubility, and processing needs; the function is similar across the group.
 
 ## References
 [^1]: Food Additive Status List — U.S. Food and Drug Administration (FDA). https://www.fda.gov/food/food-additives-petitions/food-additive-status-list

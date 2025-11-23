@@ -17,9 +17,9 @@ You’re most likely to find sulphites, including E227, in categories where brow
 
 ## What can replace Calcium bisulphite?
 Alternatives depend on the job to be done:
-- For preserving against molds and yeasts: [potassium sorbate](/e202-potassium-sorbate) or [sodium benzoate](/e211-sodium-benzoate) are common options in suitable foods.
-- For limiting browning: [ascorbic acid](/e300-ascorbic-acid) and [citric acid](/e330-citric-acid) help reduce oxidation in cut fruits and beverages.
-- For flavor stability and oxidation control: [extracts of rosemary](/e392-extracts-of-rosemary) can help in some fat-containing foods.
+- For preserving against molds and yeasts: [potassium sorbate](/e202-potassium-sorbate){.additive} or [sodium benzoate](/e211-sodium-benzoate){.additive} are common options in suitable foods.
+- For limiting browning: [ascorbic acid](/e300-ascorbic-acid){.additive} and [citric acid](/e330-citric-acid){.additive} help reduce oxidation in cut fruits and beverages.
+- For flavor stability and oxidation control: [extracts of rosemary](/e392-extracts-of-rosemary){.additive} can help in some fat-containing foods.
 
 ## How is Calcium bisulphite made?
 Industrially, calcium bisulphite is typically produced by absorbing sulphur dioxide gas into a slurry or solution of calcium hydroxide or calcium carbonate, forming an aqueous solution of Ca(HSO3)2. The result is usually handled and sold as a solution rather than a dry powder because sulphite salts can be unstable in air and moisture.[^5]
@@ -40,7 +40,7 @@ A small portion of the population, especially some people with asthma, can be se
 ## Myths & facts
 - Myth: “Sulfites are one of the major allergens.” Fact: In the U.S., sulfites are not classified as one of the major food allergens, but they must be declared when added or when present at 10 ppm or more in the finished food.[^2]
 - Myth: “You can’t tell if wine has sulfites.” Fact: U.S. wine labels must say “Contains Sulfites” when levels are 10 mg/L or higher.[^4]
-- Myth: “All sulphites are the same ingredient.” Fact: There are several related additives in the group, including [sulphur dioxide](/e220-sulphur-dioxide), sodium and potassium salts, and calcium salts (like E227). Rules and typical uses can differ by salt and by food category.[^1]
+- Myth: “All sulphites are the same ingredient.” Fact: There are several related additives in the group, including [sulphur dioxide](/e220-sulphur-dioxide){.additive}, sodium and potassium salts, and calcium salts (like E227). Rules and typical uses can differ by salt and by food category.[^1]
 
 ## Calcium bisulphite in branded foods
 - Read the ingredient list for “calcium bisulphite,” “calcium bisulfite,” “E227,” or a catch‑all “sulphites” statement.

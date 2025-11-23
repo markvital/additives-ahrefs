@@ -26,12 +26,12 @@ These are typical use categories noted in EU evaluations and exposure assessment
 
 ## What can replace alginic acid?
 Several hydrocolloids can provide similar texture or stability, depending on the recipe:
-- Its close relatives: [sodium alginate](/e401-sodium-alginate), [potassium alginate](/e402-potassium-alginate), and [calcium alginate](/e404-calcium-alginate)
-- Plant gums: [guar gum](/e412-guar-gum) and [acacia gum](/e414-acacia-gum)
-- Microbial gum: [xanthan gum](/e415-xanthan-gum)
-- Seaweed extract: [carrageenan](/e407-carrageenan)
-- Fruit pectin: [pectins](/e440-pectins)
-- Fibers: [cellulose](/e460-cellulose)
+- Its close relatives: [sodium alginate](/e401-sodium-alginate){.additive}, [potassium alginate](/e402-potassium-alginate){.additive}, and [calcium alginate](/e404-calcium-alginate){.additive}
+- Plant gums: [guar gum](/e412-guar-gum){.additive} and [acacia gum](/e414-acacia-gum){.additive}
+- Microbial gum: [xanthan gum](/e415-xanthan-gum){.additive}
+- Seaweed extract: [carrageenan](/e407-carrageenan){.additive}
+- Fruit pectin: [pectins](/e440-pectins){.additive}
+- Fibers: [cellulose](/e460-cellulose){.additive}
 
 Each behaves a bit differently, so formulators often test small blends to match mouthfeel, freeze–thaw stability, or heat tolerance. [^1]
 
@@ -60,7 +60,7 @@ Because alginic acid is derived from seaweed, it is generally suitable for veget
 - Myth: “It’s the same as MSG.”  
   Fact: Alginic acid is a seaweed fiber; monosodium glutamate (MSG) is a flavor enhancer. They are unrelated additives.
 - Myth: “It’s always a gelling agent.”  
-  Fact: Alginic acid mainly thickens and stabilises; strong gels usually form when alginates interact with calcium or other ions, or when using related salts like [calcium alginate](/e404-calcium-alginate). [^1]
+  Fact: Alginic acid mainly thickens and stabilises; strong gels usually form when alginates interact with calcium or other ions, or when using related salts like [calcium alginate](/e404-calcium-alginate){.additive}. [^1]
 
 ## Alginic acid in branded foods
 You’re most likely to find E400 on labels for ice creams, sauces, processed cheese spreads, and fruit fillings. Look for “alginic acid,” “alginates,” or “E400–E404” in the ingredient list; many brands use it to keep products smooth and stable across shelf life. Availability and recipes vary by region and product style. [^1]

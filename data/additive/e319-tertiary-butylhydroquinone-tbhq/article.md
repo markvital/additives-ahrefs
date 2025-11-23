@@ -18,10 +18,10 @@ In the United States, TBHQ is permitted as a direct food additive to protect edi
 
 ## What can replace Tertiary-butylhydroquinone (tbhq)?
 There are several alternatives, depending on the recipe and shelf-life needs:
-- Natural vitamin E extracts such as [tocopherol-rich extract](/e306-tocopherol-rich-extract) or [alpha-tocopherol](/e307-alpha-tocopherol)
-- [Extracts of rosemary](/e392-extracts-of-rosemary)
-- Ascorbic acid derivatives like [ascorbyl palmitate](/e304i-ascorbyl-palmitate) and synergists such as [citric acid](/e330-citric-acid)
-- Other synthetic antioxidants: [propyl gallate](/e310-propyl-gallate), [butylated hydroxyanisole (BHA)](/e320-butylated-hydroxyanisole-bha), or [butylated hydroxytoluene (BHT)](/e321-butylated-hydroxytoluene)
+- Natural vitamin E extracts such as [tocopherol-rich extract](/e306-tocopherol-rich-extract){.additive} or [alpha-tocopherol](/e307-alpha-tocopherol){.additive}
+- [Extracts of rosemary](/e392-extracts-of-rosemary){.additive}
+- Ascorbic acid derivatives like [ascorbyl palmitate](/e304i-ascorbyl-palmitate){.additive} and synergists such as [citric acid](/e330-citric-acid){.additive}
+- Other synthetic antioxidants: [propyl gallate](/e310-propyl-gallate){.additive}, [butylated hydroxyanisole (BHA)](/e320-butylated-hydroxyanisole-bha){.additive}, or [butylated hydroxytoluene (BHT)](/e321-butylated-hydroxytoluene){.additive}
 
 ## How is Tertiary-butylhydroquinone (tbhq) made?
 TBHQ is made by reacting hydroquinone with a tert‑butyl source (such as isobutylene or tert‑butyl alcohol) in the presence of an acid catalyst. This process attaches a tert‑butyl group to the hydroquinone ring, creating an effective phenolic antioxidant.[^3]

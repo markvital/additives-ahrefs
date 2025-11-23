@@ -8,7 +8,7 @@ Calcium polyphosphate (E544) is a member of the phosphate family used to stabili
 - People with kidney disease or who must limit phosphorus should watch total phosphate intake from all sources.
 
 ## Why is calcium polyphosphate added to food?
-Food makers use calcium polyphosphate to keep proteins and fats evenly mixed, to hold water in meats and seafood, and to stop minerals from causing off-flavors or haze. In short, it acts as a stabilizer, emulsifying salt, and sequestrant in complex foods where texture and consistency matter.[^1] It is part of the larger class of [polyphosphates](/e452-polyphosphates) that are widely permitted as processing aids and stabilizers in many countries.[^3]
+Food makers use calcium polyphosphate to keep proteins and fats evenly mixed, to hold water in meats and seafood, and to stop minerals from causing off-flavors or haze. In short, it acts as a stabilizer, emulsifying salt, and sequestrant in complex foods where texture and consistency matter.[^1] It is part of the larger class of [polyphosphates](/e452-polyphosphates){.additive} that are widely permitted as processing aids and stabilizers in many countries.[^3]
 
 ## What foods contain calcium polyphosphate?
 You will most often find calcium polyphosphate in:
@@ -19,14 +19,14 @@ You will most often find calcium polyphosphate in:
 
 These uses are part of the authorized categories for polyphosphates in EU and Codex standards, with calcium polyphosphate listed among the permitted salts.[^2][^3] In the United States, phosphate salts are allowed as emulsifying agents in processed cheese, illustrating this role in practice.[^5]
 
-On labels, it may appear as “calcium polyphosphate,” “polyphosphates,” or by E-number. You might also see related entries such as [phosphoric acid](/e338-phosphoric-acid), [sodium phosphates](/e339-sodium-phosphates), [potassium phosphates](/e340-potassium-phosphates), [calcium phosphates](/e341-calcium-phosphates), and other members of the phosphate family.
+On labels, it may appear as “calcium polyphosphate,” “polyphosphates,” or by E-number. You might also see related entries such as [phosphoric acid](/e338-phosphoric-acid){.additive}, [sodium phosphates](/e339-sodium-phosphates){.additive}, [potassium phosphates](/e340-potassium-phosphates){.additive}, [calcium phosphates](/e341-calcium-phosphates){.additive}, and other members of the phosphate family.
 
 ## What can replace calcium polyphosphate?
 Swapping this additive depends on the job it’s doing:
-- Emulsifying salt in processed cheese: blends of [trisodium citrate](/e331iii-trisodium-citrate) and phosphates are common; in phosphate-reduced formulas, citrate systems or [citric acid](/e330-citric-acid) may help, with trade-offs in melt and stretch.
-- Water binding/stabilizing: hydrocolloids like [carrageenan](/e407-carrageenan) or [sodium alginate](/e401-sodium-alginate) can improve moisture retention, though texture will differ.
-- Buffering/sequestration: citrates (e.g., [trisodium citrate](/e331iii-trisodium-citrate)) can bind metal ions and adjust pH in some recipes.
-- Leavening/pH control in mixes: alternatives include [sodium bicarbonate](/e500ii-sodium-bicarbonate) paired with acidulants.
+- Emulsifying salt in processed cheese: blends of [trisodium citrate](/e331iii-trisodium-citrate){.additive} and phosphates are common; in phosphate-reduced formulas, citrate systems or [citric acid](/e330-citric-acid){.additive} may help, with trade-offs in melt and stretch.
+- Water binding/stabilizing: hydrocolloids like [carrageenan](/e407-carrageenan){.additive} or [sodium alginate](/e401-sodium-alginate){.additive} can improve moisture retention, though texture will differ.
+- Buffering/sequestration: citrates (e.g., [trisodium citrate](/e331iii-trisodium-citrate){.additive}) can bind metal ions and adjust pH in some recipes.
+- Leavening/pH control in mixes: alternatives include [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive} paired with acidulants.
 
 Each substitute has its own taste, cost, and performance profile, so formulators often use blends.
 
@@ -50,7 +50,7 @@ People who must limit phosphorus—especially those with chronic kidney disease 
 - Myth: “You can’t get the same texture without phosphates.” Fact: Alternatives exist (for example, citrates or hydrocolloids), though they can change taste and texture and may not fully mimic phosphate functionality.
 
 ## Calcium polyphosphate in branded foods
-Calcium polyphosphate typically appears in ingredient lists as “calcium polyphosphate,” “polyphosphates,” or an E-number (region dependent). It is most common in processed meats, seafood, and processed cheese. If you’re tracking intake, compare similar products—some use citrate systems or hydrocolloids instead, and others may rely on different phosphate salts such as [triphosphates](/e451-triphosphates) or [dicalcium diphosphate](/e540-dicalcium-diphosphate).
+Calcium polyphosphate typically appears in ingredient lists as “calcium polyphosphate,” “polyphosphates,” or an E-number (region dependent). It is most common in processed meats, seafood, and processed cheese. If you’re tracking intake, compare similar products—some use citrate systems or hydrocolloids instead, and others may rely on different phosphate salts such as [triphosphates](/e451-triphosphates){.additive} or [dicalcium diphosphate](/e540-dicalcium-diphosphate){.additive}.
 
 ## References
 [^1]: Commission Regulation (EU) No 231/2012 — Specifications for food additives listed in Annexes II and III to Regulation (EC) No 1333/2008 (polyphosphates, including calcium polyphosphate). https://eur-lex.europa.eu/eli/reg/2012/231/oj

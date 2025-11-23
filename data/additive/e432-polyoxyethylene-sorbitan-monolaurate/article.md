@@ -25,9 +25,9 @@ You’re most likely to see E432 in products that need to keep flavor oils dispe
 
 ## What can replace Polyoxyethylene sorbitan monolaurate?
 Alternatives depend on the recipe and the kind of oil or flavor to be dispersed:
-- Other polysorbates: [polyoxyethylene sorbitan monooleate](/e433-polyoxyethylene-sorbitan-monooleate), [polyoxyethylene sorbitan monopalmitate](/e434-polyoxyethylene-sorbitan-monopalmitate), [polyoxyethylene sorbitan monostearate](/e435-polyoxyethylene-sorbitan-monostearate), [polyoxyethylene sorbitan tristearate](/e436-polyoxyethylene-sorbitan-tristearate)
-- Non-polysorbate emulsifiers: [lecithins](/e322-lecithins), [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids), [sucrose esters of fatty acids](/e473-sucrose-esters-of-fatty-acids)
-- Sorbitan esters (non-ethoxylated): [sorbitan monolaurate](/e493-sorbitan-monolaurate), [sorbitan monostearate](/e491-sorbitan-monostearate), [sorbitan tristearate](/e492-sorbitan-tristearate), [sorbitan monopalmitate](/e495-sorbitan-monopalmitate)
+- Other polysorbates: [polyoxyethylene sorbitan monooleate](/e433-polyoxyethylene-sorbitan-monooleate){.additive}, [polyoxyethylene sorbitan monopalmitate](/e434-polyoxyethylene-sorbitan-monopalmitate){.additive}, [polyoxyethylene sorbitan monostearate](/e435-polyoxyethylene-sorbitan-monostearate){.additive}, [polyoxyethylene sorbitan tristearate](/e436-polyoxyethylene-sorbitan-tristearate){.additive}
+- Non-polysorbate emulsifiers: [lecithins](/e322-lecithins){.additive}, [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive}, [sucrose esters of fatty acids](/e473-sucrose-esters-of-fatty-acids){.additive}
+- Sorbitan esters (non-ethoxylated): [sorbitan monolaurate](/e493-sorbitan-monolaurate){.additive}, [sorbitan monostearate](/e491-sorbitan-monostearate){.additive}, [sorbitan tristearate](/e492-sorbitan-tristearate){.additive}, [sorbitan monopalmitate](/e495-sorbitan-monopalmitate){.additive}
 
 ## How is Polyoxyethylene sorbitan monolaurate made?
 - First, sorbitol (a sugar alcohol) is dehydrated to make sorbitan.

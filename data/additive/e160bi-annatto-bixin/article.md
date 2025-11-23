@@ -20,15 +20,15 @@ You’ll most often see it in:
 - Baked snacks (crackers, chips), cereals, and bakery items
 - Sauces, dressings, and some prepared meals
 
-On labels, it may appear as “annatto (color),” “bixin,” or “E160b/E160bi.” It is related to [annatto](/e160b-annatto) as a whole extract and to [annatto norbixin](/e160bii-annatto-norbixin), its water‑soluble form.
+On labels, it may appear as “annatto (color),” “bixin,” or “E160b/E160bi.” It is related to [annatto](/e160b-annatto){.additive} as a whole extract and to [annatto norbixin](/e160bii-annatto-norbixin){.additive}, its water‑soluble form.
 
 ## What can replace Annatto bixin?
 Depending on the shade and formulation, common alternatives include:
-- [Beta-carotene](/e160ai-beta-carotene) for yellow to orange tones
-- [Paprika extract](/e160c-paprika-extract) for orange‑red hues
-- [Curcumin](/e100-curcumin) from turmeric for bright yellow
-- [Lycopene](/e160d-lycopene) for red‑orange
-- [Plain caramel](/e150a-plain-caramel) for brownish golden shades
+- [Beta-carotene](/e160ai-beta-carotene){.additive} for yellow to orange tones
+- [Paprika extract](/e160c-paprika-extract){.additive} for orange‑red hues
+- [Curcumin](/e100-curcumin){.additive} from turmeric for bright yellow
+- [Lycopene](/e160d-lycopene){.additive} for red‑orange
+- [Plain caramel](/e150a-plain-caramel){.additive} for brownish golden shades
 
 Color selection depends on solubility (oil vs water), stability, and the target hue.
 

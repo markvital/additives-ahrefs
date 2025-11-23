@@ -18,8 +18,8 @@ You’ll commonly see it in no‑ or low‑sugar soft drinks, flavored waters, s
 
 ## What can replace Steviol glycosides from Stevia?
 Depending on the recipe, technologists often consider:
-- Other high‑intensity sweeteners: [sucralose](/e955-sucralose), [aspartame](/e951-aspartame), [acesulfame K](/e950-acesulfame-k), [saccharin](/e954-saccharin-and-its-salts), [neotame](/e961-neotame), [advantame](/e969-advantame), or [thaumatin](/e957-thaumatin).
-- Sugar alcohols (polyols) for bulk and some sweetness: [erythritol](/e968-erythritol), [xylitol](/e967-xylitol), [sorbitol](/e420-sorbitol), or [maltitol](/e965-maltitol).
+- Other high‑intensity sweeteners: [sucralose](/e955-sucralose){.additive}, [aspartame](/e951-aspartame){.additive}, [acesulfame K](/e950-acesulfame-k){.additive}, [saccharin](/e954-saccharin-and-its-salts){.additive}, [neotame](/e961-neotame){.additive}, [advantame](/e969-advantame){.additive}, or [thaumatin](/e957-thaumatin){.additive}.
+- Sugar alcohols (polyols) for bulk and some sweetness: [erythritol](/e968-erythritol){.additive}, [xylitol](/e967-xylitol){.additive}, [sorbitol](/e420-sorbitol){.additive}, or [maltitol](/e965-maltitol){.additive}.
 - Blends: E960A is often blended with other sweeteners to fine‑tune taste and mouthfeel.
 
 ## How is Steviol glycosides from Stevia made?
@@ -39,7 +39,7 @@ Most people don’t need to avoid E960A specifically, but consider these points:
 
 ## Myths & facts
 - Myth: “It’s just ground stevia leaf.” Fact: E960A is a purified extract of steviol glycosides from stevia leaves, not the whole herb; it is defined in EU law with specific specifications and use conditions.[^2]
-- Myth: “All ‘stevia’ additives are the same.” Fact: E960A refers to steviol glycosides from stevia leaf extraction; related entries include [steviol glycosides](/e960-steviol-glycosides) as a group and [glucosylated steviol glycosides](/e960d-glucosylated-steviol-glycosides), which are produced by adding glucose units via enzymes—these categories are treated separately in EU legislation.[^2]
+- Myth: “All ‘stevia’ additives are the same.” Fact: E960A refers to steviol glycosides from stevia leaf extraction; related entries include [steviol glycosides](/e960-steviol-glycosides){.additive} as a group and [glucosylated steviol glycosides](/e960d-glucosylated-steviol-glycosides){.additive}, which are produced by adding glucose units via enzymes—these categories are treated separately in EU legislation.[^2]
 - Myth: “It’s natural, so there’s no limit.” Fact: Regulators set an ADI (4 mg/kg bw/day as steviol equivalents) to ensure safe lifetime intake, just as they do for many additives.[^6]
 
 ## Steviol glycosides from Stevia in branded foods

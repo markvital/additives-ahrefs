@@ -20,17 +20,17 @@ This additive does several jobs at once:
 - Processed cheeses and cheese products: It serves as an emulsifying salt to keep cheese smooth and sliceable.[^4]
 - Seafood, surimi, canned or formed products: Often used to help retain moisture and firmness.
 - Some baked goods and dry mixes: It can support dough handling and help powders flow or dissolve evenly.
-- It may appear alongside related phosphates such as [disodium diphosphate](/e450i-disodium-diphosphate), [trisodium diphosphate](/e450ii-trisodium-diphosphate), [sodium phosphates](/e339-sodium-phosphates), or [polyphosphates](/e452-polyphosphates).
+- It may appear alongside related phosphates such as [disodium diphosphate](/e450i-disodium-diphosphate){.additive}, [trisodium diphosphate](/e450ii-trisodium-diphosphate){.additive}, [sodium phosphates](/e339-sodium-phosphates){.additive}, or [polyphosphates](/e452-polyphosphates){.additive}.
 
 ## What can replace Tetrasodium diphosphate?
 Depending on the job it does in a recipe, possible stand‑ins include:
-- For emulsifying/stabilising: [sodium phosphates](/e339-sodium-phosphates), [polyphosphates](/e452-polyphosphates), [sodium aluminum phosphate](/e541-sodium-aluminium-phosphate), or non‑phosphate options like [carrageenan](/e407-carrageenan) or [lecithins](/e322-lecithins).
-- For pH control or buffering: [citric acid](/e330-citric-acid) or [sodium citrate](/e331-sodium-citrates).
-- For leavening systems: Pairing acids with bases such as [sodium bicarbonate](/e500ii-sodium-bicarbonate) can be adjusted to replace phosphate‑based systems in some baked goods.
-- For moisture retention: Other members of the [diphosphates](/e450-diphosphates) family, or selected gums and proteins, may be used depending on the food.
+- For emulsifying/stabilising: [sodium phosphates](/e339-sodium-phosphates){.additive}, [polyphosphates](/e452-polyphosphates){.additive}, [sodium aluminum phosphate](/e541-sodium-aluminium-phosphate){.additive}, or non‑phosphate options like [carrageenan](/e407-carrageenan){.additive} or [lecithins](/e322-lecithins){.additive}.
+- For pH control or buffering: [citric acid](/e330-citric-acid){.additive} or [sodium citrate](/e331-sodium-citrates){.additive}.
+- For leavening systems: Pairing acids with bases such as [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive} can be adjusted to replace phosphate‑based systems in some baked goods.
+- For moisture retention: Other members of the [diphosphates](/e450-diphosphates){.additive} family, or selected gums and proteins, may be used depending on the food.
 
 ## How is Tetrasodium diphosphate made?
-Food‑grade tetrasodium diphosphate is produced from phosphate and sodium sources. A common route is to neutralise [phosphoric acid](/e338-phosphoric-acid) with sodium salts, then heat (calcine) the material to drive off water and form the pyrophosphate structure; the product is milled and screened to specification.[^2] The compound is a white, water‑soluble solid with the formula Na4P2O7.[^6]
+Food‑grade tetrasodium diphosphate is produced from phosphate and sodium sources. A common route is to neutralise [phosphoric acid](/e338-phosphoric-acid){.additive} with sodium salts, then heat (calcine) the material to drive off water and form the pyrophosphate structure; the product is milled and screened to specification.[^2] The compound is a white, water‑soluble solid with the formula Na4P2O7.[^6]
 
 ## Is Tetrasodium diphosphate safe to eat?
 - United States: Tetrasodium diphosphate is permitted for use in foods under federal regulations, and appears on the U.S. Food and Drug Administration (FDA) Food Additive Status List for appropriate uses and levels, subject to GMP.[^5] Its use in meat/poultry and processed cheese is specifically regulated.[^3][^4]

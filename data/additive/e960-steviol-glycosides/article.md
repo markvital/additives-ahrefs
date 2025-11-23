@@ -24,8 +24,8 @@ You can find E960 in many sugar‑reduced or “no added sugar” products. Labe
 
 ## What can replace Steviol glycosides?
 Food makers often blend or swap sweeteners to get the taste and performance they want.
-- Other high‑intensity sweeteners: [sucralose](/e955-sucralose), [aspartame](/e951-aspartame), [acesulfame K](/e950-acesulfame-k), [saccharin and its salts](/e954-saccharin-and-its-salts), [advantame](/e969-advantame)
-- Polyols (sugar alcohols) for bulk and mild sweetness: [erythritol](/e968-erythritol), [sorbitol](/e420-sorbitol)
+- Other high‑intensity sweeteners: [sucralose](/e955-sucralose){.additive}, [aspartame](/e951-aspartame){.additive}, [acesulfame K](/e950-acesulfame-k){.additive}, [saccharin and its salts](/e954-saccharin-and-its-salts){.additive}, [advantame](/e969-advantame){.additive}
+- Polyols (sugar alcohols) for bulk and mild sweetness: [erythritol](/e968-erythritol){.additive}, [sorbitol](/e420-sorbitol){.additive}
 - Blends: stevia is often paired with acesulfame K or sucralose to smooth taste, or with erythritol to add body
 
 ## How is Steviol glycosides made?
@@ -34,9 +34,9 @@ All versions start with the stevia plant, but the finishing steps can differ.
 - Enzymatically produced variants: Some products (such as E960c) begin with purified leaf steviol glycosides and use food‑grade enzymes to add sugar units, improving sweetness quality and reducing bitterness, followed by purification to food‑grade specifications.[^3]
 
 Related entries you may see on labels:
-- [E960a — steviol glycosides from stevia](/e960a-steviol-glycosides-from-stevia)
-- [E960c — enzymatically produced steviol glycosides](/e960c-enzymatically-produced-steviol-glycosides)
-- [E960d — glucosylated steviol glycosides](/e960d-glucosylated-steviol-glycosides)
+- [E960a — steviol glycosides from stevia](/e960a-steviol-glycosides-from-stevia){.additive}
+- [E960c — enzymatically produced steviol glycosides](/e960c-enzymatically-produced-steviol-glycosides){.additive}
+- [E960d — glucosylated steviol glycosides](/e960d-glucosylated-steviol-glycosides){.additive}
 
 ## Is Steviol glycosides safe to eat?
 Major authorities have evaluated steviol glycosides. In the European Union, the scientific panel of the European Food Safety Authority (EFSA) set an acceptable daily intake (ADI) of 4 mg per kg body weight per day, expressed as steviol equivalents.[^2] In the United States, the Food and Drug Administration (FDA) recognizes high‑purity steviol glycosides as “Generally Recognized as Safe” (GRAS) for use in foods; however, whole stevia leaves and crude extracts are not approved as sweeteners.[^1]

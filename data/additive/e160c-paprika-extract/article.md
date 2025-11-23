@@ -27,10 +27,10 @@ You’ll most often find it in:
 
 ## What can replace Paprika extract?
 Depending on the shade and the recipe, formulators may use:
-- Yellow–orange carotenoids like [beta-carotene](/e160ai-beta-carotene) or [curcumin](/e100-curcumin)
-- Orange–red carotenoids such as [annatto](/e160b-annatto) or [lycopene](/e160d-lycopene)
-- Red options like [beetroot red](/e162-beetroot-red)
-- Brown hues from [caramel](/e150-caramel)
+- Yellow–orange carotenoids like [beta-carotene](/e160ai-beta-carotene){.additive} or [curcumin](/e100-curcumin){.additive}
+- Orange–red carotenoids such as [annatto](/e160b-annatto){.additive} or [lycopene](/e160d-lycopene){.additive}
+- Red options like [beetroot red](/e162-beetroot-red){.additive}
+- Brown hues from [caramel](/e150-caramel){.additive}
 Each color behaves differently with heat, light, pH, and fats, so the best substitute depends on the food and desired shade.
 
 ## How is Paprika extract made?

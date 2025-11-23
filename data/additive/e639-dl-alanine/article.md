@@ -17,9 +17,9 @@ You are most likely to see DL-alanine in flavored foods where a soft sweetness o
 
 ## What can replace DL-alanine?
 Other flavor enhancers can serve similar roles, depending on the recipe:
-- For mild sweetness and smoothing: [glycine](/e640i-glycine)
-- For umami boost: [monosodium glutamate](/e621-monosodium-glutamate)
-- For savory depth in combination: [disodium inosinate](/e631-disodium-inosinate), [disodium guanylate](/e627-disodium-guanylate), or [calcium diglutamate](/e623-calcium-diglutamate)
+- For mild sweetness and smoothing: [glycine](/e640i-glycine){.additive}
+- For umami boost: [monosodium glutamate](/e621-monosodium-glutamate){.additive}
+- For savory depth in combination: [disodium inosinate](/e631-disodium-inosinate){.additive}, [disodium guanylate](/e627-disodium-guanylate){.additive}, or [calcium diglutamate](/e623-calcium-diglutamate){.additive}
 
 ## How is DL-alanine made?
 DL-alanine is the racemic (50:50) mixture of the two mirror-image forms of alanine, defined as a food additive with specific purity criteria in EU specifications.[^4] Commercially, the racemic form is commonly produced by chemical synthesis; a typical route is the Strecker synthesis from an aldehyde, ammonia, and hydrogen cyanide, followed by hydrolysis.[^5]
@@ -42,7 +42,7 @@ Most people do not need to avoid DL-alanine because the amounts used are very sm
   Fact: It works subtly, mainly smoothing and rounding existing flavors.
 
 ## DL-alanine in branded foods
-You may see DL-alanine in ingredient lists for seasonings, powdered drink mixes, confectionery, soups, or sauces. Look for “DL-alanine” or “E639.” Because it is used at low levels for fine flavor tuning, it may not be present in many everyday products, and some brands may prefer alternatives like [glycine](/e640i-glycine) or [monosodium glutamate](/e621-monosodium-glutamate).
+You may see DL-alanine in ingredient lists for seasonings, powdered drink mixes, confectionery, soups, or sauces. Look for “DL-alanine” or “E639.” Because it is used at low levels for fine flavor tuning, it may not be present in many everyday products, and some brands may prefer alternatives like [glycine](/e640i-glycine){.additive} or [monosodium glutamate](/e621-monosodium-glutamate){.additive}.
 
 ## References
 [^1]: Alanine and L-alanine — JECFA, WHO Food Additives Series 42. https://inchem.org/documents/jecfa/jecmono/v42je03.htm

@@ -13,7 +13,7 @@ Delta-tocopherol (E309) is a form of vitamin E used as an antioxidant in foods. 
 ## Why is Delta-tocopherol added to food?
 Food fats and oils react with oxygen over time. This causes rancidity, which creates off-flavors, off-odors, and color changes. Delta-tocopherol is added as an antioxidant to interrupt that oxidation, helping foods stay fresh longer. In the EU it is a listed antioxidant under the E-number E309.[^1]
 
-You may also see it as part of “mixed tocopherols,” a blend that can include [tocopherol-rich extract](/e306-tocopherol-rich-extract), [alpha-tocopherol](/e307-alpha-tocopherol), gamma-, and delta-tocopherol.
+You may also see it as part of “mixed tocopherols,” a blend that can include [tocopherol-rich extract](/e306-tocopherol-rich-extract){.additive}, [alpha-tocopherol](/e307-alpha-tocopherol){.additive}, gamma-, and delta-tocopherol.
 
 ## What foods contain Delta-tocopherol?
 Delta-tocopherol is most common in foods that contain fats or oils, such as:
@@ -29,10 +29,10 @@ Manufacturers often list it as “mixed tocopherols (to preserve freshness)” o
 
 ## What can replace Delta-tocopherol?
 Depending on the food, similar antioxidant roles can be filled by:
-- [Extracts of rosemary](/e392-extracts-of-rosemary)
-- [Ascorbyl palmitate](/e304i-ascorbyl-palmitate) or [ascorbic acid](/e300-ascorbic-acid)
-- [Citric acid](/e330-citric-acid) as a synergist to help other antioxidants work
-- Synthetic antioxidants like [butylated hydroxyanisole (BHA)](/e320-butylated-hydroxyanisole-bha) or [butylated hydroxytoluene (BHT)](/e321-butylated-hydroxytoluene)
+- [Extracts of rosemary](/e392-extracts-of-rosemary){.additive}
+- [Ascorbyl palmitate](/e304i-ascorbyl-palmitate){.additive} or [ascorbic acid](/e300-ascorbic-acid){.additive}
+- [Citric acid](/e330-citric-acid){.additive} as a synergist to help other antioxidants work
+- Synthetic antioxidants like [butylated hydroxyanisole (BHA)](/e320-butylated-hydroxyanisole-bha){.additive} or [butylated hydroxytoluene (BHT)](/e321-butylated-hydroxytoluene){.additive}
 
 Choice depends on flavor impact, label goals, and how the food is processed.
 

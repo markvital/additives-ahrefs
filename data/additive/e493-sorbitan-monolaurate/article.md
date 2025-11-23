@@ -23,14 +23,14 @@ In the EU, E493 is an authorised food additive within defined categories and con
 
 ## What can replace Sorbitan monolaurate?
 Depending on the recipe and the effect needed, formulators might use:
-- Other sorbitan esters: [sorbitan monostearate](/e491-sorbitan-monostearate), [sorbitan monooleate](/e494-sorbitan-monooleate), or [sorbitan monopalmitate](/e495-sorbitan-monopalmitate)
-- Polysorbates such as [polysorbate 20](/e432-polyoxyethylene-sorbitan-monolaurate) or [polysorbate 60](/e435-polyoxyethylene-sorbitan-monostearate)
-- Natural emulsifiers like [lecithins](/e322-lecithins) or [pectins](/e440-pectins)
-- Other systems such as [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids), [sucrose esters](/e473-sucrose-esters-of-fatty-acids), or [polyglycerol esters](/e475-polyglycerol-esters-of-fatty-acids)
-- Thickening gums that aid stability, for example [xanthan gum](/e415-xanthan-gum) or [acacia gum](/e414-acacia-gum)
+- Other sorbitan esters: [sorbitan monostearate](/e491-sorbitan-monostearate){.additive}, [sorbitan monooleate](/e494-sorbitan-monooleate){.additive}, or [sorbitan monopalmitate](/e495-sorbitan-monopalmitate){.additive}
+- Polysorbates such as [polysorbate 20](/e432-polyoxyethylene-sorbitan-monolaurate){.additive} or [polysorbate 60](/e435-polyoxyethylene-sorbitan-monostearate){.additive}
+- Natural emulsifiers like [lecithins](/e322-lecithins){.additive} or [pectins](/e440-pectins){.additive}
+- Other systems such as [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive}, [sucrose esters](/e473-sucrose-esters-of-fatty-acids){.additive}, or [polyglycerol esters](/e475-polyglycerol-esters-of-fatty-acids){.additive}
+- Thickening gums that aid stability, for example [xanthan gum](/e415-xanthan-gum){.additive} or [acacia gum](/e414-acacia-gum){.additive}
 
 ## How is Sorbitan monolaurate made?
-E493 is produced by reacting sorbitan—made by dehydrating [sorbitol](/e420-sorbitol)—with lauric acid. The fatty acids used come from edible fats and oils, and the finished material must meet strict identity and purity specifications in the EU.[^1] In short, it is a food-grade ester of sorbitan and lauric acid prepared under controlled conditions to achieve the required composition and quality.[^1]
+E493 is produced by reacting sorbitan—made by dehydrating [sorbitol](/e420-sorbitol){.additive}—with lauric acid. The fatty acids used come from edible fats and oils, and the finished material must meet strict identity and purity specifications in the EU.[^1] In short, it is a food-grade ester of sorbitan and lauric acid prepared under controlled conditions to achieve the required composition and quality.[^1]
 
 ## Is Sorbitan monolaurate safe to eat?
 European food safety experts have re-evaluated sorbitan esters (including E493) and concluded they do not raise safety concerns at reported use levels; a group acceptable daily intake (ADI) was established for this class of additives.[^2] International evaluations also report that sorbitan esters are broken down in the body to fatty acids and sorbitan, which are then further metabolized or excreted.[^3]
@@ -47,7 +47,7 @@ As with any additive, actual exposure depends on how much of these foods you eat
 Most people do not need to avoid E493. Those following a strict “no additives” diet or who have been advised by a healthcare professional to limit emulsifiers may choose to avoid it. If you are concerned about the source (plant vs animal), contact the manufacturer; food-grade sorbitan esters are made from fatty acids obtained from edible sources, which can be either vegetable or animal, and many brands use vegetable sources.[^1]
 
 ## Myths & facts
-- “It’s the same as polysorbates.” False. Polysorbates are ethoxylated sorbitan esters (for example, [polysorbate 20](/e432-polyoxyethylene-sorbitan-monolaurate)), while E493 is a non-ethoxylated sorbitan ester.
+- “It’s the same as polysorbates.” False. Polysorbates are ethoxylated sorbitan esters (for example, [polysorbate 20](/e432-polyoxyethylene-sorbitan-monolaurate){.additive}), while E493 is a non-ethoxylated sorbitan ester.
 - “It always comes from animal fat.” False. The fatty acids come from edible sources that may be plant or animal; many suppliers use plant oils such as coconut or palm kernel.[^1]
 - “It builds up in the body.” No. Sorbitan esters are broken down to common food components (fatty acids and sorbitan) that are further metabolized or excreted.[^3]
 

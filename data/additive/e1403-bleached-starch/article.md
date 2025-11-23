@@ -7,7 +7,7 @@ Bleached starch (E1403) is a modified starch that has been gently treated to mak
 - Where it comes from: Starch from corn, potato, tapioca, or wheat that is treated and then washed and dried.
 - What it does: Improves texture, prevents separation, and gives a clean color in sauces, soups, fillings, and more.
 - Common foods: Canned soups, sauces and gravies, fruit fillings, dressings, dairy desserts, confectionery, and instant mixes.
-- Alternatives: Other modified starches and gums such as [oxidised starch](/e1404-oxidised-starch), [xanthan gum](/e415-xanthan-gum), or [guar gum](/e412-guar-gum).
+- Alternatives: Other modified starches and gums such as [oxidised starch](/e1404-oxidised-starch){.additive}, [xanthan gum](/e415-xanthan-gum){.additive}, or [guar gum](/e412-guar-gum){.additive}.
 - Safety: Allowed in both the EU and U.S. for use in foods within strict specifications.
 - Allergen note: If made from wheat, the source must be labeled; gluten-free products must meet the legal gluten limit.
 
@@ -28,9 +28,9 @@ On labels, it can appear as “bleached starch,” “modified starch,” or “
 
 ## What can replace Bleached starch?
 Depending on the recipe and texture needed, common swaps include:
-- Other modified starches: [oxidised starch](/e1404-oxidised-starch), [monostarch phosphate](/e1410-monostarch-phosphate), [distarch phosphate](/e1412-distarch-phosphate), [hydroxypropyl starch](/e1440-hydroxypropyl-starch), [hydroxypropyl distarch phosphate](/e1442-hydroxypropyl-distarch-phosphate), or [acetylated distarch adipate](/e1422-acetylated-distarch-adipate).
-- Gums and hydrocolloids: [xanthan gum](/e415-xanthan-gum), [guar gum](/e412-guar-gum), [locust bean gum](/e410-locust-bean-gum), [tara gum](/e417-tara-gum), [gellan gum](/e418-gellan-gum), [carrageenan](/e407-carrageenan), or [agar](/e406-agar).
-- Cellulose derivatives for body and stability: [sodium carboxy methyl cellulose](/e466-sodium-carboxy-methyl-cellulose).
+- Other modified starches: [oxidised starch](/e1404-oxidised-starch){.additive}, [monostarch phosphate](/e1410-monostarch-phosphate){.additive}, [distarch phosphate](/e1412-distarch-phosphate){.additive}, [hydroxypropyl starch](/e1440-hydroxypropyl-starch){.additive}, [hydroxypropyl distarch phosphate](/e1442-hydroxypropyl-distarch-phosphate){.additive}, or [acetylated distarch adipate](/e1422-acetylated-distarch-adipate){.additive}.
+- Gums and hydrocolloids: [xanthan gum](/e415-xanthan-gum){.additive}, [guar gum](/e412-guar-gum){.additive}, [locust bean gum](/e410-locust-bean-gum){.additive}, [tara gum](/e417-tara-gum){.additive}, [gellan gum](/e418-gellan-gum){.additive}, [carrageenan](/e407-carrageenan){.additive}, or [agar](/e406-agar){.additive}.
+- Cellulose derivatives for body and stability: [sodium carboxy methyl cellulose](/e466-sodium-carboxy-methyl-cellulose){.additive}.
 Choice depends on heat, acidity, freeze–thaw needs, clarity, and clean-label goals.
 
 ## How is Bleached starch made?
@@ -44,7 +44,7 @@ For food makers, it offers reliable thickening, a clean white color, and stable 
 
 ## Who should avoid Bleached starch?
 - People with a wheat allergy or celiac disease should check the source. If the starch comes from wheat, it must be labeled as such in the U.S., and “gluten-free” foods must meet the 20 ppm gluten limit.[^4]
-- If you follow a grain-free or specific-ingredient diet, look for products using potato or tapioca starch, or choose alternatives like [xanthan gum](/e415-xanthan-gum) or [pectins](/e440-pectins).
+- If you follow a grain-free or specific-ingredient diet, look for products using potato or tapioca starch, or choose alternatives like [xanthan gum](/e415-xanthan-gum){.additive} or [pectins](/e440-pectins){.additive}.
 
 ## Myths & facts
 - Myth: “Bleached starch is the same as adding household bleach to food.”

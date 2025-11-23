@@ -10,6 +10,7 @@ const { ProxyAgent, setGlobalDispatcher } = require('undici');
 const { createAdditiveSlug } = require('./utils/slug');
 const { loadEnvConfig, resolveOpenAiApiKey } = require('./utils/env');
 const { shouldExcludeQuestion } = require('../shared/question-filter');
+const { updateLastUpdatedTimestamp } = require('./utils/last-updated');
 
 dns.setDefaultResultOrder('ipv4first');
 
@@ -35,6 +36,8 @@ const MAX_ATTEMPTS = 3;
 const BASE_RETRY_DELAY_MS = 1500;
 const DEFAULT_PARALLEL = 3;
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+let hasChanges = false;
 
 const parsePositiveInteger = (value, label) => {
   const parsed = Number.parseInt(String(value), 10);
@@ -654,6 +657,7 @@ const processAdditive = async ({
   };
 
   await fs.writeFile(answersPath, `${JSON.stringify(output, null, 2)}\n`, 'utf8');
+  hasChanges = true;
   console.log(`Saved ${orderedAnswers.length} answer(s) to ${answersRelativePath}.`);
 
   if (delay > 0) {
@@ -744,6 +748,10 @@ const run = async () => {
     };
 
     await Promise.all(Array.from({ length: parallelLimit }, () => worker()));
+
+    if (hasChanges) {
+      await updateLastUpdatedTimestamp();
+    }
   } catch (error) {
     console.error(error.message || error);
     process.exitCode = 1;

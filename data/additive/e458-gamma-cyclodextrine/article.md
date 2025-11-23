@@ -28,10 +28,10 @@ On labels, look for “E458,” “gamma-cyclodextrin,” or “Gamma-Cyclodextr
 There’s no one-size-fits-all substitute; the best replacement depends on the job it’s doing.
 
 - For encapsulating flavors or improving solubility:
-  - [Alpha-Cyclodextrine](/e457-alpha-cyclodextrine) or [Beta-Cyclodextrine](/e459-beta-cyclodextrine) can sometimes stand in, though each has different cavity size and performance.
-  - [Acacia gum](/e414-acacia-gum) or [modified starches](/e14xx-modified-starch) are common carriers for spray-dried flavors.
+  - [Alpha-Cyclodextrine](/e457-alpha-cyclodextrine){.additive} or [Beta-Cyclodextrine](/e459-beta-cyclodextrine){.additive} can sometimes stand in, though each has different cavity size and performance.
+  - [Acacia gum](/e414-acacia-gum){.additive} or [modified starches](/e14xx-modified-starch){.additive} are common carriers for spray-dried flavors.
 - For stabilising and thickening:
-  - [Xanthan gum](/e415-xanthan-gum), [sodium alginate](/e401-sodium-alginate), or [pectin](/e440a-pectin) are widely used texture agents.
+  - [Xanthan gum](/e415-xanthan-gum){.additive}, [sodium alginate](/e401-sodium-alginate){.additive}, or [pectin](/e440a-pectin){.additive} are widely used texture agents.
 
 ## How is Gamma-Cyclodextrine made?
 E458 is produced from food starch (often maize or potato) using enzymes. First, cyclodextrin-forming enzymes convert starch into a mixture of ring-shaped molecules. Then the gamma fraction is separated, purified (e.g., filtration, crystallisation), and dried to specification.[^2]

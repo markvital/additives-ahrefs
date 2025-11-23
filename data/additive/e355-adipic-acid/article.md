@@ -18,16 +18,16 @@ You’ll most often see adipic acid in:
 - Chewing gum and candy, especially sour styles
 - Dry mixes that are designed to rehydrate (desserts, beverages)
 
-Look for “adipic acid” or “E355” in the ingredients list. It may appear together with other acids such as [citric acid](/e330-citric-acid), [malic acid](/e296-malic-acid), or [fumaric acid](/e297-fumaric-acid).
+Look for “adipic acid” or “E355” in the ingredients list. It may appear together with other acids such as [citric acid](/e330-citric-acid){.additive}, [malic acid](/e296-malic-acid){.additive}, or [fumaric acid](/e297-fumaric-acid){.additive}.
 
 ## What can replace Adipic acid?
 Suitable substitutes depend on the food and the taste or performance you need:
-- For a bright, quick tartness: [citric acid](/e330-citric-acid)
-- For a smoother, apple-like sourness: [malic acid](/e296-malic-acid)
-- For strong acidity in dry products: [fumaric acid](/e297-fumaric-acid)
-- For wine/grape-like notes: [L-tartaric acid](/e334-l-tartaric-acid)
-- In beverages where buffering is needed: [sodium citrate](/e331-sodium-citrates) or [potassium citrate](/e332-potassium-citrates)
-- If you want to use a salt of adipic acid: [sodium adipate](/e356-sodium-adipate) or [potassium adipate](/e357-potassium-adipate)
+- For a bright, quick tartness: [citric acid](/e330-citric-acid){.additive}
+- For a smoother, apple-like sourness: [malic acid](/e296-malic-acid){.additive}
+- For strong acidity in dry products: [fumaric acid](/e297-fumaric-acid){.additive}
+- For wine/grape-like notes: [L-tartaric acid](/e334-l-tartaric-acid){.additive}
+- In beverages where buffering is needed: [sodium citrate](/e331-sodium-citrates){.additive} or [potassium citrate](/e332-potassium-citrates){.additive}
+- If you want to use a salt of adipic acid: [sodium adipate](/e356-sodium-adipate){.additive} or [potassium adipate](/e357-potassium-adipate){.additive}
 
 ## How is Adipic acid made?
 Most adipic acid is produced by oxidizing cyclohexanone and/or cyclohexanol (often called “KA oil”) with nitric acid. This well-established process also generates nitrous oxide (N2O) as a byproduct, which producers aim to control and abate.[^5] Food-grade adipic acid is then purified to meet specifications before use in foods.
@@ -53,8 +53,8 @@ Most people can consume adipic acid in normal amounts found in foods. Those who 
 
 ## Adipic acid in branded foods
 - How it appears on labels: “Adipic acid,” “E355,” or “hexanedioic acid.”
-- Where you might see it: powdered drink mixes, flavored gelatin desserts made with [gelatine](/e428-gelatine), sour candies or chewing gum, and other flavored dry mixes.
-- Shopping tip: If you’re watching acidity, compare similar products—some use alternatives such as [citric acid](/e330-citric-acid) or [malic acid](/e296-malic-acid).
+- Where you might see it: powdered drink mixes, flavored gelatin desserts made with [gelatine](/e428-gelatine){.additive}, sour candies or chewing gum, and other flavored dry mixes.
+- Shopping tip: If you’re watching acidity, compare similar products—some use alternatives such as [citric acid](/e330-citric-acid){.additive} or [malic acid](/e296-malic-acid){.additive}.
 
 ## References
 [^1]: Regulation (EC) No 1333/2008 on food additives — European Union. https://eur-lex.europa.eu/eli/reg/2008/1333/oj

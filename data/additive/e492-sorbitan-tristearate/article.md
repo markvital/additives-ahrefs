@@ -24,12 +24,12 @@ In the EU, its permitted food uses and maximum levels are set out in Annex II of
 
 ## What can replace sorbitan tristearate?
 Alternatives depend on the recipe and process:
-- [Lecithins](/e322-lecithins) for general emulsification
-- [Mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids) for bakery and spreads
-- [Sucrose esters of fatty acids](/e473-sucrose-esters-of-fatty-acids) for delicate foams and emulsions
-- [Propane-1,2-diol esters of fatty acids](/e477-propane-1-2-diol-esters-of-fatty-acids) for aerated desserts and whippable systems
-- Polyoxyethylene sorbitan esters (polysorbates), such as [E432](/e432-polyoxyethylene-sorbitan-monolaurate), [E433](/e433-polyoxyethylene-sorbitan-monooleate), [E434](/e434-polyoxyethylene-sorbitan-monopalmitate), [E435](/e435-polyoxyethylene-sorbitan-monostearate), and [E436](/e436-polyoxyethylene-sorbitan-tristearate) when stronger emulsification is needed
-- Other sorbitan esters like [E491](/e491-sorbitan-monostearate), [E493](/e493-sorbitan-monolaurate), [E494](/e494-sorbitan-monooleate), and [E495](/e495-sorbitan-monopalmitate)
+- [Lecithins](/e322-lecithins){.additive} for general emulsification
+- [Mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive} for bakery and spreads
+- [Sucrose esters of fatty acids](/e473-sucrose-esters-of-fatty-acids){.additive} for delicate foams and emulsions
+- [Propane-1,2-diol esters of fatty acids](/e477-propane-1-2-diol-esters-of-fatty-acids){.additive} for aerated desserts and whippable systems
+- Polyoxyethylene sorbitan esters (polysorbates), such as [E432](/e432-polyoxyethylene-sorbitan-monolaurate){.additive}, [E433](/e433-polyoxyethylene-sorbitan-monooleate){.additive}, [E434](/e434-polyoxyethylene-sorbitan-monopalmitate){.additive}, [E435](/e435-polyoxyethylene-sorbitan-monostearate){.additive}, and [E436](/e436-polyoxyethylene-sorbitan-tristearate){.additive} when stronger emulsification is needed
+- Other sorbitan esters like [E491](/e491-sorbitan-monostearate){.additive}, [E493](/e493-sorbitan-monolaurate){.additive}, [E494](/e494-sorbitan-monooleate){.additive}, and [E495](/e495-sorbitan-monopalmitate){.additive}
 
 ## How is sorbitan tristearate made?
 Sorbitan tristearate is produced by reacting sorbitol (a sugar alcohol) that has been dehydrated to “sorbitan” with food-grade stearic acid (a common fatty acid from edible fats and oils). The process yields mainly the triester, with small amounts of related esters; food-grade material must meet strict identity and purity specifications.[^1]

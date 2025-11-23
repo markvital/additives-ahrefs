@@ -4,14 +4,14 @@ Sodium aluminium phosphate (E541) is a family of aluminum-containing phosphate s
 
 ## At a glance
 - What it does: Helps batter and dough rise in the oven; helps processed cheese melt smoothly and slice well.
-- Forms: An acidic form often labeled as [acid sodium aluminium phosphate](/e541i-acid-sodium-aluminium-phosphate), and a basic form used mainly in cheese.
+- Forms: An acidic form often labeled as [acid sodium aluminium phosphate](/e541i-acid-sodium-aluminium-phosphate){.additive}, and a basic form used mainly in cheese.
 - Where it’s found: Baking powders, self-rising flour, pancake and cake mixes, biscuits, muffins, and some processed cheese slices and spreads.
 - What it replaces: Other leavening acids or emulsifying salts when a slower, heat-activated rise or specific melt is desired.
 - Nutrition note: Adds small amounts of aluminum, sodium, and phosphate; people limiting these should read labels.
 - Regulatory note: In the U.S., both forms are “GRAS” (Generally Recognized As Safe) for specified uses. In the EU, E541 is authorized in selected food categories with restrictions.
 
 ## Why is Sodium aluminium phosphate added to food?
-Food makers use sodium aluminium phosphate (often shortened to SALP) to control when and how gas is released in a recipe. The acidic form reacts with baking soda ([sodium bicarbonate](/e500ii-sodium-bicarbonate)) to release carbon dioxide, giving cakes, muffins, and biscuits a reliable oven rise without too much activity during mixing or storage.[^1] The basic form acts as an emulsifying salt in processed cheese, helping proteins hold water and fat so the cheese melts and spreads evenly without separating.[^2]
+Food makers use sodium aluminium phosphate (often shortened to SALP) to control when and how gas is released in a recipe. The acidic form reacts with baking soda ([sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive}) to release carbon dioxide, giving cakes, muffins, and biscuits a reliable oven rise without too much activity during mixing or storage.[^1] The basic form acts as an emulsifying salt in processed cheese, helping proteins hold water and fat so the cheese melts and spreads evenly without separating.[^2]
 
 ## What foods contain Sodium aluminium phosphate?
 You’ll most often see it in:
@@ -25,9 +25,9 @@ On labels, look for “sodium aluminum phosphate,” “SALP,” “E541,” or 
 
 ## What can replace Sodium aluminium phosphate?
 Alternatives depend on the job you need it to do:
-- As a leavening acid in baking: [monocalcium phosphate](/e341i-monocalcium-phosphate), [disodium diphosphate](/e450i-disodium-diphosphate) (often called sodium acid pyrophosphate), [glucono-delta-lactone](/e575-glucono-delta-lactone), or [citric acid](/e330-citric-acid) in some quick breads.
-- As an emulsifying salt in processed cheese: [sodium phosphates](/e339-sodium-phosphates) or [sodium citrates](/e331-sodium-citrates).
-- For thickening or stabilization roles: [xanthan gum](/e415-xanthan-gum) or [mono- and diglycerides](/e471-mono-and-diglycerides-of-fatty-acids) depending on the formulation.
+- As a leavening acid in baking: [monocalcium phosphate](/e341i-monocalcium-phosphate){.additive}, [disodium diphosphate](/e450i-disodium-diphosphate){.additive} (often called sodium acid pyrophosphate), [glucono-delta-lactone](/e575-glucono-delta-lactone){.additive}, or [citric acid](/e330-citric-acid){.additive} in some quick breads.
+- As an emulsifying salt in processed cheese: [sodium phosphates](/e339-sodium-phosphates){.additive} or [sodium citrates](/e331-sodium-citrates){.additive}.
+- For thickening or stabilization roles: [xanthan gum](/e415-xanthan-gum){.additive} or [mono- and diglycerides](/e471-mono-and-diglycerides-of-fatty-acids){.additive} depending on the formulation.
 
 Each substitute changes flavor release, texture, and timing, so recipes may need testing.
 

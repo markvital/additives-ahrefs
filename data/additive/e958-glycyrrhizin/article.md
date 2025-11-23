@@ -22,9 +22,9 @@ In the EU, foods containing glycyrrhizinic acid or its ammonium salt must say �
 
 ## What can replace Glycyrrhizin?
 Depending on the recipe, common alternatives include:
-- High‑intensity sweeteners with little or no calories: [acesulfame K](/e950-acesulfame-k), [sucralose](/e955-sucralose), [steviol glycosides](/e960-steviol-glycosides), [neotame](/e961-neotame), [advantame](/e969-advantame)
-- Sugar alcohols for bulk and mild sweetness: [sorbitol](/e420-sorbitol), [xylitol](/e967-xylitol)
-- Classic tabletop sweeteners: [saccharin](/e954-saccharin-and-its-salts)
+- High‑intensity sweeteners with little or no calories: [acesulfame K](/e950-acesulfame-k){.additive}, [sucralose](/e955-sucralose){.additive}, [steviol glycosides](/e960-steviol-glycosides){.additive}, [neotame](/e961-neotame){.additive}, [advantame](/e969-advantame){.additive}
+- Sugar alcohols for bulk and mild sweetness: [sorbitol](/e420-sorbitol){.additive}, [xylitol](/e967-xylitol){.additive}
+- Classic tabletop sweeteners: [saccharin](/e954-saccharin-and-its-salts){.additive}
 
 If the licorice flavor is needed, a separate licorice extract or anise-like flavor may be used along with another sweetener.
 

@@ -21,11 +21,11 @@ Its use is authorized in the EU as a food additive; actual use depends on the pr
 
 ## What can replace Potassium aluminium silicate?
 Common alternatives include:
-- [Silicon dioxide](/e551-silicon-dioxide) (E551)
-- [Calcium silicate](/e552-calcium-silicate) (E552)
-- [Sodium aluminium silicate](/e554-sodium-aluminium-silicate) (E554)
-- [Calcium aluminosilicate](/e556-calcium-aluminium-silicate) (E556)
-- [Tricalcium phosphate](/e341iii-tricalcium-phosphate) (E341iii)
+- [Silicon dioxide](/e551-silicon-dioxide){.additive} (E551)
+- [Calcium silicate](/e552-calcium-silicate){.additive} (E552)
+- [Sodium aluminium silicate](/e554-sodium-aluminium-silicate){.additive} (E554)
+- [Calcium aluminosilicate](/e556-calcium-aluminium-silicate){.additive} (E556)
+- [Tricalcium phosphate](/e341iii-tricalcium-phosphate){.additive} (E341iii)
 - Non-additive options like rice flour or starches in some applications
 
 Choice depends on the food, desired texture, and local rules.
@@ -45,7 +45,7 @@ For consumers, the benefit is simple: less clumping. That means:
 - Products stay usable longer after opening when stored dry
 
 ## Who should avoid Potassium aluminium silicate?
-Most people do not need to avoid E555 when it is used as intended. If your doctor has advised you to limit aluminium intake (for example, with certain kidney conditions), you may prefer products that use other anti-caking agents. People who want to avoid mineral additives for personal reasons can look for products made with alternatives like starches or [silicon dioxide](/e551-silicon-dioxide).
+Most people do not need to avoid E555 when it is used as intended. If your doctor has advised you to limit aluminium intake (for example, with certain kidney conditions), you may prefer products that use other anti-caking agents. People who want to avoid mineral additives for personal reasons can look for products made with alternatives like starches or [silicon dioxide](/e551-silicon-dioxide){.additive}.
 
 ## Myths & facts
 - Myth: “It adds a lot of aluminium to your body.” Fact: E555 is insoluble, so only a small amount of aluminium is expected to be absorbed from it.[^1]
@@ -58,7 +58,7 @@ Ingredient lists are the best way to check. Look for “E555” or “potassium 
 - Seasoning blends and rubs
 - Instant drink and dessert powders
 
-If you prefer to avoid it, choose products that list other anti-caking agents (for example, [silicon dioxide](/e551-silicon-dioxide)) or none at all.
+If you prefer to avoid it, choose products that list other anti-caking agents (for example, [silicon dioxide](/e551-silicon-dioxide){.additive}) or none at all.
 
 ## References
 [^1]: Commission Regulation (EU) No 231/2012 — Specifications for food additives (includes potassium aluminium silicate, E 555). https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32012R0231

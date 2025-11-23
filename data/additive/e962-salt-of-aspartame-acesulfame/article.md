@@ -17,9 +17,9 @@ In the EU, E962 is authorized for use in a range of categories, such as soft dri
 
 ## What can replace Salt of aspartame-acesulfame?
 Depending on the recipe and local rules, formulators might swap in:
-- [acesulfame K](/e950-acesulfame-k) or [aspartame](/e951-aspartame) alone
-- Other high‑intensity sweeteners like [sucralose](/e955-sucralose), [saccharin](/e954-saccharin-and-its-salts), [neotame](/e961-neotame), [advantame](/e969-advantame), or [steviol glycosides](/e960-steviol-glycosides)
-- Sugar alcohols such as [erythritol](/e968-erythritol), [xylitol](/e967-xylitol), or [sorbitol](/e420-sorbitol) to add bulk and body alongside an intense sweetener
+- [acesulfame K](/e950-acesulfame-k){.additive} or [aspartame](/e951-aspartame){.additive} alone
+- Other high‑intensity sweeteners like [sucralose](/e955-sucralose){.additive}, [saccharin](/e954-saccharin-and-its-salts){.additive}, [neotame](/e961-neotame){.additive}, [advantame](/e969-advantame){.additive}, or [steviol glycosides](/e960-steviol-glycosides){.additive}
+- Sugar alcohols such as [erythritol](/e968-erythritol){.additive}, [xylitol](/e967-xylitol){.additive}, or [sorbitol](/e420-sorbitol){.additive} to add bulk and body alongside an intense sweetener
 
 ## How is Salt of aspartame-acesulfame made?
 It is produced by combining equimolar amounts of aspartame and acesulfame to form a defined 1:1 crystalline salt. The EU specification describes its identity and purity as a distinct additive separate from its two components.[^2]

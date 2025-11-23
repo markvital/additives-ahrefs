@@ -7,14 +7,14 @@ Monopotassium glutamate (E622) is the potassium salt of glutamic acid, the amino
 - What it does: strengthens savory taste in soups, sauces, snacks, and seasonings.
 - How it tastes: not salty by itself; it deepens meatiness and broth-like notes.
 - Where you’ll see it: label names include “monopotassium glutamate,” “potassium glutamate,” or “E622.”
-- Related additives: [glutamic acid](/e620-glutamic-acid) and [monosodium glutamate](/e621-monosodium-glutamate).
-- Typical pairing: often combined with nucleotide enhancers like [disodium inosinate](/e631-disodium-inosinate) or [disodium guanylate](/e627-disodium-guanylate).
+- Related additives: [glutamic acid](/e620-glutamic-acid){.additive} and [monosodium glutamate](/e621-monosodium-glutamate){.additive}.
+- Typical pairing: often combined with nucleotide enhancers like [disodium inosinate](/e631-disodium-inosinate){.additive} or [disodium guanylate](/e627-disodium-guanylate){.additive}.
 - Diet notes: contains potassium; people on potassium-restricted diets should take care.
 
 ## Why is Monopotassium glutamate added to food?
 Food makers use monopotassium glutamate to deliver umami, the fifth basic taste. It activates the same taste receptors that respond to natural glutamate found in foods like tomatoes and aged cheese, making flavors fuller and more savory. It’s sometimes chosen instead of MSG when formulators want to cut sodium while keeping a strong savory profile.
 
-Monopotassium glutamate can work in synergy with flavor nucleotides such as [disodium inosinate](/e631-disodium-inosinate), [disodium guanylate](/e627-disodium-guanylate), or blends like [disodium 5′‑ribonucleotide](/e635-disodium-5-ribonucleotide), giving a bigger boost than any one ingredient alone.
+Monopotassium glutamate can work in synergy with flavor nucleotides such as [disodium inosinate](/e631-disodium-inosinate){.additive}, [disodium guanylate](/e627-disodium-guanylate){.additive}, or blends like [disodium 5′‑ribonucleotide](/e635-disodium-5-ribonucleotide){.additive}, giving a bigger boost than any one ingredient alone.
 
 ## What foods contain Monopotassium glutamate?
 You’ll most often find E622 in savory products, for example:
@@ -26,10 +26,10 @@ You’ll most often find E622 in savory products, for example:
 - Low‑sodium or “reduced salt” seasonings, where potassium replaces some sodium
 
 ## What can replace Monopotassium glutamate?
-- [Monosodium glutamate (MSG)](/e621-monosodium-glutamate) or [glutamic acid](/e620-glutamic-acid)
+- [Monosodium glutamate (MSG)](/e621-monosodium-glutamate){.additive} or [glutamic acid](/e620-glutamic-acid){.additive}
 - Umami-rich ingredients such as yeast extracts or hydrolyzed vegetable proteins
-- Nucleotide enhancers: [disodium inosinate](/e631-disodium-inosinate), [disodium guanylate](/e627-disodium-guanylate), or [disodium 5′‑ribonucleotide](/e635-disodium-5-ribonucleotide)
-- Mineral substitutes for saltiness, like [potassium chloride](/e508-potassium-chloride), often used alongside umami enhancers
+- Nucleotide enhancers: [disodium inosinate](/e631-disodium-inosinate){.additive}, [disodium guanylate](/e627-disodium-guanylate){.additive}, or [disodium 5′‑ribonucleotide](/e635-disodium-5-ribonucleotide){.additive}
+- Mineral substitutes for saltiness, like [potassium chloride](/e508-potassium-chloride){.additive}, often used alongside umami enhancers
 
 ## How is Monopotassium glutamate made?
 Commercially, L‑glutamic acid is produced by food-grade fermentation using microorganisms that convert sugars or starches into glutamate. The purified L‑glutamic acid is then neutralized with a potassium source (such as potassium hydroxide) to form monopotassium glutamate, followed by crystallization and drying to meet food‑grade specifications.[^1]

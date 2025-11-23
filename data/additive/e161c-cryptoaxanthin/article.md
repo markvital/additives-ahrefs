@@ -19,12 +19,12 @@ However, its use as a color additive is not broadly authorized. In the United St
 
 ## What can replace Cryptoaxanthin?
 Food makers commonly reach for other orange-yellow colorants that are widely used:
-- [beta-carotene](/e160ai-beta-carotene)
-- [lutein](/e161b-lutein)
-- [zeaxanthin](/e161h-zeaxanthin)
-- [paprika extract](/e160c-paprika-extract)
-- [annatto](/e160b-annatto)
-- the broader class of [carotenoids](/e160-carotenoids)
+- [beta-carotene](/e160ai-beta-carotene){.additive}
+- [lutein](/e161b-lutein){.additive}
+- [zeaxanthin](/e161h-zeaxanthin){.additive}
+- [paprika extract](/e160c-paprika-extract){.additive}
+- [annatto](/e160b-annatto){.additive}
+- the broader class of [carotenoids](/e160-carotenoids){.additive}
 
 The choice depends on the desired shade, clarity, solubility, and local regulations.
 

@@ -9,13 +9,13 @@ Disodium guanylate (E627) is a flavor enhancer that boosts savory, umami taste. 
 - Taste note: makes foods taste richer and meatier without adding much salt.
 
 ## Why is Disodium guanylate added to food?
-It makes savory flavors “pop.” Disodium guanylate amplifies umami taste and works synergistically with glutamates such as [monosodium glutamate](/e621-monosodium-glutamate) (MSG), so food makers can get a strong savory impact using very small amounts. This synergy with glutamate and with [disodium inosinate](/e631-disodium-inosinate) (IMP) is well documented in safety evaluations of these 5′-ribonucleotide additives.[^1]
+It makes savory flavors “pop.” Disodium guanylate amplifies umami taste and works synergistically with glutamates such as [monosodium glutamate](/e621-monosodium-glutamate){.additive} (MSG), so food makers can get a strong savory impact using very small amounts. This synergy with glutamate and with [disodium inosinate](/e631-disodium-inosinate){.additive} (IMP) is well documented in safety evaluations of these 5′-ribonucleotide additives.[^1]
 
 ## What foods contain Disodium guanylate?
 You’ll most often see it in flavor-heavy products: potato chips and other snacks, soup mixes, bouillon and stock cubes, instant noodles, seasoning blends, sauces and gravies, and some processed meats. In the United States, ingredients must be listed by their common or usual name, so look for “disodium guanylate” or “sodium guanylate” on the label.[^3]
 
 ## What can replace Disodium guanylate?
-- Other enhancers: [monosodium glutamate](/e621-monosodium-glutamate), [disodium inosinate](/e631-disodium-inosinate), or the combined mix [disodium 5′-ribonucleotides](/e635-disodium-5-ribonucleotide).
+- Other enhancers: [monosodium glutamate](/e621-monosodium-glutamate){.additive}, [disodium inosinate](/e631-disodium-inosinate){.additive}, or the combined mix [disodium 5′-ribonucleotides](/e635-disodium-5-ribonucleotide){.additive}.
 - Ingredient alternatives: yeast extract, mushroom powder, tomato concentrates, aged cheeses, and seaweed can add natural umami.
 - Recipe tweaks: slow cooking, browning (Maillard reactions), and using stocks can build savory depth without additives.
 
@@ -40,7 +40,7 @@ Regulators have reviewed the safety of 5′-ribonucleotide flavor enhancers such
 - “It causes a strong taste by itself.” Not really. On its own it is less impactful; its well‑known power comes from pairing with glutamates such as MSG.
 
 ## Disodium guanylate in branded foods
-You’ll typically find it toward the middle or end of ingredient lists because very little is needed. In the U.S., it must be declared by name—“disodium guanylate” or “sodium guanylate.”[^3] Common product categories that use it include snack chips, instant noodles, soup mixes, bouillon, sauce mixes, and some deli or canned meats. If you’re checking for it, scan the ingredient list near other enhancers like [monosodium glutamate](/e621-monosodium-glutamate) or [disodium inosinate](/e631-disodium-inosinate).
+You’ll typically find it toward the middle or end of ingredient lists because very little is needed. In the U.S., it must be declared by name—“disodium guanylate” or “sodium guanylate.”[^3] Common product categories that use it include snack chips, instant noodles, soup mixes, bouillon, sauce mixes, and some deli or canned meats. If you’re checking for it, scan the ingredient list near other enhancers like [monosodium glutamate](/e621-monosodium-glutamate){.additive} or [disodium inosinate](/e631-disodium-inosinate){.additive}.
 
 ## References
 [^1]: Re‑evaluation of ribonucleotides (E 627, E 631, E 635) as food additives — EFSA Journal (2017). https://www.efsa.europa.eu/en/efsajournal/pub/4727

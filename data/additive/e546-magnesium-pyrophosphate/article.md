@@ -22,12 +22,12 @@ Always check the ingredient list for “magnesium pyrophosphate” or “E546.�
 
 ## What can replace magnesium pyrophosphate?
 Depending on the job it does in the recipe, manufacturers might switch to other anti‑caking or flow agents such as:
-- [Silicon dioxide](/e551-silicon-dioxide)
-- [Calcium silicate](/e552-calcium-silicate)
-- [Tricalcium phosphate](/e341iii-tricalcium-phosphate)
-- [Magnesium carbonates](/e504-magnesium-carbonates)
+- [Silicon dioxide](/e551-silicon-dioxide){.additive}
+- [Calcium silicate](/e552-calcium-silicate){.additive}
+- [Tricalcium phosphate](/e341iii-tricalcium-phosphate){.additive}
+- [Magnesium carbonates](/e504-magnesium-carbonates){.additive}
 
-If a phosphate function is needed (for example, in certain processing steps), related additives like [disodium diphosphate](/e450i-disodium-diphosphate) or [dimagnesium diphosphate](/e450viii-dimagnesium-diphosphate) may be considered, depending on the product and regulations.
+If a phosphate function is needed (for example, in certain processing steps), related additives like [disodium diphosphate](/e450i-disodium-diphosphate){.additive} or [dimagnesium diphosphate](/e450viii-dimagnesium-diphosphate){.additive} may be considered, depending on the product and regulations.
 
 ## How is magnesium pyrophosphate made?
 Magnesium pyrophosphate is the magnesium salt of pyrophosphoric acid (a “diphosphate”). It is produced from food‑grade magnesium and phosphate sources and must meet EU purity specifications when used as E546.[^2] Chemically, it belongs to the pyrophosphate family of minerals.[^3]
@@ -52,10 +52,10 @@ If you have a medical condition that requires managing mineral or phosphorus int
 ## Myths & facts
 - Myth: “All E‑numbers are artificial.” Fact: E‑numbers include many minerals and natural‑origin substances; E546 is a mineral phosphate salt.
 - Myth: “E546 is a preservative.” Fact: Magnesium pyrophosphate is used mainly for texture and processing functions, not as a primary preservative.
-- Myth: “All phosphates are the same.” Fact: There are many phosphate salts (for example, [disodium diphosphate](/e450i-disodium-diphosphate), [tricalcium phosphate](/e341iii-tricalcium-phosphate)), each with different roles and properties.
+- Myth: “All phosphates are the same.” Fact: There are many phosphate salts (for example, [disodium diphosphate](/e450i-disodium-diphosphate){.additive}, [tricalcium phosphate](/e341iii-tricalcium-phosphate){.additive}), each with different roles and properties.
 
 ## Magnesium pyrophosphate in branded foods
-You may find it on labels as “magnesium pyrophosphate” or “E546.” It typically appears in small amounts in dry, shelf‑stable products where flow, texture, or processing stability matters. If you want to avoid it, scan ingredient lists and choose products that use alternatives like [silicon dioxide](/e551-silicon-dioxide) or [calcium silicate](/e552-calcium-silicate).
+You may find it on labels as “magnesium pyrophosphate” or “E546.” It typically appears in small amounts in dry, shelf‑stable products where flow, texture, or processing stability matters. If you want to avoid it, scan ingredient lists and choose products that use alternatives like [silicon dioxide](/e551-silicon-dioxide){.additive} or [calcium silicate](/e552-calcium-silicate){.additive}.
 
 ## References
 [^1]: Re‑evaluation of phosphates (E 338–341, E 343, E 450–452) as food additives — EFSA Journal. https://www.efsa.europa.eu/en/efsajournal/pub/5674

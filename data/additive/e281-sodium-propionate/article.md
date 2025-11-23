@@ -1,8 +1,8 @@
-Sodium propionate (E281) is a preservative that helps stop mold from growing, especially in bread and other baked goods. It is the sodium salt of [propionic acid](/e280-propionic-acid) and has a mild, slightly vinegar-like note that usually does not affect taste. It is widely used and regulated for safety in many countries.
+Sodium propionate (E281) is a preservative that helps stop mold from growing, especially in bread and other baked goods. It is the sodium salt of [propionic acid](/e280-propionic-acid){.additive} and has a mild, slightly vinegar-like note that usually does not affect taste. It is widely used and regulated for safety in many countries.
 <!--more-->
 
 ## At a glance
-- What it is: Sodium salt of [propionic acid](/e280-propionic-acid), used as a preservative to inhibit mold.
+- What it is: Sodium salt of [propionic acid](/e280-propionic-acid){.additive}, used as a preservative to inhibit mold.
 - Where it’s used: Packaged bread, tortillas, bagels, cakes, and other bakery items; some ready-to-eat foods.
 - Also called: E281, sodium propionate.
 - Dietary notes: Vegan-friendly and gluten-free; not a common allergen.
@@ -21,14 +21,14 @@ Label wording may read “sodium propionate,” “E281,” or “preservative (
 
 ## What can replace Sodium propionate?
 Possible substitutes depend on the recipe and pH of the food:
-- Other propionates: [calcium propionate](/e282-calcium-propionate) or [propionic acid](/e280-propionic-acid)
-- Sorbates: [sorbic acid](/e200-sorbic-acid) or [potassium sorbate](/e202-potassium-sorbate), common in baked goods and cheeses
-- Benzoates for acidic foods: [sodium benzoate](/e211-sodium-benzoate)
-- Acidulants and “clean label” options: [acetic acid](/e260-acetic-acid) (vinegar), [buffered vinegar](/e267-buffered-vinegar)
-- Specialty antimicrobials in certain foods: [nisin](/e234-nisin) or [natamycin](/e235-natamycin) for cheese surfaces
+- Other propionates: [calcium propionate](/e282-calcium-propionate){.additive} or [propionic acid](/e280-propionic-acid){.additive}
+- Sorbates: [sorbic acid](/e200-sorbic-acid){.additive} or [potassium sorbate](/e202-potassium-sorbate){.additive}, common in baked goods and cheeses
+- Benzoates for acidic foods: [sodium benzoate](/e211-sodium-benzoate){.additive}
+- Acidulants and “clean label” options: [acetic acid](/e260-acetic-acid){.additive} (vinegar), [buffered vinegar](/e267-buffered-vinegar){.additive}
+- Specialty antimicrobials in certain foods: [nisin](/e234-nisin){.additive} or [natamycin](/e235-natamycin){.additive} for cheese surfaces
 
 ## How is Sodium propionate made?
-Sodium propionate is typically made by neutralizing [propionic acid](/e280-propionic-acid) with a sodium base such as [sodium hydroxide](/e524-sodium-hydroxide) or [sodium carbonates](/e500-sodium-carbonates).[^2] The result is a white, crystalline salt that dissolves well in water and blends easily into doughs and batters.[^2]
+Sodium propionate is typically made by neutralizing [propionic acid](/e280-propionic-acid){.additive} with a sodium base such as [sodium hydroxide](/e524-sodium-hydroxide){.additive} or [sodium carbonates](/e500-sodium-carbonates){.additive}.[^2] The result is a white, crystalline salt that dissolves well in water and blends easily into doughs and batters.[^2]
 
 ## Is Sodium propionate safe to eat?
 When used as intended, sodium propionate is considered safe. In the U.S., it is “generally recognized as safe” (GRAS) for use as an antimicrobial preservative under current good manufacturing practice.[^1] International expert committees have also evaluated propionic acid and its salts and found no safety concerns at typical use levels in food.[^3]
@@ -49,7 +49,7 @@ When used as intended, sodium propionate is considered safe. In the U.S., it is 
 - Myth: It is a strong, general disinfectant. Fact: It mainly targets molds and some bacteria in foods; it is not a broad-spectrum sanitizer.
 
 ## Sodium propionate in branded foods
-You’ll commonly find E281 on labels of national and store-brand sliced breads, buns, bagels, tortillas, and some packaged pastries. It may appear alongside other preservatives such as [calcium propionate](/e282-calcium-propionate) or [potassium sorbate](/e202-potassium-sorbate). Ingredient lists typically read “sodium propionate (preservative).”
+You’ll commonly find E281 on labels of national and store-brand sliced breads, buns, bagels, tortillas, and some packaged pastries. It may appear alongside other preservatives such as [calcium propionate](/e282-calcium-propionate){.additive} or [potassium sorbate](/e202-potassium-sorbate){.additive}. Ingredient lists typically read “sodium propionate (preservative).”
 
 ## References
 [^1]: 21 CFR § 184.1784 Sodium propionate — U.S. FDA eCFR. https://www.ecfr.gov/current/title-21/section-184.1784

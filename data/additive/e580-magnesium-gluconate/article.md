@@ -19,20 +19,20 @@ You are most likely to see E580 on labels for:
 - Powdered drink mixes and rehydration powders
 - Some confectionery and dessert mixes
 
-It may also appear together with related gluconates like [sodium gluconate](/e576-sodium-gluconate), [potassium gluconate](/e577-potassium-gluconate), [calcium gluconate](/e578-calcium-gluconate), or [iron gluconate](/e579-iron-gluconate) when a specific mineral balance is desired.
+It may also appear together with related gluconates like [sodium gluconate](/e576-sodium-gluconate){.additive}, [potassium gluconate](/e577-potassium-gluconate){.additive}, [calcium gluconate](/e578-calcium-gluconate){.additive}, or [iron gluconate](/e579-iron-gluconate){.additive} when a specific mineral balance is desired.
 
 ## What can replace Magnesium Gluconate?
 Possible alternatives depend on the job it is doing:
-- To add magnesium: [magnesium chloride](/e511-magnesium-chloride) or [magnesium sulphate](/e518-magnesium-sulphate)
-- To adjust acidity or buffer pH: [citric acid](/e330-citric-acid) or [sodium citrates](/e331-sodium-citrates)
-- To supply gluconate without magnesium: [sodium gluconate](/e576-sodium-gluconate) or [potassium gluconate](/e577-potassium-gluconate)
+- To add magnesium: [magnesium chloride](/e511-magnesium-chloride){.additive} or [magnesium sulphate](/e518-magnesium-sulphate){.additive}
+- To adjust acidity or buffer pH: [citric acid](/e330-citric-acid){.additive} or [sodium citrates](/e331-sodium-citrates){.additive}
+- To supply gluconate without magnesium: [sodium gluconate](/e576-sodium-gluconate){.additive} or [potassium gluconate](/e577-potassium-gluconate){.additive}
 
 Choice depends on taste, solubility, labeling goals, and dietary needs.
 
 ## How is Magnesium Gluconate made?
-Magnesium gluconate is the magnesium salt of gluconic acid. Gluconic acid and its lactone form, [glucono-delta-lactone](/e575-glucono-delta-lactone), are typically produced by fermenting glucose with food-grade microorganisms; this is a long-established food process in the Code of Federal Regulations (CFR) of the United States.[^3] E580 is then obtained by neutralizing gluconic acid (or its lactone) with a permitted magnesium source, with identity and purity specifications laid out in EU law.[^1]
+Magnesium gluconate is the magnesium salt of gluconic acid. Gluconic acid and its lactone form, [glucono-delta-lactone](/e575-glucono-delta-lactone){.additive}, are typically produced by fermenting glucose with food-grade microorganisms; this is a long-established food process in the Code of Federal Regulations (CFR) of the United States.[^3] E580 is then obtained by neutralizing gluconic acid (or its lactone) with a permitted magnesium source, with identity and purity specifications laid out in EU law.[^1]
 
-Closely related ingredients include [gluconic acid](/e574-gluconic-acid) itself and other gluconate salts such as [sodium gluconate](/e576-sodium-gluconate) and [calcium gluconate](/e578-calcium-gluconate).
+Closely related ingredients include [gluconic acid](/e574-gluconic-acid){.additive} itself and other gluconate salts such as [sodium gluconate](/e576-sodium-gluconate){.additive} and [calcium gluconate](/e578-calcium-gluconate){.additive}.
 
 ## Is Magnesium Gluconate safe to eat?
 When used as permitted in the EU under Regulation (EC) No 1333/2008, magnesium gluconate is considered safe in foods.[^2] As with many magnesium salts, very high intakes from supplements or medications can cause loose stools or diarrhea. The U.S. National Institutes of Health (NIH) sets a Tolerable Upper Intake Level (UL) of 350 mg per day for magnesium taken as supplements or medications in adults; this UL does not apply to magnesium naturally present in foods and beverages.[^4]

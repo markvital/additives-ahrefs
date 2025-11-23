@@ -7,7 +7,7 @@ Sodium sorbate (E201) is a preservative that helps stop molds and yeasts from gr
 - What it does: slows the growth of molds and yeasts, especially in acidic foods
 - Where it’s found: baked goods, cheeses, beverages, and other packaged foods
 - Also known as: E201 on EU-style labels
-- Typical alternatives: [sorbic acid](/e200-sorbic-acid), [potassium sorbate](/e202-potassium-sorbate), [calcium sorbate](/e203-calcium-sorbate), [sodium benzoate](/e211-sodium-benzoate)
+- Typical alternatives: [sorbic acid](/e200-sorbic-acid){.additive}, [potassium sorbate](/e202-potassium-sorbate){.additive}, [calcium sorbate](/e203-calcium-sorbate){.additive}, [sodium benzoate](/e211-sodium-benzoate){.additive}
 
 ## Why is Sodium sorbate added to food?
 Food makers use sodium sorbate to prevent spoilage caused by molds and yeasts. It is most effective in acidic foods, where undissociated sorbic acid can enter microbial cells and slow their growth.[^1]
@@ -17,10 +17,10 @@ You may find sodium sorbate in items like sliced bread and tortillas, cheese and
 
 ## What can replace Sodium sorbate?
 There are several options, depending on the food and the result you want:
-- Other sorbates: [sorbic acid](/e200-sorbic-acid), [potassium sorbate](/e202-potassium-sorbate), or [calcium sorbate](/e203-calcium-sorbate)
-- Benzoates: [benzoic acid](/e210-benzoic-acid) or [sodium benzoate](/e211-sodium-benzoate) in suitable acidic foods
-- Natural antimicrobials: [nisin](/e234-nisin) and [natamycin](/e235-natamycin) for certain dairy and surface treatments
-- Acidity control: [acetic acid](/e260-acetic-acid), [citric acid](/e330-citric-acid), or [ascorbic acid](/e300-ascorbic-acid), often used alongside good hygiene and packaging
+- Other sorbates: [sorbic acid](/e200-sorbic-acid){.additive}, [potassium sorbate](/e202-potassium-sorbate){.additive}, or [calcium sorbate](/e203-calcium-sorbate){.additive}
+- Benzoates: [benzoic acid](/e210-benzoic-acid){.additive} or [sodium benzoate](/e211-sodium-benzoate){.additive} in suitable acidic foods
+- Natural antimicrobials: [nisin](/e234-nisin){.additive} and [natamycin](/e235-natamycin){.additive} for certain dairy and surface treatments
+- Acidity control: [acetic acid](/e260-acetic-acid){.additive}, [citric acid](/e330-citric-acid){.additive}, or [ascorbic acid](/e300-ascorbic-acid){.additive}, often used alongside good hygiene and packaging
 - Non-additive methods: refrigeration, pasteurization, water activity control, and better packaging
 
 ## How is Sodium sorbate made?
@@ -38,10 +38,10 @@ International bodies have evaluated sorbates for use in food, and Codex lists so
 Most people can consume foods with sodium sorbate as part of a normal diet. If you have been advised by a healthcare provider to avoid sorbates or preservatives in general, check labels. People on strict low-sodium diets should note that the sodium from preservatives is usually small compared to salt in foods, but label reading can help you manage total intake.
 
 ## Myths & facts
-- Myth: “Sodium sorbate is the same as sorbitol.” Fact: They are different; sorbate is a preservative, while [sorbitol](/e420-sorbitol) is a sweetener and humectant.
+- Myth: “Sodium sorbate is the same as sorbitol.” Fact: They are different; sorbate is a preservative, while [sorbitol](/e420-sorbitol){.additive} is a sweetener and humectant.
 - Myth: “It replaces refrigeration.” Fact: Preservatives help, but safe storage and temperature control are still needed.
 - Myth: “It kills all microbes.” Fact: Sorbates are strongest against molds and yeasts and work best in acidic foods.[^1]
-- Myth: “It’s the same as MSG.” Fact: It is unrelated to [monosodium glutamate](/e621-monosodium-glutamate).
+- Myth: “It’s the same as MSG.” Fact: It is unrelated to [monosodium glutamate](/e621-monosodium-glutamate){.additive}.
 
 ## Sodium sorbate in branded foods
 On ingredient lists, it may appear as “sodium sorbate,” “preservative (sodium sorbate),” or “E201” where E-numbers are used. You’ll most often see it in products that need help resisting mold or yeast during their shelf life, such as baked goods, cheeses, and some beverages.

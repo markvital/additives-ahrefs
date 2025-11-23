@@ -19,11 +19,11 @@ In the United States, it may still be used as a color additive in foods within r
 
 ## What can replace Titanium dioxide?
 There is no one-size-fits-all replacement, but common options include:
-- [Calcium carbonate](/e170-calcium-carbonates) (E170) for white color in some candies, coatings, and tablets
-- [Modified starches](/e14xx-modified-starch) for opacity or to support alternative whitening systems
+- [Calcium carbonate](/e170-calcium-carbonates){.additive} (E170) for white color in some candies, coatings, and tablets
+- [Modified starches](/e14xx-modified-starch){.additive} for opacity or to support alternative whitening systems
 - Rice starch or other native starches for softer whitening in confections
-- [Calcium phosphates](/e341-calcium-phosphates) as opacifiers in certain applications
-- For tablet polishes and protective coats, non-color options like [carnauba wax](/e903-carnauba-wax) or [shellac](/e904-shellac)
+- [Calcium phosphates](/e341-calcium-phosphates){.additive} as opacifiers in certain applications
+- For tablet polishes and protective coats, non-color options like [carnauba wax](/e903-carnauba-wax){.additive} or [shellac](/e904-shellac){.additive}
 
 Suitability depends on the recipe, processing, desired shade, and local rules.
 
@@ -42,7 +42,7 @@ Titanium dioxide offers no nutritional benefit. Its value is practical: it provi
 
 ## Who should avoid Titanium dioxide?
 - People in the EU will generally not find E171 in new foods because it has been removed from the EU’s authorized list.
-- Anyone who prefers to minimize synthetic pigments or who follows brand/company policies that avoid E171 can choose products that use alternatives like [calcium carbonate](/e170-calcium-carbonates) or starch-based systems.
+- Anyone who prefers to minimize synthetic pigments or who follows brand/company policies that avoid E171 can choose products that use alternatives like [calcium carbonate](/e170-calcium-carbonates){.additive} or starch-based systems.
 - If you want to avoid it in children’s diets, pay special attention to labels on candies, chewing gum, and decorated bakery items, where whitening is often used.
 
 ## Myths & facts
@@ -54,7 +54,7 @@ Titanium dioxide offers no nutritional benefit. Its value is practical: it provi
 Brand formulas change often. To check current use:
 - Read the ingredient list for “titanium dioxide” or “E171.”
 - Compare products and regions. An item sold in the EU may differ from the version sold elsewhere.
-- Look for products that advertise “no artificial colors” or that list alternatives like [calcium carbonate](/e170-calcium-carbonates) or starches.
+- Look for products that advertise “no artificial colors” or that list alternatives like [calcium carbonate](/e170-calcium-carbonates){.additive} or starches.
 
 ## References
 [^1]: 21 CFR 73.575 — Titanium dioxide. U.S. Food and Drug Administration (ecfr.gov). https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-73/subpart-A/section-73.575

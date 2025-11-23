@@ -23,10 +23,10 @@ In the EU, E905a is an authorized food additive with specifications set at the U
 
 ## What can replace mineral oil?
 Alternatives depend on the job:
-- For shine or surface protection: [carnauba wax](/e903-carnauba-wax), [candelilla wax](/e902-candelilla-wax), [beeswax](/e901-white-and-yellow-beeswax), or [shellac](/e904-shellac)
-- For similar petroleum‑derived coatings: [petroleum wax](/e905c-petroleum-wax) or [microcrystalline wax](/e905ci-microcrystalline-wax)
+- For shine or surface protection: [carnauba wax](/e903-carnauba-wax){.additive}, [candelilla wax](/e902-candelilla-wax){.additive}, [beeswax](/e901-white-and-yellow-beeswax){.additive}, or [shellac](/e904-shellac){.additive}
+- For similar petroleum‑derived coatings: [petroleum wax](/e905c-petroleum-wax){.additive} or [microcrystalline wax](/e905ci-microcrystalline-wax){.additive}
 - For pan release: plant oils or emulsions, or tailored emulsifiers
-- For defoaming in processing: [dimethylpolysiloxane](/e900-dimethylpolysiloxane-and-methylphenylpolysiloxane)
+- For defoaming in processing: [dimethylpolysiloxane](/e900-dimethylpolysiloxane-and-methylphenylpolysiloxane){.additive}
 
 ## How is mineral oil made?
 Food‑grade mineral oil is produced by refining selected petroleum fractions until they are highly saturated and free of objectionable impurities. Regulatory specifications focus on identity and purity, including limits assessed by ultraviolet (UV) absorbance and other tests to ensure low levels of aromatic hydrocarbons and consistent performance.[^1][^3]
@@ -40,7 +40,7 @@ When used as permitted, mineral oil is considered safe by major regulators. In t
 - Processing efficiency: as a defoamer in defined processes, it helps control foam and maintain throughput without altering flavor.[^2]
 
 ## Who should avoid mineral oil?
-- If you prefer to avoid petroleum‑derived additives for personal, ethical, or product‑philosophy reasons, choose foods glazed with plant or insect waxes such as [carnauba wax](/e903-carnauba-wax) or [beeswax](/e901-white-and-yellow-beeswax).
+- If you prefer to avoid petroleum‑derived additives for personal, ethical, or product‑philosophy reasons, choose foods glazed with plant or insect waxes such as [carnauba wax](/e903-carnauba-wax){.additive} or [beeswax](/e901-white-and-yellow-beeswax){.additive}.
 - If your healthcare provider has advised limiting exposure to mineral oil for medical reasons, check labels for “mineral oil” or “E905a” and opt for alternatives listed above.
 
 ## Myths & facts

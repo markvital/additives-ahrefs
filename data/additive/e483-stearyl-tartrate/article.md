@@ -9,7 +9,7 @@ Stearyl tartrate (E483) is an emulsifier used in small amounts to help fat and w
 - What it does: Helps dough handle better, improves volume and crumb, and keeps texture uniform
 - Label names: “Stearyl tartrate” or “E483”
 - Regulatory status: Authorized in the EU with detailed purity specifications and restricted uses
-- Typical alternatives: [Mono‑ and diglycerides](/e471-mono-and-diglycerides-of-fatty-acids), [lecithins](/e322-lecithins), and stearoyl‑lactylates such as [E481](/e481-sodium-stearoyl-2-lactylate) and [E482](/e482-calcium-stearoyl-2-lactylate)
+- Typical alternatives: [Mono‑ and diglycerides](/e471-mono-and-diglycerides-of-fatty-acids){.additive}, [lecithins](/e322-lecithins){.additive}, and stearoyl‑lactylates such as [E481](/e481-sodium-stearoyl-2-lactylate){.additive} and [E482](/e482-calcium-stearoyl-2-lactylate){.additive}
 
 ## Why is stearyl tartrate added to food?
 
@@ -23,17 +23,17 @@ You are most likely to find E483 in bread, rolls, and other fine bakery wares. I
 
 Several common ingredients can serve similar roles:
 
-- [Mono‑ and diglycerides](/e471-mono-and-diglycerides-of-fatty-acids) for general emulsification in doughs and batters
-- [Lecithins](/e322-lecithins) for gentle emulsification in bakery and confectionery
-- Stearoyl‑lactylates such as [sodium stearoyl‑2‑lactylate](/e481-sodium-stearoyl-2-lactylate) and [calcium stearoyl‑2‑lactylate](/e482-calcium-stearoyl-2-lactylate) for dough strengthening
-- Enzymes like [alpha‑amylase](/e1100-alpha-amylase) to improve bread volume and softness without adding emulsifiers
-- Oxidizing improvers such as [ascorbic acid](/e300-ascorbic-acid) where allowed
+- [Mono‑ and diglycerides](/e471-mono-and-diglycerides-of-fatty-acids){.additive} for general emulsification in doughs and batters
+- [Lecithins](/e322-lecithins){.additive} for gentle emulsification in bakery and confectionery
+- Stearoyl‑lactylates such as [sodium stearoyl‑2‑lactylate](/e481-sodium-stearoyl-2-lactylate){.additive} and [calcium stearoyl‑2‑lactylate](/e482-calcium-stearoyl-2-lactylate){.additive} for dough strengthening
+- Enzymes like [alpha‑amylase](/e1100-alpha-amylase){.additive} to improve bread volume and softness without adding emulsifiers
+- Oxidizing improvers such as [ascorbic acid](/e300-ascorbic-acid){.additive} where allowed
 
 The best substitute depends on the recipe and the desired texture.
 
 ## How is stearyl tartrate made?
 
-Stearyl tartrate is produced by reacting tartaric acid with long‑chain fatty alcohols (mainly stearyl and palmityl alcohols) obtained from edible fats and oils. The result is a mixture of tartaric acid esters that meets specific identity and purity criteria set by EU law.[^1] Tartaric acid is a natural acid also used as the additive [E334](/e334-l-tartaric-acid).
+Stearyl tartrate is produced by reacting tartaric acid with long‑chain fatty alcohols (mainly stearyl and palmityl alcohols) obtained from edible fats and oils. The result is a mixture of tartaric acid esters that meets specific identity and purity criteria set by EU law.[^1] Tartaric acid is a natural acid also used as the additive [E334](/e334-l-tartaric-acid){.additive}.
 
 ## Is stearyl tartrate safe to eat?
 

@@ -20,8 +20,8 @@ You’ll often find E1422 in foods that need reliable, long-lasting thickness an
 ## What can replace Acetylated distarch adipate?
 Alternatives depend on the recipe and processing:
 
-- Other modified starches with similar roles: [acetylated starch](/e1420-acetylated-starch), [acetylated distarch phosphate](/e1414-acetylated-distarch-phosphate), [hydroxypropyl distarch phosphate](/e1442-hydroxypropyl-distarch-phosphate), [distarch phosphate](/e1412-distarch-phosphate), [oxidised starch](/e1404-oxidised-starch), or [starch sodium octenyl succinate](/e1450-starch-sodium-octenyl-succinate).
-- Gums and hydrocolloids for thickening or stabilising: [xanthan gum](/e415-xanthan-gum), [guar gum](/e412-guar-gum), [locust bean gum](/e410-locust-bean-gum), [gellan gum](/e418-gellan-gum), [carrageenan](/e407-carrageenan), or [pectin](/e440a-pectin).
+- Other modified starches with similar roles: [acetylated starch](/e1420-acetylated-starch){.additive}, [acetylated distarch phosphate](/e1414-acetylated-distarch-phosphate){.additive}, [hydroxypropyl distarch phosphate](/e1442-hydroxypropyl-distarch-phosphate){.additive}, [distarch phosphate](/e1412-distarch-phosphate){.additive}, [oxidised starch](/e1404-oxidised-starch){.additive}, or [starch sodium octenyl succinate](/e1450-starch-sodium-octenyl-succinate){.additive}.
+- Gums and hydrocolloids for thickening or stabilising: [xanthan gum](/e415-xanthan-gum){.additive}, [guar gum](/e412-guar-gum){.additive}, [locust bean gum](/e410-locust-bean-gum){.additive}, [gellan gum](/e418-gellan-gum){.additive}, [carrageenan](/e407-carrageenan){.additive}, or [pectin](/e440a-pectin){.additive}.
 - Process tweaks: using a blend of native starches and milder processing can sometimes achieve a similar texture.
 
 ## How is Acetylated distarch adipate made?

@@ -7,7 +7,7 @@ Chlorine (E925) is a yellow‑green gas used in very small amounts in food proce
 - Why it’s used: to reduce harmful microbes during produce washing and food processing
 - Where you’ll find it: wash water for fresh produce and process water in factories (not usually on labels)
 - Safety: regulated uses and residual limits are set by authorities to protect consumers
-- Alternatives: ozone, peracetic acid, and [chlorine dioxide](/e926-chlorine-dioxide)
+- Alternatives: ozone, peracetic acid, and [chlorine dioxide](/e926-chlorine-dioxide){.additive}
 
 ## Why is Chlorine added to food?
 Chlorine is used as an antimicrobial in rinse and process water to help reduce bacteria, viruses, and molds on food and food-contact surfaces. In the United States, the Food and Drug Administration (FDA) permits its use in water for washing and peeling fruits and vegetables under specified conditions, because it functions as a sanitizer rather than as a flavor or nutrient ingredient.[^1]
@@ -18,7 +18,7 @@ You won’t usually “see” chlorine in foods. It’s added to water used to r
 ## What can replace Chlorine?
 There are several other sanitizers that can serve the same purpose:
 - Ozone gas dissolved in water, allowed by FDA as an antimicrobial agent for processing foods.[^3]
-- [Chlorine dioxide](/e926-chlorine-dioxide), another oxidizing sanitizer often used in process water.
+- [Chlorine dioxide](/e926-chlorine-dioxide){.additive}, another oxidizing sanitizer often used in process water.
 - Peracetic acid solutions, organic acids, and other approved antimicrobials used where appropriate.
 
 Choice depends on the food, equipment, water quality, and regulatory requirements.

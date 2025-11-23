@@ -6,7 +6,7 @@ Amaranth (E123) is a bright, water‑soluble red color made in the lab and used 
 - It delivers vivid red to purple tones and dissolves easily in water.
 - Still authorized for limited uses in the European Union; delisted in the United States.
 - Also known as FD&C Red No. 2 (historic U.S. name).
-- Common swaps include other reds such as [Allura Red](/e129-allura-red), [Ponceau 4R](/e124-ponceau-4r), [Azorubine](/e122-azorubine), [Erythrosine](/e127-erythrosine), or natural colors like [Beetroot red](/e162-beetroot-red) and [Cochineal](/e120-cochineal).
+- Common swaps include other reds such as [Allura Red](/e129-allura-red){.additive}, [Ponceau 4R](/e124-ponceau-4r){.additive}, [Azorubine](/e122-azorubine){.additive}, [Erythrosine](/e127-erythrosine){.additive}, or natural colors like [Beetroot red](/e162-beetroot-red){.additive} and [Cochineal](/e120-cochineal){.additive}.
 - Vegan and vegetarian friendly (it’s synthetic).
 
 ## Why is Amaranth added to food?
@@ -16,9 +16,9 @@ Color sets expectations. Amaranth gives a consistent, bright red shade that hold
 Where it is permitted (for example, in the EU), Amaranth can appear in specific categories such as sweets, dessert decorations, flavored drinks, and certain specialty items. The exact list of allowed foods and maximum use levels is set in EU law, not left to manufacturer choice. These permissions and limits are published in Regulation (EC) No 1333/2008 (Annex II).[^3]
 
 ## What can replace Amaranth?
-- Other synthetic reds: [Allura Red](/e129-allura-red), [Ponceau 4R](/e124-ponceau-4r), [Azorubine](/e122-azorubine), or [Erythrosine](/e127-erythrosine), each with its own shade and stability.
-- Natural reds: [Beetroot red](/e162-beetroot-red) gives a pink-red hue but can fade with heat; [Cochineal](/e120-cochineal) and carmine give stable crimson tones but are insect‑derived.
-- Color blends: Makers often mix reds with yellows like [Sunset Yellow FCF](/e110-sunset-yellow-fcf) to reach oranges, or with blues like [Brilliant Blue FCF](/e133-brilliant-blue-fcf) for purplish notes.
+- Other synthetic reds: [Allura Red](/e129-allura-red){.additive}, [Ponceau 4R](/e124-ponceau-4r){.additive}, [Azorubine](/e122-azorubine){.additive}, or [Erythrosine](/e127-erythrosine){.additive}, each with its own shade and stability.
+- Natural reds: [Beetroot red](/e162-beetroot-red){.additive} gives a pink-red hue but can fade with heat; [Cochineal](/e120-cochineal){.additive} and carmine give stable crimson tones but are insect‑derived.
+- Color blends: Makers often mix reds with yellows like [Sunset Yellow FCF](/e110-sunset-yellow-fcf){.additive} to reach oranges, or with blues like [Brilliant Blue FCF](/e133-brilliant-blue-fcf){.additive} for purplish notes.
 
 ## How is Amaranth made?
 Amaranth is produced by standard azo‑dye chemistry. In simple terms, a “diazotized” intermediate is coupled with a naphthol compound, then the product is sulfonated and neutralized to form a highly water‑soluble sodium salt. Identity and purity specifications for food use are set out in international safety monographs and EU additive specifications.[^4][^2]

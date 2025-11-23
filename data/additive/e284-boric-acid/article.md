@@ -8,7 +8,7 @@ Boric acid (E284) is a simple, weak acid containing boron that was once used as 
 - Former role: Preservative, especially in certain fish roe products like caviar
 - Current status: Not widely permitted as a food additive; check your local rules
 - Taste/impact: Minimal flavor at low levels; used for antimicrobial effect rather than taste
-- Typical replacements: Salt and cold storage; approved preservatives such as [sorbic acid](/e200-sorbic-acid), [potassium sorbate](/e202-potassium-sorbate), and [sodium benzoate](/e211-sodium-benzoate)
+- Typical replacements: Salt and cold storage; approved preservatives such as [sorbic acid](/e200-sorbic-acid){.additive}, [potassium sorbate](/e202-potassium-sorbate){.additive}, and [sodium benzoate](/e211-sodium-benzoate){.additive}
 - Label names: “Boric acid,” “boracic acid,” or “E284”
 
 ## Why is boric acid added to food?
@@ -21,9 +21,9 @@ Historically, the best known use was in preserved sturgeon caviar and other fish
 
 ## What can replace boric acid?
 Producers typically use a combination of cold chain management, salt, hygienic processing, and permitted preservatives. Common preservative alternatives include:
-- [Sorbic acid](/e200-sorbic-acid) and [potassium sorbate](/e202-potassium-sorbate) for mold and yeast control[^2]
-- [Sodium benzoate](/e211-sodium-benzoate) in suitable product categories[^2]
-- pH control with acids such as [citric acid](/e330-citric-acid) where appropriate[^2]
+- [Sorbic acid](/e200-sorbic-acid){.additive} and [potassium sorbate](/e202-potassium-sorbate){.additive} for mold and yeast control[^2]
+- [Sodium benzoate](/e211-sodium-benzoate){.additive} in suitable product categories[^2]
+- pH control with acids such as [citric acid](/e330-citric-acid){.additive} where appropriate[^2]
 
 Always check local regulations because permitted additives and use levels vary by food category and country.[^2]
 

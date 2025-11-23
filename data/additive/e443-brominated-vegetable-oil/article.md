@@ -7,7 +7,7 @@ Brominated vegetable oil (E443) is a modified vegetable oil once used to keep ci
 - Where it was used: some citrus-flavored soft drinks and similar beverages
 - U.S. status: FDA has revoked authorization for use in food; manufacturers are reformulating[^1]
 - What to look for on labels: “brominated vegetable oil” listed among ingredients[^3]
-- Common replacements: [sucrose acetate isobutyrate](/e444-sucrose-acetate-isobutyrate) (E444), [glycerol esters of wood rosin](/e445-glycerol-esters-of-wood-rosin) (E445); stabilizers like [acacia gum](/e414-acacia-gum) (E414) and [xanthan gum](/e415-xanthan-gum) (E415)
+- Common replacements: [sucrose acetate isobutyrate](/e444-sucrose-acetate-isobutyrate){.additive} (E444), [glycerol esters of wood rosin](/e445-glycerol-esters-of-wood-rosin){.additive} (E445); stabilizers like [acacia gum](/e414-acacia-gum){.additive} (E414) and [xanthan gum](/e415-xanthan-gum){.additive} (E415)
 
 ## Why is Brominated vegetable oil added to food?
 It was used as a “weighting agent” in citrus-flavored drinks to make the flavoring oils about as dense as the beverage, helping the flavor stay evenly mixed instead of floating to the top.[^2]
@@ -17,10 +17,10 @@ Historically, some citrus sodas, fruit-flavored soft drinks, and similar beverag
 
 ## What can replace Brominated vegetable oil?
 Beverage makers often use other weighting agents such as:
-- [Sucrose acetate isobutyrate](/e444-sucrose-acetate-isobutyrate) (E444)
-- [Glycerol esters of wood rosin](/e445-glycerol-esters-of-wood-rosin) (E445)
+- [Sucrose acetate isobutyrate](/e444-sucrose-acetate-isobutyrate){.additive} (E444)
+- [Glycerol esters of wood rosin](/e445-glycerol-esters-of-wood-rosin){.additive} (E445)
 
-Formulators may also add stabilizers and emulsifiers to help keep flavors suspended, including [acacia gum](/e414-acacia-gum) (E414) and [xanthan gum](/e415-xanthan-gum) (E415). These do not work exactly the same way as brominated vegetable oil but can support beverage stability.
+Formulators may also add stabilizers and emulsifiers to help keep flavors suspended, including [acacia gum](/e414-acacia-gum){.additive} (E414) and [xanthan gum](/e415-xanthan-gum){.additive} (E415). These do not work exactly the same way as brominated vegetable oil but can support beverage stability.
 
 ## How is Brominated vegetable oil made?
 Brominated vegetable oil is created by reacting a vegetable oil (typically a triglyceride oil) with bromine, a halogen element. This reaction increases the oil’s density so it can act as a weighting agent in citrus-flavored beverages.[^2]

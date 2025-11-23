@@ -15,9 +15,9 @@ In the European Union, succistearin is an authorised food additive with specific
 
 ## What can replace Succistearin?
 Depending on the recipe and local rules, formulators may reach for:
-- Other emulsifiers for fat–water mixing, such as [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids) or [succinylated monoglycerides](/e472g-succinylated-monoglycerides)
-- Specialty emulsifiers for confectionery, like [sucrose esters of fatty acids](/e473-sucrose-esters-of-fatty-acids)
-- Texture and moisture helpers such as [glycerol](/e422-glycerol) or [lecithins](/e322-lecithins)
+- Other emulsifiers for fat–water mixing, such as [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive} or [succinylated monoglycerides](/e472g-succinylated-monoglycerides){.additive}
+- Specialty emulsifiers for confectionery, like [sucrose esters of fatty acids](/e473-sucrose-esters-of-fatty-acids){.additive}
+- Texture and moisture helpers such as [glycerol](/e422-glycerol){.additive} or [lecithins](/e322-lecithins){.additive}
 
 The best substitute depends on the desired texture, flavor release, and regulatory allowances in the target market.
 

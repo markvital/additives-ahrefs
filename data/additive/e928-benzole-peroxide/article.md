@@ -17,10 +17,10 @@ You’re most likely to encounter it in products made with “bleached” wheat 
 
 ## What can replace Benzole peroxide?
 Food makers can reach similar goals with other tools, depending on the product:
-- Alternative bleaching agents: [chlorine](/e925-chlorine), [chlorine dioxide](/e926-chlorine-dioxide) (where allowed for specific flours).
-- Dough strengtheners and oxidizers that affect texture more than color: [ascorbic acid](/e300-ascorbic-acid), [calcium peroxide](/e930-calcium-peroxide).
-- Dough conditioners: [azodicarbonamide](/e927a-azodicarbonamide) (regulated by country).
-- Enzyme solutions to improve handling: [alpha-amylase](/e1100-alpha-amylase), [lipase](/e1104-lipase).
+- Alternative bleaching agents: [chlorine](/e925-chlorine){.additive}, [chlorine dioxide](/e926-chlorine-dioxide){.additive} (where allowed for specific flours).
+- Dough strengtheners and oxidizers that affect texture more than color: [ascorbic acid](/e300-ascorbic-acid){.additive}, [calcium peroxide](/e930-calcium-peroxide){.additive}.
+- Dough conditioners: [azodicarbonamide](/e927a-azodicarbonamide){.additive} (regulated by country).
+- Enzyme solutions to improve handling: [alpha-amylase](/e1100-alpha-amylase){.additive}, [lipase](/e1104-lipase){.additive}.
 
 ## How is Benzole peroxide made?
 Industrial benzoyl peroxide is typically produced by reacting benzoyl chloride with hydrogen peroxide in an alkaline medium, then purified and formulated for safe handling.[^4] Food-grade material must meet identity and purity specifications before use in processing.[^1]

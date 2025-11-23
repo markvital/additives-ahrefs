@@ -16,12 +16,12 @@ The classic application is “bromated flour,” a standardized flour that inclu
 
 ## What can replace potassium bromate?
 Bakers often reach for alternatives that provide similar dough-strengthening or maturation effects:
-- [Ascorbic acid](/e300-ascorbic-acid) (vitamin C)
-- Enzymes such as [alpha-amylase](/e1100-alpha-amylase)
-- [L-cysteine](/e920-l-cysteine) for dough relaxation in certain formulas
-- Oxidizing conditioners like [calcium iodate](/e916-calcium-iodate) or [potassium iodate](/e917-potassium-iodate)
-- Peroxides used in some regions, such as [calcium peroxide](/e930-calcium-peroxide)
-- In some markets, [azodicarbonamide](/e927a-azodicarbonamide) has been used as a dough conditioner
+- [Ascorbic acid](/e300-ascorbic-acid){.additive} (vitamin C)
+- Enzymes such as [alpha-amylase](/e1100-alpha-amylase){.additive}
+- [L-cysteine](/e920-l-cysteine){.additive} for dough relaxation in certain formulas
+- Oxidizing conditioners like [calcium iodate](/e916-calcium-iodate){.additive} or [potassium iodate](/e917-potassium-iodate){.additive}
+- Peroxides used in some regions, such as [calcium peroxide](/e930-calcium-peroxide){.additive}
+- In some markets, [azodicarbonamide](/e927a-azodicarbonamide){.additive} has been used as a dough conditioner
 
 The best substitute depends on flour quality, process, and the specific texture a baker wants.
 
@@ -51,7 +51,7 @@ Technologically, it can make doughs stronger and more tolerant, helping achieve 
 ## Potassium bromate in branded foods
 - What to look for on labels: “potassium bromate,” “bromated flour,” or “E924a.”
 - Where it appears: primarily in the ingredient list of packaged breads and rolls; in-store bakery breads may provide ingredient info on shelf tags or company websites.
-- If unclear: contact the brand or bakery and ask whether they use bromated or unbromated flour, and what dough conditioners they use instead (for example, [ascorbic acid](/e300-ascorbic-acid) or enzymes like [alpha-amylase](/e1100-alpha-amylase)).
+- If unclear: contact the brand or bakery and ask whether they use bromated or unbromated flour, and what dough conditioners they use instead (for example, [ascorbic acid](/e300-ascorbic-acid){.additive} or enzymes like [alpha-amylase](/e1100-alpha-amylase){.additive}).
 
 ## References
 [^1]: 21 CFR 172.730 — Potassium bromate. U.S. Food and Drug Administration (eCFR). https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-172/subpart-G/section-172.730

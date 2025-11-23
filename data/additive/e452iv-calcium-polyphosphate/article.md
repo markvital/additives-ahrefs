@@ -23,10 +23,10 @@ In the EU, phosphates including polyphosphates are used across several categorie
 
 ## What can replace Calcium polyphosphate?
 Possible substitutes depend on the job you need done:
-- For sequestration and buffering: [citric acid](/e330-citric-acid) or [sodium citrates](/e331-sodium-citrates)
-- For similar phosphate functionality: [diphosphates](/e450-diphosphates), [triphosphates](/e451-triphosphates), or [sodium polyphosphate](/e452i-sodium-polyphosphate)
-- For thickening and stabilising: [xanthan gum](/e415-xanthan-gum), [carrageenan](/e407-carrageenan), [guar gum](/e412-guar-gum), or [locust bean gum](/e410-locust-bean-gum)
-- For cheese emulsification: citrate-based salts and certain [sodium phosphates](/e339-sodium-phosphates), depending on the recipe
+- For sequestration and buffering: [citric acid](/e330-citric-acid){.additive} or [sodium citrates](/e331-sodium-citrates){.additive}
+- For similar phosphate functionality: [diphosphates](/e450-diphosphates){.additive}, [triphosphates](/e451-triphosphates){.additive}, or [sodium polyphosphate](/e452i-sodium-polyphosphate){.additive}
+- For thickening and stabilising: [xanthan gum](/e415-xanthan-gum){.additive}, [carrageenan](/e407-carrageenan){.additive}, [guar gum](/e412-guar-gum){.additive}, or [locust bean gum](/e410-locust-bean-gum){.additive}
+- For cheese emulsification: citrate-based salts and certain [sodium phosphates](/e339-sodium-phosphates){.additive}, depending on the recipe
 
 ## How is Calcium polyphosphate made?
 Polyphosphates are made by heating simple phosphates so they condense into longer chains. To make the calcium form, these chains (or polyphosphoric acid) are neutralised with calcium to give calcium polyphosphate (often a mixture of chain lengths).[^4]

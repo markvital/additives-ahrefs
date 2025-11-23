@@ -18,11 +18,11 @@ You may find E512 on the ingredient lists of some canned or bottled foods—espe
 
 ## What can replace Stannous chloride?
 Depending on the recipe, food makers often choose other antioxidants or processing aids, such as:
-- Ascorbates like [ascorbic acid](/e300-ascorbic-acid) or [sodium erythorbate](/e316-sodium-erythorbate)
-- [Erythorbic acid](/e315-erythorbic-acid)
-- Organic acids and chelators such as [citric acid](/e330-citric-acid) or [calcium disodium EDTA](/e385-calcium-disodium-ethylenediaminetetraacetate)
-- Phenolic antioxidants like [BHA](/e320-butylated-hydroxyanisole-bha), [BHT](/e321-butylated-hydroxytoluene), or [TBHQ](/e319-tertiary-butylhydroquinone-tbhq)
-- Sulfites where legally allowed and labeled, such as [sulphur dioxide](/e220-sulphur-dioxide) or [sodium metabisulphite](/e223-sodium-metabisulphite)
+- Ascorbates like [ascorbic acid](/e300-ascorbic-acid){.additive} or [sodium erythorbate](/e316-sodium-erythorbate){.additive}
+- [Erythorbic acid](/e315-erythorbic-acid){.additive}
+- Organic acids and chelators such as [citric acid](/e330-citric-acid){.additive} or [calcium disodium EDTA](/e385-calcium-disodium-ethylenediaminetetraacetate){.additive}
+- Phenolic antioxidants like [BHA](/e320-butylated-hydroxyanisole-bha){.additive}, [BHT](/e321-butylated-hydroxytoluene){.additive}, or [TBHQ](/e319-tertiary-butylhydroquinone-tbhq){.additive}
+- Sulfites where legally allowed and labeled, such as [sulphur dioxide](/e220-sulphur-dioxide){.additive} or [sodium metabisulphite](/e223-sodium-metabisulphite){.additive}
 
 The best substitute depends on the food’s pH, fat content, color needs, and labeling goals.
 

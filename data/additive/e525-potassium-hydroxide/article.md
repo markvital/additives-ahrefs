@@ -21,12 +21,12 @@ You’re most likely to find potassium hydroxide in:
 - Certain beverages and syrups where pH needs fine-tuning
 - A few confectionery or specialty foods that require tight pH control
 
-On ingredient lists it will read “potassium hydroxide” or “E525.” When only pH adjustment is needed, other agents may be chosen instead, such as [sodium hydroxide](/e524-sodium-hydroxide), [potassium carbonates](/e501-potassium-carbonates), or [sodium carbonates](/e500-sodium-carbonates).
+On ingredient lists it will read “potassium hydroxide” or “E525.” When only pH adjustment is needed, other agents may be chosen instead, such as [sodium hydroxide](/e524-sodium-hydroxide){.additive}, [potassium carbonates](/e501-potassium-carbonates){.additive}, or [sodium carbonates](/e500-sodium-carbonates){.additive}.
 
 ## What can replace potassium hydroxide?
 Substitutes depend on the recipe and target pH:
-- Other alkaline regulators: [sodium hydroxide](/e524-sodium-hydroxide), [potassium hydrogen carbonate](/e501ii-potassium-hydrogen-carbonate), [potassium carbonates](/e501-potassium-carbonates), [sodium bicarbonate](/e500ii-sodium-bicarbonate)
-- If more acidity is needed instead of alkalinity: [citric acid](/e330-citric-acid), [acetic acid](/e260-acetic-acid), or [phosphoric acid](/e338-phosphoric-acid)
+- Other alkaline regulators: [sodium hydroxide](/e524-sodium-hydroxide){.additive}, [potassium hydrogen carbonate](/e501ii-potassium-hydrogen-carbonate){.additive}, [potassium carbonates](/e501-potassium-carbonates){.additive}, [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive}
+- If more acidity is needed instead of alkalinity: [citric acid](/e330-citric-acid){.additive}, [acetic acid](/e260-acetic-acid){.additive}, or [phosphoric acid](/e338-phosphoric-acid){.additive}
 
 Food makers choose the option that reaches the desired pH with the least impact on taste and texture.
 

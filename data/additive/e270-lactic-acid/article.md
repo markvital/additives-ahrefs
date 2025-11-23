@@ -26,12 +26,12 @@ In meat and poultry processing, lactic acid may be applied to carcass surfaces a
 
 ## What can replace Lactic acid?
 Depending on the recipe and desired taste, common alternatives include:
-- [Citric acid](/e330-citric-acid) for a bright, lemony tartness
-- [Acetic acid](/e260-acetic-acid) for vinegar-like sharpness
-- [Malic acid](/e296-malic-acid) for a smoother, apple-like sourness
-- [L-(+)-Tartaric acid](/e334-l-tartaric-acid) for strong, grape-like sourness
+- [Citric acid](/e330-citric-acid){.additive} for a bright, lemony tartness
+- [Acetic acid](/e260-acetic-acid){.additive} for vinegar-like sharpness
+- [Malic acid](/e296-malic-acid){.additive} for a smoother, apple-like sourness
+- [L-(+)-Tartaric acid](/e334-l-tartaric-acid){.additive} for strong, grape-like sourness
 
-For preservation roles, other options may include [sorbic acid](/e200-sorbic-acid) or [sodium benzoate](/e211-sodium-benzoate), depending on the food and pH. Always consider taste, pH, and labeling rules when swapping acids.
+For preservation roles, other options may include [sorbic acid](/e200-sorbic-acid){.additive} or [sodium benzoate](/e211-sodium-benzoate){.additive}, depending on the food and pH. Always consider taste, pH, and labeling rules when swapping acids.
 
 ## How is Lactic acid made?
 Commercial lactic acid is produced mainly by fermenting carbohydrates (such as sugar or starch) using lactic acid–producing bacteria. U.S. regulations describe it as the product of carbohydrate fermentation by lactic acid bacteria and allow it as a GRAS ingredient when made under good manufacturing practice.[^1] The EU additive specification (E270) sets identity and purity criteria for food-grade lactic acid.[^3]
@@ -64,7 +64,7 @@ Note: Despite the name, “lactic” acid in foods is usually made by fermenting
   Fact: Safety reviews in both the U.S. and EU support its use at normal food levels; acidity is carefully controlled by manufacturers.[^2]
 
 ## Lactic acid in branded foods
-You’ll often see “lactic acid” or “E270” on ingredient lists for soft drinks, candies, sauces, sliced breads and tortillas, pickled items, and some plant-based fermented foods. It may also appear alongside lactate salts such as [potassium lactate](/e326-potassium-lactate) or [calcium lactate](/e327-calcium-lactate) in certain formulas. If you’re tracking acids or sensitive to tart flavors, check the ingredients panel near the end of the list where acidulants are commonly placed.
+You’ll often see “lactic acid” or “E270” on ingredient lists for soft drinks, candies, sauces, sliced breads and tortillas, pickled items, and some plant-based fermented foods. It may also appear alongside lactate salts such as [potassium lactate](/e326-potassium-lactate){.additive} or [calcium lactate](/e327-calcium-lactate){.additive} in certain formulas. If you’re tracking acids or sensitive to tart flavors, check the ingredients panel near the end of the list where acidulants are commonly placed.
 
 ## References
 [^1]: Lactic acid — 21 CFR 184.1061 (ECFR). https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-184/subpart-B/section-184.1061

@@ -31,6 +31,7 @@ const { execFile } = require('child_process');
 
 const { createAdditiveSlug } = require('./utils/slug');
 const { loadEnvConfig, resolveOpenAiApiKey } = require('./utils/env');
+const { updateLastUpdatedTimestamp } = require('./utils/last-updated');
 
 dns.setDefaultResultOrder('ipv4first');
 
@@ -43,6 +44,8 @@ const DATA_DIR = path.join(__dirname, '..', '..', 'data');
 const ADDITIVE_DIR = path.join(DATA_DIR, 'additive');
 const ADDITIVES_INDEX_PATH = path.join(DATA_DIR, 'additives.json');
 const FUNCTIONS_REFERENCE_PATH = path.join(DATA_DIR, 'functions.json');
+
+let hasChanges = false;
 
 
 async function fileExists(filePath) {
@@ -657,6 +660,7 @@ async function processAdditive({
   };
 
   await fs.writeFile(props.filePath, `${JSON.stringify(updated, null, 2)}\n`, 'utf8');
+  hasChanges = true;
 
   console.log(
     `[${index + 1}/${total}] Saved functions (${normalizedFunctions.join(', ')}) to ${relativePropsPath}.`,
@@ -892,6 +896,10 @@ Environment variables:
     });
 
     await Promise.all(workers);
+
+    if (hasChanges) {
+      await updateLastUpdatedTimestamp();
+    }
 
     if (errors.length > 0) {
       console.error(`Completed with ${errors.length} error(s).`);

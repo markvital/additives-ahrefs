@@ -19,7 +19,7 @@ On labels, look for “zinc acetate” or “E650.”
 
 ## What can replace Zinc acetate?
 - To add zinc: manufacturers often use other permitted zinc sources such as zinc gluconate, zinc sulfate, or zinc oxide (availability depends on local rules).
-- For acidity or buffering: common alternatives include [acetic acid](/e260-acetic-acid), [citric acid](/e330-citric-acid), [sodium citrates](/e331-sodium-citrates), or [sodium phosphates](/e339-sodium-phosphates), depending on the recipe and taste.
+- For acidity or buffering: common alternatives include [acetic acid](/e260-acetic-acid){.additive}, [citric acid](/e330-citric-acid){.additive}, [sodium citrates](/e331-sodium-citrates){.additive}, or [sodium phosphates](/e339-sodium-phosphates){.additive}, depending on the recipe and taste.
 
 ## How is Zinc acetate made?
 Industrially, zinc acetate is typically produced by neutralizing acetic acid with a zinc compound (such as zinc oxide or zinc carbonate), then crystallizing the product—often as the dihydrate.[^5] The EU specification lists zinc acetate as a defined additive with purity criteria for food use.[^1]

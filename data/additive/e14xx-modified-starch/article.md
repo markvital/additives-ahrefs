@@ -22,31 +22,31 @@ You can find modified starch in many everyday products:
 On ingredient lists, it may appear as “modified starch,” “modified corn starch,” or as specific names such as “acetylated starch,” sometimes alongside E‑numbers in the E1400–E1452 range.
 
 Common E14XX types include:
-- [Acid‑treated modified starch](/e1401-acid-treated-modified-starch)
-- [Alkaline‑modified starch](/e1402-alkaline-modified-starch)
-- [Bleached starch](/e1403-bleached-starch)
-- [Oxidised starch](/e1404-oxidised-starch)
-- [Enzyme‑treated starch](/e1405-enzyme-treated-starch)
-- [Monostarch phosphate](/e1410-monostarch-phosphate)
-- [Distarch glycerol](/e1411-distarch-glycerol)
-- [Distarch phosphate](/e1412-distarch-phosphate)
-- [Phosphated distarch phosphate](/e1413-phosphated-distarch-phosphate)
-- [Acetylated distarch phosphate](/e1414-acetylated-distarch-phosphate)
-- [Acetylated starch](/e1420-acetylated-starch)
-- [Acetylated starch](/e1421-acetylated-starch)
-- [Acetylated distarch adipate](/e1422-acetylated-distarch-adipate)
-- [Hydroxypropyl starch](/e1440-hydroxypropyl-starch)
-- [Hydroxypropyl distarch glycerine](/e1441-hydroxy-propyl-distarch-glycerine)
-- [Hydroxypropyl distarch phosphate](/e1442-hydroxypropyl-distarch-phosphate)
-- [Starch sodium octenyl succinate](/e1450-starch-sodium-octenyl-succinate)
-- [Acetylated oxidised starch](/e1451-acetylated-oxidised-starch)
-- [Starch aluminium octenyl succinate](/e1452-starch-aluminium-octenyl-succinate)
+- [Acid‑treated modified starch](/e1401-acid-treated-modified-starch){.additive}
+- [Alkaline‑modified starch](/e1402-alkaline-modified-starch){.additive}
+- [Bleached starch](/e1403-bleached-starch){.additive}
+- [Oxidised starch](/e1404-oxidised-starch){.additive}
+- [Enzyme‑treated starch](/e1405-enzyme-treated-starch){.additive}
+- [Monostarch phosphate](/e1410-monostarch-phosphate){.additive}
+- [Distarch glycerol](/e1411-distarch-glycerol){.additive}
+- [Distarch phosphate](/e1412-distarch-phosphate){.additive}
+- [Phosphated distarch phosphate](/e1413-phosphated-distarch-phosphate){.additive}
+- [Acetylated distarch phosphate](/e1414-acetylated-distarch-phosphate){.additive}
+- [Acetylated starch](/e1420-acetylated-starch){.additive}
+- [Acetylated starch](/e1421-acetylated-starch){.additive}
+- [Acetylated distarch adipate](/e1422-acetylated-distarch-adipate){.additive}
+- [Hydroxypropyl starch](/e1440-hydroxypropyl-starch){.additive}
+- [Hydroxypropyl distarch glycerine](/e1441-hydroxy-propyl-distarch-glycerine){.additive}
+- [Hydroxypropyl distarch phosphate](/e1442-hydroxypropyl-distarch-phosphate){.additive}
+- [Starch sodium octenyl succinate](/e1450-starch-sodium-octenyl-succinate){.additive}
+- [Acetylated oxidised starch](/e1451-acetylated-oxidised-starch){.additive}
+- [Starch aluminium octenyl succinate](/e1452-starch-aluminium-octenyl-succinate){.additive}
 
 ## What can replace Modified Starch?
 Alternatives depend on the job you need done:
-- For thickening: [xanthan gum](/e415-xanthan-gum), [guar gum](/e412-guar-gum), [gellan gum](/e418-gellan-gum), [locust bean gum](/e410-locust-bean-gum), or [pectins](/e440-pectins)
-- For gelling: [carrageenan](/e407-carrageenan), [gellan gum](/e418-gellan-gum), or gelatin ([gelatine](/e428-gelatine))
-- For emulsifying: some starches like [starch sodium octenyl succinate](/e1450-starch-sodium-octenyl-succinate) do this, but you can also see mono‑ and diglycerides ([E471](/e471-mono-and-diglycerides-of-fatty-acids)) in similar roles
+- For thickening: [xanthan gum](/e415-xanthan-gum){.additive}, [guar gum](/e412-guar-gum){.additive}, [gellan gum](/e418-gellan-gum){.additive}, [locust bean gum](/e410-locust-bean-gum){.additive}, or [pectins](/e440-pectins){.additive}
+- For gelling: [carrageenan](/e407-carrageenan){.additive}, [gellan gum](/e418-gellan-gum){.additive}, or gelatin ([gelatine](/e428-gelatine){.additive})
+- For emulsifying: some starches like [starch sodium octenyl succinate](/e1450-starch-sodium-octenyl-succinate){.additive} do this, but you can also see mono‑ and diglycerides ([E471](/e471-mono-and-diglycerides-of-fatty-acids){.additive}) in similar roles
 
 Choice depends on taste, clarity, heat processing, and whether the product is frozen, acidic, or dairy‑based.
 
@@ -90,7 +90,7 @@ If you have questions about a specific product, contact the manufacturer for the
 ## Modified Starch in branded foods
 You’ll often see “modified starch” or the source named (for example, “modified corn starch”) on ingredient lists. In the EU, some packages show specific E‑numbers (E1400–E1452). To compare products:
 - Check the ingredient list for “modified starch” or a named type (such as “acetylated starch”).
-- Look for E‑numbers if present, for example [E1412](/e1412-distarch-phosphate) or [E1450](/e1450-starch-sodium-octenyl-succinate).
+- Look for E‑numbers if present, for example [E1412](/e1412-distarch-phosphate){.additive} or [E1450](/e1450-starch-sodium-octenyl-succinate){.additive}.
 - If you have diet needs (wheat allergy, gluten‑free), look for allergen statements and gluten‑free labeling.
 
 ## References

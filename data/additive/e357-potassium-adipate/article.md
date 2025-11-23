@@ -23,10 +23,10 @@ Labels may list “potassium adipate” or “E357” in EU markets.
 
 ## What can replace potassium adipate?
 Depending on the recipe and pH target, common stand‑ins include:
-- Other food acids: [citric acid](/e330-citric-acid), [malic acid](/e296-malic-acid), [phosphoric acid](/e338-phosphoric-acid)
-- Buffer salts: [sodium citrates](/e331-sodium-citrates), [potassium citrates](/e332-potassium-citrates)
-- Slow‑release acid: [glucono‑delta‑lactone](/e575-glucono-delta-lactone)
-- The parent acid: [adipic acid](/e355-adipic-acid)
+- Other food acids: [citric acid](/e330-citric-acid){.additive}, [malic acid](/e296-malic-acid){.additive}, [phosphoric acid](/e338-phosphoric-acid){.additive}
+- Buffer salts: [sodium citrates](/e331-sodium-citrates){.additive}, [potassium citrates](/e332-potassium-citrates){.additive}
+- Slow‑release acid: [glucono‑delta‑lactone](/e575-glucono-delta-lactone){.additive}
+- The parent acid: [adipic acid](/e355-adipic-acid){.additive}
 
 Which substitute works best depends on taste, pH, and texture needs.
 

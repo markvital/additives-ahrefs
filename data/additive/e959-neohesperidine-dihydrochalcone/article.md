@@ -23,14 +23,14 @@ In the EU, the food categories where E959 may be used, along with maximum levels
 
 ## What can replace Neohesperidine dihydrochalcone?
 Depending on the recipe and flavor goals, formulators might swap E959 for other high‑intensity sweeteners such as:
-- [Sucralose](/e955-sucralose)
-- [Acesulfame K](/e950-acesulfame-k)
-- [Aspartame](/e951-aspartame)
-- [Steviol glycosides](/e960-steviol-glycosides)
-- [Saccharin](/e954-saccharin-and-its-salts)
-- [Neotame](/e961-neotame) or [Advantame](/e969-advantame)
+- [Sucralose](/e955-sucralose){.additive}
+- [Acesulfame K](/e950-acesulfame-k){.additive}
+- [Aspartame](/e951-aspartame){.additive}
+- [Steviol glycosides](/e960-steviol-glycosides){.additive}
+- [Saccharin](/e954-saccharin-and-its-salts){.additive}
+- [Neotame](/e961-neotame){.additive} or [Advantame](/e969-advantame){.additive}
 
-For bulk and mouthfeel, sugar alcohols like [erythritol](/e968-erythritol), [xylitol](/e967-xylitol), or [sorbitol](/e420-sorbitol) can also be used, sometimes alongside a high‑intensity sweetener.
+For bulk and mouthfeel, sugar alcohols like [erythritol](/e968-erythritol){.additive}, [xylitol](/e967-xylitol){.additive}, or [sorbitol](/e420-sorbitol){.additive} can also be used, sometimes alongside a high‑intensity sweetener.
 
 ## How is Neohesperidine dihydrochalcone made?
 NHDC is made from neohesperidin, a naturally occurring citrus flavonoid found in bitter orange and related fruits. Through chemical steps, the molecule is converted to a “dihydrochalcone,” purified, and crystallized for food use. In the EU, the final food‑grade material must meet the official specification for E959.[^2] Chemically, NHDC is the dihydrochalcone derivative of neohesperidin, which is why it carries that name.[^4]
@@ -54,7 +54,7 @@ If you have questions about whether a product fits your diet, check the ingredie
 - Myth: “E959 is just sugar in disguise.”  
   Fact: NHDC is a distinct, high‑intensity sweetener used in tiny amounts and is not the same as sucrose (table sugar).
 - Myth: “All high‑intensity sweeteners are the same.”  
-  Fact: Each sweetener has its own taste profile, stability, and allowed uses. E959 is different from [aspartame](/e951-aspartame), [sucralose](/e955-sucralose), or [steviol glycosides](/e960-steviol-glycosides).
+  Fact: Each sweetener has its own taste profile, stability, and allowed uses. E959 is different from [aspartame](/e951-aspartame){.additive}, [sucralose](/e955-sucralose){.additive}, or [steviol glycosides](/e960-steviol-glycosides){.additive}.
 - Myth: “If it’s in the ingredient list, it must be added in large amounts.”  
   Fact: Because E959 is very potent, it is used at very low levels compared with sugar.
 

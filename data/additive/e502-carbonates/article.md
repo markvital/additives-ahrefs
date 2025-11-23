@@ -19,12 +19,12 @@ You’ll most often find E502 in low-moisture baked goods and mixes where a ligh
 - Baking powder blends and dry baking mixes
 - Some confectionery and specialty breads
 
-In practice, manufacturers may use specific carbonate salts such as [sodium carbonates](/e500-sodium-carbonates), [potassium carbonates](/e501-potassium-carbonates), [ammonium carbonates](/e503-ammonium-carbonates), or [magnesium carbonates](/e504-magnesium-carbonates), choosing the one that best fits the product’s flavor, texture, and labeling needs.[^2]
+In practice, manufacturers may use specific carbonate salts such as [sodium carbonates](/e500-sodium-carbonates){.additive}, [potassium carbonates](/e501-potassium-carbonates){.additive}, [ammonium carbonates](/e503-ammonium-carbonates){.additive}, or [magnesium carbonates](/e504-magnesium-carbonates){.additive}, choosing the one that best fits the product’s flavor, texture, and labeling needs.[^2]
 
 ## What can replace Carbonates?
 Alternatives depend on the job you need done:
-- For leavening: Baking powders based on [sodium carbonates](/e500-sodium-carbonates) or [potassium carbonates](/e501-potassium-carbonates) paired with acids; yeast; steam-leavened methods (e.g., choux pastry).
-- For acidity control: Citric acid ([citric acid](/e330-citric-acid)) or other permitted acidulants and buffering salts, chosen to match flavor and pH targets.[^2]
+- For leavening: Baking powders based on [sodium carbonates](/e500-sodium-carbonates){.additive} or [potassium carbonates](/e501-potassium-carbonates){.additive} paired with acids; yeast; steam-leavened methods (e.g., choux pastry).
+- For acidity control: Citric acid ([citric acid](/e330-citric-acid){.additive}) or other permitted acidulants and buffering salts, chosen to match flavor and pH targets.[^2]
 
 Keep in mind that swapping one carbonate for another changes sodium or potassium content and can affect taste and browning.
 
@@ -44,8 +44,8 @@ Yes. Carbonates:
 
 ## Who should avoid Carbonates?
 Most people do not need to avoid carbonate additives used as intended. However:
-- If you manage sodium or potassium intake (for example, for blood pressure or kidney conditions), check the ingredient list to see which carbonate salt was used—[sodium carbonates](/e500-sodium-carbonates) add sodium, while [potassium carbonates](/e501-potassium-carbonates) add potassium.
-- Individuals with medically prescribed low-magnesium diets should note that [magnesium carbonates](/e504-magnesium-carbonates) can be used as anti-caking agents in some foods.
+- If you manage sodium or potassium intake (for example, for blood pressure or kidney conditions), check the ingredient list to see which carbonate salt was used—[sodium carbonates](/e500-sodium-carbonates){.additive} add sodium, while [potassium carbonates](/e501-potassium-carbonates){.additive} add potassium.
+- Individuals with medically prescribed low-magnesium diets should note that [magnesium carbonates](/e504-magnesium-carbonates){.additive} can be used as anti-caking agents in some foods.
 
 If you are unsure which specific carbonate is present, look for the full ingredient name alongside or instead of the E-number.
 

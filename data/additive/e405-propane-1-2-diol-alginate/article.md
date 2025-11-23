@@ -24,9 +24,9 @@ Exact uses and maximum levels vary by country. In the EU, permitted food categor
 
 ## What can replace Propane-1‚2-diol alginate?
 The best substitute depends on the recipe and acidity.
-- Other alginates: [alginic acid](/e400-alginic-acid), [sodium alginate](/e401-sodium-alginate)
-- Gums for thickening/stability: [xanthan gum](/e415-xanthan-gum), [guar gum](/e412-guar-gum), [gellan gum](/e418-gellan-gum), [carrageenan](/e407-carrageenan)
-- Fruit-based gels: [pectins](/e440-pectins)
+- Other alginates: [alginic acid](/e400-alginic-acid){.additive}, [sodium alginate](/e401-sodium-alginate){.additive}
+- Gums for thickening/stability: [xanthan gum](/e415-xanthan-gum){.additive}, [guar gum](/e412-guar-gum){.additive}, [gellan gum](/e418-gellan-gum){.additive}, [carrageenan](/e407-carrageenan){.additive}
+- Fruit-based gels: [pectins](/e440-pectins){.additive}
 
 Keep in mind that E405 often performs well in acidic foods, so you may need to adjust the formula when swapping.
 
@@ -57,7 +57,7 @@ Most people do not need to avoid E405. If your healthcare professional has advis
 - Myth: “All E-numbers are synthetic.”  
   Fact: E405 is derived from alginic acid (E400), a carbohydrate used to make several alginate additives.[^2]
 - Myth: “It’s just propylene glycol.”  
-  Fact: E405 is a different substance from [propylene glycol](/e1520-propylene-glycol); it is an alginic acid ester designed to thicken and stabilise foods.
+  Fact: E405 is a different substance from [propylene glycol](/e1520-propylene-glycol){.additive}; it is an alginic acid ester designed to thicken and stabilise foods.
 
 ## Propane-1‚2-diol alginate in branded foods
 Ingredient lists will show “E405,” “propylene glycol alginate,” or “propane-1,2-diol alginate.” Product websites and customer service lines can confirm usage. Availability and permitted uses differ by country, so the same brand may use E405 in one market and not in another.

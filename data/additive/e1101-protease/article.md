@@ -24,10 +24,10 @@ In many of these products, protease functions as a processing aid, and the enzym
 
 ## What can replace protease?
 Depending on the job you need done, other options may work:
-- For dough conditioning: longer fermentation or preferments; chemical reducing agents like [L-cysteine](/e920-l-cysteine); oxidizing agents such as [ascorbic acid](/e300-ascorbic-acid); or other enzymes like [alpha-amylase](/e1100-alpha-amylase)
-- For dough strength and tolerance: emulsifiers such as [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids) and [lecithins](/e322-lecithins)
-- For sweetness release in confections: enzymes like [invertase](/e1103-invertase)
-- For flavor development or fat modification in specialty foods: enzymes like [lipase](/e1104-lipase) (not a proteinase but used for different transformations)
+- For dough conditioning: longer fermentation or preferments; chemical reducing agents like [L-cysteine](/e920-l-cysteine){.additive}; oxidizing agents such as [ascorbic acid](/e300-ascorbic-acid){.additive}; or other enzymes like [alpha-amylase](/e1100-alpha-amylase){.additive}
+- For dough strength and tolerance: emulsifiers such as [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive} and [lecithins](/e322-lecithins){.additive}
+- For sweetness release in confections: enzymes like [invertase](/e1103-invertase){.additive}
+- For flavor development or fat modification in specialty foods: enzymes like [lipase](/e1104-lipase){.additive} (not a proteinase but used for different transformations)
 
 No single substitute covers all protease roles, so bakers and processors often combine time, temperature, and other ingredients to get similar results.
 

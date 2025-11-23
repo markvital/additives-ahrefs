@@ -24,10 +24,10 @@ Always check the ingredient list for “calcium carbonate,” “E170,” or “
 
 ## What can replace Calcium carbonate?
 The best substitute depends on the job it does in the recipe.
-- For white color: where permitted, [titanium dioxide](/e171-titanium-dioxide) is a common alternative.
-- For calcium fortification: [tricalcium phosphate](/e341iii-tricalcium-phosphate) or other [calcium phosphates](/e341-calcium-phosphates) are often used.
-- For pH control and neutralizing acids: [sodium bicarbonate](/e500ii-sodium-bicarbonate) or other [sodium carbonates](/e500-sodium-carbonates) can play a similar role; acids like [citric acid](/e330-citric-acid) adjust pH in the other direction.
-- For stabilizing or thickening: gums such as [xanthan gum](/e415-xanthan-gum) or [pectins](/e440-pectins) may be chosen, depending on the food.
+- For white color: where permitted, [titanium dioxide](/e171-titanium-dioxide){.additive} is a common alternative.
+- For calcium fortification: [tricalcium phosphate](/e341iii-tricalcium-phosphate){.additive} or other [calcium phosphates](/e341-calcium-phosphates){.additive} are often used.
+- For pH control and neutralizing acids: [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive} or other [sodium carbonates](/e500-sodium-carbonates){.additive} can play a similar role; acids like [citric acid](/e330-citric-acid){.additive} adjust pH in the other direction.
+- For stabilizing or thickening: gums such as [xanthan gum](/e415-xanthan-gum){.additive} or [pectins](/e440-pectins){.additive} may be chosen, depending on the food.
 
 No single replacement fits every product; formulators pick based on taste, texture, color, and nutrition goals.
 

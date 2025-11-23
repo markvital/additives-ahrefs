@@ -10,7 +10,7 @@ Ponceau 4r (E124) is a bright, cherry‑red synthetic food color from the azo dy
 - Regulation: permitted with maximum levels in the EU; not approved for use in foods in the U.S.
 
 ## Why is Ponceau 4r added to food?
-Manufacturers use Ponceau 4r to deliver a stable, consistent red color that stays bright through mixing, heating, storage, and light exposure. It helps foods look appealing and uniform from batch to batch, and it can be blended with yellows such as [sunset yellow](/e110-sunset-yellow-fcf) or [tartrazine](/e102-tartrazine) to produce orange or peach tones.
+Manufacturers use Ponceau 4r to deliver a stable, consistent red color that stays bright through mixing, heating, storage, and light exposure. It helps foods look appealing and uniform from batch to batch, and it can be blended with yellows such as [sunset yellow](/e110-sunset-yellow-fcf){.additive} or [tartrazine](/e102-tartrazine){.additive} to produce orange or peach tones.
 
 ## What foods contain Ponceau 4r?
 You’re most likely to find E124 in:
@@ -20,13 +20,13 @@ You’re most likely to find E124 in:
 - Flavored dairy or plant‑based desserts and chilled sweets
 - Some savory items where a red hue is desired (coatings, seasonings)
 
-On labels, look for “Ponceau 4R,” “E124,” or “Cochineal Red A.” In product reformulations, it may be replaced or mixed with other reds such as [allura red](/e129-allura-red), or with natural colors like [beetroot red](/e162-beetroot-red) and [anthocyanins](/e163-anthocyanins).
+On labels, look for “Ponceau 4R,” “E124,” or “Cochineal Red A.” In product reformulations, it may be replaced or mixed with other reds such as [allura red](/e129-allura-red){.additive}, or with natural colors like [beetroot red](/e162-beetroot-red){.additive} and [anthocyanins](/e163-anthocyanins){.additive}.
 
 ## What can replace Ponceau 4r?
 Alternatives depend on the shade, processing, and label goals:
-- Synthetic reds: [allura red](/e129-allura-red) (widely used, especially in the U.S.)
-- Natural reds: [beetroot red](/e162-beetroot-red), [anthocyanins](/e163-anthocyanins), [cochineal](/e120-cochineal) (carmine)
-- Orange‑red options: [paprika extract](/e160c-paprika-extract), [lycopene](/e160d-lycopene)
+- Synthetic reds: [allura red](/e129-allura-red){.additive} (widely used, especially in the U.S.)
+- Natural reds: [beetroot red](/e162-beetroot-red){.additive}, [anthocyanins](/e163-anthocyanins){.additive}, [cochineal](/e120-cochineal){.additive} (carmine)
+- Orange‑red options: [paprika extract](/e160c-paprika-extract){.additive}, [lycopene](/e160d-lycopene){.additive}
 
 Natural colors can be less stable to heat, light, or pH. Formulators often trial blends to match the target shade and performance.
 
@@ -36,7 +36,7 @@ Ponceau 4r is produced by standard azo dye chemistry: coupling diazotized aromat
 ## Is Ponceau 4r safe to eat?
 Safety depends on dose and use conditions set by regulators. In the European Union, Ponceau 4r is authorized in specified foods with maximum permitted levels, and manufacturers must meet strict purity criteria.[^1] EU law also requires a label statement for foods containing certain azo colors, including E124: “may have an adverse effect on activity and attention in children.”[^2] Some limits for the “Southampton six” azo dyes, including E124, were tightened in later amendments to EU rules.[^4]
 
-In the United States, Ponceau 4r is not approved for use in foods; manufacturers instead rely on other reds (for example, [allura red](/e129-allura-red)).[^3]
+In the United States, Ponceau 4r is not approved for use in foods; manufacturers instead rely on other reds (for example, [allura red](/e129-allura-red){.additive}).[^3]
 
 ## Does Ponceau 4r have any benefits?
 Its benefit is visual only: it restores or enhances a red hue so products look consistent and appealing. It does not add nutrition or flavor.
@@ -47,8 +47,8 @@ Its benefit is visual only: it restores or enhances a red hue so products look c
 - Anyone with a history of sensitivity to synthetic colors should consult a healthcare professional for personalized advice.
 
 ## Myths & facts
-- “It’s made from insects.” False. Ponceau 4r is synthetic; the insect‑derived red is [cochineal](/e120-cochineal).
-- “It’s the same as Red 40.” False. [Allura red](/e129-allura-red) (Red 40) is a different dye that is commonly used in the U.S.
+- “It’s made from insects.” False. Ponceau 4r is synthetic; the insect‑derived red is [cochineal](/e120-cochineal){.additive}.
+- “It’s the same as Red 40.” False. [Allura red](/e129-allura-red){.additive} (Red 40) is a different dye that is commonly used in the U.S.
 - “It’s unregulated.” False. In the EU, E124 has detailed purity specs, food‑category limits, and a mandatory label warning for children’s behavior.[^1][^2]
 
 ## Ponceau 4r in branded foods

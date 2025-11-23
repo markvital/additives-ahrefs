@@ -8,6 +8,7 @@ const { promisify } = require('util');
 const { createAdditiveSlug } = require('./utils/slug');
 const { toKeywordList } = require('./utils/keywords');
 const { loadEnvConfig, resolveAhrefsApiKey } = require('./utils/env');
+const { updateLastUpdatedTimestamp } = require('./utils/last-updated');
 
 const execFileAsync = promisify(execFile);
 
@@ -27,6 +28,7 @@ const DEFAULT_PARALLEL = 10;
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 let DEBUG = false;
+let hasChanges = false;
 const debugLog = (...args) => {
   if (DEBUG) {
     console.log(...args);
@@ -374,6 +376,7 @@ const writeQuestions = async (slug, dataset) => {
   const filePath = path.join(dirPath, QUESTIONS_FILENAME);
   const json = `${JSON.stringify(dataset, null, 2)}\n`;
   await fs.writeFile(filePath, json, 'utf8');
+  hasChanges = true;
 };
 
 const ensureDataset = (keywords, questions) => {
@@ -596,6 +599,10 @@ const main = async () => {
   };
 
   await Promise.all(Array.from({ length: parallelLimit }, () => worker()));
+
+  if (hasChanges) {
+    await updateLastUpdatedTimestamp();
+  }
 };
 
 main().catch((error) => {

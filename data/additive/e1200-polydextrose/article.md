@@ -26,11 +26,11 @@ On ingredient lists it may appear as “polydextrose” or “E1200.”
 
 ## What can replace Polydextrose?
 Depending on the job polydextrose is doing (bulk, fiber, moisture, or texture), formulators might use:
-- Other soluble fibers and bulking agents: [dextrin](/e1400-dextrin), [cellulose](/e460-cellulose)
-- Hydrocolloids to add viscosity: [xanthan gum](/e415-xanthan-gum)
-- Humectants for moisture: [glycerol](/e422-glycerol), [sorbitol](/e420-sorbitol)
-- Bulk sweeteners in sugar‑reduced foods: [erythritol](/e968-erythritol), [maltitol](/e965-maltitol), [polyglycitol syrup](/e964-polyglycitol-syrup)
-- High‑intensity sweeteners for sweetness (with another bulking agent): [sucralose](/e955-sucralose), [acesulfame K](/e950-acesulfame-k)
+- Other soluble fibers and bulking agents: [dextrin](/e1400-dextrin){.additive}, [cellulose](/e460-cellulose){.additive}
+- Hydrocolloids to add viscosity: [xanthan gum](/e415-xanthan-gum){.additive}
+- Humectants for moisture: [glycerol](/e422-glycerol){.additive}, [sorbitol](/e420-sorbitol){.additive}
+- Bulk sweeteners in sugar‑reduced foods: [erythritol](/e968-erythritol){.additive}, [maltitol](/e965-maltitol){.additive}, [polyglycitol syrup](/e964-polyglycitol-syrup){.additive}
+- High‑intensity sweeteners for sweetness (with another bulking agent): [sucralose](/e955-sucralose){.additive}, [acesulfame K](/e950-acesulfame-k){.additive}
 
 No single ingredient is a perfect swap; blends are often used to match both texture and taste.
 

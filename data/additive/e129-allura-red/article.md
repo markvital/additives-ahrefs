@@ -27,10 +27,10 @@ Beyond foods, it can also appear in some dietary supplements and over‑the‑co
 ## What can replace Allura red?
 Substitutes depend on the product, pH, and whether the color needs to be water‑soluble or fat‑dispersible.
 
-- Plant‑derived reds: [beetroot red](/e162-beetroot-red), [anthocyanins](/e163-anthocyanins) (from berries/grapes), and [paprika extract](/e160c-paprika-extract)
-- Other approved colors: [ponceau 4R](/e124-ponceau-4r), [carmoisine](/e122-azorubine), and [sunset yellow FCF](/e110-sunset-yellow-fcf) (for orange shades)
-- Brownish reds: [caramel](/e150-caramel)
-- Natural alternatives with similar use cases: [annatto](/e160b-annatto)
+- Plant‑derived reds: [beetroot red](/e162-beetroot-red){.additive}, [anthocyanins](/e163-anthocyanins){.additive} (from berries/grapes), and [paprika extract](/e160c-paprika-extract){.additive}
+- Other approved colors: [ponceau 4R](/e124-ponceau-4r){.additive}, [carmoisine](/e122-azorubine){.additive}, and [sunset yellow FCF](/e110-sunset-yellow-fcf){.additive} (for orange shades)
+- Brownish reds: [caramel](/e150-caramel){.additive}
+- Natural alternatives with similar use cases: [annatto](/e160b-annatto){.additive}
 
 Each alternative behaves differently: for example, anthocyanins shift color with acidity, beet colors can fade with heat and light, and some natural colors can add flavor notes. Formulators pick based on the recipe and labeling goals.
 
@@ -54,7 +54,7 @@ Allura red does not add nutrition, but it provides practical benefits:
 - Caregivers who follow the EU precautionary label regarding possible effects on children’s behavior^[4]
 - Individuals who have been advised by a healthcare professional to avoid certain color additives due to sensitivity
 
-If you want to skip it, check the ingredient list and choose versions colored with alternatives such as [beetroot red](/e162-beetroot-red) or [caramel](/e150-caramel).
+If you want to skip it, check the ingredient list and choose versions colored with alternatives such as [beetroot red](/e162-beetroot-red){.additive} or [caramel](/e150-caramel){.additive}.
 
 ## Myths & facts
 - Myth: “Red 40 is banned in Europe.” Fact: Allura red (E129) is permitted in the EU, but products must include a specific warning about possible effects on children’s behavior.^[4]

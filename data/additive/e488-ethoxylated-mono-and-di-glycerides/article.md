@@ -26,9 +26,9 @@ In the EU, authorized uses and any maximum levels are set out in the Union list 
 
 ## What can replace Ethoxylated Mono- and Di-Glycerides?
 Depending on the recipe, technologists might switch to:
-- Other emulsifiers: [mono- and diglycerides (E471)](/e471-mono-and-diglycerides-of-fatty-acids), [DATEM (E472e)](/e472e-mono-and-diacetyltartaric-acid-esters-of-mono-and-diglycerides-of-fatty-acids), [lactic acid esters (E472b)](/e472b-lactic-acid-esters-of-mono-and-diglycerides-of-fatty-acids), [polyglycerol esters (E475)](/e475-polyglycerol-esters-of-fatty-acids), [propylene glycol esters (E477)](/e477-propane-1-2-diol-esters-of-fatty-acids), or polysorbates such as [E433](/e433-polyoxyethylene-sorbitan-monooleate).
-- Natural options: [lecithins (E322)](/e322-lecithins).
-- Stabilizers and thickeners to support texture: [xanthan gum (E415)](/e415-xanthan-gum), [guar gum (E412)](/e412-guar-gum), [carrageenan (E407)](/e407-carrageenan), or [agar (E406)](/e406-agar).
+- Other emulsifiers: [mono- and diglycerides (E471)](/e471-mono-and-diglycerides-of-fatty-acids){.additive}, [DATEM (E472e)](/e472e-mono-and-diacetyltartaric-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive}, [lactic acid esters (E472b)](/e472b-lactic-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive}, [polyglycerol esters (E475)](/e475-polyglycerol-esters-of-fatty-acids){.additive}, [propylene glycol esters (E477)](/e477-propane-1-2-diol-esters-of-fatty-acids){.additive}, or polysorbates such as [E433](/e433-polyoxyethylene-sorbitan-monooleate){.additive}.
+- Natural options: [lecithins (E322)](/e322-lecithins){.additive}.
+- Stabilizers and thickeners to support texture: [xanthan gum (E415)](/e415-xanthan-gum){.additive}, [guar gum (E412)](/e412-guar-gum){.additive}, [carrageenan (E407)](/e407-carrageenan){.additive}, or [agar (E406)](/e406-agar){.additive}.
 
 The best substitute depends on the food’s fat content, processing, and target texture.
 

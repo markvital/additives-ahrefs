@@ -18,10 +18,10 @@ You are unlikely to see E238 often on supermarket labels. When used, it is typic
 
 ## What can replace Calcium formiate?
 Several preservatives can serve similar roles, depending on the food and the desired taste and pH:
-- [Formic acid](/e236-formic-acid) in systems designed for its use
-- [Sorbic acid](/e200-sorbic-acid) or [potassium sorbate](/e202-potassium-sorbate)
-- [Benzoic acid](/e210-benzoic-acid) or [sodium benzoate](/e211-sodium-benzoate)
-- [Calcium propionate](/e282-calcium-propionate) in baked goods
+- [Formic acid](/e236-formic-acid){.additive} in systems designed for its use
+- [Sorbic acid](/e200-sorbic-acid){.additive} or [potassium sorbate](/e202-potassium-sorbate){.additive}
+- [Benzoic acid](/e210-benzoic-acid){.additive} or [sodium benzoate](/e211-sodium-benzoate){.additive}
+- [Calcium propionate](/e282-calcium-propionate){.additive} in baked goods
 
 The best substitute depends on the recipe, pH, storage temperature, and local regulations.
 

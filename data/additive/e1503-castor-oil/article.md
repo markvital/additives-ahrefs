@@ -23,9 +23,9 @@ On labels, it may appear as “castor oil” or “E1503.” Actual use levels a
 
 ## What can replace Castor oil?
 Depending on the job it is doing, formulators might choose:
-- Other carriers for flavors and colors, such as [propylene glycol](/e1520-propylene-glycol) or [glyceryl triacetate](/e1518-glyceryl-triacetate)
-- Emulsifiers like [lecithins](/e322-lecithins) or [polyglycerol esters of fatty acids](/e475-polyglycerol-esters-of-fatty-acids) to help oil and water mix
-- Alternative glazing or finishing agents in confectionery, such as [shellac](/e904-shellac), when a shiny protective finish is desired
+- Other carriers for flavors and colors, such as [propylene glycol](/e1520-propylene-glycol){.additive} or [glyceryl triacetate](/e1518-glyceryl-triacetate){.additive}
+- Emulsifiers like [lecithins](/e322-lecithins){.additive} or [polyglycerol esters of fatty acids](/e475-polyglycerol-esters-of-fatty-acids){.additive} to help oil and water mix
+- Alternative glazing or finishing agents in confectionery, such as [shellac](/e904-shellac){.additive}, when a shiny protective finish is desired
 
 The best substitute depends on the additive to be carried, the food matrix, and labeling preferences.
 

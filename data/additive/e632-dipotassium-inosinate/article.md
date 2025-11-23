@@ -6,12 +6,12 @@ Dipotassium inosinate (E632) is a flavor enhancer that boosts the savory, umami 
 - Name: Dipotassium inosinate; also listed as E632
 - What it does: Flavor enhancer that amplifies savory (umami) taste
 - Typical foods: Savory snacks, instant noodles, soups, bouillon, sauces, and spice blends
-- Often used with: Umami boosters like [monosodium glutamate](/e621-monosodium-glutamate) and nucleotide salts such as [disodium inosinate](/e631-disodium-inosinate) or [disodium guanylate](/e627-disodium-guanylate)
+- Often used with: Umami boosters like [monosodium glutamate](/e621-monosodium-glutamate){.additive} and nucleotide salts such as [disodium inosinate](/e631-disodium-inosinate){.additive} or [disodium guanylate](/e627-disodium-guanylate){.additive}
 - Appearance: White, water‑soluble powder or granules
 - Regulation: Authorized as a food additive in the EU; appears by name on U.S. ingredient labels
 
 ## Why is Dipotassium inosinate added to food?
-It is added to intensify savory flavors. Inosinate salts are especially effective when used together with glutamates such as [monosodium glutamate](/e621-monosodium-glutamate) or with guanylate salts, creating a strong umami effect at very low doses.[^2]
+It is added to intensify savory flavors. Inosinate salts are especially effective when used together with glutamates such as [monosodium glutamate](/e621-monosodium-glutamate){.additive} or with guanylate salts, creating a strong umami effect at very low doses.[^2]
 
 ## What foods contain Dipotassium inosinate?
 You’ll most often find E632 in:
@@ -25,9 +25,9 @@ On labels, it may appear as “Dipotassium inosinate,” “E632,” or “flavo
 
 ## What can replace Dipotassium inosinate?
 Possible alternatives depend on the recipe and labeling rules:
-- [Monosodium glutamate (MSG)](/e621-monosodium-glutamate) for umami strength
-- Other nucleotide enhancers: [disodium inosinate](/e631-disodium-inosinate), [disodium guanylate](/e627-disodium-guanylate), or [dipotassium guanylate](/e628-dipotassium-guanylate)
-- Mixed nucleotides: [disodium 5-ribonucleotide](/e635-disodium-5-ribonucleotide)
+- [Monosodium glutamate (MSG)](/e621-monosodium-glutamate){.additive} for umami strength
+- Other nucleotide enhancers: [disodium inosinate](/e631-disodium-inosinate){.additive}, [disodium guanylate](/e627-disodium-guanylate){.additive}, or [dipotassium guanylate](/e628-dipotassium-guanylate){.additive}
+- Mixed nucleotides: [disodium 5-ribonucleotide](/e635-disodium-5-ribonucleotide){.additive}
 - Umami-rich ingredients like yeast extracts, mushrooms, tomato concentrates, or aged cheeses (in products that permit them)
 
 ## How is Dipotassium inosinate made?
@@ -37,7 +37,7 @@ Under EU specifications, E632 is defined as the dipotassium salt of inosine 5′
 E632 is an authorized food additive in the European Union (E-number system) under the EU food additives framework.[^5] In the United States, ingredients like dipotassium inosinate must be declared by their common or usual name on the ingredient list so consumers can identify them.[^3]
 
 ## Does Dipotassium inosinate have any benefits?
-Its benefit is culinary, not nutritional: it boosts savory taste so products can achieve a fuller flavor at low use levels. It works particularly well when combined with glutamates such as [monosodium glutamate](/e621-monosodium-glutamate).[^2]
+Its benefit is culinary, not nutritional: it boosts savory taste so products can achieve a fuller flavor at low use levels. It works particularly well when combined with glutamates such as [monosodium glutamate](/e621-monosodium-glutamate){.additive}.[^2]
 
 ## Who should avoid Dipotassium inosinate?
 - People who choose to avoid flavor enhancers like MSG sometimes also avoid inosinate/guanylate additives, because they are often used together in savory snacks and seasonings.
@@ -49,7 +49,7 @@ Its benefit is culinary, not nutritional: it boosts savory taste so products can
 - Myth: “You can’t tell if it’s in your food.” Fact: In the U.S., it must be listed by its common or usual name on the ingredient list, and in the EU it may appear as E632.
 
 ## Dipotassium inosinate in branded foods
-Look for “Dipotassium inosinate,” “E632,” or “flavor enhancer (E632)” on ingredient lists. It frequently appears alongside [monosodium glutamate](/e621-monosodium-glutamate), [disodium inosinate](/e631-disodium-inosinate), or [disodium guanylate](/e627-disodium-guanylate) in savory snacks, noodles, broths, and seasonings. If you’re avoiding umami enhancers, scan the label for “inosinate,” “guanylate,” or the E-numbers E631–E635.
+Look for “Dipotassium inosinate,” “E632,” or “flavor enhancer (E632)” on ingredient lists. It frequently appears alongside [monosodium glutamate](/e621-monosodium-glutamate){.additive}, [disodium inosinate](/e631-disodium-inosinate){.additive}, or [disodium guanylate](/e627-disodium-guanylate){.additive} in savory snacks, noodles, broths, and seasonings. If you’re avoiding umami enhancers, scan the label for “inosinate,” “guanylate,” or the E-numbers E631–E635.
 
 ## References
 [^1]: Commission Regulation (EU) No 231/2012 — Specifications for food additives. https://eur-lex.europa.eu/eli/reg/2012/231/oj

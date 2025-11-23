@@ -22,14 +22,14 @@ Common places you might see it on labels:
 - Canned peas or other processed greens
 - Soft drinks and syrups
 
-It may appear on labels as “E141,” “copper chlorophylls,” “copper chlorophyllins,” or specifically as [E141(i)](/e141i-copper-complexes-of-chlorophylls) and [E141(ii)](/e141ii-copper-complexes-of-chlorophyllins).
+It may appear on labels as “E141,” “copper chlorophylls,” “copper chlorophyllins,” or specifically as [E141(i)](/e141i-copper-complexes-of-chlorophylls){.additive} and [E141(ii)](/e141ii-copper-complexes-of-chlorophyllins){.additive}.
 
 ## What can replace Copper complexes of chlorophylls and chlorophyllins?
 Several colors can be used depending on the shade and processing needs:
-- Natural option: [chlorophylls](/e140-chlorophylls-and-chlorophyllins) (E140), though they are less stable in heat and acid
-- Synthetic green: [Green S](/e142-green-s) (E142)
-- Color blends: Yellow plus blue, for example [curcumin](/e100-curcumin) (E100) with [brilliant blue FCF](/e133-brilliant-blue-fcf)
-- For non‑green shades, other families such as [caramel](/e150-caramel) (browns) and [anthocyanins](/e163-anthocyanins) (reds/purples) are common
+- Natural option: [chlorophylls](/e140-chlorophylls-and-chlorophyllins){.additive} (E140), though they are less stable in heat and acid
+- Synthetic green: [Green S](/e142-green-s){.additive} (E142)
+- Color blends: Yellow plus blue, for example [curcumin](/e100-curcumin){.additive} (E100) with [brilliant blue FCF](/e133-brilliant-blue-fcf){.additive}
+- For non‑green shades, other families such as [caramel](/e150-caramel){.additive} (browns) and [anthocyanins](/e163-anthocyanins){.additive} (reds/purples) are common
 
 ## How is Copper complexes of chlorophylls and chlorophyllins made?
 Both forms start with chlorophyll extracted from edible green plants. In E141(i), the magnesium at the center of the chlorophyll molecule is replaced by copper, producing fat‑soluble copper chlorophylls. In E141(ii), the chlorophyll is first saponified (the side chain is removed), then complexed with copper and neutralized to yield water‑soluble salts often called sodium copper chlorophyllins.[^3]  

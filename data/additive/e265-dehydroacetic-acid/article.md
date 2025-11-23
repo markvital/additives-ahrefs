@@ -18,16 +18,16 @@ You are unlikely to see E265 often on ingredient lists today. Where permitted, i
 - Dressings, sauces, or pickled items
 - Certain niche or regional foods where manufacturers prefer it over other preservatives
 
-Many producers choose more common options such as [sorbic acid](/e200-sorbic-acid), [potassium sorbate](/e202-potassium-sorbate), [benzoic acid](/e210-benzoic-acid), or [sodium benzoate](/e211-sodium-benzoate).
+Many producers choose more common options such as [sorbic acid](/e200-sorbic-acid){.additive}, [potassium sorbate](/e202-potassium-sorbate){.additive}, [benzoic acid](/e210-benzoic-acid){.additive}, or [sodium benzoate](/e211-sodium-benzoate){.additive}.
 
 ## What can replace Dehydroacetic acid?
 Depending on the food and local rules, common substitutes include:
-- [Sorbic acid](/e200-sorbic-acid) or [potassium sorbate](/e202-potassium-sorbate) for broad anti-mold activity
-- [Benzoic acid](/e210-benzoic-acid) or [sodium benzoate](/e211-sodium-benzoate) for acidic beverages and condiments
-- [Propionic acid](/e280-propionic-acid) for baked goods (anti-mold)
-- [Natamycin](/e235-natamycin) for surface protection on cheeses and similar foods
+- [Sorbic acid](/e200-sorbic-acid){.additive} or [potassium sorbate](/e202-potassium-sorbate){.additive} for broad anti-mold activity
+- [Benzoic acid](/e210-benzoic-acid){.additive} or [sodium benzoate](/e211-sodium-benzoate){.additive} for acidic beverages and condiments
+- [Propionic acid](/e280-propionic-acid){.additive} for baked goods (anti-mold)
+- [Natamycin](/e235-natamycin){.additive} for surface protection on cheeses and similar foods
 
-Formulators also adjust pH with acids like [citric acid](/e330-citric-acid) and reduce water activity (for example, by concentrating or salting) to limit microbial growth.
+Formulators also adjust pH with acids like [citric acid](/e330-citric-acid){.additive} and reduce water activity (for example, by concentrating or salting) to limit microbial growth.
 
 ## How is Dehydroacetic acid made?
 Food-grade dehydroacetic acid is produced by chemical synthesis and purification. In practice, manufacturers make it in bulk, refine it to meet food specifications, and then use it at low levels according to product needs. It is also available as sodium dehydroacetate, a more water-soluble form used similarly under GMP rules.^1

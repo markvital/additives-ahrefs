@@ -11,7 +11,7 @@ Copper sulphate (E519) is a bright blue mineral salt used in tiny amounts in foo
 ## Why is Copper sulphate added to food?
 Manufacturers use copper sulphate as a permitted source of copper when fortifying foods or making dietary supplements, because copper is an essential trace mineral for human health.[^2] In wineries, it may be used as a processing aid to bind hydrogen sulfide and other sulfur compounds that cause “rotten egg” aromas; the European Union allows this practice with a strict limit on residual copper in the finished wine.[^3]
 
-It is also used upstream when producing certain green color additives, such as the [copper complexes of chlorophylls and chlorophyllins](/e141-copper-complexes-of-chlorophylls-and-chlorophyllins), though those colors are separately regulated as E141.
+It is also used upstream when producing certain green color additives, such as the [copper complexes of chlorophylls and chlorophyllins](/e141-copper-complexes-of-chlorophylls-and-chlorophyllins){.additive}, though those colors are separately regulated as E141.
 
 ## What foods contain Copper sulphate?
 - Fortified foods and dietary supplements may list copper sulphate as the mineral source, within the categories and forms authorized by the EU for copper addition.[^2]
@@ -22,7 +22,7 @@ Outside of these uses, you’re unlikely to see E519 commonly listed on everyday
 ## What can replace Copper sulphate?
 - For copper fortification: Other permitted copper salts (for example, gluconate or citrate forms) are often used as alternatives, depending on taste, solubility, and formulation needs.
 - For winemaking sulfur issues: Non-additive techniques such as controlled aeration, racking, or managing fermentation can reduce sulfur off-odors.
-- For green color: Makers typically use approved color additives like [copper complexes of chlorophylls and chlorophyllins](/e141-copper-complexes-of-chlorophylls-and-chlorophyllins), rather than adding copper sulphate itself.
+- For green color: Makers typically use approved color additives like [copper complexes of chlorophylls and chlorophyllins](/e141-copper-complexes-of-chlorophylls-and-chlorophyllins){.additive}, rather than adding copper sulphate itself.
 
 ## How is Copper sulphate made?
 Industrial copper sulphate is typically produced by reacting copper metal, copper oxide, or copper hydroxide with sulfuric acid, then crystallizing the distinctive blue pentahydrate (CuSO4·5H2O).[^4] When used as E519 in the EU, it must meet official identity and purity criteria set for food additives.[^1]

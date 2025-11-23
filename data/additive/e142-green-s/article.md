@@ -16,8 +16,8 @@ Food makers use Green s to deliver a consistent, bright green when natural color
 In the European Union, Green s (E142) is authorized for selected categories such as certain confectionery, desserts and edible ices, sauces and seasonings, and some processed vegetables, each with a maximum permitted level set in law.[^2] The exact list and limits are defined in the Union list of food additives (Annex II of Regulation 1333/2008).[^2]
 
 ## What can replace Green s?
-- Natural greens: [chlorophylls and chlorophyllins](/e140-chlorophylls-and-chlorophyllins) (E140) and [copper complexes of chlorophylls and chlorophyllins](/e141-copper-complexes-of-chlorophylls-and-chlorophyllins) (E141) give plant-like greens, though shades and stability differ from E142.
-- Color blends: a mix of yellow and blue colors, such as [tartrazine](/e102-tartrazine) (E102) with [brilliant blue FCF](/e133-brilliant-blue-fcf) (E133), can be tuned to match various green tones.
+- Natural greens: [chlorophylls and chlorophyllins](/e140-chlorophylls-and-chlorophyllins){.additive} (E140) and [copper complexes of chlorophylls and chlorophyllins](/e141-copper-complexes-of-chlorophylls-and-chlorophyllins){.additive} (E141) give plant-like greens, though shades and stability differ from E142.
+- Color blends: a mix of yellow and blue colors, such as [tartrazine](/e102-tartrazine){.additive} (E102) with [brilliant blue FCF](/e133-brilliant-blue-fcf){.additive} (E133), can be tuned to match various green tones.
 - Product reformulation: some brands opt for naturally green ingredients (herbs, vegetables, tea) where feasible, accepting a more muted color.
 
 ## How is Green s made?

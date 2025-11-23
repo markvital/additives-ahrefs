@@ -16,9 +16,9 @@ Use depends on local rules. To know whether a product contains it, check the ing
 
 ## What can replace Sodium dehydroacetate?
 Alternatives depend on the recipe and the target microbes:
-- Organic acid preservatives such as [sorbic acid](/e200-sorbic-acid) or its salt [potassium sorbate](/e202-potassium-sorbate)
-- Benzoates such as [sodium benzoate](/e211-sodium-benzoate) or [benzoic acid](/e210-benzoic-acid)
-- Propionates such as [calcium propionate](/e282-calcium-propionate)
+- Organic acid preservatives such as [sorbic acid](/e200-sorbic-acid){.additive} or its salt [potassium sorbate](/e202-potassium-sorbate){.additive}
+- Benzoates such as [sodium benzoate](/e211-sodium-benzoate){.additive} or [benzoic acid](/e210-benzoic-acid){.additive}
+- Propionates such as [calcium propionate](/e282-calcium-propionate){.additive}
 
 Formulators often test a few options to match taste, pH, and shelf‑life needs.
 

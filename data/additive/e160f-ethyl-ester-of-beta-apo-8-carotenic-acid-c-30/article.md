@@ -11,7 +11,7 @@ This additive is a synthetic carotenoid used to color foods and beverages.
 - Regulatory status: authorized in the EU with purity specifications; also listed by the U.S. FDA on its Color Additive Status List  
 
 ## Why is Ethyl ester of beta-apo-8'-carotenic acid (C 30) added to food?
-Manufacturers use E160f to bring back or boost an appetizing orange or yellow‑orange color. Color can fade during processing or storage, so a stable colorant helps products look consistent on the shelf. As a carotenoid, it provides a warm, natural‑looking hue similar to [beta-carotene](/e160ai-beta-carotene) or [paprika extract](/e160c-paprika-extract), but with its own shade and stability profile.
+Manufacturers use E160f to bring back or boost an appetizing orange or yellow‑orange color. Color can fade during processing or storage, so a stable colorant helps products look consistent on the shelf. As a carotenoid, it provides a warm, natural‑looking hue similar to [beta-carotene](/e160ai-beta-carotene){.additive} or [paprika extract](/e160c-paprika-extract){.additive}, but with its own shade and stability profile.
 
 ## What foods contain Ethyl ester of beta-apo-8'-carotenic acid (C 30)?
 You’ll mainly see it in foods where an orange tint is desired:
@@ -25,9 +25,9 @@ In the EU, E160f is an authorized color additive listed in the food additives re
 
 ## What can replace Ethyl ester of beta-apo-8'-carotenic acid (C 30)?
 Alternatives depend on the exact shade and processing needs:
-- Other carotenoids: [beta-carotene](/e160ai-beta-carotene), [lycopene](/e160d-lycopene), and [beta-apo-8'-carotenal (C 30)](/e160e-beta-apo-8-carotenal-c30)
-- Plant extracts: [paprika extract](/e160c-paprika-extract), [annatto](/e160b-annatto), or [curcumin](/e100-curcumin)
-- Non-carotenoid colors for brownish tones: [plain caramel](/e150a-plain-caramel)
+- Other carotenoids: [beta-carotene](/e160ai-beta-carotene){.additive}, [lycopene](/e160d-lycopene){.additive}, and [beta-apo-8'-carotenal (C 30)](/e160e-beta-apo-8-carotenal-c30){.additive}
+- Plant extracts: [paprika extract](/e160c-paprika-extract){.additive}, [annatto](/e160b-annatto){.additive}, or [curcumin](/e100-curcumin){.additive}
+- Non-carotenoid colors for brownish tones: [plain caramel](/e150a-plain-caramel){.additive}
 
 Formulators choose based on color shade, solubility (oil vs water), heat/light stability, and label preferences.
 
@@ -53,7 +53,7 @@ If you have dietary restrictions or medical advice to limit food colors, consult
   Fact: E160f is a related carotenoid used only for color. It is not used as a vitamin A source.
 
 - Myth: “All orange colors are natural plant extracts.”  
-  Fact: Some are plant‑derived (like [annatto](/e160b-annatto) or [paprika extract](/e160c-paprika-extract)), while E160f is produced by synthesis to deliver a consistent shade.
+  Fact: Some are plant‑derived (like [annatto](/e160b-annatto){.additive} or [paprika extract](/e160c-paprika-extract){.additive}), while E160f is produced by synthesis to deliver a consistent shade.
 
 - Myth: “Colors are added only to hide poor quality.”  
   Fact: Colors help keep appearance uniform after heat, light, or storage changes. They don’t replace quality control or safety standards set by law.[^2]
@@ -64,7 +64,7 @@ On labels, look for:
 - “Ethyl ester of beta‑apo‑8'-carotenic acid (C 30)”
 - Sometimes listed within a “color” or “colours” grouping
 
-It’s most common in brightly colored drinks, sweets, bakery decorations, and orange‑toned spreads. Many brands use a mix of colors to fine‑tune shade and stability, so E160f may appear alongside other carotenoids like [beta‑carotene](/e160ai-beta-carotene) or plant colors such as [paprika extract](/e160c-paprika-extract).
+It’s most common in brightly colored drinks, sweets, bakery decorations, and orange‑toned spreads. Many brands use a mix of colors to fine‑tune shade and stability, so E160f may appear alongside other carotenoids like [beta‑carotene](/e160ai-beta-carotene){.additive} or plant colors such as [paprika extract](/e160c-paprika-extract){.additive}.
 
 ## References
 [^1]: Commission Regulation (EU) No 231/2012 laying down specifications for food additives. EUR-Lex. https://eur-lex.europa.eu/eli/reg/2012/231/oj

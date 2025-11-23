@@ -18,10 +18,10 @@ In the EU, E243 is authorized for use only in specific food categories and at se
 
 ## What can replace Ethyl lauroyl arginate?
 Depending on the recipe and local rules, formulators may consider:
-- Organic acids and salts such as [sorbic acid](/e200-sorbic-acid), [potassium sorbate](/e202-potassium-sorbate), or [sodium benzoate](/e211-sodium-benzoate)
-- Natural antimicrobials like [nisin](/e234-nisin) or [natamycin](/e235-natamycin)
-- Antioxidant-based options such as [extracts of rosemary](/e392-extracts-of-rosemary)
-- pH control with [citric acid](/e330-citric-acid) to make conditions less friendly to microbes
+- Organic acids and salts such as [sorbic acid](/e200-sorbic-acid){.additive}, [potassium sorbate](/e202-potassium-sorbate){.additive}, or [sodium benzoate](/e211-sodium-benzoate){.additive}
+- Natural antimicrobials like [nisin](/e234-nisin){.additive} or [natamycin](/e235-natamycin){.additive}
+- Antioxidant-based options such as [extracts of rosemary](/e392-extracts-of-rosemary){.additive}
+- pH control with [citric acid](/e330-citric-acid){.additive} to make conditions less friendly to microbes
 
 ## How is Ethyl lauroyl arginate made?
 Ethyl lauroyl arginate is produced by combining lauric acid (from sources like coconut or palm kernel oils) with the amino acid L-arginine to form a lauroyl–arginine amide, then esterifying the molecule with ethanol; the final product is typically stabilized as the hydrochloride salt (LAE HCl).[^1]

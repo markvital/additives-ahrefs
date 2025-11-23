@@ -5,7 +5,7 @@ Ammonium adipate (E359) is the ammonium salt of adipic acid, intended for use as
 - What it is: The ammonium salt of adipic acid, labeled as E359.
 - What it does: Helps control acidity (pH) and can act as a buffering agent in foods.
 - Where it’s found: Rare on labels; authorization varies by country.
-- Related additives: [adipic acid](/e355-adipic-acid), [sodium adipate](/e356-sodium-adipate), [potassium adipate](/e357-potassium-adipate).
+- Related additives: [adipic acid](/e355-adipic-acid){.additive}, [sodium adipate](/e356-sodium-adipate){.additive}, [potassium adipate](/e357-potassium-adipate){.additive}.
 - Label names: “E359” or “ammonium adipate.”
 
 ## Why is ammonium adipate added to food?
@@ -15,9 +15,9 @@ Food makers use salts of acids to fine‑tune flavor and acidity. Compared with 
 You are unlikely to see E359 on EU labels because ammonium adipate is not included in the European Union’s Union list of authorized food additives in Regulation (EC) No 1333/2008, nor does it have EU specifications in Regulation (EU) No 231/2012.[^1][^2] Outside the EU, authorization can differ by country. Where permitted, salts of adipic acid are generally suited to dry beverage mixes, dessert powders, and confectionery that need controlled acidity.
 
 ## What can replace ammonium adipate?
-- Other adipates: [adipic acid](/e355-adipic-acid), [sodium adipate](/e356-sodium-adipate), [potassium adipate](/e357-potassium-adipate).
-- Common acidulants: [citric acid](/e330-citric-acid), [malic acid](/e296-malic-acid), [fumaric acid](/e297-fumaric-acid).
-- For leavened baked goods, some formulators use ammonium-based leaveners like [ammonium carbonates](/e503-ammonium-carbonates) when that specific functionality is needed.
+- Other adipates: [adipic acid](/e355-adipic-acid){.additive}, [sodium adipate](/e356-sodium-adipate){.additive}, [potassium adipate](/e357-potassium-adipate){.additive}.
+- Common acidulants: [citric acid](/e330-citric-acid){.additive}, [malic acid](/e296-malic-acid){.additive}, [fumaric acid](/e297-fumaric-acid){.additive}.
+- For leavened baked goods, some formulators use ammonium-based leaveners like [ammonium carbonates](/e503-ammonium-carbonates){.additive} when that specific functionality is needed.
 
 ## How is ammonium adipate made?
 It is typically produced by neutralizing adipic acid (a dicarboxylic acid) with ammonia to form the corresponding ammonium salt. This straightforward acid–base reaction is the same general approach used to make many food-grade salts from their parent acids.

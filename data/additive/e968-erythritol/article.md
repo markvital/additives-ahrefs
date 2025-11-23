@@ -23,14 +23,14 @@ Erythritol shows up in many “sugar‑free” or “reduced sugar” products, 
 - Cakes, cookies, brownies, and frostings
 - Flavored dairy and non‑dairy desserts
 - Ready‑to‑drink beverages and powdered drink mixes
-- Tabletop sweeteners, often blended with high‑intensity sweeteners like [steviol glycosides](/e960-steviol-glycosides), [sucralose](/e955-sucralose), [aspartame](/e951-aspartame), or [acesulfame K](/e950-acesulfame-k)
+- Tabletop sweeteners, often blended with high‑intensity sweeteners like [steviol glycosides](/e960-steviol-glycosides){.additive}, [sucralose](/e955-sucralose){.additive}, [aspartame](/e951-aspartame){.additive}, or [acesulfame K](/e950-acesulfame-k){.additive}
 
-It is also used alongside other polyols such as [xylitol](/e967-xylitol), [sorbitol](/e420-sorbitol), [isomalt](/e953-isomalt), and [maltitol](/e965-maltitol) to fine‑tune sweetness, texture, and digestive tolerance.
+It is also used alongside other polyols such as [xylitol](/e967-xylitol){.additive}, [sorbitol](/e420-sorbitol){.additive}, [isomalt](/e953-isomalt){.additive}, and [maltitol](/e965-maltitol){.additive} to fine‑tune sweetness, texture, and digestive tolerance.
 
 ## What can replace Erythritol?
-- Other polyols (for bulk sweetness): [xylitol](/e967-xylitol), [sorbitol](/e420-sorbitol), [isomalt](/e953-isomalt), [maltitol](/e965-maltitol), [mannitol](/e421-mannitol)
-- High‑intensity sweeteners (for sweetness only; usually need a bulking agent too): [steviol glycosides](/e960-steviol-glycosides), [sucralose](/e955-sucralose), [aspartame](/e951-aspartame), [acesulfame K](/e950-acesulfame-k)
-- Bulking agents and fibers (for body and texture): [polydextrose](/e1200-polydextrose) or starch‑based systems
+- Other polyols (for bulk sweetness): [xylitol](/e967-xylitol){.additive}, [sorbitol](/e420-sorbitol){.additive}, [isomalt](/e953-isomalt){.additive}, [maltitol](/e965-maltitol){.additive}, [mannitol](/e421-mannitol){.additive}
+- High‑intensity sweeteners (for sweetness only; usually need a bulking agent too): [steviol glycosides](/e960-steviol-glycosides){.additive}, [sucralose](/e955-sucralose){.additive}, [aspartame](/e951-aspartame){.additive}, [acesulfame K](/e950-acesulfame-k){.additive}
+- Bulking agents and fibers (for body and texture): [polydextrose](/e1200-polydextrose){.additive} or starch‑based systems
 
 Swapping erythritol may change taste, texture, browning, and digestive tolerance, so formulators often blend ingredients to balance these factors.
 

@@ -17,8 +17,8 @@ Manufacturers use aspartame to deliver sweetness with very few calories because 
 Aspartame shows up widely in “diet” or “zero” soft drinks, sugar-free gum, tabletop sweeteners, flavored waters, powdered drink mixes, reduced-sugar desserts, and some light yogurts and puddings. In the United States, its use as a sweetener is regulated under the Code of Federal Regulations (CFR) and products that contain it must carry the statement “Phenylketonurics: Contains phenylalanine.”[^2]
 
 ## What can replace Aspartame?
-- Other high-intensity sweeteners: [acesulfame K](/e950-acesulfame-k), [sucralose](/e955-sucralose), [saccharin](/e954-saccharin-and-its-salts), [steviol glycosides](/e960-steviol-glycosides), [neotame](/e961-neotame), [advantame](/e969-advantame)
-- Sugar alcohols (polyols): [erythritol](/e968-erythritol), [xylitol](/e967-xylitol), [sorbitol](/e420-sorbitol)
+- Other high-intensity sweeteners: [acesulfame K](/e950-acesulfame-k){.additive}, [sucralose](/e955-sucralose){.additive}, [saccharin](/e954-saccharin-and-its-salts){.additive}, [steviol glycosides](/e960-steviol-glycosides){.additive}, [neotame](/e961-neotame){.additive}, [advantame](/e969-advantame){.additive}
+- Sugar alcohols (polyols): [erythritol](/e968-erythritol){.additive}, [xylitol](/e967-xylitol){.additive}, [sorbitol](/e420-sorbitol){.additive}
 - Blends are common to improve taste, reduce aftertaste, or enhance stability.
 
 ## How is Aspartame made?

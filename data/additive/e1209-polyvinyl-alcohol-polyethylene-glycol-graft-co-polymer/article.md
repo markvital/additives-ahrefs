@@ -19,9 +19,9 @@ On ingredient lists, look for “E1209,” “polyvinyl alcohol–polyethylene g
 
 ## What can replace Polyvinyl alcohol-polyethylene glycol-graft-co-polymer?
 Several other glazing or film‑forming additives can serve similar roles, depending on the product and process:
-- Natural resins and waxes: [shellac](/e904-shellac), [carnauba wax](/e903-carnauba-wax)
-- Polysaccharide films: [pullulan](/e1204-pullulan), [hydroxypropyl methylcellulose](/e464-hydroxypropyl-methyl-cellulose), [ethyl cellulose](/e462-ethyl-cellulose)
-- Other synthetics: [polyvinyl alcohol](/e1203-polyvinyl-alcohol), [polyethylene glycol](/e1521-polyethylene-glycol)
+- Natural resins and waxes: [shellac](/e904-shellac){.additive}, [carnauba wax](/e903-carnauba-wax){.additive}
+- Polysaccharide films: [pullulan](/e1204-pullulan){.additive}, [hydroxypropyl methylcellulose](/e464-hydroxypropyl-methyl-cellulose){.additive}, [ethyl cellulose](/e462-ethyl-cellulose){.additive}
+- Other synthetics: [polyvinyl alcohol](/e1203-polyvinyl-alcohol){.additive}, [polyethylene glycol](/e1521-polyethylene-glycol){.additive}
 
 The best alternative depends on needed properties such as gloss, moisture barrier, solubility, and labeling goals.
 

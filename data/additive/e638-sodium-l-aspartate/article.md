@@ -17,9 +17,9 @@ You may see E638 on ingredient lists for savory products such as dry seasoning m
 
 ## What can replace Sodium L-aspartate?
 Depending on the recipe and local rules, formulators may consider:
-- Other umami enhancers such as [monosodium glutamate](/e621-monosodium-glutamate), [disodium inosinate](/e631-disodium-inosinate), or [disodium guanylate](/e627-disodium-guanylate)
-- Amino acid–type enhancers like [glycine and its sodium salt](/e640-glycine-and-its-sodium-salt)
-- Sweet, caramel-like flavor boosters that round out taste, such as [maltol](/e636-maltol) or [ethyl maltol](/e637-ethyl-maltol)
+- Other umami enhancers such as [monosodium glutamate](/e621-monosodium-glutamate){.additive}, [disodium inosinate](/e631-disodium-inosinate){.additive}, or [disodium guanylate](/e627-disodium-guanylate){.additive}
+- Amino acid–type enhancers like [glycine and its sodium salt](/e640-glycine-and-its-sodium-salt){.additive}
+- Sweet, caramel-like flavor boosters that round out taste, such as [maltol](/e636-maltol){.additive} or [ethyl maltol](/e637-ethyl-maltol){.additive}
 
 The best substitute depends on the target flavor, cost, and labeling needs.
 
@@ -38,7 +38,7 @@ Its benefit is culinary: it enhances the existing savory flavor profile so foods
 
 ## Myths & facts
 - Myth: Sodium L‑aspartate is the same as the sweetener aspartame. Fact: They are different additives with different roles; aspartame is E951 and is a low‑calorie sweetener, while E638 is a flavor enhancer.[^3]
-- Myth: All flavor enhancers are MSG. Fact: E638 is not MSG; [monosodium glutamate](/e621-monosodium-glutamate) is a different compound.
+- Myth: All flavor enhancers are MSG. Fact: E638 is not MSG; [monosodium glutamate](/e621-monosodium-glutamate){.additive} is a different compound.
 - Myth: It adds a strong taste on its own. Fact: Flavor enhancers are used to boost existing flavors rather than create a new, dominant taste.[^5]
 
 ## Sodium L-aspartate in branded foods

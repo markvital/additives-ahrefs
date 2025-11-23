@@ -17,12 +17,12 @@ In the European Union, phosphates as a group (including E343) are authorised in 
 
 ## What can replace Monomagnesium phosphate?
 Possible alternatives depend on the job it performs in your product:
-- For pH control and buffering: [sodium phosphates](/e339-sodium-phosphates), [potassium phosphates](/e340-potassium-phosphates), or organic acids such as [citric acid](/e330-citric-acid) and its salts like [sodium citrates](/e331-sodium-citrates)
-- For stabilising proteins and emulsions in processed cheese and sauces: [monocalcium phosphate](/e341i-monocalcium-phosphate), [diphosphates](/e450-diphosphates), [triphosphates](/e451-triphosphates), or [polyphosphates](/e452-polyphosphates)
-- For thickening and texture: hydrocolloids such as [carrageenan](/e407-carrageenan), [xanthan gum](/e415-xanthan-gum), or [pectins](/e440-pectins)
+- For pH control and buffering: [sodium phosphates](/e339-sodium-phosphates){.additive}, [potassium phosphates](/e340-potassium-phosphates){.additive}, or organic acids such as [citric acid](/e330-citric-acid){.additive} and its salts like [sodium citrates](/e331-sodium-citrates){.additive}
+- For stabilising proteins and emulsions in processed cheese and sauces: [monocalcium phosphate](/e341i-monocalcium-phosphate){.additive}, [diphosphates](/e450-diphosphates){.additive}, [triphosphates](/e451-triphosphates){.additive}, or [polyphosphates](/e452-polyphosphates){.additive}
+- For thickening and texture: hydrocolloids such as [carrageenan](/e407-carrageenan){.additive}, [xanthan gum](/e415-xanthan-gum){.additive}, or [pectins](/e440-pectins){.additive}
 
 ## How is Monomagnesium phosphate made?
-Food‑grade monomagnesium phosphate is produced by carefully neutralising purified [phosphoric acid](/e338-phosphoric-acid) with a magnesium source (for example magnesium oxide, hydroxide, or carbonate), followed by crystallisation, drying, and milling. Its identity and purity must meet the specifications laid out in EU rules for food additives (including limits for impurities and defined assay ranges).[^2]
+Food‑grade monomagnesium phosphate is produced by carefully neutralising purified [phosphoric acid](/e338-phosphoric-acid){.additive} with a magnesium source (for example magnesium oxide, hydroxide, or carbonate), followed by crystallisation, drying, and milling. Its identity and purity must meet the specifications laid out in EU rules for food additives (including limits for impurities and defined assay ranges).[^2]
 
 ## Is Monomagnesium phosphate safe to eat?
 The European Food Safety Authority (EFSA) re‑evaluated phosphate additives and set a group acceptable daily intake (ADI) of 40 mg/kg body weight per day, expressed as phosphorus, for phosphoric acid and its salts, including E343. EFSA also noted that total dietary exposure to phosphates can be high in some groups, such as children with high consumption of phosphate-containing foods, and recommended managing overall intake.[^1] As with all phosphates, safety depends on total phosphorus from both naturally occurring foods and additives in the diet.[^1]

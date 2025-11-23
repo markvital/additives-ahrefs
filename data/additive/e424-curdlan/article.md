@@ -23,10 +23,10 @@ In the European Union, curdlan (E424) is an authorised additive in specific food
 
 ## What can replace Curdlan?
 Several hydrocolloids can play similar roles, depending on the texture and processing needs:
-- For body and pourable thickness: [xanthan gum](/e415-xanthan-gum), [guar gum](/e412-guar-gum), or [locust bean gum](/e410-locust-bean-gum)
-- For firm, cuttable gels: [agar](/e406-agar) or [carrageenan](/e407-carrageenan)
-- For heat‑stable, brittle-to-elastic gels in beverages and gels: [gellan gum](/e418-gellan-gum)
-- For fruit‑based systems: [pectins](/e440-pectins)
+- For body and pourable thickness: [xanthan gum](/e415-xanthan-gum){.additive}, [guar gum](/e412-guar-gum){.additive}, or [locust bean gum](/e410-locust-bean-gum){.additive}
+- For firm, cuttable gels: [agar](/e406-agar){.additive} or [carrageenan](/e407-carrageenan){.additive}
+- For heat‑stable, brittle-to-elastic gels in beverages and gels: [gellan gum](/e418-gellan-gum){.additive}
+- For fruit‑based systems: [pectins](/e440-pectins){.additive}
 
 Each behaves differently with salt, sugar, acid, and heat, so formulators often test blends to match curdlan’s unique, heat‑stable texture.
 

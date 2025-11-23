@@ -29,8 +29,8 @@ On ingredient lists, look for “calcium glycerophosphate” or, in the EU, “E
 ## What can replace calcium glycerophosphate?
 
 Possible substitutes depend on why it’s used:
-- For calcium fortification: [calcium carbonate](/e170i-calcium-carbonate), [calcium phosphates](/e341-calcium-phosphates), [calcium lactate](/e327-calcium-lactate), or [calcium chloride](/e509-calcium-chloride)
-- For acidity control: citrate salts such as [sodium citrates](/e331-sodium-citrates) or [potassium citrates](/e332-potassium-citrates), phosphate salts like [sodium phosphates](/e339-sodium-phosphates), or organic acids such as [citric acid](/e330-citric-acid)
+- For calcium fortification: [calcium carbonate](/e170i-calcium-carbonate){.additive}, [calcium phosphates](/e341-calcium-phosphates){.additive}, [calcium lactate](/e327-calcium-lactate){.additive}, or [calcium chloride](/e509-calcium-chloride){.additive}
+- For acidity control: citrate salts such as [sodium citrates](/e331-sodium-citrates){.additive} or [potassium citrates](/e332-potassium-citrates){.additive}, phosphate salts like [sodium phosphates](/e339-sodium-phosphates){.additive}, or organic acids such as [citric acid](/e330-citric-acid){.additive}
 
 Formulators choose among these based on taste, solubility, label goals, and local regulations.
 

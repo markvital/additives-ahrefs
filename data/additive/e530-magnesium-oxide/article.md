@@ -20,12 +20,12 @@ You are most likely to see magnesium oxide on labels of:
 - Fortified foods and drinks (for example, some nutrition shakes or mixes)
 - Other processed foods where slight neutralization of acidity is helpful
 
-On ingredient lists, it may appear alongside other acidity regulators or flow agents such as [calcium carbonates](/e170-calcium-carbonates), [silicon dioxide](/e551-silicon-dioxide), or [calcium silicate](/e552-calcium-silicate).
+On ingredient lists, it may appear alongside other acidity regulators or flow agents such as [calcium carbonates](/e170-calcium-carbonates){.additive}, [silicon dioxide](/e551-silicon-dioxide){.additive}, or [calcium silicate](/e552-calcium-silicate){.additive}.
 
 ## What can replace Magnesium oxide?
 Possible substitutes depend on the job it needs to do:
-- For pH control: [calcium carbonates](/e170-calcium-carbonates), [potassium carbonates](/e501-potassium-carbonates), or [sodium hydroxide](/e524-sodium-hydroxide) may be used, depending on the food and process.
-- For magnesium fortification: other magnesium salts such as [magnesium hydroxide](/e528-magnesium-hydroxide), [magnesium chloride](/e511-magnesium-chloride), or [magnesium sulphate](/e518-magnesium-sulphate) are common options.
+- For pH control: [calcium carbonates](/e170-calcium-carbonates){.additive}, [potassium carbonates](/e501-potassium-carbonates){.additive}, or [sodium hydroxide](/e524-sodium-hydroxide){.additive} may be used, depending on the food and process.
+- For magnesium fortification: other magnesium salts such as [magnesium hydroxide](/e528-magnesium-hydroxide){.additive}, [magnesium chloride](/e511-magnesium-chloride){.additive}, or [magnesium sulphate](/e518-magnesium-sulphate){.additive} are common options.
 
 ## How is Magnesium oxide made?
 Magnesium oxide is produced by heating magnesium compounds until they release water or carbon dioxide, leaving behind MgO. In practice, manufacturers calcine (strongly heat) magnesium hydroxide or magnesium carbonate to make the oxide.[^5] Industrially, the starting material can come from natural magnesite (a magnesium carbonate ore) or from seawater or brines, where magnesium hydroxide is first precipitated and then calcined to MgO.[^4]
@@ -42,7 +42,7 @@ As a fortificant, magnesium oxide can help supply magnesium, an essential minera
 If you take prescription medicines, ask your clinician or pharmacist about timing, as magnesium supplements can affect the absorption of some drugs.
 
 ## Myths & facts
-- Myth: “Magnesium oxide is the same as Epsom salt.” Fact: Epsom salt is [magnesium sulphate](/e518-magnesium-sulphate); magnesium oxide is a different compound.
+- Myth: “Magnesium oxide is the same as Epsom salt.” Fact: Epsom salt is [magnesium sulphate](/e518-magnesium-sulphate){.additive}; magnesium oxide is a different compound.
 - Myth: “It’s a preservative.” Fact: Magnesium oxide is used for pH control and as a magnesium source, not to preserve foods.
 - Myth: “It’s synthetic.” Fact: MgO is an inorganic mineral oxide that can be made from natural sources like magnesite or seawater-derived magnesium.
 

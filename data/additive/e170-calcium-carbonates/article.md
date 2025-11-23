@@ -6,7 +6,7 @@ Calcium carbonates (E170) are white, mineral-based additives used in many foods.
 - What it is: Purified forms of the natural mineral calcium carbonate.
 - What it does: Whitens foods, prevents clumping, controls acidity, carries flavors, and adds calcium.
 - Where it’s found: Chewing gum, confectionery, icings, powdered mixes, bakery items, and some fortified drinks and plant milks.
-- Forms: E170 covers E170(i) [calcium carbonate](/e170i-calcium-carbonate) and E170(ii) [calcium hydrogen carbonate](/e170ii-calcium-hydrogen-carbonate).
+- Forms: E170 covers E170(i) [calcium carbonate](/e170i-calcium-carbonate){.additive} and E170(ii) [calcium hydrogen carbonate](/e170ii-calcium-hydrogen-carbonate){.additive}.
 - Labeling: May appear as “E170,” “calcium carbonate,” or “calcium carbonates.”
 - Regulation: Authorized in the U.S. and EU when used as intended.
 
@@ -28,9 +28,9 @@ Product labels may list “calcium carbonate,” “E170,” or the specific sub
 
 ## What can replace Calcium carbonates?
 Possible alternatives depend on the job it does in a recipe:
-- For white color/opacity: [titanium dioxide](/e171-titanium-dioxide) (where permitted), [talc](/e553b-talc)
-- For anticaking: [silicon dioxide](/e551-silicon-dioxide), [microcrystalline cellulose](/e460i-microcrystalline-cellulose)
-- For calcium fortification: [tricalcium phosphate](/e341iii-tricalcium-phosphate) or other [calcium phosphates](/e341-calcium-phosphates)
+- For white color/opacity: [titanium dioxide](/e171-titanium-dioxide){.additive} (where permitted), [talc](/e553b-talc){.additive}
+- For anticaking: [silicon dioxide](/e551-silicon-dioxide){.additive}, [microcrystalline cellulose](/e460i-microcrystalline-cellulose){.additive}
+- For calcium fortification: [tricalcium phosphate](/e341iii-tricalcium-phosphate){.additive} or other [calcium phosphates](/e341-calcium-phosphates){.additive}
 
 Food makers choose based on taste impact, cost, labeling needs, and local rules.
 

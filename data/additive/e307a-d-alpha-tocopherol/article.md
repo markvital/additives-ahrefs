@@ -25,12 +25,12 @@ On ingredient lists it can appear as “D-alpha-tocopherol,” “vitamin E,” 
 
 ## What can replace D-Alpha-tocopherol?
 Several antioxidants can do similar jobs, depending on the food:
-- Natural options: [tocopherol-rich extract](/e306-tocopherol-rich-extract), [alpha-tocopherol](/e307-alpha-tocopherol), and [extracts of rosemary](/e392-extracts-of-rosemary)
-- Vitamin C–type helpers (synergists): [ascorbic acid](/e300-ascorbic-acid) and [ascorbyl palmitate](/e304i-ascorbyl-palmitate), sometimes with [citric acid](/e330-citric-acid)
-- Synthetic antioxidants: [BHA](/e320-butylated-hydroxyanisole-bha), [BHT](/e321-butylated-hydroxytoluene), and [TBHQ](/e319-tertiary-butylhydroquinone-tbhq)
+- Natural options: [tocopherol-rich extract](/e306-tocopherol-rich-extract){.additive}, [alpha-tocopherol](/e307-alpha-tocopherol){.additive}, and [extracts of rosemary](/e392-extracts-of-rosemary){.additive}
+- Vitamin C–type helpers (synergists): [ascorbic acid](/e300-ascorbic-acid){.additive} and [ascorbyl palmitate](/e304i-ascorbyl-palmitate){.additive}, sometimes with [citric acid](/e330-citric-acid){.additive}
+- Synthetic antioxidants: [BHA](/e320-butylated-hydroxyanisole-bha){.additive}, [BHT](/e321-butylated-hydroxytoluene){.additive}, and [TBHQ](/e319-tertiary-butylhydroquinone-tbhq){.additive}
 
 ## How is D-Alpha-tocopherol made?
-D-Alpha-tocopherol for food use is typically obtained from vegetable oils. It is isolated and purified to meet food-grade specifications, resulting in the natural RRR-α-tocopherol form known in the EU as E307A.[^2] By contrast, the fully synthetic mixture of isomers is labeled as [DL-alpha-tocopherol (E307c)](/e307c-dl-alpha-tocopherol).[^1]
+D-Alpha-tocopherol for food use is typically obtained from vegetable oils. It is isolated and purified to meet food-grade specifications, resulting in the natural RRR-α-tocopherol form known in the EU as E307A.[^2] By contrast, the fully synthetic mixture of isomers is labeled as [DL-alpha-tocopherol (E307c)](/e307c-dl-alpha-tocopherol){.additive}.[^1]
 
 ## Is D-Alpha-tocopherol safe to eat?
 In the European Union, EFSA (European Food Safety Authority) reviewed tocopherols (E306–E309) and found no safety concern at reported use levels as food additives.[^1] In the United States, the FDA lists tocopherols as GRAS (Generally Recognized As Safe) for use in foods.[^3]

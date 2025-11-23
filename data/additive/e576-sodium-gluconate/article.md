@@ -11,7 +11,7 @@ Sodium gluconate (E576) is the sodium salt of gluconic acid. In food, it mainly 
 ## Why is sodium gluconate added to food?
 Manufacturers add sodium gluconate to control the effects of metal ions like iron and copper. These metals can speed up oxidation, dull colors, create haze in drinks, and even add a metallic or bitter note. By binding these ions, sodium gluconate helps protect flavor, color, and clarity. It is authorized in the European Union as a food additive (E576) in the functional class of sequestrants and stabilisers when used according to the rules in the additive regulation.[^1]
 
-A related benefit is gentle pH management. While sodium gluconate is not a strong acid, it can help buffer formulations alongside acids and salts such as [gluconic acid](/e574-gluconic-acid) and [glucono delta-lactone](/e575-glucono-delta-lactone).
+A related benefit is gentle pH management. While sodium gluconate is not a strong acid, it can help buffer formulations alongside acids and salts such as [gluconic acid](/e574-gluconic-acid){.additive} and [glucono delta-lactone](/e575-glucono-delta-lactone){.additive}.
 
 ## What foods contain sodium gluconate?
 You’re most likely to find sodium gluconate in:
@@ -25,10 +25,10 @@ In these foods, it helps keep flavors clean, colors bright, and textures consist
 
 ## What can replace sodium gluconate?
 Alternatives depend on the job it’s doing:
-- For binding metals: [calcium disodium EDTA](/e385-calcium-disodium-ethylenediaminetetraacetate) is a strong chelator used at very low levels.
-- For mild buffering and metal control: [citric acid](/e330-citric-acid) and [sodium citrates](/e331-sodium-citrates) are common.
-- For stabilising proteins and texture: [sodium phosphates](/e339-sodium-phosphates) may help in dairy and meat systems.
-- For antioxidant support: [ascorbic acid](/e300-ascorbic-acid) can slow oxidation, often used together with a sequestrant.
+- For binding metals: [calcium disodium EDTA](/e385-calcium-disodium-ethylenediaminetetraacetate){.additive} is a strong chelator used at very low levels.
+- For mild buffering and metal control: [citric acid](/e330-citric-acid){.additive} and [sodium citrates](/e331-sodium-citrates){.additive} are common.
+- For stabilising proteins and texture: [sodium phosphates](/e339-sodium-phosphates){.additive} may help in dairy and meat systems.
+- For antioxidant support: [ascorbic acid](/e300-ascorbic-acid){.additive} can slow oxidation, often used together with a sequestrant.
 
 The choice depends on taste impact, label goals, and how strong the chelating effect needs to be.
 

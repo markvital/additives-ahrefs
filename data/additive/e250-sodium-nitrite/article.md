@@ -9,11 +9,11 @@ Sodium nitrite has a few jobs in food, and most of them apply to cured meats.
 - What it does: Helps prevent the growth of Clostridium botulinum, keeps cured meat pink, and supports cured flavor.
 - Where you find it: Bacon, ham, hot dogs, sausages, corned beef, deli meats, and some cured or smoked fish.
 - How it appears on labels: “Sodium nitrite” or “E250” (in the EU).
-- Related ingredients often used with it: Antioxidants such as [sodium ascorbate](/e301-sodium-ascorbate), [ascorbic acid](/e300-ascorbic-acid), or [sodium erythorbate](/e316-sodium-erythorbate) to limit nitrosamine formation.
+- Related ingredients often used with it: Antioxidants such as [sodium ascorbate](/e301-sodium-ascorbate){.additive}, [ascorbic acid](/e300-ascorbic-acid){.additive}, or [sodium erythorbate](/e316-sodium-erythorbate){.additive} to limit nitrosamine formation.
 - Safety snapshot: Allowed levels are low and closely controlled. Acute overexposure can cause methemoglobinemia, a blood disorder, but this is rare in normal food use.
 
 ## Why is Sodium nitrite added to food?
-Food makers add sodium nitrite to cured meats because it helps stop the growth of Clostridium botulinum, the bacterium that produces botulinum toxin. It also gives cured meats their pink color and distinct flavor, and it can slow fat oxidation that causes rancidity.[^1] In the United States, bacon and some other cured products must also include certain antioxidants (such as [sodium ascorbate](/e301-sodium-ascorbate) or [sodium erythorbate](/e316-sodium-erythorbate)) to help prevent the formation of nitrosamines during processing and cooking.[^2]
+Food makers add sodium nitrite to cured meats because it helps stop the growth of Clostridium botulinum, the bacterium that produces botulinum toxin. It also gives cured meats their pink color and distinct flavor, and it can slow fat oxidation that causes rancidity.[^1] In the United States, bacon and some other cured products must also include certain antioxidants (such as [sodium ascorbate](/e301-sodium-ascorbate){.additive} or [sodium erythorbate](/e316-sodium-erythorbate){.additive}) to help prevent the formation of nitrosamines during processing and cooking.[^2]
 
 ## What foods contain Sodium nitrite?
 You will most often see sodium nitrite in:
@@ -26,11 +26,11 @@ In the U.S., sodium nitrite is listed as a safe and suitable ingredient for spec
 
 ## What can replace Sodium nitrite?
 There is no single drop-in replacement that matches all of sodium nitrite’s roles—safety, color, and flavor—at once. Options include:
-- Using nitrate sources such as [potassium nitrate](/e252-potassium-nitrate) in slow-curing styles, where bacteria convert nitrate to nitrite over time.
+- Using nitrate sources such as [potassium nitrate](/e252-potassium-nitrate){.additive} in slow-curing styles, where bacteria convert nitrate to nitrite over time.
 - Combining hurdles like salt, low temperature, vacuum or modified-atmosphere packaging, and newer methods (for example, high-pressure processing) to control pathogens.
 - Using flavor and color aids to mimic parts of the cured profile, though these do not fully replace nitrite’s safety function.
 
-Many producers still rely on small, regulated amounts of nitrite together with antioxidants like [ascorbic acid](/e300-ascorbic-acid) or [sodium ascorbate](/e301-sodium-ascorbate) to manage safety and quality.
+Many producers still rely on small, regulated amounts of nitrite together with antioxidants like [ascorbic acid](/e300-ascorbic-acid){.additive} or [sodium ascorbate](/e301-sodium-ascorbate){.additive} to manage safety and quality.
 
 ## How is Sodium nitrite made?
 Commercial sodium nitrite is typically made by absorbing nitrogen oxides into alkaline solutions (such as sodium hydroxide or sodium carbonate), or by partially reducing sodium nitrate, then purifying and crystallizing the product.[^6] Food-grade material must meet purity specifications, including identity tests and limits for impurities, as laid down in EU additive specifications.[^5]

@@ -7,7 +7,7 @@ Ammonium acetate (E264) is a simple salt made from ammonia and vinegar’s main 
 - What it does: helps regulate acidity (pH) and can support preservation
 - Where you might see it: some pickled foods, condiments, and brines
 - Label names: “ammonium acetate” or “E264”
-- Related additives: [acetic acid](/e260-acetic-acid), [potassium acetate](/e261-potassium-acetate), [sodium acetates](/e262-sodium-acetates), [calcium acetate](/e263-calcium-acetate)
+- Related additives: [acetic acid](/e260-acetic-acid){.additive}, [potassium acetate](/e261-potassium-acetate){.additive}, [sodium acetates](/e262-sodium-acetates){.additive}, [calcium acetate](/e263-calcium-acetate){.additive}
 
 ## Why is ammonium acetate added to food?
 Ammonium acetate acts mainly as an acidity regulator, helping a recipe reach and hold the right pH. Keeping pH in the target range supports taste, texture, and microbiological stability. In international standards, ammonium acetates are listed as acidity regulators and may be used for preservative purposes within set limits.[^2] In the EU, E264 has defined purity specifications as a food additive, which means it must meet strict identity and quality criteria before use.[^1]
@@ -17,9 +17,9 @@ You may see E264 on the labels of acidified and preserved foods, such as certain
 
 ## What can replace ammonium acetate?
 Formulators often choose alternatives that deliver similar acidity control or preservation, including:
-- [Acetic acid](/e260-acetic-acid) or other acetates like [potassium acetate](/e261-potassium-acetate), [sodium acetates](/e262-sodium-acetates), and [calcium acetate](/e263-calcium-acetate)
-- Other food acids such as [citric acid](/e330-citric-acid) or [lactic acid](/e270-lactic-acid)
-- Preservatives used for specific microbes, like [potassium sorbate](/e202-potassium-sorbate) or [sodium benzoate](/e211-sodium-benzoate)
+- [Acetic acid](/e260-acetic-acid){.additive} or other acetates like [potassium acetate](/e261-potassium-acetate){.additive}, [sodium acetates](/e262-sodium-acetates){.additive}, and [calcium acetate](/e263-calcium-acetate){.additive}
+- Other food acids such as [citric acid](/e330-citric-acid){.additive} or [lactic acid](/e270-lactic-acid){.additive}
+- Preservatives used for specific microbes, like [potassium sorbate](/e202-potassium-sorbate){.additive} or [sodium benzoate](/e211-sodium-benzoate){.additive}
 
 The best substitute depends on taste, pH target, and local rules.
 
@@ -40,7 +40,7 @@ For everyone else, normal food uses are small and within regulatory limits.
 
 ## Myths & facts
 - Myth: “Ammonium acetate is the same as household ammonia.” Fact: It’s a salt made from ammonia and acetic acid; it behaves differently from liquid ammonia cleaner.
-- Myth: “If an ingredient has ‘ammonium,’ it must be unsafe.” Fact: Ammonium is a common food component; for example, [ammonium hydroxide](/e527-ammonium-hydroxide) is also regulated for specific uses, and safety depends on dose and context.
+- Myth: “If an ingredient has ‘ammonium,’ it must be unsafe.” Fact: Ammonium is a common food component; for example, [ammonium hydroxide](/e527-ammonium-hydroxide){.additive} is also regulated for specific uses, and safety depends on dose and context.
 - Myth: “E-numbers are artificial and banned outside Europe.” Fact: E-numbers are simply EU identifiers for approved additives; countries worldwide use many of the same substances under different naming systems.
 
 ## Ammonium acetate in branded foods

@@ -15,9 +15,9 @@ In the United States and the European Union, foods should not contain E285. It i
 
 ## What can replace sodium tetraborate (borax)?
 Food makers use safer, approved ingredients to achieve the same goals:
-- For preservation: [sorbic acid](/e200-sorbic-acid), [potassium sorbate](/e202-potassium-sorbate), or [sodium benzoate](/e211-sodium-benzoate) in permitted foods and levels.
-- For acidity control and mild preservative effects: [citric acid](/e330-citric-acid).
-- For firming/crisping in select foods: [calcium chloride](/e509-calcium-chloride).
+- For preservation: [sorbic acid](/e200-sorbic-acid){.additive}, [potassium sorbate](/e202-potassium-sorbate){.additive}, or [sodium benzoate](/e211-sodium-benzoate){.additive} in permitted foods and levels.
+- For acidity control and mild preservative effects: [citric acid](/e330-citric-acid){.additive}.
+- For firming/crisping in select foods: [calcium chloride](/e509-calcium-chloride){.additive}.
 Exact choices depend on the food, local regulations, and labeling needs.
 
 ## How is sodium tetraborate (borax) made?
@@ -39,7 +39,7 @@ In food, there is no recognized nutritional benefit, and it is not an approved a
 - “If it was used in traditional foods, it must be fine.” Historic use does not meet modern safety standards; approved alternatives now perform the same roles with better safety margins.[^2]
 
 ## Sodium tetraborate (borax) in branded foods
-You should not see sodium tetraborate, borax, sodium borate, or disodium tetraborate on ingredient lists of foods sold in the U.S. or EU. If encountered on older labels or products from outside these markets, consider choosing a product that uses permitted alternatives such as [sorbic acid](/e200-sorbic-acid), [potassium sorbate](/e202-potassium-sorbate), or [citric acid](/e330-citric-acid).
+You should not see sodium tetraborate, borax, sodium borate, or disodium tetraborate on ingredient lists of foods sold in the U.S. or EU. If encountered on older labels or products from outside these markets, consider choosing a product that uses permitted alternatives such as [sorbic acid](/e200-sorbic-acid){.additive}, [potassium sorbate](/e202-potassium-sorbate){.additive}, or [citric acid](/e330-citric-acid){.additive}.
 
 ## References
 [^1]: Food Additive Status List — U.S. Food and Drug Administration (FDA). https://www.fda.gov/food/food-additives-petitions/food-additive-status-list

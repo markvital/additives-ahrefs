@@ -14,15 +14,15 @@ If used as a direct additive, it would most likely appear in fat- and oil-rich p
 
 ## What can replace dilauryl thiodipropionate?
 Food makers can choose other antioxidants, depending on the recipe and local rules:
-- [BHA](/e320-butylated-hydroxyanisole-bha) and [BHT](/e321-butylated-hydroxytoluene)
-- [TBHQ](/e319-tertiary-butylhydroquinone-tbhq)
-- [Propyl gallate](/e310-propyl-gallate)
-- [Ascorbyl palmitate](/e304i-ascorbyl-palmitate) and [tocopherols (vitamin E)](/e306-tocopherol-rich-extract)
-- Synergists like [citric acid](/e330-citric-acid) or [ascorbic acid](/e300-ascorbic-acid)
-- Plant-based options such as [rosemary extract](/e392-extracts-of-rosemary)
+- [BHA](/e320-butylated-hydroxyanisole-bha){.additive} and [BHT](/e321-butylated-hydroxytoluene){.additive}
+- [TBHQ](/e319-tertiary-butylhydroquinone-tbhq){.additive}
+- [Propyl gallate](/e310-propyl-gallate){.additive}
+- [Ascorbyl palmitate](/e304i-ascorbyl-palmitate){.additive} and [tocopherols (vitamin E)](/e306-tocopherol-rich-extract){.additive}
+- Synergists like [citric acid](/e330-citric-acid){.additive} or [ascorbic acid](/e300-ascorbic-acid){.additive}
+- Plant-based options such as [rosemary extract](/e392-extracts-of-rosemary){.additive}
 
 ## How is dilauryl thiodipropionate made?
-E389 is the dilauryl ester of [thiodipropionic acid](/e388-thiodipropionic-acid). In simple terms, it is made by joining lauryl alcohol (a fatty alcohol) to thiodipropionic acid to form an ester. It is a waxy, fat-loving antioxidant designed to dissolve in oils and fats.[^2]
+E389 is the dilauryl ester of [thiodipropionic acid](/e388-thiodipropionic-acid){.additive}. In simple terms, it is made by joining lauryl alcohol (a fatty alcohol) to thiodipropionic acid to form an ester. It is a waxy, fat-loving antioxidant designed to dissolve in oils and fats.[^2]
 
 ## Is dilauryl thiodipropionate safe to eat?
 Safety depends on the use and the level. In the U.S., the Food and Drug Administration (FDA) allows dilauryl thiodipropionate as an antioxidant/stabilizer in certain food-contact polymers, with conditions that are meant to limit how much can migrate into food.[^1] In the European Union, the use of substances in food-contact plastics is controlled under a specific regulation that sets rules and limits for such applications.[^3] If you see E389 on a label, that means it is regulated as a food additive in that jurisdiction; follow local guidance and serving recommendations.
@@ -36,7 +36,7 @@ For manufacturers, it helps:
 For consumers, this can mean food that tastes fresher for longer.
 
 ## Who should avoid dilauryl thiodipropionate?
-- People who prefer to avoid synthetic antioxidants can choose products that use alternatives like [tocopherols](/e306-tocopherol-rich-extract) or [rosemary extract](/e392-extracts-of-rosemary).
+- People who prefer to avoid synthetic antioxidants can choose products that use alternatives like [tocopherols](/e306-tocopherol-rich-extract){.additive} or [rosemary extract](/e392-extracts-of-rosemary){.additive}.
 - If your health professional has advised you to avoid certain additives, check labels for “dilauryl thiodipropionate,” “DLTDP,” or “E389.”
 - Always follow local regulations and dietary advice for infants, young children, or medical diets.
 

@@ -15,6 +15,7 @@ const { execFile } = require('child_process');
 const { promisify } = require('util');
 
 const { createAdditiveSlug } = require('./utils/slug');
+const { updateLastUpdatedTimestamp } = require('./utils/last-updated');
 
 const execFileAsync = promisify(execFile);
 
@@ -23,6 +24,8 @@ const ADDITIVE_DIR = path.join(DATA_DIR, 'additive');
 const ADDITIVES_INDEX_PATH = path.join(DATA_DIR, 'additives.json');
 const API_BASE_URL = 'https://us.openfoodfacts.org/api/v2/search';
 const FACET_INDEX_URL = 'https://us.openfoodfacts.org/facets/additives.json';
+
+let hasChanges = false;
 
 const normaliseAdditiveSlug = (value) => (typeof value === 'string' ? value.trim().toLowerCase() : '');
 
@@ -228,6 +231,7 @@ const readProps = async (slug, fallback) => {
 const writeProps = async (slug, props) => {
   await fs.mkdir(path.join(ADDITIVE_DIR, slug), { recursive: true });
   await fs.writeFile(propsPathForSlug(slug), `${JSON.stringify(props, null, 2)}\n`);
+  hasChanges = true;
 };
 
 const slugFromFacetUrl = (value) => {
@@ -420,6 +424,10 @@ async function main() {
     props.productCount = nextCount;
     await writeProps(additive.slug, props);
     console.log(`[${index + 1}/${targets.length}] ${additive.slug} → ${outputCount} (${sourceLabel})`);
+  }
+
+  if (hasChanges) {
+    await updateLastUpdatedTimestamp();
   }
 
   console.log('Done.');

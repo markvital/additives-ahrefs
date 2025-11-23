@@ -11,15 +11,15 @@ Calcium inosinate (E633) is a flavor enhancer that boosts savory, umami taste. I
 - Label names: “calcium inosinate,” “E633,” or “INS 633”
 
 ## Why is Calcium inosinate added to food?
-It is added to heighten savory, meaty, or brothy flavors. Calcium inosinate belongs to the 5′-ribonucleotide enhancers and shows strong synergy with glutamate (such as [monosodium glutamate](/e621-monosodium-glutamate)), which makes foods taste fuller with very small amounts of the additive.[^4] It is classified and used as a flavor enhancer in international and EU systems.[^3][^2]
+It is added to heighten savory, meaty, or brothy flavors. Calcium inosinate belongs to the 5′-ribonucleotide enhancers and shows strong synergy with glutamate (such as [monosodium glutamate](/e621-monosodium-glutamate){.additive}), which makes foods taste fuller with very small amounts of the additive.[^4] It is classified and used as a flavor enhancer in international and EU systems.[^3][^2]
 
 ## What foods contain Calcium inosinate?
 You’ll most often find E633 in savory products such as soups and bouillons, seasoning blends, snack foods, instant noodles, sauces, and ready meals. Its use in these kinds of foods is recognized in the Codex General Standard for Food Additives (GSFA), where it is listed as a flavor enhancer (INS 633).[^3] In the EU, it is an authorized food additive within the flavor enhancer class, subject to conditions in the food categories where it is allowed.[^2]
 
 ## What can replace Calcium inosinate?
-- Other inosinate salts, such as [disodium inosinate](/e631-disodium-inosinate) or [inosinic acid](/e630-inosinic-acid) (the free acid form), can serve a similar role.
-- Guanylate-based enhancers like [disodium guanylate](/e627-disodium-guanylate) or the blend [disodium 5‑ribonucleotide](/e635-disodium-5-ribonucleotide) are common alternatives with a comparable umami effect.
-- These enhancers are often used together with [monosodium glutamate](/e621-monosodium-glutamate) or natural glutamate sources to achieve strong savory taste while keeping usage levels low.[^4]
+- Other inosinate salts, such as [disodium inosinate](/e631-disodium-inosinate){.additive} or [inosinic acid](/e630-inosinic-acid){.additive} (the free acid form), can serve a similar role.
+- Guanylate-based enhancers like [disodium guanylate](/e627-disodium-guanylate){.additive} or the blend [disodium 5‑ribonucleotide](/e635-disodium-5-ribonucleotide){.additive} are common alternatives with a comparable umami effect.
+- These enhancers are often used together with [monosodium glutamate](/e621-monosodium-glutamate){.additive} or natural glutamate sources to achieve strong savory taste while keeping usage levels low.[^4]
 
 ## How is Calcium inosinate made?
 Manufacturers produce IMP (inosine 5′-monophosphate) by microbial fermentation or by enzymatic processing of nucleotide-rich materials. The IMP is then converted to its calcium salt by neutralizing the acid form with a calcium source to yield calcium inosinate.[^4][^1] The EU lays down identity and purity specifications for E633, ensuring consistent composition and quality across producers.[^1]
@@ -42,7 +42,7 @@ Most people can consume products containing E633 as part of a normal diet. If yo
 - “It always comes from animal sources.” Mostly false today. Modern manufacturing commonly uses microbial fermentation or enzymatic processes; check with the manufacturer if source matters to you.[^4]
 
 ## Calcium inosinate in branded foods
-On labels, look for “calcium inosinate,” “E633,” or “INS 633.” You’ll commonly see it on savory snacks, seasoning packets for instant noodles, bouillon cubes and pastes, jarred or powdered sauces, and ready-to-eat soups. It often appears alongside other enhancers like [disodium inosinate](/e631-disodium-inosinate), [disodium guanylate](/e627-disodium-guanylate), or [monosodium glutamate](/e621-monosodium-glutamate).
+On labels, look for “calcium inosinate,” “E633,” or “INS 633.” You’ll commonly see it on savory snacks, seasoning packets for instant noodles, bouillon cubes and pastes, jarred or powdered sauces, and ready-to-eat soups. It often appears alongside other enhancers like [disodium inosinate](/e631-disodium-inosinate){.additive}, [disodium guanylate](/e627-disodium-guanylate){.additive}, or [monosodium glutamate](/e621-monosodium-glutamate){.additive}.
 
 ## References
 [^1]: Commission Regulation (EU) No 231/2012 laying down specifications for food additives listed in Annexes II and III to Regulation (EC) No 1333/2008 — EUR-Lex. https://eur-lex.europa.eu/eli/reg/2012/231/oj

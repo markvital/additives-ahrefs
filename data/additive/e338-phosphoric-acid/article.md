@@ -22,8 +22,8 @@ You’ll most often find phosphoric acid in:
 Always check the ingredient list; labeling is required and it will appear as “phosphoric acid.”
 
 ## What can replace phosphoric acid?
-- For tartness or pH control: Other food acids such as [citric acid](/e330-citric-acid), [malic acid](/e296-malic-acid), [lactic acid](/e270-lactic-acid), or [acetic acid](/e260-acetic-acid) can provide acidity, though the flavor profile will differ.
-- For binding metals (sequestration) or buffering: Phosphate salts like [sodium phosphates](/e339-sodium-phosphates), [disodium diphosphate](/e450i-disodium-diphosphate), or [triphosphates](/e451-triphosphates) are sometimes used instead, depending on the recipe.
+- For tartness or pH control: Other food acids such as [citric acid](/e330-citric-acid){.additive}, [malic acid](/e296-malic-acid){.additive}, [lactic acid](/e270-lactic-acid){.additive}, or [acetic acid](/e260-acetic-acid){.additive} can provide acidity, though the flavor profile will differ.
+- For binding metals (sequestration) or buffering: Phosphate salts like [sodium phosphates](/e339-sodium-phosphates){.additive}, [disodium diphosphate](/e450i-disodium-diphosphate){.additive}, or [triphosphates](/e451-triphosphates){.additive} are sometimes used instead, depending on the recipe.
 
 ## How is phosphoric acid made?
 Commercially, phosphoric acid is produced by two main routes. The “wet process” reacts phosphate rock with sulfuric acid, while the “thermal process” burns elemental phosphorus to phosphorus pentoxide and hydrates it to the acid; the thermal route yields high-purity material. Food-grade phosphoric acid comes from processes and purification steps designed to meet strict quality specifications.[^2]
@@ -37,7 +37,7 @@ Phosphoric acid’s benefits are technological: it sharpens flavor, stabilizes c
 ## Who should avoid phosphoric acid?
 - People with chronic kidney disease (CKD) or those advised to follow a low-phosphorus diet should limit phosphate sources, including foods and drinks acidified with phosphoric acid.[^5]
 - Anyone prone to dental erosion may wish to limit acidic beverages and practice good oral hygiene (rinse with water after drinking, avoid frequent sipping).[^4]
-- Individuals who are sensitive to acidic foods and drinks (for example, due to reflux) may prefer milder acidulants like [citric acid](/e330-citric-acid) or [malic acid](/e296-malic-acid).
+- Individuals who are sensitive to acidic foods and drinks (for example, due to reflux) may prefer milder acidulants like [citric acid](/e330-citric-acid){.additive} or [malic acid](/e296-malic-acid){.additive}.
 
 ## Myths & facts
 - Myth: “Phosphoric acid in soda will dissolve a tooth overnight.” Fact: Household sodas are far less acidic than concentrated lab acids; enamel erosion is a gradual process linked to frequent exposure and poor oral hygiene.

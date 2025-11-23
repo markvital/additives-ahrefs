@@ -21,9 +21,9 @@ On labels, it may appear as “pullulan” or “E1204.”
 
 ## What can replace Pullulan?
 Alternatives depend on the job you need done:
-- For thickening or stabilizing: [xanthan gum](/e415-xanthan-gum), [gellan gum](/e418-gellan-gum), or [guar gum](/e412-guar-gum)
-- For gel-like texture or fruit applications: [pectins](/e440-pectins) or [carrageenan](/e407-carrageenan)
-- For glossy coatings: [shellac](/e904-shellac) or [acacia gum](/e414-acacia-gum)
+- For thickening or stabilizing: [xanthan gum](/e415-xanthan-gum){.additive}, [gellan gum](/e418-gellan-gum){.additive}, or [guar gum](/e412-guar-gum){.additive}
+- For gel-like texture or fruit applications: [pectins](/e440-pectins){.additive} or [carrageenan](/e407-carrageenan){.additive}
+- For glossy coatings: [shellac](/e904-shellac){.additive} or [acacia gum](/e414-acacia-gum){.additive}
 
 Each substitute has its own texture, clarity, and flavor profile, so results will vary.
 
@@ -42,7 +42,7 @@ Most people do not need to avoid pullulan. If you find that fermentable carbohyd
 ## Myths & facts
 - Myth: “Pullulan is plastic.” Fact: It’s a carbohydrate made by fermentation, not a petroleum-derived plastic.
 - Myth: “It comes from animals.” Fact: Pullulan is produced by a microbe and is not animal-derived.
-- Myth: “It’s the same as gelatin.” Fact: Gelatin is an animal protein; pullulan is a microbial polysaccharide and behaves differently in recipes. See [gelatine](/e428-gelatine).
+- Myth: “It’s the same as gelatin.” Fact: Gelatin is an animal protein; pullulan is a microbial polysaccharide and behaves differently in recipes. See [gelatine](/e428-gelatine){.additive}.
 
 ## Pullulan in branded foods
 You may see E1204 listed on:

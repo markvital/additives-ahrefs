@@ -7,7 +7,7 @@ Calcium malates (E352) are the calcium salts of malic acid, used to control acid
 - What it does: Acidity regulator and sequestrant (binds metal ions)
 - Where it’s used: Common in beverages, fruit-based products, confectionery, and bakery items
 - Made from: Neutralizing malic acid with calcium carbonate or calcium hydroxide
-- Also known as: A “malate” is a salt of [malic acid](/e296-malic-acid)
+- Also known as: A “malate” is a salt of [malic acid](/e296-malic-acid){.additive}
 - Diet: Typically suitable for vegetarian and vegan diets
 
 ## Why is Calcium malates added to food?
@@ -18,14 +18,14 @@ You may find E352 in non-alcoholic beverages, fruit preparations (like fillings 
 
 ## What can replace Calcium malates?
 Depending on the recipe goal:
-- For similar tartness and pH control: [malic acid](/e296-malic-acid), [citric acid](/e330-citric-acid)
-- For the “malate” function but with other cations: [sodium malates](/e350-sodium-malates), [potassium malate](/e351-potassium-malate)
-- When calcium fortification is also desired: [calcium citrates](/e333-calcium-citrates), [calcium lactate](/e327-calcium-lactate), [calcium gluconate](/e578-calcium-gluconate)
+- For similar tartness and pH control: [malic acid](/e296-malic-acid){.additive}, [citric acid](/e330-citric-acid){.additive}
+- For the “malate” function but with other cations: [sodium malates](/e350-sodium-malates){.additive}, [potassium malate](/e351-potassium-malate){.additive}
+- When calcium fortification is also desired: [calcium citrates](/e333-calcium-citrates){.additive}, [calcium lactate](/e327-calcium-lactate){.additive}, [calcium gluconate](/e578-calcium-gluconate){.additive}
 
 The best substitute depends on taste profile, buffering capacity, labeling goals, and mineral contribution.
 
 ## How is Calcium malates made?
-Calcium malates are produced by neutralizing [malic acid](/e296-malic-acid) with a calcium base such as [calcium carbonate](/e170-calcium-carbonates) or [calcium hydroxide](/e526-calcium-hydroxide). The degree of neutralization determines whether the product is calcium malate (E352(i)) or calcium hydrogen malate (E352(ii)). This method and the specifications for identity and purity are laid down in Commission Regulation (EU) No 231/2012. [^2]
+Calcium malates are produced by neutralizing [malic acid](/e296-malic-acid){.additive} with a calcium base such as [calcium carbonate](/e170-calcium-carbonates){.additive} or [calcium hydroxide](/e526-calcium-hydroxide){.additive}. The degree of neutralization determines whether the product is calcium malate (E352(i)) or calcium hydrogen malate (E352(ii)). This method and the specifications for identity and purity are laid down in Commission Regulation (EU) No 231/2012. [^2]
 
 ## Is Calcium malates safe to eat?
 The European Food Safety Authority (EFSA) re-evaluated malic acid (E 296) and the malates (E 350–352) and concluded there is no safety concern for their use as food additives at the reported levels. EFSA did not identify genotoxic or carcinogenic concerns and considered that a numerical acceptable daily intake (ADI) was not necessary for current uses. [^1]

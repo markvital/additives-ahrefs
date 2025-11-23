@@ -8,10 +8,10 @@ Calcium dihydrogen diphosphate (E450VII) is a calcium salt of pyrophosphate used
 - What it does: leavening acid, stabiliser, sequestrant (binds metals), and texture aid
 - Where it’s used: baking powder, self-rising flour, cakes, biscuits, pancakes, tortillas, frozen doughs
 - Label note: mineral-based; typically suitable for vegetarians and vegans
-- Often paired with: a base like [sodium bicarbonate](/e500ii-sodium-bicarbonate)
+- Often paired with: a base like [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive}
 
 ## Why is Calcium dihydrogen diphosphate added to food?
-Bakers use it as a leavening acid. When it reacts with a base such as [sodium bicarbonate](/e500ii-sodium-bicarbonate), carbon dioxide forms and makes batter or dough rise. Its reaction can be controlled to give lift during mixing and again in the oven, improving crumb and volume.
+Bakers use it as a leavening acid. When it reacts with a base such as [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive}, carbon dioxide forms and makes batter or dough rise. Its reaction can be controlled to give lift during mixing and again in the oven, improving crumb and volume.
 
 It also helps keep mixtures stable. As a stabiliser and “sequestrant” (a substance that binds metal ions like iron and copper), it can protect color and flavor, and support even texture in processed foods. Regulators group phosphate additives as raising agents, acidity regulators, stabilisers, and sequestrants.[^1]
 
@@ -27,15 +27,15 @@ It may also appear with other phosphate salts in processed foods to manage textu
 
 ## What can replace Calcium dihydrogen diphosphate?
 Possible substitutes depend on the recipe and desired rise time:
-- Faster leavening acids: [monocalcium phosphate](/e341i-monocalcium-phosphate)
-- Heat-activated acids for oven spring: [acid sodium aluminium phosphate](/e541i-acid-sodium-aluminium-phosphate)
-- Other acids with different flavor/kinetics: [glucono-delta-lactone](/e575-glucono-delta-lactone) or cream of tartar ([monopotassium tartrate](/e336i-monopotassium-tartrate))
-- Other diphosphates in blends: [disodium diphosphate](/e450i-disodium-diphosphate)
+- Faster leavening acids: [monocalcium phosphate](/e341i-monocalcium-phosphate){.additive}
+- Heat-activated acids for oven spring: [acid sodium aluminium phosphate](/e541i-acid-sodium-aluminium-phosphate){.additive}
+- Other acids with different flavor/kinetics: [glucono-delta-lactone](/e575-glucono-delta-lactone){.additive} or cream of tartar ([monopotassium tartrate](/e336i-monopotassium-tartrate){.additive})
+- Other diphosphates in blends: [disodium diphosphate](/e450i-disodium-diphosphate){.additive}
 
 Note that swapping acids changes how quickly gas is released, which can affect taste, spread, and texture.
 
 ## How is Calcium dihydrogen diphosphate made?
-In practice, manufacturers start with food-grade phosphorus sources (such as [phosphoric acid](/e338-phosphoric-acid)) and a calcium source. The mixture is neutralized and then heated so part of the phosphate units join to form a “diphosphate” (also called pyrophosphate). This yields calcium dihydrogen diphosphate as a fine, white powder.
+In practice, manufacturers start with food-grade phosphorus sources (such as [phosphoric acid](/e338-phosphoric-acid){.additive}) and a calcium source. The mixture is neutralized and then heated so part of the phosphate units join to form a “diphosphate” (also called pyrophosphate). This yields calcium dihydrogen diphosphate as a fine, white powder.
 
 In the European Union, it is listed as “calcium dihydrogen diphosphate (acid calcium pyrophosphate)” under E 450(vii), with purity specifications in Commission Regulation (EU) No 231/2012.[^2]
 
@@ -58,8 +58,8 @@ As with all phosphate salts, overall phosphorus intake matters. Very high phosph
 - If you are managing your phosphorus intake, check labels for “phosphate,” “diphosphate,” “pyrophosphate,” or E-numbers E338–E452, including E450VII.
 
 ## Myths & facts
-- Myth: “All phosphates are the same.” Fact: There are many phosphate additives with different roles, from [calcium phosphates](/e341-calcium-phosphates) to [triphosphates](/e451-triphosphates) and [polyphosphates](/e452-polyphosphates).
-- Myth: “It contains aluminum.” Fact: Calcium dihydrogen diphosphate does not contain aluminum; you’ll see aluminum only in additives labeled with aluminium/aluminum in the name (for example, [acid sodium aluminium phosphate](/e541i-acid-sodium-aluminium-phosphate)).
+- Myth: “All phosphates are the same.” Fact: There are many phosphate additives with different roles, from [calcium phosphates](/e341-calcium-phosphates){.additive} to [triphosphates](/e451-triphosphates){.additive} and [polyphosphates](/e452-polyphosphates){.additive}.
+- Myth: “It contains aluminum.” Fact: Calcium dihydrogen diphosphate does not contain aluminum; you’ll see aluminum only in additives labeled with aluminium/aluminum in the name (for example, [acid sodium aluminium phosphate](/e541i-acid-sodium-aluminium-phosphate){.additive}).
 - Myth: “It’s just a preservative.” Fact: Its primary role is leavening and texture control, not preservation.
 
 ## Calcium dihydrogen diphosphate in branded foods
@@ -69,7 +69,7 @@ On ingredient lists, look for “calcium dihydrogen diphosphate,” “calcium a
 - Refrigerated biscuit doughs and frozen bakery items
 - Packaged tortillas and flatbreads
 
-It often appears alongside a base such as [sodium bicarbonate](/e500ii-sodium-bicarbonate) and may be blended with other leavening acids like [monocalcium phosphate](/e341i-monocalcium-phosphate).
+It often appears alongside a base such as [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive} and may be blended with other leavening acids like [monocalcium phosphate](/e341i-monocalcium-phosphate){.additive}.
 
 ## References
 [^1]: Re-evaluation of phosphates (E 338–341, E 343, E 450–452) as food additives — European Food Safety Authority (EFSA). https://www.efsa.europa.eu/en/efsajournal/pub/5674

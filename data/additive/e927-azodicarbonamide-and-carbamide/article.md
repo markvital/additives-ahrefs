@@ -21,8 +21,8 @@ These two substances do different jobs:
 On an ingredient list, look for “azodicarbonamide” or “ADA” for E927a, and “urea” or “carbamide” for E927b.
 
 ## What can replace Azodicarbonamide and Carbamide?
-- Dough strength and consistency: Bakers often turn to alternatives such as [ascorbic acid](/e300-ascorbic-acid), enzyme systems like [alpha-amylase](/e1100-alpha-amylase), [lecithins](/e322-lecithins), or emulsifiers such as [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids) or [DATEM](/e472e-mono-and-diacetyltartaric-acid-esters-of-mono-and-diglycerides-of-fatty-acids). In some applications, flour treatment agents like [calcium peroxide](/e930-calcium-peroxide) or [potassium bromate](/e924a-potassium-bromate) are used where legally permitted.
-- Gum glazing or softness: Humectants and polyols such as [glycerol](/e422-glycerol), [sorbitol](/e420-sorbitol), [xylitol](/e967-xylitol), or [mannitol](/e421-mannitol) are common options.
+- Dough strength and consistency: Bakers often turn to alternatives such as [ascorbic acid](/e300-ascorbic-acid){.additive}, enzyme systems like [alpha-amylase](/e1100-alpha-amylase){.additive}, [lecithins](/e322-lecithins){.additive}, or emulsifiers such as [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive} or [DATEM](/e472e-mono-and-diacetyltartaric-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive}. In some applications, flour treatment agents like [calcium peroxide](/e930-calcium-peroxide){.additive} or [potassium bromate](/e924a-potassium-bromate){.additive} are used where legally permitted.
+- Gum glazing or softness: Humectants and polyols such as [glycerol](/e422-glycerol){.additive}, [sorbitol](/e420-sorbitol){.additive}, [xylitol](/e967-xylitol){.additive}, or [mannitol](/e421-mannitol){.additive} are common options.
 
 ## How is Azodicarbonamide and Carbamide made?
 Food-grade ADA and urea must meet identity and purity specifications set by regulators:

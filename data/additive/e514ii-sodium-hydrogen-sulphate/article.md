@@ -21,8 +21,8 @@ Label wording varies. Common names include sodium bisulphate, sodium acid sulpha
 
 ## What can replace Sodium hydrogen sulphate?
 Alternatives depend on the job it does in the recipe:
-- To adjust acidity (pH): [citric acid](/e330-citric-acid), [phosphoric acid](/e338-phosphoric-acid), or [lactic acid](/e270-lactic-acid).
-- For baking systems: [sodium bicarbonate](/e500ii-sodium-bicarbonate) needs an acid partner such as [disodium diphosphate](/e450i-disodium-diphosphate) or [monocalcium phosphate](/e341i-monocalcium-phosphate).
+- To adjust acidity (pH): [citric acid](/e330-citric-acid){.additive}, [phosphoric acid](/e338-phosphoric-acid){.additive}, or [lactic acid](/e270-lactic-acid){.additive}.
+- For baking systems: [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive} needs an acid partner such as [disodium diphosphate](/e450i-disodium-diphosphate){.additive} or [monocalcium phosphate](/e341i-monocalcium-phosphate){.additive}.
 
 ## How is Sodium hydrogen sulphate made?
 Industrially, sodium hydrogen sulphate is produced by partially neutralising sulphuric acid with a sodium base (such as sodium hydroxide or sodium carbonate), yielding the acid salt NaHSO4 rather than the fully neutral sodium sulphate. Its composition and identity as E514(ii) are defined in EU additive specifications,[^1] and chemical references describe its preparation and properties as an acidic, water‑soluble salt.[^4]

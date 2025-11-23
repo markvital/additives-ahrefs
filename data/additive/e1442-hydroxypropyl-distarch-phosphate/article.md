@@ -26,15 +26,15 @@ These are typical uses reported to European regulators for modified starches, a 
 ## What can replace Hydroxypropyl distarch phosphate?
 Alternatives depend on the recipe and process:
 - Other modified starches with similar stability:
-  - [distarch phosphate](/e1412-distarch-phosphate)
-  - [acetylated distarch phosphate](/e1414-acetylated-distarch-phosphate)
-  - [acetylated distarch adipate](/e1422-acetylated-distarch-adipate)
-  - [hydroxypropyl starch](/e1440-hydroxypropyl-starch)
+  - [distarch phosphate](/e1412-distarch-phosphate){.additive}
+  - [acetylated distarch phosphate](/e1414-acetylated-distarch-phosphate){.additive}
+  - [acetylated distarch adipate](/e1422-acetylated-distarch-adipate){.additive}
+  - [hydroxypropyl starch](/e1440-hydroxypropyl-starch){.additive}
 - Hydrocolloid gums for strong thickening at low doses:
-  - [xanthan gum](/e415-xanthan-gum)
-  - [guar gum](/e412-guar-gum)
-  - [locust bean gum](/e410-locust-bean-gum)
-  - [carrageenan](/e407-carrageenan)
+  - [xanthan gum](/e415-xanthan-gum){.additive}
+  - [guar gum](/e412-guar-gum){.additive}
+  - [locust bean gum](/e410-locust-bean-gum){.additive}
+  - [carrageenan](/e407-carrageenan){.additive}
 - Native starches (corn, tapioca, potato) if the product isn’t exposed to intense heat, acid, or freeze–thaw
 
 ## How is Hydroxypropyl distarch phosphate made?
@@ -59,7 +59,7 @@ International expert committees have evaluated modified starches (the group that
 
 ## Myths & facts
 - “Modified starch means genetically modified.” Fact: Chemical “modification” refers to how the starch molecules are treated for function. It does not automatically mean the crop was genetically engineered.
-- “E1442 is just another name for MSG.” Myth: E1442 is a starch‑based thickener, not a flavor enhancer like [monosodium glutamate](/e621-monosodium-glutamate).
+- “E1442 is just another name for MSG.” Myth: E1442 is a starch‑based thickener, not a flavor enhancer like [monosodium glutamate](/e621-monosodium-glutamate){.additive}.
 - “It adds lots of phosphorus to food.” Myth: The phosphate cross‑linking uses very small amounts of reagents under strict limits set in regulation.[^2]
 
 ## Hydroxypropyl distarch phosphate in branded foods

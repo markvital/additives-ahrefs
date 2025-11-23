@@ -4,7 +4,7 @@ Ammonium carbonates (E503) are raising agents used in baking, known to many bake
 ## At a glance
 - What it is: A group of related salts, mainly ammonium carbonate and ammonium hydrogen carbonate (ammonium bicarbonate), used as leavening agents
 - What it does: Produces gas in the oven to puff and crisp low‑moisture bakes like crackers and certain cookies
-- Also called: Baker’s ammonia, hartshorn; includes E503(i) [ammonium carbonate](/e503i-ammonium-carbonate) and E503(ii) [ammonium hydrogen carbonate](/e503ii-ammonium-hydrogen-carbonate)
+- Also called: Baker’s ammonia, hartshorn; includes E503(i) [ammonium carbonate](/e503i-ammonium-carbonate){.additive} and E503(ii) [ammonium hydrogen carbonate](/e503ii-ammonium-hydrogen-carbonate){.additive}
 - Typical labels: “Ammonium carbonate,” “Ammonium bicarbonate,” or “E503”
 
 ## Why is Ammonium carbonates added to food?
@@ -20,9 +20,9 @@ They are less common in cakes or muffins because moisture can trap ammonia, leav
 
 ## What can replace Ammonium carbonates?
 Possible substitutes depend on the recipe and texture you want:
-- For general leavening: [sodium bicarbonate](/e500ii-sodium-bicarbonate) (baking soda) or [sodium carbonates](/e500-sodium-carbonates) with an appropriate acid
-- Low‑sodium option: [potassium hydrogen carbonate](/e501ii-potassium-hydrogen-carbonate)
-- In baking powders: acid salts such as [disodium diphosphate](/e450i-disodium-diphosphate) or [monocalcium phosphate](/e341i-monocalcium-phosphate)
+- For general leavening: [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive} (baking soda) or [sodium carbonates](/e500-sodium-carbonates){.additive} with an appropriate acid
+- Low‑sodium option: [potassium hydrogen carbonate](/e501ii-potassium-hydrogen-carbonate){.additive}
+- In baking powders: acid salts such as [disodium diphosphate](/e450i-disodium-diphosphate){.additive} or [monocalcium phosphate](/e341i-monocalcium-phosphate){.additive}
 
 Note: These swaps often change flavor, spread, and crispness. Baker’s ammonia is uniquely good at very dry, very crisp textures.
 

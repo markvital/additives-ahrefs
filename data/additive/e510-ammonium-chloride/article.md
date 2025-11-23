@@ -16,10 +16,10 @@ Food makers add ammonium chloride to deliver a bold “salmiak” flavor and to 
 You’ll most often find ammonium chloride in salty licorice confectionery, especially in Nordic and Baltic markets, and in some licorice-flavored candies elsewhere. It may also appear in specialty baked goods and certain beverages where a sharper taste or pH adjustment is desired, and it must comply with European Union rules on where and how it can be used.[^2]
 
 ## What can replace Ammonium chloride?
-- For acidity control: Consider acids like [citric acid](/e330-citric-acid), [malic acid](/e296-malic-acid), or [lactic acid](/e270-lactic-acid) to adjust pH.
-- For yeast nutrition: Bakers sometimes use [ammonium phosphate](/e342-ammonium-phosphate) as an alternative nitrogen source.
-- For licorice flavor: A blend of regular salt and licorice sweeteners such as [glycyrrhizin](/e958-glycyrrhizin) can mimic some aspects of the taste, though it won’t fully match classic “salmiak” candy.
-- For leavening in crisp cookies/crackers: [Ammonium carbonates](/e503-ammonium-carbonates) or [sodium carbonates](/e500-sodium-carbonates) are leavening agents; note this is a different function from E510’s flavor/pH role.
+- For acidity control: Consider acids like [citric acid](/e330-citric-acid){.additive}, [malic acid](/e296-malic-acid){.additive}, or [lactic acid](/e270-lactic-acid){.additive} to adjust pH.
+- For yeast nutrition: Bakers sometimes use [ammonium phosphate](/e342-ammonium-phosphate){.additive} as an alternative nitrogen source.
+- For licorice flavor: A blend of regular salt and licorice sweeteners such as [glycyrrhizin](/e958-glycyrrhizin){.additive} can mimic some aspects of the taste, though it won’t fully match classic “salmiak” candy.
+- For leavening in crisp cookies/crackers: [Ammonium carbonates](/e503-ammonium-carbonates){.additive} or [sodium carbonates](/e500-sodium-carbonates){.additive} are leavening agents; note this is a different function from E510’s flavor/pH role.
 
 ## How is Ammonium chloride made?
 Food‑grade ammonium chloride is typically produced by reacting ammonia (NH3) with hydrogen chloride (HCl), yielding ammonium chloride (NH4Cl), followed by purification to meet food specifications.[^3]
@@ -38,13 +38,13 @@ In the European Union, ammonium chloride is an authorized food additive and must
 
 ## Myths & facts
 - Myth: “It’s the same as ammonia.” Fact: Ammonium chloride is a stable salt; food‑grade material must meet strict identity and purity requirements.[^1]
-- Myth: “It’s a leavening agent.” Fact: It doesn’t release carbon dioxide, so it’s not a leavening agent; that role is covered by additives like [ammonium carbonates](/e503-ammonium-carbonates).
+- Myth: “It’s a leavening agent.” Fact: It doesn’t release carbon dioxide, so it’s not a leavening agent; that role is covered by additives like [ammonium carbonates](/e503-ammonium-carbonates){.additive}.
 - Myth: “It’s a ‘chemical,’ so it isn’t allowed in food.” Fact: It is a regulated food additive in the EU and can be used only in specific foods and amounts.[^2]
 
 ## Ammonium chloride in branded foods
 - How to spot it: Check ingredient lists for “Ammonium chloride” or “E510.” Salty licorice candies often highlight “salmiak” on the front of pack.
 - Regional note: Salty licorice is especially common in Northern Europe, but you can find these products in specialty shops worldwide.
-- Shopping tip: If you prefer milder licorice, look for products flavored with licorice extract or [glycyrrhizin](/e958-glycyrrhizin) and without E510.
+- Shopping tip: If you prefer milder licorice, look for products flavored with licorice extract or [glycyrrhizin](/e958-glycyrrhizin){.additive} and without E510.
 
 ## References
 [^1]: Commission Regulation (EU) No 231/2012 — Specifications for food additives listed in Annexes II and III to Regulation (EC) No 1333/2008. https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231

@@ -26,8 +26,8 @@ On labels, look for “E477” or “propylene glycol esters of fatty acids.”
 
 ## What can replace Propane-1‚2-diol esters of fatty acids?
 Possible alternatives depend on the recipe and the job the emulsifier must do:
-- Other emulsifiers: [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids), [lecithins](/e322-lecithins), [polyglycerol esters of fatty acids](/e475-polyglycerol-esters-of-fatty-acids), [sodium stearoyl-2-lactylate](/e481-sodium-stearoyl-2-lactylate), [DATEM](/e472e-mono-and-diacetyltartaric-acid-esters-of-mono-and-diglycerides-of-fatty-acids), [lactic acid esters of mono- and diglycerides](/e472b-lactic-acid-esters-of-mono-and-diglycerides-of-fatty-acids)
-- Texture stabilizers and gums: [xanthan gum](/e415-xanthan-gum), [cellulose derivatives](/e466-sodium-carboxy-methyl-cellulose)
+- Other emulsifiers: [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive}, [lecithins](/e322-lecithins){.additive}, [polyglycerol esters of fatty acids](/e475-polyglycerol-esters-of-fatty-acids){.additive}, [sodium stearoyl-2-lactylate](/e481-sodium-stearoyl-2-lactylate){.additive}, [DATEM](/e472e-mono-and-diacetyltartaric-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive}, [lactic acid esters of mono- and diglycerides](/e472b-lactic-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive}
+- Texture stabilizers and gums: [xanthan gum](/e415-xanthan-gum){.additive}, [cellulose derivatives](/e466-sodium-carboxy-methyl-cellulose){.additive}
 - Process tweaks: changing mixing speed, fat type, or cooling steps
 
 ## How is Propane-1‚2-diol esters of fatty acids made?
@@ -57,7 +57,7 @@ If you have a diagnosed intolerance or allergy and are unsure whether it applies
 - Myth: “If it’s approved, more is always better.” Fact: Approvals come with category rules and specifications; food makers must stay within those limits.[^2][^3]
 
 ## Propane-1‚2-diol esters of fatty acids in branded foods
-On ingredient lists, look for “E477” or “propylene glycol esters of fatty acids.” Some products may list it along with other emulsifiers such as [mono- and diglycerides](/e471-mono-and-diglycerides-of-fatty-acids) or [lecithin](/e322-lecithins). If you need vegetarian or allergen sourcing details, check the brand’s FAQ or contact the manufacturer.
+On ingredient lists, look for “E477” or “propylene glycol esters of fatty acids.” Some products may list it along with other emulsifiers such as [mono- and diglycerides](/e471-mono-and-diglycerides-of-fatty-acids){.additive} or [lecithin](/e322-lecithins){.additive}. If you need vegetarian or allergen sourcing details, check the brand’s FAQ or contact the manufacturer.
 
 ## References
 [^1]: 21 CFR 172.856 — Propylene glycol mono- and diesters of fats and fatty acids. U.S. FDA/eCFR. https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-172/subpart-I/section-172.856

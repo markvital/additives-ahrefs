@@ -5,7 +5,7 @@ Sulphur dioxide (E220) is a preservative and antioxidant used to keep foods and 
 - What it is: A colorless gas (often used as a dissolved “sulfite” solution) that preserves food and prevents browning.
 - What it does: Acts as an antioxidant and antimicrobial agent, and helps keep color and flavor.
 - Where it’s found: Wines and ciders, dried fruits, fruit juices, jams, pickled foods, and some seafood.
-- How it appears on labels: “Sulphur dioxide,” “sulfur dioxide,” or E220; related sulfites include [sodium metabisulphite](/e223-sodium-metabisulphite) (E223) and [potassium metabisulphite](/e224-potassium-metabisulphite) (E224).
+- How it appears on labels: “Sulphur dioxide,” “sulfur dioxide,” or E220; related sulfites include [sodium metabisulphite](/e223-sodium-metabisulphite){.additive} (E223) and [potassium metabisulphite](/e224-potassium-metabisulphite){.additive} (E224).
 - Who should be careful: People with sulfite sensitivity, including some individuals with asthma.
 
 ## Why is Sulphur dioxide added to food?
@@ -27,10 +27,10 @@ In the United States, sulphur dioxide is not allowed on raw fruits and vegetable
 
 ## What can replace Sulphur dioxide?
 The best substitute depends on the job it’s doing:
-- To prevent browning and oxidation in fruits and drinks: [ascorbic acid](/e300-ascorbic-acid) (vitamin C), [citric acid](/e330-citric-acid), or natural antioxidants like [tocopherol-rich extract](/e306-tocopherol-rich-extract).
-- To control spoilage microbes in juices and wines: [dimethyl dicarbonate](/e242-dimethyl-dicarbonate) in beverages, or careful pasteurization and airtight/oxygen-limiting packaging.
-- To preserve acidity-appropriate foods: [sorbic acid](/e200-sorbic-acid) and [potassium sorbate](/e202-potassium-sorbate), or [benzoic acid](/e210-benzoic-acid) and [sodium benzoate](/e211-sodium-benzoate), where allowed.
-- In cheeses and surface treatments: [natamycin](/e235-natamycin), where permitted.
+- To prevent browning and oxidation in fruits and drinks: [ascorbic acid](/e300-ascorbic-acid){.additive} (vitamin C), [citric acid](/e330-citric-acid){.additive}, or natural antioxidants like [tocopherol-rich extract](/e306-tocopherol-rich-extract){.additive}.
+- To control spoilage microbes in juices and wines: [dimethyl dicarbonate](/e242-dimethyl-dicarbonate){.additive} in beverages, or careful pasteurization and airtight/oxygen-limiting packaging.
+- To preserve acidity-appropriate foods: [sorbic acid](/e200-sorbic-acid){.additive} and [potassium sorbate](/e202-potassium-sorbate){.additive}, or [benzoic acid](/e210-benzoic-acid){.additive} and [sodium benzoate](/e211-sodium-benzoate){.additive}, where allowed.
+- In cheeses and surface treatments: [natamycin](/e235-natamycin){.additive}, where permitted.
 
 Each option has its own taste impact and legal limits, so food makers choose based on the product and local rules.
 
@@ -60,7 +60,7 @@ Some people are sensitive to sulfites. Reactions can include wheezing or shortne
 - Myth: “If it’s not on the label, there are no sulfites.” Fact: Labeling thresholds apply. In the U.S., declaration starts at 10 ppm; in the EU, at more than 10 mg/kg or L as SO₂.[^4][^5]
 
 ## Sulphur dioxide in branded foods
-On ingredient lists, look for “sulphur dioxide,” “sulfur dioxide,” or E220. In wines and other products, you may also see related sulfites like [sodium metabisulphite](/e223-sodium-metabisulphite) (E223) or [potassium metabisulphite](/e224-potassium-metabisulphite) (E224). If you manage a sensitivity, check the label and, where relevant, the “contains sulphites” statement. U.S. products must declare sulfiting agents at 10 ppm or more, and EU rules require declaration above 10 mg/kg or L as SO₂.[^4][^5]
+On ingredient lists, look for “sulphur dioxide,” “sulfur dioxide,” or E220. In wines and other products, you may also see related sulfites like [sodium metabisulphite](/e223-sodium-metabisulphite){.additive} (E223) or [potassium metabisulphite](/e224-potassium-metabisulphite){.additive} (E224). If you manage a sensitivity, check the label and, where relevant, the “contains sulphites” statement. U.S. products must declare sulfiting agents at 10 ppm or more, and EU rules require declaration above 10 mg/kg or L as SO₂.[^4][^5]
 
 ## References
 [^1]: Re‑evaluation of sulphur dioxide (E 220) and sulphites (E 221–228) as food additives — EFSA Journal. https://www.efsa.europa.eu/en/efsajournal/pub/4438

@@ -26,9 +26,9 @@ In the United States, sodium stearoyl lactylate is a food additive permitted for
 
 ## What can replace Sodium stearoyl-2-lactylate?
 Several ingredients can play similar roles, depending on the food:
-- Emulsifiers: [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids), [lecithins](/e322-lecithins), and the related [calcium stearoyl-2-lactylate](/e482-calcium-stearoyl-2-lactylate)
-- Hydrocolloids for structure: [xanthan gum](/e415-xanthan-gum), [guar gum](/e412-guar-gum)
-- Baking enzymes that help dough handling: [alpha-amylase](/e1100-alpha-amylase), [lipase](/e1104-lipase)
+- Emulsifiers: [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive}, [lecithins](/e322-lecithins){.additive}, and the related [calcium stearoyl-2-lactylate](/e482-calcium-stearoyl-2-lactylate){.additive}
+- Hydrocolloids for structure: [xanthan gum](/e415-xanthan-gum){.additive}, [guar gum](/e412-guar-gum){.additive}
+- Baking enzymes that help dough handling: [alpha-amylase](/e1100-alpha-amylase){.additive}, [lipase](/e1104-lipase){.additive}
 
 The best swap depends on whether the goal is emulsifying fat, strengthening dough, improving softness, or stabilising foam.
 
@@ -48,7 +48,7 @@ These are quality and handling benefits for the food, not health benefits for th
 ## Who should avoid Sodium stearoyl-2-lactylate?
 - People on strict sodium-restricted diets may choose to limit highly processed foods that contain multiple sodium-based additives.
 - Strict vegetarians or vegans who want to avoid animal-derived ingredients should check with manufacturers, since stearic acid can be sourced from either animal fats or vegetable oils.
-- Individuals who prefer shorter labels can look for products that use alternatives like [lecithins](/e322-lecithins) or [mono- and diglycerides](/e471-mono-and-diglycerides-of-fatty-acids) instead, understanding that performance may differ.
+- Individuals who prefer shorter labels can look for products that use alternatives like [lecithins](/e322-lecithins){.additive} or [mono- and diglycerides](/e471-mono-and-diglycerides-of-fatty-acids){.additive} instead, understanding that performance may differ.
 
 ## Myths & facts
 - “Lactylate means it has lactose or milk.” False. “Lactylate” refers to lactic acid, which is commonly made by fermenting sugars; it is not the same as lactose or milk proteins.
@@ -56,7 +56,7 @@ These are quality and handling benefits for the food, not health benefits for th
 - “It always comes from animal fat.” Not necessarily. The stearic acid can be plant- or animal-derived; the source varies by supplier and product.
 
 ## Sodium stearoyl-2-lactylate in branded foods
-On ingredient lists, look for “sodium stearoyl lactylate” or “SSL.” It commonly appears in packaged sandwich bread, burger buns, hot dog rolls, tortillas, some cakes and mixes, and whipped toppings. If you are comparing brands, check the full ingredient list, since some products use related emulsifiers like [calcium stearoyl-2-lactylate](/e482-calcium-stearoyl-2-lactylate), [mono- and diglycerides](/e471-mono-and-diglycerides-of-fatty-acids), or [lecithins](/e322-lecithins) instead.
+On ingredient lists, look for “sodium stearoyl lactylate” or “SSL.” It commonly appears in packaged sandwich bread, burger buns, hot dog rolls, tortillas, some cakes and mixes, and whipped toppings. If you are comparing brands, check the full ingredient list, since some products use related emulsifiers like [calcium stearoyl-2-lactylate](/e482-calcium-stearoyl-2-lactylate){.additive}, [mono- and diglycerides](/e471-mono-and-diglycerides-of-fatty-acids){.additive}, or [lecithins](/e322-lecithins){.additive} instead.
 
 ## References
 [^1]: 21 CFR 172.846 — Sodium stearoyl lactylate. https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-172/section-172.846

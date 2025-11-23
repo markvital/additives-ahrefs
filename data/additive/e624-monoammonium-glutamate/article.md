@@ -19,10 +19,10 @@ You’ll most often see glutamates in savory processed foods: bouillon and insta
 
 ## What can replace monoammonium glutamate?
 Depending on the recipe, these can serve a similar role:
-- Other glutamates: [glutamic acid](/e620-glutamic-acid), [monosodium glutamate](/e621-monosodium-glutamate), [monopotassium glutamate](/e622-monopotassium-glutamate), [calcium diglutamate](/e623-calcium-diglutamate), [magnesium diglutamate](/e625-magnesium-diglutamate)
-- 5′-ribonucleotides: [disodium inosinate](/e631-disodium-inosinate), [disodium guanylate](/e627-disodium-guanylate), or their blend [disodium 5′-ribonucleotide](/e635-disodium-5-ribonucleotide)
+- Other glutamates: [glutamic acid](/e620-glutamic-acid){.additive}, [monosodium glutamate](/e621-monosodium-glutamate){.additive}, [monopotassium glutamate](/e622-monopotassium-glutamate){.additive}, [calcium diglutamate](/e623-calcium-diglutamate){.additive}, [magnesium diglutamate](/e625-magnesium-diglutamate){.additive}
+- 5′-ribonucleotides: [disodium inosinate](/e631-disodium-inosinate){.additive}, [disodium guanylate](/e627-disodium-guanylate){.additive}, or their blend [disodium 5′-ribonucleotide](/e635-disodium-5-ribonucleotide){.additive}
 - Umami-rich ingredients: yeast extract, mushroom or tomato concentrates, aged cheeses, fermented sauces
-- For salt reduction strategies: [potassium chloride](/e508-potassium-chloride), sometimes paired with glutamates
+- For salt reduction strategies: [potassium chloride](/e508-potassium-chloride){.additive}, sometimes paired with glutamates
 
 ## How is monoammonium glutamate made?
 Most commercial glutamates begin with fermentation: selected food-grade microorganisms turn sugars (from sources like molasses or starch hydrolysates) into L-glutamic acid. The purified L-glutamic acid is then neutralized with a food-grade ammonium source to form monoammonium glutamate. The EU also sets identity and purity specifications for glutamic acid and its salts (E620–E625).[^3]

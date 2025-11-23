@@ -9,7 +9,7 @@ Amidated pectin (E440II) is a plant-based gelling and thickening agent made from
 - Regulation: Recognized as safe in the U.S. when used as intended and re-evaluated in the EU with no safety concern for the general population at typical uses.[^1][^3]
 
 ## Why is Amidated pectin added to food?
-Food makers use amidated pectin to create smooth, stable textures and to form gels that hold their shape. Compared with regular [pectins](/e440-pectins), it sets more easily and can gel with less sugar, which is useful for reduced-sugar jams and fruit spreads. It functions as a thickener, stabilizer, and emulsifier under good manufacturing practice in the U.S.[^1] Amidation also improves how pectin binds with calcium, helping products set in a reliable way across a wide range of recipes.[^3]
+Food makers use amidated pectin to create smooth, stable textures and to form gels that hold their shape. Compared with regular [pectins](/e440-pectins){.additive}, it sets more easily and can gel with less sugar, which is useful for reduced-sugar jams and fruit spreads. It functions as a thickener, stabilizer, and emulsifier under good manufacturing practice in the U.S.[^1] Amidation also improves how pectin binds with calcium, helping products set in a reliable way across a wide range of recipes.[^3]
 
 ## What foods contain Amidated pectin?
 You’re most likely to see it in:
@@ -22,9 +22,9 @@ On labels it may appear as “amidated pectin,” “E440ii/E440II,” or “pec
 
 ## What can replace Amidated pectin?
 Alternatives depend on the recipe:
-- For firm gels: [agar](/e406-agar), [gellan gum](/e418-gellan-gum), or [gelatine](/e428-gelatine) in non-vegan products
-- For thickening and stability: [xanthan gum](/e415-xanthan-gum), [guar gum](/e412-guar-gum), or [locust bean gum](/e410-locust-bean-gum)
-- For body and sheen: [carrageenan](/e407-carrageenan) or [modified starches](/e14xx-modified-starch)
+- For firm gels: [agar](/e406-agar){.additive}, [gellan gum](/e418-gellan-gum){.additive}, or [gelatine](/e428-gelatine){.additive} in non-vegan products
+- For thickening and stability: [xanthan gum](/e415-xanthan-gum){.additive}, [guar gum](/e412-guar-gum){.additive}, or [locust bean gum](/e410-locust-bean-gum){.additive}
+- For body and sheen: [carrageenan](/e407-carrageenan){.additive} or [modified starches](/e14xx-modified-starch){.additive}
 Note that these ingredients behave differently. Recipes may need testing to match texture, clarity, and flavor release.
 
 ## How is Amidated pectin made?
@@ -47,7 +47,7 @@ Culinary benefits include clean fruit flavor release, glossy gels, and stable te
 - Myth: It always needs lots of sugar. Fact: Amidated pectin can set low‑sugar recipes with help from calcium.
 
 ## Amidated pectin in branded foods
-You’ll find it on ingredient lists for many reduced‑sugar jams and preserves, fruit‑on‑the‑bottom yogurts, smoothie drinks, fruit fillings for pastries, and some plant‑based desserts. It may be paired with calcium salts such as [calcium chloride](/e509-calcium-chloride) to help the gel set, and with acids like [citric acid](/e330-citric-acid) to adjust tartness and pH.
+You’ll find it on ingredient lists for many reduced‑sugar jams and preserves, fruit‑on‑the‑bottom yogurts, smoothie drinks, fruit fillings for pastries, and some plant‑based desserts. It may be paired with calcium salts such as [calcium chloride](/e509-calcium-chloride){.additive} to help the gel set, and with acids like [citric acid](/e330-citric-acid){.additive} to adjust tartness and pH.
 
 ## References
 [^1]: 21 CFR 184.1588 — Pectin. U.S. Food and Drug Administration. https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-184/subpart-B/section-184.1588

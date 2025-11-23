@@ -28,11 +28,11 @@ On labels, it may appear as “sodium stearate,” “sodium palmitate,” or �
 
 Options depend on the job it’s doing:
 
-- Emulsifying/stabilising: [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids), [lecithins](/e322-lecithins), or certain [citric acid esters](/e472c-citric-acid-esters-of-mono-and-diglycerides-of-fatty-acids)
-- Dough/batter strengthening or whipping: [sodium stearoyl-2-lactylate](/e481-sodium-stearoyl-2-lactylate)
-- Powder flow and anti-caking: [cellulose](/e460-cellulose) or [sodium carboxy‑methyl cellulose](/e466-sodium-carboxy-methyl-cellulose) in some formulas
+- Emulsifying/stabilising: [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive}, [lecithins](/e322-lecithins){.additive}, or certain [citric acid esters](/e472c-citric-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive}
+- Dough/batter strengthening or whipping: [sodium stearoyl-2-lactylate](/e481-sodium-stearoyl-2-lactylate){.additive}
+- Powder flow and anti-caking: [cellulose](/e460-cellulose){.additive} or [sodium carboxy‑methyl cellulose](/e466-sodium-carboxy-methyl-cellulose){.additive} in some formulas
 
-If you need a broader family alternative, see [E470a (sodium, potassium and calcium salts of fatty acids)](/e470a-sodium-potassium-and-calcium-salts-of-fatty-acids) or the mixed‑salt group [E470 (sodium, potassium, calcium and magnesium salts of fatty acids)](/e470-sodium-potassium-calcium-and-magnesium-salts-of-fatty-acids).
+If you need a broader family alternative, see [E470a (sodium, potassium and calcium salts of fatty acids)](/e470a-sodium-potassium-and-calcium-salts-of-fatty-acids){.additive} or the mixed‑salt group [E470 (sodium, potassium, calcium and magnesium salts of fatty acids)](/e470-sodium-potassium-calcium-and-magnesium-salts-of-fatty-acids){.additive}.
 
 ## How is Sodium salts of fatty acids made?
 

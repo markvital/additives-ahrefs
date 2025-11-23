@@ -7,7 +7,7 @@ Calcium lactate is a versatile helper in both everyday foods and culinary techni
 - What it is: a salt made from lactic acid and calcium.
 - What it does: helps firm texture, buffers acidity, blends smoothly in liquids, and supplies dietary calcium.
 - Where it shows up: canned and pickled produce, fortified drinks, plant-based products, bakery fillings, and modernist “spherification.”
-- How it’s made: by neutralizing [lactic acid](/e270-lactic-acid) with [calcium carbonate](/e170i-calcium-carbonate) or [calcium hydroxide](/e526-calcium-hydroxide), then crystallizing and drying.
+- How it’s made: by neutralizing [lactic acid](/e270-lactic-acid){.additive} with [calcium carbonate](/e170i-calcium-carbonate){.additive} or [calcium hydroxide](/e526-calcium-hydroxide){.additive}, then crystallizing and drying.
 - Safety status: affirmed “GRAS” in the U.S. and authorized in the EU as E327.
 
 ## Why is calcium lactate added to food?
@@ -25,14 +25,14 @@ On labels, it may appear as “calcium lactate” or “E327.”
 
 ## What can replace calcium lactate?
 Depending on the job, common stand-ins include:
-- Firming/binding: [calcium chloride](/e509-calcium-chloride)
-- pH control and buffering: [citric acid](/e330-citric-acid) or [sodium citrates](/e331-sodium-citrates)
-- Humectancy and mild preservation in meats and sauces: [sodium lactate](/e325-sodium-lactate) or [potassium lactate](/e326-potassium-lactate)
-- Calcium fortification: [calcium carbonate](/e170i-calcium-carbonate), [calcium phosphates](/e341-calcium-phosphates), [calcium gluconate](/e578-calcium-gluconate), or [calcium citrates](/e333-calcium-citrates)
-- Gelling/setting systems: pair calcium salts such as [calcium chloride](/e509-calcium-chloride) or [calcium gluconate](/e578-calcium-gluconate) with [sodium alginate](/e401-sodium-alginate)
+- Firming/binding: [calcium chloride](/e509-calcium-chloride){.additive}
+- pH control and buffering: [citric acid](/e330-citric-acid){.additive} or [sodium citrates](/e331-sodium-citrates){.additive}
+- Humectancy and mild preservation in meats and sauces: [sodium lactate](/e325-sodium-lactate){.additive} or [potassium lactate](/e326-potassium-lactate){.additive}
+- Calcium fortification: [calcium carbonate](/e170i-calcium-carbonate){.additive}, [calcium phosphates](/e341-calcium-phosphates){.additive}, [calcium gluconate](/e578-calcium-gluconate){.additive}, or [calcium citrates](/e333-calcium-citrates){.additive}
+- Gelling/setting systems: pair calcium salts such as [calcium chloride](/e509-calcium-chloride){.additive} or [calcium gluconate](/e578-calcium-gluconate){.additive} with [sodium alginate](/e401-sodium-alginate){.additive}
 
 ## How is calcium lactate made?
-Commercially, it’s produced by neutralizing food‑grade lactic acid (usually made by fermenting sugars) with a calcium base such as [calcium carbonate](/e170i-calcium-carbonate) or [calcium hydroxide](/e526-calcium-hydroxide). The product is then crystallized, separated, and dried to yield a white, nearly tasteless powder.[^2]
+Commercially, it’s produced by neutralizing food‑grade lactic acid (usually made by fermenting sugars) with a calcium base such as [calcium carbonate](/e170i-calcium-carbonate){.additive} or [calcium hydroxide](/e526-calcium-hydroxide){.additive}. The product is then crystallized, separated, and dried to yield a white, nearly tasteless powder.[^2]
 
 ## Is calcium lactate safe to eat?
 Yes. In the United States, calcium lactate is affirmed as Generally Recognized as Safe (GRAS) when used in line with good manufacturing practice.[^2] The European Food Safety Authority (EFSA) re‑evaluated lactic acid and lactates (E270, E325–E327) and found no safety concern at current uses, with an acceptable daily intake (ADI) “not specified.”[^3]
@@ -51,7 +51,7 @@ Beyond its technical roles, calcium lactate supplies calcium. By weight, calcium
 - “Lactate equals lactose.” Fact: Lactate is the salt of lactic acid; lactose is a disaccharide sugar. They are different compounds.
 
 ## calcium lactate in branded foods
-To spot it on labels, look for “calcium lactate” or “E327.” You’ll often find it alongside other acidity regulators or calcium sources, such as [citric acid](/e330-citric-acid), [sodium citrates](/e331-sodium-citrates), [calcium carbonate](/e170i-calcium-carbonate), or alginates in gel systems. In meat or sauce formulas, you may also see related lactates like [sodium lactate](/e325-sodium-lactate) or [potassium lactate](/e326-potassium-lactate).
+To spot it on labels, look for “calcium lactate” or “E327.” You’ll often find it alongside other acidity regulators or calcium sources, such as [citric acid](/e330-citric-acid){.additive}, [sodium citrates](/e331-sodium-citrates){.additive}, [calcium carbonate](/e170i-calcium-carbonate){.additive}, or alginates in gel systems. In meat or sauce formulas, you may also see related lactates like [sodium lactate](/e325-sodium-lactate){.additive} or [potassium lactate](/e326-potassium-lactate){.additive}.
 
 ## References
 [^1]: Commission Regulation (EU) No 231/2012 — EU specifications for food additives listed in Annex II to Regulation (EC) No 1333/2008. https://eur-lex.europa.eu/eli/reg/2012/231/oj

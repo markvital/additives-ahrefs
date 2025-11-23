@@ -6,7 +6,7 @@ Neutral methacrylate copolymer (E1206) is a film‑forming polymer used to coat 
 - What it is: a neutral acrylic-based polymer used as a glazing agent and film former on solid supplements.
 - Where it’s used: mainly on coated tablets, capsules, and pellets sold as food supplements in the EU.
 - Why it’s used: to protect from moisture, improve swallowability, mask taste, and manage disintegration or release.
-- Also known as: E1206; part of the methacrylate copolymer family alongside [basic](/e1205-basic-methacrylate-copolymer) and [anionic](/e1207-anionic-methacrylate-copolymer) types.
+- Also known as: E1206; part of the methacrylate copolymer family alongside [basic](/e1205-basic-methacrylate-copolymer){.additive} and [anionic](/e1207-anionic-methacrylate-copolymer){.additive} types.
 - EU status: authorised for defined uses and subject to detailed specifications.
 
 ## Why is Neutral methacrylate copolymer added to food?
@@ -17,10 +17,10 @@ In the European Union (EU), E1206 is authorised mainly for use on solid food sup
 
 ## What can replace Neutral methacrylate copolymer?
 Depending on the goal, several alternatives can be used:
-- For simple shine and moisture protection: [shellac](/e904-shellac), [carnauba wax](/e903-carnauba-wax), or [candelilla wax](/e902-candelilla-wax).
-- For clear, flexible films: [pullulan](/e1204-pullulan) or [polyvinyl alcohol](/e1203-polyvinyl-alcohol).
-- For tastemasking or sustained release: [ethyl cellulose](/e462-ethyl-cellulose) or [polyvinylpyrrolidone](/e1201-polyvinylpyrrolidone).
-- Within the same family, other options include [basic methacrylate copolymer](/e1205-basic-methacrylate-copolymer) and [anionic methacrylate copolymer](/e1207-anionic-methacrylate-copolymer), chosen for different pH‑dependent behaviors.
+- For simple shine and moisture protection: [shellac](/e904-shellac){.additive}, [carnauba wax](/e903-carnauba-wax){.additive}, or [candelilla wax](/e902-candelilla-wax){.additive}.
+- For clear, flexible films: [pullulan](/e1204-pullulan){.additive} or [polyvinyl alcohol](/e1203-polyvinyl-alcohol){.additive}.
+- For tastemasking or sustained release: [ethyl cellulose](/e462-ethyl-cellulose){.additive} or [polyvinylpyrrolidone](/e1201-polyvinylpyrrolidone){.additive}.
+- Within the same family, other options include [basic methacrylate copolymer](/e1205-basic-methacrylate-copolymer){.additive} and [anionic methacrylate copolymer](/e1207-anionic-methacrylate-copolymer){.additive}, chosen for different pH‑dependent behaviors.
 
 ## How is Neutral methacrylate copolymer made?
 E1206 is produced by polymerising (joining together) small molecules called monomers into a large, inert polymer. According to the EU specification, it is a copolymer made primarily from methyl methacrylate and ethyl acrylate, typically prepared as an aqueous dispersion for coating use. The specification sets strict limits for residual monomers, solvents, and other impurities to ensure consistent quality and safety.[^1]
@@ -40,7 +40,7 @@ Most people do not need to avoid E1206 when it appears on permitted foods. If yo
 
 ## Myths & facts
 - “It’s plastic, so it must be unsafe.” Fact: E1206 is a high‑purity food additive with strict EU limits on residual monomers and impurities; it is authorised only for specific uses and levels.[^1]
-- “All methacrylate coatings act the same.” Fact: Neutral (E1206), [basic](/e1205-basic-methacrylate-copolymer), and [anionic](/e1207-anionic-methacrylate-copolymer) copolymers behave differently, so formulators pick the type that suits the product.
+- “All methacrylate coatings act the same.” Fact: Neutral (E1206), [basic](/e1205-basic-methacrylate-copolymer){.additive}, and [anionic](/e1207-anionic-methacrylate-copolymer){.additive} copolymers behave differently, so formulators pick the type that suits the product.
 - “It’s used in all kinds of foods.” Fact: In the EU, its use is focused on solid food supplements and must follow the Union list conditions.[^2]
 
 ## Neutral methacrylate copolymer in branded foods

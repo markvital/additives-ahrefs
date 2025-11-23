@@ -26,10 +26,10 @@ In the European Union, E356 is an authorized additive in the functional class of
 
 ## What can replace Sodium adipate?
 Depending on the recipe and target pH, common alternatives include:
-- Citric-based systems such as [citric acid](/e330-citric-acid) or [sodium citrates](/e331-sodium-citrates) for a brighter, sharper sourness
-- [Malic acid](/e296-malic-acid) for a smoother, longer-lasting tartness
-- [Sodium lactate](/e325-sodium-lactate) or [calcium lactate](/e327-calcium-lactate) when buffering with a less tangy taste is desired
-- The parent acid, [adipic acid](/e355-adipic-acid), if a direct acidulant is preferable to a buffer
+- Citric-based systems such as [citric acid](/e330-citric-acid){.additive} or [sodium citrates](/e331-sodium-citrates){.additive} for a brighter, sharper sourness
+- [Malic acid](/e296-malic-acid){.additive} for a smoother, longer-lasting tartness
+- [Sodium lactate](/e325-sodium-lactate){.additive} or [calcium lactate](/e327-calcium-lactate){.additive} when buffering with a less tangy taste is desired
+- The parent acid, [adipic acid](/e355-adipic-acid){.additive}, if a direct acidulant is preferable to a buffer
 
 The right choice depends on flavor impact, target pH, solubility, and labeling needs.
 
@@ -66,7 +66,7 @@ For infants and other vulnerable groups, follow applicable dietary guidance and 
   Fact: It is authorized in the European Union as E356 under the Food Additives Regulation.[^2]
 
 ## Sodium adipate in branded foods
-On labels, look for “Sodium adipate” or “E356.” It may appear alongside other acidity regulators, such as [citric acid](/e330-citric-acid) or [sodium citrates](/e331-sodium-citrates). Because usage levels are low and it has a mild taste, it seldom stands out in the flavor, but it helps products stay consistent from the first serving to the last.
+On labels, look for “Sodium adipate” or “E356.” It may appear alongside other acidity regulators, such as [citric acid](/e330-citric-acid){.additive} or [sodium citrates](/e331-sodium-citrates){.additive}. Because usage levels are low and it has a mild taste, it seldom stands out in the flavor, but it helps products stay consistent from the first serving to the last.
 
 ## References
 [^1]: Commission Regulation (EU) No 231/2012 — Specifications for food additives listed in Annexes II and III to Regulation (EC) No 1333/2008 (sodium adipates E 356). https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231

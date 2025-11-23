@@ -13,6 +13,7 @@ const { execFile } = require('child_process');
 const { promisify } = require('util');
 
 const { createAdditiveSlug, normaliseENumber } = require('./utils/slug');
+const { updateLastUpdatedTimestamp } = require('./utils/last-updated');
 
 const execFileAsync = promisify(execFile);
 
@@ -25,6 +26,7 @@ const DEFAULT_PARALLEL = 5;
 const MAX_RETRIES = 4;
 
 let DEBUG = false;
+let hasChanges = false;
 const debugLog = (...args) => {
   if (DEBUG) {
     console.log(...args);
@@ -303,6 +305,7 @@ const readPropsFile = async (filePath) => {
 const writePropsFile = async (filePath, data) => {
   const content = `${JSON.stringify(data, null, 2)}\n`;
   await fs.writeFile(filePath, content, 'utf8');
+  hasChanges = true;
 };
 
 const extractRelationships = (entry, eNumberToSlugMap, currentSlug) => {
@@ -512,6 +515,10 @@ const main = async () => {
         console.error(`Failed to update ${additive.slug}: ${error.message}`);
       }
     });
+
+    if (hasChanges) {
+      await updateLastUpdatedTimestamp();
+    }
 
     console.log('Done.');
     console.log(`  Updated:   ${updatedCount}`);

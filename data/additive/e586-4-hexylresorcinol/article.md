@@ -20,10 +20,10 @@ Use is not widespread. In the EU, it is allowed only in certain food categories 
 ## What can replace 4-hexylresorcinol?
 
 Suitable alternatives depend on the food and the reason for use:
-- To manage browning or color changes: [ascorbic acid](/e300-ascorbic-acid), [calcium ascorbate](/e302-calcium-ascorbate), [erythorbic acid](/e315-erythorbic-acid), or [sodium erythorbate](/e316-sodium-erythorbate).
-- To adjust acidity (which can also slow browning in some foods): [citric acid](/e330-citric-acid).
-- To control spoilage by microbes (a different issue from browning): [benzoic acid](/e210-benzoic-acid) or [potassium sorbate](/e202-potassium-sorbate).
-- In some seafood products, processors also use sulphites such as [sulphur dioxide](/e220-sulphur-dioxide) or [sodium metabisulphite](/e223-sodium-metabisulphite); note that sulphites must be declared on labels and can cause sensitivity in some people.[^4]
+- To manage browning or color changes: [ascorbic acid](/e300-ascorbic-acid){.additive}, [calcium ascorbate](/e302-calcium-ascorbate){.additive}, [erythorbic acid](/e315-erythorbic-acid){.additive}, or [sodium erythorbate](/e316-sodium-erythorbate){.additive}.
+- To adjust acidity (which can also slow browning in some foods): [citric acid](/e330-citric-acid){.additive}.
+- To control spoilage by microbes (a different issue from browning): [benzoic acid](/e210-benzoic-acid){.additive} or [potassium sorbate](/e202-potassium-sorbate){.additive}.
+- In some seafood products, processors also use sulphites such as [sulphur dioxide](/e220-sulphur-dioxide){.additive} or [sodium metabisulphite](/e223-sodium-metabisulphite){.additive}; note that sulphites must be declared on labels and can cause sensitivity in some people.[^4]
 
 ## How is 4-hexylresorcinol made?
 

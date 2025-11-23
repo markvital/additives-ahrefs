@@ -15,7 +15,7 @@ Manufacturers add E536 to stop salt from clumping when it meets moisture in the 
 
 ## What foods contain Potassium ferrocyanide?
 - Table salt (regular, sea, and iodized)
-- Low‑sodium salt blends and salt substitutes, often based on [potassium chloride](/e508-potassium-chloride)
+- Low‑sodium salt blends and salt substitutes, often based on [potassium chloride](/e508-potassium-chloride){.additive}
 - Seasoning mixes and spice blends that use treated salt
 
 Internationally, the Codex General Standard for Food Additives (GSFA) permits potassium ferrocyanide in salt up to 20 mg/kg, which illustrates the small amounts used.[^3]
@@ -27,11 +27,11 @@ If you want salt without E536, you can:
 - Store salt airtight to reduce moisture
 
 Other anti‑caking agents sometimes used in salt include:
-- [Silicon dioxide](/e551-silicon-dioxide)
-- [Calcium silicate](/e552-calcium-silicate)
-- [Magnesium carbonates](/e504-magnesium-carbonates)
-- [Tricalcium phosphate](/e341iii-tricalcium-phosphate)
-- [Calcium ferrocyanide](/e538-calcium-ferrocyanide)
+- [Silicon dioxide](/e551-silicon-dioxide){.additive}
+- [Calcium silicate](/e552-calcium-silicate){.additive}
+- [Magnesium carbonates](/e504-magnesium-carbonates){.additive}
+- [Tricalcium phosphate](/e341iii-tricalcium-phosphate){.additive}
+- [Calcium ferrocyanide](/e538-calcium-ferrocyanide){.additive}
 
 ## How is Potassium ferrocyanide made?
 Potassium ferrocyanide is the potassium salt of the hexacyanoferrate(II) complex and is typically sold as the trihydrate, with the formula K4[Fe(CN)6]·3H2O.[^4] Food‑grade E536 must meet strict identity and purity specifications set in law, including limits for impurities and heavy metals.[^2]
@@ -50,7 +50,7 @@ These are technological benefits; it does not provide nutritional value.
 - People who prefer additive‑free salt can choose products labeled without anti‑caking agents.
 - If your healthcare provider advises avoiding specific additives, check salt labels and pick simple alternatives.
 
-Note: If you use salt substitutes based on [potassium chloride](/e508-potassium-chloride), follow medical advice about potassium intake; that guidance relates to the salt substitute itself, not E536.
+Note: If you use salt substitutes based on [potassium chloride](/e508-potassium-chloride){.additive}, follow medical advice about potassium intake; that guidance relates to the salt substitute itself, not E536.
 
 ## Myths & facts
 - Myth: “It adds cyanide to my salt.” Fact: The cyanide is tightly bound to iron in a stable complex and is not released under normal food conditions.[^4]

@@ -6,7 +6,7 @@ Glycerol esters of wood rosin (E445) are food additives made by joining glycerol
 - What it is: A mixture of glycerol and purified wood rosin acids from pine trees; often listed as “glycerol ester of wood rosin” or “ester gum.”
 - What it does: Keeps citrus and other flavor oils dispersed in soft drinks (a density-adjusting emulsifier/stabiliser).
 - Where you’ll find it: Citrus sodas, fruit-flavored soft drinks, and some energy or sports drinks.
-- Common swaps: [sucrose acetate isobutyrate (SAIB)](/e444-sucrose-acetate-isobutyrate), [brominated vegetable oil (BVO)](/e443-brominated-vegetable-oil), and gums like [acacia gum](/e414-acacia-gum).
+- Common swaps: [sucrose acetate isobutyrate (SAIB)](/e444-sucrose-acetate-isobutyrate){.additive}, [brominated vegetable oil (BVO)](/e443-brominated-vegetable-oil){.additive}, and gums like [acacia gum](/e414-acacia-gum){.additive}.
 
 ## Why is Glycerol esters of wood rosin added to food?
 It helps match the density of flavor oils to water so the oils don’t float to the top or form a ring at the neck of the bottle. In the United States, the Food and Drug Administration (FDA) permits “glycerol ester of wood rosin” for use in beverages as a weighting agent under specific conditions in the Code of Federal Regulations (CFR) 21 CFR 172.735.[^1]
@@ -22,12 +22,12 @@ On ingredient lists, look for “glycerol ester of wood rosin,” “glycerol es
 
 ## What can replace Glycerol esters of wood rosin?
 Manufacturers may use:
-- [Sucrose acetate isobutyrate](/e444-sucrose-acetate-isobutyrate) (SAIB), another weighting agent for flavor oils.
-- [Brominated vegetable oil](/e443-brominated-vegetable-oil) (BVO), historically used for similar purposes but restricted or phased out in many places.
-- Emulsifier systems built from gums and emulsifiers, such as [acacia gum](/e414-acacia-gum), [xanthan gum](/e415-xanthan-gum), and [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids), though these may not provide the same density adjustment and often need careful formulation.
+- [Sucrose acetate isobutyrate](/e444-sucrose-acetate-isobutyrate){.additive} (SAIB), another weighting agent for flavor oils.
+- [Brominated vegetable oil](/e443-brominated-vegetable-oil){.additive} (BVO), historically used for similar purposes but restricted or phased out in many places.
+- Emulsifier systems built from gums and emulsifiers, such as [acacia gum](/e414-acacia-gum){.additive}, [xanthan gum](/e415-xanthan-gum){.additive}, and [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive}, though these may not provide the same density adjustment and often need careful formulation.
 
 ## How is Glycerol esters of wood rosin made?
-Producers start with wood rosin, a natural resin obtained from pine wood. They react the resin acids with [glycerol](/e422-glycerol) to form glycerol esters, then further purify the product to meet food-grade specifications for identity and purity (such as limits on free resin acids and contaminants). The end result is a pale, viscous resin that dissolves in flavor oils and helps keep them evenly dispersed in drinks.[^1]
+Producers start with wood rosin, a natural resin obtained from pine wood. They react the resin acids with [glycerol](/e422-glycerol){.additive} to form glycerol esters, then further purify the product to meet food-grade specifications for identity and purity (such as limits on free resin acids and contaminants). The end result is a pale, viscous resin that dissolves in flavor oils and helps keep them evenly dispersed in drinks.[^1]
 
 ## Is Glycerol esters of wood rosin safe to eat?
 Regulators have evaluated E445 and allow its use within set limits. In the U.S., the FDA authorizes glycerol ester of wood rosin for specified beverage uses when it meets detailed material and purity requirements in 21 CFR 172.735.[^1] In the European Union, E445 appears in the official additive specifications laid out in Commission Regulation (EU) No 231/2012.[^2] As with all additives, manufacturers must keep to legal limits and quality standards.

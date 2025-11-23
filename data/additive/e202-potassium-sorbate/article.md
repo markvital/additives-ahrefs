@@ -7,14 +7,14 @@ Potassium sorbate (E202) is a common preservative that helps stop yeast and mold
 - What it does: slows yeast and mold growth
 - Where it appears: cheeses, baked goods, beverages, fruit products, sauces, wine
 - Why it’s used: effective at low doses, neutral taste, good water solubility
-- Solubility: more soluble than [sorbic acid](/e200-sorbic-acid)
+- Solubility: more soluble than [sorbic acid](/e200-sorbic-acid){.additive}
 - Works best at lower pH (more acidic foods)
 - Regulatory view: permitted in the U.S. and EU within set conditions
 - Dietary notes: vegan- and vegetarian-suitable; not made from animal sources
 
 ## Why is Potassium sorbate added to food?
 Food makers add potassium sorbate to keep products fresh longer by preventing yeast and mold from growing. It’s especially useful in foods that have some moisture and sugar, where spoilage can start quickly. The U.S. Food and Drug Administration (FDA) lists sorbic acid and potassium sorbate as “Generally Recognized as Safe” (GRAS) when used in line with good manufacturing practice (GMP). GMP means using the minimum amount needed to do the job.[^1]  
-It is chosen over plain [sorbic acid](/e200-sorbic-acid) when easy, fast dissolving is needed. The preservative works best in mildly acidic foods and is most active against yeasts and molds rather than most bacteria.[^2]
+It is chosen over plain [sorbic acid](/e200-sorbic-acid){.additive} when easy, fast dissolving is needed. The preservative works best in mildly acidic foods and is most active against yeasts and molds rather than most bacteria.[^2]
 
 ## What foods contain Potassium sorbate?
 You’ll commonly see it in:
@@ -29,11 +29,11 @@ These are typical categories where potassium sorbate is permitted and reported f
 
 ## What can replace Potassium sorbate?
 Depending on the food and the kind of spoilage you’re trying to control, alternatives include:
-- Other sorbates or acids: [sorbic acid](/e200-sorbic-acid) and, where permitted, [calcium sorbate](/e203-calcium-sorbate)
-- Benzoates for acidic foods: [sodium benzoate](/e211-sodium-benzoate), [potassium benzoate](/e212-potassium-benzoate)
-- In baked products: [calcium propionate](/e282-calcium-propionate)
-- Natural antimicrobials for specific uses: [natamycin](/e235-natamycin) and [nisin](/e234-nisin) on certain cheeses and meats
-- Process changes: lower pH with [citric acid](/e330-citric-acid), add antioxidants like [ascorbic acid](/e300-ascorbic-acid), reduce water activity (drying), use pasteurization, or improve packaging
+- Other sorbates or acids: [sorbic acid](/e200-sorbic-acid){.additive} and, where permitted, [calcium sorbate](/e203-calcium-sorbate){.additive}
+- Benzoates for acidic foods: [sodium benzoate](/e211-sodium-benzoate){.additive}, [potassium benzoate](/e212-potassium-benzoate){.additive}
+- In baked products: [calcium propionate](/e282-calcium-propionate){.additive}
+- Natural antimicrobials for specific uses: [natamycin](/e235-natamycin){.additive} and [nisin](/e234-nisin){.additive} on certain cheeses and meats
+- Process changes: lower pH with [citric acid](/e330-citric-acid){.additive}, add antioxidants like [ascorbic acid](/e300-ascorbic-acid){.additive}, reduce water activity (drying), use pasteurization, or improve packaging
 
 No single substitute fits every recipe; food makers often combine methods to match taste, texture, and shelf-life goals.
 

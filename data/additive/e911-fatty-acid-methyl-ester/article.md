@@ -30,11 +30,11 @@ Actual use varies by country and by product type. Always check the ingredient li
 ## What can replace Fatty acid methyl ester?
 
 Food makers often choose among several glazing or release agents based on the food, processing line, and local rules. Common alternatives include:
-- Natural waxes such as [carnauba wax](/e903-carnauba-wax), [candelilla wax](/e902-candelilla-wax), and [white and yellow beeswax](/e901-white-and-yellow-beeswax)
-- Resin-based coatings like [shellac](/e904-shellac)
-- Petroleum-derived waxes such as [microcrystalline wax](/e905ci-microcrystalline-wax) or [mineral oil](/e905a-mineral-oil)
-- Related surface agents like [wax ester](/e910-wax-ester) or [montanic acid esters](/e912-montanic-acid-esters)
-- Process aids for foam control on lines, such as [dimethylpolysiloxane](/e900-dimethylpolysiloxane-and-methylphenylpolysiloxane) in relevant applications
+- Natural waxes such as [carnauba wax](/e903-carnauba-wax){.additive}, [candelilla wax](/e902-candelilla-wax){.additive}, and [white and yellow beeswax](/e901-white-and-yellow-beeswax){.additive}
+- Resin-based coatings like [shellac](/e904-shellac){.additive}
+- Petroleum-derived waxes such as [microcrystalline wax](/e905ci-microcrystalline-wax){.additive} or [mineral oil](/e905a-mineral-oil){.additive}
+- Related surface agents like [wax ester](/e910-wax-ester){.additive} or [montanic acid esters](/e912-montanic-acid-esters){.additive}
+- Process aids for foam control on lines, such as [dimethylpolysiloxane](/e900-dimethylpolysiloxane-and-methylphenylpolysiloxane){.additive} in relevant applications
 
 The best choice depends on required gloss, hardness, melting point, label preferences, and regulatory status.
 

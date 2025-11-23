@@ -21,9 +21,9 @@ Where permitted, E151 may appear in selected confectionery (such as dark licoric
 ## What can replace Brilliant black bn?
 
 Depending on the food and shade needed, formulators often use:
-- [vegetable carbon](/e153-vegetable-carbon) for a natural, deep black
-- Caramel colours: [plain caramel](/e150a-plain-caramel), [caustic sulphite caramel](/e150b-caustic-sulphite-caramel), [ammonia caramel](/e150c-ammonia-caramel), or [sulphite ammonia caramel](/e150d-sulphite-ammonia-caramel) for brown‑black hues
-- [iron oxides and iron hydroxides](/e172-iron-oxides-and-iron-hydroxides), including [black iron oxide](/e172i-black-iron-oxide), in applications where they are allowed
+- [vegetable carbon](/e153-vegetable-carbon){.additive} for a natural, deep black
+- Caramel colours: [plain caramel](/e150a-plain-caramel){.additive}, [caustic sulphite caramel](/e150b-caustic-sulphite-caramel){.additive}, [ammonia caramel](/e150c-ammonia-caramel){.additive}, or [sulphite ammonia caramel](/e150d-sulphite-ammonia-caramel){.additive} for brown‑black hues
+- [iron oxides and iron hydroxides](/e172-iron-oxides-and-iron-hydroxides){.additive}, including [black iron oxide](/e172i-black-iron-oxide){.additive}, in applications where they are allowed
 
 ## How is Brilliant black bn made?
 
@@ -49,7 +49,7 @@ The dye does not add nutrition, but it helps manufacturers achieve a stable, uni
   Fact: It is authorised for certain uses in the European Union under the EU food additives framework.[^1]
 
 - Myth: “It carries the EU hyperactivity warning.”  
-  Fact: The EU’s special warning about possible effects on activity and attention in children applies to six specific colours—[tartrazine](/e102-tartrazine), [quinoline yellow](/e104-quinoline-yellow), [sunset yellow FCF](/e110-sunset-yellow-fcf), [azorubine](/e122-azorubine), [ponceau 4R](/e124-ponceau-4r), and [allura red](/e129-allura-red)—not to Brilliant black bn.[^4]
+  Fact: The EU’s special warning about possible effects on activity and attention in children applies to six specific colours—[tartrazine](/e102-tartrazine){.additive}, [quinoline yellow](/e104-quinoline-yellow){.additive}, [sunset yellow FCF](/e110-sunset-yellow-fcf){.additive}, [azorubine](/e122-azorubine){.additive}, [ponceau 4R](/e124-ponceau-4r){.additive}, and [allura red](/e129-allura-red){.additive}—not to Brilliant black bn.[^4]
 
 - Myth: “It’s derived from animals.”  
   Fact: EU specifications describe it as a defined synthetic azo dye supplied as sodium salts; it is not animal‑derived.[^3]

@@ -23,9 +23,9 @@ Note: Many foods naturally contain tannins (tea leaves, grape skins, certain nut
 
 ## What can replace tannin?
 Alternatives depend on the job tannin is doing:
-- For tangy brightness instead of astringency: acids such as [citric acid](/e330-citric-acid) or [ascorbic acid](/e300-ascorbic-acid).
-- For antioxidant or color-hold roles in some foods: [extracts of rosemary](/e392-extracts-of-rosemary) or fruit pigments like [anthocyanins](/e163-anthocyanins) (product- and regulation-dependent).
-- For beverage clarity and mouthfeel: fining or texturizing agents such as [gelatine](/e428-gelatine) (not vegan) or silica-based agents like [silicon dioxide](/e551-silicon-dioxide), used where permitted.
+- For tangy brightness instead of astringency: acids such as [citric acid](/e330-citric-acid){.additive} or [ascorbic acid](/e300-ascorbic-acid){.additive}.
+- For antioxidant or color-hold roles in some foods: [extracts of rosemary](/e392-extracts-of-rosemary){.additive} or fruit pigments like [anthocyanins](/e163-anthocyanins){.additive} (product- and regulation-dependent).
+- For beverage clarity and mouthfeel: fining or texturizing agents such as [gelatine](/e428-gelatine){.additive} (not vegan) or silica-based agents like [silicon dioxide](/e551-silicon-dioxide){.additive}, used where permitted.
 
 ## How is tannin made?
 Food-grade tannic acid is typically produced by extracting tannin-rich plant materials (such as certain galls or pods) with water or alcohol, then purifying and drying the extract to meet food specifications.[^3] International specifications describe identity and purity criteria for tannic acid used as a food additive (INS 181).[^3]
@@ -50,7 +50,7 @@ If you have medical or dietary concerns, ask a healthcare professional.
 ## Myths & facts
 - Myth: “Tannin always makes drinks bitter.” Fact: Tannin mainly adds a dry, puckering feel (astringency). Bitterness is a different taste.
 - Myth: “If a drink is hazy, tannin will fix it.” Fact: Tannin can help in some beverages, but clarity depends on many factors, and different fining agents work for different haze types.
-- Myth: “Tannin is a preservative.” Fact: Tannin can contribute to stabilization, but it’s not a broad-spectrum preservative like [sorbic acid](/e200-sorbic-acid) or [potassium metabisulphite](/e224-potassium-metabisulphite).
+- Myth: “Tannin is a preservative.” Fact: Tannin can contribute to stabilization, but it’s not a broad-spectrum preservative like [sorbic acid](/e200-sorbic-acid){.additive} or [potassium metabisulphite](/e224-potassium-metabisulphite){.additive}.
 
 ## Tannin in branded foods
 You may see “tannin” or “tannic acid” on labels of some bottled teas, wine-making kits, and specialty beverages. In alcoholic drinks such as wine, use is regulated by TTB, and labeling rules can differ from those for general packaged foods.[^2] If you’re curious, check the ingredient list for “tannin” or “tannic acid,” or consult the producer.

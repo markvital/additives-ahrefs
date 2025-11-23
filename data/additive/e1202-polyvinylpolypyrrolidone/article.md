@@ -5,12 +5,12 @@ Polyvinylpolypyrrolidone (E1202), also called crospovidone, is a cross‑linked,
 ## At a glance
 - Also known as E1202, crospovidone, or cross‑linked polyvidone
 - Function: stabiliser and clarifying aid, especially in beverages
-- Insoluble polymer that binds [tannin](/e181-tannin) and other polyphenols
+- Insoluble polymer that binds [tannin](/e181-tannin){.additive} and other polyphenols
 - Used during processing and then filtered out
 - Evaluated by regulators; no safety concern at approved uses
 
 ## Why is Polyvinylpolypyrrolidone added to food?
-Producers use E1202 to prevent cloudiness and haze in beverages. The polymer grabs onto polyphenols (like [tannin](/e181-tannin)) that can cause haze, bitterness, or browning, and then the solids are removed by filtration, leaving the drink clearer and more stable over time.[^1][^2]
+Producers use E1202 to prevent cloudiness and haze in beverages. The polymer grabs onto polyphenols (like [tannin](/e181-tannin){.additive}) that can cause haze, bitterness, or browning, and then the solids are removed by filtration, leaving the drink clearer and more stable over time.[^1][^2]
 
 ## What foods contain Polyvinylpolypyrrolidone?
 You’ll mainly see E1202 used in:
@@ -23,9 +23,9 @@ In the United States, it is approved as a processing aid for clarifying beverage
 
 ## What can replace Polyvinylpolypyrrolidone?
 Depending on the drink and the problem to solve, technologists may use:
-- [Bentonite](/e558-bentonite) (a type of clay) to remove proteins
-- [Gelatine](/e428-gelatine) or other protein finings for tannin reduction
-- [Silicon dioxide](/e551-silicon-dioxide) as a fining/clarifying aid
+- [Bentonite](/e558-bentonite){.additive} (a type of clay) to remove proteins
+- [Gelatine](/e428-gelatine){.additive} or other protein finings for tannin reduction
+- [Silicon dioxide](/e551-silicon-dioxide){.additive} as a fining/clarifying aid
 - Process choices (longer cold conditioning, filtration tweaks)
 
 Each method has trade‑offs for flavor, clarity, and whether the product remains vegan or allergen‑free. Brewers and winemakers often trial blends to reach a target haze or flavor outcome.[^2]
@@ -51,7 +51,7 @@ In the U.S., processing aids that are removed during manufacture are generally e
 
 ## Myths & facts
 - “It stays in my drink.” In regulated uses, E1202 is added during processing and then removed by filtration; it is not intended to remain in the finished beverage.[^1]
-- “It’s the same as PVP.” Polyvinylpolypyrrolidone (E1202) is an insoluble, cross‑linked version of [polyvinylpyrrolidone](/e1201-polyvinylpyrrolidone) (E1201), which is water‑soluble. They have different roles and specifications in food law.[^4][^3]
+- “It’s the same as PVP.” Polyvinylpolypyrrolidone (E1202) is an insoluble, cross‑linked version of [polyvinylpyrrolidone](/e1201-polyvinylpyrrolidone){.additive} (E1201), which is water‑soluble. They have different roles and specifications in food law.[^4][^3]
 - “It’s unsafe plastic.” EFSA reviewed E1202 and found no safety concern at the reported uses and exposures; it is not absorbed by the gut and is excreted unchanged.[^3]
 
 ## Polyvinylpolypyrrolidone in branded foods

@@ -23,13 +23,13 @@ You are most likely to find yellow iron oxide in:
 
 These uses reflect how E172 colors are authorized across categories in the EU; products must meet the Union list rules and purity specifications.[^1][^3]
 
-Related colors in the same group include [black iron oxide](/e172i-black-iron-oxide) and [red iron oxide](/e172ii-red-iron-oxide), and the group entry [iron oxides and iron hydroxides](/e172-iron-oxides-and-iron-hydroxides).
+Related colors in the same group include [black iron oxide](/e172i-black-iron-oxide){.additive} and [red iron oxide](/e172ii-red-iron-oxide){.additive}, and the group entry [iron oxides and iron hydroxides](/e172-iron-oxides-and-iron-hydroxides){.additive}.
 
 ## What can replace Yellow iron oxide?
 Alternatives depend on the shade and opacity you need:
-- For yellow to orange tones: [curcumin](/e100-curcumin), [riboflavin](/e101-riboflavin), or [beta-carotene](/e160ai-beta-carotene)
-- For neutral/white opacity: [titanium dioxide](/e171-titanium-dioxide) has historically been used, though it is no longer authorized as a food additive in the EU[^5]
-- For dark or black effects: [vegetable carbon](/e153-vegetable-carbon)
+- For yellow to orange tones: [curcumin](/e100-curcumin){.additive}, [riboflavin](/e101-riboflavin){.additive}, or [beta-carotene](/e160ai-beta-carotene){.additive}
+- For neutral/white opacity: [titanium dioxide](/e171-titanium-dioxide){.additive} has historically been used, though it is no longer authorized as a food additive in the EU[^5]
+- For dark or black effects: [vegetable carbon](/e153-vegetable-carbon){.additive}
 
 Each alternative has different stability, brightness, and regulatory status, so formulators choose based on the product and market.
 

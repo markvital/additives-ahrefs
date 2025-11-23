@@ -8,7 +8,7 @@ Polyphosphates (E452) are a family of phosphate salts used in foods to hold wate
 - What it does: Binds water, improves texture and sliceability, prevents mineral haze, buffers acidity
 - Safety: Allowed in the U.S. and EU; the EU set a group ADI (acceptable daily intake) for phosphates expressed as phosphorus
 - Watch-outs: People with chronic kidney disease may need to limit phosphorus from all sources
-- Also known as: E452; common forms include [sodium polyphosphate](/e452i-sodium-polyphosphate), [potassium polyphosphate](/e452ii-potassium-polyphosphate), [sodium calcium polyphosphate](/e452iii-sodium-calcium-polyphosphate), and [calcium polyphosphate](/e452iv-calcium-polyphosphate)
+- Also known as: E452; common forms include [sodium polyphosphate](/e452i-sodium-polyphosphate){.additive}, [potassium polyphosphate](/e452ii-potassium-polyphosphate){.additive}, [sodium calcium polyphosphate](/e452iii-sodium-calcium-polyphosphate){.additive}, and [calcium polyphosphate](/e452iv-calcium-polyphosphate){.additive}
 
 ## Why are Polyphosphates added to food?
 Food makers use polyphosphates because they solve several problems at once. They bind water to improve juiciness and reduce cooking loss, help proteins hold together for better texture, and keep minerals like iron and calcium from causing discoloration or haze. They also act as acidity regulators and can support emulsions in processed foods, which is why they show up across many categories under good manufacturing practice in the U.S. and permitted-use rules in the EU.[^3]
@@ -28,10 +28,10 @@ In the United States, phosphates including polyphosphates are considered safe fo
 
 ## What can replace Polyphosphates?
 Depending on the job you need done, common substitutes include:
-- For mineral control and buffering: [citric acid](/e330-citric-acid) or [sodium citrates](/e331-sodium-citrates)
-- For water binding and texture: [carrageenan](/e407-carrageenan), [xanthan gum](/e415-xanthan-gum), or proteins/hydrocolloids
-- For emulsification: [lecithins](/e322-lecithins)
-- For pH adjustment or leavening in baked goods: [sodium carbonates](/e500-sodium-carbonates) or related systems
+- For mineral control and buffering: [citric acid](/e330-citric-acid){.additive} or [sodium citrates](/e331-sodium-citrates){.additive}
+- For water binding and texture: [carrageenan](/e407-carrageenan){.additive}, [xanthan gum](/e415-xanthan-gum){.additive}, or proteins/hydrocolloids
+- For emulsification: [lecithins](/e322-lecithins){.additive}
+- For pH adjustment or leavening in baked goods: [sodium carbonates](/e500-sodium-carbonates){.additive} or related systems
 Note that none of these are one-to-one replacements in every recipe; formulators often blend ingredients to match the full functionality of polyphosphates.
 
 ## How is Polyphosphates made?
@@ -56,12 +56,12 @@ These benefits explain their wide use in convenience and ready-to-eat foods wher
 ## Who should avoid Polyphosphates?
 People who must limit phosphorus—especially those with chronic kidney disease—may need to watch total phosphorus intake from both natural foods and additives, including polyphosphates.[^5] If you are on a phosphorus-restricted diet, check labels for E-numbers in the phosphate family (such as E338–E341, E450–E452) and consult your healthcare provider.[^1][^5]
 
-If you are reducing sodium, look for versions made with potassium or calcium (e.g., [potassium polyphosphate](/e452ii-potassium-polyphosphate) or [calcium polyphosphate](/e452iv-calcium-polyphosphate)) and consider overall dietary sodium from all sources.
+If you are reducing sodium, look for versions made with potassium or calcium (e.g., [potassium polyphosphate](/e452ii-potassium-polyphosphate){.additive} or [calcium polyphosphate](/e452iv-calcium-polyphosphate){.additive}) and consider overall dietary sodium from all sources.
 
 ## Myths & facts
 - Myth: “Polyphosphates are the same as fertilizer.” Fact: Food-grade polyphosphates are purified, regulated ingredients with strict specifications.
 - Myth: “They only add water weight.” Fact: They also stabilize proteins, control minerals, and improve texture and safety margins in many foods.
-- Myth: “All phosphates are identical.” Fact: The phosphate family includes many substances with different chain lengths and functions—from [phosphoric acid](/e338-phosphoric-acid) to [sodium phosphates](/e339-sodium-phosphates), [triphosphates](/e451-triphosphates), and polyphosphates.
+- Myth: “All phosphates are identical.” Fact: The phosphate family includes many substances with different chain lengths and functions—from [phosphoric acid](/e338-phosphoric-acid){.additive} to [sodium phosphates](/e339-sodium-phosphates){.additive}, [triphosphates](/e451-triphosphates){.additive}, and polyphosphates.
 
 ## Polyphosphates in branded foods
 On grocery shelves, you can often spot E452 on ingredient lists of:

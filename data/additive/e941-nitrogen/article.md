@@ -9,7 +9,7 @@ Here are the basics about nitrogen in food.
 - What it does: Displaces oxygen to slow oxidation and staling; provides pressure for sprays and foams.
 - Where you’ll see it: Snack bags, ground coffee, ready meals, beer and coffee “nitro” drinks, whipped cream cans.
 - Label names: “Nitrogen,” “E941,” sometimes “packaged in a protective atmosphere.”
-- Additive family: Food-grade gases, alongside [carbon dioxide](/e290-carbon-dioxide), [nitrous oxide](/e942-nitrous-oxide), [oxygen](/e948-oxygen), and [argon](/e938-argon).
+- Additive family: Food-grade gases, alongside [carbon dioxide](/e290-carbon-dioxide){.additive}, [nitrous oxide](/e942-nitrous-oxide){.additive}, [oxygen](/e948-oxygen){.additive}, and [argon](/e938-argon){.additive}.
 
 ## Why is Nitrogen added to food?
 Nitrogen is added because it is inert—it does not react easily with foods. In the European Union (EU), E941 is authorized as a “packaging gas” and “propellant,” meaning it can fill headspace in packs or provide pressure to dispense products from containers.[^1] The Codex Alimentarius (the international food standards program of the FAO/WHO) also lists nitrogen for these same functions.[^4]
@@ -28,10 +28,10 @@ On labels, it may appear as “nitrogen,” “E941,” or as a statement like �
 
 ## What can replace Nitrogen?
 Other food-grade gases can serve similar roles:
-- [Carbon dioxide](/e290-carbon-dioxide) can be used alone or mixed with nitrogen for MAP; it also adds fizz to drinks.
-- [Argon](/e938-argon) is another inert gas sometimes used in high-value wines or foods.
-- [Nitrous oxide](/e942-nitrous-oxide) is commonly used as an aerosol propellant, especially for whipped cream.
-- [Oxygen](/e948-oxygen) is occasionally used in controlled amounts for certain fresh foods to maintain color.
+- [Carbon dioxide](/e290-carbon-dioxide){.additive} can be used alone or mixed with nitrogen for MAP; it also adds fizz to drinks.
+- [Argon](/e938-argon){.additive} is another inert gas sometimes used in high-value wines or foods.
+- [Nitrous oxide](/e942-nitrous-oxide){.additive} is commonly used as an aerosol propellant, especially for whipped cream.
+- [Oxygen](/e948-oxygen){.additive} is occasionally used in controlled amounts for certain fresh foods to maintain color.
 
 The choice depends on the food, desired shelf life, texture, and flavor impact.
 
@@ -59,7 +59,7 @@ Nitrogen gas used in food packaging and as a propellant is safe when used as int
   Fact: It’s filled mostly with nitrogen to protect the food and keep it crisp.
 
 - Myth: “Nitrogen is the same as laughing gas.”  
-  Fact: Laughing gas is nitrous oxide, listed as [E942](/e942-nitrous-oxide). Nitrogen (E941) is different.
+  Fact: Laughing gas is nitrous oxide, listed as [E942](/e942-nitrous-oxide){.additive}. Nitrogen (E941) is different.
 
 - Myth: “Nitrogen makes food last forever.”  
   Fact: It helps slow spoilage by reducing oxygen, but safe storage and refrigeration are still needed.

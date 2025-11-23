@@ -21,10 +21,10 @@ Use is limited by regulation and good manufacturing practice, and it is not pres
 
 ## What can replace calcium peroxide?
 Depending on the goal, bakers often use:
-- Ascorbic acid, a common flour improver and oxidant: [ascorbic acid](/e300-ascorbic-acid)
-- Enzymes that aid dough handling and volume: [alpha-amylase](/e1100-alpha-amylase), [lipase](/e1104-lipase)
+- Ascorbic acid, a common flour improver and oxidant: [ascorbic acid](/e300-ascorbic-acid){.additive}
+- Enzymes that aid dough handling and volume: [alpha-amylase](/e1100-alpha-amylase){.additive}, [lipase](/e1104-lipase){.additive}
 - Process choices like longer fermentation or preferments
-- Leavening systems for chemical aeration where appropriate: [sodium bicarbonate](/e500ii-sodium-bicarbonate)
+- Leavening systems for chemical aeration where appropriate: [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive}
 
 No single substitute fits every recipe; formulators pick tools based on flour quality, process, and desired texture.
 
@@ -58,7 +58,7 @@ These are processing and quality benefits; it is not added for nutritional value
   Fact: It is authorized in the EU as E930 with set purity criteria, and the FDA lists it among permitted food additives for specified uses.[^1][^2]
 
 ## calcium peroxide in branded foods
-Look for “calcium peroxide” or “E930” on ingredient lists, especially on flour bags, bread, tortillas, and baking mixes. Not all brands use it; some use alternatives like [ascorbic acid](/e300-ascorbic-acid) or enzyme-based improvers.
+Look for “calcium peroxide” or “E930” on ingredient lists, especially on flour bags, bread, tortillas, and baking mixes. Not all brands use it; some use alternatives like [ascorbic acid](/e300-ascorbic-acid){.additive} or enzyme-based improvers.
 
 ## References
 [^1]: Food Additive Status List — U.S. FDA. https://www.fda.gov/food/food-additives-petitions/food-additive-status-list

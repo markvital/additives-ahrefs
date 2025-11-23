@@ -29,10 +29,10 @@ On labels it appears as “pectin” or “E440.”
 
 ## What can replace Pectins?
 Alternatives depend on the recipe and texture needed:
-- For firm fruit gels: [agar](/e406-agar), [gellan gum](/e418-gellan-gum), or [carrageenan](/e407-carrageenan).
-- For creamy or pourable textures: [xanthan gum](/e415-xanthan-gum), [guar gum](/e412-guar-gum), or [locust bean gum](/e410-locust-bean-gum).
-- For broad thickening: [modified starches](/e14xx-modified-starch) or [acacia gum](/e414-acacia-gum).
-- For animal-derived gels: [gelatine](/e428-gelatine).
+- For firm fruit gels: [agar](/e406-agar){.additive}, [gellan gum](/e418-gellan-gum){.additive}, or [carrageenan](/e407-carrageenan){.additive}.
+- For creamy or pourable textures: [xanthan gum](/e415-xanthan-gum){.additive}, [guar gum](/e412-guar-gum){.additive}, or [locust bean gum](/e410-locust-bean-gum){.additive}.
+- For broad thickening: [modified starches](/e14xx-modified-starch){.additive} or [acacia gum](/e414-acacia-gum){.additive}.
+- For animal-derived gels: [gelatine](/e428-gelatine){.additive}.
 
 Each behaves differently with sugar, acid, heat, and calcium, so swaps are not one‑to‑one.
 

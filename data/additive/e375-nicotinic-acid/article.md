@@ -17,7 +17,7 @@ Manufacturers add nicotinic acid to enrich foods with vitamin B3, a nutrient the
 You’ll most often find nicotinic acid in:
 - Enriched wheat flour and products made from it (such as sandwich bread, pasta, and some crackers), because U.S. standards of identity for enriched flour include niacin.[^2]
 - Enriched rice, which must include niacin under U.S. rules.[^2]
-- Fortified breakfast cereals, meal replacement shakes, and some energy drinks, where niacin is added alongside other vitamins such as [riboflavin](/e101-riboflavin) and [ascorbic acid](/e300-ascorbic-acid).[^3]
+- Fortified breakfast cereals, meal replacement shakes, and some energy drinks, where niacin is added alongside other vitamins such as [riboflavin](/e101-riboflavin){.additive} and [ascorbic acid](/e300-ascorbic-acid){.additive}.[^3]
 
 On ingredient lists, look for “niacin,” “nicotinic acid,” or “E375.”
 

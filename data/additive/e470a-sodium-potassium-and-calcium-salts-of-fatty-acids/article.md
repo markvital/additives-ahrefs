@@ -20,9 +20,9 @@ You may find E470a in a wide range of everyday products. Typical examples includ
 
 ## What can replace Sodium/potassium and calcium salts of fatty acids?
 Alternatives depend on the job it is doing in the recipe:
-- Emulsifying and texture: [lecithins](/e322-lecithins), [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids), [citric acid esters of mono- and diglycerides](/e472c-citric-acid-esters-of-mono-and-diglycerides-of-fatty-acids), [polyglycerol polyricinoleate](/e476-polyglycerol-polyricinoleate)
-- Dough conditioning and crumb: [sodium stearoyl-2-lactylate](/e481-sodium-stearoyl-2-lactylate), [calcium stearoyl-2-lactylate](/e482-calcium-stearoyl-2-lactylate)
-- Thickening and suspension: [xanthan gum](/e415-xanthan-gum), [pectins](/e440-pectins), [sodium carboxymethyl cellulose](/e466-sodium-carboxy-methyl-cellulose)
+- Emulsifying and texture: [lecithins](/e322-lecithins){.additive}, [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive}, [citric acid esters of mono- and diglycerides](/e472c-citric-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive}, [polyglycerol polyricinoleate](/e476-polyglycerol-polyricinoleate){.additive}
+- Dough conditioning and crumb: [sodium stearoyl-2-lactylate](/e481-sodium-stearoyl-2-lactylate){.additive}, [calcium stearoyl-2-lactylate](/e482-calcium-stearoyl-2-lactylate){.additive}
+- Thickening and suspension: [xanthan gum](/e415-xanthan-gum){.additive}, [pectins](/e440-pectins){.additive}, [sodium carboxymethyl cellulose](/e466-sodium-carboxy-methyl-cellulose){.additive}
 
 ## How is Sodium/potassium and calcium salts of fatty acids made?
 Food producers start with fatty acids obtained from edible fats and oils, then neutralise them with sodium, potassium, or calcium compounds to form salts such as sodium stearate and calcium palmitate. Food‑grade specifications set purity criteria (for example, limits on contaminants and residuals) for these salts before they are used in foods.[^2]

@@ -29,9 +29,9 @@ On ingredient lists, look for “tagatose,” “D-tagatose,” or “E963” (E
 
 ## What can replace Tagatose?
 Alternatives depend on the job you need done:
-- To sweeten without adding much bulk: [sucralose](/e955-sucralose), [aspartame](/e951-aspartame), or [acesulfame K](/e950-acesulfame-k)
-- To add bulk and some sweetness: [erythritol](/e968-erythritol), [xylitol](/e967-xylitol), [sorbitol](/e420-sorbitol), or [mannitol](/e421-mannitol)
-- To keep a more “natural” label: [steviol glycosides](/e960-steviol-glycosides) from stevia
+- To sweeten without adding much bulk: [sucralose](/e955-sucralose){.additive}, [aspartame](/e951-aspartame){.additive}, or [acesulfame K](/e950-acesulfame-k){.additive}
+- To add bulk and some sweetness: [erythritol](/e968-erythritol){.additive}, [xylitol](/e967-xylitol){.additive}, [sorbitol](/e420-sorbitol){.additive}, or [mannitol](/e421-mannitol){.additive}
+- To keep a more “natural” label: [steviol glycosides](/e960-steviol-glycosides){.additive} from stevia
 No single sweetener mimics sugar in every way, so blends are common.
 
 ## How is Tagatose made?

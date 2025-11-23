@@ -10,7 +10,7 @@ Hexamethylene tetramine (E239) is a preservative used mainly in a few traditiona
 - Dietary notes: not made from animal products.
 
 ## Why is Hexamethylene tetramine added to food?
-Food makers use E239 to control spoilage bacteria and some molds in specific cheeses that develop in acidic conditions. In acid, hexamethylenetetramine splits and releases a small amount of [formaldehyde](/e240-formaldehyde), which is the actual antimicrobial agent in the food matrix.[^3] This controlled release helps protect the food while keeping levels low.
+Food makers use E239 to control spoilage bacteria and some molds in specific cheeses that develop in acidic conditions. In acid, hexamethylenetetramine splits and releases a small amount of [formaldehyde](/e240-formaldehyde){.additive}, which is the actual antimicrobial agent in the food matrix.[^3] This controlled release helps protect the food while keeping levels low.
 
 ## What foods contain Hexamethylene tetramine?
 Rules in the European Union allow E239 only in Provolone cheese, and only up to a very small maximum level that is calculated as residual formaldehyde in the final product.[^1] Outside this narrow use, it is uncommon to find E239 on ingredient lists of modern foods in regulated markets.
@@ -21,11 +21,11 @@ If you are checking a label, look for “hexamethylenetetramine,” “hexamine,
 
 ## What can replace Hexamethylene tetramine?
 Depending on the product and process, makers may use other preservative strategies instead of E239, such as:
-- Natural antimicrobials for cheese like [nisin](/e234-nisin) or [natamycin](/e235-natamycin).
-- Weak-acid preservatives such as [sorbic acid](/e200-sorbic-acid) and [potassium sorbate](/e202-potassium-sorbate).
-- Preservatives for acidic foods like [sodium benzoate](/e211-sodium-benzoate).
-- Enzymes in cheese like [lysozyme](/e1105-lysozyme).
-- Process controls such as salt, low moisture, and acidity management with [citric acid](/e330-citric-acid).
+- Natural antimicrobials for cheese like [nisin](/e234-nisin){.additive} or [natamycin](/e235-natamycin){.additive}.
+- Weak-acid preservatives such as [sorbic acid](/e200-sorbic-acid){.additive} and [potassium sorbate](/e202-potassium-sorbate){.additive}.
+- Preservatives for acidic foods like [sodium benzoate](/e211-sodium-benzoate){.additive}.
+- Enzymes in cheese like [lysozyme](/e1105-lysozyme){.additive}.
+- Process controls such as salt, low moisture, and acidity management with [citric acid](/e330-citric-acid){.additive}.
 
 ## How is Hexamethylene tetramine made?
 Hexamethylenetetramine is produced by reacting ammonia with formaldehyde in water, followed by crystallization and drying to give a stable, cage-like molecule.[^3] In the EU, it must also meet official purity criteria set for food additives before it can be used.[^2]

@@ -16,10 +16,10 @@ Availability varies by country. In places where E214 is permitted, you may find 
 
 ## What can replace Ethyl p-hydroxybenzoate?
 Depending on the recipe and local rules, food makers may use:
-- Sorbates such as [sorbic acid](/e200-sorbic-acid) or [potassium sorbate](/e202-potassium-sorbate)
-- Benzoates such as [benzoic acid](/e210-benzoic-acid) or [sodium benzoate](/e211-sodium-benzoate)
-- Propionates such as [calcium propionate](/e282-calcium-propionate)
-- Process and packaging controls (for example, heat treatment, pH control with acids like [citric acid](/e330-citric-acid), or modified-atmosphere packaging)
+- Sorbates such as [sorbic acid](/e200-sorbic-acid){.additive} or [potassium sorbate](/e202-potassium-sorbate){.additive}
+- Benzoates such as [benzoic acid](/e210-benzoic-acid){.additive} or [sodium benzoate](/e211-sodium-benzoate){.additive}
+- Propionates such as [calcium propionate](/e282-calcium-propionate){.additive}
+- Process and packaging controls (for example, heat treatment, pH control with acids like [citric acid](/e330-citric-acid){.additive}, or modified-atmosphere packaging)
 
 The best substitute depends on the food’s pH, moisture, flavor profile, and the types of microbes likely to grow.
 
@@ -47,12 +47,12 @@ These benefits only apply when the additive is allowed and used within legal lim
 - Myth: E214 is banned everywhere.
   Fact: It is not authorized in the EU, but regulations vary by country.
 - Myth: All preservatives are alike.
-  Fact: Preservatives work in different ways; for example, [sorbic acid](/e200-sorbic-acid) is most effective against molds and yeasts, while [benzoic acid](/e210-benzoic-acid) works best in acidic foods.
+  Fact: Preservatives work in different ways; for example, [sorbic acid](/e200-sorbic-acid){.additive} is most effective against molds and yeasts, while [benzoic acid](/e210-benzoic-acid){.additive} works best in acidic foods.
 - Myth: If a label lists E214, it must be unsafe.
   Fact: Safety depends on the dose and local regulations; countries set their own rules for if and how it can be used.
 
 ## Ethyl p-hydroxybenzoate in branded foods
-If allowed in your country, you might see it on labels as “ethylparaben,” “ethyl p‑hydroxybenzoate,” or “E214.” In the EU, compliant labels should not list E214. For similar preservative roles, brands may instead use [potassium sorbate](/e202-potassium-sorbate), [sodium benzoate](/e211-sodium-benzoate), or other approved options, depending on the product style and regulations.
+If allowed in your country, you might see it on labels as “ethylparaben,” “ethyl p‑hydroxybenzoate,” or “E214.” In the EU, compliant labels should not list E214. For similar preservative roles, brands may instead use [potassium sorbate](/e202-potassium-sorbate){.additive}, [sodium benzoate](/e211-sodium-benzoate){.additive}, or other approved options, depending on the product style and regulations.
 
 ## References
 [^1]: Opinion of the Scientific Panel on Food Additives, Flavourings, Processing Aids and Materials in Contact with Food on p‑hydroxybenzoates (E 214–219) as food additives — EFSA. https://www.efsa.europa.eu/en/efsajournal/pub/83

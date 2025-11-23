@@ -21,10 +21,10 @@ You’ll most often see E901 on:
 
 ## What can replace white and yellow beeswax?
 Common substitutes include plant and mineral waxes:
-- [Carnauba wax](/e903-carnauba-wax) — very hard, high-gloss plant wax from palm leaves.
-- [Candelilla wax](/e902-candelilla-wax) — plant-based and harder than beeswax.
-- [Shellac](/e904-shellac) — resin from the lac insect; gives strong shine but is not vegan.
-- [Microcrystalline wax](/e905ci-microcrystalline-wax) — petroleum-derived; used in some coatings.  
+- [Carnauba wax](/e903-carnauba-wax){.additive} — very hard, high-gloss plant wax from palm leaves.
+- [Candelilla wax](/e902-candelilla-wax){.additive} — plant-based and harder than beeswax.
+- [Shellac](/e904-shellac){.additive} — resin from the lac insect; gives strong shine but is not vegan.
+- [Microcrystalline wax](/e905ci-microcrystalline-wax){.additive} — petroleum-derived; used in some coatings.  
 Food makers choose among these based on gloss, hardness, melting point, flavor neutrality, and whether a vegan option is needed.
 
 ## How is white and yellow beeswax made?

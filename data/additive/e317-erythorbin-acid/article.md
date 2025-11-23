@@ -14,7 +14,7 @@ In cured meats, it also works with nitrite to speed curing and stabilize the pin
 
 ## What foods contain Erythorbin acid?
 You may find it in:
-- Cured and processed meats such as ham, hot dogs, and bacon (often with [sodium nitrite](/e250-sodium-nitrite)).[^2]
+- Cured and processed meats such as ham, hot dogs, and bacon (often with [sodium nitrite](/e250-sodium-nitrite){.additive}).[^2]
 - Cut or canned fruits and vegetables to control browning.
 - Beverages and syrups where color and flavor stability matter.
 
@@ -22,10 +22,10 @@ In meat and poultry, its use and maximum levels are set by U.S. Department of Ag
 
 ## What can replace Erythorbin acid?
 Depending on the food, common alternatives include:
-- [Ascorbic acid](/e300-ascorbic-acid) or [sodium ascorbate](/e301-sodium-ascorbate) for similar antioxidant and curing effects.
-- [Citric acid](/e330-citric-acid) for acidification and some antioxidant support in fruits.
-- Other antioxidants such as [tertiary butylhydroquinone (TBHQ)](/e319-tertiary-butylhydroquinone-tbhq) or [extracts of rosemary](/e392-extracts-of-rosemary) for fats and oils.
-- Preservatives like [sorbic acid](/e200-sorbic-acid) or [potassium sorbate](/e202-potassium-sorbate) when microbial control is the main need.
+- [Ascorbic acid](/e300-ascorbic-acid){.additive} or [sodium ascorbate](/e301-sodium-ascorbate){.additive} for similar antioxidant and curing effects.
+- [Citric acid](/e330-citric-acid){.additive} for acidification and some antioxidant support in fruits.
+- Other antioxidants such as [tertiary butylhydroquinone (TBHQ)](/e319-tertiary-butylhydroquinone-tbhq){.additive} or [extracts of rosemary](/e392-extracts-of-rosemary){.additive} for fats and oils.
+- Preservatives like [sorbic acid](/e200-sorbic-acid){.additive} or [potassium sorbate](/e202-potassium-sorbate){.additive} when microbial control is the main need.
 
 ## How is Erythorbin acid made?
 Erythorbin acid is a stereochemical cousin (isomer) of vitamin C. It is typically produced from simple sugars (such as glucose) using fermentation and conversion steps, followed by purification to food grade.[^4] Its identity and common synonyms include isoascorbic acid and D-isoascorbic acid.[^5]
@@ -50,7 +50,7 @@ Most people do not need to avoid it. If you are under medical advice to limit ce
   Fact: It is permitted by U.S. and EU authorities within set rules and levels.[^1][^3]
 
 ## Erythorbin acid in branded foods
-On labels, look for “erythorbin acid,” “erythorbic acid,” or “isoascorbic acid.” In meat products, you might also see the related salt “sodium erythorbate.” In multi-ingredient foods, it often appears alongside curing agents like [sodium nitrite](/e250-sodium-nitrite) or antioxidants such as [ascorbic acid](/e300-ascorbic-acid).
+On labels, look for “erythorbin acid,” “erythorbic acid,” or “isoascorbic acid.” In meat products, you might also see the related salt “sodium erythorbate.” In multi-ingredient foods, it often appears alongside curing agents like [sodium nitrite](/e250-sodium-nitrite){.additive} or antioxidants such as [ascorbic acid](/e300-ascorbic-acid){.additive}.
 
 ## References
 [^1]: Food Additive Status List — U.S. FDA. https://www.fda.gov/food/food-additives-petitions/food-additive-status-list

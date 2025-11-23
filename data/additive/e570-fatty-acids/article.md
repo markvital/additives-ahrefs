@@ -10,7 +10,7 @@ Fatty acids (E570) are a group of long-chain acids made from edible fats and oil
 - Regulatory status: Authorized in the EU as E570 and widely permitted in the U.S. when used as intended.
 
 ## Why are fatty acids added to food?
-Fatty acids help food processing run smoothly. They act as release agents so candies, baked goods, and snacks come out of molds and pans cleanly. They can keep powders from clumping, help flavors spread in a mix, and support stable textures in some recipes. In tiny amounts, they also help other emulsifiers and stabilizers do their job, such as [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids) or [lecithins](/e322-lecithins).
+Fatty acids help food processing run smoothly. They act as release agents so candies, baked goods, and snacks come out of molds and pans cleanly. They can keep powders from clumping, help flavors spread in a mix, and support stable textures in some recipes. In tiny amounts, they also help other emulsifiers and stabilizers do their job, such as [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive} or [lecithins](/e322-lecithins){.additive}.
 
 ## What foods contain fatty acids?
 You may find E570 in:
@@ -23,10 +23,10 @@ In the U.S., specific fatty acids such as octanoic (caprylic) and decanoic (capr
 
 ## What can replace fatty acids?
 Depending on the job, manufacturers might instead use:
-- Release and coating agents: [carnauba wax](/e903-carnauba-wax), [candelilla wax](/e902-candelilla-wax), or [shellac](/e904-shellac)
-- Emulsifiers and texture aids: [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids), [sucrose esters of fatty acids](/e473-sucrose-esters-of-fatty-acids), [sorbitan monostearate](/e491-sorbitan-monostearate), [polyglycerol polyricinoleate](/e476-polyglycerol-polyricinoleate), or [sodium stearoyl-2-lactylate](/e481-sodium-stearoyl-2-lactylate)
-- Carriers for flavors and vitamins: modified starches like [starch sodium octenyl succinate](/e1450-starch-sodium-octenyl-succinate)
-- Salts of fatty acids that behave similarly: [sodium, potassium and calcium salts of fatty acids](/e470a-sodium-potassium-and-calcium-salts-of-fatty-acids), [magnesium salts of fatty acids](/e470b-magnesium-salts-of-fatty-acids)
+- Release and coating agents: [carnauba wax](/e903-carnauba-wax){.additive}, [candelilla wax](/e902-candelilla-wax){.additive}, or [shellac](/e904-shellac){.additive}
+- Emulsifiers and texture aids: [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive}, [sucrose esters of fatty acids](/e473-sucrose-esters-of-fatty-acids){.additive}, [sorbitan monostearate](/e491-sorbitan-monostearate){.additive}, [polyglycerol polyricinoleate](/e476-polyglycerol-polyricinoleate){.additive}, or [sodium stearoyl-2-lactylate](/e481-sodium-stearoyl-2-lactylate){.additive}
+- Carriers for flavors and vitamins: modified starches like [starch sodium octenyl succinate](/e1450-starch-sodium-octenyl-succinate){.additive}
+- Salts of fatty acids that behave similarly: [sodium, potassium and calcium salts of fatty acids](/e470a-sodium-potassium-and-calcium-salts-of-fatty-acids){.additive}, [magnesium salts of fatty acids](/e470b-magnesium-salts-of-fatty-acids){.additive}
 
 ## How is fatty acids made?
 E570 is defined in the EU as a mixture of fatty acids obtained by hydrolyzing (splitting) edible fats and oils, followed by fractionation and purification. The fats and oils used may be of animal or vegetable origin.[^2]

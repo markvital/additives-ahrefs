@@ -23,9 +23,9 @@ Exact uses and limits vary by product type and region; manufacturers must follow
 
 ## What can replace Erythorbic acid?
 Alternatives depend on the recipe and goal:
-- Vitamin C forms: [ascorbic acid](/e300-ascorbic-acid), [sodium ascorbate](/e301-sodium-ascorbate), or the closely related [sodium erythorbate](/e316-sodium-erythorbate)
-- Other antioxidants: [tocopherol-rich extract](/e306-tocopherol-rich-extract), [butylated hydroxyanisole (BHA)](/e320-butylated-hydroxyanisole-bha), [butylated hydroxytoluene (BHT)](/e321-butylated-hydroxytoluene), or [tertiary butylhydroquinone (TBHQ)](/e319-tertiary-butylhydroquinone-tbhq)
-- Acidulants and natural extracts that can support color/flavor stability in some foods: [citric acid](/e330-citric-acid) and [extracts of rosemary](/e392-extracts-of-rosemary)
+- Vitamin C forms: [ascorbic acid](/e300-ascorbic-acid){.additive}, [sodium ascorbate](/e301-sodium-ascorbate){.additive}, or the closely related [sodium erythorbate](/e316-sodium-erythorbate){.additive}
+- Other antioxidants: [tocopherol-rich extract](/e306-tocopherol-rich-extract){.additive}, [butylated hydroxyanisole (BHA)](/e320-butylated-hydroxyanisole-bha){.additive}, [butylated hydroxytoluene (BHT)](/e321-butylated-hydroxytoluene){.additive}, or [tertiary butylhydroquinone (TBHQ)](/e319-tertiary-butylhydroquinone-tbhq){.additive}
+- Acidulants and natural extracts that can support color/flavor stability in some foods: [citric acid](/e330-citric-acid){.additive} and [extracts of rosemary](/e392-extracts-of-rosemary){.additive}
 
 The best substitute depends on the food’s pH, fat content, processing steps, and label goals.
 
@@ -41,7 +41,7 @@ Erythorbic acid helps foods keep their intended color and taste. In cured meats,
 ## Who should avoid Erythorbic acid?
 - There are no specific consumer groups that regulators single out to avoid E315 when it’s used as intended.
 - If you are following medical advice to limit certain additives, or you react to antioxidant additives in general, review labels and consult your healthcare provider.
-- Watching sodium? The related salt [sodium erythorbate](/e316-sodium-erythorbate) appears on labels separately from erythorbic acid.
+- Watching sodium? The related salt [sodium erythorbate](/e316-sodium-erythorbate){.additive} appears on labels separately from erythorbic acid.
 
 ## Myths & facts
 - Myth: “Erythorbic acid is the same as vitamin C.” Fact: It’s a close chemical cousin (stereoisomer), but it’s added for antioxidant performance in foods, not as a vitamin.[^6]

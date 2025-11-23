@@ -18,10 +18,10 @@ You’re most likely to find Malvidin in foods that aim for a fruit-forward colo
 
 ## What can replace Malvidin?
 Depending on the target shade, formulators may switch to other approved colors:
-- Other anthocyanins for similar berry hues: [anthocyanins](/e163-anthocyanins)
-- Warm yellow to orange: [curcumin](/e100-curcumin) or [beta-carotene](/e160ai-beta-carotene)
-- Brown to cola-like tones: [plain caramel](/e150a-plain-caramel) or [ammonia caramel](/e150c-ammonia-caramel)
-- Red from roots: [beetroot red](/e162-beetroot-red)
+- Other anthocyanins for similar berry hues: [anthocyanins](/e163-anthocyanins){.additive}
+- Warm yellow to orange: [curcumin](/e100-curcumin){.additive} or [beta-carotene](/e160ai-beta-carotene){.additive}
+- Brown to cola-like tones: [plain caramel](/e150a-plain-caramel){.additive} or [ammonia caramel](/e150c-ammonia-caramel){.additive}
+- Red from roots: [beetroot red](/e162-beetroot-red){.additive}
 
 The best substitute depends on pH, processing conditions, and the exact shade needed.
 

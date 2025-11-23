@@ -9,13 +9,13 @@ Dicalcium phosphate is a mineral salt that helps foods keep their texture and fl
 - Where you’ll see it: baking powder and mixes, self-rising flour, powdered drink bases, dry dairy replacers, confectionery powders, and some fortified foods.
 - How it tastes: essentially neutral; it doesn’t add a strong flavor.
 - Label names: Dicalcium phosphate, calcium hydrogen phosphate, E341ii.
-- Related additives: [monocalcium phosphate](/e341i-monocalcium-phosphate) (E341i) and [tricalcium phosphate](/e341iii-tricalcium-phosphate) (E341iii).
+- Related additives: [monocalcium phosphate](/e341i-monocalcium-phosphate){.additive} (E341i) and [tricalcium phosphate](/e341iii-tricalcium-phosphate){.additive} (E341iii).
 
 ## Why is Dicalcium phosphate added to food?
 Food makers use it to keep powders free-flowing, to control acidity, to stabilize mixtures, and to supply calcium without altering taste very much.^[It is authorized in the EU as a food additive (E341ii) with functions including acidity regulation, anti-caking, stabilizing, and raising agent roles.]^1
 
 - Anti-caking in dry mixes: helps prevent clumps in powdered sugar blends, spice mixes, drink powders, and instant desserts.^1
-- Leavening support: in some baking powders, dicalcium phosphate dihydrate can react slowly with [sodium bicarbonate](/e500ii-sodium-bicarbonate) to release carbon dioxide during baking.^1
+- Leavening support: in some baking powders, dicalcium phosphate dihydrate can react slowly with [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive} to release carbon dioxide during baking.^1
 - Calcium fortification: adds a stable, low-flavor source of calcium to certain foods and supplements.^1
 - Buffering/acidity control: helps maintain a target pH (acidity), which protects texture and flavor.^1
 
@@ -33,9 +33,9 @@ Always check the ingredient list; it may appear as “dicalcium phosphate,” �
 ## What can replace Dicalcium phosphate?
 Alternatives depend on the job it performs in your recipe or product.
 
-- Anti-caking: [tricalcium phosphate](/e341iii-tricalcium-phosphate), [calcium carbonate](/e170i-calcium-carbonate)
-- Leavening acid: [monocalcium phosphate](/e341i-monocalcium-phosphate), [disodium diphosphate](/e450i-disodium-diphosphate), [glucono delta-lactone](/e575-glucono-delta-lactone), [citric acid](/e330-citric-acid) in some applications
-- Calcium fortification: [calcium citrate](/e333-calcium-citrates), [calcium lactate](/e327-calcium-lactate), [calcium carbonate](/e170i-calcium-carbonate)
+- Anti-caking: [tricalcium phosphate](/e341iii-tricalcium-phosphate){.additive}, [calcium carbonate](/e170i-calcium-carbonate){.additive}
+- Leavening acid: [monocalcium phosphate](/e341i-monocalcium-phosphate){.additive}, [disodium diphosphate](/e450i-disodium-diphosphate){.additive}, [glucono delta-lactone](/e575-glucono-delta-lactone){.additive}, [citric acid](/e330-citric-acid){.additive} in some applications
+- Calcium fortification: [calcium citrate](/e333-calcium-citrates){.additive}, [calcium lactate](/e327-calcium-lactate){.additive}, [calcium carbonate](/e170i-calcium-carbonate){.additive}
 
 ## How is Dicalcium phosphate made?
 In food manufacturing, it is produced by reacting a purified phosphate source with a calcium source, then filtering and drying to meet strict identity and purity standards.^[EFSA’s re-evaluation describes calcium phosphates being produced by neutralizing phosphoric acid with calcium salts, with specifications set for food-grade materials.]^1 ^[EU Regulation 231/2012 sets identity and purity specifications for E341, including dicalcium phosphate.]^2
@@ -60,7 +60,7 @@ If you have kidney disease or a mineral imbalance, talk with your healthcare pro
 A few quick clarifications help put this additive in context.
 
 - Myth: “Dicalcium phosphate is just filler.” Fact: It has clear functions—anti-caking, buffering, and sometimes leavening—so it improves quality and consistency in specific foods.^1
-- Myth: “All phosphate additives act the same.” Fact: Different phosphates behave differently; for example, [monocalcium phosphate](/e341i-monocalcium-phosphate) is fast-acting in baking, while dicalcium phosphate is slower and is often used for flow and texture.^1
+- Myth: “All phosphate additives act the same.” Fact: Different phosphates behave differently; for example, [monocalcium phosphate](/e341i-monocalcium-phosphate){.additive} is fast-acting in baking, while dicalcium phosphate is slower and is often used for flow and texture.^1
 - Myth: “It always adds a chalky taste.” Fact: At food-use levels, it is essentially neutral in flavor and is chosen because it doesn’t strongly affect taste.^2
 
 ## Dicalcium phosphate in branded foods

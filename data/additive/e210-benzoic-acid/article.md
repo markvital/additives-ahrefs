@@ -9,7 +9,7 @@ Benzoic acid is a common preservative for acidic foods and beverages.
 - Works best at low pH (acidic foods and drinks)
 - Found in soft drinks, fruit products, pickles, sauces, and dressings
 - On labels you might see: “benzoic acid” or “E210”
-- Related salts include [sodium benzoate](/e211-sodium-benzoate), [potassium benzoate](/e212-potassium-benzoate), and [calcium benzoate](/e213-calcium-benzoate)
+- Related salts include [sodium benzoate](/e211-sodium-benzoate){.additive}, [potassium benzoate](/e212-potassium-benzoate){.additive}, and [calcium benzoate](/e213-calcium-benzoate){.additive}
 
 ## Why is Benzoic acid added to food?
 Benzoic acid helps prevent spoilage by inhibiting yeasts, molds, and some bacteria, especially in acidic foods and beverages. In low-pH conditions, more of the acid is in its “undissociated” form, which can pass into microbial cells and disrupt their normal functions, slowing growth and extending shelf life.[^1]
@@ -19,11 +19,11 @@ You’ll most often find benzoic acid in acidic products such as soft drinks, fl
 
 ## What can replace Benzoic acid?
 Depending on the food and the goal, manufacturers may use:
-- Related benzoates: [sodium benzoate](/e211-sodium-benzoate), [potassium benzoate](/e212-potassium-benzoate), [calcium benzoate](/e213-calcium-benzoate)
-- Sorbates for similar antimicrobial action: [sorbic acid](/e200-sorbic-acid), [potassium sorbate](/e202-potassium-sorbate)
-- Acidification to keep pH low: [citric acid](/e330-citric-acid)
-- Other targeted preservatives in certain foods: [nisin](/e234-nisin), [natamycin](/e235-natamycin)
-- Packaging and process options (e.g., carbonation with [carbon dioxide](/e290-carbon-dioxide), refrigeration, pasteurization)
+- Related benzoates: [sodium benzoate](/e211-sodium-benzoate){.additive}, [potassium benzoate](/e212-potassium-benzoate){.additive}, [calcium benzoate](/e213-calcium-benzoate){.additive}
+- Sorbates for similar antimicrobial action: [sorbic acid](/e200-sorbic-acid){.additive}, [potassium sorbate](/e202-potassium-sorbate){.additive}
+- Acidification to keep pH low: [citric acid](/e330-citric-acid){.additive}
+- Other targeted preservatives in certain foods: [nisin](/e234-nisin){.additive}, [natamycin](/e235-natamycin){.additive}
+- Packaging and process options (e.g., carbonation with [carbon dioxide](/e290-carbon-dioxide){.additive}, refrigeration, pasteurization)
 
 ## How is Benzoic acid made?
 Food-grade benzoic acid used in the EU must meet official identity and purity specifications; it is produced by chemical synthesis and refined to food-grade quality.[^4] It is also naturally present in some plants and may appear in small amounts in fermented foods due to microbial activity.[^3]
@@ -45,7 +45,7 @@ Products for infants and young children have stricter additive rules in the EU, 
 - “An E-number means unsafe.” Fact: E-numbers are simply the EU’s code for additives that have been evaluated and authorized for specific uses.[^2]
 
 ## Benzoic acid in branded foods
-On labels, benzoic acid usually appears as “benzoic acid” or “E210.” It is common in ingredient lists for acidic soft drinks, fruit-flavored beverages and syrups, pickles and relish, jams and jellies, and some sauces and dressings. If you prefer to avoid it, scan the ingredient list for “benzoic acid,” “E210,” or consider products preserved with alternatives such as [sorbic acid](/e200-sorbic-acid) or [potassium sorbate](/e202-potassium-sorbate), when appropriate for the food.
+On labels, benzoic acid usually appears as “benzoic acid” or “E210.” It is common in ingredient lists for acidic soft drinks, fruit-flavored beverages and syrups, pickles and relish, jams and jellies, and some sauces and dressings. If you prefer to avoid it, scan the ingredient list for “benzoic acid,” “E210,” or consider products preserved with alternatives such as [sorbic acid](/e200-sorbic-acid){.additive} or [potassium sorbate](/e202-potassium-sorbate){.additive}, when appropriate for the food.
 
 ## References
 [^1]: Re-evaluation of benzoic acid (E 210), sodium benzoate (E 211), potassium benzoate (E 212) and calcium benzoate (E 213) as food additives — EFSA Journal (2016). https://www.efsa.europa.eu/en/efsajournal/pub/4433

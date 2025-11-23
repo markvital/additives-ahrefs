@@ -24,7 +24,7 @@ These are typical authorized uses in the European Union for anti-caking purposes
 
 ## What can replace Calcium aluminium silicate?
 Depending on the product and process, formulators may choose other anti-caking agents or simple process controls.
-- Common alternatives: [silicon dioxide](/e551-silicon-dioxide), [calcium silicate](/e552-calcium-silicate), [talc](/e553b-talc), [tricalcium phosphate](/e341iii-tricalcium-phosphate), and [cellulose](/e460-cellulose).
+- Common alternatives: [silicon dioxide](/e551-silicon-dioxide){.additive}, [calcium silicate](/e552-calcium-silicate){.additive}, [talc](/e553b-talc){.additive}, [tricalcium phosphate](/e341iii-tricalcium-phosphate){.additive}, and [cellulose](/e460-cellulose){.additive}.
 - Non-additive approaches: better packaging, drier storage, and controlled humidity can also reduce caking.
 
 ## How is Calcium aluminium silicate made?
@@ -44,10 +44,10 @@ Most people do not need to avoid E556 when it is used as intended. However, peop
 ## Myths & facts
 A few common points often cause confusion—here’s what the science says.
 - Myth: “It releases aluminium metal into food.” Fact: In calcium aluminium silicate, aluminium is part of an insoluble aluminosilicate structure and is poorly bioavailable; EFSA identified no safety concern at reported uses.[^2]
-- Myth: “Anti-caking agents are all the same.” Fact: Different agents, such as [silicon dioxide](/e551-silicon-dioxide) or [calcium silicate](/e552-calcium-silicate), have different chemistries, use levels, and best-fit applications.
+- Myth: “Anti-caking agents are all the same.” Fact: Different agents, such as [silicon dioxide](/e551-silicon-dioxide){.additive} or [calcium silicate](/e552-calcium-silicate){.additive}, have different chemistries, use levels, and best-fit applications.
 
 ## Calcium aluminium silicate in branded foods
-On ingredient lists, look for “E556,” “calcium aluminium silicate,” or “calcium aluminosilicate.” You’ll most often see it on salts, salt substitutes, and some seasoning or dry mix labels. If you prefer to avoid it, choose products labeled as having no anti-caking agents or those using alternatives like [silicon dioxide](/e551-silicon-dioxide) or [cellulose](/e460-cellulose).
+On ingredient lists, look for “E556,” “calcium aluminium silicate,” or “calcium aluminosilicate.” You’ll most often see it on salts, salt substitutes, and some seasoning or dry mix labels. If you prefer to avoid it, choose products labeled as having no anti-caking agents or those using alternatives like [silicon dioxide](/e551-silicon-dioxide){.additive} or [cellulose](/e460-cellulose){.additive}.
 
 ## References
 [^1]: Commission Regulation (EU) No 231/2012 laying down specifications for food additives — EUR-Lex. https://eur-lex.europa.eu/eli/reg/2012/231/oj

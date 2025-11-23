@@ -13,7 +13,7 @@ Sodium calcium polyphosphate (E452III) is a mixed salt of long-chain phosphates 
 ## Why is sodium calcium polyphosphate added to food?
 This additive improves texture and water-holding, especially in meat, poultry, seafood, and cheese-style products. It acts as a stabiliser, sequestrant (binds metals that can cause off-flavors or discoloration), and emulsifying salt that helps proteins interact with fat and water for a smooth, sliceable texture.[^2]
 
-It is part of the broader [polyphosphates](/e452-polyphosphates) group (E452), which also includes [sodium polyphosphate](/e452i-sodium-polyphosphate) and [sodium tripolyphosphate](/e452vi-sodium-tripolyphosphate).
+It is part of the broader [polyphosphates](/e452-polyphosphates){.additive} group (E452), which also includes [sodium polyphosphate](/e452i-sodium-polyphosphate){.additive} and [sodium tripolyphosphate](/e452vi-sodium-tripolyphosphate){.additive}.
 
 ## What foods contain sodium calcium polyphosphate?
 You’ll most often see it in:
@@ -26,15 +26,15 @@ In the EU, polyphosphates (E452) are authorized in a wide range of food categori
 
 ## What can replace sodium calcium polyphosphate?
 Possible functional alternatives depend on the job to be done:
-- For emulsifying/cheese-melting control: [sodium phosphates](/e339-sodium-phosphates), [diphosphates](/e450-diphosphates), or [triphosphates](/e451-triphosphates)
-- For buffering or chelating: [citric acid](/e330-citric-acid), [sodium citrates](/e331-sodium-citrates), or [calcium citrates](/e333-calcium-citrates)
-- For water-binding/texture: [carrageenan](/e407-carrageenan), [xanthan gum](/e415-xanthan-gum), or [lecithins](/e322-lecithins)
-- For alkalinity in doughs: [sodium carbonates](/e500-sodium-carbonates)
+- For emulsifying/cheese-melting control: [sodium phosphates](/e339-sodium-phosphates){.additive}, [diphosphates](/e450-diphosphates){.additive}, or [triphosphates](/e451-triphosphates){.additive}
+- For buffering or chelating: [citric acid](/e330-citric-acid){.additive}, [sodium citrates](/e331-sodium-citrates){.additive}, or [calcium citrates](/e333-calcium-citrates){.additive}
+- For water-binding/texture: [carrageenan](/e407-carrageenan){.additive}, [xanthan gum](/e415-xanthan-gum){.additive}, or [lecithins](/e322-lecithins){.additive}
+- For alkalinity in doughs: [sodium carbonates](/e500-sodium-carbonates){.additive}
 
 No single substitute replicates every function, so formulators often combine alternatives.
 
 ## How is sodium calcium polyphosphate made?
-Food-grade polyphosphates are produced by dehydrating and condensing orthophosphates (such as [phosphoric acid](/e338-phosphoric-acid) salts) at high temperature to form chains of phosphate units. Sodium and calcium salts are co-processed to achieve the required composition and solubility, yielding the mixed sodium–calcium form (E452III).[^2]
+Food-grade polyphosphates are produced by dehydrating and condensing orthophosphates (such as [phosphoric acid](/e338-phosphoric-acid){.additive} salts) at high temperature to form chains of phosphate units. Sodium and calcium salts are co-processed to achieve the required composition and solubility, yielding the mixed sodium–calcium form (E452III).[^2]
 
 ## Is sodium calcium polyphosphate safe to eat?
 EFSA (European Food Safety Authority) set a group acceptable daily intake (ADI) for phosphates—including polyphosphates E452—of 40 mg per kilogram of body weight per day, expressed as phosphorus. This ADI covers E 338–341, E 343, and E 450–452.[^5] In the U.S., phosphates and polyphosphates are permitted for defined uses and levels; the FDA’s Food Additive Status List reflects their regulatory standing in foods.[^6]

@@ -24,10 +24,10 @@ In the U.S., its permitted uses include functions like firming and flour treatme
 
 ## What can replace Calcium sulphate?
 Depending on the job, technologists may choose:
-- Firming in fruits/vegetables or tofu-like products: [calcium chloride](/e509-calcium-chloride)
-- Anti-caking in powders and spices: [silicon dioxide](/e551-silicon-dioxide), [tricalcium phosphate](/e341iii-tricalcium-phosphate), or [calcium silicate](/e552-calcium-silicate)
-- Dough conditioning/flour treatment: [calcium carbonate](/e170-calcium-carbonates) or [monocalcium phosphate](/e341i-monocalcium-phosphate), sometimes alongside leavening agents like [sodium bicarbonate](/e500ii-sodium-bicarbonate)
-- Stabilising/thickening in liquids or gels: [xanthan gum](/e415-xanthan-gum), [carrageenan](/e407-carrageenan), or [gellan gum](/e418-gellan-gum)
+- Firming in fruits/vegetables or tofu-like products: [calcium chloride](/e509-calcium-chloride){.additive}
+- Anti-caking in powders and spices: [silicon dioxide](/e551-silicon-dioxide){.additive}, [tricalcium phosphate](/e341iii-tricalcium-phosphate){.additive}, or [calcium silicate](/e552-calcium-silicate){.additive}
+- Dough conditioning/flour treatment: [calcium carbonate](/e170-calcium-carbonates){.additive} or [monocalcium phosphate](/e341i-monocalcium-phosphate){.additive}, sometimes alongside leavening agents like [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive}
+- Stabilising/thickening in liquids or gels: [xanthan gum](/e415-xanthan-gum){.additive}, [carrageenan](/e407-carrageenan){.additive}, or [gellan gum](/e418-gellan-gum){.additive}
 
 ## How is Calcium sulphate made?
 Food-grade calcium sulphate is produced from purified natural gypsum or by a controlled chemical process, then milled and screened to meet strict purity specifications.[^3] The EU specification allows anhydrous or dihydrate forms for E516 and sets limits for contaminants, identity, and solubility so only highly pure material is used in food.[^3]
@@ -48,7 +48,7 @@ Most people do not need to avoid E516 in ordinary foods. If your clinician has a
 
 ## Myths & facts
 - “It’s just plaster of Paris in food.” Fact: Food-grade calcium sulphate must meet strict identity and purity specs set in law; it is not the same as construction-grade material.[^3]
-- “Sulfates and sulfites are the same.” Myth: Sulphates (like E516) and sulphites (such as [sulphur dioxide](/e220-sulphur-dioxide)) are different chemical groups and used for different purposes.
+- “Sulfates and sulfites are the same.” Myth: Sulphates (like E516) and sulphites (such as [sulphur dioxide](/e220-sulphur-dioxide){.additive}) are different chemical groups and used for different purposes.
 - “It adds a strong taste.” Myth: Calcium sulphate is essentially tasteless at typical use levels and is chosen for function, not flavor.[^2]
 
 ## Calcium sulphate in branded foods

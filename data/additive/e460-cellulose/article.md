@@ -24,10 +24,10 @@ You can find cellulose in many everyday items:
 
 ## What can replace Cellulose?
 Depending on the job it does in a recipe, manufacturers might use:
-- Anti‑caking/flow aids: [silicon dioxide](/e551-silicon-dioxide)
-- Texture and stabilization: [xanthan gum](/e415-xanthan-gum), [carrageenan](/e407-carrageenan), [guar gum](/e412-guar-gum), [acacia gum](/e414-acacia-gum)
-- Bulking and humectancy: [sorbitol](/e420-sorbitol)
-- Alternative cellulose form for creamy textures: [microcrystalline cellulose](/e460i-microcrystalline-cellulose)
+- Anti‑caking/flow aids: [silicon dioxide](/e551-silicon-dioxide){.additive}
+- Texture and stabilization: [xanthan gum](/e415-xanthan-gum){.additive}, [carrageenan](/e407-carrageenan){.additive}, [guar gum](/e412-guar-gum){.additive}, [acacia gum](/e414-acacia-gum){.additive}
+- Bulking and humectancy: [sorbitol](/e420-sorbitol){.additive}
+- Alternative cellulose form for creamy textures: [microcrystalline cellulose](/e460i-microcrystalline-cellulose){.additive}
 
 ## How is Cellulose made?
 Food‑grade cellulose is purified from plant sources such as wood pulp or cotton linters. Microcrystalline cellulose is produced by partially hydrolyzing cellulose, then washing and drying it to create small, uniform particles. Powdered cellulose is typically made by mechanically grinding purified cellulose into a fine powder. In the EU, specifications set what the additive must look like, how pure it must be, and limits for contaminants like heavy metals.[^2]

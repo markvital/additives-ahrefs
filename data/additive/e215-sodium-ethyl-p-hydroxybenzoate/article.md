@@ -24,11 +24,11 @@ On labels, it may appear as “sodium ethylparaben,” “sodium ethyl p‑hydro
 
 ## What can replace Sodium ethyl p-hydroxybenzoate?
 Depending on the food and pH, makers might use:
-- [Sorbic acid](/e200-sorbic-acid) or [potassium sorbate](/e202-potassium-sorbate)
-- [Benzoic acid](/e210-benzoic-acid) or [sodium benzoate](/e211-sodium-benzoate)
-- [Calcium propionate](/e282-calcium-propionate) for baked goods
-- [Dimethyl dicarbonate](/e242-dimethyl-dicarbonate) for some beverages
-- Natural antimicrobials for specific foods, such as [nisin](/e234-nisin) or [natamycin](/e235-natamycin)
+- [Sorbic acid](/e200-sorbic-acid){.additive} or [potassium sorbate](/e202-potassium-sorbate){.additive}
+- [Benzoic acid](/e210-benzoic-acid){.additive} or [sodium benzoate](/e211-sodium-benzoate){.additive}
+- [Calcium propionate](/e282-calcium-propionate){.additive} for baked goods
+- [Dimethyl dicarbonate](/e242-dimethyl-dicarbonate){.additive} for some beverages
+- Natural antimicrobials for specific foods, such as [nisin](/e234-nisin){.additive} or [natamycin](/e235-natamycin){.additive}
 
 Formulators often combine preservatives with good hygiene, pH control, and packaging to achieve the needed shelf life.
 
@@ -48,7 +48,7 @@ Note: ADI means acceptable daily intake—the amount that can be consumed daily 
 - Because it’s a sodium salt, it dissolves well in water-based foods, which can improve consistency in beverages and syrups.
 
 ## Who should avoid Sodium ethyl p-hydroxybenzoate?
-- People with a known paraben sensitivity or allergy should avoid E215 and related parabens such as [ethyl p-hydroxybenzoate](/e214-ethyl-p-hydroxybenzoate), [propyl paraben](/e216-propyl-para-hydroxybenzoate), and [sodium propyl paraben](/e217-sodium-propyl-para-hydroxybenzoate). If you have had reactions to products containing parabens, speak with your healthcare provider.[^3]
+- People with a known paraben sensitivity or allergy should avoid E215 and related parabens such as [ethyl p-hydroxybenzoate](/e214-ethyl-p-hydroxybenzoate){.additive}, [propyl paraben](/e216-propyl-para-hydroxybenzoate){.additive}, and [sodium propyl paraben](/e217-sodium-propyl-para-hydroxybenzoate){.additive}. If you have had reactions to products containing parabens, speak with your healthcare provider.[^3]
 - If your clinician has advised you to avoid parabens for any reason, check labels for “paraben,” “p‑hydroxybenzoate,” “E215,” or “INS 215.”
 
 ## Myths & facts
@@ -57,7 +57,7 @@ Note: ADI means acceptable daily intake—the amount that can be consumed daily 
 - Myth: “All parabens act like strong hormones.” Fact: Parabens have weak estrogenic activity in some tests, far below natural estrogen, and current exposure levels are not considered a safety concern by major regulators.[^3]
 
 ## Sodium ethyl p-hydroxybenzoate in branded foods
-On ingredient lists, look for: “sodium ethyl p‑hydroxybenzoate,” “sodium ethylparaben,” “E215,” or “INS 215.” You’ll most often see it in sweet or acidic, water-based products that need yeast and mold control, such as flavored drinks, syrups, toppings, and fruit fillings. If you wish to avoid it, scan labels for those names or choose products preserved with alternatives like [potassium sorbate](/e202-potassium-sorbate) or [sodium benzoate](/e211-sodium-benzoate).
+On ingredient lists, look for: “sodium ethyl p‑hydroxybenzoate,” “sodium ethylparaben,” “E215,” or “INS 215.” You’ll most often see it in sweet or acidic, water-based products that need yeast and mold control, such as flavored drinks, syrups, toppings, and fruit fillings. If you wish to avoid it, scan labels for those names or choose products preserved with alternatives like [potassium sorbate](/e202-potassium-sorbate){.additive} or [sodium benzoate](/e211-sodium-benzoate){.additive}.
 
 ## References
 [^1]: Parabens (methyl, ethyl, and their sodium salts) — WHO/JECFA, Food Additives Series. https://inchem.org/documents/jecfa/jecmono/v51je06.htm

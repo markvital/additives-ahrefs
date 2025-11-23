@@ -26,9 +26,9 @@ They can also appear in glazing agents and as processing aids on equipment surfa
 
 ## What can replace Sodium/potassium/calcium and magnesium salts of fatty acids?
 Possible alternatives depend on the job they do:
-- Emulsifying/texture: [lecithins](/e322-lecithins), [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids), [sodium stearoyl-2‑lactylate](/e481-sodium-stearoyl-2-lactylate), [calcium stearoyl-2‑lactylate](/e482-calcium-stearoyl-2-lactylate)
-- Thickening/stabilising: [xanthan gum](/e415-xanthan-gum), [guar gum](/e412-guar-gum), [cellulose](/e460-cellulose)
-- Anti‑caking/flow: [silicon dioxide](/e551-silicon-dioxide), [calcium silicate](/e552-calcium-silicate)
+- Emulsifying/texture: [lecithins](/e322-lecithins){.additive}, [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive}, [sodium stearoyl-2‑lactylate](/e481-sodium-stearoyl-2-lactylate){.additive}, [calcium stearoyl-2‑lactylate](/e482-calcium-stearoyl-2-lactylate){.additive}
+- Thickening/stabilising: [xanthan gum](/e415-xanthan-gum){.additive}, [guar gum](/e412-guar-gum){.additive}, [cellulose](/e460-cellulose){.additive}
+- Anti‑caking/flow: [silicon dioxide](/e551-silicon-dioxide){.additive}, [calcium silicate](/e552-calcium-silicate){.additive}
 
 ## How is Sodium/potassium/calcium and magnesium salts of fatty acids made?
 Manufacturers start with edible fats and oils (plant or animal). These are split to obtain long‑chain fatty acids such as stearic and palmitic acids. The fatty acids are then neutralized with food‑grade sodium, potassium, calcium, or magnesium compounds to form their salts (for example, calcium stearate or magnesium stearate). The resulting materials are purified to meet official specifications for identity and purity laid down in EU law for E470a (sodium, potassium, and calcium salts of fatty acids) and E470b (magnesium salts of fatty acids).[^1]

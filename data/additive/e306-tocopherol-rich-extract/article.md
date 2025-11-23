@@ -26,11 +26,11 @@ It is also used to help stabilize flavors and certain oil-based ingredients.
 
 ## What can replace Tocopherol-rich extract?
 Depending on the food and the desired shelf life, common alternatives include:
-- Natural antioxidants such as [extracts of rosemary](/e392-extracts-of-rosemary)
-- Synthetic antioxidants like [butylated hydroxyanisole (BHA)](/e320-butylated-hydroxyanisole-bha) and [butylated hydroxytoluene (BHT)](/e321-butylated-hydroxytoluene)
-- Vitamin C–based antioxidants such as [ascorbyl palmitate](/e304i-ascorbyl-palmitate) or [ascorbic acid](/e300-ascorbic-acid)
-- Other phenolic antioxidants like [propyl gallate](/e310-propyl-gallate)
-- Synergists that boost antioxidant systems, such as [citric acid](/e330-citric-acid)
+- Natural antioxidants such as [extracts of rosemary](/e392-extracts-of-rosemary){.additive}
+- Synthetic antioxidants like [butylated hydroxyanisole (BHA)](/e320-butylated-hydroxyanisole-bha){.additive} and [butylated hydroxytoluene (BHT)](/e321-butylated-hydroxytoluene){.additive}
+- Vitamin C–based antioxidants such as [ascorbyl palmitate](/e304i-ascorbyl-palmitate){.additive} or [ascorbic acid](/e300-ascorbic-acid){.additive}
+- Other phenolic antioxidants like [propyl gallate](/e310-propyl-gallate){.additive}
+- Synergists that boost antioxidant systems, such as [citric acid](/e330-citric-acid){.additive}
 
 The best substitute depends on flavor compatibility, regulatory allowance, and whether a “natural” or “synthetic” label claim is important.
 
@@ -47,7 +47,7 @@ For foods, the main benefit is quality: it helps keep fats from going rancid, pr
 Most people can consume foods containing tocopherols without issue. If you take blood-thinning medications or high-dose vitamin E supplements, talk to your healthcare provider, because large supplemental doses of vitamin E can increase bleeding risk.[^3] People who avoid certain oils for personal or medical reasons should check with manufacturers, since tocopherols are commonly sourced from vegetable oils like soybean or sunflower.
 
 ## Myths & facts
-- “E306 is the same as synthetic vitamin E.” Fact: E306 is a natural mixture of tocopherols from vegetable oils. By contrast, additives such as [alpha-tocopherol](/e307-alpha-tocopherol) can be produced as purified forms (natural or synthetic), each with its own specification.[^5]
+- “E306 is the same as synthetic vitamin E.” Fact: E306 is a natural mixture of tocopherols from vegetable oils. By contrast, additives such as [alpha-tocopherol](/e307-alpha-tocopherol){.additive} can be produced as purified forms (natural or synthetic), each with its own specification.[^5]
 - “It makes food last forever.” Fact: Tocopherols slow oxidation in fats, helping with flavor stability, but they don’t stop microbial spoilage or replace refrigeration.
 - “You can’t spot it on labels.” Fact: It usually appears as “mixed tocopherols,” “tocopherols,” or “E306,” and in the U.S. its preservative function is often stated in parentheses, like “to protect flavor.”[^4]
 

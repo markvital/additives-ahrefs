@@ -24,8 +24,8 @@ In the EU, gluconic acid is authorized in a wide range of categories under the â
 
 ## What can replace Gluconic acid?
 Alternatives depend on the job itâ€™s doing:
-- To adjust acidity: [citric acid](/e330-citric-acid), [lactic acid](/e270-lactic-acid), [malic acid](/e296-malic-acid), [acetic acid](/e260-acetic-acid), or [phosphoric acid](/e338-phosphoric-acid)
-- To bind metals (sequestration): calcium disodium EDTA ([e385](/e385-calcium-disodium-ethylenediaminetetraacetate)) in products where allowed
+- To adjust acidity: [citric acid](/e330-citric-acid){.additive}, [lactic acid](/e270-lactic-acid){.additive}, [malic acid](/e296-malic-acid){.additive}, [acetic acid](/e260-acetic-acid){.additive}, or [phosphoric acid](/e338-phosphoric-acid){.additive}
+- To bind metals (sequestration): calcium disodium EDTA ([e385](/e385-calcium-disodium-ethylenediaminetetraacetate){.additive}) in products where allowed
 
 Each acid has a different sourness profile, so flavor and usage levels will vary. EDTA is a much stronger chelator than gluconic acid, but its uses are more restricted.
 

@@ -9,13 +9,13 @@ This section gives a quick picture of what E141i does and where you might find i
 
 - What it is: a green color made from plant chlorophyll with copper at its center; also called copper chlorophylls or CI Natural Green 3.
 - What it does: colors foods green and resists fading during cooking, storage, or in acidic foods.
-- Solubility: fat‑soluble (unlike the water‑soluble [copper complexes of chlorophyllins](/e141ii-copper-complexes-of-chlorophyllins)).
+- Solubility: fat‑soluble (unlike the water‑soluble [copper complexes of chlorophyllins](/e141ii-copper-complexes-of-chlorophyllins){.additive}).
 - Typical foods: confectionery, desserts, sauces, ice cream, and preserved vegetables.
 - On labels: “E141,” “E141i,” “copper chlorophylls,” or “copper complexes of chlorophylls.”
 - Regulatory status: authorized as a food color in the European Union; rules and uses can differ by country.
 
 ## Why is E141i added to food?
-Food makers use E141i to keep a fresh, natural‑looking green. Regular plant chlorophyll turns dull brown when exposed to acid, heat, or oxygen. Replacing magnesium in the molecule with copper creates a more robust color that holds up better in real‑world foods and processing. Compared with plain [chlorophylls and chlorophyllins](/e140-chlorophylls-and-chlorophyllins), E141i stays greener for longer in many recipes.
+Food makers use E141i to keep a fresh, natural‑looking green. Regular plant chlorophyll turns dull brown when exposed to acid, heat, or oxygen. Replacing magnesium in the molecule with copper creates a more robust color that holds up better in real‑world foods and processing. Compared with plain [chlorophylls and chlorophyllins](/e140-chlorophylls-and-chlorophyllins){.additive}, E141i stays greener for longer in many recipes.
 
 ## What foods contain E141i?
 You’re most likely to see E141i in foods where a bright green is expected and needs to last through heat, acidity, or storage. Common examples include:
@@ -29,9 +29,9 @@ In the EU, E141 (which includes E141i and E141ii) is listed as a permitted color
 
 ## What can replace E141i?
 The best alternative depends on your recipe and whether it is water‑ or fat‑based.
-- For water‑based foods: [copper complexes of chlorophyllins](/e141ii-copper-complexes-of-chlorophyllins) can give a similar green.
-- For fat‑based foods: plain [chlorophylls and chlorophyllins](/e140-chlorophylls-and-chlorophyllins) or spinach/parsley extracts may work, though color can fade faster.
-- For custom greens: blend other colors such as [curcumin](/e100-curcumin) (yellow) with [brilliant blue FCF](/e133-brilliant-blue-fcf) (blue) to reach the shade you want.
+- For water‑based foods: [copper complexes of chlorophyllins](/e141ii-copper-complexes-of-chlorophyllins){.additive} can give a similar green.
+- For fat‑based foods: plain [chlorophylls and chlorophyllins](/e140-chlorophylls-and-chlorophyllins){.additive} or spinach/parsley extracts may work, though color can fade faster.
+- For custom greens: blend other colors such as [curcumin](/e100-curcumin){.additive} (yellow) with [brilliant blue FCF](/e133-brilliant-blue-fcf){.additive} (blue) to reach the shade you want.
 
 ## How is E141i made?
 E141i starts with chlorophyll extracted from edible plant material such as grasses or leafy greens. Food‑grade solvents like acetone, ethanol, or hexane may be used to pull the pigments from the plants, following strict purity rules. The central magnesium atom in chlorophyll is then replaced with copper to form “copper chlorophylls,” and the natural fat‑loving parts of the molecule (like phytol chains) are kept, which makes the color fat‑soluble.[^1]

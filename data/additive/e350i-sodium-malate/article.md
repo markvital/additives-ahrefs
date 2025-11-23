@@ -8,7 +8,7 @@ Sodium malate (E350i) is the sodium salt of malic acid, the organic acid that gi
 - Typical in: Drinks, fruit fillings, confections, jams, sauces, and baked goods
 - Form and taste: White, slightly tart salt; contributes a clean, fruity sourness
 - Diet note: Adds a small amount of sodium
-- Related additives: [malic acid](/e296-malic-acid), [potassium malate](/e351-potassium-malate), [sodium citrates](/e331-sodium-citrates)
+- Related additives: [malic acid](/e296-malic-acid){.additive}, [potassium malate](/e351-potassium-malate){.additive}, [sodium citrates](/e331-sodium-citrates){.additive}
 
 ## Why is Sodium malate added to food?
 Sodium malate is used because it steadily controls acidity, helping foods and drinks keep a stable, pleasant tartness over shelf life. It acts as a buffer, meaning it resists sudden pH changes that could affect flavor, color, or texture.[^3]  
@@ -26,9 +26,9 @@ Labeling may list it as “sodium malate,” “E350i,” or more broadly “sod
 
 ## What can replace Sodium malate?
 Depending on the recipe and desired taste:
-- For a sharper sour profile: [citric acid](/e330-citric-acid)
-- For similar fruity tartness: [malic acid](/e296-malic-acid) or [potassium malate](/e351-potassium-malate)
-- For buffering with less sourness: [sodium citrates](/e331-sodium-citrates)  
+- For a sharper sour profile: [citric acid](/e330-citric-acid){.additive}
+- For similar fruity tartness: [malic acid](/e296-malic-acid){.additive} or [potassium malate](/e351-potassium-malate){.additive}
+- For buffering with less sourness: [sodium citrates](/e331-sodium-citrates){.additive}  
 Each substitute behaves a bit differently, so makers often run small tests to match flavor and pH.
 
 ## How is Sodium malate made?

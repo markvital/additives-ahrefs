@@ -34,17 +34,17 @@ On labels, it can appear as “phosphated distarch phosphate,” “E1413,” or
 ## What can replace Phosphated distarch phosphate?
 Alternatives depend on the recipe and processing:
 - Other modified starches for similar processing tolerance:
-  - [distarch phosphate](/e1412-distarch-phosphate)
-  - [acetylated distarch phosphate](/e1414-distarch-phosphate)
-  - [hydroxypropyl distarch phosphate](/e1442-hydroxypropyl-distarch-phosphate)
+  - [distarch phosphate](/e1412-distarch-phosphate){.additive}
+  - [acetylated distarch phosphate](/e1414-distarch-phosphate){.additive}
+  - [hydroxypropyl distarch phosphate](/e1442-hydroxypropyl-distarch-phosphate){.additive}
 - Hydrocolloids for strong thickening or gel structure:
-  - [xanthan gum](/e415-xanthan-gum)
-  - [guar gum](/e412-guar-gum)
-  - [carrageenan](/e407-carrageenan)
-  - [pectins](/e440-pectins)
-  - [sodium alginate](/e401-sodium-alginate)
+  - [xanthan gum](/e415-xanthan-gum){.additive}
+  - [guar gum](/e412-guar-gum){.additive}
+  - [carrageenan](/e407-carrageenan){.additive}
+  - [pectins](/e440-pectins){.additive}
+  - [sodium alginate](/e401-sodium-alginate){.additive}
 - Emulsifier help in creamy systems:
-  - [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids)
+  - [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive}
 
 Choice depends on desired texture, clarity, process (hot-fill vs. retort vs. freeze–thaw), and label goals.
 
@@ -72,7 +72,7 @@ For nutrition, modified starches are digested similarly to regular starch and ma
 - As with any carbohydrate thickener, individuals on physician‑directed carbohydrate‑restricted diets should consider total carbohydrate from all sources.
 
 ## Myths & facts
-- “It’s the same as MSG.” False. E1413 is a modified starch thickener, not [monosodium glutamate](/e621-monosodium-glutamate), which is a flavour enhancer.
+- “It’s the same as MSG.” False. E1413 is a modified starch thickener, not [monosodium glutamate](/e621-monosodium-glutamate){.additive}, which is a flavour enhancer.
 - “Phosphate in the name means it adds a lot of phosphorus.” Misleading. Only small amounts of phosphate groups are bound to the starch; the body handles the ingredient largely like ordinary starch.[^3]
 - “Modified starches aren’t allowed in the U.S.” False. FDA permits food starch‑modified made with specified reagents and processes.[^1]
 

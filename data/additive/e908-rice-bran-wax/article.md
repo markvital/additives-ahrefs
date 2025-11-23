@@ -22,11 +22,11 @@ In the European Union, it is authorised as a food additive (E908) for specific u
 
 ## What can replace Rice bran wax?
 Depending on the recipe and label needs, makers may switch to:
-- [Carnauba wax](/e903-carnauba-wax) for a hard, high‑gloss finish
-- [Candelilla wax](/e902-candelilla-wax) for a plant‑based polish with a slightly lower melt
-- [White and yellow beeswax](/e901-white-and-yellow-beeswax) for a softer, natural wax
-- [Shellac](/e904-shellac) for high gloss on confectionery and fruit
-- Petroleum‑derived options like [microcrystalline wax](/e905ci-microcrystalline-wax) or [petroleum wax](/e905cii-paraffin-wax) when permitted
+- [Carnauba wax](/e903-carnauba-wax){.additive} for a hard, high‑gloss finish
+- [Candelilla wax](/e902-candelilla-wax){.additive} for a plant‑based polish with a slightly lower melt
+- [White and yellow beeswax](/e901-white-and-yellow-beeswax){.additive} for a softer, natural wax
+- [Shellac](/e904-shellac){.additive} for high gloss on confectionery and fruit
+- Petroleum‑derived options like [microcrystalline wax](/e905ci-microcrystalline-wax){.additive} or [petroleum wax](/e905cii-paraffin-wax){.additive} when permitted
 
 ## How is Rice bran wax made?
 Rice bran wax is obtained during the dewaxing (winterisation) step of producing rice bran oil from Oryza sativa (rice). The crude wax is then purified to meet food‑grade specifications, including a defined melting range and limits for impurities.[^1]

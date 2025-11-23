@@ -8,11 +8,11 @@ This additive belongs to the glutamate family and is used to make foods taste mo
 - Role: Flavor enhancer (umami)
 - Also called: E623, calcium diglutamate
 - Typical foods: Seasoning mixes, soups and broths, sauces, instant noodles, savory snacks
-- Common pairs: Sometimes used alongside other flavor enhancers like [monosodium glutamate](/e621-monosodium-glutamate) and [disodium 5′-ribonucleotide](/e635-disodium-5-ribonucleotide)
+- Common pairs: Sometimes used alongside other flavor enhancers like [monosodium glutamate](/e621-monosodium-glutamate){.additive} and [disodium 5′-ribonucleotide](/e635-disodium-5-ribonucleotide){.additive}
 - Label check: Look for “E623,” “calcium diglutamate,” or “flavor enhancer”
 
 ## Why is Calcium diglutamate added to food?
-Food makers add calcium diglutamate to sharpen and round out savory (umami) flavors. It can make soups, sauces, snacks, and ready meals taste richer without changing the original recipe much. Because the active taste is the glutamate part, it provides a similar flavor effect to [monosodium glutamate](/e621-monosodium-glutamate) while contributing calcium instead of sodium.
+Food makers add calcium diglutamate to sharpen and round out savory (umami) flavors. It can make soups, sauces, snacks, and ready meals taste richer without changing the original recipe much. Because the active taste is the glutamate part, it provides a similar flavor effect to [monosodium glutamate](/e621-monosodium-glutamate){.additive} while contributing calcium instead of sodium.
 
 ## What foods contain Calcium diglutamate?
 You’re most likely to see it in:
@@ -25,8 +25,8 @@ In the European Union, calcium diglutamate (E623) is an authorized food additive
 
 ## What can replace Calcium diglutamate?
 Alternatives that deliver a similar savory effect include:
-- Other glutamate salts: [monosodium glutamate](/e621-monosodium-glutamate) and [monopotassium glutamate](/e622-monopotassium-glutamate)
-- Ribonucleotide enhancers: [disodium guanylate](/e627-disodium-guanylate), [disodium inosinate](/e631-disodium-inosinate), or blends like [disodium 5′-ribonucleotide](/e635-disodium-5-ribonucleotide)
+- Other glutamate salts: [monosodium glutamate](/e621-monosodium-glutamate){.additive} and [monopotassium glutamate](/e622-monopotassium-glutamate){.additive}
+- Ribonucleotide enhancers: [disodium guanylate](/e627-disodium-guanylate){.additive}, [disodium inosinate](/e631-disodium-inosinate){.additive}, or blends like [disodium 5′-ribonucleotide](/e635-disodium-5-ribonucleotide){.additive}
 - Ingredient-based umami sources: yeast extract, mushroom concentrates, tomato paste, seaweed (kombu), and long-simmered stocks
 
 ## How is Calcium diglutamate made?

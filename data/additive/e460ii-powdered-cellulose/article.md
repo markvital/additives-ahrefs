@@ -24,9 +24,9 @@ On labels, it may appear as “cellulose,” “powdered cellulose,” or “E46
 
 ## What can replace Powdered cellulose?
 Possible substitutes depend on the job it’s doing:
-- For anti‑caking or bulking: [microcrystalline cellulose](/e460i-microcrystalline-cellulose)
-- For thickening or stabilizing: [xanthan gum](/e415-xanthan-gum), [guar gum](/e412-guar-gum), [pectins](/e440-pectins), or [modified starches](/e14xx-modified-starch)
-- For water binding and texture in doughs and fillings: [sodium carboxymethylcellulose (CMC)](/e466-sodium-carboxy-methyl-cellulose)
+- For anti‑caking or bulking: [microcrystalline cellulose](/e460i-microcrystalline-cellulose){.additive}
+- For thickening or stabilizing: [xanthan gum](/e415-xanthan-gum){.additive}, [guar gum](/e412-guar-gum){.additive}, [pectins](/e440-pectins){.additive}, or [modified starches](/e14xx-modified-starch){.additive}
+- For water binding and texture in doughs and fillings: [sodium carboxymethylcellulose (CMC)](/e466-sodium-carboxy-methyl-cellulose){.additive}
 
 Each option behaves differently, so formulators match the choice to the food and process.
 

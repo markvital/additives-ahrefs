@@ -20,7 +20,7 @@ You’ll most often find DMDC in shelf-stable, ready-to-drink beverages such as 
 Depending on the drink and process, common substitutes include:
 - Heat treatments such as pasteurization
 - Sterile filtration
-- Other preservatives, for example [potassium sorbate](/e202-potassium-sorbate), [sorbic acid](/e200-sorbic-acid), [sodium benzoate](/e211-sodium-benzoate), or, in wine, [sulphur dioxide](/e220-sulphur-dioxide)
+- Other preservatives, for example [potassium sorbate](/e202-potassium-sorbate){.additive}, [sorbic acid](/e200-sorbic-acid){.additive}, [sodium benzoate](/e211-sodium-benzoate){.additive}, or, in wine, [sulphur dioxide](/e220-sulphur-dioxide){.additive}
 
 ## How is Dimethyl dicarbonate made?
 DMDC is produced by chemical synthesis and supplied as a high-purity liquid. In the EU, it must meet detailed identity and purity specifications set out for E242 in the additives specifications regulation.[^4]

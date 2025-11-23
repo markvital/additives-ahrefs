@@ -23,9 +23,9 @@ In the EU, red iron oxide is listed within the E172 group for use as a color in 
 
 ## What can replace Red iron oxide?
 Alternatives depend on the target shade, processing, and labeling goals:
-- For warm red/orange tones: [paprika extract](/e160c-paprika-extract) or [annatto](/e160b-annatto)
-- For bright red: [cochineal](/e120-cochineal) or [beetroot red](/e162-beetroot-red) in suitable applications
-- For non-red coverage/opacity: [titanium dioxide](/e171-titanium-dioxide) for white, where allowed
+- For warm red/orange tones: [paprika extract](/e160c-paprika-extract){.additive} or [annatto](/e160b-annatto){.additive}
+- For bright red: [cochineal](/e120-cochineal){.additive} or [beetroot red](/e162-beetroot-red){.additive} in suitable applications
+- For non-red coverage/opacity: [titanium dioxide](/e171-titanium-dioxide){.additive} for white, where allowed
 
 Natural colors can be less heat- and light-stable and may shift hue with pH, so formulators choose replacements based on performance needs.
 
@@ -44,7 +44,7 @@ Most people do not need to avoid red iron oxide. Individuals with rare iron over
 ## Myths & facts
 - “It’s just rust.” Partly true in chemistry, but food-grade red iron oxide is manufactured under strict specifications and purified for safety and consistency—not scraped from rusty metal.
 - “It works like an iron supplement.” False. The pigment is poorly absorbed and used only for color, not nutrition.
-- “It always replaces natural reds.” False. Formulators may choose mineral colors like E172 for stability, but natural reds such as [beetroot red](/e162-beetroot-red) or [annatto](/e160b-annatto) are also common when they fit the product’s needs.
+- “It always replaces natural reds.” False. Formulators may choose mineral colors like E172 for stability, but natural reds such as [beetroot red](/e162-beetroot-red){.additive} or [annatto](/e160b-annatto){.additive} are also common when they fit the product’s needs.
 
 ## Red iron oxide in branded foods
 On ingredient lists, look for “E172,” “iron oxides,” “iron(III) oxide,” or “ferric oxide.” You’ll most often find it in the outer layers of products—like the colored shell of a dragee or the coating on a tablet or capsule—rather than in the food matrix itself. Some brands may switch between mineral reds and natural reds depending on season, supply, and desired shade, so labels can vary.

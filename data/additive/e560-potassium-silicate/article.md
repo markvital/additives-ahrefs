@@ -15,9 +15,9 @@ You won’t see potassium silicate often. When used, it tends to appear in niche
 
 ## What can replace Potassium silicate?
 Depending on the job it needs to do, formulators might consider:
-- For anti-caking or flow in powders: [silicon dioxide](/e551-silicon-dioxide), [calcium silicate](/e552-calcium-silicate), or [talc](/e553b-talc).
-- For pH control: acids such as [citric acid](/e330-citric-acid) or [phosphoric acid](/e338-phosphoric-acid), or bases such as [potassium hydroxide](/e525-potassium-hydroxide).
-- For other silicate-related roles: [sodium silicate](/e550-sodium-silicate) or [potassium aluminium silicate](/e555-potassium-aluminium-silicate), where regulations allow.
+- For anti-caking or flow in powders: [silicon dioxide](/e551-silicon-dioxide){.additive}, [calcium silicate](/e552-calcium-silicate){.additive}, or [talc](/e553b-talc){.additive}.
+- For pH control: acids such as [citric acid](/e330-citric-acid){.additive} or [phosphoric acid](/e338-phosphoric-acid){.additive}, or bases such as [potassium hydroxide](/e525-potassium-hydroxide){.additive}.
+- For other silicate-related roles: [sodium silicate](/e550-sodium-silicate){.additive} or [potassium aluminium silicate](/e555-potassium-aluminium-silicate){.additive}, where regulations allow.
 
 The best substitute depends on the food, target pH, taste impact, and local regulations.
 
@@ -40,7 +40,7 @@ In the European Union, potassium silicate has an official specification as food 
 ## Myths & facts
 - Myth: Potassium silicate is the same as the “silica gel” packets in shoe boxes. Fact: Those packets usually contain silica gel (amorphous silicon dioxide), not potassium silicate, and they are not food additives.
 - Myth: All silicates are interchangeable in recipes. Fact: Different silicates (e.g., E551, E552, E553b, E560) have different properties, purity specs, and permitted uses.
-- Myth: If it’s allowed, it must be common. Fact: E560 is authorized with specifications in the EU but is relatively uncommon compared to alternatives like [silicon dioxide](/e551-silicon-dioxide).[^1][^2][^3]
+- Myth: If it’s allowed, it must be common. Fact: E560 is authorized with specifications in the EU but is relatively uncommon compared to alternatives like [silicon dioxide](/e551-silicon-dioxide){.additive}.[^1][^2][^3]
 
 ## Potassium silicate in branded foods
 Public product labels are the best way to check. If a product uses this additive in the EU, its ingredient list should read “potassium silicate” or “E560.”[^2] Because there are many effective alternatives, most brands rely on other anti-caking agents or acidity regulators instead.

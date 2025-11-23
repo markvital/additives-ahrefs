@@ -12,7 +12,7 @@ Polyoxyethylene sorbitan monooleate (E433), better known as polysorbate 80, is a
 ## Why is Polyoxyethylene sorbitan monooleate added to food?
 Food makers use E433 because it is a reliable “bridge” between fat and water. It lowers surface tension so tiny droplets of oil can spread and stay put. In ice cream, it helps fat and air form a fine, stable network, giving a creamy body and slower melt. In dressings and sauces, it helps prevent separation. In beverages, it can keep citrus or spice oils from rising to the top.
 
-E433 often works alongside other emulsifiers and stabilizers. You may see it paired with [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids) or hydrocolloids such as [xanthan gum](/e415-xanthan-gum) and [gellan gum](/e418-gellan-gum) to fine‑tune thickness and shelf stability.
+E433 often works alongside other emulsifiers and stabilizers. You may see it paired with [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive} or hydrocolloids such as [xanthan gum](/e415-xanthan-gum){.additive} and [gellan gum](/e418-gellan-gum){.additive} to fine‑tune thickness and shelf stability.
 
 ## What foods contain Polyoxyethylene sorbitan monooleate?
 You might find E433 in:
@@ -27,9 +27,9 @@ Labels may list it as “polysorbate 80,” “E433,” or “polyoxyethylene so
 
 ## What can replace Polyoxyethylene sorbitan monooleate?
 Suitable substitutes depend on the food and the problem to solve:
-- Emulsifiers: [Lecithins](/e322-lecithins), [mono- and diglycerides](/e471-mono-and-diglycerides-of-fatty-acids), [sucrose esters of fatty acids](/e473-sucrose-esters-of-fatty-acids), or [polyglycerol polyricinoleate](/e476-polyglycerol-polyricinoleate) in chocolate systems.
-- Stabilizers and thickeners: [Xanthan gum](/e415-xanthan-gum), [gellan gum](/e418-gellan-gum), or [sodium carboxymethyl cellulose](/e466-sodium-carboxy-methyl-cellulose).
-- Related polysorbates: [E432](/e432-polyoxyethylene-sorbitan-monolaurate), [E434](/e434-polyoxyethylene-sorbitan-monopalmitate), [E435](/e435-polyoxyethylene-sorbitan-monostearate), and [E436](/e436-polyoxyethylene-sorbitan-tristearate) can be used in similar ways, depending on fat type and processing.
+- Emulsifiers: [Lecithins](/e322-lecithins){.additive}, [mono- and diglycerides](/e471-mono-and-diglycerides-of-fatty-acids){.additive}, [sucrose esters of fatty acids](/e473-sucrose-esters-of-fatty-acids){.additive}, or [polyglycerol polyricinoleate](/e476-polyglycerol-polyricinoleate){.additive} in chocolate systems.
+- Stabilizers and thickeners: [Xanthan gum](/e415-xanthan-gum){.additive}, [gellan gum](/e418-gellan-gum){.additive}, or [sodium carboxymethyl cellulose](/e466-sodium-carboxy-methyl-cellulose){.additive}.
+- Related polysorbates: [E432](/e432-polyoxyethylene-sorbitan-monolaurate){.additive}, [E434](/e434-polyoxyethylene-sorbitan-monopalmitate){.additive}, [E435](/e435-polyoxyethylene-sorbitan-monostearate){.additive}, and [E436](/e436-polyoxyethylene-sorbitan-tristearate){.additive} can be used in similar ways, depending on fat type and processing.
 
 ## How is Polyoxyethylene sorbitan monooleate made?
 E433 is produced by first making sorbitan monooleate (from sorbitol and oleic acid), then reacting it with ethylene oxide to add chains of polyoxyethylene. The result is a nonionic surfactant—meaning it carries no charge—that blends oil and water effectively.[^1]
@@ -55,7 +55,7 @@ Most people do not need to avoid E433 when it is used as authorized. Individuals
 - Myth: “It’s only used in ice cream.” Fact: E433 also stabilizes dressings, toppings, bakery fillings, and flavor emulsions in drinks.
 
 ## Polyoxyethylene sorbitan monooleate in branded foods
-You can spot E433 on ingredient lists for many national and store brands of ice cream, nondairy creamers, salad dressings, and flavored beverages. Look for “polysorbate 80” or “E433” on the label. Presence and amount vary by recipe, so two similar products may differ—one may use E433 while another relies on [lecithins](/e322-lecithins) or [mono- and diglycerides](/e471-mono-and-diglycerides-of-fatty-acids).
+You can spot E433 on ingredient lists for many national and store brands of ice cream, nondairy creamers, salad dressings, and flavored beverages. Look for “polysorbate 80” or “E433” on the label. Presence and amount vary by recipe, so two similar products may differ—one may use E433 while another relies on [lecithins](/e322-lecithins){.additive} or [mono- and diglycerides](/e471-mono-and-diglycerides-of-fatty-acids){.additive}.
 
 ## References
 [^1]: Commission Regulation (EU) No 231/2012 — Specifications for food additives. https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231

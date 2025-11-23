@@ -13,7 +13,7 @@ Here’s a quick overview before we dive deeper.
 ## Why is Sulphuric acid added to food?
 Manufacturers use sulphuric acid to adjust pH—a measure of how acidic or basic something is—so recipes process consistently and safely. In the United States, sulfuric acid is affirmed as GRAS (Generally Recognized As Safe) as a pH control agent when used in line with good manufacturing practice (GMP).[^1] In the European Union, it is an authorized food additive with specifications under the code E 513, meaning it must meet strict purity criteria when used in foods.[^2]
 
-Unlike flavor acids such as [citric acid](/e330-citric-acid), E513 is chosen for its strong, precise pH effect in industrial settings. After it does its job, the food is typically neutralized or sufficiently diluted as part of the process.
+Unlike flavor acids such as [citric acid](/e330-citric-acid){.additive}, E513 is chosen for its strong, precise pH effect in industrial settings. After it does its job, the food is typically neutralized or sufficiently diluted as part of the process.
 
 ## What foods contain Sulphuric acid?
 You might occasionally see “sulfuric acid,” “sulphuric acid,” or “E513” on an ingredient list, usually on more technical or industrial-style products. In many cases it is used during processing and may be present only in very small amounts in the finished food. Because other acids are milder and add flavor, they are more common on retail labels.
@@ -22,12 +22,12 @@ If you want to check, look directly at the ingredient list on the package. Regul
 
 ## What can replace Sulphuric acid?
 Depending on the food and the target taste, texture, or process needs, formulators often choose other food acids:
-- [citric acid](/e330-citric-acid)
-- [lactic acid](/e270-lactic-acid)
-- [phosphoric acid](/e338-phosphoric-acid)
-- [malic acid](/e296-malic-acid)
-- [acetic acid](/e260-acetic-acid)
-- [L‑tartaric acid](/e334-l-tartaric-acid)
+- [citric acid](/e330-citric-acid){.additive}
+- [lactic acid](/e270-lactic-acid){.additive}
+- [phosphoric acid](/e338-phosphoric-acid){.additive}
+- [malic acid](/e296-malic-acid){.additive}
+- [acetic acid](/e260-acetic-acid){.additive}
+- [L‑tartaric acid](/e334-l-tartaric-acid){.additive}
 
 These provide acidity and, in many cases, a familiar tart flavor.
 
@@ -45,7 +45,7 @@ Concentrated sulphuric acid is highly corrosive and must be handled by trained p
 
 ## Who should avoid Sulphuric acid?
 - People who need to limit acidic foods (for example, on medical advice for reflux) may prefer products acidified with milder‑tasting acids—or fewer acidified foods overall.
-- If you are sensitive to preservatives called sulfites, note that E513 is not a sulfite. It is a sulfate source and is chemically different from sulfite preservatives such as [sodium metabisulphite](/e223-sodium-metabisulphite).
+- If you are sensitive to preservatives called sulfites, note that E513 is not a sulfite. It is a sulfate source and is chemically different from sulfite preservatives such as [sodium metabisulphite](/e223-sodium-metabisulphite){.additive}.
 
 When in doubt, discuss specific products with your healthcare provider.
 
@@ -55,7 +55,7 @@ When in doubt, discuss specific products with your healthcare provider.
 - “It’s the same as sulfites.” Fact: sulphuric acid (a source of sulfate) is different from sulfites; sulfite sensitivity does not automatically apply to E513.
 
 ## Sulphuric acid in branded foods
-Use the ingredient list to spot it. It may appear as “sulfuric acid,” “sulphuric acid,” or “E513.” If you don’t see it named, the product likely uses other acids like [citric acid](/e330-citric-acid) or [phosphoric acid](/e338-phosphoric-acid) for flavor and pH control.
+Use the ingredient list to spot it. It may appear as “sulfuric acid,” “sulphuric acid,” or “E513.” If you don’t see it named, the product likely uses other acids like [citric acid](/e330-citric-acid){.additive} or [phosphoric acid](/e338-phosphoric-acid){.additive} for flavor and pH control.
 
 ## References
 [^1]: 21 CFR 184.1095 — Sulfuric acid. eCFR, U.S. Food and Drug Administration. https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-184/subpart-B/section-184.1095

@@ -11,7 +11,7 @@ Dicalcium diphosphate (E450VI) is a calcium salt of pyrophosphate used to contro
 - Dietary notes: Mineral- and animal-free; suitable for vegetarian and vegan diets.
 
 ## Why is Dicalcium diphosphate added to food?
-Food makers use dicalcium diphosphate to make batters and doughs rise in a controlled way, especially when paired with baking soda like [sodium bicarbonate](/e500ii-sodium-bicarbonate). It also stabilises emulsions, helps hold water in processed foods, and binds metal ions (sequestration) that can cause discoloration or off-flavors. These functions are recognised for the phosphate group that includes E450 additives.[^1]
+Food makers use dicalcium diphosphate to make batters and doughs rise in a controlled way, especially when paired with baking soda like [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive}. It also stabilises emulsions, helps hold water in processed foods, and binds metal ions (sequestration) that can cause discoloration or off-flavors. These functions are recognised for the phosphate group that includes E450 additives.[^1]
 
 ## What foods contain Dicalcium diphosphate?
 You’ll most often see it in:
@@ -25,9 +25,9 @@ In the EU, its use (and the uses of related diphosphates) is authorised across d
 
 ## What can replace Dicalcium diphosphate?
 Depending on the job you need done, common substitutes include:
-- For leavening: [monocalcium phosphate](/e341i-monocalcium-phosphate), [monopotassium tartrate](/e336i-monopotassium-tartrate, “cream of tartar”), [glucono‑delta‑lactone](/e575-glucono-delta-lactone), or organic acids like [citric acid](/e330-citric-acid).
-- Within the phosphate family: [disodium diphosphate](/e450i-disodium-diphosphate), [tetrasodium diphosphate](/e450iii-tetrasodium-diphosphate), [tetrapotassium diphosphate](/e450v-tetrapotassium-diphosphate), or [dimagnesium diphosphate](/e450viii-dimagnesium-diphosphate).
-- For buffering or sequestration: [phosphoric acid](/e338-phosphoric-acid), [disodium phosphate](/e339ii-disodium-phosphate), [monosodium phosphate](/e339i-monosodium-phosphate), or [trisodium phosphate](/e339iii-trisodium-phosphate).
+- For leavening: [monocalcium phosphate](/e341i-monocalcium-phosphate){.additive}, [monopotassium tartrate](/e336i-monopotassium-tartrate, “cream of tartar”){.additive}, [glucono‑delta‑lactone](/e575-glucono-delta-lactone){.additive}, or organic acids like [citric acid](/e330-citric-acid){.additive}.
+- Within the phosphate family: [disodium diphosphate](/e450i-disodium-diphosphate){.additive}, [tetrasodium diphosphate](/e450iii-tetrasodium-diphosphate){.additive}, [tetrapotassium diphosphate](/e450v-tetrapotassium-diphosphate){.additive}, or [dimagnesium diphosphate](/e450viii-dimagnesium-diphosphate){.additive}.
+- For buffering or sequestration: [phosphoric acid](/e338-phosphoric-acid){.additive}, [disodium phosphate](/e339ii-disodium-phosphate){.additive}, [monosodium phosphate](/e339i-monosodium-phosphate){.additive}, or [trisodium phosphate](/e339iii-trisodium-phosphate){.additive}.
 
 The “best” swap depends on pH, flavor impact, and when you want the leavening to activate.
 
@@ -54,7 +54,7 @@ If you have kidney, bone‑mineral, or cardiovascular concerns, ask your healthc
 - Myth: More is better for calcium. Fact: It isn’t intended as a calcium supplement; it’s used for how food cooks and holds together.
 
 ## Dicalcium diphosphate in branded foods
-Look for it on ingredient lists as “dicalcium diphosphate,” “calcium pyrophosphate,” or “E450vi.” You’ll most often find it in baking mixes, self‑raising flour, tortillas, processed meats or seafoods, and some dairy powders. Related phosphate additives may also appear, such as [sodium aluminium phosphate](/e541-sodium-aluminium-phosphate) or other [polyphosphates](/e452-polyphosphates).
+Look for it on ingredient lists as “dicalcium diphosphate,” “calcium pyrophosphate,” or “E450vi.” You’ll most often find it in baking mixes, self‑raising flour, tortillas, processed meats or seafoods, and some dairy powders. Related phosphate additives may also appear, such as [sodium aluminium phosphate](/e541-sodium-aluminium-phosphate){.additive} or other [polyphosphates](/e452-polyphosphates){.additive}.
 
 ## References
 [^1]: Re‑evaluation of phosphoric acid–phosphates–di-, tri- and polyphosphates (E 338–341, E 343, E 450–452) as food additives — EFSA. https://www.efsa.europa.eu/en/efsajournal/pub/5674

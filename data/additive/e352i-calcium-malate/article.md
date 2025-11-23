@@ -19,9 +19,9 @@ You may find calcium malate in flavored drinks, fruit preparations (like jams an
 
 ## What can replace Calcium malate?
 Depending on the goal, formulators might switch to:
-- For stronger sourness: [citric acid](/e330-citric-acid) or [lactic acid](/e270-lactic-acid).
-- For buffering capacity with a softer taste: [malic acid](/e296-malic-acid) itself.
-- For similar pH control with different cations: [sodium citrates](/e331-sodium-citrates), [potassium citrates](/e332-potassium-citrates), or [calcium citrates](/e333-calcium-citrates).
+- For stronger sourness: [citric acid](/e330-citric-acid){.additive} or [lactic acid](/e270-lactic-acid){.additive}.
+- For buffering capacity with a softer taste: [malic acid](/e296-malic-acid){.additive} itself.
+- For similar pH control with different cations: [sodium citrates](/e331-sodium-citrates){.additive}, [potassium citrates](/e332-potassium-citrates){.additive}, or [calcium citrates](/e333-calcium-citrates){.additive}.
 Choice depends on desired taste profile, solubility, mineral content, and local regulations.
 
 ## How is Calcium malate made?
@@ -43,7 +43,7 @@ Most people don’t need to avoid calcium malate when it’s used in foods. Indi
 - “Acidity regulators make foods very sour.” They can add sourness, but their main job is to buffer and stabilise pH, which doesn’t always translate into a strongly sour taste.
 
 ## Calcium malate in branded foods
-On ingredient lists, look for “calcium malate,” “E352,” or “E352i.” It may appear alongside other acidifiers like [malic acid](/e296-malic-acid) or [citric acid](/e330-citric-acid). Product labels and manufacturer websites are the best place to confirm its presence in a specific brand.
+On ingredient lists, look for “calcium malate,” “E352,” or “E352i.” It may appear alongside other acidifiers like [malic acid](/e296-malic-acid){.additive} or [citric acid](/e330-citric-acid){.additive}. Product labels and manufacturer websites are the best place to confirm its presence in a specific brand.
 
 ## References
 [^1]: Commission Regulation (EU) No 231/2012 laying down specifications for food additives listed in Annexes II and III to Regulation (EC) No 1333/2008 — EUR-Lex. https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231

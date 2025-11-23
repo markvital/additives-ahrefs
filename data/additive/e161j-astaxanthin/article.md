@@ -17,8 +17,8 @@ Astaxanthin occurs naturally in many seafoods, including salmon, trout, shrimp, 
 
 ## What can replace Astaxanthin?
 Other colorants can provide similar warm shades, depending on the food and the target color:
-- Orange to red carotenoids like [beta-carotene](/e160ai-beta-carotene), [lycopene](/e160d-lycopene), or [paprika extract](/e160c-paprika-extract)
-- Related xanthophylls such as [lutein](/e161b-lutein) or [canthaxanthin](/e161g-canthaxanthin)  
+- Orange to red carotenoids like [beta-carotene](/e160ai-beta-carotene){.additive}, [lycopene](/e160d-lycopene){.additive}, or [paprika extract](/e160c-paprika-extract){.additive}
+- Related xanthophylls such as [lutein](/e161b-lutein){.additive} or [canthaxanthin](/e161g-canthaxanthin){.additive}  
 The best substitute depends on solubility, processing conditions, and labeling needs.
 
 ## How is Astaxanthin made?
@@ -36,7 +36,7 @@ If you avoid added colors, check labels on seafood and supplements. People with 
 ## Myths & facts
 - “Farmed salmon is dyed.” Fact: The pink color comes from carotenoids like astaxanthin added to feed, mimicking the natural diet of wild fish.
 - “Natural and synthetic astaxanthin are different colors.” Myth: The molecule provides the same characteristic red-orange hue; differences are more about source and formulation.
-- “All carotenoids are the same.” Myth: Carotenoids vary. For example, [beta-carotene](/e160ai-beta-carotene) is more orange, while astaxanthin gives a deeper pink-red tone; others like [lutein](/e161b-lutein) and [zeaxanthin](/e161h-zeaxanthin) skew more yellow.
+- “All carotenoids are the same.” Myth: Carotenoids vary. For example, [beta-carotene](/e160ai-beta-carotene){.additive} is more orange, while astaxanthin gives a deeper pink-red tone; others like [lutein](/e161b-lutein){.additive} and [zeaxanthin](/e161h-zeaxanthin){.additive} skew more yellow.
 
 ## Astaxanthin in branded foods
 You’ll most often see astaxanthin linked to:

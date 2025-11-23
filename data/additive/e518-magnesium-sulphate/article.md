@@ -23,9 +23,9 @@ If present, it will appear on the ingredient list as “magnesium sulphate,” �
 
 ## What can replace Magnesium sulphate?
 Possible substitutes depend on the job it needs to do:
-- For magnesium fortification: [magnesium chloride](/e511-magnesium-chloride) or [magnesium oxide](/e530-magnesium-oxide)
-- For firming: [calcium chloride](/e509-calcium-chloride) or [calcium sulphate](/e516-calcium-sulphate)
-- For salt reduction strategies: [potassium chloride](/e508-potassium-chloride)
+- For magnesium fortification: [magnesium chloride](/e511-magnesium-chloride){.additive} or [magnesium oxide](/e530-magnesium-oxide){.additive}
+- For firming: [calcium chloride](/e509-calcium-chloride){.additive} or [calcium sulphate](/e516-calcium-sulphate){.additive}
+- For salt reduction strategies: [potassium chloride](/e508-potassium-chloride){.additive}
 
 Always choose replacements that are permitted for the food type and purpose in your market.
 
@@ -49,7 +49,7 @@ As a food additive, its “benefit” is mainly technological (firming) or nutri
 - “It’s just bath salt.” Fact: Epsom salt used for bathing is the same chemical, but only food‑grade material meeting food specifications should be used in foods.
 - “It’s a preservative.” Myth: Magnesium sulphate is not used to preserve foods from spoilage; its main roles are firming and mineral fortification.
 - “It tastes like table salt.” Myth: It has a distinctly bitter, saline taste, so it is used sparingly.
-- “All magnesium additives are the same.” Myth: Different magnesium salts behave differently in foods; makers choose among options like [magnesium chloride](/e511-magnesium-chloride) or [magnesium oxide](/e530-magnesium-oxide) depending on the goal.
+- “All magnesium additives are the same.” Myth: Different magnesium salts behave differently in foods; makers choose among options like [magnesium chloride](/e511-magnesium-chloride){.additive} or [magnesium oxide](/e530-magnesium-oxide){.additive} depending on the goal.
 
 ## Magnesium sulphate in branded foods
 Look for “magnesium sulphate,” “magnesium sulfate,” or “E518” in the ingredient list. It tends to appear in specialized products rather than everyday staples. If you are checking a specific item, the package label is the most reliable source.

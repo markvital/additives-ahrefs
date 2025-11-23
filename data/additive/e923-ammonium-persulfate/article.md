@@ -18,11 +18,11 @@ Where its use is authorized, E923 may appear in wheat flour and some bakery prod
 
 ## What can replace ammonium persulfate?
 Bakers and millers have several alternatives, depending on recipe and local rules:
-- Ascorbic acid (vitamin C): [ascorbic acid](/e300-ascorbic-acid)
-- Enzymes: [glucose oxidase](/e1102-glucose-oxidase)
-- Reducing/conditioning agents: [L-cysteine](/e920-l-cysteine)
-- Mineral improvers: [calcium sulfate](/e516-calcium-sulphate)
-- Other oxidizers used in some markets: [azodicarbonamide](/e927a-azodicarbonamide), [potassium bromate](/e924a-potassium-bromate)
+- Ascorbic acid (vitamin C): [ascorbic acid](/e300-ascorbic-acid){.additive}
+- Enzymes: [glucose oxidase](/e1102-glucose-oxidase){.additive}
+- Reducing/conditioning agents: [L-cysteine](/e920-l-cysteine){.additive}
+- Mineral improvers: [calcium sulfate](/e516-calcium-sulphate){.additive}
+- Other oxidizers used in some markets: [azodicarbonamide](/e927a-azodicarbonamide){.additive}, [potassium bromate](/e924a-potassium-bromate){.additive}
 
 The best choice depends on the flour type, dough process, and the regulations where the food is sold.
 
@@ -50,7 +50,7 @@ NIOSH stands for the U.S. National Institute for Occupational Safety and Health;
 - Myth: It’s either globally allowed or globally banned. Fact: Authorization and maximum levels vary by country and food category; always check local regulations.
 
 ## ammonium persulfate in branded foods
-You may see E923 on some flour or bread labels in markets where it is permitted. Look for “ammonium persulfate,” “ammonium peroxydisulfate,” or “E923” in the ingredient list. If you want to avoid it, choose products that do not list it or that use alternatives such as [ascorbic acid](/e300-ascorbic-acid) or [glucose oxidase](/e1102-glucose-oxidase).
+You may see E923 on some flour or bread labels in markets where it is permitted. Look for “ammonium persulfate,” “ammonium peroxydisulfate,” or “E923” in the ingredient list. If you want to avoid it, choose products that do not list it or that use alternatives such as [ascorbic acid](/e300-ascorbic-acid){.additive} or [glucose oxidase](/e1102-glucose-oxidase){.additive}.
 
 ## References
 [^1]: Class names and the International Numbering System for Food Additives (CAC/GL 36-1989) — Codex Alimentarius. https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https://workspace.fao.org/sites/codex/Standards/CXG%2036-1989/CXG_036e.pdf

@@ -20,11 +20,11 @@ Food makers use nitrous oxide to push products out of aerosol cans and to create
 
 ## What can replace nitrous oxide?
 Depending on the product and equipment, manufacturers may use other propellant gases:
-- [Carbon dioxide](/e290-carbon-dioxide) for some foams and beverages
-- [Nitrogen](/e941-nitrogen) for stable, fine-bubble foams and dispensing
-- [Propane](/e944-propane) or [butane](/e943a-butane) in certain cooking sprays (not for whipped cream)
+- [Carbon dioxide](/e290-carbon-dioxide){.additive} for some foams and beverages
+- [Nitrogen](/e941-nitrogen){.additive} for stable, fine-bubble foams and dispensing
+- [Propane](/e944-propane){.additive} or [butane](/e943a-butane){.additive} in certain cooking sprays (not for whipped cream)
 
-For non-aerosol whipped toppings, air plus stabilizers like [xanthan gum](/e415-xanthan-gum) or [carrageenan](/e407-carrageenan) can help maintain texture without a propellant.
+For non-aerosol whipped toppings, air plus stabilizers like [xanthan gum](/e415-xanthan-gum){.additive} or [carrageenan](/e407-carrageenan){.additive} can help maintain texture without a propellant.
 
 ## How is nitrous oxide made?
 Commercial nitrous oxide is typically produced by carefully heating ammonium nitrate, which breaks down to nitrous oxide and water vapor. The gas is then cooled, purified, and compressed into cylinders or cartridges for medical, industrial, or food use.[^3]

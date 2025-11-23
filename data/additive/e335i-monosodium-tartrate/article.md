@@ -5,11 +5,11 @@ Monosodium tartrate (E335i) is a sodium salt of tartaric acid. It acts mainly as
 ## At a glance
 This section gives the quick facts before we dig deeper.
 
-- What it is: the mono-sodium salt of [L-tartaric acid](/e334-l-tartaric-acid)
+- What it is: the mono-sodium salt of [L-tartaric acid](/e334-l-tartaric-acid){.additive}
 - What it does: sequestrant and stabiliser that binds trace metals and helps control acidity
 - Common in: drinks, sweets, fruit-based foods, and other processed items where clarity and color matter
 - Also known as: E335i, monosodium tartrate
-- Related additives: [potassium tartrates](/e336-potassium-tartrates), [calcium tartrate](/e354-calcium-tartrate)
+- Related additives: [potassium tartrates](/e336-potassium-tartrates){.additive}, [calcium tartrate](/e354-calcium-tartrate){.additive}
 
 ## Why is Monosodium tartrate added to food?
 Food makers use monosodium tartrate to bind (or “sequester”) metal ions like iron and copper that can cause off-flavors, color changes, and haze. It also helps stabilise acidity, which can improve texture and shelf life in many foods and drinks.[^1]
@@ -19,15 +19,15 @@ You may find E335i in flavored drinks, fruit preparations (like jams or fillings
 
 ## What can replace Monosodium tartrate?
 Depending on the job it does in a recipe, formulators might use:
-- For acidity or buffering: [citric acid](/e330-citric-acid) or [sodium citrates](/e331-sodium-citrates)
-- For sequestration/metal control: [polyphosphates](/e452-polyphosphates) or [calcium disodium EDTA](/e385-calcium-disodium-ethylenediaminetetraacetate)
-- For antioxidant support: [sodium ascorbate](/e301-sodium-ascorbate)
-- In some beverages: [phosphoric acid](/e338-phosphoric-acid) to adjust acidity
+- For acidity or buffering: [citric acid](/e330-citric-acid){.additive} or [sodium citrates](/e331-sodium-citrates){.additive}
+- For sequestration/metal control: [polyphosphates](/e452-polyphosphates){.additive} or [calcium disodium EDTA](/e385-calcium-disodium-ethylenediaminetetraacetate){.additive}
+- For antioxidant support: [sodium ascorbate](/e301-sodium-ascorbate){.additive}
+- In some beverages: [phosphoric acid](/e338-phosphoric-acid){.additive} to adjust acidity
 
 The best substitute depends on the food, desired taste, label goals, and local rules.
 
 ## How is Monosodium tartrate made?
-Monosodium tartrate is formed by partially neutralizing [L-tartaric acid](/e334-l-tartaric-acid) with a sodium base (such as sodium carbonate or sodium hydroxide) to make the mono-sodium salt, followed by purification and crystallization. In the EU, its identity and purity are set by the additive specifications regulation for E-numbered substances.[^2]
+Monosodium tartrate is formed by partially neutralizing [L-tartaric acid](/e334-l-tartaric-acid){.additive} with a sodium base (such as sodium carbonate or sodium hydroxide) to make the mono-sodium salt, followed by purification and crystallization. In the EU, its identity and purity are set by the additive specifications regulation for E-numbered substances.[^2]
 
 ## Is Monosodium tartrate safe to eat?
 Regulators have reviewed tartaric acid and its salts, including sodium tartrates (E335). EFSA concluded there is no safety concern for the L(+) forms at the reported uses and use levels in food, and only the L(+) stereochemistry is authorised for food use.[^1]

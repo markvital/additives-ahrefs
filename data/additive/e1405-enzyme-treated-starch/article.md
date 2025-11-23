@@ -25,9 +25,9 @@ These use cases are consistent with the broad authorisations and reported uses f
 
 ## What can replace Enzyme treated starch?
 Depending on the recipe, cooks and manufacturers might swap in:
-- Other modified starches (see the family of [modified starches](/e14xx-modified-starch))
-- Gums and hydrocolloids such as [xanthan gum](/e415-xanthan-gum), [guar gum](/e412-guar-gum), [pectins](/e440-pectins), or [carrageenan](/e407-carrageenan)
-- Emulsifiers like [lecithins](/e322-lecithins)
+- Other modified starches (see the family of [modified starches](/e14xx-modified-starch){.additive})
+- Gums and hydrocolloids such as [xanthan gum](/e415-xanthan-gum){.additive}, [guar gum](/e412-guar-gum){.additive}, [pectins](/e440-pectins){.additive}, or [carrageenan](/e407-carrageenan){.additive}
+- Emulsifiers like [lecithins](/e322-lecithins){.additive}
 
 The best substitute depends on the goal—thickening, stabilising, or emulsifying—and on processing steps like heat or freezing.
 

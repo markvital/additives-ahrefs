@@ -24,10 +24,10 @@ Always check ingredient lists for “xylitol” or “E967.” Some labels also 
 
 ## What can replace Xylitol?
 Depending on the job xylitol is doing, possible substitutes include:
-- Sweeteners with similar bulk: [erythritol](/e968-erythritol), [sorbitol](/e420-sorbitol), [mannitol](/e421-mannitol), [isomalt](/e953-isomalt), [maltitol](/e965-maltitol)
-- High‑intensity sweeteners (no bulk, very sweet): [sucralose](/e955-sucralose), [steviol glycosides](/e960-steviol-glycosides), [acesulfame K](/e950-acesulfame-k), [aspartame](/e951-aspartame)
-- Humectants for moisture: [glycerol](/e422-glycerol)
-- Texture aids/thickeners: [xanthan gum](/e415-xanthan-gum)
+- Sweeteners with similar bulk: [erythritol](/e968-erythritol){.additive}, [sorbitol](/e420-sorbitol){.additive}, [mannitol](/e421-mannitol){.additive}, [isomalt](/e953-isomalt){.additive}, [maltitol](/e965-maltitol){.additive}
+- High‑intensity sweeteners (no bulk, very sweet): [sucralose](/e955-sucralose){.additive}, [steviol glycosides](/e960-steviol-glycosides){.additive}, [acesulfame K](/e950-acesulfame-k){.additive}, [aspartame](/e951-aspartame){.additive}
+- Humectants for moisture: [glycerol](/e422-glycerol){.additive}
+- Texture aids/thickeners: [xanthan gum](/e415-xanthan-gum){.additive}
 
 Formulators often blend sweeteners to match sugar’s sweetness profile, bulk, and mouthfeel.
 

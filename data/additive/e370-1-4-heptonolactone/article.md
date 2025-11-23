@@ -16,8 +16,8 @@ When used as a flavoring, a lactone like 1,4‑Heptonolactone would be added to 
 
 ## What can replace 1,4‑Heptonolactone?
 - For flavor: Developers typically switch to other approved flavoring lactones or natural flavor extracts that give similar notes, depending on what is allowed in the market. [^3]
-- For acidity or tartness in the recipe (if that is the design need, not the additive’s role): options include [citric acid](/e330-citric-acid) or [lactic acid](/e270-lactic-acid).
-- For texture adjustments separate from flavor (if needed by the product): hydrocolloids such as [xanthan gum](/e415-xanthan-gum) or [gellan gum](/e418-gellan-gum) are common choices.
+- For acidity or tartness in the recipe (if that is the design need, not the additive’s role): options include [citric acid](/e330-citric-acid){.additive} or [lactic acid](/e270-lactic-acid){.additive}.
+- For texture adjustments separate from flavor (if needed by the product): hydrocolloids such as [xanthan gum](/e415-xanthan-gum){.additive} or [gellan gum](/e418-gellan-gum){.additive} are common choices.
 
 ## How is 1,4‑Heptonolactone made?
 Lactones are cyclic esters. Chemically, they form by an internal (intramolecular) reaction of a hydroxy‑acid to make a ring and release water, a reaction called lactonization. [^4] Food‑relevant lactones can also be produced as defined synthetic flavoring substances, provided they appear on the relevant regulatory lists and meet specifications. [^3]

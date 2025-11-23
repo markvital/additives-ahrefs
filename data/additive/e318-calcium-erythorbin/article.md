@@ -20,14 +20,14 @@ You might find E318 in:
 - Cut or canned vegetables and potatoes to limit browning
 - Beverages, fruit preparations, and sauces where flavor and color need protection
 
-On ingredient lists, look for “Calcium erythorbin,” “Calcium erythorbate,” or “E318.” Erythorbate salts (for example, [sodium erythorbate](/e316-sodium-erythorbate)) are common in cured meats and play similar roles.[^2]
+On ingredient lists, look for “Calcium erythorbin,” “Calcium erythorbate,” or “E318.” Erythorbate salts (for example, [sodium erythorbate](/e316-sodium-erythorbate){.additive}) are common in cured meats and play similar roles.[^2]
 
 ## What can replace Calcium erythorbin?
 Depending on the recipe and regulations, common substitutes include:
-- [Ascorbic acid](/e300-ascorbic-acid) or [sodium ascorbate](/e301-sodium-ascorbate) for cure acceleration and antioxidant action
-- [Sodium erythorbate](/e316-sodium-erythorbate) when a sodium salt is preferred
-- [Citric acid](/e330-citric-acid) to help control browning and metal-catalyzed oxidation in some foods
-- Natural antioxidants like [extracts of rosemary](/e392-extracts-of-rosemary) or mixed tocopherols such as [tocopherol-rich extract](/e306-tocopherol-rich-extract) and [alpha-tocopherol](/e307-alpha-tocopherol)
+- [Ascorbic acid](/e300-ascorbic-acid){.additive} or [sodium ascorbate](/e301-sodium-ascorbate){.additive} for cure acceleration and antioxidant action
+- [Sodium erythorbate](/e316-sodium-erythorbate){.additive} when a sodium salt is preferred
+- [Citric acid](/e330-citric-acid){.additive} to help control browning and metal-catalyzed oxidation in some foods
+- Natural antioxidants like [extracts of rosemary](/e392-extracts-of-rosemary){.additive} or mixed tocopherols such as [tocopherol-rich extract](/e306-tocopherol-rich-extract){.additive} and [alpha-tocopherol](/e307-alpha-tocopherol){.additive}
 
 ## How is Calcium erythorbin made?
 Calcium erythorbin is produced by neutralizing erythorbic acid with a food-grade calcium base (such as calcium hydroxide or calcium carbonate), forming the calcium salt. Chemically, it is simply the erythorbate anion paired with calcium.[^3] Erythorbic acid itself is typically made from carbohydrate sources through fermentation and chemical steps similar to those used for making vitamin C.
@@ -54,7 +54,7 @@ ADI stands for acceptable daily intake, a science-based estimate of daily exposu
 - Myth: “It adds lots of calcium.” Fact: Use levels are low, so the calcium contribution is negligible.
 
 ## Calcium erythorbin in branded foods
-You’ll most often see erythorbate salts on labels for hot dogs, deli meats, bacon, canned seafood, and prepared potato or vegetable products. Look for “Calcium erythorbin,” “Calcium erythorbate,” or “E318” in the ingredient list. In cured meats, you may also see related ingredients like [sodium erythorbate](/e316-sodium-erythorbate), [sodium ascorbate](/e301-sodium-ascorbate), [sodium nitrite](/e250-sodium-nitrite), or [potassium nitrite](/e249-potassium-nitrite).
+You’ll most often see erythorbate salts on labels for hot dogs, deli meats, bacon, canned seafood, and prepared potato or vegetable products. Look for “Calcium erythorbin,” “Calcium erythorbate,” or “E318” in the ingredient list. In cured meats, you may also see related ingredients like [sodium erythorbate](/e316-sodium-erythorbate){.additive}, [sodium ascorbate](/e301-sodium-ascorbate){.additive}, [sodium nitrite](/e250-sodium-nitrite){.additive}, or [potassium nitrite](/e249-potassium-nitrite){.additive}.
 
 ## References
 [^1]: Re-evaluation of erythorbic acid (E 315) and sodium erythorbate (E 316) as food additives — EFSA Panel on Food Additives and Nutrient Sources added to Food. https://www.efsa.europa.eu/en/efsajournal/pub/1776

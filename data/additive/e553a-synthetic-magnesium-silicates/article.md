@@ -21,12 +21,12 @@ Label names may include “magnesium silicate,” “synthetic magnesium silicat
 
 ## What can replace synthetic magnesium silicates?
 Depending on the recipe and processing needs, common stand‑ins include:
-- [Silicon dioxide](/e551-silicon-dioxide)
-- [Talc (magnesium silicate, natural)](/e553b-talc)
-- [Tricalcium phosphate](/e341iii-tricalcium-phosphate)
-- [Calcium carbonates](/e170-calcium-carbonates)
-- [Microcrystalline cellulose](/e460i-microcrystalline-cellulose) or [powdered cellulose](/e460ii-powdered-cellulose)
-- In some salts: [sodium ferrocyanide](/e535-sodium-ferrocyanide) or [potassium ferrocyanide](/e536-potassium-ferrocyanide)
+- [Silicon dioxide](/e551-silicon-dioxide){.additive}
+- [Talc (magnesium silicate, natural)](/e553b-talc){.additive}
+- [Tricalcium phosphate](/e341iii-tricalcium-phosphate){.additive}
+- [Calcium carbonates](/e170-calcium-carbonates){.additive}
+- [Microcrystalline cellulose](/e460i-microcrystalline-cellulose){.additive} or [powdered cellulose](/e460ii-powdered-cellulose){.additive}
+- In some salts: [sodium ferrocyanide](/e535-sodium-ferrocyanide){.additive} or [potassium ferrocyanide](/e536-potassium-ferrocyanide){.additive}
 
 The best substitute depends on taste neutrality, particle size, and whether the food is dry, oily, or hygroscopic (absorbs moisture).
 
@@ -53,7 +53,7 @@ It does not add taste or meaningful nutrients.
 Allergies to magnesium silicates are uncommon, and the additive is considered technologically necessary and safe when used as authorised.[^2]
 
 ## Myths & facts
-- “It’s the same as talc.” Not exactly. Both are magnesium silicates, but E553a refers to synthetic magnesium silicate, while E553b is [talc](/e553b-talc), a naturally occurring mineral. They have separate food‑grade specifications and authorisations in the EU.[^1]
+- “It’s the same as talc.” Not exactly. Both are magnesium silicates, but E553a refers to synthetic magnesium silicate, while E553b is [talc](/e553b-talc){.additive}, a naturally occurring mineral. They have separate food‑grade specifications and authorisations in the EU.[^1]
 - “It provides magnesium like a supplement.” No. E553a is water‑insoluble and is not a bioavailable source of dietary magnesium.[^3]
 - “It’s unregulated.” False. E553a has legally binding identity and purity criteria in the EU, and its use is governed by food additive laws.[^1][^2]
 

@@ -17,16 +17,16 @@ You’re most likely to see it in:
 - Beverages: Soft drinks, flavored waters, sports and energy drinks
 - Sweets: Gummies, fruit chews, hard candies
 - Fruit products: Jams, jellies, and fruit preparations
-- Baking: Some baking mixes and powders alongside leavening agents like [sodium bicarbonate](/e500ii-sodium-bicarbonate)
+- Baking: Some baking mixes and powders alongside leavening agents like [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive}
 
 Because labeling rules vary by region and brand, it may appear regularly in certain categories and not at all in others.
 
 ## What can replace Dipotassium tartrate?
 Depending on the recipe, common substitutes for controlling acidity include:
-- [Citric acid](/e330-citric-acid) or its salts such as [sodium citrates](/e331-sodium-citrates) and [potassium citrates](/e332-potassium-citrates)
-- [Malic acid](/e296-malic-acid) for a smoother sourness
-- Other tartrates such as [sodium tartrates](/e335-sodium-tartrates) or [potassium sodium tartrate](/e337-potassium-sodium-tartrate)
-- Direct use of [L‑tartaric acid](/e334-l-tartaric-acid) when a stronger acidifying effect is desired
+- [Citric acid](/e330-citric-acid){.additive} or its salts such as [sodium citrates](/e331-sodium-citrates){.additive} and [potassium citrates](/e332-potassium-citrates){.additive}
+- [Malic acid](/e296-malic-acid){.additive} for a smoother sourness
+- Other tartrates such as [sodium tartrates](/e335-sodium-tartrates){.additive} or [potassium sodium tartrate](/e337-potassium-sodium-tartrate){.additive}
+- Direct use of [L‑tartaric acid](/e334-l-tartaric-acid){.additive} when a stronger acidifying effect is desired
 
 The “best” alternative depends on taste, pH target, and how the product is processed.
 
@@ -51,7 +51,7 @@ Most people don’t need to avoid it. However, individuals on potassium‑restri
 - Myth: “It always changes flavor.” Fact: At the small amounts used, its job is to balance, not dominate, flavor.
 
 ## Dipotassium tartrate in branded foods
-On ingredient lists, look for “dipotassium tartrate,” “potassium tartrate,” or “E336ii.” You’ll most often find it in flavored beverages, fruit candies, jams and jellies, and some baking mixes. If a product uses other acid regulators instead, you might see [citric acid](/e330-citric-acid), [malic acid](/e296-malic-acid), or citrate salts such as [sodium citrates](/e331-sodium-citrates) or [potassium citrates](/e332-potassium-citrates).
+On ingredient lists, look for “dipotassium tartrate,” “potassium tartrate,” or “E336ii.” You’ll most often find it in flavored beverages, fruit candies, jams and jellies, and some baking mixes. If a product uses other acid regulators instead, you might see [citric acid](/e330-citric-acid){.additive}, [malic acid](/e296-malic-acid){.additive}, or citrate salts such as [sodium citrates](/e331-sodium-citrates){.additive} or [potassium citrates](/e332-potassium-citrates){.additive}.
 
 ## References
 [^1]: Regulation (EC) No 1333/2008 on food additives — EUR-Lex. https://eur-lex.europa.eu/eli/reg/2008/1333/oj

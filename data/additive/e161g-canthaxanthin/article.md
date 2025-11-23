@@ -10,7 +10,7 @@ Canthaxanthin (E161g) is an orange‑red carotenoid colour used to give foods a 
 - Regulatory snapshot: Permitted as a food colour with defined specifications in the EU; allowed in the U.S. as a color additive exempt from certification when used in line with regulations.
 
 ## Why is Canthaxanthin added to food?
-Food makers use canthaxanthin to deliver a warm, appetizing orange‑red shade that can be hard to achieve with other colours. Because it is fat‑soluble and relatively heat‑ and light‑stable compared with many natural pigments, it works well in fatty foods, emulsions, and dry mixes. As a member of the [carotenoids](/e160-carotenoids), it blends naturally with shades from other carotenoids such as [beta-carotene](/e160ai-beta-carotene), [lutein](/e161b-lutein), [zeaxanthin](/e161h-zeaxanthin), and [lycopene](/e160d-lycopene).
+Food makers use canthaxanthin to deliver a warm, appetizing orange‑red shade that can be hard to achieve with other colours. Because it is fat‑soluble and relatively heat‑ and light‑stable compared with many natural pigments, it works well in fatty foods, emulsions, and dry mixes. As a member of the [carotenoids](/e160-carotenoids){.additive}, it blends naturally with shades from other carotenoids such as [beta-carotene](/e160ai-beta-carotene){.additive}, [lutein](/e161b-lutein){.additive}, [zeaxanthin](/e161h-zeaxanthin){.additive}, and [lycopene](/e160d-lycopene){.additive}.
 
 ## What foods contain Canthaxanthin?
 You may find canthaxanthin in:
@@ -25,9 +25,9 @@ Actual use depends on local rules and each brand’s recipe.
 
 ## What can replace Canthaxanthin?
 Alternatives depend on the target shade, processing, and whether a “from natural sources” claim is desired.
-- Warmer orange: [beta-carotene](/e160ai-beta-carotene), [annatto](/e160b-annatto), or [paprika extract](/e160c-paprika-extract)
-- Redder tones: [lycopene](/e160d-lycopene)
-- Yellow‑orange, milder hue: [lutein](/e161b-lutein) or [zeaxanthin](/e161h-zeaxanthin)
+- Warmer orange: [beta-carotene](/e160ai-beta-carotene){.additive}, [annatto](/e160b-annatto){.additive}, or [paprika extract](/e160c-paprika-extract){.additive}
+- Redder tones: [lycopene](/e160d-lycopene){.additive}
+- Yellow‑orange, milder hue: [lutein](/e161b-lutein){.additive} or [zeaxanthin](/e161h-zeaxanthin){.additive}
 Each colour behaves differently in heat, light, and varying pH, so formulators often run trials to match shade and stability.
 
 ## How is Canthaxanthin made?
@@ -52,7 +52,7 @@ Canthaxanthin’s role in food is cosmetic: it provides color. While it is a car
 
 ## Myths & facts
 - Myth: “Canthaxanthin tans your skin when eaten.” Fact: At very high supplemental doses (not from normal foods), it has caused reversible eye deposits; it is not a safe or recommended way to tan.
-- Myth: “All orange‑red foods use canthaxanthin.” Fact: Many shades come from other carotenoids like [annatto](/e160b-annatto), [paprika extract](/e160c-paprika-extract), [beta-carotene](/e160ai-beta-carotene), or [lycopene](/e160d-lycopene).
+- Myth: “All orange‑red foods use canthaxanthin.” Fact: Many shades come from other carotenoids like [annatto](/e160b-annatto){.additive}, [paprika extract](/e160c-paprika-extract){.additive}, [beta-carotene](/e160ai-beta-carotene){.additive}, or [lycopene](/e160d-lycopene){.additive}.
 - Myth: “It’s water‑soluble.” Fact: Canthaxanthin is fat‑soluble; formulators use emulsions or carriers to disperse it in water‑based foods.
 
 ## Canthaxanthin in branded foods

@@ -25,9 +25,9 @@ Global standards list permitted uses of salts of fatty acids in many processed f
 
 ## What can replace calcium salts of fatty acids?
 Depending on the job needed, common alternatives include:
-- Emulsifiers: [lecithins](/e322-lecithins), [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids), [sodium stearoyl-2-lactylate](/e481-sodium-stearoyl-2-lactylate), [calcium stearoyl-2-lactylate](/e482-calcium-stearoyl-2-lactylate)
-- Stabilizers/thickeners: [xanthan gum](/e415-xanthan-gum), [pectins](/e440-pectins)
-- Related stearates: [magnesium stearate](/e572-magnesium-stearate) or the broader group [sodium, potassium and calcium salts of fatty acids](/e470a-sodium-potassium-and-calcium-salts-of-fatty-acids)
+- Emulsifiers: [lecithins](/e322-lecithins){.additive}, [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive}, [sodium stearoyl-2-lactylate](/e481-sodium-stearoyl-2-lactylate){.additive}, [calcium stearoyl-2-lactylate](/e482-calcium-stearoyl-2-lactylate){.additive}
+- Stabilizers/thickeners: [xanthan gum](/e415-xanthan-gum){.additive}, [pectins](/e440-pectins){.additive}
+- Related stearates: [magnesium stearate](/e572-magnesium-stearate){.additive} or the broader group [sodium, potassium and calcium salts of fatty acids](/e470a-sodium-potassium-and-calcium-salts-of-fatty-acids){.additive}
 
 The best substitute depends on the food, process, and labeling needs.
 

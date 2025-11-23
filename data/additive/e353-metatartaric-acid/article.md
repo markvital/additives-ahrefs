@@ -4,10 +4,10 @@ Metatartaric acid (E353) is a processed form of tartaric acid used mainly in win
 
 ## At a glance
 
-- What it is: A polymer made by heating [L-tartaric acid](/e334-l-tartaric-acid); used as a stabilizer in wine.
+- What it is: A polymer made by heating [L-tartaric acid](/e334-l-tartaric-acid){.additive}; used as a stabilizer in wine.
 - What it does: Helps prevent tartrate crystals from forming and settling in bottled wine.
 - Where it’s found: Primarily in still and sparkling wines in regions where it’s permitted.
-- Common alternatives: Cold stabilization, contact seeding, electrodialysis; additive alternative includes [sodium carboxymethyl cellulose (E466)](/e466-sodium-carboxy-methyl-cellulose).
+- Common alternatives: Cold stabilization, contact seeding, electrodialysis; additive alternative includes [sodium carboxymethyl cellulose (E466)](/e466-sodium-carboxy-methyl-cellulose){.additive}.
 - Safety: Evaluated by the European Food Safety Authority (EFSA) with no safety concern at reported uses and levels.
 
 ## Why is Metatartaric acid added to food?
@@ -24,13 +24,13 @@ You’ll most often encounter metatartaric acid in still and sparkling wines. It
 
 Winemakers have several options to control tartrate crystals without metatartaric acid:
 - Process choices: Cold stabilization (chilling the wine so crystals form and can be removed), contact seeding with potassium bitartrate, or membrane methods such as electrodialysis.
-- Additive alternative: [Sodium carboxymethyl cellulose (CMC, E466)](/e466-sodium-carboxy-methyl-cellulose), which is also used to inhibit tartrate crystallization under permitted conditions in many regions.
+- Additive alternative: [Sodium carboxymethyl cellulose (CMC, E466)](/e466-sodium-carboxy-methyl-cellulose){.additive}, which is also used to inhibit tartrate crystallization under permitted conditions in many regions.
 
 These approaches are selected based on the wine style, desired shelf life, and regulatory allowances.
 
 ## How is Metatartaric acid made?
 
-Metatartaric acid is produced by heating [L-tartaric acid](/e334-l-tartaric-acid), a natural acid from grapes and wine by-products. The heat treatment causes tartaric acid molecules to link together (partial esterification/condensation), creating a polymeric material with stabilizing properties in wine.[^1]
+Metatartaric acid is produced by heating [L-tartaric acid](/e334-l-tartaric-acid){.additive}, a natural acid from grapes and wine by-products. The heat treatment causes tartaric acid molecules to link together (partial esterification/condensation), creating a polymeric material with stabilizing properties in wine.[^1]
 
 ## Is Metatartaric acid safe to eat?
 

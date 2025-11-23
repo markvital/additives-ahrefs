@@ -26,17 +26,17 @@ In the U.S., the standard of identity for self-rising flour explicitly allows le
 
 ## What can replace Monocalcium phosphate?
 Depending on the recipe or product, food makers may use other leavening acids or acidulants:
-- [Dicalcium phosphate](/e341ii-dicalcium-phosphate) (E341ii)
-- [Disodium diphosphate](/e450i-disodium-diphosphate) (E450i, often called SAPP)
-- [Sodium aluminium phosphate](/e541-sodium-aluminium-phosphate) (E541)
-- [Monopotassium tartrate](/e336i-monopotassium-tartrate) (E336i, “cream of tartar”)
-- [Glucono delta-lactone](/e575-glucono-delta-lactone) (E575)
-- [Citric acid](/e330-citric-acid) (E330) in some quick bakes and beverages
+- [Dicalcium phosphate](/e341ii-dicalcium-phosphate){.additive} (E341ii)
+- [Disodium diphosphate](/e450i-disodium-diphosphate){.additive} (E450i, often called SAPP)
+- [Sodium aluminium phosphate](/e541-sodium-aluminium-phosphate){.additive} (E541)
+- [Monopotassium tartrate](/e336i-monopotassium-tartrate){.additive} (E336i, “cream of tartar”)
+- [Glucono delta-lactone](/e575-glucono-delta-lactone){.additive} (E575)
+- [Citric acid](/e330-citric-acid){.additive} (E330) in some quick bakes and beverages
 
 These alternatives differ in reaction speed, taste impact, sodium content, and how they behave during mixing and baking.
 
 ## How is Monocalcium phosphate made?
-Food-grade monocalcium phosphate is made by carefully neutralizing purified [phosphoric acid](/e338-phosphoric-acid) with a calcium source such as [calcium carbonate](/e170i-calcium-carbonate) or [calcium hydroxide](/e526-calcium-hydroxide), then drying and milling the crystals.[^2] It is produced as a monohydrate or anhydrous form, both of which have defined purity criteria in the EU food additive specifications.[^2]
+Food-grade monocalcium phosphate is made by carefully neutralizing purified [phosphoric acid](/e338-phosphoric-acid){.additive} with a calcium source such as [calcium carbonate](/e170i-calcium-carbonate){.additive} or [calcium hydroxide](/e526-calcium-hydroxide){.additive}, then drying and milling the crystals.[^2] It is produced as a monohydrate or anhydrous form, both of which have defined purity criteria in the EU food additive specifications.[^2]
 
 Within the EU additive family “E341 calcium phosphates,” monocalcium phosphate is designated as E341(i), distinct from dicalcium (E341(ii)) and tricalcium (E341(iii)) phosphates.[^2]
 
@@ -51,14 +51,14 @@ EFSA also noted that in some population groups, high consumers (especially child
 - Calcium contribution: It can add a small amount of calcium to the finished food.
 - Predictable handling: It helps set batter pH, which supports even crumb and color.
 
-In many formulas, it pairs with [sodium bicarbonate](/e500ii-sodium-bicarbonate) to deliver the desired rise during mixing and baking.
+In many formulas, it pairs with [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive} to deliver the desired rise during mixing and baking.
 
 ## Who should avoid Monocalcium phosphate?
 People who must limit phosphorus—such as those with chronic kidney disease—should monitor intake of phosphate additives, including monocalcium phosphate, as part of their overall phosphorus management.[^5] If your clinician has advised a low-phosphorus diet, review ingredient lists for “phosphate” additives and discuss suitable alternatives.
 
 ## Myths & facts
 - Myth: “Monocalcium phosphate contains aluminum.”  
-  Fact: It is aluminum-free. Aluminum-based leavening acids are separate additives, such as [sodium aluminium phosphate](/e541-sodium-aluminium-phosphate).
+  Fact: It is aluminum-free. Aluminum-based leavening acids are separate additives, such as [sodium aluminium phosphate](/e541-sodium-aluminium-phosphate){.additive}.
 
 - Myth: “All phosphates are the same.”  
   Fact: E341(i) (mono-), E341(ii) (di-), and E341(iii) (tri-calcium phosphates) behave differently and are used for different purposes.

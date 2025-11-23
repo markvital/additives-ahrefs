@@ -18,10 +18,10 @@ In the European Union (EU), E442 is authorised as a food additive in categories 
 
 ## What can replace ammonium phosphatides?
 Food makers often choose among several emulsifiers to get the texture they want:
-- Lecithins, commonly from soy or sunflower: [lecithins](/e322-lecithins)
-- Mono- and diglycerides of fatty acids: [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids)
-- Polyglycerol polyricinoleate (PGPR), frequently used in chocolate: [polyglycerol polyricinoleate](/e476-polyglycerol-polyricinoleate)
-- Sorbitan esters (depending on application): for example [sorbitan tristearate](/e492-sorbitan-tristearate)
+- Lecithins, commonly from soy or sunflower: [lecithins](/e322-lecithins){.additive}
+- Mono- and diglycerides of fatty acids: [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive}
+- Polyglycerol polyricinoleate (PGPR), frequently used in chocolate: [polyglycerol polyricinoleate](/e476-polyglycerol-polyricinoleate){.additive}
+- Sorbitan esters (depending on application): for example [sorbitan tristearate](/e492-sorbitan-tristearate){.additive}
 The best substitute depends on the product type and the target viscosity, flavour release, and cost.
 
 ## How is ammonium phosphatides made?
@@ -37,7 +37,7 @@ For consumers, the main benefits are indirect: smoother, more consistent chocola
 
 ## Who should avoid ammonium phosphatides?
 - People following very strict dietary rules (vegan, halal, kosher) may wish to confirm the source of the glycerol and fatty acids with the manufacturer, even though E442 is typically made from vegetable oils.
-- Individuals who prefer minimal‑ingredient or “additive‑free” foods might choose products that use alternatives like [lecithins](/e322-lecithins) instead.
+- Individuals who prefer minimal‑ingredient or “additive‑free” foods might choose products that use alternatives like [lecithins](/e322-lecithins){.additive} instead.
 
 Allergies to E442 are uncommon because it is highly refined and used at very low levels, but as with any ingredient, discontinue consumption if you suspect a reaction.
 
@@ -47,7 +47,7 @@ Allergies to E442 are uncommon because it is highly refined and used at very low
 - “All emulsifiers taste waxy.” Properly used, E442 is neutral in taste and designed not to affect flavour.
 
 ## Ammonium phosphatides in branded foods
-You’ll most often see E442 on labels of chocolate bars, boxed chocolates, chocolate‑coated biscuits, ice‑cream coatings, and cocoa‑based spreads. On packaging, it may be listed as “ammonium phosphatides,” “E442,” or “ammonium salts of phosphorylated glycerides.” Ingredient choices vary by brand and recipe, so some products will instead use [lecithins](/e322-lecithins), [mono- and diglycerides](/e471-mono-and-diglycerides-of-fatty-acids), or [PGPR](/e476-polyglycerol-polyricinoleate).
+You’ll most often see E442 on labels of chocolate bars, boxed chocolates, chocolate‑coated biscuits, ice‑cream coatings, and cocoa‑based spreads. On packaging, it may be listed as “ammonium phosphatides,” “E442,” or “ammonium salts of phosphorylated glycerides.” Ingredient choices vary by brand and recipe, so some products will instead use [lecithins](/e322-lecithins){.additive}, [mono- and diglycerides](/e471-mono-and-diglycerides-of-fatty-acids){.additive}, or [PGPR](/e476-polyglycerol-polyricinoleate){.additive}.
 
 ## References
 [^1]: Re‑evaluation of ammonium phosphatides (E 442) as a food additive — EFSA Journal. https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2019.5660

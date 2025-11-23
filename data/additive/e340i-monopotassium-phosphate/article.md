@@ -25,15 +25,15 @@ Ingredient lists may show “monopotassium phosphate,” “potassium phosphate 
 
 ## What can replace Monopotassium phosphate?
 Depending on the job it’s doing, formulators may switch to:
-- Other potassium phosphates for buffering/emulsifying: [dipotassium phosphate](/e340ii-dipotassium-phosphate) or [tripotassium phosphate](/e340iii-tripotassium-phosphate)
-- Sodium-based phosphates for similar functionality: [sodium phosphates](/e339-sodium-phosphates)
-- Organic acid systems for tartness and buffering: [citric acid](/e330-citric-acid) with [sodium citrate](/e331-sodium-citrates) or [potassium citrate](/e332-potassium-citrates)
-- For pH adjustment, alkaline salts such as [sodium bicarbonate](/e500ii-sodium-bicarbonate) can be paired with food acids
+- Other potassium phosphates for buffering/emulsifying: [dipotassium phosphate](/e340ii-dipotassium-phosphate){.additive} or [tripotassium phosphate](/e340iii-tripotassium-phosphate){.additive}
+- Sodium-based phosphates for similar functionality: [sodium phosphates](/e339-sodium-phosphates){.additive}
+- Organic acid systems for tartness and buffering: [citric acid](/e330-citric-acid){.additive} with [sodium citrate](/e331-sodium-citrates){.additive} or [potassium citrate](/e332-potassium-citrates){.additive}
+- For pH adjustment, alkaline salts such as [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive} can be paired with food acids
 
 Each swap changes taste, sodium/potassium balance, and texture, so it’s not always one‑to‑one.
 
 ## How is Monopotassium phosphate made?
-Food-grade monopotassium phosphate is produced by neutralizing purified [phosphoric acid](/e338-phosphoric-acid) with a potassium base (commonly potassium hydroxide or potassium carbonate), then crystallizing and drying the salt to specification.[^2] The pure compound forms white, water‑soluble crystals with the formula KH2PO4.[^4]
+Food-grade monopotassium phosphate is produced by neutralizing purified [phosphoric acid](/e338-phosphoric-acid){.additive} with a potassium base (commonly potassium hydroxide or potassium carbonate), then crystallizing and drying the salt to specification.[^2] The pure compound forms white, water‑soluble crystals with the formula KH2PO4.[^4]
 
 ## Is Monopotassium phosphate safe to eat?
 Regulators have reviewed phosphate additives as a group. EFSA (European Food Safety Authority) set a group acceptable daily intake (ADI) for phosphates of 40 mg phosphorus per kg body weight per day and noted that combined intake from food and additives can be high in some consumers.[^1] When used within the rules for each food category and good manufacturing practice, monopotassium phosphate is considered safe for the general population.

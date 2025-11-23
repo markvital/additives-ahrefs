@@ -18,10 +18,10 @@ Lecithins show up in many everyday items. You will often find them in chocolate 
 
 ## What can replace Lecithins?
 Depending on the job, other additives can stand in for lecithins.
-- For emulsifying fats: [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids) or [polyglycerol polyricinoleate](/e476-polyglycerol-polyricinoleate) in chocolate.
-- For thickening or stabilizing water phases: [xanthan gum](/e415-xanthan-gum), [guar gum](/e412-guar-gum), or [gellan gum](/e418-gellan-gum).
-- For dough strength and crumb: [sodium stearoyl-2-lactylate](/e481-sodium-stearoyl-2-lactylate).
-- For antioxidant support in certain foods: [ascorbic acid](/e300-ascorbic-acid), [citric acid](/e330-citric-acid), or [tocopherol-rich extract](/e306-tocopherol-rich-extract) when appropriate.
+- For emulsifying fats: [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive} or [polyglycerol polyricinoleate](/e476-polyglycerol-polyricinoleate){.additive} in chocolate.
+- For thickening or stabilizing water phases: [xanthan gum](/e415-xanthan-gum){.additive}, [guar gum](/e412-guar-gum){.additive}, or [gellan gum](/e418-gellan-gum){.additive}.
+- For dough strength and crumb: [sodium stearoyl-2-lactylate](/e481-sodium-stearoyl-2-lactylate){.additive}.
+- For antioxidant support in certain foods: [ascorbic acid](/e300-ascorbic-acid){.additive}, [citric acid](/e330-citric-acid){.additive}, or [tocopherol-rich extract](/e306-tocopherol-rich-extract){.additive} when appropriate.
 
 ## How is Lecithins made?
 Manufacturers obtain lecithins by “degumming” edible oils such as soy or sunflower: water is mixed into crude oil, the phospholipids hydrate and separate, and the lecithin-rich fraction is removed and dried. It may be further processed (for example, filtered, fractionated, or de-oiled to a powder) and must meet identity and purity specifications set in EU law for E322.[^2] Lecithins used as food additives are defined as mixtures of phosphatides (phospholipids) from edible oilseeds or egg yolk produced by physical methods.[^2]

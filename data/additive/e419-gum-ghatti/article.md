@@ -23,13 +23,13 @@ On labels, look for “gum ghatti” or “E419.”
 
 ## What can replace gum ghatti?
 Depending on the recipe, common substitutes include other hydrocolloids (water-loving gums) such as:
-- [gum arabic](/e414-acacia-gum) (acacia gum)
-- [xanthan gum](/e415-xanthan-gum)
-- [gellan gum](/e418-gellan-gum)
-- [locust bean gum](/e410-locust-bean-gum)
-- [carrageenan](/e407-carrageenan)
-- [tara gum](/e417-tara-gum)
-- [pectins](/e440-pectins)
+- [gum arabic](/e414-acacia-gum){.additive} (acacia gum)
+- [xanthan gum](/e415-xanthan-gum){.additive}
+- [gellan gum](/e418-gellan-gum){.additive}
+- [locust bean gum](/e410-locust-bean-gum){.additive}
+- [carrageenan](/e407-carrageenan){.additive}
+- [tara gum](/e417-tara-gum){.additive}
+- [pectins](/e440-pectins){.additive}
 
 Each gum behaves a bit differently, so the best swap depends on whether you need emulsifying power, viscosity, or freeze–thaw stability.
 

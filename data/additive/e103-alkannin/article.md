@@ -16,9 +16,9 @@ In the EU and the U.S., you should not find alkannin (E103) in legally compliant
 
 ## What can replace Alkannin?
 If a red color is needed, several permitted alternatives are widely used:
-- Plant-based reds like [beetroot red](/e162-beetroot-red) and [anthocyanins](/e163-anthocyanins)
-- Insect-derived [cochineal](/e120-cochineal) (carmine) for heat-stable, vibrant reds
-- Orange-red carotenoids such as [annatto](/e160b-annatto), [paprika extract](/e160c-paprika-extract), [lycopene](/e160d-lycopene), and [carotene](/e160a-carotene)
+- Plant-based reds like [beetroot red](/e162-beetroot-red){.additive} and [anthocyanins](/e163-anthocyanins){.additive}
+- Insect-derived [cochineal](/e120-cochineal){.additive} (carmine) for heat-stable, vibrant reds
+- Orange-red carotenoids such as [annatto](/e160b-annatto){.additive}, [paprika extract](/e160c-paprika-extract){.additive}, [lycopene](/e160d-lycopene){.additive}, and [carotene](/e160a-carotene){.additive}
 
 The best substitute depends on the food’s pH, fat content, processing temperature, and the desired shade.
 

@@ -28,9 +28,9 @@ On labels, look for “starch sodium octenyl succinate,” “modified starch (E
 ## What can replace Starch sodium octenyl succinate?
 
 Possible alternatives depend on the job:
-- Emulsifying and flavor stabilization: [acacia gum](/e414-acacia-gum), [xanthan gum](/e415-xanthan-gum), or [pectins](/e440-pectins)
-- General thickening and stability: other modified starches such as [oxidised starch](/e1404-oxidised-starch), [hydroxypropyl starch](/e1440-hydroxypropyl-starch), or [acetylated distarch adipate](/e1422-acetylated-distarch-adipate)
-- Specialized encapsulation: [starch aluminium octenyl succinate](/e1452-starch-aluminium-octenyl-succinate)
+- Emulsifying and flavor stabilization: [acacia gum](/e414-acacia-gum){.additive}, [xanthan gum](/e415-xanthan-gum){.additive}, or [pectins](/e440-pectins){.additive}
+- General thickening and stability: other modified starches such as [oxidised starch](/e1404-oxidised-starch){.additive}, [hydroxypropyl starch](/e1440-hydroxypropyl-starch){.additive}, or [acetylated distarch adipate](/e1422-acetylated-distarch-adipate){.additive}
+- Specialized encapsulation: [starch aluminium octenyl succinate](/e1452-starch-aluminium-octenyl-succinate){.additive}
 
 Each swap changes texture and processing behavior, so formulators choose based on acidity, heat, and shear needs.
 

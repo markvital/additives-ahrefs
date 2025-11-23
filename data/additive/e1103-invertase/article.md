@@ -24,9 +24,9 @@ On labels, it may appear as “invertase” or “enzyme (invertase).”
 
 ## What can replace Invertase?
 There are a few ways to get similar results, depending on the goal:
-- To reduce crystallization or add moisture: Use humectants such as [glycerol](/e422-glycerol) or [sorbitol](/e420-sorbitol).
-- To make invert sugar without enzymes: Use acid inversion during cooking with an acid like [citric acid](/e330-citric-acid).
-- To adjust texture and stability in fillings: Hydrocolloids such as [xanthan gum](/e415-xanthan-gum) or emulsifiers like [lecithins](/e322-lecithins) can help, although they do not create invert sugar.
+- To reduce crystallization or add moisture: Use humectants such as [glycerol](/e422-glycerol){.additive} or [sorbitol](/e420-sorbitol){.additive}.
+- To make invert sugar without enzymes: Use acid inversion during cooking with an acid like [citric acid](/e330-citric-acid){.additive}.
+- To adjust texture and stability in fillings: Hydrocolloids such as [xanthan gum](/e415-xanthan-gum){.additive} or emulsifiers like [lecithins](/e322-lecithins){.additive} can help, although they do not create invert sugar.
 Note that these options do not fully copy the slow softening effect invertase has in confectionery centers.
 
 ## How is Invertase made?
@@ -52,7 +52,7 @@ Invertase is an approved food additive in the European Union, where additives mu
 - Myth: Invertase comes from animal sources. Fact: Food-grade invertase is typically produced from baker’s yeast (Saccharomyces cerevisiae).[^1]
 
 ## Invertase in branded foods
-You can spot invertase on ingredient lists of many confectionery products. It is common in chocolate-covered cherries, fondant-filled chocolates, flavored crèmes, and some soft-centered mints and truffles. On packaging, look for “invertase” or “enzyme (invertase)” in the ingredients panel. In some products, it may be paired with humectants like [glycerol](/e422-glycerol) or [sorbitol](/e420-sorbitol) to fine-tune softness and moisture.
+You can spot invertase on ingredient lists of many confectionery products. It is common in chocolate-covered cherries, fondant-filled chocolates, flavored crèmes, and some soft-centered mints and truffles. On packaging, look for “invertase” or “enzyme (invertase)” in the ingredients panel. In some products, it may be paired with humectants like [glycerol](/e422-glycerol){.additive} or [sorbitol](/e420-sorbitol){.additive} to fine-tune softness and moisture.
 
 ## References
 [^1]: Commission Regulation (EU) No 231/2012 laying down specifications for food additives listed in Annexes II and III to Regulation (EC) No 1333/2008 — EUR-Lex. https://eur-lex.europa.eu/eli/reg/2012/231/oj

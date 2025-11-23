@@ -18,10 +18,10 @@ You may encounter Citrus Red 2 on some fresh-market oranges in the U.S., and onl
 
 ## What can replace Citrus Red 2?
 For whole fruit, the most straightforward “replacement” is simply selling oranges without added color. For coloring processed foods (not orange peels), food makers often use permitted alternatives such as:
-- [beta-carotene](/e160a-carotene) for orange/yellow shades  
-- [annatto](/e160b-annatto) for warm orange hues  
-- [paprika extract](/e160c-paprika-extract) for red-orange tones  
-- [Allura Red](/e129-allura-red) or [tartrazine](/e102-tartrazine) in specific applications
+- [beta-carotene](/e160a-carotene){.additive} for orange/yellow shades  
+- [annatto](/e160b-annatto){.additive} for warm orange hues  
+- [paprika extract](/e160c-paprika-extract){.additive} for red-orange tones  
+- [Allura Red](/e129-allura-red){.additive} or [tartrazine](/e102-tartrazine){.additive} in specific applications
 
 These alternatives are used in foods, not on orange peels, which have their own specific rules.
 

@@ -23,9 +23,9 @@ You’re most likely to see it in:
 ## What can replace sodium diacetate?
 Alternatives depend on why it is used.
 
-- For acidity and tangy taste: [acetic acid](/e260-acetic-acid), [citric acid](/e330-citric-acid), or [lactic acid](/e270-lactic-acid)
-- For preservation: [sorbic acid](/e200-sorbic-acid), [potassium sorbate](/e202-potassium-sorbate), or [sodium benzoate](/e211-sodium-benzoate)
-- For a related acetate option: [sodium acetate](/e262i-sodium-acetate) or the broader group [sodium acetates](/e262-sodium-acetates)
+- For acidity and tangy taste: [acetic acid](/e260-acetic-acid){.additive}, [citric acid](/e330-citric-acid){.additive}, or [lactic acid](/e270-lactic-acid){.additive}
+- For preservation: [sorbic acid](/e200-sorbic-acid){.additive}, [potassium sorbate](/e202-potassium-sorbate){.additive}, or [sodium benzoate](/e211-sodium-benzoate){.additive}
+- For a related acetate option: [sodium acetate](/e262i-sodium-acetate){.additive} or the broader group [sodium acetates](/e262-sodium-acetates){.additive}
 
 Each substitute has its own flavor, pH effect, and regulatory limits, so food makers choose based on the recipe and rules for that food.
 

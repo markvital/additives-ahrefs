@@ -24,9 +24,9 @@ It may appear together with other acidifiers or preservatives to fine-tune pH an
 
 ## What can replace Buffered vinegar?
 Depending on the recipe and flavor goal, common alternatives include:
-- Other acetate-based ingredients: [acetic acid](/e260-acetic-acid), [sodium acetate](/e262i-sodium-acetate), [sodium diacetate](/e262ii-sodium-diacetate), [potassium acetate](/e261-potassium-acetate), [calcium acetate](/e263-calcium-acetate)
-- Other acids and their salts: [lactic acid](/e270-lactic-acid), [citric acid](/e330-citric-acid), [sodium lactate](/e325-sodium-lactate)
-- Preservatives used for mold/yeast control: [sorbic acid](/e200-sorbic-acid), [potassium sorbate](/e202-potassium-sorbate), [sodium benzoate](/e211-sodium-benzoate)
+- Other acetate-based ingredients: [acetic acid](/e260-acetic-acid){.additive}, [sodium acetate](/e262i-sodium-acetate){.additive}, [sodium diacetate](/e262ii-sodium-diacetate){.additive}, [potassium acetate](/e261-potassium-acetate){.additive}, [calcium acetate](/e263-calcium-acetate){.additive}
+- Other acids and their salts: [lactic acid](/e270-lactic-acid){.additive}, [citric acid](/e330-citric-acid){.additive}, [sodium lactate](/e325-sodium-lactate){.additive}
+- Preservatives used for mold/yeast control: [sorbic acid](/e200-sorbic-acid){.additive}, [potassium sorbate](/e202-potassium-sorbate){.additive}, [sodium benzoate](/e211-sodium-benzoate){.additive}
 - Non-ingredient strategies like fermentation, refrigerated storage, or modified packaging
 
 ## How is Buffered vinegar made?

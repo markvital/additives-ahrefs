@@ -24,9 +24,9 @@ Under EU law, its use is authorised only in certain food categories and at level
 
 ## What can replace Potassium sodium tartrate?
 Depending on the recipe, formulators may swap in other sequestrants or acidity regulators:
-- Organic acids and their salts, such as [citric acid](/e330-citric-acid) or [sodium citrates](/e331-sodium-citrates) (including [disodium citrate](/e331ii-disodium-citrate) and [trisodium citrate](/e331iii-trisodium-citrate))
-- Phosphate systems like [sodium phosphates](/e339-sodium-phosphates) or [polyphosphates](/e452-polyphosphates)
-- Chelating agents for tough metal control, such as [calcium disodium EDTA](/e385-calcium-disodium-ethylenediaminetetraacetate)
+- Organic acids and their salts, such as [citric acid](/e330-citric-acid){.additive} or [sodium citrates](/e331-sodium-citrates){.additive} (including [disodium citrate](/e331ii-disodium-citrate){.additive} and [trisodium citrate](/e331iii-trisodium-citrate){.additive})
+- Phosphate systems like [sodium phosphates](/e339-sodium-phosphates){.additive} or [polyphosphates](/e452-polyphosphates){.additive}
+- Chelating agents for tough metal control, such as [calcium disodium EDTA](/e385-calcium-disodium-ethylenediaminetetraacetate){.additive}
 The best substitute depends on pH, flavor impact, labeling goals, and the target metals in the food.
 
 ## How is Potassium sodium tartrate made?
@@ -49,10 +49,10 @@ Most people do not need to avoid E337 when it is used as intended. However:
 If you have a kidney, heart, or blood pressure condition requiring mineral restriction, ask a healthcare professional about your total sodium and potassium intake.
 
 ## Myths & facts
-- Myth: It’s the same as cream of tartar. Fact: Cream of tartar is potassium bitartrate ([monopotassium tartrate](/e336i-monopotassium-tartrate)), while E337 is the mixed sodium–potassium salt.
+- Myth: It’s the same as cream of tartar. Fact: Cream of tartar is potassium bitartrate ([monopotassium tartrate](/e336i-monopotassium-tartrate){.additive}), while E337 is the mixed sodium–potassium salt.
 - Myth: It’s an artificial sweetener. Fact: E337 is not a sweetener; it is a sequestrant and stabiliser.
 - Myth: “Rochelle salt” means it isn’t food-grade. Fact: Rochelle salt is simply a common name for potassium sodium tartrate; food-grade material must meet official specifications.[^1][^3]
-- Myth: All tartaric acid salts are interchangeable. Fact: Different tartrates (for example, [L(+)-tartaric acid](/e334-l-tartaric-acid), [monopotassium tartrate](/e336i-monopotassium-tartrate), or [dipotassium tartrate](/e336ii-dipotassium-tartrate)) have different properties and allowed uses.
+- Myth: All tartaric acid salts are interchangeable. Fact: Different tartrates (for example, [L(+)-tartaric acid](/e334-l-tartaric-acid){.additive}, [monopotassium tartrate](/e336i-monopotassium-tartrate){.additive}, or [dipotassium tartrate](/e336ii-dipotassium-tartrate){.additive}) have different properties and allowed uses.
 
 ## Potassium sodium tartrate in branded foods
 On ingredient lists, look for “potassium sodium tartrate,” “sodium potassium tartrate,” “Rochelle salt,” or “E337.” You’re most likely to see it in beverages, syrups, confectionery, and fruit spreads where color and clarity are important. If you are tracking sodium or potassium, compare serving sizes and consider your full diet.

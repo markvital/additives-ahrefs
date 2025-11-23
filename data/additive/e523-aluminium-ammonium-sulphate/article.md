@@ -6,7 +6,7 @@ Aluminium ammonium sulphate (E523), also called ammonium alum, is a mineral salt
 - What it is: a crystalline alum salt (ammonium alum) used as a stabiliser and firming aid.
 - How it looks: clear to white crystals, usually as a hydrated solid.
 - Where you might see it: selected pickled or preserved foods, and other niche uses; labeling may show “E523” or “aluminium ammonium sulphate.”
-- Related additives: other aluminium sulphates such as [aluminium sulphate](/e520-aluminium-sulphate) (E520) and [aluminium potassium sulphate](/e522-aluminium-potassium-sulphate) (E522).
+- Related additives: other aluminium sulphates such as [aluminium sulphate](/e520-aluminium-sulphate){.additive} (E520) and [aluminium potassium sulphate](/e522-aluminium-potassium-sulphate){.additive} (E522).
 - Regulation: permitted with specifications; total aluminium intake from all sources is regulated and monitored.
 - Typical role: helps firm or stabilise texture; can provide acidity in certain leavening systems.
 
@@ -18,11 +18,11 @@ E523 is a niche additive. You’re most likely to find it in certain pickled or 
 
 ## What can replace Aluminium ammonium sulphate?
 Alternatives depend on the job it is doing in a recipe:
-- For firming or crispness in pickles and vegetables: [calcium chloride](/e509-calcium-chloride) or [calcium sulphate](/e516-calcium-sulphate).
-- For acidity or leavening systems: [citric acid](/e330-citric-acid) with baking soda ([sodium bicarbonate](/e500ii-sodium-bicarbonate)).
-- For thickening or stabilising: [pectins](/e440-pectins), [xanthan gum](/e415-xanthan-gum), [agar](/e406-agar), or [carrageenan](/e407-carrageenan).
+- For firming or crispness in pickles and vegetables: [calcium chloride](/e509-calcium-chloride){.additive} or [calcium sulphate](/e516-calcium-sulphate){.additive}.
+- For acidity or leavening systems: [citric acid](/e330-citric-acid){.additive} with baking soda ([sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive}).
+- For thickening or stabilising: [pectins](/e440-pectins){.additive}, [xanthan gum](/e415-xanthan-gum){.additive}, [agar](/e406-agar){.additive}, or [carrageenan](/e407-carrageenan){.additive}.
 
-If the goal is to avoid aluminium altogether, choose non-aluminium options rather than other alum salts such as [aluminium sulphate](/e520-aluminium-sulphate) or [aluminium potassium sulphate](/e522-aluminium-potassium-sulphate).
+If the goal is to avoid aluminium altogether, choose non-aluminium options rather than other alum salts such as [aluminium sulphate](/e520-aluminium-sulphate){.additive} or [aluminium potassium sulphate](/e522-aluminium-potassium-sulphate){.additive}.
 
 ## How is Aluminium ammonium sulphate made?
 Ammonium alum is produced by dissolving aluminium sulphate and ammonium sulphate in water and crystallising the mixed solution to form the hydrated salt, typically the dodecahydrate. Its defined composition for food use is ammonium aluminium sulphate dodecahydrate, written as NH4Al(SO4)2·12H2O.[^2] The same identity and formula are also listed in major chemical databases.[^5]
@@ -45,7 +45,7 @@ If you have a medical condition or specific dietary needs, consult a healthcare 
 
 ## Myths & facts
 - Myth: “All alums are the same.”  
-  Fact: There are several alum salts. E523 is ammonium alum; others include [aluminium sulphate](/e520-aluminium-sulphate) (E520) and [aluminium potassium sulphate](/e522-aluminium-potassium-sulphate) (E522). They have similar chemistry but different uses and specifications.
+  Fact: There are several alum salts. E523 is ammonium alum; others include [aluminium sulphate](/e520-aluminium-sulphate){.additive} (E520) and [aluminium potassium sulphate](/e522-aluminium-potassium-sulphate){.additive} (E522). They have similar chemistry but different uses and specifications.
 - Myth: “Aluminium additives are unregulated.”  
   Fact: Aluminium‑containing additives are regulated, with strict identity and purity criteria, and authorities set health‑based guidance levels for total aluminium intake.[^2]
 - Myth: “If an ingredient contains aluminium, it’s automatically unsafe.”  
@@ -54,7 +54,7 @@ If you have a medical condition or specific dietary needs, consult a healthcare 
 ## Aluminium ammonium sulphate in branded foods
 Brand use varies by country and product style. To check a product:
 - Look for “aluminium ammonium sulphate,” “ammonium alum,” or “E523” on the ingredient list.
-- For similar roles without aluminium, look for alternatives such as [calcium chloride](/e509-calcium-chloride), [citric acid](/e330-citric-acid), or stabilising gums like [xanthan gum](/e415-xanthan-gum).
+- For similar roles without aluminium, look for alternatives such as [calcium chloride](/e509-calcium-chloride){.additive}, [citric acid](/e330-citric-acid){.additive}, or stabilising gums like [xanthan gum](/e415-xanthan-gum){.additive}.
 
 ## References
 [^1]: Sec. 182.1125 Alum (ammonium, potassium, and sodium) — U.S. FDA (eCFR). https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-182/subpart-B/section-182.1125

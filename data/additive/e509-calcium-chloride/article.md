@@ -25,9 +25,9 @@ Label reading tip: it typically appears in the ingredient list as “Calcium chl
 ## What can replace Calcium chloride?
 Depending on the job it’s doing, several additives can stand in:
 
-- For coagulation or setting: [calcium sulphate](/e516-calcium-sulphate), [magnesium chloride](/e511-magnesium-chloride), or [glucono-delta-lactone](/e575-glucono-delta-lactone)
-- For firming or gelling in plant tissues: [sodium alginate](/e401-sodium-alginate) or [pectins](/e440-pectins)
-- For calcium fortification or buffering: [calcium carbonates](/e170-calcium-carbonates) or acidulants like [citric acid](/e330-citric-acid) used alongside calcium sources
+- For coagulation or setting: [calcium sulphate](/e516-calcium-sulphate){.additive}, [magnesium chloride](/e511-magnesium-chloride){.additive}, or [glucono-delta-lactone](/e575-glucono-delta-lactone){.additive}
+- For firming or gelling in plant tissues: [sodium alginate](/e401-sodium-alginate){.additive} or [pectins](/e440-pectins){.additive}
+- For calcium fortification or buffering: [calcium carbonates](/e170-calcium-carbonates){.additive} or acidulants like [citric acid](/e330-citric-acid){.additive} used alongside calcium sources
 
 The best substitute depends on the food matrix, pH, and the texture target.
 

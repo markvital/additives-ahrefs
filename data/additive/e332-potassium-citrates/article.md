@@ -25,8 +25,8 @@ On labels, look for “potassium citrate,” “tripotassium citrate,” or “E
 
 ## What can replace potassium citrates?
 Depending on the job, formulators might use:
-- Other citrates: [citric acid](/e330-citric-acid) for sharper acidity, or [sodium citrates](/e331-sodium-citrates) and [calcium citrates](/e333-calcium-citrates) for similar buffering.
-- Other acidity regulators: [lactic acid](/e270-lactic-acid) for mild tang, or phosphate buffers such as [sodium phosphates](/e339-sodium-phosphates) and [potassium phosphates](/e340-potassium-phosphates).
+- Other citrates: [citric acid](/e330-citric-acid){.additive} for sharper acidity, or [sodium citrates](/e331-sodium-citrates){.additive} and [calcium citrates](/e333-calcium-citrates){.additive} for similar buffering.
+- Other acidity regulators: [lactic acid](/e270-lactic-acid){.additive} for mild tang, or phosphate buffers such as [sodium phosphates](/e339-sodium-phosphates){.additive} and [potassium phosphates](/e340-potassium-phosphates){.additive}.
 Choice depends on taste impact, mineral content, cost, and local rules.
 
 ## How is potassium citrates made?
@@ -44,7 +44,7 @@ In its 2018 re-evaluation, the European Food Safety Authority (EFSA) concluded t
 Most people don’t need to avoid it. However, those who must limit potassium—such as people with kidney disease or individuals taking certain medicines (for example, potassium-sparing diuretics or ACE inhibitors)—should ask a healthcare professional before regularly consuming potassium-fortified or potassium-rich products.[^5]
 
 ## Myths & facts
-- “E-numbers are always artificial.” E-numbers are just ID codes used in the EU. Many are familiar substances, including fruit acids like [citric acid](/e330-citric-acid).
+- “E-numbers are always artificial.” E-numbers are just ID codes used in the EU. Many are familiar substances, including fruit acids like [citric acid](/e330-citric-acid){.additive}.
 - “Potassium citrate makes foods taste salty.” It has a mild taste and mainly controls acidity; it’s not a salt substitute for flavor.
 - “All citrates are the same.” Different citrates (sodium, potassium, calcium) behave similarly but change mineral content and may affect taste or nutrition goals.
 

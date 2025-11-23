@@ -6,7 +6,7 @@ Yellow 2G (E107) is a synthetic yellow food color that was once used to brighten
 - What it is: a synthetic yellow coloring (also called E107).
 - Status: not approved in the United States and not on the European Union’s list of permitted food colors.
 - Where you might see it: rarely on modern ingredient lists; more likely in older references or products from regions with different rules.
-- Common replacements: [curcumin](/e100-curcumin), [tartrazine](/e102-tartrazine), [sunset yellow FCF](/e110-sunset-yellow-fcf), [riboflavin](/e101-riboflavin), [carotene](/e160a-carotene), [lutein](/e161b-lutein), [lycopene](/e160d-lycopene), [paprika extract](/e160c-paprika-extract), [beetroot red](/e162-beetroot-red), or [anthocyanins](/e163-anthocyanins).
+- Common replacements: [curcumin](/e100-curcumin){.additive}, [tartrazine](/e102-tartrazine){.additive}, [sunset yellow FCF](/e110-sunset-yellow-fcf){.additive}, [riboflavin](/e101-riboflavin){.additive}, [carotene](/e160a-carotene){.additive}, [lutein](/e161b-lutein){.additive}, [lycopene](/e160d-lycopene){.additive}, [paprika extract](/e160c-paprika-extract){.additive}, [beetroot red](/e162-beetroot-red){.additive}, or [anthocyanins](/e163-anthocyanins){.additive}.
 
 ## Why is Yellow 2G added to food?
 Food makers add colors to make products look consistent and appealing. Uniform color can signal flavor or freshness and helps keep multi-batch products looking the same from package to package.
@@ -16,9 +16,9 @@ In places where it was once permitted, Yellow 2G appeared in candies, soft drink
 
 ## What can replace Yellow 2G?
 Depending on the product and shade needed, manufacturers often turn to:
-- Natural or nature‑identical yellows such as [curcumin](/e100-curcumin), [riboflavin](/e101-riboflavin), [carotene](/e160a-carotene), [lutein](/e161b-lutein), [lycopene](/e160d-lycopene), or [paprika extract](/e160c-paprika-extract).
-- Other permitted synthetic yellows where allowed, including [tartrazine](/e102-tartrazine) or [sunset yellow FCF](/e110-sunset-yellow-fcf).
-- For warmer or red‑orange hues, [beetroot red](/e162-beetroot-red) or [anthocyanins](/e163-anthocyanins) may be blended.
+- Natural or nature‑identical yellows such as [curcumin](/e100-curcumin){.additive}, [riboflavin](/e101-riboflavin){.additive}, [carotene](/e160a-carotene){.additive}, [lutein](/e161b-lutein){.additive}, [lycopene](/e160d-lycopene){.additive}, or [paprika extract](/e160c-paprika-extract){.additive}.
+- Other permitted synthetic yellows where allowed, including [tartrazine](/e102-tartrazine){.additive} or [sunset yellow FCF](/e110-sunset-yellow-fcf){.additive}.
+- For warmer or red‑orange hues, [beetroot red](/e162-beetroot-red){.additive} or [anthocyanins](/e163-anthocyanins){.additive} may be blended.
 
 The best replacement depends on pH, light/heat stability, and whether a “natural colors only” label is required.
 

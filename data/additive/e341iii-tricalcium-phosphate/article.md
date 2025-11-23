@@ -22,13 +22,13 @@ In the European Union, it is part of the phosphate group of additives and may be
 
 ## What can replace Tricalcium phosphate?
 Alternatives depend on the job it does:
-- Anti‑caking in dry blends: [silicon dioxide](/e551-silicon-dioxide), [calcium silicate](/e552-calcium-silicate), or [magnesium carbonate](/e504i-magnesium-carbonate)
-- Calcium fortification: [calcium carbonate](/e170i-calcium-carbonate) or [calcium citrate](/e333-calcium-citrates)
+- Anti‑caking in dry blends: [silicon dioxide](/e551-silicon-dioxide){.additive}, [calcium silicate](/e552-calcium-silicate){.additive}, or [magnesium carbonate](/e504i-magnesium-carbonate){.additive}
+- Calcium fortification: [calcium carbonate](/e170i-calcium-carbonate){.additive} or [calcium citrate](/e333-calcium-citrates){.additive}
 
 Choice of substitute can change texture, taste, and calcium absorption, so formulators test to find the best fit.
 
 ## How is Tricalcium phosphate made?
-Food‑grade tricalcium phosphate is typically produced by reacting purified [phosphoric acid](/e338-phosphoric-acid) with a calcium source (such as calcium hydroxide or calcium carbonate) to form a solid that is then filtered, dried, and milled. EU specifications set identity and purity criteria, including limits for impurities like fluoride and heavy metals. [^3]
+Food‑grade tricalcium phosphate is typically produced by reacting purified [phosphoric acid](/e338-phosphoric-acid){.additive} with a calcium source (such as calcium hydroxide or calcium carbonate) to form a solid that is then filtered, dried, and milled. EU specifications set identity and purity criteria, including limits for impurities like fluoride and heavy metals. [^3]
 
 ## Is Tricalcium phosphate safe to eat?
 Yes, when used as intended. In the U.S., the FDA lists tricalcium phosphate as GRAS as an anti‑caking agent and nutrient supplement used at levels consistent with good manufacturing practice. [^1] In the EU, the European Food Safety Authority (EFSA) evaluated phosphates as a group and set an acceptable daily intake (ADI) of 40 mg per kilogram of body weight per day, expressed as phosphorus (the element). ADI means the amount that can be consumed daily over a lifetime without appreciable health risk. [^2]
@@ -45,7 +45,7 @@ Yes, when used as intended. In the U.S., the FDA lists tricalcium phosphate as G
 - Myth: “It’s the same as bone or rock dust.” Fact: Food‑grade tricalcium phosphate must meet strict identity and purity standards for additives. [^3]
 - Myth: “It always causes calcium overload.” Fact: It is used at low levels in most foods; total calcium intake from all sources matters most. [^4]
 - Myth: “Phosphates in food are unregulated.” Fact: Both the FDA and EFSA regulate phosphate additives and set safe use conditions. [^1][^2]
-- Myth: “All calcium phosphates are interchangeable.” Fact: E341 covers three forms—[monocalcium phosphate](/e341i-monocalcium-phosphate), [dicalcium phosphate](/e341ii-dicalcium-phosphate), and tricalcium phosphate—and they behave differently in food.
+- Myth: “All calcium phosphates are interchangeable.” Fact: E341 covers three forms—[monocalcium phosphate](/e341i-monocalcium-phosphate){.additive}, [dicalcium phosphate](/e341ii-dicalcium-phosphate){.additive}, and tricalcium phosphate—and they behave differently in food.
 
 ## Tricalcium phosphate in branded foods
 On ingredient lists, look for “tricalcium phosphate,” “calcium phosphate (tribasic),” or “E341(iii).” You’ll often see it in:

@@ -6,13 +6,13 @@ Sodium carbonate (E500i) is a food-grade alkaline salt used to regulate acidity 
 - Name: Sodium carbonate; also called washing soda; E-number E500i
 - Roles in food: acidity regulator, stabiliser, thickener, base in leavening systems
 - Typical uses: baked goods, alkalised (Dutched) cocoa, some noodles and pretzels, and other processed foods
-- Part of the E500 group: the sodium carbonates family [sodium carbonates](/e500-sodium-carbonates)
+- Part of the E500 group: the sodium carbonates family [sodium carbonates](/e500-sodium-carbonates){.additive}
 - Labeling: may appear as “sodium carbonate,” “soda ash,” “E500,” or “E500(i)”
 - Taste/chemistry: strongly alkaline; small amounts can noticeably raise pH
 - Dietary: an inorganic mineral salt; suitable for vegetarian and vegan diets
 
 ## Why is Sodium carbonate added to food?
-Manufacturers use sodium carbonate to control acidity (raise pH), stabilize textures, and act as the alkaline “base” in leavening systems that release carbon dioxide when combined with an acid such as [citric acid](/e330-citric-acid). In the European Union it is the E-number E500i within the approved “sodium carbonates” group, with food-grade identity and purity specifications defined by law.[^1] Chemically, sodium carbonate is Na2CO3, a basic salt that neutralizes acids and shifts recipes toward alkalinity.[^6]
+Manufacturers use sodium carbonate to control acidity (raise pH), stabilize textures, and act as the alkaline “base” in leavening systems that release carbon dioxide when combined with an acid such as [citric acid](/e330-citric-acid){.additive}. In the European Union it is the E-number E500i within the approved “sodium carbonates” group, with food-grade identity and purity specifications defined by law.[^1] Chemically, sodium carbonate is Na2CO3, a basic salt that neutralizes acids and shifts recipes toward alkalinity.[^6]
 
 An alkaline environment can also drive browning and flavor development in certain foods. For example, cocoa may be “alkalised” with approved alkalis (including sodium carbonate) to darken color and mellow acidity.[^4]
 
@@ -27,10 +27,10 @@ On labels it may appear by name, as “E500,” or “E500(i).”
 
 ## What can replace Sodium carbonate?
 Depending on the job it’s doing:
-- As a leavening base: sodium bicarbonate (baking soda) or other bases in leavening systems; acid partners include [monocalcium phosphate](/e341i-monocalcium-phosphate) or [disodium diphosphate](/e450i-disodium-diphosphate).
-- To raise pH (alkalinity): [potassium carbonates](/e501-potassium-carbonates) can substitute when sodium must be limited; some applications may use [sodium hydroxide](/e524-sodium-hydroxide) at much lower levels for stronger alkalinity.
-- For general buffering/emulsified systems: [sodium phosphates](/e339-sodium-phosphates) are common alternatives.
-- For specific aeration in low-moisture doughs and crackers: [ammonium carbonates](/e503-ammonium-carbonates) are sometimes used.
+- As a leavening base: sodium bicarbonate (baking soda) or other bases in leavening systems; acid partners include [monocalcium phosphate](/e341i-monocalcium-phosphate){.additive} or [disodium diphosphate](/e450i-disodium-diphosphate){.additive}.
+- To raise pH (alkalinity): [potassium carbonates](/e501-potassium-carbonates){.additive} can substitute when sodium must be limited; some applications may use [sodium hydroxide](/e524-sodium-hydroxide){.additive} at much lower levels for stronger alkalinity.
+- For general buffering/emulsified systems: [sodium phosphates](/e339-sodium-phosphates){.additive} are common alternatives.
+- For specific aeration in low-moisture doughs and crackers: [ammonium carbonates](/e503-ammonium-carbonates){.additive} are sometimes used.
 
 The best substitute depends on recipe, target pH, sodium limits, and processing method.
 

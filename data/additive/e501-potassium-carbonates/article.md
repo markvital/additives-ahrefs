@@ -9,27 +9,27 @@ Potassium carbonates (E501) are white, alkaline salts used to control acidity an
 - Watch-outs: People who must limit potassium (for example, some kidney or heart conditions) should check labels and ask a healthcare professional
 
 ## Why is Potassium carbonates added to food?
-Food makers use potassium carbonates to adjust pH (how acidic or alkaline a food is) and to stabilise texture and flavor. As a leavening base, it reacts with food acids (such as [citric acid](/e330-citric-acid) or leavening acids like [monocalcium phosphate](/e341i-monocalcium-phosphate)) to release carbon dioxide, helping doughs and batters rise. In the EU, E501 is authorised as an acidity regulator and raising agent; specifications cover two forms: E 501(i) potassium carbonate and E 501(ii) potassium hydrogen carbonate (potassium bicarbonate).[^1][^2]
+Food makers use potassium carbonates to adjust pH (how acidic or alkaline a food is) and to stabilise texture and flavor. As a leavening base, it reacts with food acids (such as [citric acid](/e330-citric-acid){.additive} or leavening acids like [monocalcium phosphate](/e341i-monocalcium-phosphate){.additive}) to release carbon dioxide, helping doughs and batters rise. In the EU, E501 is authorised as an acidity regulator and raising agent; specifications cover two forms: E 501(i) potassium carbonate and E 501(ii) potassium hydrogen carbonate (potassium bicarbonate).[^1][^2]
 
 ## What foods contain Potassium carbonates?
 You will most often see E501 in:
 - Cocoa powders labeled “processed with alkali” (also called Dutch‑processed cocoa), where alkalisation mellows flavor and darkens color[^4]
-- Baking mixes and baking powders formulated to be lower in sodium, where potassium bicarbonate can replace part or all of [sodium bicarbonate](/e500ii-sodium-bicarbonate)[^2]
+- Baking mixes and baking powders formulated to be lower in sodium, where potassium bicarbonate can replace part or all of [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive}[^2]
 - Selected confectionery and beverages where pH control is needed[^1]
 
 Look for “potassium carbonate,” “potassium bicarbonate,” “E501,” “E501(i),” or “E501(ii)” on ingredient lists.[^2]
 
 ## What can replace Potassium carbonates?
 Possible alternatives depend on the job you need done:
-- For leavening: [sodium carbonates](/e500-sodium-carbonates) or [ammonium carbonates](/e503-ammonium-carbonates), used with suitable leavening acids like [diphosphates](/e450-diphosphates) or [monocalcium phosphate](/e341i-monocalcium-phosphate)
-- For pH control: Organic acids and their salts (for example, [citric acid](/e330-citric-acid) or [potassium citrates](/e332-potassium-citrates))
+- For leavening: [sodium carbonates](/e500-sodium-carbonates){.additive} or [ammonium carbonates](/e503-ammonium-carbonates){.additive}, used with suitable leavening acids like [diphosphates](/e450-diphosphates){.additive} or [monocalcium phosphate](/e341i-monocalcium-phosphate){.additive}
+- For pH control: Organic acids and their salts (for example, [citric acid](/e330-citric-acid){.additive} or [potassium citrates](/e332-potassium-citrates){.additive})
 - For cocoa alkalisation: Other approved alkalising agents may be used where allowed by the product standard[^4]
 
 ## How is Potassium carbonates made?
 Food‑grade potassium carbonate is typically produced by reacting potassium hydroxide with carbon dioxide to form potassium bicarbonate, which is then heated to make potassium carbonate; potassium bicarbonate can also be produced and used directly. Both materials are highly soluble, alkaline salts of potassium, and they are specified for identity and purity in EU additive specifications.[^6][^2]
 
 ## Is Potassium carbonates safe to eat?
-Yes—when used as intended. In the European Union, E501 (both [potassium carbonate](/e501i-potassium-carbonate) and [potassium hydrogen carbonate](/e501ii-potassium-hydrogen-carbonate)) is authorised as a food additive with detailed specifications for purity.[^1][^2] In the United States, potassium carbonate is affirmed as Generally Recognized as Safe (GRAS) for specified uses in food under good manufacturing practice.[^3]
+Yes—when used as intended. In the European Union, E501 (both [potassium carbonate](/e501i-potassium-carbonate){.additive} and [potassium hydrogen carbonate](/e501ii-potassium-hydrogen-carbonate){.additive}) is authorised as a food additive with detailed specifications for purity.[^1][^2] In the United States, potassium carbonate is affirmed as Generally Recognized as Safe (GRAS) for specified uses in food under good manufacturing practice.[^3]
 
 ## Does Potassium carbonates have any benefits?
 In food processing, the main benefits are technical:

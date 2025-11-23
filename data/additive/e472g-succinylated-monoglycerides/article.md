@@ -26,10 +26,10 @@ In the United States, the U.S. Food and Drug Administration (FDA) allows succiny
 
 ## What can replace Succinylated monoglycerides?
 Depending on the recipe and the job to be done (emulsifying, aeration, or crumb softening), possible alternatives include:
-- Other emulsifiers based on glycerides, such as [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids) or their esters like [lactic acid esters](/e472b-lactic-acid-esters-of-mono-and-diglycerides-of-fatty-acids) and [mono- and diacetyltartaric acid esters](/e472e-mono-and-diacetyltartaric-acid-esters-of-mono-and-diglycerides-of-fatty-acids)
-- Natural options like [lecithins](/e322-lecithins)
-- Other process-friendly emulsifiers like [polyglycerol esters of fatty acids](/e475-polyglycerol-esters-of-fatty-acids) or [sorbitan monostearate](/e491-sorbitan-monostearate)
-- For viscosity or stabilization (not true emulsification), gums such as [xanthan gum](/e415-xanthan-gum) may help, depending on the product
+- Other emulsifiers based on glycerides, such as [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive} or their esters like [lactic acid esters](/e472b-lactic-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive} and [mono- and diacetyltartaric acid esters](/e472e-mono-and-diacetyltartaric-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive}
+- Natural options like [lecithins](/e322-lecithins){.additive}
+- Other process-friendly emulsifiers like [polyglycerol esters of fatty acids](/e475-polyglycerol-esters-of-fatty-acids){.additive} or [sorbitan monostearate](/e491-sorbitan-monostearate){.additive}
+- For viscosity or stabilization (not true emulsification), gums such as [xanthan gum](/e415-xanthan-gum){.additive} may help, depending on the product
 
 Choosing a substitute depends on pH, fat type, processing steps, and whether you need aeration, emulsification, or crumb conditioning.
 
@@ -50,7 +50,7 @@ Yes. SMG helps oil and water blend smoothly, supports stable foams, and can impr
 ## Myths & facts
 - Myth: E472g is the same as MSG. Fact: It is not related to monosodium glutamate; E472g is an emulsifier made from fats and succinic compounds.
 - Myth: Emulsifiers “add water” to foods. Fact: Emulsifiers help keep existing water and oil mixed; they do not add water themselves.
-- Myth: All emulsifiers are synthetic. Fact: Some, like [lecithins](/e322-lecithins), can be derived from natural sources such as soy or sunflower.
+- Myth: All emulsifiers are synthetic. Fact: Some, like [lecithins](/e322-lecithins){.additive}, can be derived from natural sources such as soy or sunflower.
 
 ## Succinylated monoglycerides in branded foods
 On ingredient lists, look for “succinylated monoglycerides” or “E472g.” You’ll most commonly find it in sliced bread and rolls, tortillas, cake and baking mixes, whipped toppings, non-dairy creamers, and certain sauces. Availability and naming can vary by country and brand.

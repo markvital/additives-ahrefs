@@ -18,9 +18,9 @@ You are most likely to find talc in coated confectionery and chewing gum, in dry
 
 ## What can replace Talc?
 Alternatives depend on the job:
-- Anti-caking in powders: [silicon dioxide](/e551-silicon-dioxide), [calcium silicate](/e552-calcium-silicate), or other permitted silicates such as [magnesium silicates](/e553-magnesium-silicates)
-- Surface glazing or release: [carnauba wax](/e903-carnauba-wax) or [shellac](/e904-shellac)
-- Tablet and supplement manufacturing: stearates such as [magnesium stearate](/e572-magnesium-stearate) may be used as lubricants in some applications
+- Anti-caking in powders: [silicon dioxide](/e551-silicon-dioxide){.additive}, [calcium silicate](/e552-calcium-silicate){.additive}, or other permitted silicates such as [magnesium silicates](/e553-magnesium-silicates){.additive}
+- Surface glazing or release: [carnauba wax](/e903-carnauba-wax){.additive} or [shellac](/e904-shellac){.additive}
+- Tablet and supplement manufacturing: stearates such as [magnesium stearate](/e572-magnesium-stearate){.additive} may be used as lubricants in some applications
 
 Each substitute has its own technical strengths and regulatory conditions.
 
@@ -42,7 +42,7 @@ For consumers, talc helps powders pour cleanly and keeps candies from sticking t
 - Myth: “Food-grade talc can contain asbestos.” Fact: Food additive specifications require talc to be asbestos-free and to meet strict purity limits.[^1]
 - Myth: “Eating talc means magnesium from talc is absorbed.” Fact: Talc is very insoluble and is not appreciably absorbed when eaten; it is excreted largely unchanged.[^2]
 - Myth: “Talc isn’t a food additive.” Fact: In the EU, talc is an authorised food additive (E553b) with defined conditions of use.[^3]
-- Myth: “Talc and [silicon dioxide](/e551-silicon-dioxide) are the same thing.” Fact: They are different substances with similar roles; talc is a magnesium silicate mineral, while silicon dioxide is pure silica.
+- Myth: “Talc and [silicon dioxide](/e551-silicon-dioxide){.additive} are the same thing.” Fact: They are different substances with similar roles; talc is a magnesium silicate mineral, while silicon dioxide is pure silica.
 
 ## Talc in branded foods
 Label it like a pro: look for “talc,” “talcum,” “hydrated magnesium silicate,” or “E553b” in the ingredient list. You’ll most often see it on products with smooth candy or gum coatings, or in dry mixes where clump-free pouring matters. Availability and uses vary by country and by brand, so always rely on the package label for the most accurate information.

@@ -16,12 +16,12 @@ You may find parabens in products that benefit from broad-spectrum antifungal pr
 
 ## What can replace Sodium propyl para-hydroxybenzoate?
 Depending on the food, manufacturers might switch to other preservatives or to processing and packaging changes. Common preservative alternatives include:
-- [Sorbic acid](/e200-sorbic-acid) or [potassium sorbate](/e202-potassium-sorbate)
-- [Sodium benzoate](/e211-sodium-benzoate) or [benzoic acid](/e210-benzoic-acid)
-- [Calcium propionate](/e282-calcium-propionate) for some baked products
-- [Nisin](/e234-nisin) or [extracts of rosemary](/e392-extracts-of-rosemary) in certain applications
+- [Sorbic acid](/e200-sorbic-acid){.additive} or [potassium sorbate](/e202-potassium-sorbate){.additive}
+- [Sodium benzoate](/e211-sodium-benzoate){.additive} or [benzoic acid](/e210-benzoic-acid){.additive}
+- [Calcium propionate](/e282-calcium-propionate){.additive} for some baked products
+- [Nisin](/e234-nisin){.additive} or [extracts of rosemary](/e392-extracts-of-rosemary){.additive} in certain applications
 
-Adjusting pH (for example with [citric acid](/e330-citric-acid)), reducing water activity, pasteurization, and aseptic packaging are also common strategies used alongside or instead of preservatives.
+Adjusting pH (for example with [citric acid](/e330-citric-acid){.additive}), reducing water activity, pasteurization, and aseptic packaging are also common strategies used alongside or instead of preservatives.
 
 ## How is Sodium propyl para-hydroxybenzoate made?
 E217 is the sodium salt of propyl paraben (propyl p‑hydroxybenzoate). In practice, manufacturers make the ester (propyl paraben) and then neutralize it with sodium hydroxide to form the more water‑soluble sodium salt.[^3] This salt form helps it dissolve and mix evenly in many foods.

@@ -26,9 +26,9 @@ On ingredient lists it may be named “amylase,” “alpha‑amylase,” or gro
 
 ## What can replace Alpha-Amylase?
 The best replacement depends on the goal:
-- For loaf volume and dough strength: Bakers sometimes use longer fermentation, preferments (like poolish or biga), or sourdough. Dough conditioners such as [ascorbic acid](/e300-ascorbic-acid), [lecithins](/e322-lecithins), or [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids) can support structure, though they do not break starch.
-- For softness and moisture: Emulsifiers (e.g., [mono- and diglycerides](/e471-mono-and-diglycerides-of-fatty-acids)) and hydrocolloids like [xanthan gum](/e415-xanthan-gum) can help retain softness but won’t generate fermentable sugars.
-- For oxidation/strengthening: [Glucose oxidase](/e1102-glucose-oxidase) is sometimes used to strengthen dough, again with different effects than alpha‑amylase.
+- For loaf volume and dough strength: Bakers sometimes use longer fermentation, preferments (like poolish or biga), or sourdough. Dough conditioners such as [ascorbic acid](/e300-ascorbic-acid){.additive}, [lecithins](/e322-lecithins){.additive}, or [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive} can support structure, though they do not break starch.
+- For softness and moisture: Emulsifiers (e.g., [mono- and diglycerides](/e471-mono-and-diglycerides-of-fatty-acids){.additive}) and hydrocolloids like [xanthan gum](/e415-xanthan-gum){.additive} can help retain softness but won’t generate fermentable sugars.
+- For oxidation/strengthening: [Glucose oxidase](/e1102-glucose-oxidase){.additive} is sometimes used to strengthen dough, again with different effects than alpha‑amylase.
 - For “natural” enzymatic activity: Malted barley flour (naturally rich in amylases) can provide some of the same functions, though potency is less standardized.
 
 ## How is Alpha-Amylase made?

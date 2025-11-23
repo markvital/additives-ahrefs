@@ -10,7 +10,7 @@ Advantame is a powerful sweetener that helps foods taste sweet with little to no
 - Where it appears: diet or “zero” soft drinks, flavored waters, chewing gum, tabletop sweeteners, dairy desserts, and many other reduced‑sugar foods.
 
 ## Why is Advantame added to food?
-Food makers use advantame to deliver strong sweetness without adding much volume or calories. It also functions as a flavor enhancer in some recipes to round off taste notes.[^2] Because it is extremely sweet, manufacturers often blend it with other sweeteners—such as [acesulfame K](/e950-acesulfame-k), [sucralose](/e955-sucralose), [aspartame](/e951-aspartame), [neotame](/e961-neotame), [steviol glycosides](/e960-steviol-glycosides), or [saccharin](/e954-saccharin-and-its-salts)—to build a more sugar‑like flavor and reduce any aftertaste.
+Food makers use advantame to deliver strong sweetness without adding much volume or calories. It also functions as a flavor enhancer in some recipes to round off taste notes.[^2] Because it is extremely sweet, manufacturers often blend it with other sweeteners—such as [acesulfame K](/e950-acesulfame-k){.additive}, [sucralose](/e955-sucralose){.additive}, [aspartame](/e951-aspartame){.additive}, [neotame](/e961-neotame){.additive}, [steviol glycosides](/e960-steviol-glycosides){.additive}, or [saccharin](/e954-saccharin-and-its-salts){.additive}—to build a more sugar‑like flavor and reduce any aftertaste.
 
 ## What foods contain Advantame?
 You’ll most often find advantame in low‑ and no‑sugar products.
@@ -27,8 +27,8 @@ In the United States, the U.S. Food and Drug Administration (FDA) authorizes adv
 ## What can replace Advantame?
 There are many alternatives, depending on taste, cost, and processing needs.
 
-- Other high‑intensity sweeteners: [acesulfame K](/e950-acesulfame-k), [sucralose](/e955-sucralose), [aspartame](/e951-aspartame), [neotame](/e961-neotame), [steviol glycosides](/e960-steviol-glycosides), [saccharin](/e954-saccharin-and-its-salts)
-- Sugar alcohols (polyols) for bulk and mild sweetness: [erythritol](/e968-erythritol), [xylitol](/e967-xylitol), [sorbitol](/e420-sorbitol), [maltitol](/e965-maltitol)
+- Other high‑intensity sweeteners: [acesulfame K](/e950-acesulfame-k){.additive}, [sucralose](/e955-sucralose){.additive}, [aspartame](/e951-aspartame){.additive}, [neotame](/e961-neotame){.additive}, [steviol glycosides](/e960-steviol-glycosides){.additive}, [saccharin](/e954-saccharin-and-its-salts){.additive}
+- Sugar alcohols (polyols) for bulk and mild sweetness: [erythritol](/e968-erythritol){.additive}, [xylitol](/e967-xylitol){.additive}, [sorbitol](/e420-sorbitol){.additive}, [maltitol](/e965-maltitol){.additive}
 - Blends that pair a high‑intensity sweetener with a polyol to better mimic sugar’s taste and texture
 
 ## How is Advantame made?

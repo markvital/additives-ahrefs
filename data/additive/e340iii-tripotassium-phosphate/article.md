@@ -19,11 +19,11 @@ On labels it can appear as “tripotassium phosphate,” “tribasic potassium p
 
 ## What can replace Tripotassium phosphate?
 Depending on the job it’s doing, formulators might switch to:
-- Other potassium phosphates: [monopotassium phosphate](/e340i-monopotassium-phosphate) or [dipotassium phosphate](/e340ii-dipotassium-phosphate).
-- Sodium-based buffers and emulsifying salts: [sodium phosphates](/e339-sodium-phosphates) or [sodium citrates](/e331-sodium-citrates).
-- Acidulants and chelators: [citric acid](/e330-citric-acid) or [phosphoric acid](/e338-phosphoric-acid).
-- Texture agents: [xanthan gum](/e415-xanthan-gum), [carrageenan](/e407-carrageenan), or [guar gum](/e412-guar-gum).
-- For baking systems: [sodium carbonates](/e500-sodium-carbonates) and [monocalcium phosphate](/e341i-monocalcium-phosphate).
+- Other potassium phosphates: [monopotassium phosphate](/e340i-monopotassium-phosphate){.additive} or [dipotassium phosphate](/e340ii-dipotassium-phosphate){.additive}.
+- Sodium-based buffers and emulsifying salts: [sodium phosphates](/e339-sodium-phosphates){.additive} or [sodium citrates](/e331-sodium-citrates){.additive}.
+- Acidulants and chelators: [citric acid](/e330-citric-acid){.additive} or [phosphoric acid](/e338-phosphoric-acid){.additive}.
+- Texture agents: [xanthan gum](/e415-xanthan-gum){.additive}, [carrageenan](/e407-carrageenan){.additive}, or [guar gum](/e412-guar-gum){.additive}.
+- For baking systems: [sodium carbonates](/e500-sodium-carbonates){.additive} and [monocalcium phosphate](/e341i-monocalcium-phosphate){.additive}.
 
 ## How is Tripotassium phosphate made?
 Food-grade tripotassium phosphate is typically produced by fully neutralising purified phosphoric acid with potassium hydroxide or potassium carbonate, then drying and milling the crystals. The reaction converts the acid to the tribasic salt (K3PO4) with water or carbon dioxide as by-products.[^1] Its identity as K3PO4, a strong alkaline salt, is well established in chemical references.[^6]
@@ -49,7 +49,7 @@ If any of these apply to you, ask a healthcare professional or dietitian for per
 - “It always causes high phosphorus.” Most people won’t exceed the ADI with a balanced diet, but those with kidney disease may need to limit added phosphates.[^4]
 
 ## Tripotassium phosphate in branded foods
-You’ll most often spot it on ingredient lists for processed cheese, shelf-stable creamers and drink powders, meat and poultry products, breakfast cereals, and ready-to-drink beverages. It may appear as “tripotassium phosphate,” “tribasic potassium phosphate,” or simply “E340iii.” If you prefer to limit phosphate or potassium additives, compare labels across similar products and choose options that use alternatives like [sodium citrates](/e331-sodium-citrates) or [citric acid](/e330-citric-acid) instead.
+You’ll most often spot it on ingredient lists for processed cheese, shelf-stable creamers and drink powders, meat and poultry products, breakfast cereals, and ready-to-drink beverages. It may appear as “tripotassium phosphate,” “tribasic potassium phosphate,” or simply “E340iii.” If you prefer to limit phosphate or potassium additives, compare labels across similar products and choose options that use alternatives like [sodium citrates](/e331-sodium-citrates){.additive} or [citric acid](/e330-citric-acid){.additive} instead.
 
 ## References
 [^1]: Commission Regulation (EU) No 231/2012 — Specifications for food additives (E340 potassium phosphates). https://eur-lex.europa.eu/eli/reg/2012/231/oj
