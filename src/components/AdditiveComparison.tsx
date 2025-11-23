@@ -5,15 +5,18 @@ import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
 import { Box, Button, Chip, Stack, Typography } from '@mui/material';
 import type { Additive, AdditiveSearchItem } from '../lib/additives';
-import { formatAdditiveDisplayName, formatFunctionLabel, formatOriginLabel } from '../lib/additive-format';
-import { extractArticleSummary, splitArticlePreview } from '../lib/article';
+import { formatAdditiveDisplayName } from '../lib/additive-format';
+import { extractArticleSummary } from '../lib/article';
 import { formatMonthlyVolume, formatProductCount, getCountryFlagEmoji, getCountryLabel } from '../lib/format';
 import type { SearchHistoryDataset } from '../lib/search-history';
-import { MarkdownArticle } from './MarkdownArticle';
 import { AdditiveLookup } from './AdditiveLookup';
 import { SearchHistoryChart } from './SearchHistoryChart';
-import type { AwarenessScoreResult } from '../lib/awareness';
+import { getAwarenessLevel, type AwarenessScoreResult } from '../lib/awareness';
 import { AwarenessScoreChip } from './AwarenessScoreChip';
+import { FunctionFilterChipList } from './FunctionFilterChipList';
+import { OriginChipList } from './OriginChipList';
+import { SearchQuestions } from './SearchQuestions';
+import type { SearchQuestionItem } from '../lib/search-questions';
 import {
   getCachedAdditiveSearchItems,
   hasAdditiveSearchDataLoaded,
@@ -23,6 +26,7 @@ import {
 
 export interface ComparisonAdditive extends Additive {
   searchHistory: SearchHistoryDataset | null;
+  searchQuestions: SearchQuestionItem[] | null;
 }
 
 interface AdditiveComparisonProps {
@@ -44,6 +48,14 @@ const toSearchItem = (additive: ComparisonAdditive): AdditiveSearchItem => ({
   searchRank: typeof additive.searchRank === 'number' ? additive.searchRank : null,
 });
 
+const READ_MORE_TEXT_STYLES = {
+  fontWeight: 600,
+  textTransform: 'uppercase',
+  color: '#5f5f5f',
+  fontSize: '0.9rem',
+  letterSpacing: '0.05em',
+} as const;
+
 const getInitialSearchItems = (initialAdditives: Record<string, ComparisonAdditive>): AdditiveSearchItem[] => {
   const unique = new Map<string, AdditiveSearchItem>();
 
@@ -53,20 +65,6 @@ const getInitialSearchItems = (initialAdditives: Record<string, ComparisonAdditi
 
   return Array.from(unique.values());
 };
-
-const functionChipSx = {
-  borderRadius: '7.5px',
-  bgcolor: '#f4f4f4',
-  color: '#787878',
-  border: 'none',
-  textTransform: 'none',
-  whiteSpace: 'nowrap',
-  '& .MuiChip-label': {
-    px: '5px',
-    py: '3px',
-    color: '#787878',
-  },
-} as const;
 
 const renderSynonymContent = (additive: ComparisonAdditive | null) => {
   if (!additive) {
@@ -89,8 +87,21 @@ const renderSynonymContent = (additive: ComparisonAdditive | null) => {
         <Chip
           key={synonym}
           label={synonym}
-          variant="outlined"
+          variant="filled"
           size="small"
+          sx={{
+            textTransform: 'none',
+            bgcolor: '#f4f4f4',
+            color: '#787878',
+            border: 'none',
+            cursor: 'default',
+            '& .MuiChip-label': {
+              px: '5px',
+              py: '3px',
+              color: '#787878',
+            },
+          }}
+          clickable={false}
         />
       ))}
     </Stack>
@@ -102,7 +113,9 @@ const renderFunctionContent = (additive: ComparisonAdditive | null) => {
     return null;
   }
 
-  if (additive.functions.length === 0) {
+  const functions = additive.functions.filter((value, index, list) => list.indexOf(value) === index);
+
+  if (functions.length === 0) {
     return (
       <Typography variant="body2" color="text.secondary">
         Not specified.
@@ -110,21 +123,7 @@ const renderFunctionContent = (additive: ComparisonAdditive | null) => {
     );
   }
 
-  const functions = additive.functions.filter((value, index, list) => list.indexOf(value) === index);
-
-  return (
-    <Stack direction="row" spacing={1} flexWrap="wrap">
-      {functions.map((fn) => (
-        <Chip
-          key={fn}
-          label={formatFunctionLabel(fn)}
-          variant="filled"
-          size="small"
-          sx={functionChipSx}
-        />
-      ))}
-    </Stack>
-  );
+  return <FunctionFilterChipList functions={functions} />;
 };
 
 const renderOriginContent = (additive: ComparisonAdditive | null) => {
@@ -132,7 +131,9 @@ const renderOriginContent = (additive: ComparisonAdditive | null) => {
     return null;
   }
 
-  if (additive.origin.length === 0) {
+  const origins = additive.origin.filter((value, index, list) => list.indexOf(value) === index);
+
+  if (origins.length === 0) {
     return (
       <Typography variant="body2" color="text.secondary">
         Not specified.
@@ -140,15 +141,7 @@ const renderOriginContent = (additive: ComparisonAdditive | null) => {
     );
   }
 
-  const origins = additive.origin.filter((value, index, list) => list.indexOf(value) === index);
-
-  return (
-    <Stack direction="row" spacing={1} flexWrap="wrap">
-      {origins.map((origin) => (
-        <Chip key={origin} label={formatOriginLabel(origin)} variant="outlined" size="small" />
-      ))}
-    </Stack>
-  );
+  return <OriginChipList origins={origins} />;
 };
 
 const getSearchInterestLabel = (dataset: SearchHistoryDataset | null) => {
@@ -267,10 +260,17 @@ const LARGE_BUTTON_STYLES = {
   py: 1.75,
 } as const;
 
+const getENumberLabel = (additive: { eNumber: string | null; slug: string }) =>
+  typeof additive.eNumber === 'string' && additive.eNumber.trim().length > 0
+    ? additive.eNumber.trim()
+    : additive.slug.toUpperCase();
+
 const renderDetailLink = (additive: ComparisonAdditive | null) => {
   if (!additive) {
     return null;
   }
+
+  const eNumberLabel = getENumberLabel(additive);
 
   return (
     <Box sx={{ display: 'flex', justifyContent: 'center' }}>
@@ -281,54 +281,60 @@ const renderDetailLink = (additive: ComparisonAdditive | null) => {
         color="primary"
         sx={LARGE_BUTTON_STYLES}
       >
-        Read more
+        <Box component="span" sx={{ display: { xs: 'inline', sm: 'none' } }}>
+          Read more about {eNumberLabel}
+        </Box>
+        <Box component="span" sx={{ display: { xs: 'none', sm: 'inline' } }}>
+          Read more
+        </Box>
       </Button>
     </Box>
   );
 };
 
-const renderArticlePreview = (additive: ComparisonAdditive | null) => {
+const renderPopularQuestions = (additive: ComparisonAdditive | null) => {
   if (!additive) {
     return null;
   }
 
-  const { preview, hasMore } = splitArticlePreview(additive.article, 20);
+  const questions = additive.searchQuestions ?? [];
 
-  if (!preview) {
+  if (questions.length === 0) {
     return (
       <Typography variant="body2" color="text.secondary">
-        Article content is not available for this additive.
+        Popular questions data is not available.
       </Typography>
     );
   }
 
+  const eNumberLabel = getENumberLabel(additive);
+
   return (
-    <Stack spacing={2} sx={{ width: '100%' }}>
-      <MarkdownArticle
-        content={preview}
-        currentAdditive={{ slug: additive.slug, eNumber: additive.eNumber, title: additive.title }}
-      />
-      {hasMore ? (
-        <Typography variant="body2" color="text.secondary">
-          Preview truncated. Visit the additive page to read the full article.
-        </Typography>
-      ) : null}
-      <Box sx={{ display: 'flex', justifyContent: 'center' }}>
-        <Typography
-          component={Link}
-          href={`/${additive.slug}`}
-          variant="h5"
-          sx={{
-            color: 'primary.main',
-            fontWeight: 600,
-            textDecoration: 'none',
-            '&:hover': { textDecoration: 'underline' },
-          }}
-        >
-          Read more
-        </Typography>
-      </Box>
-    </Stack>
+    <Box sx={{ mb: { xs: 6, sm: 0 } }}>
+      <Stack spacing={{ xs: 6, sm: 2.5 }}>
+        <SearchQuestions questions={questions} variant="plain" spacing={{ mobile: 4, desktop: 2 }} />
+        <Box sx={{ display: 'flex', justifyContent: 'center' }}>
+          <Typography
+            component={Link}
+            href={`/${additive.slug}`}
+            variant="body1"
+            sx={{
+              ...READ_MORE_TEXT_STYLES,
+              display: 'inline-flex',
+              textDecoration: 'none',
+              '&:hover': { textDecoration: 'underline', color: READ_MORE_TEXT_STYLES.color },
+            }}
+          >
+            <Box component="span" sx={{ display: { xs: 'inline', sm: 'none' } }}>
+              {'READ MORE ABOUT ' + eNumberLabel}
+            </Box>
+            <Box component="span" sx={{ display: { xs: 'none', sm: 'inline' } }}>
+              {'READ MORE >>'}
+            </Box>
+          </Typography>
+        </Box>
+      </Stack>
+    </Box>
   );
 };
 
@@ -507,59 +513,57 @@ export function AdditiveComparison({ initialSelection, initialAdditives, awarene
     };
   }, [leftMetrics, rightMetrics]);
 
-  const renderProductMetrics = useCallback(
+  const renderProductMetrics = useCallback((additive: ComparisonAdditive | null) => {
+    if (!additive) {
+      return null;
+    }
+
+    const productCount = typeof additive.productCount === 'number' ? additive.productCount : null;
+
+    if (productCount === null) {
+      return (
+        <Typography variant="body2" color="text.secondary">
+          Product data is not available.
+        </Typography>
+      );
+    }
+
+    const productLabel = formatProductCount(productCount);
+
+    return (
+      <Typography variant="body1" color="text.secondary" sx={{ fontVariantNumeric: 'tabular-nums' }}>
+        Found in <Box component="span" sx={{ fontWeight: 600 }}>{productLabel} products</Box>
+      </Typography>
+    );
+  }, []);
+
+  const renderAwarenessSection = useCallback(
     (additive: ComparisonAdditive | null) => {
       if (!additive) {
         return null;
       }
 
-      const productCount = typeof additive.productCount === 'number' ? additive.productCount : null;
       const awarenessScore = awarenessScores[additive.slug] ?? null;
 
-      if (productCount === null) {
+      if (!awarenessScore) {
         return (
-          <Stack spacing={1}>
-            <Typography variant="body2" color="text.secondary">
-              Product data is not available.
-            </Typography>
-            {awarenessScore ? (
-              <Typography
-                component="div"
-                variant="body2"
-                color="text.secondary"
-                sx={{ display: 'flex', alignItems: 'center', gap: 1 }}
-              >
-                <Box component="span" sx={{ fontWeight: 600 }}>
-                  Awareness:
-                </Box>
-                <AwarenessScoreChip score={awarenessScore} />
-              </Typography>
-            ) : null}
-          </Stack>
+          <Typography variant="body2" color="text.secondary">
+            Awareness data is not available.
+          </Typography>
         );
       }
 
-      const productLabel = formatProductCount(productCount);
+      const awarenessLevel = getAwarenessLevel(awarenessScore.index);
 
       return (
-        <Stack spacing={1}>
-          <Typography variant="body1" color="text.secondary" sx={{ fontVariantNumeric: 'tabular-nums' }}>
-            Found in <Box component="span" sx={{ fontWeight: 600 }}>{productLabel} products</Box>
-          </Typography>
-          {awarenessScore ? (
-            <Typography
-              component="div"
-              variant="body1"
-              color="text.secondary"
-              sx={{ display: 'flex', alignItems: 'center', gap: 1 }}
-            >
-              <Box component="span" sx={{ fontWeight: 600 }}>
-                Awareness:
-              </Box>
-              <AwarenessScoreChip score={awarenessScore} />
-            </Typography>
-          ) : null}
-        </Stack>
+        <Typography
+          variant="body1"
+          color="text.secondary"
+          sx={{ display: 'flex', alignItems: 'center', gap: 1, lineHeight: 1.6 }}
+        >
+          <AwarenessScoreChip score={awarenessScore} />
+          {awarenessLevel ? <Box component="span">{awarenessLevel}</Box> : null}
+        </Typography>
       );
     },
     [awarenessScores],
@@ -573,15 +577,30 @@ export function AdditiveComparison({ initialSelection, initialAdditives, awarene
     const summary = extractArticleSummary(additive.article) ?? additive.description;
 
     return (
-      <Stack spacing={1.5}>
+      <Box
+        component={Link}
+        href={`/${additive.slug}`}
+        sx={{
+          display: 'flex',
+          flexDirection: 'column',
+          gap: 1.5,
+          textDecoration: 'none',
+          color: 'inherit',
+          borderRadius: '10px',
+          px: { xs: 0, sm: 0.5 },
+          py: { xs: 0, sm: 0.25 },
+          '&:hover': {
+            backgroundColor: 'action.hover',
+          },
+        }}
+      >
         <Typography
-          component={Link}
-          href={`/${additive.slug}`}
           variant="h4"
           sx={{
             color: 'text.primary',
             textDecoration: 'none',
-            '&:hover': { textDecoration: 'underline' },
+            width: '100%',
+            display: { xs: 'block', sm: 'none' },
           }}
         >
           {formatAdditiveDisplayName(additive.eNumber, additive.title)}
@@ -591,7 +610,10 @@ export function AdditiveComparison({ initialSelection, initialAdditives, awarene
             {summary}
           </Typography>
         ) : null}
-      </Stack>
+        <Box component="span" sx={READ_MORE_TEXT_STYLES}>
+          {'READ MORE >>'}
+        </Box>
+      </Box>
     );
   };
 
@@ -658,7 +680,7 @@ export function AdditiveComparison({ initialSelection, initialAdditives, awarene
     },
     {
       key: 'origin',
-      label: 'Origin',
+      label: 'Origins',
       render: renderOriginContent,
     },
     {
@@ -672,6 +694,11 @@ export function AdditiveComparison({ initialSelection, initialAdditives, awarene
       render: renderSearchMetrics,
     },
     {
+      key: 'awareness',
+      label: 'Awareness score',
+      render: renderAwarenessSection,
+    },
+    {
       key: 'search-history',
       label: 'Search volume over time',
       render: (additive: ComparisonAdditive | null) => renderSearchHistory(additive, searchHistoryDomain),
@@ -683,8 +710,8 @@ export function AdditiveComparison({ initialSelection, initialAdditives, awarene
     },
     {
       key: 'article',
-      label: 'Article preview',
-      render: renderArticlePreview,
+      label: 'Popular questions',
+      render: renderPopularQuestions,
     },
   ];
 
@@ -696,34 +723,35 @@ export function AdditiveComparison({ initialSelection, initialAdditives, awarene
   return (
     <Box component="section" display="flex" flexDirection="column" gap={4}>
       <Box className="page-hero">
-        <Box
-          className="page-hero-content"
-          display="flex"
-          flexDirection="column"
-          alignItems="center"
-          textAlign="center"
-          gap={1}
-          sx={{ width: '100%', maxWidth: 760, margin: '0 auto' }}
-        >
-          <Typography
-            component="h1"
-            variant="h1"
-            sx={{ color: 'inherit', whiteSpace: { xs: 'normal', md: 'nowrap' } }}
+          <Box
+            className="page-hero-content"
+            display="flex"
+            flexDirection="column"
+            alignItems="center"
+            textAlign="center"
+            gap={1}
+            sx={{ width: '100%', maxWidth: { xs: 760, sm: '100%' }, margin: '0 auto' }}
           >
-            {comparisonHeading}
-          </Typography>
+            <Typography
+              component="h1"
+              variant="h1"
+              sx={{ color: 'inherit', whiteSpace: 'normal' }}
+            >
+              {comparisonHeading}
+            </Typography>
+          </Box>
         </Box>
-      </Box>
 
-      <Stack spacing={4}>
-      <Box
-        sx={{
-          display: 'grid',
-          gap: { xs: 2, md: 3 },
-          gridTemplateColumns: { xs: '1fr', md: 'repeat(2, minmax(0, 1fr))' },
-        }}
-        onPointerEnter={ensureSearchData}
-      >
+        <Stack spacing={4}>
+        <Box
+          sx={{
+            display: 'grid',
+            gap: { xs: 2, sm: 3 },
+            columnGap: { sm: 2 },
+            gridTemplateColumns: { xs: '1fr', sm: 'repeat(2, minmax(0, 1fr))' },
+          }}
+          onPointerEnter={ensureSearchData}
+        >
         <AdditiveLookup
           additives={searchItems}
           value={leftValue}
@@ -758,7 +786,7 @@ export function AdditiveComparison({ initialSelection, initialAdditives, awarene
         sx={{
           border: '1px solid',
           borderColor: 'divider',
-          borderRadius: 3,
+          borderRadius: '10px',
           backgroundColor: 'background.paper',
           overflow: 'hidden',
         }}
@@ -767,11 +795,11 @@ export function AdditiveComparison({ initialSelection, initialAdditives, awarene
           {sectionItems.map((section, index) => (
             <Box
               key={section.key}
-              sx={{
-                display: 'grid',
-                gap: { xs: 2, sm: 3 },
-                columnGap: { md: 0 },
-                gridTemplateColumns: { xs: '1fr', md: 'repeat(2, minmax(0, 1fr))' },
+            sx={{
+              display: 'grid',
+              gap: { xs: 2, sm: 3 },
+              columnGap: { sm: 2 },
+              gridTemplateColumns: { xs: '1fr', sm: 'repeat(2, minmax(0, 1fr))' },
                 alignItems: 'flex-start',
                 px: { xs: 2, sm: 3, md: 4 },
                 py: { xs: 2.5, sm: 3 },
@@ -798,7 +826,7 @@ export function AdditiveComparison({ initialSelection, initialAdditives, awarene
                   display: 'flex',
                   flexDirection: 'column',
                   gap: 1.5,
-                  pr: { md: 4 },
+                  pr: { sm: 0, md: 4 },
                 }}
               >
                 {renderSectionForSlot('left', section.render)}
@@ -808,9 +836,9 @@ export function AdditiveComparison({ initialSelection, initialAdditives, awarene
                   display: 'flex',
                   flexDirection: 'column',
                   gap: 1.5,
-                  borderLeft: { md: '1px solid' },
-                  borderColor: { md: 'divider' },
-                  pl: { md: 4 },
+                  borderLeft: { sm: '1px solid', md: '1px solid' },
+                  borderColor: '#d3d3d3',
+                  pl: { sm: 2, md: 4 },
                 }}
               >
                 {renderSectionForSlot('right', section.render)}

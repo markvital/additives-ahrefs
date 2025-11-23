@@ -5,6 +5,7 @@ import { Box, Chip, Link as MuiLink, Stack, Tooltip, Typography } from '@mui/mat
 import type { SxProps, Theme } from '@mui/material/styles';
 
 import type { AwarenessScoreResult } from '../lib/awareness';
+import { getAwarenessLevel } from '../lib/awareness';
 
 const START_COLOR = { r: 194, g: 159, b: 251 } as const;
 const END_COLOR = { r: 128, g: 55, b: 182 } as const;
@@ -33,15 +34,17 @@ const interpolateColor = (ratio: number) => {
 };
 
 const getTooltipExplanation = (index: number): string => {
-  if (!Number.isFinite(index) || index <= 0) {
+  const level = getAwarenessLevel(index);
+
+  if (!level) {
     return 'Awareness data is not available.';
   }
 
-  if (index > 1.25) {
+  if (level === 'over-aware') {
     return "Searched much more than it's used in products. Likely used outside food or over-hyped.";
   }
 
-  if (index < 0.8) {
+  if (level === 'under-aware') {
     return 'Used widely but searched less than expected. Consumers likely under-aware.';
   }
 

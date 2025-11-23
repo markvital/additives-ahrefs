@@ -399,9 +399,9 @@ function CompareFlapUI() {
     additives,
     selectSlot,
     activeDropIndex,
-      dismissHint,
-      hasDismissedHint,
-      isWidgetDroppableActive,
+    dismissHint,
+    hasDismissedHint,
+    isWidgetDroppableActive,
   } = useCompareFlap();
   const pathname = usePathname();
   const [activeSlotIndex, setActiveSlotIndex] = useState<number | null>(null);
@@ -429,7 +429,10 @@ function CompareFlapUI() {
   const isAboutPage = pathname === '/about';
   const isPrivacyPage = pathname === '/privacy';
   const isTermsPage = pathname === '/terms';
-  const shouldHide = isComparePage || isAboutPage || isPrivacyPage || isTermsPage;
+  const potentialSlug = extractAdditiveSlug(pathname ?? null);
+  const isUnknownAdditivePath = potentialSlug ? !getAdditiveBySlug(potentialSlug) : false;
+  const shouldHide =
+    isComparePage || isAboutPage || isPrivacyPage || isTermsPage || isUnknownAdditivePath;
 
   useEffect(() => {
     if (shouldHide) {

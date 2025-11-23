@@ -2,15 +2,13 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 import NextLink from 'next/link';
 import { notFound } from 'next/navigation';
-import { Box, Chip, Link as MuiLink, Stack, Tooltip, Typography } from '@mui/material';
+import { Box, Link as MuiLink, Stack, Typography } from '@mui/material';
 
-import { formatAdditiveDisplayName, formatFunctionLabel, formatOriginLabel } from '../../lib/additive-format';
+import { formatAdditiveDisplayName } from '../../lib/additive-format';
 import { extractArticleBody, extractArticleSummary } from '../../lib/article';
 import {
   getAdditiveBySlug,
   getAdditiveSlugs,
-  getFunctionSlug,
-  getOriginSlug,
   getAwarenessScores,
 } from '../../lib/additives';
 
@@ -18,8 +16,6 @@ import { formatMonthlyVolume, formatProductCount, getCountryFlagEmoji, getCountr
 import { getSearchHistory } from '../../lib/search-history';
 import { getSearchQuestions } from '../../lib/search-questions';
 import { getSearchVolumeDataset } from '../../lib/search-volume';
-import { getOriginAbbreviation, getOriginIcon } from '../../lib/origin-icons';
-import { getOriginDescriptionBySlug, getOriginDescriptionByValue } from '../../lib/origins';
 import { AhrefsAttributionTooltip } from '../../components/AhrefsAttributionTooltip';
 import { SearchHistoryChart } from '../../components/SearchHistoryChart';
 import { SearchKeywordShare } from '../../components/SearchKeywordShare';
@@ -29,6 +25,8 @@ import { ReportMistakeName } from '../../components/ReportMistakeContext';
 import { CompareFlapPrefill } from '../../components/CompareFlap';
 import { AwarenessScoreChip } from '../../components/AwarenessScoreChip';
 import { CopyLinkButton } from '../../components/CopyLinkButton';
+import { FunctionFilterChipList } from '../../components/FunctionFilterChipList';
+import { OriginChipList } from '../../components/OriginChipList';
 
 interface AdditivePageProps {
   params: Promise<{ slug: string }>;
@@ -236,6 +234,15 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
     </>
   );
 
+  const detailRowTypographySx = {
+    display: 'flex',
+    alignItems: 'center',
+    flexWrap: 'wrap',
+    columnGap: 1,
+    rowGap: 0.75,
+    lineHeight: 1.8,
+  } as const;
+
   return (
     <>
       <CompareFlapPrefill slug={additive.slug} />
@@ -270,300 +277,190 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
         </Box>
 
         <Box sx={{ width: '100%', maxWidth: 760, display: 'flex', flexDirection: 'column', gap: 3 }}>
-        <Box display="flex" flexDirection="column" gap={1.5}>
-          {synonymList.length > 0 && (
-            <Typography variant="body1" color="text.secondary">
-              <Box component="span" sx={{ fontWeight: 600 }}>
-                Synonyms:
-              </Box>{' '}
-              {synonymList.map((synonym) => (
-                <Box
-                  component="span"
-                  key={synonym}
-                  sx={{
-                    display: 'inline-block',
-                    whiteSpace: 'nowrap',
-                    '&:not(:last-of-type)': {
-                      marginRight: 2,
-                      '&::after': {
-                        content: '", "',
-                      },
-                    },
-                  }}
-                >
-                  {synonym}
-                </Box>
-              ))}
-            </Typography>
-          )}
-          {hasParentAdditives && (
-            <Typography variant="body1" color="text.secondary">
-              <Box component="span" sx={{ fontWeight: 600 }}>
-                Belongs to:
-              </Box>{' '}
-              {parentAdditives.map((parent, index) => (
-                <span key={parent.slug}>
-                  {index > 0 ? ', ' : null}
-                  <MuiLink
-                    component={NextLink}
-                    href={`/${parent.slug}`}
-                    underline="hover"
-                    sx={{ fontWeight: 500 }}
-                  >
-                    {formatAdditiveDisplayName(parent.eNumber, parent.title)}
-                  </MuiLink>
-                </span>
-              ))}
-            </Typography>
-          )}
-          {hasChildAdditives && (
-            <Typography variant="body1" color="text.secondary">
-              <Box component="span" sx={{ fontWeight: 600 }}>
-                Contains:
-              </Box>{' '}
-              <Box
-                component="span"
-                sx={{
-                  display: 'inline-flex',
-                  flexWrap: 'wrap',
-                  gap: 1.5,
-                }}
-              >
-                {childAdditives.map((child) => (
-                  <MuiLink
-                    key={child.slug}
-                    component={NextLink}
-                    href={`/${child.slug}`}
-                    underline="hover"
-                    sx={{ fontWeight: 500 }}
-                  >
-                    {formatAdditiveDisplayName(child.eNumber, child.title)}
-                  </MuiLink>
-                ))}
-              </Box>
-            </Typography>
-          )}
-          {(searchRank !== null || searchVolume !== null || searchCountryText || hasKeywordShare) && (
-            <Box
-              sx={{
-                display: 'flex',
-                alignItems: 'center',
-                flexWrap: 'wrap',
-                gap: 1,
-                color: 'text.secondary',
-                typography: 'body1',
-              }}
-            >
-              <Box component="span" sx={{ fontWeight: 600 }}>
-                Search interest:
-              </Box>
-              {searchRank !== null && (
-                <Box component="span" sx={{ fontVariantNumeric: 'tabular-nums', color: 'text.primary' }}>
-                  #{searchRank}
-                </Box>
-              )}
-              {searchVolume !== null && (
-                <Box component="span" sx={{ fontVariantNumeric: 'tabular-nums', color: 'text.primary' }}>
-                  {formatMonthlyVolume(searchVolume)} / mo
-                </Box>
-              )}
-              {(searchCountryText || searchFlagEmoji) && (
-                <Box component="span" sx={{ display: 'inline-flex', alignItems: 'center', gap: 0.5 }}>
-                  {searchCountryText ? `in ${searchCountryText}` : null}
-                  {searchFlagEmoji && (
-                    <Box
-                      component="span"
-                      role="img"
-                      aria-label={searchCountryLabel ?? undefined}
-                      sx={{ fontSize: '1rem', lineHeight: 1 }}
-                    >
-                      {searchFlagEmoji}
-                    </Box>
-                  )}
-                </Box>
-              )}
-              {hasKeywordShare && (
-                <Box component="span" sx={{ display: 'inline-flex', alignItems: 'center', gap: 0.5 }}>
-                  <Box component="span">data from</Box>
-                  <SearchKeywordShare
-                    keywords={normalizedKeywordShareSegments}
-                    total={keywordShareTotal}
-                    label={`${uniqueKeywordCount} ${uniqueKeywordCount === 1 ? 'keyword' : 'keywords'}`}
-                    keywordConfig={searchVolumeDataset?.keywordConfig ?? null}
-                  />
-                </Box>
-              )}
-            </Box>
-          )}
-        </Box>
-        {additive.functions.length > 0 && (
-          <Stack direction="row" flexWrap="wrap" gap={1} alignItems="center">
-            <Typography
-              variant="body1"
-              color="text.secondary"
-              sx={{ fontWeight: 600, whiteSpace: 'nowrap', marginRight: 1.5 }}
-            >
-              Function:
-            </Typography>
-            {additive.functions.map((fn) => {
-              const functionSlug = getFunctionSlug(fn);
-              const label = formatFunctionLabel(fn);
-
-              if (!functionSlug) {
-                return <Chip key={fn} label={label} variant="outlined" sx={{ textTransform: 'none' }} />;
-              }
-
-              return (
-                <Chip
-                  key={fn}
-                  label={label}
-                  variant="outlined"
-                  component={NextLink}
-                  href={`/function/${functionSlug}`}
-                  clickable
-                  sx={{ textTransform: 'none' }}
-                />
-              );
-            })}
-          </Stack>
-        )}
-
-        {originList.length > 0 && (
-          <Stack direction="row" flexWrap="wrap" gap={1} alignItems="center">
-            <Typography
-              variant="body1"
-              color="text.secondary"
-              sx={{ fontWeight: 600, whiteSpace: 'nowrap', marginRight: 1.5 }}
-            >
-              Origin:
-            </Typography>
-            {originList.map((origin) => {
-              const originSlug = getOriginSlug(origin);
-              const label = formatOriginLabel(origin);
-              const icon = getOriginIcon(origin);
-              const abbreviation = getOriginAbbreviation(origin);
-              const originDescription =
-                (originSlug ? getOriginDescriptionBySlug(originSlug) : null) ??
-                getOriginDescriptionByValue(origin);
-              const tooltipTitle = originDescription ?? '';
-              const tooltipProps = originDescription
-                ? {}
-                : {
-                    disableFocusListener: true,
-                    disableHoverListener: true,
-                    disableTouchListener: true,
-                  };
-              const chipLabel = (
-                <Stack direction="row" spacing={0.75} alignItems="center">
+          <Box display="flex" flexDirection="column" gap={1.75}>
+            {synonymList.length > 0 && (
+              <Typography variant="body1" color="text.secondary">
+                <Box component="span" sx={{ fontWeight: 600 }}>
+                  Synonyms:
+                </Box>{' '}
+                {synonymList.map((synonym) => (
                   <Box
                     component="span"
-                    aria-hidden="true"
+                    key={synonym}
                     sx={{
-                      display: 'inline-flex',
-                      alignItems: 'center',
-                      justifyContent: 'center',
-                      width: 18,
-                      height: 18,
+                      display: 'inline-block',
+                      whiteSpace: 'nowrap',
+                      '&:not(:last-of-type)': {
+                        marginRight: 2,
+                        '&::after': {
+                          content: '", "',
+                        },
+                      },
                     }}
                   >
-                    {icon ? (
-                      <Image
-                        src={icon}
-                        alt={`${label} flag`}
-                        width={16}
-                        height={16}
-                        style={{ width: '100%', height: '100%', objectFit: 'contain' }}
-                      />
-                    ) : (
-                      <Box component="span" sx={{ fontSize: 12, fontWeight: 600, lineHeight: 1 }}>
-                        {abbreviation}
+                    {synonym}
+                  </Box>
+                ))}
+              </Typography>
+            )}
+            {hasParentAdditives && (
+              <Typography variant="body1" color="text.secondary">
+                <Box component="span" sx={{ fontWeight: 600 }}>
+                  Belongs to:
+                </Box>{' '}
+                {parentAdditives.map((parent, index) => (
+                  <span key={parent.slug}>
+                    {index > 0 ? ', ' : null}
+                    <MuiLink
+                      component={NextLink}
+                      href={`/${parent.slug}`}
+                      underline="hover"
+                      sx={{ fontWeight: 500 }}
+                    >
+                      {formatAdditiveDisplayName(parent.eNumber, parent.title)}
+                    </MuiLink>
+                  </span>
+                ))}
+              </Typography>
+            )}
+            {hasChildAdditives && (
+              <Typography variant="body1" color="text.secondary">
+                <Box component="span" sx={{ fontWeight: 600 }}>
+                  Contains:
+                </Box>{' '}
+                <Box
+                  component="span"
+                  sx={{
+                    display: 'inline-flex',
+                    flexWrap: 'wrap',
+                    gap: 1.5,
+                  }}
+                >
+                  {childAdditives.map((child) => (
+                    <MuiLink
+                      key={child.slug}
+                      component={NextLink}
+                      href={`/${child.slug}`}
+                      underline="hover"
+                      sx={{ fontWeight: 500 }}
+                    >
+                      {formatAdditiveDisplayName(child.eNumber, child.title)}
+                    </MuiLink>
+                  ))}
+                </Box>
+              </Typography>
+            )}
+          </Box>
+
+          {additive.functions.length > 0 && (
+            <Box sx={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', columnGap: 1.25, rowGap: 0.75 }}>
+              <Typography
+                variant="body1"
+                color="text.secondary"
+                sx={{ fontWeight: 600, whiteSpace: 'nowrap', lineHeight: 1.8 }}
+              >
+                Function:
+              </Typography>
+              <FunctionFilterChipList functions={additive.functions} />
+            </Box>
+          )}
+
+          {originList.length > 0 && (
+            <Box sx={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', columnGap: 1.25, rowGap: 0.75 }}>
+              <Typography
+                variant="body1"
+                color="text.secondary"
+                sx={{ fontWeight: 600, whiteSpace: 'nowrap', lineHeight: 1.8 }}
+              >
+                Origin:
+              </Typography>
+              <OriginChipList origins={originList} />
+            </Box>
+          )}
+
+          <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1.75 }}>
+            <Typography variant="body1" color="text.secondary" sx={detailRowTypographySx}>
+              <Box component="span" sx={{ fontWeight: 600 }}>
+                Products:
+              </Box>{' '}
+              {productCount !== null ? (
+                <>
+                  Found in{' '}
+                  <MuiLink
+                    href={productSearchUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    underline="always"
+                    sx={{ fontWeight: 500, textDecorationThickness: '2px' }}
+                  >
+                    {formatProductCount(productCount)} products
+                  </MuiLink>{' '}
+                  from the Open Food Facts database
+                </>
+              ) : (
+                'Data not available.'
+              )}
+            </Typography>
+            {(searchRank !== null || searchVolume !== null || searchCountryText || hasKeywordShare) && (
+              <Typography variant="body1" color="text.secondary" sx={detailRowTypographySx}>
+                <Box component="span" sx={{ fontWeight: 600 }}>
+                  Search interest:
+                </Box>
+                {searchRank !== null && (
+                  <Box component="span" sx={{ fontVariantNumeric: 'tabular-nums', color: 'text.primary' }}>
+                    #{searchRank}
+                  </Box>
+                )}
+                {searchVolume !== null && (
+                  <Box component="span" sx={{ fontVariantNumeric: 'tabular-nums', color: 'text.primary' }}>
+                    {formatMonthlyVolume(searchVolume)} / mo
+                  </Box>
+                )}
+                {(searchCountryText || searchFlagEmoji) && (
+                  <Box component="span" sx={{ display: 'inline-flex', alignItems: 'center', gap: 0.75 }}>
+                    {searchCountryText ? `in ${searchCountryText}` : null}
+                    {searchFlagEmoji && (
+                      <Box
+                        component="span"
+                        role="img"
+                        aria-label={searchCountryLabel ?? undefined}
+                        sx={{ fontSize: '1rem', lineHeight: 1 }}
+                      >
+                        {searchFlagEmoji}
                       </Box>
                     )}
                   </Box>
-                  <Box component="span" sx={{ lineHeight: 1 }}>
-                    {label}
+                )}
+                {hasKeywordShare && (
+                  <Box component="span" sx={{ display: 'inline-flex', alignItems: 'center', gap: 0.75 }}>
+                    <Box component="span">data from</Box>
+                    <SearchKeywordShare
+                      keywords={normalizedKeywordShareSegments}
+                      total={keywordShareTotal}
+                      label={`${uniqueKeywordCount} ${uniqueKeywordCount === 1 ? 'keyword' : 'keywords'}`}
+                      keywordConfig={searchVolumeDataset?.keywordConfig ?? null}
+                    />
                   </Box>
-                </Stack>
-              );
-
-              if (!originSlug) {
-                return (
-                  <Tooltip
-                    key={origin}
-                    title={tooltipTitle}
-                    arrow
-                    enterTouchDelay={0}
-                    leaveTouchDelay={1500}
-                    {...tooltipProps}
-                  >
-                    <Chip label={chipLabel} variant="outlined" sx={{ px: 1 }} />
-                  </Tooltip>
-                );
-              }
-
-              return (
-                <Tooltip
-                  key={origin}
-                  title={tooltipTitle}
-                  arrow
-                  enterTouchDelay={0}
-                  leaveTouchDelay={1500}
-                  {...tooltipProps}
-                >
-                  <Chip
-                    label={chipLabel}
-                    variant="outlined"
-                    component={NextLink}
-                    href={`/origin/${originSlug}`}
-                    clickable
-                    sx={{ px: 1 }}
-                  />
-                </Tooltip>
-              );
-            })}
-          </Stack>
-        )}
-
-        <Box sx={{ display: 'flex', flexDirection: 'column', gap: 0.75 }}>
-          <Typography variant="body1" color="text.secondary">
-            <Box component="span" sx={{ fontWeight: 600 }}>
-              Products:
-            </Box>{' '}
-            {productCount !== null ? (
-              <MuiLink
-                href={productSearchUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                underline="hover"
-                sx={{ fontWeight: 500 }}
-              >
-                Found in {formatProductCount(productCount)} products
-              </MuiLink>
-            ) : (
-              'Data not available.'
+                )}
+                <Box component="span">from Ahrefs</Box>
+              </Typography>
             )}
-          </Typography>
-          {awarenessScore ? (
-            <Typography
-              component="div"
-              variant="body1"
-              color="text.secondary"
-              sx={{ display: 'flex', alignItems: 'center', gap: 1 }}
-            >
-              <Box component="span" sx={{ fontWeight: 600 }}>
-                Awareness:
-              </Box>
-              <AwarenessScoreChip score={awarenessScore} />
-            </Typography>
-          ) : null}
-        </Box>
+            {awarenessScore ? (
+              <Typography variant="body1" color="text.secondary" sx={detailRowTypographySx}>
+                <Box component="span" sx={{ fontWeight: 600 }}>
+                  Awareness score:
+                </Box>
+                <AwarenessScoreChip score={awarenessScore} />
+              </Typography>
+            ) : null}
+          </Box>
 
-        {articleSummary && (
-          <Typography variant="body1" color="text.primary" whiteSpace="pre-line">
-            {articleSummary}
-          </Typography>
-        )}
-      </Box>
+          {articleSummary && (
+            <Typography variant="body1" color="text.primary" whiteSpace="pre-line">
+              {articleSummary}
+            </Typography>
+          )}
+        </Box>
 
       {hasSearchHistory && searchHistory && (
         <Box
