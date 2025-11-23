@@ -85,7 +85,12 @@ const markdownComponents: Components = {
     </Typography>
   ),
   a: ({ children, href, ...props }) => (
-    <MuiLink href={href} underline="hover" {...props}>
+    <MuiLink
+      href={href}
+      underline="hover"
+      sx={{ overflowWrap: 'anywhere', wordBreak: 'break-word' }}
+      {...props}
+    >
       {children}
     </MuiLink>
   ),
