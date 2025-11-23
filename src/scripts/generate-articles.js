@@ -35,6 +35,7 @@ const dns = require('dns');
 const OpenAI = require('openai');
 
 const { createAdditiveSlug } = require('./utils/slug');
+const { updateLastUpdatedTimestamp } = require('./utils/last-updated');
 
 dns.setDefaultResultOrder('ipv4first');
 
@@ -47,6 +48,8 @@ const DATA_DIR = path.join(__dirname, '..', '..', 'data');
 const ADDITIVE_DIR = path.join(DATA_DIR, 'additive');
 const ADDITIVES_INDEX_PATH = path.join(DATA_DIR, 'additives.json');
 const ENV_LOCAL_PATH = path.join(__dirname, '..', '..', 'env.local');
+
+let hasChanges = false;
 
 
 async function fileExists(filePath) {
@@ -384,6 +387,7 @@ async function processAdditive({
 
   await fs.mkdir(path.join(ADDITIVE_DIR, additive.slug), { recursive: true });
   await fs.writeFile(articlePath, `${articleMarkdown.trim()}\n`, 'utf8');
+  hasChanges = true;
 
   console.log(`[${index + 1}/${total}] Saved article to ${path.join(relativeSlugDir, 'article.md')}.`);
 }
@@ -528,6 +532,10 @@ async function run() {
     });
 
     await Promise.all(workers);
+
+    if (hasChanges) {
+      await updateLastUpdatedTimestamp();
+    }
 
     if (errors.length) {
       console.log('Completed with errors for the following additives:');

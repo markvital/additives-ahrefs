@@ -30,6 +30,7 @@ const dns = require('dns');
 const { execFile } = require('child_process');
 
 const { createAdditiveSlug } = require('./utils/slug');
+const { updateLastUpdatedTimestamp } = require('./utils/last-updated');
 
 dns.setDefaultResultOrder('ipv4first');
 
@@ -50,6 +51,8 @@ const ORIGIN_ALIASES = {
   synthetic: ['synthetic', 'syntheticallyproduced', 'syntheticonly', 'labmade', 'artificial', 'artificiallyproduced'],
   mineral: ['mineral', 'geological', 'inorganic', 'mineralbased'],
 };
+
+let hasChanges = false;
 
 async function fileExists(filePath) {
   try {
@@ -543,6 +546,7 @@ async function processAdditive({
   };
 
   await fs.writeFile(props.filePath, `${JSON.stringify(updated, null, 2)}\n`, 'utf8');
+  hasChanges = true;
 
   console.log(`[${index + 1}/${total}] Saved origin (${sortedOrigin.join(', ')}) to ${relativePropsPath}.`);
 }
@@ -709,6 +713,10 @@ async function run() {
     });
 
     await Promise.all(workers);
+
+    if (hasChanges) {
+      await updateLastUpdatedTimestamp();
+    }
 
     if (errors.length > 0) {
       console.error(`Completed with ${errors.length} error(s).`);

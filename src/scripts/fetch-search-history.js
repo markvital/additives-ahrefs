@@ -8,6 +8,7 @@ const { promisify } = require('util');
 const { createAdditiveSlug } = require('./utils/slug');
 const { toKeywordList } = require('./utils/keywords');
 const { loadEnvConfig, resolveAhrefsApiKey } = require('./utils/env');
+const { updateLastUpdatedTimestamp } = require('./utils/last-updated');
 
 const execFileAsync = promisify(execFile);
 
@@ -23,6 +24,7 @@ const DEFAULT_PARALLEL = 10;
 const DEFAULT_LIMIT = Infinity;
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+let hasChanges = false;
 
 let DEBUG = false;
 const debugLog = (...args) => {
@@ -247,6 +249,7 @@ const ensureProps = (props, additive) => {
 async function writeProps(slug, props) {
   await fs.mkdir(path.join(ADDITIVE_DIR, slug), { recursive: true });
   await fs.writeFile(propsPathForSlug(slug), `${JSON.stringify(props, null, 2)}\n`);
+  hasChanges = true;
 }
 
 async function hasExistingHistory(slug, props) {
@@ -604,6 +607,7 @@ async function main() {
         };
 
         await fs.writeFile(historyPath, `${JSON.stringify(aggregatedPayload, null, 2)}\n`);
+        hasChanges = true;
 
         if (DEBUG) {
           const relativeHistoryPath = path.relative(process.cwd(), historyPath);
@@ -618,6 +622,7 @@ async function main() {
         };
 
         await fs.writeFile(fullHistoryPath, `${JSON.stringify(fullPayload, null, 2)}\n`);
+        hasChanges = true;
 
         if (DEBUG) {
           const relativeFullPath = path.relative(process.cwd(), fullHistoryPath);
@@ -634,6 +639,10 @@ async function main() {
   };
 
   await Promise.all(Array.from({ length: parallelLimit }, () => worker()));
+
+  if (hasChanges) {
+    await updateLastUpdatedTimestamp();
+  }
 
   const successful = total - failures.length;
   console.log(`Completed fetching history for ${successful} of ${total} additives.`);
