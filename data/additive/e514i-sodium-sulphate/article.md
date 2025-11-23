@@ -16,12 +16,12 @@ You are unlikely to see sodium sulphate in everyday ingredient lists. When it is
 
 ## What can replace Sodium sulphate?
 Alternatives depend on why a manufacturer uses it:
-- For acidity or buffering needs: [citric acid](/e330-citric-acid), [sodium citrates](/e331-sodium-citrates), or [phosphoric acid](/e338-phosphoric-acid).
-- For texture or firmness in certain applications: [calcium sulphate](/e516-calcium-sulphate).
-- For anti-caking or flow improvement in powders: [silicon dioxide](/e551-silicon-dioxide) or [calcium silicate](/e552-calcium-silicate).
+- For acidity or buffering needs: [citric acid](/e330-citric-acid){.additive}, [sodium citrates](/e331-sodium-citrates){.additive}, or [phosphoric acid](/e338-phosphoric-acid){.additive}.
+- For texture or firmness in certain applications: [calcium sulphate](/e516-calcium-sulphate){.additive}.
+- For anti-caking or flow improvement in powders: [silicon dioxide](/e551-silicon-dioxide){.additive} or [calcium silicate](/e552-calcium-silicate){.additive}.
 
 ## How is Sodium sulphate made?
-Food-grade sodium sulphate can be produced by neutralizing [sulphuric acid](/e513-sulphuric-acid) with sodium bases such as [sodium carbonate](/e500-sodium-carbonates) or [sodium hydroxide](/e524-sodium-hydroxide), followed by purification and drying.[^1] The additive must meet the identity and purity specifications set out in the EU food additives regulation.[^2] Chemically, sodium sulphate is Na2SO4 and may be used in anhydrous form or as a hydrate (for example, the decahydrate is historically known as “Glauber’s salt”).[^5]
+Food-grade sodium sulphate can be produced by neutralizing [sulphuric acid](/e513-sulphuric-acid){.additive} with sodium bases such as [sodium carbonate](/e500-sodium-carbonates){.additive} or [sodium hydroxide](/e524-sodium-hydroxide){.additive}, followed by purification and drying.[^1] The additive must meet the identity and purity specifications set out in the EU food additives regulation.[^2] Chemically, sodium sulphate is Na2SO4 and may be used in anhydrous form or as a hydrate (for example, the decahydrate is historically known as “Glauber’s salt”).[^5]
 
 ## Is Sodium sulphate safe to eat?
 Yes, when used as intended. In the U.S., sodium sulfate is GRAS for direct addition to food under good manufacturing practice.[^1] The European Food Safety Authority (EFSA) re-evaluated sulfates (including E 514) and found no safety concern at reported uses and use levels; an Acceptable Daily Intake (ADI) was not considered necessary.[^3] Like other sulfate salts, very high intakes can have a laxative effect due to osmotic action, which is not relevant at typical food-use levels.[^3]

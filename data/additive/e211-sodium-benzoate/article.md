@@ -20,16 +20,16 @@ You’ll most often see sodium benzoate in:
 
 Use levels and allowed categories vary by country. In the European Union, sodium benzoate (E211) is authorized as a preservative in specific food categories, with maximum levels listed in Annex II of Regulation (EC) No 1333/2008.[^5] In the United States, FDA lists sodium benzoate as an allowed additive; use must follow good manufacturing practices and any applicable category limits.[^2]
 
-If you’re checking a label, look for “sodium benzoate” or “E211.” In beverages, it may appear alongside acidifiers like [citric acid](/e330-citric-acid) or antioxidants such as [ascorbic acid](/e300-ascorbic-acid).
+If you’re checking a label, look for “sodium benzoate” or “E211.” In beverages, it may appear alongside acidifiers like [citric acid](/e330-citric-acid){.additive} or antioxidants such as [ascorbic acid](/e300-ascorbic-acid){.additive}.
 
 ## What can replace Sodium benzoate?
 Depending on the food, possible alternatives include:
-- Benzoate family: [potassium benzoate](/e212-potassium-benzoate), [calcium benzoate](/e213-calcium-benzoate)
-- Sorbates: [sorbic acid](/e200-sorbic-acid), [potassium sorbate](/e202-potassium-sorbate), [sodium sorbate](/e201-sodium-sorbate)
-- Other preservative options in certain foods: [nisin](/e234-nisin), [natamycin](/e235-natamycin)
-- Process-based options: lower pH with [citric acid](/e330-citric-acid), heat treatment (pasteurization), improved packaging
+- Benzoate family: [potassium benzoate](/e212-potassium-benzoate){.additive}, [calcium benzoate](/e213-calcium-benzoate){.additive}
+- Sorbates: [sorbic acid](/e200-sorbic-acid){.additive}, [potassium sorbate](/e202-potassium-sorbate){.additive}, [sodium sorbate](/e201-sodium-sorbate){.additive}
+- Other preservative options in certain foods: [nisin](/e234-nisin){.additive}, [natamycin](/e235-natamycin){.additive}
+- Process-based options: lower pH with [citric acid](/e330-citric-acid){.additive}, heat treatment (pasteurization), improved packaging
 
-Note: When formulating beverages, using benzoates together with [ascorbic acid](/e300-ascorbic-acid) requires controls to minimize benzene formation.
+Note: When formulating beverages, using benzoates together with [ascorbic acid](/e300-ascorbic-acid){.additive} requires controls to minimize benzene formation.
 
 ## How is Sodium benzoate made?
 Food-grade sodium benzoate is typically produced by neutralizing benzoic acid with sodium hydroxide or sodium carbonate, then purified to meet quality standards.[^4] Benzoic acid itself is widely manufactured and then converted to the sodium salt for better solubility in foods.[^4]

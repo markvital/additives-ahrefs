@@ -17,8 +17,8 @@ Availability depends on where you live. In the European Union, E104 is permitted
 
 ## What can replace Quinoline yellow?
 Food makers often swap in other yellow-to-orange colors, depending on the shade and the rules in their market:
-- Synthetic colors: [tartrazine](/e102-tartrazine) and [sunset yellow FCF](/e110-sunset-yellow-fcf)
-- Nature-derived colors: [curcumin](/e100-curcumin), [beta-carotene](/e160a-carotene), [annatto](/e160b-annatto), [riboflavin](/e101-riboflavin), and [lutein](/e161b-lutein)
+- Synthetic colors: [tartrazine](/e102-tartrazine){.additive} and [sunset yellow FCF](/e110-sunset-yellow-fcf){.additive}
+- Nature-derived colors: [curcumin](/e100-curcumin){.additive}, [beta-carotene](/e160a-carotene){.additive}, [annatto](/e160b-annatto){.additive}, [riboflavin](/e101-riboflavin){.additive}, and [lutein](/e161b-lutein){.additive}
 
 Each option has its own color tone, stability, and labeling requirements.
 
@@ -35,7 +35,7 @@ Its benefit is visual. It gives a bright, consistent yellow color that helps con
 
 ## Who should avoid Quinoline yellow?
 - Caregivers who wish to follow the EU precaution about children’s attention and activity may choose products without E104.[^5]
-- People who prefer to avoid synthetic colors can look for items colored with nature-derived options like [curcumin](/e100-curcumin) or [beta-carotene](/e160a-carotene).
+- People who prefer to avoid synthetic colors can look for items colored with nature-derived options like [curcumin](/e100-curcumin){.additive} or [beta-carotene](/e160a-carotene){.additive}.
 - In the U.S., it is already absent from foods, so avoidance mainly concerns drugs and cosmetics labeled with “D&C Yellow No. 10.”[^2]
 
 ## Myths & facts

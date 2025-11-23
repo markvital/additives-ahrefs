@@ -19,9 +19,9 @@ On ingredient lists you may see it as “ethyl cellulose,” “ethylcellulose,�
 
 ## What can replace Ethyl cellulose?
 Choosing a substitute depends on what you need it to do:
-- For water‑soluble thickening and film formation: [methyl cellulose](/e461-methyl-cellulose) or [hydroxypropyl methyl cellulose](/e464-hydroxypropyl-methyl-cellulose).
-- For flexible films and binding in coatings: [hydroxypropyl cellulose](/e463-hydroxypropyl-cellulose).
-- For general thickening in water‑based foods: [sodium carboxy‑methyl cellulose](/e466-sodium-carboxy-methyl-cellulose), [xanthan gum](/e415-xanthan-gum), [pectins](/e440-pectins), or [acacia gum](/e414-acacia-gum).
+- For water‑soluble thickening and film formation: [methyl cellulose](/e461-methyl-cellulose){.additive} or [hydroxypropyl methyl cellulose](/e464-hydroxypropyl-methyl-cellulose){.additive}.
+- For flexible films and binding in coatings: [hydroxypropyl cellulose](/e463-hydroxypropyl-cellulose){.additive}.
+- For general thickening in water‑based foods: [sodium carboxy‑methyl cellulose](/e466-sodium-carboxy-methyl-cellulose){.additive}, [xanthan gum](/e415-xanthan-gum){.additive}, [pectins](/e440-pectins){.additive}, or [acacia gum](/e414-acacia-gum){.additive}.
 
 These alternatives differ in solubility, texture, clarity, and heat tolerance, so formulators choose based on the specific recipe.
 

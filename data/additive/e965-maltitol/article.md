@@ -27,9 +27,9 @@ On labels, look for “maltitol,” “maltitol syrup,” or “E965.”
 
 ## What can replace maltitol?
 Depending on the recipe, manufacturers may swap maltitol with:
-- Other polyol (sugar alcohol) sweeteners: [sorbitol](/e420-sorbitol), [xylitol](/e967-xylitol), [erythritol](/e968-erythritol), or [isomalt](/e953-isomalt)
-- High‑intensity sweeteners for stronger sweetness: [sucralose](/e955-sucralose), [steviol glycosides](/e960-steviol-glycosides), or [acesulfame K](/e950-acesulfame-k)
-- Bulking syrups: [polyglycitol syrup](/e964-polyglycitol-syrup)
+- Other polyol (sugar alcohol) sweeteners: [sorbitol](/e420-sorbitol){.additive}, [xylitol](/e967-xylitol){.additive}, [erythritol](/e968-erythritol){.additive}, or [isomalt](/e953-isomalt){.additive}
+- High‑intensity sweeteners for stronger sweetness: [sucralose](/e955-sucralose){.additive}, [steviol glycosides](/e960-steviol-glycosides){.additive}, or [acesulfame K](/e950-acesulfame-k){.additive}
+- Bulking syrups: [polyglycitol syrup](/e964-polyglycitol-syrup){.additive}
 
 Each option changes taste, cooling effect, browning, and digestive tolerance, so blends are common.
 

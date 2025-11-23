@@ -22,11 +22,11 @@ On ingredient lists, look for “isobutane,” “propellant (isobutane),” or 
 
 ## What can replace Isobutane?
 Depending on the product, manufacturers may use other food-grade propellants or gases:
-- [Butane](/e943a-butane)
-- [Propane](/e944-propane)
-- [Carbon dioxide](/e290-carbon-dioxide) (common in beverages and some foams)
-- [Nitrous oxide](/e942-nitrous-oxide) (common in whipped cream systems)
-- [Nitrogen](/e941-nitrogen) (for inert packaging or dispensing)
+- [Butane](/e943a-butane){.additive}
+- [Propane](/e944-propane){.additive}
+- [Carbon dioxide](/e290-carbon-dioxide){.additive} (common in beverages and some foams)
+- [Nitrous oxide](/e942-nitrous-oxide){.additive} (common in whipped cream systems)
+- [Nitrogen](/e941-nitrogen){.additive} (for inert packaging or dispensing)
 
 The best alternative depends on how the product needs to spray or foam, flavor neutrality, and packaging design.
 

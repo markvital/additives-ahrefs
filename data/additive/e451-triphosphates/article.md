@@ -21,9 +21,9 @@ In the United States, phosphates are allowed in many meat and poultry products, 
 
 ## What can replace Triphosphates?
 Possible alternatives depend on the job E451 is doing in the recipe:
-- For sequestration and pH control: [citric acid](/e330-citric-acid), [sodium citrates](/e331-sodium-citrates)
-- For moisture retention and texture: [diphosphates](/e450-diphosphates), [polyphosphates](/e452-polyphosphates), [carrageenan](/e407-carrageenan), [xanthan gum](/e415-xanthan-gum)
-- For leavening or buffering in specific systems: [sodium bicarbonate](/e500ii-sodium-bicarbonate), [sodium phosphates](/e339-sodium-phosphates), [potassium phosphates](/e340-potassium-phosphates)
+- For sequestration and pH control: [citric acid](/e330-citric-acid){.additive}, [sodium citrates](/e331-sodium-citrates){.additive}
+- For moisture retention and texture: [diphosphates](/e450-diphosphates){.additive}, [polyphosphates](/e452-polyphosphates){.additive}, [carrageenan](/e407-carrageenan){.additive}, [xanthan gum](/e415-xanthan-gum){.additive}
+- For leavening or buffering in specific systems: [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive}, [sodium phosphates](/e339-sodium-phosphates){.additive}, [potassium phosphates](/e340-potassium-phosphates){.additive}
 
 Swapping ingredients changes taste, texture, and labels, so manufacturers test alternatives to match the target quality.
 
@@ -42,8 +42,8 @@ People who must restrict phosphorus—especially those with chronic kidney disea
 ## Myths & facts
 - Myth: “Triphosphates are only detergents, not food-grade.” Fact: Food-grade triphosphates meet strict purity specifications for use in foods.
 - Myth: “They’re used to hide poor-quality meat.” Fact: They help retain moisture and texture in many standard products and must be used within legal limits.
-- Myth: “All phosphates are the same.” Fact: There are different phosphates—mono-, di-, tri-, and [polyphosphates](/e452-polyphosphates)—each with distinct functions.
-- Myth: “They act like leavening acids.” Fact: Leavening typically relies on acid salts such as sodium acid pyrophosphate ([diphosphates](/e450-diphosphates)); triphosphates are mainly used for moisture binding and sequestration.
+- Myth: “All phosphates are the same.” Fact: There are different phosphates—mono-, di-, tri-, and [polyphosphates](/e452-polyphosphates){.additive}—each with distinct functions.
+- Myth: “They act like leavening acids.” Fact: Leavening typically relies on acid salts such as sodium acid pyrophosphate ([diphosphates](/e450-diphosphates){.additive}); triphosphates are mainly used for moisture binding and sequestration.
 
 ## Triphosphates in branded foods
 On ingredient lists you might see “sodium tripolyphosphate (E451),” “pentasodium triphosphate,” or “potassium triphosphate.” These appear in many mainstream products, such as deli hams and turkey, frozen shrimp, processed cheese slices, canned tuna or salmon, and some dairy powders. Placement and amount depend on the product type and national rules.

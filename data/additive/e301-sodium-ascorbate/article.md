@@ -8,10 +8,10 @@ This additive is most often used to protect color and flavor from going stale.
 - What it does: antioxidant; speeds curing in meats and helps control unwanted nitrosamines when used with nitrite
 - Where it’s found: cured meats like bacon and ham, canned fish, fruit products, and some drinks
 - On the label: “sodium ascorbate,” “E301,” or just “ascorbate”
-- Related additives: [ascorbic acid](/e300-ascorbic-acid) (E300), [sodium erythorbate](/e316-sodium-erythorbate) (E316)
+- Related additives: [ascorbic acid](/e300-ascorbic-acid){.additive} (E300), [sodium erythorbate](/e316-sodium-erythorbate){.additive} (E316)
 
 ## Why is Sodium ascorbate added to food?
-Sodium ascorbate slows down oxidation—the reactions that dull color, fade flavors, and make fats go rancid. In cured meats, it also speeds the curing reaction and helps maintain a stable pink color when used with curing salts such as [sodium nitrite](/e250-sodium-nitrite) or [sodium nitrate](/e251-sodium-nitrate).[^1]
+Sodium ascorbate slows down oxidation—the reactions that dull color, fade flavors, and make fats go rancid. In cured meats, it also speeds the curing reaction and helps maintain a stable pink color when used with curing salts such as [sodium nitrite](/e250-sodium-nitrite){.additive} or [sodium nitrate](/e251-sodium-nitrate){.additive}.[^1]
 
 In the United States, its use in cured meat and poultry is specifically regulated. For example, pumped bacon must include ascorbate or erythorbate to help limit nitrosamine formation during cooking.[^2]
 
@@ -27,11 +27,11 @@ On ingredients lists, look for “sodium ascorbate,” “E301,” or “ascorba
 
 ## What can replace Sodium ascorbate?
 Depending on the job, food makers may switch to:
-- Other vitamin C forms: [ascorbic acid](/e300-ascorbic-acid) (E300) for dough strengthening or browning control
-- Close analogs: [sodium erythorbate](/e316-sodium-erythorbate) (E316) as a curing accelerator and antioxidant in meats
-- Oil‑phase antioxidants: [butylated hydroxyanisole (BHA)](/e320-butylated-hydroxyanisole-bha) (E320), [butylated hydroxytoluene](/e321-butylated-hydroxytoluene) (E321), or mixed tocopherols such as [tocopherol‑rich extract](/e306-tocopherol-rich-extract) (E306)
-- Synergists/acidulants: [citric acid](/e330-citric-acid) (E330)
-- Natural extracts: [extracts of rosemary](/e392-extracts-of-rosemary) (E392)
+- Other vitamin C forms: [ascorbic acid](/e300-ascorbic-acid){.additive} (E300) for dough strengthening or browning control
+- Close analogs: [sodium erythorbate](/e316-sodium-erythorbate){.additive} (E316) as a curing accelerator and antioxidant in meats
+- Oil‑phase antioxidants: [butylated hydroxyanisole (BHA)](/e320-butylated-hydroxyanisole-bha){.additive} (E320), [butylated hydroxytoluene](/e321-butylated-hydroxytoluene){.additive} (E321), or mixed tocopherols such as [tocopherol‑rich extract](/e306-tocopherol-rich-extract){.additive} (E306)
+- Synergists/acidulants: [citric acid](/e330-citric-acid){.additive} (E330)
+- Natural extracts: [extracts of rosemary](/e392-extracts-of-rosemary){.additive} (E392)
 
 ## How is Sodium ascorbate made?
 Sodium ascorbate is the sodium salt of L‑ascorbic acid. It is produced by neutralizing L‑ascorbic acid (E300) with a suitable sodium base (such as sodium carbonate, bicarbonate, or hydroxide), and it must meet purity criteria set in the EU additives specification.[^3]
@@ -54,7 +54,7 @@ In foods, E301 helps keep flavors and colors stable by slowing oxidation. In cur
 - Myth: “You only find it in meats.” Fact: It also appears in drinks, canned fish, and some fruit products to protect color and flavor.
 
 ## Sodium ascorbate in branded foods
-You can spot E301 on labels of many national and store brands of bacon, ham, hot dogs, and deli meats. It also turns up in some canned fish, powdered drink mixes, and fruit products. Look for “sodium ascorbate,” “E301,” or “ascorbate” in the ingredient list—often near curing salts like [sodium nitrite](/e250-sodium-nitrite).
+You can spot E301 on labels of many national and store brands of bacon, ham, hot dogs, and deli meats. It also turns up in some canned fish, powdered drink mixes, and fruit products. Look for “sodium ascorbate,” “E301,” or “ascorbate” in the ingredient list—often near curing salts like [sodium nitrite](/e250-sodium-nitrite){.additive}.
 
 ## References
 [^1]: Scientific Opinion on the re‑evaluation of ascorbic acid (E 300), sodium ascorbate (E 301) and calcium ascorbate (E 302) as food additives — EFSA. https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2015.4087

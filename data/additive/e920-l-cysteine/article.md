@@ -23,11 +23,11 @@ As a flour treatment agent (INS 920), it is used in line with good manufacturing
 
 ## What can replace l-cysteine?
 Depending on the product and process, bakers may choose:
-- Oxidizing or strengthening agents such as [ascorbic acid](/e300-ascorbic-acid)
-- Other dough conditioners like [DATEM](/e472e-mono-and-diacetyltartaric-acid-esters-of-mono-and-diglycerides-of-fatty-acids)
-- Enzymes, for example [alpha-amylase](/e1100-alpha-amylase) or [lipase](/e1104-lipase)
-- Reducing agents such as [sodium metabisulphite](/e223-sodium-metabisulphite)
-- Texture modifiers like [xanthan gum](/e415-xanthan-gum)
+- Oxidizing or strengthening agents such as [ascorbic acid](/e300-ascorbic-acid){.additive}
+- Other dough conditioners like [DATEM](/e472e-mono-and-diacetyltartaric-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive}
+- Enzymes, for example [alpha-amylase](/e1100-alpha-amylase){.additive} or [lipase](/e1104-lipase){.additive}
+- Reducing agents such as [sodium metabisulphite](/e223-sodium-metabisulphite){.additive}
+- Texture modifiers like [xanthan gum](/e415-xanthan-gum){.additive}
 
 Choice depends on the flour quality, desired texture, and baking method.
 

@@ -3,7 +3,7 @@ Petroleum wax (E905c) is a food-grade wax refined from petroleum. It is used in 
 <!--more-->
 
 ## At a glance
-- Other names: paraffin wax, petroleum wax; related: [mineral oil](/e905a-mineral-oil), [petroleum jelly](/e905b-petroleum-jelly), [microcrystalline wax](/e905ci-microcrystalline-wax)
+- Other names: paraffin wax, petroleum wax; related: [mineral oil](/e905a-mineral-oil){.additive}, [petroleum jelly](/e905b-petroleum-jelly){.additive}, [microcrystalline wax](/e905ci-microcrystalline-wax){.additive}
 - What it does: glazing agent and release agent that adds shine, prevents sticking, and slows moisture loss
 - Where it’s used: fruit and confectionery coatings, chewing gum base, pan-release and processing aids
 - Typical amounts: very small; usually forms a thin outer layer or is part of a gum base
@@ -24,14 +24,14 @@ You are most likely to encounter E905c in:
 - Waxed fruits (for example, some citrus) to reduce moisture loss and scuffing
 - As a processing or release aid so products come out of equipment smoothly
 
-Not every product in these categories uses petroleum wax. Some use other waxes such as [carnauba wax](/e903-carnauba-wax) or [candelilla wax](/e902-candelilla-wax).
+Not every product in these categories uses petroleum wax. Some use other waxes such as [carnauba wax](/e903-carnauba-wax){.additive} or [candelilla wax](/e902-candelilla-wax){.additive}.
 
 ## What can replace Petroleum wax?
 Common substitutes include:
-- [Carnauba wax](/e903-carnauba-wax): very hard, high-gloss finish for candies and fruits
-- [Candelilla wax](/e902-candelilla-wax): plant-based polish with a slightly softer gloss
-- [White and yellow beeswax](/e901-white-and-yellow-beeswax): natural wax often used on cheese and confectionery
-- [Shellac](/e904-shellac): a resin used for high-gloss coatings on sweets and pills
+- [Carnauba wax](/e903-carnauba-wax){.additive}: very hard, high-gloss finish for candies and fruits
+- [Candelilla wax](/e902-candelilla-wax){.additive}: plant-based polish with a slightly softer gloss
+- [White and yellow beeswax](/e901-white-and-yellow-beeswax){.additive}: natural wax often used on cheese and confectionery
+- [Shellac](/e904-shellac){.additive}: a resin used for high-gloss coatings on sweets and pills
 
 Choice depends on the desired shine, hardness, melting point, and whether a plant-based or animal-derived option is preferred.
 
@@ -55,13 +55,13 @@ For the food, yes:
 For the eater, the wax itself does not add taste or nutrition; its benefit is mainly product quality and freshness.
 
 ## Who should avoid Petroleum wax?
-- People who prefer to avoid petroleum-derived ingredients for personal or dietary reasons can choose products coated with plant or animal waxes like [carnauba](/e903-carnauba-wax) or [beeswax](/e901-white-and-yellow-beeswax).
+- People who prefer to avoid petroleum-derived ingredients for personal or dietary reasons can choose products coated with plant or animal waxes like [carnauba](/e903-carnauba-wax){.additive} or [beeswax](/e901-white-and-yellow-beeswax){.additive}.
 - If you are following specific guidance from a healthcare professional about limiting certain additives, check labels for “petroleum wax,” “paraffin wax,” or “E905c.”
 
 ## Myths & facts
 - Myth: “Petroleum wax is the same as raw crude oil.” Fact: Food-grade wax is highly refined and must meet strict composition and purity specifications before use.[^1]
 - Myth: “It adds flavor.” Fact: It is tasteless and used on surfaces or as a small part of gum base.
-- Myth: “It’s always used on fruit.” Fact: Many fruits are unwaxed or use other waxes such as [carnauba](/e903-carnauba-wax).
+- Myth: “It’s always used on fruit.” Fact: Many fruits are unwaxed or use other waxes such as [carnauba](/e903-carnauba-wax){.additive}.
 
 ## Petroleum wax in branded foods
 On labels you may see it listed as “petroleum wax,” “paraffin wax,” or “glazing agent (E905c).” It most often appears on chewing gum ingredient lists (as part of gum base) and on some polished candies. For fresh produce, look for a note like “edible coating” on packaging or display signs; producers may also specify the type of wax used.

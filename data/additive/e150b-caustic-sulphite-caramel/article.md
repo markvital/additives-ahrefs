@@ -19,9 +19,9 @@ You’ll most often see caramel colors in dark soft drinks, malt and brewed beve
 
 ## What can replace Caustic sulphite caramel?
 Color choices depend on shade, stability, and labeling goals.
-- Other caramel classes: [plain caramel](/e150a-plain-caramel), [ammonia caramel](/e150c-ammonia-caramel), or [sulphite ammonia caramel](/e150d-sulphite-ammonia-caramel)
-- Other brown-to-orange colors: [annatto](/e160b-annatto), [paprika extract](/e160c-paprika-extract)
-- Deep black-brown: [vegetable carbon](/e153-vegetable-carbon)
+- Other caramel classes: [plain caramel](/e150a-plain-caramel){.additive}, [ammonia caramel](/e150c-ammonia-caramel){.additive}, or [sulphite ammonia caramel](/e150d-sulphite-ammonia-caramel){.additive}
+- Other brown-to-orange colors: [annatto](/e160b-annatto){.additive}, [paprika extract](/e160c-paprika-extract){.additive}
+- Deep black-brown: [vegetable carbon](/e153-vegetable-carbon){.additive}
 
 Each alternative behaves differently in acid, heat, alcohol, or salt. Trials are usually needed to match the exact hue.
 

@@ -24,9 +24,9 @@ Label wording can include “E160e,” “apocarotenal,” or “beta‑apo‑8�
 
 ## What can replace Beta-apo-8′-carotenal (c30)?
 Alternatives depend on the shade, solubility, and label style you want:
-- Other carotenoids for yellow‑orange to red tones: [beta‑carotene](/e160ai-beta-carotene), [lycopene](/e160d-lycopene), [lutein](/e161b-lutein), or the broader group [carotenoids](/e160-carotenoids)
-- Plant extracts with orange hues: [annatto](/e160b-annatto), [paprika extract](/e160c-paprika-extract)
-- Brown/orange tones for certain applications: [caramel](/e150-caramel)
+- Other carotenoids for yellow‑orange to red tones: [beta‑carotene](/e160ai-beta-carotene){.additive}, [lycopene](/e160d-lycopene){.additive}, [lutein](/e161b-lutein){.additive}, or the broader group [carotenoids](/e160-carotenoids){.additive}
+- Plant extracts with orange hues: [annatto](/e160b-annatto){.additive}, [paprika extract](/e160c-paprika-extract){.additive}
+- Brown/orange tones for certain applications: [caramel](/e150-caramel){.additive}
 
 ## How is Beta-apo-8′-carotenal (c30) made?
 Commercial food‑grade E160e is manufactured by chemical synthesis, then formulated into powders, oil suspensions, or water‑dispersible emulsions to suit different foods. The EU sets detailed identity and purity specifications for apocarotenal, including permitted forms and carriers, to ensure consistent quality across products.[^2]
@@ -46,7 +46,7 @@ Its role is technological, not nutritional. Key benefits to manufacturers includ
 - Those who prefer to avoid synthetically produced colors for personal reasons
 
 ## Myths & facts
-- Myth: It’s the same as beta‑carotene. Fact: Both are carotenoids, but they are different compounds and can give slightly different shades. You can find beta‑carotene here: [beta‑carotene](/e160ai-beta-carotene).
+- Myth: It’s the same as beta‑carotene. Fact: Both are carotenoids, but they are different compounds and can give slightly different shades. You can find beta‑carotene here: [beta‑carotene](/e160ai-beta-carotene){.additive}.
 - Myth: It’s a vitamin. Fact: E160e is used as a color, not as a vitamin source.
 - Myth: It’s unregulated. Fact: It is specifically authorized and regulated in both the U.S. and EU.
 

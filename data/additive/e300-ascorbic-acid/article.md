@@ -5,8 +5,8 @@ Ascorbic acid (E300) is the food‑grade form of vitamin C. It works mainly as a
 ## At a glance
 - Names: E300, L‑ascorbic acid, vitamin C
 - What it does: antioxidant and metal‑binding “sequestrant”; helps prevent browning and flavor loss; strengthens bread dough
-- Common in: breads and buns, fruit drinks and juices, canned fruits and vegetables, jams and preserves; in cured meats you’ll more often see related salts like [sodium ascorbate](/e301-sodium-ascorbate)
-- Related additives: [sodium ascorbate](/e301-sodium-ascorbate), [calcium ascorbate](/e302-calcium-ascorbate), [ascorbyl palmitate](/e304i-ascorbyl-palmitate), [ascorbyl stearate](/e304ii-ascorbyl-stearate)
+- Common in: breads and buns, fruit drinks and juices, canned fruits and vegetables, jams and preserves; in cured meats you’ll more often see related salts like [sodium ascorbate](/e301-sodium-ascorbate){.additive}
+- Related additives: [sodium ascorbate](/e301-sodium-ascorbate){.additive}, [calcium ascorbate](/e302-calcium-ascorbate){.additive}, [ascorbyl palmitate](/e304i-ascorbyl-palmitate){.additive}, [ascorbyl stearate](/e304ii-ascorbyl-stearate){.additive}
 - How it’s made: typically from glucose by fermentation and/or chemical steps
 - Safety: evaluated by regulators; normal food uses are considered safe
 
@@ -19,15 +19,15 @@ You’ll most often find E300 in:
 - Fruit juices, nectars, and soft drinks to protect flavor and vitamin content.
 - Fresh‑cut and canned fruits and vegetables to limit browning and color loss.
 - Jams, jellies, and fruit preparations as an antioxidant.
-- Processed meats: the “ascorbate family” is used to speed curing and limit nitrosamine formation. In U.S. bacon, regulations specifically require either [sodium ascorbate](/e301-sodium-ascorbate) or [sodium erythorbate](/e316-sodium-erythorbate), which are closely related to E300.[^3]
+- Processed meats: the “ascorbate family” is used to speed curing and limit nitrosamine formation. In U.S. bacon, regulations specifically require either [sodium ascorbate](/e301-sodium-ascorbate){.additive} or [sodium erythorbate](/e316-sodium-erythorbate){.additive}, which are closely related to E300.[^3]
 
 ## What can replace Ascorbic acid?
 Alternatives depend on the job you need done:
-- Antioxidants in fats and oils: [tocopherols](/e306-tocopherol-rich-extract) or [alpha‑tocopherol](/e307-alpha-tocopherol)
-- Anti‑browning in fruits: [citric acid](/e330-citric-acid) or [sulphur dioxide](/e220-sulphur-dioxide) where allowed
-- Cure accelerators and color protectors in meats: [erythorbic acid](/e315-erythorbic-acid) or [sodium erythorbate](/e316-sodium-erythorbate)
-- Lipid‑phase antioxidant in emulsions: [ascorbyl palmitate](/e304i-ascorbyl-palmitate) or [ascorbyl stearate](/e304ii-ascorbyl-stearate)
-- Natural flavor/color protection: [extracts of rosemary](/e392-extracts-of-rosemary)
+- Antioxidants in fats and oils: [tocopherols](/e306-tocopherol-rich-extract){.additive} or [alpha‑tocopherol](/e307-alpha-tocopherol){.additive}
+- Anti‑browning in fruits: [citric acid](/e330-citric-acid){.additive} or [sulphur dioxide](/e220-sulphur-dioxide){.additive} where allowed
+- Cure accelerators and color protectors in meats: [erythorbic acid](/e315-erythorbic-acid){.additive} or [sodium erythorbate](/e316-sodium-erythorbate){.additive}
+- Lipid‑phase antioxidant in emulsions: [ascorbyl palmitate](/e304i-ascorbyl-palmitate){.additive} or [ascorbyl stearate](/e304ii-ascorbyl-stearate){.additive}
+- Natural flavor/color protection: [extracts of rosemary](/e392-extracts-of-rosemary){.additive}
 
 ## How is Ascorbic acid made?
 Food‑grade ascorbic acid is produced industrially from glucose. Manufacturers use either the classic Reichstein process (a sequence of hydrogenation and chemical steps) or modern routes that include microbial fermentation followed by purification to meet additive specifications.[^2]
@@ -45,7 +45,7 @@ Most people can consume E300 without issues. However:
 
 ## Myths & facts
 - “Natural” and “synthetic” vitamin C are chemically identical L‑ascorbic acid and work the same in the body.[^4]
-- Ascorbic acid is vitamin C, not the same thing as [citric acid](/e330-citric-acid). They taste tart, but they do different jobs.
+- Ascorbic acid is vitamin C, not the same thing as [citric acid](/e330-citric-acid){.additive}. They taste tart, but they do different jobs.
 - It’s an antioxidant, not a preservative that stops all spoilage. Good hygiene and packaging still matter.
 
 ## Ascorbic acid in branded foods
@@ -53,7 +53,7 @@ On labels you might see “ascorbic acid,” “vitamin C,” or “E300.” It 
 - Sandwich breads and rolls as a dough conditioner
 - Fruit juices, smoothies, and powdered drink mixes to protect flavor or fortify vitamin C
 - Canned or jarred fruits and vegetables to help keep color
-- Processed meats often list related forms like [sodium ascorbate](/e301-sodium-ascorbate) for curing support
+- Processed meats often list related forms like [sodium ascorbate](/e301-sodium-ascorbate){.additive} for curing support
 
 Tip: If you are scanning an ingredient list, look near the end—ascorbic acid usually appears at low levels.
 

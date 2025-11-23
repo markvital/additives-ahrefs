@@ -23,9 +23,9 @@ On labels, it may appear as “E900,” “dimethylpolysiloxane,” or “methyl
 
 ## What can replace Dimethylpolysiloxane and Methylphenylpolysiloxane?
 Depending on the process and food, manufacturers may switch to:
-- Food oils and emulsifiers that suppress foam, such as [lecithins](/e322-lecithins) or [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids)[^1]
-- Certain fatty‑acid esters like [polyglycerol esters of fatty acids](/e475-polyglycerol-esters-of-fatty-acids) or [propane‑1,2‑diol esters of fatty acids](/e477-propane-1-2-diol-esters-of-fatty-acids)[^1]
-- If a glossy finish is the goal, alternatives include [shellac](/e904-shellac) or [carnauba wax](/e903-carnauba-wax) for glazing, depending on the product
+- Food oils and emulsifiers that suppress foam, such as [lecithins](/e322-lecithins){.additive} or [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive}[^1]
+- Certain fatty‑acid esters like [polyglycerol esters of fatty acids](/e475-polyglycerol-esters-of-fatty-acids){.additive} or [propane‑1,2‑diol esters of fatty acids](/e477-propane-1-2-diol-esters-of-fatty-acids){.additive}[^1]
+- If a glossy finish is the goal, alternatives include [shellac](/e904-shellac){.additive} or [carnauba wax](/e903-carnauba-wax){.additive} for glazing, depending on the product
 
 The “best” replacement depends on the food, temperature, and whether the additive must be declared on the label.
 

@@ -10,7 +10,7 @@ Guar gum (E412) is a plant-based thickener, stabiliser, and emulsifier made from
 - Dietary note: A source of soluble fiber; large amounts may cause gas in some people
 
 ## Why is Guar gum added to food?
-Food makers use guar gum because a tiny amount can thicken water-based foods, stop ingredients from separating, and improve mouthfeel. It helps prevent ice crystals in frozen desserts, reduces syneresis (water weeping) in sauces and yogurts, and stabilises foams and emulsions. It also works well alongside other gums; for example, blending with [xanthan gum](/e415-xanthan-gum) boosts viscosity for creamy textures.[^2]
+Food makers use guar gum because a tiny amount can thicken water-based foods, stop ingredients from separating, and improve mouthfeel. It helps prevent ice crystals in frozen desserts, reduces syneresis (water weeping) in sauces and yogurts, and stabilises foams and emulsions. It also works well alongside other gums; for example, blending with [xanthan gum](/e415-xanthan-gum){.additive} boosts viscosity for creamy textures.[^2]
 
 ## What foods contain Guar gum?
 You can find guar gum in many everyday products. Common examples include:
@@ -25,13 +25,13 @@ On labels in the EU, it may appear as “E412.” Elsewhere it is typically list
 
 ## What can replace Guar gum?
 Depending on the recipe and texture target, formulators may use:
-- [Xanthan gum](/e415-xanthan-gum) for strong thickening and suspension
-- [Locust bean gum](/e410-locust-bean-gum) for creamy body, often paired with other gums
-- [Carrageenan](/e407-carrageenan) in dairy systems for gel-like structure
-- [Acacia gum](/e414-acacia-gum) to stabilise flavors and emulsions
-- [Tara gum](/e417-tara-gum) as a similar galactomannan with different viscosity profile
-- [Pectins](/e440-pectins) for jams, fruit fillings, and some dairy gels
-- [Modified starches](/e14xx-modified-starch) or [cellulose](/e460-cellulose) where heat or shear stability is needed
+- [Xanthan gum](/e415-xanthan-gum){.additive} for strong thickening and suspension
+- [Locust bean gum](/e410-locust-bean-gum){.additive} for creamy body, often paired with other gums
+- [Carrageenan](/e407-carrageenan){.additive} in dairy systems for gel-like structure
+- [Acacia gum](/e414-acacia-gum){.additive} to stabilise flavors and emulsions
+- [Tara gum](/e417-tara-gum){.additive} as a similar galactomannan with different viscosity profile
+- [Pectins](/e440-pectins){.additive} for jams, fruit fillings, and some dairy gels
+- [Modified starches](/e14xx-modified-starch){.additive} or [cellulose](/e460-cellulose){.additive} where heat or shear stability is needed
 
 ## How is Guar gum made?
 Guar gum comes from the seeds of the guar plant (Cyamopsis tetragonoloba). After cleaning, the seeds are dehusked and split to remove the endosperm, which is then milled into a fine powder. Food-grade specifications define purity, contaminants, and functional properties such as viscosity, ensuring a consistent, safe ingredient.[^1]
@@ -54,7 +54,7 @@ If you have a medical condition that requires thickened or restricted-fiber diet
 ## Myths & facts
 - Myth: “Guar gum is synthetic.” Fact: It’s a plant-derived gum milled from guar seeds.[^1]
 - Myth: “Guar gum is the same as gluten.” Fact: It’s gluten-free; guar gum is a carbohydrate fiber, not a protein.
-- Myth: “All gums gel.” Fact: Guar gum thickens strongly but does not form firm gels on its own; blends with gums like [xanthan](/e415-xanthan-gum) can tailor texture.[^2]
+- Myth: “All gums gel.” Fact: Guar gum thickens strongly but does not form firm gels on its own; blends with gums like [xanthan](/e415-xanthan-gum){.additive} can tailor texture.[^2]
 
 ## Guar gum in branded foods
 You’ll typically see guar gum on ingredient lists for:

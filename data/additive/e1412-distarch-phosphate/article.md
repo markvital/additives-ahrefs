@@ -26,8 +26,8 @@ Product labels may list it as “modified starch,” “distarch phosphate,” o
 
 ## What can replace Distarch phosphate?
 Alternatives depend on the recipe and processing needs:
-- Other modified starches such as [oxidised starch](/e1404-oxidised-starch), [acid-treated modified starch](/e1401-acid-treated-modified-starch), [acetylated distarch phosphate](/e1414-acetylated-distarch-phosphate), [hydroxypropyl distarch phosphate](/e1442-hydroxypropyl-distarch-phosphate), or [acetylated distarch adipate](/e1422-acetylated-distarch-adipate)
-- Hydrocolloids and gums like [xanthan gum](/e415-xanthan-gum), [guar gum](/e412-guar-gum), [carrageenan](/e407-carrageenan), or [pectins](/e440-pectins)
+- Other modified starches such as [oxidised starch](/e1404-oxidised-starch){.additive}, [acid-treated modified starch](/e1401-acid-treated-modified-starch){.additive}, [acetylated distarch phosphate](/e1414-acetylated-distarch-phosphate){.additive}, [hydroxypropyl distarch phosphate](/e1442-hydroxypropyl-distarch-phosphate){.additive}, or [acetylated distarch adipate](/e1422-acetylated-distarch-adipate){.additive}
+- Hydrocolloids and gums like [xanthan gum](/e415-xanthan-gum){.additive}, [guar gum](/e412-guar-gum){.additive}, [carrageenan](/e407-carrageenan){.additive}, or [pectins](/e440-pectins){.additive}
 
 Each behaves differently, so food makers choose based on heat, pH, shear, and freeze–thaw needs.
 

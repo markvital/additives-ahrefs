@@ -8,8 +8,8 @@ Sodium metabisulphite (E223) is a preservative and antioxidant used to stop food
 - Where you’ll find it: wine, dried fruits, shrimp, potato products, juices, and baked goods
 - Label names: “sodium metabisulphite,” “sodium metabisulfite,” “E223,” or “sulphites”
 - Diet notes: not suitable for people with sulphite sensitivity or some individuals with asthma
-- Usual alternatives: [ascorbic acid](/e300-ascorbic-acid), [citric acid](/e330-citric-acid), [extracts of rosemary](/e392-extracts-of-rosemary), [sorbic acid](/e200-sorbic-acid), [potassium sorbate](/e202-potassium-sorbate), [sodium benzoate](/e211-sodium-benzoate)
-- Related additives: other sulphites such as [sulphur dioxide](/e220-sulphur-dioxide), [sodium sulphite](/e221-sodium-sulphite), [sodium bisulphite](/e222-sodium-bisulphite), [potassium metabisulphite](/e224-potassium-metabisulphite), [calcium sulphite](/e226-calcium-sulphite), and [calcium bisulphite](/e227-calcium-bisulphite)
+- Usual alternatives: [ascorbic acid](/e300-ascorbic-acid){.additive}, [citric acid](/e330-citric-acid){.additive}, [extracts of rosemary](/e392-extracts-of-rosemary){.additive}, [sorbic acid](/e200-sorbic-acid){.additive}, [potassium sorbate](/e202-potassium-sorbate){.additive}, [sodium benzoate](/e211-sodium-benzoate){.additive}
+- Related additives: other sulphites such as [sulphur dioxide](/e220-sulphur-dioxide){.additive}, [sodium sulphite](/e221-sodium-sulphite){.additive}, [sodium bisulphite](/e222-sodium-bisulphite){.additive}, [potassium metabisulphite](/e224-potassium-metabisulphite){.additive}, [calcium sulphite](/e226-calcium-sulphite){.additive}, and [calcium bisulphite](/e227-calcium-bisulphite){.additive}
 
 ## Why is Sodium metabisulphite added to food?
 Manufacturers add E223 to slow down oxidation (a reaction with oxygen) and to stop enzymes that cause browning. This keeps foods looking fresh and tasting consistent. It can also limit the growth of certain bacteria and yeasts, which helps food last longer.
@@ -18,10 +18,10 @@ Manufacturers add E223 to slow down oxidation (a reaction with oxygen) and to st
 Sodium metabisulphite is authorised for specific uses in many countries. Typical foods include wine and cider, dried fruits, shrimps and prawns, cut or dehydrated potato products, fruit juices and concentrates, and some baked goods and doughs.[^1] In the United States, sulphites at 10 parts per million (ppm) or more must be declared on the label.[^2] In the European Union, “sulphur dioxide and sulphites” must be named when present above 10 mg/kg or 10 mg/L, expressed as SO2.[^3]
 
 ## What can replace Sodium metabisulphite?
-- Browning control in fruits and vegetables: [ascorbic acid](/e300-ascorbic-acid) or [citric acid](/e330-citric-acid)
-- Oxidation control in oils and snacks: [extracts of rosemary](/e392-extracts-of-rosemary)
-- Yeast and mold control in drinks and preserves: [sorbic acid](/e200-sorbic-acid) or [potassium sorbate](/e202-potassium-sorbate)
-- General preservation in acidic foods: [sodium benzoate](/e211-sodium-benzoate)
+- Browning control in fruits and vegetables: [ascorbic acid](/e300-ascorbic-acid){.additive} or [citric acid](/e330-citric-acid){.additive}
+- Oxidation control in oils and snacks: [extracts of rosemary](/e392-extracts-of-rosemary){.additive}
+- Yeast and mold control in drinks and preserves: [sorbic acid](/e200-sorbic-acid){.additive} or [potassium sorbate](/e202-potassium-sorbate){.additive}
+- General preservation in acidic foods: [sodium benzoate](/e211-sodium-benzoate){.additive}
 
 The best substitute depends on the food’s pH (acidity), water content, and desired shelf life.
 

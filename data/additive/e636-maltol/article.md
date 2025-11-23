@@ -14,7 +14,7 @@ Maltol (E636) is a flavor enhancer with a warm, caramel-like aroma that makes sw
 ## Why is Maltol added to food?
 Food makers add maltol to make sweet flavors taste fuller and more “cooked” or caramel-like. It can smooth harsh or metallic edges from some sweeteners and cocoa, and helps small amounts of flavor carry farther in the finished food. This is useful in confections, baked goods, flavored dairy, and ready-to-drink beverages.
 
-Maltol also pairs well with chocolate, vanilla, fruit, and coffee notes. In sugar‑free items, it can help mask off‑tastes from polyols such as [sorbitol](/e420-sorbitol) and from some high‑intensity sweeteners.
+Maltol also pairs well with chocolate, vanilla, fruit, and coffee notes. In sugar‑free items, it can help mask off‑tastes from polyols such as [sorbitol](/e420-sorbitol){.additive} and from some high‑intensity sweeteners.
 
 ## What foods contain Maltol?
 You’re most likely to find maltol in:
@@ -28,10 +28,10 @@ You’re most likely to find maltol in:
 On ingredient lists, look for “maltol,” “E636,” or it may be part of a declared “natural flavor” or “artificial flavor,” depending on the recipe and local labeling rules.
 
 ## What can replace Maltol?
-- [Ethyl maltol](/e637-ethyl-maltol): A close cousin with a stronger, cotton‑candy note; often used when a more intense effect is needed.
+- [Ethyl maltol](/e637-ethyl-maltol){.additive}: A close cousin with a stronger, cotton‑candy note; often used when a more intense effect is needed.
 - Process choices: Roasting, toasting, and controlled browning can build similar caramelized notes in sauces, syrups, and baked goods.
 - Other flavors: Vanilla extracts, cocoa, coffee, maple, and browned sugar profiles can fill a similar role, depending on the product.
-- Color‑flavor pairing: Some products use [caramel](/e150-caramel) for color alongside flavor systems to suggest a richer, cooked taste.
+- Color‑flavor pairing: Some products use [caramel](/e150-caramel){.additive} for color alongside flavor systems to suggest a richer, cooked taste.
 
 ## How is Maltol made?
 Commercial food‑grade maltol is produced by chemical synthesis and must meet strict identity and purity specifications in the European Union (EU), including an assay of not less than 99% on the dried basis and defined limits for impurities.[^2] It is the compound 3‑hydroxy‑2‑methyl‑4H‑pyran‑4‑one.
@@ -55,10 +55,10 @@ Maltol’s main benefit is sensory: it boosts sweetness perception and adds warm
 - Myth: “Maltol is a sweetener.” Fact: Maltol is not a sweetener; it’s a flavoring that enhances the taste of sweetness.
 - Myth: “E‑numbers are unsafe.” Fact: An E‑number means the additive is authorized for use in the EU with defined purity criteria and conditions.[^4][^2]
 - Myth: “Maltol is always artificial.” Fact: Maltol occurs naturally in browned foods; food‑grade maltol used in manufacturing is typically produced synthetically to consistent purity.[^3][^2]
-- Myth: “Maltol adds color.” Fact: Maltol affects flavor; color changes come from other ingredients or processing, such as [caramel](/e150-caramel).
+- Myth: “Maltol adds color.” Fact: Maltol affects flavor; color changes come from other ingredients or processing, such as [caramel](/e150-caramel){.additive}.
 
 ## Maltol in branded foods
-Many branded candies, cookies, ice creams, and flavored drinks use maltol to round out caramel, vanilla, chocolate, or fruit profiles. On the label you may see “maltol,” “E636,” or it may be part of a broader “flavor” declaration. Products that need a stronger cotton‑candy note may use [ethyl maltol](/e637-ethyl-maltol) instead, or in combination, to fine‑tune the taste.
+Many branded candies, cookies, ice creams, and flavored drinks use maltol to round out caramel, vanilla, chocolate, or fruit profiles. On the label you may see “maltol,” “E636,” or it may be part of a broader “flavor” declaration. Products that need a stronger cotton‑candy note may use [ethyl maltol](/e637-ethyl-maltol){.additive} instead, or in combination, to fine‑tune the taste.
 
 ## References
 [^1]: 21 CFR 172.515 — Synthetic flavoring substances and adjuvants — U.S. FDA (eCFR). https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-172/subpart-F/section-172.515

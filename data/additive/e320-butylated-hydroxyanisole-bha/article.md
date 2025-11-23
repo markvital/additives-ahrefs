@@ -26,9 +26,9 @@ In the United States, regulations allow BHA to be added as an antioxidant, with 
 
 ## What can replace Butylated hydroxyanisole (bha)?
 Food makers can choose other antioxidants, depending on the recipe and local rules. Common options include:
-- Other synthetic antioxidants such as [butylated hydroxytoluene](/e321-butylated-hydroxytoluene), [propyl gallate](/e310-propyl-gallate), and [tertiary butylhydroquinone (TBHQ)](/e319-tertiary-butylhydroquinone-tbhq)  
-- “Natural‑type” antioxidants like [tocopherol‑rich extract (vitamin E)](/e306-tocopherol-rich-extract) or [extracts of rosemary](/e392-extracts-of-rosemary)  
-- Synergists that help antioxidants work better, such as [ascorbic acid](/e300-ascorbic-acid), [sodium ascorbate](/e301-sodium-ascorbate), or [citric acid](/e330-citric-acid)
+- Other synthetic antioxidants such as [butylated hydroxytoluene](/e321-butylated-hydroxytoluene){.additive}, [propyl gallate](/e310-propyl-gallate){.additive}, and [tertiary butylhydroquinone (TBHQ)](/e319-tertiary-butylhydroquinone-tbhq){.additive}  
+- “Natural‑type” antioxidants like [tocopherol‑rich extract (vitamin E)](/e306-tocopherol-rich-extract){.additive} or [extracts of rosemary](/e392-extracts-of-rosemary){.additive}  
+- Synergists that help antioxidants work better, such as [ascorbic acid](/e300-ascorbic-acid){.additive}, [sodium ascorbate](/e301-sodium-ascorbate){.additive}, or [citric acid](/e330-citric-acid){.additive}
 
 The best choice depends on flavor impact, cost, labeling goals, and how the food is processed.
 
@@ -44,7 +44,7 @@ Safety reviews look at many studies, including long‑term animal tests. The Int
 For food, the benefit is shelf‑life and quality: BHA helps keep fats stable, protects flavors, and reduces waste from spoilage.[^1] It can also help maintain the taste and aroma of seasonings and fat‑containing mixes during storage.[^1]
 
 ## Who should avoid Butylated hydroxyanisole (bha)?
-- People who prefer to avoid synthetic antioxidants for personal or dietary reasons can choose products that use alternatives like [tocopherol‑rich extract](/e306-tocopherol-rich-extract) or [extracts of rosemary](/e392-extracts-of-rosemary).
+- People who prefer to avoid synthetic antioxidants for personal or dietary reasons can choose products that use alternatives like [tocopherol‑rich extract](/e306-tocopherol-rich-extract){.additive} or [extracts of rosemary](/e392-extracts-of-rosemary){.additive}.
 - Anyone advised by a healthcare professional to limit certain additives should read labels and follow that guidance.
 
 As with any ingredient, if you suspect sensitivity, discuss it with a healthcare provider.
@@ -55,7 +55,7 @@ As with any ingredient, if you suspect sensitivity, discuss it with a healthcare
 - “Any amount of BHA causes cancer.”  
   No. IARC’s Group 2B classification means “possibly carcinogenic,” based largely on high‑dose animal data; it is not a finding of cancer in people at normal dietary exposures.[^4]
 - “Natural antioxidants are always better.”  
-  Not necessarily. “Natural‑type” options like [tocopherol‑rich extract](/e306-tocopherol-rich-extract) or [extracts of rosemary](/e392-extracts-of-rosemary) can work well in some foods, while synthetic options like [BHT](/e321-butylated-hydroxytoluene), [propyl gallate](/e310-propyl-gallate), or [TBHQ](/e319-tertiary-butylhydroquinone-tbhq) may be more effective or neutral in taste in others; performance depends on the food and process.
+  Not necessarily. “Natural‑type” options like [tocopherol‑rich extract](/e306-tocopherol-rich-extract){.additive} or [extracts of rosemary](/e392-extracts-of-rosemary){.additive} can work well in some foods, while synthetic options like [BHT](/e321-butylated-hydroxytoluene){.additive}, [propyl gallate](/e310-propyl-gallate){.additive}, or [TBHQ](/e319-tertiary-butylhydroquinone-tbhq){.additive} may be more effective or neutral in taste in others; performance depends on the food and process.
 
 ## Butylated hydroxyanisole (bha) in branded foods
 On labels, look for “butylated hydroxyanisole,” “BHA,” or “E320,” often near the fats or oils in the ingredient list. Many shelf‑stable items, especially those with added fats, may use it to help keep flavors fresh.

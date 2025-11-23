@@ -17,9 +17,9 @@ You may find E640 in products where a rounder, smoother flavor is desirable, suc
 
 ## What can replace Glycine and its sodium salt?
 Depending on the goal, formulators might choose:
-- Other flavor enhancers for umami or savory depth, such as [monosodium glutamate](/e621-monosodium-glutamate), [disodium inosinate](/e631-disodium-inosinate), or [disodium guanylate](/e627-disodium-guanylate).
-- Acids to brighten or balance taste, like [citric acid](/e330-citric-acid).
-- Sweet polyols to soften bitterness and add body, such as [sorbitol](/e420-sorbitol) or [xylitol](/e967-xylitol).
+- Other flavor enhancers for umami or savory depth, such as [monosodium glutamate](/e621-monosodium-glutamate){.additive}, [disodium inosinate](/e631-disodium-inosinate){.additive}, or [disodium guanylate](/e627-disodium-guanylate){.additive}.
+- Acids to brighten or balance taste, like [citric acid](/e330-citric-acid){.additive}.
+- Sweet polyols to soften bitterness and add body, such as [sorbitol](/e420-sorbitol){.additive} or [xylitol](/e967-xylitol){.additive}.
 The best substitute depends on the specific flavor problem and the food matrix.
 
 ## How is Glycine and its sodium salt made?
@@ -44,7 +44,7 @@ Glycine itself is also a naturally occurring amino acid present in proteins, but
 - Myth: E640 always makes foods taste sweet. Fact: Glycine may taste mildly sweet on its own, but in foods it is primarily used to round off flavors and reduce harsh notes, not to sweeten.
 
 ## Glycine and its sodium salt in branded foods
-On ingredient lists, look for “glycine,” “sodium glycinate,” or “E640.” Because it works behind the scenes to adjust flavor, it may appear alongside other flavorings, spices, and enhancers such as [monosodium glutamate](/e621-monosodium-glutamate) or nucleotides like [disodium inosinate](/e631-disodium-inosinate). If you prefer to avoid it, check the label—manufacturers must list additives by name or E-number in regions that use E-numbers.
+On ingredient lists, look for “glycine,” “sodium glycinate,” or “E640.” Because it works behind the scenes to adjust flavor, it may appear alongside other flavorings, spices, and enhancers such as [monosodium glutamate](/e621-monosodium-glutamate){.additive} or nucleotides like [disodium inosinate](/e631-disodium-inosinate){.additive}. If you prefer to avoid it, check the label—manufacturers must list additives by name or E-number in regions that use E-numbers.
 
 ## References
 [^1]: 21 CFR 184.1318 — Glycine. U.S. eCFR. https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-184/subpart-B/section-184.1318

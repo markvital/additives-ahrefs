@@ -6,7 +6,7 @@ Sodium tartrates (E335) are the sodium salts of L(+)-tartaric acid. They help co
 - Name: Sodium tartrates (E335)
 - What it does: acidity regulator, metal-ion binder (sequestrant), stabiliser
 - Where it’s found: a range of processed foods and drinks that need controlled acidity or protection against discoloration
-- Made by: neutralising [L-tartaric acid](/e334-l-tartaric-acid) with sodium bases
+- Made by: neutralising [L-tartaric acid](/e334-l-tartaric-acid){.additive} with sodium bases
 - Safety: evaluated by EU authorities; only the L(+) form is allowed in food
 
 ## Why is sodium tartrates added to food?
@@ -17,11 +17,11 @@ You may find E335 in products where a stable, mild acidity is important or where
 
 ## What can replace sodium tartrates?
 Possible substitutes depend on the job you need done:
-- For acidity control or buffering: [citric acid](/e330-citric-acid), [sodium citrates](/e331-sodium-citrates), [malic acid](/e296-malic-acid), or [phosphoric acid](/e338-phosphoric-acid).
-- For metal-ion control (sequestration): [sodium polyphosphate](/e452i-sodium-polyphosphate), other [diphosphates](/e450-diphosphates), or calcium disodium EDTA ([E385](/e385-calcium-disodium-ethylenediaminetetraacetate)).[^1]
+- For acidity control or buffering: [citric acid](/e330-citric-acid){.additive}, [sodium citrates](/e331-sodium-citrates){.additive}, [malic acid](/e296-malic-acid){.additive}, or [phosphoric acid](/e338-phosphoric-acid){.additive}.
+- For metal-ion control (sequestration): [sodium polyphosphate](/e452i-sodium-polyphosphate){.additive}, other [diphosphates](/e450-diphosphates){.additive}, or calcium disodium EDTA ([E385](/e385-calcium-disodium-ethylenediaminetetraacetate){.additive}).[^1]
 
 ## How is sodium tartrates made?
-Sodium tartrates are produced by neutralising [L-tartaric acid](/e334-l-tartaric-acid) with sodium hydroxide or sodium carbonate, yielding mono- and/or disodium salts. EU specifications require the L(+)-isomer and set purity criteria, including limits for contaminants and by-products.[^2]
+Sodium tartrates are produced by neutralising [L-tartaric acid](/e334-l-tartaric-acid){.additive} with sodium hydroxide or sodium carbonate, yielding mono- and/or disodium salts. EU specifications require the L(+)-isomer and set purity criteria, including limits for contaminants and by-products.[^2]
 
 ## Is sodium tartrates safe to eat?
 EU experts have reevaluated tartaric acid and its salts (including E335) and concluded there is no safety concern at the currently authorized uses and levels, provided only the L(+)-isomer is used.[^1] The additive also has legally defined specifications and use conditions in EU law.[^2][^3]
@@ -38,7 +38,7 @@ These effects help maintain quality during shelf life and heat processing.[^1]
 If you have specific dietary needs, check product labels for “E335” or “sodium tartrates.”
 
 ## Myths & facts
-- “It’s the same as cream of tartar.” Not quite. Cream of tartar is potassium bitartrate, which is [E336(i)](/e336i-monopotassium-tartrate). Sodium tartrates are different salts of the same acid.
+- “It’s the same as cream of tartar.” Not quite. Cream of tartar is potassium bitartrate, which is [E336(i)](/e336i-monopotassium-tartrate){.additive}. Sodium tartrates are different salts of the same acid.
 - “It’s only a souring agent.” Sodium tartrates can add tang, but they are mainly used to buffer pH and to bind metals that cause quality loss.[^1]
 - “All tartrates are allowed.” EU rules permit only the L(+)-tartaric acid salts for food use, with clear purity specs.[^2]
 

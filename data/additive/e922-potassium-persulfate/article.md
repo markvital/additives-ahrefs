@@ -17,10 +17,10 @@ If present where allowed, you would most likely see it in flour or premixes for 
 
 ## What can replace Potassium persulfate?
 Bakers and millers commonly choose other dough improvers or bleaching agents that are authorized in their markets, such as:
-- [ascorbic acid](/e300-ascorbic-acid) (dough strengthening)
-- [L-cysteine](/e920-l-cysteine) (dough softening)
-- Enzymes like [alpha-amylase](/e1100-alpha-amylase) (dough handling and volume)
-- In some jurisdictions, other oxidizers or maturing agents may be used instead of persulfates; always check local regulations. Related chemicals such as [ammonium persulfate](/e923-ammonium-persulfate) have also been used historically, but authorization varies by country.
+- [ascorbic acid](/e300-ascorbic-acid){.additive} (dough strengthening)
+- [L-cysteine](/e920-l-cysteine){.additive} (dough softening)
+- Enzymes like [alpha-amylase](/e1100-alpha-amylase){.additive} (dough handling and volume)
+- In some jurisdictions, other oxidizers or maturing agents may be used instead of persulfates; always check local regulations. Related chemicals such as [ammonium persulfate](/e923-ammonium-persulfate){.additive} have also been used historically, but authorization varies by country.
 
 ## How is Potassium persulfate made?
 Commercially, potassium persulfate is typically produced by electrolytic oxidation of potassium bisulfate or sulfate in acidic solution, followed by crystallization and drying to yield K2S2O8.[^4] The resulting salt is a stable source of the peroxydisulfate ion, which provides strong oxidizing power.[^4]

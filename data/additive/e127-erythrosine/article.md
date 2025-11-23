@@ -18,12 +18,12 @@ In the United States, FD&C Red No. 3 is approved for coloring foods generally, s
 
 ## What can replace Erythrosine?
 Depending on the recipe, manufacturers may switch to:
-- [Allura Red AC](/e129-allura-red) (E129), a widely used synthetic red
-- [Ponceau 4R](/e124-ponceau-4r) (E124), a synthetic red used outside the U.S.
-- [Cochineal](/e120-cochineal) (E120), a natural carmine red
-- [Beetroot red](/e162-beetroot-red) (E162), a natural red from beets
-- [Anthocyanins](/e163-anthocyanins) (E163), natural reds/purples from fruits
-- [Paprika extract](/e160c-paprika-extract) (E160c), a natural orange-red
+- [Allura Red AC](/e129-allura-red){.additive} (E129), a widely used synthetic red
+- [Ponceau 4R](/e124-ponceau-4r){.additive} (E124), a synthetic red used outside the U.S.
+- [Cochineal](/e120-cochineal){.additive} (E120), a natural carmine red
+- [Beetroot red](/e162-beetroot-red){.additive} (E162), a natural red from beets
+- [Anthocyanins](/e163-anthocyanins){.additive} (E163), natural reds/purples from fruits
+- [Paprika extract](/e160c-paprika-extract){.additive} (E160c), a natural orange-red
 
 The best substitute depends on the target shade, light/heat stability, pH, and whether a natural or vegan source is required.
 

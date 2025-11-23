@@ -11,7 +11,7 @@ Pentasodium triphosphate (E451i), also called sodium tripolyphosphate or STPP, i
 - Regulatory status: permitted in the EU and U.S. within set limits
 
 ## Why is Pentasodium triphosphate added to food?
-Food makers use STPP to bind metal ions (sequestration), control pH, and keep proteins from toughening. This helps meat and poultry hold water, stay tender, and keep a uniform bite.[^1] Chemically, it is the sodium salt of triphosphoric acid with the formula Na5P3O10, part of the broader family of phosphate and [polyphosphate](/e452-polyphosphates) additives.[^2]
+Food makers use STPP to bind metal ions (sequestration), control pH, and keep proteins from toughening. This helps meat and poultry hold water, stay tender, and keep a uniform bite.[^1] Chemically, it is the sodium salt of triphosphoric acid with the formula Na5P3O10, part of the broader family of phosphate and [polyphosphate](/e452-polyphosphates){.additive} additives.[^2]
 
 In meat and poultry processing, STPP is valued for improving water-holding capacity during tumbling, injection, or brining, which supports juiciness after cooking.[^3] It also stabilises emulsions and textures in mixed products, reducing separation and syneresis (water weeping).
 
@@ -25,14 +25,14 @@ Always check the ingredient list for “pentasodium triphosphate,” “sodium t
 
 ## What can replace Pentasodium triphosphate?
 Depending on the job you need done, these can be alternatives:
-- For buffering or mineral action: [sodium phosphates](/e339-sodium-phosphates), [diphosphates](/e450-diphosphates), or [potassium phosphates](/e340-potassium-phosphates) to reduce sodium
-- For moisture or texture: [carrageenan](/e407-carrageenan), [xanthan gum](/e415-xanthan-gum), or [guar gum](/e412-guar-gum)
-- For pH adjustment: [sodium bicarbonate](/e500ii-sodium-bicarbonate), [sodium citrates](/e331-sodium-citrates), [glucono delta-lactone](/e575-glucono-delta-lactone), or [lactic acid](/e270-lactic-acid)
+- For buffering or mineral action: [sodium phosphates](/e339-sodium-phosphates){.additive}, [diphosphates](/e450-diphosphates){.additive}, or [potassium phosphates](/e340-potassium-phosphates){.additive} to reduce sodium
+- For moisture or texture: [carrageenan](/e407-carrageenan){.additive}, [xanthan gum](/e415-xanthan-gum){.additive}, or [guar gum](/e412-guar-gum){.additive}
+- For pH adjustment: [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive}, [sodium citrates](/e331-sodium-citrates){.additive}, [glucono delta-lactone](/e575-glucono-delta-lactone){.additive}, or [lactic acid](/e270-lactic-acid){.additive}
 
 The best swap depends on the food and the exact function (water binding, emulsifying, or pH control).
 
 ## How is Pentasodium triphosphate made?
-STPP is produced by neutralising [phosphoric acid](/e338-phosphoric-acid) with sodium sources such as [sodium carbonate](/e500i-sodium-carbonate) or sodium hydroxide, then heating (condensing) the salts to link phosphate units and form sodium tripolyphosphate.[^1] The result is usually a white, granular or powder product that dissolves in water.[^2]
+STPP is produced by neutralising [phosphoric acid](/e338-phosphoric-acid){.additive} with sodium sources such as [sodium carbonate](/e500i-sodium-carbonate){.additive} or sodium hydroxide, then heating (condensing) the salts to link phosphate units and form sodium tripolyphosphate.[^1] The result is usually a white, granular or powder product that dissolves in water.[^2]
 
 ## Is Pentasodium triphosphate safe to eat?
 Regulators have set clear rules for phosphate additives. In the EU, EFSA established a group acceptable daily intake (ADI) of 40 mg/kg body weight per day, expressed as phosphorus, for phosphates including E451.[^1] In the U.S., USDA/FSIS allows the use of phosphates in meat and poultry with limits typically not exceeding 0.5% in the finished product (calculated as P2O5).[^3] The U.S. FDA also lists sodium tripolyphosphate on its Food Additive Status List, indicating permitted uses under regulations and good manufacturing practice.[^4]
@@ -52,7 +52,7 @@ If you have a medical condition, ask your healthcare provider or dietitian for t
 
 ## Myths & facts
 - Myth: “STPP is only a detergent chemical.” Fact: It is also a regulated food additive used for specific, well-defined functions.
-- Myth: “All phosphates are the same.” Fact: There are many phosphate additives (mono-, di-, tri-, and [polyphosphates](/e452-polyphosphates)), each with different strengths in foods.
+- Myth: “All phosphates are the same.” Fact: There are many phosphate additives (mono-, di-, tri-, and [polyphosphates](/e452-polyphosphates){.additive}), each with different strengths in foods.
 - Myth: “It’s unregulated.” Fact: Both the EU and U.S. regulate phosphates, set use limits, and review safety.[^1][^3]
 - Myth: “It always means added water.” Fact: STPP can help foods hold their natural moisture, but labeling rules still apply and vary by product type.
 

@@ -23,11 +23,11 @@ You’ll most often find saffron in:
 
 ## What can replace saffron?
 There is no perfect flavor match, but several natural colors can achieve a similar yellow tone:
-- Curcumin from turmeric for a bright yellow hue: [curcumin](/e100-curcumin)
-- Orange-yellow carotenoids: [beta-carotene](/e160a-carotene)
-- Plant-based yellows and oranges such as [annatto](/e160b-annatto) or [paprika extract](/e160c-paprika-extract)
-- Pale yellow options like [riboflavin](/e101-riboflavin)
-- For brown-golden tones, caramel color: [caramel](/e150-caramel)
+- Curcumin from turmeric for a bright yellow hue: [curcumin](/e100-curcumin){.additive}
+- Orange-yellow carotenoids: [beta-carotene](/e160a-carotene){.additive}
+- Plant-based yellows and oranges such as [annatto](/e160b-annatto){.additive} or [paprika extract](/e160c-paprika-extract){.additive}
+- Pale yellow options like [riboflavin](/e101-riboflavin){.additive}
+- For brown-golden tones, caramel color: [caramel](/e150-caramel){.additive}
 
 These alternatives color well, but none provide saffron’s distinctive aroma.
 

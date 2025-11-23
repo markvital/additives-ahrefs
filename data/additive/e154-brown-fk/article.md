@@ -19,9 +19,9 @@ You are most likely to see Brown FK mentioned in historical references to smoked
 
 ## What can replace Brown FK?
 Food makers can achieve brown shades with several alternatives:
-- Caramel colors: [plain caramel](/e150a-plain-caramel), [caustic sulphite caramel](/e150b-caustic-sulphite-caramel), [ammonia caramel](/e150c-ammonia-caramel), and [sulphite ammonia caramel](/e150d-sulphite-ammonia-caramel)
-- Natural orange-brown tones in some recipes: [paprika extract](/e160c-paprika-extract) or [annatto](/e160b-annatto) when suitable for the food
-- Very dark tones: [vegetable carbon](/e153-vegetable-carbon) where allowed
+- Caramel colors: [plain caramel](/e150a-plain-caramel){.additive}, [caustic sulphite caramel](/e150b-caustic-sulphite-caramel){.additive}, [ammonia caramel](/e150c-ammonia-caramel){.additive}, and [sulphite ammonia caramel](/e150d-sulphite-ammonia-caramel){.additive}
+- Natural orange-brown tones in some recipes: [paprika extract](/e160c-paprika-extract){.additive} or [annatto](/e160b-annatto){.additive} when suitable for the food
+- Very dark tones: [vegetable carbon](/e153-vegetable-carbon){.additive} where allowed
 
 The best substitute depends on flavor neutrality, labeling goals (natural vs. artificial), and heat/light stability.
 

@@ -16,13 +16,13 @@ In the European Union, authorized uses and maximum levels for E1210 are set in t
 
 ## What can replace Carbomer?
 Several hydrocolloids can provide similar thickening or stabilizing effects, depending on the recipe:
-- [xanthan gum](/e415-xanthan-gum) for robust, pourable viscosity
-- [gellan gum](/e418-gellan-gum) for firm, heat-stable gels
-- [agar](/e406-agar) for brittle, high‑set gels
-- [guar gum](/e412-guar-gum) for cold‑process thickening
-- [carrageenan](/e407-carrageenan) for dairy-friendly gelling
-- [pectins](/e440-pectins) for fruit-based gels and jams
-- [sodium carboxy‑methyl cellulose](/e466-sodium-carboxy-methyl-cellulose) for stabilizing and body
+- [xanthan gum](/e415-xanthan-gum){.additive} for robust, pourable viscosity
+- [gellan gum](/e418-gellan-gum){.additive} for firm, heat-stable gels
+- [agar](/e406-agar){.additive} for brittle, high‑set gels
+- [guar gum](/e412-guar-gum){.additive} for cold‑process thickening
+- [carrageenan](/e407-carrageenan){.additive} for dairy-friendly gelling
+- [pectins](/e440-pectins){.additive} for fruit-based gels and jams
+- [sodium carboxy‑methyl cellulose](/e466-sodium-carboxy-methyl-cellulose){.additive} for stabilizing and body
 
 Formulators often blend hydrocolloids to fine‑tune mouthfeel and stability.
 

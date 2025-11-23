@@ -9,7 +9,7 @@ This section gives a quick overview of what natamycin is and how it’s used.
 - Where it’s used: Mostly on the surface of cheeses; in the EU also on dried, cured sausages.
 - How it’s applied: Sprayed, dipped, or dusted as a surface treatment rather than mixed deep into the food.
 - Label names: Natamycin, pimaricin, or E235.
-- Common alternatives: [sorbic acid](/e200-sorbic-acid), [potassium sorbate](/e202-potassium-sorbate), [nisin](/e234-nisin), [sodium benzoate](/e211-sodium-benzoate).
+- Common alternatives: [sorbic acid](/e200-sorbic-acid){.additive}, [potassium sorbate](/e202-potassium-sorbate){.additive}, [nisin](/e234-nisin){.additive}, [sodium benzoate](/e211-sodium-benzoate){.additive}.
 
 ## Why is Natamycin added to food?
 Manufacturers use natamycin to prevent spoilage from molds and yeasts, especially on foods with moist surfaces where fungi grow easily. It works by interacting with ergosterol, a key component of fungal cell membranes, which stops fungi from functioning and multiplying. Unlike many preservatives, its activity is antifungal—not antibacterial—so it doesn’t target helpful bacteria used in cheese making.[^4]
@@ -19,10 +19,10 @@ In the United States, natamycin is approved for use as an antimycotic (anti-fung
 
 ## What can replace Natamycin?
 Depending on the food and the type of spoilage to control, common substitutes include:
-- [Sorbic acid](/e200-sorbic-acid) or [potassium sorbate](/e202-potassium-sorbate) for broad anti-mold activity
-- [Nisin](/e234-nisin) for controlling certain bacteria in dairy
-- [Sodium benzoate](/e211-sodium-benzoate) in acidic foods and beverages
-- [Calcium propionate](/e282-calcium-propionate) in baked goods
+- [Sorbic acid](/e200-sorbic-acid){.additive} or [potassium sorbate](/e202-potassium-sorbate){.additive} for broad anti-mold activity
+- [Nisin](/e234-nisin){.additive} for controlling certain bacteria in dairy
+- [Sodium benzoate](/e211-sodium-benzoate){.additive} in acidic foods and beverages
+- [Calcium propionate](/e282-calcium-propionate){.additive} in baked goods
 
 The best choice depends on pH, moisture, and whether the target is mold/yeast or bacteria.
 

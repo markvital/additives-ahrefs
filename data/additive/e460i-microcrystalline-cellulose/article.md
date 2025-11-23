@@ -24,11 +24,11 @@ In the European Union (EU), E460(i) is an authorized food additive with defined 
 
 ## What can replace Microcrystalline cellulose?
 Depending on the job it does in a recipe, formulators may swap MCC with:
-- Other hydrocolloids and gums, such as [xanthan gum](/e415-xanthan-gum), [gellan gum](/e418-gellan-gum), or [guar gum](/e412-guar-gum)
-- Fiber-like thickeners, such as [pectins](/e440-pectins)
-- Starches, including some types of [modified starch](/e14xx-modified-starch)
-- Anti-caking agents like [silicon dioxide](/e551-silicon-dioxide)
-- Other cellulose derivatives when a different texture is needed, such as [sodium carboxymethyl cellulose](/e466-sodium-carboxy-methyl-cellulose)
+- Other hydrocolloids and gums, such as [xanthan gum](/e415-xanthan-gum){.additive}, [gellan gum](/e418-gellan-gum){.additive}, or [guar gum](/e412-guar-gum){.additive}
+- Fiber-like thickeners, such as [pectins](/e440-pectins){.additive}
+- Starches, including some types of [modified starch](/e14xx-modified-starch){.additive}
+- Anti-caking agents like [silicon dioxide](/e551-silicon-dioxide){.additive}
+- Other cellulose derivatives when a different texture is needed, such as [sodium carboxymethyl cellulose](/e466-sodium-carboxy-methyl-cellulose){.additive}
 
 The best substitute depends on the food, water content, pH (acidity), and processing conditions.
 

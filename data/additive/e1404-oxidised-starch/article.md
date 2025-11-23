@@ -24,10 +24,10 @@ On ingredient lists it may appear as “oxidised starch,” “modified starch,�
 
 ## What can replace Oxidised starch?
 Alternatives depend on the job:
-- Other modified starches when similar processing strength is needed: [distarch phosphate](/e1412-distarch-phosphate), [acetylated distarch adipate](/e1422-acetylated-distarch-adipate), or [acetylated oxidised starch](/e1451-acetylated-oxidised-starch)
-- Hydrocolloids for strong thickening at low use levels: [xanthan gum](/e415-xanthan-gum), [guar gum](/e412-guar-gum), [gellan gum](/e418-gellan-gum), [carrageenan](/e407-carrageenan), or [pectins](/e440-pectins)
+- Other modified starches when similar processing strength is needed: [distarch phosphate](/e1412-distarch-phosphate){.additive}, [acetylated distarch adipate](/e1422-acetylated-distarch-adipate){.additive}, or [acetylated oxidised starch](/e1451-acetylated-oxidised-starch){.additive}
+- Hydrocolloids for strong thickening at low use levels: [xanthan gum](/e415-xanthan-gum){.additive}, [guar gum](/e412-guar-gum){.additive}, [gellan gum](/e418-gellan-gum){.additive}, [carrageenan](/e407-carrageenan){.additive}, or [pectins](/e440-pectins){.additive}
 - Traditional staples for home cooking: corn starch, potato starch, tapioca starch, or wheat flour
-- For clean-label goals: unmodified starches or blends of [modified starches](/e14xx-modified-starch) with gums
+- For clean-label goals: unmodified starches or blends of [modified starches](/e14xx-modified-starch){.additive} with gums
 
 ## How is Oxidised starch made?
 Manufacturers suspend edible starch (commonly from corn, potato, tapioca, or wheat) in water and treat it with a small, controlled amount of an oxidizing agent, typically sodium hypochlorite. The slurry is then neutralized, washed, and dried to a fine powder that meets food-additive purity rules.[^1] In the EU, the specification for E1404 likewise defines it as starch oxidized with permitted agents and sets identity and purity criteria for the final product.[^2]
@@ -50,7 +50,7 @@ If you have a medical condition or are on a therapeutic diet, ask a healthcare p
 - Myth: “Oxidised starch leaves bleach in my food.”
   Fact: Sodium hypochlorite can be used to oxidize the starch, but food laws require washing and purity limits so residues are not present at unsafe levels.[^2]
 - Myth: “Oxidised starch is the same as MSG.”
-  Fact: It isn’t. MSG is [monosodium glutamate](/e621-monosodium-glutamate), an amino acid salt—completely different from starch.
+  Fact: It isn’t. MSG is [monosodium glutamate](/e621-monosodium-glutamate){.additive}, an amino acid salt—completely different from starch.
 - Myth: “Modified starch means GMO.”
   Fact: “Modified” refers to changing the starch by processing (chemical or physical), not genetic engineering.
 - Myth: “It always contains gluten.”

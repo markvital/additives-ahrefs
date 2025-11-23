@@ -17,11 +17,11 @@ You’ll most often see it in bakery mixes (baking powder, self‑raising flour)
 
 ## What can replace Dimagnesium diphosphate?
 Depending on the recipe or process, common substitutes include:
-- Other diphosphates such as [disodium diphosphate](/e450i-disodium-diphosphate) (often called SAPP)
-- Acidulants for leavening systems like [monocalcium phosphate](/e341i-monocalcium-phosphate) or [citric acid](/e330-citric-acid)
-- Leavening partners such as [sodium bicarbonate](/e500ii-sodium-bicarbonate)
-- Emulsifying salts in processed cheese, for example [sodium aluminium phosphate](/e541-sodium-aluminium-phosphate) or broader [polyphosphates](/e452-polyphosphates)
-- Slow‑acting acidifiers like [glucono-delta-lactone](/e575-glucono-delta-lactone)
+- Other diphosphates such as [disodium diphosphate](/e450i-disodium-diphosphate){.additive} (often called SAPP)
+- Acidulants for leavening systems like [monocalcium phosphate](/e341i-monocalcium-phosphate){.additive} or [citric acid](/e330-citric-acid){.additive}
+- Leavening partners such as [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive}
+- Emulsifying salts in processed cheese, for example [sodium aluminium phosphate](/e541-sodium-aluminium-phosphate){.additive} or broader [polyphosphates](/e452-polyphosphates){.additive}
+- Slow‑acting acidifiers like [glucono-delta-lactone](/e575-glucono-delta-lactone){.additive}
 
 The best replacement depends on the target rise speed, flavor, sodium limits, and the specific food matrix.
 

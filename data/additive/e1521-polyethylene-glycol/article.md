@@ -21,9 +21,9 @@ In the EU, its permitted uses and maximum levels are specified by regulation, an
 
 ## What can replace Polyethylene glycol?
 Depending on the job, food makers may choose other approved additives instead of PEG:
-- For glossy coatings: [carnauba wax](/e903-carnauba-wax) or [shellac](/e904-shellac)
-- For edible films and capsules: [pullulan](/e1204-pullulan) or [polyvinyl alcohol](/e1203-polyvinyl-alcohol)
-- For carrying and dissolving flavors: [propylene glycol](/e1520-propylene-glycol), [glycerol](/e422-glycerol), or [sorbitol](/e420-sorbitol)
+- For glossy coatings: [carnauba wax](/e903-carnauba-wax){.additive} or [shellac](/e904-shellac){.additive}
+- For edible films and capsules: [pullulan](/e1204-pullulan){.additive} or [polyvinyl alcohol](/e1203-polyvinyl-alcohol){.additive}
+- For carrying and dissolving flavors: [propylene glycol](/e1520-propylene-glycol){.additive}, [glycerol](/e422-glycerol){.additive}, or [sorbitol](/e420-sorbitol){.additive}
 The best substitute depends on the food, the needed texture or shine, and label preferences.
 
 ## How is Polyethylene glycol made?

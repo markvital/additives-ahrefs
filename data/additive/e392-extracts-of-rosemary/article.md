@@ -19,10 +19,10 @@ You’ll most often find rosemary extract in foods with fats and oils, where pro
 
 ## What can replace Extracts of rosemary?
 Several antioxidants can play a similar role, depending on the food and label goals:
-- Mixed tocopherols (vitamin E), such as [tocopherol-rich extract](/e306-tocopherol-rich-extract) or [alpha-tocopherol](/e307-alpha-tocopherol)
-- [Ascorbic acid](/e300-ascorbic-acid) and synergists like [citric acid](/e330-citric-acid)
-- Gallates such as [propyl gallate](/e310-propyl-gallate)
-- Synthetic antioxidants like [tertiary butylhydroquinone (TBHQ)](/e319-tertiary-butylhydroquinone-tbhq) or [butylated hydroxytoluene (BHT)](/e321-butylated-hydroxytoluene)
+- Mixed tocopherols (vitamin E), such as [tocopherol-rich extract](/e306-tocopherol-rich-extract){.additive} or [alpha-tocopherol](/e307-alpha-tocopherol){.additive}
+- [Ascorbic acid](/e300-ascorbic-acid){.additive} and synergists like [citric acid](/e330-citric-acid){.additive}
+- Gallates such as [propyl gallate](/e310-propyl-gallate){.additive}
+- Synthetic antioxidants like [tertiary butylhydroquinone (TBHQ)](/e319-tertiary-butylhydroquinone-tbhq){.additive} or [butylated hydroxytoluene (BHT)](/e321-butylated-hydroxytoluene){.additive}
 
 Formulators choose among these based on flavor neutrality, cost, consumer preference for “natural” options, and regulatory limits.
 

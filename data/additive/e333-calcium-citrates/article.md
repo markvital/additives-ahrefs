@@ -8,8 +8,8 @@ A quick guide to what this additive is and does.
 - Names you might see: E333, calcium citrate, calcium citrates
 - What it does: controls acidity, stabilises products, binds trace metals, adds calcium
 - Where it’s used: beverages (including juices), plant milks, jams and preserves, confectionery, and some processed foods
-- Forms: [monocalcium citrate](/e333i-monocalcium-citrate), [dicalcium citrate](/e333ii-dicalcium-citrate), and [tricalcium citrate](/e333iii-tricalcium-citrate)
-- Related additives: [citric acid](/e330-citric-acid), [sodium citrates](/e331-sodium-citrates), [potassium citrates](/e332-potassium-citrates)
+- Forms: [monocalcium citrate](/e333i-monocalcium-citrate){.additive}, [dicalcium citrate](/e333ii-dicalcium-citrate){.additive}, and [tricalcium citrate](/e333iii-tricalcium-citrate){.additive}
+- Related additives: [citric acid](/e330-citric-acid){.additive}, [sodium citrates](/e331-sodium-citrates){.additive}, [potassium citrates](/e332-potassium-citrates){.additive}
 
 ## Why is Calcium citrates added to food?
 Manufacturers use E333 to keep acidity steady and to prevent off-flavors that can be triggered by metal ions in water or ingredients. In technical terms, it works as an acidity regulator and a sequestrant, helping foods taste consistent and stay stable over shelf life.[^4]
@@ -26,9 +26,9 @@ In the European Union, calcium citrates are authorized across a wide range of fo
 
 ## What can replace Calcium citrates?
 Depending on the job it’s doing, common stand-ins include:
-- For acidity control or buffering: [citric acid](/e330-citric-acid), [sodium citrates](/e331-sodium-citrates), or [potassium citrates](/e332-potassium-citrates)
-- For calcium fortification: [calcium phosphates](/e341-calcium-phosphates) or [calcium chloride](/e509-calcium-chloride) when taste and solubility fit
-- For binding metals (sequestration) or stabilizing: certain phosphate systems such as [sodium phosphates](/e339-sodium-phosphates) or [potassium phosphates](/e340-potassium-phosphates), chosen to match taste and label needs
+- For acidity control or buffering: [citric acid](/e330-citric-acid){.additive}, [sodium citrates](/e331-sodium-citrates){.additive}, or [potassium citrates](/e332-potassium-citrates){.additive}
+- For calcium fortification: [calcium phosphates](/e341-calcium-phosphates){.additive} or [calcium chloride](/e509-calcium-chloride){.additive} when taste and solubility fit
+- For binding metals (sequestration) or stabilizing: certain phosphate systems such as [sodium phosphates](/e339-sodium-phosphates){.additive} or [potassium phosphates](/e340-potassium-phosphates){.additive}, chosen to match taste and label needs
 
 ## How is Calcium citrates made?
 Food-grade calcium citrates are produced by neutralizing citric acid with a calcium source such as calcium carbonate or calcium hydroxide, then filtering and drying to meet purity criteria.[^2] The underlying citric acid is typically made by fermenting sugars with safe, food-grade microorganisms, a well-established industrial process.[^5]

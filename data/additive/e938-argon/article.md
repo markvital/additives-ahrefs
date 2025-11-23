@@ -8,7 +8,7 @@ Argon (E938) is a colorless, odorless noble gas used in food packaging to protec
 - Where it’s found: Foods packed “in a protective atmosphere,” such as coffee, nuts, snacks, and some ready-to-eat items; also used to blanket tanks in beverage production.
 - How it’s made: Separated from air, typically by cooling and distilling liquefied air in large “air separation” units.
 - Safety: Authorized in the EU as a packaging gas and considered GRAS (Generally Recognized as Safe) in the U.S. when used as intended.
-- Alternatives: Other protective gases like [nitrogen](/e941-nitrogen) and [carbon dioxide](/e290-carbon-dioxide).
+- Alternatives: Other protective gases like [nitrogen](/e941-nitrogen){.additive} and [carbon dioxide](/e290-carbon-dioxide){.additive}.
 
 ## Why is Argon added to food?
 Argon is added to create a protective atmosphere inside packages. By pushing out oxygen, argon helps slow oxidation, color changes, and off-flavors. It is colorless, odorless, and chemically inert, so it does not react with food components or add a taste of its own.[^5] In the European Union, argon is authorized as a food additive for use as a packaging gas (E938).[^1]
@@ -25,10 +25,10 @@ You’re most likely to encounter argon in:
 Labeling varies by region and product type. In the EU, you may see “E938,” “argon,” or simply a note such as “packaged in a protective atmosphere.”
 
 ## What can replace Argon?
-- [Nitrogen](/e941-nitrogen): Inert, widely used to displace oxygen in snacks and coffee.
-- [Carbon dioxide](/e290-carbon-dioxide): Helps inhibit the growth of many spoilage microbes, commonly blended with nitrogen for MAP.
-- [Nitrous oxide](/e942-nitrous-oxide): Used mainly as a propellant in some whipped products, not typically for MAP.
-- [Helium](/e939-helium): Inert but rarely used for food packaging due to cost and properties.
+- [Nitrogen](/e941-nitrogen){.additive}: Inert, widely used to displace oxygen in snacks and coffee.
+- [Carbon dioxide](/e290-carbon-dioxide){.additive}: Helps inhibit the growth of many spoilage microbes, commonly blended with nitrogen for MAP.
+- [Nitrous oxide](/e942-nitrous-oxide){.additive}: Used mainly as a propellant in some whipped products, not typically for MAP.
+- [Helium](/e939-helium){.additive}: Inert but rarely used for food packaging due to cost and properties.
 - Vacuum packaging: Removes air without adding gas; useful for some foods but not all.
 
 The best choice depends on the product’s needs (texture, aroma, microbial stability) and desired shelf life.

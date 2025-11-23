@@ -24,8 +24,8 @@ Ingredient lists usually show it as “neotame”; in the EU it may appear as �
 
 ## What can replace Neotame?
 Depending on the recipe and label goals, manufacturers might swap neotame for:
-- Other high‑intensity sweeteners: [aspartame](/e951-aspartame), [sucralose](/e955-sucralose), [acesulfame K](/e950-acesulfame-k), [saccharin](/e954-saccharin-and-its-salts), [steviol glycosides](/e960-steviol-glycosides), or [advantame](/e969-advantame)
-- Sugar alcohols (polyols) that add bulk and some sweetness: [erythritol](/e968-erythritol), [xylitol](/e967-xylitol), [sorbitol](/e420-sorbitol), [isomalt](/e953-isomalt), or [maltitol](/e965-maltitol)
+- Other high‑intensity sweeteners: [aspartame](/e951-aspartame){.additive}, [sucralose](/e955-sucralose){.additive}, [acesulfame K](/e950-acesulfame-k){.additive}, [saccharin](/e954-saccharin-and-its-salts){.additive}, [steviol glycosides](/e960-steviol-glycosides){.additive}, or [advantame](/e969-advantame){.additive}
+- Sugar alcohols (polyols) that add bulk and some sweetness: [erythritol](/e968-erythritol){.additive}, [xylitol](/e967-xylitol){.additive}, [sorbitol](/e420-sorbitol){.additive}, [isomalt](/e953-isomalt){.additive}, or [maltitol](/e965-maltitol){.additive}
 
 Each option has its own taste, stability, and labeling profile, so blends are common.
 

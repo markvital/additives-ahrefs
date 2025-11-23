@@ -23,8 +23,8 @@ On ingredient lists, it may appear as “modified starch,” “modified food st
 
 ## What can replace Monostarch phosphate?
 Other texture agents can be used, depending on the recipe and processing:
-- Gums: [xanthan gum](/e415-xanthan-gum), [guar gum](/e412-guar-gum), [carrageenan](/e407-carrageenan), [pectins](/e440-pectins)
-- Other modified starches: [oxidised starch](/e1404-oxidised-starch), [distarch phosphate](/e1412-distarch-phosphate), [hydroxypropyl distarch phosphate](/e1442-hydroxypropyl-distarch-phosphate), [acetylated starch](/e1420-acetylated-starch), [acetylated distarch adipate](/e1422-acetylated-distarch-adipate)
+- Gums: [xanthan gum](/e415-xanthan-gum){.additive}, [guar gum](/e412-guar-gum){.additive}, [carrageenan](/e407-carrageenan){.additive}, [pectins](/e440-pectins){.additive}
+- Other modified starches: [oxidised starch](/e1404-oxidised-starch){.additive}, [distarch phosphate](/e1412-distarch-phosphate){.additive}, [hydroxypropyl distarch phosphate](/e1442-hydroxypropyl-distarch-phosphate){.additive}, [acetylated starch](/e1420-acetylated-starch){.additive}, [acetylated distarch adipate](/e1422-acetylated-distarch-adipate){.additive}
 
 Choice depends on heat, acidity, freezing/thawing, desired mouthfeel, and whether the product is dairy or non‑dairy.
 

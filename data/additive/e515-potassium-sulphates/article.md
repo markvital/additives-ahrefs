@@ -17,9 +17,9 @@ You will not see E515 often on supermarket labels. When used, it is typically in
 
 ## What can replace Potassium sulphates?
 Depending on the recipe, food makers might choose:
-- [citric acid](/e330-citric-acid) or its salts such as [potassium citrates](/e332-potassium-citrates) and [sodium citrates](/e331-sodium-citrates) for broad pH control
-- [phosphoric acid](/e338-phosphoric-acid) for tangy, cola-style acidity
-- Other sulphate salts like [sodium sulphates](/e514-sodium-sulphates) or [calcium sulphate](/e516-calcium-sulphate) when a different mineral balance or processing effect is desired
+- [citric acid](/e330-citric-acid){.additive} or its salts such as [potassium citrates](/e332-potassium-citrates){.additive} and [sodium citrates](/e331-sodium-citrates){.additive} for broad pH control
+- [phosphoric acid](/e338-phosphoric-acid){.additive} for tangy, cola-style acidity
+- Other sulphate salts like [sodium sulphates](/e514-sodium-sulphates){.additive} or [calcium sulphate](/e516-calcium-sulphate){.additive} when a different mineral balance or processing effect is desired
 
 The choice depends on taste, cost, labeling goals (for example, lower sodium), and how the additive behaves in that food.
 
@@ -38,11 +38,11 @@ Potassium is an essential mineral that supports normal nerve and muscle function
 
 ## Myths & facts
 - Myth: “All sulphate additives are preservatives.” Fact: Potassium sulphates are used mainly to regulate acidity, not to preserve food.
-- Myth: “E515 is the same as sulphites.” Fact: Sulphates (like E515) and sulphites (like [sulphur dioxide](/e220-sulphur-dioxide)) are different chemical groups and behave differently in food.
+- Myth: “E515 is the same as sulphites.” Fact: Sulphates (like E515) and sulphites (like [sulphur dioxide](/e220-sulphur-dioxide){.additive}) are different chemical groups and behave differently in food.
 - Myth: “E-numbers mean artificial chemicals.” Fact: E-numbers simply indicate that the additive passed safety reviews in the European Union; many are minerals or plant-derived.
 
 ## Potassium sulphates in branded foods
-E515 is uncommon on retail labels. When present, it may appear as “potassium sulfate,” “potassium hydrogen sulfate,” or “E515.” It can show up in some drinks and processed foods where a small pH adjustment or mineral balance is needed. Similar roles are often filled by other additives, which is why you will more often see [citric acid](/e330-citric-acid) or [phosphoric acid](/e338-phosphoric-acid) instead.
+E515 is uncommon on retail labels. When present, it may appear as “potassium sulfate,” “potassium hydrogen sulfate,” or “E515.” It can show up in some drinks and processed foods where a small pH adjustment or mineral balance is needed. Similar roles are often filled by other additives, which is why you will more often see [citric acid](/e330-citric-acid){.additive} or [phosphoric acid](/e338-phosphoric-acid){.additive} instead.
 
 ## References
 [^1]: General Standard for Food Additives (GSFA) – INS 515 Potassium sulfates. Codex Alimentarius (FAO/WHO). https://www.fao.org/gsfaonline/additives/details.html?id=194

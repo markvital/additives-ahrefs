@@ -18,15 +18,15 @@ In the United States, the Food and Drug Administration (FDA) permits BHT to be a
 ## What foods contain Butylated hydroxytoluene?
 You’re most likely to find BHT in foods that contain fats or oils, because that’s where it can best slow oxidation. Typical categories include certain shelf-stable snacks and other packaged foods made with fat or oil; always check the ingredient list for “butylated hydroxytoluene,” “BHT,” or “E321.”[^1] In the European Union (EU), BHT is authorized as food additive E321 and may be used only in specific foods and at levels laid down in law.[^2]
 
-BHT may also be used alongside other antioxidants, such as [butylated hydroxyanisole (BHA)](/e320-butylated-hydroxyanisole-bha) or [propyl gallate](/e310-propyl-gallate), depending on the recipe and regulations.
+BHT may also be used alongside other antioxidants, such as [butylated hydroxyanisole (BHA)](/e320-butylated-hydroxyanisole-bha){.additive} or [propyl gallate](/e310-propyl-gallate){.additive}, depending on the recipe and regulations.
 
 ## What can replace Butylated hydroxytoluene?
 Food makers that want to avoid BHT can choose other antioxidants, sometimes alone or in blends:
-- Natural-source options like [tocopherol-rich extract](/e306-tocopherol-rich-extract) or [alpha-tocopherol](/e307-alpha-tocopherol)
-- Ascorbic-acid-based options such as [ascorbyl palmitate](/e304i-ascorbyl-palmitate)
-- Plant extracts like [extracts of rosemary](/e392-extracts-of-rosemary)
-- Synergists that support antioxidants, for example [citric acid](/e330-citric-acid)
-- Other approved synthetic antioxidants, e.g., [butylated hydroxyanisole (BHA)](/e320-butylated-hydroxyanisole-bha) or [propyl gallate](/e310-propyl-gallate)
+- Natural-source options like [tocopherol-rich extract](/e306-tocopherol-rich-extract){.additive} or [alpha-tocopherol](/e307-alpha-tocopherol){.additive}
+- Ascorbic-acid-based options such as [ascorbyl palmitate](/e304i-ascorbyl-palmitate){.additive}
+- Plant extracts like [extracts of rosemary](/e392-extracts-of-rosemary){.additive}
+- Synergists that support antioxidants, for example [citric acid](/e330-citric-acid){.additive}
+- Other approved synthetic antioxidants, e.g., [butylated hydroxyanisole (BHA)](/e320-butylated-hydroxyanisole-bha){.additive} or [propyl gallate](/e310-propyl-gallate){.additive}
 
 Which replacement works best depends on the food’s fat type, flavor profile, processing, and storage.
 
@@ -56,7 +56,7 @@ If you are concerned, look for products labeled “no artificial preservatives�
 - Myth: “BHT and BHA are the same thing.” Fact: They are different antioxidants; BHT is E321 and BHA is E320, and each has its own rules and specifications.[^2]
 
 ## Butylated hydroxytoluene in branded foods
-On ingredient lists, look for “butylated hydroxytoluene,” “BHT,” or “E321,” often followed by a short note such as “to preserve freshness.” It most often appears in products that contain fats or oils. If you want to avoid it, scan labels or choose products that use alternatives like [tocopherols](/e306-tocopherol-rich-extract) or [extracts of rosemary](/e392-extracts-of-rosemary).
+On ingredient lists, look for “butylated hydroxytoluene,” “BHT,” or “E321,” often followed by a short note such as “to preserve freshness.” It most often appears in products that contain fats or oils. If you want to avoid it, scan labels or choose products that use alternatives like [tocopherols](/e306-tocopherol-rich-extract){.additive} or [extracts of rosemary](/e392-extracts-of-rosemary){.additive}.
 
 ## References
 [^1]: 21 CFR 172.115 — Butylated hydroxytoluene. U.S. Food and Drug Administration (eCFR). https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-172/subpart-B/section-172.115

@@ -26,9 +26,9 @@ Labels may list it as “magnesium stearate,” “magnesium salts of fatty acid
 
 ## What can replace Magnesium salts of fatty acids?
 Alternatives depend on the job you want done:
-- Anti-caking and flow: [silicon dioxide](/e551-silicon-dioxide), [calcium silicate](/e552-calcium-silicate), [tricalcium phosphate](/e341iii-tricalcium-phosphate), [cellulose](/e460-cellulose)
-- Emulsifying and stabilising: [lecithins](/e322-lecithins), [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids), [xanthan gum](/e415-xanthan-gum)
-- Release/lubrication: [carnauba wax](/e903-carnauba-wax) in certain coatings; related stearates such as [sodium, potassium and calcium salts of fatty acids](/e470a-sodium-potassium-and-calcium-salts-of-fatty-acids)
+- Anti-caking and flow: [silicon dioxide](/e551-silicon-dioxide){.additive}, [calcium silicate](/e552-calcium-silicate){.additive}, [tricalcium phosphate](/e341iii-tricalcium-phosphate){.additive}, [cellulose](/e460-cellulose){.additive}
+- Emulsifying and stabilising: [lecithins](/e322-lecithins){.additive}, [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive}, [xanthan gum](/e415-xanthan-gum){.additive}
+- Release/lubrication: [carnauba wax](/e903-carnauba-wax){.additive} in certain coatings; related stearates such as [sodium, potassium and calcium salts of fatty acids](/e470a-sodium-potassium-and-calcium-salts-of-fatty-acids){.additive}
 
 ## How is Magnesium salts of fatty acids made?
 Producers start with edible fatty acids—most often long-chain types like stearic or palmitic acid—derived from food-grade fats and oils. They react these acids with a magnesium source (for example, magnesium oxide or magnesium hydroxide) to form the corresponding magnesium salts. Finished additives must meet established purity criteria to be sold for use in food.[^3]

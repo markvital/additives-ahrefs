@@ -12,14 +12,14 @@ Magnesium diglutamate (E625) is a flavor enhancer from the glutamate family, the
 ## Why is Magnesium diglutamate added to food?
 Food makers use magnesium diglutamate to boost savory, meaty, and brothy notes, a taste known as “umami.” In the EU it is authorized as a flavor enhancer under the code E625, one of the glutamate additives grouped as E620–E625.[^2]
 
-You may see it used alone or alongside other umami boosters, such as [monosodium glutamate](/e621-monosodium-glutamate), [disodium inosinate](/e631-disodium-inosinate), or [disodium guanylate](/e627-disodium-guanylate), to achieve a balanced savory profile.
+You may see it used alone or alongside other umami boosters, such as [monosodium glutamate](/e621-monosodium-glutamate){.additive}, [disodium inosinate](/e631-disodium-inosinate){.additive}, or [disodium guanylate](/e627-disodium-guanylate){.additive}, to achieve a balanced savory profile.
 
 ## What foods contain Magnesium diglutamate?
 Magnesium diglutamate can appear in the same kinds of products that use other glutamate flavor enhancers: dry soup mixes, canned or instant soups, sauces and gravies, savory snacks, seasoning blends, and some prepared meats.[^3] Glutamate itself also occurs naturally in foods like tomatoes and aged cheeses, which is why those foods taste savory even without added flavor enhancers.[^3]
 
 ## What can replace Magnesium diglutamate?
-- Other glutamates: [glutamic acid](/e620-glutamic-acid), [monosodium glutamate](/e621-monosodium-glutamate), [monopotassium glutamate](/e622-monopotassium-glutamate), or [calcium diglutamate](/e623-calcium-diglutamate)
-- Nucleotide enhancers: [disodium guanylate](/e627-disodium-guanylate) or [disodium inosinate](/e631-disodium-inosinate)
+- Other glutamates: [glutamic acid](/e620-glutamic-acid){.additive}, [monosodium glutamate](/e621-monosodium-glutamate){.additive}, [monopotassium glutamate](/e622-monopotassium-glutamate){.additive}, or [calcium diglutamate](/e623-calcium-diglutamate){.additive}
+- Nucleotide enhancers: [disodium guanylate](/e627-disodium-guanylate){.additive} or [disodium inosinate](/e631-disodium-inosinate){.additive}
 - Ingredient-based umami: yeast extract, mushroom concentrates, fermented soy sauces, tomato concentrates, or slow-cooked stocks
 
 ## How is Magnesium diglutamate made?

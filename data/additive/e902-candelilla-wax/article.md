@@ -20,8 +20,8 @@ On labels, look for “candelilla wax” or “E902.”
 
 ## What can replace Candelilla wax?
 Alternatives depend on the product and dietary needs:
-- Other waxes: [carnauba wax](/e903-carnauba-wax) (plant-based), [white and yellow beeswax](/e901-white-and-yellow-beeswax) (animal-derived), [shellac](/e904-shellac) (insect-derived), or [rice bran wax](/e908-rice-bran-wax).
-- Non-wax glazes in some cases, such as [acacia gum](/e414-acacia-gum), though they offer different shine and barrier properties.
+- Other waxes: [carnauba wax](/e903-carnauba-wax){.additive} (plant-based), [white and yellow beeswax](/e901-white-and-yellow-beeswax){.additive} (animal-derived), [shellac](/e904-shellac){.additive} (insect-derived), or [rice bran wax](/e908-rice-bran-wax){.additive}.
+- Non-wax glazes in some cases, such as [acacia gum](/e414-acacia-gum){.additive}, though they offer different shine and barrier properties.
 
 ## How is Candelilla wax made?
 Candelilla wax is obtained from the leaves and stems of the candelilla shrub (a Euphorbia species). The crude wax is extracted from the plant material with hot water and then refined to remove impurities, yielding a hard, brittle, pale-yellow to brown wax composed mainly of long-chain hydrocarbons and esters.^[ ^1 ] The refined material is standardized to meet composition and purity specifications set by regulators.^[ ^1 ]
@@ -37,15 +37,15 @@ Candelilla wax is authorised for use in the European Union, with detailed identi
 ## Who should avoid Candelilla wax?
 Most people don’t need to avoid candelilla wax. However:
 - If you are following guidance to avoid edible coatings (for medical or personal reasons), check labels for “candelilla wax” or “E902.”
-- If you avoid animal-derived products, note that candelilla wax is plant-based, unlike [shellac](/e904-shellac) and [beeswax](/e901-white-and-yellow-beeswax).
+- If you avoid animal-derived products, note that candelilla wax is plant-based, unlike [shellac](/e904-shellac){.additive} and [beeswax](/e901-white-and-yellow-beeswax){.additive}.
 
 ## Myths & facts
 - Myth: “Candelilla wax is plastic.” Fact: It’s a natural plant wax composed mainly of long-chain hydrocarbons and esters.^[ ^1 ]
-- Myth: “All food glazes are animal-derived.” Fact: Candelilla and [carnauba wax](/e903-carnauba-wax) are plant-based.
+- Myth: “All food glazes are animal-derived.” Fact: Candelilla and [carnauba wax](/e903-carnauba-wax){.additive} are plant-based.
 - Myth: “It’s only for candy.” Fact: It’s also used in chewing gum and some coated snacks, and permitted as gum base in the U.S.^[ ^3 ]
 
 ## Candelilla wax in branded foods
-You’re most likely to find E902 on ingredient lists for hard-coated candies, chocolate dragées, and chewing gum. Label wording varies by market; in the EU it may appear as “E902,” while in many other regions it’s listed as “candelilla wax.” If you prefer plant-based coatings, E902 and [carnauba wax](/e903-carnauba-wax) fit that bill, while [shellac](/e904-shellac) and [beeswax](/e901-white-and-yellow-beeswax) do not.
+You’re most likely to find E902 on ingredient lists for hard-coated candies, chocolate dragées, and chewing gum. Label wording varies by market; in the EU it may appear as “E902,” while in many other regions it’s listed as “candelilla wax.” If you prefer plant-based coatings, E902 and [carnauba wax](/e903-carnauba-wax){.additive} fit that bill, while [shellac](/e904-shellac){.additive} and [beeswax](/e901-white-and-yellow-beeswax){.additive} do not.
 
 ## References
 [^1]: Commission Regulation (EU) No 231/2012 — EU specifications for food additives. https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231

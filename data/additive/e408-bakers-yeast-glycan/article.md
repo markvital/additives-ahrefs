@@ -26,8 +26,8 @@ These uses and categories are described in U.S. Generally Recognized as Safe (GR
 
 ## What can replace Bakers yeast glycan?
 Depending on the job it does in a recipe, common stand‑ins include:
-- Texture and thickening: [xanthan gum](/e415-xanthan-gum), [carrageenan](/e407-carrageenan), [pectins](/e440-pectins), or [cellulose](/e460-cellulose)
-- Emulsifying and mouthfeel: [lecithins](/e322-lecithins), certain plant fibers, or starches
+- Texture and thickening: [xanthan gum](/e415-xanthan-gum){.additive}, [carrageenan](/e407-carrageenan){.additive}, [pectins](/e440-pectins){.additive}, or [cellulose](/e460-cellulose){.additive}
+- Emulsifying and mouthfeel: [lecithins](/e322-lecithins){.additive}, certain plant fibers, or starches
 - Fiber contribution: oat beta‑glucan, inulin, or other dietary fibers
 
 The best substitute depends on the food, the processing conditions, and label goals.

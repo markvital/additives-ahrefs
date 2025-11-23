@@ -16,9 +16,9 @@ Thiabendazole helps prevent mold and rot after harvest, which keeps fruit from s
 You’ll most often find it on the peels of some fruits, such as citrus and bananas, where it is applied to control post‑harvest diseases.^[EU Pesticides Database: information on active substance uses and maximum residue levels — European Commission. https://food.ec.europa.eu/safety/plant-protection-products/eu-pesticides-database_en] It is intended for the surface, not the edible interior, and it is not commonly used in processed foods.
 
 ## What can replace Thiabendazole?
-- Other post‑harvest surface preservatives historically used on fruit include [biphenyl](/e230-biphenyl) and [orthophenyl phenol](/e231-orthophenyl-phenol), depending on local rules and crop needs.
+- Other post‑harvest surface preservatives historically used on fruit include [biphenyl](/e230-biphenyl){.additive} and [orthophenyl phenol](/e231-orthophenyl-phenol){.additive}, depending on local rules and crop needs.
 - Non‑chemical options include better sorting, rapid cooling, controlled‑atmosphere storage, and improved packaging.
-- In processed foods (not fresh fruit), different preservative systems are used, such as [sorbic acid](/e200-sorbic-acid) or [potassium sorbate](/e202-potassium-sorbate), when appropriate for the product style and regulations.
+- In processed foods (not fresh fruit), different preservative systems are used, such as [sorbic acid](/e200-sorbic-acid){.additive} or [potassium sorbate](/e202-potassium-sorbate){.additive}, when appropriate for the product style and regulations.
 
 ## How is Thiabendazole made?
 Thiabendazole is a synthetic benzimidazole compound produced by multi‑step organic synthesis, not extracted from natural sources.^[Compound Summary: Thiabendazole — National Institutes of Health, PubChem. https://pubchem.ncbi.nlm.nih.gov/compound/Thiabendazole] Manufacturers make it to high purity for agricultural or pharmaceutical applications.

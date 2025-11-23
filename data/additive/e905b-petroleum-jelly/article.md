@@ -13,7 +13,7 @@ Petroleum jelly (E905B) is a highly refined blend of hydrocarbons used in tiny a
 ## Why is petroleum jelly added to food?
 Petroleum jelly is added to give products a smooth, glossy surface and to keep pieces from sticking together. It forms a thin, inert film that slows moisture pickup, helps coatings set, and protects delicate finishes during packing and transport. In some recipes it also serves as a processing release agent, helping food come out of molds or equipment cleanly.[^1]
 
-Producers may use it alone or blend it with other glazing agents such as [carnauba wax](/e903-carnauba-wax), [candelilla wax](/e902-candelilla-wax), [beeswax](/e901-white-and-yellow-beeswax), [shellac](/e904-shellac), [mineral oil](/e905a-mineral-oil), or [petroleum wax](/e905c-petroleum-wax), depending on the desired hardness, gloss, and melt point.
+Producers may use it alone or blend it with other glazing agents such as [carnauba wax](/e903-carnauba-wax){.additive}, [candelilla wax](/e902-candelilla-wax){.additive}, [beeswax](/e901-white-and-yellow-beeswax){.additive}, [shellac](/e904-shellac){.additive}, [mineral oil](/e905a-mineral-oil){.additive}, or [petroleum wax](/e905c-petroleum-wax){.additive}, depending on the desired hardness, gloss, and melt point.
 
 ## What foods contain petroleum jelly?
 Exact uses depend on local rules and brand choices, but you may find E905B in:
@@ -27,10 +27,10 @@ In the EU, it is authorized as a glazing/release agent under the food additive f
 
 ## What can replace petroleum jelly?
 Depending on the product and label goals, common alternatives include:
-- Plant waxes: [carnauba wax](/e903-carnauba-wax) and [candelilla wax](/e902-candelilla-wax) for hard, high‑gloss finishes
-- Animal‑derived waxes: [beeswax](/e901-white-and-yellow-beeswax) (adds a softer sheen)
-- Resin coatings: [shellac](/e904-shellac) for high gloss and good moisture resistance
-- Other petroleum‑derived agents: [mineral oil](/e905a-mineral-oil) or [petroleum wax](/e905c-petroleum-wax)
+- Plant waxes: [carnauba wax](/e903-carnauba-wax){.additive} and [candelilla wax](/e902-candelilla-wax){.additive} for hard, high‑gloss finishes
+- Animal‑derived waxes: [beeswax](/e901-white-and-yellow-beeswax){.additive} (adds a softer sheen)
+- Resin coatings: [shellac](/e904-shellac){.additive} for high gloss and good moisture resistance
+- Other petroleum‑derived agents: [mineral oil](/e905a-mineral-oil){.additive} or [petroleum wax](/e905c-petroleum-wax){.additive}
 Choice depends on melting point, hardness, gloss, vegan status, cost, and regulatory allowances.
 
 ## How is petroleum jelly made?

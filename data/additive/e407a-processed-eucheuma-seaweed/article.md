@@ -30,11 +30,11 @@ In the European Union (EU), carrageenan (E407) and processed eucheuma seaweed (E
 
 ## What can replace Processed eucheuma seaweed?
 Depending on the recipe and texture target, common substitutes include:
-- [Agar](/e406-agar) for firm, brittle gels (often used in jellies and confectionery)
-- [Gellan gum](/e418-gellan-gum) for clear gels and good flavor release
-- [Xanthan gum](/e415-xanthan-gum) to stabilize and thicken without gelling (great for dressings)
-- [Guar gum](/e412-guar-gum) for cold‑process thickening
-- [Locust bean gum](/e410-locust-bean-gum) to add body and improve mouthfeel
+- [Agar](/e406-agar){.additive} for firm, brittle gels (often used in jellies and confectionery)
+- [Gellan gum](/e418-gellan-gum){.additive} for clear gels and good flavor release
+- [Xanthan gum](/e415-xanthan-gum){.additive} to stabilize and thicken without gelling (great for dressings)
+- [Guar gum](/e412-guar-gum){.additive} for cold‑process thickening
+- [Locust bean gum](/e410-locust-bean-gum){.additive} to add body and improve mouthfeel
 Choice depends on acidity, salts, temperature, desired gel strength, and whether the product will be frozen or heated.
 
 ## How is Processed eucheuma seaweed made?

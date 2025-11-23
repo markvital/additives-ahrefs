@@ -7,7 +7,7 @@ Hydroxypropyl starch (E1440) is a “modified” starch made by attaching small 
 - What it does: thickens, stabilises, and helps emulsify mixtures that might otherwise separate  
 - Where it’s found: soups, sauces, gravies, dairy desserts, pie fillings, dressings, and some ready meals  
 - On labels: “hydroxypropyl starch,” “modified starch,” or “E1440” (EU)  
-- Related additives: [oxidised starch](/e1404-oxidised-starch), [acetylated starch](/e1420-acetylated-starch), [hydroxypropyl distarch phosphate](/e1442-hydroxypropyl-distarch-phosphate)  
+- Related additives: [oxidised starch](/e1404-oxidised-starch){.additive}, [acetylated starch](/e1420-acetylated-starch){.additive}, [hydroxypropyl distarch phosphate](/e1442-hydroxypropyl-distarch-phosphate){.additive}  
 
 ## Why is Hydroxypropyl starch added to food?
 Manufacturers use hydroxypropyl starch to make foods thicker, smoother, and more stable during heating, cooling, and freezing. It reduces “syneresis,” which is when water leaks out of gels and fillings, and helps sauces resist breaking during cooking or storage.[^2]
@@ -24,8 +24,8 @@ Ingredient lists may show “hydroxypropyl starch,” “modified starch,” or 
 
 ## What can replace Hydroxypropyl starch?
 Alternatives depend on the recipe and process:
-- Other modified starches with similar roles, such as [acetylated starch](/e1420-acetylated-starch), [distarch phosphate](/e1412-distarch-phosphate), or [hydroxypropyl distarch phosphate](/e1442-hydroxypropyl-distarch-phosphate)
-- Traditional hydrocolloids like [xanthan gum](/e415-xanthan-gum), [guar gum](/e412-guar-gum), [locust bean gum](/e410-locust-bean-gum), [carrageenan](/e407-carrageenan), or [pectins](/e440-pectins)
+- Other modified starches with similar roles, such as [acetylated starch](/e1420-acetylated-starch){.additive}, [distarch phosphate](/e1412-distarch-phosphate){.additive}, or [hydroxypropyl distarch phosphate](/e1442-hydroxypropyl-distarch-phosphate){.additive}
+- Traditional hydrocolloids like [xanthan gum](/e415-xanthan-gum){.additive}, [guar gum](/e412-guar-gum){.additive}, [locust bean gum](/e410-locust-bean-gum){.additive}, [carrageenan](/e407-carrageenan){.additive}, or [pectins](/e440-pectins){.additive}
 
 Choice of substitute depends on desired texture, clarity, freeze–thaw stability, and processing conditions.
 

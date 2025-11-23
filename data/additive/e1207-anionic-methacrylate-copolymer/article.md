@@ -19,11 +19,11 @@ In the EU, E1207 is authorised for use on food supplements in solid form (such a
 
 ## What can replace Anionic methacrylate copolymer?
 Other approved film-formers or glazing agents can provide similar effects, depending on the release profile needed:
-- [neutral methacrylate copolymer](/e1206-neutral-methacrylate-copolymer) or [basic methacrylate copolymer](/e1205-basic-methacrylate-copolymer) for different pH‑triggered release
-- [shellac](/e904-shellac) for moisture and shine, sometimes used for enteric-style protection
-- [pullulan](/e1204-pullulan) for clear, oxygen‑barrier coatings
-- [polyvinylpyrrolidone](/e1201-polyvinylpyrrolidone) or [polyvinylpolypyrrolidone](/e1202-polyvinylpolypyrrolidone) as binding/film-forming aids
-- [hydroxypropyl methyl cellulose](/e464-hydroxypropyl-methyl-cellulose) or [ethyl cellulose](/e462-ethyl-cellulose) for controlled release coatings
+- [neutral methacrylate copolymer](/e1206-neutral-methacrylate-copolymer){.additive} or [basic methacrylate copolymer](/e1205-basic-methacrylate-copolymer){.additive} for different pH‑triggered release
+- [shellac](/e904-shellac){.additive} for moisture and shine, sometimes used for enteric-style protection
+- [pullulan](/e1204-pullulan){.additive} for clear, oxygen‑barrier coatings
+- [polyvinylpyrrolidone](/e1201-polyvinylpyrrolidone){.additive} or [polyvinylpolypyrrolidone](/e1202-polyvinylpolypyrrolidone){.additive} as binding/film-forming aids
+- [hydroxypropyl methyl cellulose](/e464-hydroxypropyl-methyl-cellulose){.additive} or [ethyl cellulose](/e462-ethyl-cellulose){.additive} for controlled release coatings
 
 ## How is Anionic methacrylate copolymer made?
 E1207 is produced by polymerising methacrylic acid with methyl methacrylate to form a large, stable copolymer. EU specifications set identity criteria and strict limits for residual monomers and other impurities to ensure consistent quality for food use.[^1]
@@ -46,7 +46,7 @@ Within the EU system, a food additive is placed on the Union list only after a s
 - “It’s plastic, so it must be unsafe.” Fact: Authorised additives like E1207 must meet strict purity specs and may only be used for defined purposes.
 - “It blocks nutrient absorption.” Fact: Its role is timing, not blocking—properly designed coatings dissolve where intended so nutrients can be absorbed.
 - “It’s the same as microplastics.” Fact: E1207 is a functional, pH‑soluble coating that is formulated to dissolve during digestion, not persist.
-- “All methacrylate coatings are identical.” Fact: There are anionic, neutral, and basic variants used to fine‑tune where a tablet dissolves, such as [neutral](/e1206-neutral-methacrylate-copolymer) and [basic](/e1205-basic-methacrylate-copolymer) types.
+- “All methacrylate coatings are identical.” Fact: There are anionic, neutral, and basic variants used to fine‑tune where a tablet dissolves, such as [neutral](/e1206-neutral-methacrylate-copolymer){.additive} and [basic](/e1205-basic-methacrylate-copolymer){.additive} types.
 
 ## Anionic methacrylate copolymer in branded foods
 You’re most likely to find E1207 on branded food supplements rather than everyday foods. Check the ingredient list for “E1207” or “anionic methacrylate copolymer,” as EU labelling rules require additives to be declared by name or E‑number.[^3]

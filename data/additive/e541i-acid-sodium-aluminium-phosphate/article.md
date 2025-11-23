@@ -4,11 +4,11 @@ Acid sodium aluminium phosphate (E541i) is a food additive used mainly as a leav
 
 ## At a glance
 - What it is: a mixture of sodium, aluminium, and phosphate salts; the “acid” grade is the version used for leavening in baked goods.
-- What it does: acts as a leavening acid with [sodium bicarbonate](/e500ii-sodium-bicarbonate) in baking; also functions as an emulsifying salt in some processed cheeses.
+- What it does: acts as a leavening acid with [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive} in baking; also functions as an emulsifying salt in some processed cheeses.
 - Regulatory status: In the U.S., the FDA affirms the acidic form as GRAS (generally recognized as safe) when used in line with good manufacturing practice.[^1] In the EU, E541 includes two forms (acidic and basic) with set identity and purity specifications in Commission Regulation (EU) No 231/2012.[^2]
 
 ## Why is Acid sodium aluminium phosphate added to food?
-Food makers add E541i to control when and how fast carbon dioxide (CO2) is released during baking. When mixed with [sodium bicarbonate](/e500ii-sodium-bicarbonate), it creates gas that lifts batters and doughs for a light, even crumb. In processed cheese, sodium aluminium phosphate can help disperse proteins and fat, improving melt and sliceability.
+Food makers add E541i to control when and how fast carbon dioxide (CO2) is released during baking. When mixed with [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive}, it creates gas that lifts batters and doughs for a light, even crumb. In processed cheese, sodium aluminium phosphate can help disperse proteins and fat, improving melt and sliceability.
 
 ## What foods contain Acid sodium aluminium phosphate?
 You’ll most often see it in:
@@ -20,8 +20,8 @@ These uses reflect its roles as a leavening acid in bakery items and an emulsify
 
 ## What can replace Acid sodium aluminium phosphate?
 Alternatives depend on the recipe and goal:
-- For baking (aluminum-free options): [monocalcium phosphate](/e341i-monocalcium-phosphate), [sodium acid pyrophosphate](/e450i-disodium-diphosphate), or [cream of tartar](/e336i-monopotassium-tartrate), used with [sodium bicarbonate](/e500ii-sodium-bicarbonate).
-- For processed cheese: other approved emulsifying salts such as [sodium phosphates](/e339-sodium-phosphates) or [sodium citrates](/e331-sodium-citrates), depending on the standard and desired texture.
+- For baking (aluminum-free options): [monocalcium phosphate](/e341i-monocalcium-phosphate){.additive}, [sodium acid pyrophosphate](/e450i-disodium-diphosphate){.additive}, or [cream of tartar](/e336i-monopotassium-tartrate){.additive}, used with [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive}.
+- For processed cheese: other approved emulsifying salts such as [sodium phosphates](/e339-sodium-phosphates){.additive} or [sodium citrates](/e331-sodium-citrates){.additive}, depending on the standard and desired texture.
 
 ## How is Acid sodium aluminium phosphate made?
 E541i is manufactured by reacting approved sources of sodium, aluminium, and phosphate to form a defined double salt. It is then dried and milled to a controlled particle size so it performs consistently in food. In the EU, identity and purity criteria (including which forms are permitted) are set in Commission Regulation (EU) No 231/2012.[^2]
@@ -44,7 +44,7 @@ These are functional, food-technology benefits rather than nutritional ones.
 ## Myths & facts
 - Myth: “If it’s an E-number, it’s unsafe.” Fact: An E-number means the additive is assessed and authorized in the EU with defined specifications and conditions of use.[^2]
 - Myth: “Eating it floods the body with aluminum.” Fact: Only a small amount of aluminum from food is absorbed through the gut; most is excreted.[^4]
-- Myth: “All phosphate additives are the same.” Fact: There are many phosphate salts (for example, [phosphoric acid](/e338-phosphoric-acid), [sodium phosphates](/e339-sodium-phosphates), [disodium diphosphate](/e450i-disodium-diphosphate)); they perform different roles and have different specifications.
+- Myth: “All phosphate additives are the same.” Fact: There are many phosphate salts (for example, [phosphoric acid](/e338-phosphoric-acid){.additive}, [sodium phosphates](/e339-sodium-phosphates){.additive}, [disodium diphosphate](/e450i-disodium-diphosphate){.additive}); they perform different roles and have different specifications.
 
 ## Acid sodium aluminium phosphate in branded foods
 You’re most likely to find it on ingredient lists for:

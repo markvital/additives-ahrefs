@@ -13,9 +13,9 @@ None. There are no authorized uses in the EU or the U.S., so E929 should not app
 
 ## What can replace acetone peroxide?
 Food makers use safer, approved dough conditioners and bleaching/treatment agents, such as:
-- [benzoyl peroxide](/e928-benzole-peroxide) for flour bleaching (where permitted)[^3]
-- [L‑cysteine](/e920-l-cysteine) as a reducing agent in doughs
-- [ascorbic acid](/e300-ascorbic-acid) as an oxidizing dough improver
+- [benzoyl peroxide](/e928-benzole-peroxide){.additive} for flour bleaching (where permitted)[^3]
+- [L‑cysteine](/e920-l-cysteine){.additive} as a reducing agent in doughs
+- [ascorbic acid](/e300-ascorbic-acid){.additive} as an oxidizing dough improver
 - In some contexts, other authorized processing aids may be used instead of peroxides, depending on local rules. Always consult current regulations.
 
 ## How is acetone peroxide made?
@@ -34,12 +34,12 @@ Everyone. Consumers will not encounter it in foods due to regulatory prohibition
 - Myth: “If it has an E‑number, it’s allowed in the EU.”  
   Fact: Some historical or legacy E‑numbers are not on the current EU Union list. E929 (acetone peroxide) is not authorized for use in foods.[^2]
 - Myth: “E929 is the same as the flour bleach used by millers.”  
-  Fact: Millers may use approved agents like [benzoyl peroxide](/e928-benzole-peroxide); acetone peroxide is not permitted in U.S. flour rules.[^3]
+  Fact: Millers may use approved agents like [benzoyl peroxide](/e928-benzole-peroxide){.additive}; acetone peroxide is not permitted in U.S. flour rules.[^3]
 - Myth: “You might find E929 on labels in specialty products.”  
   Fact: In both the EU and the U.S., you should not see acetone peroxide on ingredient lists because it has no authorized food use.[^2][^3]
 
 ## acetone peroxide in branded foods
-You should not find E929 on branded food labels. If you see “peroxide” in the context of flour treatment, it will be an authorized agent such as [benzoyl peroxide](/e928-benzole-peroxide), not acetone peroxide.[^3]
+You should not find E929 on branded food labels. If you see “peroxide” in the context of flour treatment, it will be an authorized agent such as [benzoyl peroxide](/e928-benzole-peroxide){.additive}, not acetone peroxide.[^3]
 
 ## References
 [^1]: Triacetone triperoxide (TATP) — PubChem, National Institutes of Health. https://pubchem.ncbi.nlm.nih.gov/compound/Triacetone-triperoxide

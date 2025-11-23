@@ -4,7 +4,7 @@ Sorbitan monopalmitate (E495) is an emulsifier that helps fat and water mix. It 
 ## At a glance
 - Role: emulsifier that helps oil and water stay mixed
 - Typical foods: bakery fats and mixes, confectionery, coffee creamers, whipped toppings, and some margarines
-- Often used together with other emulsifiers such as [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids)
+- Often used together with other emulsifiers such as [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive}
 - Label names: “Sorbitan monopalmitate,” “E495,” sometimes “Span 40”
 - Made from sorbitol derivatives (sorbitan) and palmitic acid
 - Authorized in the European Union (EU) with official purity specifications and use rules
@@ -28,11 +28,11 @@ Not every product in these categories uses E495; it is one option among many emu
 
 ## What can replace Sorbitan monopalmitate?
 Possible alternatives depend on the recipe and the type of emulsion:
-- Other sorbitan esters: [sorbitan monostearate](/e491-sorbitan-monostearate), [sorbitan tristearate](/e492-sorbitan-tristearate), [sorbitan monolaurate](/e493-sorbitan-monolaurate), [sorbitan monooleate](/e494-sorbitan-monooleate)
-- Ethoxylated sorbitan esters (polysorbates), for example [polyoxyethylene sorbitan monostearate](/e435-polyoxyethylene-sorbitan-monostearate)
-- [Mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids)
-- Structuring or stabilizing gums such as [xanthan gum](/e415-xanthan-gum)
-- Phospholipids like [lecithins](/e322-lecithins)
+- Other sorbitan esters: [sorbitan monostearate](/e491-sorbitan-monostearate){.additive}, [sorbitan tristearate](/e492-sorbitan-tristearate){.additive}, [sorbitan monolaurate](/e493-sorbitan-monolaurate){.additive}, [sorbitan monooleate](/e494-sorbitan-monooleate){.additive}
+- Ethoxylated sorbitan esters (polysorbates), for example [polyoxyethylene sorbitan monostearate](/e435-polyoxyethylene-sorbitan-monostearate){.additive}
+- [Mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive}
+- Structuring or stabilizing gums such as [xanthan gum](/e415-xanthan-gum){.additive}
+- Phospholipids like [lecithins](/e322-lecithins){.additive}
 
 The best substitute depends on whether the product is oil‑continuous (like a spread) or water‑continuous (like a dressing), and on heat, pH, and processing steps.
 
@@ -68,12 +68,12 @@ For shoppers, this translates into products that are less likely to separate and
 
 ## Myths & facts
 - Myth: “E‑numbers are unsafe.” Fact: An E‑number means the additive is approved for use in the EU after a safety assessment.
-- Myth: “It’s the same as sorbitol sweetener.” Fact: Sorbitan monopalmitate is an emulsifier, not a sweetener like [sorbitol](/e420-sorbitol) or [sorbitol syrup](/e420ii-sorbitol-syrup).
-- Myth: “All emulsifiers are artificial.” Fact: Some emulsifiers occur naturally or are derived from natural sources, such as [lecithins](/e322-lecithins).
+- Myth: “It’s the same as sorbitol sweetener.” Fact: Sorbitan monopalmitate is an emulsifier, not a sweetener like [sorbitol](/e420-sorbitol){.additive} or [sorbitol syrup](/e420ii-sorbitol-syrup){.additive}.
+- Myth: “All emulsifiers are artificial.” Fact: Some emulsifiers occur naturally or are derived from natural sources, such as [lecithins](/e322-lecithins){.additive}.
 - Myth: “It always comes from palm oil.” Fact: The palmitic acid used can come from different edible fat sources; check with the producer if this matters to you.
 
 ## Sorbitan monopalmitate in branded foods
-On ingredient lists, look for “Sorbitan monopalmitate,” “E495,” or sometimes “Span 40.” It is typically used at low levels alongside other emulsifiers like [mono- and diglycerides](/e471-mono-and-diglycerides-of-fatty-acids) to fine‑tune texture in products such as creamers, spreads, confectionery, and bakery items.
+On ingredient lists, look for “Sorbitan monopalmitate,” “E495,” or sometimes “Span 40.” It is typically used at low levels alongside other emulsifiers like [mono- and diglycerides](/e471-mono-and-diglycerides-of-fatty-acids){.additive} to fine‑tune texture in products such as creamers, spreads, confectionery, and bakery items.
 
 ## References
 [^1]: Re‑evaluation of sorbitan monostearate (E 491), sorbitan monolaurate (E 493), sorbitan monooleate (E 494) and sorbitan monopalmitate (E 495) as food additives — EFSA Journal. https://www.efsa.europa.eu/en/efsajournal/pub/4784

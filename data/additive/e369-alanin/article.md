@@ -15,9 +15,9 @@ Alanin is added because it tastes mildly sweet and can soften bitter, sour, or s
 You may find Alanin in flavored drinks, candies, baked goods, dairy desserts, and other processed foods where a gentle sweetness or flavor rounding is desired. [^2] On labels it may appear as “L‑alanine” or “DL‑alanine.” [^1]
 
 ## What can replace Alanin?
-- Glycine ([E640](/e640-glycine-and-its-sodium-salt)) offers a clean, sweet taste and is often used for similar flavor‑rounding purposes.
-- Monosodium glutamate ([E621](/e621-monosodium-glutamate)) enhances savory/umami notes rather than sweetness, but it can improve overall flavor balance in some recipes.
-- High‑intensity sweeteners like [sucralose](/e955-sucralose) or bulk sweeteners like [erythritol](/e968-erythritol) add sweetness; they do not mimic alanine’s full flavor‑rounding effect, but may be part of a reformulation.
+- Glycine ([E640](/e640-glycine-and-its-sodium-salt){.additive}) offers a clean, sweet taste and is often used for similar flavor‑rounding purposes.
+- Monosodium glutamate ([E621](/e621-monosodium-glutamate){.additive}) enhances savory/umami notes rather than sweetness, but it can improve overall flavor balance in some recipes.
+- High‑intensity sweeteners like [sucralose](/e955-sucralose){.additive} or bulk sweeteners like [erythritol](/e968-erythritol){.additive} add sweetness; they do not mimic alanine’s full flavor‑rounding effect, but may be part of a reformulation.
 
 ## How is Alanin made?
 Commercial Alanin is produced by methods commonly used for amino acids, including microbial fermentation and chemical synthesis, yielding a product identical to the alanine found in foods and the human body. [^1][^3]
@@ -37,7 +37,7 @@ Acronyms explained:
 Most people do not need to avoid alanine used as a flavoring. Individuals advised by their healthcare professional to follow a protein‑restricted diet (for example, some people with chronic kidney disease) may choose to keep an eye on total protein and amino acid intake from all sources. [^4]
 
 ## Myths & facts
-- “Alanin is the same as MSG.” False. Alanine is a simple amino acid with mild sweetness; MSG ([E621](/e621-monosodium-glutamate)) is the sodium salt of glutamic acid and enhances umami/savory taste. [^1]
+- “Alanin is the same as MSG.” False. Alanine is a simple amino acid with mild sweetness; MSG ([E621](/e621-monosodium-glutamate){.additive}) is the sodium salt of glutamic acid and enhances umami/savory taste. [^1]
 - “Alanin is an artificial sweetener.” False. It is a naturally occurring amino acid; while slightly sweet, it is used for flavor rounding, not as a high‑intensity sweetener. [^1][^2]
 - “Alanin adds a lot of protein.” Not at typical use levels. The amounts used for flavoring are small, so the protein contribution is minimal. [^1]
 

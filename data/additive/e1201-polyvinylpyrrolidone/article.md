@@ -16,9 +16,9 @@ You may find E1201 in a limited range of foods where a water‑soluble stabilise
 
 ## What can replace Polyvinylpyrrolidone?
 Depending on the job it does in a recipe, common alternatives include:
-- Plant gums such as [xanthan gum](/e415-xanthan-gum), [guar gum](/e412-guar-gum), or [locust bean gum](/e410-locust-bean-gum)
-- Fruit‑derived [pectins](/e440-pectins)
-- Cellulose‑based thickeners like [cellulose](/e460-cellulose)
+- Plant gums such as [xanthan gum](/e415-xanthan-gum){.additive}, [guar gum](/e412-guar-gum){.additive}, or [locust bean gum](/e410-locust-bean-gum){.additive}
+- Fruit‑derived [pectins](/e440-pectins){.additive}
+- Cellulose‑based thickeners like [cellulose](/e460-cellulose){.additive}
 
 The best substitute depends on whether the goal is thickening, emulsifying, or stabilising.
 
@@ -37,7 +37,7 @@ Technologically, yes. PVP helps:
 These functions can improve product quality and consistency through shelf life.[^1]
 
 ## Who should avoid Polyvinylpyrrolidone?
-- People choosing to avoid synthetic additives for personal or dietary reasons may wish to select products that use alternatives like [pectins](/e440-pectins) or [xanthan gum](/e415-xanthan-gum).
+- People choosing to avoid synthetic additives for personal or dietary reasons may wish to select products that use alternatives like [pectins](/e440-pectins){.additive} or [xanthan gum](/e415-xanthan-gum){.additive}.
 - If a health professional has advised you to avoid povidone in medicines or supplements, check food and supplement labels for “polyvinylpyrrolidone,” “povidone,” or “E1201.”
 - PVP is synthetic and not derived from animals, so it is generally suitable for vegetarian and vegan diets.
 

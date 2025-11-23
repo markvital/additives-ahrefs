@@ -15,7 +15,7 @@ GDL provides a slow, steady release of acidity. This helps set textures and deve
 ## What foods contain Glucono-delta-lactone?
 You may find GDL in:
 - Tofu and similar soy products, where it helps form a smooth, tender gel
-- Baked goods and batters, paired with [sodium bicarbonate](/e500ii-sodium-bicarbonate) for controlled leavening
+- Baked goods and batters, paired with [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive} for controlled leavening
 - Processed meats and fish, as part of curing or pickling blends
 - Cheese-style and cultured dairy-style products, where gentle acidification is useful
 - Sauces, dressings, and ready-to-eat meals that need mild pH adjustment
@@ -24,9 +24,9 @@ In the European Union, it appears on labels as E575, confirming it is an authori
 
 ## What can replace Glucono-delta-lactone?
 Alternatives depend on the job you need done:
-- For pH control or a sharper sour taste: [citric acid](/e330-citric-acid) or [lactic acid](/e270-lactic-acid)
-- For leavening systems: [diphosphates](/e450-diphosphates) such as [disodium diphosphate](/e450i-disodium-diphosphate), often used with [sodium bicarbonate](/e500ii-sodium-bicarbonate)
-- For firming or pickling help: salts like [calcium chloride](/e509-calcium-chloride) in some applications
+- For pH control or a sharper sour taste: [citric acid](/e330-citric-acid){.additive} or [lactic acid](/e270-lactic-acid){.additive}
+- For leavening systems: [diphosphates](/e450-diphosphates){.additive} such as [disodium diphosphate](/e450i-disodium-diphosphate){.additive}, often used with [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive}
+- For firming or pickling help: salts like [calcium chloride](/e509-calcium-chloride){.additive} in some applications
 
 Note that these substitutes act faster or taste more sour than GDL, so recipes may need adjustment.
 
@@ -39,7 +39,7 @@ In the United States, GDL is affirmed as Generally Recognized as Safe (GRAS) whe
 ## Does Glucono-delta-lactone have any benefits?
 - Gentle flavor: It acidifies slowly, which can reduce sharp, immediate sourness compared with stronger acids.
 - Texture control: The gradual pH drop can produce smoother gels in products like tofu and help set dairy-style textures.
-- Reliable leavening: In baking, its controlled reaction with [sodium bicarbonate](/e500ii-sodium-bicarbonate) supports even rise and crumb structure.
+- Reliable leavening: In baking, its controlled reaction with [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive} supports even rise and crumb structure.
 
 ## Who should avoid Glucono-delta-lactone?
 Most people do not need to avoid GDL. It is not a common allergen, and it is used at low levels. If you are on a physician-prescribed low-acid diet or have specific sensitivities to acidic foods, check labels and discuss with your healthcare professional.
@@ -50,7 +50,7 @@ Most people do not need to avoid GDL. It is not a common allergen, and it is use
 - “It always tastes sour.” Not necessarily. Because its acid release is gradual, many foods use it to fine‑tune texture with minimal sharpness.
 
 ## Glucono-delta-lactone in branded foods
-On ingredient lists, look for “glucono-delta-lactone,” “GDL,” or “gluconolactone.” In the EU, the name may appear with its E‑number, “E575.” You’ll most often see it in tofu, cake mixes, refrigerated doughs, cured or pickled meats, and some sauces and dairy-style products. Related ingredients made from gluconic acid, like [potassium gluconate](/e577-potassium-gluconate) and [calcium gluconate](/e578-calcium-gluconate), may appear in mineral-fortified foods.
+On ingredient lists, look for “glucono-delta-lactone,” “GDL,” or “gluconolactone.” In the EU, the name may appear with its E‑number, “E575.” You’ll most often see it in tofu, cake mixes, refrigerated doughs, cured or pickled meats, and some sauces and dairy-style products. Related ingredients made from gluconic acid, like [potassium gluconate](/e577-potassium-gluconate){.additive} and [calcium gluconate](/e578-calcium-gluconate){.additive}, may appear in mineral-fortified foods.
 
 ## References
 [^1]: 21 CFR 184.1318 — Glucono delta-lactone. ecfr.gov https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-184/subpart-B/section-184.1318

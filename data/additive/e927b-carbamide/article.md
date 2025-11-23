@@ -19,8 +19,8 @@ To check a specific product, read the ingredient list for “urea” or “carba
 
 ## What can replace Carbamide?
 Alternatives depend on why it is being used:
-- For dough strengthening or conditioning, bakers may choose [ascorbic acid](/e300-ascorbic-acid), enzymes such as [alpha-amylase](/e1100-alpha-amylase), or emulsifiers like [lecithins](/e322-lecithins).
-- If a different additive had been used historically for similar roles, such as [azodicarbonamide](/e927a-azodicarbonamide) in some flour treatments, modern formulations often favor enzyme systems or antioxidant improvers instead.
+- For dough strengthening or conditioning, bakers may choose [ascorbic acid](/e300-ascorbic-acid){.additive}, enzymes such as [alpha-amylase](/e1100-alpha-amylase){.additive}, or emulsifiers like [lecithins](/e322-lecithins){.additive}.
+- If a different additive had been used historically for similar roles, such as [azodicarbonamide](/e927a-azodicarbonamide){.additive} in some flour treatments, modern formulations often favor enzyme systems or antioxidant improvers instead.
 
 Manufacturers select substitutes based on the food, processing conditions, and local regulations.
 

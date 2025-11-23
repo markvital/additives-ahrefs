@@ -22,8 +22,8 @@ In the EU, E1451 is an authorised modified starch and may be used in many food c
 
 ## What can replace Acetylated oxidised starch?
 Depending on the recipe and processing, common alternatives include:
-- Other modified starches: [oxidised starch](/e1404-oxidised-starch), [acetylated starch](/e1420-acetylated-starch), [acetylated distarch phosphate](/e1414-acetylated-distarch-phosphate), [hydroxypropyl distarch phosphate](/e1442-hydroxypropyl-distarch-phosphate), or [starch sodium octenyl succinate](/e1450-starch-sodium-octenyl-succinate) for emulsions.
-- Gums and hydrocolloids: [xanthan gum](/e415-xanthan-gum), [guar gum](/e412-guar-gum), [locust bean gum](/e410-locust-bean-gum), [pectins](/e440-pectins), [carrageenan](/e407-carrageenan), or [gellan gum](/e418-gellan-gum).
+- Other modified starches: [oxidised starch](/e1404-oxidised-starch){.additive}, [acetylated starch](/e1420-acetylated-starch){.additive}, [acetylated distarch phosphate](/e1414-acetylated-distarch-phosphate){.additive}, [hydroxypropyl distarch phosphate](/e1442-hydroxypropyl-distarch-phosphate){.additive}, or [starch sodium octenyl succinate](/e1450-starch-sodium-octenyl-succinate){.additive} for emulsions.
+- Gums and hydrocolloids: [xanthan gum](/e415-xanthan-gum){.additive}, [guar gum](/e412-guar-gum){.additive}, [locust bean gum](/e410-locust-bean-gum){.additive}, [pectins](/e440-pectins){.additive}, [carrageenan](/e407-carrageenan){.additive}, or [gellan gum](/e418-gellan-gum){.additive}.
 
 Each option behaves differently. For example, xanthan gives strong thickening at low levels and is very stable, while pectin gels in high‑sugar or acidic systems. Food makers often blend starches and gums to balance texture, clarity, and freeze–thaw stability.
 

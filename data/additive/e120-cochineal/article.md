@@ -16,9 +16,9 @@ You may find E120 in fruit-flavored yogurts, dairy desserts, ice creams, gummies
 
 ## What can replace Cochineal?
 Depending on the shade and processing needs, formulators may switch to:
-- Plant reds such as [beetroot red](/e162-beetroot-red) or [anthocyanins](/e163-anthocyanins).
-- Bright synthetic reds like [Allura Red](/e129-allura-red) or [Ponceau 4R](/e124-ponceau-4r).
-- Warm reds/oranges like [paprika extract](/e160c-paprika-extract) or [lycopene](/e160d-lycopene).
+- Plant reds such as [beetroot red](/e162-beetroot-red){.additive} or [anthocyanins](/e163-anthocyanins){.additive}.
+- Bright synthetic reds like [Allura Red](/e129-allura-red){.additive} or [Ponceau 4R](/e124-ponceau-4r){.additive}.
+- Warm reds/oranges like [paprika extract](/e160c-paprika-extract){.additive} or [lycopene](/e160d-lycopene){.additive}.
 
 Each alternative has different stability to heat, light, and acidity, so the best choice depends on the food and the desired color.
 

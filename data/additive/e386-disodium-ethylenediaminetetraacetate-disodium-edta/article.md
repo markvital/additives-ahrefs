@@ -20,9 +20,9 @@ On ingredient lists it usually appears as “disodium EDTA,” “EDTA,” or �
 
 ## What can replace Disodium EDTA?
 Depending on the food and the problem to solve, technologists may choose:
-- Organic acids and buffers to control metals and pH: [citric acid](/e330-citric-acid), [phosphoric acid](/e338-phosphoric-acid), [sodium citrates](/e331-sodium-citrates)
-- Antioxidants that donate electrons or quench radicals: [ascorbic acid](/e300-ascorbic-acid), extracts of rosemary ([E392](/e392-extracts-of-rosemary))
-- Preservatives targeting microbes (not metal-driven oxidation): [potassium sorbate](/e202-potassium-sorbate), [sodium benzoate](/e211-sodium-benzoate), [sodium metabisulphite](/e223-sodium-metabisulphite)
+- Organic acids and buffers to control metals and pH: [citric acid](/e330-citric-acid){.additive}, [phosphoric acid](/e338-phosphoric-acid){.additive}, [sodium citrates](/e331-sodium-citrates){.additive}
+- Antioxidants that donate electrons or quench radicals: [ascorbic acid](/e300-ascorbic-acid){.additive}, extracts of rosemary ([E392](/e392-extracts-of-rosemary){.additive})
+- Preservatives targeting microbes (not metal-driven oxidation): [potassium sorbate](/e202-potassium-sorbate){.additive}, [sodium benzoate](/e211-sodium-benzoate){.additive}, [sodium metabisulphite](/e223-sodium-metabisulphite){.additive}
 
 No single substitute matches EDTA’s strong metal binding in every recipe, so formulators often combine tools (acidification, antioxidants, and packaging) to get similar protection.
 
@@ -41,7 +41,7 @@ For consumers, the main benefit is quality: EDTA helps keep flavors from going �
 Most people don’t need to avoid EDTA at the very low levels used in foods and allowed by regulators.[^1][^3] If your healthcare provider has advised you to limit specific additives or you follow a specialized diet, read labels and choose products that fit your needs.
 
 ## Myths & facts
-- “EDTA is a preservative that kills germs.” Fact: EDTA doesn’t kill microbes; it mainly binds metals to slow oxidation. Microbial preservatives are different compounds (for example, [potassium sorbate](/e202-potassium-sorbate) or [sodium benzoate](/e211-sodium-benzoate)).
+- “EDTA is a preservative that kills germs.” Fact: EDTA doesn’t kill microbes; it mainly binds metals to slow oxidation. Microbial preservatives are different compounds (for example, [potassium sorbate](/e202-potassium-sorbate){.additive} or [sodium benzoate](/e211-sodium-benzoate){.additive}).
 - “EDTA strips minerals from your body.” Fact: At permitted food levels, EDTA salts are poorly absorbed and are largely excreted, and safety limits account for this behavior.[^3]
 - “EDTA in food is the same as in cleaners.” Fact: The chemical is similar, but food‑grade EDTA must meet strict purity specifications before it can be used in foods.[^1][^4]
 

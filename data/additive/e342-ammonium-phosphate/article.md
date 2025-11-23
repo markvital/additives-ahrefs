@@ -24,15 +24,15 @@ You are most likely to encounter diammonium phosphate in fermented beverages, wh
 
 Possible substitutes depend on the job it is doing:
 
-- For yeast nutrition in fermentation: [ammonium sulphate](/e517-ammonium-sulphate) or nutrient blends based on yeast extract
-- For similar phosphate functions: [phosphoric acid](/e338-phosphoric-acid), [sodium phosphates](/e339-sodium-phosphates), [potassium phosphates](/e340-potassium-phosphates), [calcium phosphates](/e341-calcium-phosphates), or [magnesium phosphates](/e343-magnesium-phosphates)
-- For more complex stabilization needs: selected [polyphosphates](/e452-polyphosphates)
+- For yeast nutrition in fermentation: [ammonium sulphate](/e517-ammonium-sulphate){.additive} or nutrient blends based on yeast extract
+- For similar phosphate functions: [phosphoric acid](/e338-phosphoric-acid){.additive}, [sodium phosphates](/e339-sodium-phosphates){.additive}, [potassium phosphates](/e340-potassium-phosphates){.additive}, [calcium phosphates](/e341-calcium-phosphates){.additive}, or [magnesium phosphates](/e343-magnesium-phosphates){.additive}
+- For more complex stabilization needs: selected [polyphosphates](/e452-polyphosphates){.additive}
 
 The best choice depends on local regulations and the specific food process.
 
 ## How is Ammonium phosphate made?
 
-Food-grade ammonium phosphate is produced by neutralizing purified [phosphoric acid](/e338-phosphoric-acid) with ammonia. By adjusting the neutralization, manufacturers obtain either monoammonium phosphate or diammonium phosphate. The resulting salts are white, crystalline, and readily soluble in water.[^1][^4]
+Food-grade ammonium phosphate is produced by neutralizing purified [phosphoric acid](/e338-phosphoric-acid){.additive} with ammonia. By adjusting the neutralization, manufacturers obtain either monoammonium phosphate or diammonium phosphate. The resulting salts are white, crystalline, and readily soluble in water.[^1][^4]
 
 ## Is Ammonium phosphate safe to eat?
 
@@ -51,7 +51,7 @@ For food makers, E342 supports reliable, complete fermentation by providing nutr
 
 ## Myths & facts
 
-- “Ammonium phosphate is the same as ammonium phosphatides.” False. E342 (ammonium phosphates) and [ammonium phosphatides](/e442-ammonium-phosphatides) (E442) are different additives used for different purposes.
+- “Ammonium phosphate is the same as ammonium phosphatides.” False. E342 (ammonium phosphates) and [ammonium phosphatides](/e442-ammonium-phosphatides){.additive} (E442) are different additives used for different purposes.
 - “It will make foods smell like ammonia.” Not at the tiny amounts used under food rules. In proper use, you should not detect an ammonia smell in the finished product.
 - “It always acts as a leavening agent.” Not necessarily. In practice, E342 is used most often as a yeast nutrient in fermentation rather than as a leavening acid.
 

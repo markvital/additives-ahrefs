@@ -14,7 +14,7 @@ Pectin gives structure to foods. In high-sugar, acidic recipes (like jam), it fo
 
 ## What foods contain Pectin?
 You’ll most often see pectin in:
-- Fruit jams, jellies, and preserves (often paired with sugar and acids such as [citric acid](/e330-citric-acid))
+- Fruit jams, jellies, and preserves (often paired with sugar and acids such as [citric acid](/e330-citric-acid){.additive})
 - Spoonable and drinkable yogurts, and fermented milk drinks
 - Fruit preparations for dairy and bakery, pie and pastry fillings
 - Confectionery (e.g., fruit gummies and jellies)
@@ -25,10 +25,10 @@ On labels, it may appear as “pectin,” “fruit pectin,” or “E440a” (in
 
 ## What can replace Pectin?
 Alternatives depend on the texture and processing you need:
-- For jams and fruit gels: [agar](/e406-agar), [gellan gum](/e418-gellan-gum), or [gelatine](/e428-gelatine) if non‑vegan is acceptable
-- For thickening and suspension: [xanthan gum](/e415-xanthan-gum), [guar gum](/e412-guar-gum), or [locust bean gum](/e410-locust-bean-gum)
-- For dairy stabilization or specific gel textures: [carrageenan](/e407-carrageenan)
-- For low‑sugar gels: low‑methoxyl pectin with calcium salts such as [calcium chloride](/e509-calcium-chloride)
+- For jams and fruit gels: [agar](/e406-agar){.additive}, [gellan gum](/e418-gellan-gum){.additive}, or [gelatine](/e428-gelatine){.additive} if non‑vegan is acceptable
+- For thickening and suspension: [xanthan gum](/e415-xanthan-gum){.additive}, [guar gum](/e412-guar-gum){.additive}, or [locust bean gum](/e410-locust-bean-gum){.additive}
+- For dairy stabilization or specific gel textures: [carrageenan](/e407-carrageenan){.additive}
+- For low‑sugar gels: low‑methoxyl pectin with calcium salts such as [calcium chloride](/e509-calcium-chloride){.additive}
 
 ## How is Pectin made?
 Commercial pectin is extracted from dried citrus peels or apple pomace using hot, mildly acidic water. The pectin is then filtered, purified, and precipitated (commonly with alcohol), dried, milled, and standardized for consistent performance.[^2] U.S. regulations define pectin as the product obtained from apple pomace or citrus peel and allow its use as a multipurpose thickener, stabilizer, and gelling agent under GMP.[^1]  

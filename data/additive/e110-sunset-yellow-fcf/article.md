@@ -18,9 +18,9 @@ You may find Sunset yellow FCF in orange and citrus‑flavored soft drinks, cand
 
 ## What can replace Sunset yellow FCF?
 Depending on the food and the shade needed, formulators may switch to:
-- Natural orange/yellow colors such as [paprika extract](/e160c-paprika-extract), [beta‑carotene](/e160a-carotene), [annatto](/e160b-annatto), or [curcumin](/e100-curcumin)
-- Brownish hues from [caramel](/e150-caramel)
-- Red or pink alternatives like [beetroot red](/e162-beetroot-red), sometimes blended with yellow to reach an orange tone
+- Natural orange/yellow colors such as [paprika extract](/e160c-paprika-extract){.additive}, [beta‑carotene](/e160a-carotene){.additive}, [annatto](/e160b-annatto){.additive}, or [curcumin](/e100-curcumin){.additive}
+- Brownish hues from [caramel](/e150-caramel){.additive}
+- Red or pink alternatives like [beetroot red](/e162-beetroot-red){.additive}, sometimes blended with yellow to reach an orange tone
 
 These choices can affect flavor, stability, and cost, so swaps are made case by case.
 
@@ -42,8 +42,8 @@ As always, check the ingredient list and choose products that fit your needs.
 
 ## Myths & facts
 - “It’s banned.” False. Sunset yellow FCF is permitted in both the U.S. and EU within regulatory limits.[^1][^3]
-- “It’s the same as [tartrazine](/e102-tartrazine).” False. Both are synthetic colors, but they are different dyes with different identifiers and safety evaluations.
-- “Natural colors are always better.” Not necessarily. Natural options like [annatto](/e160b-annatto) or [beta‑carotene](/e160a-carotene) can work well, but they may differ in shade, stability, and cost compared with Sunset yellow FCF.
+- “It’s the same as [tartrazine](/e102-tartrazine){.additive}.” False. Both are synthetic colors, but they are different dyes with different identifiers and safety evaluations.
+- “Natural colors are always better.” Not necessarily. Natural options like [annatto](/e160b-annatto){.additive} or [beta‑carotene](/e160a-carotene){.additive} can work well, but they may differ in shade, stability, and cost compared with Sunset yellow FCF.
 - “All azo dyes cause hyperactivity.” Evidence is mixed. The EU applies a label warning for certain colors including E 110, while the U.S. FDA has not found enough evidence to require a warning.[^3][^4]
 
 ## Sunset yellow FCF in branded foods

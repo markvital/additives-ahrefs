@@ -3,7 +3,7 @@ Riboflavin-5'-phosphate (E101A) is a yellow food color and a form of vitamin B2.
 
 ## At a glance
 - What it is: The phosphorylated, water‑soluble form of vitamin B2 used as a food color and nutrient.
-- E-number: E101A (often listed in EU rules as E101(ii)); related to [riboflavin](/e101-riboflavin).
+- E-number: E101A (often listed in EU rules as E101(ii)); related to [riboflavin](/e101-riboflavin){.additive}.
 - What it does: Colors foods yellow to orange-yellow; also contributes vitamin B2.
 - Where you’ll see it: Drinks, dairy-style products, soups and sauces, bakery and desserts, and fortified foods.
 - Solubility: More water‑soluble than plain riboflavin, so it works well in beverages.
@@ -17,10 +17,10 @@ Riboflavin-5'-phosphate is authorized in the EU as a color in a wide range of fo
 
 ## What can replace Riboflavin-5'-phosphate?
 When formulators need a yellow/orange hue, common substitutes include:
-- [Curcumin](/e100-curcumin) from turmeric (warm yellow)
-- [Carotene](/e160a-carotene) or [annatto](/e160b-annatto) (yellow to orange)
-- [Plain caramel](/e150a-plain-caramel) (brownish yellow)
-- Synthetic azo dyes like [tartrazine](/e102-tartrazine) or [sunset yellow FCF](/e110-sunset-yellow-fcf) where permitted
+- [Curcumin](/e100-curcumin){.additive} from turmeric (warm yellow)
+- [Carotene](/e160a-carotene){.additive} or [annatto](/e160b-annatto){.additive} (yellow to orange)
+- [Plain caramel](/e150a-plain-caramel){.additive} (brownish yellow)
+- Synthetic azo dyes like [tartrazine](/e102-tartrazine){.additive} or [sunset yellow FCF](/e110-sunset-yellow-fcf){.additive} where permitted
 
 Swaps depend on desired shade, solubility, light/heat stability, and label preferences.
 

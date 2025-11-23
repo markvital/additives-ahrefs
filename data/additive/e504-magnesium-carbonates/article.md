@@ -25,8 +25,8 @@ On ingredient lists, look for “magnesium carbonate,” “basic magnesium carb
 
 ## What can replace E504?
 Alternatives depend on the job you need done:
-- Anti-caking in powders: [silicon dioxide](/e551-silicon-dioxide), [calcium carbonates](/e170-calcium-carbonates), or [cellulose](/e460-cellulose)
-- Buffering/raising functions in doughs: [sodium carbonates](/e500-sodium-carbonates), [potassium carbonates](/e501-potassium-carbonates), or [ammonium carbonates](/e503-ammonium-carbonates)
+- Anti-caking in powders: [silicon dioxide](/e551-silicon-dioxide){.additive}, [calcium carbonates](/e170-calcium-carbonates){.additive}, or [cellulose](/e460-cellulose){.additive}
+- Buffering/raising functions in doughs: [sodium carbonates](/e500-sodium-carbonates){.additive}, [potassium carbonates](/e501-potassium-carbonates){.additive}, or [ammonium carbonates](/e503-ammonium-carbonates){.additive}
 
 Formulators choose replacements based on taste neutrality, solubility, pH effect, and labeling goals.
 
@@ -34,8 +34,8 @@ Formulators choose replacements based on taste neutrality, solubility, pH effect
 Food-grade magnesium carbonates are produced to meet strict identity and purity specifications in the EU, which cover both magnesium carbonate and basic magnesium carbonate.[^1] Industrially, they are commonly prepared by reacting a magnesium salt (such as magnesium chloride or sulfate) with a carbonate source, or by introducing carbon dioxide to magnesium hydroxide suspensions and then drying the precipitated solids.[^5]
 
 E504 covers these related forms:
-- [Magnesium carbonate](/e504i-magnesium-carbonate)
-- Basic magnesium carbonate (often labeled as [magnesium hydroxide carbonate](/e504ii-magnesium-hydroxide-carbonate))
+- [Magnesium carbonate](/e504i-magnesium-carbonate){.additive}
+- Basic magnesium carbonate (often labeled as [magnesium hydroxide carbonate](/e504ii-magnesium-hydroxide-carbonate){.additive})
 
 ## Is E504 — Magnesium carbonates — safe to eat?
 Regulators consider magnesium carbonates safe when used as intended in foods.
@@ -52,8 +52,8 @@ Technologically, yes: it keeps powders free-flowing and helps ingredients disper
 - Anyone advised by a healthcare professional to limit magnesium supplements should check labels and consider overall magnesium intake (from supplements, antacids, and fortified foods).[^4]
 
 ## Myths & facts
-- Myth: “Magnesium carbonate is the same as chalk.” Fact: Chalk is calcium carbonate, known in foods as [calcium carbonates](/e170-calcium-carbonates).
-- Myth: “It’s just baking soda.” Fact: Baking soda is a sodium carbonate/bicarbonate in the [sodium carbonates](/e500-sodium-carbonates) family, not magnesium carbonates.
+- Myth: “Magnesium carbonate is the same as chalk.” Fact: Chalk is calcium carbonate, known in foods as [calcium carbonates](/e170-calcium-carbonates){.additive}.
+- Myth: “It’s just baking soda.” Fact: Baking soda is a sodium carbonate/bicarbonate in the [sodium carbonates](/e500-sodium-carbonates){.additive} family, not magnesium carbonates.
 - Myth: “All carbonates work the same way.” Fact: Different carbonates serve different roles—anti-caking, buffering, or leavening—depending on their chemistry and how they’re used.
 
 ## E504 — Magnesium carbonates — in branded foods
@@ -63,7 +63,7 @@ You’ll see E504 on labels of many pantry staples:
 - Instant beverage powders and cocoa
 - Chewing gum and some candies
 
-To spot it, scan the ingredient list for “magnesium carbonate,” “basic magnesium carbonate,” or “E504.” Related carbonates may appear nearby, such as [sodium carbonates](/e500-sodium-carbonates), [potassium carbonates](/e501-potassium-carbonates), or [ammonium carbonates](/e503-ammonium-carbonates).
+To spot it, scan the ingredient list for “magnesium carbonate,” “basic magnesium carbonate,” or “E504.” Related carbonates may appear nearby, such as [sodium carbonates](/e500-sodium-carbonates){.additive}, [potassium carbonates](/e501-potassium-carbonates){.additive}, or [ammonium carbonates](/e503-ammonium-carbonates){.additive}.
 
 ## References
 [^1]: Commission Regulation (EU) No 231/2012 laying down specifications for food additives listed in Annexes II and III to Regulation (EC) No 1333/2008 — EUR-Lex. https://eur-lex.europa.eu/eli/reg/2012/231/oj

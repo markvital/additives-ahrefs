@@ -12,14 +12,14 @@ E949, or hydrogen, is a colorless, odorless, and very light gas approved in the 
 Hydrogen can be used to push oxygen out of a package (modified-atmosphere packaging) or to expel a product from a can or bottle (as a propellant), both intended to help protect food quality. In the European Union, hydrogen (E949) is authorized for these uses at “quantum satis,” which means only as much as needed for the intended effect.[^1] Because hydrogen is highly flammable, manufacturers more often choose other gases for routine jobs, reserving hydrogen for niche applications where its properties are useful.[^2]
 
 ## What foods contain Hydrogen?
-You are unlikely to see E949 on most food labels. When used, it may appear on the ingredients list as “Hydrogen” or “E949,” often alongside wording such as “packaging gas” or “propellant.” Occasional use is possible in certain sealed or aerosolized products, but far more common are gases like [nitrogen](/e941-nitrogen) and [carbon dioxide](/e290-carbon-dioxide).
+You are unlikely to see E949 on most food labels. When used, it may appear on the ingredients list as “Hydrogen” or “E949,” often alongside wording such as “packaging gas” or “propellant.” Occasional use is possible in certain sealed or aerosolized products, but far more common are gases like [nitrogen](/e941-nitrogen){.additive} and [carbon dioxide](/e290-carbon-dioxide){.additive}.
 
 ## What can replace Hydrogen?
-- [Nitrogen](/e941-nitrogen): An inert packaging gas widely used to fill chips, coffee, and many snacks.
-- [Carbon dioxide](/e290-carbon-dioxide): Helps inhibit microbial growth in some refrigerated foods.
-- [Argon](/e938-argon): An inert gas sometimes used to protect delicate aromas or flavors.
-- [Nitrous oxide](/e942-nitrous-oxide): Common propellant for whipped toppings.
-- [Oxygen](/e948-oxygen): Used in a few cases (for example, to keep meat color bright) despite promoting oxidation in others.
+- [Nitrogen](/e941-nitrogen){.additive}: An inert packaging gas widely used to fill chips, coffee, and many snacks.
+- [Carbon dioxide](/e290-carbon-dioxide){.additive}: Helps inhibit microbial growth in some refrigerated foods.
+- [Argon](/e938-argon){.additive}: An inert gas sometimes used to protect delicate aromas or flavors.
+- [Nitrous oxide](/e942-nitrous-oxide){.additive}: Common propellant for whipped toppings.
+- [Oxygen](/e948-oxygen){.additive}: Used in a few cases (for example, to keep meat color bright) despite promoting oxidation in others.
 
 ## How is Hydrogen made?
 Most hydrogen is produced industrially by steam methane reforming of natural gas; it can also be made by splitting water via electrolysis. Both routes are common worldwide, with production chosen based on cost, energy source, and local infrastructure.[^3] When intended for food use in the EU, hydrogen must meet food-grade purity specifications set out in Commission Regulation (EU) No 231/2012.[^4]
@@ -43,7 +43,7 @@ There is no specific dietary group that needs to avoid E949 in food. The primary
 
 ## Hydrogen in branded foods
 - How it may appear on labels: “E949,” “Hydrogen,” or with a function name such as “packaging gas” or “propellant.”
-- Where you might see it: Specialized modified-atmosphere packs or certain aerosols; far less common than [nitrogen](/e941-nitrogen), [carbon dioxide](/e290-carbon-dioxide), or [nitrous oxide](/e942-nitrous-oxide).
+- Where you might see it: Specialized modified-atmosphere packs or certain aerosols; far less common than [nitrogen](/e941-nitrogen){.additive}, [carbon dioxide](/e290-carbon-dioxide){.additive}, or [nitrous oxide](/e942-nitrous-oxide){.additive}.
 
 ## References
 [^1]: Regulation (EC) No 1333/2008 on food additives — European Union. https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32008R1333

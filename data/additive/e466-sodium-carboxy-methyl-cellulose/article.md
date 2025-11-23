@@ -20,14 +20,14 @@ You may find E466 in:
 - Baked goods and gluten‑free items
 - Chewing gum and confectionery
 
-It often appears alongside other hydrocolloids (water‑binding gums) such as [xanthan gum](/e415-xanthan-gum), [guar gum](/e412-guar-gum), [carrageenan](/e407-carrageenan), [gellan gum](/e418-gellan-gum), [sodium alginate](/e401-sodium-alginate), [pectins](/e440-pectins), or [cellulose](/e460-cellulose).
+It often appears alongside other hydrocolloids (water‑binding gums) such as [xanthan gum](/e415-xanthan-gum){.additive}, [guar gum](/e412-guar-gum){.additive}, [carrageenan](/e407-carrageenan){.additive}, [gellan gum](/e418-gellan-gum){.additive}, [sodium alginate](/e401-sodium-alginate){.additive}, [pectins](/e440-pectins){.additive}, or [cellulose](/e460-cellulose){.additive}.
 
 ## What can replace Sodium carboxy methyl cellulose?
 Close stand‑ins depend on the job:
-- To thicken and stabilize liquids: [xanthan gum](/e415-xanthan-gum), [guar gum](/e412-guar-gum), [gellan gum](/e418-gellan-gum), [carrageenan](/e407-carrageenan), or [pectins](/e440-pectins)
-- To improve body in low‑fat items: [xanthan gum](/e415-xanthan-gum) or [sodium alginate](/e401-sodium-alginate)
-- For moisture in baked goods: [xanthan gum](/e415-xanthan-gum), [guar gum](/e412-guar-gum), or [cellulose](/e460-cellulose)
-- For mouthfeel in drinks: [gellan gum](/e418-gellan-gum) or [pectins](/e440-pectins)
+- To thicken and stabilize liquids: [xanthan gum](/e415-xanthan-gum){.additive}, [guar gum](/e412-guar-gum){.additive}, [gellan gum](/e418-gellan-gum){.additive}, [carrageenan](/e407-carrageenan){.additive}, or [pectins](/e440-pectins){.additive}
+- To improve body in low‑fat items: [xanthan gum](/e415-xanthan-gum){.additive} or [sodium alginate](/e401-sodium-alginate){.additive}
+- For moisture in baked goods: [xanthan gum](/e415-xanthan-gum){.additive}, [guar gum](/e412-guar-gum){.additive}, or [cellulose](/e460-cellulose){.additive}
+- For mouthfeel in drinks: [gellan gum](/e418-gellan-gum){.additive} or [pectins](/e440-pectins){.additive}
 
 Choice depends on pH, salt, temperature, and the food’s flavor. For example, pectin sets best in acidic fruit systems, while xanthan remains stable over wide pH and heat ranges.
 

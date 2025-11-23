@@ -16,15 +16,15 @@ Food makers add sodium citrates to keep acidity steady, improve flavor balance, 
 ## What foods contain Sodium citrates?
 You’ll see sodium citrates in lemon-lime and cola-type soft drinks, sports and energy drinks, flavored waters, and powdered beverage mixes. It’s also common in processed cheese slices and spreads, shelf-stable cheese sauces, some desserts and confections, and a range of packaged foods where pH control or metal binding helps stability.
 
-On labels it may appear as “sodium citrate,” “E331,” or a specific form such as [monosodium citrate](/e331i-monosodium-citrate), [disodium citrate](/e331ii-disodium-citrate), or [trisodium citrate](/e331iii-trisodium-citrate).
+On labels it may appear as “sodium citrate,” “E331,” or a specific form such as [monosodium citrate](/e331i-monosodium-citrate){.additive}, [disodium citrate](/e331ii-disodium-citrate){.additive}, or [trisodium citrate](/e331iii-trisodium-citrate){.additive}.
 
 ## What can replace Sodium citrates?
 Swaps depend on the job you need done.
 
-- For tartness and pH control: [citric acid](/e330-citric-acid), [malic acid](/e296-malic-acid), [L-tartaric acid](/e334-l-tartaric-acid), or [phosphoric acid](/e338-phosphoric-acid).
-- For buffering with less sodium: [potassium citrates](/e332-potassium-citrates) or [calcium citrates](/e333-calcium-citrates).
-- For emulsifying salts in processed cheese: [sodium phosphates](/e339-sodium-phosphates) are a common alternative.
-- For metal binding (sequestration): [calcium disodium EDTA](/e385-calcium-disodium-ethylenediaminetetraacetate) in suitable applications.
+- For tartness and pH control: [citric acid](/e330-citric-acid){.additive}, [malic acid](/e296-malic-acid){.additive}, [L-tartaric acid](/e334-l-tartaric-acid){.additive}, or [phosphoric acid](/e338-phosphoric-acid){.additive}.
+- For buffering with less sodium: [potassium citrates](/e332-potassium-citrates){.additive} or [calcium citrates](/e333-calcium-citrates){.additive}.
+- For emulsifying salts in processed cheese: [sodium phosphates](/e339-sodium-phosphates){.additive} are a common alternative.
+- For metal binding (sequestration): [calcium disodium EDTA](/e385-calcium-disodium-ethylenediaminetetraacetate){.additive} in suitable applications.
 
 ## How is Sodium citrates made?
 Manufacturers neutralize citric acid with a sodium base such as sodium hydroxide, sodium carbonate, or sodium bicarbonate. Adjusting the ratio yields mono-, di-, or trisodium citrate, which are then purified to meet food-grade specifications.[^2]
@@ -50,7 +50,7 @@ You’re most likely to see sodium citrate in:
 - Processed cheese slices, spreads, and jarred cheese sauces
 - Powdered drink mixes and some dessert mixes
 
-You may also spot related names such as [disodium citrate](/e331ii-disodium-citrate) or [trisodium citrate](/e331iii-trisodium-citrate) on ingredient lists.
+You may also spot related names such as [disodium citrate](/e331ii-disodium-citrate){.additive} or [trisodium citrate](/e331iii-trisodium-citrate){.additive} on ingredient lists.
 
 ## References
 [^1]: Re‑evaluation of citric acid (E 330), sodium citrates (E 331), potassium citrates (E 332) and calcium citrates (E 333) as food additives — European Food Safety Authority (EFSA). https://www.efsa.europa.eu/en/efsajournal/pub/5466

@@ -20,8 +20,8 @@ When bentonite is used only to process a food (for example, to clarify a beverag
 
 ## What can replace Bentonite?
 Depending on the job, food makers may choose other additives:
-- For anti‑caking and free‑flow: [silicon dioxide](/e551-silicon-dioxide), [calcium silicate](/e552-calcium-silicate), or [tricalcium phosphate](/e341iii-tricalcium-phosphate)
-- For beverage clarification: [gelatine](/e428-gelatine) in some wines and juices, [polyvinylpolypyrrolidone (PVPP)](/e1202-polyvinylpolypyrrolidone), or [cellulose](/e460-cellulose)‑based fining aids
+- For anti‑caking and free‑flow: [silicon dioxide](/e551-silicon-dioxide){.additive}, [calcium silicate](/e552-calcium-silicate){.additive}, or [tricalcium phosphate](/e341iii-tricalcium-phosphate){.additive}
+- For beverage clarification: [gelatine](/e428-gelatine){.additive} in some wines and juices, [polyvinylpolypyrrolidone (PVPP)](/e1202-polyvinylpolypyrrolidone){.additive}, or [cellulose](/e460-cellulose){.additive}‑based fining aids
 
 ## How is Bentonite made?
 Food‑grade bentonite is a purified, natural clay defined in U.S. regulations as a “colloidal, hydrated aluminum silicate.”[^1] In the EU, E558 must meet detailed composition and purity specifications (for example, limits on heavy metals and defined mineral content) before it can be sold as a food additive.[^2]

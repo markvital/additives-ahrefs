@@ -16,12 +16,12 @@ You are unlikely to find E1000 in most supermarket products. Where permitted, it
 
 ## What can replace Cholic acid?
 Food makers normally choose more common emulsifiers and stabilizers instead of cholic acid, such as:
-- [lecithins](/e322-lecithins) (from soy, sunflower, or egg)
-- [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids)
-- [sorbitan monostearate](/e491-sorbitan-monostearate) and other sorbitan esters
-- [polyglycerol polyricinoleate](/e476-polyglycerol-polyricinoleate) for chocolate and spreads
-- Hydrocolloids like [xanthan gum](/e415-xanthan-gum) or [carrageenan](/e407-carrageenan) to thicken and stabilize
-- Humectants and solvents such as [glycerol](/e422-glycerol) when moisture control is needed
+- [lecithins](/e322-lecithins){.additive} (from soy, sunflower, or egg)
+- [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive}
+- [sorbitan monostearate](/e491-sorbitan-monostearate){.additive} and other sorbitan esters
+- [polyglycerol polyricinoleate](/e476-polyglycerol-polyricinoleate){.additive} for chocolate and spreads
+- Hydrocolloids like [xanthan gum](/e415-xanthan-gum){.additive} or [carrageenan](/e407-carrageenan){.additive} to thicken and stabilize
+- Humectants and solvents such as [glycerol](/e422-glycerol){.additive} when moisture control is needed
 
 ## How is Cholic acid made?
 In nature, cholic acid is a primary bile acid made in the liver from cholesterol. Its amphipathic structure allows it to form micelles that carry dietary fats and fat‑soluble compounds during digestion.[^1] When used as a food additive in the EU, it must meet identity and purity specifications laid down in law.[^3]
@@ -42,7 +42,7 @@ Technologically, the benefit is simple: it helps oil and water stay mixed. By di
 - Myth: It always appears in everyday foods. Fact: It is an uncommon additive; many products use other emulsifiers instead.
 
 ## Cholic acid in branded foods
-If E1000 is used, you will see “cholic acid” or “E1000” on the ingredient list. Because it is rarely used, many brands rely on alternatives like [lecithins](/e322-lecithins) or [mono- and diglycerides](/e471-mono-and-diglycerides-of-fatty-acids). Availability and labeling can vary by country, so always check the local ingredient list.
+If E1000 is used, you will see “cholic acid” or “E1000” on the ingredient list. Because it is rarely used, many brands rely on alternatives like [lecithins](/e322-lecithins){.additive} or [mono- and diglycerides](/e471-mono-and-diglycerides-of-fatty-acids){.additive}. Availability and labeling can vary by country, so always check the local ingredient list.
 
 ## References
 [^1]: Cholic acid — PubChem, National Institutes of Health (NIH). https://pubchem.ncbi.nlm.nih.gov/compound/Cholic-acid

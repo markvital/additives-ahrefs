@@ -10,7 +10,7 @@ Isopropyl citrates (E384) are a group of isopropyl esters of citric acid used in
 - Regulatory status: Listed with specifications in the European Union; use is only permitted in specific foods and at set limits.[^1][^2]
 
 ## Why is Isopropyl citrates added to food?
-Food fats and oils can turn rancid when oxygen and trace metals kick off oxidation. Isopropyl citrates act as an antioxidant and a sequestrant (a metal-binding helper), so they slow that process and help preserve flavor, aroma, and color.[^1] In practice, they are often used alongside primary antioxidants such as [butylated hydroxyanisole (BHA)](/e320-butylated-hydroxyanisole-bha), [butylated hydroxytoluene (BHT)](/e321-butylated-hydroxytoluene), [propyl gallate](/e310-propyl-gallate), [tocopherol-rich extract](/e306-tocopherol-rich-extract), or [extracts of rosemary](/e392-extracts-of-rosemary) to improve overall stability.
+Food fats and oils can turn rancid when oxygen and trace metals kick off oxidation. Isopropyl citrates act as an antioxidant and a sequestrant (a metal-binding helper), so they slow that process and help preserve flavor, aroma, and color.[^1] In practice, they are often used alongside primary antioxidants such as [butylated hydroxyanisole (BHA)](/e320-butylated-hydroxyanisole-bha){.additive}, [butylated hydroxytoluene (BHT)](/e321-butylated-hydroxytoluene){.additive}, [propyl gallate](/e310-propyl-gallate){.additive}, [tocopherol-rich extract](/e306-tocopherol-rich-extract){.additive}, or [extracts of rosemary](/e392-extracts-of-rosemary){.additive} to improve overall stability.
 
 “Sequestrant” means a substance that binds metal ions like iron and copper. By tying up these metals, isopropyl citrates reduce the speed of oxidation in sensitive foods like oils and fat-based spreads.[^1]
 
@@ -26,8 +26,8 @@ Always check the ingredient list for “Isopropyl citrates” or “E384.”
 
 ## What can replace Isopropyl citrates?
 Alternatives depend on the food and the reason for use:
-- Other antioxidants: [Ascorbic acid](/e300-ascorbic-acid), [tocopherol-rich extract](/e306-tocopherol-rich-extract), [extracts of rosemary](/e392-extracts-of-rosemary), [BHA](/e320-butylated-hydroxyanisole-bha), [BHT](/e321-butylated-hydroxytoluene), or [propyl gallate](/e310-propyl-gallate).
-- Other sequestrants (metal binders): [Citric acid](/e330-citric-acid) or [calcium disodium EDTA](/e385-calcium-disodium-ethylenediaminetetraacetate), used where allowed.
+- Other antioxidants: [Ascorbic acid](/e300-ascorbic-acid){.additive}, [tocopherol-rich extract](/e306-tocopherol-rich-extract){.additive}, [extracts of rosemary](/e392-extracts-of-rosemary){.additive}, [BHA](/e320-butylated-hydroxyanisole-bha){.additive}, [BHT](/e321-butylated-hydroxytoluene){.additive}, or [propyl gallate](/e310-propyl-gallate){.additive}.
+- Other sequestrants (metal binders): [Citric acid](/e330-citric-acid){.additive} or [calcium disodium EDTA](/e385-calcium-disodium-ethylenediaminetetraacetate){.additive}, used where allowed.
 - Process choices: Using fresher oils, inert gas packing, light-proof packaging, and lower storage temperatures.
 
 The best choice depends on the product’s flavor, texture, shelf-life goals, and the regulations in the country where it is sold.
@@ -49,7 +49,7 @@ For the food itself, yes: it helps fats and oils keep their intended taste and a
 - For infant and special medical diets, always follow product-specific guidance and regulations, and consult a healthcare professional.
 
 ## Myths & facts
-- “It’s just citric acid.” Not quite. Isopropyl citrates are esters of citric acid designed to act as antioxidants and metal binders; they behave differently than plain [citric acid](/e330-citric-acid).
+- “It’s just citric acid.” Not quite. Isopropyl citrates are esters of citric acid designed to act as antioxidants and metal binders; they behave differently than plain [citric acid](/e330-citric-acid){.additive}.
 - “If it’s in food, it must be everywhere.” Its use is limited to certain foods and levels set by law, and many products do not use it.[^2][^3]
 - “All antioxidants are the same.” Different antioxidants and sequestrants work in different ways and are chosen to match the specific food.
 

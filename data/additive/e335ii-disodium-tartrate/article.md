@@ -7,7 +7,7 @@ Disodium tartrate (E335ii) is the sodium salt of L(+)-tartaric acid, used to con
 - What it does: controls acidity (acts as a buffer), binds metal ions (sequestrant), and helps stabilize color and flavor.
 - Where it’s used: a wide range of processed foods and drinks in the EU, applied at levels needed for the effect.
 - Label names: “disodium tartrate,” “E335ii,” or the broader group “sodium tartrates (E335).”
-- Related additives: [L‑tartaric acid](/e334-l-tartaric-acid), [potassium tartrates](/e336-potassium-tartrates), and [sodium tartrates](/e335-sodium-tartrates).
+- Related additives: [L‑tartaric acid](/e334-l-tartaric-acid){.additive}, [potassium tartrates](/e336-potassium-tartrates){.additive}, and [sodium tartrates](/e335-sodium-tartrates){.additive}.
 - How it’s made: by neutralizing L(+)-tartaric acid with sodium hydroxide or sodium carbonate.
 - Safety: authorized in the EU with detailed specifications; people limiting sodium should count it toward daily sodium intake.
 
@@ -19,8 +19,8 @@ You may see disodium tartrate on ingredient lists for flavored drinks, confectio
 
 ## What can replace Disodium tartrate?
 Depending on the job in the recipe, makers might choose:
-- For acidity control: [citric acid](/e330-citric-acid), [malic acid](/e296-malic-acid), or [phosphoric acid](/e338-phosphoric-acid).
-- For buffering capacity: [sodium citrates](/e331-sodium-citrates) or [sodium phosphates](/e339-sodium-phosphates) and [potassium phosphates](/e340-potassium-phosphates).
+- For acidity control: [citric acid](/e330-citric-acid){.additive}, [malic acid](/e296-malic-acid){.additive}, or [phosphoric acid](/e338-phosphoric-acid){.additive}.
+- For buffering capacity: [sodium citrates](/e331-sodium-citrates){.additive} or [sodium phosphates](/e339-sodium-phosphates){.additive} and [potassium phosphates](/e340-potassium-phosphates){.additive}.
 - For metal ion control: citrates or phosphates can also act as sequestrants in some systems.
 
 Each alternative has its own taste impact, solubility, and regulatory limits, so substitutions are made case by case.

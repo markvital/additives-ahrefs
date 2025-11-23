@@ -9,7 +9,7 @@ Calcium Disulphite (E225) is a member of the “sulfites” group used to slow s
 - Who should avoid it: People with sulfite sensitivity or certain asthma should avoid sulfites.
 
 ## Why is Calcium Disulphite added to food?
-Manufacturers use sulfites to keep foods from turning brown and to extend shelf life. They work in two main ways: as antioxidants (limiting oxidation) and as preservatives (inhibiting microbes). Calcium Disulphite fits this profile, but in practice producers more often choose closely related additives such as [sulphur dioxide](/e220-sulphur-dioxide), [sodium metabisulphite](/e223-sodium-metabisulphite), or [potassium metabisulphite](/e224-potassium-metabisulphite). The current EU specifications list covers sulfites E220–E224 and E226–E228 and does not include E225 as an authorised specification, which helps explain its rarity on labels.[^1]
+Manufacturers use sulfites to keep foods from turning brown and to extend shelf life. They work in two main ways: as antioxidants (limiting oxidation) and as preservatives (inhibiting microbes). Calcium Disulphite fits this profile, but in practice producers more often choose closely related additives such as [sulphur dioxide](/e220-sulphur-dioxide){.additive}, [sodium metabisulphite](/e223-sodium-metabisulphite){.additive}, or [potassium metabisulphite](/e224-potassium-metabisulphite){.additive}. The current EU specifications list covers sulfites E220–E224 and E226–E228 and does not include E225 as an authorised specification, which helps explain its rarity on labels.[^1]
 
 ## What foods contain Calcium Disulphite?
 You are unlikely to find “Calcium Disulphite (E225)” named on today’s ingredient lists. Where older references mention it, the intended uses are similar to those for other sulfites:
@@ -17,13 +17,13 @@ You are unlikely to find “Calcium Disulphite (E225)” named on today’s ingr
 - Dried fruit and some pickled products
 - Certain crustaceans (like shrimp) during processing
 
-In practice, these foods are usually preserved with [sulphur dioxide](/e220-sulphur-dioxide), [sodium metabisulphite](/e223-sodium-metabisulphite), [potassium metabisulphite](/e224-potassium-metabisulphite), [calcium sulphite](/e226-calcium-sulphite), [calcium bisulphite](/e227-calcium-bisulphite), or [potassium bisulphite](/e228-potassium-bisulphite). In the U.S., when sulfites are present at 10 parts per million (ppm) or more, they must be declared on the label.[^3] Wine that contains at least 10 ppm sulfites must also state “Contains sulfites.”[^4]
+In practice, these foods are usually preserved with [sulphur dioxide](/e220-sulphur-dioxide){.additive}, [sodium metabisulphite](/e223-sodium-metabisulphite){.additive}, [potassium metabisulphite](/e224-potassium-metabisulphite){.additive}, [calcium sulphite](/e226-calcium-sulphite){.additive}, [calcium bisulphite](/e227-calcium-bisulphite){.additive}, or [potassium bisulphite](/e228-potassium-bisulphite){.additive}. In the U.S., when sulfites are present at 10 parts per million (ppm) or more, they must be declared on the label.[^3] Wine that contains at least 10 ppm sulfites must also state “Contains sulfites.”[^4]
 
 ## What can replace Calcium Disulphite?
 If a recipe or product calls for E225, common swaps are:
-- Other sulfites where permitted: [sulphur dioxide](/e220-sulphur-dioxide), [sodium metabisulphite](/e223-sodium-metabisulphite), [potassium metabisulphite](/e224-potassium-metabisulphite)
-- Antioxidants that limit browning: [ascorbic acid](/e300-ascorbic-acid), [sodium ascorbate](/e301-sodium-ascorbate), [citric acid](/e330-citric-acid), [extracts of rosemary](/e392-extracts-of-rosemary)
-- Preservatives for microbial control (where suitable): [sorbic acid](/e200-sorbic-acid), [potassium sorbate](/e202-potassium-sorbate), [sodium benzoate](/e211-sodium-benzoate)
+- Other sulfites where permitted: [sulphur dioxide](/e220-sulphur-dioxide){.additive}, [sodium metabisulphite](/e223-sodium-metabisulphite){.additive}, [potassium metabisulphite](/e224-potassium-metabisulphite){.additive}
+- Antioxidants that limit browning: [ascorbic acid](/e300-ascorbic-acid){.additive}, [sodium ascorbate](/e301-sodium-ascorbate){.additive}, [citric acid](/e330-citric-acid){.additive}, [extracts of rosemary](/e392-extracts-of-rosemary){.additive}
+- Preservatives for microbial control (where suitable): [sorbic acid](/e200-sorbic-acid){.additive}, [potassium sorbate](/e202-potassium-sorbate){.additive}, [sodium benzoate](/e211-sodium-benzoate){.additive}
 - Non-additive options: pH control (more acidity), lower oxygen exposure, refrigeration, or shorter shelf life
 
 ## How is Calcium Disulphite made?
@@ -32,7 +32,7 @@ Sulfites are typically produced by absorbing sulphur dioxide gas into an aqueous
 ## Is Calcium Disulphite safe to eat?
 Safety for sulfites has been evaluated as a group. The European Food Safety Authority (EFSA) set a group acceptable daily intake (ADI) of 0.7 mg per kilogram of body weight per day, expressed as sulphur dioxide equivalents. EFSA also noted that some consumers—especially children—may exceed this intake from high-sulfite foods.[^2] In the U.S., sulfites must be declared on labels when present at 10 ppm or more, which helps sensitive consumers avoid them.[^3] For wine, a “Contains sulfites” statement is required at the same threshold.[^4]
 
-Because E225 is not widely authorised on its own, most safety and compliance questions in real products relate to the specific sulfite that is permitted and used (for example, [potassium metabisulphite](/e224-potassium-metabisulphite) or [sodium metabisulphite](/e223-sodium-metabisulphite)).
+Because E225 is not widely authorised on its own, most safety and compliance questions in real products relate to the specific sulfite that is permitted and used (for example, [potassium metabisulphite](/e224-potassium-metabisulphite){.additive} or [sodium metabisulphite](/e223-sodium-metabisulphite){.additive}).
 
 ## Does Calcium Disulphite have any benefits?
 - Helps retain color and freshness by preventing enzymatic browning.
@@ -51,7 +51,7 @@ People with sulfite sensitivity—including some individuals with asthma—shoul
 - Myth: “All sulfites are banned.” Fact: Many sulfites are authorised with conditions; E225 specifically is uncommon and not broadly authorised as its own entry in the EU specifications.
 
 ## Calcium Disulphite in branded foods
-Modern brands seldom list “Calcium Disulphite (E225).” Instead, you’ll typically see “sulphites,” “sulphur dioxide,” or specific salts like [potassium metabisulphite](/e224-potassium-metabisulphite) on wines and ciders, or [sodium metabisulphite](/e223-sodium-metabisulphite) on shelf-stable products. If you avoid sulfites, scan ingredient lists and look for the mandatory sulfite declaration where required.
+Modern brands seldom list “Calcium Disulphite (E225).” Instead, you’ll typically see “sulphites,” “sulphur dioxide,” or specific salts like [potassium metabisulphite](/e224-potassium-metabisulphite){.additive} on wines and ciders, or [sodium metabisulphite](/e223-sodium-metabisulphite){.additive} on shelf-stable products. If you avoid sulfites, scan ingredient lists and look for the mandatory sulfite declaration where required.
 
 ## References
 [^1]: Commission Regulation (EU) No 231/2012 — EU specifications for food additives (sulphur dioxide and sulphites E220–E224, E226–E228). https://eur-lex.europa.eu/eli/reg/2012/231/oj

@@ -2,7 +2,7 @@ Acid esters of mono- and diglycerides of fatty acids (E472) are a family of emul
 <!--more-->
 
 ## At a glance
-- What it is: A group of emulsifiers formed by attaching common food acids to [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids).[^1]
+- What it is: A group of emulsifiers formed by attaching common food acids to [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive}.[^1]
 - The subtypes: E472a–g, covering acetic, lactic, citric, tartaric, mono- and diacetyltartaric, mixed acetic/tartaric, and succinic acid esters.[^1]
 - What it does: Improves mixing of oil and water, stabilizes foams and emulsions, and enhances dough strength and crumb softness.
 - Where it’s used: Bread and rolls, cakes, pastries, margarines and spreads, coffee whiteners, sauces and dressings, ice cream, confectionery, and filled wafers.[^2]
@@ -22,22 +22,22 @@ You may find one or more E472 types in:
 - Frozen desserts such as ice cream and frozen yogurt[^2]
 
 On labels, the specific subtype may be named, for example:
-- E472a — [acetic acid esters of mono- and diglycerides](/e472a-acetic-acid-esters-of-mono-and-diglycerides-of-fatty-acids)
-- E472b — [lactic acid esters](/e472b-lactic-acid-esters-of-mono-and-diglycerides-of-fatty-acids)
-- E472c — [citric acid esters](/e472c-citric-acid-esters-of-mono-and-diglycerides-of-fatty-acids)
-- E472d — [tartaric acid esters](/e472d-tartaric-acid-esters-of-mono-and-diglycerides-of-fatty-acids)
-- E472e — [mono- and diacetyltartaric acid esters](/e472e-mono-and-diacetyltartaric-acid-esters-of-mono-and-diglycerides-of-fatty-acids) (often called DATEM)
-- E472f — [mixed acetic and tartaric acid esters](/e472f-mixed-acetic-and-tartaric-acid-esters-of-mono-and-diglycerides-of-fatty-acids)
-- E472g — [succinylated monoglycerides](/e472g-succinylated-monoglycerides)[^1]
+- E472a — [acetic acid esters of mono- and diglycerides](/e472a-acetic-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive}
+- E472b — [lactic acid esters](/e472b-lactic-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive}
+- E472c — [citric acid esters](/e472c-citric-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive}
+- E472d — [tartaric acid esters](/e472d-tartaric-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive}
+- E472e — [mono- and diacetyltartaric acid esters](/e472e-mono-and-diacetyltartaric-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive} (often called DATEM)
+- E472f — [mixed acetic and tartaric acid esters](/e472f-mixed-acetic-and-tartaric-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive}
+- E472g — [succinylated monoglycerides](/e472g-succinylated-monoglycerides){.additive}[^1]
 
 ## What can replace acid esters of mono- and diglycerides of fatty acids?
 Possible alternatives depend on the food and the job needed:
-- For dough strengthening and emulsification in baked goods: [mono- and diglycerides](/e471-mono-and-diglycerides-of-fatty-acids), [sodium stearoyl-2-lactylate](/e481-sodium-stearoyl-2-lactylate), [calcium stearoyl-2-lactylate](/e482-calcium-stearoyl-2-lactylate)
-- For water-in-oil or oil-in-water emulsions: [lecithins](/e322-lecithins), [sucrose esters of fatty acids](/e473-sucrose-esters-of-fatty-acids), [polyglycerol polyricinoleate](/e476-polyglycerol-polyricinoleate) in chocolate systems
-- For thickening and stability in sauces and dairy-style products: [xanthan gum](/e415-xanthan-gum), [guar gum](/e412-guar-gum)
+- For dough strengthening and emulsification in baked goods: [mono- and diglycerides](/e471-mono-and-diglycerides-of-fatty-acids){.additive}, [sodium stearoyl-2-lactylate](/e481-sodium-stearoyl-2-lactylate){.additive}, [calcium stearoyl-2-lactylate](/e482-calcium-stearoyl-2-lactylate){.additive}
+- For water-in-oil or oil-in-water emulsions: [lecithins](/e322-lecithins){.additive}, [sucrose esters of fatty acids](/e473-sucrose-esters-of-fatty-acids){.additive}, [polyglycerol polyricinoleate](/e476-polyglycerol-polyricinoleate){.additive} in chocolate systems
+- For thickening and stability in sauces and dairy-style products: [xanthan gum](/e415-xanthan-gum){.additive}, [guar gum](/e412-guar-gum){.additive}
 
 ## How is acid esters of mono- and diglycerides of fatty acids made?
-Manufacturers start with edible fats and oils to produce mono- and diglycerides, then react them with specific food acids such as [acetic acid](/e260-acetic-acid), [lactic acid](/e270-lactic-acid), [citric acid](/e330-citric-acid), [L-tartaric acid](/e334-l-tartaric-acid), or [succinic acid](/e363-succinic-acid). The EU specifications describe the permitted source materials, the reaction products for each subtype (E472a–g), and purity limits for contaminants and residuals.[^1]
+Manufacturers start with edible fats and oils to produce mono- and diglycerides, then react them with specific food acids such as [acetic acid](/e260-acetic-acid){.additive}, [lactic acid](/e270-lactic-acid){.additive}, [citric acid](/e330-citric-acid){.additive}, [L-tartaric acid](/e334-l-tartaric-acid){.additive}, or [succinic acid](/e363-succinic-acid){.additive}. The EU specifications describe the permitted source materials, the reaction products for each subtype (E472a–g), and purity limits for contaminants and residuals.[^1]
 
 ## Is acid esters of mono- and diglycerides of fatty acids safe to eat?
 In the European Union, the E472 group is authorized as food additives, subject to conditions of use set in Regulation (EC) No 1333/2008 and detailed identity and purity criteria in Commission Regulation (EU) No 231/2012.[^2][^1] These specifications include limits for heavy metals (such as lead) and define acceptable starting materials and by-products, which are part of how regulators manage safety.[^1] In the United States, certain members of this group (for example, DATEM and lactic acid esters) are allowed in specific meat and poultry applications under USDA Food Safety and Inspection Service policy.[^3]

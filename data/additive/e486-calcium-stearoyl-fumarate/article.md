@@ -16,12 +16,12 @@ When authorized, E486 is used in selected processed foods where emulsification o
 
 ## What can replace Calcium stearoyl fumarate?
 Possible functional alternatives depend on the recipe and labeling goals:
-- Emulsifiers for baking: [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids), [mono- and diacetyl tartaric acid esters of mono- and diglycerides](/e472e-mono-and-diacetyltartaric-acid-esters-of-mono-and-diglycerides-of-fatty-acids), [sodium stearoyl-2-lactylate](/e481-sodium-stearoyl-2-lactylate), [calcium stearoyl-2-lactylate](/e482-calcium-stearoyl-2-lactylate)
-- Texture aids: [xanthan gum](/e415-xanthan-gum)
-- Dough conditioners (where allowed): [L-cysteine](/e920-l-cysteine)
+- Emulsifiers for baking: [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive}, [mono- and diacetyl tartaric acid esters of mono- and diglycerides](/e472e-mono-and-diacetyltartaric-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive}, [sodium stearoyl-2-lactylate](/e481-sodium-stearoyl-2-lactylate){.additive}, [calcium stearoyl-2-lactylate](/e482-calcium-stearoyl-2-lactylate){.additive}
+- Texture aids: [xanthan gum](/e415-xanthan-gum){.additive}
+- Dough conditioners (where allowed): [L-cysteine](/e920-l-cysteine){.additive}
 
 ## How is Calcium stearoyl fumarate made?
-Chemically, E486 is the calcium salt of stearoyl fumaric acid. It is produced from fumaric acid ([E297](/e297-fumaric-acid)) and long-chain fatty acids (often from the [fatty acids](/e570-fatty-acids) pool), then neutralized with calcium to form the calcium salt. In the European Union, detailed identity and purity specifications for E486 are laid down in Commission Regulation (EU) No 231/2012.[^3]
+Chemically, E486 is the calcium salt of stearoyl fumaric acid. It is produced from fumaric acid ([E297](/e297-fumaric-acid){.additive}) and long-chain fatty acids (often from the [fatty acids](/e570-fatty-acids){.additive} pool), then neutralized with calcium to form the calcium salt. In the European Union, detailed identity and purity specifications for E486 are laid down in Commission Regulation (EU) No 231/2012.[^3]
 
 ## Is Calcium stearoyl fumarate safe to eat?
 In the EU, food additives are authorized only after safety evaluation, and each additive must meet strict identity and purity specifications. Calcium stearoyl fumarate has EU specifications and, where it is permitted for use, must comply with the applicable maximum levels set in food law.[^4][^5] As with any additive, actual exposure depends on how much is used in foods and how often those foods are eaten.

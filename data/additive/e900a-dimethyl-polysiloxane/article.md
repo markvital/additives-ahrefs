@@ -26,7 +26,7 @@ In many cases it is a “processing aid,” used to control foam during producti
 There are several ways to reduce foam if a product developer prefers not to use PDMS:
 - Process tweaks: lower agitation, temperature control, and better tank headspace
 - Equipment choices: spray balls, baffles, and fine filtration of oils
-- Other additives with defoaming or de-aerating action, depending on the food: some polysorbates such as [polyoxyethylene sorbitan monolaurate](/e432-polyoxyethylene-sorbitan-monolaurate), [polyoxyethylene sorbitan monooleate](/e433-polyoxyethylene-sorbitan-monooleate), or [polyoxyethylene sorbitan monostearate](/e435-polyoxyethylene-sorbitan-monostearate) can help manage bubbles in certain systems
+- Other additives with defoaming or de-aerating action, depending on the food: some polysorbates such as [polyoxyethylene sorbitan monolaurate](/e432-polyoxyethylene-sorbitan-monolaurate){.additive}, [polyoxyethylene sorbitan monooleate](/e433-polyoxyethylene-sorbitan-monooleate){.additive}, or [polyoxyethylene sorbitan monostearate](/e435-polyoxyethylene-sorbitan-monostearate){.additive} can help manage bubbles in certain systems
 - Use of specially refined vegetable oils as “mechanical” antifoams
 
 The best substitute depends on the product, process, and local rules.

@@ -24,8 +24,8 @@ On ingredient lists, it may appear as “Beetroot red,” “betanin,” “beet
 
 ## What can replace Beetroot red?
 Depending on the target shade and processing conditions, formulators may choose:
-- Other natural reds: [anthocyanins](/e163-anthocyanins) (berry/grape sources), [cochineal](/e120-cochineal) (carmine), or [paprika extract](/e160c-paprika-extract) for orange‑red tones.
-- Synthetic reds where permitted: [Allura Red](/e129-allura-red), [Ponceau 4R](/e124-ponceau-4r), or [erythrosine](/e127-erythrosine).
+- Other natural reds: [anthocyanins](/e163-anthocyanins){.additive} (berry/grape sources), [cochineal](/e120-cochineal){.additive} (carmine), or [paprika extract](/e160c-paprika-extract){.additive} for orange‑red tones.
+- Synthetic reds where permitted: [Allura Red](/e129-allura-red){.additive}, [Ponceau 4R](/e124-ponceau-4r){.additive}, or [erythrosine](/e127-erythrosine){.additive}.
 
 Note that each color behaves differently in heat, light, and varying acidity, so substitutions are not always 1:1.
 
@@ -48,7 +48,7 @@ Beetroot red does not add significant nutrition at the levels used for coloring.
 - Myth: All red colors are synthetic. Fact: E162 is made from beets, a plant source.
 
 ## Beetroot red in branded foods
-On packaged foods, look for “Beetroot red,” “betanin,” “beet juice (for color),” or “E162” in the ingredient list. It is common in pink yogurts and smoothies, fruit chews and gummies, ice creams and frozen novelties, and fruit-based sauces. Some products may blend E162 with acidity regulators like [citric acid](/e330-citric-acid) to fine‑tune hue in the finished recipe.
+On packaged foods, look for “Beetroot red,” “betanin,” “beet juice (for color),” or “E162” in the ingredient list. It is common in pink yogurts and smoothies, fruit chews and gummies, ice creams and frozen novelties, and fruit-based sauces. Some products may blend E162 with acidity regulators like [citric acid](/e330-citric-acid){.additive} to fine‑tune hue in the finished recipe.
 
 ## References
 [^1]: Commission Regulation (EU) No 231/2012 — Specifications for food additives. https://eur-lex.europa.eu/eli/reg/2012/231/oj

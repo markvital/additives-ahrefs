@@ -21,17 +21,17 @@ You’ll most often see tricalcium citrate in:
 - Powdered drink mixes and instant beverages
 - Confectionery and chewables where added calcium is desired
 
-On ingredient lists, it may appear alongside other citrates such as [citric acid](/e330-citric-acid) or [sodium citrates](/e331-sodium-citrates).
+On ingredient lists, it may appear alongside other citrates such as [citric acid](/e330-citric-acid){.additive} or [sodium citrates](/e331-sodium-citrates){.additive}.
 
 ## What can replace Tricalcium citrate?
 Alternatives depend on the job you want done:
-- For calcium fortification: [calcium carbonate](/e170i-calcium-carbonate) or [tricalcium phosphate](/e341iii-tricalcium-phosphate)
-- For buffering or chelating (binding metals): [citric acid](/e330-citric-acid), [sodium citrates](/e331-sodium-citrates), or [potassium citrates](/e332-potassium-citrates)
+- For calcium fortification: [calcium carbonate](/e170i-calcium-carbonate){.additive} or [tricalcium phosphate](/e341iii-tricalcium-phosphate){.additive}
+- For buffering or chelating (binding metals): [citric acid](/e330-citric-acid){.additive}, [sodium citrates](/e331-sodium-citrates){.additive}, or [potassium citrates](/e332-potassium-citrates){.additive}
 
 Each option behaves a bit differently in taste, solubility, and how it changes acidity.
 
 ## How is Tricalcium citrate made?
-Tricalcium citrate is typically produced by neutralising food-grade [citric acid](/e330-citric-acid) with a calcium source such as [calcium carbonate](/e170i-calcium-carbonate) or calcium hydroxide. The reaction forms calcium citrate, which is filtered, washed, and dried to meet food purity standards. EU specifications set identity and purity criteria for E333, including limits on moisture and impurities.[^2]
+Tricalcium citrate is typically produced by neutralising food-grade [citric acid](/e330-citric-acid){.additive} with a calcium source such as [calcium carbonate](/e170i-calcium-carbonate){.additive} or calcium hydroxide. The reaction forms calcium citrate, which is filtered, washed, and dried to meet food purity standards. EU specifications set identity and purity criteria for E333, including limits on moisture and impurities.[^2]
 
 ## Is Tricalcium citrate safe to eat?
 In the EU re‑evaluation of citrates, EFSA concluded there was no safety concern for calcium citrates (E333) at reported use levels in foods.[^1] In the United States, calcium citrate appears on FDA’s Food Additive Status List and is generally recognized as safe (GRAS) when used as intended.[^3]
@@ -49,9 +49,9 @@ Yes. Its main benefit is supplying calcium for bone health when used to fortify 
 Most people can consume tricalcium citrate in normal food amounts without issues.
 
 ## Myths & facts
-- Myth: “It’s the same as [citric acid](/e330-citric-acid).” Fact: It’s a calcium salt of citric acid, used for different reasons (stability, calcium fortification).
+- Myth: “It’s the same as [citric acid](/e330-citric-acid){.additive}.” Fact: It’s a calcium salt of citric acid, used for different reasons (stability, calcium fortification).
 - Myth: “It makes food very sour.” Fact: Tricalcium citrate is nearly tasteless; it buffers acidity rather than adding strong sourness.
-- Myth: “All citrates are identical.” Fact: Different citrates, like [sodium citrates](/e331-sodium-citrates) and [potassium citrates](/e332-potassium-citrates), behave differently in taste, solubility, and sodium/potassium content.
+- Myth: “All citrates are identical.” Fact: Different citrates, like [sodium citrates](/e331-sodium-citrates){.additive} and [potassium citrates](/e332-potassium-citrates){.additive}, behave differently in taste, solubility, and sodium/potassium content.
 - Myth: “It’s a preservative.” Fact: It doesn’t preserve by killing microbes; it helps protect quality by binding metals and stabilising texture.
 
 ## Tricalcium citrate in branded foods

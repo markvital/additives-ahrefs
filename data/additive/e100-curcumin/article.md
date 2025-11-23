@@ -25,10 +25,10 @@ Rules about where and how much can be used vary by country, but the use is widel
 
 ## What can replace Curcumin?
 When a similar shade is needed, manufacturers might switch to:
-- Plant colors such as [beta‑carotene](/e160ai-beta-carotene), [annatto](/e160b-annatto), or [paprika extract](/e160c-paprika-extract)
-- Vitamins with color like [riboflavin](/e101-riboflavin)
-- A synthetic lemon‑yellow like [tartrazine](/e102-tartrazine)
-- Specialty natural options such as [saffron](/e164-saffron)
+- Plant colors such as [beta‑carotene](/e160ai-beta-carotene){.additive}, [annatto](/e160b-annatto){.additive}, or [paprika extract](/e160c-paprika-extract){.additive}
+- Vitamins with color like [riboflavin](/e101-riboflavin){.additive}
+- A synthetic lemon‑yellow like [tartrazine](/e102-tartrazine){.additive}
+- Specialty natural options such as [saffron](/e164-saffron){.additive}
 
 The best substitute depends on the target shade, clarity, processing conditions, and whether a “natural” label is important.
 

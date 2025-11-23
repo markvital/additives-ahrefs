@@ -28,16 +28,16 @@ On labels, look for “locust bean gum,” “carob bean gum,” “carob gum,�
 
 ## What can replace locust bean gum?
 Depending on the recipe, these additives may play a similar role:
-- [Xanthan gum](/e415-xanthan-gum) for strong thickening at low doses
-- [Guar gum](/e412-guar-gum) for cold-thickening and high viscosity
-- [Gellan gum](/e418-gellan-gum) for fluid gels and clarity
-- [Carrageenan](/e407-carrageenan) for dairy stabilization
-- [Agar](/e406-agar) for firm gels
-- [Pectins](/e440-pectins) for fruit gels and jams
-- [Sodium alginate](/e401-sodium-alginate) for heat-stable gels
-- [Tara gum](/e417-tara-gum) as a closely related galactomannan
-- [Cellulose](/e460-cellulose) or [modified starches](/e14xx-modified-starch) for body and thickness
-- [Sodium carboxymethylcellulose](/e466-sodium-carboxy-methyl-cellulose) for stable, smooth viscosity
+- [Xanthan gum](/e415-xanthan-gum){.additive} for strong thickening at low doses
+- [Guar gum](/e412-guar-gum){.additive} for cold-thickening and high viscosity
+- [Gellan gum](/e418-gellan-gum){.additive} for fluid gels and clarity
+- [Carrageenan](/e407-carrageenan){.additive} for dairy stabilization
+- [Agar](/e406-agar){.additive} for firm gels
+- [Pectins](/e440-pectins){.additive} for fruit gels and jams
+- [Sodium alginate](/e401-sodium-alginate){.additive} for heat-stable gels
+- [Tara gum](/e417-tara-gum){.additive} as a closely related galactomannan
+- [Cellulose](/e460-cellulose){.additive} or [modified starches](/e14xx-modified-starch){.additive} for body and thickness
+- [Sodium carboxymethylcellulose](/e466-sodium-carboxy-methyl-cellulose){.additive} for stable, smooth viscosity
 
 ## How is locust bean gum made?
 The gum comes from the carob seed’s endosperm. Manufacturers separate the seeds from carob pods, remove the outer husk and the germ, then mill the endosperm to a fine powder. Further steps like screening, purification with water, and heat treatment help meet food-grade purity and safety specs.[^1][^2]

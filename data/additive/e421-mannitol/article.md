@@ -20,14 +20,14 @@ You’ll most often find mannitol in:
 - Powdered drink mixes and instant dessert mixes
 - Some reduced-sugar baked goods and snack coatings
 
-It may be used on its own or together with other polyol sweeteners such as [sorbitol](/e420-sorbitol), [xylitol](/e967-xylitol), [isomalt](/e953-isomalt), or [erythritol](/e968-erythritol). In the EU, mannitol (E421) is an approved additive for specified food categories and use levels.[^5]
+It may be used on its own or together with other polyol sweeteners such as [sorbitol](/e420-sorbitol){.additive}, [xylitol](/e967-xylitol){.additive}, [isomalt](/e953-isomalt){.additive}, or [erythritol](/e968-erythritol){.additive}. In the EU, mannitol (E421) is an approved additive for specified food categories and use levels.[^5]
 
 ## What can replace Mannitol?
 Alternatives depend on the job you need done:
-- For bulk sweetening with similar “cooling” taste: [xylitol](/e967-xylitol), [isomalt](/e953-isomalt), or [erythritol](/e968-erythritol)
-- For stronger sweetness without bulk: high-intensity sweeteners like [sucralose](/e955-sucralose), [aspartame](/e951-aspartame), or [acesulfame K](/e950-acesulfame-k), paired with a bulking agent
-- For anti-caking or flow: [silicon dioxide](/e551-silicon-dioxide) or [calcium silicate](/e552-calcium-silicate)
-- For humectancy (to hold moisture) rather than dryness: [sorbitol](/e420-sorbitol)
+- For bulk sweetening with similar “cooling” taste: [xylitol](/e967-xylitol){.additive}, [isomalt](/e953-isomalt){.additive}, or [erythritol](/e968-erythritol){.additive}
+- For stronger sweetness without bulk: high-intensity sweeteners like [sucralose](/e955-sucralose){.additive}, [aspartame](/e951-aspartame){.additive}, or [acesulfame K](/e950-acesulfame-k){.additive}, paired with a bulking agent
+- For anti-caking or flow: [silicon dioxide](/e551-silicon-dioxide){.additive} or [calcium silicate](/e552-calcium-silicate){.additive}
+- For humectancy (to hold moisture) rather than dryness: [sorbitol](/e420-sorbitol){.additive}
 
 ## How is Mannitol made?
 Commercial mannitol is typically produced by catalytic hydrogenation of sugars (for example, from starch hydrolysates or invert sugar) followed by purification and crystallization to meet food-grade specifications.[^4] EU specifications define identity and purity criteria for E421, including limits on related sugars and metals.[^4]

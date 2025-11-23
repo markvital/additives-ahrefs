@@ -6,7 +6,7 @@ Calcium silicate (E552) is a mineral-based food additive used mainly as an anti-
 - What it is: A fine, white mineral powder made from calcium and silica; also called E552.
 - What it does: Prevents clumping by absorbing moisture; keeps powders easy to pour.
 - Where it’s found: Table salt, seasoning mixes, powdered soups and sauces, drink mixes, and some grated or shredded foods.
-- Common swaps: [Silicon dioxide](/e551-silicon-dioxide), [tricalcium phosphate](/e341iii-tricalcium-phosphate), [magnesium carbonates](/e504-magnesium-carbonates), [cellulose](/e460-cellulose), and, in salt, [potassium ferrocyanide](/e536-potassium-ferrocyanide).
+- Common swaps: [Silicon dioxide](/e551-silicon-dioxide){.additive}, [tricalcium phosphate](/e341iii-tricalcium-phosphate){.additive}, [magnesium carbonates](/e504-magnesium-carbonates){.additive}, [cellulose](/e460-cellulose){.additive}, and, in salt, [potassium ferrocyanide](/e536-potassium-ferrocyanide){.additive}.
 - Safety: Recognized by the FDA in the U.S. and specified by the EU for use as an anti-caking agent when used as intended.
 
 ## Why is Calcium silicate added to food?
@@ -19,11 +19,11 @@ You’re most likely to see E552 in free-flowing table salt and salt blends, dry
 
 ## What can replace Calcium silicate?
 Depending on the recipe and regulations, manufacturers may switch to:
-- [Silicon dioxide](/e551-silicon-dioxide) for moisture control in many powders
-- [Tricalcium phosphate](/e341iii-tricalcium-phosphate) in salts, spices, and powdered mixes
-- [Magnesium carbonates](/e504-magnesium-carbonates) as a flow aid
-- [Cellulose](/e460-cellulose) in grated or shredded foods as an anti-caking dust
-- In table salt specifically, [potassium ferrocyanide](/e536-potassium-ferrocyanide) is another common anti-caking agent
+- [Silicon dioxide](/e551-silicon-dioxide){.additive} for moisture control in many powders
+- [Tricalcium phosphate](/e341iii-tricalcium-phosphate){.additive} in salts, spices, and powdered mixes
+- [Magnesium carbonates](/e504-magnesium-carbonates){.additive} as a flow aid
+- [Cellulose](/e460-cellulose){.additive} in grated or shredded foods as an anti-caking dust
+- In table salt specifically, [potassium ferrocyanide](/e536-potassium-ferrocyanide){.additive} is another common anti-caking agent
 
 The best choice depends on taste neutrality, label goals, cost, and the food’s moisture and fat levels.
 

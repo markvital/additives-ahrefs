@@ -23,8 +23,8 @@ On labels, it may appear as “Polysorbate 60” or “Polyoxyethylene sorbitan 
 
 ## What can replace Polyoxyethylene sorbitan monostearate?
 Depending on the recipe, formulators might swap in:
-- Other polysorbates: [polyoxyethylene sorbitan monolaurate](/e432-polyoxyethylene-sorbitan-monolaurate), [polyoxyethylene sorbitan monooleate](/e433-polyoxyethylene-sorbitan-monooleate), [polyoxyethylene sorbitan monopalmitate](/e434-polyoxyethylene-sorbitan-monopalmitate), or [polyoxyethylene sorbitan tristearate](/e436-polyoxyethylene-sorbitan-tristearate)
-- Non-polysorbate emulsifiers: [lecithins](/e322-lecithins), [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids), [sorbitan monostearate](/e491-sorbitan-monostearate), or [sucrose esters of fatty acids](/e473-sucrose-esters-of-fatty-acids)
+- Other polysorbates: [polyoxyethylene sorbitan monolaurate](/e432-polyoxyethylene-sorbitan-monolaurate){.additive}, [polyoxyethylene sorbitan monooleate](/e433-polyoxyethylene-sorbitan-monooleate){.additive}, [polyoxyethylene sorbitan monopalmitate](/e434-polyoxyethylene-sorbitan-monopalmitate){.additive}, or [polyoxyethylene sorbitan tristearate](/e436-polyoxyethylene-sorbitan-tristearate){.additive}
+- Non-polysorbate emulsifiers: [lecithins](/e322-lecithins){.additive}, [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive}, [sorbitan monostearate](/e491-sorbitan-monostearate){.additive}, or [sucrose esters of fatty acids](/e473-sucrose-esters-of-fatty-acids){.additive}
 
 The best alternative depends on taste, texture, and processing needs.
 

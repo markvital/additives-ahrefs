@@ -25,9 +25,9 @@ It may appear as “Leucine,” “L‑leucine,” or “E641” within the ingr
 
 ## What can replace Leucine?
 Depending on the recipe, developers may consider other flavor enhancers:
-- [Glutamic acid](/e620-glutamic-acid) or [monosodium glutamate](/e621-monosodium-glutamate)
-- [Disodium inosinate](/e631-disodium-inosinate) or [disodium guanylate](/e627-disodium-guanylate)
-- [Glycine](/e640i-glycine), which can soften harsh notes in some blends
+- [Glutamic acid](/e620-glutamic-acid){.additive} or [monosodium glutamate](/e621-monosodium-glutamate){.additive}
+- [Disodium inosinate](/e631-disodium-inosinate){.additive} or [disodium guanylate](/e627-disodium-guanylate){.additive}
+- [Glycine](/e640i-glycine){.additive}, which can soften harsh notes in some blends
 
 The best substitute depends on the target flavor profile and labeling goals.
 
@@ -45,7 +45,7 @@ People with maple syrup urine disease (MSUD), a rare inherited disorder of branc
 
 ## Myths & facts
 - Myth: “E‑numbers are always synthetic.” Fact: E‑numbers are just approval codes. E641 is the same leucine found in foods.
-- Myth: “Leucine is the same as MSG.” Fact: Leucine (E641) is a different amino acid from [monosodium glutamate](/e621-monosodium-glutamate); they are not interchangeable in taste or chemistry.
+- Myth: “Leucine is the same as MSG.” Fact: Leucine (E641) is a different amino acid from [monosodium glutamate](/e621-monosodium-glutamate){.additive}; they are not interchangeable in taste or chemistry.
 - Myth: “If it’s in my food, it will boost muscle.” Fact: As an additive, leucine is used in tiny amounts for flavor, not in the amounts used for nutrition.
 
 ## Leucine in branded foods

@@ -18,13 +18,13 @@ You’ll most often see it in cola‑style soft drinks, beers and malt beverages
 
 ## What can replace Ammonia caramel?
 - Other caramel classes, chosen for process or flavor needs:
-  - [plain caramel (E150a)](/e150a-plain-caramel)
-  - [caustic sulphite caramel (E150b)](/e150b-caustic-sulphite-caramel)
-  - [sulphite ammonia caramel (E150d)](/e150d-sulphite-ammonia-caramel)
+  - [plain caramel (E150a)](/e150a-plain-caramel){.additive}
+  - [caustic sulphite caramel (E150b)](/e150b-caustic-sulphite-caramel){.additive}
+  - [sulphite ammonia caramel (E150d)](/e150d-sulphite-ammonia-caramel){.additive}
 - Non‑caramel colors for brown/amber shades:
-  - [annatto (E160b)](/e160b-annatto) for yellow‑orange tones
-  - [vegetable carbon (E153)](/e153-vegetable-carbon) for near‑black
-  - [anthocyanins (E163)](/e163-anthocyanins) blended for red‑brown hues
+  - [annatto (E160b)](/e160b-annatto){.additive} for yellow‑orange tones
+  - [vegetable carbon (E153)](/e153-vegetable-carbon){.additive} for near‑black
+  - [anthocyanins (E163)](/e163-anthocyanins){.additive} blended for red‑brown hues
 Choice depends on the target shade, flavor neutrality, label goals, and process conditions.
 
 ## How is Ammonia caramel made?

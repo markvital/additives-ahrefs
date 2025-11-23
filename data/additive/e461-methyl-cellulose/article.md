@@ -24,9 +24,9 @@ International food standards (Codex Alimentarius) list methyl cellulose as allow
 
 ## What can replace methyl cellulose?
 Possible stand-ins depend on the recipe:
-- Gums: [xanthan gum](/e415-xanthan-gum), [guar gum](/e412-guar-gum), [locust bean gum](/e410-locust-bean-gum), [carrageenan](/e407-carrageenan)
-- Cellulose family: [cellulose](/e460-cellulose), [hydroxypropyl cellulose](/e463-hydroxypropyl-cellulose), [hydroxypropyl methyl cellulose](/e464-hydroxypropyl-methyl-cellulose), [sodium carboxy methyl cellulose](/e466-sodium-carboxy-methyl-cellulose)
-- Other thickeners: [pectins](/e440-pectins)
+- Gums: [xanthan gum](/e415-xanthan-gum){.additive}, [guar gum](/e412-guar-gum){.additive}, [locust bean gum](/e410-locust-bean-gum){.additive}, [carrageenan](/e407-carrageenan){.additive}
+- Cellulose family: [cellulose](/e460-cellulose){.additive}, [hydroxypropyl cellulose](/e463-hydroxypropyl-cellulose){.additive}, [hydroxypropyl methyl cellulose](/e464-hydroxypropyl-methyl-cellulose){.additive}, [sodium carboxy methyl cellulose](/e466-sodium-carboxy-methyl-cellulose){.additive}
+- Other thickeners: [pectins](/e440-pectins){.additive}
 
 Note that few alternatives share methyl cellulose’s heat-gelling behavior, so textures may differ.
 

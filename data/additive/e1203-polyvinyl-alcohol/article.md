@@ -23,9 +23,9 @@ In the European Union (EU), polyvinyl alcohol is an authorised food additive wit
 
 ## What can replace Polyvinyl alcohol?
 Alternatives depend on the job you need done:
-- For glossy, protective coatings on candies or tablets: [shellac](/e904-shellac) or [carnauba wax](/e903-carnauba-wax).
-- For clear, edible films and capsule coatings: [pullulan](/e1204-pullulan), [hydroxypropyl methyl cellulose](/e464-hydroxypropyl-methyl-cellulose), or [methyl cellulose](/e461-methyl-cellulose).
-- For thickening or stabilizing in water-based foods: [xanthan gum](/e415-xanthan-gum), [pectins](/e440-pectins), or [modified starch](/e14xx-modified-starch).
+- For glossy, protective coatings on candies or tablets: [shellac](/e904-shellac){.additive} or [carnauba wax](/e903-carnauba-wax){.additive}.
+- For clear, edible films and capsule coatings: [pullulan](/e1204-pullulan){.additive}, [hydroxypropyl methyl cellulose](/e464-hydroxypropyl-methyl-cellulose){.additive}, or [methyl cellulose](/e461-methyl-cellulose){.additive}.
+- For thickening or stabilizing in water-based foods: [xanthan gum](/e415-xanthan-gum){.additive}, [pectins](/e440-pectins){.additive}, or [modified starch](/e14xx-modified-starch){.additive}.
 
 ## How is Polyvinyl alcohol made?
 Polyvinyl alcohol is produced by hydrolyzing polyvinyl acetate, which removes acetate groups and yields chains of “vinyl alcohol” units. Different grades are made by adjusting the degree of hydrolysis and the polymer chain length, which change film strength, flexibility, and solubility.[^1] It is a synthetic, water-soluble polymer used because it forms clear, strong films that adhere well to many surfaces.[^4]
@@ -39,7 +39,7 @@ In the U.S., the Food and Drug Administration (FDA) permits poly(vinyl alcohol) 
 - For manufacturers: PVOH films are clear, uniform, and stable, which helps with appearance and dosing uniformity, and can protect sensitive ingredients from humidity.
 
 ## Who should avoid Polyvinyl alcohol?
-- People who choose to avoid synthetic additives for personal or dietary reasons may prefer products that use natural coatings like [shellac](/e904-shellac) or [carnauba wax](/e903-carnauba-wax).  
+- People who choose to avoid synthetic additives for personal or dietary reasons may prefer products that use natural coatings like [shellac](/e904-shellac){.additive} or [carnauba wax](/e903-carnauba-wax){.additive}.  
 - Anyone with a history of sensitivity to tablet or capsule coatings should discuss options with a healthcare professional and check labels.  
 - If your clinician has advised you to avoid coated tablets or capsules, choose uncoated forms when possible.
 

@@ -16,9 +16,9 @@ Cassia gum makes watery mixtures thicker and helps keep ingredients from separat
 Rules differ by country, but in the EU cassia gum (E427) is authorised for use only in certain foods listed in the food additives regulation. If used, it must follow the permitted food categories and conditions set in that law.[^2] Outside the EU, allowed uses can vary, so manufacturers follow their local regulations.
 
 ## What can replace Cassia gum?
-- Other galactomannan gums: [guar gum](/e412-guar-gum) and [locust bean gum](/e410-locust-bean-gum)
-- Microbial or seaweed gums: [xanthan gum](/e415-xanthan-gum), [gellan gum](/e418-gellan-gum), and [carrageenan](/e407-carrageenan)
-- Fruit-based gelling agents: [pectins](/e440-pectins)
+- Other galactomannan gums: [guar gum](/e412-guar-gum){.additive} and [locust bean gum](/e410-locust-bean-gum){.additive}
+- Microbial or seaweed gums: [xanthan gum](/e415-xanthan-gum){.additive}, [gellan gum](/e418-gellan-gum){.additive}, and [carrageenan](/e407-carrageenan){.additive}
+- Fruit-based gelling agents: [pectins](/e440-pectins){.additive}
 
 The best substitute depends on the food, the desired thickness, and whether a gel, a pourable sauce, or a creamy mouthfeel is needed.
 
@@ -43,7 +43,7 @@ Most people do not need to avoid cassia gum when it is used as intended. If you 
 - Myth: “It’s added in large amounts.” Fact: Food technologists typically use very small amounts to get the desired texture.
 
 ## Cassia gum in branded foods
-Look for “cassia gum” or “E427” in the ingredient list. Many makers pair it with other gums such as [xanthan gum](/e415-xanthan-gum), [locust bean gum](/e410-locust-bean-gum), or [carrageenan](/e407-carrageenan) to create a specific texture. If you track additives for dietary reasons, checking the label is the most reliable way to know whether a product contains E427.
+Look for “cassia gum” or “E427” in the ingredient list. Many makers pair it with other gums such as [xanthan gum](/e415-xanthan-gum){.additive}, [locust bean gum](/e410-locust-bean-gum){.additive}, or [carrageenan](/e407-carrageenan){.additive} to create a specific texture. If you track additives for dietary reasons, checking the label is the most reliable way to know whether a product contains E427.
 
 ## References
 [^1]: Commission Regulation (EU) No 231/2012 laying down specifications for food additives listed in Annexes II and III to Regulation (EC) No 1333/2008 — E 427 Cassia gum. https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32012R0231

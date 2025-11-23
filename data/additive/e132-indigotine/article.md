@@ -6,7 +6,7 @@ Indigotine (E132), also called indigo carmine or FD&C Blue No. 2, is a bright bl
 - You might see it listed as “FD&C Blue 2,” “Indigo Carmine,” or “E132.”
 - It is approved for use in foods in the U.S. and the EU, with specifications and limits set by regulators.
 - Common uses include candies, flavored drinks, ice pops, dessert mixes, and decorative icings.
-- It is often blended with other colors, such as [brilliant blue FCF](/e133-brilliant-blue-fcf), [allura red](/e129-allura-red), or [tartrazine](/e102-tartrazine), to fine‑tune shades.
+- It is often blended with other colors, such as [brilliant blue FCF](/e133-brilliant-blue-fcf){.additive}, [allura red](/e129-allura-red){.additive}, or [tartrazine](/e102-tartrazine){.additive}, to fine‑tune shades.
 
 ## Why is Indigotine added to food?
 Color helps signal flavor and freshness. Indigotine restores color lost during processing and creates appealing blue or purple tones in foods and drinks. It is valued because it gives a strong, consistent color and holds up better than many natural blues in light, heat, and over time.[^1]
@@ -19,12 +19,12 @@ You can find indigotine in:
 - Frostings, decorative sprinkles, and bakery icings
 - Some processed snacks and cereal pieces
 
-Manufacturers often mix it with other colors like [allura red](/e129-allura-red) or [tartrazine](/e102-tartrazine) to achieve purples, teals, or dark blues.[^1]
+Manufacturers often mix it with other colors like [allura red](/e129-allura-red){.additive} or [tartrazine](/e102-tartrazine){.additive} to achieve purples, teals, or dark blues.[^1]
 
 ## What can replace Indigotine?
-- [Brilliant blue FCF](/e133-brilliant-blue-fcf) (E133): a different synthetic blue with slightly different shade and performance.[^1]
+- [Brilliant blue FCF](/e133-brilliant-blue-fcf){.additive} (E133): a different synthetic blue with slightly different shade and performance.[^1]
 - Plant-based options such as spirulina extract: gives a natural blue in some products but can be less stable to heat and light than synthetic colors.
-- [Anthocyanins](/e163-anthocyanins) (from fruits): may look red to purple in acidic foods and are less color-stable for a true blue.
+- [Anthocyanins](/e163-anthocyanins){.additive} (from fruits): may look red to purple in acidic foods and are less color-stable for a true blue.
 
 The best substitute depends on product pH, processing, shelf life, and the exact shade needed.
 
@@ -46,7 +46,7 @@ Indigotine does not provide nutrition. Its value is practical: it restores or ad
 - Myth: “Indigotine is banned in the EU.”  
   Fact: It is authorized in the EU with specifications and use rules.[^4]
 - Myth: “All blue food colors are the same.”  
-  Fact: Indigotine (FD&C Blue 2) and [brilliant blue FCF](/e133-brilliant-blue-fcf) (FD&C Blue 1) are different color additives with different chemistries and regulatory listings.[^1]
+  Fact: Indigotine (FD&C Blue 2) and [brilliant blue FCF](/e133-brilliant-blue-fcf){.additive} (FD&C Blue 1) are different color additives with different chemistries and regulatory listings.[^1]
 - Myth: “All artificial colors require a hyperactivity warning in Europe.”  
   Fact: The EU warning applies to a specific group of six colors and does not include E132 indigotine.[^4]
 - Myth: “Indigotine is a natural plant dye.”  

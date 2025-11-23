@@ -13,7 +13,7 @@ Isomalt (E953) is a sugar substitute from the polyol family, known for mild swee
 ## Why is isomalt added to food?
 Isomalt brings bulk, sweetness, and structure without the stickiness or browning you get from regular sugar. It is less hygroscopic (takes up less moisture from the air), so candies stay glossy and dry. Its high heat stability makes it ideal for sugar‑free hard candies, center‑filled sweets, and decorative “sugar” work that needs to hold shape.
 
-Because isomalt is only about half as sweet as table sugar, makers often pair it with high‑intensity sweeteners like [sucralose](/e955-sucralose), [acesulfame K](/e950-acesulfame-k), [aspartame](/e951-aspartame), or [steviol glycosides](/e960-steviol-glycosides) to match sugar’s sweetness while keeping the same texture.
+Because isomalt is only about half as sweet as table sugar, makers often pair it with high‑intensity sweeteners like [sucralose](/e955-sucralose){.additive}, [acesulfame K](/e950-acesulfame-k){.additive}, [aspartame](/e951-aspartame){.additive}, or [steviol glycosides](/e960-steviol-glycosides){.additive} to match sugar’s sweetness while keeping the same texture.
 
 ## What foods contain isomalt?
 You’ll most often see isomalt in:
@@ -28,10 +28,10 @@ On ingredient lists it appears as “isomalt” or “E953” (in the EU).
 
 ## What can replace isomalt?
 Alternatives depend on the job you need done:
-- For bulk sweetness with similar candy performance: [maltitol](/e965-maltitol) or [lactitol](/e966-lactitol)
-- For a stronger cooling effect: [xylitol](/e967-xylitol) or [erythritol](/e968-erythritol)
-- For chewing gum and soft textures: [sorbitol](/e420-sorbitol) or [mannitol](/e421-mannitol)
-- For extra bulk without much sweetness: [polydextrose](/e1200-polydextrose) or [glycerol](/e422-glycerol)
+- For bulk sweetness with similar candy performance: [maltitol](/e965-maltitol){.additive} or [lactitol](/e966-lactitol){.additive}
+- For a stronger cooling effect: [xylitol](/e967-xylitol){.additive} or [erythritol](/e968-erythritol){.additive}
+- For chewing gum and soft textures: [sorbitol](/e420-sorbitol){.additive} or [mannitol](/e421-mannitol){.additive}
+- For extra bulk without much sweetness: [polydextrose](/e1200-polydextrose){.additive} or [glycerol](/e422-glycerol){.additive}
 
 Each one behaves differently in sweetness, moisture pickup, digestive tolerance, and mouthfeel, so recipes often blend a polyol with a high‑intensity sweetener for best results.
 

@@ -19,10 +19,10 @@ You’re most likely to see it in dry, powdered foods that need to pour smoothly
 
 ## What can replace Bone phosphate?
 Food makers often pick plant‑based or mineral alternatives with similar jobs:
-- [Tricalcium phosphate](/e341iii-tricalcium-phosphate) or broader [calcium phosphates](/e341-calcium-phosphates)
-- [Silicon dioxide](/e551-silicon-dioxide)
-- [Cellulose](/e460-cellulose) or [microcrystalline cellulose](/e460i-microcrystalline-cellulose)
-- [Calcium carbonates](/e170-calcium-carbonates) or [magnesium carbonates](/e504-magnesium-carbonates)
+- [Tricalcium phosphate](/e341iii-tricalcium-phosphate){.additive} or broader [calcium phosphates](/e341-calcium-phosphates){.additive}
+- [Silicon dioxide](/e551-silicon-dioxide){.additive}
+- [Cellulose](/e460-cellulose){.additive} or [microcrystalline cellulose](/e460i-microcrystalline-cellulose){.additive}
+- [Calcium carbonates](/e170-calcium-carbonates){.additive} or [magnesium carbonates](/e504-magnesium-carbonates){.additive}
 
 ## How is Bone phosphate made?
 Bone phosphate is produced from edible animal bones that are cleaned, degreased, and deproteinized. The bone material is then heated (calcined) to yield a purified mineral largely composed of calcium phosphate (the same mineral framework found in bone), with strict limits on contaminants such as heavy metals and fluorides set in the specification.[^1]

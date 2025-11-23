@@ -20,9 +20,9 @@ On ingredient lists, look for: “formic acid,” “methanoic acid,” or “E2
 
 ## What can replace formic acid?
 Food makers often choose other acids or preservatives if they want a milder flavor, a different pH curve, or regional familiarity. Common substitutes include:
-- Other acidity regulators: [acetic acid](/e260-acetic-acid), [lactic acid](/e270-lactic-acid), [citric acid](/e330-citric-acid), [malic acid](/e296-malic-acid), [phosphoric acid](/e338-phosphoric-acid)
-- Preservatives used at low pH: [sorbic acid](/e200-sorbic-acid) or [benzoic acid](/e210-benzoic-acid)
-- For baked goods: [propionic acid](/e280-propionic-acid) to help control molds
+- Other acidity regulators: [acetic acid](/e260-acetic-acid){.additive}, [lactic acid](/e270-lactic-acid){.additive}, [citric acid](/e330-citric-acid){.additive}, [malic acid](/e296-malic-acid){.additive}, [phosphoric acid](/e338-phosphoric-acid){.additive}
+- Preservatives used at low pH: [sorbic acid](/e200-sorbic-acid){.additive} or [benzoic acid](/e210-benzoic-acid){.additive}
+- For baked goods: [propionic acid](/e280-propionic-acid){.additive} to help control molds
 
 ## How is formic acid made?
 Today, food‑grade formic acid is made industrially. A common route is reacting methanol with carbon monoxide to form methyl formate, then hydrolyzing that to formic acid. It is also known in nature (for example, in ants and some plants), but commercial supplies come from chemical synthesis, not from animals.[^3]
@@ -42,7 +42,7 @@ Yes—its main benefit is functional. By lowering pH, formic acid can help exten
 
 ## Myths & facts
 - Myth: Formic acid is the same as formaldehyde. Fact: They are different chemicals with different properties and uses.
-- Myth: E-numbers mean “unsafe chemicals.” Fact: Many E-number additives are familiar substances such as [citric acid](/e330-citric-acid) or [lactic acid](/e270-lactic-acid), assessed by regulators for safety.
+- Myth: E-numbers mean “unsafe chemicals.” Fact: Many E-number additives are familiar substances such as [citric acid](/e330-citric-acid){.additive} or [lactic acid](/e270-lactic-acid){.additive}, assessed by regulators for safety.
 - Myth: It makes foods extremely sour. Fact: Food makers use very small amounts to reach the desired pH without overwhelming flavor.
 
 ## Formic acid in branded foods

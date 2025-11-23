@@ -27,10 +27,10 @@ In the EU, E452 (including potassium polyphosphate) is authorised in a range of 
 
 ## What can replace Potassium polyphosphate?
 Depending on the job it’s doing, common alternatives include:
-- Other polyphosphates: [sodium polyphosphate](/e452i-sodium-polyphosphate), [sodium tripolyphosphate](/e452vi-sodium-tripolyphosphate), or [calcium polyphosphate](/e452iv-calcium-polyphosphate).
-- Simple phosphates: [sodium phosphates](/e339-sodium-phosphates) or [potassium phosphates](/e340-potassium-phosphates).
-- Non-phosphate options for chelation or pH buffering: [sodium citrates](/e331-sodium-citrates) or [citric acid](/e330-citric-acid).
-- Texture stabilisers: [carrageenan](/e407-carrageenan), [xanthan gum](/e415-xanthan-gum), or [sodium alginate](/e401-sodium-alginate).
+- Other polyphosphates: [sodium polyphosphate](/e452i-sodium-polyphosphate){.additive}, [sodium tripolyphosphate](/e452vi-sodium-tripolyphosphate){.additive}, or [calcium polyphosphate](/e452iv-calcium-polyphosphate){.additive}.
+- Simple phosphates: [sodium phosphates](/e339-sodium-phosphates){.additive} or [potassium phosphates](/e340-potassium-phosphates){.additive}.
+- Non-phosphate options for chelation or pH buffering: [sodium citrates](/e331-sodium-citrates){.additive} or [citric acid](/e330-citric-acid){.additive}.
+- Texture stabilisers: [carrageenan](/e407-carrageenan){.additive}, [xanthan gum](/e415-xanthan-gum){.additive}, or [sodium alginate](/e401-sodium-alginate){.additive}.
 
 ## How is Potassium polyphosphate made?
 Food-grade phosphoric acid is first neutralised with a potassium base (such as potassium hydroxide or potassium carbonate) to form potassium phosphates. These are then heated so individual phosphate units link together into chains or rings, creating polyphosphates (often termed “metaphosphates”). The final product is milled or spray-dried to a free-flowing powder that meets purity specifications for E452.[^1]

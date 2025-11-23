@@ -21,8 +21,8 @@ Because it is used on surfaces or within gum base, the actual amounts present ar
 
 ## What can replace lanolin?
 Manufacturers may choose other glazing agents or gum-base softeners depending on the application:
-- Other common glazes: [carnauba wax](/e903-carnauba-wax), [beeswax](/e901-white-and-yellow-beeswax), [shellac](/e904-shellac), [candelilla wax](/e902-candelilla-wax), [rice bran wax](/e908-rice-bran-wax), or [oxidised polyethylene wax](/e914-oxidised-polyethylene-wax)
-- Alternative softeners/waxes in gum bases: options can include [microcrystalline wax](/e905ci-microcrystalline-wax) and related waxes, depending on regional rules and desired texture
+- Other common glazes: [carnauba wax](/e903-carnauba-wax){.additive}, [beeswax](/e901-white-and-yellow-beeswax){.additive}, [shellac](/e904-shellac){.additive}, [candelilla wax](/e902-candelilla-wax){.additive}, [rice bran wax](/e908-rice-bran-wax){.additive}, or [oxidised polyethylene wax](/e914-oxidised-polyethylene-wax){.additive}
+- Alternative softeners/waxes in gum bases: options can include [microcrystalline wax](/e905ci-microcrystalline-wax){.additive} and related waxes, depending on regional rules and desired texture
 
 ## How is lanolin made?
 Lanolin is obtained by washing (scouring) shorn sheep’s wool to separate the natural wool grease. This material is then refined and purified to meet food-grade specifications, which set limits on composition and potential contaminants. The EU’s additive specification describes lanolin as a purified wool wax with defined identity and purity criteria.[^1]

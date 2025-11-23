@@ -22,10 +22,10 @@ Not every brand uses the same emulsifier, so check ingredient lists for “E473a
 
 ## What can replace Oligoesters of sucrose type I?
 Depending on the recipe, technologists might use:
-- Other sucrose‑based emulsifiers: [sucrose esters of fatty acids](/e473-sucrose-esters-of-fatty-acids)
-- Common emulsifiers: [lecithins](/e322-lecithins), [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids), [polyglycerol esters of fatty acids](/e475-polyglycerol-esters-of-fatty-acids), [polyglycerol polyricinoleate](/e476-polyglycerol-polyricinoleate) for chocolate-type systems
-- Beverage stabilisers and weighting agents: [sucrose acetate isobutyrate](/e444-sucrose-acetate-isobutyrate), [glycerol esters of wood rosin](/e445-glycerol-esters-of-wood-rosin)
-- Texture aids (not true emulsifiers, but can support stability): [xanthan gum](/e415-xanthan-gum), [guar gum](/e412-guar-gum), [locust bean gum](/e410-locust-bean-gum)
+- Other sucrose‑based emulsifiers: [sucrose esters of fatty acids](/e473-sucrose-esters-of-fatty-acids){.additive}
+- Common emulsifiers: [lecithins](/e322-lecithins){.additive}, [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive}, [polyglycerol esters of fatty acids](/e475-polyglycerol-esters-of-fatty-acids){.additive}, [polyglycerol polyricinoleate](/e476-polyglycerol-polyricinoleate){.additive} for chocolate-type systems
+- Beverage stabilisers and weighting agents: [sucrose acetate isobutyrate](/e444-sucrose-acetate-isobutyrate){.additive}, [glycerol esters of wood rosin](/e445-glycerol-esters-of-wood-rosin){.additive}
+- Texture aids (not true emulsifiers, but can support stability): [xanthan gum](/e415-xanthan-gum){.additive}, [guar gum](/e412-guar-gum){.additive}, [locust bean gum](/e410-locust-bean-gum){.additive}
 
 No single substitute is universal; the best choice depends on fat type, pH, processing, and desired texture.
 

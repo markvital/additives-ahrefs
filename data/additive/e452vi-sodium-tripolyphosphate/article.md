@@ -22,10 +22,10 @@ You’ll most often see STPP in:
 
 ## What can replace Sodium tripolyphosphate?
 Alternatives depend on the job you need done:
-- For water-binding and texture in meats: other phosphates such as [triphosphates](/e451-triphosphates), [diphosphates](/e450-diphosphates), or [sodium phosphates](/e339-sodium-phosphates).
-- For buffering and sequestration in beverages and sauces: [sodium citrates](/e331-sodium-citrates) or [citric acid](/e330-citric-acid), sometimes paired with [calcium-disodium EDTA](/e385-calcium-disodium-ethylenediaminetetraacetate) in appropriate applications.
-- For texture/thickening in dairy-style or plant-based foods: gums and hydrocolloids like [carrageenan](/e407-carrageenan) or [xanthan gum](/e415-xanthan-gum).
-- For gentle acidification and set in cured or fermented-style foods: [glucono-delta-lactone](/e575-glucono-delta-lactone).
+- For water-binding and texture in meats: other phosphates such as [triphosphates](/e451-triphosphates){.additive}, [diphosphates](/e450-diphosphates){.additive}, or [sodium phosphates](/e339-sodium-phosphates){.additive}.
+- For buffering and sequestration in beverages and sauces: [sodium citrates](/e331-sodium-citrates){.additive} or [citric acid](/e330-citric-acid){.additive}, sometimes paired with [calcium-disodium EDTA](/e385-calcium-disodium-ethylenediaminetetraacetate){.additive} in appropriate applications.
+- For texture/thickening in dairy-style or plant-based foods: gums and hydrocolloids like [carrageenan](/e407-carrageenan){.additive} or [xanthan gum](/e415-xanthan-gum){.additive}.
+- For gentle acidification and set in cured or fermented-style foods: [glucono-delta-lactone](/e575-glucono-delta-lactone){.additive}.
 
 Each alternative has different strengths, labeling names, and taste or texture effects, so swaps are product-specific.
 

@@ -18,7 +18,7 @@ Food makers use iron gluconate to stabilize the black color of processed ripe ol
 - Certain multivitamin and iron supplements also use ferrous gluconate, though supplements are labeled separately from regular foods.
 
 ## What can replace iron gluconate?
-- For black olives, a common alternative is [ferrous lactate](/e585-ferrous-lactate), which serves the same color-stabilizing role.
+- For black olives, a common alternative is [ferrous lactate](/e585-ferrous-lactate){.additive}, which serves the same color-stabilizing role.
 - For iron fortification, manufacturers can choose other iron compounds (for example, ferrous sulfate or ferric pyrophosphate), each with different taste and absorption profiles.
 - In home cooking, there is no need to “replace” it—choose olives without color stabilizers or foods naturally rich in iron (like beans, meats, or spinach), depending on your preference.
 

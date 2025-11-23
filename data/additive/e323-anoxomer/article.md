@@ -15,8 +15,8 @@ If used directly, Anoxomer would most logically be added to fat-rich products to
 
 ## What can replace Anoxomer?
 Food makers more often rely on other antioxidants that are widely used and labeled, such as:
-- Natural-type antioxidants: [ascorbic acid](/e300-ascorbic-acid), [tocopherols (vitamin E)](/e306-tocopherol-rich-extract) and [alpha-tocopherol](/e307-alpha-tocopherol), [extracts of rosemary](/e392-extracts-of-rosemary), and [citric acid](/e330-citric-acid) as a synergist.
-- Conventional synthetic antioxidants: [BHA](/e320-butylated-hydroxyanisole-bha), [BHT](/e321-butylated-hydroxytoluene), [TBHQ](/e319-tertiary-butylhydroquinone-tbhq), and [propyl gallate](/e310-propyl-gallate).
+- Natural-type antioxidants: [ascorbic acid](/e300-ascorbic-acid){.additive}, [tocopherols (vitamin E)](/e306-tocopherol-rich-extract){.additive} and [alpha-tocopherol](/e307-alpha-tocopherol){.additive}, [extracts of rosemary](/e392-extracts-of-rosemary){.additive}, and [citric acid](/e330-citric-acid){.additive} as a synergist.
+- Conventional synthetic antioxidants: [BHA](/e320-butylated-hydroxyanisole-bha){.additive}, [BHT](/e321-butylated-hydroxytoluene){.additive}, [TBHQ](/e319-tertiary-butylhydroquinone-tbhq){.additive}, and [propyl gallate](/e310-propyl-gallate){.additive}.
 
 ## How is Anoxomer made?
 Anoxomer is produced as a polymeric (high–molecular-weight) antioxidant, then used to stabilize plastics or coatings that may contact food. In the U.S., its manufacture and composition for this purpose must meet the specifications and conditions listed for antioxidants and stabilizers used in food-contact polymers.[^1]
@@ -29,12 +29,12 @@ For its approved role in food-contact materials, the U.S. Food and Drug Administ
 - Because it is polymeric, it is designed to have very low mobility, which helps limit migration from packaging into food compared with many small-molecule antioxidants.
 
 ## Who should avoid Anoxomer?
-- People aiming to avoid synthetic antioxidants altogether can choose products that use alternatives like [ascorbic acid](/e300-ascorbic-acid), [tocopherols](/e306-tocopherol-rich-extract), or [extracts of rosemary](/e392-extracts-of-rosemary).
+- People aiming to avoid synthetic antioxidants altogether can choose products that use alternatives like [ascorbic acid](/e300-ascorbic-acid){.additive}, [tocopherols](/e306-tocopherol-rich-extract){.additive}, or [extracts of rosemary](/e392-extracts-of-rosemary){.additive}.
 - If you are managing a sensitivity to certain antioxidants, note that Anoxomer is seldom used as a direct ingredient; check labels and contact manufacturers if you have specific concerns.
 
 ## Myths & facts
 - Myth: “Anoxomer is the same as BHA or BHT.”  
-  Fact: It serves a similar antioxidant role, but Anoxomer is polymeric (large molecules), while [BHA](/e320-butylated-hydroxyanisole-bha) and [BHT](/e321-butylated-hydroxytoluene) are small molecules.
+  Fact: It serves a similar antioxidant role, but Anoxomer is polymeric (large molecules), while [BHA](/e320-butylated-hydroxyanisole-bha){.additive} and [BHT](/e321-butylated-hydroxytoluene){.additive} are small molecules.
 - Myth: “If a package contains Anoxomer, it must appear on the food label.”  
   Fact: Components of food-contact materials generally do not appear on ingredient lists; only ingredients added to the food itself are listed.
 

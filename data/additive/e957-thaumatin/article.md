@@ -21,8 +21,8 @@ International standards list thaumatin (INS 957) for use in many food categories
 
 ## What can replace Thaumatin?
 There are many options, each with its own taste and use profile:
-- High‑intensity sweeteners: [steviol glycosides](/e960-steviol-glycosides), [sucralose](/e955-sucralose), [saccharin](/e954-saccharin-and-its-salts), [aspartame](/e951-aspartame), and [acesulfame K](/e950-acesulfame-k).
-- Sugar alcohols (polyols): [erythritol](/e968-erythritol), [xylitol](/e967-xylitol), and [sorbitol](/e420-sorbitol).
+- High‑intensity sweeteners: [steviol glycosides](/e960-steviol-glycosides){.additive}, [sucralose](/e955-sucralose){.additive}, [saccharin](/e954-saccharin-and-its-salts){.additive}, [aspartame](/e951-aspartame){.additive}, and [acesulfame K](/e950-acesulfame-k){.additive}.
+- Sugar alcohols (polyols): [erythritol](/e968-erythritol){.additive}, [xylitol](/e967-xylitol){.additive}, and [sorbitol](/e420-sorbitol){.additive}.
 
 Food makers often blend thaumatin with these to fine‑tune sweetness, aftertaste, and stability.
 
@@ -51,7 +51,7 @@ Most people do not need to avoid thaumatin. Individuals who work with thaumatin 
   Fact: It has undergone formal safety reviews by European authorities.
 
 ## Thaumatin in branded foods
-You’ll often find thaumatin in sugar‑free gum, flavored waters, dairy desserts, and lozenges, usually alongside other sweeteners like [acesulfame K](/e950-acesulfame-k), [sucralose](/e955-sucralose), [steviol glycosides](/e960-steviol-glycosides), or polyols such as [erythritol](/e968-erythritol) and [sorbitol](/e420-sorbitol). On ingredient lists, look for “thaumatin” or “E957.”
+You’ll often find thaumatin in sugar‑free gum, flavored waters, dairy desserts, and lozenges, usually alongside other sweeteners like [acesulfame K](/e950-acesulfame-k){.additive}, [sucralose](/e955-sucralose){.additive}, [steviol glycosides](/e960-steviol-glycosides){.additive}, or polyols such as [erythritol](/e968-erythritol){.additive} and [sorbitol](/e420-sorbitol){.additive}. On ingredient lists, look for “thaumatin” or “E957.”
 
 ## References
 [^1]: Commission Regulation (EU) No 231/2012 — Specifications for food additives (E957 Thaumatin). https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32012R0231

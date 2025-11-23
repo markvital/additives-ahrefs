@@ -5,7 +5,7 @@ Ammonium malate (E349) is the ammonium salt of malic acid, the tart compound fou
 ## At a glance
 - What it is: the ammonium salt of malic acid, available as monoammonium or diammonium malate
 - What it does: controls acidity (pH) and boosts tart, fruity flavor
-- Where it’s found: select beverages, confectionery, and other processed foods; usage is less common than [malic acid](/e296-malic-acid) itself
+- Where it’s found: select beverages, confectionery, and other processed foods; usage is less common than [malic acid](/e296-malic-acid){.additive} itself
 - Labeling: “ammonium malate” or “E349”
 - Taste and texture: sharp, persistent tartness similar to malic acid
 
@@ -17,10 +17,10 @@ Use varies by country and product type. The Codex General Standard for Food Addi
 
 ## What can replace ammonium malate?
 Depending on the goal (tartness vs. pH control, solubility, cost), common substitutes include:
-- [Malic acid](/e296-malic-acid) for strong, lingering sourness
-- [Citric acid](/e330-citric-acid) for bright, quick sourness
-- [Sodium malates](/e350-sodium-malates), [potassium malate](/e351-potassium-malate), or [calcium malates](/e352-calcium-malates) when a malate salt is preferred
-- [Sodium citrates](/e331-sodium-citrates) for buffering capacity and gentle acidity
+- [Malic acid](/e296-malic-acid){.additive} for strong, lingering sourness
+- [Citric acid](/e330-citric-acid){.additive} for bright, quick sourness
+- [Sodium malates](/e350-sodium-malates){.additive}, [potassium malate](/e351-potassium-malate){.additive}, or [calcium malates](/e352-calcium-malates){.additive} when a malate salt is preferred
+- [Sodium citrates](/e331-sodium-citrates){.additive} for buffering capacity and gentle acidity
 
 Regulatory allowances and maximum levels for each option depend on the product and jurisdiction.[^1]
 

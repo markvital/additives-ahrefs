@@ -12,7 +12,7 @@ This ingredient is a mineral-based processing aid that improves texture and stab
 - Typical effect in food: Helps meat stay juicy, prevents “gritty” mineral haze, keeps oil and water mixed
 
 ## Why is Tetrapotassium diphosphate added to food?
-Manufacturers use tetrapotassium diphosphate (often shortened to TKPP) because it solves several common problems. As a sequestrant, it ties up trace metals like iron and copper that can cause off-colors or speed up rancidity. As an emulsifier and stabiliser, it helps oil and water stay blended and improves melt and sliceability in processed cheese. It also buffers pH and binds water in meats and seafood, which supports tenderness and reduces cooking loss. TKPP belongs to the wider family of [diphosphates](/e450-diphosphates) alongside related [triphosphates](/e451-triphosphates) and [polyphosphates](/e452-polyphosphates).
+Manufacturers use tetrapotassium diphosphate (often shortened to TKPP) because it solves several common problems. As a sequestrant, it ties up trace metals like iron and copper that can cause off-colors or speed up rancidity. As an emulsifier and stabiliser, it helps oil and water stay blended and improves melt and sliceability in processed cheese. It also buffers pH and binds water in meats and seafood, which supports tenderness and reduces cooking loss. TKPP belongs to the wider family of [diphosphates](/e450-diphosphates){.additive} alongside related [triphosphates](/e451-triphosphates){.additive} and [polyphosphates](/e452-polyphosphates){.additive}.
 
 ## What foods contain Tetrapotassium diphosphate?
 You’ll most often find TKPP in:
@@ -26,9 +26,9 @@ In the European Union it is authorised as E 450 (diphosphates), which includes E
 
 ## What can replace Tetrapotassium diphosphate?
 Substitutes depend on the job TKPP is doing:
-- For metal ion control and pH buffering: [sodium citrates](/e331-sodium-citrates) or [citric acid](/e330-citric-acid)
-- For water binding and protein functionality in meats/seafood: [sodium phosphates](/e339-sodium-phosphates), [triphosphates](/e451-triphosphates), or [sodium tripolyphosphate](/e452vi-sodium-tripolyphosphate)
-- For emulsifying or stabilising in emulsions and dairy systems: other [polyphosphates](/e452-polyphosphates) or acidulants like [glucono-delta-lactone](/e575-glucono-delta-lactone), depending on the recipe
+- For metal ion control and pH buffering: [sodium citrates](/e331-sodium-citrates){.additive} or [citric acid](/e330-citric-acid){.additive}
+- For water binding and protein functionality in meats/seafood: [sodium phosphates](/e339-sodium-phosphates){.additive}, [triphosphates](/e451-triphosphates){.additive}, or [sodium tripolyphosphate](/e452vi-sodium-tripolyphosphate){.additive}
+- For emulsifying or stabilising in emulsions and dairy systems: other [polyphosphates](/e452-polyphosphates){.additive} or acidulants like [glucono-delta-lactone](/e575-glucono-delta-lactone){.additive}, depending on the recipe
 
 Note: Substitutions can change taste, texture, and processing behavior; formulators usually test blends to get the same result.
 
@@ -56,7 +56,7 @@ People with chronic kidney disease or those on phosphate-restricted diets are of
 - Myth: “TKPP is a preservative that kills microbes.”
   - Fact: It is not an antimicrobial preservative; it mainly binds metals, buffers pH, and stabilises texture.
 - Myth: “All phosphates act the same way.”
-  - Fact: Function depends on chain length and cation; [diphosphates](/e450-diphosphates), [triphosphates](/e451-triphosphates), and [polyphosphates](/e452-polyphosphates) have different strengths in water binding, buffering, and emulsifying.
+  - Fact: Function depends on chain length and cation; [diphosphates](/e450-diphosphates){.additive}, [triphosphates](/e451-triphosphates){.additive}, and [polyphosphates](/e452-polyphosphates){.additive} have different strengths in water binding, buffering, and emulsifying.
 - Myth: “It’s banned in the EU.”
   - Fact: Diphosphates, including E450v, are authorised under the EU food additive law within set conditions.[^6]
 - Myth: “It dumps lots of potassium into your diet.”

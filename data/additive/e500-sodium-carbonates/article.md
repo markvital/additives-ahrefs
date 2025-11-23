@@ -13,7 +13,7 @@ Sodium carbonates (E500) are a group of salts that include sodium carbonate, sod
 ## Why is Sodium carbonates added to food?
 Sodium carbonates are added because they regulate pH (acidity/alkalinity) and release carbon dioxide gas that makes baked goods rise. In the EU, E500 covers three forms: sodium carbonate (E500(i)), sodium hydrogen carbonate or baking soda (E500(ii)), and sodium sesquicarbonate (E500(iii)).[^1] These forms are widely used as acidity regulators and leavening agents in foods across many categories.[^2]
 
-When mixed with an acid (like cream of tartar or [citric acid](/e330-citric-acid)) and moisture, baking soda starts to release carbon dioxide. Heat accelerates the reaction, creating bubbles that expand the dough or batter for a lighter texture.
+When mixed with an acid (like cream of tartar or [citric acid](/e330-citric-acid){.additive}) and moisture, baking soda starts to release carbon dioxide. Heat accelerates the reaction, creating bubbles that expand the dough or batter for a lighter texture.
 
 ## What foods contain Sodium carbonates?
 You can find sodium carbonates in:
@@ -27,9 +27,9 @@ On ingredient lists, look for “sodium carbonate,” “sodium bicarbonate,” 
 
 ## What can replace Sodium carbonates?
 Alternatives depend on the recipe and the reason you’re using E500:
-- For lower sodium leavening, bakers sometimes use [potassium carbonates](/e501-potassium-carbonates).
-- For quick lift in certain cookies or crackers, some formulas use [ammonium carbonates](/e503-ammonium-carbonates).
-- In complete leavening systems (“baking powder” style), the alkaline part (often [sodium bicarbonate](/e500ii-sodium-bicarbonate)) pairs with acids such as [disodium diphosphate](/e450i-disodium-diphosphate), [sodium aluminium phosphate](/e541-sodium-aluminium-phosphate), or [monocalcium phosphate](/e341i-monocalcium-phosphate).
+- For lower sodium leavening, bakers sometimes use [potassium carbonates](/e501-potassium-carbonates){.additive}.
+- For quick lift in certain cookies or crackers, some formulas use [ammonium carbonates](/e503-ammonium-carbonates){.additive}.
+- In complete leavening systems (“baking powder” style), the alkaline part (often [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive}) pairs with acids such as [disodium diphosphate](/e450i-disodium-diphosphate){.additive}, [sodium aluminium phosphate](/e541-sodium-aluminium-phosphate){.additive}, or [monocalcium phosphate](/e341i-monocalcium-phosphate){.additive}.
 
 Remember: switching leavening agents may change taste, spread, and texture. You may also need to balance the formula’s acidity.
 

@@ -11,19 +11,19 @@ Oat lecithin (E322A) is a type of lecithin made from oats. It works mainly as an
 - Allergen note: Made from oats; check for gluten-free certification if you must avoid gluten
 
 ## Why is Oat lecithin added to food?
-Food makers use oat lecithin to keep ingredients from separating, improve texture, and help powders dissolve quickly. As part of the [lecithins](/e322-lecithins) group (E 322), it functions as an emulsifier, wetting agent, and release agent in many applications.[^1]
+Food makers use oat lecithin to keep ingredients from separating, improve texture, and help powders dissolve quickly. As part of the [lecithins](/e322-lecithins){.additive} group (E 322), it functions as an emulsifier, wetting agent, and release agent in many applications.[^1]
 
 ## What foods contain Oat lecithin?
 You may find oat lecithin in chocolate and confectionery (to smooth texture and reduce viscosity), baked goods and doughs (to improve mixing and crumb), spreads and margarines (to keep water and oil stable), beverages and instant drink mixes (to help powders disperse), and cereal and snack coatings (to aid even coverage). In general, lecithins are authorized for use across a wide range of food categories in the EU, which explains their frequent appearance on labels.[^1]
 
 ## What can replace Oat lecithin?
 For similar emulsifying or flow effects, formulators might use:
-- Other [lecithins](/e322-lecithins) such as soy or sunflower lecithin (label often reads “lecithin” or “E322”)
-- [Mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids)
-- [Sucrose esters of fatty acids](/e473-sucrose-esters-of-fatty-acids)
-- [Sorbitan monostearate](/e491-sorbitan-monostearate) or related sorbitan esters
-- [Polyglycerol polyricinoleate](/e476-polyglycerol-polyricinoleate) in chocolate for flow control
-- Gums and hydrocolloids like [xanthan gum](/e415-xanthan-gum) when thickening or suspension is the goal
+- Other [lecithins](/e322-lecithins){.additive} such as soy or sunflower lecithin (label often reads “lecithin” or “E322”)
+- [Mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive}
+- [Sucrose esters of fatty acids](/e473-sucrose-esters-of-fatty-acids){.additive}
+- [Sorbitan monostearate](/e491-sorbitan-monostearate){.additive} or related sorbitan esters
+- [Polyglycerol polyricinoleate](/e476-polyglycerol-polyricinoleate){.additive} in chocolate for flow control
+- Gums and hydrocolloids like [xanthan gum](/e415-xanthan-gum){.additive} when thickening or suspension is the goal
 
 The best substitute depends on the food, processing steps, and label preferences.
 

@@ -12,7 +12,7 @@ Sucrose esters of fatty acids (E473) are emulsifiers made from table sugar and e
 ## Why is sucrose esters of fatty acids added to food?
 Food makers use E473 to keep mixtures smooth and stable. It helps oil and water stay blended (emulsifies), improves whipping and foaming in creams and toppings, and can reduce sugar crystallisation in sweets so textures stay soft. It also fine-tunes mouthfeel in low‑fat products and helps disperse flavors evenly.[^1]
 
-E473 performs similar roles to other emulsifiers such as [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids), [lecithins](/e322-lecithins), and certain polysorbates like [polyoxyethylene sorbitan monolaurate](/e432-polyoxyethylene-sorbitan-monolaurate) and [polyoxyethylene sorbitan monooleate](/e433-polyoxyethylene-sorbitan-monooleate).
+E473 performs similar roles to other emulsifiers such as [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive}, [lecithins](/e322-lecithins){.additive}, and certain polysorbates like [polyoxyethylene sorbitan monolaurate](/e432-polyoxyethylene-sorbitan-monolaurate){.additive} and [polyoxyethylene sorbitan monooleate](/e433-polyoxyethylene-sorbitan-monooleate){.additive}.
 
 ## What foods contain sucrose esters of fatty acids?
 You’re most likely to find E473 in:
@@ -27,9 +27,9 @@ In the EU, permitted foods and any maximum use levels are listed in Regulation (
 
 ## What can replace sucrose esters of fatty acids?
 Alternatives depend on the job you need done:
-- General emulsifying: [lecithins](/e322-lecithins), [mono- and diglycerides](/e471-mono-and-diglycerides-of-fatty-acids), [polyglycerol esters of fatty acids](/e475-polyglycerol-esters-of-fatty-acids)
-- High‑strength emulsions or beverage systems: polysorbates such as [E432](/e432-polyoxyethylene-sorbitan-monolaurate) and [E433](/e433-polyoxyethylene-sorbitan-monooleate), or weighting/aid agents like [sucrose acetate isobutyrate](/e444-sucrose-acetate-isobutyrate)
-- Aeration and whipping: [lecithins](/e322-lecithins), certain [E471](/e471-mono-and-diglycerides-of-fatty-acids) blends
+- General emulsifying: [lecithins](/e322-lecithins){.additive}, [mono- and diglycerides](/e471-mono-and-diglycerides-of-fatty-acids){.additive}, [polyglycerol esters of fatty acids](/e475-polyglycerol-esters-of-fatty-acids){.additive}
+- High‑strength emulsions or beverage systems: polysorbates such as [E432](/e432-polyoxyethylene-sorbitan-monolaurate){.additive} and [E433](/e433-polyoxyethylene-sorbitan-monooleate){.additive}, or weighting/aid agents like [sucrose acetate isobutyrate](/e444-sucrose-acetate-isobutyrate){.additive}
+- Aeration and whipping: [lecithins](/e322-lecithins){.additive}, certain [E471](/e471-mono-and-diglycerides-of-fatty-acids){.additive} blends
 
 ## How is sucrose esters of fatty acids made?
 E473 is produced by reacting sucrose with edible fatty acids from food fats and oils. Manufacturers typically use esterification of sucrose with the fatty acids, or transesterification of sucrose with fatty acid methyl or ethyl esters. The result is a mixture of sucrose mono‑, di‑, and higher esters whose properties depend on the fatty acid types and the degree of substitution. Quality and purity criteria, including allowable raw materials and reaction routes, are set in EU specifications.[^1]

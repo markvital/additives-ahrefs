@@ -19,14 +19,14 @@ You will most often find calcium phosphates in:
 - Fortified foods: breakfast cereals, plant-based drinks, and nutrition bars (as calcium sources)
 - Confectionery and snacks: certain candies, coatings, and crisp snacks
 
-On labels, the specific form may be named, for example [monocalcium phosphate](/e341i-monocalcium-phosphate), [dicalcium phosphate](/e341ii-dicalcium-phosphate), or [tricalcium phosphate](/e341iii-tricalcium-phosphate).
+On labels, the specific form may be named, for example [monocalcium phosphate](/e341i-monocalcium-phosphate){.additive}, [dicalcium phosphate](/e341ii-dicalcium-phosphate){.additive}, or [tricalcium phosphate](/e341iii-tricalcium-phosphate){.additive}.
 
 ## What can replace Calcium phosphates?
 The best substitute depends on the job it is doing.
-- Leavening acid in baking: options include [disodium diphosphate](/e450i-disodium-diphosphate) or other [diphosphates](/e450-diphosphates), and they are typically paired with baking soda ([sodium bicarbonate](/e500ii-sodium-bicarbonate)).
-- Anti-caking in powders: common alternatives are [silicon dioxide](/e551-silicon-dioxide) and [calcium silicate](/e552-calcium-silicate).
-- Buffering/acidity control: formulators may use [sodium phosphates](/e339-sodium-phosphates) or organic acids such as [citric acid](/e330-citric-acid), depending on the recipe.
-- Calcium fortification: other calcium salts like [calcium carbonates](/e170-calcium-carbonates) are often used.
+- Leavening acid in baking: options include [disodium diphosphate](/e450i-disodium-diphosphate){.additive} or other [diphosphates](/e450-diphosphates){.additive}, and they are typically paired with baking soda ([sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive}).
+- Anti-caking in powders: common alternatives are [silicon dioxide](/e551-silicon-dioxide){.additive} and [calcium silicate](/e552-calcium-silicate){.additive}.
+- Buffering/acidity control: formulators may use [sodium phosphates](/e339-sodium-phosphates){.additive} or organic acids such as [citric acid](/e330-citric-acid){.additive}, depending on the recipe.
+- Calcium fortification: other calcium salts like [calcium carbonates](/e170-calcium-carbonates){.additive} are often used.
 
 ## How is Calcium phosphates made?
 Food-grade calcium phosphates are produced by carefully reacting food-grade phosphoric acid with calcium sources such as calcium carbonate or calcium hydroxide, followed by filtration, drying, and milling. Varying the ratio of calcium to phosphate and the processing conditions yields monocalcium, dicalcium, or tricalcium phosphate. The EU specifications define identity, purity, and limits for contaminants for E341 additives.[^2]

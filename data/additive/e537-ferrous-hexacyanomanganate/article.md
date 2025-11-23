@@ -17,10 +17,10 @@ Mentions of E537 are most often linked to table salt and other dry, free-flowing
 
 ## What can replace ferrous hexacyanomanganate?
 Manufacturers commonly choose other anti-caking agents with established approvals and specifications, such as:
-- [silicon dioxide](/e551-silicon-dioxide)
-- [calcium silicate](/e552-calcium-silicate)
-- Tricalcium phosphate ([tricalcium phosphate](/e341iii-tricalcium-phosphate))
-- Calcium carbonate ([calcium carbonate](/e170i-calcium-carbonate))
+- [silicon dioxide](/e551-silicon-dioxide){.additive}
+- [calcium silicate](/e552-calcium-silicate){.additive}
+- Tricalcium phosphate ([tricalcium phosphate](/e341iii-tricalcium-phosphate){.additive})
+- Calcium carbonate ([calcium carbonate](/e170i-calcium-carbonate){.additive})
 - The authorised ferrocyanides in some markets (e.g., sodium, potassium, or calcium ferrocyanide)
 
 ## How is ferrous hexacyanomanganate made?
@@ -37,7 +37,7 @@ It does not provide nutritional benefits. Its intended role is purely technologi
 - If you are following advice to limit sodium or processed foods, selecting minimally processed options remains a straightforward approach.
 
 ## Myths & facts
-- Myth: “If it has an E-number, it must be synthetic or unsafe.” Fact: An E-number simply means an additive has been evaluated for specific uses in the EU; many E-numbered additives are identical to substances found in nature (for example, [ascorbic acid](/e300-ascorbic-acid)).[^4]
+- Myth: “If it has an E-number, it must be synthetic or unsafe.” Fact: An E-number simply means an additive has been evaluated for specific uses in the EU; many E-numbered additives are identical to substances found in nature (for example, [ascorbic acid](/e300-ascorbic-acid){.additive}).[^4]
 - Myth: “You’ll find E537 on EU food labels.” Fact: Ferrous hexacyanomanganate is not on the EU’s Union list of authorised food additives, so it should not appear on compliant EU labels.[^2]
 
 ## ferrous hexacyanomanganate in branded foods
@@ -67,10 +67,10 @@ Mentions of E537 are most often linked to table salt and other dry, free-flowing
 
 ## What can replace ferrous hexacyanomanganate?
 Manufacturers commonly choose other anti-caking agents with established approvals and specifications, such as:
-- [silicon dioxide](/e551-silicon-dioxide)
-- [calcium silicate](/e552-calcium-silicate)
-- Tricalcium phosphate ([tricalcium phosphate](/e341iii-tricalcium-phosphate))
-- Calcium carbonate ([calcium carbonate](/e170i-calcium-carbonate))
+- [silicon dioxide](/e551-silicon-dioxide){.additive}
+- [calcium silicate](/e552-calcium-silicate){.additive}
+- Tricalcium phosphate ([tricalcium phosphate](/e341iii-tricalcium-phosphate){.additive})
+- Calcium carbonate ([calcium carbonate](/e170i-calcium-carbonate){.additive})
 - The authorised ferrocyanides in some markets (e.g., sodium, potassium, or calcium ferrocyanide)
 
 ## How is ferrous hexacyanomanganate made?
@@ -87,7 +87,7 @@ It does not provide nutritional benefits. Its intended role is purely technologi
 - If you are following advice to limit sodium or processed foods, selecting minimally processed options remains a straightforward approach.
 
 ## Myths & facts
-- Myth: “If it has an E-number, it must be synthetic or unsafe.” Fact: An E-number simply means an additive has been evaluated for specific uses in the EU; many E-numbered additives are identical to substances found in nature (for example, [ascorbic acid](/e300-ascorbic-acid)).[^4]
+- Myth: “If it has an E-number, it must be synthetic or unsafe.” Fact: An E-number simply means an additive has been evaluated for specific uses in the EU; many E-numbered additives are identical to substances found in nature (for example, [ascorbic acid](/e300-ascorbic-acid){.additive}).[^4]
 - Myth: “You’ll find E537 on EU food labels.” Fact: Ferrous hexacyanomanganate is not on the EU’s Union list of authorised food additives, so it should not appear on compliant EU labels.[^2]
 
 ## ferrous hexacyanomanganate in branded foods

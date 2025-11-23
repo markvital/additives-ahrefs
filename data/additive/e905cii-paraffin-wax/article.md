@@ -7,7 +7,7 @@ Paraffin wax (E905CII) is a food-grade mixture of solid hydrocarbons refined fro
 - What it does: Adds shine, reduces moisture loss, and helps prevent sticking during processing.
 - Where it’s found: Fresh produce coatings, confectionery glazes, and chewing gum base.
 - Also known as: E905c(ii), food-grade paraffin wax.
-- Related waxes: [microcrystalline wax](/e905ci-microcrystalline-wax), [petroleum wax](/e905c-petroleum-wax), [mineral oil](/e905a-mineral-oil), [petroleum jelly](/e905b-petroleum-jelly), [carnauba wax](/e903-carnauba-wax), [candelilla wax](/e902-candelilla-wax), [shellac](/e904-shellac), [white and yellow beeswax](/e901-white-and-yellow-beeswax), [rice bran wax](/e908-rice-bran-wax).
+- Related waxes: [microcrystalline wax](/e905ci-microcrystalline-wax){.additive}, [petroleum wax](/e905c-petroleum-wax){.additive}, [mineral oil](/e905a-mineral-oil){.additive}, [petroleum jelly](/e905b-petroleum-jelly){.additive}, [carnauba wax](/e903-carnauba-wax){.additive}, [candelilla wax](/e902-candelilla-wax){.additive}, [shellac](/e904-shellac){.additive}, [white and yellow beeswax](/e901-white-and-yellow-beeswax){.additive}, [rice bran wax](/e908-rice-bran-wax){.additive}.
 
 ## Why is Paraffin wax added to food?
 Paraffin wax forms a thin, clear coating that keeps moisture in, reduces scuffing, and improves shine on foods like fruits and candies. It also helps stop products from sticking to machinery or to each other during production and shipping. In gum, it contributes to the texture and elasticity of the gum base.[^1][^2]
@@ -20,10 +20,10 @@ You might find paraffin wax:
 
 ## What can replace Paraffin wax?
 Common substitutes include plant and insect waxes such as:
-- [Carnauba wax](/e903-carnauba-wax) and [candelilla wax](/e902-candelilla-wax) for high-gloss coatings.
-- [White and yellow beeswax](/e901-white-and-yellow-beeswax) or [shellac](/e904-shellac) for protective finishes.
-- [Rice bran wax](/e908-rice-bran-wax) in some confectionery glazes.
-- [Microcrystalline wax](/e905ci-microcrystalline-wax) when a similar petroleum-derived wax with different crystal structure is needed.
+- [Carnauba wax](/e903-carnauba-wax){.additive} and [candelilla wax](/e902-candelilla-wax){.additive} for high-gloss coatings.
+- [White and yellow beeswax](/e901-white-and-yellow-beeswax){.additive} or [shellac](/e904-shellac){.additive} for protective finishes.
+- [Rice bran wax](/e908-rice-bran-wax){.additive} in some confectionery glazes.
+- [Microcrystalline wax](/e905ci-microcrystalline-wax){.additive} when a similar petroleum-derived wax with different crystal structure is needed.
 
 The best replacement depends on the target gloss, melt point, label preferences (plant vs. petroleum origin), and local regulations.
 
@@ -47,7 +47,7 @@ Paraffin wax helps keep fruits and similar foods from drying out, which can main
 - Myth: “Waxed produce isn’t safe.” Fact: Food-grade coatings are regulated and permitted for use on fresh fruits and vegetables.[^1][^4]
 
 ## Paraffin wax in branded foods
-You may see paraffin wax listed as “paraffin wax,” “petroleum wax,” or by its E-number (E905c or E905CII) on ingredient lists where labeling is required. It often appears on produce labels or on confectionery and gum packages that use glazing agents. Not every brand uses wax coatings, and some prefer plant-based alternatives like [carnauba wax](/e903-carnauba-wax) or [candelilla wax](/e902-candelilla-wax).
+You may see paraffin wax listed as “paraffin wax,” “petroleum wax,” or by its E-number (E905c or E905CII) on ingredient lists where labeling is required. It often appears on produce labels or on confectionery and gum packages that use glazing agents. Not every brand uses wax coatings, and some prefer plant-based alternatives like [carnauba wax](/e903-carnauba-wax){.additive} or [candelilla wax](/e902-candelilla-wax){.additive}.
 
 ## References
 [^1]: 21 CFR 172.886 - Petroleum wax. U.S. FDA/eCFR. https://www.ecfr.gov/current/title-21/section-172.886

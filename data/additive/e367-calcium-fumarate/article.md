@@ -8,7 +8,7 @@ A quick overview helps put this additive in context before the details.
 - Name and code: Calcium fumarate, E367
 - What it does: Controls acidity and stabilizes flavor in foods
 - Where you might see it: Select bakery items, powdered mixes, and other foods that use acid regulators
-- Related additives: [fumaric acid](/e297-fumaric-acid), [potassium fumarate](/e366-potassium-fumarate), other common acidulants like [citric acid](/e330-citric-acid) and [malic acid](/e296-malic-acid)
+- Related additives: [fumaric acid](/e297-fumaric-acid){.additive}, [potassium fumarate](/e366-potassium-fumarate){.additive}, other common acidulants like [citric acid](/e330-citric-acid){.additive} and [malic acid](/e296-malic-acid){.additive}
 
 ## Why is calcium fumarate added to food?
 Food makers use calcium fumarate to regulate acidity (pH), fine-tune tartness, and help maintain flavor stability over shelf life. As a calcium salt of fumaric acid, it provides the same “fumarate” ion while being less soluble than the free acid, which can make its acidifying effect more gradual in some applications.[^1] In the European Union, it is part of the E-number system as E367, which categorizes permitted food additives by function and identity.[^2] Specifications for additives in the EU are laid down in a separate regulation that defines identity and purity criteria.[^3]
@@ -18,9 +18,9 @@ You may find calcium fumarate in foods that need acidity control or a mild tart 
 
 ## What can replace calcium fumarate?
 Possible alternatives depend on the recipe, processing conditions, and desired taste profile.
-- Direct acidulant: [fumaric acid](/e297-fumaric-acid) for a stronger, faster acidity effect
-- Other fumarate salt: [potassium fumarate](/e366-potassium-fumarate)
-- Other common acidulants: [citric acid](/e330-citric-acid), [malic acid](/e296-malic-acid), or [lactic acid](/e270-lactic-acid)
+- Direct acidulant: [fumaric acid](/e297-fumaric-acid){.additive} for a stronger, faster acidity effect
+- Other fumarate salt: [potassium fumarate](/e366-potassium-fumarate){.additive}
+- Other common acidulants: [citric acid](/e330-citric-acid){.additive}, [malic acid](/e296-malic-acid){.additive}, or [lactic acid](/e270-lactic-acid){.additive}
 
 ## How is calcium fumarate made?
 Manufacture typically starts with fumaric acid, which can be produced industrially by isomerizing maleic acid or by fermentation using certain fungi (for example, Rhizopus species).[^4] The fumaric acid is then neutralized with an approved calcium base (such as calcium hydroxide or calcium carbonate) to form the calcium salt.

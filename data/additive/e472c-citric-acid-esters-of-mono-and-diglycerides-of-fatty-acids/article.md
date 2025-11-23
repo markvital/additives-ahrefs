@@ -21,10 +21,10 @@ E472c is permitted in the European Union across many food categories. Typical us
 
 ## What can replace Citric acid esters of mono- and diglycerides of fatty acids?
 Depending on the recipe and processing, formulators might use:
-- Other emulsifiers from the same family: [acetic acid esters](/e472a-acetic-acid-esters-of-mono-and-diglycerides-of-fatty-acids), [lactic acid esters](/e472b-lactic-acid-esters-of-mono-and-diglycerides-of-fatty-acids), [tartaric acid esters](/e472d-tartaric-acid-esters-of-mono-and-diglycerides-of-fatty-acids), [mono- and diacetyl tartaric acid esters](/e472e-mono-and-diacetyltartaric-acid-esters-of-mono-and-diglycerides-of-fatty-acids), or [mixed acetic and tartaric acid esters](/e472f-mixed-acetic-and-tartaric-acid-esters-of-mono-and-diglycerides-of-fatty-acids).
-- Other emulsifier classes: [lecithins](/e322-lecithins), [mono- and diglycerides](/e471-mono-and-diglycerides-of-fatty-acids), [sucrose esters](/e473-sucrose-esters-of-fatty-acids), [polyglycerol esters](/e475-polyglycerol-esters-of-fatty-acids), or [polyglycerol polyricinoleate](/e476-polyglycerol-polyricinoleate).
-- For dough strength and aeration: [sodium stearoyl-2-lactylate](/e481-sodium-stearoyl-2-lactylate) or [calcium stearoyl-2-lactylate](/e482-calcium-stearoyl-2-lactylate).
-- For thickening and suspension (not true emulsification): gums like [xanthan gum](/e415-xanthan-gum).
+- Other emulsifiers from the same family: [acetic acid esters](/e472a-acetic-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive}, [lactic acid esters](/e472b-lactic-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive}, [tartaric acid esters](/e472d-tartaric-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive}, [mono- and diacetyl tartaric acid esters](/e472e-mono-and-diacetyltartaric-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive}, or [mixed acetic and tartaric acid esters](/e472f-mixed-acetic-and-tartaric-acid-esters-of-mono-and-diglycerides-of-fatty-acids){.additive}.
+- Other emulsifier classes: [lecithins](/e322-lecithins){.additive}, [mono- and diglycerides](/e471-mono-and-diglycerides-of-fatty-acids){.additive}, [sucrose esters](/e473-sucrose-esters-of-fatty-acids){.additive}, [polyglycerol esters](/e475-polyglycerol-esters-of-fatty-acids){.additive}, or [polyglycerol polyricinoleate](/e476-polyglycerol-polyricinoleate){.additive}.
+- For dough strength and aeration: [sodium stearoyl-2-lactylate](/e481-sodium-stearoyl-2-lactylate){.additive} or [calcium stearoyl-2-lactylate](/e482-calcium-stearoyl-2-lactylate){.additive}.
+- For thickening and suspension (not true emulsification): gums like [xanthan gum](/e415-xanthan-gum){.additive}.
 
 ## How is Citric acid esters of mono- and diglycerides of fatty acids made?
 Manufacture starts with edible fats and oils that are turned into mono- and diglycerides by reacting them with glycerol. Those mono- and diglycerides are then partially esterified with citric acid, forming a mixture where some of the free hydroxyl groups are linked to citric acid. The result is a blend of molecules that carry both fat-loving and water-loving parts, which is why they can emulsify oil and water.[^2]
@@ -42,7 +42,7 @@ The European Food Safety Authority (EFSA) re-evaluated E472c together with relat
 People who strictly avoid animal-derived ingredients should check with the manufacturer. The fatty acids used can come from edible fats and oils of either animal or plant origin, and labels do not always state the source.[^2]
 
 ## Myths & facts
-- Myth: “It’s just citric acid.” Fact: E472c is a family of esters made from citric acid plus mono- and diglycerides; it behaves very differently from plain [citric acid](/e330-citric-acid).
+- Myth: “It’s just citric acid.” Fact: E472c is a family of esters made from citric acid plus mono- and diglycerides; it behaves very differently from plain [citric acid](/e330-citric-acid){.additive}.
 - Myth: “All emulsifiers are the same.” Fact: Emulsifiers vary widely. E472c is especially good at keeping oil-in-water systems stable; others have different strengths.
 - Myth: “It’s always synthetic and harmful.” Fact: Safety evaluations by authorities have found no safety concern at approved uses, and the body breaks it down into familiar nutrients.[^1]
 - Myth: “If a product contains E472c, it must be acidic.” Fact: The final food’s acidity depends on the whole recipe, not just this additive.

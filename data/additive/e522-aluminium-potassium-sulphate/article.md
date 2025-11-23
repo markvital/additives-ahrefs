@@ -9,7 +9,7 @@ Aluminium potassium sulphate (E522), also called potassium alum or potash alum, 
 - Safety: regulated in the EU and U.S.; total dietary aluminium exposure is controlled by strict limits
 
 ## Why is Aluminium potassium sulphate added to food?
-Food makers use E522 mainly to keep produce crisp and to adjust acidity. As a “leavening acid,” it can react with baking soda to release carbon dioxide, helping some doughs rise in a controlled way. In practice, other aluminium salts such as [sodium aluminium sulfate](/e521-aluminium-sodium-sulphate) or [sodium aluminium phosphate](/e541-sodium-aluminium-phosphate) are more common in baking, so potassium alum is a relatively niche choice today.[^3]
+Food makers use E522 mainly to keep produce crisp and to adjust acidity. As a “leavening acid,” it can react with baking soda to release carbon dioxide, helping some doughs rise in a controlled way. In practice, other aluminium salts such as [sodium aluminium sulfate](/e521-aluminium-sodium-sulphate){.additive} or [sodium aluminium phosphate](/e541-sodium-aluminium-phosphate){.additive} are more common in baking, so potassium alum is a relatively niche choice today.[^3]
 
 ## What foods contain Aluminium potassium sulphate?
 You may find E522 in:
@@ -21,10 +21,10 @@ Label lines can list it as “alum,” “potassium alum,” “aluminium potass
 
 ## What can replace Aluminium potassium sulphate?
 Depending on the job, common stand-ins include:
-- For crispness in pickles and vegetables: [calcium chloride](/e509-calcium-chloride) or [calcium lactate](/e327-calcium-lactate)
-- For acidity control and tart flavor: [citric acid](/e330-citric-acid)
-- For leavening systems in baked goods: [monocalcium phosphate](/e341i-monocalcium-phosphate), [cream of tartar (potassium bitartrate)](/e336i-monopotassium-tartrate), [diphosphates](/e450-diphosphates), or, when aluminium salts are desired, [sodium aluminium phosphate](/e541-sodium-aluminium-phosphate)
-- Pairing acid with base: these acids typically react with baking soda ([sodium bicarbonate](/e500ii-sodium-bicarbonate)) to produce lift
+- For crispness in pickles and vegetables: [calcium chloride](/e509-calcium-chloride){.additive} or [calcium lactate](/e327-calcium-lactate){.additive}
+- For acidity control and tart flavor: [citric acid](/e330-citric-acid){.additive}
+- For leavening systems in baked goods: [monocalcium phosphate](/e341i-monocalcium-phosphate){.additive}, [cream of tartar (potassium bitartrate)](/e336i-monopotassium-tartrate){.additive}, [diphosphates](/e450-diphosphates){.additive}, or, when aluminium salts are desired, [sodium aluminium phosphate](/e541-sodium-aluminium-phosphate){.additive}
+- Pairing acid with base: these acids typically react with baking soda ([sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive}) to produce lift
 
 ## How is Aluminium potassium sulphate made?
 Potassium alum is produced by combining aluminium sulfate with potassium sulfate in water and then crystallizing the double salt as the familiar dodecahydrate KAl(SO4)2·12H2O.[^2] Its identity and purity specifications for food use are set in EU law alongside other listed additives.[^1]
@@ -50,7 +50,7 @@ If you have a medical condition or a physician’s advice to limit aluminium, ch
 
 ## Myths & facts
 - Myth: “Alum in food is banned.” Fact: Alum is permitted for food use under specific regulations and good manufacturing practice in the U.S. and has EU specifications; authorities control overall aluminium exposure.[^3][^1]
-- Myth: “All aluminium additives act the same.” Fact: Aluminium salts have different properties and uses. For example, [aluminium sulphate](/e520-aluminium-sulphate), [aluminium sodium sulphate](/e521-aluminium-sodium-sulphate), [aluminium ammonium sulphate](/e523-aluminium-ammonium-sulphate), and [sodium aluminium phosphate](/e541-sodium-aluminium-phosphate) are not interchangeable in every recipe.
+- Myth: “All aluminium additives act the same.” Fact: Aluminium salts have different properties and uses. For example, [aluminium sulphate](/e520-aluminium-sulphate){.additive}, [aluminium sodium sulphate](/e521-aluminium-sodium-sulphate){.additive}, [aluminium ammonium sulphate](/e523-aluminium-ammonium-sulphate){.additive}, and [sodium aluminium phosphate](/e541-sodium-aluminium-phosphate){.additive} are not interchangeable in every recipe.
 - Myth: “Sulfate equals sulfite.” Fact: Sulfates (like alum) and sulfites (like E220–E228) are different chemical groups; sulfite sensitivity does not mean a person will react to sulfate salts.
 
 ## Aluminium potassium sulphate in branded foods

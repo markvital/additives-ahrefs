@@ -18,12 +18,12 @@ You are most likely to see potassium nitrate in:
 - Traditional dry-cured meats that age for a long time (for example, some salamis and country-style hams)
 - A few hard, cooked cheeses where it helps control defects during ripening
 
-In the EU, its use is limited to certain categories defined in the additives regulation; in the U.S., it appears on the list of safe and suitable ingredients for meat and poultry.[^2][^3] On labels, look for “potassium nitrate,” “E252” (in the EU/UK), or for related curing agents such as [sodium nitrate](/e251-sodium-nitrate) and [sodium nitrite](/e250-sodium-nitrite).
+In the EU, its use is limited to certain categories defined in the additives regulation; in the U.S., it appears on the list of safe and suitable ingredients for meat and poultry.[^2][^3] On labels, look for “potassium nitrate,” “E252” (in the EU/UK), or for related curing agents such as [sodium nitrate](/e251-sodium-nitrate){.additive} and [sodium nitrite](/e250-sodium-nitrite){.additive}.
 
 ## What can replace Potassium nitrate?
-- For long, traditional cures: [sodium nitrate](/e251-sodium-nitrate) (E251) serves a similar role as a slow source of nitrite.
-- For shorter cures: Direct nitrite sources like [sodium nitrite](/e250-sodium-nitrite) or [potassium nitrite](/e249-potassium-nitrite) are often used by processors.
-- For non-cured foods: Other preservatives may be chosen, such as [sorbic acid](/e200-sorbic-acid), [potassium sorbate](/e202-potassium-sorbate), or [sodium benzoate](/e211-sodium-benzoate), depending on the product and regulations.
+- For long, traditional cures: [sodium nitrate](/e251-sodium-nitrate){.additive} (E251) serves a similar role as a slow source of nitrite.
+- For shorter cures: Direct nitrite sources like [sodium nitrite](/e250-sodium-nitrite){.additive} or [potassium nitrite](/e249-potassium-nitrite){.additive} are often used by processors.
+- For non-cured foods: Other preservatives may be chosen, such as [sorbic acid](/e200-sorbic-acid){.additive}, [potassium sorbate](/e202-potassium-sorbate){.additive}, or [sodium benzoate](/e211-sodium-benzoate){.additive}, depending on the product and regulations.
 
 Processors also rely on refrigeration, salt level, acidity, and drying to keep foods safe and stable.
 
@@ -44,10 +44,10 @@ Regulators set strict purity, use-cases, and maximum levels. The European Food S
 ## Myths & facts
 - “Nitrates are only synthetic.” Fact: Nitrates occur naturally, and vegetables are a major source of dietary nitrate for most people.[^1]
 - “Potassium nitrate cures meat by itself.” Fact: Its curing role comes from conversion to nitrite over time; nitrite is the compound that suppresses C. botulinum and sets cured color.[^4]
-- “Regulators don’t manage nitrosamines.” Fact: Curing practices are tightly regulated, and antioxidants like [ascorbic acid](/e300-ascorbic-acid), [sodium ascorbate](/e301-sodium-ascorbate), or [sodium erythorbate](/e316-sodium-erythorbate) are required in certain products (e.g., pumped bacon) to reduce nitrosamine formation.[^5]
+- “Regulators don’t manage nitrosamines.” Fact: Curing practices are tightly regulated, and antioxidants like [ascorbic acid](/e300-ascorbic-acid){.additive}, [sodium ascorbate](/e301-sodium-ascorbate){.additive}, or [sodium erythorbate](/e316-sodium-erythorbate){.additive} are required in certain products (e.g., pumped bacon) to reduce nitrosamine formation.[^5]
 
 ## Potassium nitrate in branded foods
-You may find potassium nitrate listed on traditional dry-cured meats and some hard, cooked cheeses. Labels may use “potassium nitrate,” “E252” (EU/UK), or a related curing agent such as [sodium nitrate](/e251-sodium-nitrate) or [sodium nitrite](/e250-sodium-nitrite). Availability and usage depend on local regulations and the specific recipe.
+You may find potassium nitrate listed on traditional dry-cured meats and some hard, cooked cheeses. Labels may use “potassium nitrate,” “E252” (EU/UK), or a related curing agent such as [sodium nitrate](/e251-sodium-nitrate){.additive} or [sodium nitrite](/e250-sodium-nitrite){.additive}. Availability and usage depend on local regulations and the specific recipe.
 
 ## References
 [^1]: Re-evaluation of sodium nitrate (E 251) and potassium nitrate (E 252) as food additives — EFSA. https://www.efsa.europa.eu/en/efsajournal/pub/4787

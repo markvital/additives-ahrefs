@@ -24,8 +24,8 @@ In baking, lipase can improve dough handling and bread volume by changing lipids
 Because lipase often acts as a processing aid, little to none remains active in the final food, especially after baking or cooking.
 
 ## What can replace lipase?
-- For dough strengthening and volume: Emulsifiers like [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids) or [lecithins](/e322-lecithins) can offer some similar handling benefits.
-- For bakery enzyme toolkits: Other enzymes such as [glucose oxidase](/e1102-glucose-oxidase) or [protease](/e1101-protease) are sometimes used to fine‑tune dough properties.
+- For dough strengthening and volume: Emulsifiers like [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive} or [lecithins](/e322-lecithins){.additive} can offer some similar handling benefits.
+- For bakery enzyme toolkits: Other enzymes such as [glucose oxidase](/e1102-glucose-oxidase){.additive} or [protease](/e1101-protease){.additive} are sometimes used to fine‑tune dough properties.
 - For cheese flavor: Longer aging, different cultures, or animal‑derived lipase can shift flavor profiles, though results differ.
 
 ## How is lipase made?

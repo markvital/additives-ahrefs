@@ -21,15 +21,15 @@ Food laws define E262 as approved additives with set purity and use conditions, 
 
 ## What can replace Sodium acetates?
 Depending on the job, common stand-ins include:
-- For acidity regulation: [acetic acid](/e260-acetic-acid), [citric acid](/e330-citric-acid), or [potassium acetate](/e261-potassium-acetate)
-- For preservation: [potassium sorbate](/e202-potassium-sorbate) or [sodium propionate](/e281-sodium-propionate) in bakery
-- For flavor: [acetic acid](/e260-acetic-acid) or a spice/vinegar powder
-- For sodium contribution with acidity control: [sodium lactate](/e325-sodium-lactate)
+- For acidity regulation: [acetic acid](/e260-acetic-acid){.additive}, [citric acid](/e330-citric-acid){.additive}, or [potassium acetate](/e261-potassium-acetate){.additive}
+- For preservation: [potassium sorbate](/e202-potassium-sorbate){.additive} or [sodium propionate](/e281-sodium-propionate){.additive} in bakery
+- For flavor: [acetic acid](/e260-acetic-acid){.additive} or a spice/vinegar powder
+- For sodium contribution with acidity control: [sodium lactate](/e325-sodium-lactate){.additive}
 
 The best substitute depends on whether you need pH control, shelf-life extension, flavor, or all three.
 
 ## How is Sodium acetates made?
-Sodium acetate is typically produced by neutralizing food-grade [acetic acid](/e260-acetic-acid) with a sodium base such as [sodium carbonate](/e500i-sodium-carbonate), [sodium bicarbonate](/e500ii-sodium-bicarbonate), or [sodium hydroxide](/e524-sodium-hydroxide), then drying to specification.[^1] Sodium diacetate is a defined combination of sodium acetate and acetic acid in approximately a 1:1 molar ratio, offering a stable, solid form that releases acetic acid flavor and acidity in foods.[^1]
+Sodium acetate is typically produced by neutralizing food-grade [acetic acid](/e260-acetic-acid){.additive} with a sodium base such as [sodium carbonate](/e500i-sodium-carbonate){.additive}, [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive}, or [sodium hydroxide](/e524-sodium-hydroxide){.additive}, then drying to specification.[^1] Sodium diacetate is a defined combination of sodium acetate and acetic acid in approximately a 1:1 molar ratio, offering a stable, solid form that releases acetic acid flavor and acidity in foods.[^1]
 
 ## Is Sodium acetates safe to eat?
 Within approved uses and good manufacturing practice, regulatory bodies consider E262 safe. In the European Union, sodium acetates have official specifications and are authorized as food additives.[^1] In the United States, sodium diacetate is affirmed as Generally Recognized as Safe (GRAS) for specified functions and levels,[^2] and it is also listed as a safe and suitable ingredient for certain meat and poultry applications by the U.S. Department of Agriculture (USDA).[^3]
@@ -53,7 +53,7 @@ It does not provide unique nutritional benefits beyond contributing small amount
 - Myth: “All preservatives are harsh chemicals.” Fact: E262 is derived from acetic acid (the main acid in vinegar) and is approved with strict purity and use limits.[^1]
 
 ## Sodium acetates in branded foods
-On labels, look for “sodium acetate,” “sodium diacetate,” or “E262.” You may also see them listed as an “acidity regulator,” “preservative,” or “flavoring.” Snack foods and bakery items often use E262 for flavor and freshness, while some meat and poultry products may use sodium diacetate under specific rules. If you want to avoid it, check ingredient lists and choose versions seasoned or preserved with alternatives like [citric acid](/e330-citric-acid) or [potassium sorbate](/e202-potassium-sorbate).
+On labels, look for “sodium acetate,” “sodium diacetate,” or “E262.” You may also see them listed as an “acidity regulator,” “preservative,” or “flavoring.” Snack foods and bakery items often use E262 for flavor and freshness, while some meat and poultry products may use sodium diacetate under specific rules. If you want to avoid it, check ingredient lists and choose versions seasoned or preserved with alternatives like [citric acid](/e330-citric-acid){.additive} or [potassium sorbate](/e202-potassium-sorbate){.additive}.
 
 ## References
 [^1]: Commission Regulation (EU) No 231/2012 — Specifications for food additives (includes E262 sodium acetates). https://eur-lex.europa.eu/eli/reg/2012/231/oj

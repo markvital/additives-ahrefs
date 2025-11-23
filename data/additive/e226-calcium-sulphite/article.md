@@ -22,13 +22,13 @@ You’re most likely to see sulfites, including calcium sulphite, in:
 - Crustaceans (such as shrimp) and some seafood products
 - Fruit juices and concentrates
 
-These uses reflect how sulfites help keep color and prevent spoilage across many categories.[^1] On U.S. labels, any added sulfite at 10 parts per million (ppm) or more must be declared, so look for “sulfites,” “sulphites,” or the specific name (for example, “calcium sulfite”).[^2] In the EU, other members of the same group you may see include [sulphur dioxide](/e220-sulphur-dioxide), [sodium sulphite](/e221-sodium-sulphite), [sodium bisulphite](/e222-sodium-bisulphite), [sodium metabisulphite](/e223-sodium-metabisulphite), and [potassium metabisulphite](/e224-potassium-metabisulphite).
+These uses reflect how sulfites help keep color and prevent spoilage across many categories.[^1] On U.S. labels, any added sulfite at 10 parts per million (ppm) or more must be declared, so look for “sulfites,” “sulphites,” or the specific name (for example, “calcium sulfite”).[^2] In the EU, other members of the same group you may see include [sulphur dioxide](/e220-sulphur-dioxide){.additive}, [sodium sulphite](/e221-sodium-sulphite){.additive}, [sodium bisulphite](/e222-sodium-bisulphite){.additive}, [sodium metabisulphite](/e223-sodium-metabisulphite){.additive}, and [potassium metabisulphite](/e224-potassium-metabisulphite){.additive}.
 
 ## What can replace Calcium sulphite?
 Swapping depends on the job you need done:
-- To limit browning in cut fruit and potatoes: [ascorbic acid](/e300-ascorbic-acid) or [citric acid](/e330-citric-acid)
-- To inhibit yeasts and molds in some foods: [potassium sorbate](/e202-potassium-sorbate)
-- To control microbes in acidic beverages: [sodium benzoate](/e211-sodium-benzoate)
+- To limit browning in cut fruit and potatoes: [ascorbic acid](/e300-ascorbic-acid){.additive} or [citric acid](/e330-citric-acid){.additive}
+- To inhibit yeasts and molds in some foods: [potassium sorbate](/e202-potassium-sorbate){.additive}
+- To control microbes in acidic beverages: [sodium benzoate](/e211-sodium-benzoate){.additive}
 - Non-additive options: Good hygiene, fast chilling, modified-atmosphere packaging, pasteurization, or vacuum packing
 
 Effectiveness and taste impact vary, so producers often trial combinations to match sulfite performance.

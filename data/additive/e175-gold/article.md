@@ -16,10 +16,10 @@ Food makers use gold to create a premium, celebratory look. In the European Unio
 You’re most likely to find edible gold on high-end confectionery and fine bakery wares, such as truffles, pralines, macarons, wedding cakes, and special-occasion desserts. It may also appear as flakes in some clear spirits and liqueurs, or as decorative accents on plated dishes in restaurants. In the EU, its authorized uses focus on surface decoration rather than coloring a product throughout, and labels may list it as “E175.”[^1]
 
 ## What can replace Gold?
-- Silver leaf or flakes: [silver](/e174-silver) (E174) gives a bright metallic look without a golden hue.
-- Mineral colors: [iron oxides and iron hydroxides](/e172-iron-oxides-and-iron-hydroxides) (E172) can provide gold, yellow, or brown shades in coatings, though not the mirror-like shine of metal leaf.
-- Clear, glossy finishes: [shellac](/e904-shellac) (E904) can add shine to confectionery without a metallic appearance.
-- Note on titanium dioxide: [titanium dioxide](/e171-titanium-dioxide) (E171) was commonly used to make white or pearly effects but is no longer authorized as a food additive in the EU.[^2]
+- Silver leaf or flakes: [silver](/e174-silver){.additive} (E174) gives a bright metallic look without a golden hue.
+- Mineral colors: [iron oxides and iron hydroxides](/e172-iron-oxides-and-iron-hydroxides){.additive} (E172) can provide gold, yellow, or brown shades in coatings, though not the mirror-like shine of metal leaf.
+- Clear, glossy finishes: [shellac](/e904-shellac){.additive} (E904) can add shine to confectionery without a metallic appearance.
+- Note on titanium dioxide: [titanium dioxide](/e171-titanium-dioxide){.additive} (E171) was commonly used to make white or pearly effects but is no longer authorized as a food additive in the EU.[^2]
 
 ## How is Gold made?
 Edible gold is produced from high-purity gold that is mechanically worked into extremely thin leaf, or milled into flakes and fine powders suitable for food use. The legal product specification (including forms such as leaf, flakes, and powder, and purity requirements) is set in Commission Regulation (EU) No 231/2012, which lays down the specifications for food additives listed in the EU.[^3]
@@ -38,7 +38,7 @@ Edible gold is used for appearance only. It does not add flavor, sweetness, or p
 ## Myths & facts
 - Myth: “Edible gold is absorbed and builds up in the body.” Fact: Metallic gold is minimally absorbed and is mostly excreted.[^4]
 - Myth: “Gold adds flavor.” Fact: E175 is neutral in taste; its function is visual.
-- Myth: “All shiny decorations are gold.” Fact: Many shiny effects come from other additives, such as [silver](/e174-silver) or glossy coatings like [shellac](/e904-shellac).
+- Myth: “All shiny decorations are gold.” Fact: Many shiny effects come from other additives, such as [silver](/e174-silver){.additive} or glossy coatings like [shellac](/e904-shellac){.additive}.
 
 ## Gold in branded foods
 - Liqueurs with floating flakes (for example, certain gold-flake spirits).

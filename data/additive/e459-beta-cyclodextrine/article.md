@@ -7,7 +7,7 @@ Beta-cyclodextrine (E459) is a ring-shaped carbohydrate made from starch. In foo
 - E-number: E459
 - Main roles: Carrier for flavors, stabiliser for sensitive ingredients, and mild thickener
 - Typical uses: Flavor powders, chewing gum, beverages, sauces, and fortified foods
-- Related additives: [alpha-cyclodextrine](/e457-alpha-cyclodextrine), [gamma-cyclodextrine](/e458-gamma-cyclodextrine)
+- Related additives: [alpha-cyclodextrine](/e457-alpha-cyclodextrine){.additive}, [gamma-cyclodextrine](/e458-gamma-cyclodextrine){.additive}
 
 ## Why is Beta-cyclodextrine added to food?
 Beta-cyclodextrine can trap small molecules in its ring-shaped structure. This “inclusion” helps keep delicate flavors and aromas from evaporating, masks bitterness or unwanted notes, and protects sensitive nutrients during processing and storage. It can also improve mouthfeel and help disperse oils and aromas more evenly in the final product.
@@ -25,9 +25,9 @@ On labels, look for “beta-cyclodextrin,” “β-cyclodextrin,” or “E459.�
 
 ## What can replace Beta-cyclodextrine?
 Possible alternatives depend on the job it does:
-- For carrying and protecting flavors: [acacia gum](/e414-acacia-gum), [modified starches](/e14xx-modified-starch), or [maltodextrin] (not all have E-numbers listed here)
-- For thickening/texture: [xanthan gum](/e415-xanthan-gum), [pectins](/e440-pectins), [locust bean gum](/e410-locust-bean-gum), or [gellan gum](/e418-gellan-gum)
-- For similar “inclusion” effects with different solubility: [alpha-cyclodextrine](/e457-alpha-cyclodextrine) or [gamma-cyclodextrine](/e458-gamma-cyclodextrine)
+- For carrying and protecting flavors: [acacia gum](/e414-acacia-gum){.additive}, [modified starches](/e14xx-modified-starch){.additive}, or [maltodextrin] (not all have E-numbers listed here)
+- For thickening/texture: [xanthan gum](/e415-xanthan-gum){.additive}, [pectins](/e440-pectins){.additive}, [locust bean gum](/e410-locust-bean-gum){.additive}, or [gellan gum](/e418-gellan-gum){.additive}
+- For similar “inclusion” effects with different solubility: [alpha-cyclodextrine](/e457-alpha-cyclodextrine){.additive} or [gamma-cyclodextrine](/e458-gamma-cyclodextrine){.additive}
 
 ## How is Beta-cyclodextrine made?
 Food-grade beta-cyclodextrine is produced from edible starch using specific enzymes that “cut and shape” the starch into a seven-glucose-ring molecule. The resulting product is then purified and crystallized to meet strict identity and purity criteria set in EU specifications for E459.[^1] These specifications also set limits on residual solvents, moisture, and microbial quality before the ingredient can be used in food.[^1]
@@ -50,7 +50,7 @@ These are technological benefits to the food product. They are not medical or he
 - If you are comparing it with sweeteners: beta-cyclodextrine is not an intense sweetener and is used in different, typically small, amounts compared with sugar substitutes.
 
 ## Myths & facts
-- Myth: “It’s a sweetener like cyclamate.” Fact: Beta-cyclodextrine is not an intense sweetener and is unrelated to [cyclamic acid](/e952-cyclamic-acid-and-its-na-and-ca-salts). It is mainly a carrier/stabiliser.
+- Myth: “It’s a sweetener like cyclamate.” Fact: Beta-cyclodextrine is not an intense sweetener and is unrelated to [cyclamic acid](/e952-cyclamic-acid-and-its-na-and-ca-salts){.additive}. It is mainly a carrier/stabiliser.
 - Myth: “It just adds bulk.” Fact: Its unique ring structure can include flavor molecules, helping protect and deliver them.
 - Myth: “It’s a synthetic chemical.” Fact: It is made from food starch using enzymes and must meet food-grade specifications.
 

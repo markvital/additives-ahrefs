@@ -16,9 +16,9 @@ None in markets that follow U.S. or EU rules. Because E130 is not on FDA’s per
 
 ## What can replace Indanthrene blue RS?
 If a blue shade is needed in foods, manufacturers use authorized colors instead. Common options include:
-- [indigotine (E132)](/e132-indigotine)
-- [brilliant blue FCF (E133)](/e133-brilliant-blue-fcf)
-- [patent blue V (E131)](/e131-patent-blue-v)
+- [indigotine (E132)](/e132-indigotine){.additive}
+- [brilliant blue FCF (E133)](/e133-brilliant-blue-fcf){.additive}
+- [patent blue V (E131)](/e131-patent-blue-v){.additive}
 
 The choice depends on the food type, desired hue, and local regulations.
 
@@ -39,7 +39,7 @@ Everyone in the U.S. and EU markets should avoid it in foods, simply because it 
   Fact: No. An E-number is a European classification, and only substances on the EU Union list are authorized. E130 is not on that list.[^3]
 - Myth: If a blue dye is safe for textiles, it is safe for food.  
   Fact: Not necessarily. Food colors must pass separate assessments and be explicitly authorized before use.[^2]
-- Myth: E130 is the same as [indigotine](/e132-indigotine).  
+- Myth: E130 is the same as [indigotine](/e132-indigotine){.additive}.  
   Fact: They are different substances; indigotine (E132) is an approved food color in many places, while E130 is not.[^1]
 
 ## Indanthrene blue RS in branded foods

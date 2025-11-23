@@ -7,7 +7,7 @@ Here is a quick look at what Ponceau 6R is and where it stands today.
 - Typical role: provides a deep red hue; water‑soluble
 - Approval: not authorized as a food color in the EU or the US
 - Where you’ll see it: rarely in mainstream foods; may appear on older labels or imports from countries with different rules
-- Common stand‑ins: other reds like [Ponceau 4R](/e124-ponceau-4r), [Allura Red AC](/e129-allura-red), or natural colors such as [beetroot red](/e162-beetroot-red) and [anthocyanins](/e163-anthocyanins)
+- Common stand‑ins: other reds like [Ponceau 4R](/e124-ponceau-4r){.additive}, [Allura Red AC](/e129-allura-red){.additive}, or natural colors such as [beetroot red](/e162-beetroot-red){.additive} and [anthocyanins](/e163-anthocyanins){.additive}
 
 ## Why is Ponceau 6R added to food?
 Manufacturers used Ponceau 6R to give foods a strong, bright red color because it dissolves in water and colors evenly. As an azo dye, it contains the azo bond (–N=N–), a common feature responsible for vivid color in many synthetic dyes.[^5]
@@ -17,8 +17,8 @@ You will seldom find Ponceau 6R in foods sold in the EU or US today because it i
 
 ## What can replace Ponceau 6R?
 Food makers usually switch to other red colorants that meet current rules and performance needs.
-- Synthetic reds: [Ponceau 4R](/e124-ponceau-4r), [Allura Red AC](/e129-allura-red), [Azorubine](/e122-azorubine), or [Amaranth](/e123-amaranth) where permitted
-- Natural reds: [beetroot red](/e162-beetroot-red), [anthocyanins](/e163-anthocyanins), [paprika extract](/e160c-paprika-extract), or [cochineal](/e120-cochineal)
+- Synthetic reds: [Ponceau 4R](/e124-ponceau-4r){.additive}, [Allura Red AC](/e129-allura-red){.additive}, [Azorubine](/e122-azorubine){.additive}, or [Amaranth](/e123-amaranth){.additive} where permitted
+- Natural reds: [beetroot red](/e162-beetroot-red){.additive}, [anthocyanins](/e163-anthocyanins){.additive}, [paprika extract](/e160c-paprika-extract){.additive}, or [cochineal](/e120-cochineal){.additive}
 Choosing among them depends on label goals (synthetic vs. natural), shade, pH stability, and heat/light stability.
 
 ## How is Ponceau 6R made?
@@ -32,12 +32,12 @@ Its benefit is purely cosmetic: it adds a vivid red color that can make foods lo
 
 ## Who should avoid Ponceau 6R?
 - Consumers in the EU and US will rarely encounter it, but manufacturers, importers, and retailers in those markets should avoid using it in foods because it is not authorized there.[^1][^3]
-- People who prefer to avoid synthetic azo dyes in general can choose products colored with listed alternatives such as [beetroot red](/e162-beetroot-red) or [anthocyanins](/e163-anthocyanins).
+- People who prefer to avoid synthetic azo dyes in general can choose products colored with listed alternatives such as [beetroot red](/e162-beetroot-red){.additive} or [anthocyanins](/e163-anthocyanins){.additive}.
 
 ## Myths & facts
-- Myth: “E126 and E124 are the same red.” Fact: They are different dyes; [Ponceau 4R](/e124-ponceau-4r) is authorized in some regions, while E126 is not.
-- Myth: “All synthetic red colors are banned.” Fact: Some synthetic reds (for example, [Allura Red AC](/e129-allura-red)) are permitted where listed by regulators.
-- Myth: “Red foods must use azo dyes.” Fact: Many products use natural colors like [beetroot red](/e162-beetroot-red), [anthocyanins](/e163-anthocyanins), or [paprika extract](/e160c-paprika-extract).
+- Myth: “E126 and E124 are the same red.” Fact: They are different dyes; [Ponceau 4R](/e124-ponceau-4r){.additive} is authorized in some regions, while E126 is not.
+- Myth: “All synthetic red colors are banned.” Fact: Some synthetic reds (for example, [Allura Red AC](/e129-allura-red){.additive}) are permitted where listed by regulators.
+- Myth: “Red foods must use azo dyes.” Fact: Many products use natural colors like [beetroot red](/e162-beetroot-red){.additive}, [anthocyanins](/e163-anthocyanins){.additive}, or [paprika extract](/e160c-paprika-extract){.additive}.
 
 ## Ponceau 6R in branded foods
 Because it is not authorized as a food color in the EU or US, major brands in those markets do not typically list Ponceau 6R on ingredient labels.[^1][^3] If you see it at all, it is most likely on older packaging or on imports from countries with different regulations.

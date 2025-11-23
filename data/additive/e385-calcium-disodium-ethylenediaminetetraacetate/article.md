@@ -25,12 +25,12 @@ In the U.S., these uses and their limits are set out in federal food regulations
 
 ## What can replace E385?
 There are several options, depending on the recipe and the kind of protection needed:
-- Acids that bind metals, such as [citric acid](/e330-citric-acid) or citrate salts
-- Antioxidants that slow oxidation, such as [ascorbic acid](/e300-ascorbic-acid) or [extracts of rosemary](/e392-extracts-of-rosemary)
+- Acids that bind metals, such as [citric acid](/e330-citric-acid){.additive} or citrate salts
+- Antioxidants that slow oxidation, such as [ascorbic acid](/e300-ascorbic-acid){.additive} or [extracts of rosemary](/e392-extracts-of-rosemary){.additive}
 - Emulsifier–stabilizer systems that improve product stability, sometimes used alongside or instead of chelators
-- Phosphates that can also sequester metals in some foods, such as [polyphosphates](/e452-polyphosphates)
+- Phosphates that can also sequester metals in some foods, such as [polyphosphates](/e452-polyphosphates){.additive}
 
-No single swap fits every product. Food makers often combine tools—for example, a mild acid like [citric acid](/e330-citric-acid) with an antioxidant such as [ascorbic acid](/e300-ascorbic-acid).
+No single swap fits every product. Food makers often combine tools—for example, a mild acid like [citric acid](/e330-citric-acid){.additive} with an antioxidant such as [ascorbic acid](/e300-ascorbic-acid){.additive}.
 
 ## How is E385 made?
 Manufacturers start with EDTA (ethylenediaminetetraacetic acid), then neutralize it with sodium and calcium to form the calcium disodium salt. The process is controlled to meet food-grade specifications on purity, identity, and limits for unwanted metals and other residues.[^2]
@@ -46,7 +46,7 @@ Yes—its main benefit is quality protection:
 - Helps keep colors stable in sauces and pickled foods
 - Can reduce formation of benzene in certain soft drinks by binding metals that catalyze the reaction between benzoate and vitamin C (ascorbic acid)[^3]
 
-These effects can also make other preservatives, such as [sodium benzoate](/e211-sodium-benzoate) or [potassium sorbate](/e202-potassium-sorbate), work more reliably in complex foods.
+These effects can also make other preservatives, such as [sodium benzoate](/e211-sodium-benzoate){.additive} or [potassium sorbate](/e202-potassium-sorbate){.additive}, work more reliably in complex foods.
 
 ## Who should avoid E385?
 Most people do not need to avoid it when it is used within legal limits. However:

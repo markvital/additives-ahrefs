@@ -31,11 +31,11 @@ It may appear together with other emulsifiers to fine‑tune texture and stabili
 
 ## What can replace Sucroglycerides?
 Several emulsifiers can serve similar roles, depending on the recipe:
-- [Mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids) (E471)
-- [Sucrose esters of fatty acids](/e473-sucrose-esters-of-fatty-acids) (E473)
-- [Polyglycerol esters of fatty acids](/e475-polyglycerol-esters-of-fatty-acids) (E475)
-- [Lecithins](/e322-lecithins) (E322), often from soy or sunflower
-- For beverage emulsions, [sucrose acetate isobutyrate](/e444-sucrose-acetate-isobutyrate) (E444) can help keep flavors evenly dispersed
+- [Mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive} (E471)
+- [Sucrose esters of fatty acids](/e473-sucrose-esters-of-fatty-acids){.additive} (E473)
+- [Polyglycerol esters of fatty acids](/e475-polyglycerol-esters-of-fatty-acids){.additive} (E475)
+- [Lecithins](/e322-lecithins){.additive} (E322), often from soy or sunflower
+- For beverage emulsions, [sucrose acetate isobutyrate](/e444-sucrose-acetate-isobutyrate){.additive} (E444) can help keep flavors evenly dispersed
 
 The best substitute depends on the food’s fat content, pH, processing steps, and labeling needs.
 

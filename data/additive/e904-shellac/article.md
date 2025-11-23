@@ -17,9 +17,9 @@ You’ll most often find shellac on the outside of panned or dragée-style confe
 
 ## What can replace Shellac?
 Alternatives depend on the product and the level of gloss needed.
-- Plant waxes: [carnauba wax](/e903-carnauba-wax), [candelilla wax](/e902-candelilla-wax)
-- Other waxes: [white and yellow beeswax](/e901-white-and-yellow-beeswax), [microcrystalline wax](/e905ci-microcrystalline-wax)
-- Film-formers and glazes: [pullulan](/e1204-pullulan), [acacia gum](/e414-acacia-gum)
+- Plant waxes: [carnauba wax](/e903-carnauba-wax){.additive}, [candelilla wax](/e902-candelilla-wax){.additive}
+- Other waxes: [white and yellow beeswax](/e901-white-and-yellow-beeswax){.additive}, [microcrystalline wax](/e905ci-microcrystalline-wax){.additive}
+- Film-formers and glazes: [pullulan](/e1204-pullulan){.additive}, [acacia gum](/e414-acacia-gum){.additive}
 
 These may give different levels of shine, hardness, and moisture protection, so formulators choose based on the food and desired finish.
 
@@ -39,7 +39,7 @@ These functional benefits are why it is common on polished confections and some 
 
 ## Who should avoid Shellac?
 - People who avoid animal- or insect-derived ingredients (for example, vegans) may choose to avoid shellac because it originates from the lac insect.[^1]
-- Those following strict dietary or ethical guidelines can opt for plant-wax coatings such as [carnauba wax](/e903-carnauba-wax) or [candelilla wax](/e902-candelilla-wax).
+- Those following strict dietary or ethical guidelines can opt for plant-wax coatings such as [carnauba wax](/e903-carnauba-wax){.additive} or [candelilla wax](/e902-candelilla-wax){.additive}.
 
 ## Myths & facts
 - Myth: Shellac is a plastic. Fact: It is a natural resin refined from lac insect secretions.[^1][^5]

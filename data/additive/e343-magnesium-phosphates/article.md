@@ -6,7 +6,7 @@ Magnesium phosphates (E343) are a group of magnesium salts of phosphoric acid us
 - What it is: A family of salts—monomagnesium phosphate, dimagnesium phosphate, and trimagnesium phosphate—grouped under E343.
 - What it does: Stabilises and thickens foods; can help regulate acidity and support consistent texture.
 - Where you’ll see it: On EU ingredient lists as “E343” or “magnesium phosphate.”
-- Related additives: Other phosphates like [sodium phosphates](/e339-sodium-phosphates), [potassium phosphates](/e340-potassium-phosphates), [calcium phosphates](/e341-calcium-phosphates), and [phosphoric acid](/e338-phosphoric-acid).
+- Related additives: Other phosphates like [sodium phosphates](/e339-sodium-phosphates){.additive}, [potassium phosphates](/e340-potassium-phosphates){.additive}, [calcium phosphates](/e341-calcium-phosphates){.additive}, and [phosphoric acid](/e338-phosphoric-acid){.additive}.
 - Safety snapshot: EFSA (European Food Safety Authority) set a group Acceptable Daily Intake (ADI) for phosphates of 40 mg/kg body weight per day, expressed as phosphorus.
 
 ## Why is Magnesium phosphates added to food?
@@ -17,14 +17,14 @@ In the EU, magnesium phosphates are authorised in a range of food categories und
 
 ## What can replace Magnesium phosphates?
 Depending on the job they do in a recipe, possible substitutes include:
-- Other phosphates for similar functionality: [sodium phosphates](/e339-sodium-phosphates), [potassium phosphates](/e340-potassium-phosphates), [calcium phosphates](/e341-calcium-phosphates), [diphosphates](/e450-diphosphates), [triphosphates](/e451-triphosphates), or [polyphosphates](/e452-polyphosphates).
-- Non-phosphate acid regulators and buffers when pH control is the main need: [citric acid](/e330-citric-acid) or [sodium citrates](/e331-sodium-citrates).
-- Mineral fillers or firmness agents in some applications: [calcium carbonates](/e170-calcium-carbonates).
+- Other phosphates for similar functionality: [sodium phosphates](/e339-sodium-phosphates){.additive}, [potassium phosphates](/e340-potassium-phosphates){.additive}, [calcium phosphates](/e341-calcium-phosphates){.additive}, [diphosphates](/e450-diphosphates){.additive}, [triphosphates](/e451-triphosphates){.additive}, or [polyphosphates](/e452-polyphosphates){.additive}.
+- Non-phosphate acid regulators and buffers when pH control is the main need: [citric acid](/e330-citric-acid){.additive} or [sodium citrates](/e331-sodium-citrates){.additive}.
+- Mineral fillers or firmness agents in some applications: [calcium carbonates](/e170-calcium-carbonates){.additive}.
 
 The best substitute depends on the food type and the specific function (thickening, stabilising, or pH control).
 
 ## How is Magnesium phosphates made?
-Food-grade magnesium phosphates are typically produced by neutralising purified [phosphoric acid](/e338-phosphoric-acid) with magnesium oxide, magnesium hydroxide, or magnesium carbonate, followed by controlled crystallisation and drying to yield the mono-, di-, or tri-magnesium salts.[^1]
+Food-grade magnesium phosphates are typically produced by neutralising purified [phosphoric acid](/e338-phosphoric-acid){.additive} with magnesium oxide, magnesium hydroxide, or magnesium carbonate, followed by controlled crystallisation and drying to yield the mono-, di-, or tri-magnesium salts.[^1]
 
 ## Is Magnesium phosphates safe to eat?
 EFSA re-evaluated the safety of phosphates (including E343) and established a group ADI of 40 mg/kg body weight per day, expressed as phosphorus.[^2] Within that framework, EFSA did not identify concerns for genotoxicity or carcinogenicity when phosphates are used as authorised in foods.[^2] As with all additives, actual use levels and permitted food categories are regulated in the EU.[^3]

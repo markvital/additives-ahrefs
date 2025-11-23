@@ -8,7 +8,7 @@ Chlorophyllins (E140II) are water‑soluble green colorings made by modifying ch
 - Common uses: soft drinks, confectionery, ice cream, desserts, sauces, and processed vegetables.
 - How it appears on labels: “E140ii,” “E140,” or “chlorophyllins.”
 - Dietary notes: plant‑derived; not known as a common allergen.
-- Related colors: natural [chlorophylls](/e140i-chlorophylls) and copper complexes of chlorophylls/chlorophyllins ([E141](/e141-copper-complexes-of-chlorophylls-and-chlorophyllins)).
+- Related colors: natural [chlorophylls](/e140i-chlorophylls){.additive} and copper complexes of chlorophylls/chlorophyllins ([E141](/e141-copper-complexes-of-chlorophylls-and-chlorophyllins){.additive}).
 
 ## Why is Chlorophyllins added to food?
 Food makers use chlorophyllins because they provide a clean, stable green color in water‑based foods, especially under acidic conditions where natural chlorophyll would degrade and turn olive‑brown. They are authorized in the EU as color additives and are favored when a plant‑based green is desired with better solubility and processing stability than native chlorophyll.[^1]
@@ -17,10 +17,10 @@ Food makers use chlorophyllins because they provide a clean, stable green color 
 Chlorophyllins can appear in many categories that permit color additives, including flavored beverages, ice creams and sorbets, candies and chewing gum, cake decorations and fillings, sauces, and certain processed vegetables. Exact permissions and maximum levels depend on the food category set in EU rules.[^3] EFSA’s re‑evaluation considered typical uses across these categories when assessing exposure.[^1]
 
 ## What can replace Chlorophyllins?
-- Other natural greens: [chlorophylls](/e140i-chlorophylls) for oil‑based or less acidic foods.
-- Stabilized greens: [copper complexes of chlorophyllins](/e141ii-copper-complexes-of-chlorophyllins) or [copper complexes of chlorophylls](/e141i-copper-complexes-of-chlorophylls) for extra stability.
-- Different natural hues: yellow/orange from [beta‑carotene](/e160ai-beta-carotene) or [lutein](/e161b-lutein), red/purple from [anthocyanins](/e163-anthocyanins).
-- Blends with synthetics where allowed: green can be made by mixing [tartrazine](/e102-tartrazine) and [brilliant blue FCF](/e133-brilliant-blue-fcf).
+- Other natural greens: [chlorophylls](/e140i-chlorophylls){.additive} for oil‑based or less acidic foods.
+- Stabilized greens: [copper complexes of chlorophyllins](/e141ii-copper-complexes-of-chlorophyllins){.additive} or [copper complexes of chlorophylls](/e141i-copper-complexes-of-chlorophylls){.additive} for extra stability.
+- Different natural hues: yellow/orange from [beta‑carotene](/e160ai-beta-carotene){.additive} or [lutein](/e161b-lutein){.additive}, red/purple from [anthocyanins](/e163-anthocyanins){.additive}.
+- Blends with synthetics where allowed: green can be made by mixing [tartrazine](/e102-tartrazine){.additive} and [brilliant blue FCF](/e133-brilliant-blue-fcf){.additive}.
 
 ## How is Chlorophyllins made?
 Chlorophyllins are produced by extracting chlorophyll from edible plant material, then saponifying it under alkaline conditions to remove the phytol tail and methyl groups, and replacing the central magnesium with hydrogen. The resulting acids are neutralized to form water‑soluble sodium, potassium, or ammonium salts—these are the chlorophyllins sold as E140II.[^2]

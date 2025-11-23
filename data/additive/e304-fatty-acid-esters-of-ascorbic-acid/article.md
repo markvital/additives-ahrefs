@@ -25,11 +25,11 @@ The most common label names are “ascorbyl palmitate” and “ascorbyl stearat
 
 ## What can replace Fatty acid esters of ascorbic acid?
 Food makers can use other antioxidants or stabilizers, depending on the recipe:
-- Natural mixed tocopherols such as [tocopherol-rich extract](/e306-tocopherol-rich-extract) or single forms like [alpha-tocopherol](/e307-alpha-tocopherol)
-- Synthetic antioxidants such as [BHA](/e320-butylated-hydroxyanisole-bha) or [BHT](/e321-butylated-hydroxytoluene)
-- [Propyl gallate](/e310-propyl-gallate) or other gallates
-- [Extracts of rosemary](/e392-extracts-of-rosemary)
-- Synergists like [citric acid](/e330-citric-acid) or [sodium citrates](/e331-sodium-citrates), which can help antioxidants work better in some systems
+- Natural mixed tocopherols such as [tocopherol-rich extract](/e306-tocopherol-rich-extract){.additive} or single forms like [alpha-tocopherol](/e307-alpha-tocopherol){.additive}
+- Synthetic antioxidants such as [BHA](/e320-butylated-hydroxyanisole-bha){.additive} or [BHT](/e321-butylated-hydroxytoluene){.additive}
+- [Propyl gallate](/e310-propyl-gallate){.additive} or other gallates
+- [Extracts of rosemary](/e392-extracts-of-rosemary){.additive}
+- Synergists like [citric acid](/e330-citric-acid){.additive} or [sodium citrates](/e331-sodium-citrates){.additive}, which can help antioxidants work better in some systems
 
 ## How is Fatty acid esters of ascorbic acid made?
 E304 additives are made by reacting ascorbic acid (vitamin C) with long‑chain fatty acids, typically palmitic acid or stearic acid. The result is an “ester,” which is more oil‑soluble than plain ascorbic acid, making it useful in fat‑rich foods.[^3] In the European Union, official specifications cover identity, purity, and how the additives should be produced and tested.[^3]
@@ -55,7 +55,7 @@ For consumers, the main benefit is better quality and shelf life. E304 helps kee
   Fact: E304 has been evaluated by EU and U.S. authorities and is permitted for use within set conditions.[^1][^2]
 
 ## Fatty acid esters of ascorbic acid in branded foods
-On ingredient lists, look for “ascorbyl palmitate,” “ascorbyl stearate,” or “E304.” You’ll most often see it in products with noticeable fat content, such as oils, spreads, fried snacks, and baked goods. It may also appear alongside other antioxidants like [tocopherols](/e306-tocopherol-rich-extract), [BHA](/e320-butylated-hydroxyanisole-bha), [BHT](/e321-butylated-hydroxytoluene), or [propyl gallate](/e310-propyl-gallate).
+On ingredient lists, look for “ascorbyl palmitate,” “ascorbyl stearate,” or “E304.” You’ll most often see it in products with noticeable fat content, such as oils, spreads, fried snacks, and baked goods. It may also appear alongside other antioxidants like [tocopherols](/e306-tocopherol-rich-extract){.additive}, [BHA](/e320-butylated-hydroxyanisole-bha){.additive}, [BHT](/e321-butylated-hydroxytoluene){.additive}, or [propyl gallate](/e310-propyl-gallate){.additive}.
 
 ## References
 [^1]: Re-evaluation of ascorbyl palmitate (E 304(i)) and ascorbyl stearate (E 304(ii)) as food additives — EFSA Journal. https://www.efsa.europa.eu/en/efsajournal/pub/4085

@@ -22,8 +22,8 @@ It may also appear in some baked goods and breakfast cereals.
 
 ## What can replace E960C?
 Depending on the recipe, manufacturers might swap or blend E960C with:
-- Other high‑intensity sweeteners: [sucralose](/e955-sucralose), [aspartame](/e951-aspartame), [acesulfame K](/e950-acesulfame-k), [neotame](/e961-neotame), [advantame](/e969-advantame), or [thaumatin](/e957-thaumatin)
-- Polyol (sugar alcohol) sweeteners that add bulk: [erythritol](/e968-erythritol), [sorbitol](/e420-sorbitol), or [xylitol](/e967-xylitol)
+- Other high‑intensity sweeteners: [sucralose](/e955-sucralose){.additive}, [aspartame](/e951-aspartame){.additive}, [acesulfame K](/e950-acesulfame-k){.additive}, [neotame](/e961-neotame){.additive}, [advantame](/e969-advantame){.additive}, or [thaumatin](/e957-thaumatin){.additive}
+- Polyol (sugar alcohol) sweeteners that add bulk: [erythritol](/e968-erythritol){.additive}, [sorbitol](/e420-sorbitol){.additive}, or [xylitol](/e967-xylitol){.additive}
 Blends are common to fine‑tune sweetness curve, aftertaste, and mouthfeel.
 
 ## How is E960C made?
@@ -46,7 +46,7 @@ Most people can consume steviol glycosides within the ADI, including children, a
 - Myth: “E960C raises blood sugar like regular sugar.” Fact: It is a high‑intensity sweetener used at very low levels and does not contribute sugar like sucrose.
 
 ## E960C in branded foods
-On ingredient lists, look for “enzymatically produced steviol glycosides,” “stevia sweetener,” or “E960c.” Many brands pair it with flavorings, acids such as [citric acid](/e330-citric-acid), or other sweeteners to balance taste. Labels on “diet,” “light,” “zero sugar,” or “no added sugar” products are common places to find it.
+On ingredient lists, look for “enzymatically produced steviol glycosides,” “stevia sweetener,” or “E960c.” Many brands pair it with flavorings, acids such as [citric acid](/e330-citric-acid){.additive}, or other sweeteners to balance taste. Labels on “diet,” “light,” “zero sugar,” or “no added sugar” products are common places to find it.
 
 ## References
 [^1]: Scientific Opinion on the safety of steviol glycosides for the proposed uses as a food additive — EFSA Journal (European Food Safety Authority). https://www.efsa.europa.eu/en/efsajournal/pub/1537

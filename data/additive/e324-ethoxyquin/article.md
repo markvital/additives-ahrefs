@@ -20,9 +20,9 @@ Because regulations vary, always check local rules and product labels. Where use
 
 ## What can replace Ethoxyquin?
 Several antioxidants can perform a similar role, depending on the food or feed and the local rules:
-- Natural-source options like [ascorbic acid](/e300-ascorbic-acid) and mixed [tocopherols](/e306-tocopherol-rich-extract) (vitamin E; see also [alpha‑tocopherol](/e307-alpha-tocopherol))
-- Extracts of rosemary, used for antioxidant function in some foods ([extracts of rosemary](/e392-extracts-of-rosemary))
-- Other permitted synthetic antioxidants such as [BHA](/e320-butylated-hydroxyanisole-bha), [BHT](/e321-butylated-hydroxytoluene), or [TBHQ](/e319-tertiary-butylhydroquinone-tbhq)
+- Natural-source options like [ascorbic acid](/e300-ascorbic-acid){.additive} and mixed [tocopherols](/e306-tocopherol-rich-extract){.additive} (vitamin E; see also [alpha‑tocopherol](/e307-alpha-tocopherol){.additive})
+- Extracts of rosemary, used for antioxidant function in some foods ([extracts of rosemary](/e392-extracts-of-rosemary){.additive})
+- Other permitted synthetic antioxidants such as [BHA](/e320-butylated-hydroxyanisole-bha){.additive}, [BHT](/e321-butylated-hydroxytoluene){.additive}, or [TBHQ](/e319-tertiary-butylhydroquinone-tbhq){.additive}
 
 The best substitute depends on flavor impact, heat stability, the fat source, labeling goals, and regulatory limits.
 
@@ -45,14 +45,14 @@ Where it is allowed, ethoxyquin helps:
 These benefits are technological (product stability), not nutritional for humans.
 
 ## Who should avoid Ethoxyquin?
-- People who prefer to avoid synthetic antioxidants may choose foods and supplements that use alternatives (for example, [tocopherols](/e306-tocopherol-rich-extract) or [ascorbic acid](/e300-ascorbic-acid)).
+- People who prefer to avoid synthetic antioxidants may choose foods and supplements that use alternatives (for example, [tocopherols](/e306-tocopherol-rich-extract){.additive} or [ascorbic acid](/e300-ascorbic-acid){.additive}).
 - If you are managing special diets during pregnancy, for infants, or for specific medical conditions, discuss any concerns about additives and residues with a healthcare professional.
 - Pet owners can check feed labels if seeking “ethoxyquin‑free” formulations.
 
 ## Myths & facts
 - Myth: “Ethoxyquin is banned everywhere.” Fact: The EU suspended its authorization in animal feed pending more data, but other jurisdictions still allow controlled uses.[^3]
 - Myth: “It’s approved the same way in all countries.” Fact: In the U.S., it is authorized as a feed antioxidant under defined conditions in the CFR.[^1]
-- Myth: “Antioxidants all work the same.” Fact: Different antioxidants vary in heat stability, flavor impact, solubility, and legal limits; formulators often choose among [BHA](/e320-butylated-hydroxyanisole-bha), [BHT](/e321-butylated-hydroxytoluene), [TBHQ](/e319-tertiary-butylhydroquinone-tbhq), [tocopherols](/e306-tocopherol-rich-extract), and [ascorbic acid](/e300-ascorbic-acid) to fit the product.
+- Myth: “Antioxidants all work the same.” Fact: Different antioxidants vary in heat stability, flavor impact, solubility, and legal limits; formulators often choose among [BHA](/e320-butylated-hydroxyanisole-bha){.additive}, [BHT](/e321-butylated-hydroxytoluene){.additive}, [TBHQ](/e319-tertiary-butylhydroquinone-tbhq){.additive}, [tocopherols](/e306-tocopherol-rich-extract){.additive}, and [ascorbic acid](/e300-ascorbic-acid){.additive} to fit the product.
 
 ## Ethoxyquin in branded foods
 We do not commonly see E324 on ingredient lists of retail human foods. If it appears, it should be listed as “Ethoxyquin” or “E324,” and its use will depend on local regulations.

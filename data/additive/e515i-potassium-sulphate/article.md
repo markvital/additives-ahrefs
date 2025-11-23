@@ -18,12 +18,12 @@ You may find potassium sulphate across different processed foods where a neutral
 
 ## What can replace Potassium sulphate?
 Possible substitutes depend on the job it is doing:
-- For a similar mineral salt role: [sodium sulphates](/e514-sodium-sulphates), [calcium sulphate](/e516-calcium-sulphate), or [magnesium sulphate](/e518-magnesium-sulphate) may be options (mind taste, sodium content, and regulations).
-- For acidity control: [citric acid](/e330-citric-acid) or [phosphoric acid](/e338-phosphoric-acid) may be used, depending on the recipe and local rules.
+- For a similar mineral salt role: [sodium sulphates](/e514-sodium-sulphates){.additive}, [calcium sulphate](/e516-calcium-sulphate){.additive}, or [magnesium sulphate](/e518-magnesium-sulphate){.additive} may be options (mind taste, sodium content, and regulations).
+- For acidity control: [citric acid](/e330-citric-acid){.additive} or [phosphoric acid](/e338-phosphoric-acid){.additive} may be used, depending on the recipe and local rules.
 - For processing needs: technologists may adjust the process or switch to other approved carriers or stabilisers.
 
 ## How is Potassium sulphate made?
-Food‑grade potassium sulphate is typically produced by neutralising [sulphuric acid](/e513-sulphuric-acid) with a potassium base such as [potassium carbonate](/e501i-potassium-carbonate) or potassium hydroxide, followed by purification and crystallisation.[^3] In the EU, it must meet identity and purity criteria (for example, limits for insoluble matter and certain impurities) set out in Commission Regulation (EU) No 231/2012.[^1]
+Food‑grade potassium sulphate is typically produced by neutralising [sulphuric acid](/e513-sulphuric-acid){.additive} with a potassium base such as [potassium carbonate](/e501i-potassium-carbonate){.additive} or potassium hydroxide, followed by purification and crystallisation.[^3] In the EU, it must meet identity and purity criteria (for example, limits for insoluble matter and certain impurities) set out in Commission Regulation (EU) No 231/2012.[^1]
 
 ## Is Potassium sulphate safe to eat?
 The European Food Safety Authority (EFSA) re‑evaluated sulphuric acid and sulphates, including potassium sulphate (E 515), and concluded there was no safety concern at the reported uses and use levels in foods.[^2] Like other sulphate salts, very high intakes can have a laxative effect, but the amounts used in foods are much lower than the levels linked to such effects.[^2]
@@ -36,7 +36,7 @@ Potassium is an essential mineral that supports normal nerve transmission, muscl
 - Anyone who notices digestive discomfort from sulphates should be aware that high doses can have a laxative effect; this is unlikely at typical food additive levels but can occur with large sulphate intakes (for example, from water).[^\2]
 
 ## Myths & facts
-- Myth: “Sulfates are the same as sulfites.” Fact: Sulphates (like E515i) are different from sulphites (such as [sulphur dioxide](/e220-sulphur-dioxide)), which are preservatives and a common allergen statement.
+- Myth: “Sulfates are the same as sulfites.” Fact: Sulphates (like E515i) are different from sulphites (such as [sulphur dioxide](/e220-sulphur-dioxide){.additive}), which are preservatives and a common allergen statement.
 - Myth: “It makes food taste salty.” Fact: Potassium sulphate has a neutral taste and is used for function, not flavour.
 - Myth: “It’s just fertiliser in food.” Fact: Food‑grade potassium sulphate must meet strict purity standards for use in foods.
 - Myth: “It’s banned.” Fact: It is an authorised additive with specifications in the EU.

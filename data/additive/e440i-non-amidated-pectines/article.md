@@ -18,11 +18,11 @@ You’ll most often find it in fruit preserves (jams, jellies, marmalades), swee
 
 ## What can replace non-amidated pectines?
 Many hydrocolloids can stand in, depending on the recipe:
-- For firm, sliceable gels: [agar](/e406-agar) or [carrageenan](/e407-carrageenan)
-- For chewy gels: [gelatine](/e428-gelatine) in non-vegan products; [gellan gum](/e418-gellan-gum) for vegan
-- For body and stability without a firm gel: [xanthan gum](/e415-xanthan-gum), [guar gum](/e412-guar-gum), [locust bean gum](/e410-locust-bean-gum), or [tara gum](/e417-tara-gum)
+- For firm, sliceable gels: [agar](/e406-agar){.additive} or [carrageenan](/e407-carrageenan){.additive}
+- For chewy gels: [gelatine](/e428-gelatine){.additive} in non-vegan products; [gellan gum](/e418-gellan-gum){.additive} for vegan
+- For body and stability without a firm gel: [xanthan gum](/e415-xanthan-gum){.additive}, [guar gum](/e412-guar-gum){.additive}, [locust bean gum](/e410-locust-bean-gum){.additive}, or [tara gum](/e417-tara-gum){.additive}
 
-Keep in mind that swaps change texture and flavor release. Preserves may also need acid balance (for example, with [citric acid](/e330-citric-acid)) and sugar adjustments.
+Keep in mind that swaps change texture and flavor release. Preserves may also need acid balance (for example, with [citric acid](/e330-citric-acid){.additive}) and sugar adjustments.
 
 ## How is non-amidated pectines made?
 Manufacturers extract pectin from dried citrus peels or apple pomace using hot, mildly acidic water. The pectin is then filtered, purified, precipitated with food-grade alcohol (such as ethanol or isopropanol), washed, dried, and milled to a powder.[^3] Non-amidated pectins are not treated with ammonia, which distinguishes them from amidated pectins (E440ii).[^3] Production parameters are tuned to achieve different gel behaviors (for example, high- or low-methoxyl grades).[^2]
@@ -44,7 +44,7 @@ Technologically, pectin gives reliable gelation, improves texture, and limits wa
 - Myth: “E-numbers mean a food is unsafe.”  
   Fact: An E-number means the additive was evaluated for use in the EU. E440(i) refers to pectins that meet EU specifications.[^3]
 - Myth: “All pectins are the same.”  
-  Fact: Non-amidated pectins (E440i) differ from [amidated pectin](/e440b-pectin-amide) (E440ii) in how they’re processed and how they gel.[^3]
+  Fact: Non-amidated pectins (E440i) differ from [amidated pectin](/e440b-pectin-amide){.additive} (E440ii) in how they’re processed and how they gel.[^3]
 
 ## E440I in branded foods
 On ingredient lists, look for “pectin,” “pectins,” or “E440i.” You’ll commonly see it on jars of jam and marmalade, yoghurt fruit layers and drinkable yoghurts, fruit spreads, bakery fruit fillings, and some soft candies. Texture can vary by brand because pectin grade, sugar level, and acidity all affect the final set.

@@ -16,10 +16,10 @@ In the United States, calcium stearoyl-2-lactylate is permitted for use in yeast
 
 ## What can replace Calcium stearoyl-2-lactylate?
 Depending on the recipe and goal, bakers may use:
-- [Sodium stearoyl-2-lactylate](/e481-sodium-stearoyl-2-lactylate) (E481) for similar dough-strengthening effects
-- [Mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids) (E471) to help with emulsification
-- [Lecithins](/e322-lecithins) (E322) for gentle emulsification in some doughs and batters
-- Bakery aids such as enzymes like [alpha-amylase](/e1100-alpha-amylase) (E1100) or oxidants like [ascorbic acid](/e300-ascorbic-acid) (E300) to fine-tune dough handling and loaf volume
+- [Sodium stearoyl-2-lactylate](/e481-sodium-stearoyl-2-lactylate){.additive} (E481) for similar dough-strengthening effects
+- [Mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive} (E471) to help with emulsification
+- [Lecithins](/e322-lecithins){.additive} (E322) for gentle emulsification in some doughs and batters
+- Bakery aids such as enzymes like [alpha-amylase](/e1100-alpha-amylase){.additive} (E1100) or oxidants like [ascorbic acid](/e300-ascorbic-acid){.additive} (E300) to fine-tune dough handling and loaf volume
 
 ## How is Calcium stearoyl-2-lactylate made?
 E482 is produced by reacting lactic acid with fatty acids (primarily stearic acid) to form stearoyl lactylic acids, and then neutralizing the product with calcium to make the calcium salt. The fatty acids are typically a food-grade mixture dominated by C16 and C18 chains.[^1]

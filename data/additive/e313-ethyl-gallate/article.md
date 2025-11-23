@@ -8,8 +8,8 @@ Ethyl gallate (E313) is an antioxidant used to slow down the rancidity of fats a
 - What it does: helps keep fats and oils from going rancid
 - Where it shows up: used in small amounts in some processed foods, depending on local rules
 - Also known as: Ethyl gallate, E313
-- Related additives: [propyl gallate](/e310-propyl-gallate), [octyl gallate](/e311-octyl-gallate), [dodecyl gallate](/e312-dodecyl-gallate)
-- Typical pairing: often used alongside other antioxidants like [ascorbic acid](/e300-ascorbic-acid), [citric acid](/e330-citric-acid), or [tocopherols](/e306-tocopherol-rich-extract)
+- Related additives: [propyl gallate](/e310-propyl-gallate){.additive}, [octyl gallate](/e311-octyl-gallate){.additive}, [dodecyl gallate](/e312-dodecyl-gallate){.additive}
+- Typical pairing: often used alongside other antioxidants like [ascorbic acid](/e300-ascorbic-acid){.additive}, [citric acid](/e330-citric-acid){.additive}, or [tocopherols](/e306-tocopherol-rich-extract){.additive}
 
 ## Why is Ethyl gallate added to food?
 
@@ -19,7 +19,7 @@ Gallate antioxidants as a group are used in tiny amounts because they are potent
 
 ## What foods contain Ethyl gallate?
 
-Where permitted, gallate antioxidants are most often used in foods rich in fat, such as edible oils and oil-containing mixes. In U.S. rules, the gallates you are most likely to see on labels are [propyl gallate](/e310-propyl-gallate), [octyl gallate](/e311-octyl-gallate), and [dodecyl gallate](/e312-dodecyl-gallate), which are listed for use at very low levels in specific foods like fats and oils and certain mixes.[^2][^3][^4]
+Where permitted, gallate antioxidants are most often used in foods rich in fat, such as edible oils and oil-containing mixes. In U.S. rules, the gallates you are most likely to see on labels are [propyl gallate](/e310-propyl-gallate){.additive}, [octyl gallate](/e311-octyl-gallate){.additive}, and [dodecyl gallate](/e312-dodecyl-gallate){.additive}, which are listed for use at very low levels in specific foods like fats and oils and certain mixes.[^2][^3][^4]
 
 Labeling practices differ by region. Some countries list antioxidants by their common name (for example, “ethyl gallate”), others by an E-number (for example, “E313”) on ingredient lists.[^5]
 
@@ -27,9 +27,9 @@ Labeling practices differ by region. Some countries list antioxidants by their c
 
 Several antioxidants can play a similar role:
 
-- Other gallates: [propyl gallate](/e310-propyl-gallate), [octyl gallate](/e311-octyl-gallate), [dodecyl gallate](/e312-dodecyl-gallate)[^2][^3][^4]
-- Vitamins and plant-based antioxidants: [ascorbic acid](/e300-ascorbic-acid) and [tocopherols](/e306-tocopherol-rich-extract)[^2]
-- Acids and chelators that slow oxidation indirectly: [citric acid](/e330-citric-acid)
+- Other gallates: [propyl gallate](/e310-propyl-gallate){.additive}, [octyl gallate](/e311-octyl-gallate){.additive}, [dodecyl gallate](/e312-dodecyl-gallate){.additive}[^2][^3][^4]
+- Vitamins and plant-based antioxidants: [ascorbic acid](/e300-ascorbic-acid){.additive} and [tocopherols](/e306-tocopherol-rich-extract){.additive}[^2]
+- Acids and chelators that slow oxidation indirectly: [citric acid](/e330-citric-acid){.additive}
 
 The best substitute depends on the food matrix, processing, flavor impact, and local regulations.
 
@@ -61,7 +61,7 @@ As always, check labels and follow local dietary guidance.
 
 ## Ethyl gallate in branded foods
 
-If present, you might see it on labels as “ethyl gallate” or “E313.” In some markets you are more likely to find other gallates listed instead, such as [propyl gallate](/e310-propyl-gallate), [octyl gallate](/e311-octyl-gallate), or [dodecyl gallate](/e312-dodecyl-gallate), depending on local approvals.[^2][^3][^4][^5]
+If present, you might see it on labels as “ethyl gallate” or “E313.” In some markets you are more likely to find other gallates listed instead, such as [propyl gallate](/e310-propyl-gallate){.additive}, [octyl gallate](/e311-octyl-gallate){.additive}, or [dodecyl gallate](/e312-dodecyl-gallate){.additive}, depending on local approvals.[^2][^3][^4][^5]
 
 ## References
 

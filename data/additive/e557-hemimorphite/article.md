@@ -18,11 +18,11 @@ You are unlikely to find hemimorphite named on everyday labels. In theory, anti-
 
 ## What can replace hemimorphite?
 When flow and anti-caking are needed, manufacturers commonly choose:
-- [silicon dioxide](/e551-silicon-dioxide)
-- [calcium silicate](/e552-calcium-silicate)
-- [talc](/e553b-talc)
-- [sodium aluminium silicate](/e554-sodium-aluminium-silicate)
-- [aluminium silicate](/e559-aluminium-silicate)
+- [silicon dioxide](/e551-silicon-dioxide){.additive}
+- [calcium silicate](/e552-calcium-silicate){.additive}
+- [talc](/e553b-talc){.additive}
+- [sodium aluminium silicate](/e554-sodium-aluminium-silicate){.additive}
+- [aluminium silicate](/e559-aluminium-silicate){.additive}
 
 The best alternative depends on the food’s moisture, fat content, and processing conditions.
 
@@ -51,7 +51,7 @@ Nutritional benefits:
 - Myth: All silicates are the same. Fact: Food laws treat each additive separately, with its own authorization and specification where applicable.[^3][^4]
 
 ## hemimorphite in branded foods
-It is uncommon to see E557 or “hemimorphite” on ingredient lists today. If it is used, labels may list either the name or the E-number (E557), depending on local labeling rules. You are more likely to see alternatives such as [silicon dioxide](/e551-silicon-dioxide) or [calcium silicate](/e552-calcium-silicate).
+It is uncommon to see E557 or “hemimorphite” on ingredient lists today. If it is used, labels may list either the name or the E-number (E557), depending on local labeling rules. You are more likely to see alternatives such as [silicon dioxide](/e551-silicon-dioxide){.additive} or [calcium silicate](/e552-calcium-silicate){.additive}.
 
 ## References
 [^1]: 21 CFR 170.3(o) — Definitions for food additive functions, including anti-caking agents — U.S. FDA/eCFR. https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-170/section-170.3

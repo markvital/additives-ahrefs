@@ -10,7 +10,7 @@ Calcium guanylate (E629) is a flavor enhancer that boosts savory, umami taste. I
 - Regulation: listed in the EU with identity and purity criteria as E629
 
 ## Why is Calcium guanylate added to food?
-Food makers add calcium guanylate to lift savory, umami taste without adding strong flavors of its own. It works especially well with glutamate, including [monosodium glutamate](/e621-monosodium-glutamate), and with inosinate, such as [disodium inosinate](/e631-disodium-inosinate), creating a bigger flavor impact from small amounts. The EU lists E629 as a flavor enhancer and sets specifications for its identity and purity.[^1] The compound is also described in scientific and regulatory databases as a flavoring/flavor-enhancing ingredient.[^2]
+Food makers add calcium guanylate to lift savory, umami taste without adding strong flavors of its own. It works especially well with glutamate, including [monosodium glutamate](/e621-monosodium-glutamate){.additive}, and with inosinate, such as [disodium inosinate](/e631-disodium-inosinate){.additive}, creating a bigger flavor impact from small amounts. The EU lists E629 as a flavor enhancer and sets specifications for its identity and purity.[^1] The compound is also described in scientific and regulatory databases as a flavoring/flavor-enhancing ingredient.[^2]
 
 ## What foods contain Calcium guanylate?
 You are most likely to find calcium guanylate in:
@@ -20,15 +20,15 @@ You are most likely to find calcium guanylate in:
 - Savory ready-to-eat or frozen meals
 - Some cured or processed meats and seafood seasonings
 
-On ingredient lists it may appear as “calcium guanylate,” “E629,” or alongside other nucleotides such as [disodium guanylate](/e627-disodium-guanylate) or [dipotassium guanylate](/e628-dipotassium-guanylate).
+On ingredient lists it may appear as “calcium guanylate,” “E629,” or alongside other nucleotides such as [disodium guanylate](/e627-disodium-guanylate){.additive} or [dipotassium guanylate](/e628-dipotassium-guanylate){.additive}.
 
 ## What can replace Calcium guanylate?
 Formulators can reach similar flavor effects with:
-- [Disodium guanylate](/e627-disodium-guanylate) (sodium salt) or [dipotassium guanylate](/e628-dipotassium-guanylate)
-- [Disodium inosinate](/e631-disodium-inosinate) or blends like [disodium 5'-ribonucleotide](/e635-disodium-5-ribonucleotide)
-- [Monosodium glutamate](/e621-monosodium-glutamate) for the core umami note
+- [Disodium guanylate](/e627-disodium-guanylate){.additive} (sodium salt) or [dipotassium guanylate](/e628-dipotassium-guanylate){.additive}
+- [Disodium inosinate](/e631-disodium-inosinate){.additive} or blends like [disodium 5'-ribonucleotide](/e635-disodium-5-ribonucleotide){.additive}
+- [Monosodium glutamate](/e621-monosodium-glutamate){.additive} for the core umami note
 - Non-additive options such as yeast extract, mushroom extract, or long-simmered stocks
-- For salt reduction strategies, potassium salts like [potassium chloride](/e508-potassium-chloride) are sometimes used alongside umami enhancers
+- For salt reduction strategies, potassium salts like [potassium chloride](/e508-potassium-chloride){.additive} are sometimes used alongside umami enhancers
 
 ## How is Calcium guanylate made?
 E629 is the calcium salt of 5'-guanylic acid. In practice, manufacturers produce 5'-guanylic acid (also called 5'-GMP) from natural RNA-rich materials using food-grade enzymes, then neutralize it with a calcium source to form calcium guanylate. EU specifications define E629 as the calcium salt of 5'-guanylic acid and set purity criteria (for example, assay on a dry basis), ensuring a consistent identity for food use.[^1] Chemical identity databases also identify calcium guanylate as the calcium salt of 5'-GMP.[^2]

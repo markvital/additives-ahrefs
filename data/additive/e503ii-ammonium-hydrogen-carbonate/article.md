@@ -8,7 +8,7 @@ Ammonium hydrogen carbonate (E503II) is a leavening, or “raising,” agent use
 - Best for: thin, dry items like cookies, crackers, and gingerbread
 - Not ideal for: moist, thick bakes where the ammonia smell can linger
 - EU number: E503II (the “II” identifies ammonium hydrogen carbonate)
-- Related additive: [ammonium carbonate](/e503i-ammonium-carbonate)
+- Related additive: [ammonium carbonate](/e503i-ammonium-carbonate){.additive}
 
 ## Why is Ammonium hydrogen carbonate added to food?
 Bakers use ammonium hydrogen carbonate to make dough rise. When heated, it breaks down and releases gas that expands tiny air pockets in the dough, helping baked goods lift and become crisp. In the European Union (EU), it is listed as a food additive with the function of a raising agent and has set identity and purity specifications.[^1]
@@ -17,9 +17,9 @@ Bakers use ammonium hydrogen carbonate to make dough rise. When heated, it break
 You’ll most often find it in low-moisture baked goods. Common examples include crisp cookies, crackers, and traditional gingerbread, where the gases can escape fully during baking and leave a clean taste.[^3] It is less common in cakes or muffins, which retain more moisture and can trap the characteristic ammonia smell.
 
 ## What can replace Ammonium hydrogen carbonate?
-- Baking soda: [sodium bicarbonate](/e500ii-sodium-bicarbonate) is the go-to swap in many recipes, though it may not create the same super-crisp texture.
-- Baking powder systems: combinations of [sodium bicarbonate](/e500ii-sodium-bicarbonate) plus acids such as [disodium diphosphate](/e450i-disodium-diphosphate) or [monocalcium phosphate](/e341i-monocalcium-phosphate).
-- Potassium-based option: [potassium hydrogen carbonate](/e501ii-potassium-hydrogen-carbonate) for sodium-reduced formulations.
+- Baking soda: [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive} is the go-to swap in many recipes, though it may not create the same super-crisp texture.
+- Baking powder systems: combinations of [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive} plus acids such as [disodium diphosphate](/e450i-disodium-diphosphate){.additive} or [monocalcium phosphate](/e341i-monocalcium-phosphate){.additive}.
+- Potassium-based option: [potassium hydrogen carbonate](/e501ii-potassium-hydrogen-carbonate){.additive} for sodium-reduced formulations.
 - Note: If a recipe relies on baker’s ammonia for snap and spread (e.g., some European-style cookies), testing is wise because texture can change.
 
 ## How is Ammonium hydrogen carbonate made?
@@ -51,7 +51,7 @@ GRAS means experts consider the substance safe under the conditions of its inten
   Fact: The FDA lists ammonium bicarbonate as GRAS for specified uses, and the EU permits E503II with defined specifications.[^2][^1]
 
 ## Ammonium hydrogen carbonate in branded foods
-On ingredient lists, look for “ammonium bicarbonate,” “ammonium hydrogen carbonate,” “baker’s ammonia,” or “E503”/“E503ii” (in regions that use E-numbers). You’ll most often see it in crisp cookies, crackers, and some traditional gingerbreads. If you are avoiding it, scan the label for those names and choose products that use [sodium bicarbonate](/e500ii-sodium-bicarbonate) or baking powder acids such as [disodium diphosphate](/e450i-disodium-diphosphate) or [monocalcium phosphate](/e341i-monocalcium-phosphate).
+On ingredient lists, look for “ammonium bicarbonate,” “ammonium hydrogen carbonate,” “baker’s ammonia,” or “E503”/“E503ii” (in regions that use E-numbers). You’ll most often see it in crisp cookies, crackers, and some traditional gingerbreads. If you are avoiding it, scan the label for those names and choose products that use [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive} or baking powder acids such as [disodium diphosphate](/e450i-disodium-diphosphate){.additive} or [monocalcium phosphate](/e341i-monocalcium-phosphate){.additive}.
 
 ## References
 [^1]: Commission Regulation (EU) No 231/2012 — Specifications for food additives other than colours and sweeteners. https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0231

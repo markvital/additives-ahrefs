@@ -23,11 +23,11 @@ You may find E553 in:
 
 ## What can replace Magnesium silicates?
 Depending on the food and process, common stand‑ins include:
-- [Silicon dioxide](/e551-silicon-dioxide) for free‑flow in spices and powders
-- [Calcium silicate](/e552-calcium-silicate) in salt and dry mixes
-- [Tricalcium phosphate](/e341iii-tricalcium-phosphate) as an anti‑caking agent
-- [Calcium carbonates](/e170-calcium-carbonates) in some powdered foods
-- In table salt, specialized anti‑caking agents like [sodium ferrocyanide](/e535-sodium-ferrocyanide)
+- [Silicon dioxide](/e551-silicon-dioxide){.additive} for free‑flow in spices and powders
+- [Calcium silicate](/e552-calcium-silicate){.additive} in salt and dry mixes
+- [Tricalcium phosphate](/e341iii-tricalcium-phosphate){.additive} as an anti‑caking agent
+- [Calcium carbonates](/e170-calcium-carbonates){.additive} in some powdered foods
+- In table salt, specialized anti‑caking agents like [sodium ferrocyanide](/e535-sodium-ferrocyanide){.additive}
 
 Each alternative has different flow, moisture, and mouthfeel effects, so swaps are product‑specific.
 
@@ -56,7 +56,7 @@ There are no nutritional benefits. The value is technological: E553 helps powder
 - Myth: “It’s a plastic.” Fact: Magnesium silicates are mineral silicates, not synthetic polymers.
 
 ## Magnesium silicates in branded foods
-You’ll most often see E553 on ingredient lists for powdered mixes, grated cheeses, and confectionery or chewing gum coatings. It may appear as “E553,” “magnesium silicate,” “E553a (synthetic magnesium silicate),” or “E553b (talc).” If you prefer to avoid it, look for products that use alternatives like [silicon dioxide](/e551-silicon-dioxide) or [tricalcium phosphate](/e341iii-tricalcium-phosphate), or that list no anti‑caking agents at all.
+You’ll most often see E553 on ingredient lists for powdered mixes, grated cheeses, and confectionery or chewing gum coatings. It may appear as “E553,” “magnesium silicate,” “E553a (synthetic magnesium silicate),” or “E553b (talc).” If you prefer to avoid it, look for products that use alternatives like [silicon dioxide](/e551-silicon-dioxide){.additive} or [tricalcium phosphate](/e341iii-tricalcium-phosphate){.additive}, or that list no anti‑caking agents at all.
 
 ## References
 [^1]: Commission Regulation (EU) No 231/2012 — Specifications for food additives (includes E553a and E553b). https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32012R0231

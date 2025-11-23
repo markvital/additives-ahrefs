@@ -24,11 +24,11 @@ Always check the ingredient list, as labeling rules require its common name (for
 
 ## What can replace Propyl para-hydroxybenzoate?
 Depending on the food and pH, formulators often consider:
-- [Sorbic acid](/e200-sorbic-acid) or [potassium sorbate](/e202-potassium-sorbate)
-- [Sodium benzoate](/e211-sodium-benzoate) or [benzoic acid](/e210-benzoic-acid)
-- [Calcium propionate](/e282-calcium-propionate) for baked goods
-- Natural antimicrobials like [nisin](/e234-nisin) or [natamycin](/e235-natamycin) in suitable foods
-- Acidulants such as [citric acid](/e330-citric-acid) to lower pH and support preservative action
+- [Sorbic acid](/e200-sorbic-acid){.additive} or [potassium sorbate](/e202-potassium-sorbate){.additive}
+- [Sodium benzoate](/e211-sodium-benzoate){.additive} or [benzoic acid](/e210-benzoic-acid){.additive}
+- [Calcium propionate](/e282-calcium-propionate){.additive} for baked goods
+- Natural antimicrobials like [nisin](/e234-nisin){.additive} or [natamycin](/e235-natamycin){.additive} in suitable foods
+- Acidulants such as [citric acid](/e330-citric-acid){.additive} to lower pH and support preservative action
 
 ## How is Propyl para-hydroxybenzoate made?
 Chemically, propylparaben is the propyl ester of p-hydroxybenzoic acid, part of the paraben family of esters. Industrial production typically prepares this class by combining p-hydroxybenzoic acid with an alcohol (here, 1-propanol) to form the ester.[^4]

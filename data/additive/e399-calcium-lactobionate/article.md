@@ -14,13 +14,13 @@ Calcium lactobionate (E399) is a calcium salt of lactobionic acid, a gentle, non
 Food makers use calcium lactobionate to help control minerals in a recipe. Because it is the calcium salt of a polyhydroxy carboxylic acid, it can hold metal ions in a stable form, which helps protect flavor and color and improves stability during processing and storage.[^2] In the EU it is recognized as a distinct additive (E399) with specifications, reflecting its technological role in foods.[^1]
 
 ## What foods contain calcium lactobionate?
-You’re most likely to see E399 on European labels for specialized products such as certain dairy desserts, processed foods that need mineral stability, or beverages that include added minerals. On the ingredient list it may appear as “calcium lactobionate” or “E399.” Its use is fairly niche compared with common acids like [citric acid](/e330-citric-acid).
+You’re most likely to see E399 on European labels for specialized products such as certain dairy desserts, processed foods that need mineral stability, or beverages that include added minerals. On the ingredient list it may appear as “calcium lactobionate” or “E399.” Its use is fairly niche compared with common acids like [citric acid](/e330-citric-acid){.additive}.
 
 ## What can replace calcium lactobionate?
 Depending on the job it’s doing in a recipe, formulators might consider:
-- Mineral control and buffering: [sodium citrates](/e331-sodium-citrates), [potassium citrates](/e332-potassium-citrates), or [citric acid](/e330-citric-acid)  
-- Gentle acidification or mineral solubility: [glucono-delta-lactone](/e575-glucono-delta-lactone) or [calcium gluconate](/e578-calcium-gluconate)  
-- Firming/mineral source in brines: [calcium chloride](/e509-calcium-chloride)
+- Mineral control and buffering: [sodium citrates](/e331-sodium-citrates){.additive}, [potassium citrates](/e332-potassium-citrates){.additive}, or [citric acid](/e330-citric-acid){.additive}  
+- Gentle acidification or mineral solubility: [glucono-delta-lactone](/e575-glucono-delta-lactone){.additive} or [calcium gluconate](/e578-calcium-gluconate){.additive}  
+- Firming/mineral source in brines: [calcium chloride](/e509-calcium-chloride){.additive}
 
 The best substitute depends on pH needs, flavor impact, and mineral balance in the final food.
 

@@ -18,10 +18,10 @@ You’re most likely to see magnesium stearate on the ingredient lists of dry or
 
 ## What can replace Magnesium stearate?
 Depending on the recipe and equipment, formulators may use:
-- Other flow/anti-caking agents such as [silicon dioxide](/e551-silicon-dioxide) or [talc](/e553b-talc)
-- Related salts of fatty acids like [magnesium salts of fatty acids](/e470b-magnesium-salts-of-fatty-acids) or the group of [sodium, potassium and calcium salts of fatty acids](/e470a-sodium-potassium-and-calcium-salts-of-fatty-acids)
-- Lubricants and processing aids such as [lecithins](/e322-lecithins)
-- Fillers and carriers like [cellulose](/e460-cellulose) or [microcrystalline cellulose](/e460i-microcrystalline-cellulose)
+- Other flow/anti-caking agents such as [silicon dioxide](/e551-silicon-dioxide){.additive} or [talc](/e553b-talc){.additive}
+- Related salts of fatty acids like [magnesium salts of fatty acids](/e470b-magnesium-salts-of-fatty-acids){.additive} or the group of [sodium, potassium and calcium salts of fatty acids](/e470a-sodium-potassium-and-calcium-salts-of-fatty-acids){.additive}
+- Lubricants and processing aids such as [lecithins](/e322-lecithins){.additive}
+- Fillers and carriers like [cellulose](/e460-cellulose){.additive} or [microcrystalline cellulose](/e460i-microcrystalline-cellulose){.additive}
 
 The choice depends on the product’s texture, taste neutrality, labeling goals, and how it behaves on specific machinery.
 

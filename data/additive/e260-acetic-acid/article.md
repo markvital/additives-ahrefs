@@ -18,7 +18,7 @@ Manufacturers add acetic acid to lower the pH, which slows or stops growth of ma
 You will most often find acetic acid in foods that use vinegar, such as pickled vegetables, relishes, marinades, sauces, and salad dressings.[^3] It also appears in other “acidified foods,” where acids are added to bring pH to 4.6 or below for safety and shelf life.[^6]
 
 ## What can replace acetic acid?
-Depending on the recipe, other food acids can supply sourness, such as [citric acid](/e330-citric-acid), [lactic acid](/e270-lactic-acid), or [malic acid](/e296-malic-acid). Preservatives like [sorbic acid](/e200-sorbic-acid), [potassium sorbate](/e202-potassium-sorbate), [sodium benzoate](/e211-sodium-benzoate), or [propionic acid](/e280-propionic-acid) may also be used where regulations allow, depending on the food type.[^10] In soft drinks, [phosphoric acid](/e338-phosphoric-acid) is a common acidulant that provides tartness without a vinegar note.[^10]
+Depending on the recipe, other food acids can supply sourness, such as [citric acid](/e330-citric-acid){.additive}, [lactic acid](/e270-lactic-acid){.additive}, or [malic acid](/e296-malic-acid){.additive}. Preservatives like [sorbic acid](/e200-sorbic-acid){.additive}, [potassium sorbate](/e202-potassium-sorbate){.additive}, [sodium benzoate](/e211-sodium-benzoate){.additive}, or [propionic acid](/e280-propionic-acid){.additive} may also be used where regulations allow, depending on the food type.[^10] In soft drinks, [phosphoric acid](/e338-phosphoric-acid){.additive} is a common acidulant that provides tartness without a vinegar note.[^10]
 
 ## How is acetic acid made?
 There are two main routes:
@@ -41,7 +41,7 @@ Food authorities have not set special population restrictions for acetic acid wh
 - Myth: “Acetic acid alone makes any canned food safe.” Fact: Safety depends on proper acidification (pH 4.6 or below for acidified foods) and good processing, not just adding acid.[^6]
 
 ## acetic acid in branded foods
-On EU labels, additives are listed by function (for example, “acidity regulator”) followed by their name or E-number, so acetic acid may appear as “acidity regulator: acetic acid” or “acidity regulator: E260.”[^8] In the U.S., ingredients are listed by their common or usual names, so you will typically see “vinegar” or “acetic acid” in the ingredient list.[^9] If you prefer to avoid a vinegar note, look for products that use other acidulants like [citric acid](/e330-citric-acid) instead.
+On EU labels, additives are listed by function (for example, “acidity regulator”) followed by their name or E-number, so acetic acid may appear as “acidity regulator: acetic acid” or “acidity regulator: E260.”[^8] In the U.S., ingredients are listed by their common or usual names, so you will typically see “vinegar” or “acetic acid” in the ingredient list.[^9] If you prefer to avoid a vinegar note, look for products that use other acidulants like [citric acid](/e330-citric-acid){.additive} instead.
 
 ## References
 [^1]: Acetic acid — FDA (21 CFR 184.1005). https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-184/section-184.1005

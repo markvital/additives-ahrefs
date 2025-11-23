@@ -9,7 +9,7 @@ Plain caramel (E150a) is a brown color made by heating sugars. It adds warm ambe
 - How it’s made: heat treatment of sugars; no ammonium or sulfite compounds
 - Typical form: dark brown liquid or powder; water‑soluble
 - Flavor impact: very mild at normal use levels
-- Related types: [caustic sulphite caramel](/e150b-caustic-sulphite-caramel), [ammonia caramel](/e150c-ammonia-caramel), [sulphite ammonia caramel](/e150d-sulphite-ammonia-caramel)
+- Related types: [caustic sulphite caramel](/e150b-caustic-sulphite-caramel){.additive}, [ammonia caramel](/e150c-ammonia-caramel){.additive}, [sulphite ammonia caramel](/e150d-sulphite-ammonia-caramel){.additive}
 
 ## Why is Plain caramel added to food?
 Manufacturers use E150a to give a reliable brown color that looks the same from batch to batch. It helps products keep their expected look over shelf life, even when they are heated, cooled, or stored for a long time.
@@ -18,8 +18,8 @@ Manufacturers use E150a to give a reliable brown color that looks the same from 
 Plain caramel appears across many categories, including soft drinks, brewed beverages, baked goods, breakfast cereals, confectionery, sauces, dressings, and soups. In the United States, caramel color is a color additive “exempt from certification” and may be used in foods in line with good manufacturing practice, which is why you see it in so many products.[^1]
 
 ## What can replace Plain caramel?
-- Other caramel classes for stronger or different brown tones: [caustic sulphite caramel](/e150b-caustic-sulphite-caramel), [ammonia caramel](/e150c-ammonia-caramel), or [sulphite ammonia caramel](/e150d-sulphite-ammonia-caramel)
-- Natural orange‑to‑red options when a different hue is acceptable: [annatto](/e160b-annatto), [paprika extract](/e160c-paprika-extract)
+- Other caramel classes for stronger or different brown tones: [caustic sulphite caramel](/e150b-caustic-sulphite-caramel){.additive}, [ammonia caramel](/e150c-ammonia-caramel){.additive}, or [sulphite ammonia caramel](/e150d-sulphite-ammonia-caramel){.additive}
+- Natural orange‑to‑red options when a different hue is acceptable: [annatto](/e160b-annatto){.additive}, [paprika extract](/e160c-paprika-extract){.additive}
 - Food ingredients that also add flavor and body: cocoa powder or malt extracts (not always listed as additives)
 
 Each substitute changes hue, transparency, taste, and stability, so developers choose based on the product’s needs.

@@ -18,15 +18,15 @@ Phytic acid binds metal ions (for example, iron and copper) very strongly. In re
 
 ## What can replace Phytic acid?
 Depending on the job:
-- For chelating/sequestering metal ions: [citric acid](/e330-citric-acid) or [calcium disodium ethylenediaminetetraacetate (EDTA)](/e385-calcium-disodium-ethylenediaminetetraacetate) are commonly used alternatives.
-- For antioxidant support or color/flavor protection: [ascorbic acid](/e300-ascorbic-acid) can help in many foods.
-- For binding minerals in processed meats and seafoods: [polyphosphates](/e452-polyphosphates) are often used.
+- For chelating/sequestering metal ions: [citric acid](/e330-citric-acid){.additive} or [calcium disodium ethylenediaminetetraacetate (EDTA)](/e385-calcium-disodium-ethylenediaminetetraacetate){.additive} are commonly used alternatives.
+- For antioxidant support or color/flavor protection: [ascorbic acid](/e300-ascorbic-acid){.additive} can help in many foods.
+- For binding minerals in processed meats and seafoods: [polyphosphates](/e452-polyphosphates){.additive} are often used.
 
 ## How is Phytic acid made?
 In nature, plants make phytic acid by adding phosphate groups to myo‑inositol, then store it in seeds and bran as their main phosphorus reserve.[^4] That is why whole grains, legumes, nuts, and seeds naturally contain the highest amounts.[^4]
 
 ## Is Phytic acid safe to eat?
-Phytic acid is a normal part of many plant foods and is safe for most people as part of a balanced diet. The main nutritional concern is not toxicity but reduced mineral absorption—especially nonheme iron (the form in plants). Vitamin C (for example, from fruit or [citric acid](/e330-citric-acid)-rich foods) and animal protein can counter this iron inhibition when eaten in the same meal.[^2] Phytate can also lower zinc absorption, particularly in diets that rely heavily on unrefined cereals and legumes without enhancers of absorption.[^3]
+Phytic acid is a normal part of many plant foods and is safe for most people as part of a balanced diet. The main nutritional concern is not toxicity but reduced mineral absorption—especially nonheme iron (the form in plants). Vitamin C (for example, from fruit or [citric acid](/e330-citric-acid){.additive}-rich foods) and animal protein can counter this iron inhibition when eaten in the same meal.[^2] Phytate can also lower zinc absorption, particularly in diets that rely heavily on unrefined cereals and legumes without enhancers of absorption.[^3]
 
 ## Does Phytic acid have any benefits?
 - Technological: as a strong chelating agent, it can help manage metal-catalyzed reactions that lead to rancidity or discoloration in some formulations.[^1]

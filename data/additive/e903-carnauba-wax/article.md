@@ -18,8 +18,8 @@ You’ll most often see carnauba wax on the label of coated candies, chocolate d
 
 ## What can replace Carnauba wax?
 Other glazing agents can serve a similar role, though each has its own look, texture, and melting behavior.
-- Plant or mineral waxes: [candelilla wax](/e902-candelilla-wax), [talc](/e553b-talc)
-- Animal- or insect-derived coatings: [beeswax](/e901-white-and-yellow-beeswax), [shellac](/e904-shellac)
+- Plant or mineral waxes: [candelilla wax](/e902-candelilla-wax){.additive}, [talc](/e553b-talc){.additive}
+- Animal- or insect-derived coatings: [beeswax](/e901-white-and-yellow-beeswax){.additive}, [shellac](/e904-shellac){.additive}
 Your choice depends on dietary goals (for example, vegan vs. non-vegan), shine, and processing temperature.
 
 ## How is Carnauba wax made?
@@ -33,7 +33,7 @@ Carnauba wax does not add nutrients. Its benefits are practical: it improves sur
 
 ## Who should avoid Carnauba wax?
 - People who prefer to avoid any surface coatings on foods can look for products labeled “no glazing agents.”
-- Vegans should note that carnauba wax is plant-based, but it can sometimes be used alongside animal-derived coatings like [beeswax](/e901-white-and-yellow-beeswax) or [shellac](/e904-shellac); check labels.
+- Vegans should note that carnauba wax is plant-based, but it can sometimes be used alongside animal-derived coatings like [beeswax](/e901-white-and-yellow-beeswax){.additive} or [shellac](/e904-shellac){.additive}; check labels.
 - Anyone with a known sensitivity to waxes or polishes should consult a healthcare professional.
 
 ## Myths & facts

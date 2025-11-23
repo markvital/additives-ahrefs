@@ -27,7 +27,8 @@ WRITING STYLE
 - Use references only where the fact is verifiable by the user. Avoid over-citing every sentence or paragraph.
 
 INTERNAL LINKS
-- When you mention other additives **and you know** their E-number and page title, create a Markdown link like `[additive name](/e<eNumber>-<kebab-title>)` (e.g., `[titanium dioxide](/e171-titanium-dioxide)`, `[tannin](/e181-tannin)`). If uncertain, do not link. List of all additives slugs, eg. "e330-citric-acid" will be provided.
+- When you mention other additives **and you know** their E-number and page title, create a Markdown link like `[additive name](/e<eNumber>-<kebab-title>){.additive}` (e.g., `[titanium dioxide](/e171-titanium-dioxide){.additive}`, `[tannin](/e181-tannin){.additive}`). If uncertain, do not link. List of all additives slugs, eg. "e330-citric-acid" will be provided.
+- **Important:** All relative links pointing to additive pages (format `/e<number>-<name>`) **must** include the `{.additive}` annotation immediately after the closing parenthesis. This enables special interactive features for additive links.
 
 REFERENCES
 - Insert footnote markers like `[^1]` **immediately after the sentence** they support (no inline URLs).
@@ -47,7 +48,7 @@ VALIDATION CHECKS (must all pass before finishing)
 - No placeholders of any kind.
 - **Do not use the phrases "Bottom line," "TL;DR," or "Key takeaways."** Start each H2 with a plain-language lead sentence instead.
 - All references are numbered footnotes and are U.S. gov, EU gov, or—when fallback is in effect—the **original sources** cited by Wikipedia (never Wikipedia itself).
-- Internal links use `/e<eNumber>-<kebab-title>` only when E-number and title are known.
+- Internal links use `/e<eNumber>-<kebab-title>){.additive}` format when E-number and title are known—verify every additive link includes the `{.additive}` annotation.
 - Omit any fact that lacks a suitable source.
 
 REQUIRED INPUTS FROM USER

@@ -10,7 +10,7 @@ Tartrazine (E102) is a bright lemon-yellow color used in many foods and drinks, 
 - Intake: health authorities have set an acceptable daily intake (ADI), and typical consumer exposures are generally below it.
 
 ## Why is Tartrazine added to food?
-Tartrazine gives or restores a bright yellow color that signals flavors like lemon, banana, pineapple, or cheese. It helps products look uniform from batch to batch, especially when natural colors vary or fade during processing. It can also be blended with other colors—such as [brilliant blue FCF](/e133-brilliant-blue-fcf) to make green or [sunset yellow FCF](/e110-sunset-yellow-fcf) to deepen orange tones.
+Tartrazine gives or restores a bright yellow color that signals flavors like lemon, banana, pineapple, or cheese. It helps products look uniform from batch to batch, especially when natural colors vary or fade during processing. It can also be blended with other colors—such as [brilliant blue FCF](/e133-brilliant-blue-fcf){.additive} to make green or [sunset yellow FCF](/e110-sunset-yellow-fcf){.additive} to deepen orange tones.
 
 ## What foods contain Tartrazine?
 You’ll most often find Tartrazine in:
@@ -24,9 +24,9 @@ In the United States, when Tartrazine is used in food, its specific name—“FD
 
 ## What can replace Tartrazine?
 Formulators sometimes choose other yellows and oranges, depending on cost, shade, and stability needs:
-- Natural colorants: [curcumin](/e100-curcumin), [beta-carotene](/e160a-carotene), [annatto](/e160b-annatto), [paprika extract](/e160c-paprika-extract), [saffron](/e164-saffron), or [riboflavin](/e101-riboflavin)
-- Caramels for brownish-yellow tones: [caramel](/e150-caramel)
-- Other synthetics to fine-tune shade: [quinoline yellow](/e104-quinoline-yellow), [sunset yellow FCF](/e110-sunset-yellow-fcf), or [allura red](/e129-allura-red) in blends
+- Natural colorants: [curcumin](/e100-curcumin){.additive}, [beta-carotene](/e160a-carotene){.additive}, [annatto](/e160b-annatto){.additive}, [paprika extract](/e160c-paprika-extract){.additive}, [saffron](/e164-saffron){.additive}, or [riboflavin](/e101-riboflavin){.additive}
+- Caramels for brownish-yellow tones: [caramel](/e150-caramel){.additive}
+- Other synthetics to fine-tune shade: [quinoline yellow](/e104-quinoline-yellow){.additive}, [sunset yellow FCF](/e110-sunset-yellow-fcf){.additive}, or [allura red](/e129-allura-red){.additive} in blends
 
 Each alternative has trade-offs in brightness, light/heat stability, solubility, and labeling.
 

@@ -26,8 +26,8 @@ On labels it may appear as “lecithin,” “soy lecithin,” “sunflower leci
 
 ## What can replace Lecithin?
 Depending on the job (emulsifying, thickening, or improving dough), food makers may use:
-- Emulsifiers: [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids), [sucrose esters of fatty acids](/e473-sucrose-esters-of-fatty-acids), [polyglycerol polyricinoleate](/e476-polyglycerol-polyricinoleate), [sodium stearoyl-2-lactylate](/e481-sodium-stearoyl-2-lactylate)
-- Gums and stabilizers: [xanthan gum](/e415-xanthan-gum), [gellan gum](/e418-gellan-gum), [guar gum](/e412-guar-gum)
+- Emulsifiers: [mono- and diglycerides of fatty acids](/e471-mono-and-diglycerides-of-fatty-acids){.additive}, [sucrose esters of fatty acids](/e473-sucrose-esters-of-fatty-acids){.additive}, [polyglycerol polyricinoleate](/e476-polyglycerol-polyricinoleate){.additive}, [sodium stearoyl-2-lactylate](/e481-sodium-stearoyl-2-lactylate){.additive}
+- Gums and stabilizers: [xanthan gum](/e415-xanthan-gum){.additive}, [gellan gum](/e418-gellan-gum){.additive}, [guar gum](/e412-guar-gum){.additive}
 - Others depending on product style and regulations
 
 ## How is Lecithin made?
@@ -49,7 +49,7 @@ For foods, lecithin improves texture, consistency, and stability, and it can mak
 - “Non-GMO and sunflower lecithin are the same thing.” Not necessarily. Sunflower lecithin can be non-GMO, but non-GMO soy lecithin also exists.
 
 ## Lecithin in branded foods
-You’ll often see lecithin on ingredient lists of chocolate bars, chocolate chips, peanut butter, margarine, cookies, and instant cocoa mixes. It may appear as “soy lecithin,” “sunflower lecithin,” “lecithin (E322),” or simply “E322.” If you want to avoid soy, look for products that specify “sunflower lecithin” or clearly list an alternative emulsifier such as [mono- and diglycerides](/e471-mono-and-diglycerides-of-fatty-acids) or [sucrose esters](/e473-sucrose-esters-of-fatty-acids).
+You’ll often see lecithin on ingredient lists of chocolate bars, chocolate chips, peanut butter, margarine, cookies, and instant cocoa mixes. It may appear as “soy lecithin,” “sunflower lecithin,” “lecithin (E322),” or simply “E322.” If you want to avoid soy, look for products that specify “sunflower lecithin” or clearly list an alternative emulsifier such as [mono- and diglycerides](/e471-mono-and-diglycerides-of-fatty-acids){.additive} or [sucrose esters](/e473-sucrose-esters-of-fatty-acids){.additive}.
 
 ## References
 [^1]: 21 CFR §184.1400 – Lecithin — eCFR (FDA). https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-184/subpart-B/section-184.1400

@@ -3,9 +3,11 @@ import type { Components } from 'react-markdown';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import remarkMath from 'remark-math';
+import { remarkAdditiveAttributes } from '../lib/remarkAdditiveAttributes';
 import rehypeKatex from 'rehype-katex';
 import rehypeRaw from 'rehype-raw';
 import { isValidElement, type ReactNode } from 'react';
+import { AdditiveLink } from './AdditiveLink';
 
 const collectText = (children: ReactNode): string => {
   if (typeof children === 'string') {
@@ -72,55 +74,84 @@ const createHeadingComponent = (
 
 interface MarkdownArticleProps {
   content: string;
+  currentAdditive?: {
+    slug: string;
+    eNumber?: string | null;
+    title?: string | null;
+  };
 }
 
-const markdownComponents: Components = {
-  h1: createHeadingComponent('h2', 'h3'),
-  h2: createHeadingComponent('h3', 'h4'),
-  h3: createHeadingComponent('h4', 'h5'),
-  h4: createHeadingComponent('h5', 'h6'),
-  p: ({ children, ...props }) => (
-    <Typography component="p" variant="body1" color="text.primary" paragraph {...props}>
-      {children}
-    </Typography>
-  ),
-  a: ({ children, href, ...props }) => (
-    <MuiLink href={href} underline="hover" {...props}>
-      {children}
-    </MuiLink>
-  ),
-  ul: ({ children, ...props }) => (
-    <Box component="ul" sx={{ paddingLeft: 3, display: 'grid', gap: 1 }} {...props}>
-      {children}
-    </Box>
-  ),
-  ol: ({ children, ...props }) => (
-    <Box component="ol" sx={{ paddingLeft: 3, display: 'grid', gap: 1 }} {...props}>
-      {children}
-    </Box>
-  ),
-  li: ({ children, ...props }) => (
-    <Typography component="li" variant="body1" color="text.primary" {...props}>
-      {children}
-    </Typography>
-  ),
-  strong: ({ children, ...props }) => (
-    <Box component="span" fontWeight={600} {...props}>
-      {children}
-    </Box>
-  ),
-  em: ({ children, ...props }) => (
-    <Box component="span" fontStyle="italic" {...props}>
-      {children}
-    </Box>
-  ),
-  hr: (props) => <Box component="hr" sx={{ border: 0, borderTop: '1px solid', borderColor: 'divider', my: 3 }} {...props} />,
-};
-
-export function MarkdownArticle({ content }: MarkdownArticleProps) {
+export function MarkdownArticle({ content, currentAdditive }: MarkdownArticleProps) {
   if (!content.trim()) {
     return null;
   }
+
+  const markdownComponents: Components = {
+    h1: createHeadingComponent('h2', 'h3'),
+    h2: createHeadingComponent('h3', 'h4'),
+    h3: createHeadingComponent('h4', 'h5'),
+    h4: createHeadingComponent('h5', 'h6'),
+    p: ({ children, ...props }) => (
+      <Typography component="p" variant="body1" color="text.primary" paragraph {...props}>
+        {children}
+      </Typography>
+    ),
+    a: ({ children, href, node, ...props }) => {
+      const nodeClassName = node?.properties?.className;
+      const normalizedNodeClasses = Array.isArray(nodeClassName)
+        ? (nodeClassName as string[])
+        : typeof nodeClassName === 'string'
+          ? nodeClassName.split(/\s+/)
+          : [];
+
+      const classNames = ((props.className as string | undefined)?.split(/\s+/) ?? [])
+        .concat(normalizedNodeClasses)
+        .map((value) => value?.trim())
+        .filter((value): value is string => typeof value === 'string' && value.length > 0);
+
+      const isAdditiveLink = classNames.includes('additive');
+
+      if (isAdditiveLink) {
+        return (
+          <AdditiveLink href={href} currentAdditive={currentAdditive} className={props.className}>
+            {children}
+          </AdditiveLink>
+        );
+      }
+
+      return (
+        <MuiLink href={href} underline="hover" {...props}>
+          {children}
+        </MuiLink>
+      );
+    },
+    ul: ({ children, ...props }) => (
+      <Box component="ul" sx={{ paddingLeft: 3, display: 'grid', gap: 1 }} {...props}>
+        {children}
+      </Box>
+    ),
+    ol: ({ children, ...props }) => (
+      <Box component="ol" sx={{ paddingLeft: 3, display: 'grid', gap: 1 }} {...props}>
+        {children}
+      </Box>
+    ),
+    li: ({ children, ...props }) => (
+      <Typography component="li" variant="body1" color="text.primary" {...props}>
+        {children}
+      </Typography>
+    ),
+    strong: ({ children, ...props }) => (
+      <Box component="span" fontWeight={600} {...props}>
+        {children}
+      </Box>
+    ),
+    em: ({ children, ...props }) => (
+      <Box component="span" fontStyle="italic" {...props}>
+        {children}
+      </Box>
+    ),
+    hr: (props) => <Box component="hr" sx={{ border: 0, borderTop: '1px solid', borderColor: 'divider', my: 3 }} {...props} />,
+  };
 
   return (
     <Box
@@ -135,7 +166,7 @@ export function MarkdownArticle({ content }: MarkdownArticleProps) {
       }}
     >
       <ReactMarkdown
-        remarkPlugins={[remarkGfm, remarkMath]}
+        remarkPlugins={[remarkGfm, remarkMath, remarkAdditiveAttributes]}
         rehypePlugins={[rehypeRaw, rehypeKatex]}
         components={markdownComponents}
       >

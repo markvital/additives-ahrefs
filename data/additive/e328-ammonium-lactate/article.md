@@ -6,7 +6,7 @@ Ammonium lactate (E328) is the ammonium salt of lactic acid. In foods, it works 
 - E-number: E328; name on labels: ammonium lactate
 - What it does: controls acidity and buffers pH; adds mild tang
 - Typical uses: drinks, sauces, confectionery, and bakery-style foods
-- Related additives: [lactic acid](/e270-lactic-acid), [sodium lactate](/e325-sodium-lactate), [potassium lactate](/e326-potassium-lactate), [calcium lactate](/e327-calcium-lactate)
+- Related additives: [lactic acid](/e270-lactic-acid){.additive}, [sodium lactate](/e325-sodium-lactate){.additive}, [potassium lactate](/e326-potassium-lactate){.additive}, [calcium lactate](/e327-calcium-lactate){.additive}
 - Dietary notes: contains no lactose; sodium-free option for pH control
 
 ## Why is ammonium lactate added to food?
@@ -24,9 +24,9 @@ Actual use depends on recipe and local rules, so it will not appear in every pro
 
 ## What can replace ammonium lactate?
 Depending on the job in the recipe, common substitutes include:
-- Other lactates: [sodium lactate](/e325-sodium-lactate), [potassium lactate](/e326-potassium-lactate), or [calcium lactate](/e327-calcium-lactate) for similar pH control
-- Acids and buffers: [lactic acid](/e270-lactic-acid), [citric acid](/e330-citric-acid), or [sodium citrate](/e331-sodium-citrates) when a different sour profile or buffering capacity is desired
-- Vinegar choices: [acetic acid](/e260-acetic-acid) or vinegar for a sharper flavor direction
+- Other lactates: [sodium lactate](/e325-sodium-lactate){.additive}, [potassium lactate](/e326-potassium-lactate){.additive}, or [calcium lactate](/e327-calcium-lactate){.additive} for similar pH control
+- Acids and buffers: [lactic acid](/e270-lactic-acid){.additive}, [citric acid](/e330-citric-acid){.additive}, or [sodium citrate](/e331-sodium-citrates){.additive} when a different sour profile or buffering capacity is desired
+- Vinegar choices: [acetic acid](/e260-acetic-acid){.additive} or vinegar for a sharper flavor direction
 
 ## How is ammonium lactate made?
 Ammonium lactate is produced by neutralizing lactic acid with ammonia (ammonium hydroxide), then meeting purity specifications set for food additives.[^3] Commercial lactic acid is typically obtained by fermenting sugars from carbohydrate sources, followed by purification; the neutralized salt is then prepared under controlled conditions for food use.[^4]

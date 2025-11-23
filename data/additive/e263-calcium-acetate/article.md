@@ -26,10 +26,10 @@ Its presence and maximum levels depend on local regulations and the specific foo
 
 ## What can replace Calcium acetate?
 Depending on the goal, manufacturers might use:
-- For acidity control: [acetic acid](/e260-acetic-acid), [sodium acetates](/e262-sodium-acetates), or [potassium acetate](/e261-potassium-acetate)
-- For preservation: [sorbic acid](/e200-sorbic-acid) or [sodium benzoate](/e211-sodium-benzoate), depending on the product and pH
-- For calcium-driven firming/setting: [calcium chloride](/e509-calcium-chloride) or [calcium lactate](/e327-calcium-lactate)
-- For general acidity in foods that prefer citrus notes: [citric acid](/e330-citric-acid)
+- For acidity control: [acetic acid](/e260-acetic-acid){.additive}, [sodium acetates](/e262-sodium-acetates){.additive}, or [potassium acetate](/e261-potassium-acetate){.additive}
+- For preservation: [sorbic acid](/e200-sorbic-acid){.additive} or [sodium benzoate](/e211-sodium-benzoate){.additive}, depending on the product and pH
+- For calcium-driven firming/setting: [calcium chloride](/e509-calcium-chloride){.additive} or [calcium lactate](/e327-calcium-lactate){.additive}
+- For general acidity in foods that prefer citrus notes: [citric acid](/e330-citric-acid){.additive}
 
 Choice of substitute depends on taste, pH target, labeling needs, and local rules.
 
@@ -57,11 +57,11 @@ For most consumers, calcium acetate at permitted levels in foods is considered a
 
 ## Myths & facts
 - Myth: Calcium acetate will make food taste like strong vinegar. Fact: At permitted levels, it mainly fine-tunes acidity and does not create a strong vinegar flavor.
-- Myth: It is the same as [calcium propionate](/e282-calcium-propionate). Fact: Both are preservatives, but they are different chemicals with different taste and performance.
+- Myth: It is the same as [calcium propionate](/e282-calcium-propionate){.additive}. Fact: Both are preservatives, but they are different chemicals with different taste and performance.
 - Myth: It is only a preservative. Fact: It also works as an acidity regulator and stabiliser that can firm textures.
 
 ## Calcium acetate in branded foods
-On ingredient lists, you’ll see “calcium acetate” or “E263.” It commonly appears in packaged breads and bakery items, fruit fillings and toppings, pickled or prepared produce, and sauces where a gentle acidity regulator and stabiliser are needed. If you are checking for it, scan the label near other acid regulators and preservatives such as [citric acid](/e330-citric-acid) or [sorbic acid](/e200-sorbic-acid).
+On ingredient lists, you’ll see “calcium acetate” or “E263.” It commonly appears in packaged breads and bakery items, fruit fillings and toppings, pickled or prepared produce, and sauces where a gentle acidity regulator and stabiliser are needed. If you are checking for it, scan the label near other acid regulators and preservatives such as [citric acid](/e330-citric-acid){.additive} or [sorbic acid](/e200-sorbic-acid){.additive}.
 
 ## References
 [^1]: Commission Regulation (EU) No 231/2012 laying down specifications for food additives listed in Annexes II and III to Regulation (EC) No 1333/2008 — European Commission. https://eur-lex.europa.eu/eli/reg/2012/231/oj

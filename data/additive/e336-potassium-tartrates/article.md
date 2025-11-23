@@ -11,7 +11,7 @@ Potassium tartrates (E336) are the potassium salts of tartaric acid. They includ
 
 ## Why is Potassium tartrates added to food?
 
-Potassium tartrates control acidity and help foods keep a stable pH, which supports consistent taste and texture. As “cream of tartar,” they stabilize egg-white foams for meringues and soufflés and help prevent sugar syrups and candies from crystallizing. They also serve as the acid in some baking powders, reacting with [sodium bicarbonate](/e500ii-sodium-bicarbonate) to release carbon dioxide and lift baked goods.
+Potassium tartrates control acidity and help foods keep a stable pH, which supports consistent taste and texture. As “cream of tartar,” they stabilize egg-white foams for meringues and soufflés and help prevent sugar syrups and candies from crystallizing. They also serve as the acid in some baking powders, reacting with [sodium bicarbonate](/e500ii-sodium-bicarbonate){.additive} to release carbon dioxide and lift baked goods.
 
 ## What foods contain Potassium tartrates?
 
@@ -26,15 +26,15 @@ Potassium hydrogen tartrate also occurs naturally as crystals in wine casks and 
 ## What can replace Potassium tartrates?
 
 Possible substitutes depend on the job:
-- For acidity regulation or tartness: [citric acid](/e330-citric-acid) or [malic acid](/e296-malic-acid)
-- For leavening systems: [monocalcium phosphate](/e341i-monocalcium-phosphate) or selected [diphosphates](/e450-diphosphates) paired with baking soda
-- For similar tartrate chemistry: [sodium tartrates](/e335-sodium-tartrates) or [calcium tartrate](/e354-calcium-tartrate)
+- For acidity regulation or tartness: [citric acid](/e330-citric-acid){.additive} or [malic acid](/e296-malic-acid){.additive}
+- For leavening systems: [monocalcium phosphate](/e341i-monocalcium-phosphate){.additive} or selected [diphosphates](/e450-diphosphates){.additive} paired with baking soda
+- For similar tartrate chemistry: [sodium tartrates](/e335-sodium-tartrates){.additive} or [calcium tartrate](/e354-calcium-tartrate){.additive}
 
 Note that swapping acids can change flavor, reaction speed, and dough handling, so recipes and formulations may need adjustment.
 
 ## How is Potassium tartrates made?
 
-In the EU, E336 covers the potassium salts of L(+)-tartaric acid only, and products must meet strict identity and purity specifications.[^1] They are typically obtained by neutralizing food-grade L(+)-[tartaric acid](/e334-l-tartaric-acid) with a potassium base. Full neutralization yields dipotassium tartrate; partial neutralization yields potassium hydrogen tartrate (cream of tartar). Winemaking by-products rich in natural tartrates are a common source of L(+)-tartaric acid used for these salts.[^1]
+In the EU, E336 covers the potassium salts of L(+)-tartaric acid only, and products must meet strict identity and purity specifications.[^1] They are typically obtained by neutralizing food-grade L(+)-[tartaric acid](/e334-l-tartaric-acid){.additive} with a potassium base. Full neutralization yields dipotassium tartrate; partial neutralization yields potassium hydrogen tartrate (cream of tartar). Winemaking by-products rich in natural tartrates are a common source of L(+)-tartaric acid used for these salts.[^1]
 
 ## Is Potassium tartrates safe to eat?
 
@@ -59,7 +59,7 @@ Potassium tartrates contribute potassium. People who must limit potassium—such
 
 - Myth: “Cream of tartar is dairy.” Fact: Despite the name, it contains no cream. It’s the potassium acid salt of tartaric acid.
 - Myth: “Tartrates are synthetic chemicals.” Fact: Food-grade tartrates are the salts of L(+)-tartaric acid, which is widely obtained from wine-making by-products; their composition and purity are controlled by EU specifications.[^1]
-- Myth: “All baking powders use cream of tartar.” Fact: Some do, but many use acids like [monocalcium phosphate](/e341i-monocalcium-phosphate) or [diphosphates](/e450-diphosphates) for tailored reaction profiles.
+- Myth: “All baking powders use cream of tartar.” Fact: Some do, but many use acids like [monocalcium phosphate](/e341i-monocalcium-phosphate){.additive} or [diphosphates](/e450-diphosphates){.additive} for tailored reaction profiles.
 
 ## Potassium tartrates in branded foods
 

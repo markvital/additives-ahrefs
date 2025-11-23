@@ -25,12 +25,12 @@ On ingredient lists it may appear as “annatto,” “annatto extract,” “bi
 
 ## What can replace Annatto?
 Depending on the shade and recipe, food makers may use:
-- [Beta‑carotene](/e160ai-beta-carotene) for yellow‑orange hues
-- [Paprika extract](/e160c-paprika-extract) for orange‑red tones
-- [Curcumin](/e100-curcumin) (turmeric extract) for bright yellow
-- [Lycopene](/e160d-lycopene) for orange‑red
-- [Caramel](/e150-caramel) for brownish tones
-- In non-food-contact coatings, some industries once used [titanium dioxide](/e171-titanium-dioxide) for white opacity, but it does not replace annatto’s warm color in foods
+- [Beta‑carotene](/e160ai-beta-carotene){.additive} for yellow‑orange hues
+- [Paprika extract](/e160c-paprika-extract){.additive} for orange‑red tones
+- [Curcumin](/e100-curcumin){.additive} (turmeric extract) for bright yellow
+- [Lycopene](/e160d-lycopene){.additive} for orange‑red
+- [Caramel](/e150-caramel){.additive} for brownish tones
+- In non-food-contact coatings, some industries once used [titanium dioxide](/e171-titanium-dioxide){.additive} for white opacity, but it does not replace annatto’s warm color in foods
 
 ## How is Annatto made?
 Manufacturers extract color from ground achiote seeds with food‑grade solvents to obtain bixin, an oil‑soluble pigment suitable for fat‑rich foods.[^2] Treating the extract with alkali converts bixin to norbixin salts, which can be neutralized to make water‑dispersible forms better suited to beverages, dairy, and other aqueous foods.[^1] In the EU, specifications define several annatto extract types (bixin‑ and norbixin‑based) and set purity criteria for solvents, residuals, and composition.[^1]

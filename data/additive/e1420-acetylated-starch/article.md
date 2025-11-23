@@ -29,13 +29,13 @@ On EU labels it may appear as “E1420” or “acetylated starch.” In the U.S
 
 ## What can replace Acetylated starch?
 Alternatives depend on the job you need done:
-- Other modified starches: [acetylated distarch phosphate](/e1414-acetylated-distarch-phosphate), [acetylated distarch adipate](/e1422-acetylated-distarch-adipate), [hydroxypropyl starch](/e1440-hydroxypropyl-starch), [hydroxypropyl distarch phosphate](/e1442-hydroxypropyl-distarch-phosphate), [oxidised starch](/e1404-oxidised-starch), [acetylated oxidised starch](/e1451-acetylated-oxidised-starch), or [starch sodium octenyl succinate](/e1450-starch-sodium-octenyl-succinate).
-- Gums and hydrocolloids: [xanthan gum](/e415-xanthan-gum), [guar gum](/e412-guar-gum), [gellan gum](/e418-gellan-gum), [locust bean gum](/e410-locust-bean-gum), [sodium alginate](/e401-sodium-alginate), [pectins](/e440-pectins), [carrageenan](/e407-carrageenan), or [agar](/e406-agar).
+- Other modified starches: [acetylated distarch phosphate](/e1414-acetylated-distarch-phosphate){.additive}, [acetylated distarch adipate](/e1422-acetylated-distarch-adipate){.additive}, [hydroxypropyl starch](/e1440-hydroxypropyl-starch){.additive}, [hydroxypropyl distarch phosphate](/e1442-hydroxypropyl-distarch-phosphate){.additive}, [oxidised starch](/e1404-oxidised-starch){.additive}, [acetylated oxidised starch](/e1451-acetylated-oxidised-starch){.additive}, or [starch sodium octenyl succinate](/e1450-starch-sodium-octenyl-succinate){.additive}.
+- Gums and hydrocolloids: [xanthan gum](/e415-xanthan-gum){.additive}, [guar gum](/e412-guar-gum){.additive}, [gellan gum](/e418-gellan-gum){.additive}, [locust bean gum](/e410-locust-bean-gum){.additive}, [sodium alginate](/e401-sodium-alginate){.additive}, [pectins](/e440-pectins){.additive}, [carrageenan](/e407-carrageenan){.additive}, or [agar](/e406-agar){.additive}.
 
 Each choice changes mouthfeel, clarity, freeze–thaw stability, and cost, so swaps are usually tested in the kitchen or pilot plant.
 
 ## How is Acetylated starch made?
-E1420 is produced by treating food starch with small amounts of acetylating agents such as acetic anhydride (related to food-grade [acetic acid](/e260-acetic-acid)) or vinyl acetate under controlled conditions. U.S. regulations limit the acetyl content to not more than 2.5% (by weight, as acetyl), and specify permitted processing aids and conditions.[^1]
+E1420 is produced by treating food starch with small amounts of acetylating agents such as acetic anhydride (related to food-grade [acetic acid](/e260-acetic-acid){.additive}) or vinyl acetate under controlled conditions. U.S. regulations limit the acetyl content to not more than 2.5% (by weight, as acetyl), and specify permitted processing aids and conditions.[^1]
 
 ## Is Acetylated starch safe to eat?
 Regulators in the EU and U.S. consider acetylated starch safe when used as intended. EFSA (European Food Safety Authority) re-evaluated modified starches and set an “ADI not specified,” noting no safety concern at reported uses and that these starches are digested similarly to native starch (to glucose), with small portions fermented by gut bacteria.[^3]
@@ -54,7 +54,7 @@ Nutritionally, the tiny amounts used for thickening contribute very few calories
 ## Myths & facts
 - “It’s a plastic.” False. It’s a food starch with a small number of acetyl groups attached to improve texture handling.
 - “It’s just a filler.” Not exactly. It provides structure and stability so products stay smooth and consistent.
-- “All modified starches are the same.” No. Different modifications (like [acetylated distarch phosphate](/e1414-acetylated-distarch-phosphate) vs. [hydroxypropyl starch](/e1440-hydroxypropyl-starch)) deliver different performance.
+- “All modified starches are the same.” No. Different modifications (like [acetylated distarch phosphate](/e1414-acetylated-distarch-phosphate){.additive} vs. [hydroxypropyl starch](/e1440-hydroxypropyl-starch){.additive}) deliver different performance.
 - “It always contains gluten.” Not necessarily. Source depends on the manufacturer; in the U.S., wheat-derived starch must be declared as an allergen on the label.[^5]
 
 ## Acetylated starch in branded foods

@@ -21,10 +21,10 @@ You are most likely to encounter E912 on the surface of coated or polished items
 
 ## What can replace Montanic acid esters?
 Other glazing agents can serve similar roles, depending on the food and local rules:
-- [Carnauba wax](/e903-carnauba-wax) (plant-derived)
-- [Shellac](/e904-shellac) (resinous coating)
-- [Microcrystalline wax](/e905ci-microcrystalline-wax)
-- [Oxidised polyethylene wax](/e914-oxidised-polyethylene-wax)
+- [Carnauba wax](/e903-carnauba-wax){.additive} (plant-derived)
+- [Shellac](/e904-shellac){.additive} (resinous coating)
+- [Microcrystalline wax](/e905ci-microcrystalline-wax){.additive}
+- [Oxidised polyethylene wax](/e914-oxidised-polyethylene-wax){.additive}
 
 Which one fits best depends on the specific product, desired gloss, melting point, labeling preferences, and the regulations that apply.
 
