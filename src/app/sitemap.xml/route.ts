@@ -22,7 +22,7 @@ const createIndex = (): string => {
   return `${XML_HEADER}<sitemapindex xmlns="${NAMESPACE}">${sitemaps}</sitemapindex>`;
 };
 
-export const revalidate = 86400;
+export const revalidate = 604800;
 
 export async function GET(): Promise<Response> {
   const body = createIndex();
@@ -30,7 +30,7 @@ export async function GET(): Promise<Response> {
   return new Response(body, {
     headers: {
       'Content-Type': 'application/xml; charset=utf-8',
-      'Cache-Control': 'public, max-age=0, s-maxage=86400',
+      'Cache-Control': 'public, max-age=0, s-maxage=604800',
     },
   });
 }

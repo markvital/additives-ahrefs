@@ -5,12 +5,17 @@ import { getAdditiveBySlug, getAwarenessScores, getCanonicalComparisonOrder } fr
 import { formatAdditiveDisplayName } from '../../../lib/additive-format';
 import { getSearchHistory } from '../../../lib/search-history';
 import { getSearchQuestions } from '../../../lib/search-questions';
-interface ComparePageProps {
-  params: Promise<{ slug?: string[] }>;
-}
 
 const DEFAULT_DESCRIPTION =
   'Compare food additives side by side to review their synonyms, functions, origins, and search trends.';
+
+export const dynamic = 'force-static';
+export const revalidate = 2_592_000; // 30 days
+export const dynamicParams = true;
+
+export async function generateStaticParams() {
+  return [{ slug: [] }];
+}
 
 const parseComparisonParam = (segment?: string | null): [string | null, string | null] => {
   if (!segment) {
@@ -34,7 +39,11 @@ const parseComparisonParam = (segment?: string | null): [string | null, string |
   return [first, second];
 };
 
-export async function generateMetadata({ params }: ComparePageProps): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug?: string[] }>;
+}): Promise<Metadata> {
   const { slug } = await params;
   const pairSegment = Array.isArray(slug) ? slug[0] : undefined;
   const [firstSlug, secondSlug] = parseComparisonParam(pairSegment);
@@ -99,7 +108,7 @@ export async function generateMetadata({ params }: ComparePageProps): Promise<Me
   };
 }
 
-export default async function ComparePage({ params }: ComparePageProps) {
+export default async function ComparePage({ params }: { params: Promise<{ slug?: string[] }> }) {
   const { slug } = await params;
   const pairSegment = Array.isArray(slug) ? slug[0] : undefined;
   const [requestedLeft, requestedRight] = parseComparisonParam(pairSegment);
