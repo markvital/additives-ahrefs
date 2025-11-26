@@ -28,6 +28,9 @@ const homePageTitle = 'Food Additive Catalogue';
 const homePageDescription =
   'Browse essential information about food additives, including synonyms, functions, and links to additional resources.';
 
+export const dynamic = 'force-static';
+export const revalidate = 86400;
+
 export const metadata: Metadata = {
   title: homePageTitle,
   description: homePageDescription,
