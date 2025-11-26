@@ -34,7 +34,7 @@ const extractPageId = (raw: string | string[] | undefined): string | null => {
   return cleaned;
 };
 
-export const revalidate = 86400;
+export const revalidate = 604800;
 
 export async function GET(
   _request: Request,
@@ -58,7 +58,7 @@ export async function GET(
   return new Response(body, {
     headers: {
       'Content-Type': 'application/xml; charset=utf-8',
-      'Cache-Control': 'public, max-age=0, s-maxage=86400',
+      'Cache-Control': 'public, max-age=0, s-maxage=604800',
     },
   });
 }
