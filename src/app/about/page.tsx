@@ -7,6 +7,11 @@ import { MarkdownArticle } from '../../components/MarkdownArticle';
 import { absoluteUrl } from '../../lib/site';
 
 const aboutFilePath = path.join(process.cwd(), 'data', 'pages', 'about.md');
+const aboutTitle = 'About the Food Additive Catalogue';
+const aboutDescription =
+  'Learn how the Food Additive Catalogue combines open data sources, Codex functional classes, and Ahrefs search metrics to explain E-numbers.';
+const aboutCanonicalPath = '/about';
+const gridSocialImage = absoluteUrl('/img/grid-screenshot.png');
 
 async function getAboutContent(): Promise<string> {
   const file = await fs.readFile(aboutFilePath, 'utf8');
@@ -15,30 +20,27 @@ async function getAboutContent(): Promise<string> {
 }
 
 export const metadata: Metadata = {
-  title: 'About the Food Additive Catalogue',
-  description:
-    'Learn how the Food Additive Catalogue combines open data sources, Codex functional classes, and Ahrefs search metrics to explain E-numbers.',
+  title: aboutTitle,
+  description: aboutDescription,
   alternates: {
-    canonical: '/about',
+    canonical: aboutCanonicalPath,
   },
   openGraph: {
-    title: 'About the Food Additive Catalogue',
-    description:
-      'Learn how the Food Additive Catalogue combines open data sources, Codex functional classes, and Ahrefs search metrics to explain E-numbers.',
-    url: absoluteUrl('/about'),
+    title: aboutTitle,
+    description: aboutDescription,
+    url: absoluteUrl(aboutCanonicalPath),
     type: 'website',
     images: [
       {
-        url: absoluteUrl('/img/grid-screenshot.png'),
+        url: gridSocialImage,
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'About the Food Additive Catalogue',
-    description:
-      'Learn how the Food Additive Catalogue combines open data sources, Codex functional classes, and Ahrefs search metrics to explain E-numbers.',
-    images: [absoluteUrl('/img/grid-screenshot.png')],
+    title: aboutTitle,
+    description: aboutDescription,
+    images: [gridSocialImage],
   },
 };
 

@@ -7,6 +7,11 @@ import { MarkdownArticle } from '../../components/MarkdownArticle';
 import { absoluteUrl } from '../../lib/site';
 
 const termsFilePath = path.join(process.cwd(), 'data', 'pages', 'terms.md');
+const termsTitle = 'Terms of Use';
+const termsDescription =
+  'Understand the conditions and limitations for using the Food Additive Catalogue, including liability and acceptable use.';
+const termsCanonicalPath = '/terms';
+const gridSocialImage = absoluteUrl('/img/grid-screenshot.png');
 
 async function getTermsContent(): Promise<string> {
   const file = await fs.readFile(termsFilePath, 'utf8');
@@ -15,30 +20,27 @@ async function getTermsContent(): Promise<string> {
 }
 
 export const metadata: Metadata = {
-  title: 'Terms of Use',
-  description:
-    'Understand the conditions and limitations for using the Food Additive Catalogue, including liability and acceptable use.',
+  title: termsTitle,
+  description: termsDescription,
   alternates: {
-    canonical: '/terms',
+    canonical: termsCanonicalPath,
   },
   openGraph: {
-    title: 'Terms of Use',
-    description:
-      'Understand the conditions and limitations for using the Food Additive Catalogue, including liability and acceptable use.',
-    url: absoluteUrl('/terms'),
+    title: termsTitle,
+    description: termsDescription,
+    url: absoluteUrl(termsCanonicalPath),
     type: 'website',
     images: [
       {
-        url: absoluteUrl('/img/grid-screenshot.png'),
+        url: gridSocialImage,
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Terms of Use',
-    description:
-      'Understand the conditions and limitations for using the Food Additive Catalogue, including liability and acceptable use.',
-    images: [absoluteUrl('/img/grid-screenshot.png')],
+    title: termsTitle,
+    description: termsDescription,
+    images: [gridSocialImage],
   },
 };
 

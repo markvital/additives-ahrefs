@@ -7,6 +7,11 @@ import { MarkdownArticle } from '../../components/MarkdownArticle';
 import { absoluteUrl } from '../../lib/site';
 
 const privacyFilePath = path.join(process.cwd(), 'data', 'pages', 'privacy.md');
+const privacyTitle = 'Privacy Policy';
+const privacyDescription =
+  'Learn how the Food Additive Catalogue collects and uses information, including analytics practices and data rights.';
+const privacyCanonicalPath = '/privacy';
+const gridSocialImage = absoluteUrl('/img/grid-screenshot.png');
 
 async function getPrivacyContent(): Promise<string> {
   const file = await fs.readFile(privacyFilePath, 'utf8');
@@ -15,30 +20,27 @@ async function getPrivacyContent(): Promise<string> {
 }
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy',
-  description:
-    'Learn how the Food Additive Catalogue collects and uses information, including analytics practices and data rights.',
+  title: privacyTitle,
+  description: privacyDescription,
   alternates: {
-    canonical: '/privacy',
+    canonical: privacyCanonicalPath,
   },
   openGraph: {
-    title: 'Privacy Policy',
-    description:
-      'Learn how the Food Additive Catalogue collects and uses information, including analytics practices and data rights.',
-    url: absoluteUrl('/privacy'),
+    title: privacyTitle,
+    description: privacyDescription,
+    url: absoluteUrl(privacyCanonicalPath),
     type: 'website',
     images: [
       {
-        url: absoluteUrl('/img/grid-screenshot.png'),
+        url: gridSocialImage,
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Privacy Policy',
-    description:
-      'Learn how the Food Additive Catalogue collects and uses information, including analytics practices and data rights.',
-    images: [absoluteUrl('/img/grid-screenshot.png')],
+    title: privacyTitle,
+    description: privacyDescription,
+    images: [gridSocialImage],
   },
 };
 
