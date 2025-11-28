@@ -87,10 +87,10 @@ export async function generateMetadata({ params }: OriginPageProps): Promise<Met
       title,
       description,
       url: absoluteUrl(canonical),
+      type: 'website',
       images: [
         {
           url: gridSocialImage,
-          alt: 'Screenshot of the food additives grid.',
         },
       ],
     },

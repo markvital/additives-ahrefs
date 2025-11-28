@@ -37,10 +37,10 @@ export const metadata: Metadata = {
   openGraph: {
     title: homePageTitle,
     description: homePageDescription,
+    type: 'website',
     images: [
       {
         url: gridSocialImage,
-        alt: 'Screenshot of the food additives grid.',
       },
     ],
   },

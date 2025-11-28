@@ -4,6 +4,7 @@ import path from 'path';
 import { promises as fs } from 'fs';
 
 import { MarkdownArticle } from '../../components/MarkdownArticle';
+import { absoluteUrl } from '../../lib/site';
 
 const termsFilePath = path.join(process.cwd(), 'data', 'pages', 'terms.md');
 
@@ -19,6 +20,25 @@ export const metadata: Metadata = {
     'Understand the conditions and limitations for using the Food Additive Catalogue, including liability and acceptable use.',
   alternates: {
     canonical: '/terms',
+  },
+  openGraph: {
+    title: 'Terms of Use',
+    description:
+      'Understand the conditions and limitations for using the Food Additive Catalogue, including liability and acceptable use.',
+    url: absoluteUrl('/terms'),
+    type: 'website',
+    images: [
+      {
+        url: absoluteUrl('/img/grid-screenshot.png'),
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Terms of Use',
+    description:
+      'Understand the conditions and limitations for using the Food Additive Catalogue, including liability and acceptable use.',
+    images: [absoluteUrl('/img/grid-screenshot.png')],
   },
 };
 

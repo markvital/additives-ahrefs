@@ -114,10 +114,10 @@ export const metadata: Metadata = {
     title: originPageTitle,
     description: originPageDescription,
     url: originCanonicalUrl,
+    type: 'website',
     images: [
       {
         url: gridSocialImage,
-        alt: 'Screenshot of the food additives grid.',
       },
     ],
   },

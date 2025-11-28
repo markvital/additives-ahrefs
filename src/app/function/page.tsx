@@ -100,10 +100,10 @@ export const metadata: Metadata = {
     title: functionPageTitle,
     description: functionPageDescription,
     url: functionCanonicalUrl,
+    type: 'website',
     images: [
       {
         url: gridSocialImage,
-        alt: 'Screenshot of the food additives grid.',
       },
     ],
   },

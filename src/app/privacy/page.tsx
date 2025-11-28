@@ -4,6 +4,7 @@ import path from 'path';
 import { promises as fs } from 'fs';
 
 import { MarkdownArticle } from '../../components/MarkdownArticle';
+import { absoluteUrl } from '../../lib/site';
 
 const privacyFilePath = path.join(process.cwd(), 'data', 'pages', 'privacy.md');
 
@@ -19,6 +20,25 @@ export const metadata: Metadata = {
     'Learn how the Food Additive Catalogue collects and uses information, including analytics practices and data rights.',
   alternates: {
     canonical: '/privacy',
+  },
+  openGraph: {
+    title: 'Privacy Policy',
+    description:
+      'Learn how the Food Additive Catalogue collects and uses information, including analytics practices and data rights.',
+    url: absoluteUrl('/privacy'),
+    type: 'website',
+    images: [
+      {
+        url: absoluteUrl('/img/grid-screenshot.png'),
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Privacy Policy',
+    description:
+      'Learn how the Food Additive Catalogue collects and uses information, including analytics practices and data rights.',
+    images: [absoluteUrl('/img/grid-screenshot.png')],
   },
 };
 

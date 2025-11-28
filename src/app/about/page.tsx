@@ -4,6 +4,7 @@ import path from 'path';
 import { promises as fs } from 'fs';
 
 import { MarkdownArticle } from '../../components/MarkdownArticle';
+import { absoluteUrl } from '../../lib/site';
 
 const aboutFilePath = path.join(process.cwd(), 'data', 'pages', 'about.md');
 
@@ -19,6 +20,25 @@ export const metadata: Metadata = {
     'Learn how the Food Additive Catalogue combines open data sources, Codex functional classes, and Ahrefs search metrics to explain E-numbers.',
   alternates: {
     canonical: '/about',
+  },
+  openGraph: {
+    title: 'About the Food Additive Catalogue',
+    description:
+      'Learn how the Food Additive Catalogue combines open data sources, Codex functional classes, and Ahrefs search metrics to explain E-numbers.',
+    url: absoluteUrl('/about'),
+    type: 'website',
+    images: [
+      {
+        url: absoluteUrl('/img/grid-screenshot.png'),
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'About the Food Additive Catalogue',
+    description:
+      'Learn how the Food Additive Catalogue combines open data sources, Codex functional classes, and Ahrefs search metrics to explain E-numbers.',
+    images: [absoluteUrl('/img/grid-screenshot.png')],
   },
 };
 
