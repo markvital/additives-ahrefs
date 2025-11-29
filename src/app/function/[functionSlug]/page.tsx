@@ -25,6 +25,7 @@ import { FilterPanel } from '../../../components/FilterPanel';
 import { buildShowClassesHref } from '../../../lib/url';
 import { ReportMistakeName } from '../../../components/ReportMistakeContext';
 import { absoluteUrl } from '../../../lib/site';
+import { trimDescription, trimTitle } from '../../../lib/seo';
 
 const gridSocialImage = absoluteUrl('/img/grid-screenshot.png');
 
@@ -67,23 +68,25 @@ export async function generateMetadata({ params }: FunctionPageProps): Promise<M
       title: 'Function not found',
     };
   }
-  
+
   const label = formatFilterLabel(functionValue);
   const title = `${label} food additives`;
   const functionInfo = getFunctionInfo(functionValue);
   const description =
     functionInfo?.description ?? `Browse food additives that function as ${functionValue}.`;
   const canonical = `/function/${functionSlug}`;
+  const trimmedTitle = trimTitle(title);
+  const trimmedDescription = trimDescription(description);
 
   return {
-    title,
-    description,
+    title: trimmedTitle,
+    description: trimmedDescription,
     alternates: {
       canonical,
     },
     openGraph: {
-      title,
-      description,
+      title: trimmedTitle,
+      description: trimmedDescription,
       url: absoluteUrl(canonical),
       type: 'website',
       images: [
@@ -94,8 +97,8 @@ export async function generateMetadata({ params }: FunctionPageProps): Promise<M
     },
     twitter: {
       card: 'summary_large_image',
-      title,
-      description,
+      title: trimmedTitle,
+      description: trimmedDescription,
       images: [gridSocialImage],
     },
   };

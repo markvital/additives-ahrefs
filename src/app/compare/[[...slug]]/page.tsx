@@ -5,9 +5,16 @@ import { getAdditiveBySlug, getAwarenessScores, getCanonicalComparisonOrder } fr
 import { formatAdditiveDisplayName } from '../../../lib/additive-format';
 import { getSearchHistory } from '../../../lib/search-history';
 import { getSearchQuestions } from '../../../lib/search-questions';
+import {
+  trimComparisonDescription,
+  trimComparisonTitle,
+  trimDescription,
+  trimTitle,
+} from '../../../lib/seo';
 
 const DEFAULT_DESCRIPTION =
   'Compare food additives side by side to review their synonyms, functions, origins, and search trends.';
+const DEFAULT_TITLE = 'Compare food additives';
 
 export const dynamic = 'force-static';
 export const revalidate = 2_592_000; // 30 days
@@ -63,15 +70,18 @@ export async function generateMetadata({
       const firstImageUrl = `/img/card-preview/${firstAdditive.slug}.jpg`;
       const secondImageUrl = `/img/card-preview/${secondAdditive.slug}.jpg`;
 
+      const title = trimComparisonTitle(firstName, secondName);
+      const description = trimComparisonDescription(firstName, secondName);
+
       return {
-        title: `Compare ${firstName} vs ${secondName}`,
-        description: `Side-by-side comparison of ${firstName} and ${secondName}, including synonyms, origin, search interest, and article highlights.`,
+        title,
+        description,
         alternates: {
           canonical,
         },
         openGraph: {
-          title: `Compare ${firstName} vs ${secondName}`,
-          description: `Side-by-side comparison of ${firstName} and ${secondName}, including synonyms, origin, search interest, and article highlights.`,
+          title,
+          description,
           url: canonical,
           type: 'article',
           images: [
@@ -91,8 +101,8 @@ export async function generateMetadata({
         },
         twitter: {
           card: 'summary_large_image',
-          title: `Compare ${firstName} vs ${secondName}`,
-          description: `Side-by-side comparison of ${firstName} and ${secondName}, including synonyms, origin, search interest, and article highlights.`,
+          title,
+          description,
           images: [firstImageUrl, secondImageUrl],
         },
       };
@@ -100,8 +110,8 @@ export async function generateMetadata({
   }
 
   return {
-    title: 'Compare food additives',
-    description: DEFAULT_DESCRIPTION,
+    title: trimTitle(DEFAULT_TITLE),
+    description: trimDescription(DEFAULT_DESCRIPTION),
     alternates: {
       canonical: '/compare',
     },

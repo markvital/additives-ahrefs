@@ -6,6 +6,7 @@ import { formatFilterLabel, normalizeFilterValue } from '../../lib/text';
 import functionsData from '../../../data/functions.json';
 import InfoList from '../../components/InfoList';
 import { absoluteUrl } from '../../lib/site';
+import { trimDescription, trimTitle } from '../../lib/seo';
 
 type FunctionDataEntry = {
   name?: string;
@@ -83,9 +84,10 @@ const functionItems = functions.map(({ slug, title, description, count }) => ({
   countSuffix: count === 1 ? 'additive uses this function.' : 'additives use this function.',
 }));
 
-const functionPageTitle = 'Food additive functions';
-const functionPageDescription =
-  'Browse every function used to classify food additives, including descriptions and usage counts.';
+const functionPageTitle = trimTitle('Food additive functions');
+const functionPageDescription = trimDescription(
+  'Browse every function used to classify food additives, including descriptions and usage counts.',
+);
 const functionCanonicalPath = '/function';
 const gridSocialImage = absoluteUrl('/img/grid-screenshot.png');
 const functionCanonicalUrl = absoluteUrl(functionCanonicalPath);

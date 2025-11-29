@@ -22,11 +22,13 @@ import { formatFilterLabel } from '../lib/text';
 import { formatFunctionLabel } from '../lib/additive-format';
 import { getSearchVolumeDataset } from '../lib/search-volume';
 import { absoluteUrl } from '../lib/site';
+import { trimDescription, trimTitle } from '../lib/seo';
 
 const gridSocialImage = absoluteUrl('/img/grid-screenshot.png');
-const homePageTitle = 'Food Additive Catalogue';
-const homePageDescription =
-  'Browse essential information about food additives, including synonyms, functions, and links to additional resources.';
+const homePageTitle = trimTitle('Food Additive Catalogue');
+const homePageDescription = trimDescription(
+  'Browse essential information about food additives, including synonyms, functions, and links to additional resources.',
+);
 
 export const dynamic = 'force-static';
 export const revalidate = 86400;

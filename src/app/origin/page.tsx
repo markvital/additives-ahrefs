@@ -8,6 +8,7 @@ import originsData from '../../../data/origins.json';
 import { getOriginIcon } from '../../lib/origin-icons';
 import InfoList from '../../components/InfoList';
 import { absoluteUrl } from '../../lib/site';
+import { trimDescription, trimTitle } from '../../lib/seo';
 
 type OriginDataEntry = {
   name?: string;
@@ -97,9 +98,10 @@ const originItems = origins.map(({ slug, title, description, count }) => {
   };
 });
 
-const originPageTitle = 'Food additive origins';
-const originPageDescription =
-  'Review every origin category for food additives, complete with descriptions and additive counts.';
+const originPageTitle = trimTitle('Food additive origins');
+const originPageDescription = trimDescription(
+  'Review every origin category for food additives, complete with descriptions and additive counts.',
+);
 const originCanonicalPath = '/origin';
 const gridSocialImage = absoluteUrl('/img/grid-screenshot.png');
 const originCanonicalUrl = absoluteUrl(originCanonicalPath);

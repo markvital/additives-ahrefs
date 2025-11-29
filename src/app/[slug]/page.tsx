@@ -27,6 +27,7 @@ import { AwarenessScoreChip } from '../../components/AwarenessScoreChip';
 import { CopyLinkButton } from '../../components/CopyLinkButton';
 import { FunctionFilterChipList } from '../../components/FunctionFilterChipList';
 import { OriginChipList } from '../../components/OriginChipList';
+import { trimDescription, trimTitle } from '../../lib/seo';
 
 interface AdditivePageProps {
   params: Promise<{ slug: string }>;
@@ -47,9 +48,11 @@ export async function generateMetadata({ params }: AdditivePageProps): Promise<M
   }
 
   const displayName = formatAdditiveDisplayName(additive.eNumber, additive.title);
-  const metaTitle = `${displayName} | food additive`;
+  const metaTitle = trimTitle(`${displayName} | food additive`);
   const articleSummary = extractArticleSummary(additive.article);
-  const metaDescription = articleSummary?.replace(/\s+/g, ' ').trim() || additive.description;
+  const metaDescription = trimDescription(
+    articleSummary?.replace(/\s+/g, ' ').trim() || additive.description,
+  );
   const cardImageUrl = `/img/card-preview/${additive.slug}.jpg`;
 
   return {
