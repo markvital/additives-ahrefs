@@ -18,7 +18,13 @@ import { DndContext, PointerSensor, TouchSensor, useDroppable, useSensor, useSen
 import type { DragStartEvent, DragOverEvent } from '@dnd-kit/core';
 import type { Modifier } from '@popperjs/core';
 
-import type { Additive } from '../lib/additives';
+import type { AdditiveSearchItem } from '../lib/additives';
+import {
+  getCachedAdditiveSearchItems,
+  hasAdditiveSearchDataLoaded,
+  isAdditiveSearchDataLoading,
+  loadAdditiveSearchItems,
+} from '../lib/client/additive-search-data';
 import { AdditiveLookup } from './AdditiveLookup';
 import { theme } from '../lib/theme';
 
@@ -29,14 +35,16 @@ interface CompareFlapContextValue {
   toggle: () => void;
   selectSlot: (index: number, slug: string | null) => void;
   prefillSlot: (slug: string) => void;
-  getAdditiveBySlug: (slug: string) => Additive | null;
+  getAdditiveBySlug: (slug: string) => AdditiveSearchItem | null;
   slots: [string | null, string | null];
-  additives: Additive[];
+  additives: AdditiveSearchItem[];
   activeDropIndex: number | null;
   dismissHint: () => void;
   hasDismissedHint: boolean;
   isDragging: boolean;
   isWidgetDroppableActive: boolean;
+  isLoadingAdditives: boolean;
+  hasLoadedAdditives: boolean;
 }
 
 const CompareFlapContext = createContext<CompareFlapContextValue | null>(null);
@@ -52,7 +60,6 @@ export function useCompareFlap(): CompareFlapContextValue {
 }
 
 interface CompareFlapProviderProps {
-  additives: Additive[];
   children: ReactNode;
 }
 
@@ -80,10 +87,15 @@ function extractAdditiveSlug(pathname: string | null): string | null {
   return segments[0] ?? null;
 }
 
-export function CompareFlapProvider({ additives, children }: CompareFlapProviderProps) {
+export function CompareFlapProvider({ children }: CompareFlapProviderProps) {
   const router = useRouter();
   const pathname = usePathname();
+  const [additives, setAdditives] = useState<AdditiveSearchItem[]>(() => getCachedAdditiveSearchItems() ?? []);
+  const [isLoadingAdditives, setIsLoadingAdditives] = useState(
+    () => isAdditiveSearchDataLoading() || !hasAdditiveSearchDataLoaded(),
+  );
   const additiveMap = useMemo(() => new Map(additives.map((item) => [item.slug, item])), [additives]);
+  const hasLoadedAdditives = additives.length > 0;
   const [slots, setSlots] = useState<SlotState>([null, null]);
   const [isOpen, setIsOpen] = useState(false);
   const [activeDropIndex, setActiveDropIndex] = useState<number | null>(null);
@@ -93,6 +105,50 @@ export function CompareFlapProvider({ additives, children }: CompareFlapProvider
   const lastNavigatedPairRef = useRef<string | null>(null);
   const lastPrefilledSlugRef = useRef<string | null>(null);
   const previousPathRef = useRef<string | null>(null);
+
+  useEffect(() => {
+    let isMounted = true;
+
+    if (hasAdditiveSearchDataLoaded()) {
+      const cached = getCachedAdditiveSearchItems();
+
+      if (cached) {
+        setAdditives(cached);
+      }
+
+      setIsLoadingAdditives(false);
+      return undefined;
+    }
+
+    setIsLoadingAdditives(true);
+
+    loadAdditiveSearchItems()
+      .then((items) => {
+        if (!isMounted) {
+          return;
+        }
+
+        setAdditives(items);
+      })
+      .catch((error) => {
+        if (!isMounted) {
+          return;
+        }
+
+        console.error('Unable to load additives for comparison search', error);
+      })
+      .finally(() => {
+        if (!isMounted) {
+          return;
+        }
+
+        setIsLoadingAdditives(false);
+      });
+
+    return () => {
+      isMounted = false;
+    };
+  }, []);
 
   const dismissHint = useCallback(() => {
     setHasDismissedHint(true);
@@ -105,7 +161,7 @@ export function CompareFlapProvider({ additives, children }: CompareFlapProvider
         let changed = false;
 
         if (slug) {
-          if (!additiveMap.has(slug)) {
+          if (hasLoadedAdditives && !additiveMap.has(slug)) {
             return prev;
           }
 
@@ -138,12 +194,12 @@ export function CompareFlapProvider({ additives, children }: CompareFlapProvider
         return next;
       });
     },
-    [additiveMap],
+    [additiveMap, hasLoadedAdditives],
   );
 
   const prefillSlot = useCallback(
     (slug: string) => {
-      if (!additiveMap.has(slug)) {
+      if (hasLoadedAdditives && !additiveMap.has(slug)) {
         return;
       }
 
@@ -165,7 +221,7 @@ export function CompareFlapProvider({ additives, children }: CompareFlapProvider
         return next;
       });
     },
-    [additiveMap],
+    [additiveMap, hasLoadedAdditives],
   );
 
   useEffect(() => {
@@ -173,21 +229,44 @@ export function CompareFlapProvider({ additives, children }: CompareFlapProvider
       return;
     }
 
-    if (previousPathRef.current === pathname) {
-      return;
-    }
-
     const potentialSlug = extractAdditiveSlug(pathname);
-    const resolvedSlug = potentialSlug && additiveMap.has(potentialSlug) ? potentialSlug : null;
+    const resolvedSlug =
+      potentialSlug && (additiveMap.size === 0 || additiveMap.has(potentialSlug)) ? potentialSlug : null;
 
-    setSlots([resolvedSlug, null]);
+    setSlots((prev) => {
+      if (prev[0] === resolvedSlug && prev[1] === null) {
+        return prev;
+      }
+
+      return [resolvedSlug, null];
+    });
     setIsOpen(false);
     setActiveDropIndex(null);
     lastNavigatedPairRef.current = null;
-    lastPrefilledSlugRef.current = resolvedSlug;
+    lastPrefilledSlugRef.current = resolvedSlug ?? potentialSlug ?? null;
 
     previousPathRef.current = pathname;
   }, [additiveMap, pathname]);
+
+  useEffect(() => {
+    if (!hasLoadedAdditives) {
+      return;
+    }
+
+    setSlots((prev) => {
+      const next: SlotState = [...prev];
+      let changed = false;
+
+      next.forEach((slug, index) => {
+        if (slug && !additiveMap.has(slug)) {
+          next[index] = null;
+          changed = true;
+        }
+      });
+
+      return changed ? next : prev;
+    });
+  }, [additiveMap, hasLoadedAdditives]);
 
   useEffect(() => {
     if (!slots[0] || !slots[1]) {
@@ -348,6 +427,8 @@ export function CompareFlapProvider({ additives, children }: CompareFlapProvider
       hasDismissedHint,
       isDragging,
       isWidgetDroppableActive,
+      isLoadingAdditives,
+      hasLoadedAdditives,
     }),
     [
       activeDropIndex,
@@ -356,8 +437,10 @@ export function CompareFlapProvider({ additives, children }: CompareFlapProvider
       dismissHint,
       getAdditiveBySlug,
       hasDismissedHint,
+      hasLoadedAdditives,
       isWidgetDroppableActive,
       isDragging,
+      isLoadingAdditives,
       isOpen,
       open,
       prefillSlot,
@@ -397,6 +480,7 @@ function CompareFlapUI() {
     slots,
     getAdditiveBySlug,
     additives,
+    isLoadingAdditives,
     selectSlot,
     activeDropIndex,
     dismissHint,
@@ -812,6 +896,7 @@ function CompareFlapUI() {
                 <AdditiveLookup
                   key={activeSlotIndex ?? 'selector'}
                   additives={additives}
+                  loading={isLoadingAdditives}
                   value={
                     activeSlotIndex === 0
                       ? leftAdditive
@@ -902,7 +987,7 @@ interface SlotSelectPayload {
 
 interface SlotProps {
   index: number;
-  additive: Additive | null;
+  additive: AdditiveSearchItem | null;
   isHighlighted: boolean;
   onSelect: (payload: SlotSelectPayload) => void;
 }
