@@ -5,12 +5,7 @@ import { getAdditiveBySlug, getAwarenessScores, getCanonicalComparisonOrder } fr
 import { formatAdditiveDisplayName } from '../../../lib/additive-format';
 import { getSearchHistory } from '../../../lib/search-history';
 import { getSearchQuestions } from '../../../lib/search-questions';
-import {
-  trimComparisonDescription,
-  trimComparisonTitle,
-  trimDescription,
-  trimTitle,
-} from '../../../lib/seo';
+import { trimDescription, trimTitle } from '../../../lib/seo';
 
 const DEFAULT_DESCRIPTION =
   'Compare food additives side by side to review their synonyms, functions, origins, and search trends.';
@@ -70,8 +65,12 @@ export async function generateMetadata({
       const firstImageUrl = `/img/card-preview/${firstAdditive.slug}.jpg`;
       const secondImageUrl = `/img/card-preview/${secondAdditive.slug}.jpg`;
 
-      const title = trimComparisonTitle(firstName, secondName);
-      const description = trimComparisonDescription(firstName, secondName);
+      const title = trimTitle(
+        `Compare ${firstAdditive.eNumber ?? firstName} vs ${secondAdditive.eNumber ?? secondName}, ${firstAdditive.title ?? firstName} vs ${secondAdditive.title ?? secondName}`,
+      );
+      const description = trimDescription(
+        `Side-by-side comparison of ${firstName} and ${secondName}, including synonyms, origin, search interest, and article highlights.`,
+      );
 
       return {
         title,
