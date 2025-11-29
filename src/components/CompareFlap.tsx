@@ -449,6 +449,7 @@ function CompareFlapUI() {
     getAdditiveBySlug,
     additives,
     isLoadingAdditives,
+    hasLoadedAdditives,
     selectSlot,
     activeDropIndex,
     dismissHint,
@@ -482,7 +483,8 @@ function CompareFlapUI() {
   const isPrivacyPage = pathname === '/privacy';
   const isTermsPage = pathname === '/terms';
   const potentialSlug = extractAdditiveSlug(pathname ?? null);
-  const isUnknownAdditivePath = potentialSlug ? !getAdditiveBySlug(potentialSlug) : false;
+  const isUnknownAdditivePath =
+    potentialSlug && hasLoadedAdditives ? !getAdditiveBySlug(potentialSlug) : false;
   const shouldHide =
     isComparePage || isAboutPage || isPrivacyPage || isTermsPage || isUnknownAdditivePath;
 
