@@ -6,7 +6,6 @@ import { Providers } from '../components/Providers';
 import { ReportMistakeProvider } from '../components/ReportMistakeContext';
 import { CompareFlapProvider } from '../components/CompareFlap';
 import { ConditionalLayout } from '../components/ConditionalLayout';
-import { getAdditives } from '../lib/additives';
 import { siteUrl } from '../lib/site';
 import './globals.css';
 
@@ -29,8 +28,6 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const additives = getAdditives();
-
   return (
     <html lang="en">
       <head>
@@ -43,7 +40,7 @@ export default function RootLayout({
       <body className={roboto.className}>
         <ReportMistakeProvider>
           <Providers>
-            <CompareFlapProvider additives={additives}>
+            <CompareFlapProvider>
               <ConditionalLayout>{children}</ConditionalLayout>
             </CompareFlapProvider>
           </Providers>
