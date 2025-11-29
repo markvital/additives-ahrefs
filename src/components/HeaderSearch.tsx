@@ -1,18 +1,13 @@
 'use client';
 
-import { useCallback, useEffect, useMemo, useState } from 'react';
+import { useCallback, useMemo, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { Box, InputAdornment } from '@mui/material';
 import SearchIcon from '@mui/icons-material/Search';
 
-import type { AdditiveSearchItem } from '../lib/additives';
 import type { AdditiveSearchMatch } from '../lib/additive-search';
-import {
-  getCachedAdditiveSearchItems,
-  hasAdditiveSearchDataLoaded,
-  isAdditiveSearchDataLoading,
-  loadAdditiveSearchItems,
-} from '../lib/client/additive-search-data';
+import type { AdditiveSearchItem } from '../lib/additives';
+import { useAdditiveSearchData } from '../lib/client/useAdditiveSearchData';
 import { AdditiveLookup } from './AdditiveLookup';
 
 export function HeaderSearch() {
@@ -21,35 +16,7 @@ export function HeaderSearch() {
   const [results, setResults] = useState<AdditiveSearchMatch<AdditiveSearchItem>[]>([]);
   const [query, setQuery] = useState('');
   const [isFocused, setIsFocused] = useState(false);
-  const [additives, setAdditives] = useState<AdditiveSearchItem[]>(() => getCachedAdditiveSearchItems() ?? []);
-  const [hasLoaded, setHasLoaded] = useState(() => hasAdditiveSearchDataLoaded());
-  const [isLoading, setIsLoading] = useState(() => isAdditiveSearchDataLoading());
-
-  const ensureSearchData = useCallback(() => {
-    if (hasAdditiveSearchDataLoaded()) {
-      const cached = getCachedAdditiveSearchItems();
-      if (cached) {
-        setAdditives(cached);
-      }
-      setHasLoaded(true);
-      setIsLoading(false);
-      return;
-    }
-
-    setIsLoading(true);
-    loadAdditiveSearchItems()
-      .then((items) => {
-        setAdditives(items);
-        setHasLoaded(true);
-      })
-      .catch((error) => {
-        console.error('Unable to load additives for search', error);
-        setHasLoaded(false);
-      })
-      .finally(() => {
-        setIsLoading(false);
-      });
-  }, []);
+  const { additives, ensureLoaded: ensureSearchData, hasLoaded, isLoading } = useAdditiveSearchData();
 
   const handleQueryChange = useCallback(
     (nextQuery: string) => {
@@ -61,33 +28,6 @@ export function HeaderSearch() {
     },
     [ensureSearchData, hasLoaded],
   );
-
-  useEffect(() => {
-    if (!hasLoaded) {
-      if (hasAdditiveSearchDataLoaded()) {
-        const cached = getCachedAdditiveSearchItems();
-        if (cached) {
-          setAdditives(cached);
-        }
-        setHasLoaded(true);
-        setIsLoading(false);
-      } else if (isAdditiveSearchDataLoading()) {
-        setIsLoading(true);
-        loadAdditiveSearchItems()
-          .then((items) => {
-            setAdditives(items);
-            setHasLoaded(true);
-          })
-          .catch((error) => {
-            console.error('Unable to load additives for search', error);
-            setHasLoaded(false);
-          })
-          .finally(() => {
-            setIsLoading(false);
-          });
-      }
-    }
-  }, [hasLoaded]);
 
   const loadingState = useMemo(() => !hasLoaded && isLoading, [hasLoaded, isLoading]);
 

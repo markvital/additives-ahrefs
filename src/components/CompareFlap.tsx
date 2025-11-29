@@ -19,12 +19,7 @@ import type { DragStartEvent, DragOverEvent } from '@dnd-kit/core';
 import type { Modifier } from '@popperjs/core';
 
 import type { AdditiveSearchItem } from '../lib/additives';
-import {
-  getCachedAdditiveSearchItems,
-  hasAdditiveSearchDataLoaded,
-  isAdditiveSearchDataLoading,
-  loadAdditiveSearchItems,
-} from '../lib/client/additive-search-data';
+import { useAdditiveSearchData } from '../lib/client/useAdditiveSearchData';
 import { AdditiveLookup } from './AdditiveLookup';
 import { theme } from '../lib/theme';
 
@@ -90,12 +85,14 @@ function extractAdditiveSlug(pathname: string | null): string | null {
 export function CompareFlapProvider({ children }: CompareFlapProviderProps) {
   const router = useRouter();
   const pathname = usePathname();
-  const [additives, setAdditives] = useState<AdditiveSearchItem[]>(() => getCachedAdditiveSearchItems() ?? []);
-  const [isLoadingAdditives, setIsLoadingAdditives] = useState(
-    () => isAdditiveSearchDataLoading() || !hasAdditiveSearchDataLoaded(),
-  );
+  const {
+    additives,
+    ensureLoaded: ensureAdditiveSearchData,
+    hasLoaded: hasLoadedAdditiveSearchData,
+    isLoading: isAdditiveSearchDataLoading,
+  } = useAdditiveSearchData();
   const additiveMap = useMemo(() => new Map(additives.map((item) => [item.slug, item])), [additives]);
-  const hasLoadedAdditives = additives.length > 0;
+  const hasLoadedAdditives = hasLoadedAdditiveSearchData;
   const [slots, setSlots] = useState<SlotState>([null, null]);
   const [isOpen, setIsOpen] = useState(false);
   const [activeDropIndex, setActiveDropIndex] = useState<number | null>(null);
@@ -105,50 +102,6 @@ export function CompareFlapProvider({ children }: CompareFlapProviderProps) {
   const lastNavigatedPairRef = useRef<string | null>(null);
   const lastPrefilledSlugRef = useRef<string | null>(null);
   const previousPathRef = useRef<string | null>(null);
-
-  useEffect(() => {
-    let isMounted = true;
-
-    if (hasAdditiveSearchDataLoaded()) {
-      const cached = getCachedAdditiveSearchItems();
-
-      if (cached) {
-        setAdditives(cached);
-      }
-
-      setIsLoadingAdditives(false);
-      return undefined;
-    }
-
-    setIsLoadingAdditives(true);
-
-    loadAdditiveSearchItems()
-      .then((items) => {
-        if (!isMounted) {
-          return;
-        }
-
-        setAdditives(items);
-      })
-      .catch((error) => {
-        if (!isMounted) {
-          return;
-        }
-
-        console.error('Unable to load additives for comparison search', error);
-      })
-      .finally(() => {
-        if (!isMounted) {
-          return;
-        }
-
-        setIsLoadingAdditives(false);
-      });
-
-    return () => {
-      isMounted = false;
-    };
-  }, []);
 
   const dismissHint = useCallback(() => {
     setHasDismissedHint(true);
@@ -284,7 +237,10 @@ export function CompareFlapProvider({ children }: CompareFlapProviderProps) {
     router.push(`/compare/${pair}`);
   }, [router, slots]);
 
-  const open = useCallback(() => setIsOpen(true), []);
+  const open = useCallback(() => {
+    ensureAdditiveSearchData();
+    setIsOpen(true);
+  }, [ensureAdditiveSearchData]);
 
   const close = useCallback(() => {
     setIsOpen(false);
@@ -292,9 +248,17 @@ export function CompareFlapProvider({ children }: CompareFlapProviderProps) {
   }, []);
 
   const toggle = useCallback(() => {
-    setIsOpen((prev) => !prev);
+    setIsOpen((prev) => {
+      const next = !prev;
+
+      if (!prev && next) {
+        ensureAdditiveSearchData();
+      }
+
+      return next;
+    });
     setActiveDropIndex(null);
-  }, []);
+  }, [ensureAdditiveSearchData]);
 
   const getAdditiveBySlug = useCallback((slug: string) => additiveMap.get(slug) ?? null, [additiveMap]);
 
@@ -427,7 +391,7 @@ export function CompareFlapProvider({ children }: CompareFlapProviderProps) {
       hasDismissedHint,
       isDragging,
       isWidgetDroppableActive,
-      isLoadingAdditives,
+      isLoadingAdditives: !hasLoadedAdditives && isAdditiveSearchDataLoading,
       hasLoadedAdditives,
     }),
     [
@@ -440,7 +404,7 @@ export function CompareFlapProvider({ children }: CompareFlapProviderProps) {
       hasLoadedAdditives,
       isWidgetDroppableActive,
       isDragging,
-      isLoadingAdditives,
+      isAdditiveSearchDataLoading,
       isOpen,
       open,
       prefillSlot,
