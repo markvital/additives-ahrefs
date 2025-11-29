@@ -182,21 +182,25 @@ export function CompareFlapProvider({ children }: CompareFlapProviderProps) {
       return;
     }
 
+    const didPathChange = previousPathRef.current !== pathname;
     const potentialSlug = extractAdditiveSlug(pathname);
     const resolvedSlug =
       potentialSlug && (additiveMap.size === 0 || additiveMap.has(potentialSlug)) ? potentialSlug : null;
 
     setSlots((prev) => {
-      if (prev[0] === resolvedSlug && prev[1] === null) {
+      if (!didPathChange && prev[0] === resolvedSlug && prev[1] === null) {
         return prev;
       }
 
       return [resolvedSlug, null];
     });
-    setIsOpen(false);
-    setActiveDropIndex(null);
-    lastNavigatedPairRef.current = null;
-    lastPrefilledSlugRef.current = resolvedSlug ?? potentialSlug ?? null;
+
+    if (didPathChange) {
+      setIsOpen(false);
+      setActiveDropIndex(null);
+      lastNavigatedPairRef.current = null;
+      lastPrefilledSlugRef.current = resolvedSlug ?? potentialSlug ?? null;
+    }
 
     previousPathRef.current = pathname;
   }, [additiveMap, pathname]);
