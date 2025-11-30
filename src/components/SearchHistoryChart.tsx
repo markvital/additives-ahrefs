@@ -19,25 +19,46 @@ interface SearchHistoryChartProps {
 export function SearchHistoryChart({ metrics, domain }: SearchHistoryChartProps) {
   const theme = useTheme();
 
+  const toUtcMonth = (dateString: string): Date | null => {
+    const parsed = new Date(dateString);
+    if (Number.isNaN(parsed.getTime())) {
+      return null;
+    }
+    // Anchor to midday UTC to avoid local timezone shifting the month backward.
+    return new Date(Date.UTC(parsed.getUTCFullYear(), parsed.getUTCMonth(), 1, 12));
+  };
+
+  const normalisedMetrics = useMemo(
+    () =>
+      metrics
+        .map((point) => {
+          const date = toUtcMonth(point.date);
+          if (!date) {
+            return null;
+          }
+          return { x: date, y: point.volume };
+        })
+        .filter((entry): entry is { x: Date; y: number } => entry !== null),
+    [metrics],
+  );
+
   const data = useMemo(
     () => [
       {
         id: 'search-volume',
-        data: metrics.map((point) => ({ x: new Date(point.date), y: point.volume })),
+        data: normalisedMetrics,
       },
     ],
-    [metrics],
+    [normalisedMetrics],
   );
 
   const years = useMemo(() => {
-    const uniqueYears = Array.from(
-      new Set(metrics.map((point) => new Date(point.date).getFullYear())),
-    );
+    const uniqueYears = Array.from(new Set(normalisedMetrics.map((point) => point.x.getUTCFullYear())));
 
     uniqueYears.sort((a, b) => a - b);
 
     return uniqueYears;
-  }, [metrics]);
+  }, [normalisedMetrics]);
 
   const isCompact = useMediaQuery(theme.breakpoints.down('md'));
 
@@ -45,7 +66,7 @@ export function SearchHistoryChart({ metrics, domain }: SearchHistoryChartProps)
     const step = isCompact ? 2 : 1;
     return years
       .filter((_, index) => index % step === 0)
-      .map((year) => new Date(year, 0, 1));
+      .map((year) => new Date(Date.UTC(year, 0, 1)));
   }, [years, isCompact]);
 
   const margin = useMemo(
@@ -132,10 +153,14 @@ export function SearchHistoryChart({ metrics, domain }: SearchHistoryChartProps)
             {slice.points.map((point) => (
               <Box key={point.id} sx={{ display: 'flex', flexDirection: 'column' }}>
                 <Box component="span" sx={{ fontSize: 12, color: theme.palette.text.secondary }}>
-                  {new Date(point.data.x as Date).toLocaleDateString(undefined, {
-                    month: 'short',
-                    year: 'numeric',
-                  })}
+                  {(point.data.x instanceof Date ? point.data.x : new Date(point.data.x as Date)).toLocaleDateString(
+                    undefined,
+                    {
+                      month: 'short',
+                      year: 'numeric',
+                      timeZone: 'UTC',
+                    },
+                  )}
                 </Box>
                 <Box component="span" sx={{ fontSize: 14, fontWeight: 600 }}>
                   {formatMonthlyVolume(point.data.y as number)} / mo
