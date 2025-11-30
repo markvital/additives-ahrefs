@@ -69,11 +69,6 @@ export function FilterPanel({
   >(null);
   const [showClassesControlVisible, setShowClassesControlVisible] = useState(currentShowClasses);
 
-  useEffect(() => {
-    if (currentShowClasses) {
-      setShowClassesControlVisible(true);
-    }
-  }, [currentShowClasses]);
   type SortSelectValue = 'search-rank' | 'products' | 'awareness' | 'e-number';
   const mapSortModeToSelectValue = (mode: AdditiveSortMode): SortSelectValue => {
     switch (mode) {
@@ -88,7 +83,60 @@ export function FilterPanel({
     }
   };
 
-  const currentSortValue = mapSortModeToSelectValue(currentSortMode);
+  const parseSortFromParam = (value: string | null): AdditiveSortMode | null => {
+    const normalized = typeof value === 'string' ? value.trim().toLowerCase() : '';
+
+    if (normalized === 'products' || normalized === 'product-count') {
+      return 'product-count';
+    }
+
+    if (normalized === 'search-rank' || normalized === 'rank') {
+      return 'search-rank';
+    }
+
+    if (normalized === 'awareness' || normalized === 'awareness-score') {
+      return 'awareness';
+    }
+
+    if (normalized === 'e-number' || normalized === 'enumber' || normalized === 'e') {
+      return 'e-number';
+    }
+
+    return null;
+  };
+
+  const parseShowClassesFromParam = (value: string | null): boolean | null => {
+    const normalized = typeof value === 'string' ? value.trim().toLowerCase() : '';
+
+    if (!normalized) {
+      return null;
+    }
+
+    return normalized === '1' || normalized === 'true' || normalized === 'yes' || normalized === 'show';
+  };
+
+  const derivedSortMode = (() => {
+    const paramValue = searchParams?.get('sort') ?? null;
+    const parsed = parseSortFromParam(paramValue);
+    return parsed ?? currentSortMode ?? DEFAULT_SORT_MODE;
+  })();
+
+  const derivedShowClasses = (() => {
+    const paramValue = searchParams?.get('classes') ?? null;
+    const parsed = parseShowClassesFromParam(paramValue);
+    if (parsed === null) {
+      return currentShowClasses ?? false;
+    }
+    return parsed;
+  })();
+
+  useEffect(() => {
+    if (derivedShowClasses) {
+      setShowClassesControlVisible(true);
+    }
+  }, [derivedShowClasses]);
+
+  const currentSortValue = mapSortModeToSelectValue(derivedSortMode);
 
   const closeLegend = useCallback(() => {
     setLegendOpen(false);
@@ -143,7 +191,7 @@ export function FilterPanel({
   const buildUrlWithState = (
     path: string,
     sort: SortSelectValue = currentSortValue,
-    showClasses: boolean = currentShowClasses,
+    showClasses: boolean = derivedShowClasses,
   ) => {
     const params = new URLSearchParams(searchParams?.toString() ?? '');
 
@@ -320,7 +368,7 @@ export function FilterPanel({
                 control={
                   <Checkbox
                     size="small"
-                    checked={currentShowClasses}
+                    checked={derivedShowClasses}
                     onChange={handleShowClassesChange}
                     disabled={isPending}
                   />

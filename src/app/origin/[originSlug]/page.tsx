@@ -12,8 +12,7 @@ import {
   getOriginFilters,
   getOriginValueBySlug,
   filterAdditivesByClassVisibility,
-  parseAdditiveSortMode,
-  parseShowClassesParam,
+  DEFAULT_ADDITIVE_SORT_MODE,
   sortAdditivesByMode,
   mapAdditivesToGridItems,
   getAwarenessScores,
@@ -21,7 +20,6 @@ import {
 import { formatFilterLabel } from '../../../lib/text';
 import { getOriginHeroIcon } from '../../../lib/origin-icons';
 import { getOriginDescription } from '../../../lib/origins';
-import { AdditiveGrid } from '../../../components/AdditiveGrid';
 import { AdditiveGridInfinite } from '../../../components/AdditiveGridInfinite';
 import { FilterPanel } from '../../../components/FilterPanel';
 import { buildShowClassesHref } from '../../../lib/url';
@@ -33,10 +31,6 @@ const gridSocialImage = absoluteUrl('/img/grid-screenshot.png');
 
 interface OriginPageProps {
   params: Promise<{ originSlug: string }>;
-  searchParams?: Promise<{
-    sort?: string | string[];
-    classes?: string | string[];
-  }>;
 }
 
 const formatCountLabel = (count: number): string =>
@@ -106,7 +100,7 @@ export async function generateMetadata({ params }: OriginPageProps): Promise<Met
   };
 }
 
-export default async function OriginPage({ params, searchParams }: OriginPageProps) {
+export default async function OriginPage({ params }: OriginPageProps) {
   const { originSlug } = await params;
   const originValue = getOriginValueBySlug(originSlug);
 
@@ -115,16 +109,15 @@ export default async function OriginPage({ params, searchParams }: OriginPagePro
   }
 
   const additives = getAdditivesByOriginSlug(originSlug);
-  const resolvedSearchParams = searchParams ? await searchParams : undefined;
-  const sortMode = parseAdditiveSortMode(resolvedSearchParams?.sort ?? null);
-  const showClasses = parseShowClassesParam(resolvedSearchParams?.classes ?? null);
-  const filteredAdditives = filterAdditivesByClassVisibility(additives, showClasses);
-  const sortedAdditives = sortAdditivesByMode(filteredAdditives, sortMode);
+  const initialSortMode = DEFAULT_ADDITIVE_SORT_MODE;
+  const initialShowClasses = false;
+  const filteredAdditives = filterAdditivesByClassVisibility(additives, initialShowClasses);
+  const sortedAdditives = sortAdditivesByMode(filteredAdditives, initialSortMode);
   const awarenessResult = getAwarenessScores();
-  const hiddenAdditivesCount = showClasses ? 0 : additives.length - filteredAdditives.length;
-  const showHiddenCountLink = hiddenAdditivesCount > 0 && !showClasses;
+  const hiddenAdditivesCount = additives.length - filteredAdditives.length;
+  const showHiddenCountLink = hiddenAdditivesCount > 0;
   const hiddenAdditivesHref = showHiddenCountLink
-    ? buildShowClassesHref(`/origin/${originSlug}`, resolvedSearchParams)
+    ? buildShowClassesHref(`/origin/${originSlug}`, undefined)
     : null;
   const label = formatFilterLabel(originValue);
   const reportMistakeName = label ? `Origin - ${label}` : null;
@@ -211,28 +204,19 @@ export default async function OriginPage({ params, searchParams }: OriginPagePro
             functionOptions={functionOptions}
             originOptions={originOptions}
             currentFilter={{ type: 'origin', slug: originSlug }}
-            currentSortMode={sortMode}
-            currentShowClasses={showClasses}
+            currentSortMode={initialSortMode}
+            currentShowClasses={initialShowClasses}
           />
         </Suspense>
-        {useInfiniteScroll ? (
-          <AdditiveGridInfinite
-            initialItems={initialItems}
-            totalCount={totalCount}
-            sortMode={sortMode}
-            showClasses={showClasses}
-            chunkSize={chunkSize}
-            filter={{ type: 'origin', slug: originSlug }}
-            awarenessScores={awarenessResult.scores}
-          />
-        ) : (
-          <AdditiveGrid
-            items={initialItems}
-            sortMode={sortMode}
-            emptyMessage="No additives found for this origin."
-            awarenessScores={awarenessResult.scores}
-          />
-        )}
+        <AdditiveGridInfinite
+          initialItems={initialItems}
+          totalCount={totalCount}
+          initialSortMode={initialSortMode}
+          initialShowClasses={initialShowClasses}
+          chunkSize={chunkSize}
+          filter={{ type: 'origin', slug: originSlug }}
+          awarenessScores={awarenessResult.scores}
+        />
       </Box>
     </>
   );
