@@ -4,7 +4,7 @@ import type { SyntheticEvent } from 'react';
 import { Box, Chip, Link as MuiLink, Stack, Tooltip, Typography } from '@mui/material';
 import type { SxProps, Theme } from '@mui/material/styles';
 
-import type { AwarenessScoreResult } from '../lib/awareness';
+import type { AwarenessScoreDisplay } from '../lib/awareness';
 import { getAwarenessLevel } from '../lib/awareness';
 
 const START_COLOR = { r: 194, g: 159, b: 251 } as const;
@@ -93,7 +93,7 @@ const buildTooltipContent = (index: number, formattedIndex: string) => {
 };
 
 interface AwarenessScoreChipProps {
-  score: AwarenessScoreResult | null | undefined;
+  score: AwarenessScoreDisplay | null | undefined;
   size?: 'small' | 'medium';
   sx?: SxProps<Theme>;
   /**

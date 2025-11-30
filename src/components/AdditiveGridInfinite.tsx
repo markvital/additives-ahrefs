@@ -6,7 +6,7 @@ import { Box, Button, CircularProgress, Typography } from '@mui/material';
 
 import type { AdditiveGridItem, AdditiveSortMode } from '../lib/additives';
 import { AdditiveGrid } from './AdditiveGrid';
-import type { AwarenessScoreResult } from '../lib/awareness';
+import type { AwarenessScoreDisplay, AwarenessScoreResult } from '../lib/awareness';
 
 type AdditiveGridFilter =
   | {
@@ -25,7 +25,7 @@ interface AdditiveGridInfiniteProps {
   initialShowClasses: boolean;
   chunkSize?: number;
   filter?: AdditiveGridFilter | null;
-  awarenessScores?: Map<string, AwarenessScoreResult>;
+  awarenessScores?: Map<string, AwarenessScoreDisplay | AwarenessScoreResult>;
 }
 
 const DEFAULT_CHUNK_SIZE = 100;

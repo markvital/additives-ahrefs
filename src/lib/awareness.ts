@@ -16,6 +16,11 @@ export interface AwarenessScoreResult {
   colorScore: number;
 }
 
+export type AwarenessScoreDisplay = {
+  index: number;
+  colorScore?: number | null;
+};
+
 export interface AwarenessComputationResult {
   /** Laplace smoothing weight applied to both search volume and product count. */
   alpha: number;
@@ -183,4 +188,3 @@ export const getAwarenessLevel = (index: number | null | undefined): AwarenessLe
 
   return 'normal';
 };
-
