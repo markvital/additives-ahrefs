@@ -28,6 +28,7 @@ import { CopyLinkButton } from '../../components/CopyLinkButton';
 import { FunctionFilterChipList } from '../../components/FunctionFilterChipList';
 import { OriginChipList } from '../../components/OriginChipList';
 import { trimDescription, trimTitle } from '../../lib/seo';
+import { getAwarenessLevel } from '../../lib/awareness';
 
 interface AdditivePageProps {
   params: Promise<{ slug: string }>;
@@ -454,6 +455,14 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
                   Awareness score:
                 </Box>
                 <AwarenessScoreChip score={awarenessScore} />
+                {(() => {
+                  const level = getAwarenessLevel(awarenessScore.index);
+                  return level ? (
+                    <Box component="span" sx={{ color: 'text.secondary' }}>
+                      {level}
+                    </Box>
+                  ) : null;
+                })()}
               </Typography>
             ) : null}
           </Box>
