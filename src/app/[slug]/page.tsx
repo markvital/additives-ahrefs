@@ -454,15 +454,26 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
                 <Box component="span" sx={{ fontWeight: 600 }}>
                   Awareness score:
                 </Box>
-                <AwarenessScoreChip score={awarenessScore} />
-                {(() => {
-                  const level = getAwarenessLevel(awarenessScore.index);
-                  return level ? (
-                    <Box component="span" sx={{ color: 'text.secondary' }}>
-                      {level}
-                    </Box>
-                  ) : null;
-                })()}
+                <Box
+                  component="span"
+                  sx={{
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    gap: 1,
+                    flexWrap: 'nowrap',
+                    minHeight: 32,
+                  }}
+                >
+                  <AwarenessScoreChip score={awarenessScore} />
+                  {(() => {
+                    const level = getAwarenessLevel(awarenessScore.index);
+                    return level ? (
+                      <Box component="span" sx={{ color: 'text.secondary', whiteSpace: 'nowrap' }}>
+                        {level}
+                      </Box>
+                    ) : null;
+                  })()}
+                </Box>
               </Typography>
             ) : null}
           </Box>
