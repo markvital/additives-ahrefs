@@ -247,6 +247,13 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
     lineHeight: 1.8,
   } as const;
 
+  const awarenessRowSx = {
+    ...detailRowTypographySx,
+    flexWrap: 'nowrap',
+    columnGap: 1.25,
+    minHeight: 32,
+  } as const;
+
   return (
     <>
       <CompareFlapPrefill slug={additive.slug} />
@@ -450,7 +457,7 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
               </Typography>
             )}
             {awarenessScore ? (
-              <Typography variant="body1" color="text.secondary" sx={detailRowTypographySx}>
+              <Typography variant="body1" color="text.secondary" sx={awarenessRowSx}>
                 <Box component="span" sx={{ fontWeight: 600 }}>
                   Awareness score:
                 </Box>
@@ -461,7 +468,6 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
                     alignItems: 'center',
                     gap: 1,
                     flexWrap: 'nowrap',
-                    minHeight: 32,
                   }}
                 >
                   <AwarenessScoreChip score={awarenessScore} />

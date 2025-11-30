@@ -559,7 +559,14 @@ export function AdditiveComparison({ initialSelection, initialAdditives, awarene
         <Typography
           variant="body1"
           color="text.secondary"
-          sx={{ display: 'flex', alignItems: 'center', gap: 1, lineHeight: 1.6 }}
+          sx={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: 1,
+            lineHeight: 1.6,
+            flexWrap: 'nowrap',
+            minHeight: 32,
+          }}
         >
           <AwarenessScoreChip score={awarenessScore} />
           {awarenessLevel ? <Box component="span">{awarenessLevel}</Box> : null}
