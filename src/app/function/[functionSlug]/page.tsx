@@ -10,8 +10,7 @@ import {
   getOriginFilters,
   getFunctionValueBySlug,
   filterAdditivesByClassVisibility,
-  parseAdditiveSortMode,
-  parseShowClassesParam,
+  DEFAULT_ADDITIVE_SORT_MODE,
   sortAdditivesByMode,
   mapAdditivesToGridItems,
   getAwarenessScores,
@@ -19,7 +18,6 @@ import {
 import { formatFilterLabel } from '../../../lib/text';
 import { formatFunctionLabel } from '../../../lib/additive-format';
 import { getFunctionInfo, formatUsedAsList } from '../../../lib/function-details';
-import { AdditiveGrid } from '../../../components/AdditiveGrid';
 import { AdditiveGridInfinite } from '../../../components/AdditiveGridInfinite';
 import { FilterPanel } from '../../../components/FilterPanel';
 import { buildShowClassesHref } from '../../../lib/url';
@@ -31,10 +29,6 @@ const gridSocialImage = absoluteUrl('/img/grid-screenshot.png');
 
 interface FunctionPageProps {
   params: Promise<{ functionSlug: string }>;
-  searchParams?: Promise<{
-    sort?: string | string[];
-    classes?: string | string[];
-  }>;
 }
 
 const formatCountLabel = (count: number): string =>
@@ -104,7 +98,7 @@ export async function generateMetadata({ params }: FunctionPageProps): Promise<M
   };
 }
 
-export default async function FunctionPage({ params, searchParams }: FunctionPageProps) {
+export default async function FunctionPage({ params }: FunctionPageProps) {
   const { functionSlug } = await params;
   const functionValue = getFunctionValueBySlug(functionSlug);
 
@@ -113,16 +107,15 @@ export default async function FunctionPage({ params, searchParams }: FunctionPag
   }
 
   const additives = getAdditivesByFunctionSlug(functionSlug);
-  const resolvedSearchParams = searchParams ? await searchParams : undefined;
-  const sortMode = parseAdditiveSortMode(resolvedSearchParams?.sort ?? null);
-  const showClasses = parseShowClassesParam(resolvedSearchParams?.classes ?? null);
-  const filteredAdditives = filterAdditivesByClassVisibility(additives, showClasses);
-  const sortedAdditives = sortAdditivesByMode(filteredAdditives, sortMode);
+  const initialSortMode = DEFAULT_ADDITIVE_SORT_MODE;
+  const initialShowClasses = false;
+  const filteredAdditives = filterAdditivesByClassVisibility(additives, initialShowClasses);
+  const sortedAdditives = sortAdditivesByMode(filteredAdditives, initialSortMode);
   const awarenessResult = getAwarenessScores();
-  const hiddenAdditivesCount = showClasses ? 0 : additives.length - filteredAdditives.length;
-  const showHiddenCountLink = hiddenAdditivesCount > 0 && !showClasses;
+  const hiddenAdditivesCount = additives.length - filteredAdditives.length;
+  const showHiddenCountLink = hiddenAdditivesCount > 0;
   const hiddenAdditivesHref = showHiddenCountLink
-    ? buildShowClassesHref(`/function/${functionSlug}`, resolvedSearchParams)
+    ? buildShowClassesHref(`/function/${functionSlug}`, undefined)
     : null;
   const functionLabelRaw = formatFunctionLabel(functionValue);
   const functionHeading = functionLabelRaw
@@ -206,28 +199,19 @@ export default async function FunctionPage({ params, searchParams }: FunctionPag
             functionOptions={functionOptions}
             originOptions={originOptions}
             currentFilter={{ type: 'function', slug: functionSlug }}
-            currentSortMode={sortMode}
-            currentShowClasses={showClasses}
+            currentSortMode={initialSortMode}
+            currentShowClasses={initialShowClasses}
           />
         </Suspense>
-        {useInfiniteScroll ? (
-          <AdditiveGridInfinite
-            initialItems={initialItems}
-            totalCount={totalCount}
-            sortMode={sortMode}
-            showClasses={showClasses}
-            chunkSize={chunkSize}
-            filter={{ type: 'function', slug: functionSlug }}
-            awarenessScores={awarenessResult.scores}
-          />
-        ) : (
-          <AdditiveGrid
-            items={initialItems}
-            sortMode={sortMode}
-            emptyMessage="No additives found for this function."
-            awarenessScores={awarenessResult.scores}
-          />
-        )}
+        <AdditiveGridInfinite
+          initialItems={initialItems}
+          totalCount={totalCount}
+          initialSortMode={initialSortMode}
+          initialShowClasses={initialShowClasses}
+          chunkSize={chunkSize}
+          filter={{ type: 'function', slug: functionSlug }}
+          awarenessScores={awarenessResult.scores}
+        />
       </Box>
     </>
   );

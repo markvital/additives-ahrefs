@@ -725,20 +725,24 @@ export const getAdditivesByOriginSlug = (slug: string): Additive[] => {
   );
 };
 
-export type AdditiveGridItem = Pick<
-  Additive,
-  | 'slug'
-  | 'title'
-  | 'eNumber'
-  | 'functions'
-  | 'origin'
-  | 'searchSparkline'
-  | 'searchVolume'
-  | 'searchRank'
-  | 'productCount'
-  | 'childSlugs'
-  | 'awarenessScore'
->;
+export type AwarenessScoreSummary = {
+  index: number;
+  colorScore: number | null;
+};
+
+export type AdditiveGridItem = {
+  slug: string;
+  title: string;
+  eNumber: string;
+  functions: string[];
+  origin: string[];
+  searchSparkline: Array<number | null>;
+  searchVolume: number | null;
+  searchRank: number | null;
+  productCount: number | null;
+  childSlugs: string[];
+  awarenessScore: AwarenessScoreSummary | null;
+};
 
 export const toAdditiveGridItem = (additive: Additive): AdditiveGridItem => ({
   slug: additive.slug,
@@ -751,7 +755,12 @@ export const toAdditiveGridItem = (additive: Additive): AdditiveGridItem => ({
   searchRank: additive.searchRank,
   productCount: additive.productCount,
   childSlugs: [...additive.childSlugs],
-  awarenessScore: additive.awarenessScore,
+  awarenessScore: additive.awarenessScore
+    ? {
+        index: additive.awarenessScore.index,
+        colorScore: additive.awarenessScore.colorScore ?? null,
+      }
+    : null,
 });
 
 export const mapAdditivesToGridItems = (items: Additive[]): AdditiveGridItem[] =>

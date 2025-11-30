@@ -28,6 +28,7 @@ import { CopyLinkButton } from '../../components/CopyLinkButton';
 import { FunctionFilterChipList } from '../../components/FunctionFilterChipList';
 import { OriginChipList } from '../../components/OriginChipList';
 import { trimDescription, trimTitle } from '../../lib/seo';
+import { getAwarenessLevel } from '../../lib/awareness';
 
 interface AdditivePageProps {
   params: Promise<{ slug: string }>;
@@ -246,6 +247,13 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
     lineHeight: 1.8,
   } as const;
 
+  const awarenessRowSx = {
+    ...detailRowTypographySx,
+    flexWrap: 'nowrap',
+    columnGap: 1.25,
+    minHeight: 32,
+  } as const;
+
   return (
     <>
       <CompareFlapPrefill slug={additive.slug} />
@@ -449,11 +457,29 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
               </Typography>
             )}
             {awarenessScore ? (
-              <Typography variant="body1" color="text.secondary" sx={detailRowTypographySx}>
+              <Typography variant="body1" color="text.secondary" sx={awarenessRowSx}>
                 <Box component="span" sx={{ fontWeight: 600 }}>
                   Awareness score:
                 </Box>
-                <AwarenessScoreChip score={awarenessScore} />
+                <Box
+                  component="span"
+                  sx={{
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    gap: 1,
+                    flexWrap: 'nowrap',
+                  }}
+                >
+                  <AwarenessScoreChip score={awarenessScore} />
+                  {(() => {
+                    const level = getAwarenessLevel(awarenessScore.index);
+                    return level ? (
+                      <Box component="span" sx={{ color: 'text.secondary', whiteSpace: 'nowrap' }}>
+                        {level}
+                      </Box>
+                    ) : null;
+                  })()}
+                </Box>
               </Typography>
             ) : null}
           </Box>

@@ -15,7 +15,7 @@ import { SearchSparkline } from './SearchSparkline';
 import { theme } from '../lib/theme';
 import { FunctionChipList } from './FunctionChipList';
 import { useCompareFlap } from './CompareFlap';
-import type { AwarenessScoreResult } from '../lib/awareness';
+import type { AwarenessScoreDisplay, AwarenessScoreResult } from '../lib/awareness';
 import { AwarenessScoreChip } from './AwarenessScoreChip';
 
 const GRID_DEFAULT_SORT_MODE: AdditiveSortMode = 'product-count';
@@ -55,7 +55,7 @@ interface AdditiveGridProps {
   items: AdditiveGridItemType[];
   emptyMessage?: string;
   sortMode?: AdditiveSortMode;
-  awarenessScores?: Map<string, AwarenessScoreResult>;
+  awarenessScores?: Map<string, AwarenessScoreDisplay | AwarenessScoreResult>;
 }
 
 export function AdditiveGrid({
@@ -111,7 +111,7 @@ interface AdditiveGridCardProps {
   additive: AdditiveGridItemType;
   index: number;
   sortMode: AdditiveSortMode;
-  awarenessScore: AwarenessScoreResult | null | undefined;
+  awarenessScore: AwarenessScoreDisplay | AwarenessScoreResult | null | undefined;
   dragEnabled: boolean;
   compareDragging: boolean;
 }

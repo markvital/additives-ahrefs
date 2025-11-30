@@ -12,8 +12,7 @@ import {
   getOriginFilters,
   filterAdditivesByClassVisibility,
   getFunctionSlug,
-  parseAdditiveSortMode,
-  parseShowClassesParam,
+  DEFAULT_ADDITIVE_SORT_MODE,
   sortAdditivesByMode,
   mapAdditivesToGridItems,
   getAwarenessScores,
@@ -126,19 +125,11 @@ const functionsHref = '/function';
 
 const highlightNumberSx = { fontWeight: 600, color: '#ffffff' } as const;
 
-interface HomePageProps {
-  searchParams?: Promise<{
-    sort?: string | string[];
-    classes?: string | string[];
-  }>;
-}
-
-export default async function HomePage({ searchParams }: HomePageProps) {
-  const resolvedSearchParams = searchParams ? await searchParams : undefined;
-  const sortMode = parseAdditiveSortMode(resolvedSearchParams?.sort ?? null);
-  const showClasses = parseShowClassesParam(resolvedSearchParams?.classes ?? null);
-  const filteredAdditives = filterAdditivesByClassVisibility(additives, showClasses);
-  const sortedAdditives = sortAdditivesByMode(filteredAdditives, sortMode);
+export default async function HomePage() {
+  const initialSortMode = DEFAULT_ADDITIVE_SORT_MODE;
+  const initialShowClasses = false;
+  const filteredAdditives = filterAdditivesByClassVisibility(additives, initialShowClasses);
+  const sortedAdditives = sortAdditivesByMode(filteredAdditives, initialSortMode);
   const chunkSize = 100;
   const totalCount = sortedAdditives.length;
   const awarenessResult = getAwarenessScores();
@@ -371,15 +362,15 @@ export default async function HomePage({ searchParams }: HomePageProps) {
         <FilterPanel
           functionOptions={functionOptions}
           originOptions={originOptions}
-          currentSortMode={sortMode}
-          currentShowClasses={showClasses}
+          currentSortMode={initialSortMode}
+          currentShowClasses={initialShowClasses}
         />
       </Suspense>
       <AdditiveGridInfinite
         initialItems={initialItems}
         totalCount={totalCount}
-        sortMode={sortMode}
-        showClasses={showClasses}
+        initialSortMode={initialSortMode}
+        initialShowClasses={initialShowClasses}
         chunkSize={chunkSize}
         awarenessScores={awarenessResult.scores}
       />

@@ -9,11 +9,11 @@ import { formatOriginLabel } from '../lib/additive-format';
 import { getOriginAbbreviation, getOriginIcon } from '../lib/origin-icons';
 import { FunctionChipList } from './FunctionChipList';
 import { AwarenessScoreChip } from './AwarenessScoreChip';
-import type { AwarenessScoreResult } from '../lib/awareness';
+import type { AwarenessScoreDisplay, AwarenessScoreResult } from '../lib/awareness';
 
 interface FeaturedCardProps {
   additive: AdditiveGridItem;
-  awarenessScore: AwarenessScoreResult | null | undefined;
+  awarenessScore: AwarenessScoreDisplay | AwarenessScoreResult | null | undefined;
 }
 
 export function FeaturedCard({ additive, awarenessScore }: FeaturedCardProps) {

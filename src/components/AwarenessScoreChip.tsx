@@ -4,7 +4,7 @@ import type { SyntheticEvent } from 'react';
 import { Box, Chip, Link as MuiLink, Stack, Tooltip, Typography } from '@mui/material';
 import type { SxProps, Theme } from '@mui/material/styles';
 
-import type { AwarenessScoreResult } from '../lib/awareness';
+import type { AwarenessScoreDisplay } from '../lib/awareness';
 import { getAwarenessLevel } from '../lib/awareness';
 
 const START_COLOR = { r: 194, g: 159, b: 251 } as const;
@@ -93,7 +93,7 @@ const buildTooltipContent = (index: number, formattedIndex: string) => {
 };
 
 interface AwarenessScoreChipProps {
-  score: AwarenessScoreResult | null | undefined;
+  score: AwarenessScoreDisplay | null | undefined;
   size?: 'small' | 'medium';
   sx?: SxProps<Theme>;
   /**
@@ -137,25 +137,11 @@ export function AwarenessScoreChip({
         slotProps={{ tooltip: { sx: { pointerEvents: 'auto' } } }}
       >
         <Chip
+          component="span"
+          clickable={false}
+          tabIndex={-1}
           size={size}
           label={label}
-          onClick={(event: SyntheticEvent) => {
-            event.preventDefault();
-            event.stopPropagation();
-          }}
-          onPointerDown={(event: SyntheticEvent) => {
-            event.stopPropagation();
-          }}
-          onPointerUp={(event: SyntheticEvent) => {
-            event.stopPropagation();
-          }}
-          onTouchStart={(event: SyntheticEvent) => {
-            event.stopPropagation();
-          }}
-          onTouchEnd={(event: SyntheticEvent) => {
-            event.preventDefault();
-            event.stopPropagation();
-          }}
           sx={{
             bgcolor: backgroundColor,
             color: '#ffffff',
@@ -163,6 +149,9 @@ export function AwarenessScoreChip({
             borderRadius: '999px',
             fontVariantNumeric: 'tabular-nums',
             cursor: 'default',
+            display: 'inline-flex',
+            alignItems: 'center',
+            minHeight: 24,
             '& .MuiChip-label': {
               px: 1.25,
               py: 0.5,
