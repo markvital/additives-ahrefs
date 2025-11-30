@@ -1,17 +1,17 @@
 {
-  "totalSearchVolume": 41600,
+  "totalSearchVolume": 47250,
   "keywords": [
     {
-      "keyword": "Cochineal",
-      "volume": 19000
+      "keyword": "carmines",
+      "volume": 26000
     },
     {
-      "keyword": "carmines",
+      "keyword": "Cochineal",
       "volume": 18000
     },
     {
       "keyword": "E120",
-      "volume": 3000
+      "volume": 1800
     },
     {
       "keyword": "carminic acid",
@@ -19,11 +19,23 @@
     },
     {
       "keyword": "Natural Red 4",
-      "volume": 500
+      "volume": 400
     },
     {
       "keyword": "Cochineal Red",
-      "volume": 300
+      "volume": 250
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Cochineal",
+      "E120",
+      "carminic acid",
+      "carmines",
+      "Natural Red 4",
+      "Cochineal Red"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

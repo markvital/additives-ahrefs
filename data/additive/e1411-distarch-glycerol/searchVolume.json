@@ -9,5 +9,13 @@
       "keyword": "E1411",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Distarch glycerol",
+      "E1411"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -1,13 +1,13 @@
 {
-  "totalSearchVolume": 2900,
+  "totalSearchVolume": 3500,
   "keywords": [
     {
       "keyword": "Monopotassium phosphate",
-      "volume": 2200
+      "volume": 2600
     },
     {
       "keyword": "Monobasic potassium phosphate",
-      "volume": 700
+      "volume": 900
     },
     {
       "keyword": "E 340i",
@@ -29,5 +29,18 @@
       "keyword": "Monopotassium monophosphate",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Monopotassium phosphate",
+      "E340I",
+      "Monobasic potassium phosphate",
+      "Monopotassium monophosphate",
+      "E 340i",
+      "E-340i",
+      "E340 i"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

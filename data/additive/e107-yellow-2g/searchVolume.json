@@ -9,5 +9,13 @@
       "keyword": "Yellow 2G",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Yellow 2G",
+      "E107"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

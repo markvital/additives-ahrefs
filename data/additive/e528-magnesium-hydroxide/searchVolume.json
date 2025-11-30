@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 22010,
+  "totalSearchVolume": 26010,
   "keywords": [
     {
       "keyword": "Magnesium hydroxide",
-      "volume": 22000
+      "volume": 26000
     },
     {
       "keyword": "E528",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Magnesium hydroxide",
+      "E528"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

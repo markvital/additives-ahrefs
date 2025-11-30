@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 10,
+  "totalSearchVolume": 20,
   "keywords": [
     {
       "keyword": "E457",
-      "volume": 10
+      "volume": 20
     },
     {
       "keyword": "Alpha-Cyclodextrine",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Alpha-Cyclodextrine",
+      "E457"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 15060,
+  "totalSearchVolume": 18060,
   "keywords": [
     {
       "keyword": "ammonium lactate",
-      "volume": 15000
+      "volume": 18000
     },
     {
       "keyword": "E328",
       "volume": 60
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "ammonium lactate",
+      "E328"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

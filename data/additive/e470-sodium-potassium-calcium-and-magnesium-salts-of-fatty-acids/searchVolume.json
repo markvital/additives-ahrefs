@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 2900,
+  "totalSearchVolume": 2100,
   "keywords": [
     {
       "keyword": "E470",
-      "volume": 2900
+      "volume": 2100
     },
     {
       "keyword": "Sodium/potassium/calcium and magnesium salts of fatty acids",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sodium/potassium/calcium and magnesium salts of fatty acids",
+      "E470"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

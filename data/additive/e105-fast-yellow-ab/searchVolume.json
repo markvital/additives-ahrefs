@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 10,
+  "totalSearchVolume": 30,
   "keywords": [
     {
       "keyword": "E105",
-      "volume": 10
+      "volume": 20
     },
     {
       "keyword": "Fast Yellow AB",
-      "volume": 0
+      "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Fast Yellow AB",
+      "E105"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -9,5 +9,13 @@
       "keyword": "E333II",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Dicalcium citrate",
+      "E333II"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

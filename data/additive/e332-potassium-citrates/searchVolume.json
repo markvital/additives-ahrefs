@@ -9,5 +9,13 @@
       "keyword": "Potassium citrates",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Potassium citrates",
+      "E332"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

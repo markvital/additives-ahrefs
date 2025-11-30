@@ -1,21 +1,31 @@
 {
-  "totalSearchVolume": 140060,
+  "totalSearchVolume": 149260,
   "keywords": [
     {
       "keyword": "Niacin",
-      "volume": 110000
+      "volume": 130000
     },
     {
       "keyword": "Nicotinamide",
-      "volume": 24000
+      "volume": 15000
     },
     {
       "keyword": "Nicotinic acid",
-      "volume": 6000
+      "volume": 4200
     },
     {
       "keyword": "E375",
       "volume": 60
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Nicotinic acid",
+      "E375",
+      "Niacin",
+      "Nicotinamide"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

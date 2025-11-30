@@ -9,5 +9,13 @@
       "keyword": "non-amidated pectines",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "non-amidated pectines",
+      "E440I"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

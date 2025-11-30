@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 8520,
+  "totalSearchVolume": 11020,
   "keywords": [
     {
       "keyword": "Dipotassium phosphate",
-      "volume": 8500
+      "volume": 11000
     },
     {
       "keyword": "E340II",
@@ -33,5 +33,19 @@
       "keyword": "Secondary potassium phosphate",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Dipotassium phosphate",
+      "E340II",
+      "Dipotassium monophosphate",
+      "Secondary potassium phosphate",
+      "Dipotassium orthophosphate",
+      "E 340ii",
+      "E-340ii",
+      "E340 ii"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

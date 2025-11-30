@@ -17,5 +17,15 @@
       "keyword": "Oligoesters of sucrose type II",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Oligoesters of sucrose type I",
+      "E473A",
+      "Oligoesters of sucrose type II",
+      "Oligoesters of sucrose"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

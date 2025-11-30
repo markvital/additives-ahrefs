@@ -13,5 +13,14 @@
       "keyword": "Polyoxyl (40) stearate",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Polyoxyethylene (40) stearate",
+      "E431",
+      "Polyoxyl (40) stearate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

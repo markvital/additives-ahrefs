@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 17060,
+  "totalSearchVolume": 9660,
   "keywords": [
     {
       "keyword": "Carnauba wax",
-      "volume": 17000
+      "volume": 9600
     },
     {
       "keyword": "E903",
@@ -13,5 +13,14 @@
       "keyword": "carnauba wax coating agents",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Carnauba wax",
+      "E903",
+      "carnauba wax coating agents"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

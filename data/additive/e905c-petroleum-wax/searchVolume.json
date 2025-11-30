@@ -9,5 +9,13 @@
       "keyword": "E905C",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Petroleum wax",
+      "E905C"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

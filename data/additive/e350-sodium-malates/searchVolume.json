@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 6800,
+  "totalSearchVolume": 8600,
   "keywords": [
     {
       "keyword": "E350",
-      "volume": 6800
+      "volume": 8600
     },
     {
       "keyword": "Sodium malates",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sodium malates",
+      "E350"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

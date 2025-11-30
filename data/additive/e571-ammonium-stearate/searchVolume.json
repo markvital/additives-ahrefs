@@ -9,5 +9,13 @@
       "keyword": "E571",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Ammonium stearate",
+      "E571"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

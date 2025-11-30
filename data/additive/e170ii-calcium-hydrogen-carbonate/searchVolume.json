@@ -1,13 +1,13 @@
 {
-  "totalSearchVolume": 1350,
+  "totalSearchVolume": 1200,
   "keywords": [
     {
       "keyword": "Calcium bicarbonate",
-      "volume": 1100
+      "volume": 1000
     },
     {
       "keyword": "Calcium hydrogen carbonate",
-      "volume": 250
+      "volume": 200
     },
     {
       "keyword": "Calcium acid carbonate",
@@ -17,5 +17,15 @@
       "keyword": "E170II",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Calcium hydrogen carbonate",
+      "E170II",
+      "Calcium bicarbonate",
+      "Calcium acid carbonate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

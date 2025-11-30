@@ -9,5 +9,13 @@
       "keyword": "E1403",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Bleached starch",
+      "E1403"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

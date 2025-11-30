@@ -9,5 +9,13 @@
       "keyword": "E636",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Maltol",
+      "E636"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

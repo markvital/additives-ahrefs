@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 6000,
+  "totalSearchVolume": 5500,
   "keywords": [
     {
       "keyword": "Potassium benzoate",
-      "volume": 5900
+      "volume": 5400
     },
     {
       "keyword": "E212",
       "volume": 100
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Potassium benzoate",
+      "E212"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

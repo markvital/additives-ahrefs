@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 6500,
+  "totalSearchVolume": 4800,
   "keywords": [
     {
       "keyword": "Isobutane",
-      "volume": 6500
+      "volume": 4800
     },
     {
       "keyword": "E943B",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Isobutane",
+      "E943B"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

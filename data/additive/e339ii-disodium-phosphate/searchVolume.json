@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 5800,
+  "totalSearchVolume": 6800,
   "keywords": [
     {
       "keyword": "Disodium phosphate",
-      "volume": 5800
+      "volume": 6800
     },
     {
       "keyword": "Disodium monophosphate",
@@ -17,5 +17,15 @@
       "keyword": "Secondary sodium phosphate",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Disodium phosphate",
+      "E339II",
+      "Disodium monophosphate",
+      "Secondary sodium phosphate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

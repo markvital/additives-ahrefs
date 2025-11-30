@@ -1,13 +1,13 @@
 {
-  "totalSearchVolume": 9940,
+  "totalSearchVolume": 8340,
   "keywords": [
     {
       "keyword": "Propionic acid",
-      "volume": 5300
+      "volume": 4300
     },
     {
       "keyword": "Propanoic acid",
-      "volume": 4200
+      "volume": 3600
     },
     {
       "keyword": "CH3CH2COOH",
@@ -17,5 +17,15 @@
       "keyword": "E280",
       "volume": 90
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Propionic acid",
+      "E280",
+      "Propanoic acid",
+      "CH3CH2COOH"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 0,
+  "totalSearchVolume": 10,
   "keywords": [
     {
       "keyword": "E1206",
-      "volume": 0
+      "volume": 10
     },
     {
       "keyword": "Neutral methacrylate copolymer",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Neutral methacrylate copolymer",
+      "E1206"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

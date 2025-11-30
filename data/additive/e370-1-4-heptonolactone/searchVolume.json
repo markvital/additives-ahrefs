@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 10,
+  "totalSearchVolume": 40,
   "keywords": [
     {
       "keyword": "E370",
-      "volume": 10
+      "volume": 40
     },
     {
       "keyword": "1‚4-Heptonolactone",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "1‚4-Heptonolactone",
+      "E370"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

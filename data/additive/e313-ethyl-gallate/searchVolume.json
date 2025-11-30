@@ -9,5 +9,13 @@
       "keyword": "Ethyl gallate",
       "volume": 20
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Ethyl gallate",
+      "E313"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

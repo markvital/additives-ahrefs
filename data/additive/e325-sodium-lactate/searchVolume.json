@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 3960,
+  "totalSearchVolume": 3260,
   "keywords": [
     {
       "keyword": "sodium lactate",
-      "volume": 3900
+      "volume": 3200
     },
     {
       "keyword": "E325",
       "volume": 60
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "sodium lactate",
+      "E325"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

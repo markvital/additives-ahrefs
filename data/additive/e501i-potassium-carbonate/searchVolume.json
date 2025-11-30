@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 14000,
+  "totalSearchVolume": 12010,
   "keywords": [
     {
       "keyword": "Potassium carbonate",
-      "volume": 14000
+      "volume": 12000
     },
     {
       "keyword": "E501I",
-      "volume": 0
+      "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Potassium carbonate",
+      "E501I"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

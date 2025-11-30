@@ -13,5 +13,14 @@
       "keyword": "Sodium L-aspartate",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sodium L-aspartate",
+      "E638",
+      "Sodium L aspartate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

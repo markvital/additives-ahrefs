@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 1570,
+  "totalSearchVolume": 1670,
   "keywords": [
     {
       "keyword": "Calcium ascorbate",
-      "volume": 1500
+      "volume": 1600
     },
     {
       "keyword": "E302",
       "volume": 70
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Calcium ascorbate",
+      "E302"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

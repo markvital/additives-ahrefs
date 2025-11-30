@@ -9,5 +9,13 @@
       "keyword": "Acetylated distarch phosphate",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Acetylated distarch phosphate",
+      "E1414"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

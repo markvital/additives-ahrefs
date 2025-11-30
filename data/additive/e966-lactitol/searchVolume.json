@@ -1,5 +1,5 @@
 {
-  "totalSearchVolume": 300,
+  "totalSearchVolume": 310,
   "keywords": [
     {
       "keyword": "Lactitol",
@@ -7,7 +7,7 @@
     },
     {
       "keyword": "E966",
-      "volume": 0
+      "volume": 10
     },
     {
       "keyword": "Lactit",
@@ -17,5 +17,15 @@
       "keyword": "Lactositol",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Lactitol",
+      "E966",
+      "Lactit",
+      "Lactositol"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

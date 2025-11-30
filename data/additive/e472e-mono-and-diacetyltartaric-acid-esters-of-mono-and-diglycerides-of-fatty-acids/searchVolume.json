@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 3650,
+  "totalSearchVolume": 3550,
   "keywords": [
     {
       "keyword": "DATEM",
-      "volume": 3600
+      "volume": 3500
     },
     {
       "keyword": "E472E",
@@ -25,5 +25,17 @@
       "keyword": "Mono- and diacetyltartaric esters of mono- and diglycerides of fatty acids",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Mono- and diacetyltartaric acid esters of mono- and diglycerides of fatty acids",
+      "E472E",
+      "Mono- and diacetyl tartaric acid esters of mono- and diglycerides of fatty acids",
+      "DATEM",
+      "Mono- and diacetyltartaric esters of mono- and diglycerides of fatty acids",
+      "emulsifier E472e"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

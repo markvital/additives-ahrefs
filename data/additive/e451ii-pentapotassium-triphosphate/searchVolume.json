@@ -1,13 +1,13 @@
 {
-  "totalSearchVolume": 120,
+  "totalSearchVolume": 110,
   "keywords": [
-    {
-      "keyword": "KTPP",
-      "volume": 40
-    },
     {
       "keyword": "potassium tripolyphosphate",
       "volume": 40
+    },
+    {
+      "keyword": "KTPP",
+      "volume": 30
     },
     {
       "keyword": "potassium triphosphate",
@@ -21,5 +21,16 @@
       "keyword": "E451II",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Pentapotassium triphosphate",
+      "E451II",
+      "potassium triphosphate",
+      "potassium tripolyphosphate",
+      "KTPP"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

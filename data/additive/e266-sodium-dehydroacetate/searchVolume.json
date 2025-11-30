@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 370,
+  "totalSearchVolume": 320,
   "keywords": [
     {
       "keyword": "Sodium dehydroacetate",
-      "volume": 350
+      "volume": 300
     },
     {
       "keyword": "E266",
       "volume": 20
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sodium dehydroacetate",
+      "E266"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

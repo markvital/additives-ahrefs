@@ -1,13 +1,13 @@
 {
-  "totalSearchVolume": 7000,
+  "totalSearchVolume": 7730,
   "keywords": [
     {
       "keyword": "E450",
-      "volume": 3500
+      "volume": 4300
     },
     {
       "keyword": "Pyrophosphate",
-      "volume": 2800
+      "volume": 2700
     },
     {
       "keyword": "e 450",
@@ -19,7 +19,7 @@
     },
     {
       "keyword": "E-450",
-      "volume": 80
+      "volume": 100
     },
     {
       "keyword": "Diphosphates",
@@ -27,7 +27,20 @@
     },
     {
       "keyword": "e450 stabilizer",
-      "volume": 0
+      "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Diphosphates",
+      "E450",
+      "Pyrophosphate",
+      "diphosphate",
+      "E-450",
+      "e 450",
+      "e450 stabilizer"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

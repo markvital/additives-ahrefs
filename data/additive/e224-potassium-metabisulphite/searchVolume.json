@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 2610,
+  "totalSearchVolume": 2510,
   "keywords": [
     {
       "keyword": "Potassium metabisulfite",
-      "volume": 2500
+      "volume": 2400
     },
     {
       "keyword": "Potassium metabisulphite",
@@ -13,5 +13,14 @@
       "keyword": "E224",
       "volume": 30
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Potassium metabisulphite",
+      "E224",
+      "Potassium metabisulfite"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

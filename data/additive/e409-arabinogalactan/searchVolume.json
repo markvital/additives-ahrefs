@@ -1,5 +1,5 @@
 {
-  "totalSearchVolume": 1330,
+  "totalSearchVolume": 1340,
   "keywords": [
     {
       "keyword": "Arabinogalactan",
@@ -7,7 +7,15 @@
     },
     {
       "keyword": "E409",
-      "volume": 30
+      "volume": 40
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Arabinogalactan",
+      "E409"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

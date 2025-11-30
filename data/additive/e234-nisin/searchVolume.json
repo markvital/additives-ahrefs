@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 1750,
+  "totalSearchVolume": 1250,
   "keywords": [
     {
       "keyword": "Nisin",
-      "volume": 1600
+      "volume": 1100
     },
     {
       "keyword": "E234",
       "volume": 150
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Nisin",
+      "E234"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

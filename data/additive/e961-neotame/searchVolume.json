@@ -9,5 +9,13 @@
       "keyword": "E961",
       "volume": 80
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Neotame",
+      "E961"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

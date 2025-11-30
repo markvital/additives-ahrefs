@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 20680,
+  "totalSearchVolume": 18680,
   "keywords": [
     {
       "keyword": "Formic acid",
-      "volume": 19000
+      "volume": 17000
     },
     {
       "keyword": "methanoic acid",
@@ -13,5 +13,14 @@
       "keyword": "E236",
       "volume": 80
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Formic acid",
+      "E236",
+      "methanoic acid"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

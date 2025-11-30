@@ -9,5 +9,13 @@
       "keyword": "E922",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Potassium persulfate",
+      "E922"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 500,
+  "totalSearchVolume": 600,
   "keywords": [
     {
       "keyword": "Black iron oxide",
-      "volume": 500
+      "volume": 600
     },
     {
       "keyword": "E172I",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Black iron oxide",
+      "E172I"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

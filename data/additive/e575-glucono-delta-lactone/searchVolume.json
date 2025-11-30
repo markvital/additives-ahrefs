@@ -1,13 +1,13 @@
 {
-  "totalSearchVolume": 8030,
+  "totalSearchVolume": 6230,
   "keywords": [
     {
       "keyword": "GDL",
-      "volume": 4000
+      "volume": 3200
     },
     {
       "keyword": "Gluconolactone",
-      "volume": 3900
+      "volume": 2900
     },
     {
       "keyword": "Glucono-delta-lactone",
@@ -21,5 +21,16 @@
       "keyword": "D-Gluconic acid delta-lactone",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Glucono-delta-lactone",
+      "E575",
+      "Gluconolactone",
+      "GDL",
+      "D-Gluconic acid delta-lactone"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

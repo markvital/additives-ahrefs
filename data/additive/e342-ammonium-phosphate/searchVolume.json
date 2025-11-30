@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 8610,
+  "totalSearchVolume": 6220,
   "keywords": [
     {
       "keyword": "Ammonium phosphate",
-      "volume": 6900
+      "volume": 4700
     },
     {
       "keyword": "diammonium phosphate",
@@ -11,11 +11,21 @@
     },
     {
       "keyword": "monoammonium phosphate",
-      "volume": 800
+      "volume": 600
     },
     {
       "keyword": "E342",
-      "volume": 10
+      "volume": 20
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Ammonium phosphate",
+      "E342",
+      "monoammonium phosphate",
+      "diammonium phosphate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

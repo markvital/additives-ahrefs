@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 209000,
+  "totalSearchVolume": 188000,
   "keywords": [
     {
       "keyword": "Castor oil",
-      "volume": 209000
+      "volume": 188000
     },
     {
       "keyword": "E1503",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Castor oil",
+      "E1503"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

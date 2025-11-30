@@ -1,5 +1,5 @@
 {
-  "totalSearchVolume": 240,
+  "totalSearchVolume": 250,
   "keywords": [
     {
       "keyword": "Hydroxypropyl distarch phosphate",
@@ -7,7 +7,15 @@
     },
     {
       "keyword": "E1442",
-      "volume": 90
+      "volume": 100
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Hydroxypropyl distarch phosphate",
+      "E1442"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

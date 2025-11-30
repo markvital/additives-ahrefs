@@ -25,5 +25,17 @@
       "keyword": "Rubinpigment",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Litholrubine bk",
+      "E180",
+      "CI Pigment Red 57",
+      "Rubinpigment",
+      "Pigment Rubine",
+      "Lithol rubine bk"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

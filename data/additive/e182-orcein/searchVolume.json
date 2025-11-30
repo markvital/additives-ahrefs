@@ -9,5 +9,13 @@
       "keyword": "E182",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Orcein",
+      "E182"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

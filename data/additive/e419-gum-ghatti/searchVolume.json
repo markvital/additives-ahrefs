@@ -9,5 +9,13 @@
       "keyword": "E419",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Gum ghatti",
+      "E419"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

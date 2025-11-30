@@ -9,5 +9,13 @@
       "keyword": "Bakers yeast glycan",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Bakers yeast glycan",
+      "E408"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

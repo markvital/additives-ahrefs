@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 190,
+  "totalSearchVolume": 250,
   "keywords": [
     {
       "keyword": "E495",
-      "volume": 150
+      "volume": 200
     },
     {
       "keyword": "Sorbitan monopalmitate",
-      "volume": 40
+      "volume": 50
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sorbitan monopalmitate",
+      "E495"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

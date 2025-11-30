@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 21060,
+  "totalSearchVolume": 18050,
   "keywords": [
     {
       "keyword": "Polysorbate 80",
-      "volume": 21000
+      "volume": 18000
     },
     {
       "keyword": "E433",
@@ -11,7 +11,16 @@
     },
     {
       "keyword": "Polyoxyethylene sorbitan monooleate",
-      "volume": 30
+      "volume": 20
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Polyoxyethylene sorbitan monooleate",
+      "E433",
+      "Polysorbate 80"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

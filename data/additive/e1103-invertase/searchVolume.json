@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 2010,
+  "totalSearchVolume": 1710,
   "keywords": [
     {
       "keyword": "Invertase",
-      "volume": 2000
+      "volume": 1700
     },
     {
       "keyword": "E1103",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Invertase",
+      "E1103"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

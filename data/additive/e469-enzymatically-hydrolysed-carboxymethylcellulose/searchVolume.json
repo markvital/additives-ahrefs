@@ -13,5 +13,14 @@
       "keyword": "Enzymatically hydrolysed carboxymethylcellulose",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Enzymatically hydrolysed carboxymethylcellulose",
+      "E469",
+      "enzymatically hydrolised cellulose gum"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

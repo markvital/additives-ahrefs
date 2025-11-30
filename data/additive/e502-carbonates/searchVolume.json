@@ -9,5 +9,13 @@
       "keyword": "E502",
       "volume": 150
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Carbonates",
+      "E502"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

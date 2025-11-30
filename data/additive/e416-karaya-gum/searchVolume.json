@@ -1,5 +1,5 @@
 {
-  "totalSearchVolume": 520,
+  "totalSearchVolume": 530,
   "keywords": [
     {
       "keyword": "E416",
@@ -19,7 +19,7 @@
     },
     {
       "keyword": "Kadaya",
-      "volume": 10
+      "volume": 20
     },
     {
       "keyword": "Katilo",
@@ -37,5 +37,20 @@
       "keyword": "Karaya-gum",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Karaya-gum",
+      "E416",
+      "Katilo",
+      "Kadaya",
+      "Gum sterculia",
+      "Sterculia",
+      "Karaya",
+      "gum karaya",
+      "Kullo"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

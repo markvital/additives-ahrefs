@@ -9,5 +9,13 @@
       "keyword": "Thiodipropionic acid",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Thiodipropionic acid",
+      "E388"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

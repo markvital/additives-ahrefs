@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 7200,
+  "totalSearchVolume": 5000,
   "keywords": [
     {
       "keyword": "Potassium bromate",
-      "volume": 7200
+      "volume": 5000
     },
     {
       "keyword": "E924A",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Potassium bromate",
+      "E924A"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 23000,
+  "totalSearchVolume": 19000,
   "keywords": [
     {
       "keyword": "Sodium acetate",
-      "volume": 23000
+      "volume": 19000
     },
     {
       "keyword": "E262I",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sodium acetate",
+      "E262I"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

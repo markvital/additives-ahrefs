@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 155100,
+  "totalSearchVolume": 144100,
   "keywords": [
     {
       "keyword": "Sucralose",
-      "volume": 155000
+      "volume": 144000
     },
     {
       "keyword": "E955",
       "volume": 100
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sucralose",
+      "E955"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

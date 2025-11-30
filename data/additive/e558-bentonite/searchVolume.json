@@ -1,5 +1,5 @@
 {
-  "totalSearchVolume": 10040,
+  "totalSearchVolume": 10030,
   "keywords": [
     {
       "keyword": "Bentonite",
@@ -7,7 +7,15 @@
     },
     {
       "keyword": "E558",
-      "volume": 40
+      "volume": 30
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Bentonite",
+      "E558"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "totalSearchVolume": 200,
+  "totalSearchVolume": 190,
   "keywords": [
     {
       "keyword": "E201",
@@ -7,11 +7,20 @@
     },
     {
       "keyword": "Sodium sorbate",
-      "volume": 100
+      "volume": 90
     },
     {
       "keyword": "sodium (E‚E)-hexa-2‚4-dienoate",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sodium sorbate",
+      "E201",
+      "sodium (E‚E)-hexa-2‚4-dienoate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

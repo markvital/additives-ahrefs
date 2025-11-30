@@ -9,5 +9,13 @@
       "keyword": "E121",
       "volume": 60
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Citrus Red 2",
+      "E121"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

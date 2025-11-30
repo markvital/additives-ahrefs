@@ -9,5 +9,13 @@
       "keyword": "Gum Guaicum",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Gum Guaicum",
+      "E241"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -13,5 +13,14 @@
       "keyword": "Fatty acid esters of ascorbic acid",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Fatty acid esters of ascorbic acid",
+      "E304",
+      "ascorbic acid esters of fatty acid"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

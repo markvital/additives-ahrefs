@@ -1,25 +1,36 @@
 {
-  "totalSearchVolume": 66120,
+  "totalSearchVolume": 62310,
   "keywords": [
     {
       "keyword": "Curcumin",
-      "volume": 63000
+      "volume": 60000
     },
     {
       "keyword": "E100",
-      "volume": 1300
+      "volume": 1000
     },
     {
       "keyword": "Turmeric extract",
-      "volume": 1100
-    },
-    {
-      "keyword": "turmeric color",
       "volume": 700
     },
     {
+      "keyword": "turmeric color",
+      "volume": 600
+    },
+    {
       "keyword": "curcuma extract",
-      "volume": 20
+      "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Curcumin",
+      "E100",
+      "Turmeric extract",
+      "curcuma extract",
+      "turmeric color"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

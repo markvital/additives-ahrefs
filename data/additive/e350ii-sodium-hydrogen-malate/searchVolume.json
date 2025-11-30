@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 50,
+  "totalSearchVolume": 60,
   "keywords": [
     {
       "keyword": "Sodium hydrogen malate",
-      "volume": 50
+      "volume": 60
     },
     {
       "keyword": "E350II",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sodium hydrogen malate",
+      "E350II"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

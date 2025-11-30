@@ -9,5 +9,13 @@
       "keyword": "Calcium stearoyl-2-lactylate",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Calcium stearoyl-2-lactylate",
+      "E482"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

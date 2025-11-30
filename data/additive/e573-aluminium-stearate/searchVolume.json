@@ -1,5 +1,5 @@
 {
-  "totalSearchVolume": 380,
+  "totalSearchVolume": 390,
   "keywords": [
     {
       "keyword": "Aluminum stearate",
@@ -7,11 +7,20 @@
     },
     {
       "keyword": "Aluminium stearate",
-      "volume": 70
+      "volume": 80
     },
     {
       "keyword": "E573",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Aluminium stearate",
+      "E573",
+      "Aluminum stearate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

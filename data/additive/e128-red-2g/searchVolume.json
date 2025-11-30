@@ -9,5 +9,13 @@
       "keyword": "Red 2G",
       "volume": 30
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Red 2G",
+      "E128"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

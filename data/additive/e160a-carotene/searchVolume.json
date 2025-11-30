@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 8900,
+  "totalSearchVolume": 6400,
   "keywords": [
     {
       "keyword": "carotene",
-      "volume": 8800
+      "volume": 6300
     },
     {
       "keyword": "E160A",
       "volume": 100
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "carotene",
+      "E160A"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

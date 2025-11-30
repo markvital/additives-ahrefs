@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 5830,
+  "totalSearchVolume": 5330,
   "keywords": [
     {
       "keyword": "calcium lactate",
-      "volume": 5800
+      "volume": 5300
     },
     {
       "keyword": "E327",
       "volume": 30
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "calcium lactate",
+      "E327"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

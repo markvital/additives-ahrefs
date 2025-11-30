@@ -1,6 +1,6 @@
 {
   "country": "us",
-  "fetchedAt": "2025-10-09T03:39:12.891Z",
+  "fetchedAt": "2025-11-30T02:47:20.903Z",
   "keywords": [
     {
       "keyword": "Calcium tartrate",
@@ -471,11 +471,15 @@
         },
         {
           "date": "2025-09-01T00:00:00Z",
-          "volume": 67
+          "volume": 69
         },
         {
           "date": "2025-10-01T00:00:00Z",
-          "volume": 31
+          "volume": 44
+        },
+        {
+          "date": "2025-11-01T00:00:00Z",
+          "volume": 70
         }
       ]
     },

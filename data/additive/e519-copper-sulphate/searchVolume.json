@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 1120,
+  "totalSearchVolume": 830,
   "keywords": [
     {
       "keyword": "Copper sulphate",
-      "volume": 1100
+      "volume": 800
     },
     {
       "keyword": "E519",
@@ -11,7 +11,16 @@
     },
     {
       "keyword": "copperII sulfate",
-      "volume": 0
+      "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Copper sulphate",
+      "E519",
+      "copperII sulfate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

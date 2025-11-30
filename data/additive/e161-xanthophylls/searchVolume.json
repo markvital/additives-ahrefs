@@ -9,5 +9,13 @@
       "keyword": "E161",
       "volume": 30
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Xanthophylls",
+      "E161"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

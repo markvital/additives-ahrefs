@@ -1,5 +1,5 @@
 {
-  "totalSearchVolume": 66430,
+  "totalSearchVolume": 66030,
   "keywords": [
     {
       "keyword": "gelatin",
@@ -7,11 +7,20 @@
     },
     {
       "keyword": "Gelatine",
-      "volume": 4400
+      "volume": 4000
     },
     {
       "keyword": "E428",
       "volume": 30
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Gelatine",
+      "E428",
+      "gelatin"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

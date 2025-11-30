@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 4840,
+  "totalSearchVolume": 4030,
   "keywords": [
     {
       "keyword": "Sodium bisulfite",
-      "volume": 4600
+      "volume": 3800
     },
     {
       "keyword": "E222",
@@ -11,7 +11,16 @@
     },
     {
       "keyword": "Sodium bisulphite",
-      "volume": 90
+      "volume": 80
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sodium bisulphite",
+      "E222",
+      "Sodium bisulfite"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

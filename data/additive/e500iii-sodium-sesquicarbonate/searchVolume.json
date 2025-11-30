@@ -9,5 +9,13 @@
       "keyword": "E500III",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sodium sesquicarbonate",
+      "E500III"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

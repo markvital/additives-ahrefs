@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 5830,
+  "totalSearchVolume": 7640,
   "keywords": [
     {
       "keyword": "DMDC",
-      "volume": 5300
+      "volume": 7100
     },
     {
       "keyword": "Velcorin",
@@ -15,7 +15,7 @@
     },
     {
       "keyword": "Dimethyl dicarbonate",
-      "volume": 80
+      "volume": 90
     },
     {
       "keyword": "dicarbonic acid dimethyl ester",
@@ -25,5 +25,17 @@
       "keyword": "methoxycarbonyl methyl carbonate",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Dimethyl dicarbonate",
+      "E242",
+      "DMDC",
+      "methoxycarbonyl methyl carbonate",
+      "dicarbonic acid dimethyl ester",
+      "Velcorin"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

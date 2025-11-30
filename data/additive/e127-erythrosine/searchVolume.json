@@ -1,13 +1,13 @@
 {
-  "totalSearchVolume": 11990,
+  "totalSearchVolume": 19810,
   "keywords": [
     {
       "keyword": "Red 3",
-      "volume": 9300
+      "volume": 17000
     },
     {
       "keyword": "Erythrosine",
-      "volume": 1500
+      "volume": 1600
     },
     {
       "keyword": "Red No. 3",
@@ -19,7 +19,7 @@
     },
     {
       "keyword": "E127",
-      "volume": 60
+      "volume": 80
     },
     {
       "keyword": "FD and C Red 3",
@@ -37,5 +37,20 @@
       "keyword": "FD&C Red no3",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Erythrosine",
+      "E127",
+      "FD&C Red 3",
+      "FD & C Red No.3",
+      "Red No. 3",
+      "FD&C Red no3",
+      "FD and C Red 3",
+      "Red 3",
+      "Red 3 lake"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

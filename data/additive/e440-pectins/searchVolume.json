@@ -1,17 +1,26 @@
 {
-  "totalSearchVolume": 53580,
+  "totalSearchVolume": 56530,
   "keywords": [
     {
       "keyword": "pectin",
-      "volume": 53000
+      "volume": 56000
     },
     {
       "keyword": "Pectins",
-      "volume": 500
+      "volume": 450
     },
     {
       "keyword": "E440",
       "volume": 80
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Pectins",
+      "E440",
+      "pectin"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

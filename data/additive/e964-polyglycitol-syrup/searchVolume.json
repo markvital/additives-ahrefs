@@ -9,5 +9,13 @@
       "keyword": "E964",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Polyglycitol syrup",
+      "E964"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

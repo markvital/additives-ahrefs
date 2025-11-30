@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 50,
+  "totalSearchVolume": 70,
   "keywords": [
     {
       "keyword": "E155",
-      "volume": 30
+      "volume": 40
     },
     {
       "keyword": "Brown ht",
@@ -11,7 +11,16 @@
     },
     {
       "keyword": "Chocolate brown HT",
-      "volume": 0
+      "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Brown ht",
+      "E155",
+      "Chocolate brown HT"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

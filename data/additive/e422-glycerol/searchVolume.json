@@ -1,25 +1,36 @@
 {
-  "totalSearchVolume": 194080,
+  "totalSearchVolume": 167080,
   "keywords": [
     {
       "keyword": "Glycerin",
-      "volume": 111000
+      "volume": 96000
     },
     {
       "keyword": "Glycerol",
-      "volume": 53000
-    },
-    {
-      "keyword": "Glycerine",
-      "volume": 17000
+      "volume": 45000
     },
     {
       "keyword": "vegetable glycerine",
-      "volume": 13000
+      "volume": 14000
+    },
+    {
+      "keyword": "Glycerine",
+      "volume": 12000
     },
     {
       "keyword": "E422",
       "volume": 80
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Glycerol",
+      "E422",
+      "Glycerin",
+      "Glycerine",
+      "vegetable glycerine"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 90,
+  "totalSearchVolume": 100,
   "keywords": [
     {
       "keyword": "black pn",
-      "volume": 40
+      "volume": 50
     },
     {
       "keyword": "E151",
@@ -41,5 +41,21 @@
       "keyword": "Naphthol Black",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Brilliant black bn",
+      "E151",
+      "black pn",
+      "E 151",
+      "C.I. 28440",
+      "Brilliant Black PN",
+      "Food Black 1",
+      "Naphthol Black",
+      "C.I. Food Brown 1",
+      "Brilliant Black A"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

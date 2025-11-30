@@ -1,5 +1,5 @@
 {
-  "totalSearchVolume": 2840,
+  "totalSearchVolume": 2850,
   "keywords": [
     {
       "keyword": "Magnesium lactate",
@@ -7,7 +7,15 @@
     },
     {
       "keyword": "E329",
-      "volume": 40
+      "volume": 50
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Magnesium lactate",
+      "E329"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

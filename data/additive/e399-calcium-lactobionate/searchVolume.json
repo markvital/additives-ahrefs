@@ -3,11 +3,19 @@
   "keywords": [
     {
       "keyword": "Calcium lactobionate",
-      "volume": 30
+      "volume": 40
     },
     {
       "keyword": "E399",
-      "volume": 20
+      "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Calcium lactobionate",
+      "E399"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

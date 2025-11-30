@@ -9,5 +9,13 @@
       "keyword": "E504II",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Magnesium hydroxide carbonate",
+      "E504II"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

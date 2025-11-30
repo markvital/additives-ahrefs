@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 180,
+  "totalSearchVolume": 230,
   "keywords": [
     {
       "keyword": "E1412",
-      "volume": 100
+      "volume": 150
     },
     {
       "keyword": "Distarch phosphate",
       "volume": 80
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Distarch phosphate",
+      "E1412"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

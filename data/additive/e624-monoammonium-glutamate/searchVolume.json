@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 410,
+  "totalSearchVolume": 460,
   "keywords": [
     {
       "keyword": "E624",
-      "volume": 350
+      "volume": 400
     },
     {
       "keyword": "Monoammonium glutamate",
       "volume": 60
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Monoammonium glutamate",
+      "E624"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

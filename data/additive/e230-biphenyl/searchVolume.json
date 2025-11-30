@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 4200,
+  "totalSearchVolume": 3200,
   "keywords": [
     {
       "keyword": "Biphenyl",
-      "volume": 3900
+      "volume": 2900
     },
     {
       "keyword": "diphenyl",
@@ -17,5 +17,15 @@
       "keyword": "(C6H5)2",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Biphenyl",
+      "E230",
+      "diphenyl",
+      "(C6H5)2"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

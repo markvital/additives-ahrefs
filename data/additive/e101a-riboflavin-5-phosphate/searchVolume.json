@@ -9,5 +9,13 @@
       "keyword": "E101A",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Riboflavin-5'-phosphate",
+      "E101A"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

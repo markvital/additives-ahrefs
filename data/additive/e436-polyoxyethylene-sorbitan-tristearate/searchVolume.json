@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 60,
+  "totalSearchVolume": 70,
   "keywords": [
     {
       "keyword": "Polysorbate 65",
-      "volume": 40
+      "volume": 50
     },
     {
       "keyword": "E436",
@@ -13,5 +13,14 @@
       "keyword": "Polyoxyethylene sorbitan tristearate",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Polyoxyethylene sorbitan tristearate",
+      "E436",
+      "Polysorbate 65"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

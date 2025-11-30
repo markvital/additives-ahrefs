@@ -1,17 +1,26 @@
 {
-  "totalSearchVolume": 79240,
+  "totalSearchVolume": 81350,
   "keywords": [
     {
       "keyword": "Formaldehyde",
-      "volume": 77000
+      "volume": 80000
     },
     {
       "keyword": "methanal",
-      "volume": 2200
+      "volume": 1300
     },
     {
       "keyword": "E240",
-      "volume": 40
+      "volume": 50
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Formaldehyde",
+      "E240",
+      "methanal"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 180,
+  "totalSearchVolume": 210,
   "keywords": [
     {
       "keyword": "Vegetable carbon",
-      "volume": 100
+      "volume": 150
     },
     {
       "keyword": "E153",
-      "volume": 80
+      "volume": 60
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Vegetable carbon",
+      "E153"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

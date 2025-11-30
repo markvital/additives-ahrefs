@@ -9,5 +9,13 @@
       "keyword": "E630",
       "volume": 30
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Inosinic acid",
+      "E630"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

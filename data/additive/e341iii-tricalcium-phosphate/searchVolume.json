@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 8620,
+  "totalSearchVolume": 9920,
   "keywords": [
     {
       "keyword": "Tricalcium phosphate",
-      "volume": 8600
+      "volume": 9900
     },
     {
       "keyword": "tri-calcium phosphate",
@@ -29,5 +29,18 @@
       "keyword": "E341III",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Tricalcium phosphate",
+      "E341III",
+      "Tricalciumphosphate",
+      "tri-calcium phosphate",
+      "E 341iii",
+      "E-341iii",
+      "E341 iii"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

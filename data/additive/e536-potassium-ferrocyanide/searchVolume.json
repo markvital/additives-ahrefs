@@ -13,5 +13,14 @@
       "keyword": "E536",
       "volume": 40
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Potassium ferrocyanide",
+      "E536",
+      "Yellow prussiate of potash"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

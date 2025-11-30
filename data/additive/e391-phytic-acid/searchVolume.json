@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 7530,
+  "totalSearchVolume": 6930,
   "keywords": [
     {
       "keyword": "Phytic acid",
-      "volume": 7500
+      "volume": 6900
     },
     {
       "keyword": "E391",
       "volume": 30
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Phytic acid",
+      "E391"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

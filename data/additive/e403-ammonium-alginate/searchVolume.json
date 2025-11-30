@@ -9,5 +9,13 @@
       "keyword": "Ammonium alginate",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Ammonium alginate",
+      "E403"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

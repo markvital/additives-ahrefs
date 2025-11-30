@@ -13,5 +13,14 @@
       "keyword": "triethyl 2-hydroxypropane-1‚2‚3-tricarboxylate",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Triethyl citrate",
+      "E1505",
+      "triethyl 2-hydroxypropane-1‚2‚3-tricarboxylate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

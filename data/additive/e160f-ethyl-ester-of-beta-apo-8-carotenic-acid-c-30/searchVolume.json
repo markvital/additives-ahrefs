@@ -17,5 +17,15 @@
       "keyword": "Food orange 7",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Ethyl ester of beta-apo-8'-carotenic acid (C 30)",
+      "E160F",
+      "Ethyl ester of beta-apo-8'-carotenic acid",
+      "Food orange 7"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -1,17 +1,26 @@
 {
-  "totalSearchVolume": 12700,
+  "totalSearchVolume": 10300,
   "keywords": [
     {
       "keyword": "calamine",
-      "volume": 8900
+      "volume": 7000
     },
     {
       "keyword": "hemimorphite",
-      "volume": 3800
+      "volume": 3300
     },
     {
       "keyword": "E557",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "hemimorphite",
+      "E557",
+      "calamine"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

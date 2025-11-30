@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 7310,
+  "totalSearchVolume": 5470,
   "keywords": [
     {
       "keyword": "Polyvinyl alcohol",
-      "volume": 6500
+      "volume": 4600
     },
     {
       "keyword": "PVAl",
@@ -11,7 +11,7 @@
     },
     {
       "keyword": "PVOH",
-      "volume": 350
+      "volume": 400
     },
     {
       "keyword": "E1203",
@@ -19,7 +19,18 @@
     },
     {
       "keyword": "Vinyl alcohol polymer",
-      "volume": 0
+      "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Polyvinyl alcohol",
+      "E1203",
+      "Vinyl alcohol polymer",
+      "PVOH",
+      "PVAl"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

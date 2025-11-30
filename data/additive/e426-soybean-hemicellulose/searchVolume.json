@@ -9,5 +9,13 @@
       "keyword": "Soybean hemicellulose",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Soybean hemicellulose",
+      "E426"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

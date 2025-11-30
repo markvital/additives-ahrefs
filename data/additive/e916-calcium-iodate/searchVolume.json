@@ -9,5 +9,13 @@
       "keyword": "E916",
       "volume": 20
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Calcium iodate",
+      "E916"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

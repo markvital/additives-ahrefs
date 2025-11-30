@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 60000,
+  "totalSearchVolume": 49000,
   "keywords": [
     {
       "keyword": "Glycine",
-      "volume": 60000
+      "volume": 49000
     },
     {
       "keyword": "E640I",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Glycine",
+      "E640I"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -9,5 +9,13 @@
       "keyword": "Sodium fumarate",
       "volume": 30
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sodium fumarate",
+      "E365"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

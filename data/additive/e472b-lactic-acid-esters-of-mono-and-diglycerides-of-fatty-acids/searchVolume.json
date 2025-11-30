@@ -9,5 +9,13 @@
       "keyword": "Lactic acid esters of mono- and diglycerides of fatty acids",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Lactic acid esters of mono- and diglycerides of fatty acids",
+      "E472B"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

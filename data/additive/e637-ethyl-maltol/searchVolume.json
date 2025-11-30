@@ -9,5 +9,13 @@
       "keyword": "E637",
       "volume": 30
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Ethyl maltol",
+      "E637"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

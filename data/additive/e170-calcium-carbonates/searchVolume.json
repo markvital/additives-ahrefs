@@ -9,5 +9,13 @@
       "keyword": "Calcium carbonates",
       "volume": 30
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Calcium carbonates",
+      "E170"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

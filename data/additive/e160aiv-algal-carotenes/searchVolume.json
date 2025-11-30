@@ -9,5 +9,13 @@
       "keyword": "E160AIV",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Algal carotenes",
+      "E160AIV"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

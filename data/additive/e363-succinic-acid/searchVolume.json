@@ -1,13 +1,13 @@
 {
-  "totalSearchVolume": 14860,
+  "totalSearchVolume": 10070,
   "keywords": [
     {
       "keyword": "Succinic acid",
-      "volume": 7400
+      "volume": 5200
     },
     {
       "keyword": "Succinate",
-      "volume": 7100
+      "volume": 4500
     },
     {
       "keyword": "Butanedioic acid",
@@ -15,7 +15,7 @@
     },
     {
       "keyword": "Amber acid",
-      "volume": 50
+      "volume": 60
     },
     {
       "keyword": "E363",
@@ -69,5 +69,28 @@
       "keyword": "Spirit of amber",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Succinic acid",
+      "E363",
+      "Asuccin",
+      "Amber acid",
+      "1/2-Ethanedicarboxylic acid",
+      "Butanedioic acid",
+      "Bernsteinsaeure",
+      "Ethylenesuccinic acid",
+      "Spirit of amber",
+      "Butanedionic acid",
+      "Bernsteinsaure",
+      "Succinate",
+      "Butandisaeure",
+      "Dihydrofumaric acid",
+      "Acidum succinicum",
+      "Acide butanedioique",
+      "Acide succinique"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

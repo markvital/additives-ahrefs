@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 310,
+  "totalSearchVolume": 360,
   "keywords": [
     {
       "keyword": "Rice bran wax",
-      "volume": 300
+      "volume": 350
     },
     {
       "keyword": "E908",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Rice bran wax",
+      "E908"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

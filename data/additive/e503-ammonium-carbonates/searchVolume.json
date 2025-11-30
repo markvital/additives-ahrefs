@@ -1,5 +1,5 @@
 {
-  "totalSearchVolume": 70,
+  "totalSearchVolume": 80,
   "keywords": [
     {
       "keyword": "E503",
@@ -7,7 +7,15 @@
     },
     {
       "keyword": "Ammonium carbonates",
-      "volume": 10
+      "volume": 20
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Ammonium carbonates",
+      "E503"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

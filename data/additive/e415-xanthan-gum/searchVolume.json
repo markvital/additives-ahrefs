@@ -1,13 +1,13 @@
 {
-  "totalSearchVolume": 82720,
+  "totalSearchVolume": 90020,
   "keywords": [
     {
       "keyword": "Xanthan gum",
-      "volume": 82000
+      "volume": 88000
     },
     {
       "keyword": "xanthan",
-      "volume": 600
+      "volume": 1900
     },
     {
       "keyword": "E415",
@@ -21,5 +21,16 @@
       "keyword": "E-415",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Xanthan gum",
+      "E415",
+      "xanthan",
+      "E-415",
+      "e 415"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

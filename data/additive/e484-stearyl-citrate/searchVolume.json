@@ -1,5 +1,5 @@
 {
-  "totalSearchVolume": 20,
+  "totalSearchVolume": 30,
   "keywords": [
     {
       "keyword": "E484",
@@ -7,7 +7,15 @@
     },
     {
       "keyword": "Stearyl citrate",
-      "volume": 0
+      "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Stearyl citrate",
+      "E484"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

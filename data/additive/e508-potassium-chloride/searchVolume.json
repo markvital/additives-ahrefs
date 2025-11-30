@@ -1,5 +1,5 @@
 {
-  "totalSearchVolume": 85130,
+  "totalSearchVolume": 85120,
   "keywords": [
     {
       "keyword": "Potassium chloride",
@@ -7,11 +7,20 @@
     },
     {
       "keyword": "E508",
-      "volume": 70
+      "volume": 60
     },
     {
       "keyword": "Sylvine",
       "volume": 60
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Potassium chloride",
+      "E508",
+      "Sylvine"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

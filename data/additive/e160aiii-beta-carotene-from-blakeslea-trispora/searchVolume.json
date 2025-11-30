@@ -9,5 +9,13 @@
       "keyword": "E160AIII",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Beta-carotene from blakeslea trispora",
+      "E160AIII"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

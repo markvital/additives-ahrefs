@@ -17,5 +17,15 @@
       "keyword": "Potassium polymetaphosphate",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Potassium polyphosphate",
+      "E452II",
+      "Potassium metaphosphate",
+      "Potassium polymetaphosphate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

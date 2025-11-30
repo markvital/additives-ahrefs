@@ -1,17 +1,26 @@
 {
-  "totalSearchVolume": 64030,
+  "totalSearchVolume": 58030,
   "keywords": [
     {
       "keyword": "Sodium hydroxide",
-      "volume": 55000
+      "volume": 42000
     },
     {
       "keyword": "Caustic soda",
-      "volume": 9000
+      "volume": 16000
     },
     {
       "keyword": "E524",
       "volume": 30
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sodium hydroxide",
+      "E524",
+      "Caustic soda"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

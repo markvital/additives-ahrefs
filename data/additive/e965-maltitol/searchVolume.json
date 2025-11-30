@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 19100,
+  "totalSearchVolume": 20100,
   "keywords": [
     {
       "keyword": "maltitol",
-      "volume": 19000
+      "volume": 20000
     },
     {
       "keyword": "E965",
       "volume": 100
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "maltitol",
+      "E965"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "totalSearchVolume": 1080,
+  "totalSearchVolume": 1330,
   "keywords": [
     {
       "keyword": "Aluminium sulfate",
@@ -7,11 +7,20 @@
     },
     {
       "keyword": "Aluminium sulphate",
-      "volume": 50
+      "volume": 300
     },
     {
       "keyword": "E520",
       "volume": 30
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Aluminium sulphate",
+      "E520",
+      "Aluminium sulfate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

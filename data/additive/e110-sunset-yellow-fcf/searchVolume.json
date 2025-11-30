@@ -1,17 +1,17 @@
 {
-  "totalSearchVolume": 8760,
+  "totalSearchVolume": 10430,
   "keywords": [
     {
       "keyword": "Yellow 6",
-      "volume": 4500
+      "volume": 6400
     },
     {
       "keyword": "Yellow 6 lake",
-      "volume": 1500
+      "volume": 1400
     },
     {
       "keyword": "Sunset Yellow",
-      "volume": 1200
+      "volume": 1100
     },
     {
       "keyword": "FD&C Yellow 6",
@@ -27,14 +27,14 @@
     },
     {
       "keyword": "FD and C Yellow 6",
-      "volume": 80
-    },
-    {
-      "keyword": "Yellow No.6",
-      "volume": 20
+      "volume": 60
     },
     {
       "keyword": "Orange Yellow S",
+      "volume": 10
+    },
+    {
+      "keyword": "Yellow No.6",
       "volume": 10
     },
     {
@@ -53,5 +53,24 @@
       "keyword": "FD and C Yellow No. 6",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sunset yellow FCF",
+      "E110",
+      "CI Food Yellow 3",
+      "Orange Yellow S",
+      "FD&C Yellow 6",
+      "FD & C Yellow No.6",
+      "FD and C Yellow No. 6",
+      "Yellow No.6",
+      "Yellow 6",
+      "FD and C Yellow 6",
+      "C.I. 15985",
+      "Yellow 6 lake",
+      "Sunset Yellow"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

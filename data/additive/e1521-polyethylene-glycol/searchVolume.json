@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 68010,
+  "totalSearchVolume": 67010,
   "keywords": [
     {
       "keyword": "Polyethylene glycol",
-      "volume": 68000
+      "volume": 67000
     },
     {
       "keyword": "E1521",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Polyethylene glycol",
+      "E1521"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

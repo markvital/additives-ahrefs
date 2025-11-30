@@ -1,17 +1,26 @@
 {
-  "totalSearchVolume": 80,
+  "totalSearchVolume": 90,
   "keywords": [
     {
-      "keyword": "E219",
-      "volume": 40
+      "keyword": "sodium methylparaben",
+      "volume": 50
     },
     {
-      "keyword": "sodium methylparaben",
+      "keyword": "E219",
       "volume": 40
     },
     {
       "keyword": "Sodium methyl p-hydroxybenzoate",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sodium methyl p-hydroxybenzoate",
+      "E219",
+      "sodium methylparaben"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

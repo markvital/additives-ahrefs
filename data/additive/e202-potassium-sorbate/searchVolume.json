@@ -9,5 +9,13 @@
       "keyword": "E202",
       "volume": 200
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Potassium sorbate",
+      "E202"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

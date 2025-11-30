@@ -17,5 +17,15 @@
       "keyword": "Magnesium phosphates",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Magnesium phosphates",
+      "E343",
+      "E 343",
+      "E-343"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

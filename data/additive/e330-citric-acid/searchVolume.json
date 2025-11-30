@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 98450,
+  "totalSearchVolume": 96800,
   "keywords": [
     {
       "keyword": "Citric acid",
-      "volume": 98000
+      "volume": 96000
     },
     {
       "keyword": "E330",
-      "volume": 450
+      "volume": 800
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Citric acid",
+      "E330"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

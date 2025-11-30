@@ -13,5 +13,14 @@
       "keyword": "pectin amide",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "pectin amide",
+      "E440B",
+      "amidated pectin"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 150,
+  "totalSearchVolume": 200,
   "keywords": [
     {
       "keyword": "Konjac gum",
-      "volume": 150
+      "volume": 200
     },
     {
       "keyword": "E425I",
@@ -13,5 +13,14 @@
       "keyword": "Konjak gum",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Konjac gum",
+      "E425I",
+      "Konjak gum"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

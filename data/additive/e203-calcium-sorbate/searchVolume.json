@@ -9,5 +9,13 @@
       "keyword": "E203",
       "volume": 100
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Calcium sorbate",
+      "E203"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

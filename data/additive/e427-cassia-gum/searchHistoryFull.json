@@ -1,185 +1,185 @@
 {
   "country": "us",
-  "fetchedAt": "2025-10-09T03:39:13.581Z",
+  "fetchedAt": "2025-11-30T02:47:21.737Z",
   "keywords": [
     {
       "keyword": "Cassia gum",
       "metrics": [
         {
           "date": "2016-01-01T00:00:00Z",
-          "volume": 59
+          "volume": 53
         },
         {
           "date": "2016-02-01T00:00:00Z",
-          "volume": 117
+          "volume": 65
         },
         {
           "date": "2016-03-01T00:00:00Z",
-          "volume": 59
+          "volume": 53
         },
         {
           "date": "2016-04-01T00:00:00Z",
-          "volume": 59
+          "volume": 53
         },
         {
           "date": "2016-05-01T00:00:00Z",
-          "volume": 0
+          "volume": 41
         },
         {
           "date": "2016-06-01T00:00:00Z",
-          "volume": 0
+          "volume": 41
         },
         {
           "date": "2016-07-01T00:00:00Z",
-          "volume": 0
+          "volume": 41
         },
         {
           "date": "2016-08-01T00:00:00Z",
-          "volume": 0
+          "volume": 41
         },
         {
           "date": "2016-09-01T00:00:00Z",
-          "volume": 117
+          "volume": 65
         },
         {
           "date": "2016-10-01T00:00:00Z",
-          "volume": 117
+          "volume": 65
         },
         {
           "date": "2016-11-01T00:00:00Z",
-          "volume": 235
+          "volume": 88
         },
         {
           "date": "2016-12-01T00:00:00Z",
-          "volume": 176
+          "volume": 76
         },
         {
           "date": "2017-01-01T00:00:00Z",
-          "volume": 176
+          "volume": 76
         },
         {
           "date": "2017-02-01T00:00:00Z",
-          "volume": 59
+          "volume": 53
         },
         {
           "date": "2017-03-01T00:00:00Z",
-          "volume": 117
+          "volume": 65
         },
         {
           "date": "2017-04-01T00:00:00Z",
-          "volume": 176
+          "volume": 76
         },
         {
           "date": "2017-05-01T00:00:00Z",
-          "volume": 235
+          "volume": 88
         },
         {
           "date": "2017-06-01T00:00:00Z",
-          "volume": 176
+          "volume": 76
         },
         {
           "date": "2017-07-01T00:00:00Z",
-          "volume": 235
+          "volume": 88
         },
         {
           "date": "2017-08-01T00:00:00Z",
-          "volume": 469
+          "volume": 135
         },
         {
           "date": "2017-09-01T00:00:00Z",
-          "volume": 469
+          "volume": 135
         },
         {
           "date": "2017-10-01T00:00:00Z",
-          "volume": 352
+          "volume": 112
         },
         {
           "date": "2017-11-01T00:00:00Z",
-          "volume": 117
+          "volume": 65
         },
         {
           "date": "2017-12-01T00:00:00Z",
-          "volume": 235
+          "volume": 88
         },
         {
           "date": "2018-01-01T00:00:00Z",
-          "volume": 293
+          "volume": 100
         },
         {
           "date": "2018-02-01T00:00:00Z",
-          "volume": 411
+          "volume": 123
         },
         {
           "date": "2018-03-01T00:00:00Z",
-          "volume": 235
+          "volume": 88
         },
         {
           "date": "2018-04-01T00:00:00Z",
-          "volume": 293
+          "volume": 100
         },
         {
           "date": "2018-05-01T00:00:00Z",
-          "volume": 117
+          "volume": 65
         },
         {
           "date": "2018-06-01T00:00:00Z",
-          "volume": 117
+          "volume": 65
         },
         {
           "date": "2018-07-01T00:00:00Z",
-          "volume": 117
+          "volume": 65
         },
         {
           "date": "2018-08-01T00:00:00Z",
-          "volume": 117
+          "volume": 65
         },
         {
           "date": "2018-09-01T00:00:00Z",
-          "volume": 117
+          "volume": 65
         },
         {
           "date": "2018-10-01T00:00:00Z",
-          "volume": 59
+          "volume": 53
         },
         {
           "date": "2018-11-01T00:00:00Z",
-          "volume": 59
+          "volume": 53
         },
         {
           "date": "2018-12-01T00:00:00Z",
-          "volume": 117
+          "volume": 65
         },
         {
           "date": "2019-01-01T00:00:00Z",
-          "volume": 117
+          "volume": 65
         },
         {
           "date": "2019-02-01T00:00:00Z",
-          "volume": 293
+          "volume": 100
         },
         {
           "date": "2019-03-01T00:00:00Z",
-          "volume": 235
+          "volume": 88
         },
         {
           "date": "2019-04-01T00:00:00Z",
-          "volume": 235
+          "volume": 88
         },
         {
           "date": "2019-05-01T00:00:00Z",
-          "volume": 59
+          "volume": 53
         },
         {
           "date": "2019-06-01T00:00:00Z",
-          "volume": 59
+          "volume": 53
         },
         {
           "date": "2019-07-01T00:00:00Z",
-          "volume": 0
+          "volume": 41
         },
         {
           "date": "2019-08-01T00:00:00Z",
-          "volume": 59
+          "volume": 53
         },
         {
           "date": "2019-09-01T00:00:00Z",
@@ -463,27 +463,27 @@
         },
         {
           "date": "2025-07-01T00:00:00Z",
-          "volume": 38
+          "volume": 44
         },
         {
           "date": "2025-08-01T00:00:00Z",
-          "volume": 73
-        },
-        {
-          "date": "2025-09-01T00:00:00Z",
-          "volume": 79
-        },
-        {
-          "date": "2025-10-01T00:00:00Z",
-          "volume": 59
-        },
-        {
-          "date": "2025-11-01T00:00:00Z",
           "volume": 49
         },
         {
+          "date": "2025-09-01T00:00:00Z",
+          "volume": 51
+        },
+        {
+          "date": "2025-10-01T00:00:00Z",
+          "volume": 51
+        },
+        {
+          "date": "2025-11-01T00:00:00Z",
+          "volume": 52
+        },
+        {
           "date": "2025-12-01T00:00:00Z",
-          "volume": 64
+          "volume": 49
         }
       ]
     },

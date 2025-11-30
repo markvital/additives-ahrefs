@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 17620,
+  "totalSearchVolume": 11570,
   "keywords": [
     {
       "keyword": "calcium phosphate",
-      "volume": 17000
+      "volume": 11000
     },
     {
       "keyword": "E341",
@@ -11,15 +11,26 @@
     },
     {
       "keyword": "E 341",
-      "volume": 250
+      "volume": 200
     },
     {
       "keyword": "Calcium phosphates",
-      "volume": 70
+      "volume": 60
     },
     {
       "keyword": "E-341",
-      "volume": 0
+      "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Calcium phosphates",
+      "E341",
+      "calcium phosphate",
+      "E 341",
+      "E-341"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

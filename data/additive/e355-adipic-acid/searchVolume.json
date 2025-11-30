@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 4680,
+  "totalSearchVolume": 3570,
   "keywords": [
     {
       "keyword": "Adipic acid",
-      "volume": 4400
+      "volume": 3300
     },
     {
       "keyword": "Hexanedioic acid",
@@ -11,7 +11,16 @@
     },
     {
       "keyword": "E355",
-      "volume": 80
+      "volume": 70
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Adipic acid",
+      "E355",
+      "Hexanedioic acid"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

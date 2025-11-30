@@ -1,13 +1,17 @@
 {
-  "totalSearchVolume": 50,
+  "totalSearchVolume": 80,
   "keywords": [
     {
       "keyword": "E125",
-      "volume": 30
+      "volume": 40
     },
     {
       "keyword": "FD&C Red No. 4",
-      "volume": 20
+      "volume": 30
+    },
+    {
+      "keyword": "Ponceau SX",
+      "volume": 10
     },
     {
       "keyword": "C.I. 14700",
@@ -18,12 +22,20 @@
       "volume": 0
     },
     {
-      "keyword": "Ponceau SX",
-      "volume": 0
-    },
-    {
       "keyword": "Scarlet GN",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Scarlet GN",
+      "E125",
+      "C.I. Food Red 1",
+      "Ponceau SX",
+      "FD&C Red No. 4",
+      "C.I. 14700"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -1,33 +1,33 @@
 {
-  "totalSearchVolume": 69670,
+  "totalSearchVolume": 57370,
   "keywords": [
     {
-      "keyword": "fatty acid",
-      "volume": 17000
-    },
-    {
       "keyword": "stearic acid",
-      "volume": 16000
+      "volume": 15000
     },
     {
-      "keyword": "Fatty acids",
-      "volume": 9800
+      "keyword": "fatty acid",
+      "volume": 13000
     },
     {
       "keyword": "caprylic acid",
-      "volume": 8500
+      "volume": 8600
+    },
+    {
+      "keyword": "Fatty acids",
+      "volume": 6800
     },
     {
       "keyword": "palmitic acid",
-      "volume": 7500
+      "volume": 5500
     },
     {
       "keyword": "lauric acid",
-      "volume": 6200
+      "volume": 4900
     },
     {
       "keyword": "myristic acid",
-      "volume": 3600
+      "volume": 2500
     },
     {
       "keyword": "capric acid",
@@ -65,5 +65,27 @@
       "keyword": "stearic acid (C18)",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Fatty acids",
+      "E570",
+      "Linear fatty acids",
+      "caprylic acid (C8)",
+      "caprylic acid",
+      "capric acid (C10)",
+      "capric acid",
+      "lauric acid (C12)",
+      "lauric acid",
+      "myristic acid (C14)",
+      "myristic acid",
+      "palmitic acid (C16)",
+      "palmitic acid",
+      "stearic acid (C18)",
+      "stearic acid",
+      "fatty acid"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

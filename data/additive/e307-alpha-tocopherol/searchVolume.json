@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 380,
+  "totalSearchVolume": 330,
   "keywords": [
     {
       "keyword": "Alpha-tocopherol",
-      "volume": 350
+      "volume": 300
     },
     {
       "keyword": "E307",
       "volume": 30
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Alpha-tocopherol",
+      "E307"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

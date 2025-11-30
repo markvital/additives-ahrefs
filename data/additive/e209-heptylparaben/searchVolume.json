@@ -9,5 +9,13 @@
       "keyword": "Heptylparaben",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Heptylparaben",
+      "E209"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

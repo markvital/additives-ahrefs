@@ -1,185 +1,185 @@
 {
   "country": "us",
-  "fetchedAt": "2025-10-09T03:43:45.409Z",
+  "fetchedAt": "2025-11-30T02:53:13.775Z",
   "keywords": [
     {
       "keyword": "Erythorbic acid",
       "metrics": [
         {
           "date": "2016-01-01T00:00:00Z",
-          "volume": 973
+          "volume": 527
         },
         {
           "date": "2016-02-01T00:00:00Z",
-          "volume": 778
+          "volume": 488
         },
         {
           "date": "2016-03-01T00:00:00Z",
-          "volume": 649
+          "volume": 462
         },
         {
           "date": "2016-04-01T00:00:00Z",
-          "volume": 519
+          "volume": 436
         },
         {
           "date": "2016-05-01T00:00:00Z",
-          "volume": 973
+          "volume": 527
         },
         {
           "date": "2016-06-01T00:00:00Z",
-          "volume": 1037
+          "volume": 539
         },
         {
           "date": "2016-07-01T00:00:00Z",
-          "volume": 1037
+          "volume": 539
         },
         {
           "date": "2016-08-01T00:00:00Z",
-          "volume": 1232
+          "volume": 578
         },
         {
           "date": "2016-09-01T00:00:00Z",
-          "volume": 973
+          "volume": 527
         },
         {
           "date": "2016-10-01T00:00:00Z",
-          "volume": 1102
+          "volume": 552
         },
         {
           "date": "2016-11-01T00:00:00Z",
-          "volume": 584
+          "volume": 449
         },
         {
           "date": "2016-12-01T00:00:00Z",
-          "volume": 519
+          "volume": 436
         },
         {
           "date": "2017-01-01T00:00:00Z",
-          "volume": 584
+          "volume": 449
         },
         {
           "date": "2017-02-01T00:00:00Z",
-          "volume": 973
+          "volume": 527
         },
         {
           "date": "2017-03-01T00:00:00Z",
-          "volume": 1427
+          "volume": 617
         },
         {
           "date": "2017-04-01T00:00:00Z",
-          "volume": 1686
+          "volume": 669
         },
         {
           "date": "2017-05-01T00:00:00Z",
-          "volume": 1297
+          "volume": 591
         },
         {
           "date": "2017-06-01T00:00:00Z",
-          "volume": 1297
+          "volume": 591
         },
         {
           "date": "2017-07-01T00:00:00Z",
-          "volume": 1427
+          "volume": 617
         },
         {
           "date": "2017-08-01T00:00:00Z",
-          "volume": 1427
+          "volume": 617
         },
         {
           "date": "2017-09-01T00:00:00Z",
-          "volume": 1167
+          "volume": 565
         },
         {
           "date": "2017-10-01T00:00:00Z",
-          "volume": 778
+          "volume": 488
         },
         {
           "date": "2017-11-01T00:00:00Z",
-          "volume": 649
+          "volume": 462
         },
         {
           "date": "2017-12-01T00:00:00Z",
-          "volume": 584
+          "volume": 449
         },
         {
           "date": "2018-01-01T00:00:00Z",
-          "volume": 519
+          "volume": 436
         },
         {
           "date": "2018-02-01T00:00:00Z",
-          "volume": 778
+          "volume": 488
         },
         {
           "date": "2018-03-01T00:00:00Z",
-          "volume": 1038
+          "volume": 540
         },
         {
           "date": "2018-04-01T00:00:00Z",
-          "volume": 1297
+          "volume": 591
         },
         {
           "date": "2018-05-01T00:00:00Z",
-          "volume": 1038
+          "volume": 540
         },
         {
           "date": "2018-06-01T00:00:00Z",
-          "volume": 649
+          "volume": 462
         },
         {
           "date": "2018-07-01T00:00:00Z",
-          "volume": 389
+          "volume": 410
         },
         {
           "date": "2018-08-01T00:00:00Z",
-          "volume": 778
+          "volume": 488
         },
         {
           "date": "2018-09-01T00:00:00Z",
-          "volume": 778
+          "volume": 488
         },
         {
           "date": "2018-10-01T00:00:00Z",
-          "volume": 1167
+          "volume": 565
         },
         {
           "date": "2018-11-01T00:00:00Z",
-          "volume": 778
+          "volume": 488
         },
         {
           "date": "2018-12-01T00:00:00Z",
-          "volume": 1556
+          "volume": 643
         },
         {
           "date": "2019-01-01T00:00:00Z",
-          "volume": 1232
+          "volume": 578
         },
         {
           "date": "2019-02-01T00:00:00Z",
-          "volume": 1556
+          "volume": 643
         },
         {
           "date": "2019-03-01T00:00:00Z",
-          "volume": 908
+          "volume": 514
         },
         {
           "date": "2019-04-01T00:00:00Z",
-          "volume": 1167
+          "volume": 565
         },
         {
           "date": "2019-05-01T00:00:00Z",
-          "volume": 843
+          "volume": 501
         },
         {
           "date": "2019-06-01T00:00:00Z",
-          "volume": 714
+          "volume": 475
         },
         {
           "date": "2019-07-01T00:00:00Z",
-          "volume": 325
+          "volume": 397
         },
         {
           "date": "2019-08-01T00:00:00Z",
-          "volume": 1038
+          "volume": 540
         },
         {
           "date": "2019-09-01T00:00:00Z",
@@ -471,19 +471,19 @@
         },
         {
           "date": "2025-09-01T00:00:00Z",
-          "volume": 459
+          "volume": 475
         },
         {
           "date": "2025-10-01T00:00:00Z",
-          "volume": 516
+          "volume": 521
         },
         {
           "date": "2025-11-01T00:00:00Z",
-          "volume": 485
+          "volume": 501
         },
         {
           "date": "2025-12-01T00:00:00Z",
-          "volume": 510
+          "volume": 514
         }
       ]
     },

@@ -9,5 +9,13 @@
       "keyword": "E383",
       "volume": 20
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "calcium glycerophosphate",
+      "E383"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

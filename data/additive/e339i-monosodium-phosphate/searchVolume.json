@@ -25,5 +25,17 @@
       "keyword": "Monosodium monophosphate",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Monosodium phosphate",
+      "E339I",
+      "Monosodium monophosphate",
+      "Acid monosodium monophosphate",
+      "Monosodium orthophosphate",
+      "Monobasic sodium phosphate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

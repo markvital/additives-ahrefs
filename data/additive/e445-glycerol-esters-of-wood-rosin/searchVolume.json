@@ -1,5 +1,5 @@
 {
-  "totalSearchVolume": 2830,
+  "totalSearchVolume": 2750,
   "keywords": [
     {
       "keyword": "ester gum",
@@ -7,7 +7,7 @@
     },
     {
       "keyword": "Glycerol ester of wood rosin",
-      "volume": 700
+      "volume": 600
     },
     {
       "keyword": "Glycerol esters of wood rosin",
@@ -19,7 +19,18 @@
     },
     {
       "keyword": "glyceryl abietate",
-      "volume": 20
+      "volume": 40
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Glycerol esters of wood rosin",
+      "E445",
+      "Glycerol ester of wood rosin",
+      "glyceryl abietate",
+      "ester gum"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

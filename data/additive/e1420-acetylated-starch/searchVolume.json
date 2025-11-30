@@ -9,5 +9,13 @@
       "keyword": "E1420",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Acetylated starch",
+      "E1420"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

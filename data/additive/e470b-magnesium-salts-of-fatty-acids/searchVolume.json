@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 20,
+  "totalSearchVolume": 40,
   "keywords": [
     {
       "keyword": "E470B",
-      "volume": 10
+      "volume": 20
     },
     {
       "keyword": "Magnesium salts of fatty acids",
-      "volume": 10
+      "volume": 20
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Magnesium salts of fatty acids",
+      "E470B"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -1,21 +1,31 @@
 {
-  "totalSearchVolume": 10720,
+  "totalSearchVolume": 8520,
   "keywords": [
     {
       "keyword": "Povidone",
-      "volume": 5600
+      "volume": 4800
     },
     {
       "keyword": "PVP",
-      "volume": 3300
+      "volume": 2100
     },
     {
       "keyword": "Polyvinylpyrrolidone",
-      "volume": 1800
+      "volume": 1600
     },
     {
       "keyword": "E1201",
       "volume": 20
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Polyvinylpyrrolidone",
+      "E1201",
+      "Povidone",
+      "PVP"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

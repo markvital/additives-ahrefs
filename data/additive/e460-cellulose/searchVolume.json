@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 53100,
+  "totalSearchVolume": 46100,
   "keywords": [
     {
       "keyword": "Cellulose",
-      "volume": 53000
+      "volume": 46000
     },
     {
       "keyword": "E460",
@@ -17,5 +17,15 @@
       "keyword": "cellulose powder to prevent caking",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Cellulose",
+      "E460",
+      "cellulose powder to prevent caking",
+      "cellulose powder added to prevent caking"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

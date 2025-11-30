@@ -9,5 +9,13 @@
       "keyword": "Potassium adipate",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Potassium adipate",
+      "E357"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

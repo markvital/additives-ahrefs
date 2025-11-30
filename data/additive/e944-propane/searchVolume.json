@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 82000,
+  "totalSearchVolume": 77000,
   "keywords": [
     {
       "keyword": "Propane",
-      "volume": 82000
+      "volume": 77000
     },
     {
       "keyword": "E944",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Propane",
+      "E944"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

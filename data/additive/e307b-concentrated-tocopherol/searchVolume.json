@@ -9,5 +9,13 @@
       "keyword": "concentrated tocopherol",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "concentrated tocopherol",
+      "E307B"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

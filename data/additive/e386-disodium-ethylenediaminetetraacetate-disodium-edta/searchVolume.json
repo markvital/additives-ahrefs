@@ -1,13 +1,13 @@
 {
-  "totalSearchVolume": 5670,
+  "totalSearchVolume": 4780,
   "keywords": [
     {
       "keyword": "Disodium EDTA",
-      "volume": 5600
+      "volume": 4700
     },
     {
       "keyword": "Disodium ethylenediaminetetraacetate",
-      "volume": 50
+      "volume": 60
     },
     {
       "keyword": "E386",
@@ -17,5 +17,15 @@
       "keyword": "Disodium ethylenediaminetetraacetate (Disodium EDTA)",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Disodium ethylenediaminetetraacetate (Disodium EDTA)",
+      "E386",
+      "Disodium ethylenediaminetetraacetate",
+      "Disodium EDTA"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -9,5 +9,13 @@
       "keyword": "E106",
       "volume": 100
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "flavin mononucleotide",
+      "E106"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

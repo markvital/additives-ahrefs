@@ -9,5 +9,13 @@
       "keyword": "E161G",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Canthaxanthin",
+      "E161G"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

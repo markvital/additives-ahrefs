@@ -9,5 +9,13 @@
       "keyword": "E367",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Calcium fumarate",
+      "E367"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

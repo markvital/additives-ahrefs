@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 67300,
+  "totalSearchVolume": 62300,
   "keywords": [
     {
       "keyword": "Helium",
-      "volume": 67000
+      "volume": 62000
     },
     {
       "keyword": "element 2",
@@ -13,5 +13,14 @@
       "keyword": "E939",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Helium",
+      "E939",
+      "element 2"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

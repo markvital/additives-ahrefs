@@ -1,5 +1,5 @@
 {
-  "totalSearchVolume": 210,
+  "totalSearchVolume": 220,
   "keywords": [
     {
       "keyword": "Sorbitan monooleate",
@@ -7,7 +7,15 @@
     },
     {
       "keyword": "E494",
-      "volume": 10
+      "volume": 20
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sorbitan monooleate",
+      "E494"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

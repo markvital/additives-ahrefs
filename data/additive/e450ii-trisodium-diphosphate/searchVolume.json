@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 0,
+  "totalSearchVolume": 10,
   "keywords": [
+    {
+      "keyword": "Trisodium diphosphate",
+      "volume": 10
+    },
     {
       "keyword": "E450II",
       "volume": 0
-    },
-    {
-      "keyword": "Trisodium diphosphate",
-      "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Trisodium diphosphate",
+      "E450II"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

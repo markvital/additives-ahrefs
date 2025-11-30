@@ -9,5 +9,13 @@
       "keyword": "ferrous hexacyanomanganate",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "ferrous hexacyanomanganate",
+      "E537"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

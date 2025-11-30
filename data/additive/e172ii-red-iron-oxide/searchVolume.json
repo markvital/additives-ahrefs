@@ -1,21 +1,31 @@
 {
-  "totalSearchVolume": 3200,
+  "totalSearchVolume": 3150,
   "keywords": [
     {
       "keyword": "ferric oxide",
-      "volume": 2100
+      "volume": 1500
     },
     {
       "keyword": "iron(III) oxide",
-      "volume": 700
+      "volume": 1200
     },
     {
       "keyword": "Red iron oxide",
-      "volume": 400
+      "volume": 450
     },
     {
       "keyword": "E172II",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Red iron oxide",
+      "E172II",
+      "iron(III) oxide",
+      "ferric oxide"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

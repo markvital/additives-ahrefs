@@ -9,5 +9,13 @@
       "keyword": "E1450",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Starch sodium octenyl succinate",
+      "E1450"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

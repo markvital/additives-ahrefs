@@ -9,5 +9,13 @@
       "keyword": "E578",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "calcium gluconate",
+      "E578"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

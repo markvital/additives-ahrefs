@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 49520,
+  "totalSearchVolume": 46520,
   "keywords": [
     {
       "keyword": "Phosphoric acid",
-      "volume": 49000
+      "volume": 46000
     },
     {
       "keyword": "Orthophosphoric acid",
@@ -17,5 +17,15 @@
       "keyword": "phosphoricV acid",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Phosphoric acid",
+      "E338",
+      "Orthophosphoric acid",
+      "phosphoricV acid"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

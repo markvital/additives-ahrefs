@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 600,
+  "totalSearchVolume": 500,
   "keywords": [
     {
       "keyword": "E623",
-      "volume": 600
+      "volume": 500
     },
     {
       "keyword": "Calcium diglutamate",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Calcium diglutamate",
+      "E623"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

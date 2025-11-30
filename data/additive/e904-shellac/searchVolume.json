@@ -1,17 +1,26 @@
 {
-  "totalSearchVolume": 22360,
+  "totalSearchVolume": 29260,
   "keywords": [
     {
       "keyword": "Shellac",
-      "volume": 22000
+      "volume": 29000
     },
     {
       "keyword": "E904",
-      "volume": 350
+      "volume": 250
     },
     {
       "keyword": "Bleached shellac",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Shellac",
+      "E904",
+      "Bleached shellac"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

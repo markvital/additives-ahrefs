@@ -1,13 +1,13 @@
 {
-  "totalSearchVolume": 16550,
+  "totalSearchVolume": 11160,
   "keywords": [
     {
       "keyword": "Protease",
-      "volume": 15000
+      "volume": 10000
     },
     {
       "keyword": "peptidase",
-      "volume": 1200
+      "volume": 800
     },
     {
       "keyword": "proteinase",
@@ -23,11 +23,24 @@
     },
     {
       "keyword": "E 1101",
-      "volume": 0
+      "volume": 10
     },
     {
       "keyword": "EC 3.4",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Protease",
+      "E1101",
+      "peptidase",
+      "proteinase",
+      "EC 3.4",
+      "E-1101",
+      "E 1101"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

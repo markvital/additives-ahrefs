@@ -9,5 +9,13 @@
       "keyword": "Sodium salts of fatty acids",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sodium salts of fatty acids",
+      "E470AI"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

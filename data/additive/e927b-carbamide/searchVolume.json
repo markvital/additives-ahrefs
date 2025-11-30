@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 86700,
+  "totalSearchVolume": 64700,
   "keywords": [
     {
       "keyword": "urea",
-      "volume": 85000
+      "volume": 63000
     },
     {
       "keyword": "Carbamide",
@@ -13,5 +13,14 @@
       "keyword": "E927B",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Carbamide",
+      "E927B",
+      "urea"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

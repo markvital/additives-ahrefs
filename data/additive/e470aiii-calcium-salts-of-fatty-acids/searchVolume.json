@@ -9,5 +9,13 @@
       "keyword": "E470AIII",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Calcium salts of fatty acids",
+      "E470AIII"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

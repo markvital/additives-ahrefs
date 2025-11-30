@@ -9,5 +9,13 @@
       "keyword": "Glycine and its sodium salt",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Glycine and its sodium salt",
+      "E640"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

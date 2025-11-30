@@ -1,13 +1,13 @@
 {
-  "totalSearchVolume": 15380,
+  "totalSearchVolume": 15880,
   "keywords": [
     {
       "keyword": "hypromellose",
-      "volume": 9000
+      "volume": 10000
     },
     {
       "keyword": "hydroxypropyl methylcellulose",
-      "volume": 4900
+      "volume": 4400
     },
     {
       "keyword": "HPMC",
@@ -29,5 +29,18 @@
       "keyword": "hydroxy propyl methyl cellulose",
       "volume": 30
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Hydroxypropyl methyl cellulose",
+      "E464",
+      "hypromellose",
+      "hydroxypropyl methylcellulose",
+      "HPMC",
+      "hydroxypropylmethylcellulose",
+      "hydroxy propyl methyl cellulose"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -9,5 +9,13 @@
       "keyword": "E262II",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sodium diacetate",
+      "E262II"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

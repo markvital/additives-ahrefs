@@ -9,5 +9,13 @@
       "keyword": "Lactylated fatty acid esters of glycerol and propane-1",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Lactylated fatty acid esters of glycerol and propane-1",
+      "E478"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

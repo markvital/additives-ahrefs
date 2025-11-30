@@ -9,5 +9,13 @@
       "keyword": "Isopropyl citrates",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Isopropyl citrates",
+      "E384"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

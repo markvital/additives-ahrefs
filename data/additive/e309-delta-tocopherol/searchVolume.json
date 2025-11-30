@@ -13,5 +13,14 @@
       "keyword": "δ-tocopherol",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Delta-tocopherol",
+      "E309",
+      "δ-tocopherol"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 5250,
+  "totalSearchVolume": 5750,
   "keywords": [
     {
       "keyword": "Polydextrose",
-      "volume": 5100
+      "volume": 5600
     },
     {
       "keyword": "E1200",
@@ -13,5 +13,14 @@
       "keyword": "68424-04-4",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Polydextrose",
+      "E1200",
+      "68424-04-4"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

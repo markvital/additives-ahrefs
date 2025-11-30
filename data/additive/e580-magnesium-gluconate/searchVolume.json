@@ -1,5 +1,5 @@
 {
-  "totalSearchVolume": 6850,
+  "totalSearchVolume": 6860,
   "keywords": [
     {
       "keyword": "Magnesium Gluconate",
@@ -7,7 +7,15 @@
     },
     {
       "keyword": "E580",
-      "volume": 50
+      "volume": 60
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Magnesium Gluconate",
+      "E580"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -9,5 +9,13 @@
       "keyword": "Succistearin",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Succistearin",
+      "E446"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

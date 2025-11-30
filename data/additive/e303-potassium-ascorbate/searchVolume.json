@@ -9,5 +9,13 @@
       "keyword": "Potassium ascorbate",
       "volume": 50
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Potassium ascorbate",
+      "E303"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

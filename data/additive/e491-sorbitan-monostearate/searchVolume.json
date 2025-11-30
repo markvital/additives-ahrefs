@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 1950,
+  "totalSearchVolume": 1840,
   "keywords": [
     {
       "keyword": "Sorbitan monostearate",
-      "volume": 1900
+      "volume": 1800
     },
     {
       "keyword": "E491",
-      "volume": 50
+      "volume": 40
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sorbitan monostearate",
+      "E491"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

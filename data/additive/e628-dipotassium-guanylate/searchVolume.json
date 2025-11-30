@@ -13,5 +13,14 @@
       "keyword": "Potassium guanylate",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Dipotassium guanylate",
+      "E628",
+      "Potassium guanylate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

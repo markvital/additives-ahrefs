@@ -9,5 +9,13 @@
       "keyword": "Potassium fumarate",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Potassium fumarate",
+      "E366"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

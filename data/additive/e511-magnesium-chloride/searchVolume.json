@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 36050,
+  "totalSearchVolume": 38050,
   "keywords": [
     {
       "keyword": "Magnesium chloride",
-      "volume": 36000
+      "volume": 38000
     },
     {
       "keyword": "E511",
       "volume": 50
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Magnesium chloride",
+      "E511"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

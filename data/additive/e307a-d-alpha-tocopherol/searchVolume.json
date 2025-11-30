@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 150,
+  "totalSearchVolume": 80,
   "keywords": [
     {
       "keyword": "D-Alpha-tocopherol",
-      "volume": 150
+      "volume": 70
     },
     {
       "keyword": "E307A",
-      "volume": 0
+      "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "D-Alpha-tocopherol",
+      "E307A"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

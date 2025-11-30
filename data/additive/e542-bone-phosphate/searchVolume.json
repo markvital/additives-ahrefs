@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 60,
+  "totalSearchVolume": 80,
   "keywords": [
     {
       "keyword": "Bone phosphate",
-      "volume": 40
+      "volume": 60
     },
     {
       "keyword": "E542",
@@ -13,5 +13,14 @@
       "keyword": "Bone phosphate (Essentiale Calcium Phosphate‚ Tribasic)",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Bone phosphate",
+      "E542",
+      "Bone phosphate (Essentiale Calcium Phosphate‚ Tribasic)"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

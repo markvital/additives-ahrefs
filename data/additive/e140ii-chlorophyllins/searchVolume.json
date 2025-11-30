@@ -1,12 +1,12 @@
 {
-  "totalSearchVolume": 20,
+  "totalSearchVolume": 30,
   "keywords": [
     {
-      "keyword": "Chlorophyllins",
-      "volume": 10
+      "keyword": "Sodium Chlorophyllin",
+      "volume": 20
     },
     {
-      "keyword": "Sodium Chlorophyllin",
+      "keyword": "Chlorophyllins",
       "volume": 10
     },
     {
@@ -17,5 +17,15 @@
       "keyword": "E140II",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Chlorophyllins",
+      "E140II",
+      "CI Natural Green 5",
+      "Sodium Chlorophyllin"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -1,13 +1,13 @@
 {
-  "totalSearchVolume": 156060,
+  "totalSearchVolume": 163050,
   "keywords": [
     {
       "keyword": "Erythritol",
-      "volume": 156000
+      "volume": 163000
     },
     {
       "keyword": "Meso-erythritol",
-      "volume": 50
+      "volume": 40
     },
     {
       "keyword": "E968",
@@ -25,5 +25,17 @@
       "keyword": "Tetrahydroxybutane",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Erythritol",
+      "E968",
+      "Meso-erythritol",
+      "Tetrahydroxybutane",
+      "E-968",
+      "E 968"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

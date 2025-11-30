@@ -1,5 +1,5 @@
 {
-  "totalSearchVolume": 1440,
+  "totalSearchVolume": 1430,
   "keywords": [
     {
       "keyword": "Stannous chloride",
@@ -11,11 +11,21 @@
     },
     {
       "keyword": "E512",
-      "volume": 40
+      "volume": 30
     },
     {
       "keyword": "TinII chloride",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Stannous chloride",
+      "E512",
+      "Tin chloride",
+      "TinII chloride"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

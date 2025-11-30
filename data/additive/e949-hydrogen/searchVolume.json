@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 92000,
+  "totalSearchVolume": 94000,
   "keywords": [
     {
       "keyword": "Hydrogen",
-      "volume": 92000
+      "volume": 94000
     },
     {
       "keyword": "E949",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Hydrogen",
+      "E949"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 1910,
+  "totalSearchVolume": 1510,
   "keywords": [
     {
       "keyword": "Tara gum",
-      "volume": 1900
+      "volume": 1500
     },
     {
       "keyword": "E417",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Tara gum",
+      "E417"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

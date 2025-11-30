@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 65090,
+  "totalSearchVolume": 68090,
   "keywords": [
     {
       "keyword": "Propylene glycol",
-      "volume": 65000
+      "volume": 68000
     },
     {
       "keyword": "E490",
@@ -37,5 +37,20 @@
       "keyword": "α-propylene glycol",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Propylene glycol",
+      "E490",
+      "1‚2-propanediol",
+      "propane-1‚2-diol",
+      "1‚2-dihydroxypropane",
+      "α-propylene glycol",
+      "methyl ethyl glycol",
+      "methylethylene glycol",
+      "Propan-1‚2-diol"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

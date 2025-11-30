@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 9310,
+  "totalSearchVolume": 8910,
   "keywords": [
     {
       "keyword": "Dextrin",
-      "volume": 9300
+      "volume": 8900
     },
     {
       "keyword": "E1400",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Dextrin",
+      "E1400"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

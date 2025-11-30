@@ -1,5 +1,5 @@
 {
-  "totalSearchVolume": 340,
+  "totalSearchVolume": 350,
   "keywords": [
     {
       "keyword": "L-lysine hydrochloride",
@@ -11,7 +11,16 @@
     },
     {
       "keyword": "L lysine hydrochloride",
-      "volume": 90
+      "volume": 100
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "L-lysine hydrochloride",
+      "E642",
+      "L lysine hydrochloride"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

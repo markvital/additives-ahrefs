@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 85990,
+  "totalSearchVolume": 91300,
   "keywords": [
     {
       "keyword": "Riboflavin",
-      "volume": 65000
+      "volume": 70000
     },
     {
       "keyword": "Vitamin B2",
@@ -15,7 +15,7 @@
     },
     {
       "keyword": "Vitamin B 2",
-      "volume": 300
+      "volume": 600
     },
     {
       "keyword": "E101",
@@ -27,7 +27,7 @@
     },
     {
       "keyword": "Lactoflavin",
-      "volume": 20
+      "volume": 30
     },
     {
       "keyword": "Flavaxin",
@@ -37,5 +37,20 @@
       "keyword": "Lactoflavine",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Riboflavin",
+      "E101",
+      "Vitamin B2",
+      "Flavaxin",
+      "Vitamin B 2",
+      "Vitamin G",
+      "Riboflavine",
+      "Lactoflavine",
+      "Lactoflavin"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

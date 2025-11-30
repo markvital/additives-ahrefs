@@ -1,13 +1,13 @@
 {
-  "totalSearchVolume": 4700,
+  "totalSearchVolume": 4560,
   "keywords": [
     {
       "keyword": "Methylparaben",
-      "volume": 4500
+      "volume": 4400
     },
     {
       "keyword": "methyl 4-hydroxybenzoate",
-      "volume": 100
+      "volume": 70
     },
     {
       "keyword": "E218",
@@ -15,7 +15,17 @@
     },
     {
       "keyword": "Methyl p-hydroxybenzoate",
-      "volume": 50
+      "volume": 40
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Methyl p-hydroxybenzoate",
+      "E218",
+      "Methylparaben",
+      "methyl 4-hydroxybenzoate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

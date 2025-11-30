@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 2740,
+  "totalSearchVolume": 2250,
   "keywords": [
     {
       "keyword": "peptone",
-      "volume": 1900
+      "volume": 1400
     },
     {
       "keyword": "tryptone",
@@ -11,7 +11,16 @@
     },
     {
       "keyword": "E429",
-      "volume": 40
+      "volume": 50
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "peptone",
+      "E429",
+      "tryptone"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

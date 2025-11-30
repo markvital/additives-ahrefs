@@ -9,5 +9,13 @@
       "keyword": "E546",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Magnesium pyrophosphate",
+      "E546"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

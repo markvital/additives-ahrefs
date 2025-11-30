@@ -1,17 +1,26 @@
 {
-  "totalSearchVolume": 1720,
+  "totalSearchVolume": 1820,
   "keywords": [
+    {
+      "keyword": "Tragacanth",
+      "volume": 900
+    },
     {
       "keyword": "Tragacanth gum",
       "volume": 900
     },
     {
-      "keyword": "Tragacanth",
-      "volume": 800
-    },
-    {
       "keyword": "E413",
       "volume": 20
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Tragacanth",
+      "E413",
+      "Tragacanth gum"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

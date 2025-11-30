@@ -1,5 +1,5 @@
 {
-  "totalSearchVolume": 520,
+  "totalSearchVolume": 470,
   "keywords": [
     {
       "keyword": "Ethyl cellulose",
@@ -7,11 +7,20 @@
     },
     {
       "keyword": "Ethylcellulose",
-      "volume": 200
+      "volume": 150
     },
     {
       "keyword": "E462",
       "volume": 20
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Ethyl cellulose",
+      "E462",
+      "Ethylcellulose"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

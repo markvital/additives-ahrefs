@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 810,
+  "totalSearchVolume": 610,
   "keywords": [
     {
       "keyword": "Tagatose",
-      "volume": 800
+      "volume": 600
     },
     {
       "keyword": "E963",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Tagatose",
+      "E963"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

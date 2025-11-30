@@ -1,21 +1,31 @@
 {
-  "totalSearchVolume": 97480,
+  "totalSearchVolume": 90570,
   "keywords": [
     {
-      "keyword": "Silica",
+      "keyword": "Silicon dioxide",
       "volume": 45000
     },
     {
-      "keyword": "Silicon dioxide",
-      "volume": 44000
+      "keyword": "Silica",
+      "volume": 39000
     },
     {
       "keyword": "SiO2",
-      "volume": 8400
+      "volume": 6500
     },
     {
       "keyword": "E551",
-      "volume": 80
+      "volume": 70
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Silicon dioxide",
+      "E551",
+      "Silica",
+      "SiO2"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

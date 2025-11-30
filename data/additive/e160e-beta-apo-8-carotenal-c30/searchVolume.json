@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 620,
+  "totalSearchVolume": 570,
   "keywords": [
     {
       "keyword": "Apocarotenal",
-      "volume": 450
+      "volume": 400
     },
     {
       "keyword": "Beta-apo-8'-carotenal",
@@ -33,5 +33,19 @@
       "keyword": "Trans-beta-apo-8'-carotenal",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Beta-apo-8′-carotenal (c30)",
+      "E160E",
+      "Apocarotenal",
+      "Beta-apo-8'-carotenal",
+      "C.I. Food orange 6",
+      "E number 160E",
+      "Trans-beta-apo-8'-carotenal",
+      "C30H40O"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

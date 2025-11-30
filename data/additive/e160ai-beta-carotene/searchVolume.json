@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 4300,
+  "totalSearchVolume": 2000,
   "keywords": [
     {
       "keyword": "Beta-carotene",
-      "volume": 4300
+      "volume": 2000
     },
     {
       "keyword": "E160AI",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Beta-carotene",
+      "E160AI"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 100,
+  "totalSearchVolume": 120,
   "keywords": [
     {
       "keyword": "E402",
-      "volume": 60
+      "volume": 70
     },
     {
       "keyword": "Potassium alginate",
-      "volume": 40
+      "volume": 50
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Potassium alginate",
+      "E402"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

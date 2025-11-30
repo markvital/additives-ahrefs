@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 20,
+  "totalSearchVolume": 30,
   "keywords": [
     {
       "keyword": "E555",
-      "volume": 10
+      "volume": 20
     },
     {
       "keyword": "Potassium aluminium silicate",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Potassium aluminium silicate",
+      "E555"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

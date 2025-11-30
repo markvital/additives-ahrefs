@@ -1,17 +1,26 @@
 {
-  "totalSearchVolume": 71010,
+  "totalSearchVolume": 68020,
   "keywords": [
     {
       "keyword": "Nitrogen",
-      "volume": 71000
+      "volume": 68000
     },
     {
       "keyword": "E941",
-      "volume": 10
+      "volume": 20
     },
     {
       "keyword": "nitrogen E941",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Nitrogen",
+      "E941",
+      "nitrogen E941"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

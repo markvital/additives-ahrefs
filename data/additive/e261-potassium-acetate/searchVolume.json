@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 10200,
+  "totalSearchVolume": 7100,
   "keywords": [
     {
       "keyword": "E261",
-      "volume": 5400
+      "volume": 3600
     },
     {
       "keyword": "Potassium acetate",
-      "volume": 4800
+      "volume": 3500
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Potassium acetate",
+      "E261"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

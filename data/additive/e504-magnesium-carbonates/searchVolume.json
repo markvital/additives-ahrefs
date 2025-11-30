@@ -9,5 +9,13 @@
       "keyword": "Magnesium carbonates",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Magnesium carbonates",
+      "E504"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

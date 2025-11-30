@@ -13,5 +13,14 @@
       "keyword": "Montanic acid esters",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Montanic acid esters",
+      "E912",
+      "Montan acid esters"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

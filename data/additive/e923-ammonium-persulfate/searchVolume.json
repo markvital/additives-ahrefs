@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 1420,
+  "totalSearchVolume": 1120,
   "keywords": [
     {
       "keyword": "ammonium persulfate",
-      "volume": 1400
+      "volume": 1100
     },
     {
       "keyword": "E923",
       "volume": 20
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "ammonium persulfate",
+      "E923"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

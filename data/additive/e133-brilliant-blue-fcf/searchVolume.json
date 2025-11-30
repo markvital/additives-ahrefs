@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 10000,
+  "totalSearchVolume": 17550,
   "keywords": [
     {
       "keyword": "Blue 1",
-      "volume": 6200
+      "volume": 14000
     },
     {
       "keyword": "Blue 1 lake",
@@ -14,12 +14,12 @@
       "volume": 800
     },
     {
-      "keyword": "FD&C Blue 1",
-      "volume": 500
+      "keyword": "E133",
+      "volume": 350
     },
     {
-      "keyword": "E133",
-      "volume": 400
+      "keyword": "FD&C Blue 1",
+      "volume": 300
     },
     {
       "keyword": "fd&c blue no. 1",
@@ -29,5 +29,18 @@
       "keyword": "FD and C Blue 1",
       "volume": 200
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Brilliant blue FCF",
+      "E133",
+      "FD&C Blue 1",
+      "FD and C Blue 1",
+      "Blue 1",
+      "fd&c blue no. 1",
+      "Blue 1 lake"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

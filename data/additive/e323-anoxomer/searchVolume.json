@@ -9,5 +9,13 @@
       "keyword": "Anoxomer",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Anoxomer",
+      "E323"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

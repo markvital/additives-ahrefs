@@ -13,5 +13,14 @@
       "keyword": "Ethylmethylcellulose",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Ethyl methyl cellulose",
+      "E465",
+      "Ethylmethylcellulose"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

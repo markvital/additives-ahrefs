@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 5200,
+  "totalSearchVolume": 3900,
   "keywords": [
     {
       "keyword": "Ammonium acetate",
-      "volume": 5100
+      "volume": 3800
     },
     {
       "keyword": "E264",
       "volume": 100
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Ammonium acetate",
+      "E264"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

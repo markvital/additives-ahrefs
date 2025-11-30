@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 1550,
+  "totalSearchVolume": 1650,
   "keywords": [
     {
       "keyword": "Sodium stearoyl lactylate",
-      "volume": 1500
+      "volume": 1600
     },
     {
       "keyword": "Sodium stearoyl-2-lactylate",
@@ -13,5 +13,14 @@
       "keyword": "E481",
       "volume": 20
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sodium stearoyl-2-lactylate",
+      "E481",
+      "Sodium stearoyl lactylate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 90,
+  "totalSearchVolume": 100,
   "keywords": [
     {
       "keyword": "DL-alanine",
-      "volume": 40
+      "volume": 50
     },
     {
       "keyword": "E639",
@@ -13,5 +13,14 @@
       "keyword": "DL alanine",
       "volume": 20
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "DL-alanine",
+      "E639",
+      "DL alanine"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

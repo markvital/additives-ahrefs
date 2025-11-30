@@ -9,5 +9,13 @@
       "keyword": "E14XX",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Modified Starch",
+      "E14XX"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

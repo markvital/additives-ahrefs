@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 6200,
+  "totalSearchVolume": 7390,
   "keywords": [
     {
       "keyword": "Caramel Color",
-      "volume": 6100
+      "volume": 7300
     },
     {
       "keyword": "E150C",
@@ -11,7 +11,7 @@
     },
     {
       "keyword": "beer caramel",
-      "volume": 40
+      "volume": 30
     },
     {
       "keyword": "Ammonia caramel",
@@ -29,5 +29,18 @@
       "keyword": "confectioner's caramel",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Ammonia caramel",
+      "E150C",
+      "baker's caramel",
+      "confectioner's caramel",
+      "beer caramel",
+      "Caramel Color Ammonia",
+      "Caramel Color"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

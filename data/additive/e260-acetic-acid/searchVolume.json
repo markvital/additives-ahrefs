@@ -1,17 +1,26 @@
 {
-  "totalSearchVolume": 98750,
+  "totalSearchVolume": 87450,
   "keywords": [
     {
       "keyword": "Acetic acid",
-      "volume": 94000
+      "volume": 83000
     },
     {
       "keyword": "ethanoic acid",
-      "volume": 4600
+      "volume": 4300
     },
     {
       "keyword": "E260",
       "volume": 150
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Acetic acid",
+      "E260",
+      "ethanoic acid"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

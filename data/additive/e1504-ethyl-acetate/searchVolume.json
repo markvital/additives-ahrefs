@@ -1,17 +1,26 @@
 {
-  "totalSearchVolume": 35210,
+  "totalSearchVolume": 28110,
   "keywords": [
     {
       "keyword": "ethyl acetate",
-      "volume": 34000
+      "volume": 27000
     },
     {
       "keyword": "ethyl ethanoate",
-      "volume": 1200
+      "volume": 1100
     },
     {
       "keyword": "E1504",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "ethyl acetate",
+      "E1504",
+      "ethyl ethanoate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

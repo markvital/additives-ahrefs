@@ -1,21 +1,31 @@
 {
-  "totalSearchVolume": 3920,
+  "totalSearchVolume": 4480,
   "keywords": [
     {
       "keyword": "sodium hexametaphosphate",
-      "volume": 3600
+      "volume": 4200
     },
     {
       "keyword": "Sodium polyphosphate",
-      "volume": 300
+      "volume": 250
     },
     {
       "keyword": "E452I",
-      "volume": 10
+      "volume": 20
     },
     {
       "keyword": "sodium polymetaphosphate",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sodium polyphosphate",
+      "E452I",
+      "sodium hexametaphosphate",
+      "sodium polymetaphosphate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -9,5 +9,13 @@
       "keyword": "E969",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Advantame",
+      "E969"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

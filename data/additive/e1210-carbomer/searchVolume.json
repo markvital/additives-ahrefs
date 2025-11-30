@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 5840,
+  "totalSearchVolume": 4640,
   "keywords": [
     {
       "keyword": "Carbomer",
-      "volume": 5800
+      "volume": 4600
     },
     {
       "keyword": "E1210",
       "volume": 40
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Carbomer",
+      "E1210"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

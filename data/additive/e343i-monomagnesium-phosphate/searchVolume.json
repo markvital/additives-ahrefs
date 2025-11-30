@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 4010,
+  "totalSearchVolume": 2710,
   "keywords": [
     {
       "keyword": "magnesium phosphate",
-      "volume": 3900
+      "volume": 2600
     },
     {
       "keyword": "monobasic",
@@ -25,5 +25,17 @@
       "keyword": "Magnesiumphosphate",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Monomagnesium phosphate",
+      "E343I",
+      "Magnesiumdihydrogenphosphate",
+      "Magnesiumphosphate",
+      "monobasic",
+      "magnesium phosphate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

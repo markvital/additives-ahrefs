@@ -9,5 +9,13 @@
       "keyword": "E910",
       "volume": 20
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Wax ester",
+      "E910"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

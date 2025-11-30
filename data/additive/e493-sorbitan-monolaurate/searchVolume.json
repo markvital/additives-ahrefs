@@ -9,5 +9,13 @@
       "keyword": "E493",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sorbitan monolaurate",
+      "E493"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

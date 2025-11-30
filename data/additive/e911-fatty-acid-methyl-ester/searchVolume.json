@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 2150,
+  "totalSearchVolume": 2250,
   "keywords": [
     {
       "keyword": "E911",
-      "volume": 1900
+      "volume": 2000
     },
     {
       "keyword": "Fatty acid methyl ester",
       "volume": 250
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Fatty acid methyl ester",
+      "E911"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

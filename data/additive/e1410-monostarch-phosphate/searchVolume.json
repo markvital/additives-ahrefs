@@ -9,5 +9,13 @@
       "keyword": "E1410",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Monostarch phosphate",
+      "E1410"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

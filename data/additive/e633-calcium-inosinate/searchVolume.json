@@ -9,5 +9,13 @@
       "keyword": "Calcium inosinate",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Calcium inosinate",
+      "E633"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

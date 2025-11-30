@@ -5,5 +5,12 @@
       "keyword": "Ammonium and sodium carbonates",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Ammonium and sodium carbonates"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

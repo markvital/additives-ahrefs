@@ -9,5 +9,13 @@
       "keyword": "Enzyme treated starch",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Enzyme treated starch",
+      "E1405"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

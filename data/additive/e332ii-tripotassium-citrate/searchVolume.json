@@ -1,17 +1,26 @@
 {
-  "totalSearchVolume": 23450,
+  "totalSearchVolume": 22500,
   "keywords": [
     {
       "keyword": "potassium citrate",
-      "volume": 23000
+      "volume": 22000
     },
     {
       "keyword": "Tripotassium citrate",
-      "volume": 450
+      "volume": 500
     },
     {
       "keyword": "E332II",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Tripotassium citrate",
+      "E332II",
+      "potassium citrate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

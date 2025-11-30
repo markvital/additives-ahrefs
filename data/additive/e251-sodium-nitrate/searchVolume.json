@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 34030,
+  "totalSearchVolume": 31030,
   "keywords": [
     {
       "keyword": "Sodium nitrate",
-      "volume": 34000
+      "volume": 31000
     },
     {
       "keyword": "E251",
       "volume": 30
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sodium nitrate",
+      "E251"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

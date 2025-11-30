@@ -9,5 +9,13 @@
       "keyword": "Oat gum",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Oat gum",
+      "E411"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

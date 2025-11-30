@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 6010,
+  "totalSearchVolume": 3110,
   "keywords": [
     {
       "keyword": "Brominated vegetable oil",
-      "volume": 6000
+      "volume": 3100
     },
     {
       "keyword": "E443",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Brominated vegetable oil",
+      "E443"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

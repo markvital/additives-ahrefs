@@ -1,5 +1,5 @@
 {
-  "totalSearchVolume": 470,
+  "totalSearchVolume": 480,
   "keywords": [
     {
       "keyword": "Green s",
@@ -7,11 +7,20 @@
     },
     {
       "keyword": "E142",
-      "volume": 20
+      "volume": 30
     },
     {
       "keyword": "CI Food Green 4",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Green s",
+      "E142",
+      "CI Food Green 4"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

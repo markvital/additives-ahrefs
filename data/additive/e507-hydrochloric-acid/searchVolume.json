@@ -1,17 +1,26 @@
 {
-  "totalSearchVolume": 79420,
+  "totalSearchVolume": 86720,
   "keywords": [
     {
       "keyword": "Hydrochloric acid",
-      "volume": 72000
+      "volume": 82000
     },
     {
       "keyword": "Hydrogen chloride",
-      "volume": 7400
+      "volume": 4700
     },
     {
       "keyword": "E507",
       "volume": 20
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Hydrochloric acid",
+      "E507",
+      "Hydrogen chloride"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

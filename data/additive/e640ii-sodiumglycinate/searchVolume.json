@@ -9,5 +9,13 @@
       "keyword": "Sodiumglycinate",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sodiumglycinate",
+      "E640II"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

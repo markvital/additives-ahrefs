@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 20,
+  "totalSearchVolume": 40,
   "keywords": [
     {
       "keyword": "E349",
-      "volume": 20
+      "volume": 40
     },
     {
       "keyword": "ammonium malate",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "ammonium malate",
+      "E349"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

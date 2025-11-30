@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 70,
+  "totalSearchVolume": 60,
   "keywords": [
     {
       "keyword": "E441",
-      "volume": 70
+      "volume": 60
     },
     {
       "keyword": "Hydrogenated rapeseed oil superglycerinated",
@@ -17,5 +17,15 @@
       "keyword": "Superglycerinated hydrogenated rapeseed oil",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Superglycerinated hydrogenated rapeseed oil",
+      "E441",
+      "Hydrogenated rapeseed oil superglycerinated",
+      "Superglycerinated fully hydrogenated rapeseed oil"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

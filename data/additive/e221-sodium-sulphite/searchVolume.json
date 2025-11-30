@@ -1,17 +1,26 @@
 {
-  "totalSearchVolume": 5000,
+  "totalSearchVolume": 3430,
   "keywords": [
     {
       "keyword": "Sodium sulfite",
-      "volume": 4900
+      "volume": 3200
+    },
+    {
+      "keyword": "Sodium sulphite",
+      "volume": 150
     },
     {
       "keyword": "E221",
       "volume": 80
-    },
-    {
-      "keyword": "Sodium sulphite",
-      "volume": 20
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sodium sulphite",
+      "E221",
+      "Sodium sulfite"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -13,5 +13,14 @@
       "keyword": "E515II",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Potassium hydrogen sulphate",
+      "E515II",
+      "Potassium bisulphate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

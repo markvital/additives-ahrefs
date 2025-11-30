@@ -9,5 +9,13 @@
       "keyword": "E906",
       "volume": 400
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Benzoin resin",
+      "E906"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -17,5 +17,15 @@
       "keyword": "Starch acetate esterified with vinyl acetate",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Acetylated starch",
+      "E1421",
+      "mono starch acetate",
+      "Starch acetate esterified with vinyl acetate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

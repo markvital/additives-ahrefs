@@ -13,5 +13,14 @@
       "keyword": "E450VI",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Dicalcium diphosphate",
+      "E450VI",
+      "dicalcium pyrophosphate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

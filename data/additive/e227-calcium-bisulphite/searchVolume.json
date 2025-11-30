@@ -13,5 +13,14 @@
       "keyword": "Calcium bisulphite",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Calcium bisulphite",
+      "E227",
+      "Calcium bisulfite"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

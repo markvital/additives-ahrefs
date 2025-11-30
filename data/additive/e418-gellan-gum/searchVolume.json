@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 18380,
+  "totalSearchVolume": 17410,
   "keywords": [
     {
       "keyword": "Gellan gum",
-      "volume": 18000
+      "volume": 17000
     },
     {
       "keyword": "gellan",
@@ -11,15 +11,15 @@
     },
     {
       "keyword": "E418",
-      "volume": 30
+      "volume": 40
     },
     {
       "keyword": "E 418",
-      "volume": 0
+      "volume": 10
     },
     {
       "keyword": "E-418",
-      "volume": 0
+      "volume": 10
     },
     {
       "keyword": "INS 418",
@@ -33,5 +33,19 @@
       "keyword": "INS418",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Gellan gum",
+      "E418",
+      "gellan",
+      "E-418",
+      "E 418",
+      "INS418",
+      "INS-418",
+      "INS 418"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

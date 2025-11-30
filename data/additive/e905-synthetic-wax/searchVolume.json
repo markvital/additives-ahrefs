@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 460,
+  "totalSearchVolume": 510,
   "keywords": [
     {
       "keyword": "Synthetic wax",
-      "volume": 350
+      "volume": 400
     },
     {
       "keyword": "E905",
@@ -17,5 +17,15 @@
       "keyword": "Hydrocarbon wax",
       "volume": 30
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Synthetic wax",
+      "E905",
+      "Hydrocarbon wax",
+      "Fischer-Tropsch wax"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

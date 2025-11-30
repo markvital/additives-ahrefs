@@ -9,5 +9,13 @@
       "keyword": "Sodium ethyl p-hydroxybenzoate",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sodium ethyl p-hydroxybenzoate",
+      "E215"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

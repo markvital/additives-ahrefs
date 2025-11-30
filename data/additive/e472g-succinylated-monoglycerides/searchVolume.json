@@ -9,5 +9,13 @@
       "keyword": "Succinylated monoglycerides",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Succinylated monoglycerides",
+      "E472G"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

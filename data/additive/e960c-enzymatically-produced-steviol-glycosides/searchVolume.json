@@ -9,5 +9,13 @@
       "keyword": "Enzymatically produced steviol glycosides",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Enzymatically produced steviol glycosides",
+      "E960C"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

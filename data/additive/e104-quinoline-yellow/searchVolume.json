@@ -1,5 +1,5 @@
 {
-  "totalSearchVolume": 290,
+  "totalSearchVolume": 300,
   "keywords": [
     {
       "keyword": "E104",
@@ -11,7 +11,7 @@
     },
     {
       "keyword": "Quinoline Yellow WS",
-      "volume": 30
+      "volume": 40
     },
     {
       "keyword": "C.I. 47005",
@@ -21,5 +21,16 @@
       "keyword": "Food Yellow 13",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Quinoline yellow",
+      "E104",
+      "Quinoline Yellow WS",
+      "C.I. 47005",
+      "Food Yellow 13"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 900,
+  "totalSearchVolume": 1050,
   "keywords": [
     {
       "keyword": "potassium lactate",
-      "volume": 800
+      "volume": 900
     },
     {
       "keyword": "E326",
-      "volume": 100
+      "volume": 150
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "potassium lactate",
+      "E326"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

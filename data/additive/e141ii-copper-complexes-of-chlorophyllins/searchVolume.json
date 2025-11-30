@@ -21,5 +21,16 @@
       "keyword": "Potassium Copper Chlorophyllin",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Copper complexes of chlorophyllins",
+      "E141II",
+      "Sodium Copper Chlorophyllin",
+      "Potassium Copper Chlorophyllin",
+      "Copper Chlorophyllin"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

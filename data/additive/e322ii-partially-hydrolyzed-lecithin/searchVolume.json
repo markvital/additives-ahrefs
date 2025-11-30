@@ -9,5 +9,13 @@
       "keyword": "Partially hydrolyzed lecithin",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Partially hydrolyzed lecithin",
+      "E322II"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

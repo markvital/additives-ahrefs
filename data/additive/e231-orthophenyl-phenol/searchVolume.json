@@ -13,5 +13,14 @@
       "keyword": "Orthophenyl phenol",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Orthophenyl phenol",
+      "E231",
+      "2-hydroxybiphenyl"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

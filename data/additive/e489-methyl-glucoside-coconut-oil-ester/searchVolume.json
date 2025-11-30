@@ -9,5 +9,13 @@
       "keyword": "Methyl glucoside-coconut oil ester",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Methyl glucoside-coconut oil ester",
+      "E489"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

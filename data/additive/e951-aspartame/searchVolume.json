@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 98020,
+  "totalSearchVolume": 101020,
   "keywords": [
     {
       "keyword": "Aspartame",
-      "volume": 98000
+      "volume": 101000
     },
     {
       "keyword": "E951",
@@ -49,5 +49,23 @@
       "keyword": "L-Aspartyl-L-phenylalanine methyl ester",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Aspartame",
+      "E951",
+      "1-Methyl N-L-alpha-aspartyl-L-phenylalanine",
+      "Asp-phe-ome",
+      "3-Amino-N-(alpha-methoxycarbonylphenethyl) succinamic acid",
+      "3-Amino-N-(α-carboxyphenethyl)succinamic acid N-methyl ester",
+      "L-Aspartyl-L-phenylalanine methyl ester",
+      "1-methyl N-L-α-aspartyl-L-phenylalanate",
+      "Aspartylphenylalanine methyl ester",
+      "3-Amino-N-(alpha-carboxyphenethyl)succinamic acid N-methyl ester",
+      "3-Amino-N-(α-methoxycarbonylphenethyl) succinamic acid",
+      "1-Methyl N-L-alpha-aspartyl-L-phenylalanate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

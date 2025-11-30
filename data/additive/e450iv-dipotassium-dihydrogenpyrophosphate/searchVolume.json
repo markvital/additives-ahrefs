@@ -13,5 +13,14 @@
       "keyword": "E450IV",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "dipotassium dihydrogenpyrophosphate",
+      "E450IV",
+      "E-450iv"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

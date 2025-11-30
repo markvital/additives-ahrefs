@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 1810,
+  "totalSearchVolume": 1910,
   "keywords": [
     {
       "keyword": "E521",
-      "volume": 1800
+      "volume": 1900
     },
     {
       "keyword": "Sodium aluminium sulfate",
@@ -17,5 +17,15 @@
       "keyword": "Soda alum",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Aluminium sodium sulphate",
+      "E521",
+      "Soda alum",
+      "Sodium aluminium sulfate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

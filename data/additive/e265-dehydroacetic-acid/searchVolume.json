@@ -9,5 +9,13 @@
       "keyword": "E265",
       "volume": 50
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Dehydroacetic acid",
+      "E265"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

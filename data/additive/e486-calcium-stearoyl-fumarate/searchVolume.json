@@ -9,5 +9,13 @@
       "keyword": "E486",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Calcium stearoyl fumarate",
+      "E486"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

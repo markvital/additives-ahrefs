@@ -9,5 +9,13 @@
       "keyword": "E331III",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Trisodium citrate",
+      "E331III"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

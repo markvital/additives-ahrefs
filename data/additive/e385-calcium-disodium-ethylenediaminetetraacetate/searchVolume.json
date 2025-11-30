@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 3700,
+  "totalSearchVolume": 5100,
   "keywords": [
     {
       "keyword": "Calcium disodium EDTA",
-      "volume": 3600
+      "volume": 5000
     },
     {
       "keyword": "E385",
@@ -29,5 +29,18 @@
       "keyword": "calcium-dinatrium-EDTA",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Calcium disodium ethylenediaminetetraacetate",
+      "E385",
+      "Calcium disodium EDTA",
+      "Calcium disodium ethylene diamine tetra-acetate",
+      "calcium-dinatrium-EDTA",
+      "E-385",
+      "E 385"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

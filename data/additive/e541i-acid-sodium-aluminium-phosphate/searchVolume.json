@@ -9,5 +9,13 @@
       "keyword": "E541I",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Acid sodium aluminium phosphate",
+      "E541I"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

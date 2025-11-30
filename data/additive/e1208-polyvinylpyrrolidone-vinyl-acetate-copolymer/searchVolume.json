@@ -9,5 +9,13 @@
       "keyword": "Polyvinylpyrrolidone-vinyl acetate copolymer",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Polyvinylpyrrolidone-vinyl acetate copolymer",
+      "E1208"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 5410,
+  "totalSearchVolume": 4210,
   "keywords": [
     {
       "keyword": "Ascorbyl palmitate",
-      "volume": 5400
+      "volume": 4200
     },
     {
       "keyword": "L-Ascorbyl Palmitate",
@@ -13,5 +13,14 @@
       "keyword": "E304I",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Ascorbyl palmitate",
+      "E304I",
+      "L-Ascorbyl Palmitate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

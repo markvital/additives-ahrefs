@@ -1,17 +1,26 @@
 {
-  "totalSearchVolume": 39350,
+  "totalSearchVolume": 29900,
   "keywords": [
     {
       "keyword": "Leucine",
-      "volume": 36000
+      "volume": 27000
     },
     {
       "keyword": "L-Leucine",
-      "volume": 3000
+      "volume": 2500
     },
     {
       "keyword": "E641",
-      "volume": 350
+      "volume": 400
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Leucine",
+      "E641",
+      "L-Leucine"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

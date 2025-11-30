@@ -9,5 +9,13 @@
       "keyword": "E460I",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Microcrystalline cellulose",
+      "E460I"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

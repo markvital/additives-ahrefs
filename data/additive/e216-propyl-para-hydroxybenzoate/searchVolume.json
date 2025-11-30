@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 3600,
+  "totalSearchVolume": 3900,
   "keywords": [
     {
       "keyword": "Propylparaben",
-      "volume": 3200
+      "volume": 3500
     },
     {
       "keyword": "E216",
@@ -17,5 +17,15 @@
       "keyword": "Sodium Salt of Propyl-p-hydroxy Benzoic Acid",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Propyl para-hydroxybenzoate",
+      "E216",
+      "Sodium Salt of Propyl-p-hydroxy Benzoic Acid",
+      "Propylparaben"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

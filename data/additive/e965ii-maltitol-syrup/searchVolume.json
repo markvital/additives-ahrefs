@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 4200,
+  "totalSearchVolume": 4500,
   "keywords": [
     {
       "keyword": "Maltitol syrup",
-      "volume": 4200
+      "volume": 4500
     },
     {
       "keyword": "E965II",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Maltitol syrup",
+      "E965II"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

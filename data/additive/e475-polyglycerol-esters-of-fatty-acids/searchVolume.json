@@ -13,5 +13,14 @@
       "keyword": "Polyglycerol fatty acid esters",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Polyglycerol esters of fatty acids",
+      "E475",
+      "Polyglycerol fatty acid esters"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

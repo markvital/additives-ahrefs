@@ -9,5 +9,13 @@
       "keyword": "Propane-1‚2-diol esters of fatty acids",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Propane-1‚2-diol esters of fatty acids",
+      "E477"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

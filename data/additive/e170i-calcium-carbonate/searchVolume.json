@@ -1,13 +1,13 @@
 {
-  "totalSearchVolume": 119000,
+  "totalSearchVolume": 158000,
   "keywords": [
     {
       "keyword": "Calcium carbonate",
-      "volume": 83000
+      "volume": 85000
     },
     {
       "keyword": "Chalk",
-      "volume": 36000
+      "volume": 73000
     },
     {
       "keyword": "CI Pigment White 18",
@@ -17,5 +17,15 @@
       "keyword": "E170I",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Calcium carbonate",
+      "E170I",
+      "CI Pigment White 18",
+      "Chalk"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

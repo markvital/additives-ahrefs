@@ -1,17 +1,26 @@
 {
-  "totalSearchVolume": 220,
+  "totalSearchVolume": 230,
   "keywords": [
     {
       "keyword": "calcium formate",
       "volume": 200
     },
     {
-      "keyword": "Calcium formiate",
-      "volume": 10
+      "keyword": "E238",
+      "volume": 20
     },
     {
-      "keyword": "E238",
+      "keyword": "Calcium formiate",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Calcium formiate",
+      "E238",
+      "calcium formate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

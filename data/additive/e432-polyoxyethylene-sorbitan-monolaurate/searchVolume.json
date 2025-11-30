@@ -1,13 +1,13 @@
 {
-  "totalSearchVolume": 9030,
+  "totalSearchVolume": 7930,
   "keywords": [
     {
       "keyword": "Polysorbate 20",
-      "volume": 6500
+      "volume": 6100
     },
     {
       "keyword": "Tween 20",
-      "volume": 2500
+      "volume": 1800
     },
     {
       "keyword": "Alkest TW 20",
@@ -25,5 +25,17 @@
       "keyword": "PEG(20)sorbitan monolaurate",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Polyoxyethylene sorbitan monolaurate",
+      "E432",
+      "Polysorbate 20",
+      "Alkest TW 20",
+      "Tween 20",
+      "PEG(20)sorbitan monolaurate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

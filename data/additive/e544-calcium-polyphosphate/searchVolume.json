@@ -9,5 +9,13 @@
       "keyword": "E544",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Calcium polyphosphate",
+      "E544"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

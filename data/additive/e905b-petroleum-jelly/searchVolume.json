@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 61120,
+  "totalSearchVolume": 65920,
   "keywords": [
     {
       "keyword": "petroleum jelly",
-      "volume": 41000
+      "volume": 46000
     },
     {
       "keyword": "petrolatum",
@@ -11,7 +11,7 @@
     },
     {
       "keyword": "white petrolatum",
-      "volume": 3100
+      "volume": 2900
     },
     {
       "keyword": "soft paraffin",
@@ -25,5 +25,17 @@
       "keyword": "multi-hydrocarbon",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "petroleum jelly",
+      "E905B",
+      "petrolatum",
+      "white petrolatum",
+      "soft paraffin",
+      "multi-hydrocarbon"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

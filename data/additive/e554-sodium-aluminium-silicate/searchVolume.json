@@ -1,21 +1,31 @@
 {
-  "totalSearchVolume": 770,
+  "totalSearchVolume": 720,
   "keywords": [
     {
       "keyword": "Sodium silicoaluminate",
-      "volume": 450
+      "volume": 400
     },
     {
       "keyword": "Sodium aluminosilicate",
       "volume": 300
     },
     {
-      "keyword": "Sodium aluminium silicate",
-      "volume": 20
+      "keyword": "E554",
+      "volume": 10
     },
     {
-      "keyword": "E554",
-      "volume": 0
+      "keyword": "Sodium aluminium silicate",
+      "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sodium aluminium silicate",
+      "E554",
+      "Sodium silicoaluminate",
+      "Sodium aluminosilicate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

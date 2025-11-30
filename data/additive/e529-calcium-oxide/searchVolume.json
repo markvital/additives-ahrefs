@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 12010,
+  "totalSearchVolume": 6910,
   "keywords": [
     {
       "keyword": "Calcium oxide",
-      "volume": 12000
+      "volume": 6900
     },
     {
       "keyword": "E529",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Calcium oxide",
+      "E529"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

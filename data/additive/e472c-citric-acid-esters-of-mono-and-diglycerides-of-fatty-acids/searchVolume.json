@@ -9,5 +9,13 @@
       "keyword": "Citric acid esters of mono- and diglycerides of fatty acids",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Citric acid esters of mono- and diglycerides of fatty acids",
+      "E472C"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

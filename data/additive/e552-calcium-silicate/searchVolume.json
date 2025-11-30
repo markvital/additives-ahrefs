@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 2900,
+  "totalSearchVolume": 2500,
   "keywords": [
     {
       "keyword": "Calcium silicate",
-      "volume": 2900
+      "volume": 2500
     },
     {
       "keyword": "E552",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Calcium silicate",
+      "E552"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

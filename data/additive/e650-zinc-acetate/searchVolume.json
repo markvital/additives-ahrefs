@@ -1,17 +1,26 @@
 {
-  "totalSearchVolume": 4130,
+  "totalSearchVolume": 2740,
   "keywords": [
     {
       "keyword": "Zinc acetate",
-      "volume": 4000
+      "volume": 2600
     },
     {
       "keyword": "zinc salt",
-      "volume": 80
+      "volume": 90
     },
     {
       "keyword": "E650",
       "volume": 50
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Zinc acetate",
+      "E650",
+      "zinc salt"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

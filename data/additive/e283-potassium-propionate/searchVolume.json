@@ -1,5 +1,5 @@
 {
-  "totalSearchVolume": 200,
+  "totalSearchVolume": 210,
   "keywords": [
     {
       "keyword": "Potassium propanoate",
@@ -11,7 +11,16 @@
     },
     {
       "keyword": "E283",
-      "volume": 30
+      "volume": 40
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Potassium propionate",
+      "E283",
+      "Potassium propanoate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

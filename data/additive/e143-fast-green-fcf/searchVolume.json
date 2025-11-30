@@ -1,5 +1,5 @@
 {
-  "totalSearchVolume": 1090,
+  "totalSearchVolume": 1110,
   "keywords": [
     {
       "keyword": "Green 3",
@@ -11,11 +11,11 @@
     },
     {
       "keyword": "FD&C Green No. 3",
-      "volume": 80
+      "volume": 90
     },
     {
       "keyword": "E143",
-      "volume": 10
+      "volume": 20
     },
     {
       "keyword": "C.I. 42053",
@@ -33,5 +33,19 @@
       "keyword": "Solid Green FCF",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Fast Green FCF",
+      "E143",
+      "Food green 3",
+      "C.I. 42053",
+      "Solid Green FCF",
+      "Green 1724",
+      "FD&C Green No. 3",
+      "Green 3"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

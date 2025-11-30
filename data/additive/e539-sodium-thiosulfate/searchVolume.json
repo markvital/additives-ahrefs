@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 12020,
+  "totalSearchVolume": 9420,
   "keywords": [
     {
       "keyword": "sodium thiosulfate",
-      "volume": 12000
+      "volume": 9400
     },
     {
       "keyword": "E539",
       "volume": 20
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "sodium thiosulfate",
+      "E539"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

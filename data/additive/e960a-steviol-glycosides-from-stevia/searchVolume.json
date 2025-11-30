@@ -9,5 +9,13 @@
       "keyword": "Steviol glycosides from Stevia",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Steviol glycosides from Stevia",
+      "E960A"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

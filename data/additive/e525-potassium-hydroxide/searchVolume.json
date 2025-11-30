@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 22030,
+  "totalSearchVolume": 21060,
   "keywords": [
     {
       "keyword": "Potassium hydroxide",
-      "volume": 22000
+      "volume": 21000
     },
     {
       "keyword": "E525",
-      "volume": 30
+      "volume": 60
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Potassium hydroxide",
+      "E525"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

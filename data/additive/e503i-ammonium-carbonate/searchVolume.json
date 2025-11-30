@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 8100,
+  "totalSearchVolume": 6400,
   "keywords": [
     {
       "keyword": "Ammonium carbonate",
-      "volume": 8100
+      "volume": 6400
     },
     {
       "keyword": "E503I",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Ammonium carbonate",
+      "E503I"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

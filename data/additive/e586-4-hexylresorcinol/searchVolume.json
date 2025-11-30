@@ -13,5 +13,14 @@
       "keyword": "4-Hexyl-1‚3-benzenediol",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "4-hexylresorcinol",
+      "E586",
+      "4-Hexyl-1‚3-benzenediol"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

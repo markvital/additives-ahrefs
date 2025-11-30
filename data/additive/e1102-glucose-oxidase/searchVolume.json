@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 910,
+  "totalSearchVolume": 810,
   "keywords": [
     {
       "keyword": "Glucose oxidase",
-      "volume": 900
+      "volume": 800
     },
     {
       "keyword": "E1102",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Glucose oxidase",
+      "E1102"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

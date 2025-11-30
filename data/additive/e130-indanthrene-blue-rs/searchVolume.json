@@ -1,5 +1,5 @@
 {
-  "totalSearchVolume": 470,
+  "totalSearchVolume": 520,
   "keywords": [
     {
       "keyword": "E130",
@@ -7,7 +7,7 @@
     },
     {
       "keyword": "Indanthrone blue",
-      "volume": 150
+      "volume": 200
     },
     {
       "keyword": "indanthrene",
@@ -17,5 +17,15 @@
       "keyword": "Indanthrene blue RS",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Indanthrene blue RS",
+      "E130",
+      "Indanthrone blue",
+      "indanthrene"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

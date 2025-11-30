@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 3850,
+  "totalSearchVolume": 3050,
   "keywords": [
     {
       "keyword": "Natamycin",
-      "volume": 3700
+      "volume": 2900
     },
     {
       "keyword": "E235",
@@ -13,5 +13,14 @@
       "keyword": "Pimaracin",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Natamycin",
+      "E235",
+      "Pimaracin"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -9,5 +9,13 @@
       "keyword": "Acetylated distarch adipate",
       "volume": 60
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Acetylated distarch adipate",
+      "E1422"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

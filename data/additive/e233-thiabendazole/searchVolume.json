@@ -9,5 +9,13 @@
       "keyword": "E233",
       "volume": 60
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Thiabendazole",
+      "E233"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

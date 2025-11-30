@@ -1,17 +1,26 @@
 {
-  "totalSearchVolume": 7320,
+  "totalSearchVolume": 7020,
   "keywords": [
     {
       "keyword": "methylsulfonylmethane",
-      "volume": 6500
+      "volume": 6100
     },
     {
       "keyword": "dimethyl sulfone",
-      "volume": 800
+      "volume": 900
     },
     {
       "keyword": "methyl sulfone",
       "volume": 20
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "dimethyl sulfone",
+      "methylsulfonylmethane",
+      "methyl sulfone"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

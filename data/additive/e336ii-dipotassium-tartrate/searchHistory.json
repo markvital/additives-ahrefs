@@ -1,182 +1,182 @@
 {
   "country": "us",
-  "fetchedAt": "2025-10-09T03:43:41.816Z",
+  "fetchedAt": "2025-11-30T02:47:28.005Z",
   "metrics": [
     {
       "date": "2016-01-01T00:00:00Z",
-      "volume": 270
+      "volume": 112
     },
     {
       "date": "2016-02-01T00:00:00Z",
-      "volume": 432
+      "volume": 145
     },
     {
       "date": "2016-03-01T00:00:00Z",
-      "volume": 378
+      "volume": 134
     },
     {
       "date": "2016-04-01T00:00:00Z",
-      "volume": 324
+      "volume": 123
     },
     {
       "date": "2016-05-01T00:00:00Z",
-      "volume": 162
+      "volume": 91
     },
     {
       "date": "2016-06-01T00:00:00Z",
-      "volume": 108
+      "volume": 80
     },
     {
       "date": "2016-07-01T00:00:00Z",
-      "volume": 54
+      "volume": 69
     },
     {
       "date": "2016-08-01T00:00:00Z",
-      "volume": 54
+      "volume": 69
     },
     {
       "date": "2016-09-01T00:00:00Z",
-      "volume": 108
+      "volume": 80
     },
     {
       "date": "2016-10-01T00:00:00Z",
-      "volume": 324
+      "volume": 123
     },
     {
       "date": "2016-11-01T00:00:00Z",
-      "volume": 378
+      "volume": 134
     },
     {
       "date": "2016-12-01T00:00:00Z",
-      "volume": 324
+      "volume": 123
     },
     {
       "date": "2017-01-01T00:00:00Z",
-      "volume": 108
+      "volume": 80
     },
     {
       "date": "2017-02-01T00:00:00Z",
-      "volume": 54
+      "volume": 69
     },
     {
       "date": "2017-03-01T00:00:00Z",
-      "volume": 108
+      "volume": 80
     },
     {
       "date": "2017-04-01T00:00:00Z",
-      "volume": 162
+      "volume": 91
     },
     {
       "date": "2017-05-01T00:00:00Z",
-      "volume": 216
+      "volume": 101
     },
     {
       "date": "2017-06-01T00:00:00Z",
-      "volume": 270
+      "volume": 112
     },
     {
       "date": "2017-07-01T00:00:00Z",
-      "volume": 270
+      "volume": 112
     },
     {
       "date": "2017-08-01T00:00:00Z",
-      "volume": 270
+      "volume": 112
     },
     {
       "date": "2017-09-01T00:00:00Z",
-      "volume": 162
+      "volume": 91
     },
     {
       "date": "2017-10-01T00:00:00Z",
-      "volume": 216
+      "volume": 101
     },
     {
       "date": "2017-11-01T00:00:00Z",
-      "volume": 216
+      "volume": 101
     },
     {
       "date": "2017-12-01T00:00:00Z",
-      "volume": 162
+      "volume": 91
     },
     {
       "date": "2018-01-01T00:00:00Z",
-      "volume": 270
+      "volume": 112
     },
     {
       "date": "2018-02-01T00:00:00Z",
-      "volume": 324
+      "volume": 123
     },
     {
       "date": "2018-03-01T00:00:00Z",
-      "volume": 324
+      "volume": 123
     },
     {
       "date": "2018-04-01T00:00:00Z",
-      "volume": 108
+      "volume": 80
     },
     {
       "date": "2018-05-01T00:00:00Z",
-      "volume": 0
+      "volume": 58
     },
     {
       "date": "2018-06-01T00:00:00Z",
-      "volume": 162
+      "volume": 91
     },
     {
       "date": "2018-07-01T00:00:00Z",
-      "volume": 270
+      "volume": 112
     },
     {
       "date": "2018-08-01T00:00:00Z",
-      "volume": 432
+      "volume": 145
     },
     {
       "date": "2018-09-01T00:00:00Z",
-      "volume": 270
+      "volume": 112
     },
     {
       "date": "2018-10-01T00:00:00Z",
-      "volume": 216
+      "volume": 101
     },
     {
       "date": "2018-11-01T00:00:00Z",
-      "volume": 54
+      "volume": 69
     },
     {
       "date": "2018-12-01T00:00:00Z",
-      "volume": 54
+      "volume": 69
     },
     {
       "date": "2019-01-01T00:00:00Z",
-      "volume": 162
+      "volume": 91
     },
     {
       "date": "2019-02-01T00:00:00Z",
-      "volume": 324
+      "volume": 123
     },
     {
       "date": "2019-03-01T00:00:00Z",
-      "volume": 486
+      "volume": 155
     },
     {
       "date": "2019-04-01T00:00:00Z",
-      "volume": 324
+      "volume": 123
     },
     {
       "date": "2019-05-01T00:00:00Z",
-      "volume": 162
+      "volume": 91
     },
     {
       "date": "2019-06-01T00:00:00Z",
-      "volume": 270
+      "volume": 112
     },
     {
       "date": "2019-07-01T00:00:00Z",
-      "volume": 270
+      "volume": 112
     },
     {
       "date": "2019-08-01T00:00:00Z",
-      "volume": 270
+      "volume": 112
     },
     {
       "date": "2019-09-01T00:00:00Z",
@@ -460,39 +460,39 @@
     },
     {
       "date": "2025-07-01T00:00:00Z",
-      "volume": 94
+      "volume": 54
     },
     {
       "date": "2025-08-01T00:00:00Z",
-      "volume": 70
+      "volume": 58
     },
     {
       "date": "2025-09-01T00:00:00Z",
-      "volume": 74
+      "volume": 61
     },
     {
       "date": "2025-10-01T00:00:00Z",
-      "volume": 62
+      "volume": 73
     },
     {
       "date": "2025-11-01T00:00:00Z",
-      "volume": 90
+      "volume": 76
     },
     {
       "date": "2025-12-01T00:00:00Z",
-      "volume": 47
+      "volume": 63
     }
   ],
   "sparkline": [
-    243,
-    185,
-    207,
-    223,
+    107,
+    95,
+    100,
+    111,
     61,
     73,
     54,
     61,
     65,
-    69
+    65
   ]
 }

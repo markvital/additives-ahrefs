@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 40,
+  "totalSearchVolume": 60,
   "keywords": [
     {
       "keyword": "E353",
-      "volume": 20
+      "volume": 30
     },
     {
       "keyword": "Metatartaric acid",
-      "volume": 20
+      "volume": 30
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Metatartaric acid",
+      "E353"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

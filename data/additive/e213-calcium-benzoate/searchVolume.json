@@ -9,5 +9,13 @@
       "keyword": "Calcium benzoate",
       "volume": 40
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Calcium benzoate",
+      "E213"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

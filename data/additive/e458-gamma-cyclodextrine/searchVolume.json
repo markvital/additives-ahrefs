@@ -9,5 +9,13 @@
       "keyword": "Gamma-Cyclodextrine",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Gamma-Cyclodextrine",
+      "E458"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 10,
+  "totalSearchVolume": 20,
   "keywords": [
     {
       "keyword": "E488",
-      "volume": 10
+      "volume": 20
     },
     {
       "keyword": "Ethoxylated Mono- and Di-Glycerides",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Ethoxylated Mono- and Di-Glycerides",
+      "E488"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

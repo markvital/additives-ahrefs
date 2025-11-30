@@ -1,5 +1,5 @@
 {
-  "totalSearchVolume": 1020,
+  "totalSearchVolume": 880,
   "keywords": [
     {
       "keyword": "hexamethylenetetramine",
@@ -7,15 +7,25 @@
     },
     {
       "keyword": "Hexamine",
-      "volume": 450
+      "volume": 300
     },
     {
       "keyword": "E239",
-      "volume": 40
+      "volume": 50
     },
     {
       "keyword": "Hexamethylene tetramine",
       "volume": 30
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Hexamethylene tetramine",
+      "E239",
+      "Hexamine",
+      "hexamethylenetetramine"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

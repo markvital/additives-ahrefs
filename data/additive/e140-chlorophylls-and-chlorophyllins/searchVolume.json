@@ -1,13 +1,18 @@
 {
-  "totalSearchVolume": 200,
+  "totalSearchVolume": 0,
   "keywords": [
-    {
-      "keyword": "E140",
-      "volume": 200
-    },
     {
       "keyword": "Chlorophylls and Chlorophyllins",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Chlorophylls and Chlorophyllins"
+    ],
+    "supplementary": [],
+    "excluded": [
+      "E140"
+    ]
+  }
 }

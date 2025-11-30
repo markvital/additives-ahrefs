@@ -9,5 +9,13 @@
       "keyword": "E930",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "calcium peroxide",
+      "E930"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

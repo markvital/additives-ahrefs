@@ -9,5 +9,13 @@
       "keyword": "E267",
       "volume": 50
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Buffered vinegar",
+      "E267"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

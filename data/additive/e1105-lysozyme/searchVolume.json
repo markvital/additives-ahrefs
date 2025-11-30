@@ -1,17 +1,17 @@
 {
-  "totalSearchVolume": 9700,
+  "totalSearchVolume": 8220,
   "keywords": [
     {
       "keyword": "Lysozyme",
-      "volume": 9600
+      "volume": 8100
     },
     {
       "keyword": "E1105",
-      "volume": 50
+      "volume": 60
     },
     {
       "keyword": "Lysozyme hydrochloride",
-      "volume": 30
+      "volume": 40
     },
     {
       "keyword": "E 1105",
@@ -21,5 +21,16 @@
       "keyword": "E-1105",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Lysozyme",
+      "E1105",
+      "Lysozyme hydrochloride",
+      "E 1105",
+      "E-1105"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

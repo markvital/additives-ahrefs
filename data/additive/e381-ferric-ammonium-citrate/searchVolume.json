@@ -1,5 +1,5 @@
 {
-  "totalSearchVolume": 580,
+  "totalSearchVolume": 590,
   "keywords": [
     {
       "keyword": "ferric ammonium citrate",
@@ -11,7 +11,16 @@
     },
     {
       "keyword": "E381",
-      "volume": 10
+      "volume": 20
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "ferric ammonium citrate",
+      "E381",
+      "ammonium ferric citrate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

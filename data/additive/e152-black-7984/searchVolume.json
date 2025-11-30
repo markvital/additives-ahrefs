@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 15030,
+  "totalSearchVolume": 8930,
   "keywords": [
     {
       "keyword": "carbon black",
-      "volume": 15000
+      "volume": 8900
     },
     {
       "keyword": "E152",
@@ -17,5 +17,15 @@
       "keyword": "Food Black 2",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Black 7984",
+      "E152",
+      "Food Black 2",
+      "carbon black"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -1,16 +1,16 @@
 {
-  "totalSearchVolume": 9020,
+  "totalSearchVolume": 7220,
   "keywords": [
     {
+      "keyword": "Polydimethylsiloxane",
+      "volume": 2400
+    },
+    {
       "keyword": "Silicone oil",
-      "volume": 3500
+      "volume": 2300
     },
     {
       "keyword": "dimethylpolysiloxane",
-      "volume": 3000
-    },
-    {
-      "keyword": "Polydimethylsiloxane",
       "volume": 2200
     },
     {

@@ -9,5 +9,13 @@
       "keyword": "Polyoxyethylene (8) stearate",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Polyoxyethylene (8) stearate",
+      "E430"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

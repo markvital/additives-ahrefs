@@ -9,5 +9,13 @@
       "keyword": "E905CI",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Microcrystalline wax",
+      "E905CI"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

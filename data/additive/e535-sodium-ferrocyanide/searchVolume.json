@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 2550,
+  "totalSearchVolume": 1950,
   "keywords": [
     {
       "keyword": "Yellow prussiate of soda",
-      "volume": 2300
+      "volume": 1700
     },
     {
       "keyword": "Sodium ferrocyanide",
@@ -13,5 +13,14 @@
       "keyword": "E535",
       "volume": 50
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sodium ferrocyanide",
+      "E535",
+      "Yellow prussiate of soda"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

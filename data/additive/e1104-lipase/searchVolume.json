@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 61000,
+  "totalSearchVolume": 55010,
   "keywords": [
     {
       "keyword": "lipase",
-      "volume": 61000
+      "volume": 55000
     },
     {
       "keyword": "E1104",
-      "volume": 0
+      "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "lipase",
+      "E1104"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

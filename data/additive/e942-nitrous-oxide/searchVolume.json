@@ -1,17 +1,26 @@
 {
-  "totalSearchVolume": 93080,
+  "totalSearchVolume": 83090,
   "keywords": [
     {
       "keyword": "Nitrous oxide",
-      "volume": 93000
+      "volume": 83000
     },
     {
       "keyword": "E942",
-      "volume": 80
+      "volume": 90
     },
     {
       "keyword": "propellent gas E942",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Nitrous oxide",
+      "E942",
+      "propellent gas E942"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

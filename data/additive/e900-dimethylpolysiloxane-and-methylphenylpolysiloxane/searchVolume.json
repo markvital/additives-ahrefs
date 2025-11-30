@@ -9,5 +9,13 @@
       "keyword": "Dimethylpolysiloxane and Methylphenylpolysiloxane",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Dimethylpolysiloxane and Methylphenylpolysiloxane",
+      "E900"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

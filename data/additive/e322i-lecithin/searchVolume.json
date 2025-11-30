@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 50010,
+  "totalSearchVolume": 44010,
   "keywords": [
     {
       "keyword": "Lecithin",
-      "volume": 50000
+      "volume": 44000
     },
     {
       "keyword": "E322I",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Lecithin",
+      "E322I"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

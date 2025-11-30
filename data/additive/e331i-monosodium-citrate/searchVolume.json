@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 150,
+  "totalSearchVolume": 200,
   "keywords": [
     {
       "keyword": "Monosodium citrate",
-      "volume": 150
+      "volume": 200
     },
     {
       "keyword": "E331I",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Monosodium citrate",
+      "E331I"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

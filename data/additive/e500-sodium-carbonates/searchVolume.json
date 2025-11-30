@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 1750,
+  "totalSearchVolume": 1660,
   "keywords": [
     {
       "keyword": "E500",
-      "volume": 1700
+      "volume": 1600
     },
     {
       "keyword": "Sodium carbonates",
-      "volume": 50
+      "volume": 60
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sodium carbonates",
+      "E500"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -13,5 +13,14 @@
       "keyword": "Riboflavin-5′-phosphate",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Riboflavin-5′-phosphate",
+      "E101II",
+      "phosphate lactoflavina"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

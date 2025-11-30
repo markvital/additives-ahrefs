@@ -1,5 +1,5 @@
 {
-  "totalSearchVolume": 80,
+  "totalSearchVolume": 70,
   "keywords": [
     {
       "keyword": "Hydroxypropyl starch",
@@ -7,7 +7,15 @@
     },
     {
       "keyword": "E1440",
-      "volume": 10
+      "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Hydroxypropyl starch",
+      "E1440"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

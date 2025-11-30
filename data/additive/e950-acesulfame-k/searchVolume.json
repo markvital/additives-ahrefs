@@ -1,5 +1,5 @@
 {
-  "totalSearchVolume": 29880,
+  "totalSearchVolume": 29870,
   "keywords": [
     {
       "keyword": "Acesulfame potassium",
@@ -11,7 +11,16 @@
     },
     {
       "keyword": "E950",
-      "volume": 80
+      "volume": 70
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Acesulfame k",
+      "E950",
+      "Acesulfame potassium"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

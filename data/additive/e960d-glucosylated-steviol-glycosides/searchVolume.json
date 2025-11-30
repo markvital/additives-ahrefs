@@ -9,5 +9,13 @@
       "keyword": "Glucosylated steviol glycosides",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Glucosylated steviol glycosides",
+      "E960D"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

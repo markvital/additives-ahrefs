@@ -9,5 +9,13 @@
       "keyword": "Potassium tartrates",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Potassium tartrates",
+      "E336"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

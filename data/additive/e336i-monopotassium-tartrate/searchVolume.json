@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 65610,
+  "totalSearchVolume": 81600,
   "keywords": [
     {
       "keyword": "cream of tartar",
-      "volume": 65000
+      "volume": 81000
     },
     {
       "keyword": "Potassium bitartrate",
@@ -11,7 +11,7 @@
     },
     {
       "keyword": "potassium hydrogen tartrate",
-      "volume": 100
+      "volume": 90
     },
     {
       "keyword": "Monopotassium tartrate",
@@ -25,5 +25,17 @@
       "keyword": "monopotassic tartrate",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Monopotassium tartrate",
+      "E336I",
+      "monopotassic tartrate",
+      "Potassium bitartrate",
+      "potassium hydrogen tartrate",
+      "cream of tartar"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

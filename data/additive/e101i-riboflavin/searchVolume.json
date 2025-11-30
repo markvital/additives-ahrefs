@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 84000,
+  "totalSearchVolume": 89000,
   "keywords": [
     {
       "keyword": "Riboflavin",
-      "volume": 65000
+      "volume": 70000
     },
     {
       "keyword": "Vitamin B2",
@@ -13,5 +13,14 @@
       "keyword": "E101I",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Riboflavin",
+      "E101I",
+      "Vitamin B2"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

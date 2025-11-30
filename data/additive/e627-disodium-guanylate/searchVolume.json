@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 3400,
+  "totalSearchVolume": 3200,
   "keywords": [
     {
       "keyword": "Disodium guanylate",
-      "volume": 3300
+      "volume": 3100
     },
     {
       "keyword": "E627",
@@ -13,5 +13,14 @@
       "keyword": "Sodium guanylate",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Disodium guanylate",
+      "E627",
+      "Sodium guanylate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

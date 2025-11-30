@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 80,
+  "totalSearchVolume": 70,
   "keywords": [
     {
       "keyword": "Potassium tartrate",
-      "volume": 80
+      "volume": 70
     },
     {
       "keyword": "dipotassic tartrate",
@@ -17,5 +17,15 @@
       "keyword": "E336II",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Dipotassium tartrate",
+      "E336II",
+      "dipotassic tartrate",
+      "Potassium tartrate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

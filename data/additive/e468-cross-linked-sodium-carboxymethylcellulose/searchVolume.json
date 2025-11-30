@@ -17,5 +17,15 @@
       "keyword": "Crosslinked sodium carboxy methyl cellulose",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Cross-linked sodium carboxymethylcellulose",
+      "E468",
+      "cross-linked cellulose gum",
+      "Crosslinked sodium carboxy methyl cellulose"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

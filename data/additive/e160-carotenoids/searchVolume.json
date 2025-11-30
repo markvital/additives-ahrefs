@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 10150,
+  "totalSearchVolume": 9550,
   "keywords": [
     {
       "keyword": "Carotenoids",
-      "volume": 10000
+      "volume": 9400
     },
     {
       "keyword": "E160",
       "volume": 150
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Carotenoids",
+      "E160"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

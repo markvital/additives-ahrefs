@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 11070,
+  "totalSearchVolume": 10960,
   "keywords": [
     {
       "keyword": "methylcellulose",
-      "volume": 9400
+      "volume": 9300
     },
     {
       "keyword": "methyl cellulose",
@@ -11,7 +11,16 @@
     },
     {
       "keyword": "E461",
-      "volume": 70
+      "volume": 60
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "methyl cellulose",
+      "E461",
+      "methylcellulose"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

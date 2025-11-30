@@ -17,5 +17,15 @@
       "keyword": "E141I",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Copper complexes of chlorophylls",
+      "E141I",
+      "CI Natural Green 3",
+      "Copper Chlorophyll"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 17040,
+  "totalSearchVolume": 20040,
   "keywords": [
     {
       "keyword": "Trisodium phosphate",
-      "volume": 17000
+      "volume": 20000
     },
     {
       "keyword": "Tribasic sodium phosphate",
@@ -13,5 +13,14 @@
       "keyword": "E339III",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Trisodium phosphate",
+      "E339III",
+      "Tribasic sodium phosphate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

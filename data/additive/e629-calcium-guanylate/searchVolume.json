@@ -9,5 +9,13 @@
       "keyword": "Calcium guanylate",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Calcium guanylate",
+      "E629"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

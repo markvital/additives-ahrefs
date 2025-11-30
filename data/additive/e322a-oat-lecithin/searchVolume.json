@@ -9,5 +9,13 @@
       "keyword": "Oat lecithin",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Oat lecithin",
+      "E322A"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

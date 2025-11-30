@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 15080,
+  "totalSearchVolume": 13090,
   "keywords": [
     {
       "keyword": "Calcium acetate",
-      "volume": 15000
+      "volume": 13000
     },
     {
       "keyword": "E263",
-      "volume": 80
+      "volume": 90
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Calcium acetate",
+      "E263"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 37150,
+  "totalSearchVolume": 38150,
   "keywords": [
     {
       "keyword": "Sodium benzoate",
-      "volume": 37000
+      "volume": 38000
     },
     {
       "keyword": "E211",
       "volume": 150
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sodium benzoate",
+      "E211"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

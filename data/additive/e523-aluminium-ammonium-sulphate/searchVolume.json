@@ -13,5 +13,14 @@
       "keyword": "ammonium aluminium sulfate",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Aluminium ammonium sulphate",
+      "E523",
+      "ammonium aluminium sulfate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

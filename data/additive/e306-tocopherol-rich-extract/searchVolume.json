@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 9900,
+  "totalSearchVolume": 8410,
   "keywords": [
     {
       "keyword": "Tocopherols",
-      "volume": 6200
+      "volume": 4700
     },
     {
       "keyword": "mixed tocopherols",
@@ -14,16 +14,28 @@
       "volume": 70
     },
     {
-      "keyword": "natural mixed tocopherols",
-      "volume": 60
+      "keyword": "natural tocopherols",
+      "volume": 70
     },
     {
-      "keyword": "natural tocopherols",
+      "keyword": "natural mixed tocopherols",
       "volume": 60
     },
     {
       "keyword": "Tocopherol-rich extract",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Tocopherol-rich extract",
+      "E306",
+      "Tocopherols",
+      "natural tocopherols",
+      "mixed tocopherols",
+      "natural mixed tocopherols"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "totalSearchVolume": 680,
+  "totalSearchVolume": 670,
   "keywords": [
     {
       "keyword": "Ethoxyquin",
@@ -7,7 +7,15 @@
     },
     {
       "keyword": "E324",
-      "volume": 80
+      "volume": 70
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Ethoxyquin",
+      "E324"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

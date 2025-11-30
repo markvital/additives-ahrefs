@@ -13,5 +13,14 @@
       "keyword": "Caustic sulphite caramel",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Caustic sulphite caramel",
+      "E150B",
+      "caramel E150b"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

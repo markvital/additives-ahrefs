@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 3780,
+  "totalSearchVolume": 2880,
   "keywords": [
     {
       "keyword": "PGPR",
-      "volume": 3300
+      "volume": 2400
     },
     {
       "keyword": "Polyglycerol polyricinoleate",
@@ -13,5 +13,14 @@
       "keyword": "E476",
       "volume": 80
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Polyglycerol polyricinoleate",
+      "E476",
+      "PGPR"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

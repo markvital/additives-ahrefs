@@ -9,5 +9,13 @@
       "keyword": "Ethulose",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Ethulose",
+      "E467"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

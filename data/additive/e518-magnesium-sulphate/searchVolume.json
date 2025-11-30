@@ -1,21 +1,31 @@
 {
-  "totalSearchVolume": 54610,
+  "totalSearchVolume": 47710,
   "keywords": [
     {
       "keyword": "magnesium sulfate",
-      "volume": 47000
+      "volume": 40000
     },
     {
       "keyword": "Epsom salts",
-      "volume": 6300
+      "volume": 6500
     },
     {
       "keyword": "Magnesium sulphate",
-      "volume": 1300
+      "volume": 1200
     },
     {
       "keyword": "E518",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Magnesium sulphate",
+      "E518",
+      "Epsom salts",
+      "magnesium sulfate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

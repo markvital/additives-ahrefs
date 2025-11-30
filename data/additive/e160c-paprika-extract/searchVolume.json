@@ -1,5 +1,5 @@
 {
-  "totalSearchVolume": 2950,
+  "totalSearchVolume": 2910,
   "keywords": [
     {
       "keyword": "oleoresin paprika",
@@ -14,11 +14,11 @@
       "volume": 600
     },
     {
-      "keyword": "Paprika extract",
-      "volume": 250
+      "keyword": "capsanthin",
+      "volume": 200
     },
     {
-      "keyword": "capsanthin",
+      "keyword": "Paprika extract",
       "volume": 200
     },
     {
@@ -31,11 +31,26 @@
     },
     {
       "keyword": "capsorubin",
-      "volume": 40
+      "volume": 50
     },
     {
       "keyword": "colored with paprika",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Paprika extract",
+      "E160C",
+      "capsanthin",
+      "capsorubin",
+      "Paprika oleoresin",
+      "oleoresin of paprika",
+      "oleoresin paprika",
+      "paprika color",
+      "colored with paprika"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 17330,
+  "totalSearchVolume": 14340,
   "keywords": [
     {
       "keyword": "Benzyl alcohol",
-      "volume": 17000
+      "volume": 14000
     },
     {
       "keyword": "Phenylcarbinol",
@@ -15,11 +15,22 @@
     },
     {
       "keyword": "E1519",
-      "volume": 0
+      "volume": 10
     },
     {
       "keyword": "Phenylmethyl alcohol",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Benzyl alcohol",
+      "E1519",
+      "Phenylcarbinol",
+      "Phenylmethyl alcohol",
+      "Benzenemethanol"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

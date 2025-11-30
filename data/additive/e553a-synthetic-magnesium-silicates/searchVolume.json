@@ -9,5 +9,13 @@
       "keyword": "synthetic magnesium silicates",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "synthetic magnesium silicates",
+      "E553A"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

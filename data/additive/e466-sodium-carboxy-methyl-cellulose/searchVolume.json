@@ -1,13 +1,13 @@
 {
-  "totalSearchVolume": 76750,
+  "totalSearchVolume": 88950,
   "keywords": [
     {
       "keyword": "CMC",
-      "volume": 62000
+      "volume": 74000
     },
     {
       "keyword": "Carboxymethylcellulose",
-      "volume": 8100
+      "volume": 8300
     },
     {
       "keyword": "cellulose gum",
@@ -37,5 +37,20 @@
       "keyword": "NaCMC",
       "volume": 20
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sodium carboxy methyl cellulose",
+      "E466",
+      "sodium carboxymethylcellulose",
+      "carboxy methyl cellulose",
+      "Carboxymethylcellulose",
+      "cellulose gum",
+      "carboxymethyl cellulose",
+      "CMC",
+      "NaCMC"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

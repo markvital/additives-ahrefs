@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 3310,
+  "totalSearchVolume": 2410,
   "keywords": [
     {
       "keyword": "Fumaric acid",
-      "volume": 3300
+      "volume": 2400
     },
     {
       "keyword": "E297",
@@ -13,5 +13,14 @@
       "keyword": "trans-Butenedioic acid",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Fumaric acid",
+      "E297",
+      "trans-Butenedioic acid"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

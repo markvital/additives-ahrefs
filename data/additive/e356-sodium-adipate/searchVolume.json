@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 30,
+  "totalSearchVolume": 40,
   "keywords": [
     {
-      "keyword": "Sodium adipate",
+      "keyword": "E356",
       "volume": 20
     },
     {
-      "keyword": "E356",
-      "volume": 10
+      "keyword": "Sodium adipate",
+      "volume": 20
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sodium adipate",
+      "E356"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

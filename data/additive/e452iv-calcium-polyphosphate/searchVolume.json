@@ -13,5 +13,14 @@
       "keyword": "E452IV",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Calcium polyphosphate",
+      "E452IV",
+      "Calcium metaphosphate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

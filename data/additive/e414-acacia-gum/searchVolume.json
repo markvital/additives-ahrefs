@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 21500,
+  "totalSearchVolume": 19410,
   "keywords": [
     {
       "keyword": "gum arabic",
-      "volume": 13000
+      "volume": 11000
     },
     {
       "keyword": "Acacia gum",
@@ -11,7 +11,7 @@
     },
     {
       "keyword": "gum acacia",
-      "volume": 2700
+      "volume": 2600
     },
     {
       "keyword": "arabic gum",
@@ -19,7 +19,7 @@
     },
     {
       "keyword": "E414",
-      "volume": 90
+      "volume": 100
     },
     {
       "keyword": "E 414",
@@ -37,5 +37,20 @@
       "keyword": "INS414",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Acacia gum",
+      "E414",
+      "gum arabic",
+      "gum acacia",
+      "arabic gum",
+      "E-414",
+      "E 414",
+      "INS414",
+      "INS 414"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

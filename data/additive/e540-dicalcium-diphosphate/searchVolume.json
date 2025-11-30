@@ -9,5 +9,13 @@
       "keyword": "Dicalcium diphosphate",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Dicalcium diphosphate",
+      "E540"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

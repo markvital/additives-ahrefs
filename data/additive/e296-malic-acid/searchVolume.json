@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 29270,
+  "totalSearchVolume": 28270,
   "keywords": [
     {
       "keyword": "Malic acid",
-      "volume": 29000
+      "volume": 28000
     },
     {
       "keyword": "l-malic acid",
@@ -17,5 +17,15 @@
       "keyword": "hydroxybutanedioic acid",
       "volume": 20
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Malic acid",
+      "E296",
+      "hydroxybutanedioic acid",
+      "l-malic acid"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

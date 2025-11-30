@@ -9,5 +9,13 @@
       "keyword": "E172III",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Yellow iron oxide",
+      "E172III"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

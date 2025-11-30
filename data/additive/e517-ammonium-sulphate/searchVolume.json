@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 19620,
+  "totalSearchVolume": 18620,
   "keywords": [
     {
       "keyword": "ammonium sulfate",
-      "volume": 19000
+      "volume": 18000
     },
     {
       "keyword": "Ammonium sulphate",
@@ -13,5 +13,14 @@
       "keyword": "E517",
       "volume": 20
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Ammonium sulphate",
+      "E517",
+      "ammonium sulfate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

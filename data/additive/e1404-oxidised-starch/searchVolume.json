@@ -9,5 +9,13 @@
       "keyword": "Oxidised starch",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Oxidised starch",
+      "E1404"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

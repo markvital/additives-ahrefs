@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 3550,
+  "totalSearchVolume": 3250,
   "keywords": [
     {
       "keyword": "Tripotassium phosphate",
-      "volume": 3500
+      "volume": 3200
     },
     {
       "keyword": "Tribasic potassium phosphate",
@@ -25,5 +25,17 @@
       "keyword": "E340III",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Tripotassium phosphate",
+      "E340III",
+      "E 340iii",
+      "E340 iii",
+      "E-340iii",
+      "Tribasic potassium phosphate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

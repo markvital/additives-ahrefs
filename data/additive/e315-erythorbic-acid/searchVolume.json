@@ -1,5 +1,5 @@
 {
-  "totalSearchVolume": 530,
+  "totalSearchVolume": 540,
   "keywords": [
     {
       "keyword": "Erythorbic acid",
@@ -11,7 +11,16 @@
     },
     {
       "keyword": "Isoascorbic acid",
-      "volume": 10
+      "volume": 20
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Erythorbic acid",
+      "E315",
+      "Isoascorbic acid"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

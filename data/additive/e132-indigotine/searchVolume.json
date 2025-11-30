@@ -1,5 +1,5 @@
 {
-  "totalSearchVolume": 3640,
+  "totalSearchVolume": 3730,
   "keywords": [
     {
       "keyword": "Blue 2",
@@ -11,15 +11,15 @@
     },
     {
       "keyword": "Blue 2 lake",
-      "volume": 500
-    },
-    {
-      "keyword": "FD&C Blue 2",
-      "volume": 50
+      "volume": 600
     },
     {
       "keyword": "Indigotine",
       "volume": 50
+    },
+    {
+      "keyword": "FD&C Blue 2",
+      "volume": 40
     },
     {
       "keyword": "E132",
@@ -33,5 +33,19 @@
       "keyword": "C.I. Food Blue 2",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Indigotine",
+      "E132",
+      "indigo carmine",
+      "FD&C Blue 2",
+      "FD and C Blue 2",
+      "C.I. Food Blue 2",
+      "Blue 2 lake",
+      "Blue 2"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

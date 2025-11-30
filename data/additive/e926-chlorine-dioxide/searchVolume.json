@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 21900,
+  "totalSearchVolume": 18400,
   "keywords": [
     {
       "keyword": "Chlorine dioxide",
-      "volume": 17000
+      "volume": 15000
     },
     {
       "keyword": "E926",
-      "volume": 4900
+      "volume": 3400
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Chlorine dioxide",
+      "E926"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -1,13 +1,13 @@
 {
-  "totalSearchVolume": 21050,
+  "totalSearchVolume": 22040,
   "keywords": [
     {
       "keyword": "Calcium citrate",
-      "volume": 21000
+      "volume": 22000
     },
     {
       "keyword": "E333",
-      "volume": 50
+      "volume": 40
     },
     {
       "keyword": "Calcium citrates",
@@ -17,5 +17,15 @@
       "keyword": "Calcium salts of citric acid",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Calcium citrates",
+      "E333",
+      "Calcium citrate",
+      "Calcium salts of citric acid"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

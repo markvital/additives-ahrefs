@@ -13,5 +13,14 @@
       "keyword": "Sodium formiate",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sodium formiate",
+      "E237",
+      "Sodium formate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

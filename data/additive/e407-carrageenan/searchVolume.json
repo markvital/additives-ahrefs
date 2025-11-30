@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 66160,
+  "totalSearchVolume": 72160,
   "keywords": [
     {
       "keyword": "Carrageenan",
-      "volume": 66000
+      "volume": 72000
     },
     {
       "keyword": "E407",
@@ -13,5 +13,14 @@
       "keyword": "e407 stabilizer",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Carrageenan",
+      "E407",
+      "e407 stabilizer"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

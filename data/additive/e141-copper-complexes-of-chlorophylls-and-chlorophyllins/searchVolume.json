@@ -13,5 +13,14 @@
       "keyword": "Copper complexes of chlorophylls and chlorophyllins",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Copper complexes of chlorophylls and chlorophyllins",
+      "E141",
+      "Copper complexes of chlorophyll and chlorophyllins"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

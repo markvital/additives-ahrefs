@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 71050,
+  "totalSearchVolume": 68070,
   "keywords": [
     {
       "keyword": "Calcium chloride",
-      "volume": 71000
+      "volume": 68000
     },
     {
       "keyword": "E509",
-      "volume": 50
+      "volume": 70
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Calcium chloride",
+      "E509"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

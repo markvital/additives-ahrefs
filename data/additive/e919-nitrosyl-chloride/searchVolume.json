@@ -9,5 +9,13 @@
       "keyword": "E919",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Nitrosyl chloride",
+      "E919"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

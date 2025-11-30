@@ -9,5 +9,13 @@
       "keyword": "Sodium propyl para-hydroxybenzoate",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sodium propyl para-hydroxybenzoate",
+      "E217"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

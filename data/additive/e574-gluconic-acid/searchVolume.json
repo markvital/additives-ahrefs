@@ -1,17 +1,26 @@
 {
-  "totalSearchVolume": 2880,
+  "totalSearchVolume": 2590,
   "keywords": [
     {
       "keyword": "Gluconic acid",
-      "volume": 2800
+      "volume": 2500
     },
     {
       "keyword": "D-gluconic acid",
-      "volume": 70
+      "volume": 80
     },
     {
       "keyword": "E574",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Gluconic acid",
+      "E574",
+      "D-gluconic acid"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

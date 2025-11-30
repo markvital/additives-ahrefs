@@ -1,13 +1,13 @@
 {
-  "totalSearchVolume": 55300,
+  "totalSearchVolume": 58900,
   "keywords": [
     {
       "keyword": "Ascorbic acid",
-      "volume": 50000
+      "volume": 53000
     },
     {
       "keyword": "E300",
-      "volume": 3900
+      "volume": 4500
     },
     {
       "keyword": "l-ascorbic acid",
@@ -17,5 +17,15 @@
       "keyword": "Synonyms L-xylo-Ascorbic acid",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Ascorbic acid",
+      "E300",
+      "l-ascorbic acid",
+      "Synonyms L-xylo-Ascorbic acid"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

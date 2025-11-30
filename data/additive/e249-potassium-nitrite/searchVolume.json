@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 1530,
+  "totalSearchVolume": 630,
   "keywords": [
     {
       "keyword": "Potassium nitrite",
-      "volume": 1500
+      "volume": 600
     },
     {
       "keyword": "E249",
       "volume": 30
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Potassium nitrite",
+      "E249"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

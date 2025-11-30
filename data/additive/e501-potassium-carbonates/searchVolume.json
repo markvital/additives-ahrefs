@@ -9,5 +9,13 @@
       "keyword": "Potassium carbonates",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Potassium carbonates",
+      "E501"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -9,5 +9,13 @@
       "keyword": "Polyvinyl alcohol-polyethylene glycol-graft-co-polymer",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Polyvinyl alcohol-polyethylene glycol-graft-co-polymer",
+      "E1209"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

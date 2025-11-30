@@ -9,5 +9,13 @@
       "keyword": "E514I",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sodium sulphate",
+      "E514I"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

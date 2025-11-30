@@ -9,5 +9,13 @@
       "keyword": "E332I",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Monopotassium citrate",
+      "E332I"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

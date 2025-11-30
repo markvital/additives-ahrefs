@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 8410,
+  "totalSearchVolume": 6810,
   "keywords": [
     {
       "keyword": "Tannin",
-      "volume": 8400
+      "volume": 6800
     },
     {
       "keyword": "E181",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Tannin",
+      "E181"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

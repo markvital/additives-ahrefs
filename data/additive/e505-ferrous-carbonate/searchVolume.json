@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 310,
+  "totalSearchVolume": 350,
   "keywords": [
     {
       "keyword": "E505",
-      "volume": 250
+      "volume": 300
     },
     {
       "keyword": "Ferrous carbonate",
-      "volume": 60
+      "volume": 50
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Ferrous carbonate",
+      "E505"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

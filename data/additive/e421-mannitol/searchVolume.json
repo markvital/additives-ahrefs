@@ -9,5 +9,13 @@
       "keyword": "E421",
       "volume": 100
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Mannitol",
+      "E421"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

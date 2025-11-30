@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 3400,
+  "totalSearchVolume": 2600,
   "keywords": [
     {
       "keyword": "Azodicarbonamide",
-      "volume": 3400
+      "volume": 2600
     },
     {
       "keyword": "E927A",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Azodicarbonamide",
+      "E927A"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

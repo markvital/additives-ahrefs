@@ -1,5 +1,5 @@
 {
-  "totalSearchVolume": 90,
+  "totalSearchVolume": 100,
   "keywords": [
     {
       "keyword": "Potassium bisulfite",
@@ -11,7 +11,16 @@
     },
     {
       "keyword": "Potassium bisulphite",
-      "volume": 0
+      "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Potassium bisulphite",
+      "E228",
+      "Potassium bisulfite"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

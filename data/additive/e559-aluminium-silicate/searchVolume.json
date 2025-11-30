@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 13240,
+  "totalSearchVolume": 12240,
   "keywords": [
     {
       "keyword": "Kaolin",
-      "volume": 13000
+      "volume": 12000
     },
     {
       "keyword": "E559",
@@ -13,5 +13,14 @@
       "keyword": "Aluminium silicate",
       "volume": 90
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Aluminium silicate",
+      "E559",
+      "Kaolin"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

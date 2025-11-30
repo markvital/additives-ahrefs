@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 11000,
+  "totalSearchVolume": 12000,
   "keywords": [
     {
       "keyword": "Magnesium carbonate",
-      "volume": 11000
+      "volume": 12000
     },
     {
       "keyword": "E504I",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Magnesium carbonate",
+      "E504I"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

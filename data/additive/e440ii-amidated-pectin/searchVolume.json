@@ -9,5 +9,13 @@
       "keyword": "E440II",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Amidated pectin",
+      "E440II"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 65050,
+  "totalSearchVolume": 68050,
   "keywords": [
     {
       "keyword": "Propylene Glycol",
-      "volume": 65000
+      "volume": 68000
     },
     {
       "keyword": "E1520",
@@ -17,5 +17,15 @@
       "keyword": "Propane-1‚2-diol",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Propylene Glycol",
+      "E1520",
+      "Propane-1‚2-diol",
+      "Propan-1‚2-diol"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

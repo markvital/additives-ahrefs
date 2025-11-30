@@ -9,5 +9,13 @@
       "keyword": "Erythorbin acid",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Erythorbin acid",
+      "E317"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

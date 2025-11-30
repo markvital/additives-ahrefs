@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 0,
+  "totalSearchVolume": 10,
   "keywords": [
     {
       "keyword": "E387",
-      "volume": 0
+      "volume": 10
     },
     {
       "keyword": "Oxystearin",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Oxystearin",
+      "E387"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

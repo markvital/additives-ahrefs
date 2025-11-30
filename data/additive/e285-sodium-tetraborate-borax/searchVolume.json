@@ -1,29 +1,41 @@
 {
-  "totalSearchVolume": 85120,
+  "totalSearchVolume": 99380,
   "keywords": [
     {
       "keyword": "borax",
-      "volume": 79000
+      "volume": 94000
     },
     {
       "keyword": "sodium borate",
-      "volume": 3100
+      "volume": 2700
     },
     {
       "keyword": "sodium tetraborate",
-      "volume": 2800
+      "volume": 2500
     },
     {
       "keyword": "E285",
-      "volume": 150
+      "volume": 100
     },
     {
       "keyword": "disodium tetraborate",
-      "volume": 70
+      "volume": 80
     },
     {
       "keyword": "Sodium tetraborate (borax)",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sodium tetraborate (borax)",
+      "E285",
+      "borax",
+      "sodium borate",
+      "sodium tetraborate",
+      "disodium tetraborate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

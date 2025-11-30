@@ -9,5 +9,13 @@
       "keyword": "E450VIII",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Dimagnesium diphosphate",
+      "E450VIII"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

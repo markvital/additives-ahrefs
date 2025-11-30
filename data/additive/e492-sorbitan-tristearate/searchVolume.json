@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 370,
+  "totalSearchVolume": 420,
   "keywords": [
     {
       "keyword": "Sorbitan tristearate",
-      "volume": 350
+      "volume": 400
     },
     {
       "keyword": "E492",
       "volume": 20
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sorbitan tristearate",
+      "E492"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

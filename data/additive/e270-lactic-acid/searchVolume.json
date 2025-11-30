@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 92350,
+  "totalSearchVolume": 94350,
   "keywords": [
     {
       "keyword": "Lactic acid",
-      "volume": 92000
+      "volume": 94000
     },
     {
       "keyword": "2-Hydroxypropanoic acid",
@@ -17,5 +17,15 @@
       "keyword": "milk acid",
       "volume": 60
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Lactic acid",
+      "E270",
+      "milk acid",
+      "2-Hydroxypropanoic acid"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

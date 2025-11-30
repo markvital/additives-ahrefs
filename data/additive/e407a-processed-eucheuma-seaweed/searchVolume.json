@@ -9,5 +9,13 @@
       "keyword": "Processed eucheuma seaweed",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Processed eucheuma seaweed",
+      "E407A"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

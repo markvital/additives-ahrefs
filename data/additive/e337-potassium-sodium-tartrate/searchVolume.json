@@ -9,5 +9,13 @@
       "keyword": "E337",
       "volume": 20
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Potassium sodium tartrate",
+      "E337"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

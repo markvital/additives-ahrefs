@@ -1,5 +1,5 @@
 {
-  "totalSearchVolume": 2670,
+  "totalSearchVolume": 2690,
   "keywords": [
     {
       "keyword": "Crospovidone",
@@ -7,7 +7,7 @@
     },
     {
       "keyword": "Polyvinylpolypyrrolidone",
-      "volume": 60
+      "volume": 80
     },
     {
       "keyword": "E1202",
@@ -17,5 +17,15 @@
       "keyword": "Cross-linked polyvidone",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Polyvinylpolypyrrolidone",
+      "E1202",
+      "Crospovidone",
+      "Cross-linked polyvidone"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

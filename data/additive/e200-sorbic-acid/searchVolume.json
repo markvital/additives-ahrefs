@@ -9,5 +9,13 @@
       "keyword": "E200",
       "volume": 700
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sorbic acid",
+      "E200"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

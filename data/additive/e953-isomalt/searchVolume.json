@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 14020,
+  "totalSearchVolume": 15020,
   "keywords": [
     {
       "keyword": "isomalt",
-      "volume": 14000
+      "volume": 15000
     },
     {
       "keyword": "E953",
       "volume": 20
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "isomalt",
+      "E953"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

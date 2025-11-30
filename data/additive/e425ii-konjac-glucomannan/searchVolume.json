@@ -9,5 +9,13 @@
       "keyword": "E425II",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Konjac glucomannan",
+      "E425II"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

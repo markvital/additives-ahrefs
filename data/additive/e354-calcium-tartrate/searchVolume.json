@@ -1,5 +1,5 @@
 {
-  "totalSearchVolume": 100,
+  "totalSearchVolume": 110,
   "keywords": [
     {
       "keyword": "Calcium tartrate",
@@ -7,7 +7,15 @@
     },
     {
       "keyword": "E354",
-      "volume": 30
+      "volume": 40
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Calcium tartrate",
+      "E354"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

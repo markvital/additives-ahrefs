@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 1220,
+  "totalSearchVolume": 1320,
   "keywords": [
     {
       "keyword": "Sucrose acetate isobutyrate",
-      "volume": 1200
+      "volume": 1300
     },
     {
       "keyword": "E444",
       "volume": 20
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sucrose acetate isobutyrate",
+      "E444"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

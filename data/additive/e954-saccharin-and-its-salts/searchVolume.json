@@ -1,13 +1,13 @@
 {
-  "totalSearchVolume": 9130,
+  "totalSearchVolume": 7640,
   "keywords": [
     {
       "keyword": "saccharin",
-      "volume": 7100
+      "volume": 5700
     },
     {
       "keyword": "sodium saccharin",
-      "volume": 1700
+      "volume": 1600
     },
     {
       "keyword": "saccharin sodium",
@@ -16,6 +16,10 @@
     {
       "keyword": "E954",
       "volume": 30
+    },
+    {
+      "keyword": "saccharin sodium salt",
+      "volume": 10
     },
     {
       "keyword": "calcium saccharine",
@@ -42,10 +46,6 @@
       "volume": 0
     },
     {
-      "keyword": "saccharin sodium salt",
-      "volume": 0
-    },
-    {
       "keyword": "saccharine potassium",
       "volume": 0
     },
@@ -53,5 +53,24 @@
       "keyword": "sodium saccharin salt",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "saccharin and its salts",
+      "E954",
+      "saccharin",
+      "saccharin sodium salt",
+      "saccharin sodium",
+      "sodium saccharin salt",
+      "saccharin calcium salt",
+      "saccharin calcium",
+      "calcium saccharine",
+      "saccharin potassium salt",
+      "saccharine potassium",
+      "potassium saccharine",
+      "sodium saccharin"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -13,5 +13,14 @@
       "keyword": "Kipper Brown",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Brown FK",
+      "E154",
+      "Kipper Brown"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

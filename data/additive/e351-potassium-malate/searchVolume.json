@@ -3,11 +3,19 @@
   "keywords": [
     {
       "keyword": "E351",
-      "volume": 60
+      "volume": 50
     },
     {
       "keyword": "Potassium malate",
-      "volume": 30
+      "volume": 40
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Potassium malate",
+      "E351"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

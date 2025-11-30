@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 1570,
+  "totalSearchVolume": 1480,
   "keywords": [
     {
       "keyword": "Hydroxypropyl cellulose",
-      "volume": 1500
+      "volume": 1400
     },
     {
       "keyword": "Hydroxypropylcellulose",
@@ -11,7 +11,16 @@
     },
     {
       "keyword": "E463",
-      "volume": 20
+      "volume": 30
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Hydroxypropyl cellulose",
+      "E463",
+      "Hydroxypropylcellulose"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 15510,
+  "totalSearchVolume": 18510,
   "keywords": [
     {
       "keyword": "ferrous gluconate",
-      "volume": 15000
+      "volume": 18000
     },
     {
       "keyword": "iron gluconate",
@@ -13,5 +13,14 @@
       "keyword": "E579",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "iron gluconate",
+      "E579",
+      "ferrous gluconate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

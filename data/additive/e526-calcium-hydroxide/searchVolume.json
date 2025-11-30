@@ -1,17 +1,26 @@
 {
-  "totalSearchVolume": 20040,
+  "totalSearchVolume": 13740,
   "keywords": [
     {
       "keyword": "Calcium hydroxide",
-      "volume": 17000
+      "volume": 11000
     },
     {
       "keyword": "Slaked lime",
-      "volume": 3000
+      "volume": 2700
     },
     {
       "keyword": "E526",
       "volume": 40
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Calcium hydroxide",
+      "E526",
+      "Slaked lime"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

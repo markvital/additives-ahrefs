@@ -9,5 +9,13 @@
       "keyword": "E163C",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Malvidin",
+      "E163C"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

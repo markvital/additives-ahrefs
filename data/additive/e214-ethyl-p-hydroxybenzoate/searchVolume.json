@@ -17,5 +17,15 @@
       "keyword": "ethyl para-hydroxybenzoate",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Ethyl p-hydroxybenzoate",
+      "E214",
+      "Ethylparaben",
+      "ethyl para-hydroxybenzoate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

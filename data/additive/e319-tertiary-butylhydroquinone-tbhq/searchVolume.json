@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 11400,
+  "totalSearchVolume": 10200,
   "keywords": [
     {
       "keyword": "TBHQ",
-      "volume": 11000
+      "volume": 9800
     },
     {
       "keyword": "tertiary butylhydroquinone",
@@ -29,5 +29,18 @@
       "keyword": "Tertiary-butylhydroquinone (tbhq)",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Tertiary-butylhydroquinone (tbhq)",
+      "E319",
+      "Tert-butyl-1‚4-benzenediol",
+      "Butylhydroxinon",
+      "TBHQ",
+      "Tert-Butylhydroquinone",
+      "tertiary butylhydroquinone"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -13,5 +13,14 @@
       "keyword": "Calcium 5'-ribonucleotides",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Calcium 5'-ribonucleotide",
+      "E634",
+      "Calcium 5'-ribonucleotides"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

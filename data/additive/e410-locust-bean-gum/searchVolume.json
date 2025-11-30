@@ -1,13 +1,13 @@
 {
-  "totalSearchVolume": 13510,
+  "totalSearchVolume": 14090,
   "keywords": [
     {
       "keyword": "Locust bean gum",
-      "volume": 9800
+      "volume": 10000
     },
     {
       "keyword": "Carob bean gum",
-      "volume": 3300
+      "volume": 3700
     },
     {
       "keyword": "Carob gum",
@@ -15,15 +15,27 @@
     },
     {
       "keyword": "E410",
-      "volume": 80
+      "volume": 70
     },
     {
       "keyword": "peruvian carob gum",
-      "volume": 30
+      "volume": 20
     },
     {
       "keyword": "garrofin gum",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Locust bean gum",
+      "E410",
+      "Carob bean gum",
+      "Carob gum",
+      "garrofin gum",
+      "peruvian carob gum"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

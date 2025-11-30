@@ -1,42 +1,21 @@
 {
-  "totalSearchVolume": 127040,
+  "totalSearchVolume": 46000,
   "keywords": [
     {
       "keyword": "mineral oil",
-      "volume": 118000
-    },
-    {
-      "keyword": "white mineral oil",
-      "volume": 4400
-    },
-    {
-      "keyword": "food grade mineral oil",
-      "volume": 2400
-    },
-    {
-      "keyword": "mineral oil laxative",
-      "volume": 1900
+      "volume": 46000
     },
     {
       "keyword": "E905A",
-      "volume": 250
-    },
-    {
-      "keyword": "mineral oil food additive",
-      "volume": 90
+      "volume": 0
     }
   ],
   "keywordConfig": {
     "included": [
       "mineral oil",
-      "white mineral oil",
-      "food grade mineral oil",
       "E905A"
     ],
-    "supplementary": [
-      "mineral oil laxative",
-      "mineral oil food additive"
-    ],
+    "supplementary": [],
     "excluded": []
   }
 }

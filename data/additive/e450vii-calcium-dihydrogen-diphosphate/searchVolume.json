@@ -13,5 +13,14 @@
       "keyword": "E450VII",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Calcium dihydrogen diphosphate",
+      "E450VII",
+      "Acid calcium pyrophosphate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

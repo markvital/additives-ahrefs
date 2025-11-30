@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 78450,
+  "totalSearchVolume": 88450,
   "keywords": [
     {
       "keyword": "Caramel",
-      "volume": 78000
+      "volume": 88000
     },
     {
       "keyword": "E150",
       "volume": 450
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Caramel",
+      "E150"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

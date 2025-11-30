@@ -9,5 +9,13 @@
       "keyword": "Ponceau 6R",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Ponceau 6R",
+      "E126"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

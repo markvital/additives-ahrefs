@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 20050,
+  "totalSearchVolume": 15060,
   "keywords": [
     {
       "keyword": "Potassium nitrate",
-      "volume": 20000
+      "volume": 15000
     },
     {
       "keyword": "E252",
-      "volume": 50
+      "volume": 60
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Potassium nitrate",
+      "E252"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

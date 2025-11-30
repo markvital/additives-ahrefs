@@ -1,5 +1,5 @@
 {
-  "totalSearchVolume": 430,
+  "totalSearchVolume": 420,
   "keywords": [
     {
       "keyword": "carmoisine",
@@ -14,15 +14,15 @@
       "volume": 60
     },
     {
-      "keyword": "Azorubin S",
-      "volume": 10
-    },
-    {
       "keyword": "Food Red 3",
       "volume": 10
     },
     {
       "keyword": "Acid Red 14",
+      "volume": 0
+    },
+    {
+      "keyword": "Azorubin S",
       "volume": 0
     },
     {
@@ -33,5 +33,19 @@
       "keyword": "C.I. 14720",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Azorubine",
+      "E122",
+      "carmoisine",
+      "Food Red 3",
+      "Brillantcarmoisin O",
+      "Acid Red 14",
+      "Azorubin S",
+      "C.I. 14720"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

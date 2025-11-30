@@ -9,5 +9,13 @@
       "keyword": "Calcium erythorbin",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Calcium erythorbin",
+      "E318"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

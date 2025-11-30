@@ -9,5 +9,13 @@
       "keyword": "E331II",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Disodium citrate",
+      "E331II"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

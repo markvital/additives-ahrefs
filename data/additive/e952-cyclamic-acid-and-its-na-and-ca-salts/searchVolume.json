@@ -1,5 +1,5 @@
 {
-  "totalSearchVolume": 450,
+  "totalSearchVolume": 400,
   "keywords": [
     {
       "keyword": "cyclamates",
@@ -7,7 +7,7 @@
     },
     {
       "keyword": "sodium cyclamate",
-      "volume": 150
+      "volume": 100
     },
     {
       "keyword": "E952",
@@ -21,5 +21,16 @@
       "keyword": "Cyclamic acid and its Na and Ca salts",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Cyclamic acid and its Na and Ca salts",
+      "E952",
+      "Cyclamic acid",
+      "sodium cyclamate",
+      "cyclamates"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

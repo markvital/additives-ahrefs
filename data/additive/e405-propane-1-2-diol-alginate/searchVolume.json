@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 980,
+  "totalSearchVolume": 880,
   "keywords": [
     {
       "keyword": "Propylene glycol alginate",
-      "volume": 900
+      "volume": 800
     },
     {
       "keyword": "E405",
@@ -13,5 +13,14 @@
       "keyword": "Propane-1‚2-diol alginate",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Propane-1‚2-diol alginate",
+      "E405",
+      "Propylene glycol alginate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

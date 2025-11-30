@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 4050,
+  "totalSearchVolume": 4480,
   "keywords": [
     {
       "keyword": "Mono and diglycerides",
-      "volume": 3200
+      "volume": 3600
     },
     {
       "keyword": "Glyceryl monostearate",
@@ -15,19 +15,19 @@
     },
     {
       "keyword": "Glyceryl monooleate",
-      "volume": 60
+      "volume": 80
+    },
+    {
+      "keyword": "Monoolein",
+      "volume": 50
     },
     {
       "keyword": "Mono- and diglycerides of fatty acids",
       "volume": 30
     },
     {
-      "keyword": "Monoolein",
-      "volume": 30
-    },
-    {
       "keyword": "Monopalmitin",
-      "volume": 20
+      "volume": 10
     },
     {
       "keyword": "Monostearin",
@@ -37,5 +37,20 @@
       "keyword": "Glyceryl monopalmitate",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Mono- and diglycerides of fatty acids",
+      "E471",
+      "Glyceryl monostearate",
+      "Glyceryl monopalmitate",
+      "Glyceryl monooleate",
+      "Monostearin",
+      "Monopalmitin",
+      "Monoolein",
+      "Mono and diglycerides"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

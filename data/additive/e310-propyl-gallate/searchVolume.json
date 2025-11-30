@@ -1,5 +1,5 @@
 {
-  "totalSearchVolume": 1700,
+  "totalSearchVolume": 1650,
   "keywords": [
     {
       "keyword": "Propyl gallate",
@@ -7,11 +7,20 @@
     },
     {
       "keyword": "E310",
-      "volume": 200
+      "volume": 150
     },
     {
       "keyword": "Propyl ester of gallic acid",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Propyl gallate",
+      "E310",
+      "Propyl ester of gallic acid"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

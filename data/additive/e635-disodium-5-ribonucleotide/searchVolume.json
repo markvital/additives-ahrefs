@@ -1,17 +1,26 @@
 {
-  "totalSearchVolume": 260,
+  "totalSearchVolume": 160,
   "keywords": [
     {
       "keyword": "E635",
-      "volume": 150
+      "volume": 100
     },
     {
       "keyword": "Disodium 5'-ribonucleotides",
-      "volume": 100
+      "volume": 50
     },
     {
       "keyword": "Disodium 5'-ribonucleotide",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Disodium 5'-ribonucleotide",
+      "E635",
+      "Disodium 5'-ribonucleotides"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

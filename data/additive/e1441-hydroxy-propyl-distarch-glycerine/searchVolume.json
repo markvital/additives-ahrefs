@@ -9,5 +9,13 @@
       "keyword": "Hydroxy propyl distarch glycerine",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Hydroxy propyl distarch glycerine",
+      "E1441"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

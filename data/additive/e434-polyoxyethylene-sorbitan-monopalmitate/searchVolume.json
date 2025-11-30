@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 60,
+  "totalSearchVolume": 70,
   "keywords": [
     {
       "keyword": "Polysorbate 40",
-      "volume": 50
+      "volume": 60
     },
     {
       "keyword": "E434",
@@ -13,5 +13,14 @@
       "keyword": "Polyoxyethylene sorbitan monopalmitate",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Polyoxyethylene sorbitan monopalmitate",
+      "E434",
+      "Polysorbate 40"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

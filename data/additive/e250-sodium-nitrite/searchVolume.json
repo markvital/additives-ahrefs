@@ -1,17 +1,26 @@
 {
-  "totalSearchVolume": 15400,
+  "totalSearchVolume": 12500,
   "keywords": [
     {
       "keyword": "Sodium nitrite",
-      "volume": 11000
+      "volume": 8900
     },
     {
       "keyword": "NaNO2",
-      "volume": 3200
+      "volume": 2400
     },
     {
       "keyword": "E250",
       "volume": 1200
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sodium nitrite",
+      "E250",
+      "NaNO2"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

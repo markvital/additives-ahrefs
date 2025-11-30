@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 600,
+  "totalSearchVolume": 950,
   "keywords": [
     {
       "keyword": "Phosphatides",
-      "volume": 350
+      "volume": 700
     },
     {
       "keyword": "Lecithins",
@@ -13,5 +13,14 @@
       "keyword": "E322",
       "volume": 100
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Lecithins",
+      "E322",
+      "Phosphatides"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

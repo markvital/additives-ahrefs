@@ -1,13 +1,13 @@
 {
-  "totalSearchVolume": 22640,
+  "totalSearchVolume": 22740,
   "keywords": [
     {
       "keyword": "stevia leaf extract",
-      "volume": 14000
+      "volume": 13000
     },
     {
       "keyword": "Steviol glycosides",
-      "volume": 6600
+      "volume": 7700
     },
     {
       "keyword": "steviol",
@@ -25,5 +25,17 @@
       "keyword": "E960",
       "volume": 40
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Steviol glycosides",
+      "E960",
+      "Steviol glycoside",
+      "stevia rebaudiana extract",
+      "stevia leaf extract",
+      "steviol"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

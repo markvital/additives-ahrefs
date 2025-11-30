@@ -9,5 +9,13 @@
       "keyword": "E314",
       "volume": 50
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Guaiacum",
+      "E314"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

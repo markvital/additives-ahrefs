@@ -1,13 +1,13 @@
 {
-  "totalSearchVolume": 8350,
+  "totalSearchVolume": 7750,
   "keywords": [
     {
       "keyword": "Sodium Acid Pyrophosphate",
-      "volume": 4500
+      "volume": 4100
     },
     {
       "keyword": "sapp",
-      "volume": 2600
+      "volume": 2400
     },
     {
       "keyword": "disodium dihydrogen pyrophosphate",
@@ -29,5 +29,18 @@
       "keyword": "disodium dihydrogen diphosphate",
       "volume": 20
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Disodium diphosphate",
+      "E450I",
+      "Sodium Acid Pyrophosphate",
+      "sapp",
+      "disodium dihydrogen pyrophosphate",
+      "disodium pyrophosphate",
+      "disodium dihydrogen diphosphate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

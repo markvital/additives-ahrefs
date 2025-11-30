@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 1900,
+  "totalSearchVolume": 1410,
   "keywords": [
     {
       "keyword": "potassium iodate",
-      "volume": 1900
+      "volume": 1400
     },
     {
       "keyword": "E917",
-      "volume": 0
+      "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "potassium iodate",
+      "E917"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

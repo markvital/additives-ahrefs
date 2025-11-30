@@ -1,5 +1,5 @@
 {
-  "totalSearchVolume": 40,
+  "totalSearchVolume": 50,
   "keywords": [
     {
       "keyword": "Choline salt",
@@ -7,7 +7,15 @@
     },
     {
       "keyword": "E1001",
-      "volume": 10
+      "volume": 20
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Choline salt",
+      "E1001"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

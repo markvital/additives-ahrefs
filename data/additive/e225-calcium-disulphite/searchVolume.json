@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 1690,
+  "totalSearchVolume": 1090,
   "keywords": [
     {
       "keyword": "Potassium sulfite",
-      "volume": 1600
+      "volume": 1000
     },
     {
       "keyword": "Potassium sulphite",
@@ -29,5 +29,18 @@
       "keyword": "Calcium Pyrosulphite",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Calcium Disulphite",
+      "E225",
+      "Calcium Disulfite",
+      "Calcium Pyrosulphite",
+      "Calcium Pyrosulfite",
+      "Potassium sulfite",
+      "Potassium sulphite"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

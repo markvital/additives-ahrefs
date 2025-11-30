@@ -9,5 +9,13 @@
       "keyword": "Phosphated distarch phosphate",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Phosphated distarch phosphate",
+      "E1413"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

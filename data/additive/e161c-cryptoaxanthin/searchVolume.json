@@ -1,17 +1,26 @@
 {
-  "totalSearchVolume": 70,
+  "totalSearchVolume": 80,
   "keywords": [
     {
       "keyword": "Cryptoxanthin",
       "volume": 70
     },
     {
-      "keyword": "Cryptoaxanthin",
-      "volume": 0
+      "keyword": "E161C",
+      "volume": 10
     },
     {
-      "keyword": "E161C",
+      "keyword": "Cryptoaxanthin",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Cryptoaxanthin",
+      "E161C",
+      "Cryptoxanthin"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

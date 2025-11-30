@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 8390,
+  "totalSearchVolume": 11190,
   "keywords": [
     {
       "keyword": "E622",
-      "volume": 8200
+      "volume": 11000
     },
     {
       "keyword": "Potassium glutamate",
@@ -13,5 +13,14 @@
       "keyword": "Monopotassium glutamate",
       "volume": 40
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Monopotassium glutamate",
+      "E622",
+      "Potassium glutamate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -9,5 +9,13 @@
       "keyword": "Beta-cyclodextrine",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Beta-cyclodextrine",
+      "E459"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

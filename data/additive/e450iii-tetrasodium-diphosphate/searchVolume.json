@@ -25,5 +25,17 @@
       "keyword": "Tetrasodium disphosphate",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Tetrasodium diphosphate",
+      "E450III",
+      "Tetrasodium pyrophosphate",
+      "Tetrasodium disphosphate",
+      "sodium pyrophosphate",
+      "TSPP"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

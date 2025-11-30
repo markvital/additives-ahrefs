@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 540,
+  "totalSearchVolume": 350,
   "keywords": [
     {
       "keyword": "Calcium sulfite",
-      "volume": 500
+      "volume": 300
     },
     {
       "keyword": "E226",
@@ -11,7 +11,16 @@
     },
     {
       "keyword": "Calcium sulphite",
-      "volume": 0
+      "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Calcium sulphite",
+      "E226",
+      "Calcium sulfite"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

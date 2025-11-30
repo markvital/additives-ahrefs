@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 1320,
+  "totalSearchVolume": 1420,
   "keywords": [
     {
       "keyword": "rosemary extract",
-      "volume": 1300
+      "volume": 1400
     },
     {
       "keyword": "E392",
@@ -13,5 +13,14 @@
       "keyword": "Extracts of rosemary",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Extracts of rosemary",
+      "E392",
+      "rosemary extract"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

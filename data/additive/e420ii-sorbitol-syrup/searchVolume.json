@@ -9,5 +9,13 @@
       "keyword": "E420II",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sorbitol syrup",
+      "E420II"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -9,5 +9,13 @@
       "keyword": "Plant carotenes",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Plant carotenes",
+      "E160AII"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

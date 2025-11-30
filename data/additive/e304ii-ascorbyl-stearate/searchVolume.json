@@ -13,5 +13,14 @@
       "keyword": "E304II",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Ascorbyl stearate",
+      "E304II",
+      "E305"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

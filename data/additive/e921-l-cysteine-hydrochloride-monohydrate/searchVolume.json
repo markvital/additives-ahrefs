@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 400,
+  "totalSearchVolume": 350,
   "keywords": [
     {
       "keyword": "E921",
-      "volume": 350
+      "volume": 300
     },
     {
       "keyword": "L-cysteine hydrochloride monohydrate",
       "volume": 50
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "L-cysteine hydrochloride monohydrate",
+      "E921"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

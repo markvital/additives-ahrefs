@@ -1,13 +1,13 @@
 {
-  "totalSearchVolume": 50,
+  "totalSearchVolume": 70,
   "keywords": [
     {
       "keyword": "Benzole peroxide",
-      "volume": 50
+      "volume": 60
     },
     {
       "keyword": "E928",
-      "volume": 0
+      "volume": 10
     }
   ],
   "keywordConfig": {

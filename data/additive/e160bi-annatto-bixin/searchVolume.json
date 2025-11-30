@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 410,
+  "totalSearchVolume": 360,
   "keywords": [
     {
       "keyword": "Bixin",
-      "volume": 400
+      "volume": 350
     },
     {
       "keyword": "Annatto bixin",
@@ -13,5 +13,14 @@
       "keyword": "E160BI",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Annatto bixin",
+      "E160BI",
+      "Bixin"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

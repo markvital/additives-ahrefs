@@ -9,5 +9,13 @@
       "keyword": "E576",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sodium gluconate",
+      "E576"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

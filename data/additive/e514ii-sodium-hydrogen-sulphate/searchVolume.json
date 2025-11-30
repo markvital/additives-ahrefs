@@ -1,5 +1,5 @@
 {
-  "totalSearchVolume": 180,
+  "totalSearchVolume": 170,
   "keywords": [
     {
       "keyword": "Sodium bisulphate",
@@ -7,7 +7,7 @@
     },
     {
       "keyword": "Sodium hydrogen sulphate",
-      "volume": 30
+      "volume": 20
     },
     {
       "keyword": "Acid sodium sulphate",
@@ -17,5 +17,15 @@
       "keyword": "E514II",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sodium hydrogen sulphate",
+      "E514II",
+      "Acid sodium sulphate",
+      "Sodium bisulphate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

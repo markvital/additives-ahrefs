@@ -1,20 +1,16 @@
 {
-  "totalSearchVolume": 26910,
+  "totalSearchVolume": 32670,
   "keywords": [
     {
       "keyword": "Yellow 5",
-      "volume": 14000
+      "volume": 19000
     },
     {
       "keyword": "Tartrazine",
-      "volume": 8200
+      "volume": 9300
     },
     {
       "keyword": "Yellow 5 lake",
-      "volume": 1300
-    },
-    {
-      "keyword": "FD&C Yellow 5",
       "volume": 1200
     },
     {
@@ -22,12 +18,16 @@
       "volume": 1200
     },
     {
+      "keyword": "FD&C Yellow 5",
+      "volume": 1000
+    },
+    {
       "keyword": "E102",
       "volume": 450
     },
     {
       "keyword": "Yellow no 5",
-      "volume": 400
+      "volume": 350
     },
     {
       "keyword": "FD and C Yellow 5",
@@ -38,16 +38,34 @@
       "volume": 10
     },
     {
+      "keyword": "Yellow no5",
+      "volume": 10
+    },
+    {
       "keyword": "FD and C Yellow no. 5",
       "volume": 0
     },
     {
       "keyword": "FD&C Yellow no5",
       "volume": 0
-    },
-    {
-      "keyword": "Yellow no5",
-      "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Tartrazine",
+      "E102",
+      "Yellow 5",
+      "Yellow number 5",
+      "Yellow no 5",
+      "Yellow no5",
+      "FD&C Yellow 5",
+      "FD&C Yellow no 5",
+      "FD&C Yellow no5",
+      "FD and C Yellow no. 5",
+      "FD and C Yellow 5",
+      "Yellow 5 lake"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

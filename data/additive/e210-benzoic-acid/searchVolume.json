@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 34250,
+  "totalSearchVolume": 33200,
   "keywords": [
     {
       "keyword": "Benzoic acid",
-      "volume": 34000
+      "volume": 33000
     },
     {
       "keyword": "E210",
-      "volume": 250
+      "volume": 200
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Benzoic acid",
+      "E210"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

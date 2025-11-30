@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 1290,
+  "totalSearchVolume": 1210,
   "keywords": [
     {
       "keyword": "Potassium alum",
-      "volume": 1100
+      "volume": 1000
     },
     {
       "keyword": "potash alum",
@@ -15,11 +15,22 @@
     },
     {
       "keyword": "Potassium aluminium sulfate",
-      "volume": 20
+      "volume": 30
     },
     {
       "keyword": "Aluminium potassium sulphate",
-      "volume": 10
+      "volume": 20
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Aluminium potassium sulphate",
+      "E522",
+      "Potassium alum",
+      "Potassium aluminium sulfate",
+      "potash alum"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

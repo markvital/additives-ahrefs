@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 810,
+  "totalSearchVolume": 1110,
   "keywords": [
     {
       "keyword": "magnesium silicate",
-      "volume": 800
+      "volume": 1100
     },
     {
       "keyword": "E553",
@@ -13,5 +13,14 @@
       "keyword": "Magnesium silicates",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Magnesium silicates",
+      "E553",
+      "magnesium silicate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

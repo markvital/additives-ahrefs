@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 160,
+  "totalSearchVolume": 150,
   "keywords": [
     {
       "keyword": "Polyphosphates",
-      "volume": 100
+      "volume": 90
     },
     {
       "keyword": "E452",
@@ -13,5 +13,14 @@
       "keyword": "Polyphosphate E452",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Polyphosphates",
+      "E452",
+      "Polyphosphate E452"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

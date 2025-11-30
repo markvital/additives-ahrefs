@@ -9,5 +9,13 @@
       "keyword": "E389",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Dilauryl thiodipropionate",
+      "E389"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

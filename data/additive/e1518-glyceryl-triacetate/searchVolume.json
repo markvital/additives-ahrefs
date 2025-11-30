@@ -21,5 +21,16 @@
       "keyword": "glycerin triacetate",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Glyceryl triacetate",
+      "E1518",
+      "Triacetin",
+      "glycerin triacetate",
+      "1‚2‚3-triacetoxypropane"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

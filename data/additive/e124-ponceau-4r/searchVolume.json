@@ -25,5 +25,17 @@
       "keyword": "CI Food Red 7",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Ponceau 4r",
+      "E124",
+      "cochineal red a",
+      "CI Food Red 7",
+      "Brilliant Scarlet 4R",
+      "Ponceau"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

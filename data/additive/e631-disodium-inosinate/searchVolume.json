@@ -1,17 +1,26 @@
 {
-  "totalSearchVolume": 7410,
+  "totalSearchVolume": 9110,
   "keywords": [
     {
-      "keyword": "Disodium inosinate",
-      "volume": 4000
+      "keyword": "E631",
+      "volume": 4700
     },
     {
-      "keyword": "E631",
-      "volume": 3400
+      "keyword": "Disodium inosinate",
+      "volume": 4400
     },
     {
       "keyword": "Sodium inosinate",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Disodium inosinate",
+      "E631",
+      "Sodium inosinate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

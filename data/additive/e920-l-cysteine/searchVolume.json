@@ -1,17 +1,17 @@
 {
-  "totalSearchVolume": 4350,
+  "totalSearchVolume": 4160,
   "keywords": [
     {
       "keyword": "l-cysteine",
-      "volume": 4100
+      "volume": 3900
     },
     {
       "keyword": "L-cysteine hydrochloride",
-      "volume": 200
+      "volume": 150
     },
     {
       "keyword": "E920",
-      "volume": 40
+      "volume": 100
     },
     {
       "keyword": "L-Cys",
@@ -33,5 +33,19 @@
       "keyword": "L-2-Amino-3-mercaptopropionic acid",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "l-cysteine",
+      "E920",
+      "L-cysteine hydrochloride",
+      "L-2-Amino-3-mercaptopropionic acid",
+      "L-Cys",
+      "(R)-2-Amino-3-mercaptopropanoic acid",
+      "(2R)-2-amino-3-sulfanylpropanoic acid",
+      "(2R)-2-amino-3-mercaptopropanoic acid"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

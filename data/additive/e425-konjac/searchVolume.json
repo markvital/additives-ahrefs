@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 40050,
+  "totalSearchVolume": 35050,
   "keywords": [
     {
       "keyword": "Konjac",
-      "volume": 40000
+      "volume": 35000
     },
     {
       "keyword": "E425",
       "volume": 50
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Konjac",
+      "E425"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

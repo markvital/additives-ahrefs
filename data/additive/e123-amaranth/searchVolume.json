@@ -1,17 +1,26 @@
 {
-  "totalSearchVolume": 86210,
+  "totalSearchVolume": 82260,
   "keywords": [
     {
       "keyword": "Amaranth",
-      "volume": 86000
+      "volume": 82000
     },
     {
       "keyword": "E123",
-      "volume": 200
+      "volume": 250
     },
     {
       "keyword": "FD&C Red 2",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Amaranth",
+      "E123",
+      "FD&C Red 2"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

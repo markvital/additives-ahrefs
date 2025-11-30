@@ -13,5 +13,14 @@
       "keyword": "E420I",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "D-sorbitol",
+      "E420I",
+      "D-glucitol"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

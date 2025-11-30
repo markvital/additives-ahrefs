@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 3980,
+  "totalSearchVolume": 4580,
   "keywords": [
     {
       "keyword": "Polysorbate 60",
-      "volume": 3900
+      "volume": 4500
     },
     {
       "keyword": "E435",
@@ -13,5 +13,14 @@
       "keyword": "Polyoxyethylene sorbitan monostearate",
       "volume": 40
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Polyoxyethylene sorbitan monostearate",
+      "E435",
+      "Polysorbate 60"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 180,
+  "totalSearchVolume": 230,
   "keywords": [
     {
       "keyword": "E150D",
-      "volume": 150
+      "volume": 200
     },
     {
       "keyword": "Sulphite ammonia caramel",
@@ -41,5 +41,21 @@
       "keyword": "soft-drink caramel",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sulphite ammonia caramel",
+      "E150D",
+      "Sulfite ammonia caramel",
+      "Caramel Colour Ammonium Sulphite Process",
+      "Colour Sulphite Ammonia Caramel",
+      "Colour E150d",
+      "Food Colour 150d",
+      "CAS 8028-89-5",
+      "acid-proof caramel",
+      "soft-drink caramel"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

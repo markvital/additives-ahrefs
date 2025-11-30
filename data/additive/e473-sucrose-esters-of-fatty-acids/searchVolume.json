@@ -1,5 +1,5 @@
 {
-  "totalSearchVolume": 510,
+  "totalSearchVolume": 490,
   "keywords": [
     {
       "keyword": "sucrose esters",
@@ -11,7 +11,7 @@
     },
     {
       "keyword": "E473",
-      "volume": 90
+      "volume": 70
     },
     {
       "keyword": "sugar ester",
@@ -21,5 +21,16 @@
       "keyword": "Sucroesters",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sucrose esters of fatty acids",
+      "E473",
+      "Sucroesters",
+      "sugar ester",
+      "sucrose esters"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

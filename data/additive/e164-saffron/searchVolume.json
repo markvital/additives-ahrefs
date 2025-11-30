@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 196450,
+  "totalSearchVolume": 186450,
   "keywords": [
     {
       "keyword": "saffron",
-      "volume": 196000
+      "volume": 186000
     },
     {
       "keyword": "E164",
@@ -13,5 +13,14 @@
       "keyword": "Gardenia Yellow",
       "volume": 50
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "saffron",
+      "E164",
+      "Gardenia Yellow"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

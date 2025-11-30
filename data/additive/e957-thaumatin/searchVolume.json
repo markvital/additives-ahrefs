@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 2510,
+  "totalSearchVolume": 2010,
   "keywords": [
     {
       "keyword": "Thaumatin",
-      "volume": 2500
+      "volume": 2000
     },
     {
       "keyword": "E957",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Thaumatin",
+      "E957"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

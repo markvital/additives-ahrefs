@@ -9,5 +9,13 @@
       "keyword": "E380",
       "volume": 30
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Triammonium citrate",
+      "E380"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

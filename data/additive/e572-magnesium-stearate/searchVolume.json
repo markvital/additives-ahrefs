@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 24020,
+  "totalSearchVolume": 23020,
   "keywords": [
     {
       "keyword": "Magnesium stearate",
-      "volume": 24000
+      "volume": 23000
     },
     {
       "keyword": "E572",
       "volume": 20
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Magnesium stearate",
+      "E572"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

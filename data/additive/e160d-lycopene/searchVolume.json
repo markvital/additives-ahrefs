@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 31010,
+  "totalSearchVolume": 27010,
   "keywords": [
     {
       "keyword": "Lycopene",
-      "volume": 31000
+      "volume": 27000
     },
     {
       "keyword": "E160D",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Lycopene",
+      "E160D"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

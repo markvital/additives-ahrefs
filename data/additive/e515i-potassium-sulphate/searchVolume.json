@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 50,
+  "totalSearchVolume": 100,
   "keywords": [
     {
       "keyword": "Potassium sulphate",
-      "volume": 50
+      "volume": 100
     },
     {
       "keyword": "E515I",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Potassium sulphate",
+      "E515I"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

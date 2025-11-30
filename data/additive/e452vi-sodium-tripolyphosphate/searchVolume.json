@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 3500,
+  "totalSearchVolume": 3200,
   "keywords": [
     {
       "keyword": "Sodium tripolyphosphate",
-      "volume": 3500
+      "volume": 3200
     },
     {
       "keyword": "E452VI",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sodium tripolyphosphate",
+      "E452VI"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

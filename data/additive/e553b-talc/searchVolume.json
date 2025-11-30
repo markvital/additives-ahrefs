@@ -1,13 +1,13 @@
 {
-  "totalSearchVolume": 33260,
+  "totalSearchVolume": 32660,
   "keywords": [
     {
       "keyword": "Talc",
-      "volume": 31000
+      "volume": 30000
     },
     {
       "keyword": "talcum",
-      "volume": 2100
+      "volume": 2500
     },
     {
       "keyword": "hydrated magnesium silicate",
@@ -17,5 +17,15 @@
       "keyword": "E553B",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Talc",
+      "E553B",
+      "talcum",
+      "hydrated magnesium silicate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

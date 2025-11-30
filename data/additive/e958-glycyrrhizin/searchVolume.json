@@ -9,5 +9,13 @@
       "keyword": "E958",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Glycyrrhizin",
+      "E958"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

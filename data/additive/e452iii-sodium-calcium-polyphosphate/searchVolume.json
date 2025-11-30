@@ -9,5 +9,13 @@
       "keyword": "Sodium calcium polyphosphate",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sodium calcium polyphosphate",
+      "E452III"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

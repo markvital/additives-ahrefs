@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 100,
+  "totalSearchVolume": 90,
   "keywords": [
     {
       "keyword": "E311",
-      "volume": 70
+      "volume": 60
     },
     {
       "keyword": "Octyl gallate",
@@ -13,5 +13,14 @@
       "keyword": "Octyl ester of gallic acid",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Octyl gallate",
+      "E311",
+      "Octyl ester of gallic acid"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

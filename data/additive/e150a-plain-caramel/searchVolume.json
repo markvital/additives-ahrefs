@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 6710,
+  "totalSearchVolume": 7850,
   "keywords": [
     {
       "keyword": "caramel color",
-      "volume": 6100
+      "volume": 7300
     },
     {
       "keyword": "caramel coloring",
@@ -11,11 +11,21 @@
     },
     {
       "keyword": "E150A",
-      "volume": 100
+      "volume": 50
     },
     {
       "keyword": "Plain caramel",
-      "volume": 10
+      "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Plain caramel",
+      "E150A",
+      "caramel color",
+      "caramel coloring"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

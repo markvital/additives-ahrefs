@@ -1,17 +1,26 @@
 {
-  "totalSearchVolume": 100,
+  "totalSearchVolume": 120,
   "keywords": [
     {
       "keyword": "E308",
-      "volume": 90
+      "volume": 80
     },
     {
       "keyword": "gamma-Tocopherol",
-      "volume": 10
+      "volume": 40
     },
     {
       "keyword": "Gamme-tocopherol",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Gamme-tocopherol",
+      "E308",
+      "gamma-Tocopherol"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

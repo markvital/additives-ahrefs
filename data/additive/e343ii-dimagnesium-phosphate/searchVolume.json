@@ -1,12 +1,12 @@
 {
-  "totalSearchVolume": 140,
+  "totalSearchVolume": 120,
   "keywords": [
     {
-      "keyword": "magnesium hydrogen phosphate",
-      "volume": 80
+      "keyword": "Dimagnesium phosphate",
+      "volume": 60
     },
     {
-      "keyword": "Dimagnesium phosphate",
+      "keyword": "magnesium hydrogen phosphate",
       "volume": 60
     },
     {
@@ -37,5 +37,20 @@
       "keyword": "Magnesiumphosphate - dibasic",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Dimagnesium phosphate",
+      "E343II",
+      "Magnesiumhydrogenphosphate",
+      "Magnesiumphosphate - dibasic",
+      "Dimagnesium orthophosphate",
+      "magnesium hydrogen phosphate",
+      "E 343ii",
+      "E-343ii",
+      "E343 ii"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

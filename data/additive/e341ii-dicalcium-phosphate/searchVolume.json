@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 6450,
+  "totalSearchVolume": 6050,
   "keywords": [
     {
       "keyword": "Dicalcium phosphate",
-      "volume": 5800
+      "volume": 5400
     },
     {
       "keyword": "Dibasic calcium phosphate",
@@ -29,5 +29,18 @@
       "keyword": "E341II",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Dicalcium phosphate",
+      "E341II",
+      "Dibasic calcium phosphate",
+      "di-calcium phosphate",
+      "E 341ii",
+      "E-341ii",
+      "E341 ii"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

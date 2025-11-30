@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 50,
+  "totalSearchVolume": 60,
   "keywords": [
     {
       "keyword": "E538",
-      "volume": 30
+      "volume": 40
     },
     {
       "keyword": "Calcium ferrocyanide",
@@ -13,5 +13,14 @@
       "keyword": "Yellow prussiate of lime",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Calcium ferrocyanide",
+      "E538",
+      "Yellow prussiate of lime"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

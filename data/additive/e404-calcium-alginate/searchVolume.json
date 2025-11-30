@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 5300,
+  "totalSearchVolume": 6100,
   "keywords": [
     {
       "keyword": "Calcium alginate",
-      "volume": 4600
+      "volume": 5400
     },
     {
       "keyword": "E404",
       "volume": 700
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Calcium alginate",
+      "E404"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

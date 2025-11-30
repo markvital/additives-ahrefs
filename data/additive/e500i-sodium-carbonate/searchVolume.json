@@ -1,17 +1,26 @@
 {
-  "totalSearchVolume": 66000,
+  "totalSearchVolume": 57000,
   "keywords": [
     {
       "keyword": "Sodium carbonate",
-      "volume": 43000
+      "volume": 36000
     },
     {
       "keyword": "washing soda",
-      "volume": 23000
+      "volume": 21000
     },
     {
       "keyword": "E500I",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sodium carbonate",
+      "E500I",
+      "washing soda"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

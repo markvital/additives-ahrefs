@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 25070,
+  "totalSearchVolume": 21070,
   "keywords": [
     {
       "keyword": "BHA",
-      "volume": 23000
+      "volume": 19000
     },
     {
       "keyword": "E320",
@@ -17,5 +17,15 @@
       "keyword": "Butylated hydroxyanisole (bha)",
       "volume": 70
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Butylated hydroxyanisole (bha)",
+      "E320",
+      "Butylated hydroxyanisole",
+      "BHA"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

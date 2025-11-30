@@ -9,5 +9,13 @@
       "keyword": "Starch aluminium octenyl succinate",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Starch aluminium octenyl succinate",
+      "E1452"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

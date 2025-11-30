@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 30,
+  "totalSearchVolume": 20,
   "keywords": [
-    {
-      "keyword": "Monosodium tartrate",
-      "volume": 20
-    },
     {
       "keyword": "E335I",
       "volume": 10
+    },
+    {
+      "keyword": "Monosodium tartrate",
+      "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Monosodium tartrate",
+      "E335I"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

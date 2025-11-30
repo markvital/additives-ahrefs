@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 133020,
+  "totalSearchVolume": 103020,
   "keywords": [
     {
       "keyword": "Xylitol",
-      "volume": 133000
+      "volume": 103000
     },
     {
       "keyword": "E967",
       "volume": 20
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Xylitol",
+      "E967"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 10050,
+  "totalSearchVolume": 6750,
   "keywords": [
     {
       "keyword": "Glutamic acid",
-      "volume": 9700
+      "volume": 6400
     },
     {
       "keyword": "L-Glutamic acid",
@@ -13,5 +13,14 @@
       "keyword": "E620",
       "volume": 100
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Glutamic acid",
+      "E620",
+      "L-Glutamic acid"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 250,
+  "totalSearchVolume": 300,
   "keywords": [
     {
       "keyword": "Tricalcium citrate",
-      "volume": 250
+      "volume": 300
     },
     {
       "keyword": "E333III",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Tricalcium citrate",
+      "E333III"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

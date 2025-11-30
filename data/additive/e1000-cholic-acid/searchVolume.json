@@ -9,5 +9,13 @@
       "keyword": "E1000",
       "volume": 350
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Cholic acid",
+      "E1000"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

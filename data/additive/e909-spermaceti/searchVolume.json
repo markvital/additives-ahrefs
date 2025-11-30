@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 2310,
+  "totalSearchVolume": 1610,
   "keywords": [
     {
       "keyword": "Spermaceti",
-      "volume": 2300
+      "volume": 1600
     },
     {
       "keyword": "E909",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Spermaceti",
+      "E909"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

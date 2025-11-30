@@ -21,5 +21,16 @@
       "keyword": "Alpha-naphtol",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Orange GGN",
+      "E111",
+      "Alpha-naphthol",
+      "Alpha-naphtol",
+      "alpha-naphthol orange"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

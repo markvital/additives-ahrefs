@@ -1,17 +1,26 @@
 {
-  "totalSearchVolume": 14800,
+  "totalSearchVolume": 12400,
   "keywords": [
     {
       "keyword": "Potassium bicarbonate",
-      "volume": 14000
+      "volume": 12000
     },
     {
       "keyword": "Potassium hydrogen carbonate",
-      "volume": 800
+      "volume": 400
     },
     {
       "keyword": "E501II",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Potassium hydrogen carbonate",
+      "E501II",
+      "Potassium bicarbonate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

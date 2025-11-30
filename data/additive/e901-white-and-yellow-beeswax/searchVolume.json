@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 34210,
+  "totalSearchVolume": 33210,
   "keywords": [
     {
       "keyword": "beeswax",
-      "volume": 33000
+      "volume": 32000
     },
     {
       "keyword": "white wax",
@@ -25,5 +25,17 @@
       "keyword": "white and yellow beeswax",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "white and yellow beeswax",
+      "E901",
+      "beeswax",
+      "white beeswax",
+      "yellow beeswax",
+      "white wax"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

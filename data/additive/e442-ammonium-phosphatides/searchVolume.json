@@ -21,5 +21,16 @@
       "keyword": "Mixed ammonium salts of phosphorylated glycerides",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Ammonium phosphatides",
+      "E442",
+      "Mixed ammonium salts of phosphorylated glycerides",
+      "Emulsifier YN",
+      "Ammonium phosphatide"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

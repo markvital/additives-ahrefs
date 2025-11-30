@@ -9,5 +9,13 @@
       "keyword": "E307C",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "DL-Alpha-tocopherol",
+      "E307C"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "totalSearchVolume": 130,
+  "totalSearchVolume": 140,
   "keywords": [
     {
       "keyword": "E103",
@@ -7,7 +7,15 @@
     },
     {
       "keyword": "Alkannin",
-      "volume": 30
+      "volume": 40
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Alkannin",
+      "E103"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

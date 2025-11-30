@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 60,
+  "totalSearchVolume": 70,
   "keywords": [
     {
       "keyword": "E914",
-      "volume": 50
+      "volume": 60
     },
     {
       "keyword": "Oxidised polyethylene wax",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Oxidised polyethylene wax",
+      "E914"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

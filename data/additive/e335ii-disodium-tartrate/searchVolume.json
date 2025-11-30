@@ -9,5 +9,13 @@
       "keyword": "E335II",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Disodium tartrate",
+      "E335II"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

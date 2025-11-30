@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 7870,
+  "totalSearchVolume": 7670,
   "keywords": [
     {
       "keyword": "tartaric acid",
-      "volume": 7800
+      "volume": 7600
     },
     {
       "keyword": "E334",
@@ -37,5 +37,20 @@
       "keyword": "uvic acid",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "L(+)-tartaric acid",
+      "E334",
+      "tartaric acid",
+      "2‚3-dihydroxybutanedioic acid",
+      "2‚3-dihydroxysuccinic acid",
+      "threaric acid",
+      "racemic acid",
+      "uvic acid",
+      "paratartaric acid"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

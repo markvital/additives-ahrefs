@@ -21,5 +21,16 @@
       "keyword": "Calcium silicoaluminate",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Calcium aluminium silicate",
+      "E556",
+      "Calcium aluminosilicate",
+      "Calcium silicoaluminate",
+      "Aluminium calcium silicate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -1,16 +1,16 @@
 {
-  "totalSearchVolume": 300,
+  "totalSearchVolume": 310,
   "keywords": [
     {
       "keyword": "E962",
       "volume": 300
     },
     {
-      "keyword": "Aspartame-acesulfame",
-      "volume": 0
+      "keyword": "Aspartame-acesulfame salt",
+      "volume": 10
     },
     {
-      "keyword": "Aspartame-acesulfame salt",
+      "keyword": "Aspartame-acesulfame",
       "volume": 0
     },
     {
@@ -25,5 +25,17 @@
       "keyword": "Salt of aspartame-acesulfame",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Salt of aspartame-acesulfame",
+      "E962",
+      "Aspartame-acesulfame",
+      "Aspartame-acesulfame salt",
+      "E-962",
+      "E 962"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

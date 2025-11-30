@@ -9,5 +9,13 @@
       "keyword": "E424",
       "volume": 20
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Curdlan",
+      "E424"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

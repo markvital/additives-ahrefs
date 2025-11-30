@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 3150,
+  "totalSearchVolume": 2550,
   "keywords": [
     {
       "keyword": "Candelilla wax",
-      "volume": 3000
+      "volume": 2400
     },
     {
       "keyword": "E902",
       "volume": 150
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Candelilla wax",
+      "E902"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

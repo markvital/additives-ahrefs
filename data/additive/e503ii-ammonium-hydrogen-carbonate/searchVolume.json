@@ -1,9 +1,9 @@
 {
-  "totalSearchVolume": 4070,
+  "totalSearchVolume": 4720,
   "keywords": [
     {
       "keyword": "Ammonium bicarbonate",
-      "volume": 3200
+      "volume": 3900
     },
     {
       "keyword": "Baker's ammonia",
@@ -11,7 +11,7 @@
     },
     {
       "keyword": "Ammonium hydrogen carbonate",
-      "volume": 300
+      "volume": 250
     },
     {
       "keyword": "Sal volatile",
@@ -25,5 +25,17 @@
       "keyword": "Salt of hartshorn",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Ammonium hydrogen carbonate",
+      "E503II",
+      "Baker's ammonia",
+      "Sal volatile",
+      "Salt of hartshorn",
+      "Ammonium bicarbonate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -13,5 +13,14 @@
       "keyword": "Potassium inosinate",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Dipotassium inosinate",
+      "E632",
+      "Potassium inosinate"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

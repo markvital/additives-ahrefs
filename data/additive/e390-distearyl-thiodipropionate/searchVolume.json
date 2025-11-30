@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 30,
+  "totalSearchVolume": 40,
   "keywords": [
     {
       "keyword": "E390",
-      "volume": 20
+      "volume": 30
     },
     {
       "keyword": "Distearyl thiodipropionate",
       "volume": 10
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Distearyl thiodipropionate",
+      "E390"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

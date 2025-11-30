@@ -1,17 +1,17 @@
 {
-  "totalSearchVolume": 4990,
+  "totalSearchVolume": 5200,
   "keywords": [
     {
       "keyword": "Quillaia extract",
-      "volume": 3400
+      "volume": 3700
     },
     {
       "keyword": "Quillaia",
-      "volume": 1500
+      "volume": 1400
     },
     {
       "keyword": "E999",
-      "volume": 70
+      "volume": 80
     },
     {
       "keyword": "Panama bark extract",
@@ -33,5 +33,19 @@
       "keyword": "Quillay bark extract",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Quillaia extract",
+      "E999",
+      "Soapbark extract",
+      "Quillay bark extract",
+      "Panama bark extract",
+      "Quillai extract",
+      "Murillo bark extract",
+      "Quillaia"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -1,17 +1,26 @@
 {
-  "totalSearchVolume": 19350,
+  "totalSearchVolume": 13950,
   "keywords": [
     {
       "keyword": "Anthocyanin",
-      "volume": 11000
+      "volume": 9000
     },
     {
       "keyword": "Anthocyanins",
-      "volume": 8200
+      "volume": 4800
     },
     {
       "keyword": "E163",
       "volume": 150
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Anthocyanins",
+      "E163",
+      "Anthocyanin"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

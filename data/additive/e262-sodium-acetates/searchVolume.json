@@ -9,5 +9,13 @@
       "keyword": "Sodium acetates",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sodium acetates",
+      "E262"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 250,
+  "totalSearchVolume": 300,
   "keywords": [
     {
       "keyword": "Calcium malate",
-      "volume": 250
+      "volume": 300
     },
     {
       "keyword": "E352I",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Calcium malate",
+      "E352I"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

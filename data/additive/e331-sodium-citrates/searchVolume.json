@@ -9,5 +9,13 @@
       "keyword": "Sodium citrates",
       "volume": 20
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sodium citrates",
+      "E331"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

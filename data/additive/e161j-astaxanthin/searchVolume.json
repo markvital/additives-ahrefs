@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 70000,
+  "totalSearchVolume": 65000,
   "keywords": [
     {
       "keyword": "Astaxanthin",
-      "volume": 70000
+      "volume": 65000
     },
     {
       "keyword": "E161J",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Astaxanthin",
+      "E161J"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

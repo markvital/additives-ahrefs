@@ -9,5 +9,13 @@
       "keyword": "E333I",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Monocalcium citrate",
+      "E333I"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

@@ -1,6 +1,6 @@
 {
   "country": "us",
-  "fetchedAt": "2025-10-09T03:36:15.949Z",
+  "fetchedAt": "2025-11-30T02:42:13.058Z",
   "keywords": [
     {
       "keyword": "ammonium adipate",
@@ -11,179 +11,179 @@
       "metrics": [
         {
           "date": "2016-01-01T00:00:00Z",
-          "volume": 0
+          "volume": 64
         },
         {
           "date": "2016-02-01T00:00:00Z",
-          "volume": 76
+          "volume": 79
         },
         {
           "date": "2016-03-01T00:00:00Z",
-          "volume": 76
+          "volume": 79
         },
         {
           "date": "2016-04-01T00:00:00Z",
-          "volume": 76
+          "volume": 79
         },
         {
           "date": "2016-05-01T00:00:00Z",
-          "volume": 0
+          "volume": 64
         },
         {
           "date": "2016-06-01T00:00:00Z",
-          "volume": 0
+          "volume": 64
         },
         {
           "date": "2016-07-01T00:00:00Z",
-          "volume": 0
+          "volume": 64
         },
         {
           "date": "2016-08-01T00:00:00Z",
-          "volume": 0
+          "volume": 64
         },
         {
           "date": "2016-09-01T00:00:00Z",
-          "volume": 0
+          "volume": 64
         },
         {
           "date": "2016-10-01T00:00:00Z",
-          "volume": 0
+          "volume": 64
         },
         {
           "date": "2016-11-01T00:00:00Z",
-          "volume": 0
+          "volume": 64
         },
         {
           "date": "2016-12-01T00:00:00Z",
-          "volume": 152
+          "volume": 95
         },
         {
           "date": "2017-01-01T00:00:00Z",
-          "volume": 229
+          "volume": 110
         },
         {
           "date": "2017-02-01T00:00:00Z",
-          "volume": 533
+          "volume": 171
         },
         {
           "date": "2017-03-01T00:00:00Z",
-          "volume": 686
+          "volume": 201
         },
         {
           "date": "2017-04-01T00:00:00Z",
-          "volume": 609
+          "volume": 186
         },
         {
           "date": "2017-05-01T00:00:00Z",
-          "volume": 305
+          "volume": 125
         },
         {
           "date": "2017-06-01T00:00:00Z",
-          "volume": 76
+          "volume": 79
         },
         {
           "date": "2017-07-01T00:00:00Z",
-          "volume": 229
+          "volume": 110
         },
         {
           "date": "2017-08-01T00:00:00Z",
-          "volume": 305
+          "volume": 125
         },
         {
           "date": "2017-09-01T00:00:00Z",
-          "volume": 229
+          "volume": 110
         },
         {
           "date": "2017-10-01T00:00:00Z",
-          "volume": 153
+          "volume": 95
         },
         {
           "date": "2017-11-01T00:00:00Z",
-          "volume": 153
+          "volume": 95
         },
         {
           "date": "2017-12-01T00:00:00Z",
-          "volume": 305
+          "volume": 125
         },
         {
           "date": "2018-01-01T00:00:00Z",
-          "volume": 305
+          "volume": 125
         },
         {
           "date": "2018-02-01T00:00:00Z",
-          "volume": 305
+          "volume": 125
         },
         {
           "date": "2018-03-01T00:00:00Z",
-          "volume": 305
+          "volume": 125
         },
         {
           "date": "2018-04-01T00:00:00Z",
-          "volume": 229
+          "volume": 110
         },
         {
           "date": "2018-05-01T00:00:00Z",
-          "volume": 229
+          "volume": 110
         },
         {
           "date": "2018-06-01T00:00:00Z",
-          "volume": 153
+          "volume": 95
         },
         {
           "date": "2018-07-01T00:00:00Z",
-          "volume": 153
+          "volume": 95
         },
         {
           "date": "2018-08-01T00:00:00Z",
-          "volume": 76
+          "volume": 79
         },
         {
           "date": "2018-09-01T00:00:00Z",
-          "volume": 0
+          "volume": 64
         },
         {
           "date": "2018-10-01T00:00:00Z",
-          "volume": 0
+          "volume": 64
         },
         {
           "date": "2018-11-01T00:00:00Z",
-          "volume": 0
+          "volume": 64
         },
         {
           "date": "2018-12-01T00:00:00Z",
-          "volume": 0
+          "volume": 64
         },
         {
           "date": "2019-01-01T00:00:00Z",
-          "volume": 0
+          "volume": 64
         },
         {
           "date": "2019-02-01T00:00:00Z",
-          "volume": 0
+          "volume": 64
         },
         {
           "date": "2019-03-01T00:00:00Z",
-          "volume": 76
+          "volume": 79
         },
         {
           "date": "2019-04-01T00:00:00Z",
-          "volume": 76
+          "volume": 79
         },
         {
           "date": "2019-05-01T00:00:00Z",
-          "volume": 76
+          "volume": 79
         },
         {
           "date": "2019-06-01T00:00:00Z",
-          "volume": 229
+          "volume": 110
         },
         {
           "date": "2019-07-01T00:00:00Z",
-          "volume": 457
+          "volume": 156
         },
         {
           "date": "2019-08-01T00:00:00Z",
-          "volume": 457
+          "volume": 156
         },
         {
           "date": "2019-09-01T00:00:00Z",
@@ -467,27 +467,27 @@
         },
         {
           "date": "2025-07-01T00:00:00Z",
-          "volume": 132
+          "volume": 103
         },
         {
           "date": "2025-08-01T00:00:00Z",
-          "volume": 95
+          "volume": 100
         },
         {
           "date": "2025-09-01T00:00:00Z",
-          "volume": 45
+          "volume": 87
         },
         {
           "date": "2025-10-01T00:00:00Z",
-          "volume": 32
+          "volume": 82
         },
         {
           "date": "2025-11-01T00:00:00Z",
-          "volume": 33
+          "volume": 85
         },
         {
           "date": "2025-12-01T00:00:00Z",
-          "volume": 67
+          "volume": 85
         }
       ]
     }

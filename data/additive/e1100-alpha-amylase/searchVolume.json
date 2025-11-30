@@ -1,17 +1,17 @@
 {
-  "totalSearchVolume": 40350,
+  "totalSearchVolume": 33260,
   "keywords": [
     {
       "keyword": "amylase",
-      "volume": 40000
+      "volume": 33000
     },
     {
       "keyword": "Alpha-Amylase",
-      "volume": 300
+      "volume": 200
     },
     {
       "keyword": "E1100",
-      "volume": 40
+      "volume": 50
     },
     {
       "keyword": "E-1100",
@@ -21,5 +21,16 @@
       "keyword": "E 1100",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Alpha-Amylase",
+      "E1100",
+      "amylase",
+      "E-1100",
+      "E 1100"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

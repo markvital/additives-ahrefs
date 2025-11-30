@@ -9,5 +9,13 @@
       "keyword": "Sodium sulphates",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sodium sulphates",
+      "E514"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

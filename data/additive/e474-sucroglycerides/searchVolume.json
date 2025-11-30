@@ -13,5 +13,14 @@
       "keyword": "Sucroglycerides",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Sucroglycerides",
+      "E474",
+      "Sucroglyceride"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

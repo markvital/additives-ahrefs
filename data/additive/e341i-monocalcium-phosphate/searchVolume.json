@@ -29,5 +29,18 @@
       "keyword": "E341I",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Monocalcium phosphate",
+      "E341I",
+      "Monobasic calcium phosphate",
+      "mono-calcium phosphate",
+      "E 341i",
+      "E-341i",
+      "E341 i"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }

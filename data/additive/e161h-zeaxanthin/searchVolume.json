@@ -1,13 +1,21 @@
 {
-  "totalSearchVolume": 9400,
+  "totalSearchVolume": 8000,
   "keywords": [
     {
       "keyword": "Zeaxanthin",
-      "volume": 9400
+      "volume": 8000
     },
     {
       "keyword": "E161H",
       "volume": 0
     }
-  ]
+  ],
+  "keywordConfig": {
+    "included": [
+      "Zeaxanthin",
+      "E161H"
+    ],
+    "supplementary": [],
+    "excluded": []
+  }
 }
