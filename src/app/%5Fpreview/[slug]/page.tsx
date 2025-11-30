@@ -18,7 +18,7 @@ interface PreviewPageProps {
  * Key design decisions:
  * - Uses the existing AdditiveGrid component to ensure consistency
  * - Renders at 500px width (mobile layout)
- * - Gradient background matches hero section (#c19fff to #f5f5f5)
+ * - Gradient background matches hero section via shared CSS variable
  * - No layout/header/footer (isolated via layout.tsx)
  */
 export default async function PreviewPage({ params }: PreviewPageProps) {
@@ -41,7 +41,7 @@ export default async function PreviewPage({ params }: PreviewPageProps) {
       sx={{
         width: '100vw',
         height: '100vh',
-        background: 'linear-gradient(180deg, #c19fff 0%, #f5f5f5 100%)',
+        background: 'var(--page-hero-gradient)',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',

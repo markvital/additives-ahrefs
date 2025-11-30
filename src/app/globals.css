@@ -2,6 +2,7 @@
 
 :root {
   color-scheme: light;
+  --page-hero-gradient: linear-gradient(180deg, #9060e8 0%, #f5f5f5 100%);
 }
 
 *,
@@ -276,7 +277,7 @@ a {
   right: calc(50% - 50vw);
   top: 0;
   bottom: calc(-1 * var(--page-hero-gradient-extension, 50px));
-  background: linear-gradient(180deg,#9060e8 0%, #f5f5f5 100%);
+  background: var(--page-hero-gradient);
   z-index: -1;
 }
 
